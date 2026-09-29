@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "confirm": "Bevestigen",
+    "save": "Opslaan",
+    "search": "Zoeken",
+    "select": "Selecteren"
+  },
+  "help": {
+    "toggle": "Help",
+    "close": "Help sluiten"
+  },
+  "state": {
+    "empty": "Er zijn geen items om weer te geven.",
+    "error": "Er is een fout opgetreden.",
+    "loading": "Bezig met laden…",
+    "noResults": "Geen resultaten gevonden."
+  },
+  "time": {
+    "justNow": "Zojuist"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Binnenkort",
+      "full": "Volledige kalender",
+      "empty": "{days, plural, one {Er zijn geen evenementen in de komende {days, number} dag} other {Er zijn geen evenementen in de komende {days, number} dagen}}",
+      "error": "Evenementen konden niet worden geladen",
+      "today": "Vandaag",
+      "allDay": "Hele dag"
+    },
+    "type": {
+      "meeting": "Les",
+      "exam": "Examen",
+      "assignment": "Opdracht",
+      "term": "Semesterperiode",
+      "event": "Evenement",
+      "personal": "Persoonlijk"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Er is een fout opgetreden op deze pagina",
+      "body": "Het spijt ons — er is iets misgegaan. Deze fout is automatisch vastgelegd. Je kunt teruggaan naar de startpagina of de pagina opnieuw laden.",
+      "home": "Terug naar de startpagina",
+      "reload": "Opnieuw laden"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Terug naar de vorige pagina",
+    "body": "Het gezochte adres bestaat niet of is verplaatst. Je kunt teruggaan naar de vorige pagina of de startpagina.",
+    "home": "Terug naar de startpagina",
+    "programs": "Opleidingen bekijken",
+    "screenLabel": "404 · Niet gevonden",
+    "search": "Zoeken",
+    "title": "Pagina niet gevonden"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Bedankt dat je dit met me hebt gedeeld. Ik weet dat het niet gemakkelijk was om erover te praten, en je staat er niet alleen voor. Wat je voelt is echt en belangrijk, en je verdient directe steun van een mens. Bel nu de Hoop-hulplijn op 1480; er is iemand die met medeleven naar je luistert.",
+      "tipHelpline": "Bel direct de Hoop-hulplijn: 1480 (dag en nacht en vertrouwelijk)",
+      "tipEmergency": "Bel bij direct gevaar de medische hulpdienst op 115",
+      "tipCompany": "Blijf nu, als dat kan, bij iemand die je vertrouwt"
+    }
+  }
+}

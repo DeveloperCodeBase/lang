@@ -1,0 +1,182 @@
+{
+  "agent": {
+    "chatButton": "Discuter de ce cours",
+    "desc": "Assistant IA expert dans ce domaine — la discussion commence avec le contexte de ce cours. L'accès à cet assistant dépend de votre forfait ; s'il est verrouillé, le parcours de mise à niveau s'affiche.",
+    "title": "Assistant spécialisé de la discipline",
+    "tutorButton": "Question rapide au tuteur"
+  },
+  "assess": {
+    "action": {
+      "enterExam": "Entrer dans la salle d'examen",
+      "startQuiz": "Commencer le quiz",
+      "viewAssignment": "Voir le devoir"
+    },
+    "due": "Échéance : {date}",
+    "empty": {
+      "assignment": "Aucun devoir n'a encore été publié pour ce cours.",
+      "exam": "Aucun examen n'a encore été publié pour ce cours."
+    },
+    "kind": {
+      "assignment": "Devoir",
+      "exam": "Examen",
+      "quiz": "Quiz"
+    },
+    "points": "{n, number} point",
+    "questions": "{n, number} question",
+    "tools": {
+      "builder": "Créateur d'examens",
+      "gradingQueue": "File d'attente de notation",
+      "itemAnalysis": "Analyse des questions",
+      "questionBank": "Banque de questions"
+    }
+  },
+  "assessStatus": {
+    "closed": "Fermé",
+    "draft": "Brouillon",
+    "published": "Ouvert"
+  },
+  "attendance": {
+    "atRisk": "⚠ Groupe {group, number} : {count, number} étudiant proche de la limite d'absences autorisée — la décision finale vous appartient.",
+    "empty": "Aucune présence n'a encore été enregistrée pour ce cours.",
+    "late": "{n, number} retard",
+    "myDetails": "Détails de ma présence",
+    "noneAtRisk": "Dans vos {n, number} groupes de ce cours, aucun étudiant n'approche de la limite d'absences.",
+    "overThreshold": "⚠ Vos absences dépassent la limite réglementaire autorisée — le statut final sera déterminé par l'enseignant ou la commission.",
+    "present": "{n, number} présent",
+    "recordButton": "Enregistrer les présences",
+    "sessions": "{n, number} séance enregistrée",
+    "unexcused": "{n, number} absence non justifiée"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "title": "Connectez-vous pour voir ce cours"
+  },
+  "common": {
+    "error": "Erreur",
+    "group": "Groupe {n, number}",
+    "loading": "Chargement…"
+  },
+  "enrol": {
+    "busy": "Inscription en cours...",
+    "button": "S'inscrire à ce cours",
+    "error": {
+      "title": "Échec de l'inscription"
+    },
+    "toast": {
+      "title": "Inscription réussie"
+    }
+  },
+  "files": {
+    "attachmentFallback": "Pièce jointe",
+    "content": {
+      "empty": "Aucun fichier ou polycopié n'est disponible dans le contenu de ce cours.",
+      "title": "Fichiers et polycopiés du cours"
+    },
+    "group": {
+      "empty": "Aucun fichier n'a encore été partagé dans le groupe ou le canal de ce cours.",
+      "title": "Fichiers partagés dans les groupes de ce cours"
+    },
+    "kind": {
+      "file": "Fichier",
+      "image": "Image",
+      "link": "Lien",
+      "video": "Vidéo"
+    },
+    "loadMore": "Charger plus",
+    "open": "Ouvrir ↗"
+  },
+  "grades": {
+    "mine": {
+      "average": "Moyenne : {avg, number} sur 100",
+      "empty": "Aucune note n'a encore été enregistrée pour les examens ou les devoirs de ce cours ; elles s'afficheront ici après correction par l'enseignant.",
+      "title": "Notes des examens et devoirs de ce cours"
+    },
+    "official": {
+      "details": "Détails et réclamation",
+      "title": "Note officielle (relevé de notes)"
+    },
+    "sheetStatus": {
+      "announced": "Publiée",
+      "finalized": "Définitive"
+    },
+    "tools": {
+      "gradebook": "Carnet de notes de ce cours",
+      "gradingQueue": "File d'attente de correction",
+      "submission": "Flux officiel des notes"
+    }
+  },
+  "group": {
+    "announcementsChannel": "Canal d'annonces du cours",
+    "create": {
+      "toast": {
+        "title": "Groupe de cours créé"
+      }
+    },
+    "createButton": "Créer un groupe + canal de cours",
+    "empty": {
+      "staff": "Aucun groupe de ce cours ne vous a été assigné.",
+      "student": "Vous n'avez pas d'inscription active dans la section de ce cours."
+    },
+    "notProvisioned": "L'espace de discussion de ce groupe n'a pas encore été créé.",
+    "openGroup": "Ouvrir le groupe du cours",
+    "studentNotProvisioned": "L'enseignant n'a pas encore créé le groupe de discussion de ce cours."
+  },
+  "help": {
+    "body": "Toutes les sections de ce cours — contenu, sessions, devoirs, examens, notes, présence, fichiers, groupe de classe et assistant de filière — sont accessibles depuis les onglets de cette page.",
+    "title": "Guide du hub du cours"
+  },
+  "missing": {
+    "body": "L'identifiant du cours n'est pas spécifié.",
+    "catalog": "Aller au catalogue",
+    "title": "Cours"
+  },
+  "overview": {
+    "credits": "{n, number} crédit",
+    "enrolled": "Inscrit",
+    "fullView": "Vue complète de la présentation et des sessions"
+  },
+  "page": {
+    "screenLabel": "Hub du cours"
+  },
+  "recStatus": {
+    "failed": "Échoué",
+    "processing": "En cours de traitement",
+    "ready": "Prêt"
+  },
+  "sessionStatus": {
+    "cancelled": "Annulé",
+    "ended": "Terminé",
+    "live": "En direct",
+    "scheduled": "Prévu"
+  },
+  "sessions": {
+    "count": "{n, plural, =1 {# session} one {# session} many {# sessions} other {# sessions}}",
+    "empty": "Aucune session n'a encore été planifiée pour ce cours.",
+    "join": {
+      "error": {
+        "title": "Échec de la connexion"
+      },
+      "toast": {
+        "msg": "Votre présence a été enregistrée.",
+        "title": "Rejoindre le cours"
+      }
+    },
+    "joinButton": "Rejoindre le cours",
+    "recordingStatus": "Enregistrement : {status}",
+    "recordingsArchive": "Archives des enregistrements",
+    "report": "Rapport de session"
+  },
+  "tabs": {
+    "agent": "Assistant de filière",
+    "ariaLabel": "Sections du cours",
+    "assignments": "Devoirs",
+    "attendance": "Présence",
+    "content": "Contenu",
+    "exams": "Examens",
+    "files": "Fichiers et documents",
+    "grades": "Notes",
+    "group": "Groupe de cours",
+    "overview": "Vue d'ensemble",
+    "sessions": "Sessions et enregistrements"
+  }
+}

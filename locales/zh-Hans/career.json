@@ -1,0 +1,141 @@
+{
+  "actions": {
+    "postJob": "+ 发布职位"
+  },
+  "appStatus": {
+    "accepted": "已接受",
+    "applied": "已申请",
+    "rejected": "已拒绝",
+    "reviewing": "审核中"
+  },
+  "applicants": {
+    "closeButton": "关闭",
+    "empty": "暂无人员申请该职位。",
+    "eyebrow": "职位申请者",
+    "loading": "正在加载申请者…",
+    "statusLabel": "状态："
+  },
+  "apply": {
+    "counter": "{current, number} / {max, number} 个字符",
+    "employerPage": "雇主招聘页面 ↗",
+    "eyebrow": "提交申请",
+    "noteLabel": "附言（可选）",
+    "notePlaceholder": "为什么适合这个职位？请简要说明您的技能和动机…",
+    "submit": "提交申请",
+    "submitting": "正在提交…"
+  },
+  "closeJob": {
+    "closing": "正在关闭…",
+    "confirm": "确定要关闭“{title}”吗？关闭后，该职位将不再对学生显示，也将不再接受新的申请。",
+    "submit": "是的，关闭",
+    "title": "关闭职位"
+  },
+  "common": {
+    "cancel": "取消",
+    "close": "关闭",
+    "saving": "正在保存…"
+  },
+  "cv": {
+    "completePercent": "已完成 {percent, number}%",
+    "createButton": "创建简历",
+    "defaultHolder": "用户",
+    "editButton": "编辑简历",
+    "empty": "您尚未创建简历。请点击“创建简历”开始，以便雇主更好地了解您。",
+    "loading": "正在加载简历…",
+    "title": "我的简历"
+  },
+  "cvEditor": {
+    "createTitle": "创建简历",
+    "editTitle": "编辑简历",
+    "educationOrgPlaceholder": "大学 / 机构",
+    "educationTitle": "教育背景",
+    "educationTitlePlaceholder": "学位 / 专业",
+    "experienceOrgPlaceholder": "公司 / 组织",
+    "experienceTitle": "工作 / 实习经历",
+    "experienceTitlePlaceholder": "职位 / 称谓",
+    "headlineLabel": "专业头衔 (Headline)",
+    "headlinePlaceholder": "例如：软件工程专业学生 · 热爱前端开发",
+    "save": "保存简历",
+    "skillsLabel": "技能（请用逗号分隔）",
+    "skillsPlaceholder": "React, TypeScript, Git, 团队协作",
+    "summaryLabel": "关于我",
+    "summaryPlaceholder": "简述您的个人情况、目标和优势……"
+  },
+  "entry": {
+    "add": "+ 添加",
+    "detailPlaceholder": "说明（可选）",
+    "empty": "暂无添加项。",
+    "periodPlaceholder": "时间段（例如：2023至2024年）",
+    "remove": "删除",
+    "removeLabel": "删除此项"
+  },
+  "errors": {
+    "generic": "发生错误"
+  },
+  "help": {
+    "body": "在此页面中，您可以查看开放的职位空缺，并按合作类型或关键词进行筛选。点击任意职位的“申请”即可投递；您的所有申请状态都会在“我的申请”板块中显示。请在“我的简历”卡片中完善您的简历。",
+    "manager": "作为职业服务管理员，您可以通过“发布职位”来发布新公告、对其进行编辑或关闭，并可查看各职位的“申请人”以及更新他们的状态。",
+    "title": "职业服务指南"
+  },
+  "jobForm": {
+    "applyUrlLabel": "雇主招聘链接（可选）",
+    "companyLabel": "公司 / 机构",
+    "createTitle": "发布职位",
+    "descriptionLabel": "职位描述",
+    "descriptionPlaceholder": "工作职责、所需技能及条件……",
+    "editTitle": "编辑职位",
+    "errors": {
+      "company": "请输入公司 / 机构名称。",
+      "description": "请输入职位描述（至少 {min, number} 个字符）。",
+      "title": "请输入职位标题（至少 {min, number} 个字符）。"
+    },
+    "locationLabel": "工作地点",
+    "locationPlaceholder": "北京 / 远程",
+    "publish": "发布职位",
+    "saveChanges": "保存更改",
+    "tagLabel": "标签（可选）",
+    "tagPlaceholder": "React / 数据 / 设计",
+    "titleLabel": "职位标题",
+    "titlePlaceholder": "例如：前端开发实习生",
+    "typeLabel": "合作类型"
+  },
+  "jobs": {
+    "applicants": "申请人",
+    "applied": "✓ 已申请",
+    "apply": "申请",
+    "clearSearch": "清除",
+    "close": "关闭",
+    "closed": "已关闭",
+    "closedBadge": "已关闭",
+    "edit": "编辑",
+    "empty": "没有找到符合这些筛选条件的职位。",
+    "loading": "正在加载职位…",
+    "resetFilters": "重置筛选条件",
+    "retry": "重试",
+    "searchLabel": "搜索职位",
+    "searchPlaceholder": "搜索职位名称、公司或技能…",
+    "title": "职位机会",
+    "typeFilterLabel": "合作类型"
+  },
+  "myApps": {
+    "empty": "您尚未申请任何职位。",
+    "loading": "正在加载…",
+    "title": "我的申请"
+  },
+  "page": {
+    "eyebrow": "学生服务 · 求职招聘",
+    "lead": "搜索实习与招聘机会，制作简历并直接投递；随时随地在此跟踪您的申请状态。",
+    "title": "职业服务"
+  },
+  "stats": {
+    "myApplications": "{count, plural, other {# 个我的申请}}",
+    "openJobs": "{count, plural, other {# 个开放职位}}"
+  },
+  "type": {
+    "all": "全部",
+    "contract": "合同制",
+    "full_time": "全职",
+    "internship": "实习",
+    "part_time": "兼职"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "new": {
+    "eyebrow": "Centre de services",
+    "title": "Nouvelle demande",
+    "back": "Retour",
+    "empty": "Aucun type de demande n'a été défini.",
+    "loadError": "Impossible de charger la liste des types de demandes.",
+    "searchLabel": "Rechercher un type de demande",
+    "searchPlaceholder": "Ex. : prolongation de scolarité, attestation, cité universitaire…",
+    "noResults": "Aucun type de demande ne correspond à cette recherche.",
+    "externalBadge": "Système externe",
+    "externalHint": "Cette demande est traitée dans le système externe (Sajad).",
+    "externalContinue": "Continuer sur le système externe ↗",
+    "chooseAnother": "Choisir un autre type",
+    "sectionPlaceholder": "Sélectionner un cours…",
+    "sectionsLoading": "Chargement de la liste des cours…",
+    "sectionsError": "Impossible de charger la liste des cours. Les données de votre formulaire ont été conservées.",
+    "submit": "Enregistrer et envoyer",
+    "backToTypes": "Retour au choix du type",
+    "saveDraft": "Enregistrer le brouillon",
+    "draftHint": "Vous pouvez enregistrer le formulaire non terminé et le compléter et l'envoyer plus tard depuis « Mes demandes »."
+  },
+  "detail": {
+    "submit": "Envoyer",
+    "resubmit": "Corriger et renvoyer",
+    "cancel": "Annuler la demande",
+    "edit": {
+      "title": "Modifier le formulaire de demande",
+      "hintReturned": "Cette demande vous a été renvoyée pour correction. Modifiez les champs, puis cliquez sur « Corriger et renvoyer ».",
+      "hintDraft": "Cette demande n'a pas encore été envoyée. Vous pouvez compléter et enregistrer le formulaire pour l'envoyer plus tard.",
+      "selectPlaceholder": "Sélectionner…",
+      "save": "Enregistrer les modifications",
+      "saved": "Modifications enregistrées",
+      "savedSectionUnavailable": "Cours enregistré ; n'est actuellement pas inscrit dans la liste"
+    },
+    "decision": {
+      "EDIT": "Modifier le formulaire",
+      "SUBMIT": "Soumettre la demande",
+      "APPROVE": "Approuver",
+      "REJECT": "Rejeter",
+      "REFER": "Renvoyer pour correction",
+      "RESUBMIT": "Renvoyer",
+      "CANCEL": "Annuler",
+      "AUTO": "Action automatique",
+      "SKIP": "Ignorer l'étape automatiquement",
+      "INFORM": "Informer"
+    }
+  },
+  "errors": {
+    "generic": "Une erreur s'est produite",
+    "requiredField": "Le champ «{field}» est obligatoire.",
+    "decisionNoteRequired": "Une note explicative est requise pour un rejet ou un renvoi."
+  },
+  "viewer": {
+    "serviceDeskLabel": "Guichet de services",
+    "pageTitle": "Détails de la demande",
+    "backToInbox": "Retour à la boîte de réception",
+    "issuancePending": "La demande a été approuvée et l'émission du certificat est en cours. Une fois le document enregistré, le numéro et le lien de vérification s'afficheront.",
+    "verifyPhoneFirst": "L'émission est en attente de la validation du numéro de téléphone du titulaire du certificat. Veuillez valider le numéro dans les paramètres du compte ; la tentative d'émission automatique sera réitérée.",
+    "issuanceRetry": "L'émission n'est pas encore terminée. Le système va réessayer ; il n'est pas nécessaire de soumettre une nouvelle demande ou de valider à nouveau.",
+    "refreshIssuance": "Actualiser le statut d'émission",
+    "submittedByStudent": "Soumis par l'étudiant",
+    "workflow": "Flux de travail",
+    "form": "Informations de la demande",
+    "result": "Résultat",
+    "certificateNo": "Numéro de certificat :",
+    "verifyCertificate": "Vérifier le certificat",
+    "legacyCertificate": "Ce numéro a été enregistré dans l'ancien format de demande et n'est pas relié à un document vérifiable. Veuillez contacter le responsable des services pédagogiques pour obtenir le certificat officiel.",
+    "dropped": "Le cours a été supprimé avec succès.",
+    "completed": "Terminé",
+    "history": "Historique des actions",
+    "yourAction": "Votre action",
+    "decisionNote": "Note de décision",
+    "notePlaceholder": "Note (facultative pour l'approbation, obligatoire pour le rejet/renvoi)",
+    "stepKinds": {
+      "approval": "Approbation humaine",
+      "inform": "Notification"
+    },
+    "skipReasons": {
+      "condition_not_matched": "La condition de l'étape n'était pas remplie"
+    },
+    "informRecipients": "{count, plural, =0 {Enregistré pour aucun destinataire} one {Enregistré pour un destinataire} many {Enregistré pour # destinataires} other {Enregistré pour # destinataires}}",
+    "terminalDefault": "Action finale",
+    "terminal": {
+      "issue_certificate": "Émettre le certificat",
+      "emergency_drop": "Supprimer le cours",
+      "register_course": "Inscrire au cours"
+    },
+    "roles": {
+      "faculty_admin": "Gestionnaire/Administrateur de faculté",
+      "admin": "Administrateur système",
+      "super_admin": "Super-administrateur",
+      "instructor": "Enseignant",
+      "ta": "Assistant pédagogique"
+    },
+    "status": {
+      "DRAFT": "Brouillon",
+      "IN_PROGRESS": "En cours",
+      "FULFILLING": "En attente d'émission du certificat",
+      "RETURNED": "Renvoyé pour correction",
+      "COMPLETED": "Terminé",
+      "REJECTED": "Rejeté",
+      "CANCELED": "Annulé"
+    }
+  },
+  "inbox": {
+    "eyebrow": "Services éducatifs",
+    "new": "+ Nouvelle demande",
+    "helpTitle": "Guide du guichet",
+    "help": "Votre demande est examinée étape par étape par les responsables. Ouvrez chaque demande pour en voir le statut et l'historique. Vous pouvez modifier et renvoyer une demande renvoyée.",
+    "mine": "Mes demandes",
+    "pending": "En attente de mon approbation",
+    "loading": "Chargement...",
+    "loadError": "Impossible de charger la liste des demandes.",
+    "retry": "Réessayer",
+    "continueScan": "Aucune demande virtuelle n'a été trouvée dans cette section. Pour continuer à vérifier la file d'attente, cliquez sur Afficher la suite.",
+    "emptyPending": "Aucune demande n'attend votre approbation.",
+    "emptyMine": "Vous n'avez pas encore soumis de demande.",
+    "step": "Étape",
+    "viewAction": "Afficher et agir",
+    "waiting": "En attente",
+    "more": "Afficher la suite de la liste"
+  }
+}

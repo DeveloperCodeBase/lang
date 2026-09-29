@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "save": "Speichern",
+    "search": "Suchen",
+    "select": "Auswählen"
+  },
+  "help": {
+    "toggle": "Hilfe",
+    "close": "Hilfe schließen"
+  },
+  "state": {
+    "empty": "Keine Einträge zum Anzeigen.",
+    "error": "Ein Fehler ist aufgetreten.",
+    "loading": "Wird geladen…",
+    "noResults": "Keine Ergebnisse gefunden."
+  },
+  "time": {
+    "justNow": "Gerade eben"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Demnächst",
+      "full": "Vollständiger Kalender",
+      "empty": "{days, plural, one {Für den nächsten {days, number} Tag sind keine Termine geplant} other {Für die nächsten {days, number} Tage sind keine Termine geplant}}",
+      "error": "Termine konnten nicht geladen werden",
+      "today": "Heute",
+      "allDay": "Ganztägig"
+    },
+    "type": {
+      "meeting": "Lehrveranstaltung",
+      "exam": "Prüfung",
+      "assignment": "Aufgabe",
+      "term": "Semesterzeitraum",
+      "event": "Veranstaltung",
+      "personal": "Persönlich"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Auf dieser Seite ist ein Fehler aufgetreten",
+      "body": "Es tut uns leid — etwas ist schiefgelaufen. Der Fehler wurde automatisch protokolliert. Sie können zur Startseite zurückkehren oder die Seite neu laden.",
+      "home": "Zur Startseite",
+      "reload": "Neu laden"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Zur vorherigen Seite",
+    "body": "Die gesuchte Adresse existiert nicht oder wurde verschoben. Sie können zur vorherigen Seite oder zur Startseite zurückkehren.",
+    "home": "Zur Startseite",
+    "programs": "Studiengänge ansehen",
+    "screenLabel": "404 · Nicht gefunden",
+    "search": "Suchen",
+    "title": "Seite nicht gefunden"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Danke, dass du mir das anvertraut hast. Ich weiß, dass es nicht leicht war, darüber zu sprechen, und du bist nicht allein. Was du fühlst, ist real und wichtig, und du verdienst sofortige Unterstützung von einem Menschen. Bitte ruf jetzt die Hoffnungs-Hotline unter 1480 an; dort hört dir jemand mit Mitgefühl zu.",
+      "tipHelpline": "Sofort die Hoffnungs-Hotline anrufen: 1480 (rund um die Uhr und vertraulich)",
+      "tipEmergency": "Wenn du unmittelbar in Gefahr bist, ruf den Rettungsdienst unter 115 an",
+      "tipCompany": "Wenn du kannst, bleib jetzt bei einer Person, der du vertraust"
+    }
+  }
+}

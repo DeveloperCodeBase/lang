@@ -1,0 +1,389 @@
+{
+  "wallet": {
+    "eyebrow": "财务 · 钱包",
+    "title": "我的钱包",
+    "lead": "查看和充值您的余额，并跟踪交易历史。",
+    "loading": "正在加载钱包…",
+    "unavailable": "钱包不可用。",
+    "help": {
+      "title": "钱包帮助",
+      "body": "您的钱包余额可在整个平台中使用（包括支付学费）。“充值”会将您带到支付网关，支付成功后，金额将立即添加到钱包中。"
+    },
+    "topupResult": {
+      "success": "钱包充值成功。",
+      "failed": "充值失败；如果金额已被扣除，将会退回。"
+    },
+    "error": {
+      "load": "加载钱包出错。",
+      "topupAmount": "请输入充值金额（正数，里亚尔）。",
+      "topupStart": "启动支付出错。",
+      "topup": "充值出错。",
+      "withdrawAmount": "请输入提现金额（里亚尔）。",
+      "withdraw": "提交提现申请出错。"
+    },
+    "balance": {
+      "label": "当前余额",
+      "blocked": "钱包已被冻结。"
+    },
+    "topup": {
+      "title": "充值",
+      "placeholder": "自定义金额（里亚尔）",
+      "aria": "充值金额（里亚尔）",
+      "submit": "充值",
+      "busy": "正在跳转至网关…"
+    },
+    "withdraw": {
+      "title": "提现至银行账户",
+      "note": "申请金额将立即从您的钱包中预扣，并在经财务主管确认后汇入您的账户。",
+      "ok": "提现申请已提交且金额已预扣；经财务确认后将进行汇款。",
+      "amountPlaceholder": "金额（里亚尔）",
+      "amountAria": "提现金额（里亚尔）",
+      "ibanPlaceholder": "谢巴账号 (IR…)",
+      "ibanAria": "谢巴账号",
+      "holderPlaceholder": "账户持有人姓名",
+      "holderAria": "账户持有人姓名",
+      "submit": "申请提现",
+      "busy": "正在提交…",
+      "col": {
+        "amount": "金额",
+        "iban": "谢巴",
+        "status": "状态",
+        "date": "日期"
+      }
+    },
+    "history": {
+      "title": "交易历史",
+      "empty": "尚未记录任何交易。",
+      "col": {
+        "kind": "类型",
+        "amount": "金飝",
+        "date": "日期"
+      }
+    },
+    "receipt": {
+      "open": "收据",
+      "title": "钱包收据",
+      "footer": "本收据由系统自动生成。",
+      "close": "关闭",
+      "print": "打印 / PDF",
+      "row": {
+        "kind": "类型",
+        "amount": "金飝",
+        "reason": "说明",
+        "date": "日期",
+        "txnId": "交易 ID",
+        "withdrawalKind": "提现至银行账户",
+        "iban": "国际银行账号 (IBAN)",
+        "holder": "账户所有者",
+        "status": "状态",
+        "bankTrace": "银行跟踪码",
+        "id": "编号"
+      }
+    },
+    "kind": {
+      "topup": "充值",
+      "pay_tuition": "支付学费",
+      "pay_subscription": "支付订阅",
+      "manual_credit": "手工入账",
+      "manual_adjust": "手工调整",
+      "refund_in": "退款",
+      "scholarship_in": "奖学金",
+      "withdrawal_hold": "提现冻结",
+      "withdrawal_refund": "提现退回",
+      "market_purchase": "课程购买（知识市场）",
+      "market_refund": "课程购买退款"
+    },
+    "withdrawStatus": {
+      "requested": "筅待审批",
+      "approved": "已批准",
+      "paid": "已付款",
+      "rejected": "已驳回",
+      "failed": "失败"
+    }
+  },
+  "tuition": {
+    "eyebrow": "财务",
+    "title": "学费与支付",
+    "loading": "正在加载…",
+    "genericError": "出现错误",
+    "nav": {
+      "loans": "学生贷款",
+      "aid": "奖学金",
+      "refund": "退款",
+      "clearance": "结算"
+    },
+    "result": {
+      "success": "支付成功记录。",
+      "failed": "支付未完成或已取消。"
+    },
+    "help": {
+      "title": "学费指南",
+      "body": "学费 = “固定学费”（选课网关的基础） + “变动学费”（学分数量 × 每学分费率） − 折扣/奖学金。在支付固定学费之前，选课功能处于锁定状态。您可以支付全部余额或分期支付。在测试模式下，支付网关为“示例”，非真实交易。"
+    },
+    "empty": {
+      "noTerm": "没有用于计算学费的活动学期。",
+      "noTariff": "尚未为您所在的学段设置学费标准，请联系财务部门。"
+    },
+    "gate": {
+      "open": "✅ 固定学费已支付 — 选课已开放。",
+      "goRegistration": "前往选课",
+      "locked": "⚠️ 固定学费 ({amount}) 尚未支付 — 选课已锁定。"
+    },
+    "breakdown": {
+      "title": "学费明细",
+      "fixed": "固定学费",
+      "variable": "变动学费 ({credits, plural, other {# 学分}} × {rate})",
+      "discount": "折扣 / 奖学金",
+      "total": "总计",
+      "paid": "已支付",
+      "remaining": "剩余应付"
+    },
+    "courses": {
+      "title": "变动学费计算课程",
+      "col": {
+        "code": "代码",
+        "title": "名称",
+        "credits": "学分"
+      }
+    },
+    "pay": {
+      "title": "支付",
+      "remaining": "剩余应付",
+      "mockGateway": "测试网关“示例”",
+      "settled": "已结清",
+      "payRemaining": "支付剩余金额 ({amount})"
+    },
+    "installments": {
+      "title": "分期付款",
+      "pay": "支付",
+      "col": {
+        "seq": "期数",
+        "amount": "金额",
+        "due": "到期日",
+        "status": "状态",
+        "actions": "操作"
+      }
+    },
+    "history": {
+      "title": "支付历史",
+      "col": {
+        "date": "日期",
+        "amount": "金额",
+        "method": "方式",
+        "status": "状态"
+      }
+    },
+    "provider": {
+      "mock": "示例"
+    },
+    "billStatus": {
+      "UNPAID": "未支付",
+      "PARTIAL": "部分支付",
+      "PAID": "已结清"
+    },
+    "payStatus": {
+      "PENDING": "等待中",
+      "PAID": "成功",
+      "FAILED": "失败",
+      "CANCELED": "已取消"
+    },
+    "instStatus": {
+      "PENDING": "等待中",
+      "PAID": "已支付",
+      "OVERDUE": "逾期"
+    }
+  },
+  "checkout": {
+    "guest": {
+      "title": "请登录以继续",
+      "body": "请登录您的账户以购买或更改订阅；登录后将保留您所选的套餐。",
+      "cta": "登录 / 注册"
+    },
+    "back": "→ 返回套餐列表",
+    "loading": "加载中…",
+    "notFound": "未找到套餐。",
+    "error": {
+      "load": "加载套餐信息失败。",
+      "checkout": "发起支付失败。",
+      "cancel": "取消订阅失败。"
+    },
+    "rel": {
+      "none": "购买订阅",
+      "same": "您的当前套餐",
+      "upgrade": "升级套餐",
+      "downgrade": "降级套餐",
+      "lateral": "更改套餐"
+    },
+    "currentPlanLabel": "您的当前套餐：",
+    "quota": "AI 消息额度：每月 {count, plural, other {# 条消息}}",
+    "period": {
+      "aria": "支付周期",
+      "month": "按月",
+      "year": "按年（免 2 个月）"
+    },
+    "amount": {
+      "noPayment": "无需支付",
+      "free": "免费"
+    },
+    "suffix": {
+      "proration": "（差额）",
+      "year": "/ 年",
+      "month": "/ 月"
+    },
+    "creditNote": "当前套餐未使用天对应的金额 {amount} 将退还至您的钱包。",
+    "prorationNote": "仅计算了距离当前周期结束剩余天数的差额。",
+    "payFrom": {
+      "label": "支付方式",
+      "wallet": "钱包",
+      "walletWithBalance": "钱包（{balance}）",
+      "insufficient": "钱包余额不足",
+      "gateway": "支付网关"
+    },
+    "mockNote": "“示例”测试网关 — 真实支付将在网关连接后激活",
+    "action": {
+      "busy": "正在处理…",
+      "free": "免费激活",
+      "downgrade": "确认降级并获取额度",
+      "renew": "续订订阅",
+      "wallet": "使用钱包支付并激活",
+      "gateway": "支付并激活订阅"
+    },
+    "cancel": {
+      "button": "取消订阅",
+      "title": "取消订阅",
+      "body": "您的当前订阅将被取消，并将恢复至免费方案。",
+      "confirm": "取消订阅",
+      "dismiss": "放弃",
+      "done": "您的订阅已取消。"
+    }
+  },
+  "orgInvoice": {
+    "eyebrow": "企业账单",
+    "title": "组织发票",
+    "lead": "企业培训发票：开具、到期跟踪以及通过财务部门确认进行结算。",
+    "help": {
+      "title": "此页面有什么用？",
+      "body": "您开具发票，组织汇款并在此处提交“结算请求”。在财务部门确认汇款之前，发票不会显示为“已结算”；只有财务确认后才会生成总账凭证。"
+    },
+    "status": {
+      "DUE": "到期",
+      "PENDING_MANUAL": "等待财务确认",
+      "PAID": "已结算",
+      "OVERDUE": "逾期"
+    },
+    "kpi": {
+      "filteredNote": "状态筛选已启用；仅相应状态的卡片显示数值，其余保持“—”，因为筛选后的列表并非其他状态的统计来源。",
+      "total": "总金额"
+    },
+    "search": {
+      "aria": "搜索发票",
+      "placeholder": "发票编号或标题…"
+    },
+    "filter": {
+      "aria": "状态筛选",
+      "all": "全部"
+    },
+    "action": {
+      "new": "新发票",
+      "requestSettlement": "提交结算请求",
+      "confirm": "确认结算",
+      "reject": "拒绝请求",
+      "details": "详情",
+      "print": "打印 / 导出 PDF",
+      "close": "关闭"
+    },
+    "table": {
+      "number": "编号",
+      "title": "标题",
+      "amount": "金额",
+      "status": "状态",
+      "dueDate": "到期日",
+      "actions": "操作"
+    },
+    "state": {
+      "loading": "正在加载…",
+      "emptyFiltered": "未找到符合该筛选条件的发票。",
+      "empty": "尚未开具发票。"
+    },
+    "detail": {
+      "aria": "发票 {number} 详情",
+      "heading": "发票 {number}",
+      "issuedDate": "开票日期",
+      "dueDate": "到期日",
+      "requestedAt": "结算申请日期",
+      "paidDate": "结清日期",
+      "settlementRef": "汇款单号",
+      "ledgerTxn": "总账分录标识符",
+      "settlementNote": "说明",
+      "amount": "应付金额"
+    },
+    "print": {
+      "paidNote": "此发票已结清，且其对应分录已记入总账。",
+      "pendingNote": "此发票的结算申请已提交，但财务部门尚未批准；本单据并非付款收据。",
+      "dueNote": "此发票尚未结清；本单据并非付款收据。"
+    },
+    "settle": {
+      "requestTitle": "提交结算申请",
+      "requestBody": "此操作将把金额为 {amount} 的发票 {number} 提交至财务部门审核队列。当前不会发生资金划转；结算将在财务批准后记账。",
+      "requestSubmit": "提交申请",
+      "confirmTitle": "确认结算",
+      "confirmBody": "确认后，金额为 {amount} 的发票 {number} 将被记录为已结清，并生成平衡的总账分录。此操作不可撤销。",
+      "confirmSubmit": "确认并记账",
+      "rejectTitle": "拒绝结算申请",
+      "rejectBody": "发票 {number} 将恢复至到期状态，且您填写的拒绝原因将记录给机构。",
+      "rejectSubmit": "拒绝申请",
+      "refLabel": "汇款单号或收据编号（可选）",
+      "refPlaceholder": "例如银行交易流水号",
+      "noteLabel": "说明（可选）",
+      "reasonLabel": "拒绝原因",
+      "reasonRequired": "拒绝申请必须填写原因。",
+      "busy": "正在提交…",
+      "cancel": "取消",
+      "awaitingFinance": "结算申请已提交，正等待财务部门审核。"
+    },
+    "new": {
+      "title": "新发票",
+      "number": "发票号",
+      "numberPlaceholder": "INV-1404-001",
+      "titleLabel": "标题",
+      "titlePlaceholder": "企业培训课程…",
+      "amount": "金飝 (雅利尔)",
+      "issued": "开票日期",
+      "issuedAria": "选择开票日期",
+      "due": "到期日",
+      "dueAria": "选择到期日",
+      "submit": "开具发票",
+      "submitting": "正在提交..."
+    },
+    "error": {
+      "load": "加载发票失败。",
+      "create": "开票失败。",
+      "settle": "记录结算操作失败。"
+    }
+  },
+  "orgSeats": {
+    "lead": {
+      "withCap": "组织许可证席位管理 — 您可以从购买的总共 {cap} 个席位中查看已使用和剩余的席位数量。在分配列表中，您可以为任何成员分配或收回席位。",
+      "noCap": "组织许可证席位管理 — 该组织的合同上限尚未设置，因此不会显示“总数”和“助理/剩余”数值。您可以查看已分配的席位数，并为任何成员分配或收回席位。"
+    },
+    "capUnsetNote": "该组织的席位上限尚未设置。在财务部门设置合同上限之前，“总席位数”、“剩余”和“使用率”将不显示数值 — 我们不会显示虚构的数字。",
+    "capFull": "已无剩余席位 — 许可证容量已满。",
+    "unknown": "未设置",
+    "coursesBasis": "基于拥有账号的 {total} 名成员中的 {linked} 名成员。",
+    "coursesNoBasis": "没有任何成员拥有账号，因此无平均值。",
+    "cap": {
+      "title": "席位合同上限",
+      "hint": "此数字是组织许可证的上限，仅由财务部门设置。留空表示“未设置上限” — 在该情况下，“总席位数”、“剩余”和“使用率”将不显示任何数值。",
+      "label": "席位上限",
+      "placeholder": "例如 250",
+      "save": "保存上限",
+      "saving": "正在保存...",
+      "clear": "清除上限",
+      "saved": "席位上限已保存。",
+      "cleared": "席位上限已清除；此后为“未设置”。",
+      "invalid": "上限必须是 0 到 1000000 之间的整数。",
+      "error": "设置席位上限时出错。"
+    },
+    "manageDenied": "为成员分配和收回席位是组织管理员的职责。财务角色负责设置合同上限并查看使用情况。"
+  }
+}

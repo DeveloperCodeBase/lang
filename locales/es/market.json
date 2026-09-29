@@ -1,0 +1,1271 @@
+{
+  "bundles": {
+    "card": {
+      "badge": "Paquete",
+      "buyerCount": "{count, plural, one {# comprador} many {# compradores} other {# compradores}}",
+      "courseCount": "{count, plural, one {# curso en este paquete} many {# cursos en este paquete} other {# cursos en este paquete}}",
+      "cover": {
+        "alt": "Imagen del paquete {title}"
+      },
+      "free": "Gratis",
+      "savingsChip": "{savings} en comparación con la compra individual"
+    },
+    "catalog": {
+      "allCoursesButton": "Todos los cursos",
+      "badge": "Público",
+      "empty": {
+        "body": "Pronto se mostrarán aquí los paquetes de cursos del mercado de conocimientos. Mientras tanto, puedes ver los cursos individualmente.",
+        "cta": "Ir al mercado de conocimientos",
+        "title": "Aún no se ha publicado ningún paquete"
+      },
+      "help": {
+        "emphasis": "todos los cursos que contiene",
+        "lead": "Un «paquete» es una colección de cursos de un instructor que se vende a un precio único, por lo general menor que la suma de los precios de los cursos individuales. Al comprar un paquete, ",
+        "tail": " se desbloquearán para ti. Haz clic en cualquier paquete para ver la lista de cursos, el precio y el ahorro.",
+        "title": "¿Qué es un paquete de cursos?"
+      },
+      "resultCount": "{count, plural, one {# paquete encontrado} many {# paquetes encontrados} other {# paquetes encontrados}}",
+      "subtitle": "Obtén varios cursos relacionados en formato de paquete y a un precio más económico.",
+      "title": "Paquetes de cursos"
+    },
+    "detail": {
+      "authorCta": "Este es tu paquete — Editar en Studio",
+      "backButton": "Volver a los paquetes",
+      "badge": "Paquete de cursos",
+      "buyFree": "Obtener paquete gratis",
+      "buyPaid": "Comprar paquete {price}",
+      "cover": {
+        "alt": "Imagen del paquete {title}"
+      },
+      "dialog": {
+        "bodyCourses": "{count, plural, one {# curso} many {# cursos} other {# cursos}}",
+        "bodyFree": " Este paquete es gratuito y todos los cursos se desbloquearán para ti de inmediato.",
+        "bodyLead": "El paquete «{title}» incluye ",
+        "bodyPaid": " Importe a pagar: {price}. Tras el pago, todos los cursos del paquete se desbloquearán para ti.",
+        "bodyTail": ".",
+        "cancelButton": "Cancelar",
+        "closeAriaLabel": "Cerrar",
+        "processing": "Procesando…",
+        "submitFree": "Obtener gratis",
+        "submitPaid": "Pagar y comprar",
+        "titleFree": "Obtener paquete",
+        "titlePaid": "Comprar paquete"
+      },
+      "facts": {
+        "buyers": "{count, plural, one {# comprador} many {# compradores} other {# compradores}}",
+        "courses": "{count, plural, one {# curso} many {# cursos} other {# cursos}}",
+        "publishedAt": "Publicado: {date}"
+      },
+      "free": "Gratis",
+      "help": {
+        "emphasis": "{count, plural, one {los # cursos enumerados} many {los # cursos enumerados} other {los # cursos enumerados}}",
+        "lead": "Al comprar este paquete, obtienes acceso a ",
+        "tail": " . Si ya habías comprado algunos de estos cursos, no se te cobrará de nuevo y solo los nuevos cursos se añadirán a «Mis cursos». El pago se realiza exactamente igual que al comprar un curso.",
+        "title": "¿Qué obtienes al comprar este paquete?"
+      },
+      "included": {
+        "free": "Gratis",
+        "heading": "Cursos incluidos en el paquete",
+        "untitled": "Curso sin título"
+      },
+      "notFound": "Paquete no encontrado",
+      "note": {
+        "free": "Este paquete es gratuito y todos sus cursos se desbloquearán para ti de inmediato.",
+        "paid": "Con un solo pago, todos los cursos del paquete permanecerán desbloqueados para ti para siempre."
+      },
+      "savingsBadge": "{percent, number}% de ahorro",
+      "separate": {
+        "label": "Compra de cursos por separado:",
+        "savingsLead": "— Tu ahorro"
+      },
+      "toast": {
+        "freeBody": "Todos los cursos del paquete se han añadido a «Mis cursos».",
+        "freeTitle": "Paquete obtenido con éxito."
+      }
+    },
+    "editor": {
+      "back": "Volver a los paquetes",
+      "compare": {
+        "price": "Precio del paquete",
+        "savings": "Ahorro del comprador",
+        "sum": "Suma por separado de los cursos",
+        "title": "Comparación de precios",
+        "warn": "El precio del paquete es mayor que la suma por separado; por lo general, el paquete debería ser más económico."
+      },
+      "help": {
+        "body": "Solo puedes añadir a un paquete tus <b>propios cursos publicados</b>. Por lo general, establece el «Precio del paquete» por debajo de la «Suma por separado» para que el comprador vea el ahorro. Con un solo pago, el comprador obtiene acceso a todos los cursos del paquete y los ingresos se dividen entre tu parte y la universidad, igual que en la compra de un curso. El paquete debe tener al menos <b>dos cursos</b> para poder publicarse; una vez publicado, los cursos y su precio quedarán bloqueados.",
+        "title": "Guía de creación de paquetes"
+      },
+      "items": {
+        "add": "Añadir curso",
+        "empty": "Todavía no hay ningún curso en este paquete. Utiliza «Añadir curso» para incorporar tus cursos publicados (se requieren al menos dos cursos para la publicación).",
+        "remove": "Eliminar",
+        "removeAria": "Eliminar {title} del paquete",
+        "title": "{count, plural, one {Cursos del paquete (#)} many {Cursos del paquete (#)} other {Cursos del paquete (#)}}",
+        "untitled": "Curso sin título"
+      },
+      "lead": "Añade tus cursos publicados al paquete y establece el precio del mismo. El ahorro en comparación con la compra por separado se calcula en tiempo real.",
+      "locked": "Este paquete ha sido publicado y ya no se puede editar. Para cambiar los cursos o el precio, debes crear un paquete nuevo.",
+      "meta": {
+        "coverLabel": "URL de la imagen de portada (opcional)",
+        "descLabel": "Descripción",
+        "descPlaceholder": "Qué cursos incluye el paquete y para quién es adecuado.",
+        "priceHint": "El precio que paga el comprador es exactamente este importe ({price}). Un valor de 0 hace que el paquete sea gratuito y otorga acceso inmediato.",
+        "priceLabel": "Precio del paquete (Riales)",
+        "pricePlaceholder": "0 para paquete gratuito",
+        "save": "Guardar información",
+        "saving": "Guardando...",
+        "title": "Información del paquete",
+        "titleLabel": "Título del paquete",
+        "titlePlaceholder": "Por ejemplo: colección completa de Machine Learning"
+      },
+      "notFound": "Paquete no encontrado",
+      "picker": {
+        "add": "Añadir",
+        "adding": "Añadiendo…",
+        "close": "Cerrar",
+        "closeButton": "Cerrar",
+        "empty": "No tienes otros cursos publicados para añadir. Primero publica tu curso en el estudio.",
+        "note": "Solo se muestran tus <b>cursos publicados</b> que aún no están en este paquete.",
+        "title": "Añadir curso al paquete"
+      },
+      "pub": {
+        "bodyLead": "El paquete «{title}» se publica con {count, plural, one {# curso} many {# cursos} other {# cursos}} y un precio de ",
+        "bodyTail": " y aparecerá disponible para la compra en el mercado de conocimiento. Una vez publicado, los cursos y el precio del paquete quedarán bloqueados.",
+        "cancel": "Cancelar",
+        "close": "Cerrar",
+        "publishing": "Publicando…"
+      },
+      "publish": "Publicar paquete",
+      "publishHint": "Se requieren al menos dos cursos para publicar.",
+      "toast": {
+        "metaSaved": "La información del paquete ha sido guardada.",
+        "published": "Paquete publicado.",
+        "publishedDesc": "Ya está disponible para su compra en el mercado de conocimiento.",
+        "removeFailed": "No se pudo eliminar el curso del paquete."
+      },
+      "viewPublic": "Ver página pública"
+    },
+    "eyebrow": "Mercado de conocimiento",
+    "free": "Gratis",
+    "savingsChipShort": "{percent, number}% menos",
+    "status": {
+      "archived": "Archivado",
+      "draft": "Borrador",
+      "published": "Publicado",
+      "suspended": "Suspendido"
+    },
+    "studio": {
+      "buyerCount": "{count, plural, one {# comprador} many {# compradores} other {# compradores}}",
+      "courseCount": "{count, plural, one {# curso} many {# cursos} other {# cursos}}",
+      "coursesStudio": "Estudio de cursos",
+      "create": {
+        "descLabel": "Descripción breve",
+        "descPlaceholder": "Explica en una o dos frases qué cursos incluye este paquete y para quién es ideal.",
+        "hint": "Una vez creado, en el siguiente paso añadirás tus cursos publicados al paquete y establecerás su precio.",
+        "titleLabel": "Título del paquete",
+        "titlePlaceholder": "Por ejemplo: colección completa de Machine Learning"
+      },
+      "del": {
+        "body": "Se eliminará el paquete «{title}». Los cursos dentro del paquete permanecerán intactos y solo se eliminará el paquete de tu lista. Esta acción no se puede deshacer.",
+        "cancel": "Cancelar",
+        "close": "Cerrar",
+        "deleting": "Eliminando...",
+        "submit": "Eliminar paquete",
+        "title": "Eliminar paquete"
+      },
+      "delete": "Eliminar",
+      "edit": "Editar",
+      "editAria": "Editar el paquete {title}",
+      "empty": {
+        "body": "Crea tu primer paquete e incluye varios cursos publicados en él.",
+        "title": "Aún no has creado ningún paquete"
+      },
+      "help": {
+        "body": "Un «paquete» es una colección de <b>tus propios cursos publicados</b> que se vende a un precio único. Este precio suele ser inferior a la suma de los cursos individuales; la diferencia es el «ahorro» que se muestra al comprador. El comprador adquiere el paquete <b>una vez</b> y se matricula de inmediato en <b>todos los cursos del paquete</b> (si ya tenía alguno, no se le vuelve a cobrar). El paquete se puede editar libremente mientras esté en estado de «borrador»; para publicarlo, debe contener al menos <b>dos cursos</b> y, una vez publicado, tanto los cursos como su precio quedan bloqueados.",
+        "title": "¿Qué es un paquete de cursos?"
+      },
+      "lead": "Agrupa varios de tus cursos publicados en un «paquete» y véndelos por un precio conjunto (generalmente menor que la suma de los cursos individuales). Con un solo pago, el comprador obtiene acceso a <b>todos los cursos del paquete</b>.",
+      "newBundle": "Crear nuevo paquete",
+      "title": "Mis paquetes de cursos"
+    },
+    "titleRequired": "El «Título del paquete» es obligatorio (al menos 2 caracteres)."
+  },
+  "cart": {
+    "actions": {
+      "clearCart": "Vaciar carrito",
+      "continueShopping": "Seguir comprando"
+    },
+    "blockedWarning": "{count, plural, one {# artículo no está disponible para la compra; corrígelo o elimínalo primero.} many {# artículos no están disponibles para la compra; corrígelos o elimínalos primero.} other {# artículos no están disponibles para la compra; corrígelos o elimínalos primero.}}",
+    "checkout": {
+      "freeButton": "Matricularse gratis en los artículos del carrito",
+      "freeToast": {
+        "description": "{count, plural, one {# curso se añadió a «Mis cursos».} many {# cursos se añadieron a «Mis cursos».} other {# cursos se añadieron a «Mis cursos».}}",
+        "title": "Matriculación gratuita realizada."
+      },
+      "payButton": "Pagar carrito — {amount}",
+      "walletToast": {
+        "description": "Nuevo saldo del monedero: {amount}",
+        "title": "Compra del carrito realizada con el monedero."
+      }
+    },
+    "empty": {
+      "body": "Reúne aquí tus cursos deseados en el «Mercado de conocimientos» usando el botón «Añadir al carrito».",
+      "cta": "Ir al Mercado de conocimientos",
+      "title": "Tu carrito está vacío"
+    },
+    "free": "Gratis",
+    "header": {
+      "itemCount": "{count, plural, one {# artículo} many {# artículos} other {# artículos}}"
+    },
+    "help": {
+      "body": "El precio de cada artículo se calcula en tiempo real a partir del curso; si un precio cambia o un código de descuento caduca, lo verás aquí mismo. Puedes aplicar un código de descuento independiente para cada curso. Con «Pagar carrito», todos los artículos se adquieren en un solo pago y cada curso cuenta con su propio documento financiero y recibo independiente, por lo que los reembolsos también se gestionan por separado para cada curso.",
+      "title": "¿Cómo funciona el carrito de compras?"
+    },
+    "item": {
+      "applyCouponButton": "Aplicar código",
+      "couponAriaLabel": "Código de descuento para {title}",
+      "couponPlaceholder": "Código de descuento (opcional)",
+      "discountBadge": "{amount} de descuento",
+      "removeButton": "Eliminar",
+      "removeCouponButton": "Quitar código",
+      "thisCourse": "Este curso",
+      "unavailableTitle": "Este curso ya no está disponible",
+      "viewAriaLabel": "Ver el curso {title}"
+    },
+    "mutateErrorToast": {
+      "title": "No se pudo actualizar el carrito de compras."
+    },
+    "pageSubtitle": "Los cursos que has elegido comprar; todos se adquieren en un solo pago.",
+    "pageTitle": "Carrito de compras",
+    "payMethod": {
+      "gateway": "Pago a través de pasarela bancaria",
+      "wallet": "Pago desde el monedero (saldo: {amount})",
+      "walletInsufficient": "El saldo del monedero no es suficiente para este carrito; recarga el monedero primero."
+    },
+    "summary": {
+      "discountLabel": "Descuentos",
+      "payableLabel": "Monto a pagar",
+      "subtotalLabel": "Subtotal",
+      "taxNote": "El monto indicado incluye impuestos; la parte correspondiente a los impuestos se muestra por separado en el recibo de cada curso."
+    }
+  },
+  "certificate": {
+    "canvas": {
+      "ariaLabel": {
+        "course": "Certificado de finalización del curso — {courseTitle}",
+        "degree": "Diploma — {courseTitle}"
+      },
+      "course": {
+        "authenticity": "La autenticidad de este certificado solo puede verificarse a través del sistema de consulta en línea.",
+        "codeLabel": "Código de verificación",
+        "disclaimer": "Este es un certificado de finalización de curso y no constituye un título universitario oficial.",
+        "gridHeading": "Detalles del curso y del estudiante",
+        "intro": "Por medio de la presente se certifica que",
+        "labels": {
+          "desc": "Descripción del curso",
+          "instructor": "Instructor del curso",
+          "issued": "Fecha de emisión",
+          "issuer": "Emisor",
+          "mode": "Modalidad de aprendizaje",
+          "serial": "Número de serie"
+        },
+        "modeValue": "En línea",
+        "sentence": "ha completado con éxito el siguiente curso en esta universidad:",
+        "verifyLabel": "Verificación de autenticidad en línea"
+      },
+      "decimalSeparator": ",",
+      "degree": {
+        "authenticity": "La autenticidad de este diploma solo puede verificarse a través del sistema de consulta en línea.",
+        "creditsUnit": "créditos",
+        "gpaOf": "de",
+        "gridHeading": "Detalles del programa y del estudiante",
+        "idPrefix": "Número de identificación",
+        "intro": "Por medio de la presente se certifica que",
+        "labels": {
+          "award": "Título",
+          "completion": "Fecha de finalización",
+          "credits": "Número de créditos",
+          "entry": "Fecha de inicio",
+          "faculty": "Facultad",
+          "field": "Campo de estudio y especialización",
+          "gpa": "Promedio general (GPA)",
+          "graduation": "Fecha de graduación",
+          "issued": "Fecha de emisión",
+          "level": "Nivel del curso",
+          "mode": "Modalidad de enseñanza",
+          "serial": "Número de serie"
+        },
+        "sentence": "Ha completado con éxito el siguiente programa de estudios en esta universidad y se ha graduado:",
+        "title": "Diploma"
+      },
+      "englishDiplomaBlocked": "El diploma en inglés no se emitirá: no se ha registrado la transliteración del nombre del titular. La secretaría debe ingresarla al momento de la emisión; no se permite la generación automática del nombre en latín.",
+      "issuedOnLabel": "Emitido el {date}",
+      "percentSuffix": "%",
+      "shared": {
+        "eyebrow": "En el nombre de Dios",
+        "telLabel": "Teléfono:"
+      }
+    },
+    "modal": {
+      "cancelButton": "Cancelar",
+      "closeAriaLabel": "Cerrar",
+      "closeButton": "Cerrar",
+      "completedIntro": "¡Felicitaciones! Has completado el curso «{courseTitle}».",
+      "issueButton": "Obtener certificado de finalización",
+      "issueExplanation": "Al recibir el certificado, se emitirá un «certificado de finalización» con un código de verificación para ti (es un certificado de curso, no un título universitario). Si este curso incluye un examen, el certificado solo se emitirá después de aprobarlo.",
+      "issuedByLabel": "Emitido por: {issuer}",
+      "issuedDateLabel": "Fecha de emisión: {date}",
+      "issuedToast": {
+        "description": "El certificado de finalización ha sido emitido para ti.",
+        "title": "Certificado emitido"
+      },
+      "issuingLabel": "Emitiendo...",
+      "legalDisclaimer": "Este «certificado de finalización» corresponde al curso de Knowledge Market y no se considera un título académico universitario. Puedes ingresar el código de verificación en la sección «Certificados y credenciales» para verificar su autenticidad.",
+      "loading": "Cargando...",
+      "openPrintableButton": "Documento imprimible (PDF / imagen)",
+      "printButton": "Imprimir / Guardar PDF",
+      "serialLabel": "Código de verificación: {serial}",
+      "status": {
+        "revoked": "Revocado",
+        "valid": "Válido"
+      },
+      "title": "Certificado de finalización",
+      "viewCertificateButton": "Ver certificado"
+    }
+  },
+  "courseDetail": {
+    "about": {
+      "audienceTitle": "Audiencia del curso",
+      "objectivesTitle": "Objetivos de aprendizaje",
+      "prerequisitesTitle": "Prerrequisitos",
+      "title": "Acerca de este curso"
+    },
+    "author": {
+      "editInStudio": "Este es tu curso — Editar en Studio"
+    },
+    "authorBio": {
+      "showcaseButton": "Vitrina del instructor",
+      "title": "Acerca del instructor"
+    },
+    "backButton": "Volver a Knowledge Market",
+    "badges": {
+      "owned": "Tienes este curso"
+    },
+    "buyDialog": {
+      "cancelButton": "Cancelar",
+      "closeAriaLabel": "Cerrar",
+      "couponAppliedNote": "Cupón aplicado — descuento de {amount}.",
+      "couponApplyButton": "Aplicar",
+      "couponChecking": "Comprobando…",
+      "couponEmptyError": "Introduce el código del cupón.",
+      "couponLabel": "Código de cupón (opcional)",
+      "couponPlaceholder": "p. ej. SUMMER1404",
+      "gatewayFlowNote": "Tras la confirmación, serás redirigido a la pasarela de pago. Una vez completado el pago con éxito, el curso se desbloqueará de inmediato y estará disponible en «Mis cursos».",
+      "gatewayOption": "Pasarela de pago",
+      "memberDiscountNote": "Incluye {amount} de descuento de miembro",
+      "payAndBuy": "Pagar y comprar",
+      "payFromWallet": "Pagar desde el monedero",
+      "payableAmountLabel": "Importe a pagar",
+      "paymentMethodLabel": "Método de pago",
+      "processing": "Procesando…",
+      "titleFree": "Comenzar curso gratis",
+      "titlePaid": "Comprar curso",
+      "walletFlowNote": "El importe se deducirá de inmediato de tu monedero y el curso se desbloqueará al instante en «Mis cursos».",
+      "walletInsufficientNote": "El saldo del monedero no es suficiente para esta compra; recárgalo primero.",
+      "walletOption": "Monedero — saldo {balance}"
+    },
+    "buyNote": {
+      "enrolled": "Tu acceso a este curso está activo.",
+      "free": "Este curso es gratuito y se desbloquea inmediatamente después de empezar.",
+      "paid": "Compra única; tras el pago, el curso permanecerá desbloqueado para siempre.",
+      "unset": "Este curso aún no tiene precio establecido."
+    },
+    "chart": {
+      "emptyText": "No se han registrado temarios para este curso.",
+      "lockedLabel": "Bloqueado",
+      "previewBadge": "Vista previa gratuita",
+      "previewButton": "Vista previa gratuita",
+      "sectionCountInModule": "{count, plural, one {# sección} many {# secciones} other {# secciones}}",
+      "title": "Temario del curso"
+    },
+    "cta": {
+      "buyWithPrice": "Comprar por {price}",
+      "continueLearning": "Continuar aprendiendo",
+      "guestBuyLogin": "Inicia sesión para comprar",
+      "guestFreeLogin": "Inicia sesión para empezar gratis",
+      "startFree": "Empezar gratis",
+      "unpriced": "Aún sin precio"
+    },
+    "errors": {
+      "invalidId": "El identificador del curso no es válido.",
+      "notAvailable": {
+        "message": "Este curso no se ha encontrado o no está publicado.",
+        "title": "El curso no está disponible"
+      }
+    },
+    "extras": {
+      "faqHeading": "Preguntas frecuentes",
+      "relatedHeading": "Cursos relacionados",
+      "stickyBuyAriaLabel": "Comprar curso",
+      "tagsAriaLabel": "Etiquetas del curso"
+    },
+    "header": {
+      "contentDuration": "{duration} de contenido",
+      "coverAlt": "Imagen del curso {title}",
+      "enrollmentCount": "{count, plural, one {# estudiante} many {# estudiantes} other {# estudiantes}}",
+      "freePreviewCount": "{count, plural, one {# vista previa gratuita} many {# vistas previas gratuitas} other {# vistas previas gratuitas}}",
+      "lastUpdated": "Última actualización: {date}",
+      "lessonCount": "{count, plural, one {# lección} many {# lecciones} other {# lecciones}}",
+      "moduleCount": "{count, plural, one {# módulo} many {# módulos} other {# módulos}}",
+      "sectionCount": "{count, plural, one {# sección} many {# secciones} other {# secciones}}"
+    },
+    "helpNote": {
+      "body": "Página de presentación de un curso del mercado de conocimientos. Aquí puedes ver el temario completo; las secciones con la etiqueta «Vista previa gratuita» se pueden ver directamente aquí, mientras que el resto de las secciones se desbloquean tras la compra. Los cursos gratuitos se abren de inmediato con «Comenzar gratis», y los cursos de pago mediante «Comprar» y el pago a través de la pasarela de pagos. Los cursos adquiridos están disponibles en «Mis cursos».",
+      "title": "¿Qué es esta página?"
+    },
+    "otherCourses": {
+      "title": "Otros cursos de este instructor"
+    },
+    "preview": {
+      "closeAriaLabel": "Cerrar vista previa"
+    },
+    "price": {
+      "free": "Gratis",
+      "unset": "Sin precio"
+    },
+    "purchase": {
+      "addedToMyCourses": "El curso se ha añadido a «Mis cursos».",
+      "failedToast": {
+        "description": "No se registró ninguna compra; puedes intentarlo de nuevo.",
+        "title": "El pago quedó incompleto."
+      },
+      "freeSuccessToast": {
+        "title": "Inscripción gratuita realizada con éxito."
+      },
+      "successToast": {
+        "title": "Compra realizada con éxito."
+      },
+      "unpricedToast": {
+        "description": "La compra no está disponible hasta que el instructor establezca un precio.",
+        "title": "Este curso aún no tiene precio."
+      },
+      "walletSuccessToast": {
+        "descriptionWithBalance": "Nuevo saldo de la cartera: {balance}",
+        "title": "Compra realizada con la cartera."
+      }
+    },
+    "review": {
+      "authorReplyLabel": "Respuesta del instructor",
+      "form": {
+        "commentAriaLabel": "Texto del comentario",
+        "commentPlaceholder": "Escribe tu experiencia con este curso (opcional)…",
+        "createTitle": "Enviar opinión",
+        "createdToast": "Tu opinión ha sido registrada.",
+        "editTitle": "Editar tu opinión",
+        "ratingAriaLabel": "Tu calificación",
+        "ratingLabel": "Calificación:",
+        "ratingRequiredError": "Por favor, selecciona una calificación (de 1 a 5 estrellas).",
+        "starAriaLabel": "{count, plural, one {# estrella} many {# estrellas} other {# estrellas}}",
+        "submitButton": "Enviar opinión",
+        "submitting": "Enviando…",
+        "updateButton": "Actualizar opinión",
+        "updatedToast": "Tu reseña ha sido actualizada."
+      },
+      "hide": {
+        "button": "Ocultar",
+        "failToast": "No se pudo ocultar la reseña.",
+        "successToast": "La reseña ha sido oculta."
+      },
+      "mineBadge": "Tu reseña",
+      "reply": {
+        "ariaLabel": "Respuesta del instructor",
+        "cancelButton": "Cancelar",
+        "draftButton": "Borrador con IA",
+        "draftEmptyError": "No se generó ningún borrador; inténtalo de nuevo.",
+        "drafting": "Escribiendo...",
+        "editButton": "Editar respuesta",
+        "placeholder": "Escribe tu respuesta (vacío = eliminar respuesta)...",
+        "replyButton": "Responder",
+        "sendButton": "Enviar respuesta",
+        "sending": "Enviando...",
+        "sentToast": "Tu respuesta ha sido enviada."
+      },
+      "section": {
+        "countLabel": "{count, plural, one {# reseña} many {# reseñas} other {# reseñas}}",
+        "emptyText": "Aún no hay reseñas.",
+        "starRowLabel": "{count, plural, one {# estrella} many {# estrellas} other {# estrellas}}",
+        "title": "Reseñas y calificaciones"
+      }
+    },
+    "share": {
+      "ariaLabel": "Compartir curso",
+      "button": "Compartir",
+      "copiedToast": {
+        "description": "Puedes compartirlo en un servicio de mensajería.",
+        "title": "El enlace del curso ha sido copiado."
+      },
+      "urlToastTitle": "Enlace del curso"
+    }
+  },
+  "courseExams": {
+    "ai": {
+      "ask": "¿Por qué era incorrecto?",
+      "busy": "Preparando...",
+      "disclaimer": "Esta explicación es de ayuda y no oficial; la referencia final es la respuesta y los comentarios del instructor del curso.",
+      "generic": "Guía general",
+      "hintLabel": "Pista: ",
+      "nextLabel": "Siguiente paso: ",
+      "title": "Explicación de IA"
+    },
+    "ask": "Preguntar al profesor",
+    "askTitle": "Pregunta privada al profesor sobre este examen",
+    "attemptChip": "Intento {n}",
+    "attemptStatus": {
+      "expired": "Tiempo agotado",
+      "in_progress": "En curso",
+      "submitted": "Enviado"
+    },
+    "attempts": {
+      "limited": "{used} de {allowed}",
+      "unlimited": "{used} (ilimitados)"
+    },
+    "blocked": {
+      "closed": "Actualmente no disponible",
+      "noAttempts": "No quedan intentos",
+      "passed": "Aprobado"
+    },
+    "close": "Cerrar",
+    "countBadge": "{count, plural, one {# elemento} many {# elementos} other {# elementos}}",
+    "cta": {
+      "continue": "Continuar examen",
+      "retry": "Reintentar",
+      "start": "Iniciar"
+    },
+    "err": {
+      "loadReview": "Error al cargar el informe de calificaciones"
+    },
+    "help": {
+      "body": "Estos son los ejercicios y exámenes adjuntos por el profesor a este curso. Los exámenes «obligatorios» son un requisito para recibir el certificado del curso y, hasta que se aprueben, no se desbloquearán las lecciones dependientes. Con el «informe» puedes ver tus resultados y respuestas; la visualización de la clave de respuestas depende de la política establecida por el profesor.",
+      "title": "Ejercicios y exámenes"
+    },
+    "hiddenKey": {
+      "afterClose": "La clave de respuestas se mostrará después del plazo del examen o cuando termines tus intentos.",
+      "never": "El profesor ha deshabilitado la visualización de la clave de respuestas para este examen.",
+      "notSubmitted": "El informe de calificaciones se completará después del envío final de las respuestas."
+    },
+    "loading": "Cargando…",
+    "meta": {
+      "attempts": "Intentos: {v}",
+      "best": "Mejor nota: {v}",
+      "duration": "{count, plural, one {# minuto} many {# minutos} other {# minutos}}",
+      "passMark": "Nota de aprobación {v}",
+      "questions": "{count, plural, one {# pregunta} many {# preguntas} other {# preguntas}}"
+    },
+    "pendingBadge": "{count, plural, one {# examen obligatorio pendiente} many {# exámenes obligatorios pendientes} other {# exámenes obligatorios pendientes}}",
+    "q": {
+      "correct": "Correcto",
+      "explanationLabel": "Explicación: ",
+      "number": "Pregunta {n}",
+      "points": "{count, plural, one {# punto} many {# puntos} other {# puntos}}",
+      "wrong": "Incorrecto"
+    },
+    "refresh": "Actualizar",
+    "requiredBadge": "Obligatorio",
+    "retry": "Reintentar",
+    "review": "Informe",
+    "reviewModal": {
+      "attempts": "Intentos",
+      "bestScore": "Mejor nota",
+      "feedback": "Comentarios del profesor",
+      "passMark": "Nota de aprobación",
+      "title": "Informe de «{title}»",
+      "unavailable": "El informe no está disponible."
+    },
+    "status": {
+      "awaiting_grade": "Pendiente de calificación",
+      "exhausted": "Intentos agotados",
+      "failed": "No aprobado",
+      "in_progress": "En curso",
+      "not_started": "Sin comenzar",
+      "passed": "Aprobado"
+    },
+    "title": "Prácticas y exámenes del curso"
+  },
+  "coursePlayer": {
+    "actions": {
+      "askInstructorButton": "Pregunta privada al instructor",
+      "reportCardButton": "Mi boleta de calificaciones en este curso"
+    },
+    "certificate": {
+      "claimButton": "Obtener certificado de finalización",
+      "congratsTitle": "¡Has completado el curso!",
+      "eligibleMessage": "Puedes solicitar el certificado de finalización de este curso.",
+      "genericPendingMessage": "Para obtener el certificado, primero aprueba el examen del curso.",
+      "pendingGatesMessage": "{count, plural, one {Para obtener el certificado, primero aprueba el siguiente # examen obligatorio restante: {titles}.} many {Para obtener el certificado, primero aprueba los siguientes # exámenes obligatorios restantes: {titles}.} other {Para obtener el certificado, primero aprueba los siguientes # exámenes obligatorios restantes: {titles}.}}",
+      "printableButton": "Mi diploma (Imprimir / PDF)",
+      "titleSeparator": ", ",
+      "viewButton": "Ver certificado"
+    },
+    "controls": {
+      "markCompleteButton": "Marcar como completado",
+      "nextSection": "Siguiente sección",
+      "prevSection": "Sección anterior",
+      "sectionCompletedBadge": "Esta sección está completada"
+    },
+    "empty": {
+      "noContent": "Este curso aún no tiene contenido.",
+      "selectSection": "Selecciona una sección de la lista."
+    },
+    "error": {
+      "backToMyCourses": "Volver a mis cursos",
+      "loadTitle": "No se pudo cargar el curso",
+      "notFoundMessage": "Curso no encontrado."
+    },
+    "errors": {
+      "invalidCourseId": "El ID del curso no es válido."
+    },
+    "forbidden": {
+      "description": "No has comprado este curso o tu acceso ha sido revocado. Visita la página del curso para adquirirlo.",
+      "myCoursesButton": "Mis cursos",
+      "title": "No tienes acceso a este curso",
+      "viewCourseButton": "Ver curso"
+    },
+    "header": {
+      "authorLabel": "Instructor:",
+      "backButton": "Mis cursos",
+      "completeBadge": "Completado"
+    },
+    "help": {
+      "intro": "Selecciona una sección de la lista lateral para ver su contenido. Cada sección se marca como «completada» después de verla/estudiarla y la barra de progreso se actualiza. En los videos, continuarás desde donde los dejaste. Algunas lecciones pueden estar",
+      "lockedWord": "bloqueadas",
+      "middle": ": o bien se abren en una fecha/duración determinada («Esta lección se abre a partir de la fecha…») o hasta obtener la calificación necesaria en un examen previo («Tras obtener la calificación de… en el examen…»); el motivo del bloqueo está escrito junto a cada lección. Si el instructor ha establecido",
+      "outro": "para un nivel, el siguiente nivel solo se abrirá después de aprobarlo; el estado de todos estos exámenes se puede ver en «Exámenes obligatorios» en la parte superior de la lista y puedes ir directamente al examen con el botón «Ir». Al completar el 100% del curso y aprobar los exámenes obligatorios, puedes obtener el «Certificado de finalización» e imprimirlo o guardarlo en PDF (este es un certificado del curso, no un título universitario).",
+      "requiredExamWord": "Examen obligatorio",
+      "title": "Aprendizaje en Knowledge Market"
+    },
+    "locked": {
+      "goToPrereqExamButton": "Ir al examen requisito",
+      "goToRequiredExamButton": "Ir al examen obligatorio",
+      "title": "Esta lección aún no está abierta"
+    },
+    "mobileBar": {
+      "chartButton": "Índice del curso"
+    },
+    "mobileDrawer": {
+      "closeAriaLabel": "Cerrar",
+      "title": "Índice del curso"
+    },
+    "sidebar": {
+      "ariaLabel": "Índice de contenido del curso"
+    },
+    "stage": {
+      "askAiButton": "Preguntar a la IA",
+      "completedBadge": "Completado",
+      "lockedBadge": "Bloqueado",
+      "minutesUnit": "minutos"
+    },
+    "toast": {
+      "addNoteFailed": "No se pudo guardar la nota",
+      "deleteNoteFailed": "No se pudo eliminar la nota",
+      "editNoteFailed": "No se pudo editar la nota",
+      "examNotFoundDescription": "Es posible que el profesor lo haya movido; actualice la página.",
+      "examNotFoundTitle": "Este examen no se encontró en el índice del curso",
+      "lessonLockedTitle": "Esta lección está bloqueada",
+      "saveProgressFailed": "No se pudo guardar el progreso"
+    }
+  },
+  "gradingQueue": {
+    "attachmentOnly": "Esta respuesta solo contiene un archivo adjunto.",
+    "back": "Volver a la edición del curso",
+    "close": "Cerrar",
+    "empty": {
+      "bodyAll": "Aún no se han registrado respuestas para este curso.",
+      "bodyPending": "Todas las respuestas enviadas han sido calificadas o aún no se ha enviado ninguna.",
+      "titleAll": "No hay respuestas para mostrar",
+      "titlePending": "No hay respuestas pendientes de calificación"
+    },
+    "err": {
+      "alreadyGraded": "Esta respuesta ya ha sido calificada.",
+      "badId": "El identificador del curso no es válido.",
+      "forbidden": "No tienes permiso para calificar esta respuesta.",
+      "responseMissing": "No se encontró esta respuesta o su criterio.",
+      "rubricMissing": "No se encontró el criterio de esta sección.",
+      "rubricMissingLong": "No se encontró el criterio de esta sección. Primero define el criterio de evaluación en el editor.",
+      "rubricUnavailable": "El criterio de esta sección no está disponible.",
+      "scoreTooHigh": "La puntuación introducida no es válida (no debe superar la puntuación máxima del criterio)."
+    },
+    "grade": "Calificar",
+    "graded": "Calificado",
+    "help": {
+      "body": "Aquí se enumeran las respuestas de desarrollo de los estudiantes de este curso que están pendientes de calificación. Haz clic en «Calificar» en cualquier respuesta para abrir la rúbrica de evaluación; asigna una puntuación a cada criterio (no puede superar el máximo de dicho criterio), la puntuación total se calculará en tiempo real y escribe comentarios si es necesario. Al guardar la calificación del profesor, esa respuesta se vuelve <b>definitiva</b> y el alumno ya no podrá modificarla. Para revisar las calificaciones guardadas, activa la opción «Mostrar respuestas calificadas».",
+      "title": "Cola de calificación"
+    },
+    "lead": "Calificación de las respuestas de desarrollo de este curso",
+    "learnerFallback": "Estudiante",
+    "loadingRubric": "Cargando rúbrica...",
+    "notFound": {
+      "back": "Volver al estudio",
+      "body": "Este curso no existe o no eres el profesor de este.",
+      "title": "Curso no encontrado"
+    },
+    "openAttachment": "Abrir archivo adjunto",
+    "pending": "Pendiente de calificación",
+    "refresh": "Actualizar",
+    "regrade": "Recalificar",
+    "rowMeta": "Sección: {section} · Envío: {date}",
+    "savedGrade": "Calificación guardada",
+    "saving": "Guardando...",
+    "showGraded": "Mostrar respuestas calificadas",
+    "submit": "Enviar calificación",
+    "title": "Cola de calificación de respuestas abiertas"
+  },
+  "instructor": {
+    "backButton": "Volver al mercado de conocimiento",
+    "bioHeading": "Acerca del instructor",
+    "coursesEmpty": "No hay cursos para mostrar.",
+    "coursesHeading": "Cursos de este instructor",
+    "invalidId": "El ID de instructor no es válido.",
+    "notFound": "Instructor no encontrado.",
+    "social": {
+      "ariaLabel": "Enlaces del instructor",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram",
+      "twitter": "Twitter",
+      "website": "Sitio web",
+      "youtube": "YouTube"
+    },
+    "stats": {
+      "courses": "{count, plural, one {# curso publicado} many {# cursos publicados} other {# cursos publicados}}",
+      "learners": "{count, plural, one {# estudiante} many {# estudiantes} other {# estudiantes}}"
+    }
+  },
+  "marketplace": {
+    "bundlesButton": "Paquetes de cursos",
+    "empty": {
+      "clearFiltersCta": "Limpiar filtros",
+      "filtered": {
+        "body": "Modifique los filtros o el término de búsqueda.",
+        "title": "No se encontraron cursos con estos filtros"
+      },
+      "noCourses": {
+        "body": "Pronto se mostrarán aquí los cursos del mercado de conocimiento.",
+        "title": "Aún no se han publicado cursos"
+      }
+    },
+    "filters": {
+      "category": {
+        "all": "Todas las categorías",
+        "ariaLabel": "Filtro de categoría",
+        "label": "Categoría"
+      },
+      "language": {
+        "ariaLabel": "Filtro de idioma",
+        "label": "Idioma"
+      },
+      "level": {
+        "ariaLabel": "Filtro de nivel",
+        "label": "Nivel"
+      },
+      "price": {
+        "ariaLabel": "Filtro de precio",
+        "label": "Precio"
+      },
+      "sort": {
+        "ariaLabel": "Ordenar",
+        "label": "Ordenar por"
+      }
+    },
+    "head": {
+      "description": "Busca, filtra y explora los cursos en línea publicados y cómpralos aquí mismo.",
+      "title": "Mercado de conocimientos"
+    },
+    "header": {
+      "badge": "Público",
+      "subtitle": "Busca, filtra y explora los cursos publicados del mercado.",
+      "title": "Mercado de conocimientos"
+    },
+    "helpNote": {
+      "body": "Aquí puedes ver los cursos publicados por los instructores. Puedes buscar por título o nombre del instructor, filtrar por categoría, nivel, idioma y precio, y cambiar el orden de visualización. Guarda cualquier curso en tus «Favoritos» con el icono ❤. Haz clic en cualquier curso para ver el temario y las secciones de «Vista previa gratuita» y cómpralo.",
+      "title": "¿Qué es el mercado de conocimientos?"
+    },
+    "pagination": {
+      "ariaLabel": "Paginación",
+      "next": "Siguiente",
+      "prev": "Anterior",
+      "status": "Página {page} de {totalPages}"
+    },
+    "resultCount": "{count, plural, =1 {# curso encontrado} one {# curso encontrado} many {# cursos encontrados} other {# cursos encontrados}}",
+    "search": {
+      "ariaLabel": "Buscar curso",
+      "placeholder": "Buscar curso o instructor...",
+      "semanticUnavailable": "La búsqueda semántica multilingüe no está disponible en este momento; los resultados provienen únicamente de la búsqueda por palabras clave y nombres de autores."
+    },
+    "tags": {
+      "ariaLabel": "Filtrar por etiquetas",
+      "clearButton": "Borrar etiquetas"
+    }
+  },
+  "qna": {
+    "aiDraft": {
+      "button": "Borrador con IA",
+      "drafting": "Escribiendo...",
+      "emptyError": "No se pudo generar el borrador; inténtalo de nuevo."
+    },
+    "answer": {
+      "acceptedBadge": "Respuesta del profesor"
+    },
+    "badge": {
+      "hidden": "Oculto",
+      "pinned": "Fijado",
+      "pinnedReply": "Respuesta fijada"
+    },
+    "delete": {
+      "failToast": "Error al eliminar",
+      "label": "Eliminar"
+    },
+    "empty": {
+      "cta": "Sé el primero en hacer una pregunta.",
+      "message": "Aún no se ha registrado ninguna pregunta.",
+      "messageLessonScoped": "Aún no hay preguntas registradas para esta lección.",
+      "showAllButton": "Mostrar preguntas de todo el curso"
+    },
+    "form": {
+      "labelDefault": "Haz tu pregunta",
+      "labelLessonScoped": "Pregunta sobre la lección «{name}»",
+      "labelSection": "Pregunta sobre «{name}»",
+      "placeholder": "Escribe tu pregunta sobre este curso...",
+      "submitButton": "Enviar pregunta",
+      "submitting": "Enviando...",
+      "successToast": "Tu pregunta ha sido enviada.",
+      "validation": "Escribe el texto de la pregunta (al menos 2 caracteres)."
+    },
+    "guest": {
+      "loginPrompt": "Inicia sesión en tu cuenta para hacer preguntas."
+    },
+    "heading": "Preguntas y respuestas",
+    "help": {
+      "hide": {
+        "after": "ocultar; el elemento oculto no será visible para los estudiantes, pero permanecerá en la «Vista de revisión» con la etiqueta «Oculto» para que puedas volver a mostrarlo si es necesario.",
+        "before": "Como revisor, con el icono ",
+        "eyeWord": "ojo",
+        "hideWord": "Ocultar",
+        "middle": "Puedes ocultar una pregunta/respuesta inadecuada "
+      },
+      "pin": {
+        "after": "Puedes fijar la mejor respuesta o pregunta en la parte superior de la lista para que se vea antes. Cuando respondes a una pregunta, la persona que la hizo recibe una notificación automáticamente.",
+        "before": "Con el icono ",
+        "word": "Fijar"
+      },
+      "title": "Anclar y revisar preguntas y respuestas"
+    },
+    "hide": {
+      "failToast": "La operación no tuvo éxito",
+      "hiddenToast": "Oculto para los estudiantes.",
+      "hideAriaLabel": "Ocultar (inapropiado)",
+      "hideTitle": "Ocultar a los estudiantes",
+      "unhiddenToast": "Se volvió a mostrar.",
+      "unhideAriaLabel": "Mostrar de nuevo (cancelar ocultación)",
+      "unhideTitle": "Mostrar de nuevo: cancelar ocultación"
+    },
+    "list": {
+      "loading": "Cargando preguntas...",
+      "questionCount": "{count, plural, one {# pregunta} many {# preguntas} other {# preguntas}}",
+      "retry": "Reintentar"
+    },
+    "moderation": {
+      "activeLabel": "Vista de moderación (activa)",
+      "label": "Vista de moderación"
+    },
+    "pin": {
+      "failToast": "No se pudo fijar",
+      "pinAriaLabel": "Fijar respuesta",
+      "pinTitle": "Fijar (mostrar arriba)",
+      "pinnedToast": "La respuesta ha sido fijada y se muestra en la parte superior.",
+      "unpinLabel": "Desanclar",
+      "unpinnedToast": "Se desancló el elemento."
+    },
+    "reply": {
+      "button": "Responder",
+      "cancelButton": "Cancelar",
+      "notifyHint": "Al enviar una respuesta, quien pregunta será notificado automáticamente.",
+      "placeholder": "Escribe tu respuesta...",
+      "submitButton": "Enviar respuesta",
+      "submitting": "Enviando...",
+      "successToast": "Tu respuesta ha sido registrada.",
+      "validation": "Escribe el texto de la respuesta (mínimo 2 caracteres)."
+    },
+    "scope": {
+      "groupAriaLabel": "Ámbito de preguntas y respuestas",
+      "lessonOnly": "Solo esta lección",
+      "lessonOnlyTitle": "Solo las preguntas de esta lección",
+      "lessonOnlyTitleNamed": "Solo preguntas de la lección «{name}»",
+      "wholeCourse": "Todo el curso"
+    }
+  },
+  "rubricBuilder": {
+    "actions": {
+      "clear": "Borrar rúbrica",
+      "save": "Guardar rúbrica",
+      "saveChanges": "Guardar cambios de la rúbrica",
+      "saved": "Rúbrica guardada.",
+      "saving": "Guardando..."
+    },
+    "criteria": {
+      "add": "Añadir criterio",
+      "heading": "Criterios de evaluación",
+      "maxPoints": "Puntuación máxima",
+      "maxPointsAria": "Puntuación máxima del criterio {n}",
+      "moveDown": "Mover hacia abajo",
+      "moveUp": "Mover hacia arriba",
+      "remove": "Eliminar criterio",
+      "titleAria": "Título del criterio {n}",
+      "titlePlaceholder": "Título del criterio (por ejemplo: precisión científica)",
+      "total": "Puntuación total: {total}"
+    },
+    "err": {
+      "criterionPointsInvalid": "La puntuación máxima del criterio {n} debe ser un número entero y al menos 1.",
+      "criterionTitleEmpty": "El título del criterio {n} no puede estar vacío.",
+      "invalid": "La información de la rúbrica no es válida; comprueba los criterios y las puntuaciones.",
+      "levelLabelEmpty": "La etiqueta de nivel en el criterio {n} no puede estar vacía.",
+      "levelPointsRange": "Las puntuaciones de los niveles del criterio {n} deben estar entre cero y la puntuación máxima de dicho criterio.",
+      "noCriteria": "Cada rúbrica debe tener al menos un criterio.",
+      "notFound": "Esta sección no se encontró o no es de tipo «respuesta abierta».",
+      "nothingToDelete": "No hay ninguna rúbrica para eliminar.",
+      "peersRange": "El número de evaluadores pares debe estar entre {min} y {max}.",
+      "titleRequired": "El título de la rúbrica es obligatorio.",
+      "titleTooLong": "El título de la rúbrica no debe superar los {max} caracteres."
+    },
+    "fields": {
+      "description": "Descripción",
+      "descriptionPlaceholder": "Una breve descripción de lo que se espera del alumno.",
+      "mode": "Modo de evaluación",
+      "optional": "(opcional)",
+      "peers": "Número de evaluadores pares por cada respuesta",
+      "peersHelper": "Cada respuesta es evaluada por un máximo de {n} alumnos más (de forma anónima).",
+      "title": "Título de la rúbrica",
+      "titlePlaceholder": "Por ejemplo: Rúbrica de evaluación de tarea analítica"
+    },
+    "help": {
+      "body1": "La sección de «respuesta abierta» es una tarea: el alumno envía una respuesta en texto (y un archivo si es necesario) y tú la calificas basándote en una",
+      "body2": "Asignas puntuaciones. Una rúbrica es una lista de",
+      "body3": "; cada criterio tiene un título y una «puntuación máxima», y también puedes definir varios «niveles descriptivos» para cada criterio (por ejemplo: excelente / bueno / deficiente con la puntuación correspondiente). A continuación,",
+      "body4": "selecciona: «Profesor» (tú calificas en la cola de calificación), «Autoevaluación» (el alumno se evalúa a sí mismo) o «Evaluación por pares» (otros alumnos califican de forma anónima). La puntuación total se calcula automáticamente.",
+      "strong1": "rúbrica (rubric)",
+      "strong2": "Criterios",
+      "strong3": "Modo de evaluación",
+      "title": "Creación de la «rúbrica de evaluación» para respuesta abierta"
+    },
+    "levels": {
+      "add": "Añadir nivel descriptivo",
+      "labelAria": "Etiqueta del nivel {n} del criterio {c}",
+      "labelPlaceholder": "Etiqueta de nivel (ej.: Excelente)",
+      "pointsAria": "Puntuación del nivel {n} del criterio {c}",
+      "remove": "Eliminar nivel"
+    },
+    "loading": "Cargando la rúbrica de evaluación…"
+  },
+  "shared": {
+    "authorFallback": "Profesor del mercado de conocimiento",
+    "card": {
+      "cart": {
+        "add": "Añadir al carrito",
+        "addButton": "Añadir al carrito",
+        "inCartButton": "En el carrito",
+        "loginPrompt": "Inicia sesión para añadir al carrito",
+        "remove": "Eliminar del carrito",
+        "toggleError": "No se pudo actualizar el carrito."
+      },
+      "cover": {
+        "alt": "Imagen de portada del curso {title}"
+      },
+      "enrollmentCount": "{count, plural, =0 {0 estudiantes} one {# estudiante} many {# estudiantes} other {# estudiantes}}",
+      "price": {
+        "free": "Gratis",
+        "unpriced": "Sin precio",
+        "unpricedTitle": "Aún sin precio"
+      },
+      "rating": {
+        "ariaBase": "Calificación {rating} de 5",
+        "ariaWithCount": "{count, plural, =0 {Calificación {rating} de 5 basada en 0 opiniones} one {Calificación {rating} de 5 basada en # opinión} many {Calificación {rating} de 5 basada en # opiniones} other {Calificación {rating} de 5 basada en # opiniones}}",
+        "noRating": "Sin calificación"
+      },
+      "wishlist": {
+        "add": "Añadir a la lista de deseos",
+        "loginPrompt": "Inicia sesión para guardar en la lista de deseos",
+        "remove": "Eliminar de la lista de deseos",
+        "savedButton": "En la lista de deseos",
+        "toggleError": "No se pudo actualizar la lista de deseos."
+      }
+    },
+    "certField": {
+      "author_name": "Nombre del profesor",
+      "course_title": "Título del curso",
+      "issued_date": "Fecha de emisión",
+      "qr": "Código QR",
+      "serial": "Código del certificado",
+      "student_name": "Nombre del estudiante",
+      "verify_url": "URL de verificación"
+    },
+    "contentType": {
+      "audio": "Audio",
+      "document": "Documento",
+      "h5p": "Interactivo (H5P)",
+      "link": "Enlace",
+      "open_response": "Respuesta abierta",
+      "quiz": "Cuestionario",
+      "richtext": "Texto enriquecido",
+      "slide": "Diapositiva",
+      "video": "Vídeo"
+    },
+    "delivery": {
+      "blended": "Mixto",
+      "live": "En directo",
+      "self_paced": "A su propio ritmo"
+    },
+    "duration": {
+      "hoursMinutes": "{h, plural, one {# hora} many {# horas} other {# horas}} y {m, plural, one {# minuto} many {# minutos} other {# minutos}}",
+      "hoursOnly": "{h, plural, one {# hora} many {# horas} other {# horas}}",
+      "minutesOnly": "{m, plural, one {# minuto} many {# minutos} other {# minutos}}"
+    },
+    "genericError": "La operación ha fallado",
+    "language": {
+      "all": "Todos los idiomas",
+      "ar": "Árabe",
+      "en": "Inglés",
+      "fa": "Persa"
+    },
+    "level": {
+      "advanced": "Avanzado",
+      "all": "Todos los niveles",
+      "beginner": "Principiante",
+      "intermediate": "Intermedio"
+    },
+    "lock": {
+      "default": "Esta lección está bloqueada por ahora.",
+      "prerequisite": "Para desbloquearla, complete primero la lección de requisitos previos.",
+      "requiredAssessment": "Para desbloquear este nivel, apruebe primero la evaluación obligatoria del nivel anterior.",
+      "scoreFallback": "Requerido",
+      "scoreUnlockNoQuiz": "Se desbloquea tras obtener una puntuación mínima de {min} en la evaluación anterior.",
+      "scoreUnlockWithQuiz": "Se desbloquea tras obtener una puntuación mínima de {min} en la evaluación «{quiz}».",
+      "shortDefault": "Bloqueado",
+      "shortPrerequisite": "Prerrequisito bloqueado",
+      "shortRequiredAssessment": "Evaluación bloqueada",
+      "shortScoreUnlock": "Puntuación bloqueada",
+      "shortTimeRelease": "Liberación por tiempo",
+      "timeReleaseNoDate": "Esta lección se desbloqueará a su debido tiempo.",
+      "timeReleaseWithDate": "Esta lección se desbloqueará a partir de la fecha {date}."
+    },
+    "money": {
+      "rialUnit": "Rial"
+    },
+    "payMethod": {
+      "free": "Gratis",
+      "gateway": "Pasarela de pago",
+      "wallet": "Monedero"
+    },
+    "priceChip": {
+      "free": "Gratis"
+    },
+    "priceFilter": {
+      "all": "Todos los precios",
+      "freeOnly": "Solo gratis",
+      "lte10m": "Hasta 10 millones de riales",
+      "lte1m": "Hasta 1 millón de riales",
+      "lte50m": "Hasta 50 millones de riales",
+      "lte5m": "Hasta 5 millones de riales"
+    },
+    "pricingModel": {
+      "free": "Gratis",
+      "one_time": "Compra única"
+    },
+    "purchaseStatus": {
+      "completed": "Completado",
+      "pending": "Pendiente de pago",
+      "refunded": "Reembolsado"
+    },
+    "requiredGate": {
+      "attemptsExhausted": "No quedan intentos — ponte en contacto con el soporte del curso para revisarlo",
+      "attemptsRemaining": "{count, plural, one {# intento restante} many {# intentos restantes} other {# intentos restantes}}",
+      "currentGrade": "Tu calificación actual: {grade}",
+      "head": "Para desbloquear el siguiente nivel: examen «{title}» con una nota de ≥{passPercent}",
+      "shortExhausted": "Sin intentos",
+      "shortFailed": "No aprobado",
+      "shortNotTaken": "No realizado",
+      "shortPassed": "Aprobado"
+    },
+    "sort": {
+      "newest": "Más reciente",
+      "popular": "Más popular",
+      "rating": "Mayor puntuación"
+    },
+    "status": {
+      "approved": "Aprobado",
+      "archived": "Archivado",
+      "changes_requested": "Cambios solicitados",
+      "draft": "Borrador",
+      "in_review": "En revisión",
+      "published": "Publicado",
+      "rejected": "Rechazado",
+      "suspended": "Suspendido"
+    },
+    "translationBadge": {
+      "machine": "Traducción automática",
+      "pending": "En preparación",
+      "stale": "Necesita actualización"
+    }
+  },
+  "translationTab": {
+    "empty": "Todavía no se han registrado campos para traducir. Las filas aparecerán aquí una vez que se completen los temas y se publique el curso.",
+    "entity": {
+      "MarketCourse": "Curso",
+      "MarketLesson": "Lección",
+      "MarketModule": "Módulo",
+      "MarketSection": "Sección"
+    },
+    "field": {
+      "description": "Descripción",
+      "learningObjectives": "Objetivos de aprendizaje",
+      "prerequisites": "Prerrequisitos",
+      "targetAudience": "Público objetivo",
+      "title": "Título"
+    },
+    "intro": "El texto en persa a la derecha es la fuente. Cualquier edición manual marca esa fila como «revisada» y el motor de traducción ya no la sobrescribirá.",
+    "loadError": "No se pudieron cargar las traducciones.",
+    "loading": "Cargando…",
+    "retranslate": "Volver a traducir",
+    "retranslateCancel": "Cancelar",
+    "retranslateConfirm": "{count, plural, one {Tienes # fila revisada.} many {Tienes # filas revisadas.} other {Tienes # filas revisadas.}} Volver a traducirlas mediante máquina sobrescribirá los cambios. ¿Deseas continuar?",
+    "retranslateConfirmYes": "Sí, sobrescribir",
+    "retranslateQueued": "El curso se ha añadido a la cola de traducción.",
+    "save": "Guardar",
+    "saveError": "No se pudo guardar.",
+    "saved": "Guardado",
+    "saving": "Guardando…",
+    "sourceColumn": "Texto en persa",
+    "status": {
+      "failed": "Error",
+      "machine": "Automática",
+      "missing": "Sin traducir",
+      "pending": "Pendiente",
+      "reviewed": "Revisada",
+      "stale": "Desactualizada"
+    },
+    "summary": "{done} de {total} campos traducidos",
+    "tabLabel": "Traducción al árabe",
+    "targetColumn": "Texto en árabe",
+    "title": "Traducción al árabe del contenido del curso"
+  },
+  "viewers": {
+    "audio": {
+      "exhaustedMessage": "No se pudo reproducir: descarga para escuchar.",
+      "preparing": "Preparando audio…",
+      "unavailable": "El audio no está disponible."
+    },
+    "book": {
+      "ariaLabel": "Vista de libro",
+      "exitButton": "Volver a la vista de desplazamiento",
+      "nextPageAriaLabel": "Página siguiente",
+      "ofTotal": "de {total}",
+      "pageAlt": "Página {n}",
+      "pageLoadFailed": "No se pudo cargar la página {n}.",
+      "pageNumberInputAriaLabel": "Número de página",
+      "prevPageAriaLabel": "Página anterior",
+      "rangeAriaLabel": "Navegación de páginas",
+      "retry": "Reintentar",
+      "roleDescription": "Libro",
+      "spreadStatusPair": "Páginas {right} y {left} de {total}",
+      "spreadStatusSingle": "Página {current} de {total}"
+    },
+    "captions": {
+      "loadFailedError": "No se pudieron cargar los subtítulos.",
+      "tooLargeError": "El archivo de subtítulos es demasiado grande."
+    },
+    "chapters": {
+      "count": "{count, plural, one {(# capítulo)} many {(# capítulos)} other {(# capítulos)}}",
+      "title": "Capítulos del vídeo"
+    },
+    "common": {
+      "download": "Descargar",
+      "downloadFile": "Descargar archivo",
+      "fullscreen": "Pantalla completa",
+      "loadingDefault": "Cargando contenido…",
+      "retry": "Reintentar"
+    },
+    "doc": {
+      "preparing": "Preparando documento…",
+      "previewFailedMessage": "No se pudo mostrar la vista previa — descárgalo para verlo.",
+      "unavailable": "El documento no está disponible."
+    },
+    "link": {
+      "externalResourceTitle": "Recurso externo",
+      "leavePlatformWarning": "Al abrir este enlace saldrás de la plataforma. Verifica el destino antes de continuar.",
+      "noUrlMessage": "No hay ningún enlace registrado para esta sección.",
+      "openInNewTab": "Abrir en una pestaña nueva"
+    },
+    "panel": {
+      "durationMinutes": "{count, plural, one {# minuto} many {# minutos} other {# minutos}}",
+      "freePreviewBadge": "Vista previa gratuita",
+      "helpNoteBody": "Esta página muestra el contenido del curso exactamente como lo ve el estudiante. Selecciona una sección de la lista lateral para ver su contenido (vídeo, diapositiva, documento, audio, texto, enlace, cuestionario o contenido interactivo H5P). Para volver a la edición, utiliza el botón «Volver a la edición».",
+      "helpNoteTitle": "Vista previa desde la perspectiva del estudiante"
+    },
+    "quiz": {
+      "description": "Esta sección contiene un cuestionario. Accede a él para realizarlo.",
+      "enterButton": "Entrar al cuestionario",
+      "noExamMessage": "No hay ningún cuestionario vinculado a esta sección.",
+      "sectionTitle": "Cuestionario de esta sección"
+    },
+    "raster": {
+      "bookViewButton": "Vista de libro",
+      "bookViewPreparing": "Preparando la vista de libro…",
+      "footerNote": "{kind} — Vista previa de imagen del servidor. Puedes descargarlo para verlo por completo.",
+      "kindDocument": "Documento",
+      "kindSlide": "Diapositiva",
+      "pageAlt": "Página {n}",
+      "pageCountLabel": "{count, plural, one {# página} many {# páginas} other {# páginas}}",
+      "preparingPreview": "Preparando la vista previa de imagen de {kind}…",
+      "zoomInAriaLabel": "Ampliar",
+      "zoomOutAriaLabel": "Reducir",
+      "zoomPercent": "{zoom}%"
+    },
+    "richtext": {
+      "emptyMessage": "No hay texto registrado para esta sección."
+    },
+    "sectionViewer": {
+      "missingFileMessage": "No se ha subido ningún archivo para esta sección.",
+      "unsupportedTypeMessage": "El tipo de contenido «{typeLabel}» no es compatible."
+    },
+    "sprite": {
+      "previewAndJumpTitle": "Vista previa y salto"
+    },
+    "textDoc": {
+      "footerNote": "Documento de texto — Puedes descargarlo para verlo por completo.",
+      "renderFailedMessage": "No se pudo mostrar el documento. Puede descargar el archivo."
+    },
+    "transcript": {
+      "empty": "No hay transcripción disponible para este video.",
+      "loading": "Cargando transcripción…",
+      "segmentCount": "{count, plural, one {(# sección)} many {(# secciones)} other {(# secciones)}}",
+      "title": "Transcripción del video"
+    },
+    "video": {
+      "captionLanguageLabel": "Idioma de los subtítulos",
+      "captionsButton": {
+        "offLabel": "Subtítulos: desactivados",
+        "onLabel": "Subtítulos: activados",
+        "turnOffTitle": "Desactivar subtítulos",
+        "turnOnTitle": "Activar subtítulos"
+      },
+      "exhaustedMessage": "No se pudo reproducir el video — descárguelo para verlo.",
+      "machineTranslatedBadge": "Traducción automática",
+      "machineTranslatedSuffix": " — Traducción automática",
+      "machineTranslatedTooltip": "Estos subtítulos son una traducción automática y pueden contener errores.",
+      "persianCaptionLabel": "Persa",
+      "playbackRateAriaLabel": "Velocidad de reproducción del video",
+      "playbackRateLabel": "Velocidad de reproducción",
+      "preparing": "Preparando video…",
+      "unavailable": "El video no está disponible."
+    }
+  }
+}

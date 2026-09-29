@@ -1,0 +1,43 @@
+{
+  "vista": {
+    "head": {
+      "title": "عن فيستا",
+      "description": "فيستا، الشريك التقني ومالك حقوق هذه المنصة — الخدمات، معمارية الذكاء الاصطناعي، المنظومة والمعلومات الرسمية للشركة."
+    },
+    "hero": {
+      "eyebrow": "الشريك التقني · TECHNOLOGY PARTNER",
+      "ownershipPrefix": "{platform} هو أحد منتجات هذه الشركة؛ و{role} هذه المنصة هو ",
+      "ownershipSuffix": "، وله جميع الحقوق المادية والمعنوية لها.",
+      "siteLinkLabel": "الموقع الرسمي لفيستا ↗",
+      "aboutLinkLabel": "عن {name}"
+    },
+    "sections": {
+      "overview": {
+        "eyebrow": "نظرة عامة · OVERVIEW",
+        "title": "من الفكرة المتناثرة إلى المنتج: عملية وقرار قابل للاستخدام"
+      },
+      "services": {
+        "eyebrow": "الخدمات · SERVICES",
+        "title": "من معمارية الذكاء الاصطناعي إلى منتج جاهز للتشغيل"
+      },
+      "architecture": {
+        "eyebrow": "المعمارية · AGENTIC + RAG",
+        "title": "نموذج لغوي ومعرفة مؤسسية وأدوات ومراجعة بشرية في معمارية واحدة"
+      },
+      "ecosystem": {
+        "eyebrow": "المنظومة · ECOSYSTEM",
+        "title": "AI والمعرفة وهندسة المنتج في مدار واحد"
+      },
+      "official": {
+        "eyebrow": "المعلومات الرسمية · OFFICIAL",
+        "title": "مجلس الإدارة وطرق التواصل"
+      }
+    },
+    "ecosystem": {
+      "viewSiteLabel": "زيارة الموقع ↗"
+    },
+    "official": {
+      "regNoLabel": "رقم التسجيل: "
+    }
+  }
+}

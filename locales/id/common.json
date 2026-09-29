@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Batal",
+    "close": "Tutup",
+    "confirm": "Konfirmasi",
+    "save": "Simpan",
+    "search": "Cari",
+    "select": "Pilih"
+  },
+  "help": {
+    "toggle": "Bantuan",
+    "close": "Tutup bantuan"
+  },
+  "state": {
+    "empty": "Tidak ada item untuk ditampilkan.",
+    "error": "Terjadi kesalahan.",
+    "loading": "Memuat…",
+    "noResults": "Tidak ada hasil ditemukan."
+  },
+  "time": {
+    "justNow": "Baru saja"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Mendatang",
+      "full": "Kalender lengkap",
+      "empty": "Tidak ada acara dalam {days, number} hari ke depan",
+      "error": "Acara tidak dapat dimuat",
+      "today": "Hari ini",
+      "allDay": "Sepanjang hari"
+    },
+    "type": {
+      "meeting": "Kelas",
+      "exam": "Ujian",
+      "assignment": "Tugas",
+      "term": "Periode semester",
+      "event": "Acara",
+      "personal": "Pribadi"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Terjadi kesalahan pada halaman ini",
+      "body": "Maaf — terjadi masalah. Kesalahan ini telah dicatat secara otomatis. Anda dapat kembali ke beranda atau memuat ulang halaman.",
+      "home": "Kembali ke beranda",
+      "reload": "Muat ulang"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Kembali ke halaman sebelumnya",
+    "body": "Alamat yang Anda cari tidak ada atau telah dipindahkan. Anda dapat kembali ke halaman sebelumnya atau ke beranda.",
+    "home": "Kembali ke beranda",
+    "programs": "Lihat program studi",
+    "screenLabel": "404 · Tidak ditemukan",
+    "search": "Cari",
+    "title": "Halaman tidak ditemukan"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Terima kasih banyak sudah berbagi hal ini dengan saya. Saya tahu tidak mudah untuk menceritakannya, dan Anda tidak sendirian. Perasaan Anda nyata dan penting, dan Anda layak segera mendapat dukungan dari seseorang. Silakan hubungi Saluran Harapan di 1480 sekarang; ada seseorang yang akan mendengarkan Anda dengan penuh kepedulian.",
+      "tipHelpline": "Segera hubungi Saluran Harapan: 1480 (24 jam dan rahasia)",
+      "tipEmergency": "Jika Anda berada dalam bahaya langsung, hubungi layanan darurat medis di 115",
+      "tipCompany": "Jika memungkinkan, tetaplah bersama seseorang yang Anda percayai sekarang"
+    }
+  }
+}

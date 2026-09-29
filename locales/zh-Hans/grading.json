@@ -1,0 +1,317 @@
+{
+  "queue": {
+    "actions": {
+      "close": "关闭"
+    },
+    "activity": {
+      "ariaLabel": "学生动态 — {person}",
+      "buttonLabel": "动态",
+      "buttonTitle": "查看详细的学生动态",
+      "close": "关闭",
+      "title": "学生动态详情"
+    },
+    "ai": {
+      "applied": "已应用 AI 草稿 — 此为建议，需您进行人工审核。",
+      "busy": "正在获取…",
+      "button": "AI 草稿",
+      "buttonTitle": "获取 AI 评分和反馈建议（需人工审核）",
+      "error": "获取 AI 草稿时出错",
+      "unstructured": "已收到 AI 草稿，但未包含结构化评分/反馈，请手动检查。"
+    },
+    "answers": {
+      "attachmentMeta": "{size, number} KB · 下载",
+      "attachments": "附件",
+      "empty": "暂无可显示的回答。",
+      "loading": "正在加载回答…",
+      "questionPoints": "{points, number} 分",
+      "submittedText": "提交的回答",
+      "title": "学生回答"
+    },
+    "breadcrumb": "批改 · 评分队列",
+    "checklist": {
+      "doneLabel": "批改队列已完成",
+      "doneReason": "评分队列中没有其他待办项了。",
+      "grade": "批改待处理的作业",
+      "nextLabel": "打开下一项进行批改",
+      "pick": "选择要批改的测验"
+    },
+    "detail": {
+      "autoScore": "· 自动评分：{score, number}"
+    },
+    "error": {
+      "loadAnswers": "加载回答时出错",
+      "loadAssessments": "加载评测时出错",
+      "loadSubmissions": "加载提交内容时出错",
+      "saveGrade": "保存成绩时出错"
+    },
+    "feedback": {
+      "label": "学生反馈",
+      "placeholder": "请写下优点、问题以及改进建议…"
+    },
+    "filter": {
+      "all": "全部",
+      "aria": "状态筛选",
+      "graded": "已批改",
+      "pending": "待批改"
+    },
+    "grade": {
+      "title": "成绩与反馈"
+    },
+    "help": {
+      "body": "请先选择一项评测（测验或作业）以查看学生提交的内容。点击“批改”查看回答、给出评分（0 到 100）并添加反馈；如果需要，您还可以借助“AI 草稿”。",
+      "title": "批改队列帮助"
+    },
+    "kind": {
+      "assignment": "作业",
+      "quiz": "测验"
+    },
+    "kpi": {
+      "graded": "已批改",
+      "pending": "待批改",
+      "total": "作业总数"
+    },
+    "list": {
+      "autoScore": "自动分数：{score, number}",
+      "emptyAllGraded": "没有待批改的作业 — 所有作业均已检查完毕。",
+      "emptyFilter": "未找到符合此筛选条件的作业。",
+      "emptyNone": "本次评估尚无提交的作业。",
+      "loading": "正在加载作业…",
+      "recordedScore": "已记录分数：{score, number} / 100"
+    },
+    "meta": {
+      "totalPoints": "· 总分：{points, number}"
+    },
+    "notFinal": "该作业尚未最终提交（草稿状态），无法批改。",
+    "panel": {
+      "ariaLabel": "批改作业 — {person}",
+      "title": "批改作业"
+    },
+    "row": {
+      "editGrade": "修改分数",
+      "grade": "批改",
+      "view": "查看"
+    },
+    "rubric": {
+      "applyLabel": "应用评分规则（可选）",
+      "criterionFallback": "标准",
+      "criterionScoreAria": "标准“{criterion}”的分数，满分 {max}",
+      "finalScore": "最终得分：",
+      "hint": "请为每个标准打分；最终得分将根据各项标准总和计算并转换为百分比（0 至 100）。",
+      "levelFallback": "级别",
+      "none": "— 无评分规则（自由评分） —",
+      "of": "/",
+      "outOf100": "/ 100",
+      "outOfMax": "/ {max, number}",
+      "scoreLabel": "使用评分规则评分",
+      "sum": "总计："
+    },
+    "save": {
+      "action": "保存分数",
+      "busy": "正在保存…",
+      "needFinalTitle": "作业必须已最终提交",
+      "needScoreTitle": "请先输入分数",
+      "title": "保存分数"
+    },
+    "score": {
+      "aria": "满分 100 的分数",
+      "hint": "最终分数以百分比形式记录（0 至 100）。",
+      "label": "分数（0 至 100）",
+      "outOf100": "/ 100",
+      "placeholder": "0"
+    },
+    "search": {
+      "aria": "搜索学员",
+      "placeholder": "搜索学生姓名或 ID…"
+    },
+    "select": {
+      "empty": "暂无已发布的评分作业。",
+      "label": "选择作业（测验/作业）",
+      "loading": "正在加载作业…"
+    },
+    "status": {
+      "draft": "草稿",
+      "graded": "已评分",
+      "submitted": "待批改"
+    },
+    "subtitle": "请选择一项作业以查看学生提交的作业、检查答案并记录分数和反馈。",
+    "title": "批改队列",
+    "toast": {
+      "gradeSaved": "分数已保存",
+      "queueDone": "批改队列已完成",
+      "remaining": "{count, plural, other {批改队列中还有 # 项}}"
+    }
+  },
+  "submission": {
+    "actions": {
+      "announce": "暂行公布给学生",
+      "blockedByObjections": "{count, plural, other {在处理完 # 个未结异议之前，无法进行最终提交。}}",
+      "components": "设置分数组成部分",
+      "finalize": "最终提交成绩",
+      "import": "从测验中导入成绩",
+      "saveDraft": "保存草稿",
+      "taNote": "最终成绩由课程教师提交；您的评分将作为草稿保存给教师。"
+    },
+    "announce": {
+      "deadlineAria": "异议截止日期",
+      "deadlineFuture": "异议截止日期必须是将来的时间。",
+      "deadlineInvalid": "输入的日期无效。",
+      "deadlineLabel": "异议截止日期",
+      "deadlineRequired": "请设置异议截止日期。",
+      "dialogBody": "通过暂行公布，学生可以查看自己的分数，并且可以在截止日期前提交异议。",
+      "dialogSubmit": "暂行公布",
+      "dialogTitle": "暂行公布成绩"
+    },
+    "back": "返回课程列表",
+    "breadcrumb": {
+      "instructor": "教学 · 教师",
+      "ta": "教学 · 助教"
+    },
+    "chip": {
+      "announced": "已公布",
+      "draft": "草稿",
+      "finalized": "已定稿",
+      "noSheet": "无表格",
+      "objectionDeadline": "异议截止日期：{date}"
+    },
+    "components": {
+      "add": "+ 添加组成部分",
+      "assignAria": "{title} 的分数组成部分",
+      "assignEmpty": "该课程没有已发布的测验。",
+      "assignNone": "— 无组成部分 —",
+      "assignTitle": "将测验分配到组成部分",
+      "dialogSubmit": "保存",
+      "dialogTitle": "设置成绩组成部分及权重",
+      "fallbackTitle": "部分",
+      "introLead": "每个组成部分（如期中、期末、作业）都有一个权重；总权重最好为 100。然后将每个测验分配到一个组成部分。此设置位于",
+      "introRest": "级别，并且对该课程的所有分组通用。",
+      "introStrong": "课程",
+      "loading": "正在加载…",
+      "percentSign": "%",
+      "removeAria": "删除 {title}",
+      "saved": "成绩组成部分及权重已保存。",
+      "titleAria": "成绩组成部分标题",
+      "titlePlaceholder": "组成部分标题（例如：期中）",
+      "titleRequired": "请填写所有组成部分的标题。",
+      "untitled": "无标题",
+      "weightAria": "{title} 的权重",
+      "weightInvalid": "“{title}”的权重必须是 0 到 100 之间的整数。",
+      "weightSumLabel": "总权重：{percent}",
+      "weightSumNote": "（不等于 100 — 计算时将按权重比例归一化）"
+    },
+    "correct": {
+      "busy": "正在提交…",
+      "cancel": "取消",
+      "failed": "修改成绩失败。",
+      "gradeAria": "{person} 的修改后成绩",
+      "gradeRange": "修改后的成绩必须是 0 到 20 之间的数字。",
+      "open": "修改",
+      "openAria": "修改 {person} 的成绩",
+      "reasonAria": "修改成绩的原因",
+      "reasonPlaceholder": "修改原因（必填）",
+      "reasonRequired": "必须填写修改成绩的原因。",
+      "submit": "提交修改",
+      "success": "成绩修改成功，并已记录在修改历史中。"
+    },
+    "detail": {
+      "adminCorrectionNote": "作为系统管理员，您可以在特殊情况下通过填写原因来修改成绩；每次修改都会记录在历史中。",
+      "finalizedBadge": "已定稿",
+      "finalizedNote": "— 本课程的成绩已定稿并锁定，无法再行更改。",
+      "loading": "正在加载…",
+      "objectionDeadline": "学生申诉截止日期：{date}"
+    },
+    "dialog": {
+      "cancel": "取消",
+      "close": "关闭"
+    },
+    "empty": {
+      "instructor": "在当前学期中，未分配给您任何作为授课教师录入成绩的班级。如果您期望的课程未显示在此处，请联系教务管理部门。",
+      "ta": "作为助教，当前学期未分配给您任何用于录入草稿成绩的班级。此分配由课程教师或教务管理部门进行。",
+      "title": "未分配用于录入成绩的课程"
+    },
+    "error": {
+      "generic": "发生错误"
+    },
+    "finalize": {
+      "confirmLead": "正式提交后，“{course}”的成绩",
+      "confirmRest": "将无法再修改；成绩将计入学生的成绩单。是否继续？",
+      "confirmStrong": "将被锁定",
+      "dialogSubmit": "正式提交",
+      "dialogTitle": "正式提交成绩"
+    },
+    "help": {
+      "instructorBody": "请先选择课程。输入成绩并点击“暂存”；通过“暂时公布”，学生可以查看成绩并在规定期限内提出异议。处理完所有未结异议后，“正式提交”将锁定成绩并将其计入成绩单。",
+      "taLead": "作为助教，您只能看到分配给您的班级。输入成绩并“暂存”，以便以草稿形式提交给授课教师。",
+      "taRest": "且在此页面上对您不可用。",
+      "taStrong": "正式提交（最终确定）成绩仅限授课教师操作",
+      "titleInstructor": "成绩提交指南",
+      "titleTa": "草稿成绩提交指南"
+    },
+    "import": {
+      "calculating": "正在计算…",
+      "dialogSubmit": "应用为草稿",
+      "dialogTitle": "从测验导入成绩",
+      "draftRest": "；审核、“公布”和“正式提交”由您负责。",
+      "draftStrong": "草稿",
+      "introLead": "每个学生的总成绩将根据该课程已评分的测验计算得出，并转换为 0 到 20 的分值（及格线：{passMark, number}）。这仅是一个",
+      "noComponentsNote": "未设置成绩组成部分；将使用所有测验的简单平均值。如需加权，请先进行“设置成绩组成部分”。",
+      "noData": "无数据",
+      "overwriteLabel": "覆盖之前输入的成绩（默认：仅填充空白行）",
+      "resultNoData": "{count, plural, one { · # 名学生无测验数据} other { · # 名学生无测验数据}}",
+      "resultSkipped": "{count, plural, one { · # 个现有成绩保持未修改} other { · # 个现有成绩保持未修改}}",
+      "resultWritten": "{count, plural, one {从测验导入成绩：已将 # 个成绩保存为草稿} other {从测验导入成绩：已将 # 个成绩保存为草稿}}",
+      "tableCurrent": "当前成绩",
+      "tablePercent": "总百分比",
+      "tableProposed": "建议成绩",
+      "tableStudent": "学生",
+      "unassignedNote": "{count, plural, one {# 个测验未分配到任何组成部分，未计入计算。} other {# 个测验未分配到任何组成部分，未计入计算。}}",
+      "weightSumNote": "权重总和为 {percent}（而非 100%）；计算将根据现有权重进行归一化。"
+    },
+    "list": {
+      "enrolled": "{count, plural, one {# 名学生} other {# 名学生}}"
+    },
+    "loading": "正在加载…",
+    "objection": {
+      "hasBadge": "⚠️ 有",
+      "instructorReplyLabel": "教师回复：",
+      "replyAria": "回复 {person} 的异议",
+      "replyPlaceholder": "教师回复…",
+      "replyRequired": "请填写回复内容。",
+      "replySaved": "异议回复已保存。",
+      "replySubmit": "提交回复"
+    },
+    "roster": {
+      "empty": "本课程暂无学生注册。",
+      "gradeAria": "{person} 的成绩"
+    },
+    "sheet": {
+      "announcedAt": " · 公布于 {date}"
+    },
+    "subtitle": {
+      "instructor": "暂存、向学生公布成绩、处理申诉以及提交期末总成绩。",
+      "ta": "录入您所分配班级的成绩草稿。成绩的最终提交权归授课教师所有。"
+    },
+    "summary": {
+      "enteredGrades": "已录入成绩",
+      "openObjections": "未处理的申诉",
+      "students": "学生"
+    },
+    "table": {
+      "grade": "成绩（0 至 20）",
+      "objection": "申诉",
+      "student": "学生"
+    },
+    "title": {
+      "instructor": "成绩录入",
+      "ta": "成绩草稿录入"
+    },
+    "toast": {
+      "announced": "成绩已暂行公布；学生可在截止日期前提交申诉。",
+      "draftSaved": "{count, plural, other {已暂存 # 名学生的成绩。}}",
+      "finalized": "本课程成绩已最终确定。"
+    },
+    "validate": {
+      "gradeRange": "“{person}”的成绩必须是 0 到 20 之间的数字。",
+      "noGrades": "尚未录入任何成绩。"
+    }
+  }
+}

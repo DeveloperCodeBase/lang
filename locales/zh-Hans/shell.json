@@ -1,0 +1,948 @@
+{
+  "auth": {
+    "login": "登录",
+    "register": "注册"
+  },
+  "banner": {
+    "dismissAria": "关闭提醒",
+    "phoneUnverified": "您的手机号码尚未验证——完成注册、钱包支付和领取证书需要验证手机号码。",
+    "verifyPhone": "验证手机号"
+  },
+  "bottomNav": {
+    "aria": "底部导航",
+    "slot": {
+      "admin": "管理",
+      "analytics": "分析",
+      "appointments": "预约",
+      "assessCenter": "评估中心",
+      "assessorConsole": "评估员控制台",
+      "audit": "审计",
+      "catalog": "目录",
+      "child": "子项",
+      "classroom": "教室",
+      "content": "内容",
+      "courses": "课程",
+      "credential": "证书",
+      "crisis": "紧急",
+      "departments": "部门",
+      "discussions": "讨论",
+      "grades": "成绩",
+      "help": "帮助",
+      "home": "首页",
+      "liveClass": "直播课",
+      "membershipQueue": "成员队列",
+      "messages": "消息",
+      "more": "更多",
+      "myCourses": "我的课程",
+      "offerings": "开课",
+      "payroll": "薪酬",
+      "reports": "报告",
+      "review": "复习",
+      "schools": "学校",
+      "students": "学员",
+      "tickets": "工单",
+      "treasury": "资金",
+      "tutor": "导师",
+      "users": "用户",
+      "profile": "个人资料"
+    }
+  },
+  "brand": {
+    "markSubtitle": "智能学习平台",
+    "platformKind": "基于多智能体架构（Multi-Agent Architecture）的智能学习平台（Intelligent Learning Platform – ILP）",
+    "copyrightYear": "1405"
+  },
+  "breadcrumb": {
+    "about": "关于我们",
+    "achievements": "成就",
+    "adaptivePath": "自适应路径",
+    "addDrop": "选退课",
+    "admin": "管理台",
+    "admissions": "学生招生",
+    "agents": "智能助手",
+    "aiGovernance": "AI 治理",
+    "aiUsage": "人工智能用量",
+    "alumni": "校友",
+    "analytics": "分析",
+    "analyticsAdmin": "管理分析",
+    "applications": "入学申请",
+    "assess": "能力评估",
+    "assessCenter": "评估中心",
+    "assessment": "考试",
+    "assessmentBuilder": "试卷生成器",
+    "assessmentLive": "实时考试",
+    "assignments": "作业",
+    "attendance": "考勤",
+    "audit": "审计报告",
+    "authoring": "作品工作室",
+    "autoRules": "自动化规则",
+    "bookmarks": "书签",
+    "broadcast": "公告",
+    "bulkEnroll": "批量注册",
+    "calendar": "日历",
+    "candidate": "候选人",
+    "capabilitiesStatus": "功能状态",
+    "career": "职业服务",
+    "catalog": "课程目录",
+    "checkout": "订阅支付",
+    "claims": "课时费",
+    "classAnalytics": "班级分析",
+    "classroom": "直播课",
+    "clearance": "离校结算",
+    "cognitiveProfile": "认知画像",
+    "cohorts": "注册班级",
+    "commission": "特别事项审议会",
+    "community": "社区",
+    "communityModeration": "社区审核",
+    "content": "内容",
+    "contentAnalytics": "内容分析",
+    "contentReview": "内容审查",
+    "copilot": "曺能助手",
+    "counselingAppointments": "咨询预约",
+    "counselor": "咨询工作台",
+    "counselorCaseload": "咨询案件",
+    "counselorInbox": "咨询收件箱",
+    "course": "课程",
+    "courseContent": "课程内容",
+    "courseLive": "课程直播",
+    "courses": "课程",
+    "credential": "诅书",
+    "crisisQueue": "紧急队列",
+    "curriculumBuilder": "课程结构",
+    "dashboard": "控制台",
+    "decrees": "人事决定",
+    "degreeAudit": "学位审核",
+    "degreePolicies": "学位政策",
+    "departments": "系所",
+    "directory": "成员录差",
+    "earnings": "我的收入",
+    "enrollments": "注册管理",
+    "events": "活动",
+    "exam": "考试室",
+    "exercise": "练习",
+    "faculties": "学院",
+    "faculty": "教职员",
+    "facultyDashboard": "学院工作台",
+    "facultyReports": "学院报告",
+    "finance": "财务",
+    "financialAid": "财政助学",
+    "flaggedReports": "已标记报告",
+    "forgot": "重置密码",
+    "gradeSubmission": "成绩提交",
+    "gradebook": "成绩单",
+    "grades": "成绩",
+    "gradingQueue": "批改队列",
+    "hackathons": "黑客马拉松",
+    "help": "帮助与支持",
+    "home": "首页",
+    "honorCode": "学术诚信",
+    "hr": "人力资源",
+    "inbox": "收件箱",
+    "instructor": "教师控制台",
+    "instructorAssignment": "教师分配",
+    "instructorDashboard": "教师仪表盘",
+    "instructors": "教师",
+    "integrations": "集成",
+    "invoices": "账单",
+    "itemAnalysis": "试题分析",
+    "labs": "实验室",
+    "library": "图书馆",
+    "liveClass": "直播课",
+    "loans": "贷款",
+    "login": "登录",
+    "market": "知识市场",
+    "membership": "我的会员",
+    "membershipConfig": "会员设置",
+    "membershipQueue": "会员队列",
+    "messages": "消息",
+    "ministryLibrary": "部级图书馆",
+    "moderate": "审核面板",
+    "moderationLog": "审核日志",
+    "monitoring": "系统监控",
+    "more": "更多",
+    "my": "我的旅程",
+    "myAttendance": "我的出勤",
+    "myChart": "我的课程表",
+    "myCourses": "我的课程",
+    "myGrades": "我的成绩",
+    "myPath": "学习路径",
+    "myPayslips": "我的工资单",
+    "myReport": "我的报告",
+    "network": "学术网络",
+    "new": "新建申请",
+    "notifTemplates": "通知模板",
+    "offerings": "课程提供",
+    "officehours": "Office Hours",
+    "onboarding": "新手入门",
+    "org": "机构工作台",
+    "parent": "家长工作台",
+    "parentLinks": "家长关联",
+    "payroll": "薪酬",
+    "payrollConfig": "薪酬配置",
+    "people": "人员",
+    "plans": "套餐",
+    "portfolio": "作品集",
+    "pricing": "定价方案",
+    "privacy": "隐私",
+    "probationReview": "试用期评审",
+    "proctorReview": "监考评审",
+    "profile": "个人资料",
+    "profiles": "个人资料",
+    "programs": "项目",
+    "progress": "进度",
+    "questionBank": "题库",
+    "record": "录制工作室",
+    "recordings": "课程录像",
+    "referenceData": "参考数据",
+    "refund": "退款",
+    "register": "注册",
+    "registration": "选课注册",
+    "regulation": "规章制度",
+    "reports": "报告",
+    "research": "研究",
+    "review": "评审",
+    "roles": "角色",
+    "roster": "花名册",
+    "rubricBuilder": "评分标准构建器",
+    "schedule": "时间表",
+    "schools": "学校",
+    "search": "搜索",
+    "seats": "席位",
+    "security": "安全",
+    "serviceDesk": "服务台",
+    "settings": "设置",
+    "specializations": "专业斵向",
+    "stageProgress": "阶段进展",
+    "studentOverview": "学生档案",
+    "students": "学生",
+    "studio": "知识工作室",
+    "submission": "作业",
+    "super": "导航工具",
+    "support": "支持柜台",
+    "ta": "助教柜台",
+    "tenants": "组织",
+    "terms": "学期",
+    "tickets": "工单",
+    "transcript": "成绩单",
+    "treasury": "财政",
+    "tuition": "学费与支付",
+    "tuitionConfig": "学费配置",
+    "tutor": "AI 助理",
+    "twoFactorSetup": "两步验证",
+    "userLookup": "查找用户",
+    "users": "用户",
+    "verifyEmail": "验证邮箱",
+    "virtuallab": "虚拟实驜室",
+    "vista": "关于 Vista",
+    "wallet": "钱包",
+    "washup": "总结",
+    "wellness": "健康",
+    "wishlist": "我的心愿单",
+    "withdrawals": "提现",
+    "workflows": "工作流"
+  },
+  "breadcrumbUi": {
+    "nav": "面包屑导航",
+    "showFullPath": "显示完整路径",
+    "newCourse": "创建新课程",
+    "printCredential": "打印证书",
+    "sessionReport": "报告",
+    "sessionLobby": "大厅",
+    "studioTab": {
+      "overview": "概览",
+      "curriculum": "课程大纲",
+      "content": "内容",
+      "pricing": "定价",
+      "coupons": "优惠码",
+      "analytics": "分析",
+      "settings": "设置",
+      "preview": "预览",
+      "record": "录制工作室"
+    }
+  },
+  "cmdk": {
+    "aria": "命令面板",
+    "hintNavigate": "导航",
+    "item": {
+      "about": {
+        "label": "关于我们"
+      },
+      "achievements": {
+        "label": "成就"
+      },
+      "admin": {
+        "label": "管理后台"
+      },
+      "alumni": {
+        "label": "校友网络"
+      },
+      "analytics": {
+        "label": "机构分析"
+      },
+      "apply": {
+        "hint": "真实录取申请表",
+        "label": "申请"
+      },
+      "assessment": {
+        "label": "测验与评估"
+      },
+      "authoring": {
+        "label": "创建/编辑课程"
+      },
+      "bookmarks": {
+        "label": "书签"
+      },
+      "calendar": {
+        "label": "日历"
+      },
+      "career": {
+        "label": "职业服务"
+      },
+      "classroom": {
+        "label": "直播课堂"
+      },
+      "community": {
+        "label": "社群"
+      },
+      "course": {
+        "label": "我的课程"
+      },
+      "credential": {
+        "label": "数字证书"
+      },
+      "dashboard": {
+        "label": "仪表盘"
+      },
+      "degree-audit": {
+        "label": "学位审核路径"
+      },
+      "events": {
+        "label": "事件"
+      },
+      "faculty": {
+        "label": "教职员工"
+      },
+      "financial-aid": {
+        "label": "经济援助与奖学金"
+      },
+      "hackathons": {
+        "label": "黑客松与竞赛"
+      },
+      "help": {
+        "label": "支持"
+      },
+      "home": {
+        "hint": "首页",
+        "label": "首页"
+      },
+      "honor-code": {
+        "label": "学术诚信守则"
+      },
+      "inbox": {
+        "label": "收件箱"
+      },
+      "instructor": {
+        "label": "讲师控制台"
+      },
+      "labs": {
+        "label": "虚拟实验室"
+      },
+      "library": {
+        "label": "资料库"
+      },
+      "login": {
+        "label": "登录"
+      },
+      "messages": {
+        "label": "消息"
+      },
+      "officehours": {
+        "label": "答疑时间"
+      },
+      "parent": {
+        "label": "家长工作台"
+      },
+      "pricing": {
+        "label": "方案与价格"
+      },
+      "profile": {
+        "label": "公开个人资料"
+      },
+      "recordings": {
+        "label": "录播档案"
+      },
+      "registration": {
+        "label": "单项注册"
+      },
+      "regulation": {
+        "label": "教学章程"
+      },
+      "research": {
+        "label": "研究"
+      },
+      "schools": {
+        "label": "学院"
+      },
+      "search": {
+        "label": "语义搜索"
+      },
+      "settings": {
+        "label": "设置"
+      },
+      "submission": {
+        "label": "提交作业"
+      },
+      "track": {
+        "hint": "使用追踪码查看请求状态",
+        "label": "追踪请求"
+      },
+      "transcript": {
+        "label": "成绩单"
+      },
+      "vista": {
+        "label": "关于 Vista（技术运营方）"
+      },
+      "wellness": {
+        "label": "健康与咨询"
+      }
+    },
+    "placeholder": "搜索页面、命令或设置…（例如：课程、主题、证书）",
+    "searchAria": "搜索命令"
+  },
+  "demo": {
+    "disabled": "此操作在演示版本中不可用。"
+  },
+  "denied": {
+    "body": "您的角色无法访问此页面。您没有权限查看此部分。如果您认为这是一个错误，请联系系统管理员。",
+    "bodyWithRole": "您的角色无法访问此页面。当前角色（“{role}”）无权查看此部分。如果您认为这是一个错误，请联系系统管理员。",
+    "cta": "返回我的首页",
+    "screenLabel": "403 · 访问受限",
+    "title": "您无权访问此部分"
+  },
+  "footer": {
+    "feature": {
+      "competency-assessment-center": "胜任力评估中心",
+      "credential-registry-verify": "凭证与查验",
+      "exam-assessment-engine": "考试与评估",
+      "knowledge-marketplace": "知识市场",
+      "live-class": "互动直播课",
+      "membership-registry": "会员与会员卡"
+    },
+    "head": {
+      "0": "产品",
+      "1": "大学",
+      "2": "用户",
+      "3": "大学功能",
+      "4": "资源"
+    },
+    "link": {
+      "about": "关于我们",
+      "about-alt2": "关于大学",
+      "about-alt3": "关于我们",
+      "apply": "申请入学",
+      "apply-alt2": "创建账户",
+      "assessment": "测评与评估",
+      "classroom": "在线课堂",
+      "community": "社区",
+      "contact": "联系我们",
+      "credential": "数字证书",
+      "events": "活动",
+      "faculty": "教职员工",
+      "faq": "常见问题",
+      "features": "所有功能",
+      "help": "帮助与支持",
+      "help-alt2": "支持中心",
+      "honor-code": "学术诚信守则",
+      "honor-code-alt2": "学术诚信",
+      "labs": "虚拟实验室",
+      "library": "数字图书馆",
+      "login": "登录账户",
+      "pricing": "方案与价格",
+      "privacy": "隐私政策",
+      "programs": "项目与学位",
+      "programs-alt2": "学院与项目",
+      "recordings": "录像归档",
+      "research": "研究与博士",
+      "schools": "学院",
+      "search": "语义搜索",
+      "settings": "设置",
+      "terms": "条款与条件",
+      "track": "请求跟踪",
+      "vista": "关于 Vista"
+    },
+    "rights": "版权所有",
+    "tagline": "一个完全数字化的教育基础设施，其中人工智能不仅是一个插件，更是学习、课程设计和评估的基石。",
+    "alsoSee": "另请参见：",
+    "trustSeals": {
+      "title": "信任认证",
+      "enamadAlt": "电子信任标志",
+      "senfAlt": "国家计算机工会组织",
+      "senfCaption": "计算机工会组织会员 — 编号 23010177"
+    },
+    "org": {
+      "rightsCompact": "© {year} {holder} — 保留所有权利。",
+      "rightsFull": "© {year} — 本网站的所有物质和精神权利、商标及内容均属于 {holder}。未经书面许可，严禁任何形式的转载或使用。",
+      "developerLegal": "设计与开发：Vista 智能网络创新公司 — 本系统的所有物质和精神权利均归 Vista 智能网络创新公司所有。"
+    }
+  },
+  "home": {
+    "admin": "管理仪表盘",
+    "assessment_manager": "中心经理桌面",
+    "assessor": "评估员工作台",
+    "content_manager": "内容工作台",
+    "counselor": "顾问工作台",
+    "faculty_admin": "院系仪表盘",
+    "finance_manager": "财务工作台",
+    "instructor": "教师工作台",
+    "membership_manager": "会员工作台",
+    "membership_operator": "会员工作台",
+    "moderator": "审核工作台",
+    "org": "机构工作台",
+    "parent": "家长门户",
+    "student": "学生工作台",
+    "super_admin": "超级管理员工作台",
+    "support": "支持工作台",
+    "ta": "助教工作台"
+  },
+  "language": {
+    "switcherAria": "切换语言"
+  },
+  "modal": {
+    "confirmWordHint": "请输入“{word}”以确认",
+    "defaultTitle": "确认操作"
+  },
+  "nav": {
+    "aria": {
+      "menu": "菜单",
+      "roleNav": "{role}角色导航",
+      "unread": "{count, plural, other {# 条未读消息}}",
+      "userMenu": "用户菜单",
+      "workspaceMenu": "工作区菜单"
+    },
+    "cart": {
+      "aria": "购物车（共 {count, plural, other {# 件}}）",
+      "label": "购物车"
+    },
+    "chat": {
+      "ariaUnread": "消息（{count, plural, other {# 条未读消息}}）",
+      "label": "消息"
+    },
+    "cmdk": {
+      "aria": "命令面板 (Cmd+K)",
+      "title": "快速搜索 (Ctrl+K)"
+    },
+    "connect": {
+      "ariaPending": "网络（{count, plural, other {# 个新请求}}）",
+      "label": "网络",
+      "title": "我的网络"
+    },
+    "group": {
+      "academicStructure": "学术架构（从上到下）",
+      "account": "账户",
+      "advisorDesk": "顾问工作台",
+      "ai": "人工智能",
+      "analytics": "分析",
+      "assessment": "评估",
+      "assessmentAssigned": "评估（已指派）",
+      "child": "子级",
+      "classAndAi": "课堂与人工智能",
+      "classAndInteraction": "课堂与互动",
+      "communication": "沟通",
+      "content": "内容",
+      "education": "教育",
+      "evaluationCenter": "测评中心",
+      "facultyStructure": "院系架构",
+      "finance": "财务",
+      "financeOversight": "财务（监督）",
+      "governance": "治理",
+      "knowledgeMarket": "知识市场",
+      "learning": "学习",
+      "liveClass": "课堂",
+      "membership": "会员",
+      "organization": "组织",
+      "people": "人员",
+      "reports": "报告",
+      "studentAffairs": "学生事务",
+      "studentServices": "学生服务",
+      "students": "学生",
+      "superAdmin": "超级管理",
+      "supervision": "监督",
+      "support": "支持",
+      "system": "系统",
+      "teaching": "教学",
+      "teachingAssistance": "助教",
+      "tuition": "学费",
+      "welfareFund": "福利基金与奖学金",
+      "services": "大学服务"
+    },
+    "item": {
+      "achievements": "成就",
+      "adaptive-path": "自适应学习路径",
+      "add-drop": "退选课",
+      "admin": "管理仪表盘",
+      "admin-ai-usage": "人工智能使用量",
+      "admin-applications": "申请（录取）",
+      "admin-assess-center": "测评中心（管理）",
+      "admin-broadcast": "全员通知广播",
+      "admin-calendar": "校历",
+      "admin-cohorts": "往期学员批次 (Cohort)",
+      "admin-commission": "特殊事务委员会",
+      "admin-course-content": "内容创建",
+      "admin-course-content-alt2": "课程创建/编辑",
+      "admin-course-content-alt3": "内容创建/编辑",
+      "admin-courses": "课程目录",
+      "admin-degree-policies": "学位门槛",
+      "admin-departments": "系所",
+      "admin-enrollments": "注册信息",
+      "admin-faculties": "学院部门",
+      "admin-finance-claims": "讲师薪酬审批",
+      "admin-finance-decrees": "人事决定",
+      "admin-finance-payroll": "薪酬发放",
+      "admin-finance-payroll-config": "薪酬配置",
+      "admin-finance-treasury": "财政与报告",
+      "admin-finance-withdrawals": "提现队列",
+      "admin-hr": "招聘与人事档案",
+      "admin-hr-alt2": "学院招聘",
+      "admin-hr-alt3": "雇佃与薪酬合同",
+      "admin-instructors": "教师",
+      "admin-integrations": "集成",
+      "admin-membership-config": "会员设置",
+      "admin-membership-queue": "会员队列",
+      "admin-ministry-library": "教育部图书馆",
+      "admin-notif-templates": "通知模板",
+      "admin-offerings": "课程与班级开设",
+      "admin-offerings-alt2": "课程开设/分班",
+      "admin-parent-links": "家闵关系",
+      "admin-people": "人员列表",
+      "admin-plans": "计划与价格",
+      "admin-profiles": "个人资料",
+      "admin-programs": "专业",
+      "admin-reference-data": "参考数据",
+      "admin-regulation": "教学规章",
+      "admin-roles": "角色与权限",
+      "admin-schools": "学院",
+      "admin-specializations": "专门方向",
+      "admin-stage-progress": "阶段进展（医学）",
+      "admin-student-overview": "个人档案",
+      "admin-students": "学生",
+      "admin-terms": "学期",
+      "admin-tuition-config": "学费配置",
+      "admin-users": "用户管理",
+      "admin-workflows": "工作流生成器",
+      "agents": "智能助手",
+      "ai-governance": "AI 治理控制台",
+      "analytics-admin": "报告与分析",
+      "assess": "能力评估",
+      "assess-center": "评估中心 — 评估员控制台",
+      "assess-center-alt2": "评估员控制台",
+      "assess-center-my": "评估中心 — 我的旅程",
+      "assess-center-my-alt2": "我的评估旅程",
+      "assess-center-my-report": "评估中心 — 我的报告",
+      "assess-center-my-report-alt2": "我的评估报告",
+      "assessment-builder": "测验生成器",
+      "assignments": "作业与测验",
+      "attendance": "考勤",
+      "audit": "审计日志",
+      "auto-rules": "自动规则",
+      "calendar": "日历",
+      "calendar-alt2": "日历与日程",
+      "calendar-alt3": "日程与日历",
+      "capabilities-status": "功能状态",
+      "career": "职业服务",
+      "catalog": "课程目录",
+      "class-analytics": "班级分析",
+      "cognitive-profile": "认知画像",
+      "community": "讨论区",
+      "community-moderation": "讨论管理",
+      "content": "内容工作台",
+      "content-analytics": "目录分析",
+      "content-review": "内容审核队列",
+      "copilot": "教师智能助手",
+      "counseling-appointments": "咨询预约",
+      "counselor-caseload": "咨询工作表",
+      "counselor-inbox": "咨询师工作台",
+      "credential": "证书",
+      "crisis-queue": "危机事件队列",
+      "curriculum-builder": "课程大纲（课程、前置课程、课程类型）",
+      "degree-audit": "学位路径",
+      "faculty": "教职员工",
+      "faculty-dashboard": "院系仪表盘",
+      "faculty-reports": "学院报告",
+      "financial-aid": "助学金 / 奖学金",
+      "financial-aid-alt2": "奖学金",
+      "flagged-reports": "已标记报告队列",
+      "grade-submission": "提交成绩",
+      "grade-submission-alt2": "成绩草稿提交",
+      "gradebook": "成绩册",
+      "grading-queue": "评分队列",
+      "inbox": "通知",
+      "instructor-assignment": "教师分配",
+      "instructor-dashboard": "工作台",
+      "item-analysis": "试题分析",
+      "item-analysis-alt2": "试题分析",
+      "labs": "虚拟实验室",
+      "library": "图书馆",
+      "library-alt2": "内容库",
+      "live-class": "直播课",
+      "live-class-admin": "直播课容量",
+      "live-class-alt2": "主持直播课",
+      "live-class-alt3": "直播课",
+      "market": "知识市场探索",
+      "market-admin": "市场管理",
+      "market-admin-storage": "工作室存储",
+      "market-cart": "购物车",
+      "market-earnings": "我的收益",
+      "market-my-courses": "我的课程",
+      "market-purchases": "我的购买",
+      "market-review": "市场课程审核",
+      "market-studio": "知识工作室（我的课程构建器）",
+      "market-studio-alt2": "知识工作室（课程构建器）",
+      "market-transactions": "我的交易",
+      "market-wishlist": "我的愿望单",
+      "membership": "我的会员",
+      "membership-directory": "成员名录",
+      "messages": "消息",
+      "messages-alt2": "发消息给老师 / 大学",
+      "moderate": "审核工作台",
+      "moderation-log": "操作日志",
+      "monitoring": "系统健康",
+      "my-attendance": "考勤",
+      "my-chart": "我的课程淋淋图",
+      "my-courses": "我的课程",
+      "my-courses-alt2": "已发布的课程",
+      "my-grades": "成绩与申诉",
+      "my-path": "学习路径（阶段式）",
+      "network": "我的社区",
+      "officehours": "老师答疑时间",
+      "officehours-alt2": "答疑时间",
+      "officehours-alt3": "与顾问会议",
+      "org": "机构仪表盘",
+      "org-bulk-enroll": "批量注册",
+      "org-invoices": "发票",
+      "org-reports": "机构报告",
+      "org-seats": "席位 (Seats)",
+      "org-users": "机构用户",
+      "parent": "孩子仪表盘",
+      "parent-attendance": "考勤",
+      "parent-grades": "成绩 / 成绩单",
+      "parent-tuition": "财务状况 / 学费",
+      "payroll-claims": "课时费",
+      "payroll-my-payslips": "我的工资条",
+      "portfolio": "个人档案",
+      "probation-review": "试用期审核",
+      "profile": "个人资料",
+      "progress": "工作台",
+      "question-bank": "题库",
+      "recordings": "录像档案",
+      "registration": "选课",
+      "roster": "学生名单",
+      "rubric-builder": "评分标准构建器",
+      "schedule": "每周课表",
+      "service-desk": "服务台",
+      "service-desk-alt2": "服务台（审批）",
+      "settings": "系统设置",
+      "settings-alt2": "设置",
+      "settings-alt3": "机构设置",
+      "super": "超级管理员仪表盘",
+      "super-tenants": "租户 (Tenants)",
+      "support": "支持工作台",
+      "ta": "助教工作台",
+      "tickets": "支持工单",
+      "tickets-alt2": "工单队列",
+      "transcript": "成绩单 / 出勤记录",
+      "tuition": "学费 / 支付",
+      "tuition-clearance": "清账",
+      "tuition-loans": "学生贷款",
+      "tuition-refund": "学费退款",
+      "user-lookup": "查找用户",
+      "wallet": "钱包",
+      "wellness": "健康与咨询"
+    },
+    "liveDot": {
+      "aria": "实时数据",
+      "title": "已连接到 API"
+    },
+    "notif": {
+      "allRead": "全部已读",
+      "aria": "通知（{count, plural, one {# 条未读} other {# 条未读}}）",
+      "empty": "您没有新通知。",
+      "label": "通知",
+      "loadFailed": "通知加载失败。",
+      "markAllRead": "标记全部为已读",
+      "openInbox": "打开收件箱",
+      "title": "通知",
+      "unreadCount": "{count, plural, one {# 未读} other {# 未读}}"
+    },
+    "term": {
+      "aria": "选择学期",
+      "title": "学期"
+    }
+  },
+  "rail": {
+    "collapseAria": "折叠侧边栏",
+    "collapseTitle": "折叠",
+    "expandAria": "展开侧边栏",
+    "expandTitle": "展开"
+  },
+  "roles": {
+    "admin": "校长",
+    "assessment_manager": "评估中心经理",
+    "assessor": "评估员",
+    "content_manager": "内容经理",
+    "counselor": "学校咨询师",
+    "faculty_admin": "院长",
+    "finance_manager": "财务经理",
+    "instructor": "讲师",
+    "membership_manager": "会员计划经理",
+    "membership_operator": "会员操作员",
+    "moderator": "管理员",
+    "org": "机构",
+    "parent": "家长",
+    "student": "学生",
+    "super_admin": "超级管理员",
+    "support": "支持",
+    "ta": "助教"
+  },
+  "shell": {
+    "redirectingToLogin": "正在跳转到登录...",
+    "skipToContent": "跳转到主要内容"
+  },
+  "topnav": {
+    "admin": {
+      "admin": "管理",
+      "analytics": "分析",
+      "events": "事件",
+      "progress": "仪表盘",
+      "schools": "学院",
+      "tutor": "AI 助理"
+    },
+    "assessment_manager": {
+      "profile": "个人资料"
+    },
+    "assessor": {
+      "profile": "个人资料"
+    },
+    "content_manager": {
+      "admin-course-content": "内容创建",
+      "analytics": "分析",
+      "catalog": "目录",
+      "help": "支持",
+      "messages": "消息"
+    },
+    "counselor": {
+      "counseling-appointments": "周询预约",
+      "counselor-inbox": "工作台",
+      "crisis-queue": "紧急事项",
+      "messages": "消息"
+    },
+    "faculty_admin": {
+      "admin-departments": "系所",
+      "admin-enrollments": "注册",
+      "admin-offerings": "课程提供",
+      "admin-programs": "专业",
+      "faculty-dashboard": "学院仪表盘",
+      "messages": "消息"
+    },
+    "finance_manager": {
+      "admin-finance-claims": "课时费",
+      "admin-finance-decrees": "政策",
+      "admin-finance-payroll": "工资发放",
+      "admin-finance-treasury": "财政"
+    },
+    "instructor": {
+      "admin-course-content": "课程创建",
+      "classroom": "直播课堂",
+      "gradebook": "成绩单",
+      "messages": "消息",
+      "my-courses": "我的课程",
+      "progress": "工作台",
+      "tutor": "AI 助理"
+    },
+    "membership_manager": {
+      "profile": "个人资料"
+    },
+    "membership_operator": {
+      "profile": "个人资料"
+    },
+    "moderator": {
+      "community": "社区",
+      "help": "支持",
+      "messages": "消息"
+    },
+    "org": {
+      "analytics": "团队分析",
+      "events": "活动",
+      "faculty": "讲师",
+      "help": "支持",
+      "org": "机构工作台",
+      "pricing": "定价"
+    },
+    "parent": {
+      "calendar": "孩子日程",
+      "credential": "证书",
+      "help": "支持",
+      "messages": "消息",
+      "parent": "工作台"
+    },
+    "public": {
+      "about": "关于",
+      "apply": "申请入学",
+      "help": "帮助",
+      "market": "知识市场",
+      "pricing": "定价",
+      "programs": "项目"
+    },
+    "student": {
+      "calendar": "日程",
+      "catalog": "目录",
+      "community": "社区",
+      "my-courses": "我的课程",
+      "progress": "我的进度",
+      "tutor": "AI 助手"
+    },
+    "super_admin": {
+      "admin": "管理",
+      "analytics": "分析",
+      "audit": "审计日志",
+      "progress": "仪表盘",
+      "tutor": "AI 助手"
+    },
+    "support": {
+      "audit": "审计日志",
+      "help": "支持",
+      "messages": "消息",
+      "support": "支持台"
+    },
+    "ta": {
+      "classroom": "课堂",
+      "my-courses": "我的课程",
+      "progress": "进度",
+      "tutor": "AI 助教"
+    }
+  },
+  "user": {
+    "guest": "访客 · 未登录",
+    "item": {
+      "achievements": "成就",
+      "bookmarks": "收藏",
+      "credential": "证书",
+      "help": "帮助与支持",
+      "home": "工作台",
+      "messages": "消息",
+      "profile": "我的个人资料",
+      "settings": "设置"
+    },
+    "loggingOut": "正在退出...",
+    "logout": "退出登录",
+    "switchRole": "切换当前角色"
+  },
+  "moreHub": {
+    "heading": "所有工具",
+    "lead": "快速访问您的工作空间中的所有板块 ({role})。",
+    "search": "搜索工具",
+    "searchPlaceholder": "搜索工具…",
+    "helpTitle": "所有工具指南",
+    "help": "此页面是通往您工作空间各个板块的快捷方式。点击任意卡片即可前往该板块，或使用上方搜索框快速查找工具。",
+    "empty": "未找到包含“{query}”的工具。"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "vista": {
+    "head": {
+      "title": "دربارهٔ ویستا",
+      "description": "ویستا، مجریِ فنی و دارندهٔ حقِ این سکو — خدمات، معماریِ هوش مصنوعی، اکوسیستم و اطلاعاتِ رسمیِ شرکت."
+    },
+    "hero": {
+      "eyebrow": "مجریِ فنی · TECHNOLOGY PARTNER",
+      "ownershipPrefix": "{platform} محصولِ همین شرکت است؛ {role}ِ این سکو و کلیهٔ حقوقِ مادی و معنویِ آن متعلق به ",
+      "ownershipSuffix": " است.",
+      "siteLinkLabel": "وب‌سایتِ رسمیِ ویستا ↗",
+      "aboutLinkLabel": "دربارهٔ {name}"
+    },
+    "sections": {
+      "overview": {
+        "eyebrow": "معرفی · OVERVIEW",
+        "title": "از ایدهٔ پراکنده تا محصول، فرایند و تصمیمِ قابلِ استفاده"
+      },
+      "services": {
+        "eyebrow": "خدمات · SERVICES",
+        "title": "از معماریِ هوش مصنوعی تا محصولِ آمادهٔ بهره‌برداری"
+      },
+      "architecture": {
+        "eyebrow": "معماری · AGENTIC + RAG",
+        "title": "مدلِ زبانی، دانشِ سازمانی، ابزار و بازبینیِ انسانی در یک معماری"
+      },
+      "ecosystem": {
+        "eyebrow": "اکوسیستم · ECOSYSTEM",
+        "title": "AI، دانش و مهندسیِ محصول در یک مدار"
+      },
+      "official": {
+        "eyebrow": "اطلاعاتِ رسمی · OFFICIAL",
+        "title": "هیئت‌مدیره و راه‌های تماس"
+      }
+    },
+    "ecosystem": {
+      "viewSiteLabel": "مشاهدهٔ وب‌سایت ↗"
+    },
+    "official": {
+      "regNoLabel": "شمارهٔ ثبت: "
+    }
+  }
+}

@@ -1,0 +1,769 @@
+{
+  "detail": {
+    "notFound": {
+      "title": "Funcionalidad no encontrada",
+      "body": "La dirección introducida no coincide con ninguna de las funciones de la universidad.",
+      "cta": "Ver todas las funciones"
+    },
+    "backToIndex": "Todas las funciones",
+    "routeNotBuiltNote": "Esta función aún no se ha creado como página en la plataforma. Para solicitarla o más información, contáctenos.",
+    "blocks": {
+      "what": "Qué hace esta función",
+      "who": "Para quién es",
+      "problem": "Qué problema resuelve",
+      "parts": "De qué componentes está hecho"
+    },
+    "partsHint": "Orden de trabajo de derecha a izquierda.",
+    "nav": {
+      "prev": "Función anterior",
+      "next": "Función siguiente"
+    },
+    "competency-assessment-center": {
+      "what": "El centro de evaluación gestiona todo el proceso de evaluación de un candidato, desde la definición del proyecto hasta la publicación del informe: los ejercicios se programan, los evaluadores califican de forma independiente y el resultado se finaliza únicamente después de la sesión de consenso humano.",
+      "who": [
+        "Director del centro de evaluación",
+        "Evaluadores",
+        "Organizaciones que evalúan la contratación o promoción basándose en competencias"
+      ],
+      "problem": "La evaluación de competencias suele reducirse a entrevistas subjetivas y no deja documentación defendible. Aquí, cada nota está vinculada a un ejercicio específico, un evaluador específico y un indicador específico.",
+      "parts": [
+        "Definición del proyecto y del candidato",
+        "Ejercicios de evaluación",
+        "Calificación independiente de los evaluadores",
+        "Sesión de consenso",
+        "Informe final"
+      ]
+    },
+    "candidate-assessment-journey": {
+      "what": "El candidato dispone de una página personal que muestra todos sus ejercicios, el plazo de cada uno, el estado de envío y, al final, el informe de resultados personalizado. Cada ejercicio se abre en la misma página y la respuesta se registra allí mismo.",
+      "who": [
+        "Candidato a la evaluación",
+        "Estudiante en proceso de evaluación de competencias"
+      ],
+      "problem": "Los candidatos a menudo no saben en qué etapa se encuentran ni qué se espera de ellos. Esta página reúne todo eso en una sola vista.",
+      "parts": [
+        "Lista de ejercicios",
+        "Plazo y estado de envío",
+        "Formulario de respuesta",
+        "Informe de resultados personalizado"
+      ]
+    },
+    "assessor-console": {
+      "what": "El evaluador ve la lista de ejercicios asignados, tiene los indicadores de cada ejercicio junto a la respuesta del candidato y registra la calificación junto con la evidencia de comportamiento. La nota de cada evaluador permanece oculta para los demás hasta la sesión de consenso.",
+      "who": [
+        "Evaluador del centro de evaluación",
+        "Director del centro que organiza la carga de trabajo de los evaluadores"
+      ],
+      "problem": "Cuando los evaluadores ven las calificaciones de los demás, la evaluación cae en una convergencia prematura. La independencia de calificación es aquí la regla del sistema, no una recomendación ética.",
+      "parts": [
+        "Cola de ejercicios asignados",
+        "Indicadores de comportamiento",
+        "Registro de calificaciones y evidencias",
+        "Bloqueo de independencia del evaluador"
+      ]
+    },
+    "washup-consensus-session": {
+      "what": "Una vez finalizada la calificación independiente, el sistema muestra las discrepancias entre los evaluadores en cada indicador, y la sesión de consenso resuelve dichas diferencias una por una. La calificación final es el único resultado de esta sesión.",
+      "who": [
+        "Evaluadores",
+        "Director del centro de evaluación",
+        "Supervisor de calidad de la evaluación"
+      ],
+      "problem": "Promediar las puntuaciones de los evaluadores oculta discrepancias significativas. Aquí las diferencias se hacen visibles y se discuten.",
+      "parts": [
+        "Visualización de discrepancias en los indicadores",
+        "Debate y registro de justificaciones",
+        "Puntuación de consenso",
+        "Firma de la sesión"
+      ]
+    },
+    "assessment-report-publish": {
+      "what": "El resultado del centro de evaluación es un informe estructurado: la puntuación de cada indicador, su posición respecto al nivel esperado, las evidencias de comportamiento y las recomendaciones de desarrollo personal. La publicación del informe para el candidato es una decisión humana independiente.",
+      "who": [
+        "Candidato",
+        "Empleador solicitante del informe",
+        "Director del centro de evaluación"
+      ],
+      "problem": "Si el resultado de la evaluación es solo un número, no es defendible ni útil. El informe estructurado resuelve ambos problemas.",
+      "parts": [
+        "Puntuación de los indicadores",
+        "Comparación con el nivel esperado",
+        "Evidencias de comportamiento",
+        "Recomendación de desarrollo",
+        "Control de publicación"
+      ]
+    },
+    "shared-competency-core": {
+      "what": "Las competencias, los niveles y los indicadores de comportamiento se definen una sola vez y todos los subsistemas —curso, examen, centro de evaluación, evaluación del desempeño de los empleados— hacen referencia a esa misma definición unificada.",
+      "who": [
+        "Diseñador del programa educativo",
+        "Director del centro de evaluación",
+        "Director de recursos humanos"
+      ],
+      "problem": "Cuando cada unidad tiene su propio vocabulario, la puntuación del curso no se puede comparar con el resultado de la evaluación y del desempeño. El núcleo compartido es el puente faltante.",
+      "parts": [
+        "Árbol de competencias",
+        "Niveles de dominio",
+        "Indicadores de comportamiento",
+        "Mapeo a cursos y exámenes"
+      ]
+    },
+    "assessment-tool-registry": {
+      "what": "Cada herramienta de evaluación se registra con su propia ficha de identidad: qué evalúa, sobre qué base, cómo se interpreta su resultado y quién está autorizado para aplicarla. La ejecución de cualquier herramienta comienza desde aquí.",
+      "who": [
+        "Especialista en evaluación",
+        "Consultor",
+        "Estudiante y candidato"
+      ],
+      "problem": "Las herramientas de evaluación suelen aplicarse de forma dispersa y sin identificación, y su interpretación se vuelve subjetiva. El registro mantiene el método y los permisos de ejecución junto a la herramienta.",
+      "parts": [
+        "Ficha de la herramienta",
+        "Reglas de ejecución",
+        "Clave de interpretación",
+        "Acceso basado en roles"
+      ]
+    },
+    "psychometric-test-bank": {
+      "what": "Una colección de pruebas psicométricas estándar que el propio usuario realiza, con calificación automática y cuya interpretación solo es visible para el usuario y el asesor autorizado.",
+      "who": [
+        "Estudiante",
+        "Asesor universitario",
+        "Especialista en salud mental"
+      ],
+      "problem": "El acceso a herramientas psicométricas estándar suele estar ligado a visitas presenciales. Aquí la ejecución es en línea y la confidencialidad es predeterminada.",
+      "parts": [
+        "Formulario de prueba",
+        "Puntuación automática",
+        "Interpretación confidencial",
+        "Derivación al asesor"
+      ]
+    },
+    "individual-development-plan": {
+      "what": "El plan de desarrollo individual se diseña y entrega a medida para cada organización en función de los resultados del centro de evaluación: ya sea en cuanto a lecciones, prácticas, retroalimentación o plazos. El alcance y el formato de entrega se acuerdan con la organización antes de su creación.",
+      "who": [
+        "Candidato postevaluación",
+        "Estudiante",
+        "Gerente de recursos humanos"
+      ],
+      "problem": "Un informe de evaluación se queda sobre la mesa sin un plan de acción. Esta sección conecta el resultado con el siguiente paso, y comienza con una conversación, no con una página predeterminada.",
+      "parts": [
+        "Brecha de competencias según el centro de evaluación",
+        "Acciones propuestas",
+        "Cronograma",
+        "Entrega personalizada"
+      ]
+    },
+    "employer-portal": {
+      "what": "El espacio del empleador se define y entrega de forma personalizada para cada organización: solicitud de evaluación, seguimiento del progreso de los candidatos y recepción del informe final, únicamente con el consentimiento explícito de la persona. El alcance y los límites de acceso se acuerdan con la organización antes de la creación.",
+      "who": [
+        "Empresas y organizaciones que solicitan evaluaciones",
+        "Departamento de adquisición de talento"
+      ],
+      "problem": "El intercambio de resultados de evaluación suele realizarse por correo electrónico y archivos; no queda rastro ni se registra el consentimiento de la persona. El portal estandariza ambos aspectos.",
+      "parts": [
+        "Solicitud de evaluación",
+        "Seguimiento de candidatos",
+        "Consentimiento del individuo",
+        "Entrega de informes",
+        "Acuerdo de alcance previo a la creación"
+      ]
+    },
+    "membership-registry": {
+      "what": "El solicitante presenta una solicitud de membresía, sus documentos son revisados y, tras una aprobación humana, recibe una tarjeta digital verificable. El nivel de membresía determina los beneficios y descuentos asociados.",
+      "who": [
+        "Profesionales que solicitan la membresía",
+        "Secretaría de membresías",
+        "Miembros actuales"
+      ],
+      "problem": "La membresía en papel no se puede verificar ni se conecta a los beneficios del sistema. La tarjeta digital resuelve ambos problemas.",
+      "parts": [
+        "Formulario de solicitud",
+        "Revisión de documentos",
+        "Aprobación humana",
+        "Tarjeta digital",
+        "Beneficios y descuentos"
+      ]
+    },
+    "member-directory": {
+      "what": "Directorio de miembros con filtros por área de especialización, nivel de membresía y ciudad. Cada miembro decide si su perfil es público o no, y qué parte de él es visible.",
+      "who": [
+        "Miembros",
+        "Empleadores en busca de especialistas",
+        "Secretaría de membresías"
+      ],
+      "problem": "Una red profesional solo tiene valor si es fácil de encontrar. El directorio proporciona esa capa de visibilidad, con control de privacidad por parte del propio miembro.",
+      "parts": [
+        "Filtro de especialidad y nivel",
+        "Perfil de miembro",
+        "Control de visualización",
+        "Enlace a la credencial"
+      ]
+    },
+    "expertise-card": {
+      "what": "La tarjeta de especialización muestra el área y nivel de especialización verificados de una persona en una tarjeta estándar a doble cara; con un código único, código de barras de consulta y el mismo formato de seguridad de las credenciales.",
+      "who": [
+        "Miembros con especialización verificada",
+        "Empleador",
+        "Secretaría de Membresía"
+      ],
+      "problem": "Afirmar una especialización sin una referencia verificable no tiene valor para la otra parte. La tarjeta vincula la afirmación a un registro verificable.",
+      "parts": [
+        "Diseño a doble cara de la tarjeta",
+        "Código único",
+        "Código de barras de consulta",
+        "Salida impresa"
+      ]
+    },
+    "credential-registry-verify": {
+      "what": "Cada documento y certificado se emite con un código único y cualquier persona —sin necesidad de cuenta— puede verificar su validez en la página de consulta pública. La página de consulta muestra únicamente los datos públicos necesarios.",
+      "who": [
+        "Egresado",
+        "Empleador y autoridad de consulta",
+        "Unidad emisora de documentos"
+      ],
+      "problem": "Falsificar un documento es sencillo cuando no existe un método de verificación. El código único y la página de consulta pública reducen la comprobación a unos pocos segundos.",
+      "parts": [
+        "Emisión de documentos",
+        "Código único y código de barras",
+        "Página de consulta pública",
+        "Revocación y caducidad",
+        "Salida impresa"
+      ]
+    },
+    "live-class": {
+      "what": "La clase en vivo se ejecuta en una infraestructura de video autohospedada: audio y video multiusuario, pantalla compartida, pizarra, salas de grupo pequeño, encuestas instantáneas y grabación de sesiones. Antes de ingresar, una sala de prueba verifica el micrófono y la cámara del dispositivo.",
+      "who": [
+        "Profesor",
+        "Estudiante",
+        "Organizador de eventos educativos"
+      ],
+      "problem": "Depender de servicios de video externos implica interrupciones, limitaciones y la fuga de datos de las clases. La infraestructura autohospedada elimina los tres problemas.",
+      "parts": [
+        "Sala de prueba de dispositivos",
+        "Video y pantalla compartida",
+        "Pizarra",
+        "Salas de grupo",
+        "Grabación de la sesión"
+      ]
+    },
+    "session-report-attendance": {
+      "what": "La asistencia se genera a partir de eventos de conexión reales, no de listas manuales: quién ingresó y cuándo, cuánto tiempo permaneció y en qué secciones participó. El informe posterior a la sesión recopila estos datos junto con los acontecimientos de la clase.",
+      "who": [
+        "Profesor",
+        "Especialista en educación",
+        "Estudiante"
+      ],
+      "problem": "Tomar asistencia manualmente en una clase en línea consume tiempo y no es precisa. Los eventos de conexión son una fuente más exacta.",
+      "parts": [
+        "Eventos de entrada y salida",
+        "Duración de la asistencia",
+        "Participación en encuestas y chat",
+        "Informe final de la sesión"
+      ]
+    },
+    "exam-assessment-engine": {
+      "what": "Los exámenes se ejecutan con temporizador, aleatorización del orden de preguntas y opciones, guardado automático de respuestas y calificación automática de preguntas cerradas. Las preguntas de desarrollo pasan a una cola de calificación humana.",
+      "who": [
+        "Profesor",
+        "Estudiante",
+        "Especialista en evaluación"
+      ],
+      "problem": "Un examen en línea sin guardado automático y sin resistencia a fallas de Internet suele terminar en quejas. Aquí, las respuestas se guardan momento a momento.",
+      "parts": [
+        "Diseño del examen",
+        "Calendarización y aleatorización",
+        "Guardado automático",
+        "Calificación automática",
+        "Cola de calificación humana"
+      ]
+    },
+    "question-bank": {
+      "what": "Las preguntas se etiquetan por asignatura, tema, nivel de dificultad y competencia objetivo. En lugar de una lista fija, el examen se genera según reglas: cuántas preguntas, de qué tema y con qué nivel de dificultad.",
+      "who": [
+        "Profesor",
+        "Especialista en evaluación",
+        "Diseñador de preguntas"
+      ],
+      "problem": "Un examen fijo para todos se filtra con facilidad y además impone la misma dificultad a diferentes niveles. El sorteo basado en reglas mitiga ambos problemas.",
+      "parts": [
+        "Etiquetas de tema y dificultad",
+        "Reglas de creación de exámenes",
+        "Sorteo individual",
+        "Análisis de calidad de las preguntas"
+      ]
+    },
+    "proctoring-review": {
+      "what": "Los eventos sospechosos durante el examen —como salir de la ventana, patrones de tiempo inusuales o múltiples sesiones simultáneas— se marcan y se colocan en una cola para que un supervisor humano los revise. La decisión final siempre la toma una persona.",
+      "who": [
+        "Supervisor de exámenes",
+        "Profesor",
+        "Comité disciplinario"
+      ],
+      "problem": "Juzgar el fraude de forma automática conlleva un margen de error muy costoso. El sistema solo destaca los indicios; el juicio lo emite el ser humano.",
+      "parts": [
+        "Registro de eventos sospechosos",
+        "Cola de revisión",
+        "Decisión del supervisor humano",
+        "Historial de casos"
+      ]
+    },
+    "academic-sis": {
+      "what": "La facultad, el programa, el plan de estudios, el periodo académico, la impartición de cursos, la inscripción, la adición y eliminación de materias, el expediente académico y la auditoría de títulos se definen en una cadena interconectada. Cada inscripción se evalúa en función de los requisitos previos, la capacidad y el límite de créditos.",
+      "who": [
+        "Estudiante",
+        "Especialista académico",
+        "Jefe de departamento",
+        "Vicerrector académico"
+      ],
+      "problem": "La mayoría de los errores académicos surgen de la incompatibilidad entre los planes de estudio, la oferta de cursos y las inscripciones. Una cadena integrada verifica la compatibilidad en el momento del registro.",
+      "parts": [
+        "Estructura de facultad y programa",
+        "Plan de estudios y requisitos previos",
+        "Oferta de cursos y capacidad",
+        "Inscripción y modificación de asignaturas",
+        "Expediente académico y auditoría de títulos"
+      ]
+    },
+    "regulation-policy-engine": {
+      "what": "Los límites de créditos, las condiciones de libertad condicional, los plazos de permanencia, las condiciones de retiro de emergencia y reglas similares se definen como reglas configurables y se aplican en el mismo momento en que se registra la solicitud. Las decisiones cruciales siguen pasando por una comisión humana.",
+      "who": [
+        "Vicerrector académico",
+        "Especialista académico",
+        "Comisión de casos especiales"
+      ],
+      "problem": "Cuando los reglamentos son solo texto, su aplicación depende de la memoria del experto y varía entre facultades. Una regla ejecutable garantiza la uniformidad.",
+      "parts": [
+        "Definición de reglas",
+        "Aplicación instantánea",
+        "Excepción con autorización",
+        "Derivación a comisión"
+      ]
+    },
+    "gradebook-grade-flow": {
+      "what": "El profesor registra una calificación provisional, el estudiante presenta una objeción dentro de un plazo determinado, se realiza una revisión y la calificación se bloquea únicamente con la aprobación humana definitiva. Cada cambio de calificación se registra con su marca de tiempo y autor.",
+      "who": [
+        "Profesor",
+        "Estudiante",
+        "Especialista académico",
+        "Jefe de departamento"
+      ],
+      "problem": "La calificación es el dato educativo más sensible y modificarlo sin dejar rastro destruye la confianza en todo el sistema. El flujo oficial y el registro de auditoría eliminan este riesgo.",
+      "parts": [
+        "Registro provisional",
+        "Plazo de apelación",
+        "Revisión",
+        "Bloqueo final",
+        "Registro de cambios"
+      ]
+    },
+    "admissions-apply": {
+      "what": "El solicitante llena el formulario de admisión, carga sus documentos y recibe un código de seguimiento. Cualquier cambio de estado —revisión, documentos faltantes, entrevista, resultado— se puede rastrear con el mismo código.",
+      "who": [
+        "Aspirante",
+        "Especialista de admisiones",
+        "Comité de admisiones"
+      ],
+      "problem": "El seguimiento telefónico del estado de admisión es agotador para el solicitante y genera carga de trabajo administrativo. El código de seguimiento reduce ambas cosas.",
+      "parts": [
+        "Formulario de solicitud",
+        "Carga de documentos",
+        "Código de seguimiento",
+        "Flujo de revisión",
+        "Anuncio de resultados"
+      ]
+    },
+    "wallet-payments": {
+      "what": "Cada usuario tiene una billetera digital: recarga desde la pasarela de pago, pago de matrícula y compra de cursos con el mismo saldo, y reembolsos a la misma billetera. Cada transacción tiene su propio comprobante y el saldo se calcula a partir de la suma de los comprobantes.",
+      "who": [
+        "Estudiante",
+        "Autor del mercado de conocimientos",
+        "Departamento financiero"
+      ],
+      "problem": "La dispersión de los pagos entre pasarelas y recibos hace que la conciliación financiera sea imposible. Una billetera unificada crea un libro mayor.",
+      "parts": [
+        "Recarga por pasarela",
+        "Pago interno",
+        "Reembolso",
+        "Comprobante de transacción",
+        "Estado de cuenta del usuario"
+      ]
+    },
+    "tuition-finance": {
+      "what": "La matrícula se calcula en función de las unidades seleccionadas y el tipo de curso; los descuentos y subsidios se aplican sobre esta, y el saldo restante se divide en cuotas programadas. La liquidación final es un requisito para la emisión del título.",
+      "who": [
+        "Estudiante",
+        "Especialista financiero estudiantil",
+        "Unidad de bienestar"
+      ],
+      "problem": "El cálculo manual de la matrícula con descuentos y cuotas es la principal fuente de discrepancias financieras para los estudiantes. El cálculo por sistema hace que la cifra sea rastreable.",
+      "parts": [
+        "Cálculo de matrícula",
+        "Descuentos y subsidios",
+        "Fraccionamiento en cuotas",
+        "Pago",
+        "Liquidación de cuentas"
+      ]
+    },
+    "subscription-plans": {
+      "what": "El acceso a una parte de los servicios se define a través del plan de suscripción: cada plan tiene sus propios límites, beneficios y duración, y la renovación o actualización se realiza desde la misma página.",
+      "who": [
+        "Estudiante",
+        "Especialista independiente",
+        "Organización solicitante de suscripción grupal"
+      ],
+      "problem": "Los precios ambiguos atan la decisión de compra a una llamada telefónica. Un plan transparente con límites claros deja la elección en manos del usuario.",
+      "parts": [
+        "Definición del plan",
+        "Límites y beneficios",
+        "Compra y renovación",
+        "Actualización y cambio de plan"
+      ]
+    },
+    "knowledge-marketplace": {
+      "what": "El mercado de conocimientos es un espacio donde un profesor, estudiante o especialista crea y vende cursos. El comprador ve el curso en el mismo sistema, envía sus tareas y recibe un certificado verificable al finalizar.",
+      "who": [
+        "Autor del curso",
+        "Comprador del curso",
+        "Unidad de supervisión de contenidos"
+      ],
+      "problem": "El conocimiento práctico dentro de la universidad suele quedarse en el aula. El mercado crea el canal oficial y financiero para ofrecerlo.",
+      "parts": [
+        "Vitrina y búsqueda",
+        "Carrito y pago",
+        "Clase adquirida",
+        "Revisión de calidad",
+        "Certificado de finalización"
+      ]
+    },
+    "course-studio": {
+      "what": "El estudio es el escritorio del autor: crear la estructura del curso, añadir lecciones en video y texto, definir tareas y exámenes, fijar precios y cupones, previsualizar y, finalmente, enviar para revisión y publicación.",
+      "who": [
+        "Autor del curso",
+        "Asistente de producción de contenidos",
+        "Revisor de calidad"
+      ],
+      "problem": "La producción de cursos sin un escritorio integrado se convierte en un ir y venir de archivos y mensajes. El estudio reúne todas las etapas en un solo lugar.",
+      "parts": [
+        "Estructura del temario",
+        "Carga de lecciones",
+        "Tareas y exámenes",
+        "Precio y cupones",
+        "Vista previa y publicación"
+      ]
+    },
+    "media-pipeline-captions": {
+      "what": "El video subido o la sesión grabada entra en la cola de procesamiento: extracción de audio, generación de subtítulos en persa en infraestructura autohospedada, creación de versiones de reproducción y disponibilidad en el reproductor.",
+      "who": [
+        "Autor del curso",
+        "Profesor",
+        "Estudiante que necesita subtítulos"
+      ],
+      "problem": "Un video sin subtítulos es inútil tanto para las búsquedas como para los usuarios con discapacidad auditiva. El procesamiento automático elimina la necesidad de hacerlo manualmente.",
+      "parts": [
+        "Cola de procesamiento",
+        "Extracción de audio",
+        "Generación de subtítulos",
+        "Versiones de reproducción",
+        "Reproductor"
+      ]
+    },
+    "author-payouts": {
+      "what": "De cada venta, la parte del autor y la de la plataforma se separan según una regla definida; el autor ve su propia factura y solicita un retiro. El pago final se realiza tras la aprobación manual del departamento financiero.",
+      "who": [
+        "Autor del curso",
+        "Departamento financiero",
+        "Administrador del mercado"
+      ],
+      "problem": "La falta de transparencia en las ganancias por ventas destruye la motivación para crear contenido. La facturación en tiempo real hace que la relación sea confiable.",
+      "parts": [
+        "Regla de reparto",
+        "Factura de ventas",
+        "Solicitud de retiro",
+        "Aprobación financiera"
+      ]
+    },
+    "wellness-counseling": {
+      "what": "El estudiante solicita asesoramiento directamente, programa una cita y su expediente solo es visible para el consejero a cargo. Los casos urgentes tienen una vía separada y más rápida.",
+      "who": [
+        "Estudiante",
+        "Consejero universitario",
+        "Especialista en salud mental"
+      ],
+      "problem": "El proceso burocrático de asesoramiento suele tener tantos obstáculos que la persona desiste. La solicitud directa y la confidencialidad predeterminada eliminan esa barrera.",
+      "parts": [
+        "Solicitud de asesoramiento",
+        "Programación de citas",
+        "Expediente confidencial",
+        "Cola de urgencias",
+        "Derivación"
+      ]
+    },
+    "ai-assistant-agents": {
+      "what": "Los asistentes operan según el rol y el contexto del usuario: consultas sobre folletos de clase, ayuda para diseñar preguntas, resúmenes de sesiones y orientación en la trayectoria académica. Cada respuesta incluye una fuente, un nivel de confianza y la necesidad de revisión humana.",
+      "who": [
+        "Estudiante",
+        "Profesor",
+        "Eksperto en educación"
+      ],
+      "problem": "Una respuesta sin fuente de un modelo de lenguaje es peligrosa en el contexto educativo. La obligación de incluir la fuente y el nivel de confianza hace que la respuesta sea verificable.",
+      "parts": [
+        "Asistentes basados en roles",
+        "Respuesta con fuente",
+        "Nivel de confianza",
+        "Indicador de revisión humana"
+      ]
+    },
+    "academic-messenger-network": {
+      "what": "La mensajería interna abarca chats privados, grupos automáticos para cada clase y canales unidireccionales para anuncios oficiales. La membresía a los grupos de clase se crea a partir de la inscripción, no de forma manual.",
+      "who": [
+        "Estudiante",
+        "Profesor",
+        "Departamento de relaciones públicas"
+      ],
+      "problem": "Cuando la comunicación de las clases se traslada a redes externas, no queda ningún registro ni se respetan los límites de los roles. La mensajería interna restablece ambos aspectos.",
+      "parts": [
+        "Chat privado",
+        "Grupo automático del curso",
+        "Canal de anuncios",
+        "Búsqueda de mensajes"
+      ]
+    },
+    "service-desk": {
+      "what": "Las solicitudes administrativas —certificado de matriculación, baja temporal, cambio de especialidad, solicitudes especiales— se registran desde un único mostrador y el flujo de aprobación de cada tipo de solicitud está predefinido. El solicitante sabe en todo momento en qué mesa se encuentra su solicitud.",
+      "who": [
+        "Estudiante",
+        "Personal",
+        "Especialistas de aprobación"
+      ],
+      "problem": "Las visitas presenciales y el seguimiento telefónico suponen un gran costo oculto para ambas partes. Un flujo transparente lo elimina.",
+      "parts": [
+        "Formulario de solicitud",
+        "Flujo de aprobación",
+        "Estado en tiempo real",
+        "Adjuntar documento",
+        "Archivo"
+      ]
+    },
+    "exec-dashboard": {
+      "what": "El panel de control ejecutivo genera los indicadores clave de cada área a partir de los datos reales de esa misma área y permite acceder a los detalles de cada cifra. Ningún número en esta página carece de una fuente accesible.",
+      "who": [
+        "Director ejecutivo",
+        "Subdirectores",
+        "Gerentes de unidad"
+      ],
+      "problem": "Los informes de gestión manuales siempre llegan tarde y son incoherentes. Un panel conectado a datos en vivo mantiene la toma de decisiones actualizada.",
+      "parts": [
+        "Indicadores educativos",
+        "Indicadores financieros",
+        "Indicadores de evaluación",
+        "Salud del sistema",
+        "Enlace a detalles"
+      ]
+    },
+    "multi-tenancy": {
+      "what": "Cada consulta al servidor se limita a su propia frontera de inquilino, y cada conjunto tiene sus propios usuarios, cursos, marca y configuración. La página de configuración global funciona hoy con datos de ejemplo y se sobrescribe a sí misma; la estrategia de aislamiento se aplica en el servidor, no desde esa página.",
+      "who": [
+        "Administrador de la plataforma",
+        "Organizaciones alojadas",
+        "Equipo de infraestructura"
+      ],
+      "problem": "Configurar una versión independiente para cada organización multiplica el mantenimiento. El aislamiento lógico permite una sola instalación para todos.",
+      "parts": [
+        "Aislamiento de datos en el servidor",
+        "Marca exclusiva",
+        "Configuración independiente",
+        "Consola de configuración con datos de ejemplo"
+      ]
+    },
+    "auth-security-hardening": {
+      "what": "El inicio de sesión mediante contraseña o SMS, la autenticación de dos factores, las sesiones revocables y el acceso basado en roles se comprueban en cada solicitud al servidor. El control de roles en el lado del cliente es meramente visual; la decisión real se toma en el servidor.",
+      "who": [
+        "Todos los usuarios",
+        "Administrador de seguridad",
+        "Soporte"
+      ],
+      "problem": "El control de acceso puramente visual es la brecha más común en los sistemas educativos. La verificación del lado del servidor en cada consulta cierra esta brecha.",
+      "parts": [
+        "Inicio de sesión de varios días",
+        "Autenticación de dos factores",
+        "Gestión de sesiones",
+        "Control de acceso basado en roles"
+      ]
+    },
+    "sms-otp-verification": {
+      "what": "El número de móvil del usuario se verifica con un código de un solo uso y de corta duración; este mismo flujo se utiliza para el inicio de sesión sin contraseña y la recuperación de cuenta. El número de intentos y el intervalo de envío están limitados.",
+      "who": [
+        "Nuevos usuarios",
+        "Usuario en recuperación de cuenta",
+        "Soporte"
+      ],
+      "problem": "Un número no verificado significa una cuenta irrecuperable y notificaciones que no llegan. La verificación por SMS establece una identidad mínima.",
+      "parts": [
+        "Envío de código",
+        "Periodo de validez",
+        "Límite de intentos",
+        "Inicio de sesión y recuperación"
+      ]
+    },
+    "hr-hiring-payroll": {
+      "what": "El ciclo de recursos humanos —oferta de empleo, recepción de currículums, entrevistas, contratación, contratos, órdenes de sueldo, asistencia y nóminas— se define en una sola cadena. La finalización de la nómina siempre requiere una aprobación humana explícita.",
+      "who": [
+        "Director de Recursos Humanos",
+        "Especialista en nóminas",
+        "Jefes de departamento",
+        "Empleados"
+      ],
+      "problem": "La dispersión de los expedientes de personal entre archivos y papeles hace que el cálculo de la nómina sea propenso a errores. Una cadena unificada unifica el historial y los cálculos.",
+      "parts": [
+        "Ofertas y currículums",
+        "Entrevista",
+        "Contrato y órdenes",
+        "Asistencia y rendimiento",
+        "Nómina"
+      ]
+    },
+    "course-hub-ia": {
+      "what": "Cada curso cuenta con una página central que reúne el contenido semanal, las tareas, las sesiones en directo y grabadas, los recursos, los debates grupales y el expediente académico de ese mismo curso.",
+      "who": [
+        "Estudiante",
+        "Profesor",
+        "Asistente de enseñanza"
+      ],
+      "problem": "La dispersión de los componentes de un curso en varias páginas es la queja más común de los usuarios en los sistemas de aprendizaje. La página central lo reúne todo a un solo clic.",
+      "parts": [
+        "Contenido semanal",
+        "Tareas y entregas",
+        "Sesiones y grabaciones",
+        "Recursos",
+        "Calificaciones del curso"
+      ]
+    },
+    "panel-analytics": {
+      "what": "Los análisis generan tendencias de progreso para personas, clases y programas a partir de eventos de aprendizaje reales: participación, entrega de tareas, resultados de exámenes y asistencia. Cada gráfico se desglosa en los datos subyacentes.",
+      "who": [
+        "Profesor",
+        "Jefe de departamento",
+        "Especialista en evaluación",
+        "Estudiante"
+      ],
+      "problem": "Sin una vista de tendencias, los problemas de aprendizaje solo se hacen visibles al final del trimestre, es decir, cuando ya no se puede hacer nada.",
+      "parts": [
+        "Eventos de aprendizaje",
+        "Tendencias individuales y de clase",
+        "Comparación de cursos",
+        "Abrir datos en crudo"
+      ]
+    },
+    "parent-portal": {
+      "what": "Tras una vinculación verificada con el estudiante, el padre o tutor dispone de una vista limitada de las calificaciones, la asistencia, el horario semanal y el estado de la matrícula. El ámbito de acceso es explícito y está aprobado por la universidad.",
+      "who": [
+        "Padres",
+        "Especialista en educación",
+        "Estudiante"
+      ],
+      "problem": "La comunicación entre la familia y la universidad suele limitarse a llamadas telefónicas. Una vista controlada aporta transparencia sin vulnerar la privacidad.",
+      "parts": [
+        "Vinculación verificada",
+        "Calificaciones",
+        "Asistencia",
+        "Horario semanal",
+        "Estado de la matrícula"
+      ]
+    },
+    "org-portal": {
+      "what": "La organización compradora de formación dispone de un espacio independiente: definición de usuarios, matriculación grupal en cursos, gestión de plazas adquiridas, facturación y generación de informes de progreso del personal.",
+      "who": [
+        "Director de formación de la organización",
+        "Departamento financiero de la organización",
+        "Personal matriculado"
+      ],
+      "problem": "La matriculación grupal manual es propensa a errores e imposibilita la elaboración de informes. El portal organizativo resuelve ambos problemas.",
+      "parts": [
+        "Usuarios de la organización",
+        "Matriculación grupal",
+        "Gestión de plazas",
+        "Facturación",
+        "Informe de progreso"
+      ]
+    },
+    "self-hosted-monitoring": {
+      "what": "El estado de los servicios, el consumo de recursos y la salud de la base de datos se recopilan y muestran en la propia infraestructura interna. El canal de alertas se configura fuera de la plataforma y sobre las herramientas operativas del propio equipo.",
+      "who": [
+        "Equipo de infraestructura",
+        "Administrador del sistema"
+      ],
+      "problem": "Depender de servicios de monitorización externos implica enviar datos operativos al exterior y sufrir cortes de supervisión durante las caídas de red. La monitorización interna elimina ambos inconvenientes.",
+      "parts": [
+        "Salud de los servicios",
+        "Consumo de recursos",
+        "Salud de la base de datos"
+      ]
+    },
+    "audit-log": {
+      "what": "Las modificaciones de calificaciones, roles, estados financieros, publicación de informes y eventos sensibles similares se registran en un registro de solo adición: quién, cuándo y qué cambió de un valor a otro.",
+      "who": [
+        "Administrador del sistema",
+        "Auditor interno",
+        "Comité disciplinario"
+      ],
+      "problem": "Sin un registro de auditoría, cualquier reclamación por infracción o error es imposible de investigar. El rastro registrado hace posible dicha investigación.",
+      "parts": [
+        "Eventos sensibles",
+        "Actor y marca de tiempo",
+        "Valor anterior y posterior",
+        "Búsqueda y filtrado"
+      ]
+    },
+    "academic-calendar": {
+      "what": "El calendario de cada semestre define los periodos oficiales, los cuales abren y cierran automáticamente el bloqueo de las operaciones correspondientes: no es posible realizar la selección de asignaturas fuera de su ventana temporal.",
+      "who": [
+        "Especialista en educación",
+        "Estudiante",
+        "Profesor"
+      ],
+      "problem": "Cuando el calendario es solo un aviso, su ejecución se vuelve manual y dispar. Vincular el calendario al bloqueo de operaciones garantiza su cumplimiento.",
+      "parts": [
+        "Períodos de semestres",
+        "Bloqueo de operaciones",
+        "Eventos y ocasiones",
+        "Vista personal"
+      ]
+    },
+    "brand-trust-seals": {
+      "what": "El nombre, logotipo, colores, dirección y símbolos oficiales se leen de una sola configuración y aparecen de forma idéntica en todas las páginas, documentos y tarjetas. Cambiar de marca significa modificar un solo archivo, no buscar en todo el sistema.",
+      "who": [
+        "Visitante del sitio",
+        "Departamento de Relaciones Públicas",
+        "Equipo de desarrollo"
+      ],
+      "problem": "La divergencia de nombres y logotipos entre páginas y documentos rompe la confianza visual. Una fuente única hace que la divergencia sea imposible.",
+      "parts": [
+        "Configuración de marca",
+        "Logotipo y color",
+        "Símbolos oficiales",
+        "Aplicación global"
+      ]
+    },
+    "jalali-calendar-ui": {
+      "what": "Cada fecha que ve el usuario es en el calendario persa y cada número se escribe con dígitos persas; el almacenamiento en segundo plano sigue siendo estándar para que el intercambio de datos con otros sistemas no se rompa.",
+      "who": [
+        "Todos los usuarios",
+        "Equipo de desarrollo"
+      ],
+      "problem": "Las fechas gregorianas en la interfaz de usuario en persa generan errores de lectura y alienan la experiencia. La conversión global resuelve esto de una vez por todas.",
+      "parts": [
+        "Conversión de visualización",
+        "Dígitos persas",
+        "Selector de fecha",
+        "Almacenamiento estándar"
+      ]
+    },
+    "listSeparator": ", ",
+    "schematicAria": "Componentes de esta función: {parts}"
+  },
+  "index": {
+    "eyebrow": "Funciones universitarias",
+    "title": "Todo lo que una universidad necesita, en una sola plataforma",
+    "lead": "{brand} está compuesto por {count, number} funciones interconectadas, desde la evaluación de competencias y clases en vivo hasta finanzas, soporte e infraestructura. Haz clic en cualquier tarjeta para ver su descripción completa."
+  }
+}

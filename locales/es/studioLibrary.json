@@ -1,0 +1,149 @@
+{
+  "mediaLibrary": {
+    "open": "Biblioteca multimedia",
+    "title": "Mi biblioteca multimedia",
+    "close": "Cerrar",
+    "search": "Buscar en los nombres de archivo",
+    "filter": {
+      "label": "Tipo de archivo",
+      "all": "Todos",
+      "video": "Vídeo",
+      "audio": "Audio",
+      "image": "Imagen",
+      "document": "Documento"
+    },
+    "sort": {
+      "label": "Ordenar por",
+      "newest": "Más recientes",
+      "largest": "Más grandes"
+    },
+    "usage": "{used} de {quota} usado",
+    "usageNoQuota": "{used} usado",
+    "size": {
+      "b": "{n} bytes",
+      "kb": "{n} KB",
+      "mb": "{n} MB",
+      "gb": "{n} GB"
+    },
+    "duration": "Duración: {time}",
+    "type": {
+      "video": "Vídeo",
+      "audio": "Audio",
+      "image": "Imagen",
+      "document": "Documento",
+      "slide": "Diapositiva",
+      "h5p": "Interactiva (H5P)",
+      "caption": "Subtítulo"
+    },
+    "usedIn": {
+      "label": "Usado en",
+      "sections": "{count, plural, one {# sección} many {# secciones} other {# secciones}}",
+      "projects": "{count, plural, one {# proyecto de edición} many {# proyectos de edición} other {# proyectos de edición}}",
+      "templates": "{count, plural, one {# plantilla} many {# plantillas} other {# plantillas}}"
+    },
+    "unused": "Aún no se utiliza en ninguna parte",
+    "badge": {
+      "take": "Toma de grabación",
+      "processing": "Procesando",
+      "failed": "Error en el procesamiento"
+    },
+    "actions": {
+      "more": "Más acciones para «{name}»",
+      "preview": "Vista previa",
+      "use": "Usar en la sección",
+      "edit": "Editar en la línea de tiempo",
+      "saveTemplate": "Guardar como plantilla",
+      "delete": "Eliminar"
+    },
+    "loadMore": "Cargar más",
+    "empty": {
+      "title": "Aún no tienes contenido multimedia",
+      "body": "Graba o sube un archivo para que aparezca aquí.",
+      "record": "Ir a grabar"
+    },
+    "noResults": "No se encontró nada con este filtro.",
+    "error": "No se pudo cargar la biblioteca.",
+    "errorHint": "Comprueba tu conexión e inténtalo de nuevo.",
+    "retry": "Reintentar",
+    "delete": {
+      "title": "¿Eliminar «{name}»?",
+      "body": "El archivo se eliminará permanentemente y no se podrá recuperar.",
+      "confirm": "Eliminar",
+      "cancel": "Cancelar",
+      "done": "Archivo eliminado."
+    },
+    "pickSection": {
+      "title": "Seleccionar sección",
+      "hint": "Solo se muestran las secciones compatibles con el tipo de este archivo.",
+      "empty": "No hay ninguna sección compatible en este curso; crea una primero en el plan de estudios.",
+      "replaceWarn": "Esta sección ya tiene otro archivo y será reemplazado.",
+      "confirm": "Colocar en esta sección",
+      "cancel": "Cancelar",
+      "done": "Archivo colocado en la sección.",
+      "error": "No se pudo colocar el archivo en la sección.",
+      "loadError": "No se pudo cargar la lista de secciones."
+    },
+    "preview": {
+      "title": "Vista previa de «{name}»",
+      "error": "La vista previa no está disponible."
+    }
+  },
+  "studioTemplates": {
+    "open": "Desde plantillas",
+    "title": "Biblioteca de plantillas",
+    "close": "Cerrar",
+    "cat": {
+      "label": "Categoría de plantilla",
+      "lesson_intro": "Introducción a la lección",
+      "lesson_summary": "Resumen",
+      "instructor_intro": "Presentación del instructor",
+      "assignment_notice": "Aviso de tarea"
+    },
+    "scope": {
+      "label": "Ámbito",
+      "all": "Todos",
+      "tenant": "Plantillas de la institución",
+      "personal": "Mis plantillas"
+    },
+    "badge": {
+      "tenant": "Institución",
+      "personal": "Personal"
+    },
+    "use": "Usar",
+    "using": "Preparando...",
+    "copiedNote": "Se ha creado una copia en tu biblioteca multimedia.",
+    "useError": "No se pudo preparar la plantilla.",
+    "preview": "Vista previa",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "unavailable": "El archivo de esta plantilla no está disponible.",
+    "empty": {
+      "title": "No hay plantillas en esta categoría",
+      "body": "Guarda un archivo como plantilla desde la biblioteca multimedia."
+    },
+    "error": "No se pudieron cargar las plantillas.",
+    "retry": "Reintentar",
+    "form": {
+      "createTitle": "Guardar como plantilla",
+      "editTitle": "Editar plantilla",
+      "title": "Título",
+      "titleRequired": "El título es obligatorio.",
+      "description": "Descripción (opcional)",
+      "category": "Categoría",
+      "scope": "¿Quién puede ver esto?",
+      "scopePersonal": "Solo yo",
+      "scopeTenant": "Todos los profesores de la institución",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "saved": "Plantilla guardada.",
+      "error": "No se pudo guardar la plantilla."
+    },
+    "deleteDialog": {
+      "title": "¿Eliminar la plantilla «{title}»?",
+      "body": "La plantilla se eliminará de la biblioteca; las secciones que la hayan utilizado no se verán afectadas.",
+      "confirm": "Eliminar",
+      "cancel": "Cancelar",
+      "done": "Plantilla eliminada."
+    }
+  }
+}

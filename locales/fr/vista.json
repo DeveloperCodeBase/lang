@@ -1,0 +1,43 @@
+{
+  "vista": {
+    "head": {
+      "title": "À propos de Vista",
+      "description": "Vista, opérateur technique et propriétaire de cette plate-forme — services, architecture d'intelligence artificielle, écosystème et informations officielles de l'entreprise."
+    },
+    "hero": {
+      "eyebrow": "PARTENAIRE TECHNIQUE · TECHNOLOGY PARTNER",
+      "ownershipPrefix": "{platform} est un produit de cette entreprise ; {role} de cette plate-forme et tous les droits matériels et intellectuels y afférents appartiennent à ",
+      "ownershipSuffix": ".",
+      "siteLinkLabel": "Site Web officiel de Vista ↗",
+      "aboutLinkLabel": "À propos de {name}"
+    },
+    "sections": {
+      "overview": {
+        "eyebrow": "PRÉSENTATION · OVERVIEW",
+        "title": "De l'idée éparse au produit, processus et décision exploitables"
+      },
+      "services": {
+        "eyebrow": "SERVICES · SERVICES",
+        "title": "De l'architecture d'intelligence artificielle au produit prêt à l'emploi"
+      },
+      "architecture": {
+        "eyebrow": "ARCHITECTURE · AGENTIC + RAG",
+        "title": "Modèle de langue, connaissances organisationnelles, outils et révision humaine au sein d'une seule architecture"
+      },
+      "ecosystem": {
+        "eyebrow": "ÉCOSYSTÈME · ECOSYSTEM",
+        "title": "AI, connaissances et ingénierie produit dans un même cycle"
+      },
+      "official": {
+        "eyebrow": "INFORMATIONS OFFICIELLES · OFFICIAL",
+        "title": "Conseil d'administration et moyens de contact"
+      }
+    },
+    "ecosystem": {
+      "viewSiteLabel": "Visiter le site Web ↗"
+    },
+    "official": {
+      "regNoLabel": "Numéro d'immatriculation : "
+    }
+  }
+}

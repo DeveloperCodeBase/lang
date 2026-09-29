@@ -1,0 +1,949 @@
+{
+  "auth": {
+    "login": "ورود",
+    "register": "ثبت‌نام"
+  },
+  "assistantUnavailable": "دستیار موقتاً بارگذاری نشد؛ صفحهٔ درس همچنان در دسترس است.",
+  "banner": {
+    "dismissAria": "بستن یادآوری",
+    "phoneUnverified": "شماره تماس شما هنوز تأیید نشده — برای عضویت، پرداخت از کیف پول و دریافت مدرک لازم است.",
+    "verifyPhone": "تأیید شماره"
+  },
+  "bottomNav": {
+    "aria": "پیمایش پایین",
+    "slot": {
+      "admin": "مدیریت",
+      "analytics": "تحلیل",
+      "appointments": "نوبت‌ها",
+      "assessCenter": "کانونِ سنجش",
+      "assessorConsole": "کنسولِ ارزیاب",
+      "audit": "نظارت",
+      "catalog": "کاتالوگ",
+      "child": "فرزند",
+      "classroom": "کلاس",
+      "content": "محتوا",
+      "courses": "درس‌ها",
+      "credential": "گواهی",
+      "crisis": "بحرانی",
+      "departments": "گروه‌ها",
+      "discussions": "بحث‌ها",
+      "grades": "نمرات",
+      "help": "راهنما",
+      "home": "خانه",
+      "liveClass": "کلاس زنده",
+      "membershipQueue": "صفِ عضویت",
+      "messages": "پیام‌ها",
+      "more": "بیشتر",
+      "myCourses": "دروس من",
+      "offerings": "دروس",
+      "payroll": "حقوق",
+      "reports": "گزارش‌ها",
+      "review": "بازبینی",
+      "schools": "دانشکده",
+      "students": "دانشجویان",
+      "tickets": "تیکت‌ها",
+      "treasury": "خزانه",
+      "tutor": "تدریس‌یار",
+      "users": "کاربران",
+      "profile": "پروفایل"
+    }
+  },
+  "brand": {
+    "markSubtitle": "پلتفرم یادگیری هوشمند",
+    "platformKind": "پلتفرم یادگیری هوشمند (Intelligent Learning Platform – ILP) بر پایهٔ معماری چندعامله (Multi-Agent Architecture)",
+    "copyrightYear": "۱۴۰۵"
+  },
+  "breadcrumb": {
+    "about": "درباره ما",
+    "achievements": "دستاوردها",
+    "adaptivePath": "مسیر تطبیقی",
+    "addDrop": "حذف و اضافه",
+    "admin": "میز مدیریت",
+    "admissions": "پذیرش",
+    "agents": "دستیارهای هوشمند",
+    "aiGovernance": "حاکمیت AI",
+    "aiUsage": "مصرف هوش مصنوعی",
+    "alumni": "فارغ‌التحصیلان",
+    "analytics": "تحلیل",
+    "analyticsAdmin": "تحلیل‌های مدیریتی",
+    "applications": "درخواست‌های پذیرش",
+    "assess": "سنجش شایستگی",
+    "assessCenter": "کانونِ سنجش",
+    "assessment": "آزمون",
+    "assessmentBuilder": "آزمون‌ساز",
+    "assessmentLive": "آزمون زنده",
+    "assignments": "تکالیف",
+    "attendance": "حضورغیاب",
+    "audit": "گزارش حسابرسی",
+    "authoring": "استودیو",
+    "autoRules": "قواعد خودکار",
+    "bookmarks": "ذخیره‌ها",
+    "broadcast": "اطلاع‌رسانی همگانی",
+    "bulkEnroll": "ثبت‌نام گروهی",
+    "calendar": "تقویم",
+    "candidate": "داوطلب",
+    "capabilitiesStatus": "وضعیت قابلیت‌ها",
+    "career": "خدمات شغلی",
+    "catalog": "کاتالوگ",
+    "checkout": "پرداخت اشتراک",
+    "claims": "حق‌التدریس",
+    "classAnalytics": "تحلیل کلاس",
+    "classroom": "کلاس زنده",
+    "clearance": "تسویه‌حساب",
+    "cognitiveProfile": "نیم‌رخ شناختی",
+    "cohorts": "گروه‌های ثبت‌نام",
+    "commission": "کمیسیون موارد خاص",
+    "community": "انجمن",
+    "communityModeration": "پایش انجمن",
+    "content": "محتوا",
+    "contentAnalytics": "تحلیل محتوا",
+    "contentReview": "بازبینی محتوا",
+    "copilot": "همیار هوشمند",
+    "counselingAppointments": "نوبت‌های مشاوره",
+    "counselor": "میز مشاور",
+    "counselorCaseload": "پرونده‌های مشاوره",
+    "counselorInbox": "صندوق مشاور",
+    "course": "درس",
+    "courseContent": "محتوای درس",
+    "courseLive": "کلاس زنده درس",
+    "courses": "دروس",
+    "credential": "گواهی‌ها",
+    "crisisQueue": "صف بحران",
+    "curriculumBuilder": "چارت درسی",
+    "dashboard": "میز کار",
+    "decrees": "احکام کارگزینی",
+    "degreeAudit": "مسیر مدرک",
+    "degreePolicies": "آستانه‌های مقطع",
+    "departments": "گروه‌های آموزشی",
+    "directory": "دایرکتوریِ اعضا",
+    "earnings": "درآمد من",
+    "enrollments": "مدیریت ثبت‌نام",
+    "events": "رویدادها",
+    "exam": "اتاق آزمون",
+    "exercise": "تمرین",
+    "faculties": "دانشکده‌ها",
+    "faculty": "هیات علمی",
+    "facultyDashboard": "میز دانشکده",
+    "facultyReports": "گزارش‌های دانشکده",
+    "finance": "مالی",
+    "financialAid": "کمک‌هزینه",
+    "flaggedReports": "گزارش‌های نشان‌شده",
+    "forgot": "بازیابی رمز",
+    "gradeSubmission": "گردش رسمی نمره",
+    "gradebook": "دفتر نمره",
+    "grades": "نمرات",
+    "gradingQueue": "صف تصحیح",
+    "hackathons": "هکاتون",
+    "help": "پشتیبانی",
+    "home": "خانه",
+    "honorCode": "صداقت علمی",
+    "hr": "استخدام",
+    "inbox": "صندوق ورودی",
+    "instructor": "کنسول استاد",
+    "instructorAssignment": "تخصیص استاد",
+    "instructorDashboard": "میز استاد",
+    "instructors": "اساتید",
+    "integrations": "یکپارچه‌سازی‌ها",
+    "invoices": "صورتحساب‌ها",
+    "itemAnalysis": "تحلیل سؤال",
+    "labs": "آزمایشگاه‌ها",
+    "library": "کتابخانه",
+    "liveClass": "کلاس زنده",
+    "loans": "وام‌ها",
+    "login": "ورود",
+    "market": "بازار دانش",
+    "membership": "عضویتِ من",
+    "membershipConfig": "تنظیماتِ عضویت",
+    "membershipQueue": "صفِ عضویت",
+    "messages": "پیام‌ها",
+    "ministryLibrary": "کتابخانهٔ وزارت",
+    "moderate": "میز ناظر",
+    "moderationLog": "لاگ پایش",
+    "monitoring": "پایش سامانه",
+    "more": "بیشتر",
+    "my": "سفرِ من",
+    "myAttendance": "حضور من",
+    "myChart": "چارت درسی من",
+    "myCourses": "دوره‌های من",
+    "myGrades": "نمرات من",
+    "myPath": "مسیر تحصیلی",
+    "myPayslips": "فیش‌های حقوقی من",
+    "myReport": "گزارشِ من",
+    "network": "شبکهٔ آکادمیک",
+    "new": "درخواست جدید",
+    "notifTemplates": "قالب‌های اعلان",
+    "offerings": "ارائهٔ دروس",
+    "officehours": "Office Hours",
+    "onboarding": "آغاز کار",
+    "org": "میز سازمان",
+    "parent": "میز والد",
+    "parentLinks": "پیوند والدین",
+    "payroll": "حقوق‌ودستمزد",
+    "payrollConfig": "پیکربندی حقوق",
+    "people": "افراد",
+    "plans": "پلن‌ها",
+    "portfolio": "کارپوشه",
+    "pricing": "پلن‌ها",
+    "privacy": "حریم خصوصی",
+    "probationReview": "بازبینی مشروطی",
+    "proctorReview": "بازبینی ناظر",
+    "profile": "پروفایل",
+    "profiles": "پروفایل‌ها",
+    "programs": "برنامه‌ها",
+    "progress": "پیشرفت",
+    "questionBank": "بانک سؤال",
+    "record": "استودیوی ضبط",
+    "recordings": "بایگانی کلاس‌ها",
+    "referenceData": "داده‌های پایه",
+    "refund": "استرداد",
+    "register": "ثبت‌نام",
+    "registration": "ثبت‌نام واحد",
+    "regulation": "آیین‌نامه آموزشی",
+    "reports": "گزارش‌ها",
+    "research": "پژوهش",
+    "review": "بازبینی",
+    "roles": "نقش‌ها",
+    "roster": "دانشجویان",
+    "rubricBuilder": "روبریک‌ساز",
+    "schedule": "برنامهٔ هفتگی",
+    "schools": "دانشکده‌ها",
+    "search": "جستجو",
+    "seats": "صندلی‌ها",
+    "security": "امنیت",
+    "serviceDesk": "پیشخوان خدمت",
+    "settings": "تنظیمات",
+    "specializations": "گرایش‌ها",
+    "stageProgress": "پیشرفت مرحله‌ای",
+    "studentOverview": "پروندهٔ افراد",
+    "students": "دانشجویان",
+    "studio": "استودیوی دانش",
+    "submission": "تمرین‌ها",
+    "super": "ابزار راهبری",
+    "support": "میز پشتیبانی",
+    "ta": "میز دستیار آموزشی",
+    "tenants": "سازمان‌ها",
+    "terms": "نیم‌سال‌ها",
+    "tickets": "تیکت‌ها",
+    "transcript": "کارنامه",
+    "treasury": "خزانه",
+    "tuition": "شهریه و پرداخت",
+    "tuitionConfig": "پیکربندی شهریه",
+    "tutor": "دستیار AI",
+    "twoFactorSetup": "تأیید دومرحله‌ای",
+    "userLookup": "جستجوی کاربر",
+    "users": "کاربران",
+    "verifyEmail": "تأیید ایمیل",
+    "virtuallab": "آزمایشگاه مجازی",
+    "vista": "دربارهٔ ویستا",
+    "wallet": "کیف پول",
+    "washup": "واش‌آپ",
+    "wellness": "سلامت",
+    "wishlist": "علاقه‌مندی‌های من",
+    "withdrawals": "برداشت‌ها",
+    "workflows": "گردش‌کارها"
+  },
+  "breadcrumbUi": {
+    "nav": "مسیر صفحه",
+    "showFullPath": "نمایش مسیر کامل",
+    "newCourse": "ساخت دورهٔ جدید",
+    "printCredential": "چاپِ مدرک",
+    "sessionReport": "گزارش",
+    "sessionLobby": "لابی",
+    "studioTab": {
+      "overview": "نمای کلی",
+      "curriculum": "سرفصل‌ها",
+      "content": "محتوا",
+      "pricing": "قیمت‌گذاری",
+      "coupons": "کدهای تخفیف",
+      "analytics": "تحلیل",
+      "settings": "تنظیمات",
+      "preview": "پیش‌نمایش",
+      "record": "استودیوی ضبط"
+    }
+  },
+  "cmdk": {
+    "aria": "پالت دستورات",
+    "hintNavigate": "ناوبری",
+    "item": {
+      "about": {
+        "label": "درباره ما"
+      },
+      "achievements": {
+        "label": "دستاوردها"
+      },
+      "admin": {
+        "label": "میز مدیریت"
+      },
+      "alumni": {
+        "label": "شبکه فارغ‌التحصیلان"
+      },
+      "analytics": {
+        "label": "تحلیل‌گری نهادی"
+      },
+      "apply": {
+        "hint": "فرم واقعی پذیرش",
+        "label": "درخواست پذیرش"
+      },
+      "assessment": {
+        "label": "آزمون‌ها و ارزشیابی"
+      },
+      "authoring": {
+        "label": "تولید / ویرایش درس"
+      },
+      "bookmarks": {
+        "label": "ذخیره‌ها"
+      },
+      "calendar": {
+        "label": "تقویم"
+      },
+      "career": {
+        "label": "خدمات شغلی"
+      },
+      "classroom": {
+        "label": "کلاس زنده"
+      },
+      "community": {
+        "label": "جامعه"
+      },
+      "course": {
+        "label": "درس من"
+      },
+      "credential": {
+        "label": "گواهی دیجیتال"
+      },
+      "dashboard": {
+        "label": "میز کار"
+      },
+      "degree-audit": {
+        "label": "مسیر مدرک"
+      },
+      "events": {
+        "label": "رویدادها"
+      },
+      "faculty": {
+        "label": "هیات علمی"
+      },
+      "financial-aid": {
+        "label": "کمک‌هزینه و بورسیه"
+      },
+      "hackathons": {
+        "label": "هکاتون‌ها و رقابت"
+      },
+      "help": {
+        "label": "پشتیبانی"
+      },
+      "home": {
+        "hint": "صفحه اصلی",
+        "label": "خانه"
+      },
+      "honor-code": {
+        "label": "منشور صداقت علمی"
+      },
+      "inbox": {
+        "label": "اعلان‌ها"
+      },
+      "instructor": {
+        "label": "کنسول استاد"
+      },
+      "labs": {
+        "label": "آزمایشگاه‌های مجازی"
+      },
+      "library": {
+        "label": "کتابخانه"
+      },
+      "login": {
+        "label": "ورود"
+      },
+      "messages": {
+        "label": "پیام‌ها"
+      },
+      "officehours": {
+        "label": "Office Hours"
+      },
+      "parent": {
+        "label": "میز والد"
+      },
+      "pricing": {
+        "label": "پلن‌ها و قیمت"
+      },
+      "profile": {
+        "label": "پروفایل عمومی"
+      },
+      "recordings": {
+        "label": "آرشیو ضبط‌ها"
+      },
+      "registration": {
+        "label": "ثبت‌نام واحد"
+      },
+      "regulation": {
+        "label": "آیین‌نامه آموزشی"
+      },
+      "research": {
+        "label": "پژوهش"
+      },
+      "schools": {
+        "label": "دانشکده‌ها"
+      },
+      "search": {
+        "label": "جستجوی معنایی"
+      },
+      "settings": {
+        "label": "تنظیمات"
+      },
+      "submission": {
+        "label": "تحویل تمرین"
+      },
+      "track": {
+        "hint": "وضعیت درخواست با کد پیگیری",
+        "label": "پیگیری درخواست"
+      },
+      "transcript": {
+        "label": "کارنامه"
+      },
+      "vista": {
+        "label": "دربارهٔ ویستا (مجری فنی)"
+      },
+      "wellness": {
+        "label": "سلامت و مشاوره"
+      }
+    },
+    "placeholder": "جستجوی صفحه، دستور یا تنظیم… (مثلا: کلاس، تم، گواهی)",
+    "searchAria": "جستجوی دستورات"
+  },
+  "demo": {
+    "disabled": "این عملیات در نسخه‌ی نمایشی فعال نیست."
+  },
+  "denied": {
+    "body": "این صفحه برای نقش شما در دسترس نیست. اجازهٔ مشاهدهٔ این بخش وجود ندارد. اگر فکر می‌کنید اشتباهی رخ داده، با مدیر سامانه تماس بگیرید.",
+    "bodyWithRole": "این صفحه برای نقش شما در دسترس نیست. با نقش فعلی («{role}») اجازهٔ مشاهدهٔ این بخش وجود ندارد. اگر فکر می‌کنید اشتباهی رخ داده، با مدیر سامانه تماس بگیرید.",
+    "cta": "بازگشت به خانهٔ من",
+    "screenLabel": "403 · دسترسی محدود",
+    "title": "دسترسی به این بخش ندارید"
+  },
+  "footer": {
+    "feature": {
+      "competency-assessment-center": "کانون سنجش شایستگی",
+      "credential-registry-verify": "اعتبارنامه و استعلام",
+      "exam-assessment-engine": "آزمون و ارزشیابی",
+      "knowledge-marketplace": "بازار دانش",
+      "live-class": "کلاس زندهٔ تعاملی",
+      "membership-registry": "عضویت و کارت عضویت"
+    },
+    "head": {
+      "0": "محصول",
+      "1": "دانشگاه",
+      "2": "برای کاربران",
+      "3": "امکانات دانشگاه",
+      "4": "منابع"
+    },
+    "link": {
+      "about": "درباره‌ی ما",
+      "about-alt2": "درباره‌ی دانشگاه",
+      "about-alt3": "درباره ما",
+      "apply": "درخواست پذیرش",
+      "apply-alt2": "ساخت حساب",
+      "assessment": "آزمون‌ها و ارزشیابی",
+      "classroom": "کلاس برخط",
+      "community": "جامعه",
+      "contact": "تماس با ما",
+      "credential": "گواهی دیجیتال",
+      "events": "رویدادها",
+      "faculty": "هیات علمی",
+      "faq": "سؤالات متداول",
+      "features": "همهٔ امکانات",
+      "help": "راهنما و پشتیبانی",
+      "help-alt2": "مرکز پشتیبانی",
+      "honor-code": "منشور صداقت علمی",
+      "honor-code-alt2": "صداقت علمی",
+      "labs": "آزمایشگاه‌های مجازی",
+      "library": "کتابخانه دیجیتال",
+      "login": "ورود به حساب",
+      "pricing": "پلن‌ها و قیمت",
+      "privacy": "حریم خصوصی",
+      "programs": "برنامه‌ها و مقاطع",
+      "programs-alt2": "دانشکده‌ها و برنامه‌ها",
+      "recordings": "آرشیو ضبط‌ها",
+      "research": "پژوهش و دکتری",
+      "schools": "دانشکده‌ها",
+      "search": "جستجوی معنایی",
+      "settings": "تنظیمات",
+      "terms": "قوانین و مقررات",
+      "track": "پیگیری درخواست",
+      "vista": "دربارهٔ ویستا"
+    },
+    "rights": "همهٔ حقوق محفوظ است",
+    "tagline": "یک زیرساخت آموزشی کاملاً دیجیتال که در آن هوش مصنوعی نه یک افزونه، بلکه شالوده‌ی یادگیری، طراحی برنامه و سنجش است.",
+    "alsoSee": "همچنین ببینید:",
+    "trustSeals": {
+      "title": "نمادهای اعتماد",
+      "enamadAlt": "نماد اعتماد الکترونیکی",
+      "senfAlt": "سازمان نظام صنفی رایانه‌ای کشور",
+      "senfCaption": "عضو نظام صنفی رایانه‌ای — شمارهٔ ۲۳۰۱۰۱۷۷"
+    },
+    "org": {
+      "rightsCompact": "© {year} {holder} — تمامی حقوق محفوظ است.",
+      "rightsFull": "© {year} — تمامی حقوق مادی و معنوی این وب‌سایت، نشان‌های تجاری و محتوای آن، متعلق به {holder} است. هرگونه بازنشر یا بهره‌برداری بدون اجازه‌ی کتبی ممنوع است.",
+      "developerLegal": "طراحی، پیاده‌سازی و توسعه: شرکت شبکه هوشمند ابتکار ویستا — کلیهٔ حقوق مادی و معنوی این سامانه محفوظ و متعلق به شرکت شبکه هوشمند ابتکار ویستا است."
+    }
+  },
+  "home": {
+    "admin": "میز مدیریت",
+    "assessment_manager": "میزِ مدیرِ کانون",
+    "assessor": "میزِ ارزیاب",
+    "content_manager": "میز محتوا",
+    "counselor": "میز کار مشاور",
+    "faculty_admin": "داشبورد دانشکده",
+    "finance_manager": "میز مالی",
+    "instructor": "میز کار استاد",
+    "membership_manager": "میز عضویت",
+    "membership_operator": "میز عضویت",
+    "moderator": "میز نظارت",
+    "org": "میز سازمان",
+    "parent": "پورتال والد",
+    "student": "میز کار دانشجو",
+    "super_admin": "میز ابرمدیر",
+    "support": "میز پشتیبانی",
+    "ta": "میز دستیار"
+  },
+  "language": {
+    "switcherAria": "انتخاب زبان"
+  },
+  "modal": {
+    "confirmWordHint": "برای تأیید، واژهٔ «{word}» را عیناً تایپ کنید",
+    "defaultTitle": "تأیید عملیات"
+  },
+  "nav": {
+    "aria": {
+      "menu": "منو",
+      "roleNav": "ناوبری نقش {role}",
+      "unread": "{count, plural, one {# پیام نخوانده} other {# پیام نخوانده}}",
+      "userMenu": "منوی کاربر",
+      "workspaceMenu": "منوی workspace"
+    },
+    "cart": {
+      "aria": "سبد خرید ({count, plural, one {# قلم} other {# قلم}})",
+      "label": "سبد خرید"
+    },
+    "chat": {
+      "ariaUnread": "پیام‌ها ({count, plural, one {# پیام نخوانده} other {# پیام نخوانده}})",
+      "label": "پیام‌ها"
+    },
+    "cmdk": {
+      "aria": "پالت دستورات (Cmd+K)",
+      "title": "جستجوی سریع (Ctrl+K)"
+    },
+    "connect": {
+      "ariaPending": "شبکه ({count, plural, one {# درخواست جدید} other {# درخواست جدید}})",
+      "label": "شبکه",
+      "title": "شبکهٔ من"
+    },
+    "group": {
+      "academicStructure": "ساختار آکادمیک (از بالا به پایین)",
+      "account": "حساب",
+      "advisorDesk": "میز کار مشاور",
+      "ai": "هوش مصنوعی",
+      "analytics": "تحلیل",
+      "assessment": "ارزشیابی",
+      "assessmentAssigned": "ارزشیابی (تخصیص‌یافته)",
+      "child": "فرزند",
+      "classAndAi": "کلاس و هوش مصنوعی",
+      "classAndInteraction": "کلاس و تعامل",
+      "communication": "ارتباط",
+      "content": "محتوا",
+      "education": "آموزش",
+      "evaluationCenter": "سنجش",
+      "facultyStructure": "دانشکده (از بالا به پایین)",
+      "finance": "مالی",
+      "financeOversight": "مالی (نظارت)",
+      "governance": "حاکمیت",
+      "knowledgeMarket": "بازار دانش",
+      "learning": "یادگیری",
+      "liveClass": "کلاس",
+      "membership": "عضویت",
+      "organization": "سازمان",
+      "people": "افراد",
+      "reports": "گزارش‌ها",
+      "studentAffairs": "امور دانشجویی",
+      "studentServices": "خدمات دانشجویی",
+      "students": "دانشجویان",
+      "superAdmin": "ابرمدیریت",
+      "supervision": "نظارت",
+      "support": "پشتیبانی",
+      "system": "سامانه",
+      "teaching": "تدریس",
+      "teachingAssistance": "تدریس‌یاری",
+      "tuition": "شهریه",
+      "welfareFund": "صندوق رفاه و بورسیه",
+      "services": "خدمات دانشگاه"
+    },
+    "item": {
+      "achievements": "دستاوردها",
+      "adaptive-path": "مسیر یادگیری تطبیقی",
+      "add-drop": "حذف و اضافه",
+      "admin": "داشبورد مدیریت",
+      "admin-ai-usage": "مصرف هوش مصنوعی",
+      "admin-applications": "درخواست‌ها (پذیرش)",
+      "admin-assess-center": "کانونِ سنجش (مدیریت)",
+      "admin-broadcast": "پخش اعلان سراسری",
+      "admin-calendar": "تقویم آموزشی",
+      "admin-cohorts": "دسته‌های قدیمی (Cohort)",
+      "admin-commission": "کمیسیون موارد خاص",
+      "admin-course-content": "تولید محتوا",
+      "admin-course-content-alt2": "تولید / ویرایش درس",
+      "admin-course-content-alt3": "تولید / ویرایش محتوا",
+      "admin-courses": "کاتالوگ دروس",
+      "admin-degree-policies": "آستانه‌های مقطع",
+      "admin-departments": "گروه‌های آموزشی",
+      "admin-enrollments": "ثبت‌نام‌ها",
+      "admin-faculties": "بخش‌های دانشکده",
+      "admin-finance-claims": "تأیید حق‌التدریس",
+      "admin-finance-decrees": "احکام کارگزینی",
+      "admin-finance-payroll": "اجرای حقوق",
+      "admin-finance-payroll-config": "پیکربندی حقوق",
+      "admin-finance-treasury": "خزانه و گزارش‌ها",
+      "admin-finance-withdrawals": "صف برداشت",
+      "admin-hr": "استخدام و پروندهٔ پرسنلی",
+      "admin-hr-alt2": "استخدام دانشکده",
+      "admin-hr-alt3": "قراردادهای استخدام و حقوق",
+      "admin-instructors": "اساتید",
+      "admin-integrations": "یکپارچه‌سازی‌ها",
+      "admin-membership-config": "تنظیماتِ عضویت",
+      "admin-membership-queue": "صفِ عضویت",
+      "admin-ministry-library": "کتابخانه وزارت علوم",
+      "admin-notif-templates": "قالب‌های اعلان",
+      "admin-offerings": "ارائه دروس و کلاس‌ها",
+      "admin-offerings-alt2": "ارائه دروس / کلاس‌بندی",
+      "admin-parent-links": "پیوند والد و دانشجو",
+      "admin-people": "فهرست افراد",
+      "admin-plans": "پلن‌ها و قیمت‌ها",
+      "admin-profiles": "پروفایل‌ها",
+      "admin-programs": "رشته‌ها",
+      "admin-reference-data": "داده‌های مرجع",
+      "admin-regulation": "آیین‌نامه آموزشی",
+      "admin-roles": "نقش‌ها و دسترسی‌ها",
+      "admin-schools": "دانشکده‌ها",
+      "admin-specializations": "گرایش‌ها",
+      "admin-stage-progress": "پیشرفت مرحله‌ای (پزشکی)",
+      "admin-student-overview": "پروندهٔ افراد",
+      "admin-students": "دانشجویان",
+      "admin-terms": "نیم‌سال‌ها",
+      "admin-tuition-config": "پیکربندی شهریه",
+      "admin-users": "مدیریت کاربران",
+      "admin-workflows": "سازندهٔ گردش‌کار",
+      "agents": "دستیارهای هوشمند",
+      "ai-governance": "کنسول حاکمیت AI",
+      "analytics-admin": "گزارش‌ها و تحلیل‌ها",
+      "assess": "سنجش شایستگی",
+      "assess-center": "کانونِ سنجش — کنسولِ ارزیاب",
+      "assess-center-alt2": "کنسولِ ارزیاب",
+      "assess-center-my": "کانونِ سنجش — سفرِ من",
+      "assess-center-my-alt2": "سفرِ من در سنجش",
+      "assess-center-my-report": "کانونِ سنجش — گزارشِ من",
+      "assess-center-my-report-alt2": "گزارشِ سنجشِ من",
+      "assessment-builder": "آزمون‌ساز",
+      "assignments": "تکالیف و آزمون‌ها",
+      "attendance": "حضور و غیاب",
+      "audit": "گزارش حسابرسی",
+      "auto-rules": "قواعد خودکار",
+      "calendar": "تقویم",
+      "calendar-alt2": "تقویم و برنامه",
+      "calendar-alt3": "برنامه و تقویم",
+      "capabilities-status": "وضعیت قابلیت‌ها",
+      "career": "خدمات شغلی",
+      "catalog": "کاتالوگ دروس",
+      "class-analytics": "تحلیل کلاس",
+      "cognitive-profile": "پروفایل شناختی",
+      "community": "انجمن گفتگو",
+      "community-moderation": "مدیریت بحث‌ها",
+      "content": "میز کار محتوا",
+      "content-analytics": "تحلیل کاتالوگ",
+      "content-review": "صف بازبینی محتوا",
+      "copilot": "دستیار هوشمند استاد",
+      "counseling-appointments": "نوبت‌های مشاوره",
+      "counselor-caseload": "کاربرگ مراجعان",
+      "counselor-inbox": "میز کار مشاور",
+      "credential": "گواهی‌نامه‌ها",
+      "crisis-queue": "صف موارد بحرانی",
+      "curriculum-builder": "چارت درسی (دروس، پیش‌نیاز، نوع درس)",
+      "degree-audit": "مسیر مدرک",
+      "faculty": "هیئت علمی",
+      "faculty-dashboard": "داشبورد دانشکده",
+      "faculty-reports": "گزارش‌های دانشکده",
+      "financial-aid": "کمک‌هزینه / بورسیه",
+      "financial-aid-alt2": "بورسیه",
+      "flagged-reports": "صف گزارش‌های پرچم‌شده",
+      "grade-submission": "ثبت نمرات",
+      "grade-submission-alt2": "ثبت نمرهٔ پیش‌نویس",
+      "gradebook": "دفتر نمره",
+      "grading-queue": "صف تصحیح تکالیف",
+      "inbox": "اعلان‌ها",
+      "instructor-assignment": "تخصیص استاد",
+      "instructor-dashboard": "میز کار",
+      "item-analysis": "تحلیل سوالات",
+      "item-analysis-alt2": "تحلیل سؤالات",
+      "labs": "آزمایشگاه مجازی",
+      "library": "کتابخانه",
+      "library-alt2": "کتابخانهٔ محتوا",
+      "live-class": "کلاس‌های زنده",
+      "live-class-admin": "ظرفیت کلاس زنده",
+      "live-class-alt2": "میزبانی کلاس زنده",
+      "live-class-alt3": "کلاس زنده",
+      "market": "کاوش بازار دانش",
+      "market-admin": "مدیریت بازار",
+      "market-admin-storage": "ذخیره‌سازیِ استودیو",
+      "market-cart": "سبد خرید",
+      "market-earnings": "درآمد من",
+      "market-my-courses": "دوره‌های من",
+      "market-purchases": "خریدهای من",
+      "market-review": "بازبینی دوره‌های بازار",
+      "market-studio": "استودیوی دانش (دوره‌سازِ من)",
+      "market-studio-alt2": "استودیوی دانش (دوره‌ساز)",
+      "market-transactions": "تراکنش‌های من",
+      "market-wishlist": "علاقه‌مندی‌های من",
+      "membership": "عضویتِ من",
+      "membership-directory": "دایرکتوریِ اعضا",
+      "messages": "پیام‌ها",
+      "messages-alt2": "پیام به استاد / دانشگاه",
+      "moderate": "میز کار نظارت",
+      "moderation-log": "تاریخچهٔ اقدامات",
+      "monitoring": "سلامت سامانه",
+      "my-attendance": "حضور و غیاب",
+      "my-chart": "چارت درسی من",
+      "my-courses": "دروس من",
+      "my-courses-alt2": "دروس منتشرشده",
+      "my-grades": "نمرات و اعتراض",
+      "my-path": "مسیر تحصیلی (مرحله‌محور)",
+      "network": "شبکهٔ من",
+      "officehours": "ساعات حضور استاد",
+      "officehours-alt2": "ساعات حضور",
+      "officehours-alt3": "جلسه با مشاور",
+      "org": "داشبورد سازمان",
+      "org-bulk-enroll": "ثبت‌نام گروهی",
+      "org-invoices": "فاکتورها",
+      "org-reports": "گزارش سازمان",
+      "org-seats": "صندلی‌ها (Seats)",
+      "org-users": "کاربران سازمان",
+      "parent": "داشبورد فرزند",
+      "parent-attendance": "حضور و غیاب",
+      "parent-grades": "نمرات / کارنامه",
+      "parent-tuition": "وضعیت مالی / شهریه",
+      "payroll-claims": "حق‌التدریس",
+      "payroll-my-payslips": "فیش‌های حقوقی",
+      "portfolio": "کارپوشه",
+      "probation-review": "بررسی مشروطی",
+      "profile": "پروفایل",
+      "progress": "میز کار",
+      "question-bank": "بانک سوال",
+      "recordings": "آرشیو ضبط‌ها",
+      "registration": "انتخاب واحد",
+      "roster": "فهرست دانشجویان",
+      "rubric-builder": "روبریک‌ساز",
+      "schedule": "برنامهٔ هفتگی",
+      "service-desk": "پیشخوان خدمت",
+      "service-desk-alt2": "پیشخوان (تأییدها)",
+      "settings": "تنظیمات سامانه",
+      "settings-alt2": "تنظیمات",
+      "settings-alt3": "تنظیمات سازمان",
+      "super": "داشبورد ابرمدیر",
+      "super-tenants": "مستأجرها (Tenants)",
+      "support": "میز کار پشتیبانی",
+      "ta": "میز کار دستیار",
+      "tickets": "تیکت پشتیبانی",
+      "tickets-alt2": "صف تیکت‌ها",
+      "transcript": "کارنامه / ریزنمرات",
+      "tuition": "شهریه / پرداخت",
+      "tuition-clearance": "تسویه‌حساب",
+      "tuition-loans": "وام دانشجویی",
+      "tuition-refund": "استرداد شهریه",
+      "user-lookup": "جست‌وجوی کاربر",
+      "wallet": "کیف پول",
+      "wellness": "سلامت و مشاوره"
+    },
+    "liveDot": {
+      "aria": "داده زنده",
+      "title": "متصل به API"
+    },
+    "notif": {
+      "allRead": "همه خوانده‌شده",
+      "aria": "اعلان‌ها ({count, plural, one {# نخوانده} other {# نخوانده}})",
+      "empty": "اعلان جدیدی ندارید.",
+      "label": "اعلان‌ها",
+      "loadFailed": "اعلان‌ها بارگذاری نشد.",
+      "markAllRead": "علامت‌گذاری همه به‌عنوان خوانده‌شده",
+      "openInbox": "صندوق کامل",
+      "title": "اعلان‌ها",
+      "unreadCount": "{count, plural, one {# نخوانده} other {# نخوانده}}"
+    },
+    "term": {
+      "aria": "انتخاب نیم‌سال",
+      "title": "نیم‌سال"
+    }
+  },
+  "rail": {
+    "collapseAria": "جمع کردن منوی کناری",
+    "collapseTitle": "جمع کردن",
+    "expandAria": "گسترش منوی کناری",
+    "expandTitle": "گسترش"
+  },
+  "roles": {
+    "admin": "ریاست دانشگاه",
+    "assessment_manager": "مدیر کانونِ ارزیابی",
+    "assessor": "ارزیاب",
+    "content_manager": "مدیر محتوا",
+    "counselor": "مشاور دانشگاه",
+    "faculty_admin": "ریاست دانشکده",
+    "finance_manager": "مدیر مالی",
+    "instructor": "استاد",
+    "membership_manager": "مدیر برنامهٔ عضویت",
+    "membership_operator": "اپراتور عضویت",
+    "moderator": "ناظر",
+    "org": "سازمان",
+    "parent": "والد",
+    "student": "دانشجو",
+    "super_admin": "ابرمدیر",
+    "support": "پشتیبانی",
+    "ta": "دستیار آموزشی"
+  },
+  "shell": {
+    "redirectingToLogin": "در حال انتقال به ورود...",
+    "skipToContent": "پرش به محتوای اصلی"
+  },
+  "topnav": {
+    "admin": {
+      "admin": "مدیریت",
+      "analytics": "تحلیل",
+      "events": "رویدادها",
+      "progress": "داشبورد",
+      "schools": "دانشکده‌ها",
+      "tutor": "دستیار AI"
+    },
+    "assessment_manager": {
+      "profile": "پروفایل"
+    },
+    "assessor": {
+      "profile": "پروفایل"
+    },
+    "content_manager": {
+      "admin-course-content": "تولید محتوا",
+      "analytics": "تحلیل",
+      "catalog": "کاتالوگ",
+      "help": "پشتیبانی",
+      "messages": "پیام‌ها"
+    },
+    "counselor": {
+      "counseling-appointments": "نوبت‌های مشاوره",
+      "counselor-inbox": "میز کار",
+      "crisis-queue": "موارد بحرانی",
+      "messages": "پیام‌ها"
+    },
+    "faculty_admin": {
+      "admin-departments": "گروه‌ها",
+      "admin-enrollments": "ثبت‌نام‌ها",
+      "admin-offerings": "ارائه دروس",
+      "admin-programs": "رشته‌ها",
+      "faculty-dashboard": "داشبورد دانشکده",
+      "messages": "پیام‌ها"
+    },
+    "finance_manager": {
+      "admin-finance-claims": "حق‌التدریس",
+      "admin-finance-decrees": "احکام",
+      "admin-finance-payroll": "اجرای حقوق",
+      "admin-finance-treasury": "خزانه"
+    },
+    "instructor": {
+      "admin-course-content": "تولید درس",
+      "classroom": "کلاس زنده",
+      "gradebook": "دفتر نمره",
+      "messages": "پیام‌ها",
+      "my-courses": "دروس من",
+      "progress": "میز کار",
+      "tutor": "دستیار AI"
+    },
+    "membership_manager": {
+      "profile": "پروفایل"
+    },
+    "membership_operator": {
+      "profile": "پروفایل"
+    },
+    "moderator": {
+      "community": "جامعه",
+      "help": "پشتیبانی",
+      "messages": "پیام‌ها"
+    },
+    "org": {
+      "analytics": "تحلیل تیم",
+      "events": "رویدادها",
+      "faculty": "مربیان",
+      "help": "پشتیبانی",
+      "org": "میز سازمان",
+      "pricing": "پلن‌ها"
+    },
+    "parent": {
+      "calendar": "تقویم فرزند",
+      "credential": "گواهی‌ها",
+      "help": "پشتیبانی",
+      "messages": "پیام‌ها",
+      "parent": "میز کار"
+    },
+    "public": {
+      "about": "درباره",
+      "apply": "درخواست پذیرش",
+      "help": "راهنما",
+      "market": "بازار دانش",
+      "pricing": "پلن‌ها",
+      "programs": "برنامه‌ها"
+    },
+    "student": {
+      "calendar": "تقویم",
+      "catalog": "کاتالوگ",
+      "community": "جامعه",
+      "my-courses": "دوره‌های من",
+      "progress": "پیشرفت من",
+      "tutor": "دستیار AI"
+    },
+    "super_admin": {
+      "admin": "مدیریت",
+      "analytics": "تحلیل",
+      "audit": "گزارش حسابرسی",
+      "progress": "داشبورد",
+      "tutor": "دستیار AI"
+    },
+    "support": {
+      "audit": "گزارش حسابرسی",
+      "help": "پشتیبانی",
+      "messages": "پیام‌ها",
+      "support": "میز پشتیبانی"
+    },
+    "ta": {
+      "classroom": "کلاس",
+      "my-courses": "دوره‌های من",
+      "progress": "پیشرفت",
+      "tutor": "دستیار AI"
+    }
+  },
+  "user": {
+    "guest": "مهمان · بدون ورود",
+    "item": {
+      "achievements": "دستاوردها",
+      "bookmarks": "ذخیره‌ها",
+      "credential": "گواهی‌ها",
+      "help": "پشتیبانی",
+      "home": "میز کار",
+      "messages": "پیام‌ها",
+      "profile": "پروفایل من",
+      "settings": "تنظیمات"
+    },
+    "loggingOut": "در حال خروج...",
+    "logout": "خروج از حساب",
+    "switchRole": "تغییر نقش فعال"
+  },
+  "moreHub": {
+    "heading": "همهٔ ابزارها",
+    "lead": "دسترسی سریع به همهٔ بخش‌های فضای کاری شما ({role}).",
+    "search": "جستجوی ابزار",
+    "searchPlaceholder": "جستجو در ابزارها…",
+    "helpTitle": "راهنمای همهٔ ابزارها",
+    "help": "این صفحه میان‌بُری به همهٔ بخش‌های فضای کاری شماست. روی هر کارت بزنید تا به آن بخش بروید، یا از کادر بالا برای پیدا کردن سریع یک ابزار جستجو کنید.",
+    "empty": "ابزاری با «{query}» پیدا نشد."
+  }
+}

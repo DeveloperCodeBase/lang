@@ -1,0 +1,948 @@
+{
+  "auth": {
+    "login": "Iniciar sesión",
+    "register": "Registrarse"
+  },
+  "banner": {
+    "dismissAria": "Descartar aviso",
+    "phoneUnverified": "Tu número de teléfono aún no está verificado; es necesario para la inscripción, los pagos desde la billetera y la obtención de certificados.",
+    "verifyPhone": "Verificar teléfono"
+  },
+  "bottomNav": {
+    "aria": "Navegación inferior",
+    "slot": {
+      "admin": "Gestión",
+      "analytics": "Analítica",
+      "appointments": "Citas",
+      "assessCenter": "Centro de evaluación",
+      "assessorConsole": "Consola del evaluador",
+      "audit": "Auditoría",
+      "catalog": "Catálogo",
+      "child": "Hijo/a",
+      "classroom": "Clase",
+      "content": "Contenido",
+      "courses": "Cursos",
+      "credential": "Certificado",
+      "crisis": "Crisis",
+      "departments": "Departamentos",
+      "discussions": "Discusiones",
+      "grades": "Calificaciones",
+      "help": "Ayuda",
+      "home": "Inicio",
+      "liveClass": "Clase en vivo",
+      "membershipQueue": "Cola de membresía",
+      "messages": "Mensajes",
+      "more": "Más",
+      "myCourses": "Mis cursos",
+      "offerings": "Ofertas",
+      "payroll": "Nómina",
+      "reports": "Informes",
+      "review": "Revisión",
+      "schools": "Escuelas",
+      "students": "Estudiantes",
+      "tickets": "Tickets",
+      "treasury": "Tesorería",
+      "tutor": "Tutor",
+      "users": "Usuarios",
+      "profile": "Perfil"
+    }
+  },
+  "brand": {
+    "markSubtitle": "Plataforma de aprendizaje inteligente",
+    "platformKind": "Plataforma de aprendizaje inteligente (Intelligent Learning Platform – ILP) basada en una arquitectura multiagente (Multi-Agent Architecture)",
+    "copyrightYear": "1405"
+  },
+  "breadcrumb": {
+    "about": "Acerca de nosotros",
+    "achievements": "Logros",
+    "adaptivePath": "Ruta adaptativa",
+    "addDrop": "Altas y bajas",
+    "admin": "Panel de administración",
+    "admissions": "Admisiones",
+    "agents": "Asistentes inteligentes",
+    "aiGovernance": "Gobernanza de AI",
+    "aiUsage": "Uso de inteligencia artificial",
+    "alumni": "Graduados",
+    "analytics": "Análisis",
+    "analyticsAdmin": "Análisis de gestión",
+    "applications": "Solicitudes de admisión",
+    "assess": "Evaluación de competencias",
+    "assessCenter": "Centro de evaluación",
+    "assessment": "Evaluación",
+    "assessmentBuilder": "Creador de evaluaciones",
+    "assessmentLive": "Evaluación en vivo",
+    "assignments": "Tareas",
+    "attendance": "Asistencia",
+    "audit": "Informe de auditoría",
+    "authoring": "Estudio",
+    "autoRules": "Reglas automáticas",
+    "bookmarks": "Guardados",
+    "broadcast": "Difusión general",
+    "bulkEnroll": "Inscripción grupal",
+    "calendar": "Calendario",
+    "candidate": "Candidato",
+    "capabilitiesStatus": "Estado de capacidades",
+    "career": "Servicios profesionales",
+    "catalog": "Catálogo",
+    "checkout": "Pago de suscripción",
+    "claims": "Honorarios de enseñanza",
+    "classAnalytics": "Análisis de clase",
+    "classroom": "Clase en vivo",
+    "clearance": "Liquidación",
+    "cognitiveProfile": "Perfil cognitivo",
+    "cohorts": "Cohortes",
+    "commission": "Comisión de casos especiales",
+    "community": "Comunidad",
+    "communityModeration": "Moderación de la comunidad",
+    "content": "Contenido",
+    "contentAnalytics": "Análisis de contenido",
+    "contentReview": "Revisión de contenido",
+    "copilot": "Copiloto",
+    "counselingAppointments": "Citas de asesoramiento",
+    "counselor": "Panel de asesoramiento",
+    "counselorCaseload": "Casos de asesoramiento",
+    "counselorInbox": "Bandeja del asesor",
+    "course": "Curso",
+    "courseContent": "Contenido del curso",
+    "courseLive": "Clase en vivo del curso",
+    "courses": "Cursos",
+    "credential": "Credenciales",
+    "crisisQueue": "Cola de crisis",
+    "curriculumBuilder": "Creador de planes de estudio",
+    "dashboard": "Panel",
+    "decrees": "Decretos de personal",
+    "degreeAudit": "Auditoría de titulación",
+    "degreePolicies": "Políticas de titulación",
+    "departments": "Departamentos",
+    "directory": "Directorio de miembros",
+    "earnings": "Mis ingresos",
+    "enrollments": "Inscripciones",
+    "events": "Eventos",
+    "exam": "Sala de exámenes",
+    "exercise": "Ejercicio",
+    "faculties": "Facultades",
+    "faculty": "Facultad",
+    "facultyDashboard": "Panel de facultad",
+    "facultyReports": "Informes de facultad",
+    "finance": "Finanzas",
+    "financialAid": "Ayuda financiera",
+    "flaggedReports": "Informes marcados",
+    "forgot": "Recuperar contraseña",
+    "gradeSubmission": "Envío de calificaciones",
+    "gradebook": "Libreta de calificaciones",
+    "grades": "Calificaciones",
+    "gradingQueue": "Cola de calificación",
+    "hackathons": "Hackatones",
+    "help": "Ayuda",
+    "home": "Inicio",
+    "honorCode": "Código de honor",
+    "hr": "Recursos humanos",
+    "inbox": "Bandeja de entrada",
+    "instructor": "Consola del instructor",
+    "instructorAssignment": "Asignación de instructor",
+    "instructorDashboard": "Panel del instructor",
+    "instructors": "Instructores",
+    "integrations": "Integraciones",
+    "invoices": "Facturas",
+    "itemAnalysis": "Análisis de ítems",
+    "labs": "Laboratorios",
+    "library": "Biblioteca",
+    "liveClass": "Clase en vivo",
+    "loans": "Préstamos",
+    "login": "Iniciar sesión",
+    "market": "Mercado",
+    "membership": "Mi membresía",
+    "membershipConfig": "Configuración de membresía",
+    "membershipQueue": "Cola de membresía",
+    "messages": "Mensajes",
+    "ministryLibrary": "Biblioteca ministerial",
+    "moderate": "Moderación",
+    "moderationLog": "Registro de moderación",
+    "monitoring": "Monitoreo",
+    "more": "Más",
+    "my": "Mi viaje",
+    "myAttendance": "Mi asistencia",
+    "myChart": "Mi plan de estudios",
+    "myCourses": "Mis cursos",
+    "myGrades": "Mis calificaciones",
+    "myPath": "Mi ruta académica",
+    "myPayslips": "Mis recibos de pago",
+    "myReport": "Mi informe",
+    "network": "Red académica",
+    "new": "Nueva solicitud",
+    "notifTemplates": "Plantillas de notificación",
+    "offerings": "Oferta de cursos",
+    "officehours": "Office Hours",
+    "onboarding": "Introducción",
+    "org": "Panel de organización",
+    "parent": "Panel de padres",
+    "parentLinks": "Enlaces de padres",
+    "payroll": "Nómina",
+    "payrollConfig": "Configuración de nómina",
+    "people": "Personas",
+    "plans": "Planes",
+    "portfolio": "Portafolio",
+    "pricing": "Planes",
+    "privacy": "Privacidad",
+    "probationReview": "Revisión de periodo de prueba",
+    "proctorReview": "Revisión de supervisión",
+    "profile": "Perfil",
+    "profiles": "Perfiles",
+    "programs": "Programas",
+    "progress": "Progreso",
+    "questionBank": "Banco de preguntas",
+    "record": "Estudio de grabación",
+    "recordings": "Grabaciones",
+    "referenceData": "Datos de referencia",
+    "refund": "Reembolso",
+    "register": "Registro",
+    "registration": "Inscripción",
+    "regulation": "Reglamento",
+    "reports": "Informes",
+    "research": "Investigación",
+    "review": "Revisión",
+    "roles": "Roles",
+    "roster": "Lista de clase",
+    "rubricBuilder": "Creador de rúbricas",
+    "schedule": "Horario",
+    "schools": "Escuelas",
+    "search": "Buscar",
+    "seats": "Asientos",
+    "security": "Seguridad",
+    "serviceDesk": "Mesa de servicio",
+    "settings": "Configuración",
+    "specializations": "Especializaciones",
+    "stageProgress": "Progreso de etapa",
+    "studentOverview": "Expediente de alumnos",
+    "students": "Estudiantes",
+    "studio": "Knowledge Studio",
+    "submission": "Entregas",
+    "super": "Herramienta de navegación",
+    "support": "Mesa de ayuda",
+    "ta": "Mesa de asistencia docente",
+    "tenants": "Organizaciones",
+    "terms": "Periodos",
+    "tickets": "Tickets",
+    "transcript": "Expediente académico",
+    "treasury": "Tesorería",
+    "tuition": "Matrícula y pagos",
+    "tuitionConfig": "Configuración de matrícula",
+    "tutor": "Asistente de AI",
+    "twoFactorSetup": "Verificación en dos pasos",
+    "userLookup": "Buscar usuario",
+    "users": "Usuarios",
+    "verifyEmail": "Verificar correo electrónico",
+    "virtuallab": "Laboratorio virtual",
+    "vista": "Acerca de Vista",
+    "wallet": "Billetera",
+    "washup": "Washup",
+    "wellness": "Bienestar",
+    "wishlist": "Lista de deseos",
+    "withdrawals": "Retiros",
+    "workflows": "Flujos de trabajo"
+  },
+  "breadcrumbUi": {
+    "nav": "Ruta de la página",
+    "showFullPath": "Mostrar ruta completa",
+    "newCourse": "Crear nuevo curso",
+    "printCredential": "Imprimir credencial",
+    "sessionReport": "Informe",
+    "sessionLobby": "Sala de espera",
+    "studioTab": {
+      "overview": "Resumen",
+      "curriculum": "Plan de estudios",
+      "content": "Contenido",
+      "pricing": "Precios",
+      "coupons": "Códigos de descuento",
+      "analytics": "Análisis",
+      "settings": "Configuración",
+      "preview": "Vista previa",
+      "record": "Estudio de grabación"
+    }
+  },
+  "cmdk": {
+    "aria": "Paleta de comandos",
+    "hintNavigate": "Navegación",
+    "item": {
+      "about": {
+        "label": "Acerca de"
+      },
+      "achievements": {
+        "label": "Logros"
+      },
+      "admin": {
+        "label": "Panel de administración"
+      },
+      "alumni": {
+        "label": "Red de exalumnos"
+      },
+      "analytics": {
+        "label": "Análisis institucional"
+      },
+      "apply": {
+        "hint": "Formulario de admisión real",
+        "label": "Solicitar admisión"
+      },
+      "assessment": {
+        "label": "Evaluaciones y exámenes"
+      },
+      "authoring": {
+        "label": "Creación y edición de cursos"
+      },
+      "bookmarks": {
+        "label": "Guardados"
+      },
+      "calendar": {
+        "label": "Calendario"
+      },
+      "career": {
+        "label": "Servicios de carrera"
+      },
+      "classroom": {
+        "label": "Clase en vivo"
+      },
+      "community": {
+        "label": "Comunidad"
+      },
+      "course": {
+        "label": "Mi curso"
+      },
+      "credential": {
+        "label": "Certificado digital"
+      },
+      "dashboard": {
+        "label": "Panel"
+      },
+      "degree-audit": {
+        "label": "Progreso del título"
+      },
+      "events": {
+        "label": "Eventos"
+      },
+      "faculty": {
+        "label": "Facultad"
+      },
+      "financial-aid": {
+        "label": "Ayuda financiera y becas"
+      },
+      "hackathons": {
+        "label": "Hackatones y concursos"
+      },
+      "help": {
+        "label": "Soporte"
+      },
+      "home": {
+        "hint": "Página principal",
+        "label": "Inicio"
+      },
+      "honor-code": {
+        "label": "Código de honor"
+      },
+      "inbox": {
+        "label": "Notificaciones"
+      },
+      "instructor": {
+        "label": "Consola del profesor"
+      },
+      "labs": {
+        "label": "Laboratorios virtuales"
+      },
+      "library": {
+        "label": "Biblioteca"
+      },
+      "login": {
+        "label": "Iniciar sesión"
+      },
+      "messages": {
+        "label": "Mensajes"
+      },
+      "officehours": {
+        "label": "Office Hours"
+      },
+      "parent": {
+        "label": "Panel de padres"
+      },
+      "pricing": {
+        "label": "Planes y precios"
+      },
+      "profile": {
+        "label": "Perfil público"
+      },
+      "recordings": {
+        "label": "Archivo de grabaciones"
+      },
+      "registration": {
+        "label": "Inscripción de créditos"
+      },
+      "regulation": {
+        "label": "Normativa académica"
+      },
+      "research": {
+        "label": "Investigación"
+      },
+      "schools": {
+        "label": "Facultades"
+      },
+      "search": {
+        "label": "Búsqueda semántica"
+      },
+      "settings": {
+        "label": "Configuración"
+      },
+      "submission": {
+        "label": "Entrega de tareas"
+      },
+      "track": {
+        "hint": "Estado de la solicitud mediante código de seguimiento",
+        "label": "Seguimiento de solicitudes"
+      },
+      "transcript": {
+        "label": "Expediente académico"
+      },
+      "vista": {
+        "label": "Acerca de Vista (proveedor técnico)"
+      },
+      "wellness": {
+        "label": "Salud y asesoramiento"
+      }
+    },
+    "placeholder": "Buscar página, comando o ajuste... (ej.: clase, tema, certificado)",
+    "searchAria": "Buscar comandos"
+  },
+  "demo": {
+    "disabled": "Esta acción no está disponible en la versión de demostración."
+  },
+  "denied": {
+    "body": "Esta página no está disponible para tu rol. No tienes permiso para ver esta sección. Si crees que se trata de un error, ponte en contacto con el administrador del sistema.",
+    "bodyWithRole": "Esta página no está disponible para tu rol. Con tu rol actual («{role}») no tienes permiso para ver esta sección. Si crees que se trata de un error, ponte en contacto con el administrador del sistema.",
+    "cta": "Volver a mi inicio",
+    "screenLabel": "403 · Acceso restringido",
+    "title": "No tienes acceso a esta sección"
+  },
+  "footer": {
+    "feature": {
+      "competency-assessment-center": "Centro de evaluación de competencias",
+      "credential-registry-verify": "Credenciales y verificación",
+      "exam-assessment-engine": "Exámenes y evaluaciones",
+      "knowledge-marketplace": "Mercado de conocimientos",
+      "live-class": "Clase en directo interactiva",
+      "membership-registry": "Afiliación y tarjeta de miembro"
+    },
+    "head": {
+      "0": "Producto",
+      "1": "Universidad",
+      "2": "Para usuarios",
+      "3": "Características universitarias",
+      "4": "Recursos"
+    },
+    "link": {
+      "about": "Sobre nosotros",
+      "about-alt2": "Acerca de la universidad",
+      "about-alt3": "Sobre nosotros",
+      "apply": "Solicitar admisión",
+      "apply-alt2": "Crear cuenta",
+      "assessment": "Evaluaciones y exámenes",
+      "classroom": "Clase en línea",
+      "community": "Comunidad",
+      "contact": "Contacto",
+      "credential": "Certificado digital",
+      "events": "Eventos",
+      "faculty": "Facultad",
+      "faq": "Preguntas frecuentes",
+      "features": "Todas las características",
+      "help": "Ayuda y soporte",
+      "help-alt2": "Centro de soporte",
+      "honor-code": "Código de honor",
+      "honor-code-alt2": "Honestidad académica",
+      "labs": "Laboratorios virtuales",
+      "library": "Biblioteca digital",
+      "login": "Iniciar sesión",
+      "pricing": "Planes y precios",
+      "privacy": "Privacidad",
+      "programs": "Programas",
+      "programs-alt2": "Facultades y programas",
+      "recordings": "Archivo de grabaciones",
+      "research": "Investigación y doctorado",
+      "schools": "Facultades",
+      "search": "Búsqueda semántica",
+      "settings": "Configuración",
+      "terms": "Términos y condiciones",
+      "track": "Seguimiento de solicitudes",
+      "vista": "Acerca de Vista"
+    },
+    "rights": "Todos los derechos reservados",
+    "tagline": "Una infraestructura educativa totalmente digital donde la inteligencia artificial no es un complemento, sino la base del aprendizaje, el diseño curricular y la evaluación.",
+    "alsoSee": "Ver también:",
+    "trustSeals": {
+      "title": "Sellos de confianza",
+      "enamadAlt": "Sello de confianza electrónica",
+      "senfAlt": "Organización del Sistema Informático del País",
+      "senfCaption": "Miembro del Sistema Informático — N.° 23010177"
+    },
+    "org": {
+      "rightsCompact": "© {year} {holder} — Todos los derechos reservados.",
+      "rightsFull": "© {year} — Todos los derechos de propiedad intelectual y material de este sitio web, sus marcas comerciales y su contenido pertenecen a {holder}. Queda prohibida cualquier reproducción o uso sin autorización previa por escrito.",
+      "developerLegal": "Diseño, implementación y desarrollo: Vista Smart Network Company — Todos los derechos de propiedad intelectual y material de este sistema están reservados y pertenecen a Vista Smart Network Company."
+    }
+  },
+  "home": {
+    "admin": "Panel de administración",
+    "assessment_manager": "Panel del director del centro",
+    "assessor": "Panel de evaluador",
+    "content_manager": "Panel de contenido",
+    "counselor": "Panel de asesor",
+    "faculty_admin": "Panel de facultad",
+    "finance_manager": "Panel financiero",
+    "instructor": "Panel de profesor",
+    "membership_manager": "Panel de membresía",
+    "membership_operator": "Panel de membresía",
+    "moderator": "Panel de moderador",
+    "org": "Panel de organización",
+    "parent": "Portal de padres",
+    "student": "Panel de estudiante",
+    "super_admin": "Panel de superadministrador",
+    "support": "Panel de soporte",
+    "ta": "Panel de asistente"
+  },
+  "language": {
+    "switcherAria": "Seleccionar idioma"
+  },
+  "modal": {
+    "confirmWordHint": "Para confirmar, escribe exactamente la palabra «{word}»",
+    "defaultTitle": "Confirmar acción"
+  },
+  "nav": {
+    "aria": {
+      "menu": "Menú",
+      "roleNav": "Navegación del rol {role}",
+      "unread": "{count, plural, =1 {# mensaje no leído} one {# mensaje no leído} many {# mensajes no leídos} other {# mensajes no leídos}}",
+      "userMenu": "Menú de usuario",
+      "workspaceMenu": "Menú de espacio de trabajo"
+    },
+    "cart": {
+      "aria": "Carrito de compras ({count, plural, =1 {# artículo} one {# artículo} many {# artículos} other {# artículos}})",
+      "label": "Carrito de compras"
+    },
+    "chat": {
+      "ariaUnread": "Mensajes ({count, plural, =1 {# mensaje no leído} one {# mensaje no leído} many {# mensajes no leídos} other {# mensajes no leídos}})",
+      "label": "Mensajes"
+    },
+    "cmdk": {
+      "aria": "Paleta de comandos (Cmd+K)",
+      "title": "Búsqueda rápida (Ctrl+K)"
+    },
+    "connect": {
+      "ariaPending": "Red ({count, plural, =1 {# nueva solicitud} one {# nueva solicitud} many {# nuevas solicitudes} other {# nuevas solicitudes}})",
+      "label": "Red",
+      "title": "Mi red"
+    },
+    "group": {
+      "academicStructure": "Estructura académica (de arriba a abajo)",
+      "account": "Cuenta",
+      "advisorDesk": "Panel de asesor",
+      "ai": "Inteligencia artificial",
+      "analytics": "Análisis",
+      "assessment": "Evaluación",
+      "assessmentAssigned": "Evaluación (asignada)",
+      "child": "Hijo",
+      "classAndAi": "Clase e IA",
+      "classAndInteraction": "Clase e interacción",
+      "communication": "Comunicación",
+      "content": "Contenido",
+      "education": "Educación",
+      "evaluationCenter": "Centro de evaluación",
+      "facultyStructure": "Estructura de la facultad",
+      "finance": "Finanzas",
+      "financeOversight": "Finanzas (Supervisión)",
+      "governance": "Gobierno",
+      "knowledgeMarket": "Mercado de conocimiento",
+      "learning": "Aprendizaje",
+      "liveClass": "Clase",
+      "membership": "Membresía",
+      "organization": "Organización",
+      "people": "Personas",
+      "reports": "Informes",
+      "studentAffairs": "Asuntos estudiantiles",
+      "studentServices": "Servicios estudiantiles",
+      "students": "Estudiantes",
+      "superAdmin": "Superadministración",
+      "supervision": "Supervisión",
+      "support": "Soporte",
+      "system": "Sistema",
+      "teaching": "Docencia",
+      "teachingAssistance": "Asistencia docente",
+      "tuition": "Matrícula",
+      "welfareFund": "Fondo de bienestar y becas",
+      "services": "Servicios universitarios"
+    },
+    "item": {
+      "achievements": "Logros",
+      "adaptive-path": "Ruta de aprendizaje adaptativo",
+      "add-drop": "Altas y bajas",
+      "admin": "Panel de administración",
+      "admin-ai-usage": "Uso de IA",
+      "admin-applications": "Solicitudes (Admisión)",
+      "admin-assess-center": "Centro de evaluación (Gestión)",
+      "admin-broadcast": "Transmisión de anuncios",
+      "admin-calendar": "Calendario académico",
+      "admin-cohorts": "Cohortes",
+      "admin-commission": "Comisión de casos especiales",
+      "admin-course-content": "Creación de contenido",
+      "admin-course-content-alt2": "Crear / Editar lección",
+      "admin-course-content-alt3": "Crear / Editar contenido",
+      "admin-courses": "Catálogo de cursos",
+      "admin-degree-policies": "Políticas de titulación",
+      "admin-departments": "Departamentos",
+      "admin-enrollments": "Inscripciones",
+      "admin-faculties": "Secciones de la facultad",
+      "admin-finance-claims": "Aprobación de honorarios",
+      "admin-finance-decrees": "Decretos de personal",
+      "admin-finance-payroll": "Ejecución de nómina",
+      "admin-finance-payroll-config": "Configuración de nómina",
+      "admin-finance-treasury": "Tesorería e informes",
+      "admin-finance-withdrawals": "Cola de retiros",
+      "admin-hr": "Contratación y expediente del personal",
+      "admin-hr-alt2": "Contratación de la facultad",
+      "admin-hr-alt3": "Contratos de empleo y salarios",
+      "admin-instructors": "Profesores",
+      "admin-integrations": "Integraciones",
+      "admin-membership-config": "Configuración de membresías",
+      "admin-membership-queue": "Cola de membresías",
+      "admin-ministry-library": "Biblioteca del ministerio",
+      "admin-notif-templates": "Plantillas de notificaciones",
+      "admin-offerings": "Oferta de cursos y clases",
+      "admin-offerings-alt2": "Oferta de cursos / Clases",
+      "admin-parent-links": "Vínculo de padres y estudiantes",
+      "admin-people": "Directorio de personas",
+      "admin-plans": "Planes y precios",
+      "admin-profiles": "Perfiles",
+      "admin-programs": "Programas",
+      "admin-reference-data": "Datos de referencia",
+      "admin-regulation": "Normativa académica",
+      "admin-roles": "Roles y permisos",
+      "admin-schools": "Facultades",
+      "admin-specializations": "Especializaciones",
+      "admin-stage-progress": "Progreso por etapas (Medicina)",
+      "admin-student-overview": "Expedientes de personas",
+      "admin-students": "Estudiantes",
+      "admin-terms": "Semestres",
+      "admin-tuition-config": "Configuración de matrícula",
+      "admin-users": "Gestión de usuarios",
+      "admin-workflows": "Creador de flujos de trabajo",
+      "agents": "Asistentes inteligentes",
+      "ai-governance": "Consola de gobernanza de AI",
+      "analytics-admin": "Informes y análisis",
+      "assess": "Evaluación de competencias",
+      "assess-center": "Centro de evaluación — Consola del evaluador",
+      "assess-center-alt2": "Consola del evaluador",
+      "assess-center-my": "Centro de evaluación — Mi recorrido",
+      "assess-center-my-alt2": "Mi recorrido de evaluación",
+      "assess-center-my-report": "Centro de evaluación — Mi informe",
+      "assess-center-my-report-alt2": "Mi informe de evaluación",
+      "assessment-builder": "Creador de exámenes",
+      "assignments": "Tareas y exámenes",
+      "attendance": "Asistencia",
+      "audit": "Informe de auditoría",
+      "auto-rules": "Reglas automáticas",
+      "calendar": "Calendario",
+      "calendar-alt2": "Calendario y horario",
+      "calendar-alt3": "Horario y calendario",
+      "capabilities-status": "Estado de capacidades",
+      "career": "Servicios profesionales",
+      "catalog": "Catálogo de cursos",
+      "class-analytics": "Análisis de clase",
+      "cognitive-profile": "Perfil cognitivo",
+      "community": "Foro de discusión",
+      "community-moderation": "Moderación de debates",
+      "content": "Mesa de trabajo de contenido",
+      "content-analytics": "Análisis del catálogo",
+      "content-review": "Cola de revisión de contenido",
+      "copilot": "Asistente inteligente para profesores",
+      "counseling-appointments": "Citas de asesoramiento",
+      "counselor-caseload": "Expedientes de consultantes",
+      "counselor-inbox": "Bandeja de entrada del asesor",
+      "credential": "Certificados",
+      "crisis-queue": "Cola de casos críticos",
+      "curriculum-builder": "Plan de estudios (cursos, prerrequisitos, tipo de curso)",
+      "degree-audit": "Progreso de titulación",
+      "faculty": "Facultad",
+      "faculty-dashboard": "Panel de la facultad",
+      "faculty-reports": "Informes de facultad",
+      "financial-aid": "Ayuda financiera / Becas",
+      "financial-aid-alt2": "Becas",
+      "flagged-reports": "Cola de informes marcados",
+      "grade-submission": "Envío de calificaciones",
+      "grade-submission-alt2": "Envío de borrador de calificaciones",
+      "gradebook": "Libreta de calificaciones",
+      "grading-queue": "Cola de calificación",
+      "inbox": "Notificaciones",
+      "instructor-assignment": "Asignación de instructor",
+      "instructor-dashboard": "Panel",
+      "item-analysis": "Análisis de reactivos",
+      "item-analysis-alt2": "Análisis de preguntas",
+      "labs": "Laboratorios virtuales",
+      "library": "Biblioteca",
+      "library-alt2": "Biblioteca de contenido",
+      "live-class": "Clases en vivo",
+      "live-class-admin": "Capacidad de clase en vivo",
+      "live-class-alt2": "Alojamiento de clase en vivo",
+      "live-class-alt3": "Clase en vivo",
+      "market": "Explorar mercado de conocimientos",
+      "market-admin": "Gestión del mercado",
+      "market-admin-storage": "Almacenamiento de Studio",
+      "market-cart": "Carrito de compras",
+      "market-earnings": "Mis ingresos",
+      "market-my-courses": "Mis cursos",
+      "market-purchases": "Mis compras",
+      "market-review": "Revisión de cursos del mercado",
+      "market-studio": "Knowledge Studio (creador de cursos)",
+      "market-studio-alt2": "Knowledge Studio (creador)",
+      "market-transactions": "Mis transacciones",
+      "market-wishlist": "Mi lista de deseos",
+      "membership": "Mi membresía",
+      "membership-directory": "Directorio de miembros",
+      "messages": "Mensajes",
+      "messages-alt2": "Mensaje al instructor / universidad",
+      "moderate": "Panel de moderación",
+      "moderation-log": "Registro de moderación",
+      "monitoring": "Estado del sistema",
+      "my-attendance": "Asistencia",
+      "my-chart": "Mi mapa curricular",
+      "my-courses": "Mis cursos",
+      "my-courses-alt2": "Cursos publicados",
+      "my-grades": "Calificaciones y revisiones",
+      "my-path": "Ruta académica (por etapas)",
+      "network": "Mi red",
+      "officehours": "Horario de atención",
+      "officehours-alt2": "Horario de oficina",
+      "officehours-alt3": "Sesión con asesor",
+      "org": "Panel de la organización",
+      "org-bulk-enroll": "Inscripción masiva",
+      "org-invoices": "Facturas",
+      "org-reports": "Reporte de la organización",
+      "org-seats": "Asientos (Seats)",
+      "org-users": "Usuarios de la organización",
+      "parent": "Panel del estudiante",
+      "parent-attendance": "Asistencia",
+      "parent-grades": "Calificaciones / Boleta",
+      "parent-tuition": "Estado financiero / Matrícula",
+      "payroll-claims": "Honorarios de enseñanza",
+      "payroll-my-payslips": "Mis recibos de nómina",
+      "portfolio": "Portafolio",
+      "probation-review": "Revisión de libertad condicional",
+      "profile": "Perfil",
+      "progress": "Panel de trabajo",
+      "question-bank": "Banco de preguntas",
+      "recordings": "Archivo de grabaciones",
+      "registration": "Inscripción de asignaturas",
+      "roster": "Lista de estudiantes",
+      "rubric-builder": "Creador de rúbricas",
+      "schedule": "Horario semanal",
+      "service-desk": "Mesa de servicio",
+      "service-desk-alt2": "Mesa de servicio (aprobaciones)",
+      "settings": "Configuración del sistema",
+      "settings-alt2": "Configuración",
+      "settings-alt3": "Configuración de la organización",
+      "super": "Panel de superadministrador",
+      "super-tenants": "Inquilinos (Tenants)",
+      "support": "Mesa de ayuda",
+      "ta": "Panel de asistente",
+      "tickets": "Ticket de soporte",
+      "tickets-alt2": "Cola de tickets",
+      "transcript": "Expediente académico",
+      "tuition": "Matícula / pagos",
+      "tuition-clearance": "Paz y salvo",
+      "tuition-loans": "Préstamo estudiantil",
+      "tuition-refund": "Reembolso de matrícula",
+      "user-lookup": "Buscar usuario",
+      "wallet": "Billetera",
+      "wellness": "Salud y asesoramiento"
+    },
+    "liveDot": {
+      "aria": "Datos en vivo",
+      "title": "Conectado a la API"
+    },
+    "notif": {
+      "allRead": "Todas leídas",
+      "aria": "Notificaciones ({count, plural, one {# no leída} many {# no leídas} other {# no leídas}})",
+      "empty": "No tienes notificaciones nuevas.",
+      "label": "Notificaciones",
+      "loadFailed": "No se pudieron cargar las notificaciones.",
+      "markAllRead": "Marcar todas como leídas",
+      "openInbox": "Bandeja completa",
+      "title": "Notificaciones",
+      "unreadCount": "{count, plural, one {# no leída} many {# no leídas} other {# no leídas}}"
+    },
+    "term": {
+      "aria": "Seleccionar periodo",
+      "title": "Periodo"
+    }
+  },
+  "rail": {
+    "collapseAria": "Contraer barra lateral",
+    "collapseTitle": "Contraer",
+    "expandAria": "Expandir barra lateral",
+    "expandTitle": "Expandir"
+  },
+  "roles": {
+    "admin": "Rectoría",
+    "assessment_manager": "Gerente de centro de evaluación",
+    "assessor": "Evaluador",
+    "content_manager": "Gerente de contenido",
+    "counselor": "Consejero universitario",
+    "faculty_admin": "Decanatura",
+    "finance_manager": "Gerente financiero",
+    "instructor": "Profesor",
+    "membership_manager": "Gerente de membresías",
+    "membership_operator": "Operador de membresías",
+    "moderator": "Moderador",
+    "org": "Organización",
+    "parent": "Padre / Madre",
+    "student": "Estudiante",
+    "super_admin": "Superadministrador",
+    "support": "Soporte",
+    "ta": "Asistente de docencia"
+  },
+  "shell": {
+    "redirectingToLogin": "Redirigiendo al inicio de sesión...",
+    "skipToContent": "Saltar al contenido principal"
+  },
+  "topnav": {
+    "admin": {
+      "admin": "Gestión",
+      "analytics": "Análisis",
+      "events": "Eventos",
+      "progress": "Panel",
+      "schools": "Facultades",
+      "tutor": "Asistente AI"
+    },
+    "assessment_manager": {
+      "profile": "Perfil"
+    },
+    "assessor": {
+      "profile": "Perfil"
+    },
+    "content_manager": {
+      "admin-course-content": "Creación de contenido",
+      "analytics": "Análisis",
+      "catalog": "Catálogo",
+      "help": "Soporte",
+      "messages": "Mensajes"
+    },
+    "counselor": {
+      "counseling-appointments": "Citas de asesoramiento",
+      "counselor-inbox": "Bandeja de entrada",
+      "crisis-queue": "Casos críticos",
+      "messages": "Mensajes"
+    },
+    "faculty_admin": {
+      "admin-departments": "Departamentos",
+      "admin-enrollments": "Inscripciones",
+      "admin-offerings": "Oferta de asignaturas",
+      "admin-programs": "Programas",
+      "faculty-dashboard": "Panel de la facultad",
+      "messages": "Mensajes"
+    },
+    "finance_manager": {
+      "admin-finance-claims": "Reclamaciones financieras",
+      "admin-finance-decrees": "Decretos",
+      "admin-finance-payroll": "Nómina",
+      "admin-finance-treasury": "Tesorería"
+    },
+    "instructor": {
+      "admin-course-content": "Creación de cursos",
+      "classroom": "Clase en directo",
+      "gradebook": "Libreta de calificaciones",
+      "messages": "Mensajes",
+      "my-courses": "Mis cursos",
+      "progress": "Panel de trabajo",
+      "tutor": "Asistente AI"
+    },
+    "membership_manager": {
+      "profile": "Perfil"
+    },
+    "membership_operator": {
+      "profile": "Perfil"
+    },
+    "moderator": {
+      "community": "Comunidad",
+      "help": "Soporte",
+      "messages": "Mensajes"
+    },
+    "org": {
+      "analytics": "Análisis del equipo",
+      "events": "Eventos",
+      "faculty": "Instructores",
+      "help": "Soporte",
+      "org": "Panel de la organización",
+      "pricing": "Planes"
+    },
+    "parent": {
+      "calendar": "Calendario de hijos",
+      "credential": "Certificados",
+      "help": "Soporte",
+      "messages": "Mensajes",
+      "parent": "Escritorio"
+    },
+    "public": {
+      "about": "Acerca de",
+      "apply": "Solicitar admisión",
+      "help": "Ayuda",
+      "market": "Mercado de conocimientos",
+      "pricing": "Planes",
+      "programs": "Programas"
+    },
+    "student": {
+      "calendar": "Calendario",
+      "catalog": "Catálogo",
+      "community": "Comunidad",
+      "my-courses": "Mis cursos",
+      "progress": "Mi progreso",
+      "tutor": "Asistente AI"
+    },
+    "super_admin": {
+      "admin": "Administración",
+      "analytics": "Análisis",
+      "audit": "Informe de auditoría",
+      "progress": "Panel",
+      "tutor": "Asistente AI"
+    },
+    "support": {
+      "audit": "Informe de auditoría",
+      "help": "Soporte",
+      "messages": "Mensajes",
+      "support": "Mesa de ayuda"
+    },
+    "ta": {
+      "classroom": "Clase",
+      "my-courses": "Mis cursos",
+      "progress": "Progreso",
+      "tutor": "Asistente AI"
+    }
+  },
+  "user": {
+    "guest": "Invitado · Sin iniciar sesión",
+    "item": {
+      "achievements": "Logros",
+      "bookmarks": "Guardados",
+      "credential": "Certificados",
+      "help": "Soporte",
+      "home": "Panel",
+      "messages": "Mensajes",
+      "profile": "Mi perfil",
+      "settings": "Ajustes"
+    },
+    "loggingOut": "Cerrando sesión...",
+    "logout": "Cerrar sesión",
+    "switchRole": "Cambiar rol activo"
+  },
+  "moreHub": {
+    "heading": "Todas las herramientas",
+    "lead": "Acceso rápido a todas las secciones de tu espacio de trabajo ({role}).",
+    "search": "Buscar herramienta",
+    "searchPlaceholder": "Buscar en herramientas…",
+    "helpTitle": "Guía de todas las herramientas",
+    "help": "Esta página es un acceso directo a todas las secciones de tu espacio de trabajo. Haz clic en cualquier tarjeta para ir a esa sección, o usa el cuadro superior para buscar rápidamente una herramienta.",
+    "empty": "No se encontraron herramientas con «{query}»."
+  }
+}

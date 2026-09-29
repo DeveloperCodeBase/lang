@@ -1,0 +1,363 @@
+{
+  "contact": {
+    "head": {
+      "title": "Contactez-nous — Moyens de contact avec l'organisation",
+      "description": "Adresse, téléphone et e-mail officiels de l'organisation pour toute question concernant l'adhésion, l'évaluation des compétences, les cours ou la collaboration institutionnelle ; les utilisateurs connectés peuvent également effectuer un suivi depuis leur tableau de bord de service."
+    },
+    "hero": {
+      "eyebrow": "Contactez-nous",
+      "title": "Moyens de contact avec l'organisation",
+      "lead": "Pour toute question concernant l'adhésion, l'évaluation, les cours ou la collaboration institutionnelle, contactez-nous via ces adresses. Pour les utilisateurs connectés, le suivi des demandes est plus rapide depuis le « tableau de bord de service » de leur compte."
+    },
+    "rows": {
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "org": "Organisation exploitante",
+      "techOwner": "Opérateur technique et détenteur des droits de la plateforme"
+    },
+    "beforeContact": {
+      "title": "Avant de nous contacter, consultez ceci",
+      "body": "La plupart des questions fréquentes — connexion, participation aux cours en direct, vérification des attestations et paiement — trouvent leur réponse sur la page de la FAQ. La description détaillée de chaque fonctionnalité est également disponible sur la page des fonctionnalités."
+    },
+    "alsoSee": {
+      "faq": "FAQ",
+      "features": "Fonctionnalités de l'université",
+      "help": "Aide",
+      "about": "À propos de nous"
+    }
+  },
+  "terms": {
+    "head": {
+      "title": "Conditions générales — Conditions d'utilisation de la plateforme",
+      "description": "Lisez sur cette page les conditions d'utilisation, la responsabilité du compte, les règles de paiement et de remboursement, la propriété des contenus, les attestations, le rôle de l'intelligence artificielle et la loi applicable à l'université en ligne."
+    },
+    "hero": {
+      "eyebrow": "Conditions générales",
+      "title": "Conditions d'utilisation de {brand}",
+      "lead": "L'utilisation de cette plateforme implique l'acceptation des conditions suivantes. Ces conditions régissent la relation entre l'utilisateur et {orgName}."
+    },
+    "draftNotice": {
+      "label": "Projet — En attente d'approbation juridique.",
+      "note": "Ce texte est la version 1 et a été rédigé par l'équipe de la plateforme ; le texte définitif sera mis en place après l'approbation juridique de l'organisation."
+    },
+    "clauses": {
+      "scope": {
+        "title": "Champ d'application",
+        "body": "Ces conditions s'appliquent à toutes les sections de la plateforme : adhésion, évaluation des compétences, cours en direct, examens, marché du savoir, conseil, portefeuille et services institutionnels. Les sections dotées de règles spécifiques — telles que le code d'intégrité académique — sont annoncées sur leur page respective et complètent le présent texte."
+      },
+      "account": {
+        "title": "Compte utilisateur et authentification",
+        "body": "La connexion s'effectue via un numéro de mobile et un code à usage unique reçu par SMS. L'utilisateur est seul responsable de la protection de l'accès à son numéro de mobile et à son appareil, et toute activité réalisée via son compte lui est attribuée.",
+        "list": [
+          "Le partage du compte avec un tiers n'est pas autorisé.",
+          "Les informations d'identité saisies doivent être exactes et appartenir à l'utilisateur lui-même.",
+          "En cas d'utilisation abusive suspectée, l'accès sera temporairement restreint dans l'attente d'un examen humain."
+        ]
+      },
+      "payment": {
+        "title": "Paiement, frais de scolarité et remboursement",
+        "body": "Tous les montants sont en rials et réglés via la passerelle de paiement officielle ou le solde du portefeuille de l'utilisateur. Le reçu de chaque transaction est enregistré et consultable dans le portefeuille de l'utilisateur.",
+        "list": [
+          "Les conditions de remboursement de chaque cours ou service sont annoncées sur sa page avant l'achat.",
+          "Un service qui a été consommé — session dispensée, examen passé, rapport publié — n'est pas remboursable.",
+          "Les demandes de remboursement doivent être enregistrées depuis le « tableau de bord de service » et sont examinées par un expert humain."
+        ]
+      },
+      "content": {
+        "title": "Contenu et propriété intellectuelle",
+        "body1": "Le contenu pédagogique publié sur la plateforme appartient à son auteur et n'est concédé sous licence que pour l'usage personnel de l'utilisateur acheteur. L'enregistrement, la reproduction, la rediffusion ou la revente de contenu — y compris l'enregistrement de sessions en direct — sont strictement interdits sans autorisation écrite.",
+        "body2": "Le contenu téléchargé par les utilisateurs eux-mêmes reste leur propriété ; sa publication sur la plateforme accorde à cette dernière uniquement la licence nécessaire pour l'afficher, le traiter et le présenter au public cible."
+      },
+      "conduct": {
+        "title": "Comportement acceptable",
+        "body": "Les comportements injurieux, discriminatoires, le harcèlement, la publication de contenus illégaux, les tentatives d'intrusion ou de perturbation du service, ainsi que la tricherie aux examens constituent une violation de ces conditions. Les règles détaillées relatives à l'intégrité académique font l'objet d'un règlement distinct."
+      },
+      "credentials": {
+        "title": "Titres de compétences et vérification",
+        "body": "Les justificatifs émis possèdent un code unique et peuvent être vérifiés depuis la page de consultation publique de la plateforme. Toute falsification, manipulation ou présentation d'un justificatif au nom d'une autre personne constitue une infraction et entraîne l'annulation du justificatif. La décision d'annulation est toujours prise par l'autorité humaine émettrice."
+      },
+      "ai": {
+        "title": "Rôle de l'intelligence artificielle et décision humaine",
+        "pre": "Les assistants d'intelligence artificielle de la plateforme jouent un rôle d'aide. Leurs résultats sont fournis avec une source et un niveau de confiance et ",
+        "bold": "aucune décision critique",
+        "post": " — la note finale, le résultat de l'évaluation, le renvoi ou le règlement financier — n'est pas entièrement automatisé. La décision finale incombe toujours à un responsable humain."
+      },
+      "availability": {
+        "title": "Disponibilité du service",
+        "body": "La plateforme peut être temporairement indisponible pour des raisons de maintenance, de mise à jour ou de correction de bugs. Les interruptions planifiées sont notifiées aux utilisateurs concernés à l'avance."
+      },
+      "changes": {
+        "title": "Modification des conditions",
+        "body": "Ces conditions peuvent être mises à jour. Toute modification ayant un impact sur les droits de l'utilisateur sera notifiée avant son entrée en vigueur, et la poursuite de l'utilisation après cette notification vaudra acceptation de la nouvelle version."
+      },
+      "governingLaw": {
+        "title": "Loi applicable et règlement des litiges",
+        "body": "Ces conditions sont régies par les lois de la République islamique d'Iran. Les parties s'efforcent de résoudre tout litige d'abord par la négociation et en recourant au « Guichet de service » ; à défaut, les autorités judiciaires compétentes iraniennes en assureront l'examen."
+      }
+    },
+    "alsoSee": {
+      "privacy": "Politique de confidentialité",
+      "honorCode": "Code d'honneur",
+      "faq": "FAQ",
+      "contact": "Contactez-nous"
+    }
+  },
+  "privacy": {
+    "head": {
+      "title": "Politique de confidentialité — Ce que nous faisons de vos données",
+      "description": "Cette politique explique quelles données sont collectées, pourquoi elles sont conservées, avec qui elles sont partagées et quels sont vos droits concernant vos données."
+    },
+    "hero": {
+      "eyebrow": "Confidentialité",
+      "title": "Ce que nous faisons de vos données",
+      "lead": "Cette politique explique quelles données sont collectées, pourquoi, combien de temps elles sont conservées et quels sont vos droits à leur sujet. Notre principe fondamental est le suivant : chaque donnée est collectée uniquement pour l'usage pour lequel l'utilisateur s'est rendu sur la plateforme."
+    },
+    "draftNotice": {
+      "label": "Brouillon — En attente d'approbation juridique.",
+      "note": "Ce texte est la version 1 et a été rédigé par l'équipe Seko ; le texte final sera remplacé après approbation juridique de l'organisation."
+    },
+    "clauses": {
+      "dataCollected": {
+        "title": "Quelles données nous collectons",
+        "list": [
+          "Données d'identité et de contact : nom, numéro de mobile, adresse e-mail et informations saisies par l'utilisateur lui-même dans son profil.",
+          "Données pédagogiques : inscription, présence, devoirs, notes et statut académique.",
+          "Données d'évaluation et de test : réponses, résultats et rapports d'évaluation.",
+          "Données financières : transactions de portefeuille et de scolarité — les informations de carte bancaire ne sont jamais stockées sur la plateforme.",
+          "Données techniques : adresse IP, type d'appareil et journaux d'événements, à des fins de sécurité et de débogage."
+        ]
+      },
+      "why": {
+        "title": "Pourquoi nous conservons ces données",
+        "body": "Pour fournir le service lui-même : création de compte, organisation de cours et d'examens, émission et vérification d'attestations, règlements financiers, support, et respect des exigences légales et pédagogiques. Aucune donnée n'est utilisée à des fins de publicité personnalisée ou vendue à des tiers."
+      },
+      "sensitiveData": {
+        "title": "Données sensibles et consentement explicite",
+        "pre": "Les données relatives à la santé mentale, au conseil et aux résultats psychométriques sont considérées comme sensibles et ",
+        "bold": "Uniquement avec le consentement explicite de l'utilisateur lui-même",
+        "post": " et ne sont accessibles qu'au conseiller ou à l'évaluateur responsable de ce dossier. L'affichage des informations de l'utilisateur dans l'annuaire public des membres est également facultatif et s'effectue avec un consentement distinct et révocable."
+      },
+      "thirdParty": {
+        "title": "Partage avec des tiers",
+        "intro": "Les données sont partagées uniquement dans la mesure nécessaire avec les prestataires de services suivants :",
+        "list": [
+          "Service de SMS — uniquement le numéro de mobile, pour l'envoi du code à usage unique et des notifications.",
+          "Passerelle de paiement bancaire — uniquement les informations de transaction nécessaires ; la plateforme ne reçoit ni ne stocke les données de carte.",
+          "L'organisation employeur ou l'établissement demandeur de l'évaluation — uniquement le résultat de l'évaluation passée par l'utilisateur pour cette organisation."
+        ],
+        "outro": "En dehors de ces cas, la divulgation des données n'intervient que sur réquisition d'une autorité judiciaire compétente."
+      },
+      "retention": {
+        "title": "Conservation et suppression",
+        "body": "Les données de formation et les identifiants sont conservés en raison de la nature à long terme des dossiers académiques — un identifiant ne peut pas être vérifié sans son historique. Les données techniques et les journaux d'événements sont effacés après la période nécessaire à la sécurité et à l'audit. Les demandes de suppression de données non essentielles peuvent être enregistrées via « Contactez-nous » ou le « Guichet de service » et font l'objet d'un examen humain."
+      },
+      "security": {
+        "title": "Sécurité",
+        "body": "Les communications avec la plateforme sont chiffrées, l'accès du personnel est défini selon les rôles et le principe du moindre privilège, et chaque accès sensible est consigné dans le journal d'audit. Aucun système n'est infaillible ; en cas d'incident de sécurité affectant les données des utilisateurs, les personnes concernées en sont informées."
+      },
+      "cookies": {
+        "title": "Cookies et stockage local",
+        "body": "La plateforme utilise le stockage local du navigateur pour maintenir la session de connexion et les préférences d'affichage — telles que les modes clair et sombre. Aucun traceur publicitaire tiers n'est installé sur la plateforme et toutes les ressources de la page sont chargées depuis le serveur de la plateforme elle-même."
+      },
+      "aiAndData": {
+        "title": "AI et vos données",
+        "body": "Les assistants AI de la plateforme ont uniquement accès aux données de l'utilisateur concerné et de son cours. Leurs sorties sont des suggestions, et non des décisions ; la note finale, le résultat de l'évaluation et les décisions disciplinaires sont toujours finalisés par un humain."
+      },
+      "yourRights": {
+        "title": "Vos droits",
+        "list": [
+          "Consulter et modifier les informations de profil depuis le compte utilisateur.",
+          "Retirer à tout moment son consentement à l'affichage dans l'annuaire des membres.",
+          "Demander une copie de ses données ou la suppression des données non essentielles.",
+          "Obtenir une réponse humaine concernant toute décision ayant une incidence sur votre dossier."
+        ]
+      },
+      "contactAbout": {
+        "title": "Contact relatif à la vie privée",
+        "pre": "Envoyez vos questions ou demandes concernant les données personnelles à",
+        "post": "ou effectuez un suivi via la page Contactez-nous."
+      }
+    },
+    "alsoSee": {
+      "terms": "Conditions générales",
+      "contact": "Contactez-nous",
+      "faq": "FAQ"
+    }
+  },
+  "help": {
+    "head": {
+      "title": "Aide — Centre d'assistance et FAQ",
+      "description": "Trouvez les réponses aux questions fréquentes sur les cours en direct, le compte utilisateur, les paiements, les certificats et l'assistant AI dans le centre d'aide, ou discutez avec le support en direct."
+    },
+    "hero": {
+      "eyebrow": "HELP CENTER · 24/7",
+      "title": "Comment pouvons-nous vous aider ?"
+    },
+    "search": {
+      "placeholder": "Rechercher dans la FAQ"
+    },
+    "categories": {
+      "quickstart": {
+        "title": "Démarrage rapide",
+        "desc": "Premier cours, premier exercice, premier certificat"
+      },
+      "account": {
+        "title": "Compte utilisateur",
+        "desc": "Inscription, authentification, modification des informations"
+      },
+      "live": {
+        "title": "Cours en ligne",
+        "desc": "Connexion, configuration du micro, enregistrement"
+      },
+      "payment": {
+        "title": "Paiement et frais de scolarité",
+        "desc": "Modes de paiement, remboursement"
+      },
+      "cert": {
+        "title": "Certificat et diplôme",
+        "desc": "Émission, vérification, partage"
+      },
+      "ai": {
+        "title": "Assistant AI",
+        "desc": "Utilisation, limites, paramètres"
+      }
+    },
+    "categoryQuestionCount": "{count, plural, one {# question ←} many {# questions ←} other {# questions ←}}",
+    "faqItems": {
+      "joinLiveClass": {
+        "q": "Comment rejoindre mon premier cours en direct ?",
+        "a": "Depuis le tableau de bord, cliquez sur le programme de la semaine. 15 minutes avant le début, le bouton « Entrer » s'active..."
+      },
+      "certificateRecognition": {
+        "q": "Est-ce que le certificat {brand} est officiel en Iran ?",
+        "a": "Nos certificats sont conformes aux directives du ministère de la Science et peuvent être consultés dans les registres nationaux..."
+      },
+      "aiPrivacy": {
+        "q": "L'assistant AI a-t-il accès à mes informations personnelles ?",
+        "a": "L'AI Tutor a uniquement accès à vos données pédagogiques (progression, exercices, questions)..."
+      },
+      "offlineRecording": {
+        "q": "En cas de coupure d'Internet, est-ce que le cours est perdu ?",
+        "a": "Non. Tous les cours en direct sont enregistrés et peuvent être retrouvés dans votre archive personnelle..."
+      },
+      "installmentPayment": {
+        "q": "Comment puis-je payer les frais de scolarité en plusieurs fois ?",
+        "a": "À l'étape du paiement, sélectionnez l'option de paiement en 3 mois sans frais..."
+      },
+      "projectChange": {
+        "q": "Puis-je changer le projet de fin de cours ?",
+        "a": "Avant la sélection officielle, vous pouvez changer de projet. Une fois validé, l'autorisation du professeur est requise..."
+      }
+    },
+    "faqSection": {
+      "title": "Foire aux questions",
+      "removeFilter": "Supprimer le filtre « {category} »",
+      "empty": "Aucun résultat trouvé — discutez avec le « Support en direct » sur le côté de cette page."
+    },
+    "liveSupport": {
+      "label": "Support en direct",
+      "body": "L'équipe de support est disponible 24h/24 et 7j/7. Temps de réponse moyen : 8 minutes.",
+      "startChat": "Démarrer la discussion",
+      "toast": {
+        "title": "Connexion au support",
+        "msg": "L'opérateur répondra en quelques secondes."
+      }
+    },
+    "systemStatus": {
+      "label": "STATUT DU SYSTÈME",
+      "services": {
+        "lms": "LMS",
+        "liveClass": "Cours en direct",
+        "aiTutor": "AI Tutor",
+        "payment": "Paiement",
+        "asrFa": "ASR · persan"
+      },
+      "operational": "Opérationnel",
+      "degraded": "Dégradé"
+    }
+  },
+  "honorCode": {
+    "head": {
+      "title": "Règlement d'intégrité académique — Principes, infractions et procédure de signalement",
+      "description": "Lisez sur cette page les principes d'intégrité académique, la liste des comportements autorisés et interdits, ainsi que la procédure de signalement et d'appel au sein de l'université."
+    },
+    "hero": {
+      "eyebrow": "Charte d'intégrité académique",
+      "title": "Charte d'intégrité académique",
+      "lead": "L'intégrité académique est le fondement de toutes nos activités chez {brand}. Cette charte définit ce qui est accepté, ce qui ne l'est pas, et ce qui se passe en cas d'erreur."
+    },
+    "principles": {
+      "title": "Principes fondamentaux",
+      "items": {
+        "honesty": {
+          "title": "Honnêteté dans le travail",
+          "desc": "Tout le travail soumis doit être le vôtre, sauf mention explicite de la source. L'AI Tutor est votre compagnon, pas un substitut."
+        },
+        "sourceRespect": {
+          "title": "Respect des sources",
+          "desc": "Identifiez chaque idée, code ou texte emprunté à autrui par une référence claire. C'est à la fois une marque de respect et une protection pour vous."
+        },
+        "individualExam": {
+          "title": "Examen individuel, examen individuel",
+          "desc": "Lors des examens de vérification d'identité, l'utilisation de ressources externes ou d'une aide extérieure non autorisée constitue une infraction."
+        },
+        "transparentCollab": {
+          "title": "Collaboration transparente",
+          "desc": "Le travail en groupe est formidable — tant qu'il est autorisé dans le programme de l'exercice et que la contribution de chacun est claire."
+        },
+        "courageousReporting": {
+          "title": "Signalement courageux",
+          "desc": "Si vous êtes témoin d'une infraction, signalez-la. Votre identité restera confidentielle et il n'y aura aucune représaille."
+        }
+      }
+    },
+    "allowed": {
+      "title": "Autorisé ✓",
+      "items": [
+        "Interroger l'AI Tutor sur des concepts",
+        "Travailler en équipe sur les projets de groupe désignés",
+        "Consulter un enseignant pendant ses permanences (Office Hours)",
+        "Utiliser des ressources en ligne en citant vos sources",
+        "Demander l'avis de pairs avant la soumission",
+        "Réutiliser votre propre code d'un projet précédent (avec mention)"
+      ]
+    },
+    "violations": {
+      "title": "Interdit ✗",
+      "items": [
+        "Copier la réponse de quelqu'un d'autre sans citer",
+        "Répondre à la place de quelqu'un d'autre lors d'un examen",
+        "Soumettre le travail de l'AI comme étant le vôtre lors d'un examen",
+        "Accéder aux questions d'examen à l'avance",
+        "Falsifier des données de recherche",
+        "Soumettre le même projet pour deux cours différents sans autorisation"
+      ]
+    },
+    "reportProcess": {
+      "title": "Procédure de signalement et d'appel",
+      "body": "Chaque signalement d'infraction est soumis au comité d'intégrité académique. L'étudiant mis en cause a la possibilité de répondre et de se défendre. Aucune décision n'est définitive sans l'approbation de trois membres du comité.",
+      "reportButton": "Signalement confidentiel",
+      "signButton": "Signer la charte",
+      "reportConfirm": {
+        "title": "Signalement confidentiel",
+        "body": "Ce rapport sera envoyé au comité d'intégrité académique. Votre identité restera confidentielle. Souhaitez-vous continuer ?",
+        "confirmLabel": "Envoyer le signalement",
+        "cancelLabel": "Annuler"
+      },
+      "reportToast": {
+        "title": "Signalement envoyé",
+        "msg": "Le comité examinera votre dossier dans les 72 heures."
+      },
+      "signConfirm": {
+        "title": "Signer la charte d'intégrité académique",
+        "body": "En signant cette charte, vous vous engagez à respecter l'ensemble des principes d'intégrité académique.",
+        "confirmLabel": "Je signe"
+      },
+      "signToast": {
+        "title": "Charte signée",
+        "msg": "La date de signature a été enregistrée sur votre profil."
+      }
+    }
+  }
+}

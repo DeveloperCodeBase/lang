@@ -1,0 +1,118 @@
+{
+  "common": {
+    "back": "返回",
+    "cancel": "取消",
+    "close": "关闭"
+  },
+  "composer": {
+    "aria": "撰写回复",
+    "placeholder": "请输入您的回复…",
+    "send": "发送回复",
+    "sending": "发送中…"
+  },
+  "del": {
+    "confirm": "删除",
+    "confirmReply": "您确定要删除此回复吗？",
+    "confirmThreadPrefix": "您确定要删除对话",
+    "confirmThreadSuffix": "吗？其包含的回复也将被删除。",
+    "deleting": "删除中…",
+    "dialogAria": "删除",
+    "replyTitle": "删除回复",
+    "threadTitle": "删除对话"
+  },
+  "errors": {
+    "createReply": "发布回复失败",
+    "createThread": "发布对话失败",
+    "delete": "删除失败",
+    "generic": "发生错误",
+    "loadReplies": "加载回复失败",
+    "loadThreads": "加载对话失败",
+    "pin": "更改置顶状态失败",
+    "report": "提交举报失败",
+    "vote": "投票失败"
+  },
+  "header": {
+    "eyebrow": "学术社区 · §6",
+    "newThreadButton": "新对话",
+    "subtitle": "关注并参与学生和老师们的提问、经验分享与学术讨论。",
+    "title": "讨论区"
+  },
+  "help": {
+    "body": "在此页面中，您可以阅读、点赞和回复对话。使用搜索栏和标签查找讨论，或点击“新对话”按钮开启新话题。点击任意对话标题即可查看回复。",
+    "title": "讨论区指南"
+  },
+  "list": {
+    "clearFilters": "清除筛选",
+    "emptyFiltered": "未找到符合筛选条件的对话。",
+    "emptyNone": "暂无对话 — 快来开启第一个话题吧。",
+    "loading": "加载中…",
+    "startThread": "开始对话"
+  },
+  "newThread": {
+    "bodyLabel": "正文",
+    "bodyPlaceholder": "请详细写下您的提问或经验…",
+    "dialogAria": "新对话",
+    "publish": "发布对话",
+    "publishing": "发布中…",
+    "tagLabel": "标签（可选）",
+    "tagPlaceholder": "例如：注册、期末项目…",
+    "title": "发起新讨论",
+    "titleLabel": "标题",
+    "titlePlaceholder": "简要描述讨论主题…"
+  },
+  "replies": {
+    "empty": "暂无回复—来做第一个回复盫a吧。",
+    "loading": "正在加载回复…"
+  },
+  "reply": {
+    "deleteAria": "删除回复",
+    "like": "点跞",
+    "reportAria": "举报回复",
+    "reportTitle": "举报违规",
+    "unlike": "取消点跞"
+  },
+  "report": {
+    "aria": "举报原因",
+    "dialogAria": "举报违规",
+    "done": "您的举报已提交并已发送至管理员。谢谢您！",
+    "intro": "请写下举报此内容的原因；该内容将提交给社区管理员进行审核。",
+    "placeholder": "例如：侯段、垃圾信息、不当内容…",
+    "replyTitle": "举报回复",
+    "sending": "正在发送…",
+    "submit": "提交举报",
+    "threadTitle": "举报讨论"
+  },
+  "search": {
+    "aria": "搜索讨论",
+    "clearAria": "清除搜索",
+    "placeholder": "在讨论标题和内容中搜索…"
+  },
+  "stats": {
+    "replies": "{count, plural, other {# 条回复}}",
+    "threads": "{count, plural, other {# 个讨论}}"
+  },
+  "tags": {
+    "all": "全部",
+    "label": "标签："
+  },
+  "thread": {
+    "deleteAria": "删除讨论",
+    "hideReplies": "收起回复",
+    "like": "点跞",
+    "pin": "置顶",
+    "pinShort": "置顶",
+    "pinnedBadge": "已置顶",
+    "replyCount": "{count, plural, other {# 条回复}}",
+    "reportAria": "举报讨论",
+    "reportTitle": "举报违规",
+    "showReplies": "查看回复 ({count, number})",
+    "unlike": "取消点跞",
+    "unpin": "取消置顶"
+  },
+  "validation": {
+    "bodyMin": "讨论内容必须至少包含 10 个字符。",
+    "replyMin": "回复内容必须至少包含 2 个字符。",
+    "reportReasonMin": "举报原因必须至少包含 4 个字符。",
+    "titleMin": "标题必须至少包含 6 个字符。"
+  }
+}

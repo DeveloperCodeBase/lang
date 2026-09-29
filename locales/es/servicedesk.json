@@ -1,0 +1,124 @@
+{
+  "new": {
+    "eyebrow": "Mesa de servicio",
+    "title": "Nueva solicitud",
+    "back": "Volver",
+    "empty": "No hay ningún tipo de solicitud definido.",
+    "loadError": "No se pudo cargar la lista de tipos de solicitud.",
+    "searchLabel": "Buscar tipo de solicitud",
+    "searchPlaceholder": "Ej. extensión de años, certificado, residencia estudiantil...",
+    "noResults": "No se encontró ningún tipo de solicitud con este término.",
+    "externalBadge": "Sistema externo",
+    "externalHint": "Esta solicitud se procesa en el sistema externo (Sajad).",
+    "externalContinue": "Continuar en el sistema externo ↗",
+    "chooseAnother": "Elegir otro tipo",
+    "sectionPlaceholder": "Seleccione la asignatura...",
+    "sectionsLoading": "Cargando la lista de asignaturas...",
+    "sectionsError": "No se pudo cargar la lista de asignaturas. Los datos de su formulario se han guardado.",
+    "submit": "Registrar y enviar",
+    "backToTypes": "Volver a la selección de tipo",
+    "saveDraft": "Guardar borrador",
+    "draftHint": "Puede guardar el formulario incompleto y completarlo y enviarlo más tarde desde «Mis solicitudes»."
+  },
+  "detail": {
+    "submit": "Enviar",
+    "resubmit": "Corregir y volver a enviar",
+    "cancel": "Cancelar solicitud",
+    "edit": {
+      "title": "Modificar formulario de solicitud",
+      "hintReturned": "Esta solicitud le ha sido devuelta para corrección. Modifique los campos y luego haga clic en «Corregir y volver a enviar».",
+      "hintDraft": "Esta solicitud aún no se ha enviado. Puede completar y guardar el formulario para enviarlo más tarde.",
+      "selectPlaceholder": "Seleccionar...",
+      "save": "Guardar cambios",
+      "saved": "Cambios guardados",
+      "savedSectionUnavailable": "Asignatura guardada; actualmente no está en la lista de inscripción"
+    },
+    "decision": {
+      "EDIT": "Modificar formulario",
+      "SUBMIT": "Registrar solicitud",
+      "APPROVE": "Aprobar",
+      "REJECT": "Rechazar",
+      "REFER": "Devolver para corrección",
+      "RESUBMIT": "Volver a enviar",
+      "CANCEL": "Cancelar",
+      "AUTO": "Acción automática",
+      "SKIP": "Omitir paso automáticamente",
+      "INFORM": "Informar"
+    }
+  },
+  "errors": {
+    "generic": "Se ha producido un error",
+    "requiredField": "«{field}» es obligatorio",
+    "decisionNoteRequired": "Se requiere una nota para rechazar o devolver"
+  },
+  "viewer": {
+    "serviceDeskLabel": "Mesa de servicio",
+    "pageTitle": "Detalles de la solicitud",
+    "backToInbox": "Volver a la bandeja",
+    "issuancePending": "La solicitud ha sido aprobada y la emisión del certificado está en curso. Una vez registrado el documento, se mostrarán el número y el enlace de verificación.",
+    "verifyPhoneFirst": "La emisión está pendiente de verificar el número de teléfono del titular del certificado. Verifique el número en la configuración de la cuenta; se reintentará la emisión automática.",
+    "issuanceRetry": "La emisión aún no ha finalizado. El sistema lo intentará de nuevo; no es necesario enviar otra solicitud ni volver a aprobar.",
+    "refreshIssuance": "Actualizar estado de emisión",
+    "submittedByStudent": "Enviado por el estudiante",
+    "workflow": "Flujo de trabajo",
+    "form": "Información de la solicitud",
+    "result": "Resultado",
+    "certificateNo": "Número de certificado:",
+    "verifyCertificate": "Verificar certificado",
+    "legacyCertificate": "Este número se registró en la salida anterior de la solicitud y no está vinculado a un documento verificable. Para obtener un certificado oficial, comuníquese con el responsable de servicios académicos.",
+    "dropped": "La asignatura se eliminó correctamente.",
+    "completed": "Completado",
+    "history": "Historial de acciones",
+    "yourAction": "Su acción",
+    "decisionNote": "Nota de decisión",
+    "notePlaceholder": "Nota (opcional para aprobar, obligatoria para rechazar/devolver)",
+    "stepKinds": {
+      "approval": "Aprobación humana",
+      "inform": "Notificación"
+    },
+    "skipReasons": {
+      "condition_not_matched": "La condición de la etapa no se cumplió"
+    },
+    "informRecipients": "{count, plural, one {Registrado para un destinatario} many {Registrado para # destinatarios} other {Registrado para # destinatarios}}",
+    "terminalDefault": "Acción final",
+    "terminal": {
+      "issue_certificate": "Emitir certificado",
+      "emergency_drop": "Eliminar asignatura",
+      "register_course": "Inscribir asignatura"
+    },
+    "roles": {
+      "faculty_admin": "Administrador/personal de la facultad",
+      "admin": "Administrador del sistema",
+      "super_admin": "Superadministrador",
+      "instructor": "Profesor",
+      "ta": "Asistente docente"
+    },
+    "status": {
+      "DRAFT": "Borrador",
+      "IN_PROGRESS": "En curso",
+      "FULFILLING": "Esperando emisión del certificado",
+      "RETURNED": "Devuelto para corrección",
+      "COMPLETED": "Completado",
+      "REJECTED": "Rechazado",
+      "CANCELED": "Cancelado"
+    }
+  },
+  "inbox": {
+    "eyebrow": "Servicios educativos",
+    "new": "+ Nueva solicitud",
+    "helpTitle": "Guía de la bandeja de entrada",
+    "help": "Tu solicitud será revisada paso a paso por los responsables. Abre cada solicitud para ver su estado y su historial. Puedes corregir y volver a enviar una solicitud devuelta.",
+    "mine": "Mis solicitudes",
+    "pending": "Pendientes de mi aprobación",
+    "loading": "Cargando…",
+    "loadError": "No se pudo cargar la lista de solicitudes.",
+    "retry": "Reintentar",
+    "continueScan": "No se encontraron solicitudes virtuales en esta sección. Haz clic en mostrar más para revisar el resto de la cola.",
+    "emptyPending": "No hay solicitudes pendientes de tu aprobación.",
+    "emptyMine": "Aún no has registrado ninguna solicitud.",
+    "step": "Paso",
+    "viewAction": "Ver y actuar",
+    "waiting": "Esperando",
+    "more": "Mostrar más de la lista"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "mediaLibrary": {
+    "open": "媒体库",
+    "title": "我的媒体库",
+    "close": "关闭",
+    "search": "搜索文件名",
+    "filter": {
+      "label": "文件类型",
+      "all": "全部",
+      "video": "视频",
+      "audio": "音频",
+      "image": "图片",
+      "document": "文档"
+    },
+    "sort": {
+      "label": "排序",
+      "newest": "最新",
+      "largest": "最大"
+    },
+    "usage": "已使用 {used}，共 {quota}",
+    "usageNoQuota": "已使用 {used}",
+    "size": {
+      "b": "{n} 字节",
+      "kb": "{n} KB",
+      "mb": "{n} MB",
+      "gb": "{n} GB"
+    },
+    "duration": "时长：{time}",
+    "type": {
+      "video": "视频",
+      "audio": "音频",
+      "image": "图片",
+      "document": "文档",
+      "slide": "幻灯片",
+      "h5p": "交互 (H5P)",
+      "caption": "字幕"
+    },
+    "usedIn": {
+      "label": "使用于",
+      "sections": "{count, plural, other {# 个章节}}",
+      "projects": "{count, plural, other {# 个剪辑项目}}",
+      "templates": "{count, plural, other {# 个模板}}"
+    },
+    "unused": "暂未使用",
+    "badge": {
+      "take": "录制镜头",
+      "processing": "处理中",
+      "failed": "处理失败"
+    },
+    "actions": {
+      "more": "关于“{name}”的更多操作",
+      "preview": "预览",
+      "use": "在章节中使用",
+      "edit": "在时间轴中编辑",
+      "saveTemplate": "另存为模板",
+      "delete": "删除"
+    },
+    "loadMore": "加载更多",
+    "empty": {
+      "title": "暂无媒体文件",
+      "body": "录制或上传文件后将显示在此处。",
+      "record": "前往录制"
+    },
+    "noResults": "未找到符合该筛选条件的内容。",
+    "error": "库加载失败。",
+    "errorHint": "请检查网络连接并重试。",
+    "retry": "重试",
+    "delete": {
+      "title": "确定删除“{name}”？",
+      "body": "文件将被永久删除，且无法恢复。",
+      "confirm": "确认删除",
+      "cancel": "取消",
+      "done": "文件已删除。"
+    },
+    "pickSection": {
+      "title": "选择章节",
+      "hint": "仅显示与此文件类型兼容的章节。",
+      "empty": "本课程中没有兼容的章节；请先在课程大纲中创建一个章节。",
+      "replaceWarn": "该章节已有其他文件，将被替换。",
+      "confirm": "放入此章节",
+      "cancel": "取消",
+      "done": "文件已放入章节。",
+      "error": "无法将文件放入章节。",
+      "loadError": "章节列表加载失败。"
+    },
+    "preview": {
+      "title": "预览“{name}”",
+      "error": "预览不可用。"
+    }
+  },
+  "studioTemplates": {
+    "open": "从模板",
+    "title": "模板库",
+    "close": "关闭",
+    "cat": {
+      "label": "模板分类",
+      "lesson_intro": "课程简介",
+      "lesson_summary": "课程总结",
+      "instructor_intro": "讲师介绍",
+      "assignment_notice": "作业通知"
+    },
+    "scope": {
+      "label": "范围",
+      "all": "全部",
+      "tenant": "机构模板",
+      "personal": "我的模板"
+    },
+    "badge": {
+      "tenant": "机构",
+      "personal": "个人"
+    },
+    "use": "使用",
+    "using": "正在准备…",
+    "copiedNote": "已在您的媒体库中创建副本。",
+    "useError": "模板准备失败。",
+    "preview": "预览",
+    "edit": "编辑",
+    "delete": "删除",
+    "unavailable": "此模板文件不可用。",
+    "empty": {
+      "title": "此分类下暂无模板",
+      "body": "在媒体库中将文件“另存为模板”。"
+    },
+    "error": "加载模板失败。",
+    "retry": "重试",
+    "form": {
+      "createTitle": "另存为模板",
+      "editTitle": "编辑模板",
+      "title": "标题",
+      "titleRequired": "标题为必填项。",
+      "description": "描述（可选）",
+      "category": "分类",
+      "scope": "可见范围",
+      "scopePersonal": "仅自己",
+      "scopeTenant": "机构所有教师",
+      "save": "保存",
+      "cancel": "取消",
+      "saved": "模板已保存。",
+      "error": "保存模板失败。"
+    },
+    "deleteDialog": {
+      "title": "确定要删除模板“{title}”吗？",
+      "body": "模板将从库中移除，已使用它的部分将不受影响。",
+      "confirm": "确认删除",
+      "cancel": "取消",
+      "done": "模板已删除。"
+    }
+  }
+}

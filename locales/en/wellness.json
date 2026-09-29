@@ -1,0 +1,1055 @@
+{
+  "chart": {
+    "percentile": "{n}th percentile",
+    "percentileAria": "{label}: {n}th percentile of {max}"
+  },
+  "meta": {
+    "band": {
+      "high": "High",
+      "low": "Low",
+      "mild": "Mild",
+      "minimal": "Minimal",
+      "moderate": "Moderate",
+      "moderatelySevere": "Moderately severe",
+      "normal": "Normal",
+      "severe": "Severe",
+      "verySevere": "Very severe"
+    },
+    "chip": {
+      "percentile": "{n}th percentile",
+      "signature": "Signature strength"
+    },
+    "degree": {
+      "associate": "Associate",
+      "bachelor": "Bachelor's",
+      "doctorate": "Doctorate",
+      "master": "Master's",
+      "professional_doctorate": "Professional doctorate"
+    },
+    "riasecType": {
+      "A": {
+        "desc": "Creativity, expression, and design (art, writing, music, design).",
+        "name": "Artistic"
+      },
+      "C": {
+        "desc": "Organization, accuracy, and working with data (accounting, administrative, finance).",
+        "name": "Conventional"
+      },
+      "E": {
+        "desc": "Leadership, persuasion, and business (management, sales, law).",
+        "name": "Enterprising"
+      },
+      "I": {
+        "desc": "Analysis, research, and problem-solving (science, medicine, mathematics, research).",
+        "name": "Investigative"
+      },
+      "R": {
+        "desc": "Practical and technical work with tools, machines, or nature (engineering, technical, agriculture).",
+        "name": "Realistic"
+      },
+      "S": {
+        "desc": "Helping, teaching, and interacting with people (education, counseling, nursing).",
+        "name": "Social"
+      }
+    },
+    "section": {
+      "bigfive": "Big Five Personality Profile",
+      "dass21": "Three Dimensions: Depression, Anxiety, Stress",
+      "disc": "Four DISC Behavioral Dimensions",
+      "fallback": "Subscales",
+      "grit": "Two Grit Subscales",
+      "mai": "Two Metacognitive Dimensions",
+      "mslq": "Motivation and Learning Strategies Profile",
+      "oejts": "Four Personality Type Dimensions",
+      "riasec": "Six Career Interest Types",
+      "vark": "Four Learning Styles",
+      "via": "VIA Character Strengths",
+      "watsonGlaser": "Watson-Glaser Critical Thinking Subtests"
+    },
+    "subscale": {
+      "bigfive": {
+        "A": "Agreeableness",
+        "C": "Conscientiousness",
+        "E": "Extraversion",
+        "N": "Neuroticism",
+        "O": "Openness to Experience"
+      },
+      "dass21": {
+        "anxiety": "Anxiety",
+        "depression": "Depression",
+        "stress": "Stress"
+      },
+      "disc": {
+        "C": "Conscientiousness (C)",
+        "D": "Dominance (D)",
+        "I": "Influence (I)",
+        "S": "Steadiness (S)"
+      },
+      "grit": {
+        "consistency": "Consistency of Interest",
+        "perseverance": "Perseverance of Effort",
+        "total": "Total Grit Score"
+      },
+      "mai": {
+        "conditional": "Conditional Knowledge",
+        "debugging": "Debugging Strategies",
+        "declarative": "Declarative Knowledge",
+        "evaluation": "Evaluation",
+        "info_management": "Information Management Strategies",
+        "monitoring": "Monitoring",
+        "planning": "Planning",
+        "procedural": "Procedural Knowledge"
+      },
+      "mslq": {
+        "control_beliefs": "Control Beliefs",
+        "critical_thinking": "Critical Thinking",
+        "effort_regulation": "Effort Regulation",
+        "elaboration": "Elaboration",
+        "extrinsic_goal": "Extrinsic Goal Orientation",
+        "help_seeking": "Help Seeking",
+        "intrinsic_goal": "Intrinsic Goal Orientation",
+        "metacog_self_regulation": "Metacognitive Self-Regulation",
+        "organization": "Organization",
+        "peer_learning": "Peer Learning",
+        "rehearsal": "Rehearsal",
+        "self_efficacy": "Self-Efficacy",
+        "task_value": "Task Value",
+        "test_anxiety": "Test Anxiety",
+        "time_study_env": "Time and Study Environment"
+      },
+      "oejts": {
+        "EI": "Extraverted / Introverted",
+        "JP": "Judging / Perceiving",
+        "SN": "Sensing / Intuitive",
+        "TF": "Thinking / Feeling"
+      },
+      "riasec": {
+        "A": "Artistic (A)",
+        "C": "Conventional (C)",
+        "E": "Enterprising (E)",
+        "I": "Investigative (I)",
+        "R": "Realistic (R)",
+        "S": "Social (S)"
+      },
+      "vark": {
+        "A": "Aural (A)",
+        "K": "Kinesthetic (K)",
+        "R": "Read/Write (R)",
+        "V": "Visual (V)"
+      },
+      "watsonGlaser": {
+        "assumptions": "Recognizing Assumptions",
+        "deduction": "Deduction",
+        "evaluation": "Evaluation of Arguments",
+        "inference": "Inference",
+        "interpretation": "Interpretation",
+        "total": "Total Score"
+      }
+    },
+    "via": {
+      "appreciationOfBeauty": "Appreciation of Beauty and Excellence",
+      "bravery": "Bravery",
+      "creativity": "Creativity",
+      "curiosity": "Curiosity",
+      "fairness": "Fairness",
+      "forgiveness": "Forgiveness",
+      "gratitude": "Gratitude",
+      "honesty": "Honesty",
+      "hope": "Hope",
+      "humility": "Humility",
+      "humor": "Humor",
+      "judgment": "Judgment",
+      "kindness": "Kindness",
+      "leadership": "Leadership",
+      "love": "Love",
+      "loveOfLearning": "Love of Learning",
+      "perseverance": "Perseverance",
+      "perspective": "Perspective",
+      "prudence": "Prudence",
+      "selfRegulation": "Self-Regulation",
+      "socialIntelligence": "Social Intelligence",
+      "spirituality": "Spirituality",
+      "teamwork": "Teamwork",
+      "zest": "Zest/Enthusiasm"
+    }
+  },
+  "result": {
+    "action": {
+      "backToWellness": "Back to Health and Counseling",
+      "myHistory": "My Result History"
+    },
+    "analysis": {
+      "pendingBody": "Your responses have been saved completely and confidentially. As soon as the official scoring key is registered, the analysis of these responses will be displayed here.",
+      "scoreOutOf": "{score} out of {max}",
+      "screeningReminder": "This is a screening tool, not a diagnosis.",
+      "soon": "Analysis coming soon",
+      "title": "Result Analysis"
+    },
+    "backToHistory": "Back to Result History",
+    "crisis": {
+      "aria": "Immediate help resources",
+      "callAria": "Call {title} at {phone}",
+      "title": "You are not alone — help is available right now",
+      "urgent": "Urgent"
+    },
+    "defaultTestName": "Mental Health Test",
+    "err": {
+      "generic": "An error occurred",
+      "invalidId": "Invalid result ID"
+    },
+    "gad7": {
+      "mild": {
+        "action": "The 4-7-8 breathing exercise and breaking tasks down into small steps can help.",
+        "body": "You are experiencing some worry or unease, which is normal. Anxiety means you care about something, not that you are incapable.",
+        "headline": "Mild Anxiety"
+      },
+      "minimal": {
+        "body": "Anxiety symptoms are at their lowest level. You are taking good care of yourself.",
+        "headline": "Minimal Anxiety"
+      },
+      "moderate": {
+        "body": "It seems that anxiety has been high these days and has affected your peace of mind. Being kind to yourself is the first step.",
+        "headline": "Moderate Anxiety"
+      },
+      "severe": {
+        "body": "Your responses indicate that anxiety is placing a heavy burden on you. Don't stay alone; talking to a specialist can be very helpful.",
+        "headline": "Severe Anxiety"
+      }
+    },
+    "help": {
+      "body": "The result of this questionnaire provides a general overview of your current state of well-being and is designed for self-awareness. This result is not a diagnosis; a definitive diagnosis is only possible through an in-person evaluation by a specialist. You can speak with a university counselor whenever you wish.",
+      "title": "Result Guide"
+    },
+    "higherIsBetter": "In this test, a higher score indicates a better condition.",
+    "keySource": {
+      "aiDerivedV1": "Calculated with temporary key version 1 (AI extraction) — will be updated upon registering the official key.",
+      "convention": "The scoring key has been applied based on the standard convention of this tool.",
+      "file": "The scoring key has been extracted from the official tool file itself.",
+      "pendingKey": "The official key for this tool has not been registered yet."
+    },
+    "loading": "Loading…",
+    "meter": {
+      "aria": "Score {score} out of {outOf}",
+      "bestWithValue": "{value} (Best)",
+      "least": "Least",
+      "leastWithValue": "{value} (Least)",
+      "mostWithValue": "{value} (Highest)"
+    },
+    "multi": {
+      "bigfive": {
+        "action": "You can combine this profile with the Holland Interest Assessment to get a more complete picture for your path selection.",
+        "body": "Personality is a spectrum, not a label. Each factor is part of your picture; an average score means flexibility, not weakness.",
+        "headline": "Your Big Five Personality Profile"
+      },
+      "dass21": {
+        "body": "This test measures three dimensions separately. The chart below shows the position of each. Severity labels show your standing relative to the general population, not a diagnosis.",
+        "headline": "Depression, Anxiety, and Stress Profile"
+      },
+      "grit": {
+        "action": "If either of the two subscales is low, small goal-setting and habit formation can strengthen it.",
+        "body": "Grit is a combination of consistency of interest and perseverance of effort. This is a developable skill, not a fixed trait.",
+        "headline": "Your Grit"
+      },
+      "mai": {
+        "action": "If \"Regulation of Cognition\" was low, self-testing exercises while studying can help.",
+        "body": "Metacognition means awareness of your own learning process. A higher score means you can better regulate your learning.",
+        "headline": "Your Metacognitive Awareness"
+      },
+      "mslq": {
+        "action": "Focus on the subscales that are lower; the smart health assistant can suggest exercises for them.",
+        "body": "This test shows your strengths and areas for growth in study methods and motivation so you know what to reinforce.",
+        "headline": "Your Learning and Motivation Profile"
+      },
+      "oejts": {
+        "body": "OEJTS is a Jungian typology questionnaire; your four-letter code (like INTJ) is built from four independent axes: Introverted/Extraverted, Sensing/Intuitive, Thinking/Feeling, and Judging/Perceiving. This is a starting point for self-discovery, not a certainty; it is best viewed alongside the Big Five profile.",
+        "headline": "Your Personality Type (based on OEJTS)"
+      },
+      "riasec": {
+        "action": "View the result as a starting point for discovering your path—not a definitive rule. You can talk about your path with a counselor.",
+        "body": "This test tells you what kind of activities are more appealing to you. Your three-letter code and matching university majors are listed below.",
+        "headline": "Your Career Interests — Holland Code"
+      },
+      "vark": {
+        "action": "Use your stronger styles in studying, but do not limit yourself to just one.",
+        "body": "This test shows your preference for receiving information. This is a \"preference\", not a rule; most people are multimodal.",
+        "headline": "Your Learning Style"
+      },
+      "via": {
+        "action": "Try to apply your signature strengths more in your studies and life; this is linked to well-being.",
+        "body": "This test highlights your positive character strengths. Lower strengths on the list are not weaknesses—they are just less prominent.",
+        "headline": "Your Character Strengths"
+      }
+    },
+    "nextStep": {
+      "title": "A small, kind step"
+    },
+    "notFound": "No results found.",
+    "page": {
+      "eyebrow": "Mental Health · Self-Assessment Result",
+      "lead": "This is a self-discovery screening, not a clinical diagnosis. Your answers are personal and confidential.",
+      "title": "Test Result"
+    },
+    "pending": {
+      "body": "All your answers have been saved carefully. The official scoring key for this tool is not yet available; as soon as it is added, the analysis of these exact answers will be displayed for you.",
+      "headline": "Your responses have been recorded — analysis coming soon"
+    },
+    "phq9": {
+      "mild": {
+        "action": "Try one of the self-help resources and track how you feel for a few days; if it persists, talk to a counselor.",
+        "body": "It appears you are experiencing some pressure or low mood, which is completely natural and manageable.",
+        "headline": "Mild Symptoms"
+      },
+      "minimal": {
+        "body": "Your responses indicate that symptoms of depression are at their lowest level these days. That is good news.",
+        "headline": "Minimal Depression Symptoms"
+      },
+      "moderate": {
+        "body": "Your answers indicate that you are under significant pressure these days. Take this seriously and be kind to yourself.",
+        "headline": "Moderate Symptoms"
+      },
+      "moderatelySevere": {
+        "body": "It seems things are really tough these days. You shouldn't have to carry this heavy load all by yourself; you deserve support.",
+        "headline": "Moderately severe symptoms"
+      },
+      "severe": {
+        "body": "Your responses indicate you are under a great deal of pressure. Please don't stay alone and talk to a professional as soon as possible.",
+        "headline": "Severe symptoms"
+      }
+    },
+    "profile": {
+      "title": "Your Profile"
+    },
+    "programs": {
+      "bestFit": "Best Fit",
+      "browseCta": "Browse University Programs",
+      "code": "Interest Code: {code}",
+      "cta": "View All Programs and Register",
+      "degreeAndCode": "{degree} · Interest Code: {code}",
+      "emptyBody": "No matching programs have been registered for your interest code yet, but you can view all university programs.",
+      "lead": "Based on your interests, these university programs are close to your Holland Code. This is a self-assessment suggestion, not a prescription — the final choice is up to you.",
+      "title": "Suggested University Programs"
+    },
+    "recorded": "Result recorded",
+    "riasec": {
+      "letterAria": "Letter {name}",
+      "title": "Your Holland Code"
+    },
+    "rosenberg": {
+      "high": {
+        "body": "You have a generally good sense of your own worth. This is a valuable asset for difficult days.",
+        "headline": "High Self-Esteem"
+      },
+      "low": {
+        "body": "Your view of yourself is a bit harsh these days. A low score is not a negative label — self-esteem is strengthened through practice and conversation.",
+        "headline": "Lower than Usual Self-Esteem"
+      },
+      "moderate": {
+        "action": "Practicing self-compassion and journaling your strengths can help reinforce this feeling.",
+        "body": "Your view of yourself is moderate; like most people, it sometimes goes up and down. This is natural.",
+        "headline": "Moderate Self-Esteem"
+      }
+    },
+    "safety": {
+      "body": "Some of your responses indicate that things might be really tough right now and you deserve support. Please check the support resources listed above; talking to a human companion can help. 💙",
+      "headline": "Please take this result seriously — you are not alone"
+    },
+    "score": {
+      "outOf": "out of {outOf}"
+    },
+    "screeningNote": "Thank you for completing this questionnaire. This result is a screening tool for self-awareness, not a diagnosis.",
+    "serverType": "Your Type: {name}",
+    "subscale": {
+      "footer": "This profile is for self-awareness, not judgment. No score is absolutely \"good\" or \"bad\"; each is part of your overall picture. 💙"
+    },
+    "suggest": {
+      "counselor": "If you'd like, you can book an appointment with a university counselor from the \"Health and Counseling\" section; talking helps.",
+      "selfcare": "Keep taking care of yourself: regular sleep, a bit of physical activity, and connecting with people you care about."
+    },
+    "vark": {
+      "dominant": {
+        "A": "Dominant Style: Auditory",
+        "K": "Dominant Style: Kinesthetic/Experiential",
+        "R": "Dominant Style: Reading/Writing",
+        "V": "Dominant Style: Visual"
+      }
+    },
+    "who5": {
+      "low": {
+        "action": "It might be a good idea to also take a depression screening (PHQ-9) or speak with a university counselor.",
+        "body": "Your well-being score is a bit low; perhaps your energy or mood is lower than usual these days. This is a sign, not a label.",
+        "headline": "Lower than Usual Well-Being"
+      },
+      "ok": {
+        "action": "Keep up this good momentum by maintaining healthy habits and checking in with yourself from time to time.",
+        "body": "Your well-being score is at a good level, meaning you've been feeling well most of the time lately. Excellent!",
+        "headline": "Good well-being"
+      },
+      "pill": {
+        "low": "Low well-being",
+        "ok": "Good well-being"
+      }
+    },
+    "yourResult": "Your result"
+  },
+  "results": {
+    "band": {
+      "who5": {
+        "low": "Low well-being",
+        "ok": "Good well-being"
+      }
+    },
+    "card": {
+      "attempts": "{count, plural, one {# time} other {# times}}",
+      "details": "Details and interpretation",
+      "latest": "Latest result",
+      "previous": "Previous results"
+    },
+    "category": {
+      "interest": "Interests and preferences",
+      "learning": "Learning style",
+      "mental": "Mental health"
+    },
+    "chart": {
+      "aria": "Mood trend over the last {days, number} days; latest entry: {last}"
+    },
+    "crisis": {
+      "note": "You are not alone. If you are struggling lately, you can call <b>1480 Welfare Counseling Hotline</b> right now or talk to a university counselor. Open the relevant result to view support resources."
+    },
+    "cta": {
+      "newTest": "New self-assessment"
+    },
+    "empty": {
+      "body": "You haven't taken any tests yet.",
+      "cta": "Start a self-assessment"
+    },
+    "err": {
+      "generic": "An error occurred"
+    },
+    "group": {
+      "unknownTest": "Mental health test"
+    },
+    "head": {
+      "eyebrow": "Mental health · History",
+      "lead": "Your mental health test history, grouped by test with a simple trend compared to the previous time. These results are for self-awareness, not diagnosis.",
+      "title": "My self-assessment results"
+    },
+    "help": {
+      "body": "Here you can see your \"My Health Overview\", daily mood trends, and all your mental health test results. Each card shows the latest test result with its trend compared to the previous one. Tap any result to view its details and interpretation. These results are visible only to you.",
+      "title": "Results history guide"
+    },
+    "history": {
+      "title": "History by test"
+    },
+    "kpi": {
+      "tests": "Tests completed",
+      "total": "Total results"
+    },
+    "mood": {
+      "avg": {
+        "high": "You've had a good mood",
+        "low": "You've had slightly heavy days",
+        "mid": "You've had a balanced mood",
+        "veryLow": "You've been through difficult days"
+      },
+      "avgBadge": "Average {avg} out of 5",
+      "hint": "Log your daily mood from the health dashboard to complete its trend here.",
+      "last": "Latest entry: {label}",
+      "level": {
+        "1": "Very low",
+        "2": "Slightly sad",
+        "3": "Neutral",
+        "4": "Good",
+        "5": "Excellent"
+      },
+      "rangeDays": "{count, plural, one {Past # day} other {Past # days}}",
+      "streak": "{count, plural, one {# consecutive day} other {# consecutive days}}",
+      "title": "My Mood Trend"
+    },
+    "overview": {
+      "cellAria": "{label}: {value} — View details",
+      "moodLabel": "Daily Mood",
+      "moodValue": "{avg} out of 5 · {label}",
+      "subtitle": "Latest status of each dimension at a glance — This is a snapshot for self-discovery, not a diagnosis.",
+      "title": "My Wellness Overview"
+    },
+    "state": {
+      "loading": "Loading…"
+    },
+    "trend": {
+      "delta": "({count, plural, one {# point} other {# points}})",
+      "down": "Decrease from previous time",
+      "first": "First result",
+      "flat": "No change",
+      "up": "Improvement from previous time"
+    },
+    "vark": {
+      "A": "Dominant style: Auditory",
+      "K": "Dominant style: Kinesthetic/Experiential",
+      "R": "Dominant style: Reading/Writing",
+      "V": "Dominant style: Visual"
+    }
+  },
+  "rich": {
+    "ai": {
+      "consent": "Use my test results for a more personalized response (optional and confidential)",
+      "crisisTitle": "Please do not stay alone 💙",
+      "default": {
+        "reply": "Thank you for sharing this with me 💙 It matters to me to understand you better. Would you like to share a bit more about what's on your mind the most — studies, sleep, relationships, or how you're feeling lately? Whatever you say, I'm here for you patiently.",
+        "tip1": "Take a deep breath and focus just on this moment",
+        "tip2": "You can also start using the quick reply buttons below"
+      },
+      "disclaimer": "The responses in this conversation are written by AI, not a human; this is an educational companion and is not a substitute for professional counseling. In critical situations, call the helpline {phone}.",
+      "greeting": {
+        "high": "Hello 😄 It's great that you're feeling good today! Let's use this energy to build a productive day. What's on your mind?",
+        "low": "Hello 💙 I see you're not feeling your best today. I'm glad you're here — just wanting to talk is a kind step toward yourself. Write to me whatever you'd like, I'm listening patiently.",
+        "mid": "Hello 🌤️ I am your AI psychology companion. Write whatever is on your mind — studies, stress, sleep, or even a good mood — so we can look at it together.",
+        "none": "Hello 🙂 I am your AI psychology companion; a safe and confidential space to talk. How are your days going lately? We can talk about anything you'd like."
+      },
+      "inputAria": "Message the AI psychology companion",
+      "placeholder": "Write whatever is in your heart…",
+      "quick": {
+        "q1": {
+          "label": "I have exam stress",
+          "message": "I am very stressed and worried about my exams"
+        },
+        "q2": {
+          "label": "I lost my motivation",
+          "message": "I have no motivation to study these days"
+        },
+        "q3": {
+          "label": "My sleep is disrupted",
+          "message": "I can't sleep at night and I'm tired"
+        },
+        "q4": {
+          "label": "I feel lonely",
+          "message": "I am away from my family and feel lonely"
+        },
+        "q5": {
+          "label": "I lack focus",
+          "message": "I have no focus while studying and get easily distracted"
+        },
+        "q6": {
+          "label": "I'm doing well! 😊",
+          "message": "I'm feeling great today and full of energy"
+        }
+      },
+      "reset": "Reset",
+      "resetAria": "New chat",
+      "rules": {
+        "gratitude": {
+          "reply1": "You're very welcome 💙 I'm so glad I could be here for you. Remember that this progress is the result of your own effort and openness. Whenever you need help again, I'm right here.",
+          "tip1": "Record this good mood with a short note for yourself",
+          "tip2": "Do a kind act for yourself or someone else"
+        },
+        "happy": {
+          "reply1": "Wow, that's wonderful! 🎉 I'm so glad you're feeling well — this positive energy is worth celebrating. Let's make sure this good feeling lasts and use it to help you reach your goals.",
+          "reply2": "This news warmed my heart too! 🌟 Mindfully savor these good moments; they are what give us strength on difficult days. Be proud of yourself.",
+          "tip1": "Note down this good moment so you can return to it later",
+          "tip2": "Focusing on this energy, take one small step toward your goal",
+          "tip3": "Share your good mood with someone you love"
+        },
+        "lonely": {
+          "reply1": "Missing home and feeling lonely, especially far from home, is one of the hardest parts of student life, and you're not alone in it 💙 This feeling means you have valuable connections. Let's find ways to both stay in touch with your loved ones and build a sense of belonging here.",
+          "tip1": "Schedule a short, regular call with your family",
+          "tip2": "Join a student club or group that shares your interests",
+          "tip3": "Start a small conversation with a classmate today"
+        },
+        "motivation": {
+          "reply1": "A drop in motivation happens to all of us and it's not a sign of laziness on your part — it's often a sign of fatigue or goals that are too big. Let's make the goal small enough so that it's easy to start; movement builds motivation, not the other way around. 🌱",
+          "reply2": "When motivation dips, instead of waiting for the 'right feeling', just start for two minutes. Often those two minutes get the wheels turning. Be proud of yourself for still being here and trying.",
+          "tip1": "Focus only on the 'first two-minute step', not the whole task",
+          "tip2": "Set a small reward for the end of each study session",
+          "tip3": "See your progress: write down one tiny thing you accomplished today"
+        },
+        "sad": {
+          "reply1": "I'm sorry you're feeling a heaviness on your heart these days 💙 Your feelings are completely valid and you don't need to hide them. The fact that you're talking about it is a sign of your strength, not your weakness. Let's take it step by step.",
+          "reply2": "I want you to know that you're not alone in this feeling and this state will pass, even if it doesn't seem like it right now. Be kinder to yourself than ever; you deserve that kindness.",
+          "tip1": "Do a small, pleasant thing for yourself (music, short walk, tea)",
+          "tip2": "Write down three things you feel grateful for today",
+          "tip3": "Reach out to a friend or a trusted person; being seen helps"
+        },
+        "sleep": {
+          "reply1": "Good sleep is the foundation of everything — both peace of mind and focus in studies. If your sleep has been disrupted these past nights, it's totally normal; a busy mind has a hard time settling down. Let's review a few simple habits together to bring back your sleep quality.",
+          "tip1": "Put screens away an hour before bedtime",
+          "tip2": "Keep the room cool and dark and go to sleep at the same time every night",
+          "tip3": "If you can't fall asleep for 20 minutes, get up and do a relaxing activity"
+        },
+        "stress": {
+          "reply1": "I completely understand; exam stress and study pressure are really heavy and this feeling is completely natural. Your body is trying to get ready, just a little too much. Let's bring calmness back to your mind together — you've got this.",
+          "reply2": "I sense that you're under pressure and that's hard. It's important to know that anxiety means you care about this matter, not that you're incapable. Take a deep breath; I'm right here with you.",
+          "tip1": "4-7-8 breathing exercise: four seconds inhale, seven seconds hold, eight seconds exhale",
+          "tip2": "Break tasks down into small 25-minute steps (Pomodoro)",
+          "tip3": "Drink a glass of water and step away from your desk for two minutes"
+        },
+        "study": {
+          "reply1": "When study planning is set up right, it removes a large part of the stress on its own. Focus is a skill, not a fixed trait — it gets stronger with practice. Let's create a simple and workable rhythm for you so you can make progress without getting exhausted.",
+          "tip1": "Work using the Pomodoro technique: 25 minutes of focus + 5 minutes of rest",
+          "tip2": "Put your mobile phone on Do Not Disturb and out of reach",
+          "tip3": "Read the hardest subject first thing in the morning, when you have more energy"
+        }
+      },
+      "sendAria": "Send message",
+      "subtitle": "Companion and confidential · Always by your side",
+      "tipsLabel": "🌱 Small tips:",
+      "title": "AI Psychologist",
+      "typing": "Typing…"
+    },
+    "appt": {
+      "cancel": {
+        "body": "This appointment will be canceled and the slot will be freed up. You will need to book again to schedule a new appointment.",
+        "confirm": "Cancel appointment",
+        "title": "Cancel appointment for \"{name}\" — {date} at {time}",
+        "titleFallback": "Cancel appointment"
+      },
+      "cancelBtn": "Cancel appointment",
+      "cancelling": "Cancelling…",
+      "empty": "You don't have any appointments yet. Choose one of the counselors below. 🌱",
+      "loading": "Loading appointments…",
+      "mode": {
+        "in_person": "In-person",
+        "online": "Online"
+      },
+      "note": "Note: {note}",
+      "status": {
+        "cancelled": "Canceled",
+        "confirmed": "Confirmed",
+        "done": "Completed",
+        "requested": "Pending confirmation"
+      },
+      "title": "My appointments"
+    },
+    "assess": {
+      "band": {
+        "calm": {
+          "feedback": "It looks like you're in a good balance these days — well done! Taking care of yourself is paying off.",
+          "label": "Good and balanced state",
+          "suggestion": "Keep up these good habits and don't forget to log your daily mood to maintain your positive momentum."
+        },
+        "high": {
+          "feedback": "It seems things are really tough these days and you shouldn't have to carry this weight alone. You deserve support.",
+          "label": "High pressure",
+          "suggestion": "Please book a session with one of the counselors. If you feel this is urgent, the support hotline is available 24/7."
+        },
+        "mild": {
+          "feedback": "You're feeling a bit of pressure, which is completely normal and manageable. You're doing well.",
+          "label": "Mild pressure",
+          "suggestion": "Try one of the stress or sleep self-help resources and take a short daily break for yourself."
+        },
+        "moderate": {
+          "feedback": "It looks like you're under significant pressure these days. It's important to take this seriously and be kind to yourself.",
+          "label": "Moderate pressure",
+          "suggestion": "Talking to the AI psychologist or booking a session with a counselor can help. Don't stay alone."
+        }
+      },
+      "close": "Close",
+      "closeBtn": "Close",
+      "dialogAria": "Short self-assessment",
+      "disclaimer": "This self-assessment is not a medical diagnosis; it is simply a tool for self-awareness.",
+      "prev": "← Previous question",
+      "progress": "Question {index} of {total}",
+      "q": {
+        "s1": {
+          "opt": {
+            "o1": "Almost never",
+            "o2": "Sometimes",
+            "o3": "Most days",
+            "o4": "Almost always"
+          },
+          "prompt": "Over the past week, how often have you felt stressed or pressured?"
+        },
+        "s2": {
+          "opt": {
+            "o1": "Good and sufficient",
+            "o2": "Fairly good",
+            "o3": "Restless and insufficient",
+            "o4": "Very bad"
+          },
+          "prompt": "How has your sleep quality been these days?"
+        },
+        "s3": {
+          "opt": {
+            "o1": "Well",
+            "o2": "Moderately",
+            "o3": "With difficulty",
+            "o4": "Almost none"
+          },
+          "prompt": "How well have you been able to focus on your studies and tasks?"
+        },
+        "s4": {
+          "opt": {
+            "o1": "Like always",
+            "o2": "A bit less",
+            "o3": "Much less",
+            "o4": "Almost none"
+          },
+          "prompt": "How much have you enjoyed things that usually bring you joy?"
+        },
+        "s5": {
+          "opt": {
+            "o1": "Completely",
+            "o2": "Most of the time",
+            "o3": "Rarely",
+            "o4": "Not at all"
+          },
+          "prompt": "How much do you feel you can cope with the challenges you're facing lately?"
+        }
+      },
+      "restart": "Start over",
+      "resultLabel": "Self-assessment result",
+      "subtitle": "Confidential and for your own awareness only",
+      "suggestion": "💡 Suggestion: {text}",
+      "teaser": {
+        "body": "A {n}-question questionnaire about stress, sleep, and focus — under two minutes, with friendly and non-judgmental feedback. The result is just for your own awareness.",
+        "cta": "Start self-assessment",
+        "demoNote": "Quick trial self-assessment — results are not saved",
+        "title": "Short self-assessment",
+        "validLead": "For validated and recordable mental health assessments, use",
+        "validLink": "psychological tests",
+        "validTail": "."
+      },
+      "title": "Short self-assessment"
+    },
+    "booking": {
+      "cancel": "Cancel",
+      "close": "Close",
+      "dateLabel": "Select date",
+      "datePickerAria": "Select appointment date",
+      "datePlaceholder": "Select a date",
+      "dialogAria": "Book an appointment",
+      "err": {
+        "invalid": "The selected time is invalid.",
+        "noDate": "Please select a date.",
+        "noTime": "Please select a time.",
+        "past": "The selected time is in the past; please choose a future time."
+      },
+      "footnote": "The appointment will be recorded with \"Pending confirmation\" status; you will be notified once approved by the counselor. 💙",
+      "modeLabel": "Session type",
+      "noteAria": "Note for the counselor",
+      "noteLabel": "Note",
+      "noteOptional": "(optional)",
+      "notePlaceholder": "If you'd like, briefly write about what you'd like to discuss…",
+      "saving": "Saving...",
+      "submit": "Confirm appointment",
+      "timeLabel": "Select time",
+      "title": "Book appointment"
+    },
+    "counselors": {
+      "book": "Book appointment",
+      "emptyBody": "Our team members will be here soon; if you need immediate assistance, use \"Chat with AI Counselor\" or the crisis line at the bottom of this page. 💙",
+      "emptyTitle": "No counselors available yet",
+      "initialsFallback": "?",
+      "loading": "Loading counselors...",
+      "noMatch": "No counselor found matching these criteria."
+    },
+    "emergency": {
+      "body": "If you feel you need immediate help right now, you are not alone. This line is available 24/7 and is completely confidential.",
+      "center": "🏥 University Counseling Center · {phone}",
+      "footer": "All conversations remain confidential. Take care of yourself. 💙",
+      "hope": "☎️ Hope Line · {phone}",
+      "title": "There is always someone to listen"
+    },
+    "err": {
+      "generic": "An error occurred"
+    },
+    "hero": {
+      "eyebrow": "Mental Health · Student Support",
+      "helpBody": "This page is your mental health space. You can chat confidentially with the AI psychologist, log your mood today, take a brief self-assessment, and use self-help resources. To speak with a counselor, you can also book an appointment from the counselors section.",
+      "helpTitle": "Health and Counseling Guide",
+      "lead": "We are here for you. Chat with the AI psychologist, book appointments with experienced counselors, log your mood today, and use self-help resources. Every small step matters. 💙",
+      "title": "Health and Counseling"
+    },
+    "mood": {
+      "barTitle": "{date} · {level}/{max}",
+      "empty": "You haven't logged your mood yet. Build your first streak day by choosing one of the options above. 🌱",
+      "loading": "Loading mood history...",
+      "opt": {
+        "good": "Good",
+        "great": "Great",
+        "low": "A bit low",
+        "neutral": "Neutral",
+        "veryLow": "Very low"
+      },
+      "optAria": "Log mood: {label}",
+      "savedPrefix": "✅ Today's mood has been logged:",
+      "savedSuffix": ". Thank you for taking care of yourself. The AI psychologist is also here to support you based on your mood. 💙",
+      "streakPill": "🔥 {days}-day streak",
+      "subtitle": "Logging your daily mood helps you understand yourself better.",
+      "title": "How are you feeling today?"
+    },
+    "myResults": {
+      "all": "All results ←",
+      "cardAria": "{name} result",
+      "emptyBody": "You don't have any results yet. Start with a short self-assessment — just for your own awareness. 💙",
+      "emptyCta": "Start a self-assessment",
+      "loading": "Loading results…",
+      "score": "Score: {score}",
+      "title": "My Results",
+      "unknownShort": "Test",
+      "unknownTest": "Mental Health Test"
+    },
+    "resources": {
+      "bookmark": "Bookmark",
+      "callCta": "☎️ Call · {phone}",
+      "crisisTitle": "Immediate Support Lines",
+      "loading": "Loading resources…",
+      "noMatch": "No resources found for this topic.",
+      "selfHelpTitle": "Self-Help Resources",
+      "sortAlpha": "Alphabetical",
+      "sortLabel": "Sort by:",
+      "sortShort": "Shortest",
+      "topic": {
+        "anxiety": "Anxiety",
+        "general": "General",
+        "sleep": "Sleep",
+        "stress": "Stress",
+        "wellbeing": "Well-being"
+      },
+      "topicAll": "All",
+      "urgent": "Urgent"
+    },
+    "results": {
+      "body": "Your test results history with the trend for each test compared to the last time — visible only to you. 💙",
+      "cta": "View results ←",
+      "title": "My Self-Assessment Results"
+    },
+    "search": {
+      "aria": "Search",
+      "counselors": "Search for a counselor or specialty…",
+      "resources": "Search resources…"
+    },
+    "summary": {
+      "avgMood": "Average mood",
+      "bookmarks": "Bookmarked resources",
+      "streak": "Mood logging streak",
+      "streakValue": "{days} {days, plural, one {day} other {days}}",
+      "upcoming": "Upcoming appointments"
+    },
+    "tabs": {
+      "counselors": "Counselors",
+      "resources": "Self-help resources"
+    },
+    "tests": {
+      "body": "A collection of validated questionnaires to check in on your mood, interests, and learning style. These tools are for screening, not diagnosis — your results are strictly for your own awareness. 💙",
+      "cta": "View tests →",
+      "title": "Psychological tests"
+    },
+    "tip": {
+      "counter": "Tip {index} of {total}",
+      "next": "Next tip →",
+      "title": "Wellness tip"
+    },
+    "tips": {
+      "t1": {
+        "body": "Before opening your phone, take a deep breath and choose one small goal for today.",
+        "title": "Start your morning peacefully"
+      },
+      "t2": {
+        "body": "Pair every 52 minutes of focused study with 17 minutes of true rest to keep your mind fresh.",
+        "title": "The 52-to-17 rule"
+      },
+      "t3": {
+        "body": "Try to go to sleep at the exact same time every night; a consistent rhythm significantly improves sleep quality.",
+        "title": "Consistent sleep window"
+      },
+      "t4": {
+        "body": "Every night, write down three small things you feel grateful for; a simple exercise for a positive mindset.",
+        "title": "Three daily gratitudes"
+      },
+      "t5": {
+        "body": "A short, genuine daily conversation with a friend or family member keeps the sense of belonging alive.",
+        "title": "A meaningful connection"
+      },
+      "t6": {
+        "body": "Notice and acknowledge every small step you take; motivation is built on seeing progress.",
+        "title": "Celebrate progress"
+      }
+    }
+  },
+  "test": {
+    "action": {
+      "backToWellness": "Back to wellness and counseling",
+      "next": "Next",
+      "preparing": "Preparing...",
+      "prev": "Previous",
+      "seeResult": "View result",
+      "start": "Start self-assessment",
+      "submitting": "Submitting..."
+    },
+    "bipolar": {
+      "middle": "Middle state {n, number}",
+      "spectrum": "Spectrum between \"{left}\" and \"{right}\""
+    },
+    "confirm": {
+      "body": "Once submitted, answers cannot be edited and the result will be calculated immediately. Do you want to continue?",
+      "cancelLabel": "Cancel",
+      "confirmLabel": "Final submission",
+      "title": "Final self-assessment submission"
+    },
+    "consent": {
+      "label": "I understand that this is a screening self-assessment and I agree with how the results are stored and supported/shared (as explained above)."
+    },
+    "crisis": {
+      "aria": "Immediate help resources",
+      "heading": "If you need immediate help, you are not alone",
+      "line": {
+        "behzisti": {
+          "desc": "24/7 and confidential",
+          "title": "Behzisti Counseling Helpline"
+        },
+        "emergency": {
+          "desc": "In case of immediate danger",
+          "title": "Emergency"
+        }
+      },
+      "message": "Whenever things feel overwhelming, you can talk to a supportive person right now. These lines are free and confidential."
+    },
+    "empty": {
+      "body": "This self-assessment currently has no questions to display; check back later or return to Wellness and Counseling.",
+      "title": "The questions for this test are not available yet"
+    },
+    "err": {
+      "generic": "An error occurred. Please try again.",
+      "unavailable": "This test is not available."
+    },
+    "header": {
+      "eyebrow": "Mental Health · Self-Assessment",
+      "fallbackName": "Test",
+      "licensedNote": "This version is provided for educational use."
+    },
+    "help": {
+      "body": "This is a screening and self-awareness tool, not a medical diagnosis. Answer patiently and honestly; answers are saved automatically and you can continue at any time.",
+      "title": "About this self-assessment"
+    },
+    "intro": {
+      "beforeStart": "Before you begin, it's good to know",
+      "disclaimerFallback": "This tool is a screening instrument, not a clinical diagnosis, and does not replace consulting a professional.",
+      "minutes": "{count, plural, one {About # minute} other {About # minutes}}",
+      "point1": "Your result is personal and confidential, and remains always available to you.",
+      "point2": "A low score is not a \"label\"; it is a starting point for taking better care of yourself.",
+      "questionCount": "{count, plural, one {# question} other {# questions}}",
+      "whoSees": {
+        "point1": "If a parent is connected to your account, they only see a \"supportive summary\" (such as general level and mood) — not your exact answers or raw score.",
+        "point2": "If the result indicates a crisis situation, so you are not alone, the university counselor and the linked parent are notified to be by your side. Reaching out for help is a sign of strength. 💙",
+        "title": "Who sees the result?"
+      }
+    },
+    "loading": "Loading…",
+    "nav": {
+      "back": "Wellness and Counseling"
+    },
+    "progress": {
+      "answered": "{answered, number} of {total, number} answered",
+      "aria": "Test completion progress"
+    },
+    "question": {
+      "counter": "{index, number}/{total, number}",
+      "multiHint": "You can select multiple options.",
+      "saveError": "Not saved — try selecting again.",
+      "saved": "Saved",
+      "saving": "Saving…"
+    },
+    "taking": {
+      "footerNote": "This self-assessment is a screening tool, not a diagnosis. If you need help right now, use the lines above. 💙",
+      "remaining": "To see your result, answer all {total, number} questions ({remaining, number} questions remaining).",
+      "resumed": "You have returned to your unfinished self-assessment. If the answers appear empty again, simply select them again — nothing is lost."
+    },
+    "trueFalse": {
+      "false": "False",
+      "true": "True"
+    }
+  },
+  "tests": {
+    "card": {
+      "categoryTitle": "Tool category",
+      "copyright": {
+        "free": "Free and publicly available",
+        "licensed": "Open/alternative version — copyrighted source"
+      },
+      "copyrightTitle": "Copyright status / Source",
+      "lastResult": "Last result",
+      "lastResultTitle": "View last result",
+      "lastTaken": "Last taken: {date}",
+      "minutes": "{count, plural, one {About # minute} other {About # minutes}}",
+      "minutesFew": "A few minutes",
+      "retake": "Retake",
+      "start": "Start test",
+      "startAria": "Start {name}",
+      "viewResult": "View result"
+    },
+    "category": {
+      "career": {
+        "blurb": "Discover career interests and personality-career codes for more informed path selection.",
+        "label": "Career Interests & Path"
+      },
+      "cognitive": {
+        "blurb": "Critical thinking, inference, and argument evaluation.",
+        "label": "Cognitive Ability"
+      },
+      "creativity": {
+        "blurb": "Assess fluency, originality, flexibility, and elaboration in problem-solving.",
+        "label": "Creativity"
+      },
+      "emotional": {
+        "blurb": "Ability to recognize and manage your own and others' emotions in real situations.",
+        "label": "Emotional Intelligence"
+      },
+      "interest": {
+        "blurb": "Understand interests and personality style for more informed major and path selection.",
+        "label": "Interests & Path"
+      },
+      "job_satisfaction": {
+        "blurb": "Assess job satisfaction, supervisor, colleagues, salary, and growth opportunities.",
+        "label": "Job Satisfaction"
+      },
+      "learning": {
+        "blurb": "Understand study and learning style for more effective study planning.",
+        "label": "Learning Style"
+      },
+      "mental": {
+        "blurb": "Short screening for awareness of current well-being — anxiety, mood, well-being, and self-esteem.",
+        "label": "Mental Health"
+      },
+      "personality": {
+        "blurb": "Well-known personality questionnaires — type, Big Five traits, and behavioral style.",
+        "label": "Personality"
+      }
+    },
+    "crisis": {
+      "aria": "Immediate help resources",
+      "body": "Asking for help is a sign of strength. These hotlines are free and confidential:",
+      "line": {
+        "behzisti": "Welfare Counseling Hotline",
+        "medicalEmergency": "Medical Emergency",
+        "socialEmergency": "Social Emergency"
+      },
+      "title": "If you need help right now, you are not alone 💙"
+    },
+    "empty": {
+      "body": "Mental health self-assessments will be available soon. 🌱 Meanwhile, you can view previous results.",
+      "title": "No active tests yet"
+    },
+    "err": {
+      "generic": "An error occurred"
+    },
+    "group": {
+      "count": "{count, plural, one {# test} other {# tests}}"
+    },
+    "head": {
+      "eyebrow": "Mental Health · Screening & Self-Discovery",
+      "lead": "A collection of validated questionnaires for greater awareness of your well-being, interests, and learning style. These tools are for \"screening,\" not \"diagnosis\" — results are for your own awareness only and do not replace consulting a professional. 💙",
+      "title": "Psychological Tests"
+    },
+    "help": {
+      "body": "Each card represents a test. Tap it to start the test; each answer is saved automatically, and you can resume later. If you have already taken a test, a \"last result\" badge will appear on the card, and you can view the result again. All answers are confidential and intended solely for you.",
+      "title": "Psychological Tests Guide"
+    },
+    "history": "Result History",
+    "kpi": {
+      "available": "Available Test",
+      "completed": "Completed Test"
+    },
+    "state": {
+      "loading": "Loading..."
+    }
+  }
+}

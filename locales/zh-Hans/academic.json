@@ -1,0 +1,816 @@
+{
+  "aid": {
+    "active": {
+      "amount": {
+        "label": "金额",
+        "value": "8,400,000 期间币"
+      },
+      "coverage": {
+        "label": "学费覆盖率",
+        "value": "70%"
+      },
+      "label": "您的活跃资助",
+      "status": {
+        "label": "状态",
+        "value": "活跃"
+      },
+      "title": "优秀人才奖学金 — 2026年春季学期",
+      "type": {
+        "label": "类型",
+        "value": "需偿还"
+      }
+    },
+    "apply": {
+      "ariaLabel": "申请 {title}",
+      "button": "申请",
+      "toast": {
+        "msg": "您对「{title}」的申请正在审核中。",
+        "title": "申请已提交"
+      }
+    },
+    "available": {
+      "title": "可申请的资助"
+    },
+    "card": {
+      "capacity": "名飝",
+      "criteria": "条件",
+      "deadline": "截止日期"
+    },
+    "hero": {
+      "eyebrow": "资助",
+      "lead": "12 个活跃资助 · 8 中可申请资助",
+      "title": "贷款与奖学金"
+    },
+    "screenLabel": "40 个资助"
+  },
+  "alumni": {
+    "card": {
+      "cohort": "{year} 届",
+      "mentees": "{count, plural, other {# 学员}}"
+    },
+    "hero": {
+      "demoNote": "本页的统计数据与导师为演示用途 — 真实的校友网络尚未连接",
+      "eyebrow": "校友",
+      "lead": "12,400 名校友分布在 42 个城市和 28 个国家。这是一个由导师、同事和未来雇主组成的网络。",
+      "title": "校友网络"
+    },
+    "mentor": {
+      "ariaLabel": "向 {name} 申请导师服务",
+      "full": "名飝已满",
+      "request": "申请导师服务",
+      "toast": {
+        "msg": "您向 {name} 发送的请求已封存。",
+        "title": "导师申请已发送"
+      }
+    },
+    "mentors": {
+      "title": "查找校友导师"
+    },
+    "screenLabel": "42 个校友网络",
+    "stats": {
+      "academia": {
+        "label": "在世界各大高校",
+        "value": "1,400"
+      },
+      "salary": {
+        "label": "3 年后平均薪资",
+        "value": "82 万/月"
+      },
+      "total": {
+        "label": "校友人数",
+        "value": "12.4K"
+      },
+      "unicorn": {
+        "label": "就职于独角兽企业",
+        "value": "2,800"
+      }
+    }
+  },
+  "attendance": {
+    "mine": {
+      "badge": {
+        "atRisk": "面临课程取消风险",
+        "ok": "状态正常"
+      },
+      "courseFallback": "课程",
+      "empty": "暂无任何课程的出勤记录；在举行第一堂课且由老师记录出勤后，此处将予以显示。",
+      "emptyCta": "查看我的课程",
+      "err": {
+        "generic": "发生错误"
+      },
+      "eyebrow": "教务 · 出勤",
+      "help": {
+        "body": "根据教务规定，每门课程 {outOf} 节课中无故旷课超过 {max} 节可能会导致该课程被取消。本页面仅提供预警，最终是否取消课程由教务处/任课老师决定。若看到预警，请在达到上限前与老师或教务处沟通。有故缺勤不计入内。",
+        "title": "出勤指南"
+      },
+      "kpi": {
+        "atRisk": "接近旷课上限的课程",
+        "courses": "有出勤记录的课程"
+      },
+      "lead": "您在各门课程中的出勤状态基于老师记录的课时；您可以在此处看到接近允许旷课上限的预警（{outOf} 节课中的 {max} 节）。",
+      "legend": "图例：允许上限（{outOf} 节课中的 {max} 节）。有故缺勤不计入内。",
+      "loading": "加载中…",
+      "meter": {
+        "label": "无故缺勤",
+        "text": "{total} 节课中的 {unexcused} 节（{pct}）"
+      },
+      "noSessions": "该课程暂无课时记录。",
+      "stat": {
+        "absent": "缺勤",
+        "excused": "请假",
+        "late": "迟到",
+        "present": "出勤",
+        "total": "总课时"
+      },
+      "thresholdTitle": "允许上限（{outOf} 节中的 {max} 节）",
+      "title": "我的出勤",
+      "warn": {
+        "body": "在 {n} 门课程中，您的无故旷课次数已超过上限，面临课程取消的风险。请尽快与任课老师或教务处沟通。（最终决定权归教务处所有。）",
+        "title": "旷课上限预警（{max}/{outOf}）"
+      }
+    },
+    "parent": {
+      "bySectionTitle": "按课程查看出勤",
+      "childFallback": "学生",
+      "emptyAttendance": "该学员暂无出勤记录。",
+      "err": {
+        "children": "加载学生信息失败",
+        "data": "加载出勤数据失败"
+      },
+      "eyebrow": "家长 · 出勤",
+      "help": {
+        "body": "在此页面您可以查看孩子的出勤情况。如果您有一个以上孩子，请使用上方的按钮选择相应的孩子，以查看其各门课程的出勤率及近期上课记录。",
+        "title": "学生出勤指南"
+      },
+      "kpi": {
+        "absent": "缺勤",
+        "present": "出勤",
+        "rate": "总出勤率",
+        "total": "总课程次数"
+      },
+      "lead": "您孩子的出勤率按课程及近期考勤记录分类。|",
+      "loading": "正在加载…",
+      "loadingData": "正在加载出勤情况…",
+      "noChildren": "您的账号尚未绑定任何学生。如需绑定，请联系大学支持部门。",
+      "recentTitle": "近期考勤",
+      "sectionRate": "{pct} ({attended}/{total})",
+      "table": {
+        "course": "课程",
+        "date": "日期",
+        "status": "状态"
+      },
+      "tally": {
+        "absent": "缺勤：{n}",
+        "excused": "请假：{n}",
+        "late": "迟到：{n}",
+        "present": "出勤：{n}"
+      },
+      "title": "学生出勤"
+    },
+    "roster": {
+      "courseUntitled": "无标题",
+      "emptyRoster": "本课程暂无学生注册。",
+      "err": {
+        "generic": "发生错误"
+      },
+      "eyebrow": "教师 · 班级名册",
+      "file": "文件",
+      "fileAria": "{name} 的文件",
+      "gradeLabel": "当前成绩",
+      "help": {
+        "body": "本名册从成绩系统中读取，仅显示您担任讲师的课程。“当前成绩”即成绩单中记录的分数；在记录之前显示为“—”。本页面不提供出勤率和作业数据。",
+        "title": "帮助"
+      },
+      "kpi": {
+        "graded": "已评定成绩",
+        "objections": "未处理的异议",
+        "total": "学生总数",
+        "ungraded": "无成绩"
+      },
+      "lead": "您每门课程中注册的学生；可查看姓名、电子邮件和当前成绩，并支持搜索和排序。如需录入或公布成绩，请访问“成绩录入”页面。",
+      "loadingRoster": "正在加载学生名册…",
+      "loadingSections": "正在加载课程…",
+      "noResults": "未找到符合搜索条件的学生。",
+      "noSections": "您在本学期没有课程（教学班）。",
+      "objectionOpen": "待处理异议",
+      "optionNone": "— 请选择一门课程 —",
+      "optionSection": "{course} · {n} 名学生",
+      "pickPrompt": "请从上方列表中选择一门课程以查看学生名册。",
+      "pickerLabel": "选择课程",
+      "retry": "重试",
+      "searchAria": "搜索学生",
+      "searchPlaceholder": "搜索姓名或电子邮件…",
+      "showing": "显示第 {shown} 到 {total} 名学生",
+      "sort": {
+        "grade": "排序：最高分",
+        "name": "排序：学生姓名"
+      },
+      "sortAria": "排序",
+      "status": {
+        "graded": "已评分",
+        "ungraded": "已注册（未评分）"
+      },
+      "title": "学生名册",
+      "unnamed": "未命名"
+    },
+    "status": {
+      "absent": "缺勤",
+      "excused": "请假",
+      "late": "迟到",
+      "present": "出席",
+      "unset": "未设置"
+    },
+    "teacher": {
+      "bulk": {
+        "label": "全部："
+      },
+      "emptyRoster": "“{title}”中没有已注册的学生。",
+      "emptyRosterNoSection": "没有学生。",
+      "err": {
+        "atRisk": "加载缺勤状态时出错",
+        "roster": "加载名册时出错",
+        "save": "保存考勤时出错",
+        "sections": "加载班级时出错"
+      },
+      "eyebrow": "教师 · 考勤",
+      "field": {
+        "date": "上课日期",
+        "section": "班级"
+      },
+      "help": {
+        "body": "在此页面中，您可以记录每个班级学生的出勤情况。首先选择班级和上课日期；然后点击每个学生的状态以在出席、缺勤、迟到和请假之间切换（或者使用“全部”按钮一次性设置所有人的状态），最后点击“保存”。",
+        "title": "考勤帮助"
+      },
+      "kpi": {
+        "absent": "缺勤",
+        "late": "迟到",
+        "present": "出席",
+        "total": "总计"
+      },
+      "lead": "选择班级和上课日期，然后记录学生出勤情况。",
+      "loading": "正在加载…",
+      "noSections": "未为您分配任何班级。",
+      "option": {
+        "section": "{code} — {title}（{group} 组）"
+      },
+      "risk": {
+        "checking": "正在检查缺勤状态…",
+        "limit": "上限：无故缺勤超过总课时的 {pct}（截至目前已记录 {sessions} 节课）",
+        "listTitle": "面临取消考试资格风险的学生名册（共 {n} 人）",
+        "none": "没有学生的缺勤次数超过上限",
+        "over": "有 {n} 名学生的缺勤次数超过上限",
+        "presence": "出勤率 {pct}",
+        "unavailable": "考勤状态不可用。",
+        "unexcused": "{n}次无故缻勤",
+        "warnOnly": "— 仅为警告；是否取消课程由教师/专媔委员会决定。"
+      },
+      "rosterLoading": "正在加载名单…",
+      "row": {
+        "file": "档案",
+        "fileAria": "{name}的档案",
+        "presence": "出勤：{pct}",
+        "presenceDetail": "出勤：{pct}（共 {total}节，出勤 {present}节）",
+        "presenceTitle": "在已记录的 {sessions} 节课中的出勤情况",
+        "riskBadge": "有被取消资格的风险 · {n} 次缻勤",
+        "riskTitle": "缻勤超过允许限度（{pct}）——仅为警告，非自动取消",
+        "statusAria": "{name} 的状态"
+      },
+      "save": "保存",
+      "saved": "✓ 考勤已保存 — 您可以选择下一节课或其他日期，或在此页查看面临取消风险的名单",
+      "title": "考勤"
+    }
+  },
+  "career": {
+    "apply": {
+      "ariaLabel": "申请 {company} 的岗位",
+      "button": "申请",
+      "toast": {
+        "msg": "您对 {company} 岗位的申请已提交。",
+        "title": "申请已提交"
+      }
+    },
+    "card": {
+      "match": "匹配度 {pct, number}％"
+    },
+    "filters": {
+      "experience": {
+        "junior": "初级",
+        "mid": "中级",
+        "senior": "高级",
+        "student": "学生",
+        "title": "经验"
+      },
+      "type": {
+        "fullTime": "全职",
+        "internship": "实习",
+        "partTime": "兼职",
+        "project": "项目制",
+        "remote": "远程",
+        "title": "类型"
+      }
+    },
+    "hero": {
+      "eyebrow": "职业服务",
+      "lead": "482 个活跃岗位 · 234 家合作企业 · 平均招聘周期：34 天",
+      "title": "职业与实习中心"
+    },
+    "match": {
+      "body": "AI 将根据您的技能、课程、项目和兴趣，为您匹配合适的岗位。",
+      "resumeButton": "更新简历",
+      "title": "有 23 个岗位与您的个人档案相匹配",
+      "toast": {
+        "msg": "已列出以下结果。",
+        "title": "有 23 个岗位与个人档案匹配"
+      },
+      "viewButton": "查看匹配项"
+    },
+    "save": {
+      "ariaLabel": "添加到收藏夹",
+      "title": "保存",
+      "toast": "已添加到收藏夹"
+    },
+    "screenLabel": "39 项职业服务"
+  },
+  "degree": {
+    "card": {
+      "credits": "{n, number} 个学分"
+    },
+    "categories": {
+      "core": {
+        "courses": {
+          "advancedMath": "高等数学",
+          "bayesianStats": "贝叶斯统计",
+          "dataStructures": "高级数据结构",
+          "mlFoundations": "机器学习基础",
+          "optimisation": "计算优化",
+          "researchMethods": "高级研究方法"
+        },
+        "title": "核心与必修课程"
+      },
+      "elective": {
+        "courses": {
+          "aiEthics": "AI 伦理",
+          "innovation": "创新与初创企业",
+          "language": "专业语言",
+          "seminar": "专业研讨会"
+        },
+        "title": "选修课"
+      },
+      "major": {
+        "courses": {
+          "appliedAi": "应用 AI",
+          "deepLearning": "深度学习",
+          "nlp": "自然语言处理",
+          "recommenders": "推荐系统",
+          "vision": "计算机视觉"
+        },
+        "title": "专业与方向课程"
+      },
+      "thesis": {
+        "courses": {
+          "defence": "最终答辩",
+          "dissertation": "毕业论文（1 至 6）",
+          "proposal": "论文开题报告",
+          "seminarOne": "研讨会 1",
+          "seminarTwo": "研讨会 2"
+        },
+        "title": "论文与研讨会"
+      }
+    },
+    "hero": {
+      "eyebrow": "学位进度",
+      "lead": "数据科学硕士 · 已修满 120 学分中的 48 学分",
+      "title": "学位修读路径"
+    },
+    "progress": {
+      "earned": "已获得 48 学分",
+      "estimate": "预计毕业时间：2027 年 7 月",
+      "percent": "40%",
+      "title": "总体进度"
+    },
+    "screenLabel": "37 学位路径"
+  },
+  "gradebook": {
+    "mine": {
+      "badge": {
+        "answered": "已回答",
+        "awaitingReply": "等待回复",
+        "final": "最终成绩",
+        "provisional": "暂定"
+      },
+      "courseFallback": "课程",
+      "dialog": {
+        "cancel": "取消",
+        "close": "关闭",
+        "counter": "{len} / {max} 个字符（最少 {min} 个）",
+        "errLength": "异议文本必须在 {min} 到 {max} 个字符之间",
+        "placeholder": "请写下您对已公布成绩的异议理由…",
+        "submit": "提交异议",
+        "textLabel": "异议文本",
+        "title": "提交成绩异议"
+      },
+      "empty": "暂无已公布的成绩；教师公布成绩后将在此显示。",
+      "errGeneric": "发生错误",
+      "eyebrow": "教务 · 成绩",
+      "gradeFinalized": "此成绩已最终确认。",
+      "helpBody": "您可在此查看各门课程的已公布成绩。如果成绩为暂定且异议期开放，您可以通过“提交异议”按钮对成绩提出异议，并在此处查看教师的回复。",
+      "helpTitle": "成绩与异议指南",
+      "instructorReply": "教师回复",
+      "kpi": {
+        "announced": "已公布成绩的课程",
+        "final": "最终成绩",
+        "openWindow": "异议期开放"
+      },
+      "lead": "您已公布的成绩；在期限结束前，您可以对暂定成绩提交异议。",
+      "loading": "正在加载…",
+      "objectionDeadline": "异议截止日期",
+      "outOf": "满分 {max}",
+      "title": "成绩与异议",
+      "viewMyCourses": "查看我的课程",
+      "windowClosed": "异议期已结束。",
+      "yourObjection": "您的异议"
+    },
+    "parent": {
+      "colCode": "代码",
+      "colCourse": "课程",
+      "colCredits": "学分",
+      "colGrade": "成绩",
+      "errLoadChildren": "加载子项失败",
+      "errLoadGrades": "加载成绩失败",
+      "eyebrow": "家长 · 成绩",
+      "gpaTrend": "学期 GPA 趋势",
+      "helpBody": "在此页面上，您可以查看孩子的学业成绩单，包括学期 GPA、总 GPA 以及成绩趋势。如果您有一个以上的孩子，请从上方选择相应的孩子，然后使用学期按钮查看各学期的课程成绩。",
+      "helpTitle": "孩子成绩指南",
+      "inProgress": "进行中",
+      "kpi": {
+        "courseCount": "已选课程",
+        "cumulativeGpa": "累计 GPA",
+        "field": "专业",
+        "totalCredits": "总学分"
+      },
+      "lead": "您孩子的成绩单、学期 GPA 和累计 GPA。",
+      "loading": "正在加载…",
+      "loadingGrades": "正在加载成绩…",
+      "noChildren": "您的账户尚未关联任何孩子。如需关联，请联系大学支持部门。",
+      "noGrades": "尚未录入该孩子的成绩。",
+      "studentFallback": "学生",
+      "termGpaLabel": "学期 GPA：",
+      "title": "孩子成绩与成绩单"
+    },
+    "teacher": {
+      "backToCourses": "← 所有课程",
+      "class": {
+        "buildAssessment": "创建评估",
+        "colAverage": "平均分",
+        "colStudent": "学生",
+        "emptyStudents": "本课程中暂无活跃学生。",
+        "errLoad": "加载成绩册失败",
+        "profile": "档案",
+        "profileOf": "{name}的档案",
+        "title": "成绩册：{course}"
+      },
+      "kind": {
+        "exercise": "练习",
+        "quiz": "测验"
+      },
+      "loading": "正在加载…",
+      "noPublishedAssessments": "暂无已发布的评估。",
+      "picker": {
+        "colActions": "操作",
+        "colCode": "代码",
+        "colTitle": "标题",
+        "empty": "暂无课程。",
+        "errLoad": "加载课程失败",
+        "eyebrow": "成绩单",
+        "helpBody": "从列表中选择一门课程以查看其成绩。如果您是教师或管理员，您将看到该课程所有学生的成绩单；如果您是学生，则会显示您自己的成绩和反馈。",
+        "helpTitle": "成绩册帮助",
+        "lead": "选择一门课程以查看成绩。",
+        "title": "成绩册",
+        "viewGrades": "查看成绩 →"
+      },
+      "self": {
+        "averageLabel": "平均分：",
+        "colAssessment": "评估",
+        "colFeedback": "反馈",
+        "colGrade": "成绩",
+        "colKind": "类型",
+        "errLoad": "加载成绩失败",
+        "title": "我的成绩：{course}"
+      }
+    }
+  },
+  "hackathons": {
+    "card": {
+      "ariaLabel": "竞赛详情 {title}",
+      "details": "详情 ←",
+      "toastMsg": "{kind} · 奖金：{prize} · 截止：{deadline}",
+      "until": "至 {deadline}"
+    },
+    "featured": {
+      "badge": "特别竞赛",
+      "body": "开发 AI 工具以助力医生和患者。48 小时团队合作，并来自设斯广和羅氏病医院（mayoclinic）的专家提供导导。",
+      "date": {
+        "label": "日期",
+        "value": "9 月 19-21 日"
+      },
+      "duration": "48 小时",
+      "findTeammate": "寻找队友",
+      "prize": {
+        "label": "一等奖",
+        "value": "8 亿抟"
+      },
+      "registerButton": "团队注册",
+      "registerBy": {
+        "label": "注册截止",
+        "value": "9 月 11 日"
+      },
+      "registerToast": {
+        "msg": "团队注册表单正在加载。",
+        "title": "团队注册"
+      },
+      "teamSize": "每组最多 5 人",
+      "title": "1405 年全国医生 AI 黑客松"
+    },
+    "hero": {
+      "demoNote": "本页的竞赛和奖金列表为演示用｜实际注册尚未开通",
+      "eyebrow": "竞赛",
+      "lead": "12 个进行中的竞赛 · 总奖金 24 亿斯拉因 · 为伐出者提供就业机会",
+      "title": "黑客松与竞赛"
+    },
+    "others": {
+      "title": "其他竞赛"
+    },
+    "screenLabel": "43 竞赛"
+  },
+  "honorCode": {
+    "screenLabel": "44 学术规范"
+  },
+  "registration": {
+    "actions": {
+      "add": "添加",
+      "full": "已满",
+      "remove": "移除"
+    },
+    "aiHint": {
+      "body": "根据您的学位路径和以往表现，我建议您选择「强化学习」以推进研究进度。",
+      "label": "AI 建议"
+    },
+    "cart": {
+      "courseCount": "课程数",
+      "limits": "曵季学期最少 9 学分 · 最多 24 学分",
+      "submit": "确认注册",
+      "title": "注册车",
+      "totalCredits": "总学分"
+    },
+    "confirm": {
+      "body": "将注册 {courses, number} 门课程，共计 {credits, number} 学分。确认后，可在学期前两周内进行加退选（Add/Drop）。",
+      "confirmLabel": "最终确认",
+      "title": "确认选课注册",
+      "toast": {
+        "msg": "您的夏季学期课程计划已确定。",
+        "title": "注册已确认"
+      }
+    },
+    "course": {
+      "capacity": "容量：{enrolled, number} / {capacity, number}",
+      "credits": "{n, number} 学分",
+      "prereq": "先修课程：{code}"
+    },
+    "courses": {
+      "cs580": {
+        "day": "周日 14:00",
+        "prof": "M. Kiani",
+        "title": "可扩展系统架构"
+      },
+      "cs650": {
+        "day": "周一 16:00",
+        "prof": "Azimi 博士",
+        "title": "强化学习"
+      },
+      "cs720": {
+        "day": "周二 10:00",
+        "prof": "Taheri 博士",
+        "title": "可解释人工智能"
+      },
+      "mgmt410": {
+        "day": "周四 10:00",
+        "prof": "Razavi 博士",
+        "title": "创新与创业"
+      },
+      "res601": {
+        "day": "灵活",
+        "prof": "指导教师",
+        "title": "毕业论文开题报告"
+      },
+      "stat540": {
+        "day": "周三 14:00",
+        "prof": "Farhadi 博士",
+        "title": "非参数统计"
+      }
+    },
+    "filters": {
+      "all": "全部",
+      "ariaLabel": "筛选课程",
+      "elective": "选修",
+      "major": "专业",
+      "noConflict": "无冲突",
+      "open": "有余额",
+      "required": "必修"
+    },
+    "hero": {
+      "eyebrow": "1405年夏季学期注册",
+      "lead": "注册窗口：9月5日至20日 · 加退选（Add/Drop）期限：学期前2周",
+      "title": "选课"
+    },
+    "screenLabel": "38 注册"
+  },
+  "sectionInstructor": {
+    "assign": {
+      "close": "关闭",
+      "empty": "未找到教师。请先从“教师”板块添加。",
+      "load": "负荷：{n} 门课",
+      "none": "无教师（取消分配）",
+      "subtitle": "{title} · {group} 组",
+      "title": "分配教师"
+    },
+    "capacity": "容量 {enrolled}/{capacity}",
+    "cta": {
+      "assign": "分配教师",
+      "assistants": "助教",
+      "change": "更换教师"
+    },
+    "day": {
+      "fri": "周五",
+      "mon": "周一",
+      "sat": "周六",
+      "sun": "周日",
+      "thu": "周四",
+      "tue": "周二",
+      "wed": "周三"
+    },
+    "emptySections": "本学期暂无排课。请先从“课程安排”中创建班级。",
+    "errGeneric": "发生错误",
+    "eyebrow": "教学 · 分配教师",
+    "filter": {
+      "all": "全部",
+      "assigned": "已分配",
+      "unassigned": "未分配"
+    },
+    "help": {
+      "body": "请先选择学期。每一行代表一个“班级”（某门课程的一个教学班）；点击“分配/更换”并选择教师。每位教师的教学负担（班级数）将显示在其姓名旁边。班级可在“课程安排/分班”中创建；此处仅用于分配教师。通过“助教”功能，你可以为班级添加一名或多名助教（TA）。助教可以访问学生名单和班级分析，并能够以草稿形式录入成绩，但最终提交成绩的权限仅限授课教师。",
+      "title": "教师分配指南"
+    },
+    "instructorFallback": "教师",
+    "kpi": {
+      "assigned": "已分配",
+      "instructors": "教师",
+      "sections": "班级",
+      "unassigned": "未分配"
+    },
+    "lead": "为学期中的每个课程班级选择负责教师。",
+    "loading": "加载中…",
+    "noSchedule": "暂无排课时间",
+    "rank": {
+      "ASSISTANT": "助理教授",
+      "ASSOCIATE": "副教授",
+      "EMERITUS": "荣誉退休教授",
+      "FULL": "正教授"
+    },
+    "sectionMeta": "({code} · 第 {group} 组 · {credits} 学分)",
+    "ta": {
+      "add": "+ 添加助教…",
+      "close": "关闭",
+      "dialogLabel": "管理助教",
+      "empty": "该班级暂未指定助教。",
+      "loading": "加载中…",
+      "note1": "助教可以访问本班级的学生名单和分析数据，并能够以",
+      "note2": "形式录入成绩。最终提交（确认）成绩的权限仅属于授课教师。",
+      "noteDraft": "草稿",
+      "pickerTitle": "选择助教",
+      "remove": "删除",
+      "removeAria": "删除助教 {name}",
+      "retry": "重试",
+      "subtitle": "{title} · 组 {group}",
+      "title": "助教"
+    },
+    "termCurrent": " （当前）",
+    "title": "为班级分配教师",
+    "toast": {
+      "assignFailed": "分配失败"
+    },
+    "unassigned": "未分配"
+  },
+  "transcript": {
+    "actions": {
+      "pdf": "官方 PDF",
+      "verify": "数字验证"
+    },
+    "download": {
+      "toast": {
+        "msg": "成绩单 PDF 文件已准备就绪。",
+        "title": "正在下载"
+      }
+    },
+    "help": {
+      "body": "此页面按学期和课程显示您的官方成绩单。若要获取官方版本，请点击“官方 PDF”；若要进行有效验证，请点击“数字验证”。",
+      "title": "成绩单指南"
+    },
+    "hero": {
+      "eyebrow": "官方成绩单",
+      "lead": "纳斯琳·礼萨维 · 学号 84-02-17 · 数据科学硕士 · 第 2 学期",
+      "title": "正式成绩单"
+    },
+    "screenLabel": "36 份成绩单",
+    "semester": {
+      "creditsLabel": "学分"
+    },
+    "summary": {
+      "current": {
+        "label": "当前学分",
+        "value": "18"
+      },
+      "earned": {
+        "label": "已获得学分",
+        "value": "48 / 120"
+      },
+      "gpa": {
+        "label": "总 GPA",
+        "value": "3.82"
+      },
+      "level": {
+        "label": "级别",
+        "value": "硕士"
+      },
+      "standing": {
+        "label": "状态",
+        "value": "优秀"
+      }
+    },
+    "table": {
+      "code": "代码",
+      "credits": "学分",
+      "grade": "等级",
+      "professor": "教师",
+      "score": "分数",
+      "title": "课程名称"
+    }
+  },
+  "wellness": {
+    "crisis": {
+      "toast": {
+        "msg": "客服人员将尽快与您联系。",
+        "title": "危机热线已激活"
+      }
+    },
+    "hero": {
+      "eyebrow": "学生健康",
+      "lead": "求学之路自有其压力。我们始终在你身边——心理咨询、压力管理、艰难日子里的智能伙伴。所有内容均绝对保密。",
+      "title": "身心健康"
+    },
+    "resources": {
+      "items": {
+        "examAnxiety": "考试焦虑管理指南",
+        "facultyTalk": "如何与导师进行建设性沟通",
+        "mindfulness": "5分钟正念练习",
+        "pomodoro": "专注力番茄工作法",
+        "sleep": "大学生健康睡眠",
+        "workLifeBalance": "学业与生活平衡管理"
+      },
+      "title": "资源",
+      "toastMsg": "教育资源已添加至您的个人归档中。"
+    },
+    "screenLabel": "41 健康",
+    "services": {
+      "ai": {
+        "cta": "开始对话",
+        "desc": "与经过培训的 AI 进行保密对话",
+        "title": "24/7 AI 伴侣"
+      },
+      "crisis": {
+        "cta": "紧急呼叫",
+        "desc": "如果你正处于危机状况",
+        "title": "24/7 危机求助热线"
+      },
+      "individual": {
+        "cta": "预约会话",
+        "desc": "与心理咨询师进行保密会话",
+        "title": "个人咨询"
+      },
+      "peer": {
+        "cta": "加入小组",
+        "desc": "在安全空间中与同龄人交流",
+        "title": "同辈互助小组"
+      },
+      "selfCheck": {
+        "cta": "开始测试",
+        "desc": "PHQ-9、GAD-7、压力",
+        "title": "自我评估测试"
+      },
+      "timeSleep": {
+        "cta": "制定计划",
+        "desc": "工具与习惯养成",
+        "title": "时间与睡眠管理"
+      }
+    }
+  }
+}

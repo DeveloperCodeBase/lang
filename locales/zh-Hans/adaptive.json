@@ -1,0 +1,259 @@
+{
+  "common": {
+    "close": "关闭",
+    "minutes": "≈ {n, number} 分钟",
+    "number": "{n, number}",
+    "percent": "{n, number}%"
+  },
+  "difficulty": {
+    "all": "全部",
+    "easy": "简单",
+    "hard": "困难",
+    "medium": "中等",
+    "title": "难度"
+  },
+  "help": {
+    "body": "这曵是您的个性化学习路线：打开模块，查看技能与掌握程度，并跟随接下来的建议。通过“学习节奏”和难度筛选器，按意愿排序建议。",
+    "title": "学习路线指南"
+  },
+  "hero": {
+    "eyebrow": "学习路线",
+    "lead": "{name} 的个性化学习路线 — {program}。打开模块，跟踪技能，并根据您的学习节奏安排接下来的建议。",
+    "title": "自适应学习路线"
+  },
+  "learner": {
+    "name": "内加·鲁斯提（Negar Rostami）",
+    "program": "计算机工程学士"
+  },
+  "milestones": {
+    "items": {
+      "ms1": {
+        "date": "1404/02/18",
+        "title": "完成编程基础"
+      },
+      "ms2": {
+        "date": "1404/03/05",
+        "title": "首次达成 7 天学习打卡"
+      },
+      "ms3": {
+        "date": "1404/03/22",
+        "title": "数据结构掌握度达到 50%"
+      },
+      "ms4": {
+        "title": "数握数掮库模块"
+      },
+      "ms5": {
+        "title": "完全掌握算法设计"
+      }
+    },
+    "notReached": "尚未达到",
+    "reached": "已达到 · {date}",
+    "title": "里程碑"
+  },
+  "moduleDialog": {
+    "done": "该模块已完成",
+    "eyebrow": "学习模块",
+    "locked": "该模块仍处于锁定状态。",
+    "objectives": "学习目标",
+    "resourceMeta": "{label} · ≈ {min, number} 分钟",
+    "resources": "资源"
+  },
+  "modules": {
+    "algo": {
+      "desc": "排序、搜索、贪心算法与动态规划",
+      "objectives": {
+        "o1": "使用大 O 记号分析时间复杂度",
+        "o2": "实现归并排序和快速排序",
+        "o3": "识别可用贪心算法解决的问题",
+        "o4": "使用动态规划 (DP) 解决问题"
+      },
+      "resources": {
+        "r1": "DP 简介视频",
+        "r2": "复杂度分析讲义",
+        "r3": "排序练习",
+        "r4": "贪心算法小测验"
+      },
+      "subskills": {
+        "s1": "排序算法",
+        "s2": "贪心法",
+        "s3": "动态规划"
+      },
+      "title": "算法设计"
+    },
+    "completed": "你已完成本模块",
+    "db": {
+      "desc": "关系模型、SQL、规范化与事务",
+      "objectives": {
+        "o1": "编写带 JOIN 和分组的 SQL 查询",
+        "o2": "模式设计与第三范式规范化",
+        "o3": "理解事务与 ACID 特性",
+        "o4": "通过索引优化查询"
+      },
+      "resources": {
+        "r1": "SQL 基础视频",
+        "r2": "规范化讲义",
+        "r3": "高级查询练习",
+        "r4": "事务小测验"
+      },
+      "subskills": {
+        "s1": "SQL 查询",
+        "s2": "规范化",
+        "s3": "事务与加锁"
+      },
+      "title": "数据库"
+    },
+    "detailsButton": "模块详情",
+    "ds": {
+      "desc": "数组、链表、栈、队列、树与图",
+      "objectives": {
+        "o1": "为每个问题选择合适的数据结构",
+        "o2": "实现链表及其基本操作",
+        "o3": "遍历二叉搜索树（BST）",
+        "o4": "在图上执行 BFS 和 DFS"
+      },
+      "resources": {
+        "r1": "链表逐步解析视频",
+        "r2": "搜索树讲义",
+        "r3": "图遍历练习",
+        "r4": "栈与队列小测验"
+      },
+      "subskills": {
+        "s1": "数组与字符串",
+        "s2": "链表",
+        "s3": "二叉搜索树",
+        "s4": "图遍历（BFS/DFS）"
+      },
+      "title": "数据结构"
+    },
+    "foundations": {
+      "desc": "变量、循环、函数与控制结构",
+      "objectives": {
+        "o1": "定义和使用变量及基本数据类型",
+        "o2": "无误编写循环和条件语句",
+        "o3": "构建具有明确输入输出的函数",
+        "o4": "理解递归并追踪调用栈"
+      },
+      "resources": {
+        "r1": "数据类型复习视频",
+        "r2": "函数与作用域讲义",
+        "r3": "嵌套循环练习",
+        "r4": "递归小测验"
+      },
+      "subskills": {
+        "s1": "变量与数据类型",
+        "s2": "循环与条件",
+        "s3": "函数与变量作用域",
+        "s4": "递归 (Recursion)"
+      },
+      "title": "编程基础"
+    },
+    "lockedHint": "本模块将在“算法设计”掌握度达到 70% 后解锁。",
+    "markComplete": "标记为已完成",
+    "title": "模块地图"
+  },
+  "overview": {
+    "done": {
+      "label": "{started, plural, other {已完成项 · 进行中 #}}"
+    },
+    "progress": {
+      "modules": "已完成 {done, number} / {total, number} 个模块",
+      "title": "学习路径进度"
+    },
+    "streak": {
+      "dayUnit": "天",
+      "label": "当前连续打卡"
+    },
+    "weekly": {
+      "label": "本周目标",
+      "minutes": "{done, number}/{goal, number} 分钟",
+      "ofGoal": "占每周目标的 {pct, number}%"
+    }
+  },
+  "pace": {
+    "balanced": "适中",
+    "desc": "根据你的偏好速度安排推荐顺序。",
+    "intense": "紧凑",
+    "relaxed": "舒缓",
+    "title": "学习节奏"
+  },
+  "recDialog": {
+    "eyebrow": "学习推荐",
+    "markDone": "标记为已完成",
+    "start": "开始此项",
+    "why": "为什么是现在？"
+  },
+  "recs": {
+    "actions": {
+      "details": "详情",
+      "done": "已完成",
+      "start": "开始",
+      "undo": "撤销"
+    },
+    "count": "{n, number} 项",
+    "empty": "当前难度下暂无推荐 — 请更改筛选条件。",
+    "items": {
+      "r1": {
+        "title": "图遍历练习 (BFS/DFS)",
+        "why": "你当前最薄弱的技能 — 解锁“算法设计”所需"
+      },
+      "r2": {
+        "title": "动态规划简介",
+        "why": "贪心算法之后的逻辑延续"
+      },
+      "r3": {
+        "title": "排序算法复习",
+        "why": "在进入更难的主题之前巩固知识"
+      },
+      "r4": {
+        "title": "二叉搜索树",
+        "why": "图遍历的前置条件"
+      },
+      "r5": {
+        "title": "链表练习",
+        "why": "为了实现对该模块的完全掌握"
+      },
+      "r6": {
+        "title": "递归游戏",
+        "why": "快速热身"
+      }
+    },
+    "next": {
+      "eyebrow": "为您推荐的下一步",
+      "meta": "{module} · 约 {min, number} 分钟"
+    },
+    "state": {
+      "done": "已完成",
+      "started": "进行中"
+    },
+    "title": "下一步推荐"
+  },
+  "resource": {
+    "exercise": "练习",
+    "quiz": "测验",
+    "reading": "阅读",
+    "video": "视频"
+  },
+  "ring": {
+    "label": "总掌握度"
+  },
+  "skills": {
+    "count": "{n, number} 个技能",
+    "empty": "未找到符合该搜索的技能。",
+    "practiceMinutes": "约 {n, number} 分钟练习",
+    "search": {
+      "ariaLabel": "搜索技能",
+      "clear": "清除搜索",
+      "placeholder": "搜索技能或模块…"
+    }
+  },
+  "status": {
+    "active": "学习中",
+    "done": "已完成",
+    "locked": "已锁定"
+  },
+  "tabs": {
+    "ariaLabel": "学习路径视图",
+    "path": "我的路径",
+    "skills": "技能"
+  }
+}

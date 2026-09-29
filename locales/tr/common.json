@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "İptal",
+    "close": "Kapat",
+    "confirm": "Onayla",
+    "save": "Kaydet",
+    "search": "Ara",
+    "select": "Seç"
+  },
+  "help": {
+    "toggle": "Yardım",
+    "close": "Yardımı kapat"
+  },
+  "state": {
+    "empty": "Gösterilecek öğe yok.",
+    "error": "Bir hata oluştu.",
+    "loading": "Yükleniyor…",
+    "noResults": "Sonuç bulunamadı."
+  },
+  "time": {
+    "justNow": "Az önce"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Yaklaşan etkinlikler",
+      "full": "Takvimin tamamı",
+      "empty": "Önümüzdeki {days, number} gün içinde etkinlik yok",
+      "error": "Etkinlikler yüklenemedi",
+      "today": "Bugün",
+      "allDay": "Tüm gün"
+    },
+    "type": {
+      "meeting": "Ders",
+      "exam": "Sınav",
+      "assignment": "Ödev",
+      "term": "Yarıyıl dönemi",
+      "event": "Etkinlik",
+      "personal": "Kişisel"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Bu sayfada bir hata oluştu",
+      "body": "Üzgünüz — bir sorun oluştu. Bu hata otomatik olarak kaydedildi. Ana sayfaya dönebilir veya sayfayı yeniden yükleyebilirsiniz.",
+      "home": "Ana sayfaya dön",
+      "reload": "Yeniden yükle"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Önceki sayfaya dön",
+    "body": "Aradığınız adres mevcut değil veya taşınmış. Önceki sayfaya ya da ana sayfaya dönebilirsiniz.",
+    "home": "Ana sayfaya dön",
+    "programs": "Eğitim programlarını görüntüle",
+    "screenLabel": "404 · Bulunamadı",
+    "search": "Ara",
+    "title": "Sayfa bulunamadı"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Bunu benimle paylaştığın için çok teşekkür ederim. Anlatmanın kolay olmadığını biliyorum ve yalnız değilsin. Hissettiklerin gerçek ve önemli; bir insandan hemen destek almayı hak ediyorsun. Lütfen şimdi 1480 Umut Hattı'nı ara; seni şefkatle dinleyecek biri var.",
+      "tipHelpline": "Umut Hattı'nı hemen ara: 1480 (7/24 ve gizli)",
+      "tipEmergency": "Acil bir tehlike altındaysan 115 acil sağlık hattını ara",
+      "tipCompany": "Mümkünse şu anda güvendiğin birinin yanında ol"
+    }
+  }
+}

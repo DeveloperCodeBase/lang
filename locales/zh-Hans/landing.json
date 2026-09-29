@@ -1,0 +1,1557 @@
+{
+  "home": {
+    "head": {
+      "title": "配备人工智能助教、直播课程与权威证书的大学",
+      "description": "{brand}：针对每门课程的 AI 助手、带字幕的直播课、来自顶尖大学的 94 位名师，以及可核验的数字证书。"
+    },
+    "topbar": {
+      "registrationBadge": "1405年秋季学期注册现已开始",
+      "supportBadge": "24/7 支持"
+    },
+    "nav": {
+      "ariaLabel": "首页主导航",
+      "closeMenu": "关闭菜单",
+      "openMenu": "打开菜单",
+      "about": "关于我们",
+      "programs": "院系",
+      "login": "登录",
+      "applyFree": "免费注册",
+      "drawerAriaLabel": "导航菜单"
+    },
+    "hero": {
+      "stats": {
+        "faculties": {
+          "unit": "学院",
+          "label": "工程 · 医学 · 基础科学 · AI · 管理 · 人文 · 艺术 · 法律"
+        },
+        "programs": {
+          "unit": "个项目",
+          "label": "从大专到博士，基于两部委官方数据"
+        },
+        "instructors": {
+          "unit": "名讲师",
+          "label": "来自伊朗及全球顶尖高校"
+        },
+        "students": {
+          "unit": " 名学生",
+          "label": "在线可验证证书"
+        }
+      },
+      "title": "您的职业成长之路：从能力评估到权威认证",
+      "subtitle": "基于多智能体架构的首个智能学习平台（ILP）——从大专到博士的官方学位项目，配备专属智能助手与可验证证书。"
+    },
+    "cta": {
+      "primary": "免费开始",
+      "secondary": "立即体验智能助手",
+      "dashboard": "我的仪表盘"
+    },
+    "finalCta": {
+      "title": "今天就免费开始",
+      "ariaLabel": "开始",
+      "lead": "免费入门计划 — 无需绑定银行卡，无任何隐形承诺。",
+      "apply": "申请录取"
+    },
+    "agentSystem": {
+      "eyebrow": "智能助手架构",
+      "titleLine1": "与其使用单一聊天机器人，",
+      "titleHighlight": "一个教学团队",
+      "lead": "每门课程都有一个独立的 Agent 图。五个专业智能体各司其职，拥有各自的角色、边界、允许的资源和评估标准。教授全程监督一切。",
+      "roles": {
+        "tutor": "导师",
+        "coach": "教练",
+        "critic": "批评者",
+        "mentor": "导师",
+        "grader": "评分员",
+        "human": "讲师"
+      },
+      "pillar1": {
+        "num": "01 / 学习引擎",
+        "title": "五大智能体，一个目标：真正掌握",
+        "desc": "讲解者、启发式导师、评论家、长期导师与评估者 —— 各司其职，尽在教师掌控之中。"
+      },
+      "pillar2": {
+        "num": "02 / 认知画像",
+        "title": "每个学生，一张动态图谱",
+        "desc": "既有知识、学习速度、已掌握与模糊的概念、互动风格以及流失风险 —— 全面实时更新。"
+      },
+      "pillar3": {
+        "num": "03 / 掌握度",
+        "title": "以证据通关，而非出勤",
+        "desc": "每项活动都与学习目标挂钩。可自定义掌握度阈值。系统精准知晓何处需要更多练习。"
+      },
+      "pillar4": {
+        "num": "04 / 实时课堂",
+        "title": "WebRTC · LL-HLS · 智能录制",
+        "desc": "从小型互动课堂到千人网络研讨会。录制、语音转文本、说话者识别、自动分段 —— 标准配置，应有尽有。"
+      },
+      "pillar5": {
+        "num": "05 / AI 治理",
+        "title": "关键节点引入 Human-in-the-loop",
+        "desc": "未经人工审核，任何成绩都不会最终确定。每个 AI 回答均附带来源与智能体签名。"
+      }
+    },
+    "knowledgeGraph": {
+      "eyebrow": "知识图谱",
+      "titleLine1": "每节课都是一个",
+      "titleHighlight": "概念网络",
+      "titleSuffix": "是",
+      "lead": "当学生在某个概念上遇到困难时，系统能够智能判断需要复习哪些前置知识、提供哪些补偿性练习，以及展示课堂视频的哪个片段。",
+      "features": {
+        "hybridRetrieval": {
+          "title": "混合检索",
+          "desc": "BM25 + 稠密嵌入，实现语义搜索"
+        },
+        "secondJump": {
+          "title": "精确跳秒",
+          "desc": "搜索结果直达视频精确秒数"
+        },
+        "conceptExtraction": {
+          "title": "概念提取",
+          "desc": "授课过程中实时进行 NER 与歧义分析"
+        },
+        "remediationPath": {
+          "title": "补偿路径",
+          "desc": "基于认知画像自动推荐"
+        }
+      },
+      "nodes": {
+        "ml": "机器学习",
+        "supervised": "监督学习",
+        "unsupervised": "无监督学习",
+        "reinforcement": "强化学习",
+        "regression": "回归",
+        "svm": "支持向量机",
+        "neuralNet": "神经网络",
+        "clustering": "聚类",
+        "qLearning": "Q-learning"
+      }
+    },
+    "architecture": {
+      "eyebrow": "平台架构",
+      "titlePrefix": "架构",
+      "titleHighlight": "五层",
+      "titleComma": "，",
+      "titleSuffix": "云原生且可自主托管",
+      "lead": "从面向小型机构的 SaaS 到面向敏感实体的私有云和本地部署。服务各自独立，服务皆可替换。"
+    },
+    "courses": {
+      "eyebrow": "课程目录",
+      "title": "与你共同成长的课程",
+      "viewAllButton": "所有课程",
+      "cardAriaLabel": "由 {by} 授课的课程 {title}",
+      "byPrefix": "讲师：{by}",
+      "weeksUnit": "周",
+      "modulesUnit": "模块",
+      "studentsUnit": "名学生",
+      "items": {
+        "mlFoundations": {
+          "title": "机器学习基础",
+          "by": "阿齐米博士",
+          "desc": "从回归到深度网络，侧重直觉与应用。"
+        },
+        "scalableSystems": {
+          "title": "可扩展系统架构",
+          "by": "基亚尼工程师",
+          "desc": "微服务、Kafka、Kubernetes —— 包含实操项目。"
+        },
+        "dataProductDesign": {
+          "title": "数据驱动产品设计",
+          "by": "拉扎维博士",
+          "desc": "指标、实验、直觉与决策框架。"
+        },
+        "advancedNlp": {
+          "title": "高级自然语言处理",
+          "by": "穆萨维博士",
+          "desc": "Transformer、RAG、LLM 评估与实现。"
+        },
+        "aiEthics": {
+          "title": "AI 伦理",
+          "by": "塔赫里博士",
+          "desc": "偏见、能动性、数据治理与监管框架。"
+        },
+        "appliedBayesianStats": {
+          "title": "应用贝叶斯统计",
+          "by": "法尔哈迪博士",
+          "desc": "从贝叶斯定理到 MCMC，结合真实案例。"
+        }
+      }
+    },
+    "standards": {
+      "heading": "建立在世界各大学所采用的标准之上"
+    },
+    "platformTour": {
+      "eyebrow": "平台导览 · 20页",
+      "title": "每个角色，一个独立的工作环境",
+      "lead": "学生、教师、教学设计师、管理员 —— 各自拥有专属工具。尽在同一个平台。",
+      "items": {
+        "classroom": {
+          "title": "直播课堂",
+          "desc": "WebRTC + AI Tutor + 波斯语转写"
+        },
+        "labs": {
+          "title": "虚拟实验室",
+          "desc": "3D 解剖、RL Gym、CAD、Jupyter GPU"
+        },
+        "schools": {
+          "title": "学院与学位",
+          "desc": "8所学院 · 248个项目 · 5个学位层次"
+        },
+        "research": {
+          "title": "博士研究环境",
+          "desc": "路线图、论文、研究小组"
+        },
+        "dashboard": {
+          "title": "学生工作台",
+          "desc": "认知档案 · sparkline"
+        },
+        "course": {
+          "title": "课程页面",
+          "desc": "模块地图，侧边 AI Tutor"
+        },
+        "search": {
+          "title": "语义搜索",
+          "desc": "BM25 + dense + RAG"
+        },
+        "calendar": {
+          "title": "教务日历",
+          "desc": "周/月视图 · Google 同步"
+        },
+        "library": {
+          "title": "数字图书馆",
+          "desc": "1284 个资源，语义搜索"
+        },
+        "assessment": {
+          "title": "测验与评估",
+          "desc": "14 种题型 + 人工监督"
+        },
+        "community": {
+          "title": "学习社区",
+          "desc": "论坛 + AI 聚类"
+        },
+        "recordings": {
+          "title": "课堂回放",
+          "desc": "视频 + 文稿 + 自动测验"
+        },
+        "instructor": {
+          "title": "教师控制台",
+          "desc": "课堂健康度 + AI 审阅"
+        },
+        "authoring": {
+          "title": "制作工作室",
+          "desc": "AI Course Planner"
+        },
+        "analytics": {
+          "title": "机构分析",
+          "desc": "Cohort, heatmap, early warning"
+        },
+        "admin": {
+          "title": "管理后台",
+          "desc": "KPI、AI 治理、用户管理"
+        },
+        "parent": {
+          "title": "家长门户",
+          "desc": "孩子进度 + 与教师沟通"
+        },
+        "officehours": {
+          "title": "Office Hours",
+          "desc": "预约教师答疑时间"
+        },
+        "events": {
+          "title": "活动与网络研讨会",
+          "desc": "会议、工作坊、特邀讲座"
+        },
+        "faculty": {
+          "title": "教职员工",
+          "desc": "8 个学院共 94 位教师"
+        },
+        "help": {
+          "title": "支持中心",
+          "desc": "指南、FAQ、7x24 聊天"
+        },
+        "pricing": {
+          "title": "方案与定价",
+          "desc": "免费版、学生版、专业版、企业版"
+        },
+        "credential": {
+          "title": "数字证书",
+          "desc": "Open Badges 3.0 + VC"
+        },
+        "about": {
+          "title": "关于我们",
+          "desc": "使命、原则、团队"
+        }
+      }
+    },
+    "institutionalCta": {
+      "eyebrow": "开始使用",
+      "title": "建立一所永不闭校的大学",
+      "lead": "在不到 30 天内，通过在线直播、智能录制、自适应测验与数字证书，开设您的第一个在线学期。",
+      "demoButton": "申请机构演示",
+      "proposalButton": "下载方案",
+      "milestones": {
+        "mvp": {
+          "title": "30天完成MVP",
+          "sub": "首个可运行的在线课程"
+        },
+        "fullTerm": {
+          "title": "90天完整学期",
+          "sub": "所有大学服务就绪"
+        },
+        "nationalScale": {
+          "title": "6个月实现全国规模",
+          "sub": "多租户，99.9% SLA"
+        }
+      }
+    },
+    "faculty": {
+      "eyebrow": "合作名师",
+      "titlePrefix": "与",
+      "titleHighlight": "顶尖人才",
+      "titleSuffix": "同行。",
+      "lead": "来自谢里夫理工大学、德黑兰大学、阿米尔卡比尔理工大学等全国知名学府的300多位教授以及行业资深专家，共同参与我们课程的设计与教学。",
+      "members": {
+        "hosseini": {
+          "name": "赛义德·穆罕默德·侯赛尼 博士",
+          "role": "谢里夫理工大学副教授",
+          "field": "人工智能与机器学习"
+        },
+        "karimi": {
+          "name": "扎赫拉·卡里米 博士",
+          "role": "德黑兰大学教授",
+          "field": "数据科学与应用统计学"
+        },
+        "mozafari": {
+          "name": "阿里雷扎·莫扎法里 博士",
+          "role": "阿米尔卡比尔理工大学助理教授",
+          "field": "软件与系统工程"
+        },
+        "bagheri": {
+          "name": "玛丽亚姆·巴盖里 博士",
+          "role": "高级人工智能研究员",
+          "field": "数字商业管理"
+        },
+        "taheri": {
+          "name": "阿米尔·塔赫里 博士",
+          "role": "伊朗科技大学教职人员",
+          "field": "计算机视觉与机器人学"
+        },
+        "moradi": {
+          "name": "娜斯琳·莫拉迪 博士",
+          "role": "阿尔宰赫拉大学教职人员",
+          "field": "用户体验设计"
+        },
+        "asadi": {
+          "name": "卡姆兰·阿萨迪 博士",
+          "role": "基础科学研究所研究员",
+          "field": "波斯语自然语言处理"
+        },
+        "nasiri": {
+          "name": "法特梅·纳西里 博士",
+          "role": "马什哈德菲尔多西大学助理教授",
+          "field": "工业工程与优化"
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "在校生评价",
+      "titleHighlight": "真实体验",
+      "titleSuffix": "我们的学生。",
+      "lead": "我们的课程毕业生目前在各大科技公司、研究机构和数字业务领域工作。他们的声音是我们衡量学习质量的标准。",
+      "items": {
+        "hosseinRezaei": {
+          "body": "大学智能化的学习环境让我在全职工作的同时，以超乎预期的质量完成了全栈开发课程。毕业六个月后，我便在一家大公司担任开发人员。",
+          "name": "侯赛因·礼萨伊",
+          "role": "软件工程师，全栈开发课程毕业生",
+          "initials": "ح.ر"
+        },
+        "negarSafari": {
+          "body": "导师的全程支持和全天候的内容访问，带来了与普通在线教育完全不同的体验。真正拉开差距的是导师的专业水准以及那些留在我职业生涯履历中的真实项目。",
+          "name": "内加尔·萨法里",
+          "role": "数据科学专家，数字MBA毕业生",
+          "initials": "内.萨"
+        },
+        "fatemehAhmadi": {
+          "body": "作为两个孩子的母亲，要抽出时间参加线下培训是不可能的。这个平台让我能够在不冷落家庭的情况下，将UX设计水平提升到能够在家进行专业工作的程度。",
+          "name": "法蒂玛·艾哈迈迪",
+          "role": "UX 设计师，设计课程毕业生",
+          "initials": "法·阿"
+        }
+      }
+    },
+    "partners": {
+      "eyebrow": "合作机构与合作大学",
+      "titlePrefix": "在",
+      "titleHighlight": "权威机构网络",
+      "titleSuffix": "高等教育",
+      "lead": "与国内重点高校、国家级研究院所以及国际教育网络深度合作——这是内容质量与证书权威性的坚实保障。",
+      "groups": {
+        "universities": "国内重点大学",
+        "institutes": "科研机构与国家单位",
+        "international": "国际合作"
+      },
+      "univ": {
+        "ut": {
+          "name": "德黑兰大学",
+          "sub": "德黑兰大学 · 1293",
+          "mark": "德黑兰大学"
+        },
+        "sharif": {
+          "name": "谢里夫理工大学",
+          "sub": "谢里夫理工大学 · 1965年",
+          "mark": "谢里夫"
+        },
+        "amirkabir": {
+          "name": "阿米尔卡比尔",
+          "sub": "AUT · 1337",
+          "mark": "阿米尔卡比尔大学"
+        },
+        "iust": {
+          "name": "伊朗科技大学",
+          "sub": "IUST · 1308",
+          "mark": "伊大"
+        },
+        "sbu": {
+          "name": "沙希德·贝赫什提大学",
+          "sub": "SBU · 1338",
+          "mark": "B"
+        },
+        "kntu": {
+          "name": "kntu大学",
+          "sub": "KNTU · 1307",
+          "mark": "K"
+        },
+        "atu": {
+          "name": "阿拉姆·塔巴塔巴伊大学",
+          "sub": "ATU · 1362",
+          "mark": "A"
+        },
+        "tmu": {
+          "name": "德比亚特莫达里斯大学",
+          "sub": "TMU · 1360",
+          "mark": "T"
+        }
+      },
+      "institute": {
+        "msrt": {
+          "name": "科学研究与技术部",
+          "sub": "MSRT · 高等教育机构",
+          "mark": "科"
+        },
+        "ipm": {
+          "name": "基础科学研究所",
+          "sub": "IPM",
+          "mark": "基"
+        },
+        "bmn": {
+          "name": "国家精英基金会",
+          "sub": "BMN",
+          "mark": "精"
+        },
+        "inif": {
+          "name": "创新与繁荣基金",
+          "sub": "INIF",
+          "mark": "创"
+        },
+        "mict": {
+          "name": "信息通信技术部",
+          "sub": "MICT",
+          "mark": "信"
+        }
+      }
+    },
+    "masteryRing": {
+      "currentLabel": "当前掌握度",
+      "goalsProgress": "已达成 9 个目标中的 7 个"
+    },
+    "hero3d": {
+      "classroom": {
+        "title": "直播课堂 · 第 8 节",
+        "meta": "42 人出席",
+        "ariaLabel": "直播课堂视图 — 屏幕共享、参与者视频和实时字幕栏的象征性插图",
+        "caption": "……我们就在这里用较小的学习率检查收敛条件",
+        "label": "直播课堂视图",
+        "foot": {
+          "attendance": "45 人中 42 人出席",
+          "captions": "波斯语字幕",
+          "recording": "正在录制"
+        },
+        "tiles": {
+          "t1": {
+            "initial": "萨"
+          },
+          "t2": {
+            "initial": "穆"
+          },
+          "t3": {
+            "initial": "雷"
+          },
+          "t4": {
+            "initial": "纳"
+          }
+        }
+      },
+      "tutor": {
+        "title": "助教",
+        "userAvatar": "我",
+        "userQuestion": "为什么梯度下降法会收敛？",
+        "answer": "如果学习率小于 1/L，代价函数将在每一步减小，序列将收敛。",
+        "sourceLabel": "第 5 讲 · 第 22:14 分钟",
+        "confidence": "置信度 92%",
+        "answerAvatar": "教"
+      },
+      "analytics": {
+        "title": "课堂健康度",
+        "meta": "实时",
+        "note": "智能体建议：进行 5 分钟的“时间复杂度”复习",
+        "metrics": {
+          "engagement": "互动率",
+          "comprehension": "概念理解",
+          "pace": "授课速度",
+          "ambiguity": "残留疑问"
+        }
+      },
+      "credential": {
+        "title": "数字证书",
+        "meta": "可验证",
+        "kicker": "已认证掌握",
+        "programTitle": "深度学习",
+        "verify": "可在 {domain} 上验证"
+      }
+    },
+    "statsBand": {
+      "ariaLabel": "大学数据",
+      "faculties": "学院",
+      "programs": "学术项目",
+      "instructors": "讲师",
+      "students": "学生"
+    },
+    "catalogTeaser": {
+      "ariaLabel": "精选课程",
+      "eyebrow": "特色课程",
+      "titlePrefix": "来自",
+      "titleHighlight": "在校学生的推荐",
+      "lead": "本学期访问量最高六门课程。每门课程均可完全验证，并附带 Open Badges 3.0 证书。",
+      "weeksUnit": "周",
+      "viewAllButton": "全部 248 个项目",
+      "items": {
+        "mlFoundations": {
+          "title": "机器学习基础",
+          "by": "阿齐米博士",
+          "desc": "从回归到深度网络。"
+        },
+        "scalableSystems": {
+          "title": "可扩展系统架构",
+          "by": "基亚尼工程师",
+          "desc": "微服务 · Kafka · Kubernetes。"
+        },
+        "dataProductDesign": {
+          "title": "数据驱动的产品设计",
+          "by": "拉扎维博士",
+          "desc": "指标与 A/B 测试。"
+        },
+        "advancedNlp": {
+          "title": "高级自然语言处理 (NLP)",
+          "by": "穆萨维博士",
+          "desc": "Transformer、RAG、大语言模型 (LLM) 评估。"
+        },
+        "aiEthics": {
+          "title": "人工智能伦理",
+          "by": "塔赫里博士",
+          "desc": "偏见、自主性与数据治理。"
+        },
+        "appliedBayesianStats": {
+          "title": "应用贝叶斯统计",
+          "by": "法尔哈迪博士",
+          "desc": "从贝叶斯定理到 MCMC。"
+        }
+      }
+    },
+    "trustStrip": {
+      "ariaLabel": "合作机构",
+      "eyebrow": "合作机构与大学",
+      "partners": {
+        "msa": {
+          "glyph": "M"
+        },
+        "ut": {
+          "glyph": "乌特"
+        },
+        "sharif": {
+          "glyph": "谢"
+        },
+        "khu": {
+          "glyph": "Kh"
+        },
+        "iut": {
+          "glyph": "一"
+        },
+        "amir": {
+          "glyph": "米"
+        }
+      }
+    },
+    "facultyShowcase": {
+      "ariaLabel": "教师展示",
+      "eyebrow": "师资风采",
+      "titlePrefix": "来自",
+      "titleHighlight": "顶尖大学",
+      "lead": "94名来自谢里夫理工大学、德黑兰大学、伊朗科技大学、阿米尔卡比尔理工大学和赫瓦雷米大学的教职员工——与来自麻省理工学院、斯坦福大学和苏黎世联邦理工学院的国际同行齐聚一堂。",
+      "viewAllButton": "查看所有教师",
+      "people": {
+        "azimi": {
+          "initials": "阿.",
+          "name": "塞皮德·阿齐米博士",
+          "affiliation": "谢里夫理工大学",
+          "bio": "机器学习 · 18年教学经验"
+        },
+        "kiani": {
+          "initials": "M. K.",
+          "name": "阿拉什·基亚尼工程师",
+          "affiliation": "德黑兰",
+          "bio": "可扩展系统架构 · 12年行业经验"
+        },
+        "razavi": {
+          "initials": "拉",
+          "name": "梅赫诺什·拉萨维 博士",
+          "affiliation": "伊朗科技大学",
+          "bio": "数据驱动产品设计 · 谷歌高级研究员"
+        },
+        "mousavi": {
+          "initials": "穆",
+          "name": "巴克·穆萨维博士",
+          "affiliation": "阿米尔卡比尔",
+          "bio": "自然语言处理 · 4本书的作者"
+        },
+        "taheri": {
+          "initials": "塔",
+          "name": "法特梅·塔赫里博士",
+          "affiliation": "Kharazmi",
+          "bio": "AI Ethics and Governance"
+        },
+        "farhadi": {
+          "initials": "贝·法",
+          "name": "贝赫纳姆·法哈迪 博士",
+          "affiliation": "伊斯法罕工业大学",
+          "bio": "应用贝叶斯统计 · 20年研究经验"
+        }
+      }
+    },
+    "alumniVoices": {
+      "ariaLabel": "学员评价",
+      "eyebrow": "毕业生",
+      "titlePrefix": "听听在这里",
+      "titleHighlight": "成就梦想的人",
+      "lead": "来自学生、毕业生和家长的三个简短故事——讲述他们为什么留在这里。",
+      "ctaStart": "免费开始",
+      "ctaPrograms": "查看课程",
+      "people": {
+        "nasrinRazavi": {
+          "initials": "娜·拉",
+          "name": "纳斯林·拉扎维",
+          "role": "学生 · 伊斯法罕工业大学 · CS-410 毕业生",
+          "quote": "我从大一就开始使用这个平台。直播课、虚拟实验室和 AI 助教结合在一起，创造了我从未体验过的学习经历。"
+        },
+        "aliJavadi": {
+          "initials": "阿·贾",
+          "name": "阿里·贾瓦迪",
+          "role": "高级软件工程师 · Snapp · CS-580 毕业生",
+          "quote": "我把获得的 Open Badges 证书放到了 LinkedIn 上，然后收到了三个录用通知。这个平台的含金量与普通的在线课程截然不同。"
+        },
+        "mahsaKiani": {
+          "initials": "玛·基",
+          "name": "玛莎·基亚尼",
+          "role": "家长 · 高中二年级学生家长",
+          "quote": "我一直在关注家长专区。不用应付上百个不同的聊天软件，所有的成绩、出勤情况和老师的消息都能在一处看到。"
+        }
+      }
+    },
+    "trustBar": {
+      "ariaLabel": "信任标志",
+      "lead": "基于科学部与卫生部的官方数据构建",
+      "badges": {
+        "ministry": "基于两部官方大纲",
+        "credential": "支持在线验证的证书",
+        "selfHosted": "国内自主托管基础设施"
+      }
+    },
+    "problemSolution": {
+      "ariaLabel": "痛点与解决方案",
+      "eyebrow": "为什么选择这里？",
+      "title": "孤军奋战难以为继",
+      "lead": "课堂拥挤、教师难寻、练习石沉大海。这里与众不同。",
+      "beforeTitle": "缺乏陪伴",
+      "afterTitle": "使用 {brand}",
+      "problems": {
+        "crowded": "课堂拥挤，没人顾及你的提问",
+        "hours": "教师仅在办公时间在线",
+        "feedback": "做完了练习，却得不到反馈"
+      },
+      "solutions": {
+        "assistant": "24小时专属每门课程的智能助手",
+        "socratic": "循序渐进的苏格拉底式启发，全天候在线",
+        "feedback": "即时练习反馈 + 导师持续跟进"
+      }
+    },
+    "platformArch": {
+      "eyebrow": "平台架构",
+      "title": "这个平台到底是什么？",
+      "concepts": {
+        "ilp": {
+          "title": "智能学习平台",
+          "body": "新一代教育系统中最精确、最常用的称呼。在此架构中，“培训运营管理”（TMS）与“内容管理”（LMS）之间的界限被打破，AI 不再是一个插件，而是核心：它分析所有数据，为每位学习者扮演私人导师（Tutor）的角色，为每位管理者扮演规划者的角色。"
+        },
+        "tip": {
+          "title": "智能人才平台",
+          "body": "当系统汇聚并分析组织各个领域的数据——绩效、项目、技能、履历和培训时，它便从“培训”迈向了“人才发展”：智能体可预测组织未来所需的技能，并自动构建培训计划与职业路径。"
+        },
+        "mas": {
+          "title": "基于 AI 的学习生态系统",
+          "body": "从软件架构的角度来看，多个智能体同时处理不同的数据（多智能体系统）。其成果是一个集成的生态系统，而非拼凑在一起的几个独立工具。"
+        }
+      },
+      "tableCaption": "系统的四层架构——从运营基础设施到直接用户交互",
+      "tableHead": {
+        "layer": "平台层",
+        "tool": "负责工具",
+        "duty": "主要职责"
+      },
+      "layers": {
+        "infra": {
+          "name": "基础设施与运营层",
+          "toolFa": "运营与内容",
+          "duty": "维护培训内容、记录档案、预订面授课程、分配预算和颁发证书。"
+        },
+        "analytics": {
+          "name": "分析与推断层",
+          "toolFa": "数据分析",
+          "duty": "处理大数据（Big Data）、发现隐藏模式、识别组织技能缺口并衡量投资回报率（ROI）。"
+        },
+        "agents": {
+          "name": "行动与自动化层",
+          "toolFa": "智能体",
+          "duty": "自主执行流程；例如，智能体发现某个团队存在技能短板，便自动规划合适的课程。"
+        },
+        "assistants": {
+          "name": "交互与支持层",
+          "toolFa": "助手",
+          "duty": "与用户直接交互；助手既能同时教授复杂概念，又能处理注册等行政事务。"
+        }
+      },
+      "closing": {
+        "prefix": "简而言之，{brand} 是一个",
+        "ilp": "智能学习平台（ILP）",
+        "middle": "，它建立在",
+        "mas": "多智能体 AI 架构（Multi-Agent AI）",
+        "suffix": "之上，被视为当今企业教育领域的前沿技术（Cutting-edge）。"
+      },
+      "governance": "在所有这些层级中，决定性决策（如最终成绩、阶段晋升和开除）绝不会自动敲定；每一个 AI 输出都会附带来源、置信度和“需要人工审核”的标志。"
+    },
+    "journey": {
+      "ariaLabel": "学习之旅",
+      "eyebrow": "工作原理",
+      "title": "从注册到毕业，只需五步",
+      "steps": {
+        "register": {
+          "title": "注册",
+          "desc": "只需几分钟，无需银行卡"
+        },
+        "program": {
+          "title": "选择专业",
+          "desc": "来自部委的官方项目"
+        },
+        "live": {
+          "title": "直播课",
+          "desc": "配有字幕和自动录制"
+        },
+        "assistant": {
+          "title": "智能助手",
+          "desc": "练习、觕错、导师"
+        },
+        "degree": {
+          "title": "学位",
+          "desc": "在线可验证"
+        }
+      }
+    },
+    "programsExplorer": {
+      "ariaLabel": "学院与项目",
+      "eyebrow": "正式项目",
+      "title": "{faculties} 个学院，{programs} 个正式项目",
+      "lead": "从大专到博士，基于科研与教育部门的官方数据构建；并包含基于卫生部门的医学阶段性项目。",
+      "filterAriaLabel": "学历筛选",
+      "all": "全部",
+      "levels": {
+        "certificate": "大专/证书",
+        "associate": "大专",
+        "bachelor": "学士",
+        "master": "硕士",
+        "professional_doctorate": "专业博士",
+        "phd": "博士"
+      },
+      "loading": "项目加载中…",
+      "empty": "完整项目列表可在学院页面中查看。",
+      "cta": "所有学院与项目"
+    },
+    "liveClass": {
+      "ariaLabel": "直播课",
+      "device": {
+        "session": "第 {n} 节课 · 数据结构",
+        "slideTab": "时间复杂度 — 归并排序",
+        "teacherInitial": "雨",
+        "teacherName": "阿米尼博士 · 讲师",
+        "captionTag": "实时字幕",
+        "captionText": "现在我们来一起计算这个算法的复杂度…",
+        "attendees": {
+          "a1": {
+            "initial": "斯",
+            "name": "莲娜"
+          },
+          "a2": {
+            "initial": "迪",
+            "name": "迈迪"
+          },
+          "a3": {
+            "initial": "雷",
+            "name": "雷奥"
+          },
+          "a4": {
+            "initial": "尼",
+            "name": "尼鲁菲"
+          },
+          "a5": {
+            "initial": "卡",
+            "name": "卡维"
+          },
+          "a6": {
+            "initial": "海",
+            "name": "海斯特"
+          }
+        }
+      },
+      "eyebrow": "直播课 · 自建服务",
+      "title": "带字幕与实时翻译的直播课",
+      "lead": "基于 WebRTC 架设的自有基础设施直播课 — 无需依赖外部服务，支持字幕、实时翻译、录制与自动考勤。",
+      "benefits": {
+        "captions": "多语言实时字幕与翻译",
+        "recording": "自动录制 + 可搜索资料库",
+        "attendance": "根据规章制度自动考勤"
+      },
+      "cta": "了解直播课程"
+    },
+    "credentialVerify": {
+      "ariaLabel": "证书验证",
+      "eyebrow": "可验证证书",
+      "title": "任何人都可以随时在线核验真伪的证书",
+      "lead": "每张证书均附带一个验证链接；雇主可在几秒钟内确认其真实性——无需联系大学。",
+      "codeLabel": "证书编号",
+      "placeholder": "例如 DGU-7F3A-2026",
+      "submit": "查看示例",
+      "result": {
+        "prefix": "结果：",
+        "demoWord": "演示",
+        "suffix": "结果：“机器学习”证书 · 1405年颁发 · 有效 ✅ — 真实验证请前往证书页面操作。"
+      },
+      "cta": "关于数字证书"
+    },
+    "marketplace": {
+      "ariaLabel": "知识集市",
+      "eyebrow": "知识集市",
+      "title": "出售您的知识",
+      "lead": "在知识集市上发布您的课程；抽成比例合理（20% 至 30%）——钱包结算，透明可追踪。",
+      "becomeInstructor": "成为讲师",
+      "viewMarket": "浏览集市"
+    },
+    "featuresSection": {
+      "ariaLabel": "大学功能",
+      "eyebrow": "大学功能",
+      "title": "大学所需的一切，尽在一个平台",
+      "lead": "不仅是课程和课堂——还包括考核、会员、考试、财务、支持与基础设施，所有功能紧密相连。点击任意卡片即可查看完整介绍。",
+      "cta": "大学功能页面"
+    },
+    "faqSection": {
+      "ariaLabel": "常见问题",
+      "eyebrow": "常见问题与解答",
+      "title": "常见问题",
+      "items": {
+        "freeStart": {
+          "q": "我真的可以在没有银行卡的情况下免费开始使用吗？",
+          "a": "是的。“体验”套餐是免费的，且无需绑定银行卡——您可以访问公开课程并获得每月 30 条智能助手消息，随时准备升级。"
+        },
+        "verify": {
+          "q": "证书是如何进行验证的？",
+          "a": "每张证书都有一个专属的验证码和链接。雇主只需使用该链接，即可在线核实证书真伪，无需联系大学。"
+        },
+        "aiDiff": {
+          "q": "人工智能助手与普通聊天机器人有什么区别？",
+          "a": "我们的助手不会直接透露答案，而是采用苏格拉底式提问法，引导您一步步得出结论。它基于您课程的官方大纲，并有专属导师一路陪伴、跟进您的进度。"
+        },
+        "enrollment": {
+          "q": "选课和退换课流程是怎样的？",
+          "a": "就像一所真正的大学：设有教学日历、支持先修课与时间冲突检查的选课系统、规定期限内的退换课，以及官方成绩单——一切均符合科学部的规章制度。"
+        },
+        "liveOrRecorded": {
+          "q": "课程是直播还是录播？",
+          "a": "两者皆有。直播课程配有同声传译字幕，每节课的录像也将在课后立即存档供您随时查阅。"
+        }
+      }
+    },
+    "plans": {
+      "ariaLabel": "套餐与价格",
+      "eyebrow": "方案 · 投资学习",
+      "titleLine1": "你的 AI 助手 =",
+      "titleHighlight": "24 小时私人外教",
+      "lead": "对比一下真人外教的费用与 {brand} 的方案——从免费方案开始，无需绑定银行卡。",
+      "toggleAriaLabel": "计费周期",
+      "monthly": "按月",
+      "annual": "按年",
+      "annualBadge": "免费 2 个月",
+      "loading": "正在加载方案…",
+      "emptyText": "请在定价页面查看完整的方案表格。",
+      "emptyCta": "查看方案与价格",
+      "popular": "最受欢迎",
+      "contactPrice": "联系我们",
+      "free": "免费",
+      "perYear": "每年",
+      "perMonth": "每月",
+      "toman": "{amount} 土曼",
+      "quota": "每月 {amount} 条 AI 消息",
+      "quotaUnlimited": "自定义消息额度",
+      "ctaContact": "申请咨询",
+      "ctaFree": "免费开始",
+      "ctaSelect": "选择此方案",
+      "trust": {
+        "freeStart": "从免费方案开始 — 无需绑定银行卡",
+        "trial": "7 天免费试用",
+        "refund": "7 天退款保证",
+        "annual": "年付 = 免费 2 个月"
+      },
+      "channels": {
+        "in_platform": "站内",
+        "telegram": "Telegram",
+        "whatsapp": "WhatsApp",
+        "bale": "Bale",
+        "rubika": "Rubika",
+        "sms": "短信"
+      }
+    },
+    "aiDemo": {
+      "ariaLabel": "AI 助手演示",
+      "eyebrow": "智能助手 · 实时演示",
+      "titleLine1": "你的助手不会直接给你答案 —",
+      "titleHighlight": "而是引导你找到答案",
+      "lead": "观看与助手的真实对话。与通用聊天机器人不同，该助手采用苏格拉底式教学法：通过提问与引导，带你一步步走向答案。",
+      "chipsAriaLabel": "选择助手",
+      "panelAriaLabel": "与 {agent} 的示例对话",
+      "studentAvatar": "我",
+      "note": "这曯一份模拟的本地对话——实际版本在注册后可用。",
+      "cta": "开始真实对话",
+      "agents": {
+        "exercise": {
+          "label": "苏格拉底习题训练",
+          "lines": {
+            "l1": "这个积分是什么？∫ x/(x²+1) dx",
+            "l2": "在回答之前，想想你能想到哪种方法——分部积分法还是换元法？",
+            "l3": "换元法？",
+            "l4": "很棒。如果把 u 设为分母，du 是什么？现在请自己用 du 重写分子……",
+            "l5": "du = 2x dx …… 所以分子是 du 的一半！",
+            "l6": "没错✅ 现在请自己写出简化后的积分；如果有哪里不懂，我们一起看下一步。"
+          }
+        },
+        "general": {
+          "label": "学习助手",
+          "lines": {
+            "l1": "我完全不懂导数。从哪里开始？",
+            "l2": "我们从一个具体的例子开始？汽车的速度计在每个瞬间显示的是什么？",
+            "l3": "当前时刻的速度。",
+            "l4": "就是这样！导数就是“瞬时变化率”。现在我为你准备了一个短版练习，订让你在图表上直观地理解这个概念。"
+          }
+        },
+        "field_specialist": {
+          "label": "专业领域专家",
+          "lines": {
+            "l1": "数据结构课，教育部的考纲会考什么？",
+            "l2": "该课程的官方考纲包含 5 个核心模块。根据你的成绩单，你在“平衡树”上较为薄弱——我们从那里开始吗？",
+            "l3": "好的。",
+            "l4": "很好；首先请说说 AVL 树与普通二叉搜索树的区别在哪里？提示：考虑一下高度……"
+          }
+        },
+        "career": {
+          "label": "职业导师",
+          "lines": {
+            "l1": "我的简历适合数据实习岗吗？",
+            "l2": "我看过你的概率与统计课程项目——为什么没有写入简历？请把具体的量化绕果告诉我，我们一起写一段有力的描述。",
+            "l3": "模型准确率提升了 12%。",
+            "l4": "太棒了！“在含有 2000 条记录的课程项目中，将预测模型的准确率提升 12%”——把这句话放在项目模块的顶部。"
+          }
+        },
+        "research": {
+          "label": "研究助手",
+          "lines": {
+            "l1": "我正在为毕业设计寻找关于联邦学习的论文。",
+            "l2": "在搜索之前：你的研究问题到底是什么？是“隐私保护”还是“通讯效率”？这个选择会改变桁键词。",
+            "l3": "隐私保护。",
+            "l4": "那么请从 differential privacy + federated learning 开始；我也会为你规划文献综述章节的推荐结构。"
+          }
+        },
+        "mentor": {
+          "label": "陪伴导师",
+          "lines": {
+            "l1": "这周我完全没学习，落后了。",
+            "l2": "沢关系；关键是要迈出追赶的步伐。还有 12 天就要考试了；如果每天花 40 分钟是完全来得及的。今晚先复习第 3 节，我明天跨进跟进。",
+            "l3": "我接受。今天晚上就开始。",
+            "l4": "就这么讦 ✅ 我已为你设置了提醒。每天的一小步比肯定苌水一战更有效。"
+          }
+        }
+      }
+    },
+    "archStack": {
+      "experienceSub": "网页 · 移动端 · 在线课堂 · 仪表盘"
+    }
+  },
+  "about": {
+    "head": {
+      "title": "关一我们 — 人工智能驱动大学的使命、原则与团队",
+      "description": "了解这座基于人工智能的在线大学的使命、指导原则、活动数据及创建团队——从所属组织到联系方式。"
+    },
+    "hero": {
+      "eyebrow": "关于我们",
+      "titleLine1": "懂你的",
+      "titleLine2": "大学",
+      "leadBefore": "我们不只是在制造一所使用 AI 工具的大学——我们正在构建一所",
+      "leadEmphasis": "从一开始就以 AI 作为学习基础设施",
+      "leadAfter": "设计而成的大学。这其中的差异，体现在方方面面。"
+    },
+    "ownership": {
+      "eyebrow": "构建者 · OWNERSHIP",
+      "rightsHolderBefore": "本平台是 ",
+      "rightsHolderAfter": " 的产品，其所有权及知识产权均归该公司所有。",
+      "vistaLink": "了解更多关于 Vista 的信息 ↩",
+      "orgSummary": " 是一家拥有 {experience} 的 {legalStatus}，其使命是“{mission}”，口号是“{slogan}”。该组织持有 {licenses}。",
+      "councils": "组织的专业活动由专门委员会统筹：{councils}。",
+      "platformIntro": "{nameFull} 是该使命的首次实践成果：一个 {platformKind}，完全本土化、以标准为导向（LTI 1.3、xAPI、QTI、Caliper），并随时准备在任何大学或教育机构中部署。",
+      "listAnd": "  和  ",
+      "listSeparator": "、"
+    },
+    "contact": {
+      "addressLabel": "地址",
+      "phoneLabel": "电话",
+      "emailLabel": "电子邮件",
+      "moreInfoBefore": "完整的联系方式请参见",
+      "contactLinkLabel": "联系我们页面",
+      "moreInfoAfter": "。"
+    },
+    "stats": {
+      "activeStudents": {
+        "value": "8,400+",
+        "label": "8个学院的活跃学生"
+      },
+      "facultyMembers": {
+        "value": "94",
+        "label": "来自顶尖大学的专家教授"
+      },
+      "learningEvents": {
+        "value": "2.4M+",
+        "label": "已记录的学习事件"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "服务可用性"
+      },
+      "credentials": {
+        "value": "238",
+        "label": "已颁发的验证凭证 (Verifiable Credential)"
+      },
+      "languages": {
+        "value": "12",
+        "label": "支持的语言"
+      }
+    },
+    "principles": {
+      "eyebrow": "原则",
+      "heading": "我们的指导原则",
+      "items": {
+        "aiNative": {
+          "title": "AI-Native, not AI-Added",
+          "desc": "人工智能是学习的基石，而非附加组件。"
+        },
+        "masteryOverCoverage": {
+          "title": "Mastery over Coverage",
+          "desc": "真正掌握目标，而非仅仅出席课程。"
+        },
+        "standardsFirst": {
+          "title": "Standards-First",
+          "desc": "LTI、xAPI、QTI、Open Badges — 基于标准，而非厂商锁定。"
+        },
+        "humanJudgment": {
+          "title": "Human Judgment in Critical Loops",
+          "desc": "每个关键决策都经过最终的人工审查。"
+        },
+        "privacyByDesign": {
+          "title": "Privacy by Design",
+          "desc": "默认即保护隐私，而非事后选项。"
+        },
+        "persianFirst": {
+          "title": "Persian-First, Global-Ready",
+          "desc": "波斯语优先、标准英语、支持多种语言。"
+        }
+      }
+    },
+    "team": {
+      "eyebrow": "团队",
+      "heading": "由研究人员、教学设计师和工程师组成的团队",
+      "description": "28位全职成员、12位学术顾问、94位网络讲师。背景多元，使命一致。",
+      "viewAllCta": "查看所有团队成员"
+    }
+  },
+  "faq": {
+    "head": {
+      "title": "常见问题 — 平台相关常见问题解答",
+      "description": "在此阅读关于本教育平台的入学、直播课、能力评估、凭证、会员资格、支付、考试、隐私和机构合作等常见问题的解答。"
+    },
+    "hero": {
+      "eyebrow": "常见问题",
+      "title": "我们最常被问到的问题",
+      "lead": "以下解答对应平台当前已上线的功能。如果您的问题未在此处列出，请通过“联系我们”页面咨询。"
+    },
+    "items": {
+      "platformOverview": {
+        "q": "这个平台究竟是什么？",
+        "a": "这是一个集教育与评估于一体的综合平台：从招生注册、直播课、考试，到能力评估、会员资格、知识市场、咨询以及学生财务管理 — 所有功能尽在一个账号与一条数据链中。"
+      },
+      "login": {
+        "q": "登录需要什么？",
+        "a": "手机号码。系统会通过短信发送一次性验证码，验证通过后即可登录。无需永久密码，且平台绝不会要求提供银行卡信息用于登录。"
+      },
+      "liveClass": {
+        "q": "直播课是如何进行的？需要安装软件吗？",
+        "a": "不需要。课程直接在浏览器内进行 — 包含视频、音频、屏幕共享、聊天和分组讨论室。课程结束后，会议报告和出勤记录将自动存入课程档案中。"
+      },
+      "assessmentCenter": {
+        "q": "能力评估中心的作用是什么？",
+        "a": "应试者完成一系列标准练习和测试，由几位独立评估员分别评分，并在评审会议上达成一致意见。结果将以结构化报告的形式发布。"
+      },
+      "aiFinalDecision": {
+        "q": "人工智能会决定我的评估结果或最终成绩吗？",
+        "a": "不会。人工智能的输出结果始终附带来源和置信度，仅起辅助作用。最终成绩、评估结果和纪律决定始终由负责任的人工最终确认。"
+      },
+      "credentialVerification": {
+        "q": "如何验证我获得的凭证？",
+        "a": "每个凭证都有一个唯一的代码。只需在平台的公共验证页面输入该代码，即可显示其名称、标题和有效状态。验证无需登录账号。"
+      },
+      "membershipVsEnrollment": {
+        "q": "会员资格与学生注册有什么区别？",
+        "a": "学生注册与特定的学习计划和学期绑定；而会员资格是一种独立的专业身份，包含会员卡、会员名录收录以及享受专业服务的权限。"
+      },
+      "payments": {
+        "q": "如何进行支付？",
+        "a": "所有金额均以当地货币计算。您可以直接通过银行网关支付，也可以为平台内置钱包充值并使用其余额。每笔交易的历史记录都可以在钱包中查看。"
+      },
+      "examProctoring": {
+        "q": "考试是如何组织和监督的？",
+        "a": "试题从题库中随机抽取并分发给每位应试者。违规迹象会被标记以供审查，但关于违规的决定由人工监考员而非系统做出。"
+      },
+      "counselingPrivacy": {
+        "q": "我的咨询和心理健康数据会与谁共享？",
+        "a": "除了负责该档案的顾问或评估员外，不会与任何人共享。此数据被视为敏感数据，进入这些板块需要您本人的明确同意；详细信息请参阅隐私政策页面。"
+      },
+      "organizations": {
+        "q": "机构和雇主也可以使用该平台吗？",
+        "a": "可以。机构可以拥有自己的专属空间，为其员工报名课程或评估，并查看这些人员的成绩。如需开始使用，请通过“联系我们”页面提交申请。"
+      },
+      "support": {
+        "q": "如果遇到问题，应该去哪里跟进？",
+        "a": "如果您已登录账号，“服务前台”是最快的途径：可提交请求并获取跟踪编号。如果您还没有账号，请通过“联系我们”页面与我们取得联系。"
+      }
+    },
+    "alsoSee": {
+      "features": "平台功能",
+      "contact": "联系我们",
+      "privacy": "隐私政策",
+      "terms": "条款与规则"
+    }
+  },
+  "programs": {
+    "head": {
+      "title": "学支项目 —— 专业与大学课程",
+      "description": "按学历阶段（本科、硕士、博士、专业学位）查看大学专业与课程的完整列表；每个项目都提供时长、学分、语言以及直播或录播课程说明。"
+    },
+    "levels": {
+      "ms": "硕士",
+      "phd": "博士",
+      "bs": "本科",
+      "md": "M.D",
+      "cert": "专业",
+      "as": "大专"
+    },
+    "card": {
+      "credits": "{count, plural, other {# 学分}}"
+    },
+    "hero": {
+      "eyebrow": "ACADEMIC PROGRAMS · 2026",
+      "titleLine1": "六大路径，",
+      "titleLine2": "一所大学",
+      "lead": "从正式硕士到密集型训练营。全部配备直播课程、认知画像以及可验证的数字证书。"
+    },
+    "filters": {
+      "all": "全部"
+    },
+    "help": {
+      "title": "学支项目指南",
+      "body": "此页面展示了大学的所有专业与课程。您可以使用上方的按钮按学历阶段（本科、硕士、博士等）进行筛选，并点击任何卡片查看该项目的课程与详情。"
+    },
+    "list": {
+      "heading": "提供的项目"
+    },
+    "modes": {
+      "eyebrow": "学习模式",
+      "heading": "一个平台，四种学习模式",
+      "items": {
+        "liveSynchronous": {
+          "title": "Live Synchronous",
+          "desc": "双向直播课、分组会议室（breakout room）、实时测验",
+          "latency": "延迟 < 200ms"
+        },
+        "recorded": {
+          "title": "Recorded · self-paced",
+          "desc": "带有智能章节与语义检索的录播视频",
+          "latency": "any-time"
+        },
+        "blended": {
+          "title": "Blended cohort",
+          "desc": "结合直播与自学，并伴有共同的学习社群（cohort）与同行评审（peer-review）",
+          "latency": "weekly"
+        },
+        "project": {
+          "title": "Project · mastery",
+          "desc": "无期末考试。结业项目与清晰的评分标准（rubric）",
+          "latency": "outcome-driven"
+        }
+      }
+    }
+  },
+  "pricing": {
+    "head": {
+      "title": "计划与价格 —— 大学订阅费率透明",
+      "description": "查诂大学订阅计划，了解本地货币价格、智能助手功能、直播课程、数字证书并全面对比各项功能，选择最适合您的计划。"
+    },
+    "compare": {
+      "tierLabel": {
+        "basic": "基础版",
+        "smart": "智能版",
+        "advanced": "高级版",
+        "custom": "定制版"
+      },
+      "channelsOnlyPlatform": "仅平台",
+      "channelsAllPlusSms": "全部 + 短信",
+      "channelsCount": "{count, plural, other {# 个通信渠道}}",
+      "quotaCustom": "定制",
+      "quotaCount": "{count, plural, other {# 条消息}}",
+      "rows": {
+        "quota": "每月 AI 消息",
+        "tier": "AI 模型质量",
+        "specialist": "专属智能体",
+        "mentor": "AI 导师",
+        "translate": "实时翻译",
+        "cert": "结业证书",
+        "channels": "通信渠道"
+      },
+      "heading": "方案对比",
+      "featuresHeader": "功能特性"
+    },
+    "periodLabel": {
+      "month": "按月",
+      "term": "按学期",
+      "year": "按年",
+      "once": "一次性"
+    },
+    "triggers": {
+      "trial": "7 天免费试用（无需绑定银行卡）",
+      "refund": "7 天退款保证",
+      "annual": "年付 = 赠送 2 个月",
+      "discount": "学生与团队优惠"
+    },
+    "cta": {
+      "contactSales": "联系销售",
+      "staffBlocked": "仅限学生",
+      "currentPlan": "您的当前方案",
+      "upgrade": "升级至此方案",
+      "downgrade": "降级至此方案",
+      "switch": "切换至此方案",
+      "choosePlan": "选择方案"
+    },
+    "errors": {
+      "loadFailed": "加载方案失败"
+    },
+    "hero": {
+      "eyebrow": "PRICING · 透明且公平",
+      "titleLine1": "选择适合您的",
+      "titleLine2": "理想方案",
+      "lead": "价格清晰透明，包含智能助手、直播课堂、录播回放及数字证书。"
+    },
+    "help": {
+      "title": "方案指南",
+      "body": "每个方案均提供明确的功能与定价。“最受欢迎”方案适合大多数学生。企业方案将根据您的需求量身定制 — 请点击“联系我们”。"
+    },
+    "currentPlanBanner": {
+      "label": "您的当前方案：",
+      "note": "— 如需升级、降级、续费或取消，请选择所需方案。"
+    },
+    "states": {
+      "loading": "正在加载方案…",
+      "empty": "暂无可用方案。"
+    },
+    "card": {
+      "popularBadge": "最受欢迎",
+      "priceContact": "请联系我们",
+      "priceFree": "免费",
+      "currency": "里亚尔",
+      "annualPrefix": "或按年付",
+      "annualFreeMonths": "免 2 个月",
+      "staffBlockedTooltip": "此套餐专门针对学生；您的角色有单独的通道"
+    }
+  },
+  "catalog": {
+    "competency-assessment-center": {
+      "title": "胜任力评估中心",
+      "tagline": "通过真实演练、人工评估与标准化报告进行胜任力评估"
+    },
+    "candidate-assessment-journey": {
+      "title": "候选人评估之旅",
+      "tagline": "候选人可清晰查看自己的路线：下一步演练、截止日期与结果报告"
+    },
+    "assessor-console": {
+      "title": "评估员控制台",
+      "tagline": "包含指标、证据和行为记录的评估员评分队列"
+    },
+    "washup-consensus-session": {
+      "title": "复盘共识会议",
+      "tagline": "评估员面对面消除评分分歧并录入最终得分"
+    },
+    "assessment-report-publish": {
+      "title": "报告与结果发布",
+      "tagline": "包含指标图表与发展建议的胜任力报告，随时准备交付"
+    },
+    "shared-competency-core": {
+      "title": "胜任力核心共享库",
+      "tagline": "供教学、评估和人力资源部门共同引用的统一胜任力词汇表"
+    },
+    "assessment-tool-registry": {
+      "title": "评估工具注册表",
+      "tagline": "列出评估工具的方法说明、效度及解读方式"
+    },
+    "psychometric-test-bank": {
+      "title": "九大标准心理测验工具",
+      "tagline": "具备自动评分与保密解读功能的标准心理测验"
+    },
+    "individual-development-plan": {
+      "title": "个人发展计划",
+      "tagline": "将胜任力差距转化为限期行动计划 —— 各组织专属定制"
+    },
+    "employer-portal": {
+      "title": "雇主门户",
+      "tagline": "雇主可在获得个人授权后查看其候选人评估结果 —— 各组织专属定制"
+    },
+    "membership-registry": {
+      "title": "会员与会员卡",
+      "tagline": "分级会员身份，配有数字会员卡与专属权益"
+    },
+    "member-directory": {
+      "title": "会员名录",
+      "tagline": "按专业领域和会员级别搜索会员"
+    },
+    "expertise-card": {
+      "title": "专业卡",
+      "tagline": "带有唯一查询码的纸质与数字专业卡"
+    },
+    "credential-registry-verify": {
+      "title": "数字凭证与查询",
+      "tagline": "颁发数字证书并通过唯一代码进行公开验证"
+    },
+    "live-class": {
+      "title": "互动直播课",
+      "tagline": "支持共享白板、分组讨论室和自动录制的直播课"
+    },
+    "session-report-attendance": {
+      "title": "会议报告与考勤",
+      "tagline": "自动考勤、停留时长以及会议内容摘要"
+    },
+    "exam-assessment-engine": {
+      "title": "考试与评估系统",
+      "tagline": "支持随机排版、自动保存和批改的限时考试"
+    },
+    "question-bank": {
+      "title": "题库与随机抽题",
+      "tagline": "标签化题库，为每位学生生成不同的考试"
+    },
+    "proctoring-review": {
+      "title": "人工在环考试监控",
+      "tagline": "可疑考试色彩会送达人工监控员，而韞非自动判决"
+    },
+    "academic-sis": {
+      "title": "学术链与教学管理系统",
+      "tagline": "从选课、退补课到成绩单与毕业路径"
+    },
+    "regulation-policy-engine": {
+      "title": "部门规则引擎",
+      "tagline": "教学规章转化为可执行规则，而韞非纸面文本"
+    },
+    "gradebook-grade-flow": {
+      "title": "成绩再与正式成绩流程",
+      "tagline": "成绩登记、复试、审核与最终锁定，并完整记录更改识别"
+    },
+    "admissions-apply": {
+      "title": "学生招生与注册",
+      "tagline": "在线在线申请入学，支持文档上传与分阶段跟踪"
+    },
+    "wallet-payments": {
+      "title": "钱包与法币支付",
+      "tagline": "用于学费、市场与退款的内置钱包"
+    },
+    "tuition-finance": {
+      "title": "学费与学生财务",
+      "tagline": "学费计算、分期付款、折扣与学生结算"
+    },
+    "subscription-plans": {
+      "title": "订阅计划",
+      "tagline": "具有明确限额与权益的个人及机构订阅计划"
+    },
+    "knowledge-marketplace": {
+      "title": "知识市场",
+      "tagline": "对等课程；人人都可以分享自己的知识"
+    },
+    "course-studio": {
+      "title": "课程制作工作室",
+      "tagline": "创建大纲、上传课程、定价与发布课程"
+    },
+    "media-pipeline-captions": {
+      "title": "媒体管道与字幕",
+      "tagline": "视频上传后进行处理并生成字幕"
+    },
+    "author-payouts": {
+      "title": "作者支付与结算",
+      "tagline": "每笔销售的作者分成、账单与提现申请"
+    },
+    "wellness-counseling": {
+      "title": "心理健康与咨询",
+      "tagline": "机密咨询预约、案件跟踪与关键求助通道"
+    },
+    "ai-assistant-agents": {
+      "title": "一体化人工智能助手",
+      "tagline": "提供带有来源和置信度的回答的专业助手"
+    },
+    "academic-messenger-network": {
+      "title": "学术通讯与社区网络",
+      "tagline": "私聊、课程群组与官方通告频道，一站式满足"
+    },
+    "service-desk": {
+      "title": "服务台",
+      "tagline": "具有透明工作流与实时跟踪的行政服务申请"
+    },
+    "exec-dashboard": {
+      "title": "管理层监控仪表盘",
+      "tagline": "教学、财务、考试与系统健康状况的管理视图"
+    },
+    "multi-tenancy": {
+      "title": "多租户架构",
+      "tagline": "服务器级的组织数据隔离；带有示例数据的配置控制台"
+    },
+    "auth-security-hardening": {
+      "title": "认证与安全",
+      "tagline": "通过精确角色与双认证实现安全登录"
+    },
+    "sms-otp-verification": {
+      "title": "短信一次性密码与手机验证",
+      "tagline": "通过短时效短信验证码验证手机号"
+    },
+    "hr-hiring-payroll": {
+      "title": "招聘与人力资源",
+      "tagline": "从招聘启事与面试到合同、薪酬核定与工资条"
+    },
+    "course-hub-ia": {
+      "title": "课程中心",
+      "tagline": "一页掌握课程所有内容：资料、作业、课时、成绩"
+    },
+    "panel-analytics": {
+      "title": "面板分析与统计",
+      "tagline": "学习趋势、参与度与表现，每个数据皆可点击下钻"
+    },
+    "parent-portal": {
+      "title": "家长门户",
+      "tagline": "家长互联，实时查看成绩、出勤、日程与学费状态"
+    },
+    "org-portal": {
+      "title": "企业/机构门户",
+      "tagline": "机构统一管理批量注册、名额及员工报告"
+    },
+    "self-hosted-monitoring": {
+      "title": "自托管监控",
+      "tagline": "大学自有基础设施上的服务健康与资源消耗状况"
+    },
+    "audit-log": {
+      "title": "审计日志",
+      "tagline": "记录每次敏感变更的操作人、时间以及修改前后的数值"
+    },
+    "academic-calendar": {
+      "title": "校历与时间窗口",
+      "tagline": "选课、退补选、考试及各类活动的起止时间"
+    },
+    "brand-trust-seals": {
+      "title": "品牌与信任徽章",
+      "tagline": "全平台统一来源的品牌身份与官方标识"
+    },
+    "jalali-calendar-ui": {
+      "title": "全站波斯历（贾拉利历）",
+      "tagline": "所有日期均为波斯历，支持波斯数字与正确的从右向左布局"
+    }
+  },
+  "events": {
+    "eyebrow": "活动与网络研讨会",
+    "title": "活动与网络研讨会",
+    "lead": "特邀讲座、实操工作坊、学术会议、招生开放日。",
+    "demoNote": "活动列表当前为演示状态 — 尚未接入真实报名",
+    "filters": {
+      "all": "全部",
+      "webinar": "网络研讨会",
+      "workshop": "工作坊",
+      "conference": "会议",
+      "guestLecture": "特邀讲座",
+      "openDay": "开放日",
+      "thisWeek": "本周",
+      "thisMonth": "本月"
+    },
+    "featured": {
+      "badge": "精选活动",
+      "free": "免费",
+      "online": "线上",
+      "title": "教育领域大语言模型的未来 — 1405年度会议",
+      "lead": "来自伊朗及全球高校的40位演讲嘉宾。8场实操工作坊。与1200名活跃研究人员进行社交网络拓展。",
+      "dateLabel": "日期",
+      "dateValue": "1405年6月18日至20日",
+      "countdownLabel": "剩余时间",
+      "countdownValue": "{value, number} 天",
+      "registeredLabel": "已报名",
+      "registeredValue": "{value, number} 人",
+      "registerCta": "免费报名",
+      "registerToastTitle": "报名成功",
+      "registerToastMsg": "您已成功报名“教育领域的大语言模型 (LLMs in Education)”会议。",
+      "addToCalendarCta": "添加到日历",
+      "addToCalendarToast": "活动已添加到日历"
+    },
+    "card": {
+      "free": "免费",
+      "paid": "付费",
+      "attendees": "{value, number} 人",
+      "registerCta": "报名",
+      "registerAria": "报名参加 {title}",
+      "registerToastTitle": "报名成功",
+      "registerToastMsg": "已成功报名“{title}”。"
+    }
+  },
+  "shared": {
+    "translationBadge": {
+      "machine": "机器翻译",
+      "pending": "准备中",
+      "stale": "需要更新"
+    }
+  }
+}

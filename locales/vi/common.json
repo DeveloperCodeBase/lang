@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "confirm": "Xác nhận",
+    "save": "Lưu",
+    "search": "Tìm kiếm",
+    "select": "Chọn"
+  },
+  "help": {
+    "toggle": "Trợ giúp",
+    "close": "Đóng trợ giúp"
+  },
+  "state": {
+    "empty": "Không có mục nào để hiển thị.",
+    "error": "Đã xảy ra lỗi.",
+    "loading": "Đang tải…",
+    "noResults": "Không tìm thấy kết quả."
+  },
+  "time": {
+    "justNow": "Vừa xong"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Sắp tới",
+      "full": "Lịch đầy đủ",
+      "empty": "Không có sự kiện trong {days, number} ngày tới",
+      "error": "Không thể tải sự kiện",
+      "today": "Hôm nay",
+      "allDay": "Cả ngày"
+    },
+    "type": {
+      "meeting": "Lớp học",
+      "exam": "Kỳ thi",
+      "assignment": "Bài tập",
+      "term": "Thời gian học kỳ",
+      "event": "Sự kiện",
+      "personal": "Cá nhân"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Trang đã gặp lỗi",
+      "body": "Xin lỗi — đã xảy ra sự cố. Lỗi này đã được tự động ghi lại. Bạn có thể quay về trang chủ hoặc tải lại trang.",
+      "home": "Về trang chủ",
+      "reload": "Tải lại"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Quay lại trang trước",
+    "body": "Địa chỉ bạn tìm không tồn tại hoặc đã được chuyển đi. Bạn có thể quay lại trang trước hoặc về trang chủ.",
+    "home": "Về trang chủ",
+    "programs": "Xem chương trình đào tạo",
+    "screenLabel": "404 · Không tìm thấy",
+    "search": "Tìm kiếm",
+    "title": "Không tìm thấy trang"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Cảm ơn bạn đã chia sẻ điều này với tôi. Tôi biết nói ra không dễ dàng, và bạn không đơn độc. Những gì bạn đang cảm nhận là có thật và quan trọng; bạn xứng đáng nhận được sự hỗ trợ ngay lập tức từ một người. Hãy gọi Đường dây Hy vọng theo số 1480 ngay bây giờ; có người sẽ lắng nghe bạn một cách ân cần.",
+      "tipHelpline": "Gọi ngay Đường dây Hy vọng: 1480 (24/7 và bảo mật)",
+      "tipEmergency": "Nếu bạn đang gặp nguy hiểm tức thì, hãy gọi cấp cứu y tế theo số 115",
+      "tipCompany": "Nếu có thể, hãy ở bên một người mà bạn tin tưởng ngay lúc này"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "actions": {
+    "postJob": "+ Publier une offre d'emploi"
+  },
+  "appStatus": {
+    "accepted": "Acceptée",
+    "applied": "Candidature envoyée",
+    "rejected": "Refusée",
+    "reviewing": "En cours d'examen"
+  },
+  "applicants": {
+    "closeButton": "Fermer",
+    "empty": "Aucun candidat n'a encore postulé à cette offre.",
+    "eyebrow": "Candidats de l'offre",
+    "loading": "Chargement des candidats…",
+    "statusLabel": "Statut :"
+  },
+  "apply": {
+    "counter": "{current, number} / {max, number} caractères",
+    "employerPage": "Page de l'offre de l'employeur ↗",
+    "eyebrow": "Envoyer sa candidature",
+    "noteLabel": "Note d'Accompagnement (optionnelle)",
+    "notePlaceholder": "Pourquoi êtes-vous adapté(e) à ce poste ? Décrivez brièvement vos compétences et votre motivation…",
+    "submit": "Soumettre et envoyer la candidature",
+    "submitting": "Envoi en cours…"
+  },
+  "closeJob": {
+    "closing": "Fermeture en cours…",
+    "confirm": "Voulez-vous fermer « {title} » ? Une fois fermée, cette offre ne sera plus visible pour les étudiants et aucune nouvelle candidature ne sera acceptée.",
+    "submit": "Oui, fermer",
+    "title": "Fermer l'offre d'emploi"
+  },
+  "common": {
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "saving": "Enregistrement en cours…"
+  },
+  "cv": {
+    "completePercent": "{percent, number}% complet",
+    "createButton": "Créer un CV",
+    "defaultHolder": "Utilisateur",
+    "editButton": "Modifier le CV",
+    "empty": "Vous n'avez pas encore créé de CV. Commencez par « Créer un CV » pour permettre aux employeurs de mieux vous connaître.",
+    "loading": "Chargement du CV…",
+    "title": "Mon CV"
+  },
+  "cvEditor": {
+    "createTitle": "Créer un CV",
+    "editTitle": "Modifier le CV",
+    "educationOrgPlaceholder": "Université / Établissement",
+    "educationTitle": "Parcours académique",
+    "educationTitlePlaceholder": "Diplôme / Spécialité",
+    "experienceOrgPlaceholder": "Entreprise / Organisation",
+    "experienceTitle": "Expérience professionnelle / Stage",
+    "experienceTitlePlaceholder": "Poste / Titre",
+    "headlineLabel": "Titre professionnel (Headline)",
+    "headlinePlaceholder": "Ex. : Étudiant en génie logiciel · Passionné par le Front-end",
+    "save": "Enregistrer le CV",
+    "skillsLabel": "Compétences (séparées par des virgules)",
+    "skillsPlaceholder": "React, TypeScript, Git, Travail en équipe",
+    "summaryLabel": "À propos de moi",
+    "summaryPlaceholder": "Un résumé de vous-même, de vos objectifs et de vos points forts…"
+  },
+  "entry": {
+    "add": "+ Ajouter",
+    "detailPlaceholder": "Description (facultatif)",
+    "empty": "Aucun élément ajouté.",
+    "periodPlaceholder": "Période (ex. : 2023 - 2024)",
+    "remove": "Supprimer",
+    "removeLabel": "Supprimer l'élément"
+  },
+  "errors": {
+    "generic": "Une erreur s'est produite"
+  },
+  "help": {
+    "body": "Sur cette page, vous trouverez les offres d'emploi ouvertes que vous pouvez filtrer par type de collaboration ou par recherche. Cliquez sur « Postuler » sur n'importe quelle offre pour y postuler. Le statut de toutes vos candidatures s'affiche dans la section « Mes candidatures ». Complétez votre CV dans la carte « Mon CV ».",
+    "manager": " En tant que responsable des services professionnels, vous pouvez publier une nouvelle offre d'annonce avec « Publier une offre », la modifier ou la clôturer, ainsi qu'examiner les « Candidats » pour chaque offre et mettre à jour leur statut.",
+    "title": "Guide des services professionnels"
+  },
+  "jobForm": {
+    "applyUrlLabel": "Lien de l'offre d'emploi de l'employeur (facultatif)",
+    "companyLabel": "Entreprise / Organisation",
+    "createTitle": "Publier une offre d'emploi",
+    "descriptionLabel": "Description de l'offre",
+    "descriptionPlaceholder": "Description des tâches, compétences requises et conditions…",
+    "editTitle": "Modifier l'offre d'emploi",
+    "errors": {
+      "company": "Veuillez entrer le nom de l'entreprise / de l'organisation.",
+      "description": "Veuillez entrer la description de l'offre (au moins {min, number} caractères).",
+      "title": "Veuillez entrer le titre de l'offre (au moins {min, number} caractères)."
+    },
+    "locationLabel": "Lieu",
+    "locationPlaceholder": "Paris / Télétravail",
+    "publish": "Publier l'offre",
+    "saveChanges": "Enregistrer les modifications",
+    "tagLabel": "Étiquette (facultatif)",
+    "tagPlaceholder": "React / Données / Design",
+    "titleLabel": "Titre de l'offre",
+    "titlePlaceholder": "Ex. : Stagiaire en développement Front-end",
+    "typeLabel": "Type de collaboration"
+  },
+  "jobs": {
+    "applicants": "Candidats",
+    "applied": "✓ Candidature envoyée",
+    "apply": "Postuler",
+    "clearSearch": "Effacer",
+    "close": "Fermer",
+    "closed": "Clôturée",
+    "closedBadge": "Fermé",
+    "edit": "Modifier",
+    "empty": "Aucune offre ne correspond à ces filtres.",
+    "loading": "Chargement des offres…",
+    "resetFilters": "Réinitialiser les filtres",
+    "retry": "Réessayer",
+    "searchLabel": "Rechercher une offre d'emploi",
+    "searchPlaceholder": "Rechercher par titre, entreprise ou compétence…",
+    "title": "Offres d'emploi",
+    "typeFilterLabel": "Type de contrat"
+  },
+  "myApps": {
+    "empty": "Vous n'avez encore postulé à aucune offre.",
+    "loading": "Chargement…",
+    "title": "Mes candidatures"
+  },
+  "page": {
+    "eyebrow": "Services aux étudiants · Carrières",
+    "lead": "Recherchez des offres de stage et d'emploi, créez votre CV, postulez directement et suivez l'état de vos candidatures ici même.",
+    "title": "Services de carrière"
+  },
+  "stats": {
+    "myApplications": "{count, plural, one {# ma candidature} many {# mes candidatures} other {# mes candidatures}}",
+    "openJobs": "{count, plural, one {# offre ouverte} many {# offres ouvertes} other {# offres ouvertes}}"
+  },
+  "type": {
+    "all": "Tous",
+    "contract": "En contrat",
+    "full_time": "Temps plein",
+    "internship": "Stage",
+    "part_time": "Temps partiel"
+  }
+}

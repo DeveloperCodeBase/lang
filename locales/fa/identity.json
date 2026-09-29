@@ -1,0 +1,716 @@
+{
+  "login": {
+    "hero": {
+      "eyebrowText": "WELCOME BACK",
+      "eyebrowSubtext": "ورود",
+      "title": "خوش آمدید",
+      "subtitle": "با حساب خود وارد شوید. اگر هنوز ثبت‌نام نکرده‌اید، می‌توانید در کمتر از <b>۲ دقیقه</b> شروع کنید."
+    },
+    "aria": {
+      "search": "جستجو",
+      "languageToggle": "تغییر زبان (FA)"
+    },
+    "toast": {
+      "searchDisabled": "جستجو در حالت نمونه فعال نیست",
+      "languageDisplay": "زبان نمایش: فارسی",
+      "loginSuccess": "با موفقیت وارد شدید — در حال انتقال…",
+      "passwordCorrectNeed2fa": "رمز درست است — کد تأیید دومرحله‌ای را وارد کنید.",
+      "demoFilled": "ایمیل «{role}» پر شد — رمز عبور را وارد کرده و «ورود» را بزنید"
+    },
+    "demoPicker": {
+      "title": "ورود سریع با حساب نمونه",
+      "groupAriaLabel": "حساب‌های نمونه بر اساس نقش",
+      "hint": "با کلیک روی هر نقش، فقط ایمیل آن حساب پر می‌شود؛ سپس رمز عبور را وارد کرده و «ورود به حساب» را بزنید."
+    },
+    "demoRoles": {
+      "student": "دانشجو",
+      "instructor": "استاد",
+      "ta": "دستیار آموزشی",
+      "faculty_admin": "ریاست دانشکده",
+      "admin": "ریاست دانشگاه",
+      "super_admin": "راهبر سامانه",
+      "content_manager": "مدیر محتوا",
+      "finance_manager": "مدیر مالی",
+      "support": "پشتیبانی",
+      "membership_operator": "اپراتور عضویت",
+      "membership_manager": "مدیر برنامهٔ عضویت",
+      "assessor": "ارزیاب",
+      "assessment_manager": "مدیر کانونِ ارزیابی",
+      "moderator": "ناظر",
+      "counselor": "مشاور دانشگاه",
+      "parent": "والد",
+      "org": "سازمان"
+    },
+    "tenant": {
+      "label": "شناسه سازمان / TENANT",
+      "hint": "اختیاری برای دانشجوی عمومی",
+      "toggleShow": "ورود به‌عنوان کاربرِ سازمانی؟ (شناسهٔ سازمان)"
+    },
+    "email": {
+      "label": "ایمیل یا نام کاربری"
+    },
+    "password": {
+      "label": "رمز عبور",
+      "forgotLink": "فراموش کرده‌اید؟",
+      "showAria": "نمایش رمز",
+      "hideAria": "مخفی‌سازی رمز"
+    },
+    "remember": {
+      "label": "مرا به خاطر بسپار"
+    },
+    "twofa": {
+      "label": "احراز دو‌مرحله‌ای فعال",
+      "hint": "پس از ورود، کد ۶ رقمی به ایمیل/پیامک شما ارسال می‌شود."
+    },
+    "lockout": {
+      "message": "حساب به‌دلیل تلاش‌های ناموفقِ پیاپی موقتاً قفل شده است — {countdown} تا تلاش دوباره."
+    },
+    "submit": {
+      "default": "ورود به حساب",
+      "pending": "در حال ورود …"
+    },
+    "divider": {
+      "orText": "یا · OR"
+    },
+    "sso": {
+      "google": {
+        "label": "گوگل",
+        "toast": "Google SSO — به‌زودی"
+      },
+      "national": {
+        "label": "درگاه ملی",
+        "toast": "ورود از درگاه ملی — به‌زودی"
+      },
+      "org": {
+        "label": "سازمان",
+        "toast": "ورود سازمانی — به‌زودی"
+      }
+    },
+    "signup": {
+      "cta": "حساب کاربری ندارید؟ <b>همین حالا بسازید →</b>"
+    },
+    "twoFactor": {
+      "description": "تأیید دومرحله‌ای برای این حساب فعال است. کد ۶ رقمی اپ Authenticator (یا یکی از کدهای بازیابی) را وارد کنید.",
+      "codeLabel": "کد تأیید دومرحله‌ای",
+      "codePlaceholder": "۱۲۳۴۵۶",
+      "submit": "تأیید و ورود",
+      "submitting": "در حال تأیید…",
+      "back": "بازگشت به ورود"
+    },
+    "errors": {
+      "tenantRequired": "شناسه سازمان الزامی است.",
+      "emailRequired": "ایمیل/کد کاربری الزامی است.",
+      "emailInvalid": "فرمت ایمیل صحیح نیست.",
+      "passwordRequired": "رمز عبور الزامی است.",
+      "passwordMinLength": "رمز عبور حداقل ۸ کاراکتر باشد.",
+      "invalidInput": "ورودی نامعتبر است.",
+      "unknown": "خطای ناشناخته",
+      "twoFactorIncomplete": "کد تأیید را کامل وارد کنید.",
+      "twoFactorInvalid": "کد تأیید نادرست است."
+    },
+    "atoms": {
+      "passStrength": {
+        "veryWeak": "خیلی ضعیف",
+        "weak": "ضعیف",
+        "medium": "متوسط",
+        "strong": "قوی",
+        "veryStrong": "خیلی قوی"
+      },
+      "demoBox": {
+        "subtitle": "حساب نمایشی برای {roleLabel}",
+        "fillButton": "پر کردن خودکار ←"
+      }
+    },
+    "brandPanel": {
+      "testimonial": {
+        "starsAria": "پنج ستاره",
+        "quote": "«اولین باری بود که حس کردم یک دستیار آموزشی واقعی دارم. پروفایل شناختی می‌داند کجا گیر کرده‌ام و چه باید بکنم.»",
+        "authorInitials": "ن.ر",
+        "authorName": "نسرین رضوی",
+        "authorRole": "کارشناسی ارشد · علوم داده"
+      },
+      "stats": {
+        "tenantsValue": "{value, number}+",
+        "tenantsLabel": "دانشگاه و سازمان",
+        "learnersValue": "{value, number}K",
+        "learnersLabel": "یادگیرنده فعال",
+        "uptimeValue": "{value, number}٪",
+        "uptimeLabel": "پایداری سرویس"
+      },
+      "eyebrowText": "LEARN AT SCALE",
+      "eyebrowSubtext": "یادگیری در مقیاس",
+      "headlineLine1": "یادگیری شخصی،",
+      "headlineLine2": "در مقیاس <hl>دانشگاه</hl>",
+      "lede": "سامانه‌ی بومی هوش مصنوعی برای آموزش عالی — توسعه‌یافته برای {org}؛ {slogan}."
+    },
+    "coBrand": {
+      "linkLegal": "قوانین و حریم خصوصی",
+      "linkSupport": "پشتیبانی",
+      "linkStatus": "وضعیت سامانه",
+      "linkApi": "API"
+    }
+  },
+  "verifyPhone": {
+    "eyebrow": "تأیید شماره تماس",
+    "title": "شماره تماس خود را تأیید کنید",
+    "subtitle": "برای عضویت، پرداخت از کیف پول و دریافت مدرک، شماره تماس شما باید تأیید شده باشد.",
+    "loading": "در حال بررسی وضعیت…",
+    "phone": {
+      "label": "شماره تماس",
+      "submit": "ارسال کد تأیید",
+      "skip": "فعلاً رد شوم"
+    },
+    "code": {
+      "changeNumber": "تغییر شماره"
+    },
+    "toast": {
+      "codeSent": {
+        "title": "کد ارسال شد",
+        "msg": "کد ۶ رقمی برای شما پیامک شد."
+      },
+      "verified": {
+        "title": "تأیید شد",
+        "msg": "شماره تماس شما تأیید شد."
+      }
+    },
+    "errors": {
+      "invalidPhone": "شماره تماس نامعتبر است.",
+      "sendFailed": "ارسال کد ناموفق بود."
+    }
+  },
+  "apply": {
+    "wizard": {
+      "screenLabel": "درخواست — ثبت‌نام",
+      "eyebrow": "ADMISSIONS · ثبت‌نام و پذیرش",
+      "title": "ثبت‌نام گام‌به‌گام",
+      "lead": "بدون نیاز به ورود. اطلاعات هویتی و مدارک را وارد کنید، احراز هویت (هدی) انجام شود، و کد پیگیری بگیرید."
+    },
+    "steps": {
+      "role": {
+        "label": "نوع درخواست",
+        "heading": "نوع درخواست را انتخاب کنید",
+        "helpTitle": "کدام نقش؟",
+        "helpBody": "«دانشجو» برای پذیرش تحصیلی و «مدرس / هیئت علمی» برای همکاری آموزشی است. سایر نقش‌ها (والد، سازمان) از طریق پشتیبانی فعال می‌شوند و نقش‌های مدیریتی (ریاست دانشگاه/دانشکده، مدیر محتوا، پشتیبانی…) توسط دانشگاه ایجاد می‌شوند، نه ثبت‌نام عمومی.",
+        "selectedLabel": "نقش انتخاب‌شده:"
+      },
+      "identity": {
+        "label": "اطلاعات هویتی",
+        "heading": "اطلاعات هویتی",
+        "helpTitle": "راهنمای اطلاعات هویتی",
+        "helpBody": "همهٔ فیلدهای ستاره‌دار الزامی‌اند. کد ملی همان لحظه اعتبارسنجی می‌شود. تاریخ تولد را به شکل شمسی وارد کنید (مثال: ۱۳۸۰/۰۵/۱۲)."
+      },
+      "documents": {
+        "label": "بارگذاری مدارک",
+        "heading": "بارگذاری مدارک",
+        "helpTitle": "راهنمای بارگذاری مدارک",
+        "helpBody": "تصویر یا اسکن خوانا از مدارک را بارگذاری کنید. فرمت‌های مجاز: JPG، PNG، WebP یا PDF — هر فایل کمتر از ۱.۳ مگابایت. مدارک ستاره‌دار الزامی‌اند."
+      },
+      "verification": {
+        "label": "احراز هویت",
+        "heading": "احراز هویت (سامانهٔ هدی)",
+        "helpTitle": "دربارهٔ احراز هویت",
+        "helpBodyPart1": "این استعلام بر اساس کد ملی، شمارهٔ شناسنامه و تاریخ تولدِ شما انجام می‌شود و سه سطح دارد: تطبیق پایه، تأیید هویت و استعلام کامل.",
+        "helpBodyNote": "توجه:",
+        "helpBodyPart2": "چون دسترسی مستقیم به سامانهٔ دولت فراهم نیست، این مرحله",
+        "helpBodyDemo": "نمایشی",
+        "helpBodyPart3": "است و نتیجه ضمیمهٔ پرونده می‌شود.",
+        "loading": "در حال استعلام…",
+        "notRun": "استعلام انجام نشد.",
+        "retryButton": "تلاش مجدد",
+        "levelBadge": "سطح {level} از ۳",
+        "statusVerified": "احراز هویت کامل (نمایشی)",
+        "statusPartial": "احراز هویت جزئی",
+        "statusNone": "احراز نشد",
+        "refSuffix": " · کد رهگیری: {ref}",
+        "helperText": "اگر سطح احراز پایین است می‌توانید به گام «اطلاعات هویتی» برگردید و اطلاعات را کامل کنید. ثبت درخواست در هر سطحی امکان‌پذیر است؛ بررسی نهایی با کارشناس پذیرش است."
+      },
+      "review": {
+        "label": "بازبینی و ارسال",
+        "heading": "بازبینی و ارسال",
+        "helpTitle": "بازبینی نهایی",
+        "helpBody": "اطلاعات را یک بار مرور کنید. برای اصلاح هر بخش، از مراحل بالا به گام مربوط برگردید. با زدن «ثبت درخواست»، پرونده ثبت و کد پیگیری صادر می‌شود."
+      }
+    },
+    "roles": {
+      "student": {
+        "title": "دانشجو",
+        "description": "پذیرش در رشته‌های تحصیلی"
+      },
+      "instructor": {
+        "title": "مدرس / هیئت علمی",
+        "description": "همکاری به‌عنوان استاد"
+      }
+    },
+    "identity": {
+      "programLabel": "رشتهٔ تحصیلی",
+      "programsLoading": "در حال بارگذاری رشته‌ها…",
+      "noActivePrograms": "در حال حاضر رشتهٔ فعالی برای پذیرش وجود ندارد.",
+      "selectPlaceholder": "— انتخاب کنید —",
+      "preferredDeptLabel": "گروه آموزشی مورد علاقه (اختیاری)",
+      "preferredDeptPlaceholder": "مثلاً: مهندسی کامپیوتر",
+      "desiredRankLabel": "مرتبهٔ علمی مورد نظر (اختیاری)",
+      "fullNameLabel": "نام و نام خانوادگی",
+      "fatherNameLabel": "نام پدر",
+      "nationalIdLabel": "کد ملی",
+      "nationalIdValid": "کد ملی معتبر است ✓",
+      "nationalIdInvalidChecksum": "رقم کنترل کد ملی صحیح نیست",
+      "birthCertNoLabel": "شمارهٔ شناسنامه",
+      "birthDateLabel": "تاریخ تولد (شمسی)",
+      "genderLabel": "جنسیت",
+      "emailLabel": "ایمیل",
+      "emailVerified": "ایمیل شما تأیید شد.",
+      "sendEmailOtpButton": "ارسال کد تأیید به ایمیل",
+      "otpPromptPrefix": "کد ۶ رقمی ارسال‌شده به",
+      "otpPromptSuffix": "را وارد کنید:",
+      "verifyOtpButton": "تأیید کد",
+      "resendOtpCountdown": "ارسال مجدد ({seconds})",
+      "resendOtpButton": "ارسال مجدد",
+      "phoneLabel": "شمارهٔ تماس",
+      "provinceLabel": "استان",
+      "cityLabel": "شهر",
+      "postalCodeLabel": "کد پستی",
+      "addressLabel": "نشانی",
+      "expertiseLabel": "حوزه‌های تخصص (با کاما جدا کنید)",
+      "expertisePlaceholder": "یادگیری ماشین، شبکه، پایگاه داده",
+      "cvUrlLabel": "نشانی رزومه / CV (اختیاری)",
+      "educationLabel": "سوابق تحصیلی (اختیاری)",
+      "addEducationButton": "+ افزودن مقطع",
+      "noEducationHint": "در صورت تمایل، مقاطع تحصیلی قبلی را اضافه کنید.",
+      "educationDegreePlaceholder": "مقطع (دیپلم/کارشناسی…)",
+      "educationFieldPlaceholder": "رشته",
+      "educationInstitutionPlaceholder": "مؤسسه",
+      "educationYearPlaceholder": "سال",
+      "educationGpaPlaceholder": "معدل",
+      "bioLabel": "دربارهٔ شما / انگیزه (اختیاری)"
+    },
+    "ranks": {
+      "assistant": "استادیار",
+      "associate": "دانشیار",
+      "full": "استاد تمام",
+      "emeritus": "استاد بازنشسته (Emeritus)"
+    },
+    "genders": {
+      "male": "مرد",
+      "female": "زن"
+    },
+    "provinces": {
+      "tehran": "تهران",
+      "alborz": "البرز",
+      "isfahan": "اصفهان",
+      "fars": "فارس",
+      "khorasanRazavi": "خراسان رضوی",
+      "eastAzerbaijan": "آذربایجان شرقی",
+      "westAzerbaijan": "آذربایجان غربی",
+      "khuzestan": "خوزستان",
+      "mazandaran": "مازندران",
+      "gilan": "گیلان",
+      "kerman": "کرمان",
+      "kermanshah": "کرمانشاه",
+      "qom": "قم",
+      "qazvin": "قزوین",
+      "yazd": "یزد",
+      "golestan": "گلستان",
+      "hamedan": "همدان",
+      "ardabil": "اردبیل",
+      "zanjan": "زنجان",
+      "markazi": "مرکزی",
+      "hormozgan": "هرمزگان",
+      "lorestan": "لرستان",
+      "sistanBaluchestan": "سیستان و بلوچستان",
+      "kurdistan": "کردستان",
+      "bushehr": "بوشهر",
+      "arak": "اراک",
+      "semnan": "سمنان",
+      "ilam": "ایلام",
+      "chaharmahalBakhtiari": "چهارمحال و بختیاری",
+      "kohgiluyehBoyerahmad": "کهگیلویه و بویراحمد",
+      "northKhorasan": "خراسان شمالی",
+      "southKhorasan": "خراسان جنوبی"
+    },
+    "degreeLevels": {
+      "bachelor": "کارشناسی",
+      "master": "کارشناسی ارشد",
+      "phd": "دکتری",
+      "certificate": "گواهی"
+    },
+    "upload": {
+      "slots": {
+        "nationalCard": "تصویر کارت ملی",
+        "birthCert": "تصویر صفحهٔ اول شناسنامه",
+        "transcriptStudent": "آخرین مدرک / ریزنمرات تحصیلی",
+        "transcriptInstructor": "آخرین مدرک تحصیلی",
+        "resume": "رزومه (فایل)",
+        "other": "سایر مدارک (اختیاری)"
+      }
+    },
+    "actions": {
+      "remove": "حذف",
+      "chooseFile": "انتخاب فایل",
+      "prevStep": "مرحلهٔ قبل",
+      "nextStep": "مرحلهٔ بعد",
+      "submitButton": "ثبت درخواست",
+      "cancelButton": "انصراف"
+    },
+    "review": {
+      "typeLabel": "نوع درخواست",
+      "programLabel": "رشتهٔ تحصیلی",
+      "emptyValue": "—",
+      "fullNameLabel": "نام و نام خانوادگی",
+      "fatherNameLabel": "نام پدر",
+      "nationalIdLabel": "کد ملی",
+      "birthCertNoLabel": "شمارهٔ شناسنامه",
+      "birthDateLabel": "تاریخ تولد",
+      "genderLabel": "جنسیت",
+      "emailLabel": "ایمیل",
+      "phoneLabel": "تماس",
+      "provinceCityLabel": "استان / شهر",
+      "docsCountLabel": "مدارک بارگذاری‌شده",
+      "docsCount": "{count, plural, one {# مورد} other {# مورد}}",
+      "hodaLevelLabel": "سطح احراز هویت (هدی)",
+      "hodaLevelValue": "{level} از ۳"
+    },
+    "errors": {
+      "fileTypeInvalid": "فقط تصویر (JPG/PNG/WebP) یا PDF مجاز است.",
+      "fileTooLarge": "حجم فایل باید کمتر از ۱.۳ مگابایت باشد. لطفاً با کیفیت کمتر اسکن/عکس بگیرید.",
+      "fileReadFailed": "خواندن فایل ناموفق بود.",
+      "programsFetchFailed": "خطا در دریافت فهرست رشته‌ها",
+      "emailInvalidBeforeOtp": "ابتدا یک ایمیل معتبر وارد کنید.",
+      "otpSendFailed": "ارسال کد ناموفق بود. دوباره تلاش کنید.",
+      "otpCodeIncomplete": "کد ۶ رقمی را کامل وارد کنید.",
+      "otpInvalid": "کد نادرست یا منقضی است. دوباره تلاش کنید.",
+      "otpVerifyFailed": "تأیید ناموفق بود. دوباره تلاش کنید.",
+      "fileUploadFailed": "بارگذاری فایل ناموفق بود.",
+      "fullNameRequired": "نام و نام خانوادگی الزامی است.",
+      "fullNameTooLong": "نام بیش از حد طولانی است.",
+      "fatherNameRequired": "نام پدر الزامی است.",
+      "emailRequired": "ایمیل الزامی است.",
+      "emailInvalidFormat": "فرمت ایمیل صحیح نیست.",
+      "emailOtpRequired": "ابتدا ایمیل خود را با کد تأیید، تأیید کنید.",
+      "nationalIdRequired": "کد ملی الزامی است.",
+      "nationalIdInvalid": "کد ملی نامعتبر است (رقم کنترل صحیح نیست).",
+      "birthCertNoRequired": "شمارهٔ شناسنامه الزامی است.",
+      "birthDateRequired": "تاریخ تولد الزامی است (مثال: ۱۳۸۰/۰۵/۱۲).",
+      "genderRequired": "جنسیت را انتخاب کنید.",
+      "phoneInvalid": "شمارهٔ تماس نامعتبر است.",
+      "bioTooLong": "توضیحات حداکثر ۲۰۰۰ کاراکتر.",
+      "programRequired": "انتخاب رشتهٔ تحصیلی الزامی است.",
+      "cvUrlInvalid": "نشانی رزومه باید با http(s) شروع شود.",
+      "docRequired": "«{label}» الزامی است.",
+      "invalidInputFallback": "ورودی نامعتبر است.",
+      "incompleteFields": "برخی فیلدها کامل نیستند.",
+      "trackingTokenMissing": "کد پیگیری دریافت نشد. لطفاً با پشتیبانی تماس بگیرید.",
+      "submitUnknown": "خطای ناشناخته در ثبت درخواست"
+    },
+    "toast": {
+      "reviewFormTitle": "بازبینی فرم",
+      "submitFailedTitle": "ثبت ناموفق"
+    },
+    "messages": {
+      "otpSent": "کد تأیید به ایمیل شما ارسال شد."
+    },
+    "confirmation": {
+      "screenLabel": "درخواست — تأیید",
+      "eyebrow": "ثبت شد",
+      "titleIdempotent": "درخواست شما از قبل ثبت شده بود",
+      "title": "درخواست شما ثبت شد",
+      "referenceLabel": "کد پیگیری شما:",
+      "idLevelPrefix": "سطح احراز هویت (هدی):",
+      "idLevelSuffix": "از ۳",
+      "idLevelNotVerified": "— احراز نشد",
+      "trackingLinkLabel": "پیوند پیگیری وضعیت — این را ذخیره کنید",
+      "trackingLinkHelp": "با این پیوند می‌توانید وضعیت درخواست را ببینید و در صورت نیاز آن را لغو کنید.",
+      "copiedButton": "کپی شد ✓",
+      "copyButton": "کپی پیوند",
+      "viewStatusButton": "مشاهدهٔ وضعیت",
+      "nextStepsHeading": "مراحل بعدی",
+      "backHomeButton": "بازگشت به خانه",
+      "copiedToastTitle": "کپی شد",
+      "copiedToastMsg": "پیوند پیگیری در حافظه کپی شد.",
+      "copyFailedToastTitle": "کپی نشد",
+      "copyFailedToastMsg": "لطفاً پیوند را دستی انتخاب و کپی کنید."
+    },
+    "timeline": {
+      "submitted": {
+        "title": "ثبت درخواست",
+        "desc": "درخواست شما ثبت و کد پیگیری صادر شد."
+      },
+      "review": {
+        "title": "بررسی کارشناسی",
+        "desc": "تیم پذیرش ظرف حدود ۱۴ روز درخواست و مدارک را بررسی می‌کند."
+      },
+      "verification": {
+        "title": "احراز هویت",
+        "desc": "نتیجهٔ استعلام هویت (هدی) ضمیمهٔ پرونده است."
+      },
+      "decision": {
+        "title": "تصمیم نهایی",
+        "desc": "نتیجه از طریق همین صفحهٔ پیگیری و ایمیل اعلام می‌شود."
+      }
+    }
+  },
+  "reset": {
+    "screenLabel": "بازنشانی رمز عبور",
+    "eyebrow": "بازنشانی رمز",
+    "title": "تعیین رمز عبور جدید",
+    "validating": "در حال بررسی پیوند…",
+    "invalid": {
+      "body": "این پیوند بازنشانی نامعتبر، منقضی یا قبلاً استفاده شده است. می‌توانید یک پیوند تازه درخواست کنید.",
+      "requestNew": "درخواست پیوند جدید",
+      "backToLogin": "بازگشت به ورود"
+    },
+    "form": {
+      "intro": "یک رمز عبور امن جدید تعیین کنید (حداقل ۸ کاراکتر). پس از تنظیم، با رمز جدید وارد شوید.",
+      "newPasswordLabel": "رمز عبور جدید",
+      "confirmPasswordLabel": "تکرار رمز عبور",
+      "submitting": "در حال ثبت…",
+      "submitCta": "تنظیم رمز جدید"
+    },
+    "errors": {
+      "tooShort": "رمز عبور باید حداقل ۸ کاراکتر باشد.",
+      "mismatch": "رمز عبور و تکرار آن یکسان نیستند.",
+      "submitFailed": "بازنشانی رمز ناموفق بود. ممکن است پیوند منقضی یا قبلاً استفاده شده باشد."
+    },
+    "done": {
+      "body": "رمز عبور شما با موفقیت تغییر کرد. برای امنیت بیشتر، نشست‌های قبلی شما بسته شدند. اکنون با رمز جدید وارد شوید.",
+      "loginCta": "ورود به حساب"
+    }
+  },
+  "claim": {
+    "screenLabel": "فعال‌سازی حساب",
+    "eyebrow": "فعال‌سازی حساب",
+    "title": "تعیین رمز عبور",
+    "validating": "در حال بررسی پیوند…",
+    "invalid": {
+      "body": "این پیوند فعال‌سازی نامعتبر، منقضی یا قبلاً استفاده شده است. اگر تازه پذیرفته شده‌اید، ایمیل خود را برای پیوند جدید بررسی کنید یا با پشتیبانی تماس بگیرید.",
+      "loginCta": "ورود به حساب",
+      "backHome": "بازگشت به خانه"
+    },
+    "form": {
+      "intro": "برای فعال‌سازی حساب و ورود، یک رمز عبور امن تعیین کنید (حداقل ۸ کاراکتر).",
+      "passwordLabel": "رمز عبور",
+      "confirmPasswordLabel": "تکرار رمز عبور",
+      "submitting": "در حال فعال‌سازی…",
+      "submitCta": "فعال‌سازی و ورود"
+    },
+    "errors": {
+      "tooShort": "رمز عبور باید حداقل ۸ کاراکتر باشد.",
+      "mismatch": "رمز عبور و تکرار آن یکسان نیستند.",
+      "submitFailed": "فعال‌سازی حساب ناموفق بود. ممکن است پیوند منقضی یا قبلاً استفاده شده باشد."
+    },
+    "toast": {
+      "title": "خوش آمدید",
+      "msg": "حساب شما فعال شد."
+    },
+    "done": {
+      "body": "رمز عبور شما تنظیم شد. اکنون می‌توانید وارد حساب خود شوید.",
+      "loginCta": "ورود به حساب"
+    }
+  },
+  "forgot": {
+    "eyebrow": "RECOVERY · بازیابی",
+    "title": "رمز را فراموش کرده‌اید؟",
+    "sub": "ایمیل خود را وارد کنید. یک لینک امن یک‌بار مصرف برای بازنشانی برای شما ارسال می‌کنیم.",
+    "sentMessage": "اگر این ایمیل در سامانه ثبت شده باشد، یک پیوند بازنشانی برای آن ارسال شد. صندوق ورودی (و پوشهٔ اسپم) خود را بررسی کنید. پیوند تا ۱ ساعت معتبر است.",
+    "emailLabel": "ایمیل ثبت‌شده",
+    "submitCta": "ارسال لینک بازیابی",
+    "securityNote": {
+      "label": "امن:",
+      "body": "لینک‌های بازیابی فقط ۱ ساعت اعتبار دارند و فقط یک بار قابل استفاده‌اند."
+    },
+    "rememberedQuestion": "رمز خود را به یاد آوردید؟",
+    "backToLogin": "بازگشت به ورود",
+    "errors": {
+      "invalidEmail": "فرمت ایمیل صحیح نیست."
+    }
+  },
+  "twoFactor": {
+    "eyebrow": "SECURITY · امنیت دومرحله‌ای",
+    "title": "یک لایه‌ی امنیت اضافه کنید",
+    "sub": "احراز هویت دومرحله‌ای از حساب شما در برابر دسترسی غیرمجاز محافظت می‌کند.",
+    "loading": "در حال آماده‌سازی…",
+    "errorPhase": {
+      "body": "برای فعال‌سازی تأیید دومرحله‌ای ابتدا باید وارد حساب خود شوید.",
+      "loginCta": "ورود به حساب"
+    },
+    "step1": {
+      "label": "گام ۱ · اسکن QR با اپ Authenticator",
+      "instructions": "این QR را با Google Authenticator / Authy / 1Password اسکن کنید.",
+      "manualEntry": "یا کلید را به‌صورت دستی وارد کنید:"
+    },
+    "qrLoading": "در حال آماده‌سازی QR…",
+    "recoveryCodes": {
+      "intro": "کدهای بازیابی — این‌ها را جای امنی ذخیره کنید. اگر دستگاهتان را از دست بدهید، تنها راه ورود همین کدها هستند (فقط یک‌بار نمایش داده می‌شوند)."
+    },
+    "step2": {
+      "label": "گام ۲ · کد ۶ رقمی نشان‌داده‌شده در اپ"
+    },
+    "codeInputPlaceholder": "۱۲۳۴۵۶",
+    "enableCta": "فعال‌سازی",
+    "skipCta": "فعلاً بگذار بعد · بازگشت به تنظیمات",
+    "errors": {
+      "incomplete": "کد ۶ رقمی اپ را وارد کنید.",
+      "enableFailed": "فعال‌سازی ناموفق بود؛ کد را بررسی کنید."
+    },
+    "done": {
+      "body": "✓ تأیید دومرحله‌ای فعال شد. از این پس هنگام ورود، علاوه بر رمز، کد اپ Authenticator لازم است.",
+      "reminder": "مطمئن شوید کدهای بازیابی را ذخیره کرده‌اید — تنها راه ورود در صورت گم‌شدن دستگاه‌اند.",
+      "backToSettings": "بازگشت به تنظیمات"
+    }
+  },
+  "verifyEmail": {
+    "eyebrow": "VERIFY · تأیید ایمیل",
+    "title": "ایمیل خود را تأیید کنید",
+    "sub": "یک کد ۶ رقمی به ایمیل شما ارسال کردیم. این کد ۱۰ دقیقه اعتبار دارد.",
+    "codeSentPrefix": "کد به",
+    "codeSentSuffix": "ارسال شد",
+    "codeLabel": "کد ۶ رقمی",
+    "digitAriaLabel": "رقم {index} از کد تأیید ۶ رقمی",
+    "submitCta": "تأیید و ادامه",
+    "resendQuestion": "کد را دریافت نکردید؟",
+    "resendIn": "ارسال مجدد در ۰:۴۲",
+    "note": {
+      "label": "نکته:",
+      "body": "اگر ایمیل را در inbox پیدا نکردید، spam را بررسی کنید یا"
+    },
+    "changeEmailCta": "ایمیل را تغییر دهید",
+    "errors": {
+      "incomplete": "کد ۶ رقمی را کامل وارد کنید."
+    }
+  },
+  "onboarding": {
+    "steps": {
+      "level": "تعیین سطح",
+      "interests": "علایق",
+      "goals": "هدف‌گذاری",
+      "ready": "آماده‌ایم"
+    },
+    "progress": {
+      "label": "گام {step} از {total} · {stepName}"
+    },
+    "skipCta": "رد کردن",
+    "level": {
+      "title": "سطح فعلی شما در یادگیری ماشین؟",
+      "subtitle": "این کمک می‌کند برنامه‌ی شخصی‌سازی‌شده‌ای برای شما بسازیم. بدون نگرانی — می‌توانید بعداً تغییر دهید.",
+      "options": {
+        "novice": {
+          "title": "تازه‌کار",
+          "desc": "هیچ تجربه‌ای ندارم، می‌خواهم از صفر شروع کنم"
+        },
+        "beginner": {
+          "title": "مقدماتی",
+          "desc": "با مفاهیم پایه آشنا هستم، Python بلدم"
+        },
+        "intermediate": {
+          "title": "متوسط",
+          "desc": "چند مدل کلاسیک پیاده کرده‌ام، با scikit-learn کار کردم"
+        },
+        "advanced": {
+          "title": "پیشرفته",
+          "desc": "روی deep learning کار می‌کنم، با PyTorch/TF تجربه دارم"
+        },
+        "professional": {
+          "title": "حرفه‌ای",
+          "desc": "تجربه‌ی صنعتی یا پژوهشی دارم"
+        }
+      },
+      "continueCta": "ادامه"
+    },
+    "interests": {
+      "title": "چه چیزی برای شما جذاب است؟",
+      "subtitle": "حداقل ۳ علاقه انتخاب کنید. بر اساس این، دروس، مقالات و رویدادها پیشنهاد می‌شود.",
+      "tags": {
+        "nlp": "پردازش زبان طبیعی",
+        "vision": "بینایی ماشین",
+        "data": "علوم داده",
+        "stats": "آمار و احتمالات",
+        "rl": "یادگیری تقویتی",
+        "sys": "سیستم‌های توزیع‌شده",
+        "se": "مهندسی نرم‌افزار",
+        "pm": "مدیریت محصول",
+        "ux": "تجربه کاربری",
+        "ethics": "اخلاق AI",
+        "math": "ریاضیات کاربردی",
+        "lin": "زبان‌شناسی محاسباتی"
+      },
+      "selectedCount": "{count, plural, one {# انتخاب شده} other {# انتخاب شده}}",
+      "continueCta": "ادامه"
+    },
+    "goals": {
+      "title": "هدف اصلی شما چیست؟",
+      "subtitle": "این نحوه‌ی پیشنهاد دروس را تنظیم می‌کند.",
+      "options": {
+        "career": {
+          "title": "تغییر مسیر شغلی",
+          "desc": "ورود به حوزه‌ی AI/Data"
+        },
+        "promo": {
+          "title": "رشد در شغل فعلی",
+          "desc": "ارتقا و مهارت‌های جدید"
+        },
+        "research": {
+          "title": "پژوهش آکادمیک",
+          "desc": "آماده‌سازی برای دکتری"
+        },
+        "project": {
+          "title": "ساخت یک پروژه",
+          "desc": "ایده‌ی شخصی یا استارتاپ"
+        },
+        "curiosity": {
+          "title": "کنجکاوی شخصی",
+          "desc": "می‌خواهم بدانم چگونه کار می‌کند"
+        },
+        "cert": {
+          "title": "گواهی برای کارفرما",
+          "desc": "نیاز به مدرک رسمی دارم"
+        }
+      },
+      "continueCta": "ادامه"
+    },
+    "ready": {
+      "heading": "پروفایل شما ساخته شد",
+      "body": "پروفایل شناختی اولیه‌ی شما با بیش از ۲۴ شاخص ساخته شد. AI آماده است تا مسیر یادگیری شخصی شما را پیشنهاد دهد.",
+      "card": {
+        "label": "پیشنهاد اول",
+        "courseTitle": "مبانی یادگیری ماشین — CS-410",
+        "meta": "دکتر آرش عظیمی · ۱۲ هفته · با تسلط ۹۲٪ احتمال موفقیت"
+      },
+      "saving": "در حال ذخیره…",
+      "startCta": "شروع یادگیری"
+    }
+  },
+  "authChrome": {
+    "login": {
+      "testimonial": {
+        "quote": "اولین باری بود که حس کردم یک دستیار آموزشی واقعی دارم. پروفایل شناختی می‌داند کجا گیر کرده‌ام و چه باید بکنم.",
+        "avatarInitials": "نر",
+        "name": "نسرین رضوی",
+        "role": "کارشناسی ارشد · علوم داده"
+      },
+      "headline": {
+        "line1": "یادگیری شخصی،",
+        "line2": "در مقیاس دانشگاه"
+      },
+      "stats": "۲.۴M+ رویداد یادگیری · ۹۹.۹٪ uptime"
+    },
+    "security": {
+      "headline": {
+        "line1": "امنیت در اولویت",
+        "line2": "از روز اول"
+      },
+      "bullets": {
+        "encryption": {
+          "title": "رمزنگاری End-to-End",
+          "desc": "همه‌ی داده‌ها از مبدأ به مقصد رمز می‌شوند"
+        },
+        "sessions": {
+          "title": "نشست‌های قابل کنترل",
+          "desc": "می‌توانید هر نشست را از راه دور خارج کنید"
+        },
+        "weeklyReport": {
+          "title": "گزارش امنیتی هفتگی",
+          "desc": "خلاصه‌ی فعالیت‌های مشکوک به ایمیل"
+        }
+      }
+    }
+  }
+}

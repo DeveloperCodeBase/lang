@@ -1,0 +1,2151 @@
+{
+  "admin": {
+    "afterSubmit": "After submission: {meaning}",
+    "allStepsDone": "All steps are completed",
+    "assessorsOverRatio": "{count, number} assessor has more than the target candidate ratio — distribute their load among other assessors if possible.",
+    "assignmentCountShort": "{count, number} assignment",
+    "assignmentsHeading": "Assessor assignments in \"{project}\"",
+    "assignmentsHint": "Each assignment means \"this assessor views and grades this candidate in this exercise\".",
+    "candidateFallback": "Candidate",
+    "candidatesHeading": "Candidates of \"{project}\" ({count, number})",
+    "cannotAssignNoCandidate": "You must first invite at least one candidate.",
+    "cannotAssignNoExercise": "You must first define at least one exercise.",
+    "cannotAssignYetTitle": "Cannot assign yet",
+    "competencyCount": "{count, number} competency",
+    "consentActiveBadge": "Active",
+    "consentHeading": "Consent form texts (organization level)",
+    "consentHint": "The first step in the entire chain. Texts are independent of projects and only one version is active at any time; creating a text is not enough — you must activate it.",
+    "consentVersion": "Version {version}",
+    "coverageHeading": "Coverage report",
+    "coverageHint": "An advisory report: how many methods assess each competency and whether any assessor exceeds the target ratio load. Its warnings do not block further progress.",
+    "coverageNoCompetency": "No competencies have been linked to the exercises of this project yet.",
+    "coverageParams": "Minimum methods: {minMethods, number} · Target assessor ratio: {ratio, number}",
+    "cta": {
+      "activateConsent": "Activate this version",
+      "activateProject": "Activate project",
+      "assignAssessor": "Assign assessor",
+      "assignmentList": "Assignment list",
+      "cancel": "Cancel",
+      "closeEdit": "Close edit",
+      "closeExerciseForm": "Close exercise form",
+      "closeInviteForm": "Close invitation form",
+      "closeList": "Close list",
+      "closeProject": "Close project",
+      "closeProjectForm": "Close project form",
+      "createConsent": "Write consent text",
+      "createProject": "Create project",
+      "defineExercise": "Define exercise",
+      "disableExercise": "Disable exercise",
+      "editCompetencies": "Edit competencies",
+      "editExercise": "Edit exercise",
+      "editProject": "Edit project details",
+      "inviteCandidate": "Invite candidate",
+      "loadCoverage": "Load coverage report",
+      "newProject": "Create New Project",
+      "revokeInvite": "Revoke Invitation",
+      "saveChanges": "Save Changes",
+      "saveCompetencies": "Save Competencies",
+      "submitStep": "Submit Step"
+    },
+    "currentProjectLabel": "Current Project",
+    "detail": {
+      "clientOrg": "Client Organization",
+      "minMethods": "Minimum Methods per Competency"
+    },
+    "editExerciseHeading": "Edit Exercise",
+    "editExerciseHint": "Leaving the time or duration blank will clear it.",
+    "editProjectHint": "Leaving any optional field blank will clear it.",
+    "exerciseCompetenciesLabel": "Competencies for this exercise:",
+    "exerciseDurationSuffix": " · {minutes, number} min",
+    "exerciseNoCompetency": "None — until selected, the assessor has nothing to score.",
+    "exercisesHeading": "Exercises for \"{project}\" ({count, number})",
+    "eyebrow": "Management Dashboard · Assessment Center",
+    "field": {
+      "assessor": "Assessor",
+      "assessorRatio": "Assessor Target Ratio",
+      "assessorRole": "Assessor Role in this Exercise",
+      "candidate": "Candidate",
+      "clientOrg": "Client Organization Name",
+      "consentBody": "Consent Form Text",
+      "consentVersion": "Version",
+      "durationMinutes": "Duration (minutes)",
+      "exerciseKind": "Exercise Type",
+      "exerciseName": "Exercise Name",
+      "jobFamily": "Job Family",
+      "minMethods": "Minimum Methods per Competency",
+      "projectCode": "Project Code",
+      "projectName": "Project Name",
+      "scheduledAt": "Scheduled Time",
+      "scheduledAtAria": "Exercise Schedule Time",
+      "withdrawReason": "Reason for Withdrawal"
+    },
+    "inviteePreview": "Inviting {name} — initial status will be \"{status}\".",
+    "lastChangeAt": "Last changed: {at}",
+    "lead": "First, select a project from the selector below, then work on it across the tabs. The \"Overview\" checklist always shows where you are in the process.",
+    "loading": "Loading…",
+    "methodCount": "{count, number} method",
+    "namelessFallback": "(Unnamed)",
+    "newCandidateHeading": "Invite New Candidate",
+    "newExerciseHeading": "New Exercise",
+    "newProjectHeading": "New Project",
+    "nextStepAria": "Next step for {candidate}",
+    "nextStepCta": "Next step: {cta}",
+    "noAssignmentShort": "No assessment assigned yet",
+    "noNextStep": "No next step is defined for this status.",
+    "noOrgCompetency": "No organizational competencies have been defined yet. You can define competencies in the \"Competency Model\" section.",
+    "openProjectCta": "Open \"{project}\"",
+    "option": {
+      "noProject": "— No project selected —",
+      "none": "— Not selected —",
+      "pickCandidate": "— Select candidate —",
+      "pickNextStep": "— Select the next step —"
+    },
+    "pickerTitle": {
+      "assessor": "Search Assessor",
+      "candidate": "Search Candidate"
+    },
+    "projectCodeCreated": "{code} · Created: {at}",
+    "setupChecklistHeading": "Setup Checklist",
+    "step": {
+      "activeConsentVersion": "Active version: {version}",
+      "assignmentCount": "{count, number} assignment",
+      "candidateCount": "{count, number} candidate",
+      "exercisesAllCovered": "{count, number} exercise, all with competencies",
+      "exercisesMissingCompetency": "{count, number} exercise still lacks a competency.",
+      "noAssignment": "No assessment has been assigned yet.",
+      "noCandidate": "No candidates have been invited yet.",
+      "noConsentText": "No text has been recorded yet.",
+      "noExercise": "No exercises have been defined yet.",
+      "noProject": "No projects have been created yet.",
+      "openProject": "Open project: {project}",
+      "pickProject": "You have projects — open one from the list or create a new project."
+    },
+    "tabsScopeHint": "The \"Candidates\", \"Exercises\", and \"Assignments\" tabs show only this project; \"Settings\" is at the organization level.",
+    "title": "Assessment Admin Console"
+  },
+  "answer": {
+    "dragDrop": {
+      "assign": "— Assign —"
+    },
+    "file": {
+      "change": "Change file",
+      "pick": "Select file",
+      "tooLargeMsg": "Maximum {mb} MB",
+      "tooLargeTitle": "File is too large"
+    },
+    "fillBlank": {
+      "placeholder": "Blank {n}"
+    },
+    "hotspot": {
+      "noImage": "No image has been set for this question.",
+      "regionFallback": "Region {n}"
+    },
+    "matching": {
+      "choose": "— Select —"
+    },
+    "ordering": {
+      "moveDown": "Move Down",
+      "moveUp": "Move up"
+    },
+    "placeholder": {
+      "code": "// Write your code here",
+      "default": "Answer…",
+      "essay": "Essay answer…",
+      "formula": "Mathematical expression, e.g. a^2+b^2=c^2",
+      "numeric": "Numeric answer",
+      "short": "Short answer…"
+    },
+    "review": {
+      "correct": "Correct answer",
+      "downloadFile": "Download file",
+      "keyLabel": "Key:",
+      "manual": "Manual grading",
+      "manualFile": "Manual grading (file)",
+      "studentLabel": "Student's answer:",
+      "studentPick": "Student's answer",
+      "studentPicked": "(Student's choice)"
+    },
+    "trueFalse": {
+      "false": "False",
+      "true": "True"
+    }
+  },
+  "assignmentRole": {
+    "assessor": {
+      "hint": "Views and grades.",
+      "label": "Assessor"
+    },
+    "facilitator": {
+      "hint": "Facilitates the exercise.",
+      "label": "Facilitator"
+    },
+    "interviewer": {
+      "hint": "Conducts the interview and grades.",
+      "label": "Interviewer"
+    },
+    "observer": {
+      "hint": "Observes only.",
+      "label": "Observer"
+    }
+  },
+  "assignments": {
+    "cta": {
+      "continue": "Continue / Submit",
+      "open": "Open and submit",
+      "result": "View result",
+      "startExam": "Start exam",
+      "viewExam": "View"
+    },
+    "due": "Due: {date}",
+    "empty": "There are no published assignments or exams for your courses.",
+    "eyebrow": "Student · Assignments & Exams",
+    "filter": {
+      "all": "All",
+      "graded": "Graded",
+      "pending": "Not submitted",
+      "submitted": "Submitted"
+    },
+    "gradeValue": "Grade: {n} out of 100",
+    "help": {
+      "body": "Open each item to answer: in exams you answer questions, and in assignments you can write text and attach files (PDF, Word, image, ZIP). You can save drafts until final submission. After submission, your status and grade will be shown right here.",
+      "title": "Assignments & Exams Help"
+    },
+    "kind": {
+      "assignment": "Assignment",
+      "quiz": "Quiz"
+    },
+    "lead": "Published assignments and quizzes for your courses, along with submission status and grades.",
+    "loading": "Loading…",
+    "noDue": "No due date",
+    "points": "{n, plural, one {{n} point} other {{n} points}}",
+    "status": {
+      "draft": "Draft",
+      "graded": "Graded",
+      "none": "Not submitted",
+      "submitted": "Submitted"
+    },
+    "title": "My Assignments and Quizzes"
+  },
+  "bank": {
+    "confirm": {
+      "body": "Questions you have already added to quizzes will not be changed.",
+      "cancelLabel": "Cancel",
+      "confirmLabel": "Delete Question",
+      "title": "Delete question from bank?"
+    },
+    "countLabel": "{n, plural, one {{n} question} other {{n} questions}}",
+    "cta": {
+      "builder": "Quiz Builder",
+      "new": "New Question in Bank"
+    },
+    "difficulty": {
+      "easy": "Easy",
+      "hard": "Hard",
+      "medium": "Medium"
+    },
+    "editor": {
+      "close": "Close",
+      "courseLabel": "Course (Optional)",
+      "difficultyLabel": "Difficulty Level (Optional)",
+      "editTitle": "Edit Bank Question",
+      "explanationLabel": "Answer Explanation (Optional)",
+      "hintLabel": "Student Hint (Optional)",
+      "kindLabel": "Question Type",
+      "manualSuffix": " (Manual)",
+      "newTitle": "New Question in Bank",
+      "pointsLabel": "Points",
+      "promptFillBlank": "Question text; indicate each blank with ___…",
+      "promptLabel": "Question Prompt",
+      "promptPlaceholder": "Enter the question text…",
+      "saveEdit": "Save Changes",
+      "saveNew": "Add to Bank",
+      "saving": "Saving…",
+      "tagsLabel": "Tags (separated by commas, optional)",
+      "tagsPlaceholder": "e.g., Chapter 2, derivative, difficult"
+    },
+    "emptyAll": "There are no questions in the bank yet. Create your first reusable question using \"New Question in Bank\".",
+    "emptyFiltered": "No questions found matching these filters.",
+    "err": {
+      "delete": "Failed to delete question",
+      "load": "Failed to load question bank",
+      "save": "Failed to save question"
+    },
+    "eyebrow": "Instructor · Question Bank",
+    "filter": {
+      "all": "All",
+      "clear": "Clear filters",
+      "kindLabel": "Type:"
+    },
+    "help": {
+      "body": "This bank stores test-independent questions; you can create, edit, and archive all 14 question types (from multiple-choice and fill-in-the-blank to matching and drag-and-drop). A question can be restricted to a course or remain personal (without a course). To use it in a test, click \"Add from Question Bank\" in the Test Builder — a copy of the question will be added to the test.",
+      "title": "Question Bank Help"
+    },
+    "kpi": {
+      "auto": "Auto-graded",
+      "manual": "Manually graded",
+      "total": "Total bank questions"
+    },
+    "lead": "Create reusable questions once and use them across multiple tests. To add them to a test, select \"Add from Question Bank\" in the Test Builder.",
+    "loading": "Loading…",
+    "noCourse": "No course (Personal)",
+    "notice": {
+      "deleteFailed": "Deletion failed"
+    },
+    "points": "{n} point",
+    "row": {
+      "delete": "Delete",
+      "edit": "Edit"
+    },
+    "search": {
+      "aria": "Search question",
+      "placeholder": "Search question text or tags…"
+    },
+    "title": "Question Bank"
+  },
+  "builder": {
+    "attempts": {
+      "colIdentity": "Authentication",
+      "colStatus": "Status",
+      "colStudent": "Student",
+      "colViolations": "Violations",
+      "empty": "No one has taken this test yet.",
+      "hint": "Click \"Load\" to view participants, authentication, and recorded violations.",
+      "identityFailed": "Failed",
+      "identityOk": "✓ Complete",
+      "identityPartial": "Incomplete",
+      "loadAction": "Load",
+      "reviewAction": "Full Review",
+      "statusExpired": "Time expired",
+      "statusInProgress": "In progress",
+      "statusSubmitted": "Submitted",
+      "title": "Proctoring View — Test Attempts"
+    },
+    "bank": {
+      "dialogNote": "A copy of the selected question will be added to this test; subsequent edits to the bank question will not affect this copy.",
+      "dialogTitle": "Add from Question Bank",
+      "empty": "Your question bank is empty. First, create questions in the \"Question Bank\".",
+      "goToBank": "Go to Question Bank",
+      "insertAction": "Add",
+      "loading": "Loading…",
+      "manualSuffix": " · Manual",
+      "openAria": "Add question from bank",
+      "promoteFailedTitle": "Failed",
+      "promotedBody": "A copy of this question was saved to the \"Question Bank\".",
+      "promotedTitle": "Added to Bank",
+      "searchAria": "Search bank questions",
+      "searchPlaceholder": "Search question text…"
+    },
+    "breadcrumb": "Courses · Assessment Builder",
+    "checklist": {
+      "addQuestion": "Add at least one question",
+      "addQuestionCta": "Add Question",
+      "publish": "Publish assessment for students",
+      "publishBusy": "Publishing…",
+      "publishCta": "Publish Assessment",
+      "publishingReason": "Publishing — please wait a moment."
+    },
+    "create": {
+      "attemptsLabel": "Allowed attempts",
+      "courseEmpty": "No courses found to select. A course must first be defined in the system.",
+      "courseLabel": "Course",
+      "coursePlaceholder": "— Select Course —",
+      "createAction": "Create Assessment",
+      "createBusy": "Creating…",
+      "descLabel": "Description (optional)",
+      "descPlaceholder": "A short description about this assessment…",
+      "dialogTitle": "New Assessment",
+      "dueAria": "Submission deadline",
+      "dueLabel": "Due date (optional)",
+      "durationLabel": "Duration (minutes)",
+      "kindAssignmentNote": "Assignment: Students submit their work all at once (without separate questions).",
+      "kindLabel": "Type",
+      "kindQuizNote": "Quiz: Includes separate questions (multiple choice, short answer, essay).",
+      "lockdownLabel": "Lockdown mode (fullscreen + log focus loss/tab switch + block copy)",
+      "openAria": "New Assessment",
+      "proctoredLabel": "Timed and Proctored Exam",
+      "requireIdentityLabel": "Identity verification before starting (webcam + ID — preview)",
+      "shuffleLabel": "Shuffle question order",
+      "titleLabel": "Title",
+      "titlePlaceholder": "e.g., Midterm Exam"
+    },
+    "dialog": {
+      "cancel": "Cancel",
+      "close": "Close"
+    },
+    "editor": {
+      "closeAria": "Close editor",
+      "emptyHint": "Select an assessment from the list to edit, or create a new one.",
+      "meta": "{questions, plural, one {# question} other {# questions}} · {points, plural, one {# point} other {# points}}"
+    },
+    "error": {
+      "addQuestion": "Failed to add question",
+      "create": "Failed to create assessment",
+      "deleteQuestion": "Failed to delete question",
+      "insertFromBank": "Failed to add question from bank",
+      "loadBank": "Failed to load question bank",
+      "loadDetail": "Failed to load assessment details",
+      "loadList": "Failed to load assessments",
+      "promoteToBank": "Failed to add to bank",
+      "publish": "Failed to publish assessment",
+      "savePools": "Failed to save pools",
+      "updateQuestion": "Failed to update question"
+    },
+    "form": {
+      "addTitle": "Add Question",
+      "cancelEdit": "Cancel Editing",
+      "editTitle": "Edit Question",
+      "explanationLabel": "Answer explanation (shown after grading, optional)",
+      "explanationPlaceholder": "Explain why the correct answer is correct",
+      "fromBankAction": "Add from question bank",
+      "hintLabel": "Hint for students (optional)",
+      "hintPlaceholder": "A hint displayed during the assessment",
+      "kindLabel": "Question type",
+      "manualSuffix": " (Manual)",
+      "pointsLabel": "Points",
+      "promptLabel": "Question prompt",
+      "promptPlaceholder": "Enter the question text…",
+      "promptPlaceholderCloze": "Question text; designate each blank with ___…",
+      "saveAdd": "Add question to assessment",
+      "saveBusy": "Saving…",
+      "saveEdit": "Save changes"
+    },
+    "help": {
+      "body": "On this page, you can create and manage your course assessments and assignments. Use \"New Assessment\" to create one, select it from the list to add questions (multiple choice, short answer, essay), and click \"Publish\" to make it available to students when ready.",
+      "title": "Assessment Builder Help"
+    },
+    "kind": {
+      "assignment": "Assignment",
+      "quiz": "Quiz"
+    },
+    "kpi": {
+      "draft": "Draft",
+      "published": "Published",
+      "total": "Total assessments"
+    },
+    "list": {
+      "empty": "No assessments created yet. Start with \"New Assessment\".",
+      "loading": "Loading...",
+      "newAction": "New Assessment",
+      "title": "Assessment List"
+    },
+    "points": "{points, plural, one {# point} other {# points}}",
+    "pool": {
+      "addAction": "Add Pool",
+      "defaultTitle": "Pool",
+      "difficultyAll": "All",
+      "difficultyEasy": "Easy",
+      "difficultyHard": "Hard",
+      "difficultyLabel": "Difficulty Level",
+      "difficultyMedium": "Medium",
+      "drawCountLabel": "Draw Count",
+      "empty": "No pools defined — this assessment shows all questions to every student. To draw randomly, click \"Add Pool\".",
+      "hint": "If you define pools, a specified number of questions will be randomly selected from each pool for every student. Questions that do not match any filter will always be given to all students. Without pools, all questions are presented. To balance difficulty among students, instead of a single unfiltered pool, create a separate pool for each difficulty level (e.g., 5 easy + 10 medium + 5 hard).",
+      "matchLabel": "Questions matching this filter:",
+      "overdraw": "{count, plural, one { — You requested more draws than available; all # matching question will be presented.} other { — You requested more draws than available; all # matching questions will be presented.}}",
+      "removeAria": "Remove pool",
+      "rowLabel": "Pool {index, number}",
+      "saveAction": "Save Pools",
+      "saveBusy": "Saving...",
+      "saved": "Saved ✓",
+      "tagSeparator": ", ",
+      "tagsLabel": "Tags (comma-separated, optional)",
+      "tagsPlaceholder": "e.g., chapter 2, derivative",
+      "title": "Question Pools (Random Draw)",
+      "titleLabel": "Pool Title",
+      "titlePlaceholder": "e.g., Easy questions"
+    },
+    "publish": {
+      "action": "Publish",
+      "busy": "Publishing...",
+      "confirmBody": "\"{title}\" will immediately be visible and available for students to start; unpublishing is not possible from this page.",
+      "confirmLabel": "Publish Assessment",
+      "confirmTitle": "Publish Assessment?",
+      "confirmWord": "Publish"
+    },
+    "question": {
+      "deleteBody": "This question will be deleted; this action cannot be undone.",
+      "deleteConfirm": "Delete",
+      "deleteFailedTitle": "Deletion Failed",
+      "deleteTitle": "Delete Question"
+    },
+    "questions": {
+      "assignmentNote": "Assignments do not have separate questions; students submit their answers all at once.",
+      "deleteAria": "Delete question",
+      "editAria": "Edit question",
+      "empty": "No questions added yet. Create the first question using the form below.",
+      "explanationLabel": "Answer explanation:",
+      "hintLabel": "Hint:",
+      "loading": "Loading...",
+      "manualBadge": "· Manual grading",
+      "promoteAria": "Add to question bank",
+      "promoteTitle": "Add this question to the question bank",
+      "title": "Assessment questions"
+    },
+    "status": {
+      "closed": "Closed",
+      "draft": "Draft",
+      "published": "Published"
+    },
+    "subtitle": "Build quizzes and assignments for your lessons, add questions, and publish when ready.",
+    "title": "Quiz Builder"
+  },
+  "chain": {
+    "0": "The manager enables the consent form text.",
+    "1": "The manager creates a project and invites candidates.",
+    "2": "The candidate gives consent in \"My Assessment Journey\".",
+    "3": "The manager creates exercises and specifies the competency for each exercise.",
+    "4": "The manager assigns the assessor to \"Candidate × Exercise\".",
+    "5": "The assessor records evidence and grades in their own console.",
+    "6": "The manager advances the candidate's journey status toward summary."
+  },
+  "coi": {
+    "blocked": "Assignment will not be enabled until all three items are checked.",
+    "intro": "All three items must be checked; if even one of them is not true, this assessor should not see this candidate.",
+    "questions": {
+      "0": {
+        "label": "This assessor does not know the candidate in advance (no kinship, friendship, or close working relationship)."
+      },
+      "1": {
+        "label": "They have no direct organizational relationship (neither is the other's manager)."
+      },
+      "2": {
+        "label": "This assessor plays no role in the candidate's employment, promotion, or career trajectory."
+      }
+    },
+    "title": "Conflict of Interest Declaration"
+  },
+  "confirm": {
+    "disableCandidate": {
+      "body": "The invitation for \"{name}*\" will be rescinded and removed from the candidate list and their own \"My Assessment Journey\" page. This action cannot be undone from within the page — but if it was a mistake, you can invite the same person again, only before consent is recorded.",
+      "confirmLabel": "Revoke invitation",
+      "title": "Revoke candidate invitation"
+    },
+    "disableExercise": {
+      "body": "The exercise \"{name}\" will be deactivated and immediately removed from the exercise list, coverage report, and assessor consoles; assignments for this exercise will also be invalidated. This action cannot be undone from within the page. If scores or evidence have already been recorded for this exercise, the system will not allow it.",
+      "confirmLabel": "Deactivate exercise",
+      "title": "Deactivate exercise"
+    }
+  },
+  "console": {
+    "assignedAt": "Assigned: {at}",
+    "candidateFallback": "Candidate",
+    "candidateStatusSuffix": " · Status: {status}",
+    "exerciseFallback": "Exercise",
+    "exerciseTimePrefix": "Exercise time: {at} · ",
+    "eyebrow": "Assessment Center",
+    "lead": "Your task list: Each row means \"observe and grade this candidate in this exercise\". You will not see assignments of other assessors.",
+    "loading": "Loading…",
+    "projectPrefix": "Project: {project}",
+    "projectSuffix": " · Project: {project}",
+    "rateCta": "Submit Evidence and Score",
+    "rosterCta": "List of Assignments for This Exercise",
+    "title": "Assessor Console"
+  },
+  "edgeRatingHint": "Floor and ceiling levels cannot be saved without evidence — please record at least one observation for this competency before \"Final Submission\".",
+  "empty": {
+    "noActiveConsent": {
+      "body": "Creating text is not enough; activate one of the versions so candidates can give consent.",
+      "title": "Consent text created, but no version is active"
+    },
+    "noAssignmentsAssessor": {
+      "body": "The assessor console is populated when the assessment center manager assigns you to a \"Candidate × Exercise\". No action is required from you until then.",
+      "title": "No assignments have been recorded for you yet"
+    },
+    "noCandidates": {
+      "body": "Select a candidate by searching for their name; you do not need to know the ID.",
+      "cta": "Add Candidate",
+      "title": "No candidates in this project yet"
+    },
+    "noCompetenciesOnExercise": {
+      "body": "Without competencies, there is nothing to grade. Exercise competencies are defined from the assessment manager console.",
+      "title": "No competencies defined for this exercise"
+    },
+    "noConsentTexts": {
+      "body": "Candidates cannot give consent until a consent text is created and activated.",
+      "cta": "Write Consent Text",
+      "title": "No consent text has been recorded"
+    },
+    "noExercises": {
+      "body": "An exercise means an interview, group discussion, presentation, and the like. Without exercises, assigning an assessor is not possible.",
+      "cta": "Add Exercise",
+      "title": "No exercises defined yet"
+    },
+    "noJourney": {
+      "body": "If you are waiting for an invitation, your organization's assessment center manager must add you to a project. After the invitation, your status will appear right here.",
+      "title": "You are not a candidate in any assessment process"
+    },
+    "noProjectSelected": {
+      "body": "Open a project from the selector at the top of the page to view its overview, candidates, exercises, and assignments.",
+      "title": "Select a project"
+    },
+    "noProjects": {
+      "body": "A project is the container for candidates and exercises of an assessment cycle. Create one to get started.",
+      "cta": "Create First Project",
+      "title": "You don't have any projects yet"
+    },
+    "noRoster": {
+      "body": "Assigning assessors to candidates is done from the assessment manager console.",
+      "title": "No assignments have been recorded for this exercise yet"
+    }
+  },
+  "err": {
+    "generic": "An error occurred"
+  },
+  "exam": {
+    "done": {
+      "back": "Back",
+      "backCourse": "Back to Course and View Report Card",
+      "expired": "Exam time has expired — answers submitted",
+      "resultCourse": "You can see the result and report card of this exam in the \"Course Exercises and Exams\" section (essay questions will be graded after instructor review).",
+      "resultGrades": "Results will be announced after grading via \"Grades\".",
+      "submitted": "Your exam has been submitted"
+    },
+    "eyebrow": "Proctored Exam",
+    "fallbackTitle": "Exam",
+    "loading": "Loading...",
+    "lobby": {
+      "attemptsLabel": "🔁 Allowed attempts:",
+      "camError": "Could not access the camera. You can continue without it — no images were going to be saved anyway.",
+      "cancel": "Cancel",
+      "cancelBack": "Cancel and return to course",
+      "checkBrowser": "Browser",
+      "checkBrowserOk": "Compatible ✓",
+      "checkFullscreen": "Fullscreen mode",
+      "checkFullscreenOk": "Available ✓",
+      "checkFullscreenUnknown": "Unknown",
+      "checkPresence": "Presence verification",
+      "checkPresenceDone": "Done ✓",
+      "checkPresenceNoCam": "No camera",
+      "checkPresencePending": "Pending verification",
+      "checkTitle": "System check and consent",
+      "confirmPresence": "Verify presence",
+      "consent": "I agree to exam proctoring: page-leave events, tab switching, and copy/pasting, along with the identity matching result (name and national ID compared with system records), are recorded solely for exam integrity and reviewed by the instructor. No images or audio from your camera or microphone are saved or transmitted. Decisions regarding cheating are made by humans, not automated.",
+      "durationLabel": "⏱️ Duration:",
+      "durationMinutes": "{n} minutes",
+      "durationWindow": "Until the end of the exam window",
+      "helpBody": "This is a timed exam. Clicking \"Start\" begins the timer, which cannot be paused. In locked mode, the page enters fullscreen, and leaving the page, switching tabs, or copying is recorded and reported to the instructor.",
+      "helpTitle": "Read before you start",
+      "identityCardTitle": "Presence verification and identity authentication (demo)",
+      "identityLabel": "🪪 Identity auth:",
+      "identityNotRequired": "Not required",
+      "identityRequired": "Required (presence verification + demo guide)",
+      "identityWhat": "The camera feed is only displayed on this device; no photos are taken, saved, or sent. What gets recorded for the instructor is the result of matching your name and national ID with the system profile (demo guide).",
+      "lockdownLabel": "🛡️ Lockdown mode (anti-cheat):",
+      "lockdownOff": "Disabled",
+      "lockdownOn": "Enabled",
+      "presenceDone": "✓ Your presence has been verified. No images were saved or sent; you can start the exam.",
+      "questionCountLabel": "❓ Question count:",
+      "startCta": "Start exam"
+    },
+    "room": {
+      "answeredOf": "{done} of {total} answered",
+      "finish": "Finishing exam...",
+      "flag": "⚐ Flag for review",
+      "flags": "Violations: {n}",
+      "legendAnswered": "✓ Answered",
+      "legendCurrent": "● Current",
+      "legendEmpty": "Empty",
+      "legendFlagged": "⚑ Flagged",
+      "next": "Next question ›",
+      "noQuestions": "This exam has no questions.",
+      "prev": "‹ Previous question",
+      "questionAria": "Question {n}",
+      "questionMeta": "Question {n} of {total} · {points} pts",
+      "reviewFinish": "Review and finish",
+      "saved": "Saved ✓",
+      "saving": "Saving…",
+      "unflag": "⚑ Flagged for review"
+    },
+    "signInCta": "Sign in",
+    "signInLead": "You must sign in to take the exam.",
+    "submit": {
+      "back": "Back to exam",
+      "confirm": "Final submit",
+      "flaggedLabel": "Flagged for review:",
+      "title": "Finish exam",
+      "totalQuestions": "Total questions:",
+      "unansweredHint": " — you can still answer",
+      "unansweredLabel": "Unanswered:",
+      "warning": "Once submitted, answers cannot be changed."
+    },
+    "submitFailedTitle": "Submission failed"
+  },
+  "exerciseKind": {
+    "group_discussion": {
+      "hint": "Several candidates discuss an issue while an assessor observes.",
+      "label": "Group discussion"
+    },
+    "in_basket": {
+      "hint": "The candidate handles a set of simulated letters and tasks.",
+      "label": "In-basket"
+    },
+    "interview": {
+      "hint": "A structured conversation between the assessor and the candidate.",
+      "label": "Interview"
+    },
+    "presentation": {
+      "hint": "The candidate delivers a presentation on a topic.",
+      "label": "Presentation"
+    },
+    "role_play": {
+      "hint": "The candidate takes on a role in a simulated situation.",
+      "label": "Role play"
+    },
+    "tool": {
+      "hint": "Standardized test or questionnaire.",
+      "label": "Tool test"
+    }
+  },
+  "formHint": {
+    "assessorRatio": "Optional — maximum number of candidates per assessor. This is only for coverage report warnings and does not block work.",
+    "assessorSearch": "Type the assessor's name (at least 3 characters) and select. This person must have the \"Assessor\" role (or assessment manager/admin), otherwise the assignment will not be saved.",
+    "candidateSearch": "Type the person's name or email (at least 3 characters) and select from the list.",
+    "clientOrg": "Optional — name of the client organization, if this center is held for another organization.",
+    "competencyPick": "Check the competencies that this exercise assesses.",
+    "consentBody": "Text that the candidate reads and accepts before starting.",
+    "consentVersion": "Version number, e.g. \"v1\". A new version deactivates the previous one.",
+    "exerciseDuration": "Optional — Duration of the exercise in minutes.",
+    "exerciseName": "The name assessors see, e.g., \"Competency-based Interview\".",
+    "exerciseSchedule": "Optional — Date and time of the session.",
+    "jobFamily": "Optional — Target job family for this project; leave blank if unsure.",
+    "minMethods": "Optional — Minimum number of methods each competency should be assessed with. This is an advisory warning only.",
+    "projectCode": "A short, unique identifier for your own use, e.g., \"AC-1404-01\".",
+    "projectName": "The name shown in lists, e.g., \"Middle Managers Assessment Center — Fall\".",
+    "withdrawReason": "The withdrawal reason is required and will be permanently recorded in the event log."
+  },
+  "glossary": {
+    "0": {
+      "meaning": "A method for evaluating individuals where multiple assessors observe a single person across different exercises and score them independently.",
+      "term": "Assessment Center"
+    },
+    "1": {
+      "meaning": "A complete assessment center cycle for a specific group of individuals; container for candidates and exercises.",
+      "term": "Project"
+    },
+    "2": {
+      "meaning": "The individual being assessed in this project. Each candidate has a \"journey\" with sequential statuses.",
+      "term": "Candidate"
+    },
+    "3": {
+      "meaning": "An assessment activity such as an interview, group discussion, presentation, or in-basket.",
+      "term": "Exercise"
+    },
+    "4": {
+      "meaning": "The observable capability being assessed (e.g., \"Decision Making\" or \"Teamwork\"). Each exercise assesses multiple competencies.",
+      "term": "Competency"
+    },
+    "5": {
+      "meaning": "A person who observes the candidate during an exercise and scores them independently of other assessors.",
+      "term": "Assessor"
+    },
+    "6": {
+      "meaning": "The link between \"this assessor × this candidate × this exercise\". The only thing that grants the assessor permission to record evidence and scores.",
+      "term": "Allocation"
+    },
+    "7": {
+      "meaning": "An objective behavioral note recorded by the assessor during the exercise; serves as the basis for the score.",
+      "term": "Evidence"
+    },
+    "8": {
+      "meaning": "Text accepted by the candidate before starting. Defined at the organization level, not the project; only one version is active at any time.",
+      "term": "Consent Form"
+    },
+    "9": {
+      "meaning": "An advisory report on how many methods assess each competency and whether any assessor's workload exceeds the target. It is a warning, not a blocker.",
+      "term": "Assessment Coverage"
+    },
+    "10": {
+      "meaning": "A meeting where assessors gather after exercises conclude to reach an agreed (consensus) score for each candidate × competency.",
+      "term": "Wash-up"
+    },
+    "11": {
+      "meaning": "The final score determined during the wash-up meeting through group consensus, replacing the raw scores of individual assessors.",
+      "term": "Consensus"
+    },
+    "12": {
+      "meaning": "When the range of raw scores from different assessors for a candidate × competency is wide (discrepancy) — an indication that further discussion is needed before recording the consensus score.",
+      "term": "Variance"
+    }
+  },
+  "help": {
+    "chainHeading": "The complete journey, from start to finish",
+    "glossaryHeading": "Glossary",
+    "helpCta": "Help",
+    "ifEmptyHeading": "If the page is empty",
+    "rolesHeading": "Who does what",
+    "youCanHeading": "What you can do here"
+  },
+  "hub": {
+    "cta": {
+      "assignment": "Submit assignment",
+      "closed": "Closed",
+      "exam": "Enter exam",
+      "quiz": "Start quiz"
+    },
+    "due": "Due: {date}",
+    "empty": "No published exams are available for you.",
+    "eyebrow": "Education · Assessment & Evaluation",
+    "help": {
+      "body": "This is a list of published exams and assignments. Proctored exams run in a timed exam room with identity verification; quizzes and assignments are on the response page. You must be enrolled in the relevant course to enter.",
+      "title": "Exam Guide"
+    },
+    "kpi": {
+      "open": "Open",
+      "proctored": "Proctored",
+      "total": "Total"
+    },
+    "lead": "Exams and assignments available to you. To begin, click \"Enter exam\".",
+    "loadError": "Failed to load exams",
+    "loading": "Loading…",
+    "minutes": "{n} minutes",
+    "points": "{n} points",
+    "status": {
+      "closed": "Closed",
+      "draft": "Draft",
+      "published": "Open"
+    },
+    "title": "Exams & Evaluations",
+    "type": {
+      "assignment": "Assignment",
+      "proctored": "Proctored exam",
+      "quiz": "Quiz"
+    }
+  },
+  "journey": {
+    "consentCta": "Accept consent form",
+    "consentIntro": "To begin, you must read and accept the text below. Until this is done, your process will not proceed.",
+    "eyebrow": "Assessment Center",
+    "lastChangeLabel": "Last status change:",
+    "lead": "Your status in the competency assessment process. The only action required on your part is accepting the consent form; the organizer will record the remaining steps.",
+    "loading": "Loading…",
+    "noActionNeeded": "No action is required from you; the organizer will record the next step.",
+    "noActiveConsent": "No active consent form available — this means the organizer has not yet activated the consent text. No action is required from you until then.",
+    "title": "My Assessment Journey"
+  },
+  "judge": {
+    "badge": {
+      "running": "Judging…"
+    },
+    "case": {
+      "hiddenSuffix": "(hidden)",
+      "label": "Case {n}",
+      "stats": "{ms}ms · {points} points"
+    },
+    "hidden": {
+      "summary": "Hidden cases: {passed} of {total} passed"
+    },
+    "score": "Score: {score} of {max}",
+    "title": "Automatic Code Judging",
+    "verdict": {
+      "accepted": "Accepted",
+      "compile_error": "Compilation Error",
+      "error": "Judging Error",
+      "mle": "Memory Limit Exceeded",
+      "runtime_error": "Runtime Error",
+      "tle": "Time Limit Exceeded",
+      "wrong_answer": "Wrong Answer"
+    }
+  },
+  "live": {
+    "ai": {
+      "confidence": "Confidence:",
+      "humanReview": "Requires human review",
+      "note": "This is only a suggestion — the final grade requires instructor approval.",
+      "requestCta": "Request Draft",
+      "suggested": "Suggested grade:",
+      "title": "AI Grading Draft"
+    },
+    "assignment": {
+      "add": "Add file",
+      "filesLabel": "Attached files (PDF, Word, image, ZIP — max 5 MB)",
+      "remove": "Remove",
+      "textLabel": "Your response (text)",
+      "textPlaceholder": "Write your assignment explanation/response (optional if attaching a file)…"
+    },
+    "attach": {
+      "badType": "File type not allowed (PDF, image, Word, ZIP, or text).",
+      "readFailed": "Failed to read file.",
+      "tooLarge": "File size must be less than 5 MB.",
+      "tooMany": "Maximum 8 files allowed."
+    },
+    "backCatalog": "Back to catalog",
+    "backCourse": "Back to course",
+    "confirm": {
+      "body": "Once submitted, your responses cannot be changed.",
+      "cancelLabel": "Cancel",
+      "confirmLabel": "Submit",
+      "title": "Final Submission"
+    },
+    "due": "Due: {date}",
+    "finalGrade": "Final grade",
+    "help": {
+      "body": "On this page, you answer test questions. For multiple-choice questions, select one option, and for descriptive questions, write your response. Use \"Save Draft\" to temporarily keep your responses and \"Submit\" to turn in the test; after final submission, changes are not allowed and the automatic grade will be displayed.",
+      "title": "Test Answering Guide"
+    },
+    "loading": "Loading...",
+    "noQuestions": "This test has no questions yet.",
+    "notice": {
+      "aiFailed": "Analysis failed",
+      "draftFailed": "Save failed",
+      "gradeMsg": "Grade: {grade} out of 100",
+      "pendingMsg": "Results will be published after review.",
+      "submitFailed": "Submission failed",
+      "submittedTitle": "Submitted"
+    },
+    "outOf100": "/ 100",
+    "points": "{n} point, plural: {n, plural, one {{n} point} other {{n} points}}",
+    "questionMeta": "Question {n} · {points} pts",
+    "saveDraft": "Save draft",
+    "signIn": {
+      "cta": "Sign in",
+      "title": "Sign in to take the test"
+    },
+    "status": {
+      "draft": "Draft",
+      "graded": "Graded",
+      "submitted": "Submitted"
+    },
+    "submitFinal": "Submit final",
+    "submitting": "Submitting..."
+  },
+  "notice": {
+    "assignmentCreated": "Assignment recorded. The assessor will now see this row in their console.",
+    "candidateAdded": "Candidate invited. Next step: define their exercises and competencies.",
+    "candidateDisabled": "Candidate invitation revoked. If this was a mistake, you can invite the same person again.",
+    "competenciesSaved": "Exercise competencies saved. Next step: assign an assessor to the candidate.",
+    "consentActivated": "Consent form activated. Next step: create a project and invite candidates.",
+    "consentCreatedInactive": "Consent form created — but not active yet. Next step: click \"Activate\" on this version.",
+    "exerciseAdded": "Exercise added. Next step: select the competencies for this exercise.",
+    "exerciseDisabled": "Exercise disabled and removed from lists and coverage reports.",
+    "exerciseUpdated": "Exercise updated.",
+    "projectActivated": "Project activated. Setup is complete.",
+    "projectClosed": "Project closed.",
+    "projectCreated": "Project created. Next step: invite candidates.",
+    "projectUpdated": "Project details updated.",
+    "transitionApplied": "Candidate status updated."
+  },
+  "pageHelp": {
+    "adminConsole": {
+      "ifEmpty": "If you don't see any projects, nothing has been created yet. Start from step two of the checklist.",
+      "intro": "This page is the assessment center control room. First, open a project using the selector at the top, then work on that project within the \"Overview\", \"Candidates\", \"Exercises\", and \"Assignments\" tabs. The \"Settings\" tab is at the organization level and is not tied to a project. The entire setup has six steps, and the \"Overview\" checklist always shows which step has been completed and which one is next.",
+      "title": "Assessment Admin Console Guide",
+      "youCan": {
+        "0": "Write and activate a consent form.",
+        "1": "Create, activate, or close an assessment project.",
+        "2": "Invite a candidate by searching for their name (no need to know any IDs).",
+        "3": "Create exercises and select their competencies from the list.",
+        "4": "Assign an assessor to \"candidate × exercise\".",
+        "5": "Advance each candidate's journey status by one step.",
+        "6": "View the consultative coverage report.",
+        "7": "In the \"Reports & Publication\" tab, view the R2 report and publish or cancel after consensus.",
+        "8": "In the \"Analytics\" tab, view the aggregate report, inter-rater reliability (ICC), assessor calibration, and candidate rankings.",
+        "9": "Undo mistakes: edit project and exercise details, disable redundant exercises, and revoke incorrect invitations before consent is recorded."
+      }
+    },
+    "assessorConsole": {
+      "ifEmpty": "If this list is empty, the assessment center manager has not yet assigned you to any candidate × exercise. Until that assignment is made, there is nothing for you to do on this page.",
+      "intro": "This is your personal to-do list: each row means \"you need to observe and score this candidate in this exercise.\" You won't see other assessors' assignments — this is intentional to preserve scoring independence.",
+      "title": "Assessor Console Guide",
+      "youCan": {
+        "0": "View the list of exercises and candidates assigned to you.",
+        "1": "Enter the scoring sheet for each row, record evidence, and assign scores.",
+        "2": "In the \"My Calibration\" card, view your own scoring bias and accuracy relative to the consensus score (your data only — without comparison to other assessors)."
+      }
+    },
+    "candidateJourney": {
+      "ifEmpty": "If you don't see anything here, it means you haven't been invited as a candidate to any assessment project yet. The invitation is managed by the organization's assessment center manager.",
+      "intro": "This page shows your status in the assessment process. As each step is completed, your status advances. The only action you need to take yourself is accepting the consent form; the rest of the steps are recorded by the organizer.",
+      "title": "My Assessment Journey Guide",
+      "youCan": {
+        "0": "See your current status and what it means.",
+        "1": "In the first step, read and accept the consent form."
+      }
+    },
+    "managerReport": {
+      "ifEmpty": "If no competency is displayed, it means this candidate does not yet have a completed wash-up session from which a consensus score can be extracted.",
+      "intro": "Unlike the published report, this page is never shown to the candidate. Here you can see the consensus score for each competency along with the session discussion notes, recorded narrative, and statistical discrepancy badge (comparing the consensus score with the mechanical mean/median of raw scores) — for reviewing the quality of the consensus process itself, not for public display.",
+      "title": "Internal Manager Report Guide (R2)",
+      "youCan": {
+        "0": "View the consensus score for each competency and the wash-up session discussion notes.",
+        "1": "Review the result narrative recorded for the candidate.",
+        "2": "Check the discrepancy badge and the mechanical mean/median of each competency for quality review."
+      }
+    },
+    "myReport": {
+      "ifEmpty": "If you don't see a report, it means either your assessment process is not yet complete or the assessment center manager has not yet published the report.",
+      "intro": "This page shows your published assessment report. The content of the report is frozen by the assessment center manager at the moment of publication; any badge next to a competency indicates how many observations this level was derived from and whether it is based on the final key/definition or a draft.",
+      "title": "My Assessment Report Guide",
+      "youCan": {
+        "0": "View your published report for any project/cycle in which you were a candidate.",
+        "1": "Read the transparency badge for each competency to understand where the result came from.",
+        "2": "Print the report or save it to PDF."
+      }
+    },
+    "rating": {
+      "ifEmpty": "If no competency is displayed, it means no competency has been defined for this exercise yet; the assessment center manager must do this.",
+      "intro": "Here, for a candidate in an exercise, you first record behavioral evidence (objective notes of what you saw) and then score each competency. The score remains editable until it is \"finalized\"; after finalization, the level can only be modified by submitting a reason.",
+      "title": "Evidence and Scoring Guide",
+      "youCan": {
+        "0": "Record behavioral evidence.",
+        "1": "Write and save the level and justification for each competency.",
+        "2": "Finalize the score (one-way action).",
+        "3": "After finalization, modify the level if necessary by submitting a reason."
+      }
+    },
+    "roster": {
+      "ifEmpty": "If there are no rows, it means no assessment has been assigned to this exercise yet; this is done from the assessment manager's console.",
+      "intro": "This page shows which assessor is observing which candidate in a specific exercise. The manager sees all rows; an assessor only has access to this page if they are assigned to this same exercise.",
+      "title": "Exercise Assignments List Guide",
+      "youCan": {
+        "0": "See how many assignments an exercise has and how many assessors each candidate has.",
+        "1": "Distinguish your own rows from the rest.",
+        "2": "Go to the scoring sheet of your own rows."
+      }
+    },
+    "washup": {
+      "ifEmpty": "If you don't see this session, it means you haven't been added as a participant yet; this is done by the assessment center manager.",
+      "intro": "This room is the assessors' debrief session: the manager sets the agenda and opens the session; then the participants (manager and member assessors) discuss each candidate × competency and record a consensus score. The session is locked with two separate approvals, after which the summary is final.",
+      "title": "Wash-up Room Guide",
+      "youCan": {
+        "0": "View the agenda (candidates) and participants, or — if you are a manager — edit them.",
+        "1": "For each candidate × competency, view the assessors' raw scores, deviation range, and calculated recommendation.",
+        "2": "If you are a manager, record the consensus score with discussion notes and lock the session.",
+        "3": "After locking, go to the R2 report to view and publish."
+      }
+    }
+  },
+  "proctor": {
+    "action": {
+      "cleared": "Cleared (Normal)",
+      "concern": "Flag as Concern",
+      "undo": "Undo Review"
+    },
+    "analysis": {
+      "basis": "Based on {n} finalized answer sheet(s). The percentage correct is calculated only for automated questions.",
+      "manual": "Manual",
+      "percent": "{n}%",
+      "thCorrect": "% Correct",
+      "thKind": "Type",
+      "thPoints": "Score",
+      "thQuestion": "Question",
+      "thResponses": "Responses",
+      "title": "Question Analysis"
+    },
+    "builderCta": "Quiz Builder",
+    "decision": {
+      "cleared": "Cleared (Normal)",
+      "concern": "Concern"
+    },
+    "empty": "No one has taken this assessment yet.",
+    "event": {
+      "context_menu": "Right-click",
+      "copy": "Copy",
+      "cut": "Cut",
+      "fullscreen_exit": "Exit Fullscreen",
+      "paste": "Paste",
+      "tab_blur": "Tab Blur",
+      "window_blur": "Window Blur"
+    },
+    "eyebrow": "Proctoring · Human Review",
+    "fallbackTitle": "Assessment",
+    "help": {
+      "body": "The system only \"flags\" events (leaving the page, switching tabs, copying, etc.); the final decision is up to you. You can mark each item as \"Cleared (Normal)\" or \"Concern\" and leave a note. Being flagged does not automatically mean cheating, and no automatic expulsion or grading is applied.",
+      "title": "Proctor Review Guide"
+    },
+    "identity": {
+      "failed": "Failed",
+      "partial": "Partial",
+      "verified": "✓ Verified"
+    },
+    "kpi": {
+      "attempts": "Attempts",
+      "flagged": "Flagged",
+      "reviewed": "Reviewed"
+    },
+    "lead": "Review recorded events and make a decision for each participant. No decisions are made automatically.",
+    "loading": "Loading...",
+    "noEvents": "No suspicious events recorded.",
+    "notePlaceholder": "Review note (optional)...",
+    "notice": {
+      "failedTitle": "Submission Failed",
+      "savedMsg": "Review decision saved",
+      "savedTitle": "Saved"
+    },
+    "refreshCta": "Refresh",
+    "reviewedAt": "Last reviewed: {date}",
+    "row": {
+      "close": "Close details",
+      "flags": "{n} flag, plural {n} flags",
+      "identity": "Identity: {value}",
+      "openEvents": "View events ({n})",
+      "status": "Status: {value}"
+    },
+    "status": {
+      "expired": "Expired",
+      "running": "In progress",
+      "submitted": "Submitted"
+    },
+    "title": "Assessment review: {title}"
+  },
+  "projectStatus": {
+    "active": {
+      "label": "Active",
+      "meaning": "Execution is in progress."
+    },
+    "closed": {
+      "label": "Closed",
+      "meaning": "The project has ended."
+    },
+    "draft": {
+      "label": "Draft",
+      "meaning": "In preparation; execution has not started yet."
+    }
+  },
+  "qfields": {
+    "choice": {
+      "addOption": "Add option",
+      "correctAria": "Option {n} is correct",
+      "feedbackHide": "Hide option feedback",
+      "feedbackNote": "Feedback for each option is displayed after the student answers (when reviewing results) — it is never sent before answering.",
+      "feedbackPlaceholder": "Option {n} feedback (optional — displayed when reviewing results)",
+      "feedbackShow": "Feedback for each option (optional)",
+      "labelMulti": "Options (check all correct answers)",
+      "labelSingle": "Options (select the correct answer)",
+      "optionPlaceholder": "Option {n}"
+    },
+    "code": {
+      "addTest": "Add test case",
+      "expectedLabel": "Expected output",
+      "hiddenLabel": "Hidden",
+      "judgeLangNote": "Automatic grading is only available for python / javascript / c / cpp languages.",
+      "judgeNote": "The student code is run against each test case; if the program output matches the expected output, points are awarded for that case. Hidden cases are not shown to the student.",
+      "judgeToggle": "Automatic grading (Online Judge)",
+      "languageLabel": "Language",
+      "memLimitLabel": "Memory limit (MB)",
+      "pointsLabel": "Points",
+      "refLabel": "Reference solution (optional)",
+      "refPlaceholder": "# Reference solution for grading…",
+      "removeTestAria": "Remove case {n}",
+      "stdinLabel": "Input (stdin)",
+      "testTitle": "Test case {n}",
+      "timeLimitLabel": "Time limit (ms)"
+    },
+    "dragDrop": {
+      "addItem": "Add item",
+      "addTarget": "Add target",
+      "itemPlaceholder": "Item {n}",
+      "itemsLabel": "Items",
+      "keyLabel": "Key — Which target does each item belong to?",
+      "note": "Each \"item\" must be assigned to a \"target\". Students can drag and drop or select from the list (accessible).",
+      "targetPlaceholder": "Target {n}",
+      "targetsLabel": "Targets"
+    },
+    "fillBlank": {
+      "answerPlaceholder": "Blank answer {n}",
+      "none": "There are no blanks (___) in the question text yet.",
+      "note": "Indicate each blank in the \"question stem\" using three underscores <b>___</b>. Then enter the answer for each blank in order.",
+      "rowLabel": "Blank {n}"
+    },
+    "formula": {
+      "refLabel": "Reference answer (optional)",
+      "refPlaceholder": "e.g.: a^2 + b^2 = c^2"
+    },
+    "hotspot": {
+      "addRegion": "Add region",
+      "axis": {
+        "h": "Height %",
+        "w": "Width %",
+        "x": "Horizontal %",
+        "y": "Vertical %"
+      },
+      "changeImage": "Change image",
+      "correctAria": "Region {n} correct",
+      "emptyNote": "Upload an image, then define clickable regions and mark the correct region.",
+      "labelPlaceholder": "Region label {n}",
+      "regionDefaultLabel": "Region {n}",
+      "removeRegion": "Remove region",
+      "tooLargeMsg": "Maximum {mb} MB",
+      "tooLargeTitle": "Image is too large",
+      "uploadImage": "Upload image"
+    },
+    "list": {
+      "removeRow": "Remove"
+    },
+    "manual": {
+      "essay": "Students write an essay response; grading is done manually (or via AI draft).",
+      "fileUpload": "Students upload a file as their response; grading is manual.",
+      "formula": "Students enter a mathematical expression; grading is manual. Optionally, enter a reference answer for easier grading."
+    },
+    "matching": {
+      "add": "Add",
+      "itemPlaceholder": "Item {n}",
+      "keyLabel": "Matching key — Select the correct match for each right-hand item",
+      "leftLabel": "Right column (items)",
+      "matchPlaceholder": "Match {n}",
+      "rightLabel": "Left column (matches)"
+    },
+    "numeric": {
+      "toleranceLabel": "Allowed tolerance (±)",
+      "valueLabel": "Numeric answer",
+      "valuePlaceholder": "e.g., 3.14"
+    },
+    "ordering": {
+      "add": "Add item",
+      "itemPlaceholder": "Item {n} (position {n})",
+      "label": "Enter items in the correct order (will be displayed scrambled to students)"
+    },
+    "shortAnswer": {
+      "add": "Add alternative answer",
+      "label": "Accepted answers (each counts as correct — case-insensitive)",
+      "placeholder": "A correct answer…"
+    },
+    "trueFalse": {
+      "false": "False",
+      "label": "Correct answer",
+      "true": "True"
+    }
+  },
+  "qkind": {
+    "code": {
+      "hint": "Code — manual grading (automated evaluation later)",
+      "label": "Code/Program"
+    },
+    "drag_drop": {
+      "hint": "Assign items to targets (with click-to-replace)",
+      "label": "Drag and Drop"
+    },
+    "essay": {
+      "hint": "Long answer — manual grading",
+      "label": "Essay"
+    },
+    "file_upload": {
+      "hint": "Upload answer file — manual grading",
+      "label": "File Upload"
+    },
+    "fill_blank": {
+      "hint": "Text with ___; each blank has an answer",
+      "label": "Fill in the Blank"
+    },
+    "formula": {
+      "hint": "Mathematical expression — manual grading",
+      "label": "Formula/Math"
+    },
+    "hotspot": {
+      "hint": "Click on the correct area of an image",
+      "label": "Hotspot"
+    },
+    "matching": {
+      "hint": "Connect items from two columns",
+      "label": "Matching"
+    },
+    "multi_select": {
+      "hint": "Multiple correct options (checkboxes)",
+      "label": "Multi-Select"
+    },
+    "multiple_choice": {
+      "hint": "One or more correct answers from options",
+      "label": "Multiple Choice"
+    },
+    "numeric": {
+      "hint": "A number with allowed tolerance (automatic)",
+      "label": "Numeric"
+    },
+    "ordering": {
+      "hint": "Arrange items in the correct order",
+      "label": "Ordering"
+    },
+    "short_answer": {
+      "hint": "A word/phrase; exact match (automatic)",
+      "label": "Short Answer"
+    },
+    "true_false": {
+      "hint": "Two options: True or False",
+      "label": "True/False"
+    }
+  },
+  "qvalid": {
+    "dragDropKey": "Select the correct target for each item.",
+    "dragDropMin": "At least one item and one target are required.",
+    "fillBlankAll": "Enter answers for all blanks.",
+    "fillBlankMin": "Include at least one blank in the question text using ___ (three underscores).",
+    "hotspotCorrect": "Mark the correct region.",
+    "hotspotImage": "Upload an image.",
+    "hotspotRegion": "Define at least one region on the image.",
+    "judgeLanguage": "For automated judging, the language must be one of python/javascript/c/cpp.",
+    "judgeMaxPoints": "The maximum points for each test case is {n}.",
+    "judgeMaxTests": "A maximum of {n} test cases is allowed.",
+    "judgePointsMin": "Points for each test case must be at least 1.",
+    "judgeTestsMin": "Automated judging requires at least one test case with an expected output.",
+    "matchingColumns": "Each column requires at least two items.",
+    "matchingKey": "Select the correct match from the list for each item.",
+    "multiSelectCorrect": "Mark at least one correct option.",
+    "numericTolerance": "Tolerance must be a non-negative number.",
+    "numericValue": "Enter a valid numeric answer.",
+    "optionsMin": "At least two options are required.",
+    "orderingMin": "At least two items are required for ordering.",
+    "pointsMin": "The score must be at least 1.",
+    "promptMin": "The prompt must be at least 2 characters.",
+    "shortAnswerMin": "Enter at least one accepted answer.",
+    "singleCorrect": "Select the correct option."
+  },
+  "rating": {
+    "badgeDraft": "Draft",
+    "badgeSubmitted": "Submitted",
+    "cancel": "Cancel",
+    "correctCta": "Revise Score",
+    "correctedLevelLabel": "Revised Level",
+    "correctionReasonHint": "Required — The reason will be permanently recorded in the audit log.",
+    "correctionReasonLabel": "Reason for Revision",
+    "correctionReasonRequired": "The reason for revision is required.",
+    "correctionSubmit": "Save Revision",
+    "eyebrow": "Assessment Hub · Evidence & Scoring",
+    "justificationHint": "Required — Describe the behavior that justifies this level.",
+    "justificationLabel": "Score Justification",
+    "justificationRequired": "Score justification is required.",
+    "loading": "Loading…",
+    "saveDraft": "Save Draft",
+    "submitFinal": "Submit Final",
+    "submitFinalWarning": "\"Submit Final\" is irreversible; afterwards, the level can only be modified by recording a reason."
+  },
+  "report": {
+    "analytics": {
+      "aggregateEmpty": "No aggregate data has been recorded yet to display the summary report.",
+      "aggregateTitle": "Project Summary Report",
+      "assessorColumn": "Assessor",
+      "audienceInternal": "Internal (Assessment Manager)",
+      "audienceSupervisory": "Supervisory (Client)",
+      "calibrationBiasColumn": "Bias",
+      "calibrationEmpty": "No assessor has recorded scores yet.",
+      "calibrationNColumn": "Score Count",
+      "calibrationPrecisionColumn": "Precision",
+      "calibrationTitle": "Assessor Calibration (Holistic ↔ Mechanical)",
+      "calibrationUnavailable": "Insufficient data to estimate calibration (at least {minN, number} score required).",
+      "candidateColumn": "Candidate",
+      "competencyColumn": "Competency",
+      "exerciseColumn": "Exercise",
+      "iccEmpty": "No exercise×competency combination has recorded scores yet.",
+      "iccMethodNote": "Method: ICC(1,1) — One-way random effects, absolute agreement, single assessor.",
+      "iccTitle": "Inter-Rater Reliability (ICC)",
+      "iccUnavailable": "Insufficient data to estimate reliability (at least {minN, number} candidate required).",
+      "meanColumn": "Mean Level",
+      "myCalibrationBody": "This card shows only your own data — neither candidate rows nor comparisons with other assessors.",
+      "myCalibrationTitle": "My Calibration",
+      "nColumn": "Candidate Count",
+      "rankColumn": "Rank",
+      "rankingEmpty": "No candidate has an aggregate score yet.",
+      "rankingOnlyManager": "This table is exclusively for the assessment manager and will never appear in the candidate report or the client summary version.",
+      "rankingTitle": "Candidate Ranking",
+      "scoreColumn": "Weighted Ranking Score",
+      "suppressedNote": "To maintain confidentiality, this row is hidden for cohorts smaller than the threshold.",
+      "tieNote": "In case of a tie in scores, the display order is based on the candidate's name."
+    },
+    "badge": {
+      "coverage": {
+        "no": "{percent, number}% of items had a valid key."
+      },
+      "provisionalDefinition": "The definition of this competency is provisional and will be finalized upon receipt of the official booklet.",
+      "provisionalKey": "The interpretation of the test section is based on the preliminary version key and will be reviewed upon arrival of the official key.",
+      "sourceCount": {
+        "no": "This level has been recorded based on the qualitative summary of the session.",
+        "yes": "This level was obtained from {n, number} independent observations."
+      }
+    },
+    "batch": {
+      "cta": "Batch Publish",
+      "failedReasonLabel": "Failure Reason",
+      "heading": "Batch Publish from a Wash-up Session",
+      "lockedCount": {
+        "no": "There are no locked candidates to publish in this session.",
+        "yes": "{n, number} locked candidate in this session is ready to be published."
+      },
+      "resultHeading": "Result of the Last Batch Publish",
+      "sessionSelectLabel": "Wash-up session"
+    },
+    "confirm": {
+      "publish": {
+        "body": "The report for \"{candidateName}\" will be published and will henceforth be visible to the candidate themselves and assessment managers. The content is frozen at this exact moment; subsequent edits to the narrative will only affect the next explicit publication.",
+        "confirmLabel": "Publish report",
+        "title": "Publish assessment report"
+      },
+      "publishBatch": {
+        "body": "The reports for {count, number} ready candidate(s) of this session will be published. Any candidate whose prerequisites are incomplete will be skipped without stopping the others, and listed accordingly.",
+        "confirmLabel": "Publish all",
+        "title": "Batch publish reports"
+      },
+      "revoke": {
+        "body": "The published report for \"{candidateName}\" will be revoked; they will no longer see this version. This action cannot be undone — a new version must be published to display it again.",
+        "confirmLabel": "Revoke publication",
+        "title": "Revoke report publication"
+      }
+    },
+    "empty": {
+      "noCandidateSelected": {
+        "body": "The preview, narrative, publication, and version history of the selected candidate will be shown here.",
+        "title": "Select a candidate from the list"
+      },
+      "noNarrativeYet": "No narrative has been written for this competency yet.",
+      "noPublicationsManager": {
+        "body": "After completing the narrative (optional) and previewing, publish the report.",
+        "title": "No version published yet"
+      },
+      "noReportCandidate": {
+        "body": "The assessment report will be published after the process is completed and approved by the assessment center manager.",
+        "title": "No report has been published for you yet"
+      },
+      "noWashupSessions": {
+        "body": "Batch publication is performed using locked candidates from a wash-up session; first, create a session from the \"Wash-up\" tab.",
+        "title": "There are no wash-up sessions for this project yet"
+      },
+      "pickCandidacy": {
+        "body": "Select one of the files below to view its corresponding report.",
+        "title": "You have more than one assessment file"
+      }
+    },
+    "history": {
+      "empty": "No versions have been published yet.",
+      "releasedAtColumn": "Release date",
+      "releasedByColumn": "Published by",
+      "revokedByLine": "Revoked by {name} on {dateFa}",
+      "revokedReasonLabel": "Reason for revocation",
+      "statusActive": "Active",
+      "statusColumn": "Status",
+      "statusRevoked": "Revoked",
+      "title": "Published version history",
+      "versionColumn": "Version",
+      "viewCta": "View this version"
+    },
+    "label": {
+      "backToLatestCta": "Back to current version",
+      "candidacySelectorLabel": "Project / assessment cycle",
+      "candidateReportTitle": "Assessment report for \"{name}\"",
+      "candidatesHeading": "Candidates",
+      "consentLine": "Consent for version {version} — {dateFa}",
+      "definitionHeading": "Competency definition",
+      "disclaimerHeading": "Important note",
+      "indicatorsHeading": "Behavioral indicators",
+      "levelLabel": "Level",
+      "loading": "Loading...",
+      "multipleReportsHeading": "Your Assessment Files",
+      "myReportPageLead": "Your published assessment report — content was frozen by the Assessment Center manager at the time of publication.",
+      "myReportPageTitle": "My Assessment Report",
+      "narrativeEditHeading": "Edit Result Narrative",
+      "narrativeEmpty": "No written narrative has been recorded for this competency.",
+      "narrativeHeading": "Result Narrative",
+      "narrativeSaveCta": "Save Narrative",
+      "pageEyebrow": "Assessment Center",
+      "previewBadge": "Preview — Not Yet Published",
+      "printCta": "Print / Save PDF",
+      "publishCta": "Publish Report",
+      "publishedByLine": "Published by {name} on {dateFa}",
+      "radarAriaTitle": "Score of {count, number} assessment competencies",
+      "revokeCta": "Unpublish",
+      "revokeReasonPlaceholder": "Enter the reason for unpublishing — it will be recorded in the history.",
+      "revokedCandidacyFallbackTitle": "Revoked Assessment File",
+      "scaleMaxSuffix": "out of {max, number}",
+      "viewFullReportCta": "View full internal report (R2)",
+      "viewingVersionBanner": "Viewing version {version, number} — this is not the current version.",
+      "weightSuffix": "Weight {permille, number}‰"
+    },
+    "manager": {
+      "activePublicationLine": "Current published version: {version, number} — {dateFa}",
+      "backCta": "Back to Reports tab",
+      "candidateFallbackName": "Anonymous Candidate",
+      "candidateNarrativeEmpty": "No narrative has been recorded yet.",
+      "candidateNarrativeHeading": "Result Narrative Recorded for Candidate",
+      "consensusLevelLabel": "Consensus Level",
+      "discrepancyLabel": "Discrepancy",
+      "discrepancyNo": "None",
+      "discrepancyYes": "Yes",
+      "discussionNoteEmpty": "No notes have been recorded.",
+      "discussionNoteHeading": "Session Discussion Note",
+      "fullReportTitle": "Internal Report of \"{name}\"",
+      "lockedAtLabel": "Lock Time",
+      "mechanicalMeanLabel": "Mechanical Mean",
+      "mechanicalMedianLabel": "Mechanical Median",
+      "neverShownBanner": "This report is never shown to the candidate or employer — it is for the assessment manager only.",
+      "noActivePublication": "No version has been published for this candidate yet.",
+      "noCompetencies": {
+        "body": "This candidate does not yet have a completed wash-up session from which consensus scores can be extracted.",
+        "title": "No consensus data has been recorded yet"
+      },
+      "notLockedYet": "Not locked yet.",
+      "pendingCorrectionBadge": "A pending correction has been recorded for this row."
+    },
+    "notice": {
+      "batchReleased": {
+        "no": "{released, number} report published; {failed, number} failed.",
+        "yes": "{released, number} report published."
+      },
+      "narrativeAppliesNextVersion": "This narrative does not affect the currently published version; it applies only to the next explicit release.",
+      "narrativeSaved": "Narrative saved.",
+      "published": "Report published.",
+      "revoked": "Publication revoked; this candidate no longer sees a report."
+    }
+  },
+  "result": {
+    "backToHistory": "Back to result history",
+    "coverageLine": "Score calculated out of {scored, number} of {total, number}{unit}.",
+    "eyebrow": "Competency Assessment · Result",
+    "genericError": "An error occurred",
+    "myHistoryCta": "My Result History",
+    "notFound": "Not found.",
+    "pageTitle": "Assessment Result",
+    "pendingHeading": "Your responses have been recorded",
+    "pendingMessage": "Your responses have been saved carefully. The scoring key for this tool is not yet available; as soon as it is added, the analysis of these responses will be displayed here.",
+    "privacyNote": "This result is visible only to you.",
+    "resultHeading": "Your Result",
+    "scoreOfMax": "{value, number} of {max, number}",
+    "scoreOnly": "{value, number}",
+    "selfKnowledgeNote": "This result is for self-knowledge, not a judgment.",
+    "subscaleAria": "{label}: {score}",
+    "subscalesHeading": "Subscale Profile",
+    "tempKeyBadge": "Calculated with version 1 temporary key (AI extraction) — will be updated upon registering the official key"
+  },
+  "results": {
+    "empty": "You have not taken any assessments yet.",
+    "eyebrow": "Competency Assessment · History",
+    "helpBody": "Each row is an assessment result. Tap it to see details.",
+    "helpTitle": "Result History Guide",
+    "newAssessCta": "New Assessment",
+    "pageLead": "Your competency assessment history. These results are visible only to you.",
+    "pageTitle": "My Assessment Results",
+    "startCta": "Start an Assessment",
+    "totalKpi": "Total Results",
+    "viewResultCta": "View Result"
+  },
+  "role": {
+    "0": {
+      "does": "Creates projects, invites candidates, defines exercises and competencies, assigns assessors, and advances the candidate's journey status.",
+      "label": "Assessment Center Manager (or Admin)"
+    },
+    "1": {
+      "does": "Sees only their own assignments; records witness accounts and grades. Does not see other assessors' scores.",
+      "label": "Assessor"
+    },
+    "2": {
+      "does": "Accepts the consent form and tracks their own journey status in \"My Assessment Journey\".",
+      "label": "Candidate"
+    }
+  },
+  "roster": {
+    "assessorLine": "Assessor: {assessor} · {role}",
+    "assessorOther": "Other assessor",
+    "assessorSelf": "You",
+    "assignmentsHeading": "Assignments",
+    "candidateFallback": "Candidate",
+    "candidateFallbackRow": "Candidate",
+    "candidateHint": "Only candidates assigned to you in this exercise.",
+    "candidateLabel": "Candidate",
+    "candidatePlaceholder": "— Select candidate —",
+    "candidateStatusSuffix": " · Candidate status: {status}",
+    "competenciesHeading": "Competencies assessed in this exercise:",
+    "competencyHint": "If specified, this evidence will be attributed to that competency.",
+    "competencyLabel": "Competency (optional)",
+    "competencyPlaceholder": "— No label —",
+    "durationSuffix": " · Duration: {minutes, number} minutes",
+    "evidenceSaved": "Evidence saved. To record competency scores, go to this candidate's score sheet.",
+    "evidenceSubmit": "Save evidence",
+    "evidenceTextHint": "Write objectively what you observed, not judgments — e.g., \"At minute 10, summarized the colleague's proposal\".",
+    "evidenceTextLabel": "Evidence text",
+    "eyebrow": "Assessment Center · Assignment Roster",
+    "loading": "Loading...",
+    "noAssignmentBody": "Recording evidence is only possible for candidates assigned to you by the Assessment Center manager.",
+    "noAssignmentTitle": "You have no assignments in this exercise",
+    "quickEvidenceHeading": "Quick Evidence Recording",
+    "quickEvidenceHint": "Evidence is an objective note of observed behavior; it supports the score and you can record as many as you like.",
+    "rateCta": "Save evidence and score",
+    "scheduledAtSuffix": " · Time: {at}"
+  },
+  "rubric": {
+    "action": {
+      "add": "Add rubric",
+      "back": "Back",
+      "cancel": "Cancel",
+      "close": "Close",
+      "edit": "Edit",
+      "remove": "Remove",
+      "removeAria": "Remove {title}",
+      "save": "Save rubric"
+    },
+    "card": {
+      "criteriaCount": "{n} criterion",
+      "updated": "Updated: {date}",
+      "weightSum": "Total weight {n}%"
+    },
+    "criterion": {
+      "add": "Add criterion",
+      "percent": "%",
+      "removeAria": "Remove criterion",
+      "removeTitle": "Remove this criterion",
+      "titlePlaceholder": "Criterion title",
+      "weight": "Weight",
+      "weightAria": "Criterion weight"
+    },
+    "dialog": {
+      "editTitle": "Edit rubric",
+      "newTitle": "New rubric"
+    },
+    "empty": {
+      "cta": "Create first rubric",
+      "noMatch": "No rubrics found matching this query.",
+      "none": "No rubrics have been created yet."
+    },
+    "err": {
+      "criterionRequired": "Complete the titles for all criteria.",
+      "load": "Failed to load rubrics",
+      "noCriteria": "At least one criterion is required.",
+      "remove": "Failed to remove rubric",
+      "save": "Failed to save rubric",
+      "titleShort": "The rubric title must be at least 2 characters long."
+    },
+    "form": {
+      "title": "Rubric title",
+      "titlePlaceholder": "e.g., Final Project Rubric"
+    },
+    "head": {
+      "eyebrow": "Instructor Tool · Assessment",
+      "lead": "Create and manage grading rubrics; each rubric is a set of criteria with specific weights and multiple performance levels (with descriptors and points).",
+      "title": "Rubric Builder"
+    },
+    "help": {
+      "body": "On this page, you create and manage grading rubrics; each rubric contains multiple criteria with defined weights and performance levels. To create a new rubric, click \"New rubric\" and define the criteria and levels in the opened window. The total weight of the criteria must equal 100%.",
+      "title": "Rubric Builder Help"
+    },
+    "kpi": {
+      "balanced": "Balanced weight",
+      "count": "Number of rubrics",
+      "criteria": "Total criteria"
+    },
+    "level": {
+      "add": "Add level",
+      "default": {
+        "excellent": "Excellent",
+        "fair": "Fair",
+        "good": "Good",
+        "poor": "Poor"
+      },
+      "descriptorAria": "Level descriptor",
+      "descriptorPlaceholder": "Descriptor for \"{label}\"…",
+      "minOne": "At least one level is required",
+      "newLabel": "New level",
+      "points": "Points",
+      "pointsAria": "Level points",
+      "removeAria": "Remove level",
+      "removeTitle": "Remove this level",
+      "thisLevel": "This level",
+      "titlePlaceholder": "Level title"
+    },
+    "remove": {
+      "confirmBtn": "Yes, delete",
+      "confirmLead": "Are you sure you want to delete the rubric",
+      "confirmSuffix": "This action cannot be undone.",
+      "title": "Delete Rubric"
+    },
+    "search": {
+      "label": "Search rubric",
+      "placeholder": "Search…"
+    },
+    "state": {
+      "loading": "Loading…"
+    },
+    "weight": {
+      "check": "Total criteria weight: {n}% of 100%"
+    }
+  },
+  "rubricValid": {
+    "allRequired": "Scores are required for all criteria.",
+    "finite": "The score for each criterion must be a valid number.",
+    "nonNegative": "Scores cannot be negative.",
+    "overMax": "The score for each criterion must not exceed its maximum."
+  },
+  "run": {
+    "answerAllHint": "To view your result, answer all {total, number} questions ({remaining, number} question remaining).",
+    "answeredOf": "{answered, number} of {total, number} answered",
+    "autosaveNote": "Your responses are saved automatically, and you can continue at any time.",
+    "backToAssess": "Back to competency assessment",
+    "educationalNote": "This version is provided for educational use.",
+    "genericError": "An error occurred. Please try again.",
+    "noQuestions": "Questions for this tool are not available.",
+    "progressAria": "Assessment completion progress",
+    "progressPct": "{pct, number}%",
+    "questionCount": "{count, number} question",
+    "questionOfTotal": "{index, number}/{total, number}",
+    "resumeNote": "You have returned to your unfinished assessment. If the answers appear empty again, simply select them again — nothing is lost.",
+    "saveFailed": "Not saved — try selecting again.",
+    "saved": "Saved",
+    "saving": "Saving…",
+    "seeResultCta": "View result",
+    "startCta": "Start assessment",
+    "starting": "Preparing…",
+    "submitting": "Submitting…",
+    "toolFallbackName": "Assessment tool",
+    "toolUnavailable": "This tool is not available."
+  },
+  "setup": {
+    "activate": {
+      "cta": "Activate project",
+      "lockedBecause": "You must first create a project or select one from the picker above.",
+      "title": "6) Activate the project",
+      "what": "Move the project from \"Draft\" to \"Active\".",
+      "why": "Activation means setup is complete and execution begins. As long as it is a draft, everything remains in preparation mode."
+    },
+    "assignments": {
+      "cta": "Assign Assessor",
+      "lockedBecause": "You must first have at least one candidate and one exercise in this project.",
+      "title": "5) Assign assessors to candidate × exercise",
+      "what": "For each exercise, specify which assessor observes which candidate.",
+      "why": "Assessors only see their own assignments; without assignments, the assessor console will be empty and scoring will not be possible."
+    },
+    "candidates": {
+      "cta": "Add Candidate",
+      "lockedBecause": "You must first create a project or select one from the picker above.",
+      "title": "3) Invite candidates",
+      "what": "Select the individuals to be assessed by searching for their names.",
+      "why": "Each candidate starts with the \"Invited\" status and their \"My Assessment Journey\" page becomes active."
+    },
+    "consent": {
+      "cta": "Go to Consent Forms",
+      "title": "1) Enable the consent form text",
+      "what": "Write a consent form text and \"activate\" it.",
+      "why": "Until there is an active text, no candidate can give consent, and the entire journey stops at the very first step. Creating the text is not enough — activation is a separate and deliberate action."
+    },
+    "exercises": {
+      "cta": "Add Exercise",
+      "lockedBecause": "You must first create a project or select one from the picker above.",
+      "title": "4) Define exercises and their competencies",
+      "what": "Exercise = an assessment activity (interview, group discussion, presentation...). Specify which competencies each exercise measures.",
+      "why": "Scoring is only possible on the competencies of that specific exercise; an exercise without competencies will appear empty for the assessor."
+    },
+    "project": {
+      "cta": "Create New Project",
+      "title": "2) Create an assessment project",
+      "what": "Project = an assessment center cycle for a group of people (e.g., \"Middle Managers Assessment Center — Fall\").",
+      "why": "Candidates, exercises, and assignments all sit under a project; without a project, there is nowhere to add them."
+    }
+  },
+  "status": {
+    "CONSENTED": {
+      "action": "Record Consent",
+      "label": "Consented",
+      "meaning": "The candidate has accepted the consent form text."
+    },
+    "COURSES_RECOMMENDED": {
+      "action": "Recommend Course",
+      "label": "Courses Recommended",
+      "meaning": "Recommended courses have been specified."
+    },
+    "FEEDBACK_DONE": {
+      "action": "Record Feedback",
+      "label": "Feedback Delivered",
+      "meaning": "The feedback session has been held."
+    },
+    "GAME_DONE": {
+      "action": "Record Simulation Completion",
+      "label": "Simulation Completed",
+      "meaning": "The candidate has completed the simulation/role-play exercise."
+    },
+    "GROUP_DONE": {
+      "action": "Record Group Discussion Completion",
+      "label": "Group Discussion Completed",
+      "meaning": "The candidate has participated in the group discussion exercise."
+    },
+    "IDP_CREATED": {
+      "action": "Record Development Plan",
+      "label": "IDP Ready",
+      "meaning": "The Individual Development Plan has been written."
+    },
+    "INTERVIEWED": {
+      "action": "Record Interview",
+      "label": "Interviewed",
+      "meaning": "The candidate's interview has been conducted."
+    },
+    "INVITED": {
+      "action": "Invite",
+      "label": "Invited",
+      "meaning": "The candidate has been added to the project and is waiting to accept the consent form."
+    },
+    "LEVEL_PUSHED": {
+      "action": "Apply Level",
+      "label": "Level Applied",
+      "meaning": "The new level has been applied in the system."
+    },
+    "REASSESSED": {
+      "action": "Record Reassessment",
+      "label": "Reassessed",
+      "meaning": "The candidate has been reassessed."
+    },
+    "RESULTS_RELEASED": {
+      "action": "Release Results",
+      "label": "Results Released",
+      "meaning": "The results have been announced to the candidate."
+    },
+    "SCHEDULED": {
+      "action": "Schedule",
+      "label": "Scheduled",
+      "meaning": "The candidate's attendance time for the exercises has been determined."
+    },
+    "TECH_READY": {
+      "action": "Confirm Tech Readiness",
+      "label": "Tech Readiness Confirmed",
+      "meaning": "The candidate's access, internet, and tools have been checked and approved."
+    },
+    "TESTED": {
+      "action": "Record Test",
+      "label": "Tested",
+      "meaning": "The candidate has completed the test."
+    },
+    "WASHUP_LOCKED": {
+      "action": "Lock Washup",
+      "label": "Washup Locked",
+      "meaning": "The assessors' washup meeting has been held and the result is locked; scores cannot be changed after this."
+    },
+    "WITHDRAWN": {
+      "action": "Record Withdrawal",
+      "label": "Withdrawn",
+      "meaning": "The candidate has withdrawn from the process. This status cannot be reverted."
+    }
+  },
+  "tab": {
+    "analytics": {
+      "hint": "Aggregated reports, inter-rater reliability, calibration, and rankings.",
+      "label": "Analytics"
+    },
+    "assignments": {
+      "hint": "Which assessor sees which candidate in which exercise.",
+      "label": "Assignments"
+    },
+    "candidates": {
+      "hint": "Invite, advance the journey, and retract accidental invitations.",
+      "label": "Candidates"
+    },
+    "exercises": {
+      "hint": "Define, edit, competencies, and deactivate exercises.",
+      "label": "Exercises"
+    },
+    "overview": {
+      "hint": "Setup checklist, project specifications, and coverage report.",
+      "label": "Overview"
+    },
+    "reports": {
+      "hint": "Preview, narrative, candidate report publishing, and version history.",
+      "label": "Reports & Publishing"
+    },
+    "settings": {
+      "hint": "Consent texts — organization level, shared across all projects.",
+      "label": "Settings"
+    },
+    "washup": {
+      "hint": "Assessor debrief session to reach an agreed final score.",
+      "label": "Washup"
+    }
+  },
+  "tool": {
+    "allResultsCta": "All results",
+    "analysisSoon": "Analysis coming soon",
+    "arUnavailable": "This tool is not currently available in Arabic; machine translation of a standardized tool invalidates the result.",
+    "category": {
+      "aptitude": "Aptitude",
+      "career": "Career",
+      "cognitive": "Cognitive ability",
+      "communication": "Communication",
+      "creativity": "Creativity",
+      "digital_literacy": "Digital literacy",
+      "emotional": "Emotional intelligence",
+      "general": "General",
+      "job_satisfaction": "Job satisfaction",
+      "language": "Language",
+      "leadership": "Leadership",
+      "management": "Management",
+      "personality": "Personality",
+      "problem_solving": "Problem solving",
+      "soft_skill": "Soft skills",
+      "soft_skills": "Soft skills",
+      "teamwork": "Teamwork",
+      "technical": "Technical skill"
+    },
+    "categoryTitle": "Tool category",
+    "copyright": {
+      "free": "Free and publicly available",
+      "licensed": "Free/alternative version — copyrighted source"
+    },
+    "copyrightTitle": "Copyright status / Source",
+    "emptyTools": "No active tools yet. Available soon.",
+    "eyebrow": "Competency assessment",
+    "genericError": "An error occurred",
+    "helpBody": "Each card is an assessment tool. Tap it to start; every response is saved automatically and you can continue later. Each assessment result is visible only to you.",
+    "helpTitle": "Competency assessment guide",
+    "historyCta": "Result history",
+    "kpiAvailable": "Available tool",
+    "kpiDone": "Completed assessment",
+    "loading": "Loading…",
+    "minutesAbout": "About {minutes, number} minutes",
+    "minutesFew": "A few minutes",
+    "pageLead": "A collection of assessment tools to help you understand your strengths and skills. Each assessment result is visible only to you.",
+    "pageTitle": "Competency Assessment Tools",
+    "pendingKeyNote": "Scoring key is not yet available — your answers are being saved",
+    "provisionalKeyBadge": "Provisional key",
+    "provisionalKeyNote": "The score is calculated using the version 1 provisional key; it will be updated once the official key is submitted",
+    "recentHeading": "Recent results",
+    "resultFallbackName": "Assessment",
+    "resultFallbackTool": "Assessment tool",
+    "startAria": "Start {name}",
+    "startCta": "Start assessment",
+    "toolCount": "{count, number} tools",
+    "viewCta": "View",
+    "viewResultAria": "View result for {name}"
+  },
+  "washup": {
+    "agendaStatus": {
+      "deferred": {
+        "label": "Deferred"
+      },
+      "locked": {
+        "label": "Locked"
+      },
+      "pending": {
+        "label": "Pending"
+      }
+    },
+    "cell": {
+      "decisionLabel": "Group consensus required",
+      "discrepancy": "Discrepancy: Raw score range is ≥ 2 units.",
+      "historyTitle": "History of changes for this cell",
+      "lockedValue": "Locked value",
+      "noDefaultHint": "No level pre-selected — please determine the level yourself.",
+      "noSourceRatings": "No raw score has been recorded for this candidate × competency — no computational suggestion is available.",
+      "noteHint10": "Discussion note (minimum 10 characters).",
+      "noteHint30": "Discussion note (minimum 30 characters) — this cell either has a discrepancy or no raw score recorded yet; further explanation is required.",
+      "pendingCorrectionBadge": "Correction pending second approval",
+      "rawScoresTitle": "Recorded raw scores",
+      "requestCorrection": "Request correction",
+      "suggestionLine": "Median {median, number} · Mean {mean, number} · Range {min, number}..{max, number} — {decision}"
+    },
+    "confirm": {
+      "cancelCorrection": {
+        "body": "The pending correction request will be discarded; the current locked score will remain unchanged.",
+        "confirmLabel": "Cancel correction",
+        "title": "Cancel correction request"
+      },
+      "cancelSession": {
+        "body": "The session “{title}” will be canceled and can no longer be opened or resumed. This action cannot be undone.",
+        "confirmLabel": "Cancel session",
+        "title": "Cancel wash-up session"
+      },
+      "confirmCorrection": {
+        "body": "By confirming this, the proposed correction for “{candidateName}” in the competency “{competencyName}” will be finalized and applied. This action cannot be undone.",
+        "confirmLabel": "Confirm correction",
+        "title": "Confirm Grade Correction"
+      },
+      "lockFirst": {
+        "body": "With this confirmation, the session \"{title}\" enters the final locking phase and awaits a \"Second Confirmation\" from another person. If the agenda or any score changes after this, this confirmation will be invalidated and must be submitted again.",
+        "confirmLabel": "First Confirmation",
+        "confirmWord": "Lock",
+        "title": "First Session Lock Confirmation"
+      },
+      "lockSecond": {
+        "body": "With this confirmation, the session \"{title}\" will be locked. Once locked, consensus scores can only be changed via a \"Correction Request\" and with another person's approval. This action is irreversible.",
+        "confirmLabel": "Second Confirmation",
+        "confirmWord": "Lock",
+        "title": "Second Session Lock Confirmation — Final"
+      },
+      "openSession": {
+        "body": "The session \"{title}\" will be opened; from now on, participants can view assessors' raw scores and consensus registration becomes possible.",
+        "confirmLabel": "Open Session",
+        "title": "Open Session"
+      },
+      "removeParticipant": {
+        "body": "\"{name}\" will be removed from the list of participants for this session.",
+        "confirmLabel": "Remove Participant",
+        "title": "Remove Participant"
+      },
+      "requestCorrection": {
+        "body": "The consensus score for \"{candidateName}\" in competency \"{competencyName}\" is proposed to be changed to level {newLevel}. This change will not be applied until approved by another person.",
+        "confirmLabel": "Submit Correction Request",
+        "title": "Request Locked Grade Correction"
+      }
+    },
+    "decisionBasis": {
+      "hintOptional": "Optional — Specifying the basis of decision will include it in the organizational report.",
+      "hintRequired": "Since this cell has a discrepancy, at least one basis is required.",
+      "label": "Basis of Decision"
+    },
+    "decisionBasisOption": {
+      "0": {
+        "label": "Behavioral Evidence"
+      },
+      "1": {
+        "label": "Comparison with Behavioral Indicator"
+      },
+      "2": {
+        "label": "Discrepancy in Interpretation"
+      },
+      "3": {
+        "label": "Observation Error"
+      },
+      "4": {
+        "label": "Supplementary Information"
+      }
+    },
+    "empty": {
+      "noAgenda": {
+        "body": "Candidates who have completed their instrumental test, interview, group discussion, or simulation are ready to be added.",
+        "cta": "Add Candidate",
+        "title": "No candidates added to the agenda yet"
+      },
+      "noCompetencies": {
+        "body": "The competencies in this table come from project exercises; if empty, please define competencies for the exercises first.",
+        "title": "No competencies to display"
+      },
+      "noParticipants": {
+        "body": "Without at least two participants, the session cannot be opened. Add an assessor/assessment manager/admin by searching for a name.",
+        "cta": "Add Participant",
+        "title": "No participants added yet"
+      },
+      "noProjectSelected": {
+        "body": "Open a project from the selector at the top of the page to view its wash-up sessions.",
+        "title": "Select a Project"
+      },
+      "noSessionsAssessor": {
+        "body": "The wash-up session is created by the assessment center manager, who will add you as a participant. No action is required on your part until then.",
+        "title": "No wash-up sessions visible yet"
+      },
+      "noSessionsManager": {
+        "body": "Wash-up is a debrief session for assessors to reach a final agreed score. Create a session to get started.",
+        "cta": "New Session",
+        "title": "There are no wash-up sessions for this project yet"
+      }
+    },
+    "lockBanner": {
+      "invalidated": "The first approval was invalidated due to a change in the agenda or consensus score; you must start again from \"First Approval\".",
+      "waitingSecond": "First approval recorded — waiting for the second approval from another user."
+    },
+    "lockedBanner": {
+      "body": "The assessors' debrief session for this candidate has been conducted and locked; the final score is determined from that session, and this sheet is no longer editable.",
+      "title": "This candidate is locked"
+    },
+    "notice": {
+      "candidateAdded": "Candidate added to the agenda.",
+      "candidateDeferred": "Candidate deferred.",
+      "consensusSaved": "Consensus score recorded.",
+      "correctionCanceled": "Correction request discarded.",
+      "correctionConfirmed": "Correction applied.",
+      "correctionRequested": "Correction request recorded — please wait for another user's approval.",
+      "lockFirstDone": "First approval recorded — please wait for another user's second approval.",
+      "lockSecondDone": "Session locked. The debrief is final.",
+      "participantAdded": "Participant added.",
+      "participantRemoved": "Participant removed.",
+      "sessionCanceled": "Session canceled.",
+      "sessionCreated": "Wash-up session created. Next step: add participants and candidates.",
+      "sessionOpened": "Session opened. Consensus scores can now be recorded."
+    },
+    "participantRole": {
+      "chair": {
+        "hint": "Chairs the session.",
+        "label": "Session Chair"
+      },
+      "observer": {
+        "hint": "Observes only; has no voting rights in decisions.",
+        "label": "Observer"
+      },
+      "participant": {
+        "hint": "Participates in discussion and consensus decisions.",
+        "label": "Participant"
+      }
+    },
+    "room": {
+      "addCandidatePlaceholder": "— Select Candidate —",
+      "addParticipantDialogTitle": "Add Participant",
+      "agendaSectionTitle": "Agenda",
+      "backToConsole": "Back to Assessment Center",
+      "backToConsoleAssessor": "Back to Assessor Console",
+      "cancel": "Cancel",
+      "cancelCorrectionCta": "Cancel Correction",
+      "cancelCorrectionSubmit": "Submit Cancellation",
+      "cancelReasonPlaceholder": "Reason for cancellation (at least 3 characters)",
+      "candidateColumnHeader": "Candidate",
+      "candidatesHeading": "Candidates",
+      "cellDialogAriaLabel": "Consensus score cell",
+      "closeDialogAria": "Close",
+      "confirmCorrectionCta": "Confirm Correction",
+      "consensusTableTitle": "Consensus Score",
+      "correctionReasonPlaceholder": "Reason for correction (at least {min, number} characters)",
+      "deferCta": "Defer",
+      "deferPlaceholder": "Reason for deferral (at least 3 characters)",
+      "deferReasonPrefix": "Reason: ",
+      "deferSubmit": "Submit",
+      "historyEmpty": "No history recorded.",
+      "historyLine": "{actor} — {oldLevel} ← {newLevel} — {reason}",
+      "levelFieldLabel": "Consensus level",
+      "levelWord": "Level",
+      "nextStepAfterLockCta": "View and publish report",
+      "noEligibleCandidates": "No other eligible candidates available to add.",
+      "noteFieldLabel": "Discussion note",
+      "participantUnit": "participant",
+      "participantsHeading": "Participants",
+      "pendingCandidateUnit": "pending candidate",
+      "pickerMinQueryHint": "Type at least {n} characters to search.",
+      "removeParticipantAria": "Remove participant",
+      "retryCta": "Retry",
+      "saveConsensusCta": "Save consensus score",
+      "sessionNotFound": "Session not found.",
+      "sourceRatingLine": "{assessor} — {exercise} — {levelWord} {level}",
+      "suggestedLevelLabel": "Suggested level",
+      "unknownActor": "?",
+      "unnamedParticipant": "This participant",
+      "waitingOtherPerson": "Waiting for another person's confirmation."
+    },
+    "sessionStatus": {
+      "canceled": {
+        "label": "Canceled",
+        "meaning": "The session has been canceled and can no longer be opened."
+      },
+      "draft": {
+        "label": "Draft",
+        "meaning": "The session has been created but not yet opened; only the agenda (candidates/participants) can be edited."
+      },
+      "locked": {
+        "label": "Locked",
+        "meaning": "Both confirmations have been submitted; the summary is final and cannot be changed except via a post-lock amendment request."
+      },
+      "open": {
+        "label": "Open",
+        "meaning": "The session is in progress; consensus scores for pending candidates can be entered and edited."
+      }
+    },
+    "step": {
+      "agenda": {
+        "title": "1) Create the agenda",
+        "what": "Add wash-up-ready candidates and participants (at least two people).",
+        "why": "Without at least one candidate and two participants, there is no session to open."
+      },
+      "consensus": {
+        "lockedBecause": "You must open the session first.",
+        "title": "3) Record the consensus score for each cell",
+        "what": "For each candidate × competency, record a level and a note after discussion.",
+        "why": "The algorithmic suggestion is only a reference — the decision belongs to the group; empty cells block final locking."
+      },
+      "lock": {
+        "lockedBecause": "All agenda cell consensus scores must be recorded first — no empty cells may remain.",
+        "title": "4) Final Lock — Two separate confirmations",
+        "what": "Two different people must record \"First Confirmation\" and \"Second Confirmation\" by explicitly typing the word \"lock\".",
+        "why": "Locking means the summary is definitive; afterwards, any change is only possible through a \"revision request\" and the second person's approval."
+      },
+      "openSession": {
+        "lockedBecause": "First, the agenda must have at least one waiting candidate and two participants.",
+        "title": "2) Open the session",
+        "what": "Move the session from \"Draft\" to \"Open\" — this action is reversible.",
+        "why": "Recording the consensus score and viewing raw assessor scores is only possible during an open session."
+      }
+    },
+    "tab": {
+      "formCancel": "Cancel",
+      "formScheduledLabel": "Scheduled time (optional)",
+      "formSubmit": "Create session",
+      "formTitleLabel": "Session title",
+      "formTitlePlaceholder": "e.g., \"Middle Managers Assessment Washup — Day 1\"",
+      "loading": "Loading…",
+      "newSessionCta": "New session",
+      "sessionsTitle": "Washup sessions"
+    }
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "login": {
+    "hero": {
+      "eyebrowText": "WELCOME BACK",
+      "eyebrowSubtext": "登录",
+      "title": "欢迎回来",
+      "subtitle": "请登录您的账户。如果您尚未注册，可以在不到 <b>2 分钟</b> 内开始。"
+    },
+    "aria": {
+      "search": "搜索",
+      "languageToggle": "切换语言 (FA)"
+    },
+    "toast": {
+      "searchDisabled": "演示模式下搜索不可用",
+      "languageDisplay": "显示语言：波斯语",
+      "loginSuccess": "登录成功 — 正在跳转…",
+      "passwordCorrectNeed2fa": "密码正确 — 请输入两步验证码。",
+      "demoFilled": "已填入“{role}”邮箱 — 请输入密码并点击“登录”。"
+    },
+    "demoPicker": {
+      "title": "使用演示账户快速登录",
+      "groupAriaLabel": "按角色分类的演示账户",
+      "hint": "点击任意角色仅填入该账户邮箱；然后输入密码并点击“登录账户”。"
+    },
+    "demoRoles": {
+      "student": "学生",
+      "instructor": "教师",
+      "ta": "助教",
+      "faculty_admin": "院系管理员",
+      "admin": "校级管理员",
+      "super_admin": "系统管理员",
+      "content_manager": "内容管理员",
+      "finance_manager": "财务经理",
+      "support": "技术支持",
+      "membership_operator": "会员操作员",
+      "membership_manager": "会员经理",
+      "assessor": "评估员",
+      "assessment_manager": "评估经理",
+      "moderator": "版主",
+      "counselor": "学校顾问",
+      "parent": "家长",
+      "org": "机构"
+    },
+    "tenant": {
+      "label": "机构 ID / TENANT",
+      "hint": "普通学生可选填",
+      "toggleShow": "作为机构用户登录？（机构 ID）"
+    },
+    "email": {
+      "label": "电子邮箱或用户名"
+    },
+    "password": {
+      "label": "密码",
+      "forgotLink": "忘记密码？",
+      "showAria": "显示密码",
+      "hideAria": "隐藏密码"
+    },
+    "remember": {
+      "label": "记住我"
+    },
+    "twofa": {
+      "label": "双重验证已启用",
+      "hint": "登录后，6位验证码将发送至您的电子邮箱/短信。"
+    },
+    "lockout": {
+      "message": "由于连续尝试登录失败，您的账户已被暂时锁定 — 请在 {countdown} 后重试。"
+    },
+    "submit": {
+      "default": "登录",
+      "pending": "正在登录……"
+    },
+    "divider": {
+      "orText": "或"
+    },
+    "sso": {
+      "google": {
+        "label": "谷歌",
+        "toast": "Google SSO — 即将推出"
+      },
+      "national": {
+        "label": "国家登录通道",
+        "toast": "通过国家统一认证门户登录 —— 敬请期待"
+      },
+      "org": {
+        "label": "组织",
+        "toast": "企业登录 —— 即将推出"
+      }
+    },
+    "signup": {
+      "cta": "没有账号？<b>立即注册 →</b>"
+    },
+    "twoFactor": {
+      "description": "该账户已启用了两步验证。请输入 Authenticator 应用中的 6 位数字验证码（或其中一个恢复代码）。",
+      "codeLabel": "两步验证代码",
+      "codePlaceholder": "123456",
+      "submit": "确认并登录",
+      "submitting": "正在验证...",
+      "back": "返回登录"
+    },
+    "errors": {
+      "tenantRequired": "组织 ID 为必填项。",
+      "emailRequired": "请输入电子邮箱/用户名。",
+      "emailInvalid": "邮箱格式不正确。",
+      "passwordRequired": "请输入密码。",
+      "passwordMinLength": "密码至少需要 8 个字符。",
+      "invalidInput": "输入无效。",
+      "unknown": "未知错误",
+      "twoFactorIncomplete": "请完整输入验证码。",
+      "twoFactorInvalid": "验证码不正确。"
+    },
+    "atoms": {
+      "passStrength": {
+        "veryWeak": "非常弱",
+        "weak": "弱",
+        "medium": "中等",
+        "strong": "强",
+        "veryStrong": "非常强"
+      },
+      "demoBox": {
+        "subtitle": "{roleLabel} 的演示账户",
+        "fillButton": "自动填充 ←"
+      }
+    },
+    "brandPanel": {
+      "testimonial": {
+        "starsAria": "五星",
+        "quote": "“这是我第一次感觉到自己拥有了一个真正的助教。认知档案很清楚我卡在了哪里、接下来该做什么。”",
+        "authorInitials": "R.N.",
+        "authorName": "纳斯林·礼萨维",
+        "authorRole": "数据科学硕士"
+      },
+      "stats": {
+        "tenantsValue": "{value, number}+",
+        "tenantsLabel": "高校与机构",
+        "learnersValue": "{value, number}K",
+        "learnersLabel": "活跃学员",
+        "uptimeValue": "{value, number}%",
+        "uptimeLabel": "服务稳定性"
+      },
+      "eyebrowText": "LEARN AT SCALE",
+      "eyebrowSubtext": "规模化学习",
+      "headlineLine1": "个性化学习，",
+      "headlineLine2": "<hl>大学</hl>级规模",
+      "lede": "面向高等教育的本土化人工智能系统 — 为 {org} 开发；{slogan}。"
+    },
+    "coBrand": {
+      "linkLegal": "条款与隐私",
+      "linkSupport": "支持",
+      "linkStatus": "系统状态",
+      "linkApi": "API"
+    }
+  },
+  "verifyPhone": {
+    "eyebrow": "验证手机号",
+    "title": "请验证您的手机号",
+    "subtitle": "为了注册、使用钱包支付以及获取证书，您必须先验证手机号。",
+    "loading": "正在检查状态…",
+    "phone": {
+      "label": "手机号",
+      "submit": "发送验证码",
+      "skip": "暂略过"
+    },
+    "code": {
+      "changeNumber": "更改号码"
+    },
+    "toast": {
+      "codeSent": {
+        "title": "验证码已发送",
+        "msg": "6位验证码已通过短信发送给您。"
+      },
+      "verified": {
+        "title": "已验证",
+        "msg": "您的手机号已验证。"
+      }
+    },
+    "errors": {
+      "invalidPhone": "手机号无效。",
+      "sendFailed": "发送验证码失败。"
+    }
+  },
+  "apply": {
+    "wizard": {
+      "screenLabel": "申请 — 注册",
+      "eyebrow": "ADMISSIONS · 注册与录取",
+      "title": "分步注册",
+      "lead": "无需登录。输入身份信息与材料，完成身份验证（Hoda），即可获取跟踪代码。"
+    },
+    "steps": {
+      "role": {
+        "label": "申请类型",
+        "heading": "请选择申请类型",
+        "helpTitle": "哪种角色？",
+        "helpBody": "“学生”用于学业录取，“教师 / 教职工”用于教学合作。其他角色（家长、机构）通过客服激活，而管理角色（校长/院长、内容管理员、客服等）由大学创建，而非通过公开注册。",
+        "selectedLabel": "已选角色："
+      },
+      "identity": {
+        "label": "身份信息",
+        "heading": "身份信息",
+        "helpTitle": "身份信息指南",
+        "helpBody": "所有标有星号的字段均为必填项。国民身份证号将即时进行验证。请以波斯历格式输入出生日期（例如：1380/05/12）。"
+      },
+      "documents": {
+        "label": "上传材料",
+        "heading": "上传材料",
+        "helpTitle": "材料上传指南",
+        "helpBody": "请上传清晰的材料图片或扫描件。支持的格式：JPG、PNG、WebP 或 PDF — 每个文件大小应小于 1.3 MB。标有星号的材料为必填项。"
+      },
+      "verification": {
+        "label": "身份认证",
+        "heading": "身份认证（Hoda 系统）",
+        "helpTitle": "关于身份认证",
+        "helpBodyPart1": "此查询根据您的国民身份证号、身份证编号和出生日期进行，包含三个级别：基础比对、身份确认和完整查询。",
+        "helpBodyNote": "注意：",
+        "helpBodyPart2": "由于无法直接连接政府系统，此步骤为",
+        "helpBodyDemo": "演示性质",
+        "helpBodyPart3": "，结果将附加到档案中。",
+        "loading": "正在查询…",
+        "notRun": "查询未执行。",
+        "retryButton": "重试",
+        "levelBadge": "第 {level} 级，共 3 级",
+        "statusVerified": "完整身份认证（演示）",
+        "statusPartial": "部分身份认证",
+        "statusNone": "未认证",
+        "refSuffix": " · 跟踪代码：{ref}",
+        "helperText": "如果认证级别较低，您可以返回“身份信息”步骤并完善信息。任何级别都可以提交申请；最终审核由招生专家负责。"
+      },
+      "review": {
+        "label": "检查与提交",
+        "heading": "检查与提交",
+        "helpTitle": "最终检查",
+        "helpBody": "请仔细核对信息。如需修改任何部分，请从上方步骤返回相应页面。点击“提交申请”后，档案将被注册并生成跟踪代码。"
+      }
+    },
+    "roles": {
+      "student": {
+        "title": "学生",
+        "description": "专业录取"
+      },
+      "instructor": {
+        "title": "教师 / 教职员工",
+        "description": "作为讲师合作"
+      }
+    },
+    "identity": {
+      "programLabel": "专业",
+      "programsLoading": "正在加载专业…",
+      "noActivePrograms": "目前没有开放招生的活跃专业。",
+      "selectPlaceholder": "— 请选择 —",
+      "preferredDeptLabel": "偏好教研室（可选）",
+      "preferredDeptPlaceholder": "例如：计算机工程",
+      "desiredRankLabel": "期望职称（可选）",
+      "fullNameLabel": "姓名",
+      "fatherNameLabel": "父亲姓名",
+      "nationalIdLabel": "身份证号",
+      "nationalIdValid": "身份证件号码有效 ✓",
+      "nationalIdInvalidChecksum": "身份证号校验位不正确",
+      "birthCertNoLabel": "身份证号",
+      "birthDateLabel": "出生日期",
+      "genderLabel": "性别",
+      "emailLabel": "电子邮件",
+      "emailVerified": "您的电子邮件已验证。",
+      "sendEmailOtpButton": "发送验证码到邮箱",
+      "otpPromptPrefix": "发送至",
+      "otpPromptSuffix": "请输入：",
+      "verifyOtpButton": "验证验证码",
+      "resendOtpCountdown": "重新发送 ({seconds})",
+      "resendOtpButton": "重新发送",
+      "phoneLabel": "联系电话",
+      "provinceLabel": "省份",
+      "cityLabel": "城市",
+      "postalCodeLabel": "邮政编码",
+      "addressLabel": "地址",
+      "expertiseLabel": "专业领域（请用逗号分隔）",
+      "expertisePlaceholder": "机器学习、网络、数据库",
+      "cvUrlLabel": "简历/CV 链接（可选）",
+      "educationLabel": "教育背景（可选）",
+      "addEducationButton": "+ 添加学历",
+      "noEducationHint": "如有意愿，请添加以往的教育经历。",
+      "educationDegreePlaceholder": "学历（高中/本科等）",
+      "educationFieldPlaceholder": "专业",
+      "educationInstitutionPlaceholder": "教育机构",
+      "educationYearPlaceholder": "年份",
+      "educationGpaPlaceholder": "平均绩点",
+      "bioLabel": "个人简介 / 动机（可选）"
+    },
+    "ranks": {
+      "assistant": "助教",
+      "associate": "副教授",
+      "full": "正教授",
+      "emeritus": "荣休教授 (Emeritus)"
+    },
+    "genders": {
+      "male": "男性",
+      "female": "女性"
+    },
+    "provinces": {
+      "tehran": "德黑兰",
+      "alborz": "厄尔布尔士省",
+      "isfahan": "伊斯法罕",
+      "fars": "法尔斯省",
+      "khorasanRazavi": "迅拉斯沽-拉莲省",
+      "eastAzerbaijan": "东阿士拜痵省",
+      "westAzerbaijan": "西阿士拜痵省",
+      "khuzestan": "艾孟斯坦省",
+      "mazandaran": "马武儿拉安省",
+      "gilan": "吉兰省",
+      "kerman": "凯尔曼省",
+      "kermanshah": "凯尔曼沙哈省",
+      "qom": "帕姆省",
+      "qazvin": "加斯维因省",
+      "yazd": "亚孟德省",
+      "golestan": "果利斯坦省",
+      "hamedan": "哈森丹省",
+      "ardabil": "阿尔达比尔省",
+      "zanjan": "赞汗省",
+      "markazi": "中央省",
+      "hormozgan": "霍尔莫孟干省",
+      "lorestan": "洛尔斯坦省",
+      "sistanBaluchestan": "屻斯坦与巴鲁斯坦省",
+      "kurdistan": "库尔德斯坦省",
+      "bushehr": "布什基尔省",
+      "arak": "杰拉克",
+      "semnan": "塞姆南省",
+      "ilam": "伊拉姆省",
+      "chaharmahalBakhtiari": "民很麦哈尔-巴克萨提利",
+      "kohgiluyehBoyerahmad": "科吉鲁耶-博伊基苉美德",
+      "northKhorasan": "初北迅拉斯沽省",
+      "southKhorasan": "南迅拉斯沽省"
+    },
+    "degreeLevels": {
+      "bachelor": "学士",
+      "master": "硕士",
+      "phd": "博士",
+      "certificate": "证书"
+    },
+    "upload": {
+      "slots": {
+        "nationalCard": "国民身份证照片",
+        "birthCert": "户口第一页照片",
+        "transcriptStudent": "最新学历 / 成绩单",
+        "transcriptInstructor": "最高学历证明",
+        "resume": "个人简历（文件）",
+        "other": "其他材料（可选）"
+      }
+    },
+    "actions": {
+      "remove": "删除",
+      "chooseFile": "选择文件",
+      "prevStep": "上一步",
+      "nextStep": "下一步",
+      "submitButton": "提交申请",
+      "cancelButton": "取消"
+    },
+    "review": {
+      "typeLabel": "申请类型",
+      "programLabel": "专业",
+      "emptyValue": "—",
+      "fullNameLabel": "姓名",
+      "fatherNameLabel": "父亲姓名",
+      "nationalIdLabel": "国民身份证号",
+      "birthCertNoLabel": "出生证明编号",
+      "birthDateLabel": "出生日期",
+      "genderLabel": "性别",
+      "emailLabel": "电子邮箱",
+      "phoneLabel": "电话",
+      "provinceCityLabel": "省份/城市",
+      "docsCountLabel": "已上传的文档",
+      "docsCount": "{count, plural, other {# 项}}",
+      "hodaLevelLabel": "身份验证级别 (Hoda)",
+      "hodaLevelValue": "{level} / 3"
+    },
+    "errors": {
+      "fileTypeInvalid": "仅允许图片 (JPG/PNG/WebP) 或 PDF。",
+      "fileTooLarge": "文件大小必须小于 1.3 MB。请降低扫描/拍照分辨率后重试。",
+      "fileReadFailed": "文件读取失败。",
+      "programsFetchFailed": "获取专业列表失败。",
+      "emailInvalidBeforeOtp": "请先输入有效的电子邮箱。",
+      "otpSendFailed": "验证码发送失败，请重试。",
+      "otpCodeIncomplete": "请输入完整的 6 位验证码。",
+      "otpInvalid": "验证码错误或已过期，请重试。",
+      "otpVerifyFailed": "验证失败，请重试。",
+      "fileUploadFailed": "文件上传失败。",
+      "fullNameRequired": "姓名是必填项。",
+      "fullNameTooLong": "姓名过长。",
+      "fatherNameRequired": "父亲姓名是必填项。",
+      "emailRequired": "电子邮箱是必填项。",
+      "emailInvalidFormat": "电子邮箱格式不正确。",
+      "emailOtpRequired": "请先通过验证码验证您的电子邮箱。",
+      "nationalIdRequired": "国民身份证号是必填项。",
+      "nationalIdInvalid": "国民身份证号无效（校验位不正确）。",
+      "birthCertNoRequired": "出生证明编号是必填项。",
+      "birthDateRequired": "请填写出生日期（例如：1380/05/12）。",
+      "genderRequired": "请选择性别。",
+      "phoneInvalid": "联系电话无效。",
+      "bioTooLong": "简介最多支持 2000 个字符。",
+      "programRequired": "请选择所学专业。",
+      "cvUrlInvalid": "简历链接必须以 http(s) 开头。",
+      "docRequired": "“{label}”为必填项。",
+      "invalidInputFallback": "输入无效。",
+      "incompleteFields": "部分字段未填写完整。",
+      "trackingTokenMissing": "未获取到跟踪代码，请联系支持团队。",
+      "submitUnknown": "提交申请时发生未知错误"
+    },
+    "toast": {
+      "reviewFormTitle": "检查表单",
+      "submitFailedTitle": "提交失败"
+    },
+    "messages": {
+      "otpSent": "验证码已发送至您的电子邮箱。"
+    },
+    "confirmation": {
+      "screenLabel": "申请 — 确认",
+      "eyebrow": "已提交",
+      "titleIdempotent": "您的申请此前已经提交过",
+      "title": "您的申请已提交",
+      "referenceLabel": "您的跟踪代码：",
+      "idLevelPrefix": "身份验证级别（Hoda）：",
+      "idLevelSuffix": "共 3 级",
+      "idLevelNotVerified": "— 未验证",
+      "trackingLinkLabel": "状态跟踪链接 — 请妥善保存",
+      "trackingLinkHelp": "您可以使用此链接查看申请状态，并在需要时取消申请。",
+      "copiedButton": "已复制 ✓",
+      "copyButton": "复制链接",
+      "viewStatusButton": "查看状态",
+      "nextStepsHeading": "后续步骤",
+      "backHomeButton": "返回首页",
+      "copiedToastTitle": "已复制",
+      "copiedToastMsg": "跟踪链接已复制到剪贴板。",
+      "copyFailedToastTitle": "复制失败",
+      "copyFailedToastMsg": "请手动选择并复制链接。"
+    },
+    "timeline": {
+      "submitted": {
+        "title": "提交申请",
+        "desc": "您的申请已提交并生成了跟踪代码。"
+      },
+      "review": {
+        "title": "专家审核",
+        "desc": "招生团队将在约 14 天内审核您的申请及材料。"
+      },
+      "verification": {
+        "title": "身份验证",
+        "desc": "身份查询结果（Hoda）已附在档案中。"
+      },
+      "decision": {
+        "title": "最终决定",
+        "desc": "结果将通过此跟踪页面和电子邮件进行通知。"
+      }
+    }
+  },
+  "reset": {
+    "screenLabel": "重置密码",
+    "eyebrow": "重置密码",
+    "title": "设置新密码",
+    "validating": "正在验证链接…",
+    "invalid": {
+      "body": "此重置链接无效、已过期或已被使用。您可以申请一个新的链接。",
+      "requestNew": "请求新链接",
+      "backToLogin": "返回登录"
+    },
+    "form": {
+      "intro": "请设置一个安全的新密码（至少 8 个字符）。设置完成后，请使用新密码登录。",
+      "newPasswordLabel": "新密码",
+      "confirmPasswordLabel": "确认密码",
+      "submitting": "正在提交…",
+      "submitCta": "设置新密码"
+    },
+    "errors": {
+      "tooShort": "密码必须至少包含 8 个字符。",
+      "mismatch": "两次输入的密码不一致。",
+      "submitFailed": "密码重置失败。链接可能已过期或已被使用。"
+    },
+    "done": {
+      "body": "您的密码已成功修改。为了安全起见，您之前的会话已被结束。现在请使用新密码登录。",
+      "loginCta": "登录账户"
+    }
+  },
+  "claim": {
+    "screenLabel": "激活账户",
+    "eyebrow": "激活账户",
+    "title": "设置密码",
+    "validating": "正在验证链接…",
+    "invalid": {
+      "body": "此激活链接无效、已过期或已被使用。如果您刚被录取，请检查您的电子邮件以获取新链接，或联系客服支持。",
+      "loginCta": "登录账户",
+      "backHome": "返回首页"
+    },
+    "form": {
+      "intro": "请设置一个安全的密码（至少 8 个字符）以激活账户并登录。",
+      "passwordLabel": "密码",
+      "confirmPasswordLabel": "确认密码",
+      "submitting": "正在激活…",
+      "submitCta": "激活并登录"
+    },
+    "errors": {
+      "tooShort": "密码必须至少包含 8 个字符。",
+      "mismatch": "两次输入的密码不一致。",
+      "submitFailed": "账户激活失败。链接可能已过期或已被使用。"
+    },
+    "toast": {
+      "title": "欢迎",
+      "msg": "您的账户已激活。"
+    },
+    "done": {
+      "body": "您的密码已设置。现在您可以登录您的账户了。",
+      "loginCta": "登录账户"
+    }
+  },
+  "forgot": {
+    "eyebrow": "RECOVERY · 找回密码",
+    "title": "忘记密码？",
+    "sub": "请输入您的电子邮件。我们将向您发送用于重置的安全一次性链接。",
+    "sentMessage": "如果该电子邮箱已在系统中注册，重置链接已发送至该邮箱。请检查您的收件箱（以及垃圾邮件文件夹）。链接有效期为 1 小时。",
+    "emailLabel": "注册邮箱",
+    "submitCta": "发送恢复链接",
+    "securityNote": {
+      "label": "安全提示：",
+      "body": "恢复链接仅在 1 小时内有效，且只能使用一次。"
+    },
+    "rememberedQuestion": "想起密码了？",
+    "backToLogin": "返回登录",
+    "errors": {
+      "invalidEmail": "邮箱格式不正确。"
+    }
+  },
+  "twoFactor": {
+    "eyebrow": "SECURITY · 两步验证",
+    "title": "为账户增加一层安全保障",
+    "sub": "两步验证可保护您的账户免受未经授权的访问。",
+    "loading": "正在准备…",
+    "errorPhase": {
+      "body": "您必须先登录账户，然后才能启用两步验证。",
+      "loginCta": "登录账户"
+    },
+    "step1": {
+      "label": "第 1 步 · 使用身份验证器应用扫描二维码",
+      "instructions": "使用 Google Authenticator / Authy / 1Password 扫描此二维码。",
+      "manualEntry": "或手动输入密钥："
+    },
+    "qrLoading": "正在准备二维码…",
+    "recoveryCodes": {
+      "intro": "恢复代码 — 请将这些代码妥善保存。如果您丢失了设备，这些代码将是您登录的唯一途径（仅显示一次）。"
+    },
+    "step2": {
+      "label": "第 2 步 · 输入应用中显示的 6 位数代码"
+    },
+    "codeInputPlaceholder": "123456",
+    "enableCta": "启用",
+    "skipCta": "以后再说 · 返回设置",
+    "errors": {
+      "incomplete": "请输入应用提供的 6 位数代码。",
+      "enableFailed": "启用失败；请检查验证码。"
+    },
+    "done": {
+      "body": "✓ 两步验证已启用。此后登录时，除密码外，还需提供身份验证器应用的代码。",
+      "reminder": "请确保您已保存恢复代码 — 如果设备丢失，这是唯一的登录方式。",
+      "backToSettings": "返回设置"
+    }
+  },
+  "verifyEmail": {
+    "eyebrow": "VERIFY · 邮箱验证",
+    "title": "验证您的电子邮箱",
+    "sub": "我们已向您的邮箱发送了 6 位数验证码。此验证码有效期为 10 分钟。",
+    "codeSentPrefix": "验证码已发送至",
+    "codeSentSuffix": "",
+    "codeLabel": "6 位数验证码",
+    "digitAriaLabel": "6 位数验证码的第 {index} 位",
+    "submitCta": "验证并继续",
+    "resendQuestion": "没有收到验证码？",
+    "resendIn": "0:42 后可重新发送",
+    "note": {
+      "label": "提示：",
+      "body": "如果在收件箱中未找到邮件，请检查垃圾邮件文件夹，或者"
+    },
+    "changeEmailCta": "更改邮箱",
+    "errors": {
+      "incomplete": "请输入完整的 6 位验证码。"
+    }
+  },
+  "onboarding": {
+    "steps": {
+      "level": "水平评估",
+      "interests": "兴趣",
+      "goals": "设定目标",
+      "ready": "准备就绪"
+    },
+    "progress": {
+      "label": "第 {step} 步，共 {total} 步 · {stepName}"
+    },
+    "skipCta": "跳过",
+    "level": {
+      "title": "你目前的机器学习水平是？",
+      "subtitle": "这有助于我们为你量身定制学习计划。别担心——以后可以随时更改。",
+      "options": {
+        "novice": {
+          "title": "新手",
+          "desc": "没有任何经验，想从零开始"
+        },
+        "beginner": {
+          "title": "初级",
+          "desc": "了解基础概念，会使用 Python"
+        },
+        "intermediate": {
+          "title": "中级",
+          "desc": "实现过几个经典模型，用过 scikit-learn"
+        },
+        "advanced": {
+          "title": "高级",
+          "desc": "正在从事深度学习，有 PyTorch/TF 相关经验"
+        },
+        "professional": {
+          "title": "专业",
+          "desc": "拥有行业或研究经验"
+        }
+      },
+      "continueCta": "继续"
+    },
+    "interests": {
+      "title": "你对什么感兴趣？",
+      "subtitle": "请至少选择 3 个兴趣。我们将据此为你推荐课程、文章和活动。",
+      "tags": {
+        "nlp": "自然语言处理",
+        "vision": "计算机视觉",
+        "data": "数据科学",
+        "stats": "概率与统计",
+        "rl": "强化学习",
+        "sys": "分布式系统",
+        "se": "软件工程",
+        "pm": "产品管理",
+        "ux": "用户体验",
+        "ethics": "AI 伦理",
+        "math": "应用数学",
+        "lin": "计算语言学"
+      },
+      "selectedCount": "{count, plural, other {已选择 # 个}}",
+      "continueCta": "继续"
+    },
+    "goals": {
+      "title": "你的主要目标是什么？",
+      "subtitle": "这将用于调整课程推荐方式。",
+      "options": {
+        "career": {
+          "title": "转行",
+          "desc": "进入 AI/Data 领域"
+        },
+        "promo": {
+          "title": "在当前岗位上成长",
+          "desc": "晋升与新技能"
+        },
+        "research": {
+          "title": "学术研究",
+          "desc": "为攻读博士做准备"
+        },
+        "project": {
+          "title": "构建项目",
+          "desc": "个人想法或初创项目"
+        },
+        "curiosity": {
+          "title": "个人好奇心",
+          "desc": "我想了解它是如何运作的"
+        },
+        "cert": {
+          "title": "雇主认证",
+          "desc": "我需要官方证书"
+        }
+      },
+      "continueCta": "继续"
+    },
+    "ready": {
+      "heading": "您的个人资料已创建",
+      "body": "您的初始认知画像已根据 24 个以上的指标生成。AI 已准备好为您推荐个性化的学习路径。",
+      "card": {
+        "label": "首选推荐",
+        "courseTitle": "机器学习基础 — CS-410",
+        "meta": "阿拉什·阿齐米博士 · 12 周 · 92% 掌握度，成功概率高"
+      },
+      "saving": "保存中…",
+      "startCta": "开始学习"
+    }
+  },
+  "authChrome": {
+    "login": {
+      "testimonial": {
+        "quote": "这是我第一次感觉到拥有了一个真正的助教。认知画像知道我在哪里遇到了瓶颈以及该做些什么。",
+        "avatarInitials": "娜",
+        "name": "纳斯林·拉扎维",
+        "role": "硕士研究生 · 数据科学"
+      },
+      "headline": {
+        "line1": "个性化学习，",
+        "line2": "大学规模"
+      },
+      "stats": "240万+ 学习事件 · 99.9% 正常运行时间"
+    },
+    "security": {
+      "headline": {
+        "line1": "安全至上",
+        "line2": "从第一天开始"
+      },
+      "bullets": {
+        "encryption": {
+          "title": "端到端加密",
+          "desc": "所有数据在传输过程中均经过加密"
+        },
+        "sessions": {
+          "title": "可控会话",
+          "desc": "您可以远程注销任意会话"
+        },
+        "weeklyReport": {
+          "title": "每周安全报告",
+          "desc": "可疑活动摘要将发送至您的邮箱"
+        }
+      }
+    }
+  }
+}

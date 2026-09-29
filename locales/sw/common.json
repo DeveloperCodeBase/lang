@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Ghairi",
+    "close": "Funga",
+    "confirm": "Thibitisha",
+    "save": "Hifadhi",
+    "search": "Tafuta",
+    "select": "Chagua"
+  },
+  "help": {
+    "toggle": "Msaada",
+    "close": "Funga msaada"
+  },
+  "state": {
+    "empty": "Hakuna vipengee vya kuonyesha.",
+    "error": "Hitilafu imetokea.",
+    "loading": "Inapakia…",
+    "noResults": "Hakuna matokeo yaliyopatikana."
+  },
+  "time": {
+    "justNow": "Sasa hivi"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Yanayokuja",
+      "full": "Kalenda kamili",
+      "empty": "{days, plural, one {Hakuna matukio katika siku {days, number} ijayo} other {Hakuna matukio katika siku {days, number} zijazo}}",
+      "error": "Imeshindikana kupakia matukio",
+      "today": "Leo",
+      "allDay": "Siku nzima"
+    },
+    "type": {
+      "meeting": "Darasa",
+      "exam": "Mtihani",
+      "assignment": "Kazi ya darasani",
+      "term": "Kipindi cha muhula",
+      "event": "Tukio",
+      "personal": "Binafsi"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Hitilafu imetokea kwenye ukurasa",
+      "body": "Samahani — tatizo limetokea. Hitilafu hii imerekodiwa kiotomatiki. Unaweza kurudi kwenye ukurasa wa mwanzo au kupakia ukurasa upya.",
+      "home": "Rudi kwenye ukurasa wa mwanzo",
+      "reload": "Pakia upya"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Rudi kwenye ukurasa uliotangulia",
+    "body": "Anwani uliyotafuta haipo au imehamishwa. Unaweza kurudi kwenye ukurasa uliotangulia au kwenye ukurasa wa mwanzo.",
+    "home": "Rudi kwenye ukurasa wa mwanzo",
+    "programs": "Tazama programu za masomo",
+    "screenLabel": "404 · Haijapatikana",
+    "search": "Tafuta",
+    "title": "Ukurasa haujapatikana"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Asante sana kwa kunieleza jambo hili. Najua haikuwa rahisi kulisema, na hauko peke yako. Unachohisi ni halisi na muhimu, na unastahili kupata msaada wa haraka kutoka kwa mtu. Tafadhali piga sasa Simu ya Matumaini kupitia 1480; kuna mtu atakayekusikiliza kwa huruma.",
+      "tipHelpline": "Piga Simu ya Matumaini mara moja: 1480 (saa 24 na kwa siri)",
+      "tipEmergency": "Ikiwa uko katika hatari ya haraka, piga huduma za dharura za matibabu kupitia 115",
+      "tipCompany": "Ikiwezekana, kuwa karibu na mtu unayemwamini sasa hivi"
+    }
+  }
+}

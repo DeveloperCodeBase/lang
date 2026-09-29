@@ -1,0 +1,711 @@
+{
+  "dashboard": {
+    "eyebrow": "系统管理 · 实时数据",
+    "title": "管理仪表盘",
+    "lead": "系统概览与管理模块快捷入口。统计数据取自平台实时服务。",
+    "refresh": "刷新",
+    "loading": "加载中…",
+    "consoleLoading": "正在加载监控控制台…",
+    "errors": {
+      "load": "加载仪表盘失败",
+      "allDown": "所有仪表盘服务均不可用。"
+    },
+    "kpi": {
+      "aria": "关键指标",
+      "users": "用户",
+      "courses": "课程",
+      "ai": "AI 交互",
+      "audit": "审计事件"
+    },
+    "audit": {
+      "title": "最新审计事件",
+      "viewAll": "查看全部",
+      "unavailable": "审计日志不可用 (—)。",
+      "empty": "暂无记录的事件。",
+      "systemActor": "系统"
+    },
+    "actions": {
+      "create": "创建",
+      "update": "编辑",
+      "delete": "删除",
+      "login": "登录",
+      "logout": "登出",
+      "transition": "更改状态",
+      "approve": "批准",
+      "reject": "拒绝",
+      "enroll": "报名",
+      "drop": "退课",
+      "pay": "支付",
+      "settle": "结算"
+    },
+    "quick": {
+      "title": "快捷入口",
+      "searchPlaceholder": "搜索模块…",
+      "searchAria": "搜索管理模块",
+      "empty": "未找到匹配的模块。"
+    },
+    "groups": {
+      "all": "全部",
+      "academic": "教学",
+      "people": "人员",
+      "finance": "财务",
+      "governance": "监控"
+    },
+    "links": {
+      "schools": {
+        "title": "学院与系所",
+        "desc": "四层教育结构"
+      },
+      "terms": {
+        "title": "学期",
+        "desc": "学期与流程窗口"
+      },
+      "students": {
+        "title": "学生",
+        "desc": "档案与学业状态"
+      },
+      "instructors": {
+        "title": "教师",
+        "desc": "专任教师与任职"
+      },
+      "users": {
+        "title": "用户与角色",
+        "desc": "账户与权限"
+      },
+      "treasury": {
+        "title": "财政与报告",
+        "desc": "总账帐与财务结算"
+      },
+      "commission": {
+        "title": "特殊事项伒员会",
+        "desc": "案件审查与决策"
+      },
+      "audit": {
+        "title": "审计报告",
+        "desc": "系统记录的事件"
+      }
+    },
+    "detail": {
+      "title": "事件详情",
+      "close": "关闭",
+      "action": "操作",
+      "subject": "主题",
+      "user": "用户",
+      "ip": "IP 地址",
+      "time": "时间",
+      "fullReport": "完整报告"
+    }
+  },
+  "membershipConfig": {
+    "eyebrow": "管理台·会员",
+    "title": "会员设置",
+    "lead": "会员折扣、目录可见性、专业领域、销售方案及更改日志。",
+    "version": "已保存版本：{version}",
+    "helpTitle": "帮助",
+    "helpBody": "“资金”（会员折扣、上限、优惠券政策、宽陕期）仅可由财务经理角色保存。“计划”（目录可见性、专业领域）仅由会员经理角色保存。“方案”则可由两者任何一个角色保存。“恢复默认”将重置整个部分，而非单个字段。“历史”目前仅显示操作人的原始标识符；名称显示将在下一阶段实现。",
+    "loading": "正在加载...",
+    "loadError": "加载会员设置失败。",
+    "resetDefaults": "恢复默认",
+    "saving": "正在保存...",
+    "tabs": {
+      "money": "资金",
+      "program": "计划",
+      "plans": "方案",
+      "history": "历史"
+    },
+    "scope": {
+      "all": "所有课程",
+      "selected": "选定类别"
+    },
+    "stacking": {
+      "best_of": "最佳折扣/优惠券",
+      "coupon_wins": "优惠券优先",
+      "stack": "两者叠加"
+    },
+    "visibility": {
+      "off": "关闭",
+      "members_only": "仅限会员",
+      "authenticated": "已登录用户",
+      "public": "公开"
+    },
+    "historyScope": {
+      "config": "配置",
+      "plan": "方案"
+    },
+    "money": {
+      "readOnly": "只有财务管理员可以保存或重置此部分。",
+      "percentLabel": "会员折扣百分比",
+      "percentHelper": "0 到 100 — 零表示关闭折扣。",
+      "maxRialLabel": "折扣金额上限（留空 = 不设上限）",
+      "scopeLabel": "折扣范围",
+      "categoriesLabel": "精选分类（用“，”分隔）",
+      "categoriesHelper": "仅当范围为“精选分类”时生效。",
+      "categorySeparator": "，",
+      "stackingLabel": "折扣与优惠券叠加策略",
+      "stackingHelper": "“取最优折扣/优惠券”：应用金额较高者。“优惠券优先”：若使用优惠券，则忽略会员折扣。“两者叠加”：两个折扣同时应用。",
+      "graceLabel": "宽限期（天）",
+      "save": "保存财务部分",
+      "saved": "财务部分已保存。",
+      "resetDone": "财务部分已重置为默认值。",
+      "errSave": "保存财务部分时出错。",
+      "errReset": "重置财务部分时出错。",
+      "errRequired": "请输入数值。",
+      "errPercentRange": "必须是 0 到 100 之间的整数。",
+      "errMaxRial": "必须是非负整数（或留空表示不设上限）。",
+      "errGraceRange": "必须是 0 到 365 之间的整数。",
+      "errCategoriesRequired": "当范围为“精选分类”时，至少需要一个分类。",
+      "resetConfirm": {
+        "title": "将“财务”部分重置为默认值",
+        "body": "会员折扣、金额上限、范围、优惠券策略和宽限期都将恢复为系统的默认值——而不仅仅是一个字段。此操作将立即生效并记录在历史记录中；如有需要，您可以随时重新保存所需的值。",
+        "confirmLabel": "重置为默认值"
+      }
+    },
+    "program": {
+      "readOnly": "只有会员管理员可以保存或重置此部分。",
+      "visibilityLabel": "会员目录可见性",
+      "publicNote": "当前等同于“已登录用户”；无需登录即可显示的功能将在下一阶段推出",
+      "fieldsTitle": "专业领域",
+      "thCode": "代码",
+      "thNameFa": "波斯语名称",
+      "thNameEn": "英语名称",
+      "thActive": "启用",
+      "toggleAria": "启用/禁用领域 {name}",
+      "note": "此步骤不支持添加、删除或编辑领域 — 仅可启用或禁用现有领域。",
+      "save": "保存项目部分",
+      "saved": "项目部分已保存。",
+      "resetDone": "项目部分已重置为默认设置。",
+      "errSave": "保存项目部分时出错。",
+      "errReset": "重置项目部分时出错。",
+      "errNoActive": "至少需要一个活跃的专业领域。"
+    },
+    "plans": {
+      "readOnly": "只有会员管理员或财务管理员才能创建或编辑计划。",
+      "loadError": "加载计划时出错。",
+      "thCode": "代码",
+      "thName": "名称",
+      "thPrice": "价格",
+      "thPeriod": "周期（天）",
+      "thStatus": "状态",
+      "thActions": "操作",
+      "statusSellable": "活跃 · 可售",
+      "statusNotSellable": "活跃 · 暂不可售",
+      "statusInactive": "不活跃",
+      "editAria": "编辑 {name}",
+      "deactivateAria": "停用 {name}",
+      "newPlan": "新计划",
+      "editTitle": "编辑计划 {name}",
+      "codeLabel": "代码（不可更改）",
+      "nameFaLabel": "波斯语名称",
+      "priceLabel": "价格 (﷼)",
+      "periodLabel": "周期（天）",
+      "activeLabel": "活跃（活跃计划的价格必须大于零）",
+      "errCode": "计划代码无效 — 仅限英文字母小写、数字和下划线。",
+      "errNameFa": "计划的波斯语名称为必填项。",
+      "errPrice": "价格必须是非负整数。",
+      "errPeriod": "周期必须是不小于 1 的整数。",
+      "errSave": "保存计划时出错。",
+      "errDeactivate": "停用计划时出错。",
+      "confirmTitle": "停用计划",
+      "confirmBody": "计划“{name}”将被停用，并不再显示出售。此操作将记录在历史记录中。",
+      "confirmAction": "停用"
+    },
+    "history": {
+      "scopeLabel": "范围",
+      "scopeAll": "全部",
+      "loading": "正在加载…",
+      "empty": "暂 记录。无事件被注册。",
+      "loadError": "加载历史记录时出错。",
+      "thDate": "日期",
+      "thScope": "范围",
+      "thTarget": "目标",
+      "thActor": "操作者（ID）",
+      "thKeys": "已更改的键",
+      "prev": "上一页",
+      "next": "下一页",
+      "pager": "第 {page} 页 — 共 {total} 个事件"
+    }
+  },
+  "parentLinks": {
+    "readOnly": {
+      "title": "您在该页面上只有只读权限",
+      "body": "创建和撤销家长关联是一项授予访问权限的决定：从那一刻起，家长可以查看学生的成绩、出勤情况、学费以及健康概况。此决定由管理员做出；您可以查看和搜索活动的关联。",
+      "empty": "暂无关联记录。"
+    }
+  },
+  "regulation": {
+    "status": {
+      "title": "规则执行状态",
+      "allOn": "此页面上的所有可行规则均已启用，且服务器正在应用它们。",
+      "offIntro": "这些规则已配置，但当前未执行 — 其旁边的数字仅供参考：",
+      "hint": "要执行，请在相应的组中打开该规则的开关，然后点击“保存规章”。"
+    },
+    "knobs": {
+      "objectionWindowMinDays": {
+        "label": "学生异议期限下限（天）",
+        "helper": "教师在宣布成绩时不能设定短于此期限的时间。0 表示无下限。"
+      },
+      "minCreditFloorEnforced": {
+        "label": "退课时执行学分下限",
+        "helper": "开启（默认）= 将导致学期学分低于下限的退课请求将被拒绝；留级、夏季学期和最后学期除外。关闭 = 仅显示警告。"
+      },
+      "attendanceMaxAbsenceRatio": {
+        "label": "无故缺勤最大比例",
+        "helper": "3/16 ≈ 0.1875 — 超过此比例的学生将被标记为“零分处理”"
+      },
+      "lateGraceMinutes": {
+        "label": "入场迟到宽限时间（分钟）",
+        "helper": "开始后在此分钟内进入 = 出勤，之后 = 迟到"
+      },
+      "closeGraceMinutes": {
+        "label": "自动关闭会话宽限时间（分钟）",
+        "helper": "超过计划结束时间的开放会话将在这么多分钟后自动关闭"
+      },
+      "openGraceMinutes": {
+        "label": "自动开启课堂宽限时间（分钟）",
+        "helper": "课堂房间将在计划开始前这么多分钟准备好入场"
+      },
+      "noShowGraceMinutes": {
+        "label": "教师缺勤警告时间（分钟）",
+        "helper": "如果教师在计划开始后这么长时间内仍未进入，将向学院负责人发出警告；课堂不会自动取消"
+      },
+      "supervisionGraceSeconds": {
+        "label": "无教学监督宽限时间（秒）",
+        "helper": "在合格监督员连续缺勤后，录制将暂停并通知学术主任；默认值为 120 秒"
+      },
+      "passThresholdPercent": {
+        "label": "及格分数线（百分比）",
+        "helper": "精确对应学位及格分数的百分比"
+      },
+      "gradeRoundStep": {
+        "label": "成绩舍入步长（在 0..۲۰ 范围内）",
+        "helper": "在 20 分制尺度上的舍入精度"
+      },
+      "summerCapMax": {
+        "label": "夏季学期学分上限",
+        "helper": "“夏季最多 6 学分” — 仅通过下方的开关应用"
+      },
+      "summerCapEnforced": {
+        "label": "应用夏季上限",
+        "helper": "关闭（默认）= 夏季正常学分上限；开启 = 适用高学分上限（不考虑平均分）"
+      },
+      "addLimit": {
+        "label": "选退课期间添加课程的最大次数"
+      },
+      "dropLimit": {
+        "label": "选退课期间删除课程的最大次数"
+      },
+      "objectionSlaDaysUndergrad": {
+        "label": "教师答复期限 — 大专/本科（天）"
+      },
+      "objectionSlaDaysGrad": {
+        "label": "教师答复期限 — 研究生（天）"
+      },
+      "emergencyDropWindowEnforced": {
+        "label": "强制紧急退课窗口",
+        "helper": "开启 = 仅允许在 EMERGENCY_DROP 时间段内进行紧急退课"
+      },
+      "gradeEntryWindowEnforced": {
+        "label": "强制成绩录入窗口",
+        "helper": "开启 = 仅允许在 GRADE_ENTRY 时间段内发布/确认成绩"
+      }
+    },
+    "pageEyebrow": "管理面板 · 规章制度",
+    "pageTitle": "教学规章制度",
+    "savedVersion": "已保存版本：{version}",
+    "help": {
+      "title": "规章制度指南",
+      "body": "这些数值确定了组织层面的部委规则（出勤、成绩、选课、申诉、时间窗口）。每个数值都有部委默认值；编辑并保存即可为当前组织进行自定义。“已自定义”标签表示该数值与部委默认值不同。"
+    },
+    "groups": {
+      "attendance": {
+        "title": "考勤"
+      },
+      "grade": {
+        "title": "成绩"
+      },
+      "enrollment": {
+        "title": "选课与选退课",
+        "note": "夏季学分上限仅在开启“应用夏季学分上限”开关时生效。默认关闭，即夏季沿用正常学分上限。"
+      },
+      "objection": {
+        "title": "成绩异议（答复期限）"
+      },
+      "calendar": {
+        "title": "日历时间窗口",
+        "note": "两者默认均关闭 = 沿用当前行为（无时间窗口限制）。"
+      }
+    },
+    "badge": {
+      "custom": "已自定义",
+      "default": "默认"
+    },
+    "bool": {
+      "on": "开启",
+      "off": "关闭"
+    },
+    "ministryDefault": "部委默认值：{value}",
+    "loading": "正在加载…",
+    "unavailable": "规章制度不可用。",
+    "actions": {
+      "save": "保存规章制度",
+      "saving": "正在保存…",
+      "revert": "撤销更改"
+    },
+    "saved": "规章制度已保存。",
+    "errors": {
+      "loadFailed": "加载规章制度失败。",
+      "saveFailed": "保存规章制度失败。",
+      "formInvalid": "部分数值无效；请修正红色标注的项目。",
+      "required": "请输入数值。",
+      "notNumber": "无效的数字。",
+      "notInteger": "数字必须为整数。",
+      "range": "必须介于 {min} 和 {max} 之间。"
+    }
+  },
+  "treasury": {
+    "eyebrow": "财务 · 金库",
+    "title": "国库与报告",
+    "error": "发生错误",
+    "loading": "正在加载…",
+    "csvExport": "导出 CSV",
+    "help": {
+      "title": "国库指南",
+      "body": "总账概览（资产/负债/收入/费用）、薪资执行的国库清算（净支付 + 从现金账户划缴扣除额），以及带 CSV 导出的薪资成本报告。清算将冲销“应付薪资/扣除额”与“现金”账户。"
+    },
+    "months": [
+      "法瓦尔丁月",
+      "奥尔迪贝赫什特月",
+      "霍尔达德月",
+      "蒂尔月",
+      "梅尔达德月",
+      "舍里韦尔月",
+      "梅尔月",
+      "阿班月",
+      "阿泽尔月",
+      "代月",
+      "巴赫曼月",
+      "伊斯芬代月"
+    ],
+    "period": "{year}年{month}",
+    "groups": {
+      "asset": "资产",
+      "liability": "负债",
+      "income": "收入",
+      "expense": "费用"
+    },
+    "rosterStatus": {
+      "all": "所有状态",
+      "hasOverdue": "有逾期",
+      "partial": "部分支付",
+      "unpaid": "未支付",
+      "cleared": "已清算"
+    },
+    "finStatus": {
+      "PENDING": "待处理",
+      "PAID": "已支付",
+      "OVERDUE": "已逾期",
+      "PARTIAL": "部分支付",
+      "UNPAID": "未支付",
+      "CLEARED": "已清算",
+      "APPROVED": "已批准",
+      "REJECTED": "已拒绝",
+      "DISBURSED": "已发放",
+      "REPAYING": "还款中",
+      "SETTLED": "已结清",
+      "REFUNDED": "已退款",
+      "SUCCESS": "成功",
+      "FAILED": "失败",
+      "CANCELLED": "已取消"
+    },
+    "recon": {
+      "title": "财务健康与钱包对账",
+      "refresh": "更新",
+      "desc": "只读检查资金不变量；每个值都应为零。存在差异意味着总账需要人工审核（此检查不会修改任何内容）。",
+      "checking": "正在检查…",
+      "unavailable": "对账状态不可用。",
+      "healthy": "健康 — 所有不变量均已满足",
+      "drift": "存在差异 — 需要审核",
+      "lastCheck": "最后检查时间：{at}",
+      "walletDrift": "钱包差异（镜像 ⇄ 2400）",
+      "mirrorSum": "交易镜像总和",
+      "walletLiability": "钱包负债 (2400)",
+      "ledgerNet": "复式记账净额（借方 − 贷方）",
+      "clearingDrift": "提现清算（2500 ⇄ 预留）",
+      "payoutClearing": "待处理清算 (2500)",
+      "openHolds": "开放式提现预留",
+      "unbackedPaid": "无凭证的已结清付款",
+      "unbackedTuition": "学费（总额）",
+      "unbackedSubscription": "网关订阅（总额）",
+      "unbackedNote": "此计数器显示缺少复式凭证的已结算行 — 通常是原子性修复之前的历史遗留付款。非零数字并非错误，且不会将“健康”状态变为红色；修复需由财务主管决定并运行脚本来完成。"
+    },
+    "roster": {
+      "title": "学生 / 财务状态",
+      "desc": "通过姓名或学号搜索有学费账单的学生。点击任意行以打开完整的财务档案（账单、分期付款、付款、贷款、奖学金、退款）。仅显示财务数据。",
+      "searchPlaceholder": "姓名或学号…",
+      "searchAria": "按姓名或学号搜索学生",
+      "statusAria": "财务状态筛选",
+      "submit": "搜索",
+      "empty": "未找到符合该筛选条件且有账单的学生。",
+      "thStudent": "学生",
+      "thCode": "学号",
+      "thTotal": "总金额",
+      "thPaid": "已支付",
+      "thOverdue": "逾期分期",
+      "thLastPayment": "最近付款",
+      "thStatus": "状态",
+      "thActions": "操作",
+      "open": "财务档案",
+      "close": "关闭档案"
+    },
+    "detail": {
+      "title": "财务档案",
+      "close": "关闭",
+      "total": "总金额：",
+      "paid": "已支付：",
+      "outstanding": "剩余：",
+      "bills": "账单",
+      "billsEmpty": "暂无记录的账单。",
+      "termFallback": "学期",
+      "fixed": "固定：",
+      "variable": "可变：",
+      "discount": "折扣：",
+      "sum": "合计：",
+      "billPaid": "已支付：",
+      "billRemaining": "剩余：",
+      "thSeq": "分期",
+      "thAmount": "金额",
+      "thDue": "到期日",
+      "thStatus": "状态",
+      "payments": "支付记录",
+      "paymentsEmpty": "暂无支付记录。",
+      "thGateway": "支付网关",
+      "thPurpose": "用途",
+      "thDate": "日期",
+      "loans": "贷款",
+      "loansEmpty": "暂无记录的贷款。",
+      "loanFallback": "贷款",
+      "appliedToTuition": "已抵戣学费",
+      "thPaidAmount": "已支付",
+      "scholarships": "奖学金",
+      "scholarshipsEmpty": "暂无记录的奖学金。",
+      "thScholarship": "奖学金",
+      "thValue": "金额",
+      "refunds": "退款",
+      "refundsEmpty": "暂无记录的退款申请。",
+      "thRequested": "申请金额",
+      "thFinal": "最终金额",
+      "thAccount": "账户",
+      "timeline": "财务明细"
+    },
+    "receivables": {
+      "title": "学费应收报告",
+      "empty": "暂无数据。",
+      "billed": "总账单：",
+      "collected": "已收：",
+      "outstanding": "剩余：",
+      "overdue": "逾期金额：",
+      "installments": "{value} 期",
+      "noBills": "暂无登记的学费账单。",
+      "thTerm": "学期",
+      "thBillCount": "账单数",
+      "thBilled": "账单",
+      "thCollected": "已收",
+      "thOutstanding": "剩余"
+    },
+    "ledger": {
+      "title": "总账视图"
+    },
+    "payables": {
+      "title": "薪资结算",
+      "empty": "暂无已执行且待结算的薪资。",
+      "thPeriod": "期间",
+      "thNet": "净额",
+      "thDeduction": "扣除项",
+      "thStatus": "状态",
+      "thActions": "操作",
+      "settled": "已结算",
+      "awaiting": "待结算",
+      "settle": "国库结算",
+      "noticeWallet": "结算已完成：薪资净额已存入员工钱包，扣除项已从国库支付（总计 {amount}）。",
+      "noticeCash": "结算已完成：已从国库支付 {amount}。"
+    },
+    "report": {
+      "title": "薪资成本报告",
+      "empty": "暂无开具的工资单记录。",
+      "totalGross": "总毛额：",
+      "totalDeduction": "总扣除项：",
+      "totalNet": "总净额：",
+      "thPerson": "人员",
+      "thPeriod": "期间",
+      "thGross": "毛额",
+      "thDeduction": "扣除项",
+      "thNet": "净额"
+    },
+    "faculty": {
+      "title": "按学院划分的薪资报告",
+      "thFaculty": "学院",
+      "thSlips": "工资单数"
+    },
+    "csv": {
+      "receivables": "学期,年份,学期,账单数,账单金额,已收,剩余",
+      "report": "员工编号,姓名,年份,月份,毛额,扣除项,净额",
+      "faculty": "学院,工资单数,毛额,扣除项,净额"
+    }
+  },
+  "users": {
+    "error": "发生错误",
+    "denied": "仅限管理员访问。",
+    "eyebrow": "用户",
+    "title": "用户",
+    "bulkOpen": "批量导入 (CSV)",
+    "add": "+ 添加用户",
+    "helpTitle": "用户管理指南",
+    "helpBody": "在此页面中，您可以创建账户、刍配角色，并在需要时重置密码。使用“+ 添加用户”创建新账户，或使用“批量导入 (CSV)”批量导入多个用户；点击任何用户行即可进行编辑。使用“档案”可查看每个人的完整情况：对于学生，包括成绩单、考试、作业、考勤和活动；对于教师，包括课程、授课负载和评分进度。",
+    "empty": "暂无登记用户。",
+    "searchPlaceholder": "搜索姓名或电子邮件…",
+    "thName": "姓名",
+    "thEmail": "电子邮件",
+    "thRoles": "角色",
+    "thStatus": "状态",
+    "active": "已启用",
+    "inactive": "已禁用",
+    "dossier": "档案",
+    "dossierAria": " {email} 的完整档案",
+    "edit": "编辑",
+    "editAria": "编辑 {email}",
+    "resetPassword": "重置密码",
+    "form": {
+      "titleEdit": "编辑用户",
+      "titleCreate": "添加用户",
+      "email": "电子邮件",
+      "emailLockedHelper": "电子邮件创建后不可修改。",
+      "initialPassword": "初始密码",
+      "initialPasswordHelper": "至少 8 个字符。用户可以在后续从个人资料中修改。",
+      "fullName": "姓名",
+      "locale": "语言",
+      "localeFa": "泥斯克语 (波斯语)",
+      "roles": "角色",
+      "roleLocked": "仅系统超级管理员可指派此角色",
+      "rolesHelper": "管理角色（系统管理员 / 超级管理员）仅可由超级管理员指派。",
+      "faculty": "管辖学院（学院闵）",
+      "facultyEmpty": "— 选择学院 —",
+      "facultyHelper": "学院长仅管理该学院。保存后，将在用户下次登录时生效。",
+      "isActive": "账户已启用",
+      "resetTitle": "重置密码 — {who}",
+      "newPassword": "新密码",
+      "newPasswordHelper": "至少 8 个字符。该用户的所有活动会话都将被终止。"
+    },
+    "bulkStatus": {
+      "created": "已创建",
+      "duplicate": "重复",
+      "error": "错误"
+    },
+    "bulk": {
+      "title": "批量导入用户 (CSV)",
+      "close": "关闭",
+      "intro": "请选择一个包含 <c>email,fullName,roles,password</c> 表头的 CSV 文件。email 和 fullName 列为必填项；roles（以 <p>|</p> 分隔）和 password 为可选项。若密码为空，系统将自动生成随机密码，且仅在此页面报告中显示。",
+      "downloadTemplate": "下载示例文件 (CSV)",
+      "sampleName": "张三",
+      "fileLabel": "CSV 文件",
+      "emptyFile": "文件为空。",
+      "badHeader": "第一行必须是表头，且至少包含 email 和 fullName 列（请下载示例文件）。",
+      "noRows": "表头行之后未找到任何数据。",
+      "readFailed": "无法读取文件。请选择一个有效的 CSV 文件。",
+      "readSummary": "已从“{file}”中读取 {rows} 行 —",
+      "validCount": "{value} 个有效",
+      "invalidCount": "{value} 个异常",
+      "previewNote": " — 预览前 {value} 行",
+      "thRow": "#",
+      "thEmail": "电子邮件",
+      "thName": "姓名",
+      "thRoles": "角色",
+      "thPassword": "密码",
+      "thCheck": "检查",
+      "hasPassword": "有",
+      "autoPassword": "自动",
+      "badEmail": "邮箱无效",
+      "dupInFile": "文件中重复",
+      "ready": "就绪",
+      "cancel": "取消",
+      "importing": "正在导入…",
+      "start": "开始导入",
+      "warning": "⚠️ 生成的密码<b>仅在此处</b>显示，之后无法找回；请在关闭前下载报告。",
+      "createdCount": "已创建：{value}",
+      "dupCount": "重复：{value}",
+      "errCount": "错误：{value}",
+      "noReport": "未从服务器收到报告。",
+      "rEmail": "电子邮件",
+      "rStatus": "状态",
+      "rReason": "说明",
+      "rPassword": "生成的密码",
+      "downloadReport": "下载 CSV 报告",
+      "another": "导入其他文件"
+    }
+  },
+  "membershipQueue": {
+    "eyebrow": "管理面板 · 成员资格",
+    "title": "成员资格队列",
+    "lead": "成员资格申请、身份验证、暂停/吊销/恢复。",
+    "help": {
+      "title": "帮助",
+      "body": "“身份验证”将待处理的成员资格状态变更为已验证；随后用户可在“我的成员资格”页面进行支付。“暂停”、“恢复”和“吊销”操作仅限成员资格管理员角色使用。吊销操作是最终且不可逆的；相关记录不会被删除，其状态仅会变更为“已吊销”，并保留在历史记录中以确保透明度。当具有专业领域的成员资格被激活时，用户将自动被添加到该领域的即时通讯专业群组中。"
+    },
+    "status": {
+      "pending": "待验证",
+      "verified": "已验证",
+      "active": "活跃",
+      "renewal_due": "需续费",
+      "grace": "宽限期",
+      "lapsed": "已失效",
+      "suspended": "已暂停",
+      "revoked": "已吊销"
+    },
+    "filters": {
+      "label": "状态",
+      "all": "全部"
+    },
+    "loading": "正在加载…",
+    "noName": "无姓名",
+    "row": {
+      "field": "专业领域：{name}",
+      "noField": "无专业领域",
+      "requested": "· 申请时间：{date}",
+      "expires": "· 到期时间：{date}",
+      "suspendReason": "暂停原因：{reason}",
+      "revokeReason": "吊销原因：{reason}"
+    },
+    "reasonPlaceholder": "原因（可选）",
+    "actions": {
+      "verify": "验证身份",
+      "suspend": "暂停成员资格",
+      "unsuspend": "恢复",
+      "revoke": "吊销",
+      "revokeConfirm": "吊销操作不可逆 — 确定要继续吗？",
+      "revokeYes": "是的，确认吊销",
+      "cancel": "取消"
+    },
+    "notice": {
+      "verified": "成员身份已验证。",
+      "suspended": "成员资格已暂停。",
+      "unsuspended": "已解除暂停。",
+      "revoked": "成员资格已吊销。"
+    },
+    "history": {
+      "title": "流转历史",
+      "actor": "· 操作人：",
+      "system": "· 系统"
+    },
+    "empty": {
+      "title": "此状态下暂无成员资格",
+      "body": "列表已按所选状态筛选。请清除筛选条件以查看所有请求。",
+      "cta": "显示所有状态"
+    },
+    "selectHint": "请从列表中选择一个成员身份。"
+  },
+  "auditExport": {
+    "button": "导出 CSV",
+    "pending": "正在准备…",
+    "error": "导出失败，请重试。",
+    "note": "应用相同筛选条件后的最后 {rows} 行，只读"
+  }
+}

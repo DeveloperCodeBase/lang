@@ -1,0 +1,427 @@
+{
+  "common": {
+    "user": "کاربر",
+    "close": "بستن",
+    "you": "شما",
+    "cancel": "انصراف",
+    "working": "در حال انجام…",
+    "loading": "در حال بارگذاری…"
+  },
+  "errors": {
+    "generic": "خطا رخ داد"
+  },
+  "role": {
+    "owner": "مالک",
+    "admin": "مدیر",
+    "member": "عضو"
+  },
+  "mute": {
+    "title": "اعلان‌های این گفت‌وگو",
+    "hint": "بی‌صدا: پیام‌ها و منشن‌های این گفت‌وگو اعلان نمی‌شوند (در فهرست باقی می‌مانند).",
+    "on": "🔕 بی‌صدا",
+    "off": "🔔 اعلان روشن"
+  },
+  "file": {
+    "unsupported": "این نوع فایل پشتیبانی نمی‌شود. تصویر (PNG/JPG/WebP/GIF) یا سند (PDF/Word/Excel/PowerPoint/متن/ZIP) ارسال کنید.",
+    "kind": {
+      "image": "تصویر",
+      "voice": "پیام صوتی",
+      "file": "فایل"
+    },
+    "tooLarge": "حجم {label} بیش از حد مجاز است (حداکثر {value, number} مگابایت)."
+  },
+  "size": {
+    "bytes": "{value} بایت",
+    "kb": "{value} کیلوبایت",
+    "mb": "{value} مگابایت"
+  },
+  "preview": {
+    "poll": "📊 نظرسنجی: {body}",
+    "image": "🖼️ تصویر",
+    "file": "📎 فایل",
+    "fileNamed": "📎 {name}",
+    "voice": "🎤 پیام صوتی",
+    "message": "پیام"
+  },
+  "media": {
+    "image": "تصویر",
+    "file": "فایل",
+    "generic": "رسانه",
+    "tabsAria": "نوع رسانه",
+    "tabImages": "تصاویر",
+    "tabFiles": "فایل‌ها",
+    "emptyImages": "تصویری در این گفت‌وگو به اشتراک گذاشته نشده است.",
+    "emptyFiles": "فایلی در این گفت‌وگو به اشتراک گذاشته نشده است.",
+    "open": "بازکردن تصویر: {name}",
+    "dialogAria": "رسانه‌های {title}",
+    "sharedTitle": "رسانه‌های مشترک",
+    "imageAlt": "تصویر پیوست",
+    "downloadFile": "دانلود فایل: {name}",
+    "downloadFileSized": "دانلود فایل: {name} ({size})",
+    "downloadImage": "دانلود تصویر",
+    "download": "دانلود",
+    "lightboxAria": "تصویر: {name}"
+  },
+  "day": {
+    "today": "امروز",
+    "yesterday": "دیروز"
+  },
+  "presence": {
+    "justNow": "چند لحظه پیش",
+    "minutesAgo": "{value, plural, other {# دقیقه پیش}}",
+    "hoursAgo": "{value, plural, other {# ساعت پیش}}",
+    "dayAtTime": "{day} ساعت {time}",
+    "online": "آنلاین",
+    "offline": "آفلاین",
+    "lastSeen": "آخرین بازدید {when}"
+  },
+  "mention": {
+    "viewProfile": "نمایش پروفایل {name}",
+    "dialog": "منشن عضو",
+    "empty": "عضوی پیدا نشد.",
+    "listAria": "اعضا برای منشن"
+  },
+  "list": {
+    "title": "پیام‌ها",
+    "unreadPill": "{value, plural, other {# نخوانده}}",
+    "classSpacesTitle": "فضای گفت‌وگوی کلاس‌ها",
+    "classGroups": "گروه‌های درس",
+    "newCta": "+ جدید",
+    "loading": "در حال بارگذاری…",
+    "emptyTitle": "هنوز گفت‌وگویی ندارید.",
+    "emptyHint": "با «+ جدید» یک گفت‌وگو شروع کنید.",
+    "emptyCta": "+ شروع گفت‌وگو",
+    "noSearchMatch": "گفت‌وگویی با «{query}» پیدا نشد.",
+    "noUnread": "گفت‌وگوی خوانده‌نشده‌ای ندارید.",
+    "noneInFolder": "گفت‌وگویی در این پوشه نیست.",
+    "placeholder": "یک گفت‌وگو را انتخاب کنید.",
+    "unreadSep": "پیام‌های خوانده‌نشده"
+  },
+  "search": {
+    "ariaMessages": "جست‌وجوی پیام‌ها",
+    "ariaConvos": "جست‌وجوی گفت‌وگو",
+    "placeholderMessages": "جست‌وجو در همهٔ پیام‌ها…",
+    "placeholderConvos": "جست‌وجوی گفت‌وگو…",
+    "clear": "پاک کردن جست‌وجو",
+    "modeLabel": "حالت جست‌وجو",
+    "tabConvos": "گفت‌وگوها",
+    "tabMessages": "پیام‌ها",
+    "tabMentions": "منشن‌های من",
+    "minChars": "برای جست‌وجوی پیام‌ها حداقل {value, number} نویسه وارد کنید.",
+    "searching": "در حال جست‌وجو…",
+    "noMessages": "پیامی با «{query}» پیدا نشد."
+  },
+  "mentions": {
+    "loading": "در حال بارگذاری منشن‌ها…",
+    "empty": "هنوز در هیچ پیامی منشن نشده‌اید."
+  },
+  "spaces": {
+    "intro": "برای هر درسی که تدریس می‌کنید، یک «گروهِ گفت‌وگو» (همه می‌نویسند) و یک «کانالِ اعلان» (فقط شما) ساخته می‌شود. دانشجویانِ ثبت‌نام‌شده خودکار عضو می‌شوند و آن را در فهرستِ گفت‌وگوهایشان می‌بینند.",
+    "noSections": "درسی برای شما ثبت نشده است.",
+    "groupNumber": " · گروه {value, number}",
+    "active": "فعال",
+    "resync": "هم‌گام‌سازی روستر",
+    "create": "ساختن فضا"
+  },
+  "chat": {
+    "untitled": "گفت‌وگو",
+    "back": "بازگشت",
+    "memberCount": "{value, number} عضو",
+    "onlineCount": " · {value, number} آنلاین",
+    "tapForInfo": " · برای اطلاعات بزنید",
+    "menuAria": "گزینه‌های گفت‌وگو",
+    "menuTitle": "گزینه‌ها",
+    "olderMessages": "پیام‌های قدیمی‌تر",
+    "empty": "هنوز پیامی نیست. اولین پیام را بفرستید.",
+    "readOnly": "فقط مدیران می‌توانند در این کانال پیام بگذارند."
+  },
+  "voice": {
+    "unsupported": "ضبط صدا در این مرورگر پشتیبانی نمی‌شود.",
+    "denied": "دسترسی به میکروفون داده نشد. اجازهٔ میکروفون را در مرورگر بررسی کنید.",
+    "cancel": "لغو ضبط",
+    "recording": "در حال ضبط پیام صوتی…",
+    "send": "ارسال پیام صوتی",
+    "record": "ضبط پیام صوتی"
+  },
+  "copy": {
+    "ok": "متن پیام کپی شد.",
+    "failed": "کپی متن ممکن نشد."
+  },
+  "ai": {
+    "prompt": {
+      "explain": "این پیام را ساده و کوتاه توضیح بده:\n«{body}»",
+      "summarize": "این پیام را در یک تا دو جمله خلاصه کن:\n«{body}»",
+      "ask": "درباره‌ی این پیام کمکم کن و نکته‌ی مهمش را بگو:\n«{body}»",
+      "translate": "این متن را اگر فارسی است به انگلیسیِ روان و در غیر این صورت به فارسیِ روان ترجمه کن:\n«{body}»"
+    },
+    "sessionTitle": "از پیام‌رسان",
+    "noAnswer": "(پاسخی دریافت نشد)",
+    "sheet": {
+      "aria": "پاسخ دستیار هوشمند",
+      "title": {
+        "explain": "توضیح با هوش مصنوعی",
+        "summarize": "خلاصه",
+        "ask": "پرسش از دستیار",
+        "translate": "ترجمه"
+      },
+      "loading": "در حال نوشتن…",
+      "plansCta": "مشاهده‌ی پلن‌ها →",
+      "agentsCta": "ادامه در «دستیارهای هوشمند» →"
+    }
+  },
+  "pin": {
+    "limit": "حداکثر {value, number} پیام می‌توان سنجاق کرد. ابتدا یکی را بردارید.",
+    "barAria": "پیام‌های سنجاق‌شده ({value, number})",
+    "barTitle": "پیام سنجاق‌شده",
+    "listAria": "فهرست پیام‌های سنجاق‌شده",
+    "listTitle": "فهرست سنجاق‌ها",
+    "remove": "برداشتن سنجاق"
+  },
+  "report": {
+    "done": "گزارش شما ثبت شد و توسط مدیران بررسی می‌شود. سپاسگزاریم.",
+    "title": "گزارش پیام",
+    "hint": "این پیام برای بررسی به مدیران گزارش می‌شود. دلیل (اختیاری) را انتخاب یا وارد کنید.",
+    "reasonAria": "دلیل گزارش",
+    "reason": {
+      "abusive": "محتوای توهین‌آمیز یا آزاردهنده",
+      "spam": "هرزنامه یا تبلیغات",
+      "inappropriate": "محتوای نامناسب",
+      "other": "سایر موارد"
+    },
+    "noteLabel": "توضیح بیشتر (اختیاری)",
+    "notePlaceholder": "در صورت تمایل توضیح دهید…",
+    "sending": "در حال ارسال…",
+    "submit": "ارسال گزارش"
+  },
+  "forward": {
+    "batchBody": "هدایت {value, number} پیام",
+    "doneOne": "پیام هدایت شد.",
+    "doneMany": "{value, number} پیام هدایت شد.",
+    "title": "هدایت پیام",
+    "searchAria": "جست‌وجوی گفت‌وگو",
+    "searchPlaceholder": "جست‌وجوی گفت‌وگو…",
+    "empty": "گفت‌وگویی پیدا نشد.",
+    "current": "گفت‌وگوی فعلی"
+  },
+  "bulkDelete": {
+    "done": "{value, number} پیام حذف شد.",
+    "partial": "{value, number} پیام حذف شد ({skipped, number} پیام قابل حذف نبود)."
+  },
+  "block": {
+    "done": "این کاربر مسدود شد. دیگر نمی‌توانید برای یکدیگر پیام بفرستید.",
+    "lifted": "مسدودی برداشته شد. اکنون می‌توانید پیام بفرستید.",
+    "unblockCta": "رفع مسدودی",
+    "blockCta": "مسدودکردن کاربر",
+    "barText": "این کاربر را مسدود کرده‌اید؛ ارسال پیام ممکن نیست."
+  },
+  "bubble": {
+    "aria": {
+      "select": "{state} — پیام از {name}",
+      "selected": "انتخاب‌شده",
+      "selectable": "انتخاب",
+      "message": "پیام از {name} — برای گزینه‌ها کلید منو یا کلیک راست"
+    },
+    "forwardedFrom": "هدایت‌شده از",
+    "pinned": "سنجاق‌شده",
+    "jumpToReplied": "رفتن به پیام {name}",
+    "edited": " · ویرایش‌شده",
+    "quickActions": "کنش‌های سریع پیام",
+    "likeAria": "واکنش پسندیدن",
+    "like": "پسندیدن",
+    "reply": "پاسخ",
+    "more": "گزینه‌های بیشتر",
+    "menu": "گزینه‌های پیام"
+  },
+  "qa": {
+    "question": "سؤال کلاسی",
+    "hasAccepted": " · پاسخ برگزیده دارد",
+    "accepted": "پاسخ برگزیده",
+    "openAria": "پرسش‌وپاسخ کلاسی",
+    "openTitle": "پرسش‌وپاسخ",
+    "sendAsAria": "ارسال به‌عنوان سؤال کلاسی",
+    "sendAsOn": "این پیام به‌عنوان سؤال ارسال می‌شود",
+    "filterAria": "فیلتر پرسش‌ها",
+    "filter": {
+      "all": "همه",
+      "unanswered": "بی‌پاسخ",
+      "answered": "پاسخ‌گرفته"
+    },
+    "empty": {
+      "unanswered": "پرسش بی‌پاسخی نیست.",
+      "answered": "هنوز پرسشی پاسخ برگزیده نگرفته.",
+      "all": "هنوز پرسشی ثبت نشده. با دکمهٔ ❓ کنار نوشتن پیام، سؤال بپرسید."
+    },
+    "jump": "رفتن به سؤال {name}",
+    "acceptedBadge": "پاسخ برگزیده",
+    "answersCount": "{value, number} پاسخ",
+    "olderItems": "موارد قدیمی‌تر"
+  },
+  "status": {
+    "failed": "ارسال نشد",
+    "retry": "تلاش دوباره",
+    "pending": "در حال ارسال",
+    "read": "خوانده شد",
+    "sent": "ارسال شد"
+  },
+  "seenBy": {
+    "aria": "دیده‌شده توسط چه کسانی",
+    "title": "دیده‌شده توسط"
+  },
+  "selection": {
+    "barAria": "نوار انتخاب پیام‌ها",
+    "cancelAria": "انصراف از انتخاب",
+    "count": "{value, number} انتخاب‌شده",
+    "idle": "انتخاب پیام‌ها",
+    "forward": "هدایت",
+    "delete": "حذف",
+    "deleting": "در حال حذف…",
+    "confirmAria": "تأیید حذف پیام‌ها",
+    "confirmBody": "{value, number} پیام حذف شود؟ پیام‌هایی که اجازهٔ حذفشان را ندارید نادیده گرفته می‌شوند."
+  },
+  "convoSearch": {
+    "toggleAria": "جست‌وجو در این گفت‌وگو",
+    "toggleTitle": "جست‌وجو در گفت‌وگو",
+    "aria": "جست‌وجوی پیام در این گفت‌وگو",
+    "placeholder": "جست‌وجوی پیام در این گفت‌وگو…",
+    "advAria": "فیلترهای پیشرفته",
+    "advTitle": "فیلترها (فرستنده · نوع · بازهٔ زمانی)",
+    "close": "بستن جست‌وجو",
+    "sender": "فرستنده",
+    "senderAria": "فیلتر بر اساس فرستنده",
+    "kindAria": "نوع پیام",
+    "kind": {
+      "all": "همه",
+      "media": "رسانه",
+      "file": "فایل",
+      "question": "پرسش‌ها"
+    },
+    "rangeAria": "بازهٔ زمانی",
+    "range": {
+      "all": "همهٔ زمان‌ها",
+      "1d": "۲۴ ساعت اخیر",
+      "7d": "۷ روز اخیر",
+      "30d": "۳۰ روز اخیر"
+    },
+    "noResults": "پیامی با «{query}» در این گفت‌وگو پیدا نشد."
+  },
+  "drop": {
+    "title": "برای ارسال رها کنید",
+    "limits": "تصویر تا {image, number} مگابایت · سند تا {file, number} مگابایت"
+  },
+  "fab": {
+    "newMessages": "{value, number} پیام جدید — رفتن به آخرین پیام",
+    "jumpToLatest": "رفتن به آخرین پیام",
+    "jumpToBottom": "رفتن به پایین"
+  },
+  "typing": {
+    "separator": "، ",
+    "andOthers": " و {value, number} نفر دیگر",
+    "suffix": " در حال نوشتن…",
+    "peer": "در حال نوشتن…"
+  },
+  "compose": {
+    "replyingTo": "پاسخ به",
+    "cancelReply": "لغو پاسخ",
+    "editing": "ویرایش پیام",
+    "cancelEdit": "لغو ویرایش",
+    "emojiPicker": "انتخاب ایموجی",
+    "insertEmoji": "درج {emoji}",
+    "emoji": "ایموجی",
+    "aria": "نوشتن پیام",
+    "placeholder": "پیام بنویسید…",
+    "save": "ذخیره",
+    "send": "ارسال"
+  },
+  "attach": {
+    "title": "پیوست",
+    "aria": "پیوست فایل",
+    "image": "عکس",
+    "file": "سند یا فایل",
+    "poll": "نظرسنجی",
+    "note": "تصویر تا {image, number} مگابایت · سند تا {file, number} مگابایت. متن نوشته‌شده به‌عنوان توضیح ارسال می‌شود."
+  },
+  "ctx": {
+    "aria": "گزینه‌های پیام",
+    "react": "واکنش {emoji}",
+    "quickReact": "واکنش سریع",
+    "moreEmoji": "ایموجی‌های بیشتر",
+    "more": "بیشتر",
+    "reply": "پاسخ",
+    "copy": "کپی متن",
+    "forward": "هدایت",
+    "qaAccept": "انتخاب به‌عنوان پاسخ برگزیده",
+    "qaClear": "برداشتن پاسخ برگزیده",
+    "ai": {
+      "explain": "توضیح بده با AI",
+      "summarize": "خلاصه کن",
+      "ask": "بپرس از دستیار",
+      "translate": "ترجمه کن"
+    },
+    "select": "انتخاب",
+    "edit": "ویرایش",
+    "seenBy": "اطلاعات پیام",
+    "pin": "سنجاق"
+  },
+  "pins": {
+    "title": "پیام‌های سنجاق‌شده",
+    "heading": "پیام‌های سنجاق‌شده ({value, number})",
+    "empty": "پیام سنجاق‌شده‌ای نیست.",
+    "jump": "رفتن به پیام سنجاق‌شده",
+    "unpinShort": "برداشتن"
+  },
+  "poll": {
+    "dialogAria": "ساخت نظرسنجی",
+    "heading": "نظرسنجی جدید",
+    "questionLabel": "سؤال",
+    "questionPlaceholder": "مثلاً: کدام زمان برای کلاس جبرانی مناسب‌تر است؟",
+    "optionsLabel": "گزینه‌ها ({min, number} تا {max, number})",
+    "option": "گزینهٔ {value, number}",
+    "removeOption": "حذف گزینهٔ {value, number}",
+    "addOption": "+ افزودن گزینه",
+    "multi": "انتخاب چند گزینه مجاز باشد",
+    "creating": "در حال ساخت…",
+    "create": "ساخت نظرسنجی"
+  },
+  "newChat": {
+    "title": "گفت‌وگوی جدید",
+    "groupNameRequired": "نام گروه الزامی است",
+    "channelNameRequired": "نام کانال الزامی است",
+    "tab": {
+      "dm": "خصوصی",
+      "group": "گروه",
+      "channel": "کانال",
+      "discover": "کشف",
+      "class": "کلاس"
+    },
+    "discoverEmpty": "کانال عمومی‌ای برای عضویت نیست. (کانال‌های عمومی را با تب «کانال» بسازید.)",
+    "subscriberCount": "{value, number} عضو",
+    "open": "باز کردن",
+    "join": "عضو شدن",
+    "classEmpty": "سکشنی برای تدریس ندارید. (فضای کلاس را استاد درس می‌سازد.)",
+    "provision": "ایجاد فضای کلاس",
+    "groupName": "نام گروه",
+    "channelName": "نام کانال",
+    "channelDesc": "توضیح کانال",
+    "descOptional": "توضیح (اختیاری)",
+    "searchUserAria": "جست‌وجوی کاربر",
+    "searchUserPlaceholder": "جست‌وجوی کاربر…",
+    "noUser": "کاربری یافت نشد.",
+    "createGroup": "ساخت گروه ({value, number})",
+    "createChannel": "ساخت کانال ({value, number})"
+  },
+  "groupInfo": {
+    "aria": "اطلاعات {kind}",
+    "tabsAria": "اطلاعات گفت‌وگو",
+    "tabMembers": "اعضا",
+    "tabMedia": "رسانه‌ها",
+    "membersHeading": "اعضا ({value, number})",
+    "addToggle": "+ افزودن",
+    "add": "افزودن",
+    "noneToAdd": "کاربری برای افزودن نیست.",
+    "demote": "حذف مدیر",
+    "promote": "ارتقا به مدیر",
+    "removeMember": "حذف عضو",
+    "thisMember": "این عضو",
+    "leave": "خروج از {kind}"
+  }
+}

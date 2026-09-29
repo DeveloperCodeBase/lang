@@ -1,0 +1,124 @@
+{
+  "new": {
+    "eyebrow": "Service Desk",
+    "title": "New Request",
+    "back": "Back",
+    "empty": "No request types are defined.",
+    "loadError": "Failed to load the list of request types.",
+    "searchLabel": "Search request type",
+    "searchPlaceholder": "e.g., term extension, certificate, dorm…",
+    "noResults": "No request type found matching this phrase.",
+    "externalBadge": "External System",
+    "externalHint": "This request is handled in the external system (Sajjad).",
+    "externalContinue": "Continue in external system ↗",
+    "chooseAnother": "Choose another type",
+    "sectionPlaceholder": "Select a course…",
+    "sectionsLoading": "Loading course list…",
+    "sectionsError": "Failed to load the course list. Your form entries have been preserved.",
+    "submit": "Submit and Send",
+    "backToTypes": "Back to type selection",
+    "saveDraft": "Save Draft",
+    "draftHint": "You can save the form unfinished and complete and submit it later from \"My Requests\"."
+  },
+  "detail": {
+    "submit": "Send",
+    "resubmit": "Revise and Resubmit",
+    "cancel": "Cancel Request",
+    "edit": {
+      "title": "Edit Request Form",
+      "hintReturned": "This request has been returned to you for revision. Correct the fields and then click \"Revise and Resubmit\".",
+      "hintDraft": "This request has not been submitted yet. You can complete and save the form and send it later.",
+      "selectPlaceholder": "Select…",
+      "save": "Save Changes",
+      "saved": "Changes saved",
+      "savedSectionUnavailable": "Course saved; currently not in the enrollment list"
+    },
+    "decision": {
+      "EDIT": "Edit Form",
+      "SUBMIT": "Submit Request",
+      "APPROVE": "Approve",
+      "REJECT": "Reject",
+      "REFER": "Refer for Revision",
+      "RESUBMIT": "Resubmit",
+      "CANCEL": "Cancel",
+      "AUTO": "Automatic Action",
+      "SKIP": "Skip Step Automatically",
+      "INFORM": "Inform"
+    }
+  },
+  "errors": {
+    "generic": "An error occurred",
+    "requiredField": "\"{field}\" is required",
+    "decisionNoteRequired": "Providing a note is required for rejection or referral"
+  },
+  "viewer": {
+    "serviceDeskLabel": "Service Desk",
+    "pageTitle": "Request Details",
+    "backToInbox": "Back to Inbox",
+    "issuancePending": "The request has been approved and certificate issuance is in progress. Once the document is registered, the inquiry number and link will be displayed.",
+    "verifyPhoneFirst": "Issuance is pending verification of the certificate holder's phone number. Verify the number in your account settings; automatic issuance will be retried.",
+    "issuanceRetry": "Issuance is not yet complete. The system will try again; there is no need to submit the request or confirm again.",
+    "refreshIssuance": "Refresh issuance status",
+    "submittedByStudent": "Submitted by student",
+    "workflow": "Workflow",
+    "form": "Request Information",
+    "result": "Result",
+    "certificateNo": "Certificate No.:",
+    "verifyCertificate": "Verify Certificate",
+    "legacyCertificate": "This number was recorded in the legacy output of the request and is not connected to a verifiable document. Contact the educational services officer to receive an official certificate.",
+    "dropped": "Course dropped successfully.",
+    "completed": "Completed",
+    "history": "Action History",
+    "yourAction": "Your Action",
+    "decisionNote": "Decision Note",
+    "notePlaceholder": "Note (optional for approval, required for rejection/referral)",
+    "stepKinds": {
+      "approval": "Manual Approval",
+      "inform": "Notification"
+    },
+    "skipReasons": {
+      "condition_not_matched": "Stage condition was not met"
+    },
+    "informRecipients": "{count, plural, one {Logged for 1 recipient} other {Logged for # recipients}}",
+    "terminalDefault": "Final Action",
+    "terminal": {
+      "issue_certificate": "Issue Certificate",
+      "emergency_drop": "Drop Course",
+      "register_course": "Register Course"
+    },
+    "roles": {
+      "faculty_admin": "Faculty Admin/Expert",
+      "admin": "System Administrator",
+      "super_admin": "Super Admin",
+      "instructor": "Instructor",
+      "ta": "Teaching Assistant"
+    },
+    "status": {
+      "DRAFT": "Draft",
+      "IN_PROGRESS": "In Progress",
+      "FULFILLING": "Pending Certificate Issuance",
+      "RETURNED": "Returned for Revision",
+      "COMPLETED": "Completed",
+      "REJECTED": "Rejected",
+      "CANCELED": "Canceled"
+    }
+  },
+  "inbox": {
+    "eyebrow": "Educational Services",
+    "new": "+ New Request",
+    "helpTitle": "Help Desk Guide",
+    "help": "Your request will be reviewed step by step by the officials. Open each request to view its status and history. You can edit and resubmit a referred request.",
+    "mine": "My Requests",
+    "pending": "Pending My Approval",
+    "loading": "Loading...",
+    "loadError": "Failed to load the request list.",
+    "retry": "Try Again",
+    "continueScan": "No virtual requests were found in this section. To check the rest of the queue, click Show More.",
+    "emptyPending": "There are no requests waiting for your approval.",
+    "emptyMine": "You have not submitted any requests yet.",
+    "step": "Step",
+    "viewAction": "View and Take Action",
+    "waiting": "Waiting",
+    "more": "Show More"
+  }
+}

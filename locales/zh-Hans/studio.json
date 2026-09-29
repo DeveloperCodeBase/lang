@@ -1,0 +1,1447 @@
+{
+  "analytics": {
+    "help": {
+      "body": "在这里查看学员的使用情况：完成率、流失节点和分节进度。利用这些数据来改进流失率最高的内容板块。所有数据均为聚合数据，不会展示学员身份——唯一的例外是页面底部的“有风险”列表，该列表旨在帮助学员，其中不包含电子邮件地址。",
+      "title": "课程分析指南"
+    },
+    "insightsLoading": "正在加载评估分析…"
+  },
+  "assess": {
+    "aiExplainOptIn": "为此测验启用“AI 错题解析”（从 E5 阶段开始执行——仅供建议，绝不自动执行）",
+    "aiExplainRow": "AI 错题解析（即将推出）",
+    "aria": {
+      "mode": "模式",
+      "policy": "答案显示策略",
+      "removeLink": "解除关联"
+    },
+    "assessmentOption": "{title}（{n} 个问题）",
+    "attach": {
+      "title": "将练习/测验关联到课程"
+    },
+    "badge": {
+      "maxAttempts": "最高尝试次数：{n}",
+      "pass": "及格：{v}",
+      "showAnswers": "显示答案：{v}"
+    },
+    "builderTitle": "本课程的测验生成器",
+    "del": {
+      "body": "此测验/练习将从此层级（课程/章节/课时）中分离；您可以重新将其关联。",
+      "cancel": "取消",
+      "confirm": "确认解除",
+      "title": "解除课程与测验的关联？"
+    },
+    "empty": {
+      "body": "若要关联，请在上方“测验生成器”中选择一个测验，或先在本页底部的“测验生成器”板块中创建一个。",
+      "title": "尚未关联练习/测验"
+    },
+    "field": {
+      "assessment": "测验",
+      "attempts": "最高尝试次数（可选）",
+      "lesson": "课时",
+      "level": "关联层级",
+      "mode": "模式",
+      "module": "章节",
+      "pass": "及格分数 ％（可选）",
+      "policy": "答案显示策略"
+    },
+    "help": {
+      "body": "在这里创建课程的练习和测验，并将其连接到课程中。首先在“测验生成器”板块中创建一个测验并添加题目（支持 14 种类型或从题库添加）；然后在“关联到课程”板块中将其连接到整个课程、某个章节或某节课，并设置其模式：“练习”用于自由重复练习，“必修”作为学员进度要求和获取证书的条件。问答题/文件/代码题将在本页的“评分队列”中进行评分。",
+      "title": "测验标签页指南"
+    },
+    "level": {
+      "course": "整个课程",
+      "lesson": "课时：{title}",
+      "module": "章节：{title}"
+    },
+    "mode": {
+      "practice": "练习",
+      "required": "必修"
+    },
+    "new": {
+      "noAssessments": "请先在页面底部的“测验生成器”板块中创建一个测验。",
+      "title": "新建关联"
+    },
+    "notEditable": "当前状态下的课程不可编辑；若要更改关联，请先创建“新版本”或等待审核结束。",
+    "opt": {
+      "levelCourse": "整个课程",
+      "levelLesson": "单节课时",
+      "levelModule": "一个模块",
+      "modePractice": "练习（自由重复）",
+      "modeRequiredBuyer": "必修（购买者进度条件）",
+      "modeRequiredShort": "必修（进度条件）",
+      "pickAssessment": "— 选择测验 —",
+      "pickLesson": "— 选择课程 —",
+      "pickModule": "— 选择模块 —",
+      "showAfterClose": "显示答案：关闭后",
+      "showImmediate": "显示答案：立即",
+      "showNever": "显示答案：从不"
+    },
+    "policy": {
+      "after_close": "测验关闭后",
+      "immediate": "回答后立即",
+      "never": "从不"
+    },
+    "refresh": "更新",
+    "submit": "附加到课程"
+  },
+  "authoring": {
+    "actions": {
+      "preview": "预览",
+      "publish": "发布",
+      "publishDisabledTitle": "此工作室为演示版；实际发布尚未实现",
+      "saveDraft": "保存草稿",
+      "saveDraftDisabledTitle": "此工作室为演示版；实际保存尚未实现"
+    },
+    "agents": {
+      "coach": {
+        "controls": {
+          "probing": "探究式提问"
+        },
+        "name": "COACH — 提问教练",
+        "role": "提出探究式问题，而非直接给出答案"
+      },
+      "critic": {
+        "name": "CRITIC — 批评者",
+        "role": "挑战假设并发现推理错误"
+      },
+      "grader": {
+        "controls": {
+          "instructorApproval": "需讲师批准"
+        },
+        "name": "GRADER — 评分员",
+        "role": "基于评分标准的初步评分 · 需批准"
+      },
+      "intro": "定义每个AI代理允许执行的操作、可使用的资源以及需要人工批准的位置。",
+      "mentor": {
+        "name": "MENTOR — 长期导师",
+        "role": "学习路径与动机指导"
+      },
+      "title": "本课程的AI代理策略",
+      "tutor": {
+        "controls": {
+          "multiLevel": "多级解释",
+          "videoRef": "视频参考"
+        },
+        "name": "TUTOR — 辅导员",
+        "role": "使用内部参考资料回答学生问题"
+      }
+    },
+    "archives": {
+      "notes": {
+        "meta": "Markdown · 12个文件",
+        "title": "讲师笔记"
+      },
+      "oldCourse": {
+        "meta": "18节录制课程",
+        "title": "旧版RL 1403课程"
+      },
+      "paper": {
+        "meta": "PDF · 520 页",
+        "title": "Sutton & Barto 论文"
+      },
+      "questionBank": {
+        "meta": "234 道 QTI 试题",
+        "title": "现有试题库"
+      }
+    },
+    "blueprint": {
+      "description": {
+        "label": "描述",
+        "placeholder": "强化学习课程，涵盖基于经验学习的原理与算法……"
+      },
+      "fields": {
+        "code": {
+          "label": "课程代码"
+        },
+        "duration": {
+          "label": "时长",
+          "placeholder": "10 周"
+        },
+        "level": {
+          "label": "级别",
+          "placeholder": "高级"
+        },
+        "modules": {
+          "label": "模块数量",
+          "placeholder": "12"
+        },
+        "titleEn": {
+          "label": "英文标题"
+        },
+        "titleFa": {
+          "label": "波斯文标题",
+          "placeholder": "强化学习"
+        }
+      },
+      "outcomes": {
+        "addAction": "添加学习目标",
+        "addToastBody": "目标已添加到列表。",
+        "addToastTitle": "新学习目标",
+        "intro": "在本课程结束时，学生将能够：",
+        "levels": {
+          "analyze": "分析",
+          "apply": "应用",
+          "create": "创造",
+          "remember": "记忆",
+          "understand": "理解"
+        },
+        "list": {
+          "bellman": "为简单环境求解贝尔曼方程",
+          "gymProject": "在 Gym 环境中执行真实的 RL 项目",
+          "mdp": "将问题表述为 MDP 形式",
+          "policyKinds": "解释 on-policy 与 off-policy 方法的区别",
+          "qLearning": "在 Python 中从零实现 Q-Learning"
+        }
+      }
+    },
+    "breadcrumb": {
+      "instructorConsole": "教师控制台",
+      "myCourses": "我的课程",
+      "newDraft": "新草稿"
+    },
+    "demoBanner": {
+      "body": "本工作室是课程制作流程的预览；它未连接后端，不会保存或发布任何更改。在完成此部分之前，“保存草稿”和“发布”按钮将处于禁用状态。",
+      "title": "示例 / 预览"
+    },
+    "header": {
+      "title": "强化学习 · 高级"
+    },
+    "help": {
+      "body": "在此页面中，您将构建课程结构：总体规格说明（Blueprint）、大纲与课程、评估、资源以及 AI 智能体策略。请使用上方的标签页在各个部分之间切换，并使用页面顶部的“保存草稿”和“发布”按钮来保存课程或将其发布给学生。",
+      "title": "课程制作工作室指南"
+    },
+    "notReady": {
+      "assessmentBody": "本课程的评估部分尚未实现；稍后将在此处添加定义测验和作业的功能。",
+      "resourcesBody": "本课程的资源部分尚未实现；稍后将在此处添加添加文件和参考资料的功能。",
+      "title": "此部分尚未准备就绪"
+    },
+    "outline": {
+      "addAction": "添加课程",
+      "addToastBody": "课程已添加到大纲。",
+      "addToastTitle": "已添加新课程",
+      "sessionSettingsAria": "{session} 设置",
+      "sessionSettingsTitle": "课程设置",
+      "sessions": {
+        "s1": {
+          "n": "第 1 课",
+          "title": "简介 — RL 的历史与应用"
+        },
+        "s2": {
+          "n": "第 2 课",
+          "title": "马尔可夫决策过程"
+        },
+        "s3": {
+          "n": "第 3 课",
+          "title": "贝尔曼方程"
+        },
+        "s4": {
+          "n": "第 4 课",
+          "title": "蒙特卡洛方法"
+        },
+        "s5": {
+          "n": "第 5 课"
+        },
+        "s6": {
+          "n": "第 6 课",
+          "title": "函数近似 — DQN"
+        },
+        "s7": {
+          "n": "第 7 课"
+        },
+        "s8": {
+          "n": "第 8 课"
+        }
+      },
+      "title": "大纲 · 12 课"
+    },
+    "planner": {
+      "generate": "生成初稿建议",
+      "pitch": "我可以为这门课程推荐 12 节课，包含学习目标、概念图和测验。最终由您来敲定。",
+      "toastBody": "课程初始结构将在 20 秒内准备就绪…",
+      "toastTitle": "AI 正在生成"
+    },
+    "safety": {
+      "body": "未经讲师最终确认，不得发布任何生成的内容。每个建议的来源均可追溯。"
+    },
+    "screenLabel": "13 Studio",
+    "tabs": {
+      "agents": "AI 智能体",
+      "assessment": "评估",
+      "blueprint": "蓝图",
+      "outline": "大纲",
+      "resources": "资源",
+      "sessions": "课程"
+    },
+    "toast": {
+      "previewOpened": "在新窗口中预览"
+    }
+  },
+  "captions": {
+    "addAtPlayhead": "在播放头处添加字幕",
+    "approve": "批准",
+    "approveAll": "批准所有行",
+    "approveAllTitle": "将所有行标记为已批准；保存后，播放器中的“机器翻译”标记将被移除。",
+    "approveTitle": "批准意味着您已阅读此翻译且确认无误；此后机器将不再覆盖此行。",
+    "approved": "已批准",
+    "approvedOf": "已批准 {approved, number} 行，共 {total, number} 行",
+    "approximate": "大致时间轴",
+    "approximateTitle": "字词时间轴为大致时间",
+    "asrDisabled": "此服务器未启用自动生成转写功能；请手动编写字幕或上传 .vtt 文件。",
+    "empty": "此小节暂无字幕。请将播放器移至所需时间点并点击“当前时间点的字幕”，或从“内容”标签页上传 .vtt/.srt 文件。",
+    "endHere": "结束 = 当前时间",
+    "errors": {
+      "needOneCue": "保存时至少需要一条包含文本的字幕。"
+    },
+    "generate": "自动生成转写",
+    "generating": "正在记录…",
+    "lang": {
+      "ar": "阿拉伯语",
+      "de": "德语",
+      "en": "英语",
+      "es": "西班牙语",
+      "fa": "波斯语",
+      "fr": "法语",
+      "ku": "库尔德语",
+      "ps": "普什图语",
+      "ru": "俄语",
+      "tr": "土耳其语",
+      "ur": "乌尔都语",
+      "zh": "中文"
+    },
+    "langLabel": "字幕语言",
+    "loading": "正在读取字幕…",
+    "merge": "合并",
+    "mergeTitle": "将此行与下一行合并。",
+    "notAttached": "此文件尚未连接到课程的任何小节；字幕将保存至“小节”，因此请先从“内容”标签页将文件连接到视频小节。",
+    "notice": {
+      "prefilled": "机器文本已加载至编辑器中；请核对后保存。",
+      "reviewSaved": "字幕已保存；已记录 {count, plural, other {# 行}}已核对的字幕。",
+      "transcriptQueued": "请求已提交；准备转写可能需要几分钟时间。",
+      "transcriptReady": "此小节的转写已就绪。",
+      "translationReady": "“{language}”的翻译已就绪。请核对并保存。"
+    },
+    "option": {
+      "stored": " — 已保存",
+      "storedMachine": " — 已保存（机翻）",
+      "storedReviewed": " — 已保存（已核对）",
+      "translationReady": " — 翻译就绪"
+    },
+    "prefill": "从转写填充",
+    "prefilling": "正在读取…",
+    "preparing": "正在准备转写…",
+    "recheck": "重新检查",
+    "remove": "删除此字幕",
+    "retranslate": "重新翻译 {count, plural, other {# 行}}",
+    "retranslateTitle": "仅重新翻译源文已更改的行；已确认的行保持不变。",
+    "retranslating": "正在重新翻译…",
+    "reviewHint": "一侧为源文，另一侧为译文，两者的轴时相同。在确认所有行之前，播放器会将此字幕显示为“机器翻译”。",
+    "save": "保存字幕",
+    "saving": "正在保存…",
+    "seek": "跳转至 {time}",
+    "sourceColumn": "源文（参考）",
+    "sourceMissing": "在源文本中未找到对应的行。",
+    "split": "拆分",
+    "splitTitle": "在当前时间点将此行拆分为两行。",
+    "startHere": "开始 = 当前时间",
+    "status": {
+      "machine": "机器翻译",
+      "machineTitle": "此行由机器生成，尚无人工确认。",
+      "reviewed": "已复核",
+      "reviewedTitle": "此行已由人工确认。",
+      "stale": "需要更新",
+      "staleTitle": "此行的源文在翻译后已发生更改。"
+    },
+    "targetColumn": "{language} 译文",
+    "textLabel": "字幕文本",
+    "tooLong": "{count, plural, other {# 个字符}} — 过长",
+    "tooLongTitle": "按播放速度，超过 55 个字符的行将无法完整阅读；请对其进行拆分。",
+    "transcriptError": "脚本错误：{error}",
+    "translate": "请求翻译",
+    "translating": "正在翻译…",
+    "unsaved": "未保存"
+  },
+  "certTpl": {
+    "align": {
+      "center": "居中",
+      "left": "左对齐",
+      "right": "右对齐"
+    },
+    "alignLabel": "对齐方式",
+    "colorAria": "{field}颜色",
+    "colorLabel": "文字颜色",
+    "colorReset": "默认",
+    "err": {
+      "notImage": "证书模板必须是图像文件（PNG 或 JPG）。如果您的设计是 Word 格式，请先将其导出为图像。",
+      "tooLarge": "模板图像大小不得超过 {max} MB。"
+    },
+    "fields": {
+      "empty": "您尚未在设计上放置任何字段 — 请至少添加“学员姓名”和“证书编号”。",
+      "hint": "X 和 Y 是设计宽度/高度的百分比，“大小”是宽度的百分比。",
+      "title": "字段放置（{n}/{max}）"
+    },
+    "intro": "您可以上传自己的现成设计；系统会将学员姓名、课程名称、日期和验证码写入其中，并向学员提供可打印的输出（PDF/图像）。如果您不上传模板，则会使用平台默认模板。文件必须是图像（PNG/JPG），且最好是横向 A4 比例。",
+    "num": {
+      "fontSize": "字号（%）",
+      "qrSide": "边长（%）",
+      "x": "水平（%）",
+      "y": "垂直（%）"
+    },
+    "previewNote": "实时预览 — 学员打印的实际效果（数据为示例）。",
+    "remove": "删除",
+    "replace": "更换模板图片",
+    "reset": "恢复默认模板",
+    "sample": {
+      "authorName": "讲师姓名",
+      "studentName": "学员姓名"
+    },
+    "save": "保存证书模板",
+    "title": "证书模板（自定义设计）",
+    "toast": {
+      "saved": "证书模板已保存",
+      "uploaded": "模板图片已上传",
+      "uploadedDesc": "现在请调整字段位置并保存。"
+    },
+    "upload": "上传模板图片",
+    "uploading": "正在上传… {pct}",
+    "weight": {
+      "bold": "加粗",
+      "normal": "常规"
+    },
+    "weightLabel": "字重"
+  },
+  "content": {
+    "action": {
+      "add": "添加内容",
+      "edit": "编辑内容"
+    },
+    "allDone": "所有章节均已包含内容 — 太棒了！",
+    "badge": {
+      "freePreview": "免费预览",
+      "has": "内容",
+      "none": "无内容"
+    },
+    "crumb": "第 {mod} 章“{modTitle}” › 第 {lesson} 课“{lessonTitle}”",
+    "emptyStructure": "课程结构中尚未定义章节。请先在“章节”标签页中构建课程结构，然后再在此处上传各章节的内容。",
+    "goCurriculum": "前往章节",
+    "heading": "章节内容",
+    "help": {
+      "body": "此处列出了课程的所有章节，方便您逐一完善其内容：文件（视频/幻灯片/文档/音频/H5P 交互内容）、文本、链接或测验。您可以使用“录制工作室”直接在浏览器中录制视频并将其关联到某个章节。章节本身的创建或移动操作可在“章节”标签页中进行。",
+      "title": "内容标签页指南"
+    },
+    "locked": "编辑锁定",
+    "onlyEmpty": "仅显示无内容的章节",
+    "progressCount": "已完成 {done}/{total} 个章节的内容",
+    "progressLabel": "内容完成进度",
+    "recordStudio": "录制工作室"
+  },
+  "copilot": {
+    "actions": {
+      "describe": {
+        "hint": "为销售页面起草介绍文案和核心要点",
+        "label": "编写课程简介"
+      },
+      "objectives": {
+        "hint": "生成“学完本课程后，你将能够……”列表",
+        "label": "建议学习目标"
+      },
+      "pricing": {
+        "hint": "仅供参考 — 不会自作主张应用任何价格",
+        "label": "建议价格范围"
+      },
+      "quiz-transcript": {
+        "hint": "适用于带有字幕的部分",
+        "label": "根据课程讲稿生成测验"
+      }
+    },
+    "closeAria": "关闭助手",
+    "confidence": "置信度 {pct}",
+    "copied": "已复制",
+    "copy": "复制",
+    "copyList": "复制列表",
+    "copyQuestions": "复制问题",
+    "copyText": "复制文本",
+    "draftNote": "此处所建内容仅为草稿，不会自动应用到课程中。",
+    "err": {
+      "noGroundable": "没有任何小节包含字幕或文本。请为至少一个小节上传字幕文件或编写课程正文。"
+    },
+    "humanReview": "需要人工复查",
+    "instructionLabel": "助手可选说明",
+    "instructionPlaceholder": "例如：使用更正式的语气",
+    "localFallback": "本地草稿（AI 服务暂不可用）",
+    "noActions": "此部分暂无可用建议。请前往“概览”、“内容”或“定价”。",
+    "pricing": {
+      "chip": "Copilot 建议 — 不适用",
+      "current": "当前价格",
+      "range": "范围",
+      "rangeValue": "{min} 至 {max}",
+      "suggested": "建议"
+    },
+    "quizDisabledHint": "没有任何章节包含字幕或正文；请先完成至少一个章节的内容。",
+    "quizSource": "引自本节的 {chars} 个字符（共 {kind} 个）。",
+    "quizSourceKind": {
+      "caption": "语音",
+      "richtext": "富文本"
+    },
+    "sectionLabel": "带有字幕或文本的部分",
+    "source": {
+      "caption": "字幕",
+      "richtext": "课程文本"
+    },
+    "sourceOption": "{kind} — {path}",
+    "title": "工作室助手"
+  },
+  "coupons": {
+    "help": {
+      "body": "为此课程创建优惠券（支持百分比或固定金额，可设置使用次数上限和过期时间）。学员购买时输入优惠券代码即可按优惠后价格结算。全平台通用优惠券（适用于所有课程）由市场管理员创建。",
+      "title": "优惠码帮助"
+    }
+  },
+  "cover": {
+    "advancedHelper": "如需保存输入的地址，请点击“保存信息”按钮。建议直接上传图片而非填写地址（上传的图片向访客同样可见）。",
+    "advancedToggle": "或输入图片地址（高级）",
+    "alt": "课程封面图片",
+    "dropNew": "请将封面图片拖放到此处或点击上传",
+    "dropReplace": "将新图片拖放到此处或点击上传",
+    "err": {
+      "empty": "所选文件为空。请选择其他图像。",
+      "tooLarge": "封面图片大小超过限制（最大 {max} MB）。请选择一张较小的图片。"
+    },
+    "hint": "PNG、JPG 或 WebP — 最大 {max} MB",
+    "uploadAria": "上传课程封面图片",
+    "uploading": "正在上传… {pct}"
+  },
+  "curriculum": {
+    "addLesson": "添加课时",
+    "addModule": "添加章节",
+    "addSection": "添加小节",
+    "aria": {
+      "deleteLesson": "删除课时",
+      "deleteModule": "删除章节",
+      "deleteSection": "删除小节",
+      "editLesson": "编辑课时",
+      "editModule": "编辑章节",
+      "editSection": "编辑小节",
+      "lessonFiles": "课时附件",
+      "moveDown": "下移",
+      "moveLessonDown": "下移课时",
+      "moveLessonUp": "上移课时",
+      "moveSectionDown": "下移小节",
+      "moveSectionUp": "上移小节",
+      "moveUp": "上移",
+      "sectionType": "{title} 的内容类型"
+    },
+    "contentBtn": "内容",
+    "contentTypeHelper": "保存后，点击该小节上的“内容”按钮来关联文件、文本、链接或测验。",
+    "delete": {
+      "bodySection": "将删除“{label}”。",
+      "bodyTree": "将删除“{label}”及其所有子项。",
+      "title": {
+        "lesson": "删除课时？",
+        "module": "删除章节？",
+        "section": "删除小节？"
+      }
+    },
+    "dialog": {
+      "create": {
+        "lesson": "添加课时",
+        "module": "添加章节",
+        "section": "添加小节"
+      },
+      "edit": {
+        "lesson": "编辑课时",
+        "module": "编辑章节",
+        "section": "编辑小节"
+      }
+    },
+    "drip": {
+      "fixedAria": "课时发布日期",
+      "fixedBadge": "自 {date} 起",
+      "fixedHelper": "此课时将在该日期对所有学员开放（适用于固定进度的同步班）。",
+      "fixedLabel": "开放日期",
+      "fixedPlaceholder": "选择日期",
+      "fixedTitle": "在指定日期发布",
+      "help": {
+        "fixedTerm": "指定日期",
+        "p1": "“定时发布/条件解锁”功能会在满足特定条件之前锁定课程：",
+        "p2": "（相对时间）意味着课程会在每个学员购买后的指定天数解锁；适合按周发布的课程（每个人从自己的购买日开始计算）。",
+        "p3": "（固定时间）意味着课程将在统一的日历日期为所有人解锁；适合采用共同日历的同步/cohort课程。",
+        "p4": "在先前测验达到指定最低分数之前锁定课程；这意味着掌握式学习路径：如果不通过前一阶段的测验并获得及格分，就不会解锁下一阶段。这些条件将与课程的顺序前置条件相结合，必须全部满足才能解锁课程。锁定完全在服务器端强制执行；即使试图绕过，锁定的课程内容也无法播放。",
+        "relativeTerm": "注册后几天",
+        "scoreTerm": "按分数解锁",
+        "title": "什么是条件发布？"
+      },
+      "intro": "您可以将本课程锁定至指定时间，或直到在先前的测验中获得所需的分数。如果您设置了多个条件，只有在所有条件（以及顺序前置条件，如果有的话）都满足时，课程才会解锁。",
+      "minLabel": "所需最低分数（{min} 到 {max}）",
+      "minPlaceholder": "例如 70",
+      "mode": {
+        "fixed": "在指定日期",
+        "none": "无时间锁（购买后立即解锁）",
+        "relative": "学员注册后的天数"
+      },
+      "noQuiz": "此课程之前没有“测验”部分。请先在前面的课程中创建一个“测验”类型的部分，以便将本课程的解锁与其分数挂钩。",
+      "offsetDaysUnset": "…",
+      "offsetDaysValue": "{n} 天",
+      "offsetHelper": "本课程将在每个学员注册日期后的 {days} 天解锁（适合按周发布的课程）。",
+      "offsetLabel": "注册几天后解锁",
+      "offsetPlaceholder": "例如 7",
+      "quizCurrent": "当前选中的测验",
+      "quizLabel": "条件测验",
+      "quizPlaceholder": "— 选择测验 —",
+      "relativeBadge": "注册后 {days} 天",
+      "relativeTitle": "注册后几天发布",
+      "scoreBadge": "分数 ≥ {score}",
+      "scoreTitle": "按测验分数解锁",
+      "scoreToggle": "在测验获得所需分数后解锁",
+      "timeModeLabel": "发布时间安排",
+      "title": "条件发布（课程锁定）"
+    },
+    "empty": "尚未添加大纲。",
+    "emptyHint": "点击“添加大纲”开始，或使用“✨ 生成大纲”创建草稿。",
+    "err": {
+      "fixedDate": "对于“在指定日期发布”，请选择一个日期。",
+      "quizRequired": "对于“按分数解锁”，请选择课程中先前的测验。",
+      "relativeDays": "对于“定时发布”，天数必须大于零。",
+      "relativeMax": "发布天数最多可为 {max}（十年）。",
+      "scoreRange": "所需分数必须介于 {min} 和 {max} 之间。",
+      "titleRequired": "“标题”为必填项（至少 {min} 个字符）。"
+    },
+    "field": {
+      "contentType": "内容类型",
+      "description": "说明（可选）",
+      "title": "标题"
+    },
+    "freePreview": "免费预览",
+    "freePreviewFull": "免费预览（所有人可见）",
+    "hasContent": "内容",
+    "help": {
+      "body": "添加章节，在每个章节中添加课时，并在每个课时中添加小节。使用上/下按钮更改各项的顺序。为每个小节设置“内容类型”和“免费预览”选项，然后通过“内容”按钮将文件（视频/幻灯片/文档/音频/H5P交互内容）、文本、链接或测验附加到该小节。通过“✨ 生成章节”功能，您可以使用人工智能构建大纲草稿，并在应用前进行编辑。",
+      "title": "课程结构指南"
+    },
+    "lessonBadge": "第 {n} 课",
+    "lessonFilesTitle": "附件",
+    "moduleBadge": "第 {n} 章",
+    "noContent": "无内容",
+    "noLessons": "暂无课时。",
+    "noSections": "暂无小节。",
+    "outlineBtn": "✨ 生成章节（AI草稿）",
+    "outlineBtnTitle": "使用AI生成推荐的课程结构",
+    "quizOption": "第 {mod} 章 › 第 {lesson} 课 › {title}",
+    "title": "课程结构"
+  },
+  "edit": {
+    "chapter": {
+      "addHere": "当前时间点章节",
+      "defaultTitle": "第 {n} 章",
+      "empty": "尚未记录任何章节。将播放器移至所需时间点，然后点击“当前时间点章节”。",
+      "gotoAria": "转到 {at} 处的章节 {title}",
+      "placeholder": "章节标题（可选）",
+      "removeAria": "删除章节 {title}",
+      "titleAria": "章节标题"
+    },
+    "edl": {
+      "err": {
+        "dupId": "片段ID必须唯一。",
+        "duration": "源文件时长无效。",
+        "empty": "时间轴必须包含至少一个片段。",
+        "outOfRange": "片段必须在源文件的范围内。",
+        "overlap": "时间轴片段不能重叠。",
+        "tooMany": "时间轴片段数量超过允许的上限。",
+        "tooShort": "每个片段必须至少为 0.05 秒。"
+      }
+    },
+    "page": {
+      "backToContent": "返回课程内容",
+      "badge": {
+        "dirty": "未保存",
+        "queued": "正在排队处理输出…",
+        "rendered": "输出已就绪"
+      },
+      "chapters": {
+        "intro": "章节即“视频章节”，在学员播放器中显示为时间轴上的标记。这些标记也会显示在时间轴下方。"
+      },
+      "courseContent": "课程内容",
+      "cutHere": "在当前时间点剪切",
+      "cutToPlayhead": "删除至当前时间点",
+      "cutToPlayheadTitle": "将从该片段开头删除至当前时间点",
+      "err": {
+        "badUrl": "编辑地址无效。",
+        "notFound": "未找到编辑项目。",
+        "title": "无法打开时间线"
+      },
+      "help": {
+        "body": "此时间线是“非破坏性”的：您上传的文件永远不会被更改，系统仅保存所保留片段的列表。播放此页面时会显示编辑后的版本（已跳过删除的片段），并且可以通过“撤销”或“恢复区间”撤销任何剪切。通过“导出”，系统将根据保留的片段创建一个<b>全新</b>的文件；原文件保持不变，您可以随时重新编辑和导出。",
+        "title": "编辑而不损坏原文件"
+      },
+      "mergeAfter": "恢复后续区间",
+      "mergeBefore": "恢复先前区间",
+      "noSectionChapters": "此文件尚未连接到课程的任何部分；章节保存在“部分”上。",
+      "queuedCallout": "导出正在排队处理中。根据文件长度，这可能需要几十分钟；您可以关闭此页面 — 结果将会被保存。",
+      "redo": "重做",
+      "removeSegmentAria": "删除此片段",
+      "removeSelected": "删除所选片段",
+      "render": "导出",
+      "renderTitle": "根据保留的片段生成缩短的文件",
+      "rendering": "正在提交…",
+      "resetAll": "恢复整个文件",
+      "save": "保存时间线",
+      "saving": "正在保存…",
+      "segmentN": "片段 {n}",
+      "segments": {
+        "intro": "每一行都是一个保留的片段。“恢复区间”会恢复同一片段旁边的已删除间隔 — 没有任何剪切是最终的。"
+      },
+      "stat": {
+        "count": "片段数量：{n}",
+        "kept": "最终时长：",
+        "removed": "已删除："
+      },
+      "targetSection": "目标部分（此文件已在多个部分中使用）",
+      "title": "编辑时间线",
+      "toast": {
+        "queued": "导出已进入处理队列。准备就绪后，将在此处显示。",
+        "renderFailed": "导出处理失败；您可以重试。",
+        "rendered": "导出文件已就绪。",
+        "saved": "时间线已保存。"
+      },
+      "toolsAria": "编辑工具",
+      "undo": "撤销"
+    },
+    "player": {
+      "loading": "正在准备播放…",
+      "note": "播放是“虚拟”的：已跳过的片段将被略过，原文件保持不变。",
+      "pause": "暂停",
+      "pauseAria": "暂停播放",
+      "play": "播放编辑后的版本",
+      "playAria": "播放编辑后的预览"
+    },
+    "poster": {
+      "capture": "当前帧",
+      "clear": "删除封面图像",
+      "err": {
+        "capture": "捕获帧失败。",
+        "noCanvas": "在此浏览器中无法捕获帧。",
+        "noFrame": "尚无准备好捕获的帧；请播放视频的一部分并重试。"
+      },
+      "hasPoster": "此部分当前已有封面图。如需替换，请截取新画面并保存。",
+      "intro": "将播放器停在所需画面并点击“当前帧”。该图片将在播放开始前展示给学员，并受到与视频完全相同的权限保护。",
+      "noSection": "此文件尚未关联至任何部分；封面图将保存于“部分”上，因此请先通过“内容”选项卡将文件关联至视频部分。",
+      "previewAlt": "封面图预览",
+      "save": "保存为封面图",
+      "saving": "正在保存…",
+      "videoOnly": "封面图仅适用于视频部分。"
+    },
+    "rail": {
+      "captions": "字幕",
+      "chapters": "章节",
+      "poster": "封面图",
+      "segments": "片段"
+    },
+    "strip": {
+      "building": "正在生成音频波形…",
+      "noWave": "该文件暂无可用音频波形。"
+    },
+    "timeline": {
+      "handleEnd": "片段结尾 — {at}",
+      "handleStart": "片段开头 — {at}"
+    }
+  },
+  "examQueue": {
+    "ai": {
+      "draft": "AI 草稿",
+      "suggestionOnly": "AI 草稿仅供参考；在点击“提交评分”之前，不会记录任何分数。",
+      "unstructured": "已收到草稿，但未包含结构化分数/反馈，请进行人工审核。"
+    },
+    "aiBusy": "正在获取…",
+    "autoScore": "自动评分：{v}",
+    "awaiting": "{n} 个待批改",
+    "close": "关闭",
+    "editGrade": "修改分数",
+    "empty": "此列表中暂无项目。",
+    "fbLabel": "给学员的反馈（可选）",
+    "fbPlaceholder": "有助于完善回答的建议…",
+    "filter": {
+      "all": "全部",
+      "graded": "已评分",
+      "submitted": "待批改"
+    },
+    "grade": "已记录分数：{v}",
+    "gradeAction": "批改",
+    "idle": "暂无待批改项",
+    "intro": "选择题和简答题将自动批改；您在此处看到的是问答题、文件和代码，最终决定权在您手中。提交分数后，学员的“必修考试”状态将立即更新。",
+    "loading": "正在加载…",
+    "refresh": "刷新",
+    "scoreLabel": "分数（0 至 100）",
+    "scorePlaceholder": "例如 85",
+    "sent": "提交时间：{d}",
+    "status": {
+      "draft": "草稿",
+      "graded": "已评分",
+      "submitted": "等待批改"
+    },
+    "submit": "提交分数",
+    "title": "批改队列"
+  },
+  "faq": {
+    "add": "添加常见问题",
+    "empty": "暂无问题。",
+    "err": {
+      "halfRow": "每个问题都必须有对应的答案（请完善或删除不完整的行）。"
+    },
+    "field": {
+      "a": "回答",
+      "q": "问题"
+    },
+    "intro": "这些常见问题将以折叠面板形式展示在课程介绍页面上，以帮助学员做出购买决策（例如：“本课程适合哪些人？”）。",
+    "itemLabel": "常见问题 {n}",
+    "remove": "删除",
+    "removeAria": "删除问题 {n}",
+    "save": "保存常见问题",
+    "title": "常见问题（公开页面）"
+  },
+  "home": {
+    "bundles": "课程包",
+    "card": {
+      "clone": "复制课程",
+      "editAria": "编辑课程 {title}",
+      "level": "级别：{level}",
+      "updatedAt": "最后修改：{date}"
+    },
+    "clone": {
+      "bodyAfter": " 将基于课程“{title}”创建（标题为“{title}（副本）”）。原课程的所有教学结构——章节、课时、模块及其内容——都将被复制到新课程中，您可以对其进行自由编辑。原课程的购买者和注册信息不会受到任何影响，原课程将保持不变。",
+      "bodyBefore": "一个 ",
+      "bodyStrong": "草稿副本",
+      "busy": "正在复制……",
+      "helpBody": "“克隆课程”会创建一个完全独立且全新的草稿版本；这与“新版本”不同（新版本会更新同一门课程）。使用克隆来创建具有现成结构类似课程：系统会创建一个副本，然后您可以为新课程更改标题、描述和内容。该副本尚未发布，需要像任何新课程一样提交审核，然后才能发布。",
+      "helpTitle": "克隆课程有什么作用？",
+      "submit": "创建副本",
+      "title": "克隆课程"
+    },
+    "empty": {
+      "body": "使用分步指南创建您的第一门课程：包括基本信息、大纲、内容、定价和发布检查清单。",
+      "cta": "创建新课程（逐步指导）",
+      "title": "您还没有创建任何课程"
+    },
+    "eyebrow": "知识集市",
+    "help": {
+      "body": "这里是您创建的课程列表。点击“创建新课程”生成草稿课程，然后进入编辑器完善课程信息和教学结构（章节 → 课时 → 小节）。文件上传、提交审核和发布功能将在后续阶段启用。",
+      "title": "知识工作室帮助"
+    },
+    "lead": "构建并组织您的课程：章节、课时与模块。每门课程最初均为“草稿”状态，在草稿阶段您可以随时自由编辑。",
+    "newCourse": "创建新课程",
+    "title": "知识工作室"
+  },
+  "insights": {
+    "aiExplain": "AI 解释",
+    "assessments": {
+      "empty": "您尚未为此课程关联任何测验。请从“测验”选项卡创建或关联测验。",
+      "title": "测验与练习"
+    },
+    "awaitingBadge": "{n, plural, other {等待批改}}",
+    "err": {
+      "csv": "CSV 导出失败",
+      "itemAnalysis": "试题分析不可用"
+    },
+    "items": {
+      "correct": "正确：",
+      "difficulty": "难度：",
+      "discrimination": "区分度：",
+      "intro": "基于 {n} 份答卷。“难度”是指正确回答的比例，“区分度”是指高分学员与低分学员的表现差异；负数表示试题或标准答案可能有问题。",
+      "loading": "正在计算试题分析…",
+      "manual": "人工批改",
+      "question": "第 {n} 题",
+      "seenBy": "查阅："
+    },
+    "itemsClose": "关闭试题分析",
+    "itemsOpen": "试题分析",
+    "kpi": {
+      "atRisk": "有风险的学员",
+      "awaiting": "等待您批改的回答",
+      "oldest": "最长等待时间（天）",
+      "stale": "已等待超过 {days} 天"
+    },
+    "loading": "正在加载测评分析…",
+    "mode": {
+      "practice": "练习",
+      "required": "必修"
+    },
+    "msg": {
+      "cancel": "取消",
+      "close": "关闭",
+      "counter": "{n} / {max} 个字符",
+      "failed": "消息发送失败",
+      "note": "此消息将通过本课程的对话和站内信发送。学员的电子邮件地址不会向您泄露。",
+      "placeholder": "例如：我注意到你已经有几周没继续学习了；如果遇到什么困难，请告诉我，我来帮你。",
+      "send": "发送",
+      "sending": "正在发送…",
+      "sent": "消息已通过站内信发送。",
+      "title": "向 {name} 发送消息"
+    },
+    "noTakers": "尚无人参加此测验。",
+    "retry": "重试",
+    "risk": {
+      "csv": "匿名 CSV 导出",
+      "empty": "暂无处于风险中的学员 — 注册 {days} 天后进度低于 {pct}，或未通过必修测验的学员会列入此名单。",
+      "intro": "需要您帮助的学员名单。不显示电子邮件；仅通过站内信联系，导出的 CSV 将完全匿名（仅包含固定化名 ID）。",
+      "message": "发送消息",
+      "progress": "进度 {pct} · 注册已过 {days} 天",
+      "pseudonymTitle": "本课程的化名 ID",
+      "refresh": "刷新列表",
+      "show": "显示列表（{n}）",
+      "title": "处于风险中的学员"
+    },
+    "stat": {
+      "attempts": "尝试次数：",
+      "avg": "平均：",
+      "median": "中位数：",
+      "minutes": "{n} 分钟",
+      "pass": "通过率：",
+      "passBar": "（及格线 {v}）",
+      "samples": "（基于 {n} 次尝试）",
+      "takers": "参与人数：",
+      "timeSpent": "耗时："
+    },
+    "verdict": {
+      "negative": "负区分度 — 成绩较好的学员错误率更高，请检查题目",
+      "tooEasy": "太简单 — 几乎所有人都答对了",
+      "tooHard": "太难 — 题目表述可能存在歧义"
+    }
+  },
+  "overview": {
+    "category": {
+      "current": "当前分类",
+      "helper": "分类由市场管理员在“知识市场管理”中进行定义。",
+      "none": "未分类"
+    },
+    "cover": {
+      "empty": "尚未上传封面图片。",
+      "helper": "该图片将显示在“知识市场”的课程卡片上，并对访客（无需登录）可见。建议比例为 16:9。",
+      "label": "课程封面"
+    },
+    "err": {
+      "titleRequired": "“课程标题”为必填项（至少 2 个字符）。"
+    },
+    "field": {
+      "audience": "目标受众（可选）",
+      "category": "分类",
+      "delivery": "授课方式",
+      "description": "课程简介",
+      "language": "语言",
+      "level": "难度级别",
+      "objectives": "学习目标（可选）",
+      "prerequisites": "先决条件（可选）",
+      "searchAliases": "别名与拉丁文拼写（可选）",
+      "title": "课程标题"
+    },
+    "help": {
+      "body": "在此完善课程的标题、简介和详细信息；这些信息将显示在“知识市场”的课程公开页面上。更详尽的说明和清晰的学习目标有助于提高购买转化率。课程结构在“大纲”选项卡中设置，内容上传在“内容”选项卡中，价格则在“定价”选项卡中。",
+      "title": "课程信息指南"
+    },
+    "objectivesPlaceholder": "在本课程结束时，学员将能够……",
+    "searchAliasesHelper": "每行填写一项。这些值仅用于搜索，系统不会自动推测任何转写（transliteration）或名称。",
+    "searchAliasesPlaceholder": "Machine Learning\nYadgiri Mashin",
+    "readonlySummary": "级别：{level} · 方式：{delivery}",
+    "save": "保存信息",
+    "saving": "正在保存…",
+    "title": "课程信息"
+  },
+  "pricing": {
+    "current": "当前价格：{value}",
+    "err": {
+      "positive": "对于付费课程，价格必须大于零（里亚尔）。"
+    },
+    "field": {
+      "model": "价格模型",
+      "price": "价格（里亚尔）"
+    },
+    "help": {
+      "body": "“免费”意味着学员无需付款即可立即获取课程。“一次性购买”意味着只需支付一次费用即可永久解锁课程（未来的课程更新对购买者同样免费）。扣除一定比例作为大学分成后，剩余部分将记录为您的分成比例；该比例由市场管理员设置。您可以在“优惠码”标签页中为本课程创建优惠码。",
+      "title": "定价指南"
+    },
+    "intro": "请选择课程的价格模型。“免费”课程会立即向学员开放；“一次性购买”课程通过现有支付网关付款后开放。您可以随时更改价格；每个买家支付的金额在购买时即已固定。",
+    "none": "尚未设置价格。",
+    "pricePlaceholder": "例如 5000000",
+    "save": "保存价格",
+    "savedOk": "已保存。",
+    "share": {
+      "authorLabel": "您从每笔销售中获得的净分成：",
+      "note": "分成比例由市场管理员确定；讲师分成将在下一阶段发放。",
+      "pending": "您的净分成将在扣除大学分成（由市场管理员设定）后计算。",
+      "universityLabel": "大学从每笔销售中获得的分成："
+    },
+    "title": "定价"
+  },
+  "readiness": {
+    "chip": "发布就绪度 {ok, number}/{total, number}",
+    "chipAria": "发布就绪度：{ok, number} / {total, number} 项必需项",
+    "complete": "完成",
+    "items": {
+      "assessments": "课程至少包含一个练习/测验",
+      "category": "已选择分类",
+      "content": "至少包含一个带有实际内容的章节",
+      "cover": "已设置课程封面图",
+      "description": "已输入课程简介",
+      "freePreview": "至少包含一个“免费预览”章节",
+      "lessons": "每个大纲至少包含一个课时",
+      "modules": "课程至少包含一个大纲",
+      "objectives": "已编写学习目标",
+      "pricing": "已设置课程价格（免费或付费）",
+      "title": "已输入课程标题"
+    },
+    "lead": "“必需”项必须在“提交审核”前完成；“建议”项可提升课程页面质量，但不影响提交。",
+    "optional": "建议",
+    "title": "发布就绪检查清单"
+  },
+  "record": {
+    "again": "重新录制",
+    "audio": {
+      "saveHint": "音频文件将按原样保存，并且仅放置在音频部分。",
+      "noAudioSections": "本课程没有兼容的音频部分；文件将仅保存至媒体库。",
+      "saveAction": "将音频保存至课程",
+      "saveTitle": "保存录制的音频",
+      "saved": "音频文件已保存并关联至课程部分。",
+      "savedLibrary": "音频文件已保存至媒体库。"
+    },
+    "backToEditor": "返回课程编辑器",
+    "camera": "相机",
+    "courseEditor": "课程编辑器",
+    "deviceDefault": "默认",
+    "deviceNumbered": "{name} {n}",
+    "devicePending": "将在授予权限后显示",
+    "editInTimeline": "在时间轴中编辑",
+    "err": {
+      "badCourseId": "课程 ID 无效。",
+      "courseNotFound": "未找到课程。",
+      "courseTitle": "加载课程失败",
+      "empty": "录制内容为空，请重试。",
+      "noDevice": "未找到相机或麦克风设备。",
+      "permission": "未能获取相机/麦克风/屏幕权限，或者共享已被取消。",
+      "pickSection": "请选择要连接的课程小节。",
+      "startFailed": "无法开始录制。您的浏览器可能不支持此功能。",
+      "unsupportedSettings": "不支持使用这些设置进行录制。请尝试其他来源。"
+    },
+    "gotoEditor": "转到课程编辑器",
+    "grid": {
+      "hint": "构图网格仅作视图参考；仅在预览中可见，绝不会出现在录制的视频中。",
+      "off": "构图网格：关闭",
+      "on": "构图网格：开启"
+    },
+    "help": {
+      "body": "选择录制来源（相机、屏幕、相机+屏幕或仅音频），然后点击“开始预览”以检查图像/声音。点击“开始录制”即可开始录制；您可以将其暂停或结束。结束后，检查视频并通过“保存为课程视频”将其连接到课程小节之一。录制内容将以未转换（原始）的形式保存。",
+      "title": "录制工作室帮助"
+    },
+    "lead": "“{title}” — 在浏览器中录制课程并将其保存为课程视频。",
+    "mb": "{v} MB",
+    "mic": "麦克风",
+    "micLevel": "麦克风电平",
+    "micReady": "麦克风已就绪。",
+    "notEditable": "当前课程状态为“{status}”；您可以进行录制，但只有当课程为“草稿”或“需要修改”状态时，才能将视频连接到小节。",
+    "pause": "暂停",
+    "previewAudioHint": "点击“开始预览”以检查声音。",
+    "previewVideoHint": "点击“开始预览”以检查图像。",
+    "resume": {
+      "action": "恢复上传",
+      "discard": "丢弃",
+      "note": "发现上一次未完成的录制上传 ({size}) — 无需重新录制即可恢复。"
+    },
+    "resumeRec": "继续录制",
+    "save": {
+      "cancel": "取消",
+      "close": "关闭",
+      "helper": "原始视频将被上传并连接到此小节；小节的内容类型将被设置为“视频”。",
+      "noSections": "此课程尚无小节。请先在课程编辑器中创建一个小节，然后将视频连接到该小节。",
+      "submit": "上传并连接",
+      "targetLabel": "连接到小节",
+      "title": "保存录制的视频",
+      "uploading": "正在保存…",
+      "willConvert": "（内容类型将更改为视频）"
+    },
+    "saveAsVideo": "另存为课程视频",
+    "saved": "视频已保存并关联至课程章节。",
+    "source": {
+      "audio": {
+        "hint": "无画面的音频录制",
+        "label": "仅音频"
+      },
+      "camera": {
+        "hint": "来自网络摄像头的画面与声音",
+        "label": "摄像头"
+      },
+      "camera_screen": {
+        "hint": "包含角落摄像头小画面的屏幕",
+        "label": "摄像头 + 屏幕"
+      },
+      "screen": {
+        "hint": "屏幕共享 + 麦克风声音",
+        "label": "屏幕"
+      }
+    },
+    "sourceTitle": "录制源",
+    "start": "开始录制",
+    "startPreview": "开始预览",
+    "stats": "时长：{d} · 大小：{size}",
+    "stop": "结束录制",
+    "title": "录制工作室",
+    "toast": {
+      "attached": "视频已关联至课程章节。",
+      "attachedDesc": "您可以在课程编辑器中查看它。"
+    },
+    "unsupported": "您的浏览器不支持内嵌录制。请使用最新版本的 Chrome 或 Edge。",
+    "profile": {
+      "label": "录制质量：{preset}",
+      "estimateRate": "约每分钟 {size}",
+      "estimate": "当前录制大小：{size}",
+      "unavailable": "无法获取录制质量设置；将使用浏览器默认质量。"
+    },
+    "limit": {
+      "max": "单次拍摄最大时长：{minutes} 分钟",
+      "warn": "距离允许的录制上限还有不到一分钟。",
+      "stopped": "录制已达到 {minutes} 分钟上限并停止。"
+    },
+    "recovery": {
+      "found": "发现一个来自 {when} 的未完成录制（{duration}）。",
+      "recover": "恢复",
+      "recovering": "正在恢复…",
+      "discard": "丢弃",
+      "discardTitle": "要删除未完成的录制吗？",
+      "discardBody": "此录制仅保存在当前浏览器中，删除后将无法恢复。",
+      "discardConfirm": "删除",
+      "cancel": "取消",
+      "failed": "无法恢复录制。",
+      "lowSpace": "浏览器存储空间不足；如果页面突然关闭，部分录制内容可能无法恢复。",
+      "stoppedPersisting": "浏览器空间已满；录制仍在继续，但不再保存其备份。"
+    }
+  },
+  "sectionContent": {
+    "close": "关闭",
+    "title": "“{title}”的内容"
+  },
+  "settings": {
+    "cert": {
+      "courseTitleFallback": "课程标题",
+      "err": {
+        "pass": "及格分数线必须是 0 到 100 之间的整数。"
+      },
+      "help": {
+        "body": "当学员完成课程后，将为其颁发“结业证书”。如果将“自定义证书标题”留空，则使用默认标题“{title}”。“证书副标题”（可选）将显示在证书说明中。此设置仅影响本课程的证书，已颁发的证书不会更改。",
+        "title": "证书自定义"
+      },
+      "passHelper": "如果课程包含测验部分，则只有在成绩达到或超过此分数线时才会颁发证书。",
+      "passLabel": "课程测验及格分数线（%）",
+      "passPlaceholder": "留空 = 60（默认）",
+      "previewLabel": "证书标题预览",
+      "save": "保存证书设置",
+      "subtitleLabel": "证书副标题",
+      "subtitlePlaceholder": "例如：知识市场专业课程",
+      "title": "结业证书（可选）",
+      "titleLabel": "自定义证书标题"
+    },
+    "info": {
+      "delivery": "授课方式",
+      "level": "级别",
+      "note": "“创建新版本”和“复制课程”可通过工作室顶部栏访问（适用于已发布的课程）。",
+      "status": "状态",
+      "title": "课程信息",
+      "updated": "最后编辑",
+      "version": "当前版本",
+      "versionValue": "版本 {n}"
+    },
+    "saving": "正在保存…",
+    "showcase": {
+      "bioLabel": "个人简介",
+      "bioPlaceholder": "向访问公开页面的访客介绍自己…",
+      "headlineLabel": "一句话简介（您的名字下方）",
+      "headlinePlaceholder": "例如：编程与数据科学讲师",
+      "intro": "此信息将显示在您已发布课程旁边的“讲师展示”公开页面上，且专属于您而非本课程。",
+      "loading": "正在加载…",
+      "save": "保存展示设置",
+      "title": "讲师展示（公开）"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram",
+      "twitter": "Twitter",
+      "website": "网站",
+      "youtube": "YouTube"
+    }
+  },
+  "shell": {
+    "backToStudio": "返回工作室",
+    "brand": "知识工作室",
+    "clone": "复制课程",
+    "cloneModal": {
+      "bodyAfter": " 将基于此课程创建（标题为“{title}（副本）”）。课程的所有教学结构和内容都将复制到副本中，您可以自由编辑。原课程的购买者不会受到影响，原课程保持不变。",
+      "bodyBefore": "将创建一个",
+      "bodyStrong": "草稿副本",
+      "busy": "正在创建副本…",
+      "helpBody": "“复制课程”会创建一个全新的独立草稿课程（这与“新版本”不同：“新版本”会更新现有课程）。这适用于基于现有结构快速创建相似课程。该副本尚未发布，需要像任何新课程一样提交审核，然后才能发布。",
+      "helpTitle": "复制课程有什么作用？",
+      "submit": "创建副本"
+    },
+    "copilot": "Studio 助手",
+    "draft": {
+      "banner": "正在编辑“新版本”",
+      "bannerVersion": "（第 {n, number} 版）",
+      "body": "当前发布的版本对现有购买者保持有效。您的更改将应用于此草稿，并且只有在“提交审核”、通过审核员审批并“发布”后，才会替换旧版本（现有购买者可以免费访问新版本）。",
+      "helpBody": "要更新已发布的课程，请点击“创建新版本”：系统将基于当前版本创建一个可自由编辑的“草稿”副本，而已发布的版本对现有购买者保持不变。编辑完成后，点击“提交审核”，然后通过审核员审批后点击“发布”，即可用新版本替换旧版本；现有购买者无需再次付费即可访问新版本。任何时候都只能有一个开放的草稿。",
+      "helpTitle": "新版本指南"
+    },
+    "gradingQueue": "评分队列",
+    "invalidId": "课程 ID 无效。",
+    "loadErrorTitle": "课程加载失败",
+    "lock": {
+      "inReview": "此课程已提交审核，当前处于“审核中”状态；在审核结束之前，编辑功能已被锁定。审核员做出决定后，如果需要修改，将重新开放。",
+      "other": "此课程当前状态为“{status}”，仅供查看。只有在课程状态为“草稿”或“需要修改”时才能进行编辑。",
+      "published": "此课程已发布并对购买者开放；其结构和内容已被锁定。如需进行更改，请点击“创建新版本”以生成可编辑的草稿。（您仍然可以更新封面图片和价格。）"
+    },
+    "newVersion": "创建新版本",
+    "newVersionModal": {
+      "bodyAfter": " 将基于当前发布的版本以“草稿”形式创建。您可以自由编辑此草稿；当前发布的版本对购买者保持不变。完成后，点击“提交审核”并“发布”以替换旧版本。",
+      "bodyBefore": "将创建一个",
+      "bodyStrong": "副本",
+      "busy": "正在创建…"
+    },
+    "notFound": "未找到课程。",
+    "notReady": "课程尚未准备好提交，请完成以下内容：",
+    "preview": "预览",
+    "publish": "发布课程",
+    "publishing": "正在发布…",
+    "recorder": "录制 Studio",
+    "review": {
+      "changes": "审核员要求进行修改 — 审核员留言：",
+      "decidedAt": "决定日期：{date}",
+      "hint": "请修改相关内容并再次点击“提交审核”。",
+      "rejected": "此课程已被拒绝 — 审核员留言："
+    },
+    "saveFailed": "保存失败 — 请重试。",
+    "saved": "已保存",
+    "saving": "正在保存…",
+    "submit": "提交审核",
+    "submitModal": {
+      "bodyAfter": "。在提交之前，请确保课程的结构和内容完整。",
+      "bodyBefore": "提交审核后，课程将被发送给“知识市场”的审核员（内容管理员），并且在审核完成之前",
+      "bodyStrong": "锁定编辑",
+      "busy": "正在提交…",
+      "missing": "缺少项："
+    },
+    "tabs": {
+      "analytics": "分析",
+      "assessments": "考核",
+      "content": "内容",
+      "coupons": "优惠券",
+      "curriculum": "课程大纲",
+      "overview": "概览",
+      "pricing": "定价",
+      "settings": "设置"
+    },
+    "tabsAria": "课程工作室板块",
+    "version": "版本 {n, number}"
+  },
+  "storage": {
+    "colInstructor": "讲师",
+    "colUsage": "用量",
+    "diskFree": "服务器磁盘剩余空间：{free}（允许下限：{floor}）",
+    "diskUnknown": "当前无法测量服务器磁盘剩余空间（fail-open — 上传不会被阻止）。",
+    "err": {
+      "diskFloor": "API 磁盘下限必须是不小于 1 GB 的整数。",
+      "globalCap": "工作室全局上限必须是不小于 1 GB 的整数。",
+      "maxTake": "单个 Take 时长上限必须是不小于 1 分钟的整数。",
+      "quota": "每位讲师的配额必须是不小于 1 GB 的整数。",
+      "retention": "原始 Take 保留期限必须是不小于 1 天的整数。"
+    },
+    "error": "错误",
+    "field": {
+      "diskFloor": "API 磁盘下限",
+      "diskFloorHelp": "如果服务器剩余空间达到此数值，新的上传将被拒绝。",
+      "globalCap": "工作室全局上限",
+      "maxTake": "每个 Take 时长上限",
+      "preset": "录制比特率默认预设",
+      "presetHelp": "连接录制的选择器将在下一波次中添加；这仅代表租户默认值。",
+      "quota": "每位讲师配额",
+      "retention": "原始 Take 保留期限",
+      "retentionHelp": "仅策略数值；自动删除功能将在下一波次中启用。"
+    },
+    "gb": "{v} GB",
+    "globalUsage": "工作室全局用量",
+    "help": {
+      "body": "“每位讲师配额”和“全局上限”在填满时会阻止工作室中的上传。“API 磁盘下限”可确保接受新上传前的最小服务器剩余空间。“原始 Take 保留期限”为策略数值 — 自动删除定时任务（cron）将在下一波次（依赖 Take 模型）中构建；在此之前不会发生任何自动删除，且 EDL/最终导出绝不会被自动删除。",
+      "title": "工作室存储指南"
+    },
+    "keepForever": "EDL 和最终导出永不自动删除",
+    "lead": "讲师配额、全局上限、原始 Take 保留期限以及服务器磁盘下限。",
+    "loadFailed": "加载设置失败",
+    "marketAdmin": "市场管理",
+    "perInstructor": "每位讲师用量",
+    "policy": "存储策略",
+    "preset": {
+      "balanced": "平衡",
+      "high_quality": "高质量",
+      "slow_internet": "低速网络"
+    },
+    "save": "保存设置",
+    "savedOk": "已保存。",
+    "saving": "正在保存…",
+    "title": "工作室存储",
+    "unit": {
+      "day": "天",
+      "gb": "GB",
+      "minute": "分钟"
+    },
+    "usageOf": "{used} / {cap}"
+  },
+  "studioFlow": {
+    "ariaLabel": "课程制作步骤",
+    "steps": {
+      "info": "信息",
+      "record": "录制",
+      "edit": "编辑",
+      "publish": "发布"
+    },
+    "sub": {
+      "info": "标题、简介、图片与价格",
+      "record": "录制或上传视频与音频",
+      "edit": "剪切与排列片段",
+      "publish": "检查就绪状态并提交"
+    },
+    "state": {
+      "done": "已完成",
+      "current": "当前步骤",
+      "upcoming": "下一步",
+      "blocked": "尚未就绪"
+    },
+    "optional": "可选",
+    "compact": "第 {current} 步，共 {total} 步：{label}",
+    "counts": {
+      "record": "{sections} 个媒体小节 · {takes} 个片段",
+      "edit": "{projects} 个剪辑项目",
+      "publish": "已完成 {ok}/{total} 项必填内容"
+    },
+    "reason": {
+      "publishBlocked": "发布前请完成所有必填的就绪项。",
+      "newCourse": "请先保存课程基本信息。"
+    },
+    "phase": {
+      "not_ready": "未完成",
+      "ready": "准备发布",
+      "in_review": "等待审核",
+      "needs_changes": "需要修改",
+      "approved": "已批准",
+      "published": "已发布",
+      "rejected": "已拒绝",
+      "suspended": "已挂起",
+      "archived": "已归档"
+    },
+    "loading": "正在加载阶段…",
+    "error": "加载阶段状态失败。",
+    "retry": "重试"
+  },
+  "saveChip": {
+    "saved": "已保存",
+    "savedAt": "已保存 · {when}",
+    "saving": "正在保存…",
+    "savingPct": "正在保存… {pct}",
+    "offline": "离线 — 队列中",
+    "error": "保存失败",
+    "retry": "重试"
+  },
+  "studioTakes": {
+    "title": "录制镜头",
+    "toggle": "显示/隐藏镜头",
+    "empty": "本课程尚无记录镜头。",
+    "loading": "正在加载镜头…",
+    "error": "加载镜头列表失败。",
+    "retry": "重试",
+    "source": {
+      "camera": "摄像头",
+      "screen": "屏幕",
+      "camera_screen": "摄像头与屏幕",
+      "audio": "仅音频"
+    },
+    "preset": {
+      "slow": "小体积",
+      "balanced": "均衡",
+      "high": "高质量"
+    },
+    "recovered": "已恢复",
+    "used": "用于 {n} 个部分",
+    "purgeOn": "自动清理原始文件：{date}",
+    "purged": "原始文件已根据保留策略删除 ({date})",
+    "assetDeleted": "该镜头的资产已被删除",
+    "registerFailed": "文件已保存，但未在镜头列表中注册。",
+    "registerRetry": "重新注册",
+    "sectionLabel": "该镜头的课程部分",
+    "attach": "附加到部分",
+    "attaching": "正在附加…",
+    "attached": "镜头已附加到选定的部分。"
+  },
+  "tags": {
+    "count": "({selected}/{max})",
+    "empty": "尚未定义标签（见“市场管理”部分）。",
+    "intro": "标签有助于课程在市场橱窗中被发现以及推荐“相关课程”。标签词汇由市场经理定义。",
+    "loading": "正在加载…",
+    "save": "保存标签",
+    "title": "课程标签"
+  },
+  "wizard": {
+    "back": "知识工作室",
+    "busy": "请稍候…",
+    "createAndNext": "创建草稿并继续",
+    "errors": {
+      "moduleTitleShort": "章节标题至少需要 2 个字符。",
+      "titleRequired": "“课程标题”为必填项（至少 2 个字符）。"
+    },
+    "eyebrow": "知识市场",
+    "lead": "逐步完成；您可以随时退出——课程将保存为“草稿”，并可从“知识工作室”继续编辑。",
+    "next": "下一步",
+    "prev": "上一步",
+    "s1": {
+      "delivery": "授课方式",
+      "heading": "1 · 课程基本信息",
+      "language": "语言",
+      "level": "级别",
+      "summary": "简短说明",
+      "summaryPlaceholder": "请用一两句话简述本课程的内容。",
+      "title": "课程标题",
+      "titlePlaceholder": "例如：机器学习基础"
+    },
+    "s2": {
+      "add": "添加",
+      "empty": "暂未添加章节。",
+      "generate": "✨ 生成大纲（AI 草稿）",
+      "heading": "2 · 初始大纲",
+      "lead": "搭建课程框架：您可以使用 AI 生成完整草稿（大纲 → 课时 → 小节）并在应用前进行编辑，也可以暂时只手动添加章节标题。此步骤为可选步骤，稍后也可以在“大纲”选项卡中继续完善。",
+      "lessonCount": "({count, plural, other {# 个课时}})",
+      "manualLabel": "手动添加章节",
+      "manualPlaceholder": "例如：简介与前置要求"
+    },
+    "s3": {
+      "assessBody": "您可以在“测验”选项卡中为课程创建练习和测验（14 种题型、题库、定时测验），并将其关联到整个课程、某个章节或某节课——“练习”模式可供自由重复练习，“必修”模式则作为学员进度的前置条件。",
+      "assessTitle": "练习与测验",
+      "goAssessments": "转到测验选项卡",
+      "goContent": "转到内容选项卡",
+      "heading": "3 · 小节内容",
+      "lead": "各小节的内容（视频、幻灯片、文档、音频、H5P 交互内容、文本、链接或测验）可在课程工作室的“内容”选项卡中上传；在那里您可以看到所有小节的列表及其“有内容 / 无内容”状态，并可逐一完善。如需录制视频，浏览器中也提供“录制工作室”（支持摄像头、屏幕或两者同录）。",
+      "note": "您可以跳过此步骤，稍后再完善内容——在您点击“提交审核”之前，课程不会发布。",
+      "recorder": "录制工作室"
+    },
+    "s4": {
+      "heading": "4 · 定价",
+      "lead": "课程可以设置为“免费”或“一次性购买”。您以后随时可以更改价格；每位买家支付的金额在购买时即告确定。"
+    },
+    "s5": {
+      "goStudio": "转到课程工作室",
+      "heading": "5 · 发布检查清单",
+      "lead": "“必填”项必须在“提交审核”前完成；“建议”项可提升课程页面的质量。各项内容的完善均可在课程工作室内部进行。",
+      "loading": "正在获取检查清单…",
+      "ready": "课程已准备好“提交审核”——请从工作室顶部导航栏进行提交。"
+    },
+    "steps": {
+      "basics": "基本信息",
+      "content": "内容",
+      "outline": "课程大纲",
+      "pricing": "定价",
+      "readiness": "发布检查清单"
+    },
+    "stepsAria": "课程创建步骤",
+    "title": "创建新课程"
+  }
+}

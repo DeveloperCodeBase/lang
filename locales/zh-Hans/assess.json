@@ -1,0 +1,2151 @@
+{
+  "admin": {
+    "afterSubmit": "提交后：{meaning}",
+    "allStepsDone": "所有步骤均已完成",
+    "assessorsOverRatio": "{count, number} 位评估员的候选人数量超过了目标比例——如果可能，请将他们的工作量分摊给其他评估员。",
+    "assignmentCountShort": "{count, number} 个分配",
+    "assignmentsHeading": "“{project}”中的评估员分配",
+    "assignmentsHint": "每次分配意味着：“此评估员在此练习中查看该候选人并进行评分”。",
+    "candidateFallback": "候选人",
+    "candidatesHeading": "“{project}”的候选人（{count, number}）",
+    "cannotAssignNoCandidate": "必须先至少邀请一名候选人。",
+    "cannotAssignNoExercise": "必须先至少定义一个练习。",
+    "cannotAssignYetTitle": "暂无法分配",
+    "competencyCount": "{count, number} 项能力",
+    "consentActiveBadge": "已激活",
+    "consentHeading": "知情同意书文本（组织级）",
+    "consentHint": "整个流程的第一步。文本独立于项目，且任何时候都只有一个版本处于活动状态；仅创建文本是不够的——必须将其激活。",
+    "consentVersion": "版本 {version}",
+    "coverageHeading": "覆盖率报告",
+    "coverageHint": "参考报告：每项能力通过多少种方法进行评估，以及评估员的工作量是否超过了目标比例。其中的警告不会阻碍工作的继续。",
+    "coverageNoCompetency": "尚未有能力关联到此项目的练习中。",
+    "coverageParams": "最低方法数：{minMethods, number} · 评估员目标比例：{ratio, number}",
+    "cta": {
+      "activateConsent": "激活此版本",
+      "activateProject": "激活项目",
+      "assignAssessor": "分配评估员",
+      "assignmentList": "分配列表",
+      "cancel": "取消",
+      "closeEdit": "关闭编辑",
+      "closeExerciseForm": "关闭练习表单",
+      "closeInviteForm": "关闭邀请表单",
+      "closeList": "关闭列表",
+      "closeProject": "关闭项目",
+      "closeProjectForm": "关闭项目表单",
+      "createConsent": "编写知情同意书文本",
+      "createProject": "创建项目",
+      "defineExercise": "定义练习",
+      "disableExercise": "禁用练习",
+      "editCompetencies": "编辑能力",
+      "editExercise": "编辑练习",
+      "editProject": "编辑项目详情",
+      "inviteCandidate": "邀请候选人",
+      "loadCoverage": "加载覆盖率报告",
+      "newProject": "新建项目",
+      "revokeInvite": "撤销邀请",
+      "saveChanges": "保存更改",
+      "saveCompetencies": "保存能力",
+      "submitStep": "提交此步骤"
+    },
+    "currentProjectLabel": "当前项目",
+    "detail": {
+      "clientOrg": "客户组织",
+      "minMethods": "每个能力项的最少斵法数"
+    },
+    "editExerciseHeading": "编辑练习",
+    "editExerciseHint": "留空的时间或时长将会被清除。",
+    "editProjectHint": "所有留空的选填字段都将被清除。",
+    "exerciseCompetenciesLabel": "本练习的能力要求：",
+    "exerciseDurationSuffix": " · {minutes, number} 分钟",
+    "exerciseNoCompetency": "无——在未选择前，评估员无可打分的内容。",
+    "exercisesHeading": "“{count, number}”的练习（共 {project} 个）",
+    "eyebrow": "管理台 · 评估中心",
+    "field": {
+      "assessor": "评估员",
+      "assessorRatio": "评估员目标比例",
+      "assessorRole": "此练习中的评估员角色",
+      "candidate": "候选人",
+      "clientOrg": "委托机构名称",
+      "consentBody": "知情同意书内容",
+      "consentVersion": "版本",
+      "durationMinutes": "时长（分钟）",
+      "exerciseKind": "练习类型",
+      "exerciseName": "练习名称",
+      "jobFamily": "职系",
+      "minMethods": "每项能力的最低方法数",
+      "projectCode": "项目代码",
+      "projectName": "项目名称",
+      "scheduledAt": "安排时间",
+      "scheduledAtAria": "练习安排时间",
+      "withdrawReason": "退学原因"
+    },
+    "inviteePreview": "该受邀者：{name} — 其初始状态将为“{status}”。",
+    "lastChangeAt": "最后更改时间：{at}",
+    "lead": "请先从下方的选择器中打开项目，然后在标签页中对该项目进裂操作。“概览”清单会时刻提示您当前所处的进度。",
+    "loading": "正在加载...",
+    "methodCount": "{count, number} 种方法",
+    "namelessFallback": "（无名）",
+    "newCandidateHeading": "邀请新候选人",
+    "newExerciseHeading": "新建练习",
+    "newProjectHeading": "新建项目",
+    "nextStepAria": "{candidate}的下一步",
+    "nextStepCta": "下一步：{cta}",
+    "noAssignmentShort": "尚未分配评估",
+    "noNextStep": "此状态未定义下一步。",
+    "noOrgCompetency": "尚未在组织中定义任何能力。可在“能力模型”部分定义能力。",
+    "openProjectCta": "打开“{project}”",
+    "option": {
+      "noProject": "— 未选择项目 —",
+      "none": "— 未选择 —",
+      "pickCandidate": "— 选择候选人 —",
+      "pickNextStep": "— 请选择下一步 —"
+    },
+    "pickerTitle": {
+      "assessor": "搜索评估人员",
+      "candidate": "搜索候选人"
+    },
+    "projectCodeCreated": "{code} · 创建时间：{at}",
+    "setupChecklistHeading": "设置检查清单",
+    "step": {
+      "activeConsentVersion": "当前版本：{version}",
+      "assignmentCount": "{count, number} 个分配",
+      "candidateCount": "{count, number} 名候选人",
+      "exercisesAllCovered": "{count, number} 个练习均已关联能力",
+      "exercisesMissingCompetency": "{count, number} 个练习尚无关联能力。",
+      "noAssignment": "尚未分配评估。",
+      "noCandidate": "尚未邀请候选人。",
+      "noConsentText": "尚未记录任何文本。",
+      "noExercise": "尚未定义练习。",
+      "noProject": "尚未创建项目。",
+      "openProject": "打开的项目：{project}",
+      "pickProject": "已有项目 — 请从列表中打开一个或新建一个项目。"
+    },
+    "tabsScopeHint": "“候选人”、“练习”和“分配”选项卡仅显示当前项目；“设置”属于组织级别。",
+    "title": "评估管理员控制台"
+  },
+  "answer": {
+    "dragDrop": {
+      "assign": "— 分配 —"
+    },
+    "file": {
+      "change": "更改文件",
+      "pick": "选择文件",
+      "tooLargeMsg": "最大 {mb} MB",
+      "tooLargeTitle": "文件过大"
+    },
+    "fillBlank": {
+      "placeholder": "填空 {n}"
+    },
+    "hotspot": {
+      "noImage": "未为此题目设置图片。",
+      "regionFallback": "区域 {n}"
+    },
+    "matching": {
+      "choose": "— 请选择 —"
+    },
+    "ordering": {
+      "moveDown": "下移",
+      "moveUp": "上移"
+    },
+    "placeholder": {
+      "code": "// 在此编写您的代码",
+      "default": "回答…",
+      "essay": "论述题回答…",
+      "formula": "数学表达式，例如 a^2+b^2=c^2",
+      "numeric": "数字答案",
+      "short": "简答…"
+    },
+    "review": {
+      "correct": "正确答案",
+      "downloadFile": "下载文件",
+      "keyLabel": "键：",
+      "manual": "手动批阅",
+      "manualFile": "手动批阅（文件）",
+      "studentLabel": "学生回答：",
+      "studentPick": "学生回答",
+      "studentPicked": "（学生选择）"
+    },
+    "trueFalse": {
+      "false": "错误",
+      "true": "正确"
+    }
+  },
+  "assignmentRole": {
+    "assessor": {
+      "hint": "负责查看并评分。",
+      "label": "评估员"
+    },
+    "facilitator": {
+      "hint": "负责管理练习。",
+      "label": "助教"
+    },
+    "interviewer": {
+      "hint": "负责主持面试并评分。",
+      "label": "面试官"
+    },
+    "observer": {
+      "hint": "仅限查看。",
+      "label": "观察员"
+    }
+  },
+  "assignments": {
+    "cta": {
+      "continue": "继续 / 提交",
+      "open": "打开并提交",
+      "result": "查看结果",
+      "startExam": "开始考试",
+      "viewExam": "查看"
+    },
+    "due": "截止日期：{date}",
+    "empty": "您的课程暂无已发布的作业或考试。",
+    "eyebrow": "学生 · 作业与考试",
+    "filter": {
+      "all": "全部",
+      "graded": "已评分",
+      "pending": "未提交",
+      "submitted": "已提交"
+    },
+    "gradeValue": "分数：{n} / 100",
+    "help": {
+      "body": "打开每个项目进行作答：在考试中回答问题，在作业中您可以编写文本并附加文件（PDF、Word、图片、ZIP）。在点击“最终提交”之前，您可以保存草稿。提交后，状态和分数将显示在此处。",
+      "title": "作业与考试指南"
+    },
+    "kind": {
+      "assignment": "作业",
+      "quiz": "测验"
+    },
+    "lead": "您所教课程已发布的作业和测验，以及提交状态和成绩。",
+    "loading": "正在加载...",
+    "noDue": "无截止日期",
+    "points": "{n, plural, other {{n} 分}}",
+    "status": {
+      "draft": "草稿",
+      "graded": "已评分",
+      "none": "未交",
+      "submitted": "已提交"
+    },
+    "title": "我的作业与测试"
+  },
+  "bank": {
+    "confirm": {
+      "body": "您之前已添加至测试的题目将不会受到影响。",
+      "cancelLabel": "取消",
+      "confirmLabel": "删除题目",
+      "title": "要从题库中删除该题目吗？"
+    },
+    "countLabel": "{n} 个问题",
+    "cta": {
+      "builder": "组卷器",
+      "new": "题库中新建题目"
+    },
+    "difficulty": {
+      "easy": "简单",
+      "hard": "困难",
+      "medium": "中等"
+    },
+    "editor": {
+      "close": "关闭",
+      "courseLabel": "课程（可选）",
+      "difficultyLabel": "难度级别（可选）",
+      "editTitle": "编辑题库题目",
+      "explanationLabel": "答案解析（可选）",
+      "hintLabel": "学生提示（可选）",
+      "kindLabel": "题目类型",
+      "manualSuffix": "（手动）",
+      "newTitle": "题库中的新题目",
+      "pointsLabel": "分值",
+      "promptFillBlank": "题目文本；请用 ___ 标出每个填空处...",
+      "promptLabel": "题目文本",
+      "promptPlaceholder": "请输入题目文本...",
+      "saveEdit": "保存更改",
+      "saveNew": "添加到题库",
+      "saving": "正在保存...",
+      "tagsLabel": "标签（以逗号分隔，可选）",
+      "tagsPlaceholder": "例如：第2章、导数、困难"
+    },
+    "emptyAll": "题库中暂无题目。点击“新建题目”创建第一个可复用的题目。",
+    "emptyFiltered": "未找到符合这些筛选条件的题目。",
+    "err": {
+      "delete": "删除题目时出错",
+      "load": "加载题库时出错",
+      "save": "保存题目时出错"
+    },
+    "eyebrow": "教师 · 题库",
+    "filter": {
+      "all": "全部",
+      "clear": "清除筛选",
+      "kindLabel": "类型："
+    },
+    "help": {
+      "body": "此题库用于存放独立于考试的题目；您可以创建、编辑和归档全部 14 种题型（从多选题、填空题到匹配题和拖放题）。一道题目可以限定于某个课程，也可以保持个人状态（无课程）。要在考试中使用，请在“组卷器”中点击“从题库添加”——系统将把题目副本添加至考试中。",
+      "title": "题库帮助"
+    },
+    "kpi": {
+      "auto": "自动批改",
+      "manual": "手动批改",
+      "total": "题库总数"
+    },
+    "lead": "创建可复用的题目，并在不同的考试中多次使用。要将其添加到考试中，请在“组卷器”中点击“从题库添加”选项。",
+    "loading": "正在加载…",
+    "noCourse": "无课程（个人）",
+    "notice": {
+      "deleteFailed": "删除失败"
+    },
+    "points": "{n} 分",
+    "row": {
+      "delete": "删除",
+      "edit": "编辑"
+    },
+    "search": {
+      "aria": "搜索题目",
+      "placeholder": "搜索题干或标签…"
+    },
+    "title": "题库"
+  },
+  "builder": {
+    "attempts": {
+      "colIdentity": "身份验证",
+      "colStatus": "状态",
+      "colStudent": "学生",
+      "colViolations": "违纪记录",
+      "empty": "尚无学员参加此考试。",
+      "hint": "点击“加载”以查看参与者、身份验证和记录的违纪情况。",
+      "identityFailed": "未通过",
+      "identityOk": "✓ 已完成",
+      "identityPartial": "不完整",
+      "loadAction": "加载",
+      "reviewAction": "完整复核",
+      "statusExpired": "已超时",
+      "statusInProgress": "进行中",
+      "statusSubmitted": "已提交",
+      "title": "监考视图 — 考试答题记录"
+    },
+    "bank": {
+      "dialogNote": "所选题目的副本将被添加到此考试中；后续对题库中题目的编辑不会影响此副本。",
+      "dialogTitle": "从题库添加",
+      "empty": "您的题库为空。请先在“题库”中创建题目。",
+      "goToBank": "前往题库",
+      "insertAction": "添加",
+      "loading": "正在加载…",
+      "manualSuffix": " · 手动",
+      "openAria": "从题库添加题目",
+      "promoteFailedTitle": "失败",
+      "promotedBody": "已将此题的副本保存至“题库”。",
+      "promotedTitle": "已添加至题库",
+      "searchAria": "搜索题库题目",
+      "searchPlaceholder": "搜索题目文本…"
+    },
+    "breadcrumb": "教育 · 测验生成器",
+    "checklist": {
+      "addQuestion": "添加至少一道题目",
+      "addQuestionCta": "添加题目",
+      "publish": "向学员发布测验",
+      "publishBusy": "正在发布…",
+      "publishCta": "发布测验",
+      "publishingReason": "正在发布 — 请稍候。"
+    },
+    "create": {
+      "attemptsLabel": "允许次数",
+      "courseEmpty": "未找到可供选择的课程。系统内必须先定义课程。",
+      "courseLabel": "课程",
+      "coursePlaceholder": "— 选择课程 —",
+      "createAction": "创建测验",
+      "createBusy": "正在创建…",
+      "descLabel": "描述（可选）",
+      "descPlaceholder": "关于此测验的简短说明…",
+      "dialogTitle": "新建测验",
+      "dueAria": "答题截止时间",
+      "dueLabel": "截止时间（可选）",
+      "durationLabel": "时长（分钟）",
+      "kindAssignmentNote": "作业：学员一次性提交所有答案（不含独立题目）。",
+      "kindLabel": "类型",
+      "kindQuizNote": "测验：包含独立题目（单选题、简答题、问答题）。",
+      "lockdownLabel": "锁定模式（全屏 + 记录切屏/切标签页 + 阻止复制）",
+      "openAria": "新建测验",
+      "proctoredLabel": "限时且受监控的测验（Proctored Exam）",
+      "requireIdentityLabel": "开始前身份验证（网络摄像头 + ID — 演示）",
+      "shuffleLabel": "打乱题目顺序",
+      "titleLabel": "标题",
+      "titlePlaceholder": "例如：期中测验"
+    },
+    "dialog": {
+      "cancel": "取消",
+      "close": "关闭"
+    },
+    "editor": {
+      "closeAria": "关闭编辑器",
+      "emptyHint": "请从列表中选择一个测验以进行编辑，或创建一个新测验。",
+      "meta": "{questions, number} 个题目 · {points, number} 分"
+    },
+    "error": {
+      "addQuestion": "添加题目失败",
+      "create": "创建测验失败",
+      "deleteQuestion": "删除题目失败",
+      "insertFromBank": "从题库添加题目失败",
+      "loadBank": "加载题库失败",
+      "loadDetail": "加载测验详情失败",
+      "loadList": "加载测验列表失败",
+      "promoteToBank": "添加到题库失败",
+      "publish": "发布测验失败",
+      "savePools": "保存题库池失败",
+      "updateQuestion": "更新题目失败"
+    },
+    "form": {
+      "addTitle": "添加题目",
+      "cancelEdit": "取消编辑",
+      "editTitle": "编辑题目",
+      "explanationLabel": "答案解析（批改后显示，可选）",
+      "explanationPlaceholder": "解释为什么该答案是正确的",
+      "fromBankAction": "从题库添加",
+      "hintLabel": "学生提示（可选）",
+      "hintPlaceholder": "在测验期间显示的提示信息",
+      "kindLabel": "题目类型",
+      "manualSuffix": "（手动）",
+      "pointsLabel": "分值",
+      "promptLabel": "题目内容",
+      "promptPlaceholder": "输入题目文本…",
+      "promptPlaceholderCloze": "题目文本；使用 ___ 表示填空…",
+      "saveAdd": "添加题目到测验",
+      "saveBusy": "正在保存…",
+      "saveEdit": "保存更改"
+    },
+    "help": {
+      "body": "在此页面中，您可以创建和管理课程的测验与作业。点击“新建测验”创建一个测验，从列表中将其选中以添加题目（如选择题、简答题、论述题），准备就绪后点击“发布”即可向学生开放。",
+      "title": "测验构建器帮助"
+    },
+    "kind": {
+      "assignment": "作业",
+      "quiz": "测验"
+    },
+    "kpi": {
+      "draft": "草稿",
+      "published": "已发布",
+      "total": "测验总数"
+    },
+    "list": {
+      "empty": "暂无测验。请点击“新建测验”开始。",
+      "loading": "正在加载…",
+      "newAction": "新建测验",
+      "title": "测验列表"
+    },
+    "points": "{points, plural, other {# 分}}",
+    "pool": {
+      "addAction": "添加题库",
+      "defaultTitle": "题库",
+      "difficultyAll": "全部",
+      "difficultyEasy": "简单",
+      "difficultyHard": "困难",
+      "difficultyLabel": "难度级别",
+      "difficultyMedium": "中等",
+      "drawCountLabel": "抽题数量",
+      "empty": "尚未定义题库 — 此测验将向所有学生显示所有题目。如需进行随机抽题，请点击“添加题库”。",
+      "hint": "定义题库后，系统将为每位学生从各个题库中随机抽取指定数量的题目。不符合任何筛选条件的题目将始终发放给所有学生。如果没有题库，系统将提供所有题目。为了平衡不同学生之间的难度，建议针对每个难度级别单独创建一个题库（例如 5 道简单题 + 10 道中等题 + 5 道困难题），而不是使用一个未筛选的题库。",
+      "matchLabel": "符合此筛选条件的题目：",
+      "overdraw": "{count, plural, other { — 请求抽取的题目数量超过了现有数量；将提供符合条件的全部 # 道题目。}}",
+      "removeAria": "删除题库",
+      "rowLabel": "题库 {index, number}",
+      "saveAction": "保存题库",
+      "saveBusy": "正在保存…",
+      "saved": "已保存 ✓",
+      "tagSeparator": "、",
+      "tagsLabel": "标签（用逗号分隔，可选）",
+      "tagsPlaceholder": "例如：第 2 章，导数",
+      "title": "题库（随机抽题）",
+      "titleLabel": "题库标题",
+      "titlePlaceholder": "例如：简单题"
+    },
+    "publish": {
+      "action": "发布",
+      "busy": "正在发布…",
+      "confirmBody": "“{title}”将立即对学生可见并可开始答题；发布后无法从此页面取消发布。",
+      "confirmLabel": "发布测验",
+      "confirmTitle": "发布测验？",
+      "confirmWord": "发布"
+    },
+    "question": {
+      "deleteBody": "此题目将被删除，此操作不可撤销。",
+      "deleteConfirm": "删除",
+      "deleteFailedTitle": "删除失败",
+      "deleteTitle": "删除题目"
+    },
+    "questions": {
+      "assignmentNote": "作业没有单独的题目；学生将统一提交其答案。",
+      "deleteAria": "删除题目",
+      "editAria": "编辑题目",
+      "empty": "尚未添加题目。请通过下方表单创建第一道题目。",
+      "explanationLabel": "答案解析：",
+      "hintLabel": "提示：",
+      "loading": "加载中…",
+      "manualBadge": "· 手动评分",
+      "promoteAria": "添加到题库",
+      "promoteTitle": "将此题添加到题库",
+      "title": "测验题目"
+    },
+    "status": {
+      "closed": "已关闭",
+      "draft": "草稿",
+      "published": "已发布"
+    },
+    "subtitle": "创建您的课程测验与作业，添加题目，并在准备就绪后发布。",
+    "title": "测验生成器"
+  },
+  "chain": {
+    "0": "管理员启用知情同意书文本。",
+    "1": "管理员创建项目并邀请候选人。",
+    "2": "候选人在“我的评估之旅”中给予同意。",
+    "3": "管理员创建练习并指定每个练习的能力。",
+    "4": "管理员将评估者分配给“候选人 × 练习”。",
+    "5": "评估者在其控制台中记录证据并进行评分。",
+    "6": "管理员推进候选人评估之旅的状态直至总结。"
+  },
+  "coi": {
+    "blocked": "必须勾选全部三项才能激活分配。",
+    "intro": "必须勾选全部三项；如果其中任何一项不符，则该评估者不应查看此候选人。",
+    "questions": {
+      "0": {
+        "label": "此评估者与候选人此前不认识（无亲属、朋友或紧密合作关系）。"
+      },
+      "1": {
+        "label": "无直接组织关系（互不为上下级）。"
+      },
+      "2": {
+        "label": "此评估者在候选人的招聘、晋升或职业命运中没有扮演角色。"
+      }
+    },
+    "title": "利益冲突声明"
+  },
+  "confirm": {
+    "disableCandidate": {
+      "body": "将撤回对“{name}”的邀请，并将其从候选人名单及其实际的“我的评估之旅”页面中移除。此操作在页面内无法撤销——但如果操作有误，您可以重新邀请同一人。仅限在记录同意之前操作。",
+      "confirmLabel": "撤回邀请",
+      "title": "撤回候选人邀请"
+    },
+    "disableExercise": {
+      "body": "练习“{name}”将被停用，并立即从练习列表、覆盖率报告和评估者控制台中移除；该练习的所有分配也将失效。此操作在页面内无法撤销。如果此练习已记录评分或证据，系统将不允许停用。",
+      "confirmLabel": "停用练习",
+      "title": "停用练习"
+    }
+  },
+  "console": {
+    "assignedAt": "分配时间：{at}",
+    "candidateFallback": "候选人",
+    "candidateStatusSuffix": " · 状态：{status}",
+    "exerciseFallback": "练习",
+    "exerciseTimePrefix": "练习时间：{at} · ",
+    "eyebrow": "评估中心",
+    "lead": "您的待办列表：每一行代表“查看此候选人在此练习中的表现并评分”。您不会看到其他评估者的分配。",
+    "loading": "正在加载...",
+    "projectPrefix": "项目：{project}",
+    "projectSuffix": " · 项目：{project}",
+    "rateCta": "提交凭证与评分",
+    "rosterCta": "本练习的分派名单",
+    "title": "评估控制台"
+  },
+  "edgeRatingHint": "没有充分的观察记录，无法保存下限和上限评定——在“最终提交”之前，请至少为此项胜任力记录一条观察结果。",
+  "empty": {
+    "noActiveConsent": {
+      "body": "仅创建正文是不够的；请“激活”其中一个版本，以便志愿人员能够同意。",
+      "title": "已创建同意书文本，但没有任何活动版本"
+    },
+    "noAssignmentsAssessor": {
+      "body": "评估员控制台会在测评中心管理员将您分配给“考生 × 练习”组合时填充。在此之前，您无需采取任何行动。",
+      "title": "尚未为您分配任何任务"
+    },
+    "noCandidates": {
+      "body": "通过搜索姓名选择考生；无需知道编号。",
+      "cta": "添加考生",
+      "title": "本项目中尚无应聘者"
+    },
+    "noCompetenciesOnExercise": {
+      "body": "没有能力指标，因此无法进行评分。请从评估管理员控制台中定义练习的能力指标。",
+      "title": "此练习未定义任何能力要求"
+    },
+    "noConsentTexts": {
+      "body": "在创建并激活同意书文本之前，考生无法进行同意确认。",
+      "cta": "编写知情同意书文本",
+      "title": "未记录任何知情同意书文本"
+    },
+    "noExercises": {
+      "body": "练习是指面试、小组讨论、陈述等形式。如果没有练习，则无法指派评估员。",
+      "cta": "添加练习",
+      "title": "暂无定义的练习"
+    },
+    "noJourney": {
+      "body": "如果您正在等待邀请，您所在机构的评估中心管理员必须将您添加到一个项目中。受邀后，您的状态将显示在这里。",
+      "title": "您没有参与任何评估流程"
+    },
+    "noProjectSelected": {
+      "body": "请从页面顶部的选择器中打开一个项目，以查看其概览、候选人、练习和分配情况。",
+      "title": "请选择一个项目"
+    },
+    "noProjects": {
+      "body": "项目是评估课程中志愿者和练习的容器。请创建一个以开始。",
+      "cta": "创建第一个项目",
+      "title": "您还没有项目"
+    },
+    "noRoster": {
+      "body": "评估人员对考生的分配是通过评估管理员控制台进行的。",
+      "title": "该练习暂无分配人员"
+    }
+  },
+  "err": {
+    "generic": "发生错误"
+  },
+  "exam": {
+    "done": {
+      "back": "返回",
+      "backCourse": "返回课程并查看成绩单",
+      "expired": "考试时间已到 — 答案已提交",
+      "resultCourse": "您可以在“课程练习与测验”部分查看本场考试的结果和成绩单（简答题将在老师批改后给出分数）。",
+      "resultGrades": "批改后将通过“成绩”公布结果。",
+      "submitted": "您的考试已提交"
+    },
+    "eyebrow": "监考考试",
+    "fallbackTitle": "考试",
+    "loading": "正在加载…",
+    "lobby": {
+      "attemptsLabel": "🔁 允许次数：",
+      "camError": "无法访问摄像头。您可以不使用摄像头继续——本来也不会保存图像。",
+      "cancel": "取消",
+      "cancelBack": "取消并返回课程",
+      "checkBrowser": "浏览器",
+      "checkBrowserOk": "兼容 ✓",
+      "checkFullscreen": "全屏模式",
+      "checkFullscreenOk": "可用 ✓",
+      "checkFullscreenUnknown": "未知",
+      "checkPresence": "签到确认",
+      "checkPresenceDone": "已完成 ✓",
+      "checkPresenceNoCam": "无摄像头",
+      "checkPresencePending": "等待确认",
+      "checkTitle": "系统检查与同意",
+      "confirmPresence": "确认签到",
+      "consent": "我同意接受考试监督：离开页面、切换标签页和复制/粘贴等事件，以及身份匹配结果（姓名和身份证号与系统档案匹配），仅用于确保考试的真实性，并由讲师进行复核。绝不会保存或发送您摄像头和麦克风的任何图像或声音。作弊判定由人工做出，而非自动化处理。",
+      "durationLabel": "⏱️ 时长：",
+      "durationMinutes": "{n} 分钟",
+      "durationWindow": "直到考试窗口结束",
+      "helpBody": "这是一场限时考试。点击“开始”后计时开始且无法暂停。在锁定模式下，页面将变为全屏，离开页面/切换标签页/复制操作将会被记录并报告给讲师。",
+      "helpTitle": "开始前必读",
+      "identityCardTitle": "签到与身份验证（演示）",
+      "identityLabel": "🪪 身份验证：",
+      "identityNotRequired": "不需要",
+      "identityRequired": "需要（签到 + 演示引导）",
+      "identityWhat": "摄像头图像仅在此设备上显示；不会拍摄、保存或发送任何照片。提交给讲师的是您的姓名和身份证号与系统档案的匹配结果（演示引导）。",
+      "lockdownLabel": "🛡️ 锁定模式（防作弊）：",
+      "lockdownOff": "已禁用",
+      "lockdownOn": "已启用",
+      "presenceDone": "✓ 您的出勤已确认。未保存或发送任何图像；您可以开始考试了。",
+      "questionCountLabel": "❓ 题目数量：",
+      "startCta": "开始考试"
+    },
+    "room": {
+      "answeredOf": "已回答 {done} / {total}",
+      "finish": "结束考试…",
+      "flag": "⚐ 标记以供复查",
+      "flags": "违规次数：{n}",
+      "legendAnswered": "✓ 已回答",
+      "legendCurrent": "● 当前",
+      "legendEmpty": "未作答",
+      "legendFlagged": "⚑ 已标记",
+      "next": "下一题 ›",
+      "noQuestions": "该考试暂无题目。",
+      "prev": "‹ 上一题",
+      "questionAria": "题目 {n}",
+      "questionMeta": "第 {n} 题，共 {total} 题 · {points} 分",
+      "reviewFinish": "检查并完成",
+      "saved": "已保存 ✓",
+      "saving": "正在保存...",
+      "unflag": "⚑ 取消标记以供复查"
+    },
+    "signInCta": "登录",
+    "signInLead": "您必须登录后才能参加考试。",
+    "submit": {
+      "back": "返回考试",
+      "confirm": "最终提交",
+      "flaggedLabel": "已标记以供复查：",
+      "title": "完成考试",
+      "totalQuestions": "题目总数：",
+      "unansweredHint": " — 您仍可作答",
+      "unansweredLabel": "未作答：",
+      "warning": "提交后将无法修改答案。"
+    },
+    "submitFailedTitle": "提交失败"
+  },
+  "exerciseKind": {
+    "group_discussion": {
+      "hint": "几位候选人就某一问题进行讨论，评估员进行观察。",
+      "label": "小组讨论"
+    },
+    "in_basket": {
+      "hint": "应试者处理一组模拟信件和任务。",
+      "label": "公文筐（收件箱）"
+    },
+    "interview": {
+      "hint": "考官与候选人的结构化面试。",
+      "label": "面试"
+    },
+    "presentation": {
+      "hint": "候选人进行主题演讲。",
+      "label": "演示"
+    },
+    "role_play": {
+      "hint": "应试者在模拟情境中扮演角色。",
+      "label": "角色扮演"
+    },
+    "tool": {
+      "hint": "标准测验或问卷。",
+      "label": "工具测验"
+    }
+  },
+  "formHint": {
+    "assessorRatio": "可选 — 每个评估员的最大申请人数量。仅用于覆盖率报告警告，不会阻止操作。",
+    "assessorSearch": "请输入评估员姓名（至少 3 个字符）并进行选择。此人必须具备“评估员”（或评估管理员）角色，否则将无法保存分配。",
+    "candidateSearch": "请输入候选人姓名或电子邮件（至少 3 个字符），然后从列表中选择。",
+    "clientOrg": "选填 — 委托机构名称（如果此测评是为其他机构举办的）。",
+    "competencyPick": "请勾选此练习评估的胜任力。",
+    "consentBody": "考生在开始前阅读并接受的文本。",
+    "consentVersion": "版本号，例如“v1”。新版本将停用以前的版本。",
+    "exerciseDuration": "可选 — 练习时长（分钟）。",
+    "exerciseName": "评评估人员可见的名称，例如“基于能力的面试”。",
+    "exerciseSchedule": "可选 — 举行日期和时间。",
+    "jobFamily": "可选 — 本项目的目标职位族；如果不确定，请留空。",
+    "minMethods": "可选 — 每个能力至少需要用几种方法进行评估。仅作提示性警告。",
+    "projectCode": "您专属的简短唯一标识符，例如“AC-1404-01”。",
+    "projectName": "列表中显示的名称，例如“中层管理者评估中心 — 秋季”。",
+    "withdrawReason": "退出原因为必填项，并将永久记录在事件日志中。"
+  },
+  "glossary": {
+    "0": {
+      "meaning": "一种评估个人的方法，多位评估人员在多个不同的练习中观察一个人，并独立进行评分。",
+      "term": "评估中心"
+    },
+    "1": {
+      "meaning": "针对特定人群的一整套评估中心周期；候选人和练习的容器。",
+      "term": "项目"
+    },
+    "2": {
+      "meaning": "在此项目中接受评估的个人。每位候选人都有一个经历连续状态的“旅程”。",
+      "term": "候选人"
+    },
+    "3": {
+      "meaning": "评估活动，如面试、小组讨论、演示或公文筐。",
+      "term": "练习"
+    },
+    "4": {
+      "meaning": "我们所评估的可观察能力（例如“决策”或“团队合作”）。每个练习评估多项能力。",
+      "term": "能力"
+    },
+    "5": {
+      "meaning": "在练习中观察候选人并独立于其他评估人员进行评分的人。",
+      "term": "评估人员"
+    },
+    "6": {
+      "meaning": "“此评估人员 × 此候选人 × 此练习”的关联。这是允许评估人员记录实证和评分的唯一依据。",
+      "term": "分配"
+    },
+    "7": {
+      "meaning": "评估人员在练习过程中记录的客观行为记录；分数的支撑依据。",
+      "term": "实证"
+    },
+    "8": {
+      "meaning": "候选人在开始前接受的文本。属于组织级别，而非项目级别；任何时候都只有一个活跃版本。",
+      "term": "知情同意书"
+    },
+    "9": {
+      "meaning": "关于每项能力通过几种方法进行评估以及评估人员的工作量是否超过目标上限的参考报告。这是一个警告，而不是障碍。",
+      "term": "评估覆盖率"
+    },
+    "10": {
+      "meaning": "练习结束后，评估人员齐聚一堂，为每位候选人 × 能力达成一致评分（共识）的会议。",
+      "term": "统分会"
+    },
+    "11": {
+      "meaning": "在统分会上通过集体协商取代各评估人员原始分数的最终分数。",
+      "term": "共识"
+    },
+    "12": {
+      "meaning": "当不同评估人员针对某位候选人 × 能力的原始分数区间过大时（分歧） — 表示在记录共识分数前需要进行更多讨论。",
+      "term": "离散"
+    }
+  },
+  "help": {
+    "chainHeading": "整个流程，从头到尾",
+    "glossaryHeading": "词汇表",
+    "helpCta": "帮助",
+    "ifEmptyHeading": "如果页面为空",
+    "rolesHeading": "谁做什么",
+    "youCanHeading": "您可以在这里做什么？"
+  },
+  "hub": {
+    "cta": {
+      "assignment": "提交作业",
+      "closed": "已关闭",
+      "exam": "进入考试",
+      "quiz": "开始测验"
+    },
+    "due": "截止时间：{date}",
+    "empty": "当前没有为您发布测验。",
+    "eyebrow": "教育 · 考试与评估",
+    "help": {
+      "body": "这是已发布的测验和作业列表。受监管的“监考”考试将在限时、经过身份验证的考场中进行；测验和作业则在答题页面完成。您必须先注册相关课程才能进入。",
+      "title": "考试指南"
+    },
+    "kpi": {
+      "open": "开放",
+      "proctored": "已监考",
+      "total": "总计"
+    },
+    "lead": "您可用的测验与作业。点击“进入考试”即可开始。",
+    "loadError": "加载测验失败",
+    "loading": "正在加载…",
+    "minutes": "{n} 分钟",
+    "points": "{n} 分",
+    "status": {
+      "closed": "已关闭",
+      "draft": "草稿",
+      "published": "开放"
+    },
+    "title": "考试与评估",
+    "type": {
+      "assignment": "作业",
+      "proctored": "监考考试",
+      "quiz": "测验"
+    }
+  },
+  "journey": {
+    "consentCta": "同意知情同意书",
+    "consentIntro": "开始之前，您必须阅读并接受以下内容。在完成此操作之前，流程将无法继续。",
+    "eyebrow": "评估中心",
+    "lastChangeLabel": "状态最后更改：",
+    "lead": "您在能力评估流程中的状态。您唯一需要做的事情就是同意知情同意书；其余步骤由组织方记录。",
+    "loading": "正在加载…",
+    "noActionNeeded": "无需您采取任何行动；下一阶段将由组织方记录。",
+    "noActiveConsent": "暂无有效的知情同意书 — 这意味着组织方尚未激活同意书文本。在此之前，您无需进行任何操作。",
+    "title": "我的评估之旅"
+  },
+  "judge": {
+    "badge": {
+      "running": "正在评测…"
+    },
+    "case": {
+      "hiddenSuffix": "（隐藏）",
+      "label": "测试用例 {n}",
+      "stats": "{ms}ms · {points} 分"
+    },
+    "hidden": {
+      "summary": "隐藏用例：通过 {passed} / {total}"
+    },
+    "score": "得分：{score} / {max}",
+    "title": "代码自动评测",
+    "verdict": {
+      "accepted": "通过",
+      "compile_error": "编译错误",
+      "error": "评测错误",
+      "mle": "超出内存限制",
+      "runtime_error": "运行时错误",
+      "tle": "超出时间限制",
+      "wrong_answer": "答案错误"
+    }
+  },
+  "live": {
+    "ai": {
+      "confidence": "置信度：",
+      "humanReview": "需要人工复核",
+      "note": "这仅是一个建议 — 最终成绩需要教师确认。",
+      "requestCta": "获取草稿",
+      "suggested": "建议成绩：",
+      "title": "AI 评分草稿"
+    },
+    "assignment": {
+      "add": "添加文件",
+      "filesLabel": "附件（PDF、Word、图片、ZIP — 最大 5MB）",
+      "remove": "删除",
+      "textLabel": "您的回答（文本）",
+      "textPlaceholder": "请写下您的作业说明/回答（如果已添加附件则为可选）…"
+    },
+    "attach": {
+      "badType": "不支持的文件类型（仅限 PDF、图片、Word、ZIP 或文本）。",
+      "readFailed": "读取文件失败。",
+      "tooLarge": "文件大小必须小于 5MB。",
+      "tooMany": "最多允许 8 个文件。"
+    },
+    "backCatalog": "返回目录",
+    "backCourse": "返回课程",
+    "confirm": {
+      "body": "最终提交后，您的回答将无法修改。",
+      "cancelLabel": "取消",
+      "confirmLabel": "最终提交",
+      "title": "最终提交"
+    },
+    "due": "截止时间：{date}",
+    "finalGrade": "最终成绩",
+    "help": {
+      "body": "在此页面中，您将回答测验问题。对于选择题，请选择一个选项；对于问答题，请写下您的答案。使用“保存草稿”暂时保留答案，使用“最终提交”交卷；最终提交后将无法修改，并将显示自动评分结果。",
+      "title": "测验答题帮助"
+    },
+    "loading": "正在加载...",
+    "noQuestions": "该测验暂无题目。",
+    "notice": {
+      "aiFailed": "分析失败",
+      "draftFailed": "保存失败",
+      "gradeMsg": "成绩：{grade} / 100",
+      "pendingMsg": "结果将在复核后发布。",
+      "submitFailed": "提交失败",
+      "submittedTitle": "已提交"
+    },
+    "outOf100": "/ 100",
+    "points": "{n} 分",
+    "questionMeta": "第 {n} 题 · {points} 分",
+    "saveDraft": "保存草稿",
+    "signIn": {
+      "cta": "登录账号",
+      "title": "请登录以回答测试"
+    },
+    "status": {
+      "draft": "草稿",
+      "graded": "已评分",
+      "submitted": "已提交"
+    },
+    "submitFinal": "最终提交",
+    "submitting": "正在提交..."
+  },
+  "notice": {
+    "assignmentCreated": "分配已记录。此后，评估员将在其控制台中看到该行。",
+    "candidateAdded": "已邀请候选人。下一步：定义他们的练习和胜任力。",
+    "candidateDisabled": "已撤回对候选人的邀请。如果操作有误，您可以再次邀请同一人。",
+    "competenciesSaved": "练习胜任力已保存。下一步：为候选人分配评估员。",
+    "consentActivated": "知情同意书文本已激活。下一步：创建项目并邀请候选人。",
+    "consentCreatedInactive": "知情同意书文本已创建 — 但尚未激活。下一步：点击该版本的“激活”。",
+    "exerciseAdded": "练习已添加。下一步：选择此练习的胜任力。",
+    "exerciseDisabled": "练习已禁用，并已从列表和覆盖率报告中移除。",
+    "exerciseUpdated": "练习已编辑。",
+    "projectActivated": "项目已激活。设置完成。",
+    "projectClosed": "项目已关闭。",
+    "projectCreated": "项目已创建。下一步：邀请候选人。",
+    "projectUpdated": "项目详情已更新。",
+    "transitionApplied": "候选人状态已更改。"
+  },
+  "pageHelp": {
+    "adminConsole": {
+      "ifEmpty": "如果您看不到任何项目，说明尚未创建任何内容；请从检查清单的第二步开始。",
+      "intro": "此页面是评估中心的控制室。首先从顶部的选择器中打开一个项目；然后直接在“概览”、“候选人”、“练习”和“分配”选项卡中处理该项目。“设置”选项卡属于组织级别，与特定项目无关。整个设置过程共有六步，“概览”检查清单会随时提示您当前已完成哪一步以及下一步是什么。",
+      "title": "评估管理员控制台帮助",
+      "youCan": {
+        "0": "编写并激活知情同意书文本。",
+        "1": "创建、激活或关闭评估项目。",
+        "2": "通过搜索姓名邀请候选人（无需了解任何标识符）。",
+        "3": "创建练习并从列表中选择其胜任力。",
+        "4": "将评估员分配给“候选人 × 练习”。",
+        "5": "将每位候选人的旅程状态推进一步。",
+        "6": "查看咨询覆盖率报告。",
+        "7": "在“报告与发布”选项卡中查看 R2 报告，并在达成共识后发布或取消。",
+        "8": "在“分析”选项卡中查看汇总报告、评估员间信度 (ICC)、评估员校准以及候选人排名。",
+        "9": "撤销错误操作：编辑项目和练习详情、禁用多余的练习，并在记录同意之前撤回错误的邀请。"
+      }
+    },
+    "assessorConsole": {
+      "ifEmpty": "如果此列表为空，说明评估中心管理员尚未将任何“候选人 × 练习”分配给您。在完成该分配之前，您在此页面上没有需要处理的任务。",
+      "intro": "这里是您自己的待办事项列表：每一行意味着“您需要观察并评分这位候选人的这项练习”。您将看不到其他评估员的分配情况 — 这是刻意设计的，旨在保持评分的独立性。",
+      "title": "评估员控制台指南",
+      "youCan": {
+        "0": "查看分配给您的练习和候选人列表。",
+        "1": "进入每一行的评分表，记录观察结果并进行评分。",
+        "2": "在“我的校准”卡片中，查看您相对于共识分数的评分偏差和准确性（仅限您自己的数据 — 不与其他评估员进行比较）。"
+      }
+    },
+    "candidateJourney": {
+      "ifEmpty": "如果您在这里看不到任何内容，则意味着您尚未被邀请作为候选人参与任何评估项目。邀请由机构评估中心管理员发送。",
+      "intro": "此页面显示您在评估流程中的状态。每完成一个阶段，您的状态就会向前推进。您唯一需要亲自做的事就是接受知情同意书；其余步骤均由组织者记录。",
+      "title": "我的评估历程指南",
+      "youCan": {
+        "0": "查看您当前的状态及其含义。",
+        "1": "在第一步中，阅读并接受知情同意书文本。"
+      }
+    },
+    "managerReport": {
+      "ifEmpty": "如果未显示任何胜任力，则意味着该候选人尚未完成可从中提取共识分数的复盘会议。",
+      "intro": "与已发布的报告不同，此页面绝不会向候选人展示。在这里，您可以看到每个胜任力的共识分数以及会议讨论备注、记录的叙述和统计差异徽章（将共识分数与原始分数的机械平均值/中位数进行比较）——用于审查共识流程本身的质量，而不是用于外部展示。",
+      "title": "内部经理报告指南（R2）",
+      "youCan": {
+        "0": "查看每个胜任力的共识分数以及复盘会议的讨论备注。",
+        "1": "查阅为候选人记录的结果叙述。",
+        "2": "检查每个胜任力的差异徽章和机械平均值/中位数，以便进行质量审查。"
+      }
+    },
+    "myReport": {
+      "ifEmpty": "如果您看不到任何报告，则意味着您的评估流程尚未结束，或者评估中心管理员尚未发布报告。",
+      "intro": "此页面显示您已发布的评估报告。报告内容在评估中心管理员发布时即被冻结；每个胜任力旁边的徽章指示了该水平来自多少次观察，以及它是基于最终密钥/定义还是草稿。",
+      "title": "我的评估报告指南",
+      "youCan": {
+        "0": "查看您作为候选人的各个项目/周期的已发布报告。",
+        "1": "阅读每个胜任力的透明度徽章，以了解结果的来源。",
+        "2": "打印报告或将其保存为 PDF。"
+      }
+    },
+    "rating": {
+      "ifEmpty": "如果未显示胜任力，则意味着尚未为此练习定义胜任力；评估中心管理员必须执行此操作。",
+      "intro": "在此处，您首先为练习中的候选人记录行为证据（您所见内容的客观备注），然后记录每个胜任力的分数。在分数“最终确定”之前，它是可编辑的；最终确定后，只能通过记录原因来修改水平。",
+      "title": "证据与评分记录指南",
+      "youCan": {
+        "0": "记录行为证据。",
+        "1": "为每个胜任力编写水平和理由并进行保存。",
+        "2": "最终确定分数（单向操作）。",
+        "3": "最终确定后，如有必要，可通过记录原因来修改水平。"
+      }
+    },
+    "roster": {
+      "ifEmpty": "如果没有行，则意味着尚未为此练习分配评估；此操作通过评估经理控制台完成。",
+      "intro": "此页面显示在特定练习中，哪个评估员观察了哪个候选人。经理可以看到所有行；评估员只有在自己被分配到此练习时才能访问此页面。",
+      "title": "练习分配列表指南",
+      "youCan": {
+        "0": "查看练习有多少分配以及每个候选人有多少评估员。",
+        "1": "将您自己的行与其他行区分开来。",
+        "2": "转到您自己的行的评分表。"
+      }
+    },
+    "washup": {
+      "ifEmpty": "如果您看不到此会议，则意味着您尚未被添加为参与者；此操作由评估中心管理员完成。",
+      "intro": "此房间是评估员总结会议：经理制定议程并开启会议；然后参与者（经理和成员评估员）针对每个“候选人 × 胜任力”进行讨论并记录共识分数。会议通过两个单独的批准进行锁定，此后总结即为最终结果。",
+      "title": "复盘会议室指南",
+      "youCan": {
+        "0": "查看议程（候选人）和参与者，如果您是经理，则可以进行编辑。",
+        "1": "针对每个“候选人 × 胜任力”，查看评估员的原始分数、偏差范围和计算建议。",
+        "2": "如果您是经理，请记录带有讨论备注的共识分数并锁定会议。",
+        "3": "锁定后，请前往 R2 报告查看和发布。"
+      }
+    }
+  },
+  "proctor": {
+    "action": {
+      "cleared": "清除（正常）",
+      "concern": "标记为异常",
+      "undo": "撤销复核"
+    },
+    "analysis": {
+      "basis": "基于 {n} 份已最终确定的答卷。正确率仅针对自动批改的题目计算。",
+      "manual": "手动",
+      "percent": "{n}%",
+      "thCorrect": "正确率 %",
+      "thKind": "类型",
+      "thPoints": "分值",
+      "thQuestion": "题目",
+      "thResponses": "答卷",
+      "title": "题目分析"
+    },
+    "builderCta": "试卷构建器",
+    "decision": {
+      "cleared": "清除（正常）",
+      "concern": "异常"
+    },
+    "empty": "尚无人参加此测验。",
+    "event": {
+      "context_menu": "右键菜单",
+      "copy": "复制",
+      "cut": "剪切",
+      "fullscreen_exit": "退出全屏",
+      "paste": "粘贴",
+      "tab_blur": "离开标签页",
+      "window_blur": "离开窗口"
+    },
+    "eyebrow": "监考 · 人工复核",
+    "fallbackTitle": "测验",
+    "help": {
+      "body": "系统仅对事件进行“标记”（离开页面、切换标签页、复制等），最终决定权在您。您可以将任何项目标记为“清除（正常）”或“异常”并添加备注。被标记并不直接等于作弊，系统不会自动执行任何取消资格或扣分操作。",
+      "title": "监考复核帮助"
+    },
+    "identity": {
+      "failed": "失败",
+      "partial": "不完整",
+      "verified": "✓ 已验证"
+    },
+    "kpi": {
+      "attempts": "作答次数",
+      "flagged": "已标记",
+      "reviewed": "已复核"
+    },
+    "lead": "审查记录的事件并为每位参与者做出决定。所有决定均不会自动执行。",
+    "loading": "正在加载…",
+    "noEvents": "未记录到可疑事件。",
+    "notePlaceholder": "复核备注（可选）…",
+    "notice": {
+      "failedTitle": "保存失败",
+      "savedMsg": "复核决定已保存",
+      "savedTitle": "已保存"
+    },
+    "refreshCta": "刷新",
+    "reviewedAt": "最后复核：{date}",
+    "row": {
+      "close": "关闭详情",
+      "flags": "{n} 个标记",
+      "identity": "身份：{value}",
+      "openEvents": "查看事件 ({n})",
+      "status": "状态：{value}"
+    },
+    "status": {
+      "expired": "时间已到",
+      "running": "正在进行",
+      "submitted": "已提交"
+    },
+    "title": "监考：{title}"
+  },
+  "projectStatus": {
+    "active": {
+      "label": "活跃",
+      "meaning": "项目正在进行中。"
+    },
+    "closed": {
+      "label": "已关闭",
+      "meaning": "项目已结束。"
+    },
+    "draft": {
+      "label": "草稿",
+      "meaning": "准备中；尚未开始执行。"
+    }
+  },
+  "qfields": {
+    "choice": {
+      "addOption": "添加选项",
+      "correctAria": "第 {n} 个选项正确",
+      "feedbackHide": "隐藏选项反馈",
+      "feedbackNote": "每个选项的反馈将在学生答题后（查看成绩时）显示——在答题前绝不会发送。",
+      "feedbackPlaceholder": "选项 {n} 的反馈（可选 — 将在查看结果时显示）",
+      "feedbackShow": "每项反馈（可选）",
+      "labelMulti": "选项（请勾选所有正确答案）",
+      "labelSingle": "选项（请勾选正确答案）",
+      "optionPlaceholder": "选项 {n}"
+    },
+    "code": {
+      "addTest": "添加测试用例",
+      "expectedLabel": "期望输出",
+      "hiddenLabel": "隐藏",
+      "judgeLangNote": "自动评判仅支持 python、javascript、c 和 cpp 语言。",
+      "judgeNote": "学生的代码会针对每个“测试用例”进行运行；如果程序输出与“预期输出”一致，则授予该测试用例的分数。“隐藏”测试用例不会向学生显示。",
+      "judgeToggle": "自动评测 (Online Judge)",
+      "languageLabel": "语言",
+      "memLimitLabel": "内存限制（MB）",
+      "pointsLabel": "积分",
+      "refLabel": "参考解答（可选）",
+      "refPlaceholder": "# 评分参考答案...",
+      "removeTestAria": "删除测试项目 {n}",
+      "stdinLabel": "标准输入 (stdin)",
+      "testTitle": "测试用例 {n}",
+      "timeLimitLabel": "时间限制（毫秒）"
+    },
+    "dragDrop": {
+      "addItem": "添加项目",
+      "addTarget": "添加目标",
+      "itemPlaceholder": "项目 {n}",
+      "itemsLabel": "项目",
+      "keyLabel": "键 —— 每个项目对应哪个目标？",
+      "note": "每个“项目”必须指定到一个“目标”。学生可以通过拖放操作或从列表中选择（支持无障碍访问）。",
+      "targetPlaceholder": "目标 {n}",
+      "targetsLabel": "目标"
+    },
+    "fillBlank": {
+      "answerPlaceholder": "填空答案 {n}",
+      "none": "题目文本中尚无填空（___）。",
+      "note": "在“题干”中使用三个下划线 <b>___</b> 标出每个填空，然后按顺序输入每个填空的答案。",
+      "rowLabel": "填空 {n}"
+    },
+    "formula": {
+      "refLabel": "参考答案（可选）",
+      "refPlaceholder": "例如：a^2 + b^2 = c^2"
+    },
+    "hotspot": {
+      "addRegion": "添加区域",
+      "axis": {
+        "h": "高度 %",
+        "w": "宽度 %",
+        "x": "水平 %",
+        "y": "垂直 %"
+      },
+      "changeImage": "更改图片",
+      "correctAria": "区域 {n} 正确",
+      "emptyNote": "请上传一张图片，然后定义可点击区域并标记正确区域。",
+      "labelPlaceholder": "区域标签 {n}",
+      "regionDefaultLabel": "区域 {n}",
+      "removeRegion": "删除区域",
+      "tooLargeMsg": "最大 {mb} MB",
+      "tooLargeTitle": "图片过大",
+      "uploadImage": "上传图片"
+    },
+    "list": {
+      "removeRow": "删除"
+    },
+    "manual": {
+      "essay": "学生撰写论述题答案；进行人工评分（或使用 AI 初稿辅助）。",
+      "fileUpload": "学生上传文件作为答案；进行人工评分。",
+      "formula": "学生输入数学表达式；进行人工评分。如有需要，可输入参考答案以便批改。"
+    },
+    "matching": {
+      "add": "添加",
+      "itemPlaceholder": "项目 {n}",
+      "keyLabel": "匹配键 —— 为右侧的每个项目选择正确的匹配项",
+      "leftLabel": "右列（项目）",
+      "matchPlaceholder": "匹配项 {n}",
+      "rightLabel": "左列（匹配项）"
+    },
+    "numeric": {
+      "toleranceLabel": "允许误差 (±)",
+      "valueLabel": "数值答案",
+      "valuePlaceholder": "例如 3.14"
+    },
+    "ordering": {
+      "add": "添加项目",
+      "itemPlaceholder": "项目 {n}（位置 {n}）",
+      "label": "请按正确顺序输入项目（向学员展示时将会打乱顺序）"
+    },
+    "shortAnswer": {
+      "add": "添加备选答案",
+      "label": "可接受的答案（任一答案均视为正确 — 不区分大小写）",
+      "placeholder": "正确答案…"
+    },
+    "trueFalse": {
+      "false": "错误",
+      "label": "正确答案",
+      "true": "正确"
+    }
+  },
+  "qkind": {
+    "code": {
+      "hint": "代码 — 手工批改（稍后进行自动评判）",
+      "label": "代码/程序"
+    },
+    "drag_drop": {
+      "hint": "将项目分配至目标（支持点击替代）",
+      "label": "拖放"
+    },
+    "essay": {
+      "hint": "长篇回答 — 手工批改",
+      "label": "论述题"
+    },
+    "file_upload": {
+      "hint": "上传答案文件 — 手工批改",
+      "label": "文件上传"
+    },
+    "fill_blank": {
+      "hint": "带 ___ 的文本；每个空一个答案",
+      "label": "填空"
+    },
+    "formula": {
+      "hint": "数学表达式 — 手工批改",
+      "label": "公式/数学"
+    },
+    "hotspot": {
+      "hint": "点击图片的正确区域",
+      "label": "热点"
+    },
+    "matching": {
+      "hint": "连接两列的项目",
+      "label": "匹配题"
+    },
+    "multi_select": {
+      "hint": "多个正确选项（复选框）",
+      "label": "多选"
+    },
+    "multiple_choice": {
+      "hint": "从选项中选择一个或多个正确答案",
+      "label": "选择题"
+    },
+    "numeric": {
+      "hint": "带允许误差的数字（自动批改）",
+      "label": "数值"
+    },
+    "ordering": {
+      "hint": "按正确顺序排列项目",
+      "label": "排序题"
+    },
+    "short_answer": {
+      "hint": "一个词/短语；精确匹配（自动批改）",
+      "label": "简答题"
+    },
+    "true_false": {
+      "hint": "两个选项：正确或错误",
+      "label": "判断题"
+    }
+  },
+  "qvalid": {
+    "dragDropKey": "请为每个项目选择正确的目标。",
+    "dragDropMin": "至少需要一个项目和一个目标。",
+    "fillBlankAll": "请为所有空白处输入答案。",
+    "fillBlankMin": "请在题目文本中用 ___（三个下划线）至少设置一个空白处。",
+    "hotspotCorrect": "请标记正确的区域。",
+    "hotspotImage": "请上传一张图片。",
+    "hotspotRegion": "请在图片上定义至少一个区域。",
+    "judgeLanguage": "对于自动评判，语言必须是 python/javascript/c/cpp 之一。",
+    "judgeMaxPoints": "每个测试用例的最高积分为 {n}。",
+    "judgeMaxTests": "最多允许 {n} 个测试用例。",
+    "judgePointsMin": "每个测试用例的积分必须至少为 1。",
+    "judgeTestsMin": "自动评判至少需要一个带有“期望输出”的测试用例。",
+    "matchingColumns": "每列至少需要两个项目。",
+    "matchingKey": "请为每个项目从列表中选择正确的匹配项。",
+    "multiSelectCorrect": "请勾选至少一个正确选项。",
+    "numericTolerance": "公差必须是非负数。",
+    "numericValue": "请输入有效的数字答案。",
+    "optionsMin": "至少需要两个选项。",
+    "orderingMin": "排序至少需要两个项目。",
+    "pointsMin": "分数必须至少为 1。",
+    "promptMin": "题目提示必须至少有 2 个字符。",
+    "shortAnswerMin": "请输入至少一个可接受的答案。",
+    "singleCorrect": "请选择正确的选项。"
+  },
+  "rating": {
+    "badgeDraft": "草稿",
+    "badgeSubmitted": "已提交",
+    "cancel": "取消",
+    "correctCta": "修正分数",
+    "correctedLevelLabel": "修正后的等级",
+    "correctionReasonHint": "必填 — 原因将永久记录在事件日志中。",
+    "correctionReasonLabel": "修正原因",
+    "correctionReasonRequired": "修正原因为必填项。",
+    "correctionSubmit": "提交修正",
+    "eyebrow": "评估中心 · 证据与评分记录",
+    "justificationHint": "必填 — 请说明哪些行为证明了该等级的合理性。",
+    "justificationLabel": "评分依据",
+    "justificationRequired": "评分依据为必填项。",
+    "loading": "正在加载…",
+    "saveDraft": "保存草稿",
+    "submitFinal": "最终提交",
+    "submitFinalWarning": "“最终提交”是不可逆的；此后只有记录原因才能修改等级。"
+  },
+  "report": {
+    "analytics": {
+      "aggregateEmpty": "尚无用于显示综合报告的聚合数据。ан",
+      "aggregateTitle": "项目综合报告",
+      "assessorColumn": "评估员",
+      "audienceInternal": "内部（评估经理）",
+      "audienceSupervisory": "监督（雇主）",
+      "calibrationBiasColumn": "偏差",
+      "calibrationEmpty": "尚无评估员录入评分。",
+      "calibrationNColumn": "评分数量",
+      "calibrationPrecisionColumn": "精度",
+      "calibrationTitle": "评估员校准（整体↔机械）",
+      "calibrationUnavailable": "数据不足，无法评估校准（至少需要 {minN, number} 个评分）。",
+      "candidateColumn": "候选人",
+      "competencyColumn": "胜任力",
+      "exerciseColumn": "练习",
+      "iccEmpty": "尚无任何“练习×胜任力”组合拥有已录入的评分。",
+      "iccMethodNote": "方法：ICC(1,1) — 单向随机效应，绝对一致性，单评估员。",
+      "iccTitle": "评估员间信度 (ICC)",
+      "iccUnavailable": "数据不足，无法评估信度（至少需要 {minN, number} 名候选人）。",
+      "meanColumn": "平均水平",
+      "myCalibrationBody": "此卡片仅显示您自己的数据 — 不包含候选人行，也不与其他评估员进行比较。",
+      "myCalibrationTitle": "我的校准",
+      "nColumn": "候选人数",
+      "rankColumn": "排名",
+      "rankingEmpty": "尚无候选人获得综合评分。",
+      "rankingOnlyManager": "此表格仅供评估经理使用，绝不会出现在候选人报告或雇主综合版本中。",
+      "rankingTitle": "候选人排名",
+      "scoreColumn": "加权排名分",
+      "suppressedNote": "为保护隐私，不显示样本量低于规定阈值的行。",
+      "tieNote": "若得分相同，则按候选人姓名排序。"
+    },
+    "badge": {
+      "coverage": {
+        "no": "{percent, number}% 的题项拥有有效答案键。"
+      },
+      "provisionalDefinition": "此胜任力定义为草案，将在收到正式手册后最终确定。",
+      "provisionalKey": "测试部分的解释基于初版答案键，将在收到正式答案键后进行复查。",
+      "sourceCount": {
+        "no": "此水平是根据会议的定性总结记录的。",
+        "yes": "此水平由 {n, number} 次独立观察得出。"
+      }
+    },
+    "batch": {
+      "cta": "批量发布",
+      "failedReasonLabel": "失败原因",
+      "heading": "从复盘会议批量发布",
+      "lockedCount": {
+        "no": "本次会议中没有可发布的锁定候选人。",
+        "yes": "本次会议有 {n, number} 名锁定的候选人准备发布。"
+      },
+      "resultHeading": "最近一次批量发布的结果",
+      "sessionSelectLabel": "复盘会话"
+    },
+    "confirm": {
+      "publish": {
+        "body": "“{candidateName}”的报告将予发布，此后他本人以及评估管理员均可查看。内容将在此时冻结；后续对叙述的编辑仅会影响下一次明确发布。",
+        "confirmLabel": "发布报告",
+        "title": "发布评估报告"
+      },
+      "publishBatch": {
+        "body": "将发布该会话中准备就绪的 {count, number} 名候选人的报告。任何不满足前置条件的候选人都将被跳过且不影响其他人，并将在结果中列出。",
+        "confirmLabel": "全部发布",
+        "title": "批量发布报告"
+      },
+      "revoke": {
+        "body": "将撤销“{candidateName}”已发布的报告；他将无法再看到此版本。此操作不可逆——若要再次显示，必须发布新版本。",
+        "confirmLabel": "撤销发布",
+        "title": "撤销报告发布"
+      }
+    },
+    "empty": {
+      "noCandidateSelected": {
+        "body": "此处将显示所选候选人的预览、叙述、发布状态和版本历史记录。",
+        "title": "从列表中选择一名候选人"
+      },
+      "noNarrativeYet": "尚未为该胜任力编写叙述。",
+      "noPublicationsManager": {
+        "body": "在完成叙述（可选）并预览后，发布报告。",
+        "title": "尚未发布任何版本"
+      },
+      "noReportCandidate": {
+        "body": "评估报告将在流程结束后并经评估中心管理员批准后发布。",
+        "title": "尚未为您发布报告"
+      },
+      "noWashupSessions": {
+        "body": "批量发布基于某个复盘会话中已锁定的候选人；请先从“复盘”标签页创建一个会话。",
+        "title": "本项目暂无复盘会话"
+      },
+      "pickCandidacy": {
+        "body": "请从下列档案中选择一个以查看相应的报告。",
+        "title": "您拥有多个评估档案"
+      }
+    },
+    "history": {
+      "empty": "尚未发布任何版本。",
+      "releasedAtColumn": "发布日期",
+      "releasedByColumn": "发布人",
+      "revokedByLine": "由 {name} 于 {dateFa} 撤销",
+      "revokedReasonLabel": "撤销原因",
+      "statusActive": "有效",
+      "statusColumn": "状态",
+      "statusRevoked": "已撤销",
+      "title": "已发布版本历史记录",
+      "versionColumn": "版本",
+      "viewCta": "查看此版本"
+    },
+    "label": {
+      "backToLatestCta": "返回当前版本",
+      "candidacySelectorLabel": "评估项目/周期",
+      "candidateReportTitle": "“{name}”的评估报告",
+      "candidatesHeading": "候选人",
+      "consentLine": "版本 {version} 的同意书 — {dateFa}",
+      "definitionHeading": "胜任力定义",
+      "disclaimerHeading": "重要说明",
+      "indicatorsHeading": "行为指标",
+      "levelLabel": "级别",
+      "loading": "正在加载…",
+      "multipleReportsHeading": "您的评估档案",
+      "myReportPageLead": "您已发布的评估报告 — 内容在发布时由评估中心管理员冻结。",
+      "myReportPageTitle": "我的评估报告",
+      "narrativeEditHeading": "编辑结果说明",
+      "narrativeEmpty": "该能力尚未记录文字说明。",
+      "narrativeHeading": "结果说明",
+      "narrativeSaveCta": "保存说明",
+      "pageEyebrow": "评估中心",
+      "previewBadge": "预览 — 尚未发布",
+      "printCta": "打印 / 保存 PDF",
+      "publishCta": "发布报告",
+      "publishedByLine": "由 {name} 于 {dateFa} 发布",
+      "radarAriaTitle": "{count, number} 个评估能力得分",
+      "revokeCta": "撤销发布",
+      "revokeReasonPlaceholder": "请写出撤销发布的原因 — 将记录在历史记录中。",
+      "revokedCandidacyFallbackTitle": "已撤销的评估档案",
+      "scaleMaxSuffix": "总分 {max, number}",
+      "viewFullReportCta": "查看完整内部报告 (پ۲)",
+      "viewingVersionBanner": "正在查看版本 {version, number} — 此版本不曵当前版本。",
+      "weightSuffix": "权重 {permille, number}‰"
+    },
+    "manager": {
+      "activePublicationLine": "当前已发布版本：{version, number} — {dateFa}",
+      "backCta": "返回报告标签页",
+      "candidateFallbackName": "匿名候选人",
+      "candidateNarrativeEmpty": "尚未记录说明。",
+      "candidateNarrativeHeading": "为候选人记录的结果说明",
+      "consensusLevelLabel": "共识级别",
+      "discrepancyLabel": "差异",
+      "discrepancyNo": "无",
+      "discrepancyYes": "有",
+      "discussionNoteEmpty": "尚未记录备注。",
+      "discussionNoteHeading": "会议讨论备注",
+      "fullReportTitle": "“{name}”内部报告",
+      "lockedAtLabel": "锁定时间",
+      "mechanicalMeanLabel": "机械平均值",
+      "mechanicalMedianLabel": "机械中位数",
+      "neverShownBanner": "此报告永远不会展示给候选人或用人单位 — 仅供评估管理员使用。",
+      "noActivePublication": "尚未为该候选人发布任何版本。",
+      "noCompetencies": {
+        "body": "该候选人尚未有已完成的复盘（Wash-up）会议，从中提取共识得分。",
+        "title": "尚无汇总数据记录"
+      },
+      "notLockedYet": "尚未锁定。",
+      "pendingCorrectionBadge": "此行已记录待处理的修正。"
+    },
+    "notice": {
+      "batchReleased": {
+        "no": "已发布 {released, number} 份报告；{failed, number} 份失败。",
+        "yes": "已发布 {released, number} 份报告。"
+      },
+      "narrativeAppliesNextVersion": "此说明不会影响当前已发布的版本，仅在下一次显式发布时生效。",
+      "narrativeSaved": "说明已保存。",
+      "published": "报告已发布。",
+      "revoked": "发布已取消；该候选人将不再看到报告。"
+    }
+  },
+  "result": {
+    "backToHistory": "返回结果历史记录",
+    "coverageLine": "分数根据 {scored, number}/{total, number}{unit} 计算得出。",
+    "eyebrow": "能力评估 · 结果",
+    "genericError": "发生错误",
+    "myHistoryCta": "我的结果历史记录",
+    "notFound": "未找到。",
+    "pageTitle": "评估结果",
+    "pendingHeading": "您的回答已记录",
+    "pendingMessage": "您的回答已妥善保存。此工具的评分标准尚不可用；一旦添加，系统将在此处显示对这些回答的分析。",
+    "privacyNote": "此结果仅您自己可见。",
+    "resultHeading": "您的结果",
+    "scoreOfMax": "{value, number} / {max, number}",
+    "scoreOnly": "{value, number}",
+    "selfKnowledgeNote": "此结果仅用于自我认知，而非评判。",
+    "subscaleAria": "{label}: {score}",
+    "subscalesHeading": "子量表轮廓",
+    "tempKeyBadge": "使用版本 1 临时密钥计算（AI 提取）——提交正式密钥后将更新"
+  },
+  "results": {
+    "empty": "您尚未进行任何评估。",
+    "eyebrow": "能力评估 · 历史记录",
+    "helpBody": "每一行代表一条评估结果。点击即可查看详情。",
+    "helpTitle": "结果历史记录指南",
+    "newAssessCta": "新的评估",
+    "pageLead": "您的能力评估历史记录。这些结果仅您自己可见。",
+    "pageTitle": "我的评估结果",
+    "startCta": "开始评估",
+    "totalKpi": "结果总数",
+    "viewResultCta": "查看结果"
+  },
+  "role": {
+    "0": {
+      "does": "创建项目、邀请候选人、定义练习与能力、分配评估员并推进候选人的评估流程。",
+      "label": "评估中心经理（或管理员）"
+    },
+    "1": {
+      "does": "仅查看分配给自己的任务；记录观察结果并打分。无法查看其他评估员的分数。",
+      "label": "评估员"
+    },
+    "2": {
+      "does": "接受知情同意书，并在“我的测评行程”中跟踪自己的测评行程。",
+      "label": "候选人"
+    }
+  },
+  "roster": {
+    "assessorLine": "评估人：{assessor} · {role}",
+    "assessorOther": "其他评估人",
+    "assessorSelf": "您",
+    "assignmentsHeading": "分配",
+    "candidateFallback": "候选人",
+    "candidateFallbackRow": "候选人",
+    "candidateHint": "仅限分配给您参与本次练习的候选人。",
+    "candidateLabel": "候选人",
+    "candidatePlaceholder": "— 请选择候选人 —",
+    "candidateStatusSuffix": " · 候选人状态：{status}",
+    "competenciesHeading": "本次练习评估的能力：",
+    "competencyHint": "如果指定，此证据将被归入相应能力。",
+    "competencyLabel": "能力（可选）",
+    "competencyPlaceholder": "— 无标签 —",
+    "durationSuffix": " · 时长：{minutes, number} 分钟",
+    "evidenceSaved": "证据已保存。请前往该候选人的评分页以为各项能力打分。",
+    "evidenceSubmit": "提交证据",
+    "evidenceTextHint": "请客观记录您观察到的事实而非主观判断 — 例如：“在第 10 分钟总结了同事的建议”。",
+    "evidenceTextLabel": "证据文本",
+    "eyebrow": "评估中心 · 分配列表",
+    "loading": "正在加载…",
+    "noAssignmentBody": "只有评估中心管理员分配给您的候选人才可记录证据。",
+    "noAssignmentTitle": "本次练习中没有分配给您的任务",
+    "quickEvidenceHeading": "快速记录证据",
+    "quickEvidenceHint": "证据是指对您所观察到行为的客观记录；它是评分的依据，您可以记录任意数量的证据。",
+    "rateCta": "提交证据与评分",
+    "scheduledAtSuffix": " · 时间：{at}"
+  },
+  "rubric": {
+    "action": {
+      "add": "添加评分标准",
+      "back": "返回",
+      "cancel": "取消",
+      "close": "关闭",
+      "edit": "编辑",
+      "remove": "删除",
+      "removeAria": "删除 {title}",
+      "save": "保存评分标准"
+    },
+    "card": {
+      "criteriaCount": "{n} 个标准",
+      "updated": "更新时间：{date}",
+      "weightSum": "权重总计 {n}%"
+    },
+    "criterion": {
+      "add": "添加评分标准",
+      "percent": "％",
+      "removeAria": "删除评分标准",
+      "removeTitle": "删除此评分标准",
+      "titlePlaceholder": "标准标题",
+      "weight": "权重",
+      "weightAria": "标准权重"
+    },
+    "dialog": {
+      "editTitle": "编辑评分量表",
+      "newTitle": "新建评分量表"
+    },
+    "empty": {
+      "cta": "创建第一个评分量表",
+      "noMatch": "未找到与该词匹配的评分量表。",
+      "none": "尚未创建评分量表。"
+    },
+    "err": {
+      "criterionRequired": "请完善所有评分标准的标题。",
+      "load": "加载评分量表失败",
+      "noCriteria": "至少需要一个评分标准。",
+      "remove": "删除评分量表失败",
+      "save": "保存评分量表失败",
+      "titleShort": "评分量表标题至少需要 2 个字符。"
+    },
+    "form": {
+      "title": "评分量表标题",
+      "titlePlaceholder": "例如：期末项目评分量表"
+    },
+    "head": {
+      "eyebrow": "教师工具 · 评估",
+      "lead": "创建和管理评分量表；每个评分量表都包含带有特定权重的一组标准以及多个表现级别（带描述和分值）。",
+      "title": "评分量表生成器"
+    },
+    "help": {
+      "body": "您可以在此页面上创建和管理评分量表；每个评分量表都包含多个带有特定权重的标准以及多个表现级别。要创建新的评分量表，请点击“新建评分量表”，并在弹出窗口中定义标准和级别。所有标准的权重总和必须为 100%。",
+      "title": "评分量表指南"
+    },
+    "kpi": {
+      "balanced": "权重均衡",
+      "count": "评分量表数量",
+      "criteria": "标准总数"
+    },
+    "level": {
+      "add": "添加级别",
+      "default": {
+        "excellent": "优秀",
+        "fair": "中等",
+        "good": "良好",
+        "poor": "较差"
+      },
+      "descriptorAria": "级别描述",
+      "descriptorPlaceholder": "“{label}”描述...",
+      "minOne": "至少需要一个级别",
+      "newLabel": "新级别",
+      "points": "分值",
+      "pointsAria": "级别分值",
+      "removeAria": "删除级别",
+      "removeTitle": "删除此级别",
+      "thisLevel": "此级别",
+      "titlePlaceholder": "级别标题"
+    },
+    "remove": {
+      "confirmBtn": "是的，删除",
+      "confirmLead": "确定要删除此评分规标",
+      "confirmSuffix": "吗？此操作不可撤销。",
+      "title": "删除评分规标"
+    },
+    "search": {
+      "label": "搜索评分规标",
+      "placeholder": "搜索…"
+    },
+    "state": {
+      "loading": "正在加载…"
+    },
+    "weight": {
+      "check": "标准权重总和：{n}% / 100%"
+    }
+  },
+  "rubricValid": {
+    "allRequired": "所有标准均需评分。",
+    "finite": "每个标准的评分必须是有效的数字。",
+    "nonNegative": "评分不能为负数。",
+    "overMax": "每个标准的评分不得超过其上限。"
+  },
+  "run": {
+    "answerAllHint": "请回答全部 {total, number} 个问题以查看结果（还剩 {remaining, number} 个问题）。",
+    "answeredOf": "已回答 {answered, number}/{total, number} 个问题",
+    "autosaveNote": "你的答案会自动保存，你可以随时继续。",
+    "backToAssess": "返回能力评估",
+    "educationalNote": "此版本仅供教学使用。",
+    "genericError": "发生错误，请重试。",
+    "noQuestions": "此工具暂无可用问题。",
+    "progressAria": "评估完成进度",
+    "progressPct": "{pct, number}%",
+    "questionCount": "{count, number} 个问题",
+    "questionOfTotal": "{index, number}/{total, number}",
+    "resumeNote": "你已返回未完成的评估。如果答案再次显示为空，只需重新选择即可——内容不会丢失。",
+    "saveFailed": "保存失败——请重新选择以重试。",
+    "saved": "已保存",
+    "saving": "正在保存…",
+    "seeResultCta": "查看结果",
+    "startCta": "开始评估",
+    "starting": "正在准备…",
+    "submitting": "正在提交…",
+    "toolFallbackName": "评估工具",
+    "toolUnavailable": "此工具不可用。"
+  },
+  "setup": {
+    "activate": {
+      "cta": "激活项目",
+      "lockedBecause": "你必须先创建一个项目，或从上方选择器中进行选择。",
+      "title": "6) 激活项目",
+      "what": "将项目从“草稿”状态更改为“激活”。",
+      "why": "激添意味着准备工作已绕成并开始执行。在保持草稿状态时，所有内容都保持在准备状态。"
+    },
+    "assignments": {
+      "cta": "分配评估员",
+      "lockedBecause": "您首先需要在此项目中至少拯字一名候选人和一份练习。",
+      "title": "5）将评估员分配给候选人 × 练习",
+      "what": "为每份练习指定哪位评估员负责观察哪位候选人。",
+      "why": "评估员只能看到自己的分配；如果没有分配，其评估员控制台将会是空的，并且无法提交评分。"
+    },
+    "candidates": {
+      "cta": "添加候选人",
+      "lockedBecause": "您首先需要创建一个项目，或从上方的选择器中进行选择。",
+      "title": "3）邀请候选人",
+      "what": "通过搜索姓名来选择需要进行评估的人员。",
+      "why": "每位候选人都会以“已邀请”状态开始，并为其开启“我的评估之旅”页面。"
+    },
+    "consent": {
+      "cta": "转到知情同意书文本",
+      "title": "1）启用知情同意书文本",
+      "what": "编写一份知情同意书文本并将其设为“已启用”。",
+      "why": "在没有启用文本的情况下，任何候选人都无法表示同意，整个流程会在第一步就停止。仅仅创建文本是不够的，启用是一个独立且有意识的操作。"
+    },
+    "exercises": {
+      "cta": "添加练习",
+      "lockedBecause": "您首先需要创建一个项目，或从上方的选择器中进行选择。",
+      "title": "4）定义练习及其能力项",
+      "what": "练习 = 一项评估活动（面试、小组讨论、演讲...）。为每份练习指定其所评估的能力项。",
+      "why": "评分只能针对该练习的能力项进行；没有能力项的练习在评估员界面中将是空的。"
+    },
+    "project": {
+      "cta": "创建新项目",
+      "title": "2）创建评估项目",
+      "what": "项目 = 针对一群人的一轮评估中心周期（例如“中层管理者评估中心 — 秋季”）。",
+      "why": "候选人、练习和分配都属于同一个项目；如果没有项目，将无处添加它们。"
+    }
+  },
+  "status": {
+    "CONSENTED": {
+      "action": "记录同意",
+      "label": "已同意",
+      "meaning": "候选人已接受知情同意书。"
+    },
+    "COURSES_RECOMMENDED": {
+      "action": "推荐课程",
+      "label": "已推荐课程",
+      "meaning": "已确定推荐课程。"
+    },
+    "FEEDBACK_DONE": {
+      "action": "记录反馈",
+      "label": "已提供反馈",
+      "meaning": "已举办反馈会议。"
+    },
+    "GAME_DONE": {
+      "action": "记录仿真已完成",
+      "label": "仿真已完成",
+      "meaning": "候选人已完成仿真/角色扮演练习。"
+    },
+    "GROUP_DONE": {
+      "action": "记录小组讨论已完成",
+      "label": "小组讨论已完成",
+      "meaning": "候选人已参与小组讨论练习。"
+    },
+    "IDP_CREATED": {
+      "action": "记录发展计划",
+      "label": "个人发展计划已就绪",
+      "meaning": "个人发展计划已编写完成。"
+    },
+    "INTERVIEWED": {
+      "action": "记录面试完成",
+      "label": "已面试",
+      "meaning": "候选人面试已举行。"
+    },
+    "INVITED": {
+      "action": "邀请",
+      "label": "已邀请",
+      "meaning": "候选人已加入项目，正等待接受知情同意书。"
+    },
+    "LEVEL_PUSHED": {
+      "action": "应用级别",
+      "label": "级别已应用",
+      "meaning": "新级别已在系统中应用。"
+    },
+    "REASSESSED": {
+      "action": "记录重新评估",
+      "label": "已重新评估",
+      "meaning": "候选人已再次接受评估。"
+    },
+    "RESULTS_RELEASED": {
+      "action": "发布结果",
+      "label": "结果已发布",
+      "meaning": "结果已向候选人公布。"
+    },
+    "SCHEDULED": {
+      "action": "已排期",
+      "label": "已排期",
+      "meaning": "候选人参与练习的时间已确定。"
+    },
+    "TECH_READY": {
+      "action": "确认技术就绪",
+      "label": "技术就绪已确认",
+      "meaning": "候选人的访问权限、网络和工具已检查并确认。"
+    },
+    "TESTED": {
+      "action": "记录测试完成",
+      "label": "测试已完成",
+      "meaning": "候选人已完成工具测试。"
+    },
+    "WASHUP_LOCKED": {
+      "action": "锁定总结",
+      "label": "总结已锁定",
+      "meaning": "评估员总结会议已举行且结果已锁定；此后无法更改分数。"
+    },
+    "WITHDRAWN": {
+      "action": "记录退出",
+      "label": "已退出",
+      "meaning": "候选人已退出流程。此状态无法撤销。"
+    }
+  },
+  "tab": {
+    "analytics": {
+      "hint": "汇总报告、评卷人间信度、校准与排名。",
+      "label": "分析"
+    },
+    "assignments": {
+      "hint": "哪位评估员在哪个练习中负责哪位候选人。",
+      "label": "分派"
+    },
+    "candidates": {
+      "hint": "邀请、推进旅程以及撤回错误邀请。",
+      "label": "候选人"
+    },
+    "exercises": {
+      "hint": "定义、编辑、胜任力与停用练习。",
+      "label": "练习"
+    },
+    "overview": {
+      "hint": "设置清单、项目详情和覆盖范围报告。",
+      "label": "概览"
+    },
+    "reports": {
+      "hint": "预览、叙述、发布候选人报告和版本历史记录。",
+      "label": "报告与发布"
+    },
+    "settings": {
+      "hint": "同意书文本 — 组织级别，所有项目通用。",
+      "label": "设置"
+    },
+    "washup": {
+      "hint": "评估员总结会议，以达成协商一致的最终分数。",
+      "label": "复盘会议"
+    }
+  },
+  "tool": {
+    "allResultsCta": "所有结果",
+    "analysisSoon": "分析即将推出",
+    "arUnavailable": "此工具暂不支持阿拉伯语；对标准化工具进行机器翻译会使结果失效。",
+    "category": {
+      "aptitude": "能力",
+      "career": "职业",
+      "cognitive": "认知能力",
+      "communication": "沟通",
+      "creativity": "创造力",
+      "digital_literacy": "数字素养",
+      "emotional": "情商",
+      "general": "通用",
+      "job_satisfaction": "工作满意度",
+      "language": "语言",
+      "leadership": "领导力",
+      "management": "管理",
+      "personality": "个性",
+      "problem_solving": "解决问题",
+      "soft_skill": "软技能",
+      "soft_skills": "软技能",
+      "teamwork": "团队合作",
+      "technical": "技术技能"
+    },
+    "categoryTitle": "工具分类",
+    "copyright": {
+      "free": "免费且公开可用",
+      "licensed": "自由/替代版本 — 有版权来源"
+    },
+    "copyrightTitle": "版权状态 / 来源",
+    "emptyTools": "尚无可用工具。即将推出。",
+    "eyebrow": "胜任力评估",
+    "genericError": "发生错误",
+    "helpBody": "每个卡片都是一个评估工具。点击即可开始；每个回答都会自动保存，您可以稍后继续。每个评估的结果仅您可见。",
+    "helpTitle": "胜任力评估指南",
+    "historyCta": "结果历史记录",
+    "kpiAvailable": "可用工具",
+    "kpiDone": "已完成评估",
+    "loading": "正在加载…",
+    "minutesAbout": "大约 {minutes, number} 分钟",
+    "minutesFew": "几分钟",
+    "pageLead": "一系列评估工具，用于了解你的优势与技能。每个评估的结果仅对你自己可见。",
+    "pageTitle": "能力评估工具",
+    "pendingKeyNote": "评分标准暂不可用 — 你的答案已被保存",
+    "provisionalKeyBadge": "临时标准",
+    "provisionalKeyNote": "成绩将根据第 1 版临时标准计算；在注册正式标准后将进行更新",
+    "recentHeading": "近期结果",
+    "resultFallbackName": "评估",
+    "resultFallbackTool": "评估工具",
+    "startAria": "开始 {name}",
+    "startCta": "开始评估",
+    "toolCount": "{count, number} 个工具",
+    "viewCta": "查看",
+    "viewResultAria": "查看 {name} 的结果"
+  },
+  "washup": {
+    "agendaStatus": {
+      "deferred": {
+        "label": "已延期"
+      },
+      "locked": {
+        "label": "已锁定"
+      },
+      "pending": {
+        "label": "待处理"
+      }
+    },
+    "cell": {
+      "decisionLabel": "集体决议",
+      "discrepancy": "差异：原始分差 ≥ 2 分。",
+      "historyTitle": "此单元格的更改历史",
+      "lockedValue": "锁定值",
+      "noDefaultHint": "未预选任何级别 — 请自行确定级别。",
+      "noSourceRatings": "此候选人 × 该能力暂无记录的原始分 — 无计算建议。",
+      "noteHint10": "讨论备注（至少 10 个字符）。",
+      "noteHint30": "讨论备注（至少 30 个字符） — 此单元格存在差异或尚未记录原始分；需要更多说明。",
+      "pendingCorrectionBadge": "等待第二次批准的修改",
+      "rawScoresTitle": "记录的原始分",
+      "requestCorrection": "申请修改",
+      "suggestionLine": "中位数 {median, number} · 平均值 {mean, number} · 范围 {min, number}..{max, number} — {decision}"
+    },
+    "confirm": {
+      "cancelCorrection": {
+        "body": "待处理的修改申请将被放弃；当前的锁定分保持不变。",
+        "confirmLabel": "取消修改",
+        "title": "取消修改申请"
+      },
+      "cancelSession": {
+        "body": "会话“{title}”将被取消，且无法再次打开或继续。此操作不可撤销。",
+        "confirmLabel": "取消会话",
+        "title": "取消评审会话"
+      },
+      "confirmCorrection": {
+        "body": "确认后，将最终确定并应用“{candidateName}”在“{competencyName}”能力上的建议修改。此操作不可撤销。",
+        "confirmLabel": "确认修改",
+        "title": "确认成绩修正"
+      },
+      "lockFirst": {
+        "body": "确认后，“{title}”会议将进入最终锁定阶段，并等待其他人进行“第二次确认”。在此之后，如果议程或成绩发生变更，该确认将失效并需要重新提交。",
+        "confirmLabel": "第一次确认",
+        "confirmWord": "锁定",
+        "title": "会议锁定第一次确认"
+      },
+      "lockSecond": {
+        "body": "确认后，“{title}”会议将被锁定。锁定后，共识成绩只能通过“修正申请”并在另一人的确认下进行更改。此操作不可逆。",
+        "confirmLabel": "第二次确认",
+        "confirmWord": "锁定",
+        "title": "会议锁定第二次确认 — 最终"
+      },
+      "openSession": {
+        "body": "“{title}”会议已开启；此后参与者将看到评估员的原始成绩，并且可以记录共识。",
+        "confirmLabel": "开启会议",
+        "title": "开启会议"
+      },
+      "removeParticipant": {
+        "body": "将从本会议的参与者列表中移除“{name}”。",
+        "confirmLabel": "移除参与者",
+        "title": "移除参与者"
+      },
+      "requestCorrection": {
+        "body": "建议将“{candidateName}”在“{competencyName}”胜任力中的共识成绩更改为 {newLevel} 级。该更改在获得其他人确认之前不会生效。",
+        "confirmLabel": "提交修正申请",
+        "title": "申请修正已锁定的成绩"
+      }
+    },
+    "decisionBasis": {
+      "hintOptional": "可选 — 如果指定决策依据，将显示在组织报告中。",
+      "hintRequired": "由于此单元存在分歧，至少必须提供一项决策依据。",
+      "label": "决策依据"
+    },
+    "decisionBasisOption": {
+      "0": {
+        "label": "行为证据"
+      },
+      "1": {
+        "label": "与行为指标对比"
+      },
+      "2": {
+        "label": "解释存在分歧"
+      },
+      "3": {
+        "label": "观察误差"
+      },
+      "4": {
+        "label": "补充信息"
+      }
+    },
+    "empty": {
+      "noAgenda": {
+        "body": "已完成工具测试、面试、小组讨论或模拟的候选人已准备好添加。",
+        "cta": "添加候选人",
+        "title": "尚未向议程添加候选人"
+      },
+      "noCompetencies": {
+        "body": "此表中的胜任力来自项目练习；如果为空，请先为练习定义胜任力。",
+        "title": "没有可显示的胜任力"
+      },
+      "noParticipants": {
+        "body": "如果没有至少两名参与者，会议将无法开启。请通过搜索姓名来添加评估员/评鉴中心经理/管理员。",
+        "cta": "添加参与者",
+        "title": "尚未添加参与者"
+      },
+      "noProjectSelected": {
+        "body": "请从页面顶部的选择器中打开一个项目，以查看其评审会议。",
+        "title": "选择一个项目"
+      },
+      "noSessionsAssessor": {
+        "body": "评审会议由评鉴中心经理创建，并会将您添加为参与者。在此之前，您无需采取任何操作。",
+        "title": "暂未看到评审会议"
+      },
+      "noSessionsManager": {
+        "body": "评审会议是指评估员为达成最终一致分数而举行的总结会议。请创建一个会议以开始。",
+        "cta": "新建会议",
+        "title": "此项目暂无复盘会话"
+      }
+    },
+    "lockBanner": {
+      "invalidated": "由于议程或共识分数已更改，初审已被作废；您需要重新从“初审”开始。",
+      "waitingSecond": "初审已记录 — 等待其他用户的复核。"
+    },
+    "lockedBanner": {
+      "body": "此候选人的评估员总结会话已完成并锁定；最终成绩将通过该会话确定，当前页面不可再编辑。",
+      "title": "此候选人已锁定"
+    },
+    "notice": {
+      "candidateAdded": "候选人已添加到议程。",
+      "candidateDeferred": "候选人已延期。",
+      "consensusSaved": "共识分数已保存。",
+      "correctionCanceled": "修改请求已被放弃。",
+      "correctionConfirmed": "修改已应用。",
+      "correctionRequested": "修改请求已记录 — 请等待其他人确认。",
+      "lockFirstDone": "初审已记录 — 请等待其他用户的复核。",
+      "lockSecondDone": "会话已锁定。总结现已确定。",
+      "participantAdded": "参与者已添加。",
+      "participantRemoved": "参与者已移除。",
+      "sessionCanceled": "会话已取消。",
+      "sessionCreated": "复盘会话已创建。下一步：添加参与者和候选人。",
+      "sessionOpened": "会话已开启。现在可以记录共识分数了。"
+    },
+    "participantRole": {
+      "chair": {
+        "hint": "负责主持会议。",
+        "label": "会议主席"
+      },
+      "observer": {
+        "hint": "仅限旁听；在决策中无投票权。",
+        "label": "观察员"
+      },
+      "participant": {
+        "hint": "参与讨论和共识决策。",
+        "label": "参与者"
+      }
+    },
+    "room": {
+      "addCandidatePlaceholder": "— 选择候选人 —",
+      "addParticipantDialogTitle": "添加参与者",
+      "agendaSectionTitle": "议程",
+      "backToConsole": "返回评估中心",
+      "backToConsoleAssessor": "返回评估员控制台",
+      "cancel": "取消",
+      "cancelCorrectionCta": "取消修改",
+      "cancelCorrectionSubmit": "提交取消",
+      "cancelReasonPlaceholder": "取消原因（至少 3 个字符）",
+      "candidateColumnHeader": "候选人",
+      "candidatesHeading": "候选人",
+      "cellDialogAriaLabel": "共识分数单元格",
+      "closeDialogAria": "关闭",
+      "confirmCorrectionCta": "确认修改",
+      "consensusTableTitle": "共识分数",
+      "correctionReasonPlaceholder": "修改原因（至少 {min, number} 个字符）",
+      "deferCta": "稍后处理",
+      "deferPlaceholder": "推迟原因（至少 3 个字符）",
+      "deferReasonPrefix": "原因：",
+      "deferSubmit": "提交",
+      "historyEmpty": "暂无历史记录。",
+      "historyLine": "{actor} — {oldLevel} ← {newLevel} — {reason}",
+      "levelFieldLabel": "共识级别",
+      "levelWord": "级别",
+      "nextStepAfterLockCta": "查看并发布报告",
+      "noEligibleCandidates": "没有符合条件的候选人可添加。",
+      "noteFieldLabel": "讨论备注",
+      "participantUnit": "参与者",
+      "participantsHeading": "参与者",
+      "pendingCandidateUnit": "待定考生",
+      "pickerMinQueryHint": "请输入至少 {n} 个字符进行搜索。",
+      "removeParticipantAria": "移除参与者",
+      "retryCta": "重试",
+      "saveConsensusCta": "保存共识评分",
+      "sessionNotFound": "未找到会话。",
+      "sourceRatingLine": "{assessor} — {exercise} — {levelWord} {level}",
+      "suggestedLevelLabel": "建议级别",
+      "unknownActor": "？",
+      "unnamedParticipant": "该参与者",
+      "waitingOtherPerson": "正在等待另一方确认。"
+    },
+    "sessionStatus": {
+      "canceled": {
+        "label": "已取消",
+        "meaning": "会话已取消，无法再次打开。"
+      },
+      "draft": {
+        "label": "草稿",
+        "meaning": "会话已创建但尚未开放；仅可编辑议程（志愿者/参与者）。"
+      },
+      "locked": {
+        "label": "已锁定",
+        "meaning": "双方均已确认提交；总结已锁定，除通过“锁定后修改申请”外无法更改。"
+      },
+      "open": {
+        "label": "开放",
+        "meaning": "会话进行中；待评分考生的共识分数可以记录和修改。"
+      }
+    },
+    "step": {
+      "agenda": {
+        "title": "1. 创建议程",
+        "what": "添加准备好参加复盘的志愿者和参与者（至少两名）。",
+        "why": "如果没有至少一名志愿者和两名参与者，则无法召开复盘会议。"
+      },
+      "consensus": {
+        "lockedBecause": "您必须先打开会议。",
+        "title": "3) 记录每个单元格的共识分数",
+        "what": "请为每个候选人 × 能力维度，在讨论后记录一个等级和一条备注。",
+        "why": "计算建议仅供参考——决策由集体做出；空白单元格将锁定最终结果。"
+      },
+      "lock": {
+        "lockedBecause": "必须先登记所有会议指令单元格的一致性评分——不能留有任何空白单元格。",
+        "title": "4）最终锁定 — 两步独立确认",
+        "what": "需由两位不同人员分别键入“锁定”一词来完成“第一次确认”与“第二次确认”。",
+        "why": "锁定意味着总结已最终确定；此后若需修改，仅可通过“修改申请”及第二人的确认来实现。"
+      },
+      "openSession": {
+        "lockedBecause": "议程中必须首先包含至少 1 名待定候选人和 2 名参与者。",
+        "title": "2）开启会议",
+        "what": "将会议状态从“草稿”变更为“开放” — 此操作可撤销。",
+        "why": "记录共识评分以及查看评估者的原始评分仅可在开放会议中进行。"
+      }
+    },
+    "tab": {
+      "formCancel": "取消",
+      "formScheduledLabel": "举办时间（可选）",
+      "formSubmit": "创建会议",
+      "formTitleLabel": "会议标题",
+      "formTitlePlaceholder": "例如：“中层管理者中心复盘会 — 第一天”",
+      "loading": "正在加载…",
+      "newSessionCta": "新建会议",
+      "sessionsTitle": "复盘会议"
+    }
+  }
+}

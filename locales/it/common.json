@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "confirm": "Conferma",
+    "save": "Salva",
+    "search": "Cerca",
+    "select": "Seleziona"
+  },
+  "help": {
+    "toggle": "Aiuto",
+    "close": "Chiudi l’aiuto"
+  },
+  "state": {
+    "empty": "Nessun elemento da visualizzare.",
+    "error": "Si è verificato un errore.",
+    "loading": "Caricamento…",
+    "noResults": "Nessun risultato trovato."
+  },
+  "time": {
+    "justNow": "Proprio ora"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Prossimi eventi",
+      "full": "Calendario completo",
+      "empty": "{days, plural, one {Non ci sono eventi nel prossimo {days, number} giorno} many {Non ci sono eventi nei prossimi {days, number} giorni} other {Non ci sono eventi nei prossimi {days, number} giorni}}",
+      "error": "Impossibile caricare gli eventi",
+      "today": "Oggi",
+      "allDay": "Tutto il giorno"
+    },
+    "type": {
+      "meeting": "Lezione",
+      "exam": "Esame",
+      "assignment": "Compito",
+      "term": "Periodo del semestre",
+      "event": "Evento",
+      "personal": "Personale"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Si è verificato un errore nella pagina",
+      "body": "Ci dispiace — qualcosa è andato storto. L'errore è stato registrato automaticamente. Puoi tornare alla pagina iniziale o ricaricare la pagina.",
+      "home": "Torna alla pagina iniziale",
+      "reload": "Ricarica"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Torna alla pagina precedente",
+    "body": "L'indirizzo che cercavi non esiste o è stato spostato. Puoi tornare alla pagina precedente o alla pagina iniziale.",
+    "home": "Torna alla pagina iniziale",
+    "programs": "Visualizza i programmi di studio",
+    "screenLabel": "404 · Non trovato",
+    "search": "Cerca",
+    "title": "Pagina non trovata"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Grazie di aver condiviso tutto questo con me. So che non è stato facile parlarne e non sei solo. Quello che provi è reale e importante, e meriti il sostegno immediato di una persona. Chiama subito la Linea Speranza al 1480: c'è qualcuno pronto ad ascoltarti con gentilezza.",
+      "tipHelpline": "Chiama subito la Linea Speranza: 1480 (24 ore su 24 e riservata)",
+      "tipEmergency": "Se sei in pericolo immediato, chiama il soccorso sanitario al 115",
+      "tipCompany": "Se puoi, resta ora accanto a una persona di cui ti fidi"
+    }
+  }
+}

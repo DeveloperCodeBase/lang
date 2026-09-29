@@ -1,0 +1,220 @@
+{
+  "bubble": {
+    "copied": "Copied",
+    "copy": "Copy",
+    "copyAria": "Copy response",
+    "offlineNotice": "Experimental offline response — AI service unavailable"
+  },
+  "capabilities": {
+    "aligned": "Aligned with the course syllabus",
+    "editable": "Copyable and editable",
+    "fast": "Ready-made response in seconds"
+  },
+  "chat": {
+    "assistantCount": "{count, plural, one {# generated response} other {# generated responses}}",
+    "assistantName": "Instructor Assistant",
+    "newShort": "New",
+    "preparing": "Preparing content...",
+    "requestCount": "{count, plural, one {# request} other {# requests}}",
+    "resetAria": "Clear conversation"
+  },
+  "common": {
+    "close": "Close"
+  },
+  "composer": {
+    "hint": "Press Enter to send · Shift+Enter for a new line",
+    "placeholderFree": "Type your question or choose one of the tools...",
+    "sendAria": "Send request to assistant"
+  },
+  "context": {
+    "courseCode": "Course Code",
+    "courseLabel": "Course",
+    "reviewNotice": "Review generated responses before using them in class and edit if necessary.",
+    "sectionTitle": "Class Context",
+    "students": "Students",
+    "suggestedTopics": "Suggested Topics",
+    "term": "Term"
+  },
+  "courses": {
+    "db": {
+      "title": "Databases"
+    },
+    "ds": {
+      "title": "Data Structures"
+    },
+    "ml": {
+      "title": "Machine Learning"
+    },
+    "net": {
+      "title": "Computer Networks"
+    },
+    "term1404": "Fall 2025"
+  },
+  "header": {
+    "eyebrow": "Instructor Teaching Assistant",
+    "freeModeDemoNote": "Free-form question is not yet connected to the actual model — this is a sample response. To get a real response, choose one of the 4 tools above (Quiz, Rubric, Feedback, Summary).",
+    "historyButton": "History",
+    "newThreadButton": "New Conversation",
+    "subtitle": "Your teaching companion: create quizzes, suggest rubrics, write feedback, and summarize sessions — in seconds and ready to use in class.",
+    "title": "Smart Instructor Assistant"
+  },
+  "help": {
+    "body": "This assistant helps you quickly create class content: multiple-choice quizzes, grading rubrics, student feedback, or session summaries. Choose a tool, type your topic, and send; the response is ready for you to copy and use in class. Note: Review generated responses before using them in class and edit them if necessary.",
+    "title": "Smart Instructor Assistant Guide"
+  },
+  "history": {
+    "empty": "No items match the filter.",
+    "filterAll": "All",
+    "items": {
+      "complexityQuiz": {
+        "at": "10/04/2025",
+        "title": "Quiz: Time Complexity"
+      },
+      "feedbackSet3": {
+        "at": "2025/09/30",
+        "title": "Exercise 3 Feedback Set"
+      },
+      "finalRubric": {
+        "at": "2025/10/02",
+        "title": "Final Project Rubric"
+      },
+      "graphsSummary": {
+        "at": "2025/09/27",
+        "title": "Graphs Session Summary"
+      }
+    },
+    "messageCount": "{count, plural, one {# message} other {# messages}}",
+    "searchPlaceholder": "Search history...",
+    "title": "Request History"
+  },
+  "kinds": {
+    "feedback": "Student Feedback",
+    "free": "Open Query",
+    "mcq": "Multiple-Choice Quiz",
+    "rubric": "Assessment Rubric",
+    "summary": "Session Summary"
+  },
+  "preview": {
+    "copied": "Copied",
+    "copySample": "Copy Sample",
+    "title": "Output Sample — {tool}",
+    "useTool": "Use This Tool"
+  },
+  "reply": {
+    "feedback": {
+      "closing": "Summary: You are on the right track; a small correction will make the answer complete. Good luck!",
+      "greeting": "Hello, thank you for your effort on this response 🙏",
+      "header": "✍️ Suggested Constructive Feedback:",
+      "improve": "Area for improvement: The reasoning in the \"{topic}\" section is incomplete; I suggest clarifying the middle step with a numerical example.",
+      "nextStep": "Next step: Review exercises 3 and 4 of this topic and bring up any ambiguities during next week's office hours.",
+      "strengths": "Strengths: The structure of the answer is clear and you have correctly identified the main concept."
+    },
+    "free": {
+      "canDo": "For this topic, I can prepare a quiz, an assessment rubric, student feedback, or a session summary.",
+      "chooseTool": "Select one of the tools above or write a more precise query so I can generate ready-to-use content for the class.",
+      "intro": "In response to your question about \"{topic}\":"
+    },
+    "mcq": {
+      "answerKey": "🔑 Answer Key: 1-b, 2-b, 3 to 5 descriptive (sample answer attached).",
+      "header": "🧪 Five multiple-choice questions about \"{topic}\" (with answer key):",
+      "q1": "1) Which option provides a correct definition of \"{topic}\"?",
+      "q1a": "   A) First incorrect definition",
+      "q1b": "   B) Precise and complete definition ✅",
+      "q1c": "   C) Incomplete definition",
+      "q1d": "   D) None of the above",
+      "q2": "2) What is the main application scenario for \"{topic}\"?",
+      "q2a": "   A) Irrelevant scenario",
+      "q2b": "   B) Real-world application scenario ✅",
+      "q2c": "   C) Contradictory scenario",
+      "q2d": "   D) Options B and C",
+      "q3": "3) What is the typical complexity/cost of this concept? (Level: Intermediate)",
+      "q4": "4) Explain the relationship between \"{topic}\" and the prerequisite topic. (Level: Hard)",
+      "q5": "5) Provide a counterexample for the common misconception. (Level: Hard)",
+      "tip": "💡 Tip: Questions 4 and 5 are designed to distinguish high-performing students."
+    },
+    "rubric": {
+      "c1": "1. Correctness and accuracy of the solution — 40%",
+      "c1Excellent": "   Excellent (40): Completely correct output covering all cases",
+      "c1Good": "   Good (30): Some edge cases not covered",
+      "c1Weak": "   Weak (15): Fundamental logical error",
+      "c2": "2. Code quality and readability — 20%",
+      "c3": "3. Efficiency and complexity — 20%",
+      "c4": "4. Documentation and report — 10%",
+      "c5": "5. Originality and academic integrity — 10%",
+      "header": "📋 Suggested rubric for the assignment \"{topic}\" (Total 100 points):",
+      "tip": "💡 Recommendation: Three levels (Excellent/Good/Weak) have been defined for each criterion to make grading transparent and defensible."
+    },
+    "summary": {
+      "h1": "• Study the relevant section from the course material",
+      "h2": "• Solve three selected exercises by the next session",
+      "header": "📝 Summary of the session \"{topic}\":",
+      "homeworkTitle": "Assignments for this session:",
+      "keyPointsTitle": "Key points:",
+      "p1": "• Definition and problem-solving motivation",
+      "p2": "• Basic concepts and technical terminology",
+      "p3": "• A step-by-step practical example",
+      "p4": "• Common mistakes and how to avoid them",
+      "prereq": "Prerequisite for the next session: Review \"{topic}\" before entering the advanced topic.",
+      "readTime": "⏱️ Estimated review reading time: about 90 minutes."
+    }
+  },
+  "sampleDate": "2025/10/07",
+  "suggestions": {
+    "feedback": {
+      "partialReasoning": "The answer is correct, but the reasoning is incomplete",
+      "stackQueue": "The student has confused stack and queue"
+    },
+    "mcq": {
+      "bst": "Binary Search Trees",
+      "complexity": "Algorithm Time Complexity",
+      "normalization": "Database Normalization"
+    },
+    "rubric": {
+      "mlFinal": "Machine Learning Final Project",
+      "netLab": "Network Lab Report",
+      "quicksort": "QuickSort Implementation"
+    },
+    "summary": {
+      "graphs": "Introduction to Graphs",
+      "overfitting": "Overfitting and Underfitting",
+      "transactions": "Database Transactions"
+    }
+  },
+  "thread": {
+    "reset": "New conversation started. What shall we prepare for today's class?",
+    "welcome": "Hello dear professor 👋 I am your intelligent assistant. I can create quizzes, suggest evaluation rubrics, write student feedback, or prepare a session summary. Choose one of the cards above or type your question."
+  },
+  "tools": {
+    "feedback": {
+      "hint": "Constructive and respectful feedback for the student's answer",
+      "label": "Write feedback for this response",
+      "placeholder": "Write the student's response summary here...",
+      "prompt": "Write constructive feedback for this student response: \"{topic}\""
+    },
+    "mcq": {
+      "hint": "Short quiz with answer key and difficulty level",
+      "label": "Create 5 multiple-choice questions",
+      "placeholder": "Quiz topic, e.g., \"Binary Search Trees\"",
+      "prompt": "Create 5 multiple-choice questions about \"{topic}\" with an answer key."
+    },
+    "previewAria": "Preview {tool}",
+    "rubric": {
+      "hint": "Weighted assessment criteria for an assignment",
+      "label": "Suggest a rubric",
+      "placeholder": "Assignment title, e.g., \"QuickSort Algorithm Implementation\"",
+      "prompt": "Suggest an assessment rubric for the assignment \"{topic}\"."
+    },
+    "sampleButton": "Sample",
+    "sectionHint": "Select one",
+    "sectionTitle": "Quick Tools",
+    "select": "Select",
+    "selected": "Selected",
+    "summary": {
+      "hint": "Summary of key points and assignments from a session",
+      "label": "Session Summary",
+      "placeholder": "Session title or topic, e.g., \"Introduction to Graphs\"",
+      "prompt": "Prepare a summary of the session \"{topic}\" along with assignments."
+    }
+  },
+  "topicFallback": "this topic"
+}

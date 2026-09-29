@@ -1,0 +1,220 @@
+{
+  "bubble": {
+    "copied": "已复制",
+    "copy": "复制",
+    "copyAria": "复制回答",
+    "offlineNotice": "离线测试回答 — 智能服务暂不可用"
+  },
+  "capabilities": {
+    "aligned": "与课程大纲保持一致",
+    "editable": "可复制和编辑",
+    "fast": "秒级就绪回答"
+  },
+  "chat": {
+    "assistantCount": "{count, plural, other {# 个生成回答}}",
+    "assistantName": "教师助手",
+    "newShort": "新",
+    "preparing": "正在准备内容...",
+    "requestCount": "{count, plural, other {# 个请求}}",
+    "resetAria": "清除对话"
+  },
+  "common": {
+    "close": "关闭"
+  },
+  "composer": {
+    "hint": "Enter 发送 · Shift+Enter 换行",
+    "placeholderFree": "请输入您的问题或选择一个工具...",
+    "sendAria": "向助手发送请求"
+  },
+  "context": {
+    "courseCode": "课程代码",
+    "courseLabel": "课程",
+    "reviewNotice": "请在课堂使用前审查生成的回答，并根据需要进行编辑。",
+    "sectionTitle": "课堂背景",
+    "students": "学生",
+    "suggestedTopics": "建议主题",
+    "term": "学期"
+  },
+  "courses": {
+    "db": {
+      "title": "数据库"
+    },
+    "ds": {
+      "title": "数据结构"
+    },
+    "ml": {
+      "title": "机器学习"
+    },
+    "net": {
+      "title": "计算机网络"
+    },
+    "term1404": "1404学年第一学期"
+  },
+  "header": {
+    "eyebrow": "教师教学助手",
+    "freeModeDemoNote": "自由提问尚未连接真实模型 — 此为示例回答。若需真实回答，请从上方 4 个工具中选择一个（测验、评分标准、反馈、总结）。",
+    "historyButton": "历史记录",
+    "newThreadButton": "新对话",
+    "subtitle": "您的教学辅助工具：几秒钟即可创建测验、推荐评分标准、撰写反馈和生成课堂总结，随时可在课堂上使用。",
+    "title": "智能教师助手"
+  },
+  "help": {
+    "body": "本助手可帮助您快速创建课堂内容：选择题测验、评估评分标准、学生反馈或课堂总结。选择一个工具，输入主题并发送；回答即可生成，您可以将其复制并在课堂上使用。注意：请在课堂使用前审查生成的回答，并根据需要进行编辑。",
+    "title": "智能教师助手指南"
+  },
+  "history": {
+    "empty": "未找到符合筛选条件的项。",
+    "filterAll": "全部",
+    "items": {
+      "complexityQuiz": {
+        "at": "1404/07/12",
+        "title": "小测验：时间复杂度"
+      },
+      "feedbackSet3": {
+        "at": "2025/10/01",
+        "title": "第 3 系列练习反馈"
+      },
+      "finalRubric": {
+        "at": "2025/10/02",
+        "title": "最终项目评分标准"
+      },
+      "graphsSummary": {
+        "at": "2025/09/27",
+        "title": "图表会议摘要"
+      }
+    },
+    "messageCount": "{count, plural, other {# 条消息}}",
+    "searchPlaceholder": "搜索历史记录...",
+    "title": "请求历史记录"
+  },
+  "kinds": {
+    "feedback": "学员反馈",
+    "free": "自由提问",
+    "mcq": "多选题",
+    "rubric": "评估量规",
+    "summary": "会议总结"
+  },
+  "preview": {
+    "copied": "已复制",
+    "copySample": "复制示例",
+    "title": "预览 — {tool}",
+    "useTool": "使用此工具"
+  },
+  "reply": {
+    "feedback": {
+      "closing": "总结：您走的方向很对；稍作小修，答案就完美了。祝您成功！",
+      "greeting": "您好，感谢您对这个回答的付出与尝试 🙏",
+      "header": "✍️ 建议的建设性反馈：",
+      "improve": "可改进之处：在“{topic}”部分中，论证不够完整；建议通过一个清晰的数字示例来补充中间步骤。",
+      "nextStep": "下一步：复习本主题的第 3 和第 4 个练习，如有疑问，可在下周的答疑时间提出。",
+      "strengths": "优势：回答结构清晰，并且准确理解了核心概念。"
+    },
+    "free": {
+      "canDo": "我可以为此生成小测验、评估量规、学生反馈或会议摘要。",
+      "chooseTool": "请选择上方的一个工具，或输入更具体的问题，以便我为您生成备课内容。",
+      "intro": "关于您对“{topic}”的提问："
+    },
+    "mcq": {
+      "answerKey": "🔑 答案解析：1-B，2-B，3 至 5 题为简答题（附参考答案）。",
+      "header": "🧪 关于“{topic}”的 5 道选择题（附答案）：",
+      "q1": "1) 哪个选项对“{topic}”给出了正确的定义？",
+      "q1a": "A) 第一个错误定义",
+      "q1b": "b) 准确且完整的定义 ✅",
+      "q1c": "丙）定义不完整",
+      "q1d": "D) 无",
+      "q2": "2) «{topic}» 的主要应用场景是什么？",
+      "q2a": "A) 无关的情景",
+      "q2b": "b）实际应用场景 ✅",
+      "q2c": "C）矛盾的场景",
+      "q2d": "d）B 和 C 项",
+      "q3": "3) 此概念的通常复杂度/成本是多少？（难度：中等）",
+      "q4": "4) 请解释「{topic}」与先修知识的关系。（难度：困难）",
+      "q5": "5) 请为常见误区举出一个反例。（难度：困难）",
+      "tip": "💡 提示：第 4 题和第 5 题旨在区分优秀学生。"
+    },
+    "rubric": {
+      "c1": "1. 解决方案的正确性与准确性 — 40%",
+      "c1Excellent": "   优秀（40）：输出完全正确且覆盖所有情况",
+      "c1Good": "   良好（30）：未覆盖部分边界情况",
+      "c1Weak": "   较差（15）：存在根本性逻辑错误",
+      "c2": "2. 代码质量与可读性 — 20%",
+      "c3": "3. 效率与复杂度 — 20%",
+      "c4": "4. 文档与报告 — 10%",
+      "c5": "5. 原创性与学术诚信 — 10%",
+      "header": "📋 针对作业「{topic}」的建议评分标准（总计 100 分）：",
+      "tip": "💡 建议：为每个标准定义三个级别（优秀/良好/较差），以使评分透明且有据可依。"
+    },
+    "summary": {
+      "h1": "• 阅读教材相关章节",
+      "h2": "• 完成三道精选练习题，直到下次课",
+      "header": "📝 「{topic}」课程总结：",
+      "homeworkTitle": "本次作业：",
+      "keyPointsTitle": "核心要点：",
+      "p1": "• 问题定义的背景与动机",
+      "p2": "• 基础概念与专业术语",
+      "p3": "• 逐步应用实例",
+      "p4": "• 常见错误及规避方法",
+      "prereq": "下次课前置要求：进入高级主题前复习「{topic}」。",
+      "readTime": "⏱️ 预计复习阅读时间：约 90 分钟。"
+    }
+  },
+  "sampleDate": "1404/07/15",
+  "suggestions": {
+    "feedback": {
+      "partialReasoning": "答案正确，但推理过程不完整",
+      "stackQueue": "学生混淆了栈和队列"
+    },
+    "mcq": {
+      "bst": "二叉搜索树",
+      "complexity": "算法时间复杂度",
+      "normalization": "数据库规范化"
+    },
+    "rubric": {
+      "mlFinal": "机器学习期末项目",
+      "netLab": "网络实验报告",
+      "quicksort": "快速排序实现"
+    },
+    "summary": {
+      "graphs": "图论导论",
+      "overfitting": "过拟合与欠拟合",
+      "transactions": "数据库事务"
+    }
+  },
+  "thread": {
+    "reset": "已开启新对话。今天需要为课程准备些什么？",
+    "welcome": "尊敬的老师，您好 👋 我是您的智能助手。我可以为您出测验题、推荐评分标准、编写学生反馈或生成课程总结。请从上方卡片中选择一项，或输入您的提问。"
+  },
+  "tools": {
+    "feedback": {
+      "hint": "为学生回答提供建设性且礼貌的反馈",
+      "label": "为此回答编写反馈",
+      "placeholder": "在此处编写学生回答的摘要...",
+      "prompt": "为该学生的回答编写建设性反馈：“{topic}”"
+    },
+    "mcq": {
+      "hint": "包含答案和难度等级的简短测验",
+      "label": "生成 5 道选择题",
+      "placeholder": "测验主题，例如“二叉搜索树”",
+      "prompt": "请围绕“{topic}”生成 5 道选择题并附带答案。"
+    },
+    "previewAria": "预览 {tool}",
+    "rubric": {
+      "hint": "作业的加权评估标准",
+      "label": "建议评分标准",
+      "placeholder": "作业标题，例如“快速排序算法实现”",
+      "prompt": "为作业“{topic}”建议一个评估标准。"
+    },
+    "sampleButton": "示例",
+    "sectionHint": "请选择一项",
+    "sectionTitle": "快捷工具",
+    "select": "选择",
+    "selected": "已选择",
+    "summary": {
+      "hint": "总结一堂课的要点与作业",
+      "label": "课程总结",
+      "placeholder": "课程标题或主题，例如“图论导论”",
+      "prompt": "请提供“{topic}”课程的总结以及相关作业。"
+    }
+  },
+  "topicFallback": "此主题"
+}

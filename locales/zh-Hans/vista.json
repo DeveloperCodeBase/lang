@@ -1,0 +1,43 @@
+{
+  "vista": {
+    "head": {
+      "title": "关于维斯奔 (Vista)",
+      "description": "维斯奔 (Vista)，本平台的技术执行者与所有者—提供服务、AI 架构、生态系统以及公司官方信息。"
+    },
+    "hero": {
+      "eyebrow": "技术执行者 · TECHNOLOGY PARTNER",
+      "ownershipPrefix": "{platform} 是本公司的产品；本平台的 {role} 及其所有无形与有形资产所有权归属于",
+      "ownershipSuffix": "。",
+      "siteLinkLabel": "维斯奔官方网站 ↗",
+      "aboutLinkLabel": "关于 {name}"
+    },
+    "sections": {
+      "overview": {
+        "eyebrow": "概述 · OVERVIEW",
+        "title": "从零散的想法到可落地的产品、流程与决策"
+      },
+      "services": {
+        "eyebrow": "服务 · SERVICES",
+        "title": "从 AI 架构到就纪可用的产品"
+      },
+      "architecture": {
+        "eyebrow": "架构 · AGENTIC + RAG",
+        "title": "将语言模型、企业知识、工具与人工审核融为一体的架构"
+      },
+      "ecosystem": {
+        "eyebrow": "生态系统 · ECOSYSTEM",
+        "title": "AI、知识与产品工程的闭环"
+      },
+      "official": {
+        "eyebrow": "官方信息 · OFFICIAL",
+        "title": "董事会与联系方式"
+      }
+    },
+    "ecosystem": {
+      "viewSiteLabel": "查看网站 ↗"
+    },
+    "official": {
+      "regNoLabel": "注册号："
+    }
+  }
+}

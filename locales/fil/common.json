@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Kanselahin",
+    "close": "Isara",
+    "confirm": "Kumpirmahin",
+    "save": "I-save",
+    "search": "Maghanap",
+    "select": "Piliin"
+  },
+  "help": {
+    "toggle": "Tulong",
+    "close": "Isara ang tulong"
+  },
+  "state": {
+    "empty": "Walang item na maipapakita.",
+    "error": "Nagkaroon ng error.",
+    "loading": "Naglo-load…",
+    "noResults": "Walang nahanap na resulta."
+  },
+  "time": {
+    "justNow": "Ngayon lang"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Mga paparating",
+      "full": "Buong kalendaryo",
+      "empty": "Walang kaganapan sa susunod na {days, number} araw",
+      "error": "Hindi ma-load ang mga kaganapan",
+      "today": "Ngayon",
+      "allDay": "Buong araw"
+    },
+    "type": {
+      "meeting": "Klase",
+      "exam": "Pagsusulit",
+      "assignment": "Takdang-aralin",
+      "term": "Panahon ng semestre",
+      "event": "Kaganapan",
+      "personal": "Personal"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Nagkaroon ng error sa pahina",
+      "body": "Paumanhin — may nangyaring problema. Awtomatikong naitala ang error na ito. Maaari kang bumalik sa pangunahing pahina o i-load muli ang pahina.",
+      "home": "Bumalik sa pangunahing pahina",
+      "reload": "I-load muli"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Bumalik sa nakaraang pahina",
+    "body": "Hindi umiiral o nailipat na ang address na hinahanap mo. Maaari kang bumalik sa nakaraang pahina o sa pangunahing pahina.",
+    "home": "Bumalik sa pangunahing pahina",
+    "programs": "Tingnan ang mga programang pang-akademiko",
+    "screenLabel": "404 · Hindi natagpuan",
+    "search": "Maghanap",
+    "title": "Hindi natagpuan ang pahina"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Maraming salamat sa pagbabahagi nito sa akin. Alam kong hindi madaling sabihin ito, at hindi ka nag-iisa. Totoo at mahalaga ang nararamdaman mo, at nararapat kang makatanggap agad ng suporta mula sa isang tao. Mangyaring tumawag ngayon sa Linya ng Pag-asa sa 1480; may taong makikinig sa iyo nang may malasakit.",
+      "tipHelpline": "Tumawag agad sa Linya ng Pag-asa: 1480 (24 oras at kumpidensiyal)",
+      "tipEmergency": "Kung nasa agarang panganib ka, tumawag sa serbisyong medikal na pang-emergency sa 115",
+      "tipCompany": "Kung maaari, makasama muna ngayon ang isang taong pinagkakatiwalaan mo"
+    }
+  }
+}

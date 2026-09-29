@@ -1,0 +1,141 @@
+{
+  "actions": {
+    "postJob": "+ ثبت فرصت شغلی"
+  },
+  "appStatus": {
+    "accepted": "پذیرفته‌شده",
+    "applied": "ارسال‌شده",
+    "rejected": "رد شده",
+    "reviewing": "در حال بررسی"
+  },
+  "applicants": {
+    "closeButton": "بستن",
+    "empty": "هنوز کسی برای این فرصت درخواست نداده است.",
+    "eyebrow": "متقاضیان فرصت",
+    "loading": "در حال بارگذاری متقاضیان…",
+    "statusLabel": "وضعیت:"
+  },
+  "apply": {
+    "counter": "{current, number} / {max, number} نویسه",
+    "employerPage": "صفحهٔ آگهی کارفرما ↗",
+    "eyebrow": "ارسال درخواست",
+    "noteLabel": "یادداشت همراه (اختیاری)",
+    "notePlaceholder": "چرا برای این فرصت مناسب هستید؟ مهارت‌ها و انگیزهٔ خود را کوتاه بنویسید…",
+    "submit": "ثبت و ارسال درخواست",
+    "submitting": "در حال ارسال…"
+  },
+  "closeJob": {
+    "closing": "در حال بستن…",
+    "confirm": "آیا «{title}» بسته شود؟ پس از بستن، این فرصت دیگر برای دانشجویان نمایش داده نمی‌شود و درخواست جدیدی پذیرفته نخواهد شد.",
+    "submit": "بله، ببند",
+    "title": "بستن فرصت شغلی"
+  },
+  "common": {
+    "cancel": "انصراف",
+    "close": "بستن",
+    "saving": "در حال ذخیره…"
+  },
+  "cv": {
+    "completePercent": "{percent, number}٪ کامل",
+    "createButton": "ساخت رزومه",
+    "defaultHolder": "کاربر",
+    "editButton": "ویرایش رزومه",
+    "empty": "هنوز رزومه‌ای نساخته‌اید. با «ساخت رزومه» شروع کنید تا کارفرماها شما را بهتر بشناسند.",
+    "loading": "در حال بارگذاری رزومه…",
+    "title": "رزومهٔ من"
+  },
+  "cvEditor": {
+    "createTitle": "ساخت رزومه",
+    "editTitle": "ویرایش رزومه",
+    "educationOrgPlaceholder": "دانشگاه / مؤسسه",
+    "educationTitle": "سوابق تحصیلی",
+    "educationTitlePlaceholder": "مقطع / رشته",
+    "experienceOrgPlaceholder": "شرکت / سازمان",
+    "experienceTitle": "سوابق کاری / کارآموزی",
+    "experienceTitlePlaceholder": "سمت / عنوان",
+    "headlineLabel": "عنوان حرفه‌ای (Headline)",
+    "headlinePlaceholder": "مثلاً: دانشجوی مهندسی نرم‌افزار · علاقه‌مند به فرانت‌اند",
+    "save": "ذخیرهٔ رزومه",
+    "skillsLabel": "مهارت‌ها (با ویرگول جدا کنید)",
+    "skillsPlaceholder": "React، TypeScript، Git، کار تیمی",
+    "summaryLabel": "دربارهٔ من",
+    "summaryPlaceholder": "خلاصه‌ای از خودتان، اهداف و نقاط قوت…"
+  },
+  "entry": {
+    "add": "+ افزودن",
+    "detailPlaceholder": "توضیحات (اختیاری)",
+    "empty": "موردی افزوده نشده است.",
+    "periodPlaceholder": "بازهٔ زمانی (مثلاً ۱۴۰۲ تا ۱۴۰۳)",
+    "remove": "حذف",
+    "removeLabel": "حذف مورد"
+  },
+  "errors": {
+    "generic": "خطا رخ داد"
+  },
+  "help": {
+    "body": "در این صفحه فرصت‌های شغلی باز را می‌بینید و با نوع همکاری یا جست‌وجو فیلتر می‌کنید. روی هر فرصت «درخواست» بزنید تا برای آن اقدام کنید؛ وضعیت همهٔ درخواست‌هایتان در بخش «درخواست‌های من» نمایش داده می‌شود. رزومهٔ خود را در کارت «رزومهٔ من» کامل کنید.",
+    "manager": " به‌عنوان متصدی خدمات شغلی می‌توانید با «ثبت فرصت شغلی» آگهی جدید منتشر کنید، آن را ویرایش یا ببندید و «متقاضیان» هر فرصت را بررسی و وضعیتشان را به‌روزرسانی کنید.",
+    "title": "راهنمای خدمات شغلی"
+  },
+  "jobForm": {
+    "applyUrlLabel": "لینک آگهی کارفرما (اختیاری)",
+    "companyLabel": "شرکت / سازمان",
+    "createTitle": "ثبت فرصت شغلی",
+    "descriptionLabel": "شرح فرصت",
+    "descriptionPlaceholder": "شرح وظایف، مهارت‌های لازم و شرایط…",
+    "editTitle": "ویرایش فرصت شغلی",
+    "errors": {
+      "company": "نام شرکت / سازمان را وارد کنید.",
+      "description": "شرح فرصت را وارد کنید (دست‌کم {min, number} نویسه).",
+      "title": "عنوان فرصت را وارد کنید (دست‌کم {min, number} نویسه)."
+    },
+    "locationLabel": "محل",
+    "locationPlaceholder": "تهران / دورکاری",
+    "publish": "انتشار فرصت",
+    "saveChanges": "ذخیرهٔ تغییرات",
+    "tagLabel": "برچسب (اختیاری)",
+    "tagPlaceholder": "React / داده / طراحی",
+    "titleLabel": "عنوان فرصت",
+    "titlePlaceholder": "مثلاً: کارآموز توسعهٔ فرانت‌اند",
+    "typeLabel": "نوع همکاری"
+  },
+  "jobs": {
+    "applicants": "متقاضیان",
+    "applied": "✓ درخواست داده‌اید",
+    "apply": "درخواست",
+    "clearSearch": "پاک کردن",
+    "close": "بستن",
+    "closed": "بسته‌شده",
+    "closedBadge": "بسته‌شده",
+    "edit": "ویرایش",
+    "empty": "فرصتی با این فیلترها پیدا نشد.",
+    "loading": "در حال بارگذاری فرصت‌ها…",
+    "resetFilters": "بازنشانی فیلترها",
+    "retry": "تلاش دوباره",
+    "searchLabel": "جست‌وجوی فرصت شغلی",
+    "searchPlaceholder": "جست‌وجوی عنوان، شرکت یا مهارت…",
+    "title": "فرصت‌های شغلی",
+    "typeFilterLabel": "نوع همکاری"
+  },
+  "myApps": {
+    "empty": "هنوز برای هیچ فرصتی درخواست نداده‌اید.",
+    "loading": "در حال بارگذاری…",
+    "title": "درخواست‌های من"
+  },
+  "page": {
+    "eyebrow": "خدمات دانشجویی · کاریابی",
+    "lead": "فرصت‌های کارآموزی و استخدام را جست‌وجو کنید، رزومه‌تان را بسازید و مستقیم درخواست بفرستید؛ وضعیت درخواست‌هایتان را همین‌جا دنبال کنید.",
+    "title": "خدمات شغلی"
+  },
+  "stats": {
+    "myApplications": "{count, plural, one {# درخواست من} other {# درخواست من}}",
+    "openJobs": "{count, plural, one {# فرصت باز} other {# فرصت باز}}"
+  },
+  "type": {
+    "all": "همه",
+    "contract": "قراردادی",
+    "full_time": "تمام‌وقت",
+    "internship": "کارآموزی",
+    "part_time": "پاره‌وقت"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "save": "Save",
+    "search": "Search",
+    "select": "Select"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Coming up",
+      "full": "Full calendar",
+      "empty": "{days, plural, one {No events in the next {days, number} day} other {No events in the next {days, number} days}}",
+      "error": "Failed to load events",
+      "today": "Today",
+      "allDay": "All-day"
+    },
+    "type": {
+      "meeting": "Class",
+      "exam": "Exam",
+      "assignment": "Assignment",
+      "term": "Term period",
+      "event": "Event",
+      "personal": "Personal"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Something went wrong",
+      "body": "We're sorry — an unexpected error occurred. This error has been logged automatically. You can return to the home page or reload the page.",
+      "home": "Go to home",
+      "reload": "Reload page"
+    }
+  },
+  "help": {
+    "toggle": "Help",
+    "close": "Close help"
+  },
+  "money": {
+    "rialUnit": "Rial"
+  },
+  "notFound": {
+    "back": "Go back",
+    "body": "The address you were looking for doesn't exist or has been moved. You can go back to the previous page or return home.",
+    "home": "Return home",
+    "programs": "View programs",
+    "screenLabel": "404 · Not found",
+    "search": "Search",
+    "title": "Page not found"
+  },
+  "state": {
+    "empty": "Nothing to display.",
+    "error": "An error occurred.",
+    "loading": "Loading…",
+    "noResults": "No results found."
+  },
+  "time": {
+    "justNow": "Just now"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Thank you so much for sharing this with me; I know it wasn't easy to say, and you are not alone. What you are feeling is real and important, and you deserve immediate support from a person. Please contact the helpline right now; someone is there to listen with care.",
+      "tipHelpline": "Immediate helpline contact: (24/7 and confidential)",
+      "tipEmergency": "If you are in immediate danger, please contact emergency services.",
+      "tipCompany": "If you can, be with someone you trust right now"
+    }
+  }
+}

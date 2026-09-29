@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Anuluj",
+    "close": "Zamknij",
+    "confirm": "Potwierdź",
+    "save": "Zapisz",
+    "search": "Szukaj",
+    "select": "Wybierz"
+  },
+  "help": {
+    "toggle": "Pomoc",
+    "close": "Zamknij pomoc"
+  },
+  "state": {
+    "empty": "Brak elementów do wyświetlenia.",
+    "error": "Wystąpił błąd.",
+    "loading": "Ładowanie…",
+    "noResults": "Nie znaleziono wyników."
+  },
+  "time": {
+    "justNow": "Przed chwilą"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Nadchodzące wydarzenia",
+      "full": "Pełny kalendarz",
+      "empty": "{days, plural, one {Brak wydarzeń w ciągu najbliższego {days, number} dnia} few {Brak wydarzeń w ciągu najbliższych {days, number} dni} many {Brak wydarzeń w ciągu najbliższych {days, number} dni} other {Brak wydarzeń w ciągu najbliższych {days, number} dnia}}",
+      "error": "Nie udało się załadować wydarzeń",
+      "today": "Dzisiaj",
+      "allDay": "Cały dzień"
+    },
+    "type": {
+      "meeting": "Zajęcia",
+      "exam": "Egzamin",
+      "assignment": "Zadanie",
+      "term": "Okres semestru",
+      "event": "Wydarzenie",
+      "personal": "Osobiste"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Na stronie wystąpił błąd",
+      "body": "Przepraszamy — coś poszło nie tak. Błąd został automatycznie zapisany. Możesz wrócić na stronę główną lub ponownie załadować stronę.",
+      "home": "Wróć na stronę główną",
+      "reload": "Załaduj ponownie"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Wróć na poprzednią stronę",
+    "body": "Szukany adres nie istnieje lub został przeniesiony. Możesz wrócić na poprzednią stronę lub na stronę główną.",
+    "home": "Wróć na stronę główną",
+    "programs": "Zobacz programy studiów",
+    "screenLabel": "404 · Nie znaleziono",
+    "search": "Szukaj",
+    "title": "Nie znaleziono strony"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Dziękuję za podzielenie się tym ze mną. Wiem, że nie było łatwo o tym powiedzieć. Nie jesteś z tym w pojedynkę. Twoje uczucia są prawdziwe i ważne i zasługujesz na natychmiastowe wsparcie drugiego człowieka. Zadzwoń teraz na Linię Nadziei pod numer 1480; jest tam ktoś, kto wysłucha Cię z życzliwością.",
+      "tipHelpline": "Zadzwoń od razu na Linię Nadziei: 1480 (całodobowo i poufnie)",
+      "tipEmergency": "Jeśli grozi Ci bezpośrednie niebezpieczeństwo, zadzwoń po pogotowie ratunkowe pod numer 115",
+      "tipCompany": "Jeśli możesz, bądź teraz przy osobie, której ufasz"
+    }
+  }
+}

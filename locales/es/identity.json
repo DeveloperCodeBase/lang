@@ -1,0 +1,716 @@
+{
+  "login": {
+    "hero": {
+      "eyebrowText": "BIENVENIDOS DE NUEVO",
+      "eyebrowSubtext": "Iniciar sesión",
+      "title": "Bienvenido",
+      "subtitle": "Inicia sesión con tu cuenta. Si aún no te has registrado, puedes empezar en menos de <b>2 minutos</b>."
+    },
+    "aria": {
+      "search": "Buscar",
+      "languageToggle": "Cambiar idioma (ES)"
+    },
+    "toast": {
+      "searchDisabled": "La búsqueda no está activa en el modo de demostración",
+      "languageDisplay": "Idioma de visualización: español",
+      "loginSuccess": "Has iniciado sesión correctamente; redirigiendo…",
+      "passwordCorrectNeed2fa": "Contraseña correcta. Introduce el código de verificación en dos pasos.",
+      "demoFilled": "Se ha rellenado el correo «{role}». Introduce la contraseña y haz clic en «Iniciar sesión»"
+    },
+    "demoPicker": {
+      "title": "Inicio de sesión rápido con cuenta de demostración",
+      "groupAriaLabel": "Cuentas de demostración por rol",
+      "hint": "Al hacer clic en cualquier rol, solo se rellenará el correo de esa cuenta; a continuación, introduce la contraseña y haz clic en «Iniciar sesión»"
+    },
+    "demoRoles": {
+      "student": "Estudiante",
+      "instructor": "Profesor",
+      "ta": "Asistente de docencia",
+      "faculty_admin": "Administrador de facultad",
+      "admin": "Administrador universitario",
+      "super_admin": "Superadministrador",
+      "content_manager": "Gestor de contenido",
+      "finance_manager": "Gestor financiero",
+      "support": "Soporte",
+      "membership_operator": "Operador de membresías",
+      "membership_manager": "Gestor de membresías",
+      "assessor": "Evaluador",
+      "assessment_manager": "Gestor de evaluaciones",
+      "moderator": "Moderador",
+      "counselor": "Orientador",
+      "parent": "Padre/Madre",
+      "org": "Organización"
+    },
+    "tenant": {
+      "label": "ID de organización / TENANT",
+      "hint": "Opcional para estudiantes generales",
+      "toggleShow": "¿Iniciar sesión como usuario de organización? (ID de organización)"
+    },
+    "email": {
+      "label": "Correo electrónico o nombre de usuario"
+    },
+    "password": {
+      "label": "Contraseña",
+      "forgotLink": "¿La has olvidado?",
+      "showAria": "Mostrar contraseña",
+      "hideAria": "Ocultar contraseña"
+    },
+    "remember": {
+      "label": "Recuérdame"
+    },
+    "twofa": {
+      "label": "Autenticación en dos pasos activa",
+      "hint": "Tras iniciar sesión, se enviará un código de 6 dígitos a tu correo o SMS."
+    },
+    "lockout": {
+      "message": "La cuenta está bloqueada temporalmente debido a varios intentos fallidos — {countdown} para volver a intentar."
+    },
+    "submit": {
+      "default": "Iniciar sesión",
+      "pending": "Iniciando sesión…"
+    },
+    "divider": {
+      "orText": "o · OR"
+    },
+    "sso": {
+      "google": {
+        "label": "Google",
+        "toast": "Google SSO — Próximamente"
+      },
+      "national": {
+        "label": "Portal nacional",
+        "toast": "Inicio de sesión con portal nacional — Próximamente"
+      },
+      "org": {
+        "label": "Organización",
+        "toast": "Inicio de sesión institucional — Próximamente"
+      }
+    },
+    "signup": {
+      "cta": "¿No tienes una cuenta? <b>Créala ahora mismo →</b>"
+    },
+    "twoFactor": {
+      "description": "La verificación en dos pasos está activa para esta cuenta. Introduce el código de 6 dígitos de tu aplicación Authenticator (o uno de los códigos de recuperación).",
+      "codeLabel": "Código de verificación en dos pasos",
+      "codePlaceholder": "123456",
+      "submit": "Verificar e iniciar sesión",
+      "submitting": "Verificando…",
+      "back": "Volver al inicio de sesión"
+    },
+    "errors": {
+      "tenantRequired": "El identificador de la organización es obligatorio.",
+      "emailRequired": "El correo electrónico o nombre de usuario es obligatorio.",
+      "emailInvalid": "El formato del correo electrónico no es válido.",
+      "passwordRequired": "La contraseña es obligatoria.",
+      "passwordMinLength": "La contraseña debe tener al menos 8 caracteres.",
+      "invalidInput": "Entrada no válida.",
+      "unknown": "Error desconocido",
+      "twoFactorIncomplete": "Introduce el código de verificación completo.",
+      "twoFactorInvalid": "El código de verificación es incorrecto."
+    },
+    "atoms": {
+      "passStrength": {
+        "veryWeak": "Muy débil",
+        "weak": "Débil",
+        "medium": "Medio",
+        "strong": "Fuerte",
+        "veryStrong": "Muy fuerte"
+      },
+      "demoBox": {
+        "subtitle": "Cuenta de demostración para {roleLabel}",
+        "fillButton": "Rellenar automáticamente ←"
+      }
+    },
+    "brandPanel": {
+      "testimonial": {
+        "starsAria": "Cinco estrellas",
+        "quote": "«Fue la primera vez que sentí que tenía un asistente educativo real. El perfil cognitivo sabe exactamente dónde me he quedado y qué debo hacer.»",
+        "authorInitials": "N.R.",
+        "authorName": "Nesrin Razavi",
+        "authorRole": "Máster · Ciencia de datos"
+      },
+      "stats": {
+        "tenantsValue": "{value, number}+",
+        "tenantsLabel": "Universidades y organizaciones",
+        "learnersValue": "{value, number}K",
+        "learnersLabel": "Estudiantes activos",
+        "uptimeValue": "{value, number}%",
+        "uptimeLabel": "Disponibilidad"
+      },
+      "eyebrowText": "LEARN AT SCALE",
+      "eyebrowSubtext": "Aprendizaje a gran escala",
+      "headlineLine1": "Aprendizaje personalizado,",
+      "headlineLine2": "a escala <hl>universitaria</hl>",
+      "lede": "La plataforma nativa de inteligencia artificial para la educación superior — desarrollada para {org}; {slogan}."
+    },
+    "coBrand": {
+      "linkLegal": "Términos y privacidad",
+      "linkSupport": "Soporte",
+      "linkStatus": "Estado del sistema",
+      "linkApi": "API"
+    }
+  },
+  "verifyPhone": {
+    "eyebrow": "Verificación de número de teléfono",
+    "title": "Verifica tu número de teléfono",
+    "subtitle": "Para registrarte, pagar con la billetera y recibir certificados, debes verificar tu número de teléfono.",
+    "loading": "Comprobando estado…",
+    "phone": {
+      "label": "Número de teléfono",
+      "submit": "Enviar código de verificación",
+      "skip": "Omitir por ahora"
+    },
+    "code": {
+      "changeNumber": "Cambiar número"
+    },
+    "toast": {
+      "codeSent": {
+        "title": "Código enviado",
+        "msg": "Se te ha enviado un código de 6 dígitos por SMS."
+      },
+      "verified": {
+        "title": "Verificado",
+        "msg": "Tu número de teléfono ha sido verificado."
+      }
+    },
+    "errors": {
+      "invalidPhone": "El número de teléfono no es válido.",
+      "sendFailed": "No se pudo enviar el código."
+    }
+  },
+  "apply": {
+    "wizard": {
+      "screenLabel": "Solicitud — Registro",
+      "eyebrow": "ADMISSIONS · Admisión y registro",
+      "title": "Registro paso a paso",
+      "lead": "No es necesario iniciar sesión. Introduce tu información de identidad y documentos, completa la autenticación y obtén tu código de seguimiento."
+    },
+    "steps": {
+      "role": {
+        "label": "Tipo de solicitud",
+        "heading": "Selecciona el tipo de solicitud",
+        "helpTitle": "¿Qué rol?",
+        "helpBody": "\"Estudiante\" es para admisión académica y \"Profesor / Personal académico\" es para colaboración educativa. Otros roles (padre, organización) se activan a través de soporte, y los roles administrativos (presidente de universidad/facultad, gestor de contenidos, soporte…) son creados por la universidad, no mediante el registro público.",
+        "selectedLabel": "Rol seleccionado:"
+      },
+      "identity": {
+        "label": "Información de identidad",
+        "heading": "Información de identidad",
+        "helpTitle": "Guía de información de identidad",
+        "helpBody": "Todos los campos marcados con asterisco son obligatorios. El código nacional se valida al instante. Introduzca la fecha de nacimiento (ejemplo: 1380/05/12)."
+      },
+      "documents": {
+        "label": "Cargar documentos",
+        "heading": "Cargar documentos",
+        "helpTitle": "Guía para la carga de documentos",
+        "helpBody": "Cargue una imagen legible o un escaneo de los documentos. Formatos permitidos: JPG, PNG, WebP o PDF — cada archivo debe pesar menos de 1.3 MB. Los documentos marcados con asterisco son obligatorios."
+      },
+      "verification": {
+        "label": "Verificación de identidad",
+        "heading": "Verificación de identidad (sistema Hoda)",
+        "helpTitle": "Acerca de la verificación de identidad",
+        "helpBodyPart1": "Esta consulta se realiza en función de su código nacional, número de certificado de nacimiento y fecha de nacimiento, y consta de tres niveles: coincidencia básica, confirmación de identidad y consulta completa.",
+        "helpBodyNote": "Nota:",
+        "helpBodyPart2": "Como no se dispone de acceso directo al sistema gubernamental, este paso es",
+        "helpBodyDemo": "de demostración",
+        "helpBodyPart3": "y el resultado se adjuntará al expediente.",
+        "loading": "Consultando…",
+        "notRun": "La consulta no se ha ejecutado.",
+        "retryButton": "Reintentar",
+        "levelBadge": "Nivel {level} de 3",
+        "statusVerified": "Verificación de identidad completa (demostración)",
+        "statusPartial": "Verificación de identidad parcial",
+        "statusNone": "No verificado",
+        "refSuffix": " · Código de seguimiento: {ref}",
+        "helperText": "Si el nivel de verificación es bajo, puede regresar al paso «Información de identidad» y completar los datos. Es posible enviar la solicitud en cualquier nivel; la revisión final corresponde al especialista de admisiones."
+      },
+      "review": {
+        "label": "Revisar y enviar",
+        "heading": "Revisar y enviar",
+        "helpTitle": "Revisión final",
+        "helpBody": "Revise la información una vez más. Para corregir cualquier sección, vuelva al paso correspondiente desde los pasos anteriores. Al hacer clic en «Enviar solicitud», el expediente quedará registrado y se emitirá un código de seguimiento."
+      }
+    },
+    "roles": {
+      "student": {
+        "title": "Estudiante",
+        "description": "Admisión en programas de estudio"
+      },
+      "instructor": {
+        "title": "Profesor / Miembro del cuerpo docente",
+        "description": "Colaboración como profesor"
+      }
+    },
+    "identity": {
+      "programLabel": "Programa de estudio",
+      "programsLoading": "Cargando programas…",
+      "noActivePrograms": "Actualmente no hay programas activos disponibles para admisión.",
+      "selectPlaceholder": "— Seleccione —",
+      "preferredDeptLabel": "Departamento preferido (opcional)",
+      "preferredDeptPlaceholder": "Ejemplo: Ingeniería Informática",
+      "desiredRankLabel": "Rango académico deseado (opcional)",
+      "fullNameLabel": "Nombre y apellidos",
+      "fatherNameLabel": "Nombre del padre",
+      "nationalIdLabel": "Número de identificación nacional",
+      "nationalIdValid": "El número de identificación nacional es válido ✓",
+      "nationalIdInvalidChecksum": "El dígito de control del número de identificación nacional no es correcto",
+      "birthCertNoLabel": "Número de certificado de nacimiento",
+      "birthDateLabel": "Fecha de nacimiento",
+      "genderLabel": "Género",
+      "emailLabel": "Correo electrónico",
+      "emailVerified": "Tu correo electrónico ha sido verificado.",
+      "sendEmailOtpButton": "Enviar código de verificación al correo",
+      "otpPromptPrefix": "Introduce el código de 6 dígitos enviado a",
+      "otpPromptSuffix": ":",
+      "verifyOtpButton": "Verificar código",
+      "resendOtpCountdown": "Reenviar ({seconds})",
+      "resendOtpButton": "Reenviar",
+      "phoneLabel": "Número de teléfono",
+      "provinceLabel": "Provincia",
+      "cityLabel": "Ciudad",
+      "postalCodeLabel": "Código postal",
+      "addressLabel": "Dirección",
+      "expertiseLabel": "Áreas de experiencia (separadas por comas)",
+      "expertisePlaceholder": "Aprendizaje automático, redes, bases de datos",
+      "cvUrlLabel": "URL del currículum / CV (opcional)",
+      "educationLabel": "Historial educativo (opcional)",
+      "addEducationButton": "+ Agregar nivel educativo",
+      "noEducationHint": "Si lo deseas, puedes agregar tus estudios anteriores.",
+      "educationDegreePlaceholder": "Título (Bachillerato/Licenciatura...)",
+      "educationFieldPlaceholder": "Campo de estudio",
+      "educationInstitutionPlaceholder": "Institución",
+      "educationYearPlaceholder": "Año",
+      "educationGpaPlaceholder": "Promedio / GPA",
+      "bioLabel": "Sobre ti / Motivación (opcional)"
+    },
+    "ranks": {
+      "assistant": "Profesor asistente",
+      "associate": "Profesor asociado",
+      "full": "Profesor titular",
+      "emeritus": "Profesor emérito"
+    },
+    "genders": {
+      "male": "Masculino",
+      "female": "Femenino"
+    },
+    "provinces": {
+      "tehran": "Teherán",
+      "alborz": "Alborz",
+      "isfahan": "Isfahán",
+      "fars": "Fars",
+      "khorasanRazavi": "Jorasán Razaví",
+      "eastAzerbaijan": "Azerbaiyán Oriental",
+      "westAzerbaijan": "Azerbaiyán Occidental",
+      "khuzestan": "Juzestán",
+      "mazandaran": "Mazandarán",
+      "gilan": "Gilan",
+      "kerman": "Kermán",
+      "kermanshah": "Kermanshah",
+      "qom": "Qom",
+      "qazvin": "Qazvin",
+      "yazd": "Yazd",
+      "golestan": "Golestán",
+      "hamedan": "Hamadán",
+      "ardabil": "Ardabil",
+      "zanjan": "Zanyán",
+      "markazi": "Markazí",
+      "hormozgan": "Hormozgán",
+      "lorestan": "Lorestán",
+      "sistanBaluchestan": "Sistán y Baluchistán",
+      "kurdistan": "Kurdistán",
+      "bushehr": "Bushehr",
+      "arak": "Arak",
+      "semnan": "Semnán",
+      "ilam": "Ilam",
+      "chaharmahalBakhtiari": "Chahar Mahal y Bajtiarí",
+      "kohgiluyehBoyerahmad": "Kohgiluyeh y Boyer Ahmad",
+      "northKhorasan": "Jorasán del Norte",
+      "southKhorasan": "Jorasán del Sur"
+    },
+    "degreeLevels": {
+      "bachelor": "Grado",
+      "master": "Máster",
+      "phd": "Doctorado",
+      "certificate": "Certificado"
+    },
+    "upload": {
+      "slots": {
+        "nationalCard": "Imagen de la tarjeta de identidad nacional",
+        "birthCert": "Imagen de la primera página del certificado de nacimiento",
+        "transcriptStudent": "Expediente académico / último título obtenido",
+        "transcriptInstructor": "Último título académico",
+        "resume": "Currículum (archivo)",
+        "other": "Otros documentos (opcional)"
+      }
+    },
+    "actions": {
+      "remove": "Eliminar",
+      "chooseFile": "Seleccionar archivo",
+      "prevStep": "Paso anterior",
+      "nextStep": "Siguiente paso",
+      "submitButton": "Enviar solicitud",
+      "cancelButton": "Cancelar"
+    },
+    "review": {
+      "typeLabel": "Tipo de solicitud",
+      "programLabel": "Programa de estudio",
+      "emptyValue": "—",
+      "fullNameLabel": "Nombre completo",
+      "fatherNameLabel": "Nombre del padre",
+      "nationalIdLabel": "Número de identificación nacional",
+      "birthCertNoLabel": "Número de partida de nacimiento",
+      "birthDateLabel": "Fecha de nacimiento",
+      "genderLabel": "Género",
+      "emailLabel": "Correo electrónico",
+      "phoneLabel": "Teléfono",
+      "provinceCityLabel": "Provincia / Ciudad",
+      "docsCountLabel": "Documentos cargados",
+      "docsCount": "{count, plural, one {# elemento} many {# elementos} other {# elementos}}",
+      "hodaLevelLabel": "Nivel de autenticación (Hoda)",
+      "hodaLevelValue": "{level} de 3"
+    },
+    "errors": {
+      "fileTypeInvalid": "Solo se permiten imágenes (JPG/PNG/WebP) o PDF.",
+      "fileTooLarge": "El tamaño del archivo debe ser inferior a 1,3 MB. Por favor, escanee o tome la foto con menor calidad.",
+      "fileReadFailed": "No se pudo leer el archivo.",
+      "programsFetchFailed": "Error al obtener la lista de programas",
+      "emailInvalidBeforeOtp": "Introduzca primero un correo electrónico válido.",
+      "otpSendFailed": "No se pudo enviar el código. Inténtelo de nuevo.",
+      "otpCodeIncomplete": "Introduzca el código de 6 dígitos completo.",
+      "otpInvalid": "El código es incorrecto o ha caducado. Inténtelo de nuevo.",
+      "otpVerifyFailed": "La verificación no tuvo éxito. Inténtelo de nuevo.",
+      "fileUploadFailed": "No se pudo cargar el archivo.",
+      "fullNameRequired": "El nombre completo es obligatorio.",
+      "fullNameTooLong": "El nombre es demasiado largo.",
+      "fatherNameRequired": "El nombre del padre es obligatorio.",
+      "emailRequired": "El correo electrónico es obligatorio.",
+      "emailInvalidFormat": "El formato del correo electrónico no es válido.",
+      "emailOtpRequired": "Verifique primero su correo electrónico con el código de verificación.",
+      "nationalIdRequired": "El número de identificación nacional es obligatorio.",
+      "nationalIdInvalid": "El número de identificación nacional no es válido (el dígito de control es incorrecto).",
+      "birthCertNoRequired": "El número de partida de nacimiento es obligatorio.",
+      "birthDateRequired": "La fecha de nacimiento es obligatoria (ej.: 1380/05/12).",
+      "genderRequired": "Seleccione el género.",
+      "phoneInvalid": "El número de teléfono no es válido.",
+      "bioTooLong": "La descripción debe tener un máximo de 2000 caracteres.",
+      "programRequired": "La selección del campo de estudio es obligatoria.",
+      "cvUrlInvalid": "La URL del currículum debe comenzar con http(s).",
+      "docRequired": "«{label}» es obligatorio.",
+      "invalidInputFallback": "Entrada no válida.",
+      "incompleteFields": "Algunos campos están incompletos.",
+      "trackingTokenMissing": "No se recibió el código de seguimiento. Póngase en contacto con soporte.",
+      "submitUnknown": "Error desconocido al enviar la solicitud"
+    },
+    "toast": {
+      "reviewFormTitle": "Revisar formulario",
+      "submitFailedTitle": "Envío fallido"
+    },
+    "messages": {
+      "otpSent": "El código de verificación ha sido enviado a su correo electrónico."
+    },
+    "confirmation": {
+      "screenLabel": "Solicitud — Confirmación",
+      "eyebrow": "Enviado",
+      "titleIdempotent": "Su solicitud ya había sido enviada previamente",
+      "title": "Su solicitud ha sido enviada",
+      "referenceLabel": "Su código de seguimiento:",
+      "idLevelPrefix": "Nivel de autenticación (Hoda):",
+      "idLevelSuffix": "de 3",
+      "idLevelNotVerified": "— No verificado",
+      "trackingLinkLabel": "Enlace de seguimiento de estado — Guarde esto",
+      "trackingLinkHelp": "Con este enlace puede ver el estado de la solicitud y cancelarla si es necesario.",
+      "copiedButton": "Copiado ✓",
+      "copyButton": "Copiar enlace",
+      "viewStatusButton": "Ver estado",
+      "nextStepsHeading": "Siguientes pasos",
+      "backHomeButton": "Volver al inicio",
+      "copiedToastTitle": "Copiado",
+      "copiedToastMsg": "El enlace de seguimiento se ha copiado al portapapeles.",
+      "copyFailedToastTitle": "No se pudo copiar",
+      "copyFailedToastMsg": "Seleccione y copie el enlace manualmente."
+    },
+    "timeline": {
+      "submitted": {
+        "title": "Solicitud enviada",
+        "desc": "Su solicitud ha sido enviada y se ha emitido un código de seguimiento."
+      },
+      "review": {
+        "title": "Revisión experta",
+        "desc": "El equipo de admisiones revisará la solicitud y los documentos en aproximadamente 14 días."
+      },
+      "verification": {
+        "title": "Verificación de identidad",
+        "desc": "El resultado de la consulta de identidad (Hoda) está adjunto al expediente."
+      },
+      "decision": {
+        "title": "Decisión final",
+        "desc": "El resultado se notificará a través de esta misma página de seguimiento y por correo electrónico."
+      }
+    }
+  },
+  "reset": {
+    "screenLabel": "Restablecer contraseña",
+    "eyebrow": "Restablecer contraseña",
+    "title": "Establecer nueva contraseña",
+    "validating": "Comprobando enlace…",
+    "invalid": {
+      "body": "Este enlace de restablecimiento no es válido, ha caducado o ya se ha utilizado. Puedes solicitar un nuevo enlace.",
+      "requestNew": "Solicitar nuevo enlace",
+      "backToLogin": "Volver al inicio de sesión"
+    },
+    "form": {
+      "intro": "Establece una nueva contraseña segura (al menos 8 caracteres). Una vez configurada, inicia sesión con la nueva contraseña.",
+      "newPasswordLabel": "Nueva contraseña",
+      "confirmPasswordLabel": "Confirmar contraseña",
+      "submitting": "Guardando…",
+      "submitCta": "Establecer nueva contraseña"
+    },
+    "errors": {
+      "tooShort": "La contraseña debe tener al menos 8 caracteres.",
+      "mismatch": "La contraseña y su confirmación no coinciden.",
+      "submitFailed": "No se pudo restablecer la contraseña. Es posible que el enlace haya caducado o ya se haya utilizado."
+    },
+    "done": {
+      "body": "Tu contraseña se ha cambiado correctamente. Para mayor seguridad, tus sesiones anteriores se han cerrado. Ahora puedes iniciar sesión con tu nueva contraseña.",
+      "loginCta": "Iniciar sesión"
+    }
+  },
+  "claim": {
+    "screenLabel": "Activación de cuenta",
+    "eyebrow": "Activación de cuenta",
+    "title": "Establecer contraseña",
+    "validating": "Comprobando enlace…",
+    "invalid": {
+      "body": "Este enlace de activación no es válido, ha caducado o ya se ha utilizado. Si acabas de ser admitido, revisa tu correo electrónico para obtener un nuevo enlace o ponte en contacto con el soporte técnico.",
+      "loginCta": "Iniciar sesión",
+      "backHome": "Volver al inicio"
+    },
+    "form": {
+      "intro": "Establece una contraseña segura (al menos 8 caracteres) para activar tu cuenta e iniciar sesión.",
+      "passwordLabel": "Contraseña",
+      "confirmPasswordLabel": "Confirmar contraseña",
+      "submitting": "Activando…",
+      "submitCta": "Activar e iniciar sesión"
+    },
+    "errors": {
+      "tooShort": "La contraseña debe tener al menos 8 caracteres.",
+      "mismatch": "La contraseña y su confirmación no coinciden.",
+      "submitFailed": "No se pudo activar la cuenta. Es posible que el enlace haya caducado o ya se haya utilizado."
+    },
+    "toast": {
+      "title": "Bienvenido/a",
+      "msg": "Tu cuenta ha sido activada."
+    },
+    "done": {
+      "body": "Tu contraseña se ha establecido. Ya puedes iniciar sesión en tu cuenta.",
+      "loginCta": "Iniciar sesión"
+    }
+  },
+  "forgot": {
+    "eyebrow": "RECUPERACIÓN",
+    "title": "¿Has olvidado tu contraseña?",
+    "sub": "Introduce tu correo electrónico y te enviaremos un enlace seguro de un solouso para restablecerla.",
+    "sentMessage": "Si este correo está registrado en el sistema, se ha enviado un enlace de restablecimiento. Revisa tu bandeja de entrada (y la carpeta de spam). El enlace es válido durante 1 hora.",
+    "emailLabel": "Correo electrónico registrado",
+    "submitCta": "Enviar enlace de recuperación",
+    "securityNote": {
+      "label": "Seguridad:",
+      "body": "Los enlaces de recuperación solo son válidos durante 1 hora y se pueden usar una sola vez."
+    },
+    "rememberedQuestion": "¿Recordaste tu contraseña?",
+    "backToLogin": "Volver al inicio de sesión",
+    "errors": {
+      "invalidEmail": "El formato del correo electrónico no es válido."
+    }
+  },
+  "twoFactor": {
+    "eyebrow": "SEGURIDAD · Verificación en dos pasos",
+    "title": "Añade una capa adicional de seguridad",
+    "sub": "La autenticación en dos pasos protege tu cuenta contra accesos no autorizados.",
+    "loading": "Preparando…",
+    "errorPhase": {
+      "body": "Para activar la verificación en dos pasos, primero debes iniciar sesión en tu cuenta.",
+      "loginCta": "Iniciar sesión"
+    },
+    "step1": {
+      "label": "Paso 1 · Escanea el código QR con una aplicación de autenticación",
+      "instructions": "Escanea este código QR con Google Authenticator / Authy / 1Password.",
+      "manualEntry": "O introduce la clave manualmente:"
+    },
+    "qrLoading": "Preparando el código QR…",
+    "recoveryCodes": {
+      "intro": "Códigos de recuperación: guárdalos en un lugar seguro. Si pierdes tu dispositivo, estos códigos serán tu única forma de iniciar sesión (solo se muestran una vez)."
+    },
+    "step2": {
+      "label": "Paso 2 · Código de 6 dígitos mostrado en la aplicación"
+    },
+    "codeInputPlaceholder": "123456",
+    "enableCta": "Activar",
+    "skipCta": "Dejar para después · Volver a la configuración",
+    "errors": {
+      "incomplete": "Introduce el código de 6 dígitos de la aplicación.",
+      "enableFailed": "No se pudo activar; comprueba el código."
+    },
+    "done": {
+      "body": "✓ La verificación en dos pasos está activada. A partir de ahora, al iniciar sesión necesitarás el código de la aplicación de autenticación además de tu contraseña.",
+      "reminder": "Asegúrate de haber guardado los códigos de recuperación; son tu única forma de iniciar sesión si pierdes el dispositivo.",
+      "backToSettings": "Volver a la configuración"
+    }
+  },
+  "verifyEmail": {
+    "eyebrow": "VERIFICAR · Verificación de correo electrónico",
+    "title": "Verifica tu correo electrónico",
+    "sub": "Hemos enviado un código de 6 dígitos a tu correo electrónico. Este código es válido durante 10 minutos.",
+    "codeSentPrefix": "Código enviado a",
+    "codeSentSuffix": "",
+    "codeLabel": "Código de 6 dígitos",
+    "digitAriaLabel": "Dígito {index} del código de verificación de 6 dígitos",
+    "submitCta": "Verificar y continuar",
+    "resendQuestion": "¿No recibiste el código?",
+    "resendIn": "Reenviar en 0:42",
+    "note": {
+      "label": "Nota:",
+      "body": "Si no encuentras el correo en tu bandeja de entrada, revisa la carpeta de spam o"
+    },
+    "changeEmailCta": "Cambiar correo electrónico",
+    "errors": {
+      "incomplete": "Introduce el código de 6 dígitos completo."
+    }
+  },
+  "onboarding": {
+    "steps": {
+      "level": "Nivel",
+      "interests": "Intereses",
+      "goals": "Objetivos",
+      "ready": "Listo"
+    },
+    "progress": {
+      "label": "Paso {step} de {total} · {stepName}"
+    },
+    "skipCta": "Omitir",
+    "level": {
+      "title": "¿Cuál es tu nivel actual en machine learning?",
+      "subtitle": "Esto nos ayuda a crear un plan personalizado para ti. Sin preocupaciones: puedes cambiarlo más adelante.",
+      "options": {
+        "novice": {
+          "title": "Principiante",
+          "desc": "No tengo experiencia, quiero empezar desde cero"
+        },
+        "beginner": {
+          "title": "Básico",
+          "desc": "Conozco los conceptos básicos, sé Python"
+        },
+        "intermediate": {
+          "title": "Intermedio",
+          "desc": "He implementado algunos modelos clásicos, he trabajado con scikit-learn"
+        },
+        "advanced": {
+          "title": "Avanzado",
+          "desc": "Trabajo en deep learning, tengo experiencia con PyTorch/TF"
+        },
+        "professional": {
+          "title": "Profesional",
+          "desc": "Tengo experiencia en la industria o en investigación"
+        }
+      },
+      "continueCta": "Continuar"
+    },
+    "interests": {
+      "title": "¿Qué te resulta interesante?",
+      "subtitle": "Selecciona al menos 3 intereses. Con base en esto, te sugeriremos cursos, artículos y eventos.",
+      "tags": {
+        "nlp": "Procesamiento de lenguaje natural",
+        "vision": "Visión artificial",
+        "data": "Ciencia de datos",
+        "stats": "Estadística y probabilidad",
+        "rl": "Aprendizaje por refuerzo",
+        "sys": "Sistemas distribuidos",
+        "se": "Ingeniería de software",
+        "pm": "Gestión de productos",
+        "ux": "Experiencia de usuario",
+        "ethics": "Ética de AI",
+        "math": "Matemáticas aplicadas",
+        "lin": "Lingüística computacional"
+      },
+      "selectedCount": "{count, plural, one {# seleccionado} many {# seleccionados} other {# seleccionados}}",
+      "continueCta": "Continuar"
+    },
+    "goals": {
+      "title": "¿Cuál es tu objetivo principal?",
+      "subtitle": "Esto ajusta la forma en que se sugieren los cursos.",
+      "options": {
+        "career": {
+          "title": "Cambio de carrera profesional",
+          "desc": "Entrar en el campo de AI/Data"
+        },
+        "promo": {
+          "title": "Crecimiento en el empleo actual",
+          "desc": "Promoción y nuevas habilidades"
+        },
+        "research": {
+          "title": "Investigación académica",
+          "desc": "Preparación para el doctorado"
+        },
+        "project": {
+          "title": "Construir un proyecto",
+          "desc": "Idea personal o startup"
+        },
+        "curiosity": {
+          "title": "Curiosidad personal",
+          "desc": "Quiero saber cómo funciona"
+        },
+        "cert": {
+          "title": "Certificado para el empleador",
+          "desc": "Necesito una credencial oficial"
+        }
+      },
+      "continueCta": "Continuar"
+    },
+    "ready": {
+      "heading": "Tu perfil ha sido creado",
+      "body": "Tu perfil cognitivo inicial se ha creado con más de 24 indicadores. La AI está lista para sugerir tu ruta de aprendizaje personalizada.",
+      "card": {
+        "label": "Primera sugerencia",
+        "courseTitle": "Fundamentos de Machine Learning — CS-410",
+        "meta": "Dr. Arash Azimi · 12 semanas · 92% de probabilidad de éxito con dominio"
+      },
+      "saving": "Guardando...",
+      "startCta": "Empezar a aprender"
+    }
+  },
+  "authChrome": {
+    "login": {
+      "testimonial": {
+        "quote": "Fue la primera vez que sentí que tenía un verdadero asistente educativo. El perfil cognitivo sabe dónde me he quedado atascada y qué debo hacer.",
+        "avatarInitials": "NR",
+        "name": "Nasrin Razavi",
+        "role": "Máster · Ciencia de datos"
+      },
+      "headline": {
+        "line1": "Aprendizaje personalizado,",
+        "line2": "a escala universitaria"
+      },
+      "stats": "2.4M+ eventos de aprendizaje · 99.9% de uptime"
+    },
+    "security": {
+      "headline": {
+        "line1": "La seguridad es lo primero",
+        "line2": "desde el primer día"
+      },
+      "bullets": {
+        "encryption": {
+          "title": "Cifrado de extremo a extremo",
+          "desc": "Todos los datos se cifran de origen a destino"
+        },
+        "sessions": {
+          "title": "Sesiones controlables",
+          "desc": "Puedes cerrar cualquier sesión de forma remota"
+        },
+        "weeklyReport": {
+          "title": "Informe de seguridad semanal",
+          "desc": "Resumen de actividades sospechosas en tu correo"
+        }
+      }
+    }
+  }
+}

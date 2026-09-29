@@ -1,0 +1,951 @@
+{
+  "schools": {
+    "hero": {
+      "counts": "8 个学院 · 248 个项目",
+      "titleLead": "一所完整的大学，",
+      "titleAccent": "全面数字化",
+      "lead": "从工程学和医学到人文学科与艺术。5 个学历层次的 248 个学术项目 —— 全部配备直播课堂、虚拟实验室以及可验证的证书。"
+    },
+    "help": {
+      "title": "学院指南",
+      "body": "在此页面中，您可以查看大学的学院和学术项目列表。点击任意学院即可查看其相关项目；页面底部还列出了五个学历层次及每个层次的项目数量。"
+    },
+    "card": {
+      "aria": "{school}学院 · {programs, number}个项目",
+      "featured": "特色项目",
+      "programs": "{count, plural, other {# 个项目}}",
+      "faculty": "{count, plural, other {# 名教师}}",
+      "students": "{count, plural, other {# 名学生}}",
+      "labs": "{count, plural, other {# 个实验室}}",
+      "view": "查看 →"
+    },
+    "levels": {
+      "eyebrow": "学历层次",
+      "title": "五个学历层次",
+      "activePrograms": "{count, plural, other {# 个进行中的项目}}"
+    },
+    "level": {
+      "AS": "副学士",
+      "BS": "学士",
+      "MS": "硕士",
+      "PHD": "博士",
+      "MD": "M.D",
+      "CERT": "专业证书"
+    }
+  },
+  "calendar": {
+    "hero": {
+      "eyebrow": "日历",
+      "title": "日历",
+      "lead": "您的官方校历活动与每周课程表 — 全部基于波斯历。"
+    },
+    "newEvent": "新建活动",
+    "help": {
+      "title": "日历指南",
+      "body": "月历以波斯历日期显示官方活动（学期起止、考试、假期和截止日期）；点击任意日期即可查看当天的活动。在“每周课程表”部分，将根据星期几（从周六到周五）和时间显示您当前学期的课程。",
+      "staff": "作为管理员，您可以创建新活动，以及编辑或删除活动。"
+    },
+    "error": {
+      "generic": "发生错误"
+    },
+    "range": "{from} 至 {to}",
+    "list": {
+      "titleForDay": "{day}的活动",
+      "titleUpcoming": "即将到来的活动"
+    },
+    "category": {
+      "academic": "学术",
+      "holiday": "假期",
+      "exam": "考试",
+      "event": "活动",
+      "deadline": "截止日期"
+    },
+    "weekday": {
+      "0": "周六",
+      "1": "周日",
+      "2": "周一",
+      "3": "周二",
+      "4": "周三",
+      "5": "周四",
+      "6": "周五"
+    },
+    "events": {
+      "title": "日历事件",
+      "showUpcoming": "显示即将到来的事件",
+      "loading": "正在加载事件…",
+      "emptyAll": "日历中尚无记录的事件。",
+      "emptyDay": "这一天没有事件。",
+      "emptyUpcoming": "没有即将到来的事件。",
+      "edit": "编辑",
+      "editAria": "编辑 {title}",
+      "delete": "删除",
+      "deleteAria": "删除 {title}"
+    },
+    "week": {
+      "title": "每周日程",
+      "titleTeaching": "每周教学日程",
+      "signIn": "请登录以查看每周日程。",
+      "loading": "正在加载每周日程…",
+      "emptyInstructor": "本学期未为您分配具有指定时间的课程。",
+      "emptyStudent": "您的日程中本学期没有指定时间的课程。选课完成后，每周日程将在此处显示。",
+      "today": "今天",
+      "sessions": "{count, plural, other {# 节课}}",
+      "credits": "{count, plural, other {# 学分}}"
+    },
+    "form": {
+      "titleAdd": "添加事件",
+      "titleEdit": "编辑事件",
+      "close": "关闭",
+      "title": "事件标题",
+      "titlePlaceholder": "例如：第二学期选课开始",
+      "category": "分类",
+      "startDate": "开始日期",
+      "endDate": "结束日期（可选）",
+      "endDateAria": "结束日期",
+      "endDatePlaceholder": "无结束日期",
+      "audience": "受众（可选）",
+      "audiencePlaceholder": "例如：所有学院",
+      "description": "描述（可选）",
+      "descriptionPlaceholder": "事件详情…",
+      "saving": "正在保存…",
+      "saveEdit": "保存更改",
+      "saveNew": "保存事件",
+      "cancel": "取消",
+      "errTitle": "事件标题必须至少包含 2 个字符。",
+      "errStart": "请选择开始日期。",
+      "errEndBeforeStart": "结束日期不能早于开始日期。"
+    },
+    "delete": {
+      "title": "删除事件",
+      "body": "确定要删除事件“{title}”吗？此操作无法撤销。",
+      "deleting": "正在删除…",
+      "confirm": "删除"
+    }
+  },
+  "library": {
+    "type": {
+      "guide": "指南",
+      "template": "模板",
+      "video": "视频",
+      "link": "链接",
+      "document": "文档",
+      "book": "图书"
+    },
+    "error": {
+      "generic": "发生错误"
+    },
+    "hero": {
+      "eyebrow": "数字图书馆",
+      "title": "数字图书馆",
+      "lead": "精选课程资源——文章、图书、视频、模板、指南和链接。每个资源均指向其原始网址，可通过搜索和分类进行访问。"
+    },
+    "addResource": "添加资源",
+    "help": {
+      "title": "图书馆管理",
+      "body": "作为内容管理员，您可以添加新资源：标题、URL 和资源类型为必填项；作者、描述、标签、语言和级别为可选项。“草稿”状态的资源仅对管理员可见；启用“已发布”后，资源将对所有用户可见。"
+    },
+    "cats": {
+      "title": "分类",
+      "all": "全部"
+    },
+    "search": {
+      "placeholder": "搜索图书馆 — 标题、作者、描述、标签",
+      "aria": "搜索图书馆"
+    },
+    "list": {
+      "title": "最新资源",
+      "results": "{count, plural, other {# 个结果}}",
+      "loading": "正在加载资源…",
+      "emptyAll": "图书馆中尚无资源。",
+      "emptySearch": "未找到符合该搜索的资源。"
+    },
+    "card": {
+      "draft": "草稿",
+      "open": "打开资源",
+      "openAria": "打开 {title}",
+      "edit": "编辑",
+      "editAria": "编辑 {title}",
+      "delete": "删除",
+      "deleteAria": "删除 {title}"
+    },
+    "form": {
+      "titleAdd": "添加资源",
+      "titleEdit": "编辑资源",
+      "close": "关闭",
+      "title": "标题",
+      "titlePlaceholder": "例如：Python 入门指南",
+      "url": "URL",
+      "type": "资源类型",
+      "author": "作者 / 来源",
+      "optional": "可选",
+      "description": "说明",
+      "tag": "标签",
+      "tagPlaceholder": "例如：ML",
+      "language": "语言",
+      "languagePlaceholder": "波斯语 / 英语",
+      "level": "级别",
+      "levelPlaceholder": "本科 / 研究生",
+      "published": "已发布（所有用户可见）",
+      "saving": "正在保存…",
+      "saveEdit": "保存更改",
+      "saveNew": "添加资源",
+      "cancel": "取消",
+      "errTitle": "请输入资源标题。",
+      "errUrl": "请输入资源 URL。"
+    },
+    "delete": {
+      "title": "删除资源",
+      "body": "确定要删除此资源吗？该资源将从资料库中移除。",
+      "deleting": "正在删除…",
+      "confirm": "删除"
+    }
+  },
+  "faculty": {
+    "hero": {
+      "eyebrow": "教职员工",
+      "title": "大学教职员工",
+      "loading": "正在加载教职员工…",
+      "lead": "{schools, number} 个学院共有 {members, number} 名教职员工 — 每位成员的职称、所属教研室和专业领域均根据真实履历展示。"
+    },
+    "help": {
+      "title": "教职员工指南",
+      "body": "每所大学和学院都有自己的教职员工团队。点击任意学院名称可仅查看该学院的成员。每位成员的职称（助理教授/副教授/正教授）、教研室、专业领域和课程数量均读取自系统的真实数据。"
+    },
+    "error": {
+      "load": "加载教职员工失败"
+    },
+    "filter": {
+      "all": "全部"
+    },
+    "loading": "正在加载…",
+    "emptyAll": "暂无教职员工记录。管理员可通过“教师”板块添加成员。",
+    "emptySchool": "未找到该学院的成员。",
+    "card": {
+      "courses": "{count, plural, other {# 门授课}}"
+    },
+    "status": {
+      "sabbatical": "学术休假",
+      "active": "在职"
+    }
+  },
+  "labs": {
+    "discipline": {
+      "physics": "物理学",
+      "chemistry": "化学",
+      "biology": "生物学",
+      "cs": "计算机科学",
+      "engineering": "工程学",
+      "medical": "医学",
+      "other": "其他"
+    },
+    "difficulty": {
+      "basic": "初级",
+      "intermediate": "中级",
+      "advanced": "高级",
+      "unknown": "未知"
+    },
+    "status": {
+      "in_progress": "进行中",
+      "submitted": "已提交",
+      "graded": "已评分"
+    },
+    "retry": "重试",
+    "reload": "重新加载",
+    "loading": "加载中…",
+    "close": "关闭",
+    "cancel": "取消",
+    "view": "查看",
+    "resume": "继续",
+    "student": "学生",
+    "experiment": "实验",
+    "sentAt": "提交时间：{at}",
+    "minutes": "{count, plural, other {# 分钟}}",
+    "steps": "{count, plural, other {# 步骤}}",
+    "objectives": "{count, plural, other {# 个目标}}",
+    "sim": {
+      "ohm": {
+        "volts": "{value} 伏",
+        "lamp": "负载灯泡",
+        "voltage": "电源电压 V",
+        "unitVolt": "伏",
+        "resistance": "负载电阻 R",
+        "unitOhm": "欧姆",
+        "current": "电流 I",
+        "power": "功率 P",
+        "law": "公式"
+      },
+      "titration": {
+        "burette": "滴定管（0.1M 氢氧化钠）",
+        "volume": "已添加碱液体积",
+        "equivalence": "当量点",
+        "indicator": "指示剂颜色",
+        "pink": "粉红色",
+        "colorless": "无色",
+        "state": "状态",
+        "atEquivalence": "当量点",
+        "basic": "碱性",
+        "acidic": "酸性"
+      },
+      "projectile": {
+        "path": "抛射体轨迹",
+        "angle": "发射角 θ",
+        "unitDegree": "度",
+        "speed": "初速度 v₀",
+        "range": "射程 R",
+        "maxHeight": "最大高度",
+        "flightTime": "飞行时间",
+        "optimal": "✓ 45度角可产生最大射程。"
+      },
+      "pendulum": {
+        "title": "单摆",
+        "length": "摆长 L",
+        "gravity": "重力加速度 g",
+        "period": "周期 T",
+        "frequency": "频率 f",
+        "planet": "星球",
+        "moon": "月球",
+        "jupiter": "木星",
+        "earth": "地球"
+      },
+      "ecg": {
+        "title": "心电图",
+        "bradycardia": "心动过缓",
+        "tachycardia": "心动过速",
+        "normal": "正常",
+        "heartRate": "心率",
+        "beat": "心跳",
+        "rrInterval": "R-R 间期",
+        "reading": "读数"
+      }
+    },
+    "player": {
+      "errLoad": "加载实验报告失败。",
+      "errSubmit": "提交报告失败，请重试。",
+      "saving": "正在保存…",
+      "saved": "已保存 ✓",
+      "saveFailed": "保存失败",
+      "loading": "正在加载报告…",
+      "objectives": "实验目标",
+      "materials": "材料与工具",
+      "gradedTitle": "您的报告已批改",
+      "scoreLabel": "得分：{score}",
+      "feedbackLabel": "教师反馈：",
+      "submittedNotice": "报告已提交，等待批改。",
+      "stepOf": "第 {current, number} 步，共 {total, number} 步",
+      "answeredPct": "已回答 {pct}",
+      "stepAria": "第 {n, number} 步",
+      "answerPlaceholder": "在此输入您的观察或回答…",
+      "noSteps": "此实验暂无步骤。",
+      "prevStep": "上一步",
+      "nextStep": "下一步",
+      "submit": "提交报告",
+      "confirmTitle": "确认提交报告？",
+      "confirmBody": "提交后报告将锁定且无法再编辑，并将发送给教师进行批改。",
+      "submitting": "正在提交…",
+      "submitConfirm": "确认提交"
+    },
+    "grade": {
+      "errScore": "分数必须是 0 到 100 之间的数字。",
+      "saved": "分数已保存",
+      "errSave": "保存分数失败，请重试。",
+      "reportOf": "{student} 的报告",
+      "submittedAt": "提交时间：{at}",
+      "noAnswer": "— 暂无回答 —",
+      "scoreLabel": "分数（0 到 100）",
+      "feedbackLabel": "反馈",
+      "feedbackPlaceholder": "在此为学生填写反馈…",
+      "saving": "正在保存…",
+      "save": "保存分数"
+    },
+    "review": {
+      "errLoad": "加载批改队列失败。",
+      "title": "实验报告批改",
+      "labLabel": "实验：",
+      "labSelect": "选择实验",
+      "pending": "等待批改",
+      "emptyPending": "没有需要批改的已提交报告。",
+      "grade": "批改",
+      "graded": "已批改"
+    },
+    "myReports": {
+      "errLoad": "加载您的报告失败。",
+      "title": "我的实验报告",
+      "empty": "您还没有报告。请打开一个实验，执行步骤并写下您的观察结果。",
+      "gradedAt": "批改时间：{at}",
+      "sentAt": "提交时间：{at}"
+    },
+    "errLoadCatalog": "加载实验室失败。",
+    "errTitle": "错误",
+    "errBookmark": "保存失败，请重试。",
+    "eyebrow": "虚拟实验室 · §6/§14",
+    "title": "虚拟实验室",
+    "lead": "步步执行各学科的结构化实验：包括目标与材料、每步指导、交互式仿真以及自动保存的观察记录框。最后，提交报告供讲师批改。",
+    "search": {
+      "placeholder": "搜索标题、摘要或目标……",
+      "aria": "搜索实验",
+      "clear": "清空搜索"
+    },
+    "filter": {
+      "all": "全部"
+    },
+    "loadingCatalog": "正在加载实验……",
+    "emptyFiltered": "没有找到符合这些筛选条件的实验。",
+    "clearFilters": "清除筛选条件",
+    "foundCount": "{count, plural, other {找到 # 个实验室}}",
+    "bookmark": "收藏",
+    "run": "运行实验"
+  },
+  "officeHours": {
+    "day": {
+      "0": "周六",
+      "1": "周日",
+      "2": "周一",
+      "3": "周二",
+      "4": "周三",
+      "5": "周四",
+      "6": "周五"
+    },
+    "mode": {
+      "online": "线上",
+      "inPerson": "线下"
+    },
+    "unknownInitial": "？",
+    "loading": "正在加载……",
+    "close": "关闭",
+    "back": "返回",
+    "edit": "编辑",
+    "delete": "删除",
+    "cancelAction": "取消",
+    "error": {
+      "load": "加载答疑时间出错",
+      "book": "预约时段出错",
+      "cancel": "取消预约出错",
+      "save": "保存答疑时间出错",
+      "delete": "删除答疑时间出错"
+    },
+    "student": {
+      "eyebrow": "学生服务 · §6",
+      "title": "教师答疑时间",
+      "lead": "查看教师的答疑时间，并预约线下或线上会面。",
+      "help": {
+        "title": "教师答疑时间指南",
+        "body": "在“洏览教师”中，您可以查看每位教师的空闲时闵；点击某个时段并填写会面主题即可完成预约。您的已预约时段可在“我的预约”中查看和取消。"
+      }
+    },
+    "stat": {
+      "instructors": "{count, plural, other {# 位教师}}",
+      "free": "{count, plural, other {# 个空闲名额}}",
+      "mine": "{count, plural, other {# 个我的预约}}"
+    },
+    "tab": {
+      "browse": "浏览教师",
+      "mine": "我的预约"
+    },
+    "search": {
+      "placeholder": "按教师姓名或学院搜索…",
+      "aria": "搜索",
+      "clear": "清除"
+    },
+    "empty": {
+      "noSlots": "当前没有可用的答疑时间。",
+      "noMatch": "未找到结果。"
+    },
+    "slot": {
+      "fullTitle": "此预约已满",
+      "bookTitle": "预订此时间段",
+      "full": "已满",
+      "bookedOf": "已预约 {booked}/{capacity}"
+    },
+    "mine": {
+      "empty": "您还没有进行任何预约。",
+      "booked": "已预约",
+      "topicLabel": "主题：",
+      "cancel": "取消预约"
+    },
+    "book": {
+      "aria": "预约时间",
+      "title": "预约会面时间",
+      "topicLabel": "会面主题（可选）",
+      "topicPlaceholder": "例如：第三次作业答疑、期末项目相关问题…",
+      "saving": "正在保存…",
+      "confirm": "确认预约"
+    },
+    "cancelDialog": {
+      "body": "您确定要取消与 {instructor} 的预约吗？此时间段将重新开放。",
+      "thisInstructor": "这位教师",
+      "canceling": "正在取消…",
+      "confirm": "是的，取消预约"
+    },
+    "instructor": {
+      "eyebrow": "教职员工 · §۶",
+      "title": "我的答疑时间",
+      "lead": "设置您的每周答疑时间，供学生进行预约。",
+      "newSlot": "添加答疑时间",
+      "help": {
+        "title": "答疑时间指南",
+        "body": "通过“添加答疑时间”设置您的每周答疑时间（包括日期、时间、线上/线下及名额）。学生将通过这些时间进行预约；您可以通过“预约”查看每个时间段的学生名单。"
+      },
+      "empty": "您尚未设置任何答疑时间。",
+      "addFirst": "添加第一个答疑时间",
+      "slotCount": "{count, plural, other {# 个时段}}",
+      "inactive": "未激活",
+      "bookings": "预约列表",
+      "noteLabel": "备注：",
+      "loadingBookings": "正在加载预约…",
+      "noBookings": "尚无学生预约此答疑时间。",
+      "colStudent": "学生",
+      "colTopic": "主题"
+    },
+    "form": {
+      "aria": "答疑时间",
+      "titleEdit": "编辑答疑时间",
+      "day": "星期",
+      "start": "开始时间",
+      "end": "结束时间",
+      "mode": "类型",
+      "capacity": "容量",
+      "linkOrPlace": "链接 / 地点（可选）",
+      "place": "地点（可选）",
+      "linkPlaceholder": "例如：在线会议链接",
+      "placePlaceholder": "例如：技术楼 214 室",
+      "note": "备注（可选）",
+      "notePlaceholder": "例如：仅限数据结构课程的学生",
+      "errTime": "请输入有效的开始和结束时间。",
+      "errOrder": "结束时间必须晚于开始时间。",
+      "errCapacity": "容量必须是不小于 1 的整数。",
+      "saving": "正在保存…",
+      "save": "保存"
+    },
+    "del": {
+      "title": "删除答疑时间",
+      "body": "确定要删除答疑时间 {slot} 吗？",
+      "alsoCancels": "该时段已预约的预约也将被取消。",
+      "deleting": "正在删除…"
+    }
+  },
+  "calendarPage": {
+    "type": {
+      "meeting": "课程",
+      "exam": "考试",
+      "assignment": "作业",
+      "term": "学期时段",
+      "event": "活动",
+      "personal": "个人"
+    },
+    "day": {
+      "0": "星期六",
+      "1": "星期日",
+      "2": "星期一",
+      "3": "星期二",
+      "4": "星期三",
+      "5": "星期四",
+      "6": "星期五"
+    },
+    "examSubtitle": "考试 · {time}",
+    "dateRange": "{from} 至 {to}",
+    "process": {
+      "registration": "选课",
+      "addDrop": "选退课",
+      "emergencyDrop": "紧急退课",
+      "exams": "考试",
+      "gradeEntry": "录入成绩"
+    },
+    "error": {
+      "load": "加载日历失败",
+      "delete": "删除日程失败",
+      "save": "保存日程失败",
+      "feedUnavailable": "订阅链接不可用。",
+      "feedFetch": "获取订阅链接失败"
+    },
+    "delete": {
+      "title": "删除个人日程",
+      "body": "日程“{title}”将被删除，且无法恢复。",
+      "confirm": "删除日程"
+    },
+    "toast": {
+      "deleted": "日程已删除",
+      "deleteFailed": "删除失败",
+      "updated": "日程已更新",
+      "added": "日程已添加",
+      "urlCopied": "链接已复制",
+      "urlCopiedBody": "日历订阅链接已复制到剪贴板。",
+      "copyFailed": "复制失败",
+      "copyFailedBody": "无法复制链接，请手动复制。"
+    },
+    "eyebrow": "日历",
+    "title": "我的日历",
+    "subtitle": {
+      "parent": "您孩子的学术日历",
+      "instructor": "您的授课日程、考试和教学活动",
+      "student": "您的课程、考试、作业和日程——尽在一处"
+    },
+    "action": {
+      "newEvent": "日程",
+      "subscribe": "订阅日历",
+      "termWindows": "学期时间段"
+    },
+    "viewSwitcher": "日历视图",
+    "view": {
+      "month": "月",
+      "week": "周",
+      "list": "列表"
+    },
+    "help": {
+      "title": "日历帮助",
+      "body": "此日历将您的所有日程汇聚一处：每周课程、考试、作业截止时间、重要学期时段和学校活动。您可以通过“月”、“周”和“列表”切换视图，点击任意一天查看当天的日程，或点击具体日程前往其详情页面。"
+    },
+    "child": {
+      "unnamed": "学生"
+    },
+    "filterLabel": "日程类型筛选",
+    "filter": {
+      "all": "全部"
+    },
+    "dayPanel": {
+      "label": "当日日程",
+      "pickDay": "选择一天",
+      "count": "{count, plural, other {# 项}}",
+      "addAria": "为这天添加事件",
+      "addTitle": "添加事件",
+      "hint": "点击日历中的某一天以查看该天的事件。",
+      "empty": "这天没有事件。",
+      "addPersonal": "个人事件"
+    },
+    "loading": "正在加载…",
+    "week": {
+      "title": "每周课程表",
+      "empty": "该时间段无可显示的课程。",
+      "rowLabel": "课程"
+    },
+    "list": {
+      "title": "连续事件",
+      "empty": "该时间段无事件。",
+      "today": "今天"
+    },
+    "dialog": {
+      "errTitleRequired": "请输入事件标题。",
+      "errTitleLong": "标题长度不能超过 {max, number} 个字符。",
+      "errDateRequired": "请选择事件日期。",
+      "errStartRequired": "请输入开始时间或启用“全天”。",
+      "errEndBeforeStart": "结束时间必须晚于开始时间。",
+      "errNoteLong": "备注长度不能超过 {max, number} 个字符。",
+      "editTitle": "编辑个人事件",
+      "newTitle": "新建个人事件",
+      "close": "关闭",
+      "title": "标题",
+      "titlePlaceholder": "例如：小组学习会议",
+      "date": "日期",
+      "dateAria": "事件日期",
+      "allDay": "全天",
+      "from": "自",
+      "to": "至",
+      "note": "备注（可选）",
+      "notePlaceholder": "简短说明…",
+      "cancel": "取消",
+      "saving": "正在保存…",
+      "saveChanges": "保存曵改",
+      "add": "添加事件"
+    },
+    "subscribe": {
+      "heading": "订阅日历",
+      "intro": "您可以使用此链接将日历“订阅” (Subscribe)到 Google Calendar 或苹果/移动端日历中，以便自动更新课程、考试和个人事件。",
+      "preparing": "正在准备…",
+      "copied": "已复制",
+      "copy": "复制",
+      "download": "下载 .ics 文件",
+      "howtoBefore": "提示：在 Google 日历中选择“其他日历 → 来自 URL”，在苹果日历中选择“文件 → 新建日历订阅”，并输入此链接。若要一次性添加所有活动，请下载",
+      "howtoAfter": "并打开它。",
+      "rotate": "作废旧链接并生成新链接",
+      "rotateWarning": "旧链接将不再显示您的日历。若要继续同步，请在您的日历应用中替换为新链接。之前已下载的活动不会被删除。",
+      "rotateConfirm": "我知道之前的订阅需要使用新链接重新设置。",
+      "rotating": "正在作废旧链接…",
+      "rotated": "旧链接已作废。新链接已准备好复制。",
+      "rotateFailed": "更改链接的结果未知。请重新获取当前地址。",
+      "refresh": "获取当前链接"
+    },
+    "chip": {
+      "allDay": "全天",
+      "edit": "编辑 {title}",
+      "delete": "删除 {title}"
+    }
+  },
+  "parentDash": {
+    "errLoad": "加载失败。",
+    "loading": "正在加载…",
+    "childFallback": "孩子",
+    "title": "家长门户",
+    "subtitle": "与大学保持联系 · 真实数据",
+    "childPickerAria": "选择孩子",
+    "gradePercent": "{value, number}%",
+    "mood": {
+      "improving": "有所改善",
+      "steady": "保持稳定",
+      "declining": "有所下滑",
+      "unknown": "暂无数据"
+    },
+    "wellness": {
+      "title": "孩子心理健康",
+      "intro": "这是对 {name} 近期状态的总体支持性概览；这仅作“筛查”参考，并非临床诊断，也不会展示回答的隐私细节。",
+      "empty": "暂无显示信息。",
+      "moodLabel": "近期状态：",
+      "dimsLabel": "自测总结：",
+      "dimFallback": "自测",
+      "dimsEmpty": "暂无自测结果可供显示。",
+      "supportAria": "支持孩子",
+      "supportTitle": "陪伴您的孩子",
+      "supportBody": "这段时间给予温和的陪伴、善解人意的倾听以及不带评判的对话会非常有帮助。如有需要，您也可以和孩子一起联系大学心理咨询中心。",
+      "contactCta": "与大学/咨询师沟通"
+    },
+    "status": {
+      "graded": "已评分",
+      "submitted": "已提交，等待评分",
+      "pending": "尚未完成"
+    },
+    "academic": {
+      "title": "孩子的考试与作业",
+      "intro": "这是 {name} 已发布测验与作业及其状态的摘要；为保护隐私，不显示试题与学生的回答。",
+      "exams": "测验",
+      "examsEmpty": "没有可显示的已发布测验。",
+      "whenExam": "日期",
+      "assignments": "作业",
+      "assignmentsEmpty": "没有可显示的已发布作业。",
+      "whenAssignment": "截止时间"
+    },
+    "kpi": {
+      "unread": "未读通知",
+      "total": "总通知数",
+      "newConvos": "有新消息的对话",
+      "children": "已关联的子女"
+    },
+    "help": {
+      "title": "家长门户指南",
+      "body": "您可以通过此页面与大学和教师保持联系，并查看未读通知和消息。点击“给教师/大学发消息”以发送消息，点击“通知”以查看公告。"
+    },
+    "quick": {
+      "inbox": "通知",
+      "messages": "给教师/大学发消息"
+    },
+    "activity": {
+      "title": "子女学业活动",
+      "noChild": "您的账号尚未关联任何子女。如需将学生关联至家长账号，请联系大学支持团队。"
+    }
+  },
+  "membership": {
+    "directory": {
+      "disabled": {
+        "title": "成员名录当前已禁用",
+        "body": "组织管理员已关闭名录显示。开启后，允许公开显示成员将在此处显示。"
+      },
+      "eyebrow": "成员",
+      "title": "成员名录",
+      "lead": "明确同意在名录中显示个人资料的成员。",
+      "help": {
+        "title": "帮助",
+        "body": "此列表仅显示具有有效会员资格或处于宽限期（会员资格到期后访问权限尚未切断的额外几天），且明确同意在名录中显示其信息的成员。若要将自己添加到此列表中，请在“我的会员资格”中给予同意，并在设置的“隐私”选项卡中打开相关开关。"
+      },
+      "retry": "重试",
+      "searchPlaceholder": "搜索姓名…",
+      "searchAria": "搜索成员姓名",
+      "filterAria": "按专业领域筛选",
+      "allFields": "所有专业领域",
+      "loading": "正在加载…",
+      "noName": "无姓名",
+      "memberFallback": "名录成员",
+      "prev": "上一页",
+      "next": "下一页",
+      "selectHint": "从列表中选择一名成员以查看其详细信息。",
+      "since": "加入时间：{when}",
+      "viewProfile": "查看公开个人资料",
+      "about": "关于我",
+      "links": "链接",
+      "portfolio": "作品集",
+      "projectView": "查看",
+      "projectRepo": "代码仓库",
+      "endorsements": "技能背书",
+      "endorsedByMe": "您已为该技能背书"
+    },
+    "steps": {
+      "request": {
+        "title": "1) 申请成为会员",
+        "what": "选择您的专业领域（可选）并提交会员申请。",
+        "cta": "提交会员申请"
+      },
+      "review": {
+        "title": "2) 身份审核",
+        "what": "会员管理员将审核您的申请并验证您的身份。",
+        "cta": "等待管理员审核",
+        "lockedBecause": "您必须先提交会员申请。"
+      },
+      "payment": {
+        "title": "3) 支付",
+        "what": "选择会员方案并通过钱包进行支付。",
+        "cta": "从钱包支付",
+        "lockedBecause": "您必须先通过身份验证。"
+      },
+      "activation": {
+        "title": "4) 激活",
+        "what": "付款后您的会员资格将立即激活，并且您将被加入相关专业领域的群组。",
+        "cta": "自动激活",
+        "lockedBecause": "您必须先完成支付。"
+      },
+      "card": {
+        "title": "5) 会员卡",
+        "what": "您的有效会员卡，包含到期日和所购方案。",
+        "cta": "查看会员卡",
+        "lockedBecause": "必须先激活会员资格。"
+      }
+    },
+    "status": {
+      "pending": "等待身份验证",
+      "verified": "身份已验证 — 准备支付",
+      "active": "已激活",
+      "renewal_due": "需要续费",
+      "grace": "宽限期",
+      "lapsed": "已失效",
+      "suspended": "已暂停",
+      "revoked": "已撤销"
+    },
+    "help": {
+      "button": "帮助",
+      "title": "“我的会员”指南",
+      "intro": "此页面逐步展示了您从申请到获得激活会员卡的专业会员之旅。会员资格并非免费，身份验证通过后，需通过钱包付款进行激活。",
+      "youCan": {
+        "1": "申请成为会员并选择您的专业领域。",
+        "2": "身份验证通过后，选择方案并完成支付。",
+        "3": "查看您的有效会员卡及到期时间。",
+        "4": "随时开启或关闭在会员目录中展示的授权。",
+        "5": "如果会员资格过期，您可以直接在此页面跟进续费。"
+      },
+      "ifEmpty": "如果您尚未注册会员，您将看到“申请成为会员”表单 — 您可以在那里选择专业领域并提交申请。",
+      "sections": {
+        "youCan": "您在这里可以做什么？",
+        "ifEmpty": "如果页面为空",
+        "chain": "完整流程，从头到尾",
+        "roles": "各司其职",
+        "glossary": "词汇表"
+      },
+      "chain": {
+        "1": "您提交会员申请（专业领域可选）。",
+        "2": "会员运营人员将审核并验证您的身份。",
+        "3": "您选择一个方案并通过钱包支付。",
+        "4": "您的会员资格将立即激活，并签发会员卡。",
+        "5": "在期满临近时，您会看到续费提醒；若未续费，将进入宽限期，随后过期。"
+      },
+      "roles": {
+        "member": {
+          "label": "您（会员）",
+          "does": "提交申请、支付费用、管理目录授权。"
+        },
+        "operator": {
+          "label": "会员运营",
+          "does": "审核并验证申请身份。"
+        },
+        "manager": {
+          "label": "会员经理",
+          "does": "执行暂停、恢复和注销操作，并编写“计划”设置。"
+        },
+        "finance": {
+          "label": "财务经理",
+          "does": "在“资金”部分设置折扣、上限和会员优惠券策略。"
+        }
+      },
+      "glossary": {
+        "grace": {
+          "term": "宽限期",
+          "meaning": "会员过期后紧接着的短短几天，此时会员资格仍被视为有效，以便您有时间进行续费。"
+        },
+        "card": {
+          "term": "会员卡",
+          "meaning": "您有效会员资格的摘要——包含方案、到期日和状态——在会员资格有效时显示。"
+        }
+      }
+    },
+    "empty": {
+      "lapsed": {
+        "title": "您的会员资格已过期",
+        "body": "过期会员尚不支持自动重新激活。要继续会员资格并重新访问专业群组和会员目录，请通过即时通讯联系会员运营人员。",
+        "cta": "打开即时通讯"
+      },
+      "directoryNoResults": {
+        "title": "未找到符合此条件的会员",
+        "body": "请清除筛选条件或尝试其他搜索词。",
+        "cta": "清除筛选条件"
+      }
+    },
+    "confirm": {
+      "pay": {
+        "title": "从钱包支付会员费",
+        "body": "将从您的钱包中扣除方案“{plan}”的费用 {price}，会员资格将立即激活。钱包中的此笔交易不可撤销；如需终止会员资格，您必须随后与会员运营人员协调。",
+        "confirmLabel": "支付并激活会员"
+      },
+      "renew": {
+        "title": "从钱包续费会员",
+        "body": "将从您的钱包中扣除方案“{plan}”的费用 {price}，新周期将从当前的到期日继续——剩余的已付天数不会作废。钱包中的此笔交易不可撤销。",
+        "confirmLabel": "支付并续费会员"
+      }
+    },
+    "page": {
+      "eyebrow": "我的账户",
+      "title": "我的会员",
+      "lead": "您的专业会员状态、申请、支付以及您所在领域的专业群组。",
+      "transparency": "会员资格激活后，您将被添加到您所在领域的即时通讯专业群组中；您可以随时自行退出群组。",
+      "consentText": "我同意在会员目录中显示我的所选个人资料信息——姓名、专业领域，以及若选择显示的简历。[草案——将由机构的最终法律文本替换]",
+      "journey": {
+        "title": "会员流程",
+        "next": "下一步：{cta}",
+        "allDone": "所有步骤均已完成"
+      },
+      "loading": "正在加载…",
+      "apply": {
+        "title": "申请会员",
+        "intro": "您尚未注册会员。请选择您的专业领域（可选）并提交申请。",
+        "fieldLabel": "专业领域（可选）",
+        "noField": "— 无专业领域 —",
+        "submit": "提交会员申请"
+      },
+      "expertise": "专业领域：{name}",
+      "pending": "您的申请已提交，正在等待身份验证。",
+      "pay": {
+        "intro": "您的身份已验证。请选择一个方案并付款以激活会员。",
+        "noPlans": "当前暂无可购买的方案。",
+        "planLabel": "方案",
+        "planPlaceholder": "— 选择方案 —",
+        "planOption": "{name} — {price} / {days} 天",
+        "submit": "从钱包支付",
+        "insufficient": "钱包余额不足。"
+      },
+      "card": {
+        "label": "会员卡",
+        "paid": "支付金额",
+        "expires": "到期日期",
+        "graceEnd": "宽限期结束"
+      },
+      "group": {
+        "note": "您已被添加到即时通讯软件中的“{field}”专业群组。",
+        "openMessenger": "打开即时通讯软件"
+      },
+      "directory": {
+        "title": "会员名录",
+        "consentedBadge": "已授权",
+        "consentedBody": "您已同意在会员名录中展示您所选的个人资料信息。",
+        "view": "查看名录",
+        "privacy": "隐私显示设置",
+        "withdraw": "撤回授权",
+        "staleNotice": "授权条款已更新；请重新确认以继续留在名录中。",
+        "reconfirm": "重新确认",
+        "accept": "我接受",
+        "visibilityNote": "会员身份、专业领域和简历的显示可在设置的“隐私”卡片中进行控制。"
+      },
+      "suspended": "您的会员资格已被暂停。",
+      "suspendedReason": "您的会员资格已被暂停：{reason}",
+      "revoked": "您的会员资格已被撤销。",
+      "revokedReason": "您的会员资格已被撤销：{reason}",
+      "renew": {
+        "title": "续订会员",
+        "intro": "您的会员期即将结束。通过钱包续订，新周期将从当前到期日继续计算，不会损失任何已付费的天数。",
+        "introLapsed": "您的会员期已结束。通过钱包续订，会员资格将从今天起重新激活。",
+        "submit": "从钱包续费"
+      }
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "common": {
+    "close": "Close",
+    "minutes": "≈ {n, number} min",
+    "number": "{n, number}",
+    "percent": "{n, number}%"
+  },
+  "difficulty": {
+    "all": "All",
+    "easy": "Easy",
+    "hard": "Hard",
+    "medium": "Medium",
+    "title": "Difficulty"
+  },
+  "help": {
+    "body": "This is your personalized roadmap: open modules, view skills and mastery levels, and follow next recommendations. Customize the order of recommendations using \"Learning Pace\" and the difficulty filter.",
+    "title": "Learning Path Guide"
+  },
+  "hero": {
+    "eyebrow": "Learning Path",
+    "lead": "{name}’s personalized roadmap — {program}. Unlock modules, track skills, and shape your next recommendations based on your learning pace.",
+    "title": "Adaptive Learning Path"
+  },
+  "learner": {
+    "name": "Negar Rostami",
+    "program": "B.Sc. in Computer Engineering"
+  },
+  "milestones": {
+    "items": {
+      "ms1": {
+        "date": "2025/05/08",
+        "title": "Complete Programming Fundamentals"
+      },
+      "ms2": {
+        "date": "2025/05/26",
+        "title": "First 7-day streak"
+      },
+      "ms3": {
+        "date": "2025/06/12",
+        "title": "50% mastery in data structures"
+      },
+      "ms4": {
+        "title": "Unlock Database Module"
+      },
+      "ms5": {
+        "title": "Full mastery of algorithm design"
+      }
+    },
+    "notReached": "Not reached yet",
+    "reached": "Reached · {date}",
+    "title": "Milestones"
+  },
+  "moduleDialog": {
+    "done": "This module is completed",
+    "eyebrow": "Learning Module",
+    "locked": "This module is still locked.",
+    "objectives": "Learning Objectives",
+    "resourceMeta": "{label} · ≈ {min, number} min",
+    "resources": "Resources"
+  },
+  "modules": {
+    "algo": {
+      "desc": "Sorting, searching, greedy, and dynamic programming",
+      "objectives": {
+        "o1": "Analyze time complexity using Big O notation",
+        "o2": "Implement merge sort and quick sort",
+        "o3": "Identify problems solvable with the greedy method",
+        "o4": "Solve problems using Dynamic Programming (DP)"
+      },
+      "resources": {
+        "r1": "DP Introduction Video",
+        "r2": "Complexity Analysis Handout",
+        "r3": "Sorting Exercise",
+        "r4": "Greedy Method Quiz"
+      },
+      "subskills": {
+        "s1": "Sorting Algorithms",
+        "s2": "Greedy Method",
+        "s3": "Dynamic Programming"
+      },
+      "title": "Algorithm Design"
+    },
+    "completed": "You have completed this module",
+    "db": {
+      "desc": "Relational model, SQL, normalization, and transactions",
+      "objectives": {
+        "o1": "Writing SQL queries with JOIN and grouping",
+        "o2": "Schema design and normalization up to third normal form",
+        "o3": "Understanding transactions and ACID properties",
+        "o4": "Query optimization using indexes"
+      },
+      "resources": {
+        "r1": "SQL Basics Video",
+        "r2": "Normalization Handout",
+        "r3": "Advanced Queries Exercise",
+        "r4": "Transactions Quiz"
+      },
+      "subskills": {
+        "s1": "SQL Queries",
+        "s2": "Normalization",
+        "s3": "Transactions and Locking"
+      },
+      "title": "Database"
+    },
+    "detailsButton": "Module Details",
+    "ds": {
+      "desc": "Array, linked list, stack, queue, tree, and graph",
+      "objectives": {
+        "o1": "Choosing the appropriate data structure for each problem",
+        "o2": "Implementing a linked list and its basic operations",
+        "o3": "Traversing a Binary Search Tree (BST)",
+        "o4": "Running BFS and DFS on a graph"
+      },
+      "resources": {
+        "r1": "Step-by-Step Linked List Video",
+        "r2": "Search Trees Handout",
+        "r3": "Graph Traversal Exercise",
+        "r4": "Stack and Queue Quiz"
+      },
+      "subskills": {
+        "s1": "Array and String",
+        "s2": "Linked List",
+        "s3": "Binary Search Trees",
+        "s4": "Graph Traversal (BFS/DFS)"
+      },
+      "title": "Data Structures"
+    },
+    "foundations": {
+      "desc": "Variables, loops, functions, and control structures",
+      "objectives": {
+        "o1": "Defining and using variables and basic data types",
+        "o2": "Writing error-free loops and conditional statements",
+        "o3": "Building functions with defined inputs and outputs",
+        "o4": "Understanding recursion and tracing the call stack"
+      },
+      "resources": {
+        "r1": "Data Types Review Video",
+        "r2": "Functions and Scope Handout",
+        "r3": "Nested Loops Practice",
+        "r4": "Recursion Quiz"
+      },
+      "subskills": {
+        "s1": "Variables and Data Types",
+        "s2": "Loops and Conditionals",
+        "s3": "Functions and Variable Scope",
+        "s4": "Recursion"
+      },
+      "title": "Programming Fundamentals"
+    },
+    "lockedHint": "This module unlocks after reaching 70% mastery in \"Algorithm Design\".",
+    "markComplete": "Mark as completed",
+    "title": "Module Map"
+  },
+  "overview": {
+    "done": {
+      "label": "{started, plural, =0 {Completed item} one {# item in progress, completed} other {# items in progress, completed}}"
+    },
+    "progress": {
+      "modules": "{done, number} of {total, number} modules completed",
+      "title": "Path Progress"
+    },
+    "streak": {
+      "dayUnit": "days",
+      "label": "Current streak"
+    },
+    "weekly": {
+      "label": "This week's goal",
+      "minutes": "{done, number}/{goal, number} min",
+      "ofGoal": "{pct, number}% of weekly goal"
+    }
+  },
+  "pace": {
+    "balanced": "Balanced",
+    "desc": "Arranges recommendations based on your preferred pace.",
+    "intense": "Intense",
+    "relaxed": "Relaxed",
+    "title": "Learning Pace"
+  },
+  "recDialog": {
+    "eyebrow": "Learning Recommendation",
+    "markDone": "Mark as finished",
+    "start": "Start this item",
+    "why": "Why now?"
+  },
+  "recs": {
+    "actions": {
+      "details": "Details",
+      "done": "Done",
+      "start": "Start",
+      "undo": "Undo"
+    },
+    "count": "{n, number} item",
+    "empty": "No recommendations available for this difficulty — please change the filter.",
+    "items": {
+      "r1": {
+        "title": "Graph Traversal Practice (BFS/DFS)",
+        "why": "Your weakest active skill — required to unlock \"Algorithm Design\""
+      },
+      "r2": {
+        "title": "Introduction to Dynamic Programming",
+        "why": "Logical continuation after the greedy approach"
+      },
+      "r3": {
+        "title": "Review of Sorting Algorithms",
+        "why": "Consolidating knowledge before a tougher topic"
+      },
+      "r4": {
+        "title": "Binary Search Tree",
+        "why": "Prerequisite for graph traversal"
+      },
+      "r5": {
+        "title": "Linked List Practice",
+        "why": "To achieve full module mastery"
+      },
+      "r6": {
+        "title": "Playing with Recursion",
+        "why": "Quick and short warm-up"
+      }
+    },
+    "next": {
+      "eyebrow": "Next recommendation for you",
+      "meta": "{module} · ≈ {min, number} min"
+    },
+    "state": {
+      "done": "Done",
+      "started": "In progress"
+    },
+    "title": "Next recommendation"
+  },
+  "resource": {
+    "exercise": "Exercise",
+    "quiz": "Quiz",
+    "reading": "Reading",
+    "video": "Video"
+  },
+  "ring": {
+    "label": "Overall mastery"
+  },
+  "skills": {
+    "count": "{n, number} {n, plural, one {skill} other {skills}}",
+    "empty": "No skills found matching this search.",
+    "practiceMinutes": "≈ {n, number} min practice",
+    "search": {
+      "ariaLabel": "Search skills",
+      "clear": "Clear search",
+      "placeholder": "Search skills or modules…"
+    }
+  },
+  "status": {
+    "active": "Learning",
+    "done": "Completed",
+    "locked": "Locked"
+  },
+  "tabs": {
+    "ariaLabel": "Learning path view",
+    "path": "My path",
+    "skills": "Skills"
+  }
+}

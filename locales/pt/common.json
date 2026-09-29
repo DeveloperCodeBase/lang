@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "search": "Pesquisar",
+    "select": "Selecionar"
+  },
+  "help": {
+    "toggle": "Ajuda",
+    "close": "Fechar a ajuda"
+  },
+  "state": {
+    "empty": "Não há itens para apresentar.",
+    "error": "Ocorreu um erro.",
+    "loading": "A carregar…",
+    "noResults": "Não foram encontrados resultados."
+  },
+  "time": {
+    "justNow": "Agora mesmo"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Próximos eventos",
+      "full": "Calendário completo",
+      "empty": "{days, plural, =0 {Não há eventos nos próximos {days, number} dias} one {Não há eventos no próximo {days, number} dia} many {Não há eventos nos próximos {days, number} dias} other {Não há eventos nos próximos {days, number} dias}}",
+      "error": "Não foi possível carregar os eventos",
+      "today": "Hoje",
+      "allDay": "Dia inteiro"
+    },
+    "type": {
+      "meeting": "Aula",
+      "exam": "Exame",
+      "assignment": "Tarefa",
+      "term": "Período do semestre",
+      "event": "Evento",
+      "personal": "Pessoal"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Ocorreu um erro nesta página",
+      "body": "Lamentamos — algo correu mal. Este erro foi registado automaticamente. Pode voltar à página inicial ou recarregar a página.",
+      "home": "Voltar à página inicial",
+      "reload": "Recarregar"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Voltar à página anterior",
+    "body": "O endereço que procura não existe ou foi movido. Pode voltar à página anterior ou à página inicial.",
+    "home": "Voltar à página inicial",
+    "programs": "Ver programas de estudo",
+    "screenLabel": "404 · Não encontrado",
+    "search": "Pesquisar",
+    "title": "Página não encontrada"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Muito obrigado por partilhar isto comigo. Sei que não foi fácil falar sobre o assunto e não está só. O que sente é real e importante, e merece apoio imediato de uma pessoa. Por favor, ligue agora para a Linha Esperança, através do 1480; há alguém que o ouvirá com carinho.",
+      "tipHelpline": "Ligar imediatamente para a Linha Esperança: 1480 (24 horas por dia e confidencial)",
+      "tipEmergency": "Se estiver em perigo imediato, ligue para a emergência médica através do 115",
+      "tipCompany": "Se puder, fique agora junto de alguém em quem confia"
+    }
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "title": {
+    "queue": "审核队列",
+    "community": "社区审核",
+    "rules": "自动规则",
+    "log": "操作日志"
+  },
+  "common": {
+    "refresh": "刷新",
+    "loading": "正在加载…",
+    "retry": "重试",
+    "cancel": "取消",
+    "save": "保存",
+    "close": "关闭",
+    "confirm": "确认",
+    "empty": "暂无项目。",
+    "loadError": "加载失败。",
+    "actionError": "操作失败。",
+    "prev": "上一页",
+    "next": "下一页",
+    "pageOf": "第 {page} 页，共 {pages} 页"
+  },
+  "queue": {
+    "page": {
+      "eyebrow": "版主 · 内容审核台",
+      "lead": "汇聚用户举报与自动规则标记及处理期限的队列。认领各项内容，查看详情并做出决定；决定将立即生效并通知作者。",
+      "helpTitle": "审核队列帮助",
+      "help": "使用视图和筛选器缩小队列范围，并按最近期限排序。“认领”会将举报分配给您，防止多名版主同时处理同一项目。您自己提交的举报或自己撰写的内容，请交由其他版主处理。"
+    },
+    "kpi": {
+      "open": "开放",
+      "breached": "已超期",
+      "escalated": "已升级",
+      "mine": "我的处理",
+      "unassigned": "未分配",
+      "filtered": "筛选结果",
+      "resolved": "已解决",
+      "dismissed": "已驳回"
+    },
+    "viewsLabel": "队列视图",
+    "view": {
+      "open": "开放",
+      "mine": "我的处理",
+      "unassigned": "未分配",
+      "escalated": "已升级",
+      "breached": "已超期",
+      "decided": "已关闭",
+      "all": "全部"
+    },
+    "filter": {
+      "contentType": "内容类型",
+      "source": "来源",
+      "severity": "严重程度",
+      "status": "状态",
+      "any": "全部",
+      "post": "帖子",
+      "comment": "回复",
+      "message": "消惯",
+      "profile": "个人资料",
+      "other": "其他",
+      "community": "帖子与回复",
+      "user": "用户举报",
+      "auto": "自动规则标记",
+      "search": "搜索内容或原因…"
+    },
+    "sort": {
+      "label": "排序",
+      "due": "最近截止日期",
+      "age": "最旧"
+    },
+    "col": {
+      "content": "内容",
+      "reason": "原因",
+      "severity": "严重程度",
+      "age": "时间",
+      "due": "截止时间",
+      "assignee": "负责人",
+      "status": "状态"
+    },
+    "severity": {
+      "low": "低",
+      "normal": "正常",
+      "high": "高"
+    },
+    "status": {
+      "PENDING": "待处理",
+      "RESOLVED": "已解决",
+      "DISMISSED": "已驳回"
+    },
+    "age": {
+      "minutes": "{count, plural, other {# 分钟}}",
+      "hours": "{count, plural, other {# 小时}}",
+      "days": "{count, plural, other {# 天}}"
+    },
+    "ago": "{age}前",
+    "reportedAt": "举报于 {date}",
+    "dueAt": "截止时间：{date}",
+    "sla": {
+      "onTime": "未超时",
+      "dueSoon": "即将到期",
+      "breached": "已超时",
+      "decided": "已关闭"
+    },
+    "siblings": "{count, plural, other {寵于此内容的 # 个举报}}",
+    "contentGone": "该内容已在社区中不可见。",
+    "autoFlag": "自动规则“{rule}”标记",
+    "suggested": "规则建议：{action}",
+    "escalatedBadge": "已升级给高级管理员",
+    "claim": "认领",
+    "release": "释放",
+    "assign": "分派至…",
+    "claimedBy": "由 {name} 处理",
+    "claimedByMe": "由您处理",
+    "noAssignee": "未分派",
+    "assignTitle": "分派举报",
+    "assignPick": "选择版主",
+    "review": "审核与决策",
+    "quickActions": "快捷操作",
+    "emptyOpen": "队列为空；当前没有待处理的开放举报。",
+    "emptyFilter": "没有找到符合这些筛选条件的项目。"
+  },
+  "community": {
+    "page": {
+      "eyebrow": "版主 · 社区论坛",
+      "lead": "与常规审核队列相同，但仅限于论坛对话和回复。请逐一审核每项内容，并通过快捷操作（隐藏、删除、警告或忽略）予以关闭。",
+      "helpTitle": "社区审核指南",
+      "help": "此队列显示与论坛相关的举报和标记。您还可以通过内容类型筛选器查看被举报的消息和个人资料。隐藏和删除会实际将内容从论坛中移除，且可在操作历史记录中恢复。"
+    }
+  },
+  "decision": {
+    "title": "关于此举报的决策",
+    "action": {
+      "ignore": {
+        "label": "忽略",
+        "hint": "关闭举报；内容和作者账户保持不变。"
+      },
+      "hide": {
+        "label": "隐藏",
+        "hint": "内容将从论坛中隐藏，任何版主均可将其恢复。系统将向作者发送通知。"
+      },
+      "remove": {
+        "label": "删除",
+        "hint": "内容将从论坛中移除，仅管理员可将其恢复。系统将向作者发送通知。"
+      },
+      "warn": {
+        "label": "警告作者",
+        "hint": "将在作者的记录中添加官方警告，并向其发送通知。"
+      },
+      "restrict": {
+        "label": "临时限制发布",
+        "hint": "在所选期限结束前，作者将无法在论坛中发布对话或回复。"
+      },
+      "escalate": {
+        "label": "升级给高级管理员",
+        "hint": "举报将保持开放状态，且仅由管理员进行决策。"
+      }
+    },
+    "warnAuthor": "同时向作者发出警告",
+    "restrictFor": "限制时长",
+    "duration": {
+      "d1": "一天",
+      "d3": "三天",
+      "d7": "一周",
+      "d30": "一个月"
+    },
+    "note": "备注（可选）",
+    "submit": "提交决策",
+    "noTarget": "此举报未关联至特定的论坛内容；隐藏和删除功能不可用。",
+    "noAuthor": "此内容的作者未知；无法执行警告和限制。",
+    "selfBlocked": "您是此内容的举报者或作者；请由其他管理员进行裁决。",
+    "escalatedBlocked": "此举报已升级；仅限管理员裁决。",
+    "alreadyClosed": "此举报先前已关闭；无法记录新裁决。",
+    "choose": "选择裁决",
+    "done": {
+      "ignore": "举报已关闭。",
+      "hide": "内容已隐藏。",
+      "remove": "内容已删除。",
+      "warn": "已记录警告并通知作者。",
+      "restrict": "发布限制已设定至 {until}。",
+      "escalate": "举报已升级至高级管理员。",
+      "alreadyGone": "裁决已记录；作者先前已删除了该内容。"
+    }
+  },
+  "context": {
+    "messageOnly": "审查权限仅限于当前被举报的这条消息。",
+    "reportSnapshot": "举报时记录的文本",
+    "migrationSnapshot": "此举报较旧；以下文本是在转移至审查队列时记录的。",
+    "currentMessage": "编辑后的当前消息文本",
+    "loadAttachment": "查看被举报的附件",
+    "downloadAttachment": "下载附件",
+    "title": "此内容背景",
+    "author": "作者",
+    "reporter": "举报者",
+    "autoReporter": "自动规则",
+    "noAuthor": "此内容的作者未知或不再可用。",
+    "joined": "加入于 {date}",
+    "stats": {
+      "threads": "{count, plural, other {# 个话题}}",
+      "replies": "{count, plural, other {# 条回复}}",
+      "votes": "{count, plural, other {# 票}}",
+      "filed": "{count, plural, other {# 份提交的举报}}",
+      "against": "{count, plural, other {# 针对该用户的举报}}"
+    },
+    "warnings": "{count, plural, other {# 次警告}}",
+    "activeRestriction": "生效中的限制至 {until}",
+    "noRestriction": "无生效限制",
+    "lift": "解除限制",
+    "viewInCommunity": "在社区中查看"
+  },
+  "rules": {
+    "page": {
+      "eyebrow": "版主 · 自动审核",
+      "lead": "规则会评估新的社区内容，并在触发时仅在审核队列中标记，由人工进行最终裁决。",
+      "helpTitle": "自动规则指南",
+      "help": "评估三种类型的规则：关键词、发布频率和举报阈值。“建议操作”仅在队列中向版主展示，绝不会自动执行。保存前请使用“测试规则”，以查看规则是否会在示例文本上触发标记。"
+    },
+    "flagOnlyNotice": "规则仅会为版主进行标记。任何内容都不会被自动隐藏或删除，也没有用户会被自动限制。",
+    "new": "新规则",
+    "edit": "编辑规则",
+    "delete": "删除规则",
+    "deleteConfirm": "确定要删除这条规则吗？此前标记的内容仍会保留在队列中。",
+    "search": "搜索名称或条件……",
+    "allTypes": "所有类型",
+    "emptyAll": "尚未定义任何规则。",
+    "emptyFilter": "未找到符合此筛选条件的规则。",
+    "toggleLabel": "启用或禁用规则“{name}”",
+    "createdAt": "创建于 {date}",
+    "kpi": {
+      "total": "规则总数",
+      "active": "生效规则",
+      "hits": "违规总数"
+    },
+    "state": {
+      "on": "已启用",
+      "off": "已停用"
+    },
+    "col": {
+      "name": "名称",
+      "type": "类型",
+      "condition": "条件",
+      "suggested": "建议操作",
+      "hits": "命中次数",
+      "lastHit": "最后命中",
+      "active": "启用"
+    },
+    "type": {
+      "keyword": "关键词",
+      "rate_limit": "发送频率",
+      "report_threshold": "举报阈值",
+      "auto_action": "旧"
+    },
+    "summary": {
+      "keyword": "{count, plural, other {# 个关键词}}",
+      "rate": "在 {seconds} 秒内发送超过 {max} 条",
+      "threshold": "{min} 小时内单独报告 {hours}",
+      "thresholdAny": "{min} 独立报告"
+    },
+    "legacy": "文本条件；不予评估",
+    "legacyHint": "此规则创建于评估引擎之前，没有结构化条件。请重新定义条件以将其激活。",
+    "hitsNone": "无记录",
+    "suggestedAction": {
+      "flag": "仅标记",
+      "hide": "隐藏",
+      "warn": "警告",
+      "block": "限制发送"
+    },
+    "form": {
+      "name": "名称",
+      "type": "类型",
+      "description": "说明（可选）",
+      "keywords": "关键词 — 每行一个",
+      "keywordsHint": "支持波斯语和阿拉伯语；变音符、“y/ی”、“k/ک”及半空格将视为相同。",
+      "match": "匹配方式",
+      "matchWord": "整词",
+      "matchSubstring": "文本任意位置",
+      "severity": "标记严重程度",
+      "maxPosts": "最多发帖数",
+      "windowSeconds": "时间窗口（秒）",
+      "minReports": "最少独立举报人数",
+      "windowHours": "时间窗口（小时）",
+      "targets": "作用于",
+      "suggested": "向审核员推荐的操作",
+      "suggestedHint": "这仅是向审核员提供的建议；引擎永远不会自动执行它。",
+      "active": "启用",
+      "errKeywords": "请输入至少一个有效的关问词（每行一个）。",
+      "errTargets": "请至少选择“对话”或“回复”中的一项。",
+      "errNumber": "请在允许的范围内输入一个正整数。",
+      "errName": "名称长度必须在 2 到 160 个字符之间。",
+      "errCondition": "条件或说明必须至少为 2 个字符。"
+    },
+    "test": {
+      "title": "规则测试",
+      "placeholder": "输入一段文本以测试该规则是启会被标记",
+      "run": "测试",
+      "hit": "会被标记：{matched}",
+      "miss": "不会被标记"
+    }
+  },
+  "log": {
+    "page": {
+      "eyebrow": "监控 · 审核透明度",
+      "lead": "每一个审核决策－－隐藏、删除、警告、限制和恢复－－都会记录在本日志中，并标注执行者、时间和备注，可撤销的操作可从此处恢复。",
+      "helpTitle": "操作历史指南",
+      "help": "“操作”标签页是审核引擎的操作日志，并带有撤销按钮；“举报历史”标签页则通过搜索和筛选展示已关闭的举报。点击任何一行可查看详情。"
+    },
+    "legacyNote": "在审核引擎启用之前关闭的举报仅在“举报历史”标签页中显示。",
+    "searchActions": "搜索操作……",
+    "filterKind": "操作类型",
+    "allKinds": "所有操作",
+    "filters": "筛选器",
+    "clearFilters": "清除筛选条件",
+    "search": "搜索内容、原因或备注……",
+    "searchClear": "清空搜索",
+    "filterStatus": "状态筛选",
+    "allStatuses": "所有状态",
+    "filterResolution": "处理结果筛选",
+    "allResolutions": "所有处理结果",
+    "emptyActions": "暂无记录的操作。",
+    "emptyHistory": "暂无巳关闭的举报。",
+    "emptyFilter": "未扵到符合该筛选条件的项。",
+    "count": "{count, plural, other {# 项}}",
+    "col": {
+      "when": "时间",
+      "actor": "操作人",
+      "kind": "操作",
+      "target": "用户",
+      "content": "内容",
+      "note": "备注",
+      "state": "状态"
+    },
+    "kind": {
+      "dismiss": "忽略",
+      "escalate": "上报",
+      "hide": "隐藏",
+      "remove": "删除",
+      "restore": "恢复",
+      "warn": "警告",
+      "warning_revoke": "撤销警告",
+      "restrict": "力度受限",
+      "restriction_lift": "解除限制"
+    },
+    "tab": {
+      "actions": "操作",
+      "history": "举报历史"
+    },
+    "kpi": {
+      "total": "已关闭的举报",
+      "removed": "已删除的内容",
+      "today": "今日决策",
+      "actions": "已记录的操作"
+    },
+    "revert": "撤销",
+    "reverted": "已于 {date} 撤销",
+    "revertConfirm": "确定要撤销此操作吗？将向作者发送通知。",
+    "revertDone": {
+      "restored": "内容已恢复。",
+      "revoked": "警告已撤销。",
+      "lifted": "限制已解除。"
+    },
+    "history": {
+      "when": "时间",
+      "type": "内容类型",
+      "reason": "原因",
+      "resolution": "处理结果",
+      "detailTitle": "举报详情",
+      "reportedAt": "举报于 {date}",
+      "decidedAt": "决策于 {date}",
+      "noNote": "暂无备注。",
+      "filterByThis": "显示具有相同处理结果的举报"
+    }
+  }
+}

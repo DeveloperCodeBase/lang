@@ -1,0 +1,1271 @@
+{
+  "bundles": {
+    "card": {
+      "badge": "Bundle",
+      "buyerCount": "{count, plural, one {# buyer} other {# buyers}}",
+      "courseCount": "{count, plural, one {# course in this bundle} other {# courses in this bundle}}",
+      "cover": {
+        "alt": "Cover image for bundle {title}"
+      },
+      "free": "Free",
+      "savingsChip": "{savings} compared to buying separately"
+    },
+    "catalog": {
+      "allCoursesButton": "All courses",
+      "badge": "General",
+      "empty": {
+        "body": "Knowledge Market course bundles will be displayed here soon. Until then, you can view courses individually.",
+        "cta": "Go to Knowledge Market",
+        "title": "No bundles published yet"
+      },
+      "help": {
+        "emphasis": "all the courses within it",
+        "lead": "A \"bundle\" is a collection of courses by an instructor sold at a single price — usually less than the combined price of the individual courses. By purchasing a bundle, ",
+        "tail": " will be unlocked for you. Click on any bundle to view the list of courses, price, and savings.",
+        "title": "What is a course bundle?"
+      },
+      "resultCount": "{count, plural, one {# bundle found} other {# bundles found}}",
+      "subtitle": "Get multiple related courses as a bundle at a more affordable price.",
+      "title": "Course Bundles"
+    },
+    "detail": {
+      "authorCta": "This is your bundle — edit in Studio",
+      "backButton": "Back to bundles",
+      "badge": "Course Bundle",
+      "buyFree": "Get bundle for free",
+      "buyPaid": "Buy bundle for {price}",
+      "cover": {
+        "alt": "Cover image for bundle {title}"
+      },
+      "dialog": {
+        "bodyCourses": "{count, plural, one {# course} other {# courses}}",
+        "bodyFree": " This bundle is free and all courses will be unlocked for you immediately.",
+        "bodyLead": "The bundle \"{title}\" includes ",
+        "bodyPaid": " Amount to pay: {price}. After payment, all courses in the bundle will be unlocked for you.",
+        "bodyTail": ".",
+        "cancelButton": "Cancel",
+        "closeAriaLabel": "Close",
+        "processing": "Processing…",
+        "submitFree": "Get for free",
+        "submitPaid": "Pay and buy",
+        "titleFree": "Get Bundle",
+        "titlePaid": "Buy Bundle"
+      },
+      "facts": {
+        "buyers": "{count, plural, one {# buyer} other {# buyers}}",
+        "courses": "{count, plural, one {# course} other {# courses}}",
+        "publishedAt": "Published: {date}"
+      },
+      "free": "Free",
+      "help": {
+        "emphasis": "{count, plural, one {all # listed course} other {all # listed courses}}",
+        "lead": "By purchasing this bundle, you gain access to ",
+        "tail": ". If you have already purchased some of these courses, you will not be charged again, and only the new courses will be added to \"My Courses\". The payment process is just like buying a single course.",
+        "title": "What do you get with this bundle?"
+      },
+      "included": {
+        "free": "Free",
+        "heading": "Courses in this bundle",
+        "untitled": "Untitled course"
+      },
+      "notFound": "Bundle not found",
+      "note": {
+        "free": "This bundle is free, and all its courses will be unlocked for you immediately.",
+        "paid": "With a single payment, all courses in the bundle remain unlocked for you forever."
+      },
+      "savingsBadge": "{percent, number}% savings",
+      "separate": {
+        "label": "Buying courses separately:",
+        "savingsLead": "— your savings"
+      },
+      "toast": {
+        "freeBody": "All bundle courses have been added to \"My Courses\".",
+        "freeTitle": "Bundle successfully claimed."
+      }
+    },
+    "editor": {
+      "back": "Back to bundles",
+      "compare": {
+        "price": "Bundle price",
+        "savings": "Buyer savings",
+        "sum": "Sum of individual courses",
+        "title": "Price comparison",
+        "warn": "The bundle price is higher than the sum of individual courses; usually, bundles should be cheaper."
+      },
+      "help": {
+        "body": "You can only add your own <b>published</b> courses to the bundle. Set the \"Bundle price\" lower than the \"Sum of individual courses\" so buyers can see the savings. Buyers get access to all bundle courses with a single payment, and revenue is split between you and the university just like a course purchase. The bundle must have at least <b>two courses</b> to be published; after publishing, the courses and price are locked.",
+        "title": "Bundle creation guide"
+      },
+      "items": {
+        "add": "Add course",
+        "empty": "There are no courses in this bundle yet. Use \"Add course\" to add your published courses (at least two courses are required for publishing).",
+        "remove": "Remove",
+        "removeAria": "Remove {title} from bundle",
+        "title": "{count, plural, one {Bundle courses (#)} other {Bundle courses (#)}}",
+        "untitled": "Untitled course"
+      },
+      "lead": "Add your published courses to the bundle and set the bundle price. Savings compared to buying individually are calculated live.",
+      "locked": "This bundle has been published and can no longer be edited. To change the courses or price, you must create a new bundle.",
+      "meta": {
+        "coverLabel": "Cover image URL (optional)",
+        "descLabel": "Description",
+        "descPlaceholder": "What courses are included in the bundle and who is it suitable for.",
+        "priceHint": "This is the amount the buyer pays ({price}). Setting it to 0 makes the bundle free and grants immediate access.",
+        "priceLabel": "Bundle price (Rials)",
+        "pricePlaceholder": "0 for free bundle",
+        "save": "Save information",
+        "saving": "Saving…",
+        "title": "Bundle information",
+        "titleLabel": "Bundle Title",
+        "titlePlaceholder": "e.g., Complete Machine Learning Series"
+      },
+      "notFound": "Bundle not found",
+      "picker": {
+        "add": "Add",
+        "adding": "Adding…",
+        "close": "Close",
+        "closeButton": "Close",
+        "empty": "You have no other published courses to add. First, publish your course in the studio.",
+        "note": "Only <b>your published courses</b> that are not already in this bundle will be shown.",
+        "title": "Add Course to Bundle"
+      },
+      "pub": {
+        "bodyLead": "The bundle \"{title}\" with {count, plural, one {# course} other {# courses}} and a price of ",
+        "bodyTail": " will be published and displayed for purchase in the Knowledge Market. Once published, the bundle's courses and price will be locked.",
+        "cancel": "Cancel",
+        "close": "Close",
+        "publishing": "Publishing…"
+      },
+      "publish": "Publish Bundle",
+      "publishHint": "At least two courses are required for publication.",
+      "toast": {
+        "metaSaved": "Bundle information saved.",
+        "published": "Bundle published.",
+        "publishedDesc": "It is now available for purchase in the Knowledge Market.",
+        "removeFailed": "Failed to remove course from bundle."
+      },
+      "viewPublic": "View Public Page"
+    },
+    "eyebrow": "Knowledge Market",
+    "free": "Free",
+    "savingsChipShort": "{percent, number}% off",
+    "status": {
+      "archived": "Archived",
+      "draft": "Draft",
+      "published": "Published",
+      "suspended": "Suspended"
+    },
+    "studio": {
+      "buyerCount": "{count, plural, one {# buyer} other {# buyers}}",
+      "courseCount": "{count, plural, one {# course} other {# courses}}",
+      "coursesStudio": "Courses Studio",
+      "create": {
+        "descLabel": "Short Description",
+        "descPlaceholder": "In a sentence or two, explain what courses this bundle includes and who it is for.",
+        "hint": "After creation, in the next step you will add your published courses to the bundle and set its price.",
+        "titleLabel": "Bundle Title",
+        "titlePlaceholder": "e.g., Complete Machine Learning Series"
+      },
+      "del": {
+        "body": "The bundle \"{title}\" will be deleted. The courses inside the bundle will remain untouched, and only the bundle itself will be removed from your list. This action cannot be undone.",
+        "cancel": "Cancel",
+        "close": "Close",
+        "deleting": "Deleting…",
+        "submit": "Delete bundle",
+        "title": "Delete bundle"
+      },
+      "delete": "Delete",
+      "edit": "Edit",
+      "editAria": "Edit bundle {title}",
+      "empty": {
+        "body": "Create your first bundle and include several published courses in it.",
+        "title": "You haven't created any bundles yet"
+      },
+      "help": {
+        "body": "A \"bundle\" is a collection of <b>your own published courses</b> sold at a single price. This price is usually lower than the total price of individual courses; the difference is shown to the buyer as \"savings\". The buyer purchases the bundle <b>once</b> and is immediately enrolled in <b>all courses inside the bundle</b> (if they already own some, they won't be charged again). A bundle can be freely edited as long as it is a \"draft\"; to publish, it must contain at least <b>two courses</b>, and after publication, the courses and price are locked.",
+        "title": "What is a course bundle?"
+      },
+      "lead": "Group several of your published courses into a \"bundle\" and sell them at a bundled price (usually lower than the sum of individual courses). With a single payment, the buyer gets access to <b>all courses in the bundle</b>.",
+      "newBundle": "Create new bundle",
+      "title": "My course bundles"
+    },
+    "titleRequired": "\"Bundle title\" is required (at least 2 characters)."
+  },
+  "cart": {
+    "actions": {
+      "clearCart": "Clear cart",
+      "continueShopping": "Continue shopping"
+    },
+    "blockedWarning": "{count, plural, one {# item cannot be purchased; please fix or remove it first.} other {# items cannot be purchased; please fix or remove them first.}}",
+    "checkout": {
+      "freeButton": "Free enrollment for cart items",
+      "freeToast": {
+        "description": "{count, plural, one {# course was added to \"My Courses\".} other {# courses were added to \"My Courses\".}}",
+        "title": "Free enrollment completed."
+      },
+      "payButton": "Checkout cart — {amount}",
+      "walletToast": {
+        "description": "New wallet balance: {amount}",
+        "title": "Cart checkout completed using wallet."
+      }
+    },
+    "empty": {
+      "body": "Gather your desired courses here in the Knowledge Market using the \"Add to Cart\" button.",
+      "cta": "Go to Knowledge Market",
+      "title": "Your cart is empty"
+    },
+    "free": "Free",
+    "header": {
+      "itemCount": "{count, plural, one {# item} other {# items}}"
+    },
+    "help": {
+      "body": "The price of each item is fetched in real-time from the course; if a price changes or a coupon expires, you will see it right here. You can apply a separate coupon code for each course. With \"Checkout Cart\", all items are purchased in a single payment, and each course has its own independent financial document and receipt; therefore, refunds are also processed separately for each course.",
+      "title": "How does the shopping cart work?"
+    },
+    "item": {
+      "applyCouponButton": "Apply code",
+      "couponAriaLabel": "Discount code for {title}",
+      "couponPlaceholder": "Discount code (optional)",
+      "discountBadge": "{amount} discount",
+      "removeButton": "Delete",
+      "removeCouponButton": "Remove code",
+      "thisCourse": "This course",
+      "unavailableTitle": "This course is no longer available",
+      "viewAriaLabel": "View course {title}"
+    },
+    "mutateErrorToast": {
+      "title": "Failed to update shopping cart."
+    },
+    "pageSubtitle": "The courses you have selected for purchase; all bought with a single payment.",
+    "pageTitle": "Shopping Cart",
+    "payMethod": {
+      "gateway": "Pay via bank gateway",
+      "wallet": "Pay from wallet (Balance: {amount})",
+      "walletInsufficient": "Wallet balance is insufficient for this cart; please top up your wallet first."
+    },
+    "summary": {
+      "discountLabel": "Discounts",
+      "payableLabel": "Total Payable",
+      "subtotalLabel": "Subtotal",
+      "taxNote": "The stated amount includes tax; the tax share is listed separately on each course receipt."
+    }
+  },
+  "certificate": {
+    "canvas": {
+      "ariaLabel": {
+        "course": "Certificate of Course Completion — {courseTitle}",
+        "degree": "Degree Diploma — {courseTitle}"
+      },
+      "course": {
+        "authenticity": "The authenticity of this certificate can only be verified via the online inquiry system.",
+        "codeLabel": "Inquiry Code",
+        "disclaimer": "This is a certificate of course completion and is not considered an academic degree.",
+        "gridHeading": "Course and Graduate Details",
+        "intro": "This is to certify that",
+        "labels": {
+          "desc": "Course Description",
+          "instructor": "Course Instructor",
+          "issued": "Date of Issue",
+          "issuer": "Issuer",
+          "mode": "Delivery Mode",
+          "serial": "Serial Number"
+        },
+        "modeValue": "Online",
+        "sentence": "has successfully completed the following course at this university:",
+        "verifyLabel": "Online Authenticity Inquiry"
+      },
+      "decimalSeparator": ".",
+      "degree": {
+        "authenticity": "The authenticity of this diploma can only be verified via the online inquiry system.",
+        "creditsUnit": "credits",
+        "gpaOf": "out of",
+        "gridHeading": "Course and Graduate Details",
+        "idPrefix": "National ID",
+        "intro": "This is to certify that",
+        "labels": {
+          "award": "Degree",
+          "completion": "Completion Date",
+          "credits": "Total Credits",
+          "entry": "Start Date",
+          "faculty": "Faculty",
+          "field": "Field of Study",
+          "gpa": "Cumulative GPA",
+          "graduation": "Graduation Date",
+          "issued": "Issue date",
+          "level": "Course level",
+          "mode": "Study mode",
+          "serial": "Serial number"
+        },
+        "sentence": "has successfully completed the following study program at this university and graduated:",
+        "title": "Degree Certificate"
+      },
+      "englishDiplomaBlocked": "English diploma copy cannot be issued: The Romanized name of the holder is not registered. The secretariat must enter it upon issuance; automatic generation of the Latin name is not permitted.",
+      "issuedOnLabel": "Issued on {date}",
+      "percentSuffix": "%",
+      "shared": {
+        "eyebrow": "In the Name of God",
+        "telLabel": "Phone:"
+      }
+    },
+    "modal": {
+      "cancelButton": "Cancel",
+      "closeAriaLabel": "Close",
+      "closeButton": "Close",
+      "completedIntro": "Congratulations! You have completed the course \"{courseTitle}\".",
+      "issueButton": "Get Certificate of Completion",
+      "issueExplanation": "By claiming your certificate, a \"Certificate of Completion\" with a verification code will be issued for you (this is a course credential, not a university degree). If this course has an exam, the certificate will only be issued after passing the exam.",
+      "issuedByLabel": "Issuer: {issuer}",
+      "issuedDateLabel": "Issue date: {date}",
+      "issuedToast": {
+        "description": "Your certificate of completion has been issued.",
+        "title": "Certificate Issued"
+      },
+      "issuingLabel": "Issuing…",
+      "legalDisclaimer": "This \"Certificate of Completion\" pertains to the Knowledge Market course and is not considered an academic degree. You can enter the verification code in the \"Certificates and Credentials\" section to verify its authenticity.",
+      "loading": "Loading…",
+      "openPrintableButton": "Printable Document (PDF / Image)",
+      "printButton": "Print / Save PDF",
+      "serialLabel": "Verification code: {serial}",
+      "status": {
+        "revoked": "Revoked",
+        "valid": "Valid"
+      },
+      "title": "Certificate of Completion",
+      "viewCertificateButton": "View Certificate"
+    }
+  },
+  "courseDetail": {
+    "about": {
+      "audienceTitle": "Course Audience",
+      "objectivesTitle": "Learning Objectives",
+      "prerequisitesTitle": "Prerequisites",
+      "title": "About This Course"
+    },
+    "author": {
+      "editInStudio": "This is your course — Edit in Studio"
+    },
+    "authorBio": {
+      "showcaseButton": "Instructor Showcase",
+      "title": "About the Instructor"
+    },
+    "backButton": "Back to Knowledge Market",
+    "badges": {
+      "owned": "You own this course"
+    },
+    "buyDialog": {
+      "cancelButton": "Cancel",
+      "closeAriaLabel": "Close",
+      "couponAppliedNote": "Coupon applied — {amount} discount.",
+      "couponApplyButton": "Apply",
+      "couponChecking": "Checking...",
+      "couponEmptyError": "Please enter a coupon code.",
+      "couponLabel": "Coupon code (optional)",
+      "couponPlaceholder": "e.g., SUMMER1404",
+      "gatewayFlowNote": "You will be redirected to the payment gateway upon confirmation. Upon successful payment, the course will be unlocked immediately and available in \"My Courses\".",
+      "gatewayOption": "Payment Gateway",
+      "memberDiscountNote": "Includes a {amount} membership discount",
+      "payAndBuy": "Pay and Buy",
+      "payFromWallet": "Pay from Wallet",
+      "payableAmountLabel": "Amount Payable",
+      "paymentMethodLabel": "Payment Method",
+      "processing": "Processing...",
+      "titleFree": "Start Course for Free",
+      "titlePaid": "Buy Course",
+      "walletFlowNote": "The amount will be deducted from your wallet immediately, and the course will be unlocked instantly in \"My Courses\".",
+      "walletInsufficientNote": "Your wallet balance is insufficient for this purchase; please top up your wallet first.",
+      "walletOption": "Wallet — Balance {balance}"
+    },
+    "buyNote": {
+      "enrolled": "Your access to this course is active.",
+      "free": "This course is free and unlocks immediately upon starting.",
+      "paid": "One-time purchase; once paid, the course remains unlocked for you forever.",
+      "unset": "This course has not been priced yet."
+    },
+    "chart": {
+      "emptyText": "No syllabus has been registered for this course yet.",
+      "lockedLabel": "Locked",
+      "previewBadge": "Free Preview",
+      "previewButton": "Free Preview",
+      "sectionCountInModule": "{count, plural, one {# section} other {# sections}}",
+      "title": "Course Syllabus"
+    },
+    "cta": {
+      "buyWithPrice": "Buy for {price}",
+      "continueLearning": "Continue Learning",
+      "guestBuyLogin": "Log in to Purchase",
+      "guestFreeLogin": "Log in to Start Free",
+      "startFree": "Start Free",
+      "unpriced": "Not Priced Yet"
+    },
+    "errors": {
+      "invalidId": "The course ID is invalid.",
+      "notAvailable": {
+        "message": "This course was not found or has not been published.",
+        "title": "Course Not Available"
+      }
+    },
+    "extras": {
+      "faqHeading": "FAQ",
+      "relatedHeading": "Related Courses",
+      "stickyBuyAriaLabel": "Buy Course",
+      "tagsAriaLabel": "Course Tags"
+    },
+    "header": {
+      "contentDuration": "{duration} of content",
+      "coverAlt": "Cover image of {title}",
+      "enrollmentCount": "{count, plural, one {# student} other {# students}}",
+      "freePreviewCount": "{count, plural, one {# free preview} other {# free previews}}",
+      "lastUpdated": "Last updated: {date}",
+      "lessonCount": "{count, plural, one {# lesson} other {# lessons}}",
+      "moduleCount": "{count, plural, one {# module} other {# modules}}",
+      "sectionCount": "{count, plural, one {# section} other {# sections}}"
+    },
+    "helpNote": {
+      "body": "This is the course introduction page on the Knowledge Market. You can view the full course syllabus; sections marked with \"Free Preview\" can be watched right here, while other sections will be unlocked after purchase. Free courses can be accessed immediately via \"Start Free\", and paid courses via \"Buy\" and online checkout. Purchased courses are available in \"My Courses\".",
+      "title": "What is this page?"
+    },
+    "otherCourses": {
+      "title": "Other courses by this instructor"
+    },
+    "preview": {
+      "closeAriaLabel": "Close preview"
+    },
+    "price": {
+      "free": "Free",
+      "unset": "Unpriced"
+    },
+    "purchase": {
+      "addedToMyCourses": "Course added to \"My Courses\".",
+      "failedToast": {
+        "description": "No purchase was recorded; you can try again.",
+        "title": "Payment incomplete."
+      },
+      "freeSuccessToast": {
+        "title": "Free enrollment completed."
+      },
+      "successToast": {
+        "title": "Purchase completed successfully."
+      },
+      "unpricedToast": {
+        "description": "Purchase is not available until the instructor sets a price.",
+        "title": "This course has not been priced yet."
+      },
+      "walletSuccessToast": {
+        "descriptionWithBalance": "New wallet balance: {balance}",
+        "title": "Purchased using wallet."
+      }
+    },
+    "review": {
+      "authorReplyLabel": "Instructor's reply",
+      "form": {
+        "commentAriaLabel": "Comment text",
+        "commentPlaceholder": "Write about your experience with this course (optional)…",
+        "createTitle": "Submit Review",
+        "createdToast": "Your review has been submitted.",
+        "editTitle": "Edit Your Review",
+        "ratingAriaLabel": "Your rating",
+        "ratingLabel": "Rating:",
+        "ratingRequiredError": "Please select a rating (1 to 5 stars).",
+        "starAriaLabel": "{count, plural, one {# star} other {# stars}}",
+        "submitButton": "Submit Review",
+        "submitting": "Submitting…",
+        "updateButton": "Update Review",
+        "updatedToast": "Your review has been updated."
+      },
+      "hide": {
+        "button": "Hide",
+        "failToast": "Failed to hide the review.",
+        "successToast": "Review hidden."
+      },
+      "mineBadge": "Your review",
+      "reply": {
+        "ariaLabel": "Instructor reply",
+        "cancelButton": "Cancel",
+        "draftButton": "AI Draft",
+        "draftEmptyError": "No draft was generated; please try again.",
+        "drafting": "Drafting…",
+        "editButton": "Edit reply",
+        "placeholder": "Write your reply (leave empty to delete reply)…",
+        "replyButton": "Reply",
+        "sendButton": "Submit reply",
+        "sending": "Submitting…",
+        "sentToast": "Your reply has been submitted."
+      },
+      "section": {
+        "countLabel": "{count, plural, one {# review} other {# reviews}}",
+        "emptyText": "No reviews have been submitted yet.",
+        "starRowLabel": "{count, plural, one {# star} other {# stars}}",
+        "title": "Reviews and Ratings"
+      }
+    },
+    "share": {
+      "ariaLabel": "Share course",
+      "button": "Share",
+      "copiedToast": {
+        "description": "You can share it via messaging.",
+        "title": "Course URL copied."
+      },
+      "urlToastTitle": "Course URL"
+    }
+  },
+  "courseExams": {
+    "ai": {
+      "ask": "Why was it incorrect?",
+      "busy": "Preparing…",
+      "disclaimer": "This is an informal helper explanation; the final authority is the course instructor's answer and feedback.",
+      "generic": "General guide",
+      "hintLabel": "Hint: ",
+      "nextLabel": "Next step: ",
+      "title": "AI Explanation"
+    },
+    "ask": "Ask the instructor",
+    "askTitle": "Private question to the instructor about this exam",
+    "attemptChip": "Attempt {n}",
+    "attemptStatus": {
+      "expired": "Time expired",
+      "in_progress": "In progress",
+      "submitted": "Submitted"
+    },
+    "attempts": {
+      "limited": "{used} of {allowed}",
+      "unlimited": "{used} (unlimited)"
+    },
+    "blocked": {
+      "closed": "Currently closed",
+      "noAttempts": "No attempts remaining",
+      "passed": "Passed"
+    },
+    "close": "Close",
+    "countBadge": "{count, plural, one {# item} other {# items}}",
+    "cta": {
+      "continue": "Continue exam",
+      "retry": "Try again",
+      "start": "Start"
+    },
+    "err": {
+      "loadReview": "Failed to load scorecard"
+    },
+    "help": {
+      "body": "These are the exercises and exams attached to this course by the instructor. \"Required\" exams are a prerequisite for receiving the course certificate, and until you pass them, dependent lessons will remain locked. Use the \"Scorecard\" to view your results and answers; displaying the answer key depends on the policy set by the instructor.",
+      "title": "Exercises and Exams"
+    },
+    "hiddenKey": {
+      "afterClose": "The answer key will be displayed after the exam deadline or after you have used all your attempts.",
+      "never": "The instructor has disabled the display of the answer key for this exam.",
+      "notSubmitted": "The scorecard will be completed after final submission of answers."
+    },
+    "loading": "Loading…",
+    "meta": {
+      "attempts": "Attempts: {v}",
+      "best": "Best score: {v}",
+      "duration": "{count, plural, one {# minute} other {# minutes}}",
+      "passMark": "Passing score {v}",
+      "questions": "{count, plural, one {# question} other {# questions}}"
+    },
+    "pendingBadge": "{count, plural, one {# remaining required exam} other {# remaining required exams}}",
+    "q": {
+      "correct": "Correct",
+      "explanationLabel": "Explanation: ",
+      "number": "Question {n}",
+      "points": "{count, plural, one {# point} other {# points}}",
+      "wrong": "Incorrect"
+    },
+    "refresh": "Refresh",
+    "requiredBadge": "Required",
+    "retry": "Try again",
+    "review": "Scorecard",
+    "reviewModal": {
+      "attempts": "Attempts",
+      "bestScore": "Best score",
+      "feedback": "Instructor feedback",
+      "passMark": "Passing score",
+      "title": "Scorecard for \"{title}\"",
+      "unavailable": "Scorecard is not available."
+    },
+    "status": {
+      "awaiting_grade": "Awaiting grading",
+      "exhausted": "Attempts exhausted",
+      "failed": "Not passed",
+      "in_progress": "In progress",
+      "not_started": "Not started",
+      "passed": "Passed"
+    },
+    "title": "Course exercises and exams"
+  },
+  "coursePlayer": {
+    "actions": {
+      "askInstructorButton": "Ask instructor privately",
+      "reportCardButton": "My report card for this course"
+    },
+    "certificate": {
+      "claimButton": "Claim course certificate",
+      "congratsTitle": "Your course is completed!",
+      "eligibleMessage": "You can now claim your certificate of completion for this course.",
+      "genericPendingMessage": "To claim your certificate, please pass the course exam first.",
+      "pendingGatesMessage": "{count, plural, one {To claim your certificate, please pass the remaining required exam first: {titles}.} other {To claim your certificate, please pass the remaining required exams first: {titles}.}}",
+      "printableButton": "My certificate (Print / PDF)",
+      "titleSeparator": ", ",
+      "viewButton": "View certificate"
+    },
+    "controls": {
+      "markCompleteButton": "Mark as complete",
+      "nextSection": "Next section",
+      "prevSection": "Previous section",
+      "sectionCompletedBadge": "This section is completed"
+    },
+    "empty": {
+      "noContent": "This course has no content yet.",
+      "selectSection": "Select a section from the list."
+    },
+    "error": {
+      "backToMyCourses": "Back to my courses",
+      "loadTitle": "Failed to load course",
+      "notFoundMessage": "Course not found."
+    },
+    "errors": {
+      "invalidCourseId": "Invalid course ID."
+    },
+    "forbidden": {
+      "description": "You have not purchased this course or your access has been revoked. Visit the course page to enroll.",
+      "myCoursesButton": "My courses",
+      "title": "You do not have access to this course",
+      "viewCourseButton": "View course"
+    },
+    "header": {
+      "authorLabel": "Instructor:",
+      "backButton": "My courses",
+      "completeBadge": "Completed"
+    },
+    "help": {
+      "intro": "Select a section from the side menu to view its content. Each section is marked as \"Completed\" after watching/reading, and the progress bar updates. Videos resume from where you left off. Some lessons may be",
+      "lockedWord": "locked",
+      "middle": ": either they open on a specific date/duration (\"This lesson opens on...\") or after achieving the required score in a previous exam (\"After achieving a score of... in the exam...\"); the reason for the lock is written next to each lesson. If the instructor has set",
+      "outro": "for a level, the next level opens only after passing it; the status of all these exams can be seen in \"Required Exams\" at the top of the list, and the \"Go\" button takes you directly to the exam. By 100% completing the course and passing the required exams, you can claim the \"Certificate of Completion\" and print/PDF it (this is a course certificate, not an academic degree).",
+      "requiredExamWord": "Required exam",
+      "title": "Learning in Knowledge Market"
+    },
+    "locked": {
+      "goToPrereqExamButton": "Go to prerequisite exam",
+      "goToRequiredExamButton": "Go to required exam",
+      "title": "This lesson is not yet unlocked"
+    },
+    "mobileBar": {
+      "chartButton": "Course syllabus"
+    },
+    "mobileDrawer": {
+      "closeAriaLabel": "Close",
+      "title": "Course content"
+    },
+    "sidebar": {
+      "ariaLabel": "Course content list"
+    },
+    "stage": {
+      "askAiButton": "Ask AI",
+      "completedBadge": "Completed",
+      "lockedBadge": "Locked",
+      "minutesUnit": "minutes"
+    },
+    "toast": {
+      "addNoteFailed": "Failed to save note",
+      "deleteNoteFailed": "Failed to delete note",
+      "editNoteFailed": "Failed to edit note",
+      "examNotFoundDescription": "The instructor may have moved it; please refresh the page.",
+      "examNotFoundTitle": "This exam was not found in the course outline",
+      "lessonLockedTitle": "This lesson is locked",
+      "saveProgressFailed": "Failed to save progress"
+    }
+  },
+  "gradingQueue": {
+    "attachmentOnly": "This response contains only an attachment.",
+    "back": "Back to course editor",
+    "close": "Close",
+    "empty": {
+      "bodyAll": "No responses have been submitted for this course yet.",
+      "bodyPending": "All submitted responses have been graded or no responses have been submitted yet.",
+      "titleAll": "No responses to display",
+      "titlePending": "No responses pending grading"
+    },
+    "err": {
+      "alreadyGraded": "This response has already been graded.",
+      "badId": "Invalid course ID.",
+      "forbidden": "You do not have permission to grade this response.",
+      "responseMissing": "This response or its rubric could not be found.",
+      "rubricMissing": "The rubric for this section was not found.",
+      "rubricMissingLong": "The rubric for this section was not found. First, define the assessment rubric in the editor.",
+      "rubricUnavailable": "The rubric for this section is unavailable.",
+      "scoreTooHigh": "The entered score is invalid (cannot exceed the maximum score for the criterion)."
+    },
+    "grade": "Grade",
+    "graded": "Graded",
+    "help": {
+      "body": "This is a list of descriptive responses from learners in this course that are pending grading. Click \"Grade\" on any response to open the assessment rubric; score each criterion (cannot exceed the criterion's maximum), the total score will be calculated live, and write feedback if needed. Once the instructor submits the grade, the response becomes <b>final</b> and the learner can no longer change it. To review previously graded scores, turn on the \"Show graded responses\" option.",
+      "title": "Grading Queue"
+    },
+    "lead": "Grading descriptive responses for this course",
+    "learnerFallback": "Learner",
+    "loadingRubric": "Loading rubric...",
+    "notFound": {
+      "back": "Back to Studio",
+      "body": "This course does not exist or you are not its instructor.",
+      "title": "Course not found"
+    },
+    "openAttachment": "Open attachment",
+    "pending": "Pending grading",
+    "refresh": "Refresh",
+    "regrade": "Regrade",
+    "rowMeta": "Section: {section} · Submitted: {date}",
+    "savedGrade": "Saved grade",
+    "saving": "Saving…",
+    "showGraded": "Show graded submissions",
+    "submit": "Submit grade",
+    "title": "Essay Grading Queue"
+  },
+  "instructor": {
+    "backButton": "Back to Knowledge Market",
+    "bioHeading": "About the instructor",
+    "coursesEmpty": "No courses to display.",
+    "coursesHeading": "Instructor's courses",
+    "invalidId": "Invalid instructor ID.",
+    "notFound": "Instructor not found.",
+    "social": {
+      "ariaLabel": "Instructor links",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram",
+      "twitter": "Twitter",
+      "website": "Website",
+      "youtube": "YouTube"
+    },
+    "stats": {
+      "courses": "{count, plural, one {# published course} other {# published courses}}",
+      "learners": "{count, plural, one {# learner} other {# learners}}"
+    }
+  },
+  "marketplace": {
+    "bundlesButton": "Course Bundles",
+    "empty": {
+      "clearFiltersCta": "Clear filters",
+      "filtered": {
+        "body": "Try changing your filters or search query.",
+        "title": "No courses match these filters"
+      },
+      "noCourses": {
+        "body": "Knowledge Market courses will appear here soon.",
+        "title": "No courses published yet"
+      }
+    },
+    "filters": {
+      "category": {
+        "all": "All categories",
+        "ariaLabel": "Category filter",
+        "label": "Category"
+      },
+      "language": {
+        "ariaLabel": "Language filter",
+        "label": "Language"
+      },
+      "level": {
+        "ariaLabel": "Level filter",
+        "label": "Level"
+      },
+      "price": {
+        "ariaLabel": "Price filter",
+        "label": "Price"
+      },
+      "sort": {
+        "ariaLabel": "Sort",
+        "label": "Sort by"
+      }
+    },
+    "head": {
+      "description": "Search, filter, and browse published online courses and make purchases right here.",
+      "title": "Knowledge Market"
+    },
+    "header": {
+      "badge": "Public",
+      "subtitle": "Search, filter, and browse published market courses.",
+      "title": "Knowledge Market"
+    },
+    "helpNote": {
+      "body": "Here you can view instructors' published courses. You can search by title or instructor name, filter by category, level, language, and price, and change the display order. Save any course to \"My Favorites\" using the ❤ icon. Click on any course to view its syllabus and \"Free Preview\" sections and purchase it.",
+      "title": "What is the Knowledge Market?"
+    },
+    "pagination": {
+      "ariaLabel": "Pagination",
+      "next": "Next",
+      "prev": "Previous",
+      "status": "Page {page} of {totalPages}"
+    },
+    "resultCount": "{count, plural, one {# course found} other {# courses found}}",
+    "search": {
+      "ariaLabel": "Search course",
+      "placeholder": "Search course or instructor…",
+      "semanticUnavailable": "Multilingual semantic search is currently unavailable; results are from keyword search and authored names only."
+    },
+    "tags": {
+      "ariaLabel": "Filter tags",
+      "clearButton": "Clear tags"
+    }
+  },
+  "qna": {
+    "aiDraft": {
+      "button": "AI Draft",
+      "drafting": "Drafting…",
+      "emptyError": "No draft was generated; please try again."
+    },
+    "answer": {
+      "acceptedBadge": "Instructor Answer"
+    },
+    "badge": {
+      "hidden": "Hidden",
+      "pinned": "Pinned",
+      "pinnedReply": "Pinned Reply"
+    },
+    "delete": {
+      "failToast": "Deletion failed",
+      "label": "Delete"
+    },
+    "empty": {
+      "cta": "Be the first to ask a question.",
+      "message": "No questions have been submitted yet.",
+      "messageLessonScoped": "No questions have been submitted for this lesson yet.",
+      "showAllButton": "Show all course questions"
+    },
+    "form": {
+      "labelDefault": "Ask your question",
+      "labelLessonScoped": "Question about lesson \"{name}\"",
+      "labelSection": "Question about \"{name}\"",
+      "placeholder": "Write your question about this course…",
+      "submitButton": "Submit Question",
+      "submitting": "Submitting…",
+      "successToast": "Your question has been submitted.",
+      "validation": "Please write your question (at least 2 characters)."
+    },
+    "guest": {
+      "loginPrompt": "Log in to your account to ask a question."
+    },
+    "heading": "Q&A",
+    "help": {
+      "hide": {
+        "after": " you can hide inappropriate Q&As; hidden items are not visible to students, but remain in the \"Moderation view\" with a \"Hidden\" badge so you can show them again if necessary.",
+        "before": "As a moderator, using the ",
+        "eyeWord": "eye",
+        "hideWord": "hide",
+        "middle": " icon "
+      },
+      "pin": {
+        "after": " you can pin the best answer or question to the top of the list for better visibility. When you answer a question, the asker is automatically notified.",
+        "before": "Using the ",
+        "word": "pin"
+      },
+      "title": "Pinning and Moderating Q&A"
+    },
+    "hide": {
+      "failToast": "Operation failed",
+      "hiddenToast": "Hidden from students.",
+      "hideAriaLabel": "Hide (inappropriate)",
+      "hideTitle": "Hide from students",
+      "unhiddenToast": "Displayed again.",
+      "unhideAriaLabel": "Show again (undo hide)",
+      "unhideTitle": "Show again — undo hide"
+    },
+    "list": {
+      "loading": "Loading questions…",
+      "questionCount": "{count, plural, one {# question} other {# questions}}",
+      "retry": "Retry"
+    },
+    "moderation": {
+      "activeLabel": "Moderation view (Active)",
+      "label": "Moderation view"
+    },
+    "pin": {
+      "failToast": "Failed to pin",
+      "pinAriaLabel": "Pin answer",
+      "pinTitle": "Pin (show at top)",
+      "pinnedToast": "Answer pinned and will be displayed at the top.",
+      "unpinLabel": "Unpin",
+      "unpinnedToast": "Unpinned."
+    },
+    "reply": {
+      "button": "Reply",
+      "cancelButton": "Cancel",
+      "notifyHint": "Submitting a reply will automatically notify the asker.",
+      "placeholder": "Write your reply…",
+      "submitButton": "Submit reply",
+      "submitting": "Submitting…",
+      "successToast": "Your reply has been submitted.",
+      "validation": "Please enter your reply (at least 2 characters)."
+    },
+    "scope": {
+      "groupAriaLabel": "Question scope",
+      "lessonOnly": "This lesson only",
+      "lessonOnlyTitle": "Questions for this lesson only",
+      "lessonOnlyTitleNamed": "Questions for \"{name}\" only",
+      "wholeCourse": "Whole course"
+    }
+  },
+  "rubricBuilder": {
+    "actions": {
+      "clear": "Clear rubric",
+      "save": "Save rubric",
+      "saveChanges": "Save rubric changes",
+      "saved": "Rubric saved.",
+      "saving": "Saving..."
+    },
+    "criteria": {
+      "add": "Add criterion",
+      "heading": "Evaluation criteria",
+      "maxPoints": "Maximum points",
+      "maxPointsAria": "Maximum points for criterion {n}",
+      "moveDown": "Move down",
+      "moveUp": "Move up",
+      "remove": "Remove criterion",
+      "titleAria": "Title for criterion {n}",
+      "titlePlaceholder": "Criterion title (e.g., Scientific accuracy)",
+      "total": "Total points: {total}"
+    },
+    "err": {
+      "criterionPointsInvalid": "Maximum points for criterion {n} must be an integer of at least 1.",
+      "criterionTitleEmpty": "Title for criterion {n} cannot be empty.",
+      "invalid": "Rubric information is invalid; please check the criteria and points.",
+      "levelLabelEmpty": "Level label in criterion {n} cannot be empty.",
+      "levelPointsRange": "Level points for criterion {n} must be between zero and its maximum points.",
+      "noCriteria": "Each rubric must have at least one criterion.",
+      "notFound": "This section was not found or is not of type \"open-ended response\".",
+      "nothingToDelete": "There is no rubric to delete.",
+      "peersRange": "The number of peer reviewers must be between {min} and {max}.",
+      "titleRequired": "Rubric title is required.",
+      "titleTooLong": "Rubric title must not exceed {max} characters."
+    },
+    "fields": {
+      "description": "Description",
+      "descriptionPlaceholder": "A short description of what is expected from the learner.",
+      "mode": "Evaluation mode",
+      "optional": "(Optional)",
+      "peers": "Number of peer reviewers per response",
+      "peersHelper": "Each response is evaluated by up to {n} other anonymous learners.",
+      "title": "Rubric title",
+      "titlePlaceholder": "e.g., Analytical assignment evaluation rubric"
+    },
+    "help": {
+      "body1": "The \"open-ended response\" section is an assignment where the learner submits a text response (and optionally a file), and you grade it based on a",
+      "body2": ". A rubric is a list of",
+      "body3": "; each criterion has a title and a \"maximum points\" value, and you can also define multiple \"descriptive levels\" for each criterion (e.g., Excellent/Good/Poor with corresponding points). Then,",
+      "body4": "mode: \"Instructor\" (you grade in the grading queue), \"Self-assessment\" (the learner assesses themselves), or \"Peer review\" (other learners grade anonymously). Total points are calculated automatically.",
+      "strong1": "rubric",
+      "strong2": "Criteria",
+      "strong3": "Assessment mode",
+      "title": "Creating an \"Evaluation Rubric\" for descriptive answers"
+    },
+    "levels": {
+      "add": "Add descriptive level",
+      "labelAria": "Label for level {n} of criterion {c}",
+      "labelPlaceholder": "Level label (e.g., Excellent)",
+      "pointsAria": "Points for level {n} of criterion {c}",
+      "remove": "Remove level"
+    },
+    "loading": "Loading evaluation rubric…"
+  },
+  "shared": {
+    "authorFallback": "Knowledge Market Instructor",
+    "card": {
+      "cart": {
+        "add": "Add to cart",
+        "addButton": "Add to cart",
+        "inCartButton": "In cart",
+        "loginPrompt": "Log in to add to cart",
+        "remove": "Remove from cart",
+        "toggleError": "Failed to update cart."
+      },
+      "cover": {
+        "alt": "Cover image for {title} course"
+      },
+      "enrollmentCount": "{count, plural, one {# learner} other {# learners}}",
+      "price": {
+        "free": "Free",
+        "unpriced": "Unpriced",
+        "unpricedTitle": "Not yet priced"
+      },
+      "rating": {
+        "ariaBase": "Rating {rating} out of 5",
+        "ariaWithCount": "{count, plural, one {Rating {rating} out of 5 based on # review} other {Rating {rating} out of 5 based on # reviews}}",
+        "noRating": "No rating"
+      },
+      "wishlist": {
+        "add": "Add to wishlist",
+        "loginPrompt": "Log in to save to wishlist",
+        "remove": "Remove from wishlist",
+        "savedButton": "In wishlist",
+        "toggleError": "Failed to update wishlist."
+      }
+    },
+    "certField": {
+      "author_name": "Instructor Name",
+      "course_title": "Course Title",
+      "issued_date": "Issue Date",
+      "qr": "QR Code",
+      "serial": "Certificate Code",
+      "student_name": "Student Name",
+      "verify_url": "Verification URL"
+    },
+    "contentType": {
+      "audio": "Audio",
+      "document": "Document",
+      "h5p": "Interactive (H5P)",
+      "link": "Link",
+      "open_response": "Open Response",
+      "quiz": "Quiz",
+      "richtext": "Rich Text",
+      "slide": "Slide",
+      "video": "Video"
+    },
+    "delivery": {
+      "blended": "Blended",
+      "live": "Live",
+      "self_paced": "Self-paced"
+    },
+    "duration": {
+      "hoursMinutes": "{h, plural, one {# hour} other {# hours}} and {m, plural, one {# minute} other {# minutes}}",
+      "hoursOnly": "{h, plural, one {# hour} other {# hours}}",
+      "minutesOnly": "{m, plural, one {# minute} other {# minutes}}"
+    },
+    "genericError": "The operation failed",
+    "language": {
+      "all": "All languages",
+      "ar": "Arabic",
+      "en": "English",
+      "fa": "Persian"
+    },
+    "level": {
+      "advanced": "Advanced",
+      "all": "All levels",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate"
+    },
+    "lock": {
+      "default": "This lesson is currently locked.",
+      "prerequisite": "Please complete the prerequisite lesson first to unlock it.",
+      "requiredAssessment": "Please successfully pass the required assessment of the previous level to unlock this level.",
+      "scoreFallback": "Required",
+      "scoreUnlockNoQuiz": "Unlocks after achieving a minimum score of {min} in the previous assessment.",
+      "scoreUnlockWithQuiz": "Unlocks after achieving a minimum score of {min} in the \"{quiz}\" quiz.",
+      "shortDefault": "Locked",
+      "shortPrerequisite": "Prerequisite Locked",
+      "shortRequiredAssessment": "Assessment Locked",
+      "shortScoreUnlock": "Score Locked",
+      "shortTimeRelease": "Time Locked",
+      "timeReleaseNoDate": "This lesson will be available at the scheduled time.",
+      "timeReleaseWithDate": "This lesson will be available starting from {date}."
+    },
+    "money": {
+      "rialUnit": "Rial"
+    },
+    "payMethod": {
+      "free": "Free",
+      "gateway": "Payment Gateway",
+      "wallet": "Wallet"
+    },
+    "priceChip": {
+      "free": "Free"
+    },
+    "priceFilter": {
+      "all": "All prices",
+      "freeOnly": "Free only",
+      "lte10m": "Up to 10 million Rials",
+      "lte1m": "Up to 1 million Rial",
+      "lte50m": "Up to 50 million Rials",
+      "lte5m": "Up to 5 million Rials"
+    },
+    "pricingModel": {
+      "free": "Free",
+      "one_time": "One-time purchase"
+    },
+    "purchaseStatus": {
+      "completed": "Completed",
+      "pending": "Pending payment",
+      "refunded": "Refunded"
+    },
+    "requiredGate": {
+      "attemptsExhausted": "No attempts remaining — contact course support for assistance",
+      "attemptsRemaining": "{count, plural, one {# attempt remaining} other {# attempts remaining}}",
+      "currentGrade": "Your current grade: {grade}",
+      "head": "To unlock the next level: pass the \"{title}\" test with a score of ≥{passPercent}",
+      "shortExhausted": "Out of attempts",
+      "shortFailed": "Failed",
+      "shortNotTaken": "Not taken",
+      "shortPassed": "Passed"
+    },
+    "sort": {
+      "newest": "Newest",
+      "popular": "Most popular",
+      "rating": "Highest rated"
+    },
+    "status": {
+      "approved": "Approved",
+      "archived": "Archived",
+      "changes_requested": "Changes requested",
+      "draft": "Draft",
+      "in_review": "In review",
+      "published": "Published",
+      "rejected": "Rejected",
+      "suspended": "Suspended"
+    },
+    "translationBadge": {
+      "machine": "Machine translation",
+      "pending": "In preparation",
+      "stale": "Needs update"
+    }
+  },
+  "translationTab": {
+    "empty": "No fields have been registered for translation yet. Once the curriculum is completed and the course is published, rows will appear here.",
+    "entity": {
+      "MarketCourse": "Course",
+      "MarketLesson": "Lesson",
+      "MarketModule": "Module",
+      "MarketSection": "Section"
+    },
+    "field": {
+      "description": "Description",
+      "learningObjectives": "Learning objectives",
+      "prerequisites": "Prerequisites",
+      "targetAudience": "Target audience",
+      "title": "Title"
+    },
+    "intro": "The source text is on the right. Any manual edit marks that row as \"Reviewed\" and the translation engine will no longer overwrite it.",
+    "loadError": "Failed to load translations.",
+    "loading": "Loading...",
+    "retranslate": "Retranslate",
+    "retranslateCancel": "Cancel",
+    "retranslateConfirm": "You have {count, plural, one {# reviewed row.} other {# reviewed rows.}} Machine retranslation will overwrite them. Do you want to continue?",
+    "retranslateConfirmYes": "Yes, overwrite",
+    "retranslateQueued": "Course queued for translation.",
+    "save": "Save",
+    "saveError": "Failed to save.",
+    "saved": "Saved",
+    "saving": "Saving...",
+    "sourceColumn": "Source Text",
+    "status": {
+      "failed": "Failed",
+      "machine": "Machine",
+      "missing": "Untranslated",
+      "pending": "Pending",
+      "reviewed": "Reviewed",
+      "stale": "Needs Update"
+    },
+    "summary": "{done} of {total} fields translated",
+    "tabLabel": "Translation",
+    "targetColumn": "Translation",
+    "title": "Course Content Translation"
+  },
+  "viewers": {
+    "audio": {
+      "exhaustedMessage": "Playback failed — download to listen.",
+      "preparing": "Preparing audio...",
+      "unavailable": "Audio not available."
+    },
+    "book": {
+      "ariaLabel": "Book view",
+      "exitButton": "Return to scroll view",
+      "nextPageAriaLabel": "Next page",
+      "ofTotal": "of {total}",
+      "pageAlt": "Page {n}",
+      "pageLoadFailed": "Failed to load page {n}.",
+      "pageNumberInputAriaLabel": "Page number",
+      "prevPageAriaLabel": "Previous page",
+      "rangeAriaLabel": "Page navigation",
+      "retry": "Retry",
+      "roleDescription": "book",
+      "spreadStatusPair": "Pages {right} and {left} of {total}",
+      "spreadStatusSingle": "Page {current} of {total}"
+    },
+    "captions": {
+      "loadFailedError": "Failed to load captions.",
+      "tooLargeError": "The captions file is too large."
+    },
+    "chapters": {
+      "count": "{count, plural, one {(# chapter)} other {(# chapters)}}",
+      "title": "Video chapters"
+    },
+    "common": {
+      "download": "Download",
+      "downloadFile": "Download file",
+      "fullscreen": "Fullscreen",
+      "loadingDefault": "Loading content…",
+      "retry": "Retry"
+    },
+    "doc": {
+      "preparing": "Preparing document…",
+      "previewFailedMessage": "Preview failed — download to view.",
+      "unavailable": "Document not available."
+    },
+    "link": {
+      "externalResourceTitle": "External resource",
+      "leavePlatformWarning": "Opening this link will take you away from the platform. Please verify the destination before proceeding.",
+      "noUrlMessage": "No link has been provided for this section.",
+      "openInNewTab": "Open in new tab"
+    },
+    "panel": {
+      "durationMinutes": "{count, plural, one {# minute} other {# minutes}}",
+      "freePreviewBadge": "Free preview",
+      "helpNoteBody": "This page displays the course content exactly as the student sees it. Select a section from the sidebar to view its content (video, slide, document, audio, text, link, quiz, or H5P interactive content). To return to editing, use the \"Back to editing\" button.",
+      "helpNoteTitle": "Student view preview"
+    },
+    "quiz": {
+      "description": "This section contains a quiz. Enter to take the quiz.",
+      "enterButton": "Start quiz",
+      "noExamMessage": "No quiz is attached to this section.",
+      "sectionTitle": "Section quiz"
+    },
+    "raster": {
+      "bookViewButton": "Book view",
+      "bookViewPreparing": "Preparing book view…",
+      "footerNote": "{kind} — Server-side image preview. You can download it for full viewing.",
+      "kindDocument": "document",
+      "kindSlide": "slide",
+      "pageAlt": "Page {n}",
+      "pageCountLabel": "{count, plural, one {# page} other {# pages}}",
+      "preparingPreview": "Preparing image preview for {kind}…",
+      "zoomInAriaLabel": "Zoom in",
+      "zoomOutAriaLabel": "Zoom out",
+      "zoomPercent": "{zoom}%"
+    },
+    "richtext": {
+      "emptyMessage": "No text has been provided for this section."
+    },
+    "sectionViewer": {
+      "missingFileMessage": "No file has been uploaded for this section.",
+      "unsupportedTypeMessage": "The content type \"{typeLabel}\" is not supported."
+    },
+    "sprite": {
+      "previewAndJumpTitle": "Preview and jump"
+    },
+    "textDoc": {
+      "footerNote": "Text document — you can download it for full viewing.",
+      "renderFailedMessage": "Could not render the document. You can download the file."
+    },
+    "transcript": {
+      "empty": "No transcript is available for this video.",
+      "loading": "Loading transcript…",
+      "segmentCount": "{count, plural, one {(# section)} other {(# sections)}}",
+      "title": "Video transcript"
+    },
+    "video": {
+      "captionLanguageLabel": "Subtitle language",
+      "captionsButton": {
+        "offLabel": "Subtitles: Off",
+        "onLabel": "Subtitles: On",
+        "turnOffTitle": "Turn off subtitles",
+        "turnOnTitle": "Turn on subtitles"
+      },
+      "exhaustedMessage": "Could not play video — download to watch.",
+      "machineTranslatedBadge": "Machine translated",
+      "machineTranslatedSuffix": " — Machine translated",
+      "machineTranslatedTooltip": "This subtitle is machine-translated and may contain errors.",
+      "persianCaptionLabel": "Persian",
+      "playbackRateAriaLabel": "Video playback speed",
+      "playbackRateLabel": "Playback speed",
+      "preparing": "Preparing video…",
+      "unavailable": "Video is unavailable."
+    }
+  }
+}

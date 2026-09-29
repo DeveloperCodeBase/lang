@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "search": "Buscar",
+    "select": "Seleccionar"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Próximamente",
+      "full": "Calendario completo",
+      "empty": "No hay eventos en los próximos {days, number} días",
+      "error": "No se pudieron cargar los eventos",
+      "today": "Hoy",
+      "allDay": "Todo el día"
+    },
+    "type": {
+      "meeting": "Clase",
+      "exam": "Examen",
+      "assignment": "Tarea",
+      "term": "Periodo del semestre",
+      "event": "Evento",
+      "personal": "Personal"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "La página encontró un error",
+      "body": "Lo sentimos, ha ocurrido un problema. Este error se registró automáticamente. Puedes volver a la página principal o recargar la página.",
+      "home": "Volver al inicio",
+      "reload": "Recargar"
+    }
+  },
+  "help": {
+    "toggle": "Ayuda",
+    "close": "Cerrar ayuda"
+  },
+  "money": {
+    "rialUnit": "IRR"
+  },
+  "notFound": {
+    "back": "Volver a la página anterior",
+    "body": "La dirección que buscas no existe o ha sido movida. Puedes volver a la página anterior o ir al inicio.",
+    "home": "Volver al inicio",
+    "programs": "Ver programas",
+    "screenLabel": "404 · No encontrado",
+    "search": "Buscar",
+    "title": "Página no encontrada"
+  },
+  "state": {
+    "empty": "No hay elementos para mostrar.",
+    "error": "Ocurrió un error.",
+    "loading": "Cargando…",
+    "noResults": "No se encontraron resultados."
+  },
+  "time": {
+    "justNow": "Justo ahora"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Muchas gracias por compartir esto conmigo; sé que no fue fácil decirlo y no estás sola ni solo. Lo que sientes es real e importante, y mereces el apoyo inmediato de una persona. Por favor, comunícate con la línea de ayuda ahora mismo; hay alguien dispuesto a escuchar con amabilidad.",
+      "tipHelpline": "Línea de ayuda de emergencia",
+      "tipEmergency": "Si te encuentras en peligro inmediato, llama a los servicios de emergencia",
+      "tipCompany": "Si puedes, quédate con una persona de confianza ahora mismo"
+    }
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "actions": {
+    "concept": {
+      "label": "推荐概念",
+      "sub": "18分钟 · 3个简短练习",
+      "title": "矩阵导数"
+    },
+    "group": {
+      "label": "学习小组",
+      "sub": "明天 20:30",
+      "title": "与阿里和萨拉"
+    },
+    "quiz": {
+      "label": "补测问答",
+      "sub": "8个对比练习题",
+      "title": "优化 · 第 2 级"
+    },
+    "review": {
+      "label": "建议复查",
+      "sub": "已记录模糊的概念",
+      "title": "第 5 节，从第 22 分钟开始"
+    }
+  },
+  "activity": {
+    "clustering": {
+      "label": "课堂题目聚类",
+      "value": "2"
+    },
+    "events": {
+      "label": "已记录的学习活动",
+      "value": "۲۳۴"
+    },
+    "semantic": {
+      "label": "语义搜索",
+      "value": "9"
+    },
+    "title": "系统活动 · 最近 24 小时",
+    "tutor": {
+      "label": "AI Tutor 回答",
+      "value": "18"
+    }
+  },
+  "bm": {
+    "count": "{value, number} 个已保存项目",
+    "countMore": "另有 {value, number} 项已保存",
+    "emptyList": "您还没有保存任何内容。",
+    "error": "错误",
+    "eyebrow": "已保存",
+    "helpBody": "使用“保存”按钮标记的所有内容——对话消息、图书馆资源、实验和链接——都会收集在这里。您可以通过顶部的标签按类型筛选，在搜索框中查找，或点击任意项目前往其位置。",
+    "helpTitle": "存档帮助",
+    "loadFailed": "加载保存的内容失败。",
+    "loadMore": "加载更多",
+    "loadMoreFailed": "加载更多内容失败。",
+    "loading": "正在加载...",
+    "loadingList": "正在加载保存的内容...",
+    "meta": {
+      "chat_message": "消息",
+      "lab": "实验室",
+      "lesson": "课时",
+      "library": "资料库",
+      "link": "链接"
+    },
+    "removeAria": "从已保存内容中移除：{title}",
+    "removeFailed": "删除失败，请重试。",
+    "removeTitle": "从收藏中移除",
+    "removed": "已移除",
+    "removedMsg": "已从“收藏”中移除。",
+    "retry": "重试",
+    "searchAria": "搜索收藏",
+    "searchPlaceholder": "搜索收藏 — 标题或笔记",
+    "title": "收藏与夹",
+    "type": {
+      "all": "全部",
+      "chat_message": "消息",
+      "lab": "实验",
+      "lesson": "课程",
+      "library": "图书馆",
+      "link": "链接"
+    },
+    "untitled": "（无标题）"
+  },
+  "cognitive": {
+    "and": "和",
+    "badge": "认知档案 · 实时",
+    "bodyLead": "根据最近 12 节课中的 234 次互动，您的认知档案已更新。模型显示您在",
+    "bodyMid": "方面表现强劲，但在",
+    "bodyTail": "方面仍有提升空间。",
+    "growthArea": "应用数学",
+    "strengthOne": "编码",
+    "strengthTwo": "坚持",
+    "title": "您的认知地图"
+  },
+  "courses": {
+    "capacityLine": "{used, number} / {cap, number} 容量 · {credits, number} 学分",
+    "cohortSuffix": " · 班级：{name}",
+    "confirm": {
+      "withdraw": {
+        "body": "您将退出课程“{title}”。退出后，您在该课程中的注册将失效，其对成绩/学费的影响将根据教学规定计算；如需返回，必须重新注册。",
+        "cta": "退课",
+        "title": "退出课程"
+      }
+    },
+    "day": {
+      "0": "周六",
+      "1": "周日",
+      "2": "周一",
+      "3": "周二",
+      "4": "周三",
+      "5": "周四",
+      "6": "周五"
+    },
+    "deletedCourse": "（已删除的课程）",
+    "deletedEnrollment": "（已删除的注册）",
+    "enrolledAt": "注册时间：{date}",
+    "errUnknown": "未知错误",
+    "errorTitle": "错误",
+    "groupSuffix": " · 组 {value, number}",
+    "loading": "正在从 API 加载...",
+    "open": "查看课程",
+    "scheduleNone": "未设置排课",
+    "sectionStatus": {
+      "CANCELED": "已取消",
+      "CLOSED": "已关闭",
+      "OPEN": "开放"
+    },
+    "signIn": {
+      "cta": "登录账户",
+      "title": "登录以查看您的课程"
+    },
+    "status": {
+      "active": "进行中",
+      "completed": "已完成",
+      "dropped": "已退课",
+      "inactive": "未激活",
+      "withdrawn": "已退出"
+    },
+    "student": {
+      "catalogCta": "浏览课程目录",
+      "empty": "您尚未报名任何课程。",
+      "eyebrow": "我的报名",
+      "helpBody": "您报名的所有课程都将列在这里。您可以打开任意课程，或退出正在进行的课程。",
+      "helpTitle": "我的课程帮助",
+      "intro": "您报名的所有课程均会列于此处。您可以退出某一门进行中的课程；其状态将变更为“{status}”。",
+      "title": "我的课程"
+    },
+    "teach": {
+      "empty": "您尚未被分配任何班级。由系主任分配后，您的班级将显示在此处。",
+      "eyebrow": "我的教学",
+      "gradebook": "成绩册",
+      "grades": "录入成绩",
+      "helpBody": "此列表显示您正在授课的班级（而非您作为学生的课程）。授课教师由系主任分配；若未看到班级，说明尚未向您分配班级。点击“批改队列”可批改学生提交的作业，点击“录入成绩”可录入期末成绩。",
+      "helpTitle": "我的课程帮助（教师）",
+      "hub": "课程中心",
+      "intro": "为您分配的班级将列于此处。您可以从每个班级访问成绩册、学生名单、成绩录入和批改队列。",
+      "queue": "批改队列",
+      "roster": "学生名单",
+      "statCredits": "总学分",
+      "statSections": "我的班级",
+      "statStudents": "学生人数",
+      "title": "我的课程"
+    },
+    "thisCourse": "本课程",
+    "withdraw": "退课",
+    "withdrawnToast": "已成功退课"
+  },
+  "credentials": {
+    "all": "全部 ←",
+    "bayes": {
+      "date": "2026年2月14日",
+      "sub": "20 个模块 · 84% 掌握度",
+      "title": "应用贝叶斯统计"
+    },
+    "db": {
+      "date": "2025年12月31日",
+      "sub": "18 个模块 · 88% 掌握度",
+      "title": "高级数据库"
+    },
+    "ml": {
+      "date": "2026年3月9日",
+      "sub": "24 个模块 · 92% 掌握度",
+      "title": "机器学习基础"
+    },
+    "title": "近期证书"
+  },
+  "greet": {
+    "fallback": "欢迎",
+    "focus": "优化",
+    "headlineLead": "，今天专注于",
+    "headlineTail": "。",
+    "hello": "你好，{name}",
+    "idPrefix": " · ID ",
+    "inboxAria": "通知收件箱",
+    "inboxTitle": "通知",
+    "joinNextClass": "进入下一节课",
+    "panelPrefix": "面板 ",
+    "roleStudent": "学生",
+    "summary": "3 项待办任务 · 距离下一场会议还有 90 分钟 · 认知档案已更新。"
+  },
+  "help": {
+    "body": "此工作台汇集了您的学习状态：待办任务、下一场会议、认知档案以及近期证书。点击“进入下一节课”即可加入直播课堂，通过“完整日历”查看每周日程。",
+    "title": "工作台指南"
+  },
+  "instructor": {
+    "allSections": "我的所有课程",
+    "atRisk": {
+      "absences": "共 {total, number} 节课，缺勤 {absences, number} 节",
+      "note": "此列表仅供“预警”参考 — 退课或零分裁决权在授课教师/教务委员会，绝不会自动执行。",
+      "title": "接近缺勤上限的学生"
+    },
+    "distTitle": "最终成绩分布（共计 {value, number} 个成绩）",
+    "empty": "您尚未被分配任何课程。系主任完成分配后，课程将显示在此处。",
+    "grades": "录入成绩",
+    "helpBody": "此处列出了分配给您的课程，包括每周日程、容量以及注册学生人数。点击“录入成绩”以提交成绩，点击“成绩册”查看成绩册，或点击“直播课堂”主持上课。若未看到任何课程，请联系系主任进行教师分配。",
+    "helpTitle": "教师工作台指南",
+    "hub": "课程中心",
+    "kpi": {
+      "atRisk": "出勤预警",
+      "capacity": "总容量",
+      "queue": "批改队列",
+      "sections": "我的课程",
+      "students": "学生",
+      "today": "今日课程"
+    },
+    "liveClass": "直播课堂",
+    "nudge": {
+      "atRisk": "{value, number} 名学生接近缺勤上限",
+      "atRiskCta": "查看考勤",
+      "queue": "有 {value, number} 项待批改内容",
+      "queueCta": "前往批改队列"
+    },
+    "quick": {
+      "assessmentBuilder": "测验构建器",
+      "attendance": "考勤",
+      "gradeSubmission": "提交成绩",
+      "gradebook": "成绩册",
+      "gradingQueue": "作业批改队列",
+      "liveClass": "直播课堂",
+      "myCourses": "我的课程",
+      "payroll": "课酬"
+    },
+    "roster": "学生名单",
+    "subtitle": "本学期您的课程 · 实时数据",
+    "title": "教师工作台",
+    "todayTitle": "今日课程（{day}）"
+  },
+  "kit": {
+    "errLoad": "仪表盘加载失败",
+    "quickLinks": "快捷方式"
+  },
+  "kpi": {
+    "courses": {
+      "label": "进行中的课程",
+      "trend": "今日 2",
+      "value": "4"
+    },
+    "hours": {
+      "label": "学习时长 · 本周",
+      "trend": "+ 1.8h",
+      "value": "12.4"
+    },
+    "mastery": {
+      "label": "平均掌握度",
+      "trend": "+ 4.2",
+      "unit": "%",
+      "value": "78"
+    },
+    "risk": {
+      "label": "学业风险",
+      "trend": "低",
+      "value": "0.12"
+    }
+  },
+  "notif": {
+    "allRead": "所有通知均已读",
+    "emptyAll": "暂无通知。",
+    "emptyUnread": "没有未读通知。",
+    "eyebrow": "通知",
+    "helpBody": "您的所有通知都会汇集于此。点击任意通知即可将其标记为已读并跳转至相关页面。切换至“未读”标签页可仅查看新通知，点击页面顶部的按钮可一键全部标记为已读。",
+    "helpTitle": "通知收件箱帮助",
+    "loadFailed": "通知加载失败。",
+    "loading": "加载中…",
+    "markAll": "全部标记为已读",
+    "retry": "重试",
+    "settings": "设置",
+    "tab": {
+      "all": "全部",
+      "unread": "未读"
+    },
+    "tabCount": "（{value, number}）",
+    "title": "通知收件箱",
+    "unreadLead": "{value, number} 条未读通知"
+  },
+  "org": {
+    "title": "组织工作台",
+    "subtitle": "概览 · 实时数据",
+    "kpi": {
+      "activeMembers": "活跃组织成员",
+      "seatsUsed": "已分配席位",
+      "seatCap": "合同总席位",
+      "overdueInvoices": "逾期发票",
+      "catalogCourses": "课程目录",
+      "activeEnrollments": "有效选课（所有课程）",
+      "programs": "培养方案",
+      "currentTerm": "当前学期"
+    },
+    "help": {
+      "title": "组织工作台指南",
+      "body": "此页面显示您组织的概览：活跃成员、已分配席位和逾期发票，以及当前学期的课程和培养方案。显示为“—”的数值表示尚未在系统中注册——例如，在财务部门注册合同席位上限之前，“合同总席位”将没有数值。"
+    },
+    "links": {
+      "seats": "席位",
+      "invoices": "组织发票",
+      "catalog": "课程目录",
+      "inbox": "通知",
+      "settings": "设置"
+    }
+  },
+  "progress": {
+    "band": {
+      "high": "高",
+      "low": "低",
+      "medium": "中"
+    },
+    "courses": {
+      "active": "进行中",
+      "completed": "已完成",
+      "dropped": "已退课",
+      "title": "我的课程",
+      "untitled": "无标题"
+    },
+    "event": {
+      "ai_summary_viewed": "查看 AI 摘要",
+      "ai_tutor_asked": "向 AI 助教提问",
+      "assignment_submitted": "提交作业",
+      "class_joined": "进入课堂",
+      "class_left": "离开课堂",
+      "confusion_reported": "反馈疑问",
+      "course_opened": "打开课程",
+      "lesson_completed": "完成课时",
+      "lesson_opened": "打开课程",
+      "quiz_started": "开始测验",
+      "quiz_submitted": "提交测验",
+      "submission_graded": "已评分",
+      "video_paused": "暂停视频",
+      "video_played": "播放视频"
+    },
+    "eyebrow": "实时进度 · 真实数据",
+    "feed": {
+      "ai": "AI 助手",
+      "all": "全部",
+      "class": "课堂",
+      "empty": "暂无记录的事件。请先加入课程或提交测验以开始。",
+      "emptyFiltered": "该分类下暂无事件。",
+      "learning": "学习"
+    },
+    "feedTitle": "最新活动",
+    "helpBody": "此页面为您提供学业状况的真实摘要：平均分、活跃与已完成课程、课堂出勤以及与智能助手的互动。“下一步”部分显示推荐操作，通过“快捷方式”您可以直接前往选课、成绩单和其他页面。",
+    "helpTitle": "工作台指南",
+    "introAfter": "读取。注册、课堂出勤、测验提交以及 AI 助手的确切使用情况均会作为事件保存。",
+    "introBefore": "此页面上的每个数字均直接来自",
+    "kpi": {
+      "activeCourses": "活跃课程",
+      "activeCoursesHint": "共 {value, number} 个注册",
+      "ai": "AI 互动",
+      "aiHint": "助手请求",
+      "aiQuota": "AI 消息额度",
+      "aiQuotaHint": "{plan} 方案",
+      "aiQuotaNearLimit": "{plan} 方案 · 接近上限",
+      "attendance": "课堂出勤",
+      "attendanceHint": "考勤记录",
+      "attendanceRate": "出勤率",
+      "attendanceRateOk": "准许有理由的缺勤",
+      "attendanceRateOver": "⚠ 超出规章允许的缺勤上限",
+      "avgGrade": "平均分",
+      "avgGradeHint": "满分 100",
+      "doneCourses": "已完成课程",
+      "doneCoursesHint": "已退课 {value, number} 门",
+      "gpa": "GPA",
+      "gpaHint": "满分 20（最终成绩）",
+      "gpaHintProgram": "满分 20 · 专业平均分：{avg}",
+      "submissions": "测验 / 作业",
+      "submissionsHint": "已评分 {value, number}",
+      "submissionsNone": "暂无成绩"
+    },
+    "next": {
+      "class": {
+        "hint": "查看每周课表并加入下一节课。",
+        "label": "您尚未参加任何课程"
+      },
+      "enroll": {
+        "hint": "请注册本学期的课程以开始学习。",
+        "label": "您当前没有活跃的课程"
+      },
+      "lowgrade": {
+        "hint": "请向AI助手或学业顾问寻求帮助。",
+        "label": "平均成绩低于预期"
+      },
+      "ontrack": {
+        "hint": "您的学业进展顺利，请继续保持！",
+        "label": "一切正常"
+      },
+      "pending": {
+        "hint": "请跟进作业和考试结果。",
+        "label": "{value, number} 项提交待评分"
+      },
+      "title": "下一步"
+    },
+    "quick": {
+      "add-drop": {
+        "desc": "修改选课",
+        "label": "退改选"
+      },
+      "assignments": {
+        "desc": "待办事项与截止日期",
+        "label": "作业与考试"
+      },
+      "registration": {
+        "desc": "注册本学期课程",
+        "label": "选课"
+      },
+      "schedule": {
+        "desc": "课程与时间安排",
+        "label": "每周课表"
+      },
+      "transcript": {
+        "desc": "成绩与学业状态",
+        "label": "成绩单与平均分"
+      },
+      "tuition": {
+        "desc": "财务状况与结清",
+        "label": "学费与支付"
+      }
+    },
+    "quickTitle": "快捷方式",
+    "risk": {
+      "disclaimerAfter": " — 仅供人工参考。",
+      "disclaimerBefore": "此指标根据既定规则计算得出，",
+      "disclaimerStrong": "绝不作最终决定",
+      "noFactors": "未发现明显的风险因素。",
+      "title": "学习风险指标"
+    },
+    "signIn": {
+      "cta": "登录账户",
+      "title": "登录以查看仪表盘"
+    },
+    "student": "学生",
+    "tenant": {
+      "ai": "AI调用",
+      "avgGrade": "全校平均成绩",
+      "courses": "课程",
+      "eventDist": "事件分布",
+      "sessions": "课堂学时",
+      "submissions": "提交数",
+      "title": "机构仪表盘（管理员）",
+      "users": "活跃用户"
+    },
+    "term": {
+      "grading": "批改作业",
+      "title": "学期进度"
+    },
+    "title": "{name}的工作台"
+  },
+  "radar": {
+    "basics": "基础概念",
+    "coding": "编程",
+    "communication": "江流",
+    "consistency": "连续性",
+    "math": "数学",
+    "problemSolving": "解决问题"
+  },
+  "schedule": {
+    "fullCalendar": "完整日历 ←",
+    "join": "进入",
+    "s1": {
+      "by": "障实博士",
+      "day": "今天",
+      "in": "90 分钟",
+      "kind": "直播课",
+      "time": "14:00",
+      "title": "机器学习 — 第 8 节"
+    },
+    "s2": {
+      "by": "AI Coach",
+      "day": "今天",
+      "in": "现在",
+      "kind": "自学",
+      "time": "16:30",
+      "title": "脑开大关专项训练 · 优化"
+    },
+    "s3": {
+      "by": "穆斯维博士",
+      "day": "明天",
+      "in": "明天",
+      "kind": "研讨会",
+      "time": "10:00",
+      "title": "高级 NLP — workshop"
+    },
+    "s4": {
+      "by": "自动",
+      "day": "周四",
+      "in": "48 小时",
+      "kind": "自适应测试",
+      "time": "18:00",
+      "title": "统计分析能力 · 测试"
+    },
+    "s5": {
+      "by": "娜丝林、雹丽、莎薇",
+      "day": "周五",
+      "in": "96 小时",
+      "kind": "互评",
+      "time": "20:30",
+      "title": "学习小组 — 数学"
+    },
+    "title": "本周日程"
+  },
+  "screenLabel": "04 我的工作台",
+  "shell": {
+    "greeting": "你好 {name}",
+    "greetingAnon": "欢迎",
+    "inboxAria": "收件箱",
+    "inboxTitle": "收件箱",
+    "panel": "面板 {role}"
+  },
+  "sub": {
+    "emptyBody": "提交第一个作业或测验后，其历史记录将显示在这里。",
+    "emptyTitle": "暂无已提交的内容",
+    "error": "发生错误",
+    "eyebrow": "作业提交",
+    "historyTitle": "我的提交历史",
+    "loading": "正在加载...",
+    "myCourses": "我的课程",
+    "score": "{grade}/{total}",
+    "status": {
+      "draft": "草稿",
+      "graded": "已评分",
+      "submitted": "已提交"
+    },
+    "summary": "已提交 {graded, number} / 共 {total, number} 项已评分",
+    "tab": {
+      "history": "历史记录",
+      "upload": "新提交"
+    },
+    "title": "提交作业",
+    "untitled": "无标题",
+    "uploadBody": "如需提交作业或考试，请从“我的课程”进入相应课程并打开所需的作业——文件与答案的提交均可在该页面进行。",
+    "uploadCta": "前往我的课程",
+    "uploadTitle": "请从课程内部打开作业"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "common": {
+    "back": "Retour",
+    "cancel": "Annuler",
+    "close": "Fermer"
+  },
+  "composer": {
+    "aria": "Rédiger une réponse",
+    "placeholder": "Écrivez votre réponse…",
+    "send": "Envoyer la réponse",
+    "sending": "Envoi en cours…"
+  },
+  "del": {
+    "confirm": "Supprimer",
+    "confirmReply": "Voulez-vous vraiment supprimer cette réponse ?",
+    "confirmThreadPrefix": "Voulez-vous vraiment supprimer la discussion",
+    "confirmThreadSuffix": "? Ses réponses seront également supprimées.",
+    "deleting": "Suppression en cours…",
+    "dialogAria": "Supprimer",
+    "replyTitle": "Supprimer la réponse",
+    "threadTitle": "Supprimer la discussion"
+  },
+  "errors": {
+    "createReply": "Échec de l'enregistrement de la réponse",
+    "createThread": "Échec de la publication de la discussion",
+    "delete": "Échec de la suppression",
+    "generic": "Une erreur s'est produite",
+    "loadReplies": "Échec du chargement des réponses",
+    "loadThreads": "Échec du chargement des discussions",
+    "pin": "Échec de la modification du statut d'épinglage",
+    "report": "Échec de l'enregistrement du signalement",
+    "vote": "Échec de l'enregistrement du vote"
+  },
+  "header": {
+    "eyebrow": "Communauté universitaire · §6",
+    "newThreadButton": "Nouvelle discussion",
+    "subtitle": "Suivez et participez aux questions, expériences et discussions académiques des étudiants et des professeurs.",
+    "title": "Forum de discussion"
+  },
+  "help": {
+    "body": "Sur cette page, vous pouvez lire, aimer et répondre aux discussions. Utilisez la barre de recherche et les tags pour trouver des sujets, et cliquez sur le bouton « Nouvelle discussion » pour en lancer un nouveau. Cliquez sur le titre de n'importe quelle discussion pour afficher ses réponses.",
+    "title": "Aide du forum"
+  },
+  "list": {
+    "clearFilters": "Effacer les filtres",
+    "emptyFiltered": "Aucune discussion trouvée avec ces filtres.",
+    "emptyNone": "Aucune discussion n'a encore été enregistrée — soyez le premier à en lancer une.",
+    "loading": "Chargement en cours…",
+    "startThread": "Démarrer une discussion"
+  },
+  "newThread": {
+    "bodyLabel": "Texte",
+    "bodyPlaceholder": "Décrivez votre question ou votre expérience en détail…",
+    "dialogAria": "Nouvelle discussion",
+    "publish": "Publier la discussion",
+    "publishing": "Publication en cours…",
+    "tagLabel": "Étiquette (optionnelle)",
+    "tagPlaceholder": "Ex. : inscription, projet final…",
+    "title": "Démarrer une nouvelle discussion",
+    "titleLabel": "Titre",
+    "titlePlaceholder": "Résumez le sujet de la discussion…"
+  },
+  "replies": {
+    "empty": "Aucune réponse pour le moment — soyez le premier à répondre.",
+    "loading": "Chargement des réponses…"
+  },
+  "reply": {
+    "deleteAria": "Supprimer la réponse",
+    "like": "J'aime",
+    "reportAria": "Signaler la réponse",
+    "reportTitle": "Signaler",
+    "unlike": "Je n'aime plus"
+  },
+  "report": {
+    "aria": "Motif du signalement",
+    "dialogAria": "Signaler",
+    "done": "Votre signalement a été enregistré et envoyé au modérateur. Merci.",
+    "intro": "Veuillez indiquer le motif du signalement de ce contenu ; il sera transmis au modérateur de la communauté pour examen.",
+    "placeholder": "Ex. : insulte, spam, contenu inapproprié…",
+    "replyTitle": "Signaler la réponse",
+    "sending": "Envoi en cours…",
+    "submit": "Soumettre le signalement",
+    "threadTitle": "Signaler la discussion"
+  },
+  "search": {
+    "aria": "Rechercher des discussions",
+    "clearAria": "Effacer la recherche",
+    "placeholder": "Rechercher dans les titres et le texte des discussions…"
+  },
+  "stats": {
+    "replies": "{count, plural, =0 {0 réponse} one {# réponse} many {# réponses} other {# réponses}}",
+    "threads": "{count, plural, =0 {0 discussion} one {# discussion} many {# discussions} other {# discussions}}"
+  },
+  "tags": {
+    "all": "Tous",
+    "label": "Étiquettes :"
+  },
+  "thread": {
+    "deleteAria": "Supprimer la discussion",
+    "hideReplies": "Masquer les réponses",
+    "like": "J'aime",
+    "pin": "Épingler",
+    "pinShort": "Épingler",
+    "pinnedBadge": "Épinglé",
+    "replyCount": "{count, plural, =0 {0 réponse} one {# réponse} many {# réponses} other {# réponses}}",
+    "reportAria": "Signaler la discussion",
+    "reportTitle": "Signaler",
+    "showReplies": "Afficher les réponses ({count, number})",
+    "unlike": "Je n'aime plus",
+    "unpin": "Détacher"
+  },
+  "validation": {
+    "bodyMin": "Le texte de la discussion doit contenir au moins 10 caractères.",
+    "replyMin": "Le texte de la réponse doit contenir au moins 2 caractères.",
+    "reportReasonMin": "Le motif du signalement doit contenir au moins 4 caractères.",
+    "titleMin": "Le titre doit contenir au moins 6 caractères."
+  }
+}

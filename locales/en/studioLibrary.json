@@ -1,0 +1,149 @@
+{
+  "mediaLibrary": {
+    "open": "Media Library",
+    "title": "My Media Library",
+    "close": "Close",
+    "search": "Search file names",
+    "filter": {
+      "label": "File type",
+      "all": "All",
+      "video": "Video",
+      "audio": "Audio",
+      "image": "Image",
+      "document": "Document"
+    },
+    "sort": {
+      "label": "Sort by",
+      "newest": "Newest",
+      "largest": "Largest"
+    },
+    "usage": "{used} of {quota} used",
+    "usageNoQuota": "{used} used",
+    "size": {
+      "b": "{n} bytes",
+      "kb": "{n} KB",
+      "mb": "{n} MB",
+      "gb": "{n} GB"
+    },
+    "duration": "Duration: {time}",
+    "type": {
+      "video": "Video",
+      "audio": "Audio",
+      "image": "Image",
+      "document": "Document",
+      "slide": "Slide",
+      "h5p": "Interactive (H5P)",
+      "caption": "Caption"
+    },
+    "usedIn": {
+      "label": "Used in",
+      "sections": "{count, plural, one {# section} other {# sections}}",
+      "projects": "{count, plural, one {# editing project} other {# editing projects}}",
+      "templates": "{count, plural, one {# template} other {# templates}}"
+    },
+    "unused": "Not used anywhere yet",
+    "badge": {
+      "take": "Recording take",
+      "processing": "Processing",
+      "failed": "Processing failed"
+    },
+    "actions": {
+      "more": "More actions for \"{name}\"",
+      "preview": "Preview",
+      "use": "Use in section",
+      "edit": "Edit in timeline",
+      "saveTemplate": "Save as template",
+      "delete": "Delete"
+    },
+    "loadMore": "Load more",
+    "empty": {
+      "title": "No media yet",
+      "body": "Record or upload a file to see it here.",
+      "record": "Go to recording"
+    },
+    "noResults": "No results found with this filter.",
+    "error": "Failed to load library.",
+    "errorHint": "Check your connection and try again.",
+    "retry": "Try again",
+    "delete": {
+      "title": "Delete \"{name}\"?",
+      "body": "The file will be permanently deleted and cannot be recovered.",
+      "confirm": "Delete",
+      "cancel": "Cancel",
+      "done": "File deleted."
+    },
+    "pickSection": {
+      "title": "Select section",
+      "hint": "Only sections compatible with this file type are displayed.",
+      "empty": "There is no compatible section in this course; create a section in the syllabus first.",
+      "replaceWarn": "This section already has a file, which will be replaced.",
+      "confirm": "Place in this section",
+      "cancel": "Cancel",
+      "done": "File placed in section.",
+      "error": "Failed to place file in section.",
+      "loadError": "Failed to load the list of sections."
+    },
+    "preview": {
+      "title": "Preview \"{name}\"",
+      "error": "Preview not available."
+    }
+  },
+  "studioTemplates": {
+    "open": "From templates",
+    "title": "Template library",
+    "close": "Close",
+    "cat": {
+      "label": "Template category",
+      "lesson_intro": "Lesson introduction",
+      "lesson_summary": "Summary",
+      "instructor_intro": "Instructor introduction",
+      "assignment_notice": "Assignment notice"
+    },
+    "scope": {
+      "label": "Scope",
+      "all": "All",
+      "tenant": "Institution templates",
+      "personal": "My templates"
+    },
+    "badge": {
+      "tenant": "Institution",
+      "personal": "Personal"
+    },
+    "use": "Use",
+    "using": "Preparing...",
+    "copiedNote": "A copy was created in your media library.",
+    "useError": "Failed to prepare the template.",
+    "preview": "Preview",
+    "edit": "Edit",
+    "delete": "Delete",
+    "unavailable": "This template file is not available.",
+    "empty": {
+      "title": "No templates in this category",
+      "body": "Save a file as a template from the media library."
+    },
+    "error": "Failed to load templates.",
+    "retry": "Try again",
+    "form": {
+      "createTitle": "Save as Template",
+      "editTitle": "Edit Template",
+      "title": "Title",
+      "titleRequired": "Title is required.",
+      "description": "Description (optional)",
+      "category": "Category",
+      "scope": "Who can see this?",
+      "scopePersonal": "Only me",
+      "scopeTenant": "All instructors in the institution",
+      "save": "Save",
+      "cancel": "Cancel",
+      "saved": "Template saved.",
+      "error": "Failed to save the template."
+    },
+    "deleteDialog": {
+      "title": "Delete template \"{title}\"?",
+      "body": "The template will be removed from the library; sections that have used it will not be affected.",
+      "confirm": "Delete",
+      "cancel": "Cancel",
+      "done": "Template deleted."
+    }
+  }
+}

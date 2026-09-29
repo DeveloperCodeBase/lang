@@ -1,0 +1,1447 @@
+{
+  "analytics": {
+    "help": {
+      "body": "Here you can view learner consumption: completion rates, drop-off points, and section-by-section progress. Use this data to improve the content of sections with the highest drop-off rates. All numbers are aggregated and learner identities are not displayed — the only exception is the \"At Risk\" list at the bottom of this page, which is designed to help learners and contains no email addresses.",
+      "title": "Course Analytics Guide"
+    },
+    "insightsLoading": "Loading assessment analytics..."
+  },
+  "assess": {
+    "aiExplainOptIn": "Enable \"AI explanation for incorrect answers\" for this quiz (run from wave E5 — suggestions only, never automatic)",
+    "aiExplainRow": "AI explanation for incorrect answers (coming soon)",
+    "aria": {
+      "mode": "Mode",
+      "policy": "Answer display policy",
+      "removeLink": "Remove attachment"
+    },
+    "assessmentOption": "{title} ({n} question)",
+    "attach": {
+      "title": "Attach Practice/Assessment to Course"
+    },
+    "badge": {
+      "maxAttempts": "Max attempts: {n}",
+      "pass": "Passing grade: {v}",
+      "showAnswers": "Show answers: {v}"
+    },
+    "builderTitle": "Course Assessment Builder",
+    "del": {
+      "body": "This assessment/practice will be detached from this level (course/module/lesson); you can attach it again.",
+      "cancel": "Cancel",
+      "confirm": "Remove Attachment",
+      "title": "Remove assessment attachment from course?"
+    },
+    "empty": {
+      "body": "To attach, select an assessment from the \"Assessment Builder\" above or create one first in the \"Assessment Builder\" section at the bottom of this page.",
+      "title": "No practice/assessment attached yet"
+    },
+    "field": {
+      "assessment": "Assessment",
+      "attempts": "Max attempts (optional)",
+      "lesson": "Lesson",
+      "level": "Attachment Level",
+      "mode": "Mode",
+      "module": "Module",
+      "pass": "Passing score % (optional)",
+      "policy": "Answer display policy"
+    },
+    "help": {
+      "body": "Here you build the course practices and assessments and connect them to the course. First, create an assessment in the \"Assessment Builder\" section and add its questions (from 14 types, or from the question bank); then, in the \"Course Attachment\" section, connect it to the entire course, a module, or a lesson and set its mode: \"Practice\" for free repetition, \"Required\" as a condition for buyer progress and certificate issuance. Descriptive/file/code answers are graded in the \"Grading Queue\" on this same page.",
+      "title": "Assessments Tab Guide"
+    },
+    "level": {
+      "course": "Entire Course",
+      "lesson": "Lesson: {title}",
+      "module": "Module: {title}"
+    },
+    "mode": {
+      "practice": "Practice",
+      "required": "Required"
+    },
+    "new": {
+      "noAssessments": "First create an assessment in the \"Assessment Builder\" section at the bottom of this page.",
+      "title": "New Attachment"
+    },
+    "notEditable": "This course is not editable in its current state; to change attachments, first create a \"New Version\" or wait for the review to complete.",
+    "opt": {
+      "levelCourse": "Entire Course",
+      "levelLesson": "A Lesson",
+      "levelModule": "A module",
+      "modePractice": "Practice (free repetition)",
+      "modeRequiredBuyer": "Required (buyer progress condition)",
+      "modeRequiredShort": "Required (progress condition)",
+      "pickAssessment": "— Select assessment —",
+      "pickLesson": "— Select lesson —",
+      "pickModule": "— Select module —",
+      "showAfterClose": "Show answer: After closing",
+      "showImmediate": "Show answer: Immediately",
+      "showNever": "Show answer: Never"
+    },
+    "policy": {
+      "after_close": "After the assessment is closed",
+      "immediate": "Immediately after answering",
+      "never": "Never"
+    },
+    "refresh": "Refresh",
+    "submit": "Attach to course"
+  },
+  "authoring": {
+    "actions": {
+      "preview": "Preview",
+      "publish": "Publish",
+      "publishDisabledTitle": "This studio is a demo; actual publishing is not implemented yet",
+      "saveDraft": "Save draft",
+      "saveDraftDisabledTitle": "This studio is a demo; actual saving is not implemented yet"
+    },
+    "agents": {
+      "coach": {
+        "controls": {
+          "probing": "Probing inquiry"
+        },
+        "name": "COACH — Questioning Coach",
+        "role": "Asking probing questions instead of giving direct answers"
+      },
+      "critic": {
+        "name": "CRITIC — Critic",
+        "role": "Challenging assumptions and finding reasoning errors"
+      },
+      "grader": {
+        "controls": {
+          "instructorApproval": "Instructor approval required"
+        },
+        "name": "GRADER — Grader",
+        "role": "Initial grading with rubric · Requires approval"
+      },
+      "intro": "Define what each AI agent is allowed to do, what resources to use, and where human approval is required.",
+      "mentor": {
+        "name": "MENTOR — Long-term Mentor",
+        "role": "Learning path and motivational guidance"
+      },
+      "title": "AI agent policies for this lesson",
+      "tutor": {
+        "controls": {
+          "multiLevel": "Multi-level explanation",
+          "videoRef": "Video reference"
+        },
+        "name": "TUTOR — Explainer",
+        "role": "Answering student questions with internal references"
+      }
+    },
+    "archives": {
+      "notes": {
+        "meta": "Markdown · 12 files",
+        "title": "Instructor Notes"
+      },
+      "oldCourse": {
+        "meta": "18 recorded sessions",
+        "title": "Old RL Course 1403"
+      },
+      "paper": {
+        "meta": "PDF · 520 pages",
+        "title": "Sutton & Barto Paper"
+      },
+      "questionBank": {
+        "meta": "234 QTI questions",
+        "title": "Existing Question Bank"
+      }
+    },
+    "blueprint": {
+      "description": {
+        "label": "Description",
+        "placeholder": "The Reinforcement Learning course covers the principles and algorithms of learning from experience..."
+      },
+      "fields": {
+        "code": {
+          "label": "Course Code"
+        },
+        "duration": {
+          "label": "Duration",
+          "placeholder": "10 weeks"
+        },
+        "level": {
+          "label": "Level",
+          "placeholder": "Graduate"
+        },
+        "modules": {
+          "label": "Number of Modules",
+          "placeholder": "12"
+        },
+        "titleEn": {
+          "label": "English Title"
+        },
+        "titleFa": {
+          "label": "Persian Title",
+          "placeholder": "Reinforcement Learning"
+        }
+      },
+      "outcomes": {
+        "addAction": "Add Learning Objective",
+        "addToastBody": "The objective was added to the list.",
+        "addToastTitle": "New Learning Objective",
+        "intro": "By the end of this course, the student will be able to:",
+        "levels": {
+          "analyze": "Analyze",
+          "apply": "Apply",
+          "create": "Create",
+          "remember": "Remember",
+          "understand": "Understand"
+        },
+        "list": {
+          "bellman": "Solve the Bellman equation for a simple environment",
+          "gymProject": "Implement a real RL project on a Gym environment",
+          "mdp": "Formulate the problem as an MDP",
+          "policyKinds": "Explain the difference between on-policy and off-policy methods",
+          "qLearning": "Implement Q-Learning from scratch in Python"
+        }
+      }
+    },
+    "breadcrumb": {
+      "instructorConsole": "Instructor Console",
+      "myCourses": "My Courses",
+      "newDraft": "New Draft"
+    },
+    "demoBanner": {
+      "body": "This studio is a preview of the course creation process; it is not connected to the backend, and no changes are saved or published. The \"Save Draft\" and \"Publish\" buttons are disabled until this section is completed.",
+      "title": "Demo / Preview"
+    },
+    "header": {
+      "title": "Reinforcement Learning · Graduate Level"
+    },
+    "help": {
+      "body": "On this page, you build the structure of a course: general specifications (Blueprint), syllabus and sessions, assessments, resources, and AI agent policies. Switch between sections using the tabs above, and use the \"Save Draft\" and \"Publish\" buttons at the top of the page to save the course or publish it to students.",
+      "title": "Course Authoring Studio Guide"
+    },
+    "notReady": {
+      "assessmentBody": "The assessment section of this course is not implemented yet; soon, the ability to define quizzes and assignments will be added here.",
+      "resourcesBody": "The resources section of this course is not implemented yet; soon, the ability to add files and references will be added here.",
+      "title": "This section is not ready yet"
+    },
+    "outline": {
+      "addAction": "Add session",
+      "addToastBody": "Session added to the syllabus.",
+      "addToastTitle": "New session added",
+      "sessionSettingsAria": "{session} settings",
+      "sessionSettingsTitle": "Session settings",
+      "sessions": {
+        "s1": {
+          "n": "Session 1",
+          "title": "Introduction — History and Applications of RL"
+        },
+        "s2": {
+          "n": "Session 2",
+          "title": "Markov Decision Processes"
+        },
+        "s3": {
+          "n": "Session 3",
+          "title": "Bellman Equation"
+        },
+        "s4": {
+          "n": "Session 4",
+          "title": "Monte Carlo Methods"
+        },
+        "s5": {
+          "n": "Session 5"
+        },
+        "s6": {
+          "n": "Session 6",
+          "title": "Function Approximation — DQN"
+        },
+        "s7": {
+          "n": "Session 7"
+        },
+        "s8": {
+          "n": "Session 8"
+        }
+      },
+      "title": "Syllabus · 12 sessions"
+    },
+    "planner": {
+      "generate": "Generate initial proposal",
+      "pitch": "I can propose 12 sessions for this course, complete with learning objectives, concept maps, and quizzes. You make the final call.",
+      "toastBody": "The initial course structure will be ready in 20 seconds...",
+      "toastTitle": "AI is generating"
+    },
+    "safety": {
+      "body": "No generated content is published without the instructor's final approval. The source of every proposal is traceable."
+    },
+    "screenLabel": "Studio 13",
+    "tabs": {
+      "agents": "AI Agents",
+      "assessment": "Assessment",
+      "blueprint": "Blueprint",
+      "outline": "Syllabus",
+      "resources": "Resources",
+      "sessions": "Sessions"
+    },
+    "toast": {
+      "previewOpened": "Preview opened in a new window"
+    }
+  },
+  "captions": {
+    "addAtPlayhead": "Add subtitle at playhead",
+    "approve": "Approve",
+    "approveAll": "Approve all lines",
+    "approveAllTitle": "Marks all lines as approved. Once saved, the \"Machine Translated\" badge will be removed from the player.",
+    "approveTitle": "Approval means you have reviewed this translation and it is correct; the machine will not overwrite this line afterward.",
+    "approved": "Approved",
+    "approvedOf": "{approved, number} of {total, number} lines approved",
+    "approximate": "Approximate timing",
+    "approximateTitle": "Word timings are approximate",
+    "asrDisabled": "Automatic transcription is not enabled on this server; write captions manually or upload a `.vtt` file.",
+    "empty": "No captions have been recorded for this section. Move the player to the desired moment and click \"Subtitle at current time\", or upload a `.vtt`/`.srt` file from the \"Content\" tab.",
+    "endHere": "End = Current time",
+    "errors": {
+      "needOneCue": "To save, at least one caption with text is required."
+    },
+    "generate": "Generate automatic transcript",
+    "generating": "Saving...",
+    "lang": {
+      "ar": "Arabic",
+      "de": "German",
+      "en": "English",
+      "es": "Spanish",
+      "fa": "Persian",
+      "fr": "French",
+      "ku": "Kurdish",
+      "ps": "Pashto",
+      "ru": "Russian",
+      "tr": "Turkish",
+      "ur": "Urdu",
+      "zh": "Chinese"
+    },
+    "langLabel": "Subtitle language",
+    "loading": "Reading subtitles...",
+    "merge": "Merge",
+    "mergeTitle": "Merges this line with the next one.",
+    "notAttached": "This file is not yet attached to any section of the course; subtitles are saved to the \"Section\", so first attach the file to a video section from the \"Content\" tab.",
+    "notice": {
+      "prefilled": "Machine-generated text loaded into the editor; review and save.",
+      "reviewSaved": "Subtitles saved; {count, plural, one {# verified line} other {# verified lines}} recorded.",
+      "transcriptQueued": "Request submitted; transcript preparation may take a few minutes.",
+      "transcriptReady": "The transcript for this section is already ready.",
+      "translationReady": "The \"{language}\" translation is ready. Review and save it."
+    },
+    "option": {
+      "stored": " — Saved",
+      "storedMachine": " — Saved (Machine)",
+      "storedReviewed": " — Saved (Reviewed)",
+      "translationReady": " — Translation ready"
+    },
+    "prefill": "Fill from transcript",
+    "prefilling": "Reading...",
+    "preparing": "Preparing transcript...",
+    "recheck": "Recheck",
+    "remove": "Remove this subtitle",
+    "retranslate": "Retranslate {count, plural, one {# line} other {# lines}}",
+    "retranslateTitle": "Only lines whose source text has changed are retranslated; approved lines remain untouched.",
+    "retranslating": "Retranslating…",
+    "reviewHint": "One column is the source text and the adjacent column is the translation; their timing is identical. Until all lines are approved, the player displays this subtitle as \"Machine translated\".",
+    "save": "Save subtitles",
+    "saving": "Saving…",
+    "seek": "Go to {time}",
+    "sourceColumn": "Source text (Reference)",
+    "sourceMissing": "No corresponding line was found in the source transcript.",
+    "split": "Split",
+    "splitTitle": "Splits this line into two at the current time.",
+    "startHere": "Start = Current time",
+    "status": {
+      "machine": "Machine translated",
+      "machineTitle": "This line was generated by machine and has not yet been approved by anyone.",
+      "reviewed": "Reviewed",
+      "reviewedTitle": "This line has been approved by a human.",
+      "stale": "Needs update",
+      "staleTitle": "The source text of this line has changed since it was translated."
+    },
+    "targetColumn": "{language} translation",
+    "textLabel": "Subtitle text",
+    "tooLong": "{count, plural, one {# character} other {# characters}} — Too long",
+    "tooLongTitle": "Lines longer than 55 characters cannot be read at playback speed; please split it.",
+    "transcriptError": "Transcript error: {error}",
+    "translate": "Request translation",
+    "translating": "Translating…",
+    "unsaved": "Unsaved"
+  },
+  "certTpl": {
+    "align": {
+      "center": "Center",
+      "left": "Left",
+      "right": "Right"
+    },
+    "alignLabel": "Alignment",
+    "colorAria": "{field} color",
+    "colorLabel": "Text color",
+    "colorReset": "Default",
+    "err": {
+      "notImage": "The certificate template must be an image file (PNG or JPG). If your design is in Word, please export it as an image first.",
+      "tooLarge": "The template image size must not exceed {max} MB."
+    },
+    "fields": {
+      "empty": "You haven't placed any fields on the design yet — please add at least \"Learner Name\" and \"Certificate Code\".",
+      "hint": "X and Y are percentages of the design's width/height, and \"Size\" is a percentage of the width.",
+      "title": "Field placement ({n} of {max})"
+    },
+    "intro": "You can upload your own ready-made design; the system will write the learner's name, course title, date, and verification code on it and provide a printable output (PDF/image) to the learner. If you do not upload a template, the platform's default template will be used. The file must be an image (PNG/JPG) and preferably landscape with an A4 aspect ratio.",
+    "num": {
+      "fontSize": "Font size (%)",
+      "qrSide": "Side (%)",
+      "x": "Horizontal (%)",
+      "y": "Vertical (%)"
+    },
+    "previewNote": "Live preview — exactly what the learner will print (sample data).",
+    "remove": "Remove",
+    "replace": "Replace template image",
+    "reset": "Reset to default template",
+    "sample": {
+      "authorName": "Instructor Name",
+      "studentName": "Learner Name"
+    },
+    "save": "Save Certificate Template",
+    "title": "Certificate Template (Custom Design)",
+    "toast": {
+      "saved": "Certificate template saved",
+      "uploaded": "Template image uploaded",
+      "uploadedDesc": "Now adjust the field positions and save."
+    },
+    "upload": "Upload Template Image",
+    "uploading": "Uploading… {pct}",
+    "weight": {
+      "bold": "Bold",
+      "normal": "Normal"
+    },
+    "weightLabel": "Weight"
+  },
+  "content": {
+    "action": {
+      "add": "Add Content",
+      "edit": "Edit Content"
+    },
+    "allDone": "All sections have content — great job!",
+    "badge": {
+      "freePreview": "Free Preview",
+      "has": "Content",
+      "none": "No Content"
+    },
+    "crumb": "Module {mod} \"{modTitle}\" › Lesson {lesson} \"{lessonTitle}\"",
+    "emptyStructure": "No sections have been defined in the curriculum structure yet. First, build the course structure in the \"Curriculum\" tab; then, upload the content for each section here.",
+    "goCurriculum": "Go to Curriculum",
+    "heading": "Section Content",
+    "help": {
+      "body": "Here, all course sections appear in a working list so you can complete their content one by one: files (video/slide/document/audio/interactive H5P), text, links, or quizzes. With the \"Recording Studio\", you can record videos right here in your browser and attach them to a section. Creating or rearranging the sections themselves is done in the \"Curriculum\" tab.",
+      "title": "Content Tab Guide"
+    },
+    "locked": "Edit Locked",
+    "onlyEmpty": "Empty sections only",
+    "progressCount": "{done} of {total} sections have content",
+    "progressLabel": "Content completion progress",
+    "recordStudio": "Recording Studio"
+  },
+  "copilot": {
+    "actions": {
+      "describe": {
+        "hint": "Draft an introductory text and key takeaways for the sales page",
+        "label": "Write Course Description"
+      },
+      "objectives": {
+        "hint": "\"After this course, you will be able to…\" list",
+        "label": "Suggest Learning Objectives"
+      },
+      "pricing": {
+        "hint": "Advisory — no price is applied automatically",
+        "label": "Suggested price range"
+      },
+      "quiz-transcript": {
+        "hint": "For sections with transcripts",
+        "label": "Quiz from lecture transcript"
+      }
+    },
+    "closeAria": "Close assistant",
+    "confidence": "Confidence {pct}",
+    "copied": "Copied",
+    "copy": "Copy",
+    "copyList": "Copy list",
+    "copyQuestions": "Copy questions",
+    "copyText": "Copy text",
+    "draftNote": "Everything generated here is just a draft; nothing is automatically applied to the course.",
+    "err": {
+      "noGroundable": "No section has transcripts or text; please upload a subtitle file or write the lecture text for a section."
+    },
+    "humanReview": "Requires human review",
+    "instructionLabel": "Optional instructions for the assistant",
+    "instructionPlaceholder": "e.g., make the tone more formal",
+    "localFallback": "Local draft (AI service was unavailable)",
+    "noActions": "I don't have a ready suggestion for this section. Go to \"Overview\", \"Content\", or \"Pricing\".",
+    "pricing": {
+      "chip": "Advisory suggestion — not applied",
+      "current": "Current price",
+      "range": "Range",
+      "rangeValue": "{min} to {max}",
+      "suggested": "Suggestion"
+    },
+    "quizDisabledHint": "No section has a transcript or text; please complete the content for a section first.",
+    "quizSource": "Derived from {chars} characters of {kind} in this section.",
+    "quizSourceKind": {
+      "caption": "transcript",
+      "richtext": "text"
+    },
+    "sectionLabel": "Section with transcript or text",
+    "source": {
+      "caption": "Transcript",
+      "richtext": "Lecture text"
+    },
+    "sourceOption": "{path} — {kind}",
+    "title": "Studio Assistant"
+  },
+  "coupons": {
+    "help": {
+      "body": "Create discount codes for this course (percentage or fixed amount, with usage limits and expiration dates). The buyer enters the code at checkout, and the final amount is calculated with the discount. Global codes (for all courses) are created by the marketplace administrator.",
+      "title": "Discount Codes Guide"
+    }
+  },
+  "cover": {
+    "advancedHelper": "Click the \"Save information\" button to save the entered URL. It is recommended to upload the image directly instead of using a URL (the uploaded image is also displayed to guests).",
+    "advancedToggle": "Or enter image URL (advanced)",
+    "alt": "Course cover image",
+    "dropNew": "Drop cover image here or click",
+    "dropReplace": "Drop new image here or click",
+    "err": {
+      "empty": "The selected file is empty. Please choose another image.",
+      "tooLarge": "The cover image size exceeds the maximum limit (maximum {max} MB). Please choose a smaller image."
+    },
+    "hint": "PNG, JPG, or WebP — max {max} MB",
+    "uploadAria": "Upload course cover image",
+    "uploading": "Uploading… {pct}"
+  },
+  "curriculum": {
+    "addLesson": "Add lesson",
+    "addModule": "Add module",
+    "addSection": "Add section",
+    "aria": {
+      "deleteLesson": "Delete lesson",
+      "deleteModule": "Delete module",
+      "deleteSection": "Delete section",
+      "editLesson": "Edit lesson",
+      "editModule": "Edit module",
+      "editSection": "Edit section",
+      "lessonFiles": "Lesson attachment files",
+      "moveDown": "Move down",
+      "moveLessonDown": "Move lesson down",
+      "moveLessonUp": "Move lesson up",
+      "moveSectionDown": "Move section down",
+      "moveSectionUp": "Move section up",
+      "moveUp": "Move up",
+      "sectionType": "Content type of {title}"
+    },
+    "contentBtn": "Content",
+    "contentTypeHelper": "After saving, click the \"Content\" button on the same section to attach a file, text, link, or quiz.",
+    "delete": {
+      "bodySection": "\"{label}\" will be deleted.",
+      "bodyTree": "\"{label}\" and all its sub-items will be deleted.",
+      "title": {
+        "lesson": "Delete lesson?",
+        "module": "Delete module?",
+        "section": "Delete section?"
+      }
+    },
+    "dialog": {
+      "create": {
+        "lesson": "Add lesson",
+        "module": "Add module",
+        "section": "Add section"
+      },
+      "edit": {
+        "lesson": "Edit lesson",
+        "module": "Edit module",
+        "section": "Edit section"
+      }
+    },
+    "drip": {
+      "fixedAria": "Lesson release date",
+      "fixedBadge": "From {date}",
+      "fixedHelper": "This lesson opens for all learners on this date (ideal for a fixed-schedule cohort-based course).",
+      "fixedLabel": "Release date",
+      "fixedPlaceholder": "Select date",
+      "fixedTitle": "Release on a specific date",
+      "help": {
+        "fixedTerm": "Specific date",
+        "p1": "\"Drip content\" locks a lesson until a condition is met:",
+        "p2": " (Relative) means the lesson unlocks for each student a specific number of days after their own purchase date; ideal for week-by-week delivery (each person counts from their own day). ",
+        "p3": " (Fixed) means the lesson unlocks for everyone on the exact same calendar date; ideal for simultaneous/cohort courses with a shared calendar. ",
+        "p4": " Locks the lesson until the minimum required score is achieved on a preceding quiz; this means a mastery-based learning path: until the previous stage's quiz is passed, the next stage remains locked. These conditions combine with the sequential prerequisite of the lesson, and all must be met for the lesson to unlock. The lock is enforced entirely server-side; locked lesson content cannot be played even if bypassed.",
+        "relativeTerm": "Days after enrollment",
+        "scoreTerm": "Unlock with score",
+        "title": "What is drip content?"
+      },
+      "intro": "You can lock this lesson until a specific time or until the required score is achieved on a preceding quiz. If you set multiple conditions, the lesson will only unlock when all conditions (and the sequential prerequisite, if any) are met.",
+      "minLabel": "Minimum required score ({min} to {max})",
+      "minPlaceholder": "e.g., 70",
+      "mode": {
+        "fixed": "On a specific date",
+        "none": "No time lock (immediately after purchase)",
+        "relative": "Several days after student enrollment"
+      },
+      "noQuiz": "There is no \"Quiz\" section preceding this lesson. First, create a \"Quiz\" type section in a previous lesson so you can condition this lesson on its score.",
+      "offsetDaysUnset": "…",
+      "offsetDaysValue": "{n} days",
+      "offsetHelper": "This lesson unlocks {days} after each student's enrollment date (suitable for week-by-week course delivery).",
+      "offsetLabel": "Unlock a few days after enrollment",
+      "offsetPlaceholder": "e.g., 7",
+      "quizCurrent": "Current selected quiz",
+      "quizLabel": "Condition quiz",
+      "quizPlaceholder": "— Select quiz —",
+      "relativeBadge": "{days} days after enrollment",
+      "relativeTitle": "Release a few days after enrollment",
+      "scoreBadge": "Score ≥ {score}",
+      "scoreTitle": "Unlock with quiz score",
+      "scoreToggle": "Unlock after achieving the required score on a quiz",
+      "timeModeLabel": "Release schedule",
+      "title": "Drip content (Lesson lock)"
+    },
+    "empty": "No curriculum added yet.",
+    "emptyHint": " Start with \"Add Section\" or generate a draft using \"✨ Generate Sections\".",
+    "err": {
+      "fixedDate": "For \"Release on a specific date\", select a date.",
+      "quizRequired": "For \"Unlock with score\", select a preceding quiz in the course.",
+      "relativeDays": "For \"Scheduled release\", the number of days must be greater than zero.",
+      "relativeMax": "The release days can be at most {max} (ten years).",
+      "scoreRange": "The required score must be a number between {min} and {max}.",
+      "titleRequired": "\"Title\" is required (at least {min} characters)."
+    },
+    "field": {
+      "contentType": "Content type",
+      "description": "Description (optional)",
+      "title": "Title"
+    },
+    "freePreview": "Free preview",
+    "freePreviewFull": "Free preview (visible to everyone)",
+    "hasContent": "Content",
+    "help": {
+      "body": "Add modules, lessons within each module, and sections within each lesson. Change the order of any item using the up/down buttons. For each section, set the \"Content Type\" and the \"Free Preview\" option, then use the \"Content\" button to attach a file (video/slide/document/audio/interactive H5P), text, link, or quiz to that section. With \"✨ Generate Modules\", you can create a structure draft using AI and edit it before applying.",
+      "title": "Curriculum Guide"
+    },
+    "lessonBadge": "Lesson {n}",
+    "lessonFilesTitle": "Attachments",
+    "moduleBadge": "Module {n}",
+    "noContent": "No content",
+    "noLessons": "No lessons.",
+    "noSections": "No sections.",
+    "outlineBtn": "✨ Generate Modules (AI Draft)",
+    "outlineBtnTitle": "Generate proposed curriculum structure with AI",
+    "quizOption": "Module {mod} › Lesson {lesson} › {title}",
+    "title": "Curriculum"
+  },
+  "edit": {
+    "chapter": {
+      "addHere": "Chapter at current time",
+      "defaultTitle": "Chapter {n}",
+      "empty": "No chapters recorded yet. Move the player to the desired moment and click \"Chapter at current time\".",
+      "gotoAria": "Go to chapter {title} at {at}",
+      "placeholder": "Chapter title (optional)",
+      "removeAria": "Remove chapter {title}",
+      "titleAria": "Chapter title"
+    },
+    "edl": {
+      "err": {
+        "dupId": "Clip IDs must be unique.",
+        "duration": "Source file duration is invalid.",
+        "empty": "The timeline must have at least one clip.",
+        "outOfRange": "Clips must be within the source file range.",
+        "overlap": "Timeline clips must not overlap.",
+        "tooMany": "Too many timeline clips.",
+        "tooShort": "Each clip must be at least 0.05 seconds."
+      }
+    },
+    "page": {
+      "backToContent": "Back to course content",
+      "badge": {
+        "dirty": "Unsaved",
+        "queued": "Queued for output processing…",
+        "rendered": "Output ready"
+      },
+      "chapters": {
+        "intro": "Chapters act as \"video chapters\" and appear as markers on the student player timeline. Markers are also displayed below the timeline."
+      },
+      "courseContent": "Course content",
+      "cutHere": "Cut at current time",
+      "cutToPlayhead": "Trim to current time",
+      "cutToPlayheadTitle": "Deletes from the start of this clip to the current time",
+      "err": {
+        "badUrl": "Invalid edit URL.",
+        "notFound": "Edit project not found.",
+        "title": "Could not open timeline"
+      },
+      "help": {
+        "body": "This timeline is \"non-destructive\": your uploaded file never changes, and only a list of kept segments is saved. Playing this page shows the edited version (deleted segments are skipped), and every cut can be reversed using \"Undo\" or \"Restore range\". Clicking \"Export\" creates a <b>brand new</b> file from the kept segments; the original file remains untouched and you can edit and export again at any time.",
+        "title": "Edit without damaging the original file"
+      },
+      "mergeAfter": "Restore subsequent range",
+      "mergeBefore": "Restore preceding range",
+      "noSectionChapters": "This file is not yet connected to a course section; chapters are saved on the \"Section\".",
+      "queuedCallout": "The export is queued for processing. Depending on the file length, this may take several tens of minutes; you can close this page — the result will be saved.",
+      "redo": "Redo",
+      "removeSegmentAria": "Remove this segment",
+      "removeSelected": "Remove selected segment",
+      "render": "Export",
+      "renderTitle": "Create a shortened file from the kept segments",
+      "rendering": "Submitting…",
+      "resetAll": "Reset entire file",
+      "save": "Save timeline",
+      "saving": "Saving…",
+      "segmentN": "Segment {n}",
+      "segments": {
+        "intro": "Each row is a kept segment. \"Restore range\" brings back the deleted gap next to that same segment — no cut is final."
+      },
+      "stat": {
+        "count": "Number of segments: {n}",
+        "kept": "Final duration:",
+        "removed": "Removed:"
+      },
+      "targetSection": "Target section (this file is used in multiple sections)",
+      "title": "Edit Timeline",
+      "toast": {
+        "queued": "The export has been queued. When ready, it will be displayed right here.",
+        "renderFailed": "Export processing failed; you can try again.",
+        "rendered": "The exported file is ready.",
+        "saved": "Timeline saved."
+      },
+      "toolsAria": "Editing tools",
+      "undo": "Undo"
+    },
+    "player": {
+      "loading": "Preparing playback…",
+      "note": "Playback is \"virtual\": deleted segments are skipped and the original file remains untouched.",
+      "pause": "Pause",
+      "pauseAria": "Pause playback",
+      "play": "Play edited version",
+      "playAria": "Play edited preview"
+    },
+    "poster": {
+      "capture": "This frame",
+      "clear": "Remove poster image",
+      "err": {
+        "capture": "Failed to capture frame.",
+        "noCanvas": "Capturing frames is not supported in this browser.",
+        "noFrame": "No frame is ready to capture yet; play a bit of the video and try again."
+      },
+      "hasPoster": "This section already has a poster image. To replace it, capture a new frame and save.",
+      "intro": "Pause the player at the desired moment and click \"Capture frame\". This image will be shown to the student before playback starts and is protected by the exact same video lock.",
+      "noSection": "This file is not yet attached to any section; the poster image is saved on a \"Section\", so first attach the file to a video section from the \"Content\" tab.",
+      "previewAlt": "Poster image preview",
+      "save": "Save as poster image",
+      "saving": "Saving...",
+      "videoOnly": "Poster images are only meaningful for video sections."
+    },
+    "rail": {
+      "captions": "Captions",
+      "chapters": "Chapters",
+      "poster": "Poster",
+      "segments": "Segments"
+    },
+    "strip": {
+      "building": "Building waveform...",
+      "noWave": "Waveform is not available for this file."
+    },
+    "timeline": {
+      "handleEnd": "Segment end — {at}",
+      "handleStart": "Segment start — {at}"
+    }
+  },
+  "examQueue": {
+    "ai": {
+      "draft": "AI draft",
+      "suggestionOnly": "AI draft is a suggestion only; no grade is saved until you click \"Submit grade\".",
+      "unstructured": "Draft received but it lacked structured grade/feedback; please review manually."
+    },
+    "aiBusy": "Receiving...",
+    "autoScore": "Auto score: {v}",
+    "awaiting": "{n} pending grading",
+    "close": "Close",
+    "editGrade": "Edit grade",
+    "empty": "There are no items in this list.",
+    "fbLabel": "Feedback for the buyer (optional)",
+    "fbPlaceholder": "Tips that help improve the answer...",
+    "filter": {
+      "all": "All",
+      "graded": "Graded",
+      "submitted": "Pending grading"
+    },
+    "grade": "Recorded grade: {v}",
+    "gradeAction": "Grade",
+    "idle": "Nothing is pending grading",
+    "intro": "Multiple-choice and short-answer questions are graded automatically; what you see here are descriptive answers, files, and code for which the final decision is yours. By submitting a grade, the buyer's \"Required exam\" status is updated instantly.",
+    "loading": "Loading...",
+    "refresh": "Refresh",
+    "scoreLabel": "Score (0 to 100)",
+    "scorePlaceholder": "e.g., 85",
+    "sent": "Submitted: {d}",
+    "status": {
+      "draft": "Draft",
+      "graded": "Graded",
+      "submitted": "Awaiting grading"
+    },
+    "submit": "Submit grade",
+    "title": "Grading queue"
+  },
+  "faq": {
+    "add": "Add question",
+    "empty": "No questions added yet.",
+    "err": {
+      "halfRow": "Each question must have an answer (complete or remove incomplete rows)."
+    },
+    "field": {
+      "a": "Answer",
+      "q": "Question"
+    },
+    "intro": "These FAQs are displayed in an accordion layout on the course introduction page and help buyers make a purchase decision (e.g., \"Who is this course for?\").",
+    "itemLabel": "Question {n}",
+    "remove": "Delete",
+    "removeAria": "Delete question {n}",
+    "save": "Save FAQs",
+    "title": "FAQs (Public page)"
+  },
+  "home": {
+    "bundles": "Course bundles",
+    "card": {
+      "clone": "Duplicate course",
+      "editAria": "Edit course {title}",
+      "level": "Level: {level}",
+      "updatedAt": "Last edited: {date}"
+    },
+    "clone": {
+      "bodyAfter": " of the course \"{title}\" will be created (titled \"{title} (Copy)\"). All curriculum structures—chapters, lessons, sections, and their content—will be copied into the new course, and you can edit them freely. Purchasers and enrollments of the original course remain unchanged, and the original course stays intact.",
+      "bodyBefore": "A ",
+      "bodyStrong": "draft copy",
+      "busy": "Creating copy…",
+      "helpBody": "\"Duplicate course\" creates a completely independent and fresh version as a draft; this is different from a \"New version\" (which updates the same course). Use duplication to build a similar course with a ready-made structure: a copy is created, then you change the title, description, and content for the new course. The copy is unpublished and, like any new course, must be submitted for review and then published.",
+      "helpTitle": "What does duplicating a course do?",
+      "submit": "Create copy",
+      "title": "Duplicate course"
+    },
+    "empty": {
+      "body": "Build your first course with the step-by-step guide: details, curriculum, content, pricing, and publication checklist.",
+      "cta": "Create new course (step-by-step)",
+      "title": "You haven't created any courses yet"
+    },
+    "eyebrow": "Knowledge Market",
+    "help": {
+      "body": "Here is the list of courses you have created. Use \"Create new course\" to build a draft course, then enter the editor to complete the course information and curriculum structure (chapter → lesson → section). File uploading, submitting for review, and publishing will be enabled in later stages.",
+      "title": "Knowledge Studio Guide"
+    },
+    "lead": "Create and structure your educational courses: chapters, lessons, and sections. Each course starts as a \"draft\" and can be freely edited as long as it remains a draft.",
+    "newCourse": "Create new course",
+    "title": "Knowledge Studio"
+  },
+  "insights": {
+    "aiExplain": "AI Explanation",
+    "assessments": {
+      "empty": "You haven't attached any assessments to this course yet. Create or attach an assessment from the \"Assessments\" tab.",
+      "title": "Assessments and Exercises"
+    },
+    "awaitingBadge": "{n} awaiting grading",
+    "err": {
+      "csv": "CSV export failed",
+      "itemAnalysis": "Item analysis is not available"
+    },
+    "items": {
+      "correct": "Correct:",
+      "difficulty": "Difficulty:",
+      "discrimination": "Discrimination:",
+      "intro": "Based on {n} answer sheets. \"Difficulty\" is the ratio of correct answers, and \"discrimination\" is the performance difference between top and bottom scorers; a negative number indicates an issue with the question or answer key.",
+      "loading": "Calculating item analysis…",
+      "manual": "Manual grading",
+      "question": "Question {n}",
+      "seenBy": "Seen by:"
+    },
+    "itemsClose": "Close item analysis",
+    "itemsOpen": "Item analysis",
+    "kpi": {
+      "atRisk": "At-risk learner",
+      "awaiting": "Submissions awaiting your grading",
+      "oldest": "Oldest pending (days)",
+      "stale": "Pending for over {days} days"
+    },
+    "loading": "Loading assessment insights…",
+    "mode": {
+      "practice": "Practice",
+      "required": "Required"
+    },
+    "msg": {
+      "cancel": "Cancel",
+      "close": "Close",
+      "counter": "{n} / {max} characters",
+      "failed": "Failed to send message",
+      "note": "This message will be sent in the course discussion and the internal messenger. The learner's email address will not be shared with you.",
+      "placeholder": "e.g., I noticed you haven't continued the lessons for a few weeks; let me know if you are stuck anywhere so I can help.",
+      "send": "Send",
+      "sending": "Sending…",
+      "sent": "Message sent via messenger.",
+      "title": "Message to {name}"
+    },
+    "noTakers": "No one has taken this assessment yet.",
+    "retry": "Try again",
+    "risk": {
+      "csv": "Anonymous CSV export",
+      "empty": "No one is at risk — progress below {pct} after {days} days, or a failed required assessment, is the criteria for this list.",
+      "intro": "List of learners who need your assistance. Email addresses are not displayed; contact is strictly via the internal messenger, and the CSV export is completely anonymous (using persistent pseudonyms only).",
+      "message": "Send message",
+      "progress": "Progress {pct} · {days} days since enrollment",
+      "pseudonymTitle": "Course pseudonym",
+      "refresh": "Refresh list",
+      "show": "Show list ({n})",
+      "title": "At-risk learners"
+    },
+    "stat": {
+      "attempts": "Attempts:",
+      "avg": "Average:",
+      "median": "Median:",
+      "minutes": "{n} min",
+      "pass": "Passed:",
+      "passBar": "(passing threshold {v})",
+      "samples": "(from {n} attempts)",
+      "takers": "Participants:",
+      "timeSpent": "Time spent:"
+    },
+    "verdict": {
+      "negative": "Negative discrimination — top performers missed more; please review the key",
+      "tooEasy": "Too easy — almost everyone answered correctly",
+      "tooHard": "Too hard — the question prompt might be ambiguous"
+    }
+  },
+  "overview": {
+    "category": {
+      "current": "Current category",
+      "helper": "Categories are defined by the marketplace manager in \"Marketplace Management\".",
+      "none": "Uncategorized"
+    },
+    "cover": {
+      "empty": "No cover image registered.",
+      "helper": "This image is displayed on the course card in the \"Knowledge Marketplace\" and for visitors (without requiring login). Recommended aspect ratio is 16:9.",
+      "label": "Course cover image"
+    },
+    "err": {
+      "titleRequired": "\"Course Title\" is required (at least 2 characters)."
+    },
+    "field": {
+      "audience": "Target audience (optional)",
+      "category": "Category",
+      "delivery": "Delivery mode",
+      "description": "Course description",
+      "language": "Language",
+      "level": "Level",
+      "objectives": "Learning objectives (optional)",
+      "prerequisites": "Prerequisites (optional)",
+      "searchAliases": "Alternative names and Latin spelling (optional)",
+      "title": "Course title"
+    },
+    "help": {
+      "body": "The course title, description, and specifications are completed here; this same information is displayed on the public course page in the \"Knowledge Marketplace\". A more comprehensive description and clearer learning objectives increase the likelihood of purchase. The curriculum structure is in the \"Syllabus\" tab, content uploading in the \"Content\" tab, and pricing in the \"Pricing\" tab.",
+      "title": "Course Information Guide"
+    },
+    "objectivesPlaceholder": "At the end of this course, learners will be able to...",
+    "searchAliasesHelper": "Write each item on a new line. These values are used for search only, and the system does not guess any transliterations or names.",
+    "searchAliasesPlaceholder": "Machine Learning\nYadgiri Mashin",
+    "readonlySummary": "Level: {level} · Mode: {delivery}",
+    "save": "Save information",
+    "saving": "Saving...",
+    "title": "Course information"
+  },
+  "pricing": {
+    "current": "Current price: {value}",
+    "err": {
+      "positive": "For a paid course, the price must be a number greater than zero."
+    },
+    "field": {
+      "model": "Pricing Model",
+      "price": "Price (Rials)"
+    },
+    "help": {
+      "body": "\"Free\" means learners get the course immediately without any payment. \"One-time purchase\" means the course is unlocked forever with a single payment (future updates are also free for the buyer). A percentage of the amount is deducted as the university's share, and the remainder is registered as your share; this percentage is set by the marketplace manager. You can create discount codes for this course in the \"Discount Codes\" tab.",
+      "title": "Pricing Guide"
+    },
+    "intro": "Select the course pricing model. A \"free\" course is unlocked for the learner immediately; a \"one-time purchase\" course is unlocked via payment through the available gateway. You can change the price at any time; the amount paid by each buyer is fixed at the moment of purchase.",
+    "none": "No price has been set yet.",
+    "pricePlaceholder": "e.g. 5000000",
+    "save": "Save Price",
+    "savedOk": "Saved.",
+    "share": {
+      "authorLabel": "Your net share from each sale:",
+      "note": "The share percentage is determined by the marketplace manager; payment of the instructor's share will be processed in the next phase.",
+      "pending": "Your net share is calculated after deducting the university share (determined by the marketplace manager).",
+      "universityLabel": "University share from each sale:"
+    },
+    "title": "Pricing"
+  },
+  "readiness": {
+    "chip": "Publish readiness {ok, number}/{total, number}",
+    "chipAria": "Publish readiness: {ok, number} of {total, number} required items",
+    "complete": "Complete",
+    "items": {
+      "assessments": "The course has at least one assignment/assessment",
+      "category": "Category is selected",
+      "content": "There is at least one section with real content",
+      "cover": "Course cover image is set",
+      "description": "Course description is entered",
+      "freePreview": "Has at least one \"Free Preview\" section",
+      "lessons": "Each module has at least one lesson",
+      "modules": "The course has at least one module",
+      "objectives": "Learning objectives are written",
+      "pricing": "Course price is set (free or paid)",
+      "title": "Course title is entered"
+    },
+    "lead": "\"Required\" items must be completed before \"Submit for Review\"; \"Suggested\" items improve the quality of the course page but do not prevent submission.",
+    "optional": "Suggested",
+    "title": "Publish Readiness Checklist"
+  },
+  "record": {
+    "again": "Record Again",
+    "audio": {
+      "saveHint": "The audio file will be saved exactly as recorded and will only be placed in audio sections.",
+      "noAudioSections": "This course has no compatible audio section; the file will only be saved in the media library.",
+      "saveAction": "Save audio to course",
+      "saveTitle": "Save recorded audio",
+      "saved": "The audio file was saved and attached to the course section.",
+      "savedLibrary": "The audio file was saved to the media library."
+    },
+    "backToEditor": "Return to course editor",
+    "camera": "Camera",
+    "courseEditor": "Course Editor",
+    "deviceDefault": "Default",
+    "deviceNumbered": "{name} {n}",
+    "devicePending": "Will be displayed after permission is granted",
+    "editInTimeline": "Edit in timeline",
+    "err": {
+      "badCourseId": "Invalid course ID.",
+      "courseNotFound": "Course not found.",
+      "courseTitle": "Failed to load course",
+      "empty": "The recording was empty; please try again.",
+      "noDevice": "No camera or microphone device found.",
+      "permission": "Camera/microphone/screen access was denied or sharing was canceled.",
+      "pickSection": "Select a course section to connect.",
+      "startFailed": "Failed to start recording. Your browser may not support this feature.",
+      "unsupportedSettings": "Recording with these settings is not supported. Try another source."
+    },
+    "gotoEditor": "Go to Course Editor",
+    "grid": {
+      "hint": "The framing grid is a view guide only; it is only visible in the preview and will never appear in the recorded video.",
+      "off": "Framing grid: Off",
+      "on": "Framing grid: On"
+    },
+    "help": {
+      "body": "Select a recording source (camera, screen, camera+screen, or audio only), then click \"Start Preview\" to check the video/audio. Click \"Start Recording\" to begin; you can pause or end it. When finished, review the video and use \"Save as Course Video\" to attach it to a course section. The recording is saved uncompressed (raw).",
+      "title": "Recording Studio Guide"
+    },
+    "lead": "\"{title}\" — Record a lesson directly in your browser and save it as a course video.",
+    "mb": "{v} MB",
+    "mic": "Microphone",
+    "micLevel": "Microphone level",
+    "micReady": "Microphone is ready.",
+    "notEditable": "This course is in \"{status}\" status; you can record, but attaching the video to a section is only possible when the course is \"Draft\" or \"Needs Revision\".",
+    "pause": "Pause",
+    "previewAudioHint": "Click \"Start Preview\" to check the audio.",
+    "previewVideoHint": "Click \"Start Preview\" to check the video.",
+    "resume": {
+      "action": "Resume upload",
+      "discard": "Discard",
+      "note": "An unfinished upload from a previous recording was found ({size}) — you can resume it without recording again."
+    },
+    "resumeRec": "Resume recording",
+    "save": {
+      "cancel": "Cancel",
+      "close": "Close",
+      "helper": "The raw video will be uploaded and attached to this section; the section content type will be set to \"Video\".",
+      "noSections": "This course does not have any sections yet. First create a section in the course editor, then attach the video to it.",
+      "submit": "Upload and Attach",
+      "targetLabel": "Attach to section",
+      "title": "Save Recorded Video",
+      "uploading": "Saving...",
+      "willConvert": " (content type will be changed to video)"
+    },
+    "saveAsVideo": "Save as course video",
+    "saved": "Video saved and attached to the course section.",
+    "source": {
+      "audio": {
+        "hint": "Audio recording without video",
+        "label": "Audio only"
+      },
+      "camera": {
+        "hint": "Your video and audio from the webcam",
+        "label": "Camera"
+      },
+      "camera_screen": {
+        "hint": "Screen with small camera overlay in the corner",
+        "label": "Camera + screen"
+      },
+      "screen": {
+        "hint": "Screen share + microphone audio",
+        "label": "Screen"
+      }
+    },
+    "sourceTitle": "Recording source",
+    "start": "Start recording",
+    "startPreview": "Start preview",
+    "stats": "Duration: {d} · Size: {size}",
+    "stop": "Stop recording",
+    "title": "Recording Studio",
+    "toast": {
+      "attached": "Video attached to the course section.",
+      "attachedDesc": "You can view it in the course editor."
+    },
+    "unsupported": "Your browser does not support in-browser recording. Please use an up-to-date version of Chrome or Edge.",
+    "profile": {
+      "label": "Recording quality: {preset}",
+      "estimateRate": "Approx. {size} per minute",
+      "estimate": "Recording size so far: {size}",
+      "unavailable": "Could not retrieve recording quality settings; using the default browser quality."
+    },
+    "limit": {
+      "max": "Maximum duration per take: {minutes} minutes",
+      "warn": "Less than a minute remaining until the maximum recording limit.",
+      "stopped": "Recording reached the {minutes}-minute limit and stopped."
+    },
+    "recovery": {
+      "found": "An unfinished recording from {when} was found ({duration}).",
+      "recover": "Recover",
+      "recovering": "Recovering...",
+      "discard": "Discard",
+      "discardTitle": "Delete unfinished recording?",
+      "discardBody": "This recording is stored only in this browser and cannot be recovered once deleted.",
+      "discardConfirm": "Delete",
+      "cancel": "Cancel",
+      "failed": "Failed to recover the recording.",
+      "lowSpace": "Browser storage space is low; if the page closes unexpectedly, part of the recording may not be recoverable.",
+      "stoppedPersisting": "Browser storage is full; recording continues, but the backup can no longer be saved."
+    }
+  },
+  "sectionContent": {
+    "close": "Close",
+    "title": "Content of \"{title}\""
+  },
+  "settings": {
+    "cert": {
+      "courseTitleFallback": "Course title",
+      "err": {
+        "pass": "The passing threshold must be an integer between 0 and 100."
+      },
+      "help": {
+        "body": "When a student completes the course, a \"Certificate of Completion\" is issued for them. If you leave \"Custom certificate title\" blank, the default title \"{title}\" will be used. The \"Certificate subtitle\" (optional) is displayed in the certificate description. These settings only affect this course's certificate and will not change previously issued certificates.",
+        "title": "Certificate Customization"
+      },
+      "passHelper": "If the course has exam sections, the certificate will only be issued with a score equal to or higher than this threshold.",
+      "passLabel": "Course exam passing threshold (%)",
+      "passPlaceholder": "Blank = 60 (default)",
+      "previewLabel": "Certificate title preview",
+      "save": "Save certificate settings",
+      "subtitleLabel": "Certificate subtitle",
+      "subtitlePlaceholder": "e.g., Knowledge Market Specialized Course",
+      "title": "Certificate of Completion (Optional)",
+      "titleLabel": "Custom certificate title"
+    },
+    "info": {
+      "delivery": "Delivery method",
+      "level": "Level",
+      "note": "\"Create new version\" and \"Clone course\" are available from the top bar of the studio (for published courses).",
+      "status": "Status",
+      "title": "Course Information",
+      "updated": "Last edited",
+      "version": "Current version",
+      "versionValue": "Version {n}"
+    },
+    "saving": "Saving…",
+    "showcase": {
+      "bioLabel": "Biography",
+      "bioPlaceholder": "Introduce yourself to visitors of the public page…",
+      "headlineLabel": "Headline (below your name)",
+      "headlinePlaceholder": "e.g., Programming and Data Science Instructor",
+      "intro": "This information is displayed on your public \"Instructor Showcase\" page alongside your published courses and belongs to you, not this course.",
+      "loading": "Loading…",
+      "save": "Save showcase",
+      "title": "Instructor Showcase (Public)"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram",
+      "twitter": "Twitter",
+      "website": "Website",
+      "youtube": "YouTube"
+    }
+  },
+  "shell": {
+    "backToStudio": "Back to Studio",
+    "brand": "Knowledge Studio",
+    "clone": "Clone course",
+    "cloneModal": {
+      "bodyAfter": " of this course will be created (titled \"{title} (Copy)\"). All course structure and content will be copied to the copy, and you can edit it freely. Buyers of the original course will remain unchanged, and the original course will stay intact.",
+      "bodyBefore": "A ",
+      "bodyStrong": "draft copy",
+      "busy": "Creating copy...",
+      "helpBody": "\"Duplicate Course\" creates a completely independent new course as a draft (different from \"New Version\": a new version updates this existing course). It is suitable for creating a similar course with a ready-made structure. The copy is unpublished and, like any new course, must be submitted for approval and then published.",
+      "helpTitle": "What does course duplication do?",
+      "submit": "Create Copy"
+    },
+    "copilot": "Studio Copilot",
+    "draft": {
+      "banner": "Editing \"New Version\"",
+      "bannerVersion": " (Version {n, number})",
+      "body": "The current published version remains active for buyers. Your changes will be applied to this draft and will only replace the previous version after \"Submit for Approval\", reviewer approval, and \"Publish\" (current buyers will get free access to the new version).",
+      "helpBody": "To update a published course, click \"Create New Version\": a copy of the current version is created as a \"draft\" which is freely editable, while the published version remains active and intact for current buyers. After editing, click \"Submit for Approval\" and then (after reviewer approval) \"Publish\" so the new version replaces the previous one; current buyers get access to the new version without paying again. Only one open draft is allowed at any time.",
+      "helpTitle": "New Version Guide"
+    },
+    "gradingQueue": "Grading Queue",
+    "invalidId": "Invalid course ID.",
+    "loadErrorTitle": "Failed to load course",
+    "lock": {
+      "inReview": "This course has been submitted for review and is in the \"In Review\" status; editing is locked until the review is complete. After the reviewer's decision, if revisions are needed, it will be unlocked again.",
+      "other": "This course is in the status \"{status}\" and is view-only. Editing is only possible when the course is \"Draft\" or \"Needs Revision\".",
+      "published": "This course is published and active for buyers; its structure and content are locked. To make changes, click \"Create New Version\" to create an editable draft. (You can still update the cover image and price.)"
+    },
+    "newVersion": "Create New Version",
+    "newVersionModal": {
+      "bodyAfter": " of the current published version will be created as a \"draft\". You can edit this draft freely; the current published version remains active and intact for buyers. Once completed, \"Submit for Approval\" and then \"Publish\" it to replace the previous version.",
+      "bodyBefore": "A ",
+      "bodyStrong": "copy",
+      "busy": "Creating..."
+    },
+    "notFound": "Course not found.",
+    "notReady": "The course is not ready for submission; please complete the following items:",
+    "preview": "Preview",
+    "publish": "Publish Course",
+    "publishing": "Publishing...",
+    "recorder": "Recording Studio",
+    "review": {
+      "changes": "The reviewer has requested revisions — reviewer note:",
+      "decidedAt": "Decision date: {date}",
+      "hint": "Fix the items and click \"Submit for Approval\" again.",
+      "rejected": "This course has been rejected — reviewer note:"
+    },
+    "saveFailed": "Failed to save — please try again.",
+    "saved": "Saved",
+    "saving": "Saving...",
+    "submit": "Submit for Approval",
+    "submitModal": {
+      "bodyAfter": " will be. Before submitting, make sure the course structure and content are complete.",
+      "bodyBefore": "By submitting for approval, the course is sent to the Knowledge Market reviewer (content manager) and until the review is complete ",
+      "bodyStrong": "Edit lock",
+      "busy": "Submitting…",
+      "missing": "Missing items:"
+    },
+    "tabs": {
+      "analytics": "Analytics",
+      "assessments": "Assessments",
+      "content": "Content",
+      "coupons": "Coupons",
+      "curriculum": "Curriculum",
+      "overview": "Overview",
+      "pricing": "Pricing",
+      "settings": "Settings"
+    },
+    "tabsAria": "Course studio sections",
+    "version": "Version {n, number}"
+  },
+  "storage": {
+    "colInstructor": "Instructor",
+    "colUsage": "Usage",
+    "diskFree": "Server free disk space: {free} (minimum floor: {floor})",
+    "diskUnknown": "Server free disk space is currently unmeasurable (fail-open — uploads are not blocked).",
+    "err": {
+      "diskFloor": "The API disk floor must be an integer and at least 1 GB.",
+      "globalCap": "The studio global cap must be an integer and at least 1 GB.",
+      "maxTake": "The maximum take length must be an integer and at least 1 minute.",
+      "quota": "The per-instructor quota must be an integer and at least 1 GB.",
+      "retention": "The raw take retention period must be an integer and at least 1 day."
+    },
+    "error": "Error",
+    "field": {
+      "diskFloor": "API disk floor",
+      "diskFloorHelp": "If the server free space drops to this value, new uploads will be rejected.",
+      "globalCap": "Studio global cap",
+      "maxTake": "Maximum length per take",
+      "preset": "Default recording bitrate preset",
+      "presetHelp": "The recording selector will be added in the next wave; this is only the tenant default.",
+      "quota": "Per-instructor quota",
+      "retention": "Raw take retention period",
+      "retentionHelp": "Policy number only; automatic deletion will be enabled in the next wave."
+    },
+    "gb": "{v} GB",
+    "globalUsage": "Studio global usage",
+    "help": {
+      "body": "“Per-instructor quota” and “global cap” now block uploads in the studio when filled. “API disk floor” ensures minimum server free space before accepting a new upload. “Raw take retention period” is a policy number — an automatic deletion cron job will be created in the next wave (dependent on the Take model); until then, no automatic deletion occurs, and EDL/final output is never automatically deleted.",
+      "title": "Studio Storage Guide"
+    },
+    "keepForever": "Never automatically delete EDL and final output",
+    "lead": "Instructor quotas, global cap, raw take retention, and server disk floor.",
+    "loadFailed": "Failed to load settings",
+    "marketAdmin": "Market management",
+    "perInstructor": "Per instructor usage",
+    "policy": "Storage policy",
+    "preset": {
+      "balanced": "Balanced",
+      "high_quality": "High quality",
+      "slow_internet": "Slow internet"
+    },
+    "save": "Save settings",
+    "savedOk": "Saved.",
+    "saving": "Saving...",
+    "title": "Studio storage",
+    "unit": {
+      "day": "Day",
+      "gb": "GB",
+      "minute": "Minute"
+    },
+    "usageOf": "{used} of {cap}"
+  },
+  "studioFlow": {
+    "ariaLabel": "Course creation steps",
+    "steps": {
+      "info": "Information",
+      "record": "Record",
+      "edit": "Edit",
+      "publish": "Publish"
+    },
+    "sub": {
+      "info": "Title, description, image, and price",
+      "record": "Record or upload video and audio",
+      "edit": "Trim and arrange takes",
+      "publish": "Check readiness and submit"
+    },
+    "state": {
+      "done": "Done",
+      "current": "Current step",
+      "upcoming": "Next step",
+      "blocked": "Not ready yet"
+    },
+    "optional": "Optional",
+    "compact": "Step {current} of {total}: {label}",
+    "counts": {
+      "record": "{sections} media section · {takes} takes",
+      "edit": "{projects} editing project",
+      "publish": "{ok} of {total} required items"
+    },
+    "reason": {
+      "publishBlocked": "Complete the required readiness items before publishing.",
+      "newCourse": "Save basic course information first."
+    },
+    "phase": {
+      "not_ready": "Incomplete",
+      "ready": "Ready to submit",
+      "in_review": "Pending review",
+      "needs_changes": "Needs revision",
+      "approved": "Approved",
+      "published": "Published",
+      "rejected": "Rejected",
+      "suspended": "Suspended",
+      "archived": "Archived"
+    },
+    "loading": "Loading phases...",
+    "error": "Failed to load phase status.",
+    "retry": "Retry"
+  },
+  "saveChip": {
+    "saved": "Saved",
+    "savedAt": "Saved · {when}",
+    "saving": "Saving...",
+    "savingPct": "Saving... {pct}",
+    "offline": "Offline — queued",
+    "error": "Not saved",
+    "retry": "Retry"
+  },
+  "studioTakes": {
+    "title": "Recording Takes",
+    "toggle": "Show/hide takes",
+    "empty": "No takes have been recorded for this course yet.",
+    "loading": "Loading takes...",
+    "error": "Failed to load the list of takes.",
+    "retry": "Retry",
+    "source": {
+      "camera": "Camera",
+      "screen": "Screen",
+      "camera_screen": "Camera and screen",
+      "audio": "Audio only"
+    },
+    "preset": {
+      "slow": "Low size",
+      "balanced": "Balanced",
+      "high": "High quality"
+    },
+    "recovered": "Recovered",
+    "used": "Used in {n} section",
+    "purgeOn": "Raw file auto-delete: {date}",
+    "purged": "Raw file deleted according to retention policy ({date})",
+    "assetDeleted": "The file for this take has been deleted",
+    "registerFailed": "File saved but failed to register in the takes list.",
+    "registerRetry": "Register again",
+    "sectionLabel": "Course section for this take",
+    "attach": "Place in section",
+    "attaching": "Placing...",
+    "attached": "Take placed in the selected section."
+  },
+  "tags": {
+    "count": "({selected} of {max})",
+    "empty": "No tags defined yet (Market Management section).",
+    "intro": "Tags help users discover the course in the marketplace showcase and power the \"Related Courses\" recommendations. Tag vocabulary is defined by the market manager.",
+    "loading": "Loading...",
+    "save": "Save Tags",
+    "title": "Course Tags"
+  },
+  "wizard": {
+    "back": "Knowledge Studio",
+    "busy": "Please wait…",
+    "createAndNext": "Create Draft & Continue",
+    "errors": {
+      "moduleTitleShort": "Module title must be at least 2 characters.",
+      "titleRequired": "\"Course Title\" is required (at least 2 characters)."
+    },
+    "eyebrow": "Knowledge Market",
+    "lead": "Proceed step by step; you can exit at any time — the course will be saved as a \"Draft\" and can be continued from the \"Knowledge Studio\".",
+    "next": "Next Step",
+    "prev": "Previous Step",
+    "s1": {
+      "delivery": "Delivery Method",
+      "heading": "1 · Basic Course Details",
+      "language": "Language",
+      "level": "Level",
+      "summary": "Short Summary",
+      "summaryPlaceholder": "Describe what this course teaches in a sentence or two.",
+      "title": "Course Title",
+      "titlePlaceholder": "e.g., Machine Learning Basics"
+    },
+    "s2": {
+      "add": "Add",
+      "empty": "No modules added yet.",
+      "generate": "✨ Generate Modules (AI Draft)",
+      "heading": "2 · Initial Curriculum",
+      "lead": "Build the course skeleton: you can use AI to generate a complete draft (module ← lesson ← section) and review it before applying, or manually add module titles for now. This step is optional and can also be completed later in the \"Modules\" tab.",
+      "lessonCount": "({count, plural, one {# lesson} other {# lessons}})",
+      "manualLabel": "Add Module Manually",
+      "manualPlaceholder": "e.g., Introduction and Prerequisites"
+    },
+    "s3": {
+      "assessBody": "In the \"Assessments\" tab, you can create practices and quizzes for the course (14 question types, question bank, timed exams) and connect them to the entire course, a module, or a lesson — use \"Practice\" mode for free repetition, or \"Required\" mode as a progress condition for buyers.",
+      "assessTitle": "Practice and Assessments",
+      "goAssessments": "Go to Assessments Tab",
+      "goContent": "Go to Content Tab",
+      "heading": "3 · Section Content",
+      "lead": "The content for each section (video, slide, document, audio, H5P interactive content, text, link, or quiz) is uploaded in the \"Content\" tab of the course studio; there you will see the list of all sections with their \"Has Content / No Content\" status and can complete them one by one. For video recording, the browser-based \"Recording Studio\" is also available (camera, screen, or both).",
+      "note": "You can skip this step and complete the content later — the course will not be published until you click \"Submit for Review\".",
+      "recorder": "Recording Studio"
+    },
+    "s4": {
+      "heading": "4 · Pricing",
+      "lead": "Choose whether the course is \"Free\" or \"One-time Purchase\". You can change the price later; the amount paid by each buyer is locked at the moment of purchase."
+    },
+    "s5": {
+      "goStudio": "Go to Course Studio",
+      "heading": "5 · Publishing Checklist",
+      "lead": "\"Required\" items must be completed before \"Submit for Review\"; \"Recommended\" items improve the quality of the course page. Each item can be completed from within the course studio.",
+      "loading": "Fetching checklist…",
+      "ready": "The course is ready for submission — submit it from the top studio bar."
+    },
+    "steps": {
+      "basics": "Basic Information",
+      "content": "Content",
+      "outline": "Outline",
+      "pricing": "Pricing",
+      "readiness": "Publishing Checklist"
+    },
+    "stepsAria": "Course creation steps",
+    "title": "Create New Course"
+  }
+}

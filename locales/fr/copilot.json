@@ -1,0 +1,220 @@
+{
+  "bubble": {
+    "copied": "Copié",
+    "copy": "Copier",
+    "copyAria": "Copier la réponse",
+    "offlineNotice": "Réponse hors ligne (mode test) — Le service intelligent est indisponible"
+  },
+  "capabilities": {
+    "aligned": "Aligné sur le programme du cours",
+    "editable": "Copiable etmodifiable",
+    "fast": "Réponses prêtes en quelques secondes"
+  },
+  "chat": {
+    "assistantCount": "{count, plural, =1 {# réponse générée} one {# réponse générée} many {# réponses générées} other {# réponses générées}}",
+    "assistantName": "Assistant du professeur",
+    "newShort": "Nouveau",
+    "preparing": "Préparation du contenu...",
+    "requestCount": "{count, plural, =1 {# demande} one {# demande} many {# demandes} other {# demandes}}",
+    "resetAria": "Effacer la conversation"
+  },
+  "common": {
+    "close": "Fermer"
+  },
+  "composer": {
+    "hint": "Entrée pour envoyer · Shift+Entrée pour une nouvelle ligne",
+    "placeholderFree": "Posez votre question ou sélectionnez un outil...",
+    "sendAria": "Envoyer la demande à l'assistant"
+  },
+  "context": {
+    "courseCode": "Code du cours",
+    "courseLabel": "Cours",
+    "reviewNotice": "Veuillez examiner les réponses générées avant de les utiliser en classe et les modifier si nécessaire.",
+    "sectionTitle": "Contexte de la classe",
+    "students": "Étudiants",
+    "suggestedTopics": "Sujets suggérés",
+    "term": "Semestre"
+  },
+  "courses": {
+    "db": {
+      "title": "Bases de données"
+    },
+    "ds": {
+      "title": "Structures de données"
+    },
+    "ml": {
+      "title": "Apprentissage automatique"
+    },
+    "net": {
+      "title": "Réseaux informatiques"
+    },
+    "term1404": "Premier semestre 1404"
+  },
+  "header": {
+    "eyebrow": "Assistant pédagogique du professeur",
+    "freeModeDemoNote": "Le mode de questions libres n'est pas encore connecté au modèle réel — il s'agit d'une réponse d'exemple. Pour obtenir une vraie réponse, sélectionnez l'un des 4 outils ci-dessus (Quiz, Barème, Rétroaction, Résumé).",
+    "historyButton": "Historique",
+    "newThreadButton": "Nouvelle conversation",
+    "subtitle": "Votre outil d'accompagnement à l'enseignement : créez des quiz, suggérez des barèmes, rédigez des rétroactions et des résumés de séance — en quelques secondes et prêts à être utilisés en classe.",
+    "title": "Assistant intelligent du professeur"
+  },
+  "help": {
+    "body": "Cet assistant vous aide à créer rapidement du contenu de cours : quiz à choix multiples, barèmes d'évaluation, rétroactions pour les étudiants ou résumés de séance. Sélectionnez l'un des outils, écrivez le sujet et envoyez ; la réponse est prête et vous pouvez la copier et l'utiliser en classe. Remarque : veuillez examiner les réponses générées avant de les utiliser en classe et les modifier si nécessaire.",
+    "title": "Guide de l'assistant intelligent du professeur"
+  },
+  "history": {
+    "empty": "Aucun élément ne correspond au filtre.",
+    "filterAll": "Tous",
+    "items": {
+      "complexityQuiz": {
+        "at": "12/07/1404",
+        "title": "Interrogation : complexité temporelle"
+      },
+      "feedbackSet3": {
+        "at": "08/07/1404",
+        "title": "Retour sur l'exercice de la série 3"
+      },
+      "finalRubric": {
+        "at": "10/07/1404",
+        "title": "Grille d'évaluation du projet final"
+      },
+      "graphsSummary": {
+        "at": "05/07/1404",
+        "title": "Résumé de la séance sur les graphes"
+      }
+    },
+    "messageCount": "{count, plural, one {# message} many {# messages} other {# messages}}",
+    "searchPlaceholder": "Rechercher dans l'historique...",
+    "title": "Historique des requêtes"
+  },
+  "kinds": {
+    "feedback": "Retour étudiant",
+    "free": "Question libre",
+    "mcq": "Questionnaire à choix multiples",
+    "rubric": "Grille d'évaluation",
+    "summary": "Résumé de séance"
+  },
+  "preview": {
+    "copied": "Copié",
+    "copySample": "Copier l'exemple",
+    "title": "Exemple de sortie — {tool}",
+    "useTool": "Utiliser cet outil"
+  },
+  "reply": {
+    "feedback": {
+      "closing": "Conclusion : vous êtes sur la bonne voie ; une petite correction rendra la réponse complète. Bon courage !",
+      "greeting": "Bonjour, merci pour vos efforts sur cette réponse 🙏",
+      "header": "✍️ Suggestion de retour constructif :",
+      "improve": "Point à améliorer : l'argumentation n'est pas complète dans la section « {topic} » ; je vous suggère de clarifier l'étape intermédiaire avec un exemple chiffré.",
+      "nextStep": "Prochaine étape : révisez les exercices 3 et 4 de ce même sujet et, en cas de doute, posez la question lors de la permanence de la semaine prochaine.",
+      "strengths": "Points forts : la structure de la réponse est claire et vous avez correctement identifié le concept principal."
+    },
+    "free": {
+      "canDo": "Je peux préparer pour ce sujet un questionnaire, une grille d'évaluation, un retour étudiant ou un résumé de séance.",
+      "chooseTool": "Sélectionnez l'un des outils ci-dessus ou écrivez une question plus précise pour que je prépare du contenu pour le cours.",
+      "intro": "En réponse à votre question concernant « {topic} » :"
+    },
+    "mcq": {
+      "answerKey": "🔑 Clé des réponses : 1-b, 2-b, 3 à 5 rédactionnelles (exemple de réponse joint).",
+      "header": "🧪 Cinq questions à choix multiples sur « {topic} » (avec clé des réponses) :",
+      "q1": "1) Laquelle de ces options donne une définition correcte de « {topic} » ?",
+      "q1a": "   a) Première définition incorrecte",
+      "q1b": "   b) Définition précise et complète ✅",
+      "q1c": "   c) Définition incomplète",
+      "q1d": "   d) Aucune de ces réponses",
+      "q2": "2) Dans quel scénario se trouve l'application principale de « {topic} » ?",
+      "q2a": "   a) Scénario non pertinent",
+      "q2b": "   b) Scénario d'application réelle ✅",
+      "q2c": "   c) Scénario contradictoire",
+      "q2d": "   d) Options b et c",
+      "q3": "3) Quelle est la complexité/le coût habituel de ce concept ? (Niveau : Moyen)",
+      "q4": "4) Expliquez la relation entre « {topic} » et le sujet prérequis. (Niveau : Difficile)",
+      "q5": "5) Donnez un contre-exemple pour une idée reçue courante. (Niveau : Difficile)",
+      "tip": "💡 Astuce : Les questions 4 et 5 sont conçues pour différencier les étudiants brillants."
+    },
+    "rubric": {
+      "c1": "1. Exactitude et correction de la solution — 40 %",
+      "c1Excellent": "   Excellent (40) : Résultat parfaitement correct et couverture de tous les cas",
+      "c1Good": "   Bon (30) : Quelques cas limites non couverts",
+      "c1Weak": "   Faible (15) : Erreur logique fondamentale",
+      "c2": "2. Qualité et lisibilité du code — 20 %",
+      "c3": "3. Efficacité et complexité — 20 %",
+      "c4": "4. Documentation et rapport — 10 %",
+      "c5": "5. Originalité et intégrité académique — 10 %",
+      "header": "📋 Grille d'évaluation proposée pour le devoir « {topic} » (Total de 100 points) :",
+      "tip": "💡 Conseil : Trois niveaux (excellent/bon/faible) ont été définis pour chaque critère afin de rendre la notation transparente et justifiable."
+    },
+    "summary": {
+      "h1": "• Étude de la section pertinente du manuel",
+      "h2": "• Résolution de trois exercices sélectionnés pour le prochain cours",
+      "header": "📝 Résumé de la session « {topic} » :",
+      "homeworkTitle": "Devoirs pour cette session :",
+      "keyPointsTitle": "Points clés :",
+      "p1": "• Définition et motivation de la problématique",
+      "p2": "• Concepts de base et terminologie spécialisée",
+      "p3": "• Exemple pratique étape par étape",
+      "p4": "• Erreurs courantes et comment les éviter",
+      "prereq": "Prérequis pour la prochaine session : réviser « {topic} » avant d'aborder le sujet avancé.",
+      "readTime": "⏱️ Temps de lecture estimé pour la révision : environ 90 minutes."
+    }
+  },
+  "sampleDate": "07/10/1404",
+  "suggestions": {
+    "feedback": {
+      "partialReasoning": "La réponse est correcte mais le raisonnement est incomplet",
+      "stackQueue": "L'étudiant a confondu la pile et la file"
+    },
+    "mcq": {
+      "bst": "Arbres binaires de recherche",
+      "complexity": "Complexité temporelle des algorithmes",
+      "normalization": "Normalisation de bases de données"
+    },
+    "rubric": {
+      "mlFinal": "Projet final de machine learning",
+      "netLab": "Rapport de laboratoire réseau",
+      "quicksort": "Implémentation du tri rapide"
+    },
+    "summary": {
+      "graphs": "Introduction aux graphes",
+      "overfitting": "Surapprentissage et sous-apprentissage",
+      "transactions": "Transactions dans les bases de données"
+    }
+  },
+  "thread": {
+    "reset": "Nouvelle conversation commencée. Que préparons-nous pour le cours d'aujourd'hui ?",
+    "welcome": "Bonjour cher professeur 👋 Je suis votre assistant intelligent. Je peux créer des quiz, suggérer des grilles d'évaluation, rédiger des retours pour les étudiants ou préparer un résumé de cours. Choisissez l'une des cartes ci-dessus ou écrivez votre question."
+  },
+  "tools": {
+    "feedback": {
+      "hint": "Feedback constructif et respectueux pour la réponse de l'étudiant",
+      "label": "Rédiger un commentaire pour cette réponse",
+      "placeholder": "Rédiger le résumé de la réponse de l'étudiant ici...",
+      "prompt": "Rédigez un commentaire constructif pour cette réponse de l'étudiant : « {topic} »"
+    },
+    "mcq": {
+      "hint": "Quiz court avec corrigé et niveau de difficulté",
+      "label": "Créer 5 questions à choix multiples",
+      "placeholder": "Sujet du quiz, par exemple « Arbres binaires de recherche »",
+      "prompt": "Créez 5 questions à choix multiples sur « {topic} » avec le corrigé."
+    },
+    "previewAria": "Aperçu de {tool}",
+    "rubric": {
+      "hint": "Critères d'évaluation pondérés pour un devoir",
+      "label": "Suggérer une grille d'évaluation",
+      "placeholder": "Titre du devoir, par exemple « Implémentation de l'algorithme de tri rapide »",
+      "prompt": "Suggérez une grille d'évaluation pour le devoir « {topic} »."
+    },
+    "sampleButton": "Exemple",
+    "sectionHint": "Sélectionnez une option",
+    "sectionTitle": "Outils rapides",
+    "select": "Sélectionner",
+    "selected": "Sélectionné",
+    "summary": {
+      "hint": "Synthèse des points clés et des devoirs d'une session",
+      "label": "Résumé de la session",
+      "placeholder": "Titre ou sujet de la session, par exemple « Introduction aux graphes »",
+      "prompt": "Rédigez le résumé de la session « {topic} » avec les devoirs associés."
+    }
+  },
+  "topicFallback": "Ce sujet"
+}

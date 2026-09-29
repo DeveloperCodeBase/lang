@@ -1,0 +1,43 @@
+{
+  "vista": {
+    "head": {
+      "title": "Acerca de Vista",
+      "description": "Vista, socio técnico y titular de los derechos de esta plataforma: servicios, arquitectura de AI, ecosistema e información oficial de la empresa."
+    },
+    "hero": {
+      "eyebrow": "SOCIO TÉCNICO · TECHNOLOGY PARTNER",
+      "ownershipPrefix": "{platform} es un producto de esta empresa; {role} de esta plataforma y todos los derechos de propiedad material e intelectual pertenecen a ",
+      "ownershipSuffix": ".",
+      "siteLinkLabel": "Sitio web oficial de Vista ↗",
+      "aboutLinkLabel": "Acerca de {name}"
+    },
+    "sections": {
+      "overview": {
+        "eyebrow": "INTRODUCCIÓN · OVERVIEW",
+        "title": "De la idea dispersa al producto, proceso y decisión utilizables"
+      },
+      "services": {
+        "eyebrow": "SERVICIOS · SERVICES",
+        "title": "De la arquitectura de AI al producto listo para usar"
+      },
+      "architecture": {
+        "eyebrow": "ARQUITECTURA · AGENTIC + RAG",
+        "title": "Modelo de lenguaje, conocimiento organizacional, herramientas y revisión humana en una sola arquitectura"
+      },
+      "ecosystem": {
+        "eyebrow": "ECOSISTEMA · ECOSYSTEM",
+        "title": "AI, conocimiento e ingeniería de producto en un solo circuito"
+      },
+      "official": {
+        "eyebrow": "INFORMACIÓN OFICIAL · OFFICIAL",
+        "title": "Junta directiva y canales de contacto"
+      }
+    },
+    "ecosystem": {
+      "viewSiteLabel": "Ver sitio web ↗"
+    },
+    "official": {
+      "regNoLabel": "Número de registro: "
+    }
+  }
+}

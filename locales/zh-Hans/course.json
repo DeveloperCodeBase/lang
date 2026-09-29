@@ -1,0 +1,182 @@
+{
+  "agent": {
+    "chatButton": "讨论本课程",
+    "desc": "本领域的专属人工智能助手 — 对话将基于本课程的上下文展开。访问该助手取决于您的订阅方案；如已锁定，将显示升级路径。",
+    "title": "专业领域助手",
+    "tutorButton": "向 Tutor 快速提问"
+  },
+  "assess": {
+    "action": {
+      "enterExam": "进入考场",
+      "startQuiz": "开始小测验",
+      "viewAssignment": "查看作业"
+    },
+    "due": "截止日期：{date}",
+    "empty": {
+      "assignment": "本课程暂无发布的作业。",
+      "exam": "本课程暂无发布的考试。"
+    },
+    "kind": {
+      "assignment": "作业",
+      "exam": "考试",
+      "quiz": "小测验"
+    },
+    "points": "{n, number} 分",
+    "questions": "{n, number} 道题",
+    "tools": {
+      "builder": "组卷工具",
+      "gradingQueue": "批改队列",
+      "itemAnalysis": "试题分析",
+      "questionBank": "题库"
+    }
+  },
+  "assessStatus": {
+    "closed": "已关闭",
+    "draft": "草稿",
+    "published": "已开放"
+  },
+  "attendance": {
+    "atRisk": "⚠ 第 {group, number} 组：有 {count, number} 名学生接近规章制度规定的缺勤上限 — 请您做出最终决定。",
+    "empty": "本课程暂无考勤记录。",
+    "late": "{n, number} 次迟到",
+    "myDetails": "我的考勤详情",
+    "noneAtRisk": "在本课程的 {n, number} 个分组中，没有学生接近缺勤上限。",
+    "overThreshold": "⚠ 您的缺勤次数已超过规章制度规定的上限 — 最终状态将由教师/教务委员会裁定。",
+    "present": "{n, number} 次出勤",
+    "recordButton": "记录考勤",
+    "sessions": "已记录 {n, number} 次课",
+    "unexcused": "{n, number} 次无故旷课"
+  },
+  "auth": {
+    "login": "登录账号",
+    "title": "请登录以查看本课程"
+  },
+  "common": {
+    "error": "错误",
+    "group": "第 {n, number} 组",
+    "loading": "加载中…"
+  },
+  "enrol": {
+    "busy": "正在注册...",
+    "button": "注册本课程",
+    "error": {
+      "title": "注册失败"
+    },
+    "toast": {
+      "title": "报名成功"
+    }
+  },
+  "files": {
+    "attachmentFallback": "附件",
+    "content": {
+      "empty": "本课程内容中暂无文件或讲义。",
+      "title": "课程内容文件与讲义"
+    },
+    "group": {
+      "empty": "本课程的群组或频道中尚未分享任何文件。",
+      "title": "本课程群组中分享的文件"
+    },
+    "kind": {
+      "file": "文件",
+      "image": "图片",
+      "link": "链接",
+      "video": "视频"
+    },
+    "loadMore": "加载更多",
+    "open": "打开 ↗"
+  },
+  "grades": {
+    "mine": {
+      "average": "平均分：满分 100 分中的 {avg, number} 分",
+      "empty": "本课程的测验或作业暂无成绩记录；经教师批改后将显示在此处。",
+      "title": "本课程测验与作业成绩"
+    },
+    "official": {
+      "details": "详情与复核",
+      "title": "正式成绩（成绩单）"
+    },
+    "sheetStatus": {
+      "announced": "已公布",
+      "finalized": "已定稿"
+    },
+    "tools": {
+      "gradebook": "本课程成绩册",
+      "gradingQueue": "批改队列",
+      "submission": "正式成绩流转"
+    }
+  },
+  "group": {
+    "announcementsChannel": "班级公告频道",
+    "create": {
+      "toast": {
+        "title": "课程群组已创建"
+      }
+    },
+    "createButton": "创建群组 + 班级频道",
+    "empty": {
+      "staff": "尚未为您分配本课程的群组。",
+      "student": "您未在此课程的分组（小班）中进行有效报名。"
+    },
+    "notProvisioned": "该群组的聊天空间尚未创建。",
+    "openGroup": "打开班级群组",
+    "studentNotProvisioned": "教师尚未创建本班的聊天群组。"
+  },
+  "help": {
+    "body": "本课程的所有板块——内容、课次、作业、测验、成绩、考勤、文件、班级群组及专业助手——均可从此页面的选项卡中访问。",
+    "title": "课程中心指南"
+  },
+  "missing": {
+    "body": "未指定课程标识符。",
+    "catalog": "前往目录",
+    "title": "课程"
+  },
+  "overview": {
+    "credits": "{n, number} 学分",
+    "enrolled": "已报名",
+    "fullView": "完整介绍与课次视图"
+  },
+  "page": {
+    "screenLabel": "课程中心"
+  },
+  "recStatus": {
+    "failed": "失败",
+    "processing": "正在处理",
+    "ready": "就绪"
+  },
+  "sessionStatus": {
+    "cancelled": "已取消",
+    "ended": "已绕束",
+    "live": "进行中",
+    "scheduled": "已排期"
+  },
+  "sessions": {
+    "count": "{n, number} 节课",
+    "empty": "此课程暂未排期任何课时。",
+    "join": {
+      "error": {
+        "title": "加入失败"
+      },
+      "toast": {
+        "msg": "已记录您的出勤。",
+        "title": "进入课堂"
+      }
+    },
+    "joinButton": "进入课堂",
+    "recordingStatus": "录制：{status}",
+    "recordingsArchive": "录像归档",
+    "report": "课时报告"
+  },
+  "tabs": {
+    "agent": "专业助理",
+    "ariaLabel": "课程模块",
+    "assignments": "作业",
+    "attendance": "出勤",
+    "content": "内容",
+    "exams": "考试",
+    "files": "文件与记录",
+    "grades": "成绩",
+    "group": "课程组",
+    "overview": "概览",
+    "sessions": "课时与录像"
+  }
+}

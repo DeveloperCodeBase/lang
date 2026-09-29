@@ -1,0 +1,816 @@
+{
+  "aid": {
+    "active": {
+      "amount": {
+        "label": "Montant",
+        "value": "8 400 000 T"
+      },
+      "coverage": {
+        "label": "Couverture des frais de scolarité",
+        "value": "70 %"
+      },
+      "label": "Votre aide financière active",
+      "status": {
+        "label": "Statut",
+        "value": "Actif"
+      },
+      "title": "Bourse d'excellence — Semestre de printemps 1405",
+      "type": {
+        "label": "Type",
+        "value": "Remboursable"
+      }
+    },
+    "apply": {
+      "ariaLabel": "Demander {title}",
+      "button": "Postuler",
+      "toast": {
+        "msg": "Votre demande pour « {title} » est en cours d'examen.",
+        "title": "Demande enregistrée"
+      }
+    },
+    "available": {
+      "title": "Bourses disponibles"
+    },
+    "card": {
+      "capacity": "Capacité",
+      "criteria": "Critères",
+      "deadline": "Date limite"
+    },
+    "hero": {
+      "eyebrow": "Aide financière",
+      "lead": "12 aides financières actives · 8 bourses disponibles",
+      "title": "Prêts et bourses"
+    },
+    "screenLabel": "40 aides financières"
+  },
+  "alumni": {
+    "card": {
+      "cohort": "Cohorte {year}",
+      "mentees": "{count, plural, =1 {# filleul} one {# filleul} many {# filleuls} other {# filleuls}}"
+    },
+    "hero": {
+      "demoNote": "Les statistiques et les mentors de cette page sont fictifs — le véritable réseau d'alumni n'est pas encore connecté",
+      "eyebrow": "Alumni",
+      "lead": "12 400 diplômés dans 42 villes et 28 pays. Un réseau de mentors, de collègues et de futurs employeurs.",
+      "title": "Réseau des alumni"
+    },
+    "mentor": {
+      "ariaLabel": "Demander un mentorat auprès de {name}",
+      "full": "Capacité maximale atteinte",
+      "request": "Demander un mentorat",
+      "toast": {
+        "msg": "Votre demande a été envoyée à {name}.",
+        "title": "Demande de mentorat envoyée"
+      }
+    },
+    "mentors": {
+      "title": "Trouver un mentor diplômé"
+    },
+    "screenLabel": "42 réseaux d'alumni",
+    "stats": {
+      "academia": {
+        "label": "Dans les universités mondiales",
+        "value": "1 400"
+      },
+      "salary": {
+        "label": "Salaire moyen 3 ans après",
+        "value": "82 M/mois"
+      },
+      "total": {
+        "label": "Nombre d'alumni",
+        "value": "12,4K"
+      },
+      "unicorn": {
+        "label": "Dans les entreprises licornes",
+        "value": "2 800"
+      }
+    }
+  },
+  "attendance": {
+    "mine": {
+      "badge": {
+        "atRisk": "Risque de suppression du cours",
+        "ok": "Statut autorisé"
+      },
+      "courseFallback": "Cours",
+      "empty": "Aucune présence n'a encore été enregistrée pour ce cours. Elle s'affichera ici après la première session et l'enregistrement des présences par l'enseignant.",
+      "emptyCta": "Afficher mes cours",
+      "err": {
+        "generic": "Une erreur s'est produite"
+      },
+      "eyebrow": "Scolarité · Présences",
+      "help": {
+        "body": "Une absence injustifiée de plus de {max} sessions sur {outOf} selon le règlement pédagogique peut entraîner la suppression du cours. Cette page fournit uniquement un avertissement ; la décision finale de suppression revient à la scolarité ou à l'enseignant. En cas d'avertissement, veuillez contacter l'enseignant ou la scolarité avant d'atteindre le seuil. Les absences justifiées ne sont pas comptabilisées.",
+        "title": "Guide des présences"
+      },
+      "kpi": {
+        "atRisk": "Cours proche du seuil d'absence",
+        "courses": "Cours avec présences enregistrées"
+      },
+      "lead": "Votre statut de présence pour chaque cours est basé sur les sessions enregistrées par l'enseignant. Vous trouverez ici l'avertissement en cas d'approche du seuil de présence autorisé ({max} sur {outOf} sessions).",
+      "legend": "Ligne de repère : seuil autorisé ({max} sur {outOf} sessions). Les absences justifiées ne sont pas comptabilisées.",
+      "loading": "Chargement en cours…",
+      "meter": {
+        "label": "Absence injustifiée",
+        "text": "{unexcused} sur {total} sessions ({pct})"
+      },
+      "noSessions": "Aucune session n'a encore été enregistrée pour ce cours.",
+      "stat": {
+        "absent": "Absent",
+        "excused": "Justifié",
+        "late": "En retard",
+        "present": "Présent",
+        "total": "Total des sessions"
+      },
+      "thresholdTitle": "Seuil autorisé ({max} sur {outOf})",
+      "title": "Mes présences",
+      "warn": {
+        "body": "Pour {n} cours, vos absences injustifiées ont dépassé la limite autorisée et vous risquez la suppression du cours. Veuillez contacter l'enseignant ou la scolarité dès que possible. (La décision finale appartient à la scolarité.)",
+        "title": "Avertissement de seuil d'absence ({max}/{outOf})"
+      }
+    },
+    "parent": {
+      "bySectionTitle": "Présences par cours",
+      "childFallback": "Étudiant",
+      "emptyAttendance": "Aucune présence n'a encore été enregistrée pour cet enfant.",
+      "err": {
+        "children": "Échec du chargement des enfants",
+        "data": "Échec du chargement des présences"
+      },
+      "eyebrow": "Parent · Présences",
+      "help": {
+        "body": "Sur cette page, vous pouvez consulter le statut de présence de votre enfant. Si vous avez plusieurs enfants, utilisez les boutons ci-dessus pour sélectionner celui de votre choix afin d'afficher son taux de présence par cours et la liste de ses sessions récentes.",
+        "title": "Guide des présences de l'enfant"
+      },
+      "kpi": {
+        "absent": "Absence",
+        "present": "Présent",
+        "rate": "Taux de présence global",
+        "total": "Total des séances"
+      },
+      "lead": "Taux de présence de votre enfant par cours et liste des séances récentes.",
+      "loading": "Chargement en cours…",
+      "loadingData": "Chargement des présences…",
+      "noChildren": "Aucun enfant n'est encore associé à votre compte. Veuillez contacter le support universitaire pour l'association.",
+      "recentTitle": "Séances récentes",
+      "sectionRate": "{pct} ({attended}/{total})",
+      "table": {
+        "course": "Cours",
+        "date": "Date",
+        "status": "Statut"
+      },
+      "tally": {
+        "absent": "Absent : {n}",
+        "excused": "Excusé : {n}",
+        "late": "En retard : {n}",
+        "present": "Présent : {n}"
+      },
+      "title": "Présence de l'enfant"
+    },
+    "roster": {
+      "courseUntitled": "Sans titre",
+      "emptyRoster": "Aucun étudiant n'est encore inscrit à ce cours.",
+      "err": {
+        "generic": "Une erreur est survenue"
+      },
+      "eyebrow": "Enseignant · Liste de classe",
+      "file": "Fichier",
+      "fileAria": "Fichier {name}",
+      "gradeLabel": "Note actuelle",
+      "help": {
+        "body": "Cette liste provient du système de notation et n'affiche que les cours que vous enseнитеz. La « note actuelle » correspond à la note enregistrée sur le bulletin ; elle s'affiche par « — » avant la saisie. Le pourcentage de présence et les devoirs ne sont pas présentés sur cette page.",
+        "title": "Aide"
+      },
+      "kpi": {
+        "graded": "Noté",
+        "objections": "Réclamations en cours",
+        "total": "Total des étudiants",
+        "ungraded": "Non noté"
+      },
+      "lead": "Étudiants inscrits à chacun de vos cours ; consultation des noms, e-mails et notes actuelles, avec options de recherche et de tri. Pour saisir ou publier des notes, rendez-vous sur la page « Saisie des notes ».",
+      "loadingRoster": "Chargement de la liste des étudiants…",
+      "loadingSections": "Chargement des cours…",
+      "noResults": "Aucun étudiant ne correspond à cette recherche.",
+      "noSections": "Vous n'avez aucun cours (section) pour ce semestre.",
+      "objectionOpen": "Réclamation ouverte",
+      "optionNone": "— Sélectionnez un cours —",
+      "optionSection": "{course} · {n} étudiants",
+      "pickPrompt": "Sélectionnez un cours dans la liste ci-dessus pour afficher la liste des étudiants.",
+      "pickerLabel": "Sélectionner un cours",
+      "retry": "Réessayer",
+      "searchAria": "Rechercher un étudiant",
+      "searchPlaceholder": "Rechercher par nom ou e-mail…",
+      "showing": "Affichage de {shown} sur {total} étudiant(e)s",
+      "sort": {
+        "grade": "Trier par : meilleure note",
+        "name": "Trier par : nom de l'étudiant"
+      },
+      "sortAria": "Trier",
+      "status": {
+        "graded": "Noté",
+        "ungraded": "Inscrit (sans note)"
+      },
+      "title": "Liste des étudiant(e)s",
+      "unnamed": "Sans nom"
+    },
+    "status": {
+      "absent": "Absent(e)",
+      "excused": "Excusé(e)",
+      "late": "En retard",
+      "present": "Présent(e)",
+      "unset": "Non défini"
+    },
+    "teacher": {
+      "bulk": {
+        "label": "Tous :"
+      },
+      "emptyRoster": "Aucun(e) étudiant(e) inscrit(e) dans « {title} ».",
+      "emptyRosterNoSection": "Aucun(e) étudiant(e).",
+      "err": {
+        "atRisk": "Échec du chargement du statut d'absence",
+        "roster": "Échec du chargement de la liste",
+        "save": "Échec de l'enregistrement des présences",
+        "sections": "Échec du chargement des classes"
+      },
+      "eyebrow": "Enseignant · Présences",
+      "field": {
+        "date": "Date de la séance",
+        "section": "Classe"
+      },
+      "help": {
+        "body": "Sur cette page, vous enregistrez la présence des étudiant(e)s pour chaque classe. Sélectionnez d'abord la classe et la date de la séance, puis cliquez sur le statut de chaque étudiant(e) pour alterner entre présent(e), absent(e), en retard et excusé(e) (ou utilisez les boutons « Tous » pour définir le statut de tout le monde en une seule fois) et enfin cliquez sur « Enregistrer ».",
+        "title": "Aide sur les présences"
+      },
+      "kpi": {
+        "absent": "Absents",
+        "late": "En retard",
+        "present": "Présents",
+        "total": "Total"
+      },
+      "lead": "Sélectionnez la classe et la date de la séance, puis enregistrez la présence des étudiant(e)s.",
+      "loading": "Chargement en cours…",
+      "noSections": "Aucune classe ne vous a été assignée.",
+      "option": {
+        "section": "{code} — {title} (Groupe {group})"
+      },
+      "risk": {
+        "checking": "Vérification du statut d'absence en cours…",
+        "limit": "Limite autorisée : plus de {pct} d'absences non excusées des séances ({sessions} séances enregistrées jusqu'à présent)",
+        "listTitle": "Liste des étudiant(e)s risquant d'être exclu(e)s de l'examen ({n})",
+        "none": "Aucun(e) étudiant(e) n'a dépassé la limite d'absences autorisée",
+        "over": "{n} étudiant(e) dépasse la limite d'absences autorisée",
+        "presence": "Présence {pct}",
+        "unavailable": "Le statut d'absence n'est pas disponible.",
+        "unexcused": "{n, plural, one {# absence injustifiée} many {# absences injustifiées} other {# absences injustifiées}}",
+        "warnOnly": "— Il s'agit uniquement d'un avertissement ; la suppression du cours relève de la décision de l'enseignant ou de la commission."
+      },
+      "rosterLoading": "Chargement de la liste...",
+      "row": {
+        "file": "Fichier",
+        "fileAria": "Fichier {name}",
+        "presence": "Présence : {pct}",
+        "presenceDetail": "Présence : {pct} ({present} sur {total} séances)",
+        "presenceTitle": "{sessions, plural, one {Présence à 1 session enregistrée} many {Présence à {sessions} sessions enregistrées} other {Présence à {sessions} sessions enregistrées}}",
+        "riskBadge": "Risque d'exclusion · {n} absence {n, plural, one {absente} many {absentes} other {absentes}}",
+        "riskTitle": "Absences supérieures à la limite autorisée ({pct}) — Il s'agit d'un avertissement, pas d'une exclusion automatique",
+        "statusAria": "Statut de {name}"
+      },
+      "save": "Enregistrer",
+      "saved": "✓ Présence enregistrée — vous pouvez sélectionner le cours suivant ou une autre date, ou consulter la liste des étudiants en risque d'exclusion sur cette même page.",
+      "title": "Présence"
+    }
+  },
+  "career": {
+    "apply": {
+      "ariaLabel": "Postuler pour le poste chez {company}",
+      "button": "Postuler",
+      "toast": {
+        "msg": "Votre candidature pour le poste chez {company} a bien été envoyée.",
+        "title": "Candidature envoyée"
+      }
+    },
+    "card": {
+      "match": "Correspondance de {pct, number} %"
+    },
+    "filters": {
+      "experience": {
+        "junior": "Débutant",
+        "mid": "Intermédiaire",
+        "senior": "Senior",
+        "student": "Étudiant",
+        "title": "Expérience"
+      },
+      "type": {
+        "fullTime": "Temps plein",
+        "internship": "Stage",
+        "partTime": "À temps partiel",
+        "project": "Projet",
+        "remote": "À distance",
+        "title": "Type"
+      }
+    },
+    "hero": {
+      "eyebrow": "Services de carrière",
+      "lead": "482 postes ouverts · 234 entreprises partenaires · Délai moyen de recrutement : 34 jours",
+      "title": "Centre de carrière et de stage"
+    },
+    "match": {
+      "body": "L'IA trouve des opportunités adaptées en fonction de vos compétences, cours, projets et centres d'intérêt.",
+      "resumeButton": "Mettre à jour le CV",
+      "title": "23 postes correspondent à votre profil",
+      "toast": {
+        "msg": "Les résultats ci-dessous sont répertoriés.",
+        "title": "23 postes correspondent à votre profil"
+      },
+      "viewButton": "Afficher les correspondances"
+    },
+    "save": {
+      "ariaLabel": "Ajouter aux favoris",
+      "title": "Enregistrer",
+      "toast": "Ajouté aux favoris"
+    },
+    "screenLabel": "39 services professionnels"
+  },
+  "degree": {
+    "card": {
+      "credits": "{n, plural, =0 {0 crédit} one {# crédit} many {# crédits} other {# crédits}}"
+    },
+    "categories": {
+      "core": {
+        "courses": {
+          "advancedMath": "Mathématiques avancées",
+          "bayesianStats": "Statistiques bayésiennes",
+          "dataStructures": "Structures de données avancées",
+          "mlFoundations": "Fondements de l'apprentissage automatique",
+          "optimisation": "Optimisation informatique",
+          "researchMethods": "Méthodes de recherche avancées"
+        },
+        "title": "Cours fondamentaux et obligatoires"
+      },
+      "elective": {
+        "courses": {
+          "aiEthics": "Éthique de l'AI",
+          "innovation": "Innovation et startup",
+          "language": "Langue spécialisée",
+          "seminar": "Séminaire spécialisé"
+        },
+        "title": "Optionnel"
+      },
+      "major": {
+        "courses": {
+          "appliedAi": "AI appliquée",
+          "deepLearning": "Apprentissage profond",
+          "nlp": "Traitement automatique du langage naturel",
+          "recommenders": "Systèmes de recommandation",
+          "vision": "Vision par ordinateur"
+        },
+        "title": "Cours de spécialisation et de filière"
+      },
+      "thesis": {
+        "courses": {
+          "defence": "Soutenance finale",
+          "dissertation": "Mémoire (1 à 6)",
+          "proposal": "Proposition de mémoire",
+          "seminarOne": "Séminaire 1",
+          "seminarTwo": "Séminaire 2"
+        },
+        "title": "Mémoire et séminaire"
+      }
+    },
+    "hero": {
+      "eyebrow": "Progression du diplôme",
+      "lead": "Master en science des données · 48 crédits validés sur 120",
+      "title": "Parcours du diplôme"
+    },
+    "progress": {
+      "earned": "48 crédits acquis",
+      "estimate": "Fin d'études estimée : juillet 2027",
+      "percent": "40 %",
+      "title": "Progression globale"
+    },
+    "screenLabel": "37 parcours de diplôme"
+  },
+  "gradebook": {
+    "mine": {
+      "badge": {
+        "answered": "Répondu",
+        "awaitingReply": "En attente de réponse",
+        "final": "Définitif",
+        "provisional": "Provisoire"
+      },
+      "courseFallback": "Cours",
+      "dialog": {
+        "cancel": "Annuler",
+        "close": "Fermer",
+        "counter": "{len} / {max} caractères (minimum {min})",
+        "errLength": "Le texte de la réclamation doit contenir entre {min} et {max} caractères",
+        "placeholder": "Rédigez les motifs de votre réclamation concernant la note attribuée…",
+        "submit": "Soumettre la réclamation",
+        "textLabel": "Texte de la réclamation",
+        "title": "Soumettre une réclamation de note"
+      },
+      "empty": "Aucune note n'a encore été publiée. Une fois la note publiée par l'enseignant, elle s'affichera ici.",
+      "errGeneric": "Une erreur est survenue",
+      "eyebrow": "Scolarité · Notes",
+      "gradeFinalized": "Cette note est définitive.",
+      "helpBody": "Vous trouverez ici les notes publiées pour chaque cours. Si la note est provisoire et que le délai de réclamation est ouvert, vous pouvez contester la note à l'aide du bouton « Soumettre la réclamation » et consulter la réponse de l'enseignant directement ici.",
+      "helpTitle": "Aide sur les notes et réclamations",
+      "instructorReply": "Réponse de l'enseignant",
+      "kpi": {
+        "announced": "Cours avec note publiée",
+        "final": "Note définitive",
+        "openWindow": "Délai de réclamation ouvert"
+      },
+      "lead": "Vos notes publiées ; vous pouvez soumettre une réclamation concernant une note provisoire avant la fin du délai.",
+      "loading": "Chargement en cours…",
+      "objectionDeadline": "Délai de réclamation",
+      "outOf": "sur {max}",
+      "title": "Notes et réclamations",
+      "viewMyCourses": "Afficher mes cours",
+      "windowClosed": "Le délai de réclamation est expiré.",
+      "yourObjection": "Votre réclamation"
+    },
+    "parent": {
+      "colCode": "Code",
+      "colCourse": "Cours",
+      "colCredits": "Crédits",
+      "colGrade": "Note",
+      "errLoadChildren": "Échec du chargement des enfants",
+      "errLoadGrades": "Échec du chargement des notes",
+      "eyebrow": "Parent · Notes",
+      "gpaTrend": "Évolution de la moyenne par semestre",
+      "helpBody": "Cette page présente le bulletin scolaire de votre enfant, comprenant la moyenne semestrielle, la moyenne générale et l'évolution des notes. Si vous avez plusieurs enfants, sélectionnez l'enfant souhaité en haut, puis utilisez les boutons de semestre pour consulter les notes des cours pour chaque semestre.",
+      "helpTitle": "Aide sur les notes de l'enfant",
+      "inProgress": "En cours",
+      "kpi": {
+        "courseCount": "Cours suivis",
+        "cumulativeGpa": "Moyenne générale",
+        "field": "Filière",
+        "totalCredits": "Total des crédits"
+      },
+      "lead": "Relevé de notes, moyenne semestrielle et moyenne générale de votre enfant.",
+      "loading": "Chargement en cours…",
+      "loadingGrades": "Chargement des notes…",
+      "noChildren": "Aucun enfant n'est encore associé à votre compte. Veuillez contacter le support universitaire pour l'association.",
+      "noGrades": "Aucune note n'a encore été enregistrée pour cet enfant.",
+      "studentFallback": "Étudiant",
+      "termGpaLabel": "Moyenne du semestre :",
+      "title": "Notes et bulletin de l'enfant"
+    },
+    "teacher": {
+      "backToCourses": "← Tous les cours",
+      "class": {
+        "buildAssessment": "Créer une évaluation",
+        "colAverage": "Moyenne",
+        "colStudent": "Étudiant",
+        "emptyStudents": "Il n'y a aucun étudiant actif dans ce cours.",
+        "errLoad": "Échec du chargement du carnet de notes",
+        "profile": "Profil",
+        "profileOf": "Profil de {name}",
+        "title": "Carnet de notes : {course}"
+      },
+      "kind": {
+        "exercise": "Exercice",
+        "quiz": "Quiz"
+      },
+      "loading": "Chargement en cours…",
+      "noPublishedAssessments": "Aucune évaluation publiée pour le moment.",
+      "picker": {
+        "colActions": "Actions",
+        "colCode": "Code",
+        "colTitle": "Titre",
+        "empty": "Aucun cours.",
+        "errLoad": "Échec du chargement des cours",
+        "eyebrow": "Relevé de notes",
+        "helpBody": "Sélectionnez un cours dans la liste pour consulter ses notes. Si vous êtes enseignant ou administrateur, vous verrez le relevé de notes de tous les étudiants du cours ; si vous êtes étudiant, vos propres notes et commentaires s'afficheront.",
+        "helpTitle": "Aide du carnet de notes",
+        "lead": "Sélectionnez un cours pour consulter les notes.",
+        "title": "Carnet de notes",
+        "viewGrades": "Notes →"
+      },
+      "self": {
+        "averageLabel": "Moyenne :",
+        "colAssessment": "Évaluation",
+        "colFeedback": "Commentaire",
+        "colGrade": "Note",
+        "colKind": "Type",
+        "errLoad": "Échec du chargement des notes",
+        "title": "Mes notes : {course}"
+      }
+    }
+  },
+  "hackathons": {
+    "card": {
+      "ariaLabel": "Détails de la compétition {title}",
+      "details": "Détails ←",
+      "toastMsg": "{kind} · Prix : {prize} · Date limite : {deadline}",
+      "until": "Jusqu'au {deadline}"
+    },
+    "featured": {
+      "badge": "Compétition en vedette",
+      "body": "Création d'outils d'AI pour aider les médecins et les patients. 48 heures de travail d'équipe, avec le mentorat de spécialistes de Shiraz et de mayoclinic.",
+      "date": {
+        "label": "Date",
+        "value": "19-21 septembre"
+      },
+      "duration": "48 heures",
+      "findTeammate": "Trouver un coéquipier",
+      "prize": {
+        "label": "Premier prix",
+        "value": "800M T"
+      },
+      "registerButton": "Inscription de l'équipe",
+      "registerBy": {
+        "label": "S'inscrire avant le",
+        "value": "11 septembre"
+      },
+      "registerToast": {
+        "msg": "Le formulaire d'inscription de l'équipe est en cours de chargement.",
+        "title": "Inscription de l'équipe"
+      },
+      "teamSize": "Équipe jusqu'à 5 personnes",
+      "title": "Hackathon national d'AI en santé 1405"
+    },
+    "hero": {
+      "demoNote": "La liste des compétitions et des prix sur cette page est indicative — l'inscription réelle n'est pas connectée",
+      "eyebrow": "Compétitions",
+      "lead": "12 compétitions actives · 2,4 milliards de tomans de prix au total · Opportunités de carrière pour les meilleurs",
+      "title": "Hackathons et compétitions"
+    },
+    "others": {
+      "title": "Autres compétitions"
+    },
+    "screenLabel": "43 Compétitions"
+  },
+  "honorCode": {
+    "screenLabel": "44 Code d'honneur"
+  },
+  "registration": {
+    "actions": {
+      "add": "Ajouter",
+      "full": "Complet",
+      "remove": "Supprimer"
+    },
+    "aiHint": {
+      "body": "En fonction de votre parcours de diplôme et de vos performances précédentes, je vous suggère « Apprentissage par renforcement » pour faire progresser vos recherches.",
+      "label": "Suggestion de l'AI"
+    },
+    "cart": {
+      "courseCount": "Nombre de cours",
+      "limits": "Minimum 9 crédits · Maximum 24 crédits pour le trimestre d'été",
+      "submit": "Finaliser l'inscription",
+      "title": "Panier d'inscription",
+      "totalCredits": "Total des crédits"
+    },
+    "confirm": {
+      "body": "{courses, number} cours avec un total de {credits, number} crédits seront enregistrés. Après confirmation, les ajouts/retraits (Add/Drop) sont possibles pendant les 2 premières semaines du trimestre.",
+      "confirmLabel": "Confirmation finale",
+      "title": "Finaliser l'inscription",
+      "toast": {
+        "msg": "Votre programme pour le semestre d'été a été confirmé.",
+        "title": "Inscription finalisée"
+      }
+    },
+    "course": {
+      "capacity": "Capacité : {enrolled, number} / {capacity, number}",
+      "credits": "{n, number} crédit",
+      "prereq": "Prérequis : {code}"
+    },
+    "courses": {
+      "cs580": {
+        "day": "Dimanche 14:00",
+        "prof": "M. Kiani",
+        "title": "Architecture des systèmes évolutifs"
+      },
+      "cs650": {
+        "day": "Lundi 16:00",
+        "prof": "Dr Azimi",
+        "title": "Apprentissage par renforcement"
+      },
+      "cs720": {
+        "day": "Mardi 10:00",
+        "prof": "Dr Taheri",
+        "title": "Intelligence artificielle explicable"
+      },
+      "mgmt410": {
+        "day": "Jeudi 10:00",
+        "prof": "Dr Razavi",
+        "title": "Innovation et entrepreneuriat"
+      },
+      "res601": {
+        "day": "Flexible",
+        "prof": "Directeur de mémoire",
+        "title": "Proposition de mémoire"
+      },
+      "stat540": {
+        "day": "Mercredi 14:00",
+        "prof": "Dr Farhadi",
+        "title": "Statistiques non paramétriques"
+      }
+    },
+    "filters": {
+      "all": "Tous",
+      "ariaLabel": "Filtrer les cours",
+      "elective": "Optionnel",
+      "major": "Spécialité",
+      "noConflict": "Sans conflit",
+      "open": "Places disponibles",
+      "required": "Obligatoire"
+    },
+    "hero": {
+      "eyebrow": "Inscription au semestre d'été 1405",
+      "lead": "Période d'inscription : du 5 au 20 Shahrivar · Délai d'ajout/suppression (Add/Drop) : 2 premières semaines du semestre",
+      "title": "Choix des cours"
+    },
+    "screenLabel": "38 Inscription"
+  },
+  "sectionInstructor": {
+    "assign": {
+      "close": "Fermer",
+      "empty": "Aucun enseignant trouvé. Veuillez d'abord l'ajouter depuis la section « Enseignants ».",
+      "load": "Charge : {n} cours",
+      "none": "Aucun enseignant (désassigner)",
+      "subtitle": "{title} · Groupe {group}",
+      "title": "Attribuer un enseignant"
+    },
+    "capacity": "Capacité : {enrolled}/{capacity}",
+    "cta": {
+      "assign": "Attribuer un enseignant",
+      "assistants": "Assistant d'enseignement",
+      "change": "Changer d'enseignant"
+    },
+    "day": {
+      "fri": "Vendredi",
+      "mon": "Lundi",
+      "sat": "Samedi",
+      "sun": "Dimanche",
+      "thu": "Jeudi",
+      "tue": "Mardi",
+      "wed": "Mercredi"
+    },
+    "emptySections": "Aucun cours n'est enregistré pour ce semestre. Créez d'abord des cours depuis la section « Offre de cours ».",
+    "errGeneric": "Une erreur s'est produite",
+    "eyebrow": "Scolarité · Attribution des enseignants",
+    "filter": {
+      "all": "Tous",
+      "assigned": "Attribué",
+      "unassigned": "Non attribué"
+    },
+    "help": {
+      "body": "Sélectionnez d'abord le semestre. Chaque ligne correspond à un « cours » (un groupe d'une matière) ; cliquez sur « Attribuer / Modifier » et sélectionnez l'enseignant. La charge d'enseignement de chaque enseignant (nombre de cours) s'affiche à côté de son nom. Les cours sont créés dans « Offre de cours / Groupes » ; vous ne faites qu'y attribuer l'enseignant. L'option « Assistant d'enseignement » vous permet d'ajouter un ou plusieurs assistants (TA) au cours. L'assistant a accès à la liste des étudiants et aux analyses du cours, et peut enregistrer les notes sous forme de brouillon, mais la validation définitive des notes relève de la seule responsabilité de l'enseignant.",
+      "title": "Guide d'attribution des enseignants"
+    },
+    "instructorFallback": "Enseignant",
+    "kpi": {
+      "assigned": "Attribués",
+      "instructors": "Enseignants",
+      "sections": "Cours",
+      "unassigned": "Non attribués"
+    },
+    "lead": "Sélectionnez l'enseignant responsable pour chaque groupe de cours du semestre.",
+    "loading": "Chargement en cours…",
+    "noSchedule": "Aucun horaire enregistré",
+    "rank": {
+      "ASSISTANT": "Professeur assistant",
+      "ASSOCIATE": "Professeur associé",
+      "EMERITUS": "Émérite",
+      "FULL": "Professeur titulaire"
+    },
+    "sectionMeta": "({code} · Groupe {group} · {credits} crédits)",
+    "ta": {
+      "add": "+ Ajouter un assistant d'enseignement…",
+      "close": "Fermer",
+      "dialogLabel": "Gestion des assistants d'enseignement",
+      "empty": "Aucun assistant n'a encore été désigné pour ce cours.",
+      "loading": "Chargement en cours…",
+      "note1": "L'assistant d'enseignement a accès à la liste des étudiants et aux analyses de ce cours, et peut enregistrer les notes en tant que ",
+      "note2": " . L'enregistrement définitif (validation) des notes relève de la seule responsabilité de l'enseignant du cours.",
+      "noteDraft": "Brouillon",
+      "pickerTitle": "Sélectionner un assistant d'enseignement",
+      "remove": "Supprimer",
+      "removeAria": "Supprimer l'assistant {name}",
+      "retry": "Réessayer",
+      "subtitle": "{title} · Groupe {group}",
+      "title": "Assistant d'enseignement"
+    },
+    "termCurrent": " (actuel)",
+    "title": "Attribution des enseignants aux cours",
+    "toast": {
+      "assignFailed": "Échec de l'attribution"
+    },
+    "unassigned": "Non attribué"
+  },
+  "transcript": {
+    "actions": {
+      "pdf": "PDF officiel",
+      "verify": "Vérification numérique"
+    },
+    "download": {
+      "toast": {
+        "msg": "Le fichier PDF du relevé de notes est prêt.",
+        "title": "Téléchargement en cours"
+      }
+    },
+    "help": {
+      "body": "Cette page affiche vos relevés de notes officiels par semestre et par cours. Cliquez sur « PDF officiel » pour obtenir la version officielle et sur « Vérification numérique » pour une vérification valide.",
+      "title": "Aide sur le relevé de notes"
+    },
+    "hero": {
+      "eyebrow": "Relevé de notes officiel",
+      "lead": "Nasrin Razavi · Code 84-02-17 · Master en science des données · Semestre 2",
+      "title": "Relevé de notes officiel"
+    },
+    "screenLabel": "36 relevés de notes",
+    "semester": {
+      "creditsLabel": "Crédits"
+    },
+    "summary": {
+      "current": {
+        "label": "Crédits actuels",
+        "value": "18"
+      },
+      "earned": {
+        "label": "Crédits validés",
+        "value": "48 sur 120"
+      },
+      "gpa": {
+        "label": "GPA global",
+        "value": "3,82"
+      },
+      "level": {
+        "label": "Niveau",
+        "value": "Master"
+      },
+      "standing": {
+        "label": "Statut",
+        "value": "Excellent"
+      }
+    },
+    "table": {
+      "code": "Code",
+      "credits": "Crédits",
+      "grade": "Note",
+      "professor": "Enseignant",
+      "score": "Score",
+      "title": "Intitulé du cours"
+    }
+  },
+  "wellness": {
+    "crisis": {
+      "toast": {
+        "msg": "Un opérateur vous contactera sous peu.",
+        "title": "Ligne de crise active"
+      }
+    },
+    "hero": {
+      "eyebrow": "Bien-être étudiant",
+      "lead": "La vie étudiante apporte son lot de pression. Nous sommes là pour vous soutenir : conseil psychologique, gestion du stress et compagnon intelligent pour les jours difficiles. Tout est entièrement confidentiel.",
+      "title": "Santé mentale et physique"
+    },
+    "resources": {
+      "items": {
+        "examAnxiety": "Guide de gestion de l'anxiété d'examen",
+        "facultyTalk": "Comment avoir une discussion constructive avec les professeurs",
+        "mindfulness": "Exercices de mindfulness de 5 minutes",
+        "pomodoro": "Techniques Pomodoro pour la concentration",
+        "sleep": "Sommeil sain pour les étudiants",
+        "workLifeBalance": "Gestion de l'équilibre vie pro-études"
+      },
+      "title": "Ressources",
+      "toastMsg": "La ressource pédagogique a été ajoutée à votre archive personnelle."
+    },
+    "screenLabel": "41 Bien-être",
+    "services": {
+      "ai": {
+        "cta": "Commencer la discussion",
+        "desc": "Discussion confidentielle avec une AI formée",
+        "title": "Compagnon AI 24h/24 et 7j/7"
+      },
+      "crisis": {
+        "cta": "Appel d'urgence",
+        "desc": "Si vous vous trouvez dans une situation de crise",
+        "title": "Ligne de crise 24h/24 et 7j/7"
+      },
+      "individual": {
+        "cta": "Réserver une séance",
+        "desc": "Séance confidentielle avec un psychologue",
+        "title": "Conseil individuel"
+      },
+      "peer": {
+        "cta": "Rejoindre le groupe",
+        "desc": "Échanger avec des pairs dans un espace sécurisé",
+        "title": "Groupes de pairs"
+      },
+      "selfCheck": {
+        "cta": "Commencer le test",
+        "desc": "PHQ-9, GAD-7, stress",
+        "title": "Test d'auto-évaluation"
+      },
+      "timeSleep": {
+        "cta": "Commencer le programme",
+        "desc": "Outils et ancrage des habitudes",
+        "title": "Gestion du temps et du sommeil"
+      }
+    }
+  }
+}

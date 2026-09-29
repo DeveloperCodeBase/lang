@@ -1,0 +1,427 @@
+{
+  "common": {
+    "user": "مستخدم",
+    "close": "إغلاق",
+    "you": "أنت",
+    "cancel": "إلغاء",
+    "working": "جارٍ التنفيذ…",
+    "loading": "جارٍ التحميل…"
+  },
+  "errors": {
+    "generic": "حدث خطأ"
+  },
+  "role": {
+    "owner": "المالك",
+    "admin": "المشرف",
+    "member": "عضو"
+  },
+  "mute": {
+    "title": "إشعارات هذه المحادثة",
+    "hint": "الكتم: لا تصلك إشعارات رسائل هذه المحادثة ولا الإشارات إليك (تبقى في القائمة).",
+    "on": "🔕 مكتومة",
+    "off": "🔔 الإشعارات مفعّلة"
+  },
+  "file": {
+    "unsupported": "هذا النوع من الملفات غير مدعوم. أرسِل صورة (PNG/JPG/WebP/GIF) أو مستنداً (PDF/Word/Excel/PowerPoint/نص/ZIP).",
+    "kind": {
+      "image": "الصورة",
+      "voice": "الرسالة الصوتية",
+      "file": "الملف"
+    },
+    "tooLarge": "حجم {label} يتجاوز الحدّ المسموح (بحدّ أقصى {value, number} ميغابايت)."
+  },
+  "size": {
+    "bytes": "{value} بايت",
+    "kb": "{value} كيلوبايت",
+    "mb": "{value} ميغابايت"
+  },
+  "preview": {
+    "poll": "📊 استطلاع: {body}",
+    "image": "🖼️ صورة",
+    "file": "📎 ملف",
+    "fileNamed": "📎 {name}",
+    "voice": "🎤 رسالة صوتية",
+    "message": "رسالة"
+  },
+  "media": {
+    "image": "صورة",
+    "file": "ملف",
+    "generic": "وسائط",
+    "tabsAria": "نوع الوسائط",
+    "tabImages": "الصور",
+    "tabFiles": "الملفّات",
+    "emptyImages": "لم تُشارَك أيّ صورة في هذه المحادثة.",
+    "emptyFiles": "لم يُشارَك أيّ ملفّ في هذه المحادثة.",
+    "open": "افتح الصورة: {name}",
+    "dialogAria": "وسائط {title}",
+    "sharedTitle": "الوسائط المشتركة",
+    "imageAlt": "صورة مرفقة",
+    "downloadFile": "نزِّل الملفّ: {name}",
+    "downloadFileSized": "نزِّل الملفّ: {name} ({size})",
+    "downloadImage": "نزِّل الصورة",
+    "download": "تنزيل",
+    "lightboxAria": "صورة: {name}"
+  },
+  "day": {
+    "today": "اليوم",
+    "yesterday": "أمس"
+  },
+  "presence": {
+    "justNow": "قبل لحظات",
+    "minutesAgo": "{value, plural, zero {قبل # دقيقة} one {قبل دقيقة} two {قبل دقيقتين} few {قبل # دقائق} many {قبل # دقيقة} other {قبل # دقيقة}}",
+    "hoursAgo": "{value, plural, zero {قبل # ساعة} one {قبل ساعة} two {قبل ساعتين} few {قبل # ساعات} many {قبل # ساعة} other {قبل # ساعة}}",
+    "dayAtTime": "{day} الساعة {time}",
+    "online": "متصل",
+    "offline": "غير متصل",
+    "lastSeen": "آخر ظهور {when}"
+  },
+  "mention": {
+    "viewProfile": "عرض ملف {name}",
+    "dialog": "إشارة إلى عضو",
+    "empty": "لم يُعثر على عضو.",
+    "listAria": "الأعضاء للإشارة"
+  },
+  "list": {
+    "title": "الرسائل",
+    "unreadPill": "{value, plural, zero {# غير مقروءة} one {واحدة غير مقروءة} two {اثنتان غير مقروءتين} few {# غير مقروءة} many {# غير مقروءة} other {# غير مقروءة}}",
+    "classSpacesTitle": "مساحة محادثة الصفوف",
+    "classGroups": "مجموعات المقرّرات",
+    "newCta": "+ جديد",
+    "loading": "جارٍ التحميل…",
+    "emptyTitle": "لا توجد لديك محادثات بعد.",
+    "emptyHint": "ابدأ محادثة عبر «+ جديد».",
+    "emptyCta": "+ ابدأ محادثة",
+    "noSearchMatch": "لم يُعثر على محادثة تطابق «{query}».",
+    "noUnread": "لا توجد محادثات غير مقروءة.",
+    "noneInFolder": "لا توجد محادثة في هذا المجلد.",
+    "placeholder": "اختر محادثة.",
+    "unreadSep": "الرسائل غير المقروءة"
+  },
+  "search": {
+    "ariaMessages": "البحث في الرسائل",
+    "ariaConvos": "البحث عن محادثة",
+    "placeholderMessages": "ابحث في كل الرسائل…",
+    "placeholderConvos": "ابحث عن محادثة…",
+    "clear": "امسح البحث",
+    "modeLabel": "وضع البحث",
+    "tabConvos": "المحادثات",
+    "tabMessages": "الرسائل",
+    "tabMentions": "الإشارات إليّ",
+    "minChars": "أدخل {value, number} حرفاً على الأقل للبحث في الرسائل.",
+    "searching": "جارٍ البحث…",
+    "noMessages": "لم يُعثر على رسالة تطابق «{query}»."
+  },
+  "mentions": {
+    "loading": "جارٍ تحميل الإشارات…",
+    "empty": "لم تتم الإشارة إليك في أي رسالة بعد."
+  },
+  "spaces": {
+    "intro": "لكل مقرّر تُدرّسه تُنشأ «مجموعة محادثة» (يكتب فيها الجميع) و«قناة إعلانات» (تكتب فيها أنت وحدك). ينضم الطلاب المسجّلون تلقائياً ويرونها في قائمة محادثاتهم.",
+    "noSections": "لا توجد مقرّرات مسجّلة لك.",
+    "groupNumber": " · المجموعة {value, number}",
+    "active": "مفعّلة",
+    "resync": "زامِن قائمة المسجّلين",
+    "create": "أنشئ المساحة"
+  },
+  "chat": {
+    "untitled": "محادثة",
+    "back": "رجوع",
+    "memberCount": "{value, plural, zero {# عضو} one {عضو واحد} two {عضوان} few {# أعضاء} many {# عضواً} other {# عضو}}",
+    "onlineCount": " · {value, number} متصل",
+    "tapForInfo": " · اضغط للمعلومات",
+    "menuAria": "خيارات المحادثة",
+    "menuTitle": "الخيارات",
+    "olderMessages": "رسائل أقدم",
+    "empty": "لا توجد رسائل بعد. أرسِل أول رسالة.",
+    "readOnly": "لا يمكن النشر في هذه القناة إلا للمشرفين."
+  },
+  "voice": {
+    "unsupported": "تسجيل الصوت غير مدعوم في هذا المتصفّح.",
+    "denied": "لم يُسمح بالوصول إلى الميكروفون. تحقّق من إذن الميكروفون في المتصفّح.",
+    "cancel": "إلغاء التسجيل",
+    "recording": "جارٍ تسجيل رسالة صوتية…",
+    "send": "إرسال رسالة صوتية",
+    "record": "تسجيل رسالة صوتية"
+  },
+  "copy": {
+    "ok": "نُسخ نصّ الرسالة.",
+    "failed": "تعذّر نسخ النصّ."
+  },
+  "ai": {
+    "prompt": {
+      "explain": "اشرح هذه الرسالة بأسلوب بسيط وموجز:\n«{body}»",
+      "summarize": "لخّص هذه الرسالة في جملة أو جملتين:\n«{body}»",
+      "ask": "ساعدني في فهم هذه الرسالة واذكر أهمّ نقطة فيها:\n«{body}»",
+      "translate": "ترجم هذا النصّ إلى الإنجليزية السلسة إن كان عربياً، وإلى العربية الفصيحة إن كان بغير ذلك:\n«{body}»"
+    },
+    "sessionTitle": "من المراسلة",
+    "noAnswer": "(لم يصل أي ردّ)",
+    "sheet": {
+      "aria": "ردّ المساعد الذكي",
+      "title": {
+        "explain": "شرح بالذكاء الاصطناعي",
+        "summarize": "تلخيص",
+        "ask": "سؤال المساعد",
+        "translate": "ترجمة"
+      },
+      "loading": "جارٍ الكتابة…",
+      "plansCta": "عرض الخطط →",
+      "agentsCta": "المتابعة في «المساعدين الأذكياء» →"
+    }
+  },
+  "pin": {
+    "limit": "يمكن تثبيت {value, number} رسالة بحدّ أقصى. أزِل واحدة أولاً.",
+    "barAria": "الرسائل المثبَّتة ({value, number})",
+    "barTitle": "رسالة مثبَّتة",
+    "listAria": "قائمة الرسائل المثبَّتة",
+    "listTitle": "قائمة التثبيت",
+    "remove": "إلغاء التثبيت"
+  },
+  "report": {
+    "done": "سُجّل بلاغك وسيراجعه المشرفون. شكراً لك.",
+    "title": "الإبلاغ عن الرسالة",
+    "hint": "سيُبلَّغ المشرفون عن هذه الرسالة للمراجعة. اختر السبب أو اكتبه (اختياري).",
+    "reasonAria": "سبب الإبلاغ",
+    "reason": {
+      "abusive": "محتوى مسيء أو مضايِق",
+      "spam": "رسائل مزعجة أو إعلانات",
+      "inappropriate": "محتوى غير لائق",
+      "other": "أسباب أخرى"
+    },
+    "noteLabel": "شرح إضافي (اختياري)",
+    "notePlaceholder": "اشرح إن رغبت…",
+    "sending": "جارٍ الإرسال…",
+    "submit": "أرسِل البلاغ"
+  },
+  "forward": {
+    "batchBody": "{value, plural, zero {تحويل # رسالة} one {تحويل رسالة} two {تحويل رسالتين} few {تحويل # رسائل} many {تحويل # رسالة} other {تحويل # رسالة}}",
+    "doneOne": "حُوّلت الرسالة.",
+    "doneMany": "{value, plural, zero {حُوّلت # رسالة} one {حُوّلت رسالة} two {حُوّلت رسالتان} few {حُوّلت # رسائل} many {حُوّلت # رسالة} other {حُوّلت # رسالة}}",
+    "title": "تحويل الرسالة",
+    "searchAria": "البحث عن محادثة",
+    "searchPlaceholder": "ابحث عن محادثة…",
+    "empty": "لم يُعثر على محادثة.",
+    "current": "المحادثة الحالية"
+  },
+  "bulkDelete": {
+    "done": "{value, plural, zero {حُذفت # رسالة} one {حُذفت رسالة} two {حُذفت رسالتان} few {حُذفت # رسائل} many {حُذفت # رسالة} other {حُذفت # رسالة}}",
+    "partial": "حُذفت {value, number} رسالة (تعذّر حذف {skipped, number} رسالة)."
+  },
+  "block": {
+    "done": "حُظر هذا المستخدم. لم يعد بإمكانكما تبادل الرسائل.",
+    "lifted": "رُفع الحظر. يمكنك الآن إرسال الرسائل.",
+    "unblockCta": "رفع الحظر",
+    "blockCta": "احظر المستخدم",
+    "barText": "لقد حظرت هذا المستخدم؛ لا يمكن إرسال رسالة."
+  },
+  "bubble": {
+    "aria": {
+      "select": "{state} — رسالة من {name}",
+      "selected": "محدَّدة",
+      "selectable": "تحديد",
+      "message": "رسالة من {name} — اضغط مفتاح القائمة أو زرّ الفأرة الأيمن للخيارات"
+    },
+    "forwardedFrom": "محوَّلة من",
+    "pinned": "مثبَّتة",
+    "jumpToReplied": "الانتقال إلى رسالة {name}",
+    "edited": " · معدَّلة",
+    "quickActions": "إجراءات سريعة على الرسالة",
+    "likeAria": "تفاعل الإعجاب",
+    "like": "إعجاب",
+    "reply": "ردّ",
+    "more": "خيارات أخرى",
+    "menu": "خيارات الرسالة"
+  },
+  "qa": {
+    "question": "سؤال صفّي",
+    "hasAccepted": " · له إجابة مختارة",
+    "accepted": "إجابة مختارة",
+    "openAria": "أسئلة وأجوبة الصفّ",
+    "openTitle": "أسئلة وأجوبة",
+    "sendAsAria": "الإرسال بوصفه سؤالاً صفّياً",
+    "sendAsOn": "تُرسَل هذه الرسالة بوصفها سؤالاً",
+    "filterAria": "ترشيح الأسئلة",
+    "filter": {
+      "all": "الكل",
+      "unanswered": "بلا إجابة",
+      "answered": "مُجاب عنها"
+    },
+    "empty": {
+      "unanswered": "لا يوجد سؤال بلا إجابة.",
+      "answered": "لم يحصل أيّ سؤال على إجابة معتمدة بعد.",
+      "all": "لم يُسجَّل أيّ سؤال بعد. اطرح سؤالك بزرّ ❓ بجانب كتابة الرسالة."
+    },
+    "jump": "الانتقال إلى سؤال {name}",
+    "acceptedBadge": "إجابة معتمدة",
+    "answersCount": "{value, plural, zero {# إجابة} one {إجابة واحدة} two {إجابتان} few {# إجابات} many {# إجابة} other {# إجابة}}",
+    "olderItems": "عناصر أقدم"
+  },
+  "status": {
+    "failed": "لم تُرسَل",
+    "retry": "أعد المحاولة",
+    "pending": "جارٍ الإرسال",
+    "read": "مقروءة",
+    "sent": "أُرسلت"
+  },
+  "seenBy": {
+    "aria": "مَن شاهد الرسالة",
+    "title": "شاهدها"
+  },
+  "selection": {
+    "barAria": "شريط تحديد الرسائل",
+    "cancelAria": "إلغاء التحديد",
+    "count": "{value, plural, zero {# محدَّدة} one {واحدة محدَّدة} two {اثنتان محدَّدتان} few {# محدَّدة} many {# محدَّدة} other {# محدَّدة}}",
+    "idle": "تحديد الرسائل",
+    "forward": "تحويل",
+    "delete": "حذف",
+    "deleting": "جارٍ الحذف…",
+    "confirmAria": "تأكيد حذف الرسائل",
+    "confirmBody": "هل تُحذف {value, number} رسالة؟ ستُتجاهل الرسائل التي لا تملك إذن حذفها."
+  },
+  "convoSearch": {
+    "toggleAria": "البحث في هذه المحادثة",
+    "toggleTitle": "البحث في المحادثة",
+    "aria": "البحث عن رسالة في هذه المحادثة",
+    "placeholder": "ابحث عن رسالة في هذه المحادثة…",
+    "advAria": "مرشّحات متقدّمة",
+    "advTitle": "المرشّحات (المُرسِل · النوع · المدّة)",
+    "close": "إغلاق البحث",
+    "sender": "المُرسِل",
+    "senderAria": "الترشيح حسب المُرسِل",
+    "kindAria": "نوع الرسالة",
+    "kind": {
+      "all": "الكل",
+      "media": "وسائط",
+      "file": "ملف",
+      "question": "الأسئلة"
+    },
+    "rangeAria": "المدّة الزمنية",
+    "range": {
+      "all": "كل الأوقات",
+      "1d": "آخر ٢٤ ساعة",
+      "7d": "آخر ٧ أيام",
+      "30d": "آخر ٣٠ يوماً"
+    },
+    "noResults": "لم يُعثر على رسالة تطابق «{query}» في هذه المحادثة."
+  },
+  "drop": {
+    "title": "أفلِت الملف للإرسال",
+    "limits": "صورة حتى {image, number} ميغابايت · مستند حتى {file, number} ميغابايت"
+  },
+  "fab": {
+    "newMessages": "{value, plural, zero {# رسالة جديدة — الانتقال إلى آخر رسالة} one {رسالة جديدة — الانتقال إلى آخر رسالة} two {رسالتان جديدتان — الانتقال إلى آخر رسالة} few {# رسائل جديدة — الانتقال إلى آخر رسالة} many {# رسالة جديدة — الانتقال إلى آخر رسالة} other {# رسالة جديدة — الانتقال إلى آخر رسالة}}",
+    "jumpToLatest": "الانتقال إلى آخر رسالة",
+    "jumpToBottom": "الانتقال إلى الأسفل"
+  },
+  "typing": {
+    "separator": "، ",
+    "andOthers": " و{value, number} آخرين",
+    "suffix": " يكتب الآن…",
+    "peer": "يكتب الآن…"
+  },
+  "compose": {
+    "replyingTo": "ردّاً على",
+    "cancelReply": "إلغاء الردّ",
+    "editing": "تعديل الرسالة",
+    "cancelEdit": "إلغاء التعديل",
+    "emojiPicker": "اختيار رمز تعبيري",
+    "insertEmoji": "أدرِج {emoji}",
+    "emoji": "رمز تعبيري",
+    "aria": "كتابة رسالة",
+    "placeholder": "اكتب رسالة…",
+    "save": "احفظ",
+    "send": "أرسِل"
+  },
+  "attach": {
+    "title": "مرفق",
+    "aria": "إرفاق ملف",
+    "image": "صورة",
+    "file": "مستند أو ملف",
+    "poll": "استطلاع",
+    "note": "صورة حتى {image, number} ميغابايت · مستند حتى {file, number} ميغابايت. يُرسَل النصّ المكتوب بوصفه وصفاً."
+  },
+  "ctx": {
+    "aria": "خيارات الرسالة",
+    "react": "تفاعل {emoji}",
+    "quickReact": "تفاعل سريع",
+    "moreEmoji": "رموز تعبيرية أكثر",
+    "more": "المزيد",
+    "reply": "ردّ",
+    "copy": "انسخ النصّ",
+    "forward": "حوِّل",
+    "qaAccept": "اختره إجابةً معتمدة",
+    "qaClear": "ألغِ الإجابة المعتمدة",
+    "ai": {
+      "explain": "اشرح بالذكاء الاصطناعي",
+      "summarize": "لخِّص",
+      "ask": "اسأل المساعد",
+      "translate": "ترجِم"
+    },
+    "select": "حدِّد",
+    "edit": "عدِّل",
+    "seenBy": "معلومات الرسالة",
+    "pin": "ثبِّت"
+  },
+  "pins": {
+    "title": "الرسائل المثبَّتة",
+    "heading": "الرسائل المثبَّتة ({value, number})",
+    "empty": "لا توجد رسالة مثبَّتة.",
+    "jump": "الانتقال إلى الرسالة المثبَّتة",
+    "unpinShort": "إلغاء"
+  },
+  "poll": {
+    "dialogAria": "إنشاء استطلاع",
+    "heading": "استطلاع جديد",
+    "questionLabel": "السؤال",
+    "questionPlaceholder": "مثلاً: أيّ موعد أنسب للحصّة التعويضية؟",
+    "optionsLabel": "الخيارات (من {min, number} إلى {max, number})",
+    "option": "الخيار {value, number}",
+    "removeOption": "حذف الخيار {value, number}",
+    "addOption": "+ أضِف خياراً",
+    "multi": "السماح باختيار أكثر من خيار",
+    "creating": "جارٍ الإنشاء…",
+    "create": "أنشِئ الاستطلاع"
+  },
+  "newChat": {
+    "title": "محادثة جديدة",
+    "groupNameRequired": "اسم المجموعة مطلوب",
+    "channelNameRequired": "اسم القناة مطلوب",
+    "tab": {
+      "dm": "خاصّة",
+      "group": "مجموعة",
+      "channel": "قناة",
+      "discover": "استكشاف",
+      "class": "صفّ"
+    },
+    "discoverEmpty": "لا توجد قناة عامّة للاشتراك فيها. (أنشئ القنوات العامّة من تبويب «قناة».)",
+    "subscriberCount": "{value, plural, zero {لا أعضاء} one {عضو واحد} two {عضوان} few {# أعضاء} many {# عضواً} other {# عضو}}",
+    "open": "افتح",
+    "join": "اشترك",
+    "classEmpty": "لا توجد شعبة تُدرّسها. (يُنشئ فضاء الصفّ أستاذُ المقرّر.)",
+    "provision": "أنشِئ فضاء الصفّ",
+    "groupName": "اسم المجموعة",
+    "channelName": "اسم القناة",
+    "channelDesc": "وصف القناة",
+    "descOptional": "الوصف (اختياري)",
+    "searchUserAria": "البحث عن مستخدم",
+    "searchUserPlaceholder": "ابحث عن مستخدم…",
+    "noUser": "لم يُعثر على مستخدم.",
+    "createGroup": "أنشِئ المجموعة ({value, number})",
+    "createChannel": "أنشِئ القناة ({value, number})"
+  },
+  "groupInfo": {
+    "aria": "معلومات {kind}",
+    "tabsAria": "معلومات المحادثة",
+    "tabMembers": "الأعضاء",
+    "tabMedia": "الوسائط",
+    "membersHeading": "الأعضاء ({value, number})",
+    "addToggle": "+ أضِف",
+    "add": "أضِف",
+    "noneToAdd": "لا يوجد مستخدم لإضافته.",
+    "demote": "أزِل الإشراف",
+    "promote": "رقِّ إلى مشرف",
+    "removeMember": "احذف العضو",
+    "thisMember": "هذا العضو",
+    "leave": "غادِر {kind}"
+  }
+}

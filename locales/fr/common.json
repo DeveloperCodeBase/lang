@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "search": "Rechercher",
+    "select": "Sélectionner"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "À venir",
+      "full": "Calendrier complet",
+      "empty": "{days, plural, one {Aucun événement dans le prochain jour} many {Aucun événement dans les {days} prochains jours} other {Aucun événement dans les {days} prochains jours}}",
+      "error": "Impossible de charger les événements",
+      "today": "Aujourd'hui",
+      "allDay": "Toute la journée"
+    },
+    "type": {
+      "meeting": "Cours",
+      "exam": "Examen",
+      "assignment": "Devoir",
+      "term": "Période du semestre",
+      "event": "Événement",
+      "personal": "Personnel"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Une erreur est survenue sur la page",
+      "body": "Désolé, un problème est survenu. Cette erreur a été enregistrée automatiquement. Vous pouvez retourner à l'accueil ou recharger la page.",
+      "home": "Retour à l'accueil",
+      "reload": "Actualiser"
+    }
+  },
+  "help": {
+    "toggle": "Aide",
+    "close": "Fermer l'aide"
+  },
+  "money": {
+    "rialUnit": "IRR"
+  },
+  "notFound": {
+    "back": "Retour à la page précédente",
+    "body": "L'adresse que vous recherchez n'existe pas ou a été déplacée. Vous pouvez retourner à la page précédente ou à l'accueil.",
+    "home": "Retour à l'accueil",
+    "programs": "Afficher les programmes",
+    "screenLabel": "404 · Introuvable",
+    "search": "Rechercher",
+    "title": "Page non trouvée"
+  },
+  "state": {
+    "empty": "Aucun élément à afficher.",
+    "error": "Une erreur s'est produite.",
+    "loading": "Chargement en cours…",
+    "noResults": "Aucun résultat trouvé."
+  },
+  "time": {
+    "justNow": "À l'instant"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Merci beaucoup d'avoir partagé cela avec moi ; je sais que cela n'a pas été facile à dire et vous n'êtes pas seul. Ce que vous ressentez est réel et important, et vous méritez le soutien immédiat d'une personne. Veuillez contacter dès maintenant la ligne d'assistance ; quelqu'un est là pour vous écouter avec bienveillance.",
+      "tipHelpline": "Contact d'urgence de la ligne d'assistance : 1480 (24h/24 et confidentiel)",
+      "tipEmergency": "Si vous êtes en danger immédiat, appelez le 115",
+      "tipCompany": "Si tu le peux, trouve une personne de confiance à tes côtés dès maintenant"
+    }
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "title": {
+    "queue": "File d'attente de modération",
+    "community": "Modération de la communauté",
+    "rules": "Règles automatisées",
+    "log": "Historique des actions"
+  },
+  "common": {
+    "refresh": "Actualiser",
+    "loading": "Chargement en cours…",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "empty": "Aucun élément.",
+    "loadError": "Échec du chargement.",
+    "actionError": "Échec de l'action.",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "pageOf": "Page {page} sur {pages}"
+  },
+  "queue": {
+    "page": {
+      "eyebrow": "Modérateur · Tableau de modération du contenu",
+      "lead": "Signalements d'utilisateurs et alertes de règles automatisées regroupés dans une file d'attente avec échéance. Prenez en charge chaque élément, examinez le contenu sous-jacent et prenez une décision ; celle-ci est appliquée immédiatement et notifiée à l'auteur.",
+      "helpTitle": "Guide de la file d'attente de modération",
+      "help": "Utilisez les vues et les filtres pour affiner la file d'attente et trier par échéance la plus proche. « Prendre en charge » assigne le signalement à votre nom pour éviter que deux modérateurs ne travaillent sur le même élément en même temps. La décision concernant un signalement que vous avez émis ou un contenu que vous avez rédigé revient à un autre modérateur."
+    },
+    "kpi": {
+      "open": "Ouvert",
+      "breached": "Échéance dépassée",
+      "escalated": "Transféré",
+      "mine": "Attribué(s) à moi",
+      "unassigned": "Non assigné",
+      "filtered": "Résultat filtré",
+      "resolved": "Résolu",
+      "dismissed": "Rejeté"
+    },
+    "viewsLabel": "Vue de la file d'attente",
+    "view": {
+      "open": "Ouvert",
+      "mine": "Attribué(s) à moi",
+      "unassigned": "Non assigné",
+      "escalated": "Transféré",
+      "breached": "Échéance dépassée",
+      "decided": "Clôturé",
+      "all": "Tous"
+    },
+    "filter": {
+      "contentType": "Type de contenu",
+      "source": "Source",
+      "severity": "Gravité",
+      "status": "Statut",
+      "any": "Tous",
+      "post": "Discussion",
+      "comment": "Réponse",
+      "message": "Message",
+      "profile": "Profil",
+      "other": "Autre",
+      "community": "Discussion et réponse",
+      "user": "Signalement d'utilisateur",
+      "auto": "Indicateur de règle automatique",
+      "search": "Rechercher dans le contenu ou le motif…"
+    },
+    "sort": {
+      "label": "Trier par",
+      "due": "Échéance la plus proche",
+      "age": "Le plus ancien"
+    },
+    "col": {
+      "content": "Contenu",
+      "reason": "Motif",
+      "severity": "Gravité",
+      "age": "Âge",
+      "due": "Échéance",
+      "assignee": "Attribué à",
+      "status": "Statut"
+    },
+    "severity": {
+      "low": "Faible",
+      "normal": "Normal",
+      "high": "Élevé"
+    },
+    "status": {
+      "PENDING": "En attente",
+      "RESOLVED": "Résolu",
+      "DISMISSED": "Rejeté"
+    },
+    "age": {
+      "minutes": "{count, plural, one {# minute} many {# minutes} other {# minutes}}",
+      "hours": "{count, plural, one {# heure} many {# heures} other {# heures}}",
+      "days": "{count, plural, one {# jour} many {# jours} other {# jours}}"
+    },
+    "ago": "Il y a {age}",
+    "reportedAt": "Signalé le {date}",
+    "dueAt": "Échéance : {date}",
+    "sla": {
+      "onTime": "À temps",
+      "dueSoon": "Échéance proche",
+      "breached": "Échéance dépassée",
+      "decided": "Clôturé"
+    },
+    "siblings": "{count, plural, one {# signalement pour ce contenu} many {# signalements pour ce contenu} other {# signalements pour ce contenu}}",
+    "contentGone": "Ce contenu n'est plus visible dans la communauté.",
+    "autoFlag": "Indicateur de la règle « {rule} »",
+    "suggested": "Suggestion de règle : {action}",
+    "escalatedBadge": "Transférer au supérieur",
+    "claim": "Prendre en charge",
+    "release": "Libérer",
+    "assign": "Attribuer à…",
+    "claimedBy": "Pris en charge par {name}",
+    "claimedByMe": "Pris en charge par vous",
+    "noAssignee": "Non attribué",
+    "assignTitle": "Attribuer le signalement",
+    "assignPick": "Sélectionner un modérateur",
+    "review": "Examiner et décider",
+    "quickActions": "Actions rapides",
+    "emptyOpen": "La file est vide ; aucun signalement ouvert à examiner.",
+    "emptyFilter": "Aucun élément trouvé avec ces filtres."
+  },
+  "community": {
+    "page": {
+      "eyebrow": "Modérateur · Forum de discussion",
+      "lead": "La même file de modération, limitée aux discussions et aux réponses du forum. Examinez chaque cas et fermez-le par une action rapide — masquer, supprimer, avertir ou ignorer.",
+      "helpTitle": "Guide de modération du forum",
+      "help": "Cette file affiche les signalements et les indicateurs liés au forum. Avec le filtre par type de contenu, vous pouvez également voir les messages et les profils signalés. Masquer et supprimer retirent réellement le contenu du forum et peuvent être rétablis dans l'historique des actions."
+    }
+  },
+  "decision": {
+    "title": "Décision concernant le signalement",
+    "action": {
+      "ignore": {
+        "label": "Ignorer",
+        "hint": "Le signalement est fermé ; le contenu et le compte de l'auteur ne sont pas modifiés."
+      },
+      "hide": {
+        "label": "Masquer",
+        "hint": "Le contenu est masqué du forum et tout modérateur peut le rétablir. Une notification est envoyée à l'auteur."
+      },
+      "remove": {
+        "label": "Supprimer",
+        "hint": "Le contenu est retiré du forum et seul un administrateur peut le rétablir. Une notification est envoyée à l'auteur."
+      },
+      "warn": {
+        "label": "Avertir l'auteur",
+        "hint": "Un avertissement officiel est enregistré dans l'historique de l'auteur et une notification lui est envoyée."
+      },
+      "restrict": {
+        "label": "Restriction temporaire de publication",
+        "hint": "L'auteur ne peut pas écrire de discussions ou de réponses sur le forum jusqu'à la fin de la période sélectionnée."
+      },
+      "escalate": {
+        "label": "Transférer au supérieur",
+        "hint": "Le signalement reste ouvert et seul un administrateur peut prendre une décision."
+      }
+    },
+    "warnAuthor": "Avertir également l'auteur",
+    "restrictFor": "Durée de la restriction",
+    "duration": {
+      "d1": "Un jour",
+      "d3": "Trois jours",
+      "d7": "Une semaine",
+      "d30": "Un mois"
+    },
+    "note": "Remarque (facultatif)",
+    "submit": "Enregistrer la décision",
+    "noTarget": "Ce signalement n'est lié à aucun contenu spécifique du forum ; masquer et supprimer ne sont pas disponibles.",
+    "noAuthor": "L'auteur de ce contenu est inconnu ; aucun avertissement ni restriction n'est disponible.",
+    "selfBlocked": "Vous êtes l'auteur ou l'auteur du signalement de ce contenu ; la décision revient à un autre modérateur.",
+    "escalatedBlocked": "Ce signalement a été transmis ; seul l'administrateur peut décider.",
+    "alreadyClosed": "Ce signalement a déjà été clôturé ; aucune nouvelle décision ne sera enregistrée.",
+    "choose": "Sélectionner la décision",
+    "done": {
+      "ignore": "Le signalement a été clôturé.",
+      "hide": "Le contenu a été masqué.",
+      "remove": "Le contenu a été supprimé.",
+      "warn": "L'avertissement a été enregistré et notifié à l'auteur.",
+      "restrict": "La restriction d'envoi a été enregistrée jusqu'au {until}.",
+      "escalate": "Le signalement a été transmis à l'administrateur principal.",
+      "alreadyGone": "La décision a été enregistrée ; l'auteur avait déjà supprimé le contenu."
+    }
+  },
+  "context": {
+    "messageOnly": "L'accès à la révision est limité au seul message signalé.",
+    "reportSnapshot": "Texte enregistré lors du signalement",
+    "migrationSnapshot": "Ce signalement est ancien ; le texte ci-dessous a été enregistré lors du transfert vers la file de révision.",
+    "currentMessage": "Texte actuel du message après modification",
+    "loadAttachment": "Afficher la pièce jointe signalée",
+    "downloadAttachment": "Télécharger la pièce jointe",
+    "title": "Derrière ce contenu",
+    "author": "Auteur",
+    "reporter": "Auteur du signalement",
+    "autoReporter": "Règle automatique",
+    "noAuthor": "L'auteur de ce contenu est inconnu ou n'est plus disponible.",
+    "joined": "Membre depuis le {date}",
+    "stats": {
+      "threads": "{count, plural, one {# discussion} many {# discussions} other {# discussions}}",
+      "replies": "{count, plural, one {# réponse} many {# réponses} other {# réponses}}",
+      "votes": "{count, plural, one {# vote} many {# votes} other {# votes}}",
+      "filed": "{count, plural, one {# signalement enregistré} many {# signalements enregistrés} other {# signalements enregistrés}}",
+      "against": "{count, plural, one {# signalement contre cet utilisateur} many {# signalements contre cet utilisateur} other {# signalements contre cet utilisateur}}"
+    },
+    "warnings": "{count, plural, one {# avertissement} many {# avertissements} other {# avertissements}}",
+    "activeRestriction": "Restriction active jusqu'au {until}",
+    "noRestriction": "Aucune restriction active",
+    "lift": "Lever la restriction",
+    "viewInCommunity": "Afficher dans la communauté"
+  },
+  "rules": {
+    "page": {
+      "eyebrow": "Modérateur · Modération automatique",
+      "lead": "Les règles évaluent le nouveau contenu de la communauté et, en cas de correspondance, placent simplement un drapeau dans la file d'attente de modération pour une décision humaine.",
+      "helpTitle": "Guide des règles automatiques",
+      "help": "Trois types de règles sont évalués : mot-clé, vitesse d'envoi et seuil de signalement. L'« action suggérée » n'est affichée qu'au modérateur dans la file d'attente et n'est jamais exécutée automatiquement. Utilisez « Tester la règle » avant d'enregistrer pour voir si la règle déclenche un drapeau sur un texte d'exemple."
+    },
+    "flagOnlyNotice": "Les règles ne font que signaler les éléments aux modérateurs. Aucun contenu n'est masqué ou supprimé automatiquement, et aucun utilisateur n'est restreint automatiquement.",
+    "new": "Nouvelle règle",
+    "edit": "Modifier la règle",
+    "delete": "Supprimer la règle",
+    "deleteConfirm": "Voulez-vous supprimer cette règle ? Les signalements existants resteront dans la file d'attente.",
+    "search": "Rechercher par nom ou condition…",
+    "allTypes": "Tous les types",
+    "emptyAll": "Aucune règle n'a encore été définie.",
+    "emptyFilter": "Aucune règle ne correspond à ce filtre.",
+    "toggleLabel": "Activer ou désactiver la règle « {name} »",
+    "createdAt": "Créé le {date}",
+    "kpi": {
+      "total": "Total des règles",
+      "active": "Règles actives",
+      "hits": "Total des correspondances"
+    },
+    "state": {
+      "on": "Actif",
+      "off": "Inactif"
+    },
+    "col": {
+      "name": "Nom",
+      "type": "Type",
+      "condition": "Condition",
+      "suggested": "Action suggérée",
+      "hits": "Correspondances",
+      "lastHit": "Dernière correspondance",
+      "active": "Actif"
+    },
+    "type": {
+      "keyword": "Mot-clé",
+      "rate_limit": "Limite de débit",
+      "report_threshold": "Seuil de signalement",
+      "auto_action": "Ancien"
+    },
+    "summary": {
+      "keyword": "{count, plural, one {# mot-clé} many {# mots-clés} other {# mots-clés}}",
+      "rate": "Plus de {max} envois en {seconds} secondes",
+      "threshold": "{min} signalements distincts en {hours} heures",
+      "thresholdAny": "{min} signalements distincts"
+    },
+    "legacy": "Condition textuelle ; non évaluée",
+    "legacyHint": "Cette règle a été créée avant le moteur d'évaluation et n'a pas de condition structurée. Redéfinissez la condition pour l'activer.",
+    "hitsNone": "Aucun",
+    "suggestedAction": {
+      "flag": "Signaler uniquement",
+      "hide": "Masquer",
+      "warn": "Avertir",
+      "block": "Bloquer l'envoi"
+    },
+    "form": {
+      "name": "Nom",
+      "type": "Type",
+      "description": "Description (facultatif)",
+      "keywords": "Mots-clés — un par ligne",
+      "keywordsHint": "Le persan et l'arabe sont tous deux acceptés ; les diacritiques, « ي/ی », « ك/ک » et les espaces insécables conditionnels sont traités de la même manière.",
+      "match": "Mode de correspondance",
+      "matchWord": "Mot entier",
+      "matchSubstring": "N'importe où dans le texte",
+      "severity": "Gravité du signalement",
+      "maxPosts": "Publications maximales",
+      "windowSeconds": "Fenêtre (secondes)",
+      "minReports": "Signalements distincts minimum",
+      "windowHours": "Fenêtre (heures)",
+      "targets": "Cibles",
+      "suggested": "Action suggérée au modérateur",
+      "suggestedHint": "Il s'agit uniquement d'une suggestion pour le modérateur ; le moteur ne l'exécute jamais automatiquement.",
+      "active": "Actif",
+      "errKeywords": "Veuillez entrer au moins un mot-clé valide (un par ligne).",
+      "errTargets": "Veuillez sélectionner au moins « Discussion » ou « Réponse ».",
+      "errNumber": "Veuillez entrer un entier positif dans la plage autorisée.",
+      "errName": "Le nom doit contenir entre 2 et 160 caractères.",
+      "errCondition": "La condition ou la description doit comporter au moins 2 caractères."
+    },
+    "test": {
+      "title": "Test de règle",
+      "placeholder": "Écrivez un texte pour voir si la règle déclenche un signalement",
+      "run": "Tester",
+      "hit": "Signalé : {matched}",
+      "miss": "Non signalé"
+    }
+  },
+  "log": {
+    "page": {
+      "eyebrow": "Superviseur · Transparence de la modération",
+      "lead": "Chaque décision de modération — masquage, suppression, avertissement, restriction et restauration — est enregistrée dans ce journal avec son auteur, l'heure et une note. Les actions réversibles peuvent être annulées à partir d'ici.",
+      "helpTitle": "Aide sur l'historique des actions",
+      "help": "L'onglet « Actions » est le journal des actions du moteur de modération et dispose d'un bouton de restauration ; l'onglet « Historique des signalements » affiche les signalements fermés avec des options de recherche et de filtrage. Cliquez sur n'importe quelle ligne pour afficher les détails."
+    },
+    "legacyNote": "Les signalements fermés avant l'introduction du moteur de modération ne sont visibles que dans l'onglet « Historique des signalements ».",
+    "searchActions": "Rechercher dans les actions…",
+    "filterKind": "Type d'action",
+    "allKinds": "Toutes les actions",
+    "filters": "Filtres",
+    "clearFilters": "Effacer les filtres",
+    "search": "Rechercher dans le contenu, la raison ou la note…",
+    "searchClear": "Effacer la recherche",
+    "filterStatus": "Filtrer par statut",
+    "allStatuses": "Tous les statuts",
+    "filterResolution": "Filtrer par décision",
+    "allResolutions": "Toutes les décisions",
+    "emptyActions": "Aucune action enregistrée pour le moment.",
+    "emptyHistory": "Aucun rapport n'a encore été clôturé.",
+    "emptyFilter": "Aucun élément trouvé avec ces filtres.",
+    "count": "{count, plural, one {# élément} many {# éléments} other {# éléments}}",
+    "col": {
+      "when": "Date et heure",
+      "actor": "Effectué par",
+      "kind": "Action",
+      "target": "Utilisateur",
+      "content": "Contenu",
+      "note": "Remarque",
+      "state": "Statut"
+    },
+    "kind": {
+      "dismiss": "Ignorer",
+      "escalate": "Transférer",
+      "hide": "Masquer",
+      "remove": "Supprimer",
+      "restore": "Restaurer",
+      "warn": "Avertissement",
+      "warning_revoke": "Révoquer l'avertissement",
+      "restrict": "Restreindre l'envoi",
+      "restriction_lift": "Lever la restriction"
+    },
+    "tab": {
+      "actions": "Actions",
+      "history": "Historique des rapports"
+    },
+    "kpi": {
+      "total": "Rapports clôturés",
+      "removed": "Contenus supprimés",
+      "today": "Décisions du jour",
+      "actions": "Actions enregistrées"
+    },
+    "revert": "Restaurer",
+    "reverted": "Restauré le {date}",
+    "revertConfirm": "Voulez-vous annuler cette action ? Une notification sera envoyée à l'auteur.",
+    "revertDone": {
+      "restored": "Le contenu a été restauré.",
+      "revoked": "L'avertissement a été révoqué.",
+      "lifted": "La restriction a été levée."
+    },
+    "history": {
+      "when": "Date et heure",
+      "type": "Type de contenu",
+      "reason": "Motif",
+      "resolution": "Décision",
+      "detailTitle": "Détails du rapport",
+      "reportedAt": "Signalé le {date}",
+      "decidedAt": "Décision le {date}",
+      "noNote": "Aucune remarque enregistrée.",
+      "filterByThis": "Afficher les rapports ayant la même décision"
+    }
+  }
+}

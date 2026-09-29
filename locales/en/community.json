@@ -1,0 +1,118 @@
+{
+  "common": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "composer": {
+    "aria": "Write a reply",
+    "placeholder": "Write your reply…",
+    "send": "Send reply",
+    "sending": "Sending…"
+  },
+  "del": {
+    "confirm": "Delete",
+    "confirmReply": "Are you sure you want to delete this reply?",
+    "confirmThreadPrefix": "Are you sure you want to delete the discussion",
+    "confirmThreadSuffix": "Its replies will also be deleted.",
+    "deleting": "Deleting…",
+    "dialogAria": "Delete",
+    "replyTitle": "Delete reply",
+    "threadTitle": "Delete discussion"
+  },
+  "errors": {
+    "createReply": "Failed to submit reply",
+    "createThread": "Failed to publish discussion",
+    "delete": "Failed to delete",
+    "generic": "An error occurred",
+    "loadReplies": "Failed to load replies",
+    "loadThreads": "Failed to load discussions",
+    "pin": "Failed to change pin status",
+    "report": "Failed to submit report",
+    "vote": "Failed to submit vote"
+  },
+  "header": {
+    "eyebrow": "Academic Community · §6",
+    "newThreadButton": "New discussion",
+    "subtitle": "Follow and participate in questions, experiences, and academic discussions among students and professors.",
+    "title": "Discussion Forum"
+  },
+  "help": {
+    "body": "On this page, you can read, like, and reply to discussions. Use the search box and tags to find discussions, and click the \"New discussion\" button to start a new topic. Click on any discussion title to view its replies.",
+    "title": "Discussion Forum Help"
+  },
+  "list": {
+    "clearFilters": "Clear filters",
+    "emptyFiltered": "No discussions found with these filters.",
+    "emptyNone": "No discussions have been posted yet — be the first to start one.",
+    "loading": "Loading…",
+    "startThread": "Start discussion"
+  },
+  "newThread": {
+    "bodyLabel": "Body",
+    "bodyPlaceholder": "Write your question or experience in detail…",
+    "dialogAria": "New discussion",
+    "publish": "Publish discussion",
+    "publishing": "Publishing…",
+    "tagLabel": "Tag (optional)",
+    "tagPlaceholder": "e.g., registration, final project...",
+    "title": "Start a new discussion",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Summarize the topic of the discussion..."
+  },
+  "replies": {
+    "empty": "No replies yet — be the first to reply.",
+    "loading": "Loading replies..."
+  },
+  "reply": {
+    "deleteAria": "Delete reply",
+    "like": "Like",
+    "reportAria": "Report reply",
+    "reportTitle": "Report violation",
+    "unlike": "Unlike"
+  },
+  "report": {
+    "aria": "Reason for report",
+    "dialogAria": "Report violation",
+    "done": "Your report has been submitted and sent to the moderator. Thank you.",
+    "intro": "Please write the reason for reporting this content; it will be forwarded to the community moderator for review.",
+    "placeholder": "e.g., harassment, spam, inappropriate content...",
+    "replyTitle": "Report reply violation",
+    "sending": "Sending...",
+    "submit": "Submit report",
+    "threadTitle": "Report discussion violation"
+  },
+  "search": {
+    "aria": "Search discussions",
+    "clearAria": "Clear search",
+    "placeholder": "Search discussion titles and content..."
+  },
+  "stats": {
+    "replies": "{count, plural, one {# reply} other {# replies}}",
+    "threads": "{count, plural, one {# discussion} other {# discussions}}"
+  },
+  "tags": {
+    "all": "All",
+    "label": "Tags:"
+  },
+  "thread": {
+    "deleteAria": "Delete discussion",
+    "hideReplies": "Hide replies",
+    "like": "Like",
+    "pin": "Pin",
+    "pinShort": "Pin",
+    "pinnedBadge": "Pinned",
+    "replyCount": "{count, plural, one {# reply} other {# replies}}",
+    "reportAria": "Report discussion",
+    "reportTitle": "Report violation",
+    "showReplies": "Show replies ({count, number})",
+    "unlike": "Unlike",
+    "unpin": "Unpin"
+  },
+  "validation": {
+    "bodyMin": "Discussion body must be at least 10 characters.",
+    "replyMin": "Reply text must be at least 2 characters.",
+    "reportReasonMin": "Report reason must be at least 4 characters.",
+    "titleMin": "Title must be at least 6 characters."
+  }
+}

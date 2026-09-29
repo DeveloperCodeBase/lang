@@ -1,0 +1,43 @@
+{
+  "vista": {
+    "head": {
+      "title": "About Vista",
+      "description": "Vista is the technical operator and rights holder of this platform — services, AI architecture, ecosystem, and official company information."
+    },
+    "hero": {
+      "eyebrow": "TECHNICAL PARTNER · مجریِ فنی",
+      "ownershipPrefix": "{platform} is a product of this company; the {role} of this platform and all its material and intellectual rights belong to ",
+      "ownershipSuffix": ".",
+      "siteLinkLabel": "Official Vista Website ↗",
+      "aboutLinkLabel": "About {name}"
+    },
+    "sections": {
+      "overview": {
+        "eyebrow": "OVERVIEW · معرفی",
+        "title": "From scattered ideas to usable products, processes, and decisions"
+      },
+      "services": {
+        "eyebrow": "SERVICES · خدمات",
+        "title": "From AI architecture to production-ready products"
+      },
+      "architecture": {
+        "eyebrow": "AGENTIC + RAG · معماری",
+        "title": "Language models, enterprise knowledge, tools, and human review in a single architecture"
+      },
+      "ecosystem": {
+        "eyebrow": "ECOSYSTEM · اکوسیستم",
+        "title": "AI, knowledge, and product engineering in one loop"
+      },
+      "official": {
+        "eyebrow": "OFFICIAL · اطلاعاتِ رسمی",
+        "title": "Board of directors and contact methods"
+      }
+    },
+    "ecosystem": {
+      "viewSiteLabel": "View Website ↗"
+    },
+    "official": {
+      "regNoLabel": "Registration No.: "
+    }
+  }
+}

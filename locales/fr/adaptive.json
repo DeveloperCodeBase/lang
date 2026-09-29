@@ -1,0 +1,259 @@
+{
+  "common": {
+    "close": "Fermer",
+    "minutes": "≈ {n, number} min",
+    "number": "{n, number}",
+    "percent": "{n, number} %"
+  },
+  "difficulty": {
+    "all": "Tous",
+    "easy": "Facile",
+    "hard": "Difficile",
+    "medium": "Moyen",
+    "title": "Difficulté"
+  },
+  "help": {
+    "body": "Votre feuille de route personnalisée : ouvrez des modules, consultez vos compétences et votre niveau de maîtrise, et suivez les recommandations suivantes. Utilisez le « rythme d'apprentissage » et le filtre de difficulté pour organiser les recommandations à votre guise.",
+    "title": "Guide du parcours d'apprentissage"
+  },
+  "hero": {
+    "eyebrow": "Parcours d'apprentissage",
+    "lead": "Feuille de route personnalisée de {name} — {program}. Ouvrez des modules, suivez vos compétences et adaptez vos prochaines recommandations selon votre rythme d'apprentissage.",
+    "title": "Parcours d'apprentissage adaptatif"
+  },
+  "learner": {
+    "name": "Negar Rostami",
+    "program": "Licence en génie informatique"
+  },
+  "milestones": {
+    "items": {
+      "ms1": {
+        "date": "08/05/2025",
+        "title": "Fondamentaux de la programmation validés"
+      },
+      "ms2": {
+        "date": "26/05/2025",
+        "title": "Première série de 7 jours"
+      },
+      "ms3": {
+        "date": "12/06/2025",
+        "title": "50 % de maîtrise des structures de données"
+      },
+      "ms4": {
+        "title": "Déblocage du module de bases de données"
+      },
+      "ms5": {
+        "title": "Maîtrise complète de la conception d'algorithmes"
+      }
+    },
+    "notReached": "Pas encore atteint",
+    "reached": "Atteint · {date}",
+    "title": "Jalons"
+  },
+  "moduleDialog": {
+    "done": "Ce module est terminé",
+    "eyebrow": "Module d'apprentissage",
+    "locked": "Ce module est encore verrouillé.",
+    "objectives": "Objectifs d'apprentissage",
+    "resourceMeta": "{label} · ≈ {min, number} min",
+    "resources": "Ressources"
+  },
+  "modules": {
+    "algo": {
+      "desc": "Tri, recherche, algorithmes gloutons et programmation dynamique",
+      "objectives": {
+        "o1": "Analyser la complexité temporelle avec la notation Grand O",
+        "o2": "Implémenter le tri fusion et le tri rapide",
+        "o3": "Identifier les problèmes résolubles par approche gloutonne",
+        "o4": "Résoudre des problèmes par programmation dynamique (PD)"
+      },
+      "resources": {
+        "r1": "Vidéo d'introduction à la PD",
+        "r2": "Notes de cours sur l'analyse de complexité",
+        "r3": "Exercice de tri",
+        "r4": "Quiz sur l'algorithme glouton"
+      },
+      "subskills": {
+        "s1": "Algorithmes de tri",
+        "s2": "Algorithme glouton",
+        "s3": "Programmation dynamique"
+      },
+      "title": "Conception d'algorithmes"
+    },
+    "completed": "Vous avez terminé ce module",
+    "db": {
+      "desc": "Modèle relationnel, SQL, normalisation et transactions",
+      "objectives": {
+        "o1": "Écrire des requêtes SQL avec des jointures (JOIN) et des regroupements",
+        "o2": "Concevoir un schéma et normaliser jusqu'à la troisième forme normale",
+        "o3": "Comprendre les transactions et les propriétés ACID",
+        "o4": "Optimiser les requêtes à l'aide d'index"
+      },
+      "resources": {
+        "r1": "Vidéo sur les bases de SQL",
+        "r2": "Support de cours sur la normalisation",
+        "r3": "Exercice sur les requêtes avancées",
+        "r4": "Quiz sur les transactions"
+      },
+      "subskills": {
+        "s1": "Requêtes SQL",
+        "s2": "Normalisation",
+        "s3": "Transactions et verrouillage"
+      },
+      "title": "Base de données"
+    },
+    "detailsButton": "Détails du module",
+    "ds": {
+      "desc": "Tableaux, listes chaînées, piles, files, arbres et graphes",
+      "objectives": {
+        "o1": "Choisir la structure de données adaptée à chaque problème",
+        "o2": "Implémenter une liste chaînée et ses opérations de base",
+        "o3": "Parcourir un arbre binaire de recherche (ABR)",
+        "o4": "Exécuter les parcours BFS et DFS sur un graphe"
+      },
+      "resources": {
+        "r1": "Vidéo pas à pas sur les listes chaînées",
+        "r2": "Support de cours sur les arbres de recherche",
+        "r3": "Exercice de parcours de graphe",
+        "r4": "Quiz sur les piles et les files"
+      },
+      "subskills": {
+        "s1": "Tableaux et chaînes de caractères",
+        "s2": "Listes chaînées",
+        "s3": "Arbres binaires de recherche",
+        "s4": "Parcours de graphe (BFS/DFS)"
+      },
+      "title": "Structures de données"
+    },
+    "foundations": {
+      "desc": "Variables, boucles, fonctions et structures de contrôle",
+      "objectives": {
+        "o1": "Définir et utiliser des variables et des types de données de base",
+        "o2": "Écrire des boucles et des instructions conditionnelles sans erreur",
+        "o3": "Créer des fonctions avec des entrées et des sorties définies",
+        "o4": "Comprendre la récursivité et suivre la pile d'appels"
+      },
+      "resources": {
+        "r1": "Vidéo de révision des types de données",
+        "r2": "Notes de cours sur les fonctions et la portée",
+        "r3": "Exercice sur les boucles imbriquées",
+        "r4": "Quiz sur la récursion"
+      },
+      "subskills": {
+        "s1": "Variables et types de données",
+        "s2": "Boucles et conditions",
+        "s3": "Fonctions et portée des variables",
+        "s4": "Récursion"
+      },
+      "title": "Bases de la programmation"
+    },
+    "lockedHint": "Ce module se débloque après avoir atteint un niveau de maîtrise de 70 % dans « Conception d'algorithmes ».",
+    "markComplete": "Marquer comme terminé",
+    "title": "Carte des modules"
+  },
+  "overview": {
+    "done": {
+      "label": "{started, plural, one {# élément terminé} many {# éléments terminés} other {# éléments terminés}}"
+    },
+    "progress": {
+      "modules": "{done, number} sur {total, number} modules terminés",
+      "title": "Progression du parcours"
+    },
+    "streak": {
+      "dayUnit": "jour",
+      "label": "Série actuelle"
+    },
+    "weekly": {
+      "label": "Objectif de la semaine",
+      "minutes": "{done, number}/{goal, number} minutes",
+      "ofGoal": "{pct, number} % de l'objectif hebdomadaire"
+    }
+  },
+  "pace": {
+    "balanced": "Équilibré",
+    "desc": "Organise l'ordre des recommandations selon votre rythme préféré.",
+    "intense": "Intensif",
+    "relaxed": "Détendu",
+    "title": "Rythme d'apprentissage"
+  },
+  "recDialog": {
+    "eyebrow": "Recommandation d'apprentissage",
+    "markDone": "Marquer comme terminé",
+    "start": "Commencer cet élément",
+    "why": "Pourquoi maintenant ?"
+  },
+  "recs": {
+    "actions": {
+      "details": "Détails",
+      "done": "Terminé",
+      "start": "Je commence",
+      "undo": "Annuler"
+    },
+    "count": "{n, number} élément",
+    "empty": "Aucune recommandation disponible pour cette difficulté — veuillez modifier le filtre.",
+    "items": {
+      "r1": {
+        "title": "Exercice de parcours de graphe (BFS/DFS)",
+        "why": "Votre compétence active la plus faible — nécessaire pour débloquer « Conception d'algorithmes »"
+      },
+      "r2": {
+        "title": "Introduction à la programmation dynamique",
+        "why": "La suite logique après la méthode gloutonne"
+      },
+      "r3": {
+        "title": "Révision des algorithmes de tri",
+        "why": "Solidifier les acquis avant d'aborder un sujet plus difficile"
+      },
+      "r4": {
+        "title": "Arbre de recherche binaire",
+        "why": "Prérequis pour le parcours de graphes"
+      },
+      "r5": {
+        "title": "Exercice sur les listes chaînées",
+        "why": "Pour maîtriser parfaitement le module"
+      },
+      "r6": {
+        "title": "Jouer avec la récursion",
+        "why": "Échauffement rapide et court"
+      }
+    },
+    "next": {
+      "eyebrow": "Prochaine recommandation pour vous",
+      "meta": "{module} · ≈ {min, number} min"
+    },
+    "state": {
+      "done": "Terminé",
+      "started": "En cours"
+    },
+    "title": "Prochaine recommandation"
+  },
+  "resource": {
+    "exercise": "Exercice",
+    "quiz": "Quiz",
+    "reading": "Lecture",
+    "video": "Vidéo"
+  },
+  "ring": {
+    "label": "Maîtrise globale"
+  },
+  "skills": {
+    "count": "{n, number} compétence",
+    "empty": "Aucune compétence trouvée pour cette recherche.",
+    "practiceMinutes": "≈ {n, number} min de pratique",
+    "search": {
+      "ariaLabel": "Rechercher une compétence",
+      "clear": "Effacer la recherche",
+      "placeholder": "Rechercher une compétence ou un module…"
+    }
+  },
+  "status": {
+    "active": "En cours d'apprentissage",
+    "done": "Terminé",
+    "locked": "Verrouillé"
+  },
+  "tabs": {
+    "ariaLabel": "Vue du parcours d'apprentissage",
+    "path": "Mon parcours",
+    "skills": "Compétences"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Anulează",
+    "close": "Închide",
+    "confirm": "Confirmă",
+    "save": "Salvează",
+    "search": "Caută",
+    "select": "Selectează"
+  },
+  "help": {
+    "toggle": "Ajutor",
+    "close": "Închide ajutorul"
+  },
+  "state": {
+    "empty": "Nu există elemente de afișat.",
+    "error": "A apărut o eroare.",
+    "loading": "Se încarcă…",
+    "noResults": "Nu s-au găsit rezultate."
+  },
+  "time": {
+    "justNow": "Chiar acum"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Evenimente viitoare",
+      "full": "Calendar complet",
+      "empty": "{days, plural, one {Nu sunt evenimente în următoarea {days, number} zi} few {Nu sunt evenimente în următoarele {days, number} zile} other {Nu sunt evenimente în următoarele {days, number} de zile}}",
+      "error": "Evenimentele nu au putut fi încărcate",
+      "today": "Astăzi",
+      "allDay": "Toată ziua"
+    },
+    "type": {
+      "meeting": "Curs",
+      "exam": "Examen",
+      "assignment": "Temă",
+      "term": "Perioada semestrului",
+      "event": "Eveniment",
+      "personal": "Personal"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "A apărut o eroare pe pagină",
+      "body": "Ne pare rău — a apărut o problemă. Eroarea a fost înregistrată automat. Puteți reveni la pagina principală sau reîncărca pagina.",
+      "home": "Înapoi la pagina principală",
+      "reload": "Reîncarcă"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Înapoi la pagina anterioară",
+    "body": "Adresa căutată nu există sau a fost mutată. Puteți reveni la pagina anterioară sau la pagina principală.",
+    "home": "Înapoi la pagina principală",
+    "programs": "Vezi programele de studii",
+    "screenLabel": "404 · Negăsit",
+    "search": "Caută",
+    "title": "Pagina nu a fost găsită"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Îți mulțumesc că mi-ai împărtășit acest lucru. Știu că nu a fost ușor să vorbești despre el și nu ești singur. Ceea ce simți este real și important și meriți sprijin imediat din partea unei persoane. Te rog să suni chiar acum la Linia Speranței, la 1480; cineva te va asculta cu empatie.",
+      "tipHelpline": "Sună imediat la Linia Speranței: 1480 (non-stop și confidențial)",
+      "tipEmergency": "Dacă ești în pericol imediat, sună la serviciul medical de urgență la 115",
+      "tipCompany": "Dacă poți, stai acum lângă o persoană în care ai încredere"
+    }
+  }
+}

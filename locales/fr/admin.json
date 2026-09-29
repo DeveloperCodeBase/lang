@@ -1,0 +1,711 @@
+{
+  "dashboard": {
+    "eyebrow": "Gestion du système · Données réelles",
+    "title": "Tableau de bord d'administration",
+    "lead": "Vue d'ensemble du système et accès rapide aux sections de gestion. Les statistiques proviennent des services en direct de la plateforme.",
+    "refresh": "Actualiser",
+    "loading": "Chargement…",
+    "consoleLoading": "Chargement de la console de surveillance…",
+    "errors": {
+      "load": "Échec du chargement du tableau de bord",
+      "allDown": "Aucun des services du tableau de bord n'est disponible."
+    },
+    "kpi": {
+      "aria": "Indicateurs clés",
+      "users": "Utilisateurs",
+      "courses": "Cours",
+      "ai": "Interactions avec l'IA",
+      "audit": "Événements d'audit"
+    },
+    "audit": {
+      "title": "Derniers événements d'audit",
+      "viewAll": "Tout afficher",
+      "unavailable": "Rapport d'audit non disponible (—).",
+      "empty": "Aucun événement enregistré.",
+      "systemActor": "Système"
+    },
+    "actions": {
+      "create": "Créer",
+      "update": "Modifier",
+      "delete": "Supprimer",
+      "login": "Connexion",
+      "logout": "Déconnexion",
+      "transition": "Changer le statut",
+      "approve": "Approuver",
+      "reject": "Rejeter",
+      "enroll": "S'inscrire",
+      "drop": "Abandonner le cours",
+      "pay": "Payer",
+      "settle": "Rrégler"
+    },
+    "quick": {
+      "title": "Accès rapide",
+      "searchPlaceholder": "Rechercher des sections…",
+      "searchAria": "Rechercher dans les sections de gestion",
+      "empty": "Aucune section trouvée avec ce titre."
+    },
+    "groups": {
+      "all": "Tous",
+      "academic": "Académique",
+      "people": "Personnes",
+      "finance": "Finances",
+      "governance": "Gouvernance"
+    },
+    "links": {
+      "schools": {
+        "title": "Facultés et départements",
+        "desc": "Structure d'enseignement à quatre niveaux"
+      },
+      "terms": {
+        "title": "Semestres académiques",
+        "desc": "Trimestres et fenêtres de processus"
+      },
+      "students": {
+        "title": "Étudiants",
+        "desc": "Dossier et situation académique"
+      },
+      "instructors": {
+        "title": "Enseignants",
+        "desc": "Membres du corps professoral et affectations"
+      },
+      "users": {
+        "title": "Utilisateurs et rôles",
+        "desc": "Comptes et accès"
+      },
+      "treasury": {
+        "title": "Trésorerie et rapports",
+        "desc": "Grand livre et apurement financier"
+      },
+      "commission": {
+        "title": "Commission des cas particuliers",
+        "desc": "Examen et décision des dossiers"
+      },
+      "audit": {
+        "title": "Rapport d'audit",
+        "desc": "Événements enregistrés du système"
+      }
+    },
+    "detail": {
+      "title": "Détails de l'événement",
+      "close": "Fermer",
+      "action": "Action",
+      "subject": "Sujet",
+      "user": "Utilisateur",
+      "ip": "Adresse IP",
+      "time": "Heure",
+      "fullReport": "Rapport complet"
+    }
+  },
+  "membershipConfig": {
+    "eyebrow": "Tableau de bord · Adhésion",
+    "title": "Paramètres d'adhésion",
+    "lead": "Remises de membre, visibilité dans l'annuaire, domaines d'expertise, plans tarifaires et journal des modifications.",
+    "version": "Version enregistrée : {version}",
+    "helpTitle": "Aide",
+    "helpBody": "La section « Argent » (remises de membre, plafonds, politique de coupons, délai de grâce) ne peut être enregistrée qu'avec le rôle de gestionnaire financier. La section « Programme » (visibilité dans l'annuaire, domaines d'expertise) nécessite le rôle de gestionnaire des adhésions. Les « Plans » requièrent l'un ou l'autre de ces deux rôles. « Rétablir les valeurs par défaut » réinitialise toute la section et non un seul champ. L'« Historique » affiche actuellement l'identifiant brut de l'acteur ; l'affichage du nom est reporté à l'étape suivante.",
+    "loading": "Chargement en cours…",
+    "loadError": "Échec du chargement des paramètres d'adhésion.",
+    "resetDefaults": "Rétablir les valeurs par défaut",
+    "saving": "Enregistrement en cours…",
+    "tabs": {
+      "money": "Argent",
+      "program": "Programme",
+      "plans": "Plans",
+      "history": "Historique"
+    },
+    "scope": {
+      "all": "Tous les cours",
+      "selected": "Catégories sélectionnées"
+    },
+    "stacking": {
+      "best_of": "Meilleure remise / coupon",
+      "coupon_wins": "Le coupon l'emporte",
+      "stack": "Cumuler les deux"
+    },
+    "visibility": {
+      "off": "Désactivé",
+      "members_only": "Membres uniquement",
+      "authenticated": "Connectés",
+      "public": "Public"
+    },
+    "historyScope": {
+      "config": "Paramètres",
+      "plan": "Formule"
+    },
+    "money": {
+      "readOnly": "Seul le directeur financier peut enregistrer ou réinitialiser cette section.",
+      "percentLabel": "Pourcentage de réduction membre",
+      "percentHelper": "0 à 100 — Zéro signifie que la réduction est désactivée.",
+      "maxRialLabel": "Plafond monétaire de réduction (laisser vide = sans plafond)",
+      "scopeLabel": "Portée de la réduction",
+      "categoriesLabel": "Catégories sélectionnées (séparées par des virgules)",
+      "categoriesHelper": "S'applique uniquement lorsque la portée est définie sur « Catégories sélectionnées ».",
+      "categorySeparator": ", ",
+      "stackingLabel": "Politique de cumul de la réduction avec les coupons",
+      "stackingHelper": "« Meilleure réduction/coupon » : la plus élevée des deux est appliquée. « Le coupon l'emporte » : si un coupon est présent, la réduction d'adhésion est ignorée. « Cumuler les deux » : les deux réductions sont appliquées ensemble.",
+      "graceLabel": "Délai de grâce (jours)",
+      "save": "Enregistrer la section financière",
+      "saved": "Section financière enregistrée.",
+      "resetDone": "La section financière a été réinitialisée aux valeurs par défaut.",
+      "errSave": "Échec de l'enregistrement de la section financière.",
+      "errReset": "Échec de la réinitialisation de la section financière.",
+      "errRequired": "Veuillez entrer une valeur.",
+      "errPercentRange": "Doit être un nombre entier compris entre 0 et 100.",
+      "errMaxRial": "Doit être un nombre entier non négatif (ou vide pour aucun plafond).",
+      "errGraceRange": "Doit être un nombre entier compris entre 0 et 365.",
+      "errCategoriesRequired": "Au moins une catégorie est requise lorsque la portée est définie sur « Catégories sélectionnées ».",
+      "resetConfirm": {
+        "title": "Réinitialiser la section « Finances » aux valeurs par défaut",
+        "body": "La réduction membre, le plafond monétaire, la portée, la politique des coupons et le délai de grâce seront tous réinitialisés aux valeurs par défaut du système, et non un seul champ. Cette action prend effet immédiatement et est enregistrée dans l'historique ; vous pourrez enregistrer de nouveau les valeurs souhaitées si nécessaire.",
+        "confirmLabel": "Réinitialiser par défaut"
+      }
+    },
+    "program": {
+      "readOnly": "Seul le responsable des adhésions peut enregistrer ou réinitialiser cette section.",
+      "visibilityLabel": "Visibilité de l'annuaire des membres",
+      "publicNote": "Fonctionne actuellement comme « Connectés » ; affichage sans connexion prévu pour la prochaine version",
+      "fieldsTitle": "Domaines d'expertise",
+      "thCode": "Code",
+      "thNameFa": "Nom en persan",
+      "thNameEn": "Nom en anglais",
+      "thActive": "Actif",
+      "toggleAria": "Activer/désactiver le domaine {name}",
+      "note": "L'ajout, la suppression ou la modification de domaines ne sont pas pris en charge à cette étape — vous pouvez seulement activer ou désactiver les domaines existants.",
+      "save": "Enregistrer la section du programme",
+      "saved": "La section du programme a été enregistrée.",
+      "resetDone": "La section du programme a été réinitialisée par défaut.",
+      "errSave": "Échec de l'enregistrement de la section du programme.",
+      "errReset": "Échec de la réinitialisation de la section du programme.",
+      "errNoActive": "Au moins un domaine de spécialisation actif est requis."
+    },
+    "plans": {
+      "readOnly": "Seul le gestionnaire des abonnements ou le responsable financier peut créer ou modifier des forfaits.",
+      "loadError": "Échec du chargement des forfaits.",
+      "thCode": "Code",
+      "thName": "Nom",
+      "thPrice": "Prix",
+      "thPeriod": "Durée (jours)",
+      "thStatus": "Statut",
+      "thActions": "Actions",
+      "statusSellable": "Actif · En vente",
+      "statusNotSellable": "Actif · Pas encore en vente",
+      "statusInactive": "Inactif",
+      "editAria": "Modifier {name}",
+      "deactivateAria": "Désactiver {name}",
+      "newPlan": "Nouveau forfait",
+      "editTitle": "Modifier le forfait {name}",
+      "codeLabel": "Code (immuable)",
+      "nameFaLabel": "Nom (persan)",
+      "priceLabel": "Prix (IRR)",
+      "periodLabel": "Durée (jours)",
+      "activeLabel": "Actif (un forfait actif doit avoir un prix supérieur à zéro)",
+      "errCode": "Le code du forfait n'est pas valide — uniquement des lettres minuscules, des chiffres et des underscores.",
+      "errNameFa": "Le nom en persan du forfait est obligatoire.",
+      "errPrice": "Le prix doit être un nombre entier non négatif.",
+      "errPeriod": "La durée doit être un nombre entier d'au moins 1.",
+      "errSave": "Échec de l'enregistrement du forfait.",
+      "errDeactivate": "Échec de la désactivation du forfait.",
+      "confirmTitle": "Désactiver le forfait",
+      "confirmBody": "Le forfait « {name} » sera désactivé et ne sera plus affiché à la vente. Cette action sera enregistrée dans l'historique.",
+      "confirmAction": "Désactiver"
+    },
+    "history": {
+      "scopeLabel": "Portée",
+      "scopeAll": "Tous",
+      "loading": "Chargement en cours…",
+      "empty": "Aucun événement enregistré pour l'instant.",
+      "loadError": "Échec du chargement de l'historique.",
+      "thDate": "Date",
+      "thScope": "Portée",
+      "thTarget": "Cible",
+      "thActor": "Acteur (ID)",
+      "thKeys": "Clés modifiées",
+      "prev": "Précédent",
+      "next": "Suivant",
+      "pager": "Page {page} — {total} événement"
+    }
+  },
+  "parentLinks": {
+    "readOnly": {
+      "title": "Vos accès sur cette page sont en lecture seule",
+      "body": "La création et la révocation d'un lien de parenté constituent une décision d'octroi d'accès : à partir de ce moment, le parent peut consulter les notes, l'assiduité, les frais de scolarité et le résumé de la santé académique de l'étudiant. Cette décision relève de l'administrateur ; vous pouvez consulter et rechercher dans les liens actifs.",
+      "empty": "Aucun lien enregistré pour l'instant."
+    }
+  },
+  "regulation": {
+    "status": {
+      "title": "État d'application des règles",
+      "allOn": "Toutes les règles applicables sur cette page sont activées et appliquées par le serveur.",
+      "offIntro": "Ces règles sont configurées mais ne sont pas appliquées actuellement — le nombre affiché à côté est purement indicatif :",
+      "hint": "Pour les appliquer, activez le bouton bascule de la règle concernée dans le groupe correspondant et cliquez sur « Enregistrer le règlement »."
+    },
+    "knobs": {
+      "objectionWindowMinDays": {
+        "label": "Délai minimal de contestation pour l'étudiant (jours)",
+        "helper": "Lors de la saisie d'une note, l'enseignant ne peut pas définir un délai inférieur à cette valeur. 0 signifie aucun minimum."
+      },
+      "minCreditFloorEnforced": {
+        "label": "Application du seuil minimal de crédits lors de l'annulation d'un cours",
+        "helper": "Activé (par défaut) = toute suppression faisant passer le nombre de crédits du semestre sous le seuil minimal est rejetée ; les statuts de probation, d'été et de dernier semestre sont exclus. Désactivé = simple avertissement visuel."
+      },
+      "attendanceMaxAbsenceRatio": {
+        "label": "Ratio maximal d'absences injustifiées",
+        "helper": "3/16 ≈ 0,1875 — dépasser ce ratio marque l'étudiant comme « passible d'une note de zéro »"
+      },
+      "lateGraceMinutes": {
+        "label": "Délai de tolérance de retard (minutes)",
+        "helper": "Entrée jusqu'à ce nombre de minutes après le début = présent, au-delà = en retard"
+      },
+      "closeGraceMinutes": {
+        "label": "Délai de fermeture automatique de la session (minutes)",
+        "helper": "Une session ouverte et dépassée par rapport à sa fin programmée se ferme automatiquement après ce nombre de minutes"
+      },
+      "openGraceMinutes": {
+        "label": "Délai d'ouverture automatique du cours (minutes)",
+        "helper": "La salle de classe est prête pour l'accès ce nombre de minutes avant le début programmé"
+      },
+      "noShowGraceMinutes": {
+        "label": "Délai d'avertissement d'absence de l'enseignant (minutes)",
+        "helper": "Si l'enseignant ne se connecte pas dans ce délai après le début programmé, le responsable de la faculté est averti ; le cours n'est pas annulé automatiquement"
+      },
+      "supervisionGraceSeconds": {
+        "label": "Délai d'absence du superviseur pédagogique (secondes)",
+        "helper": "Après une absence continue du superviseur autorisé, l'enregistrement se met en pause et le responsable académique est prévenu ; la valeur par défaut est de 120 secondes"
+      },
+      "passThresholdPercent": {
+        "label": "Seuil de réussite (pourcentage)",
+        "helper": "Le pourcentage qui correspond exactement à la note de passage du niveau d'études"
+      },
+      "gradeRoundStep": {
+        "label": "Pas d'arrondi des notes (sur 0..20)",
+        "helper": "Précision de l'arrondi sur l'échelle de 20"
+      },
+      "summerCapMax": {
+        "label": "Plafond de crédits du semestre d'été",
+        "helper": "« Maximum de 6 crédits en été » — appliqué uniquement via le bouton bascule ci-dessous"
+      },
+      "summerCapEnforced": {
+        "label": "Application du plafond d'été",
+        "helper": "Désactivé (par défaut) = plafond d'été normal ; Activé = plafond supérieur appliqué (indépendamment de la moyenne)"
+      },
+      "addLimit": {
+        "label": "Nombre maximal d'ajouts de cours lors de l'ajout/suppression"
+      },
+      "dropLimit": {
+        "label": "Nombre maximal de suppressions de cours lors de l'ajout/suppression"
+      },
+      "objectionSlaDaysUndergrad": {
+        "label": "Délai de réponse de l'enseignant — Diplôme d'associé/Licence (jours)"
+      },
+      "objectionSlaDaysGrad": {
+        "label": "Délai de réponse de l'enseignant — Cycles supérieurs (jours)"
+      },
+      "emergencyDropWindowEnforced": {
+        "label": "Forcer la période de retrait d'urgence",
+        "helper": "Activé = le retrait d'urgence n'est autorisé que pendant la période EMERGENCY_DROP"
+      },
+      "gradeEntryWindowEnforced": {
+        "label": "Forcer la période de saisie des notes",
+        "helper": "Activé = la publication/validation des notes n'est autorisée que pendant la période GRADE_ENTRY"
+      }
+    },
+    "pageEyebrow": "Tableau de bord de gestion · Règlement",
+    "pageTitle": "Règlement pédagogique",
+    "savedVersion": "Version enregistrée : {version}",
+    "help": {
+      "title": "Aide sur le règlement",
+      "body": "Ces valeurs définissent les règles ministérielles au niveau de l'organisation (présence, notes, inscription, réclamations, périodes). Chaque valeur possède une valeur par défaut ministérielle ; modifiez-la et enregistrez-la pour l'adapter à cette organisation. Le badge « Personnalisé » indique que la valeur diffère de la valeur par défaut ministérielle."
+    },
+    "groups": {
+      "attendance": {
+        "title": "Présence et absence"
+      },
+      "grade": {
+        "title": "Note"
+      },
+      "enrollment": {
+        "title": "Inscription et ajout/suppression",
+        "note": "Le plafond d'été ne s'applique que lorsque le bouton « Appliquer le plafond d'été » est activé. Par défaut, il est désactivé, ce qui signifie que l'été conserve le plafond normal."
+      },
+      "objection": {
+        "title": "Contestation de note (délai de réponse)"
+      },
+      "calendar": {
+        "title": "Périodes du calendrier",
+        "note": "Les deux par défaut sont désactivés = comportement actuel (sans restriction de période)."
+      }
+    },
+    "badge": {
+      "custom": "Personnalisé",
+      "default": "Par défaut"
+    },
+    "bool": {
+      "on": "Activé",
+      "off": "Désactivé"
+    },
+    "ministryDefault": "Par défaut du ministère : {value}",
+    "loading": "Chargement en cours…",
+    "unavailable": "Le règlement n'est pas disponible.",
+    "actions": {
+      "save": "Enregistrer le règlement",
+      "saving": "Enregistrement en cours…",
+      "revert": "Annuler les modifications"
+    },
+    "saved": "Le règlement a été enregistré.",
+    "errors": {
+      "loadFailed": "Échec du chargement du règlement.",
+      "saveFailed": "Échec de l'enregistrement du règlement.",
+      "formInvalid": "Certaines valeurs sont invalides ; veuillez corriger les éléments en rouge.",
+      "required": "Veuillez saisir une valeur.",
+      "notNumber": "Nombre invalide.",
+      "notInteger": "Le nombre doit être un entier.",
+      "range": "Doit être compris entre {min} et {max}."
+    }
+  },
+  "treasury": {
+    "eyebrow": "Finances · Trésorerie",
+    "title": "Trésorerie et rapports",
+    "error": "Une erreur s'est produite",
+    "loading": "Chargement en cours…",
+    "csvExport": "Export CSV",
+    "help": {
+      "title": "Guide de la trésorerie",
+      "body": "Vue d'ensemble du grand livre (actifs/passifs/revenus/dépenses), apurement de la trésorerie des exécutions de paie (paiement net + versement des retenues depuis le compte de trésorerie), et rapport du coût de revient de la paie avec export CSV. L'apurement solde les comptes « paie/retenues à payer » par rapport à la « trésorerie »."
+    },
+    "months": [
+      "Farvardin",
+      "Ordibehesht",
+      "Khordad",
+      "Tir",
+      "Mordad",
+      "Shahrivar",
+      "Mehr",
+      "Aban",
+      "Azar",
+      "Dey",
+      "Bahman",
+      "Esfand"
+    ],
+    "period": "{month} {year}",
+    "groups": {
+      "asset": "Actifs",
+      "liability": "Passifs",
+      "income": "Revenus",
+      "expense": "Dépenses"
+    },
+    "rosterStatus": {
+      "all": "Tous les statuts",
+      "hasOverdue": "Présente des retards",
+      "partial": "Paiement partiel",
+      "unpaid": "Impayé",
+      "cleared": "Apuré"
+    },
+    "finStatus": {
+      "PENDING": "En attente",
+      "PAID": "Payé",
+      "OVERDUE": "En retard",
+      "PARTIAL": "Partiel",
+      "UNPAID": "Impayé",
+      "CLEARED": "Apuré",
+      "APPROVED": "Approuvé",
+      "REJECTED": "Rejeté",
+      "DISBURSED": "Décaissé",
+      "REPAYING": "En cours de remboursement",
+      "SETTLED": "Réglé",
+      "REFUNDED": "Remboursé",
+      "SUCCESS": "Réussi",
+      "FAILED": "Échoué",
+      "CANCELLED": "Annulé"
+    },
+    "recon": {
+      "title": "Santé financière et rapprochement du portefeuille",
+      "refresh": "Actualiser",
+      "desc": "Vérification en lecture seule des invariants monétaires ; chaque valeur doit être à zéro. Un écart signifie que le grand livre nécessite une révision (cette vérification ne corrige rien).",
+      "checking": "Vérification en cours…",
+      "unavailable": "Le statut de rapprochement n'est pas disponible.",
+      "healthy": "Sain — tous les invariants sont respectés",
+      "drift": "Écart — nécessite une révision",
+      "lastCheck": "Dernière vérification : {at}",
+      "walletDrift": "Écart du portefeuille (miroir ⇄ 2400)",
+      "mirrorSum": "Somme miroir des transactions",
+      "walletLiability": "Passif du portefeuille (2400)",
+      "ledgerNet": "Équilibre bilatéral (débit − crédit)",
+      "clearingDrift": "Compensation des retraits (2500 ⇄ réserves)",
+      "payoutClearing": "Compensation en attente (2500)",
+      "openHolds": "Réserves de retrait ouvertes",
+      "unbackedPaid": "Paiement compensé sans justificatif",
+      "unbackedTuition": "Frais de scolarité (montant total)",
+      "unbackedSubscription": "Abonnement à la passerelle (montant total)",
+      "unbackedNote": "Ce compteur indique les lignes compensées qui n'ont pas d'écriture bilatérale — presque toujours un reliquat des paiements antérieurs à la correction atomique. Un chiffre non nul n'est pas une erreur et ne fait pas passer le statut « sain » au rouge ; la correction s'effectue sur décision du directeur financier et par exécution de script."
+    },
+    "roster": {
+      "title": "Étudiants / Situation financière",
+      "desc": "Recherchez les étudiants ayant une facture de scolarité par leur nom ou code étudiant. Cliquez sur une ligne pour ouvrir le dossier financier complet (factures, échéances, paiements, prêts, bourses, remboursements). Seules les données financières sont affichées.",
+      "searchPlaceholder": "Nom ou code étudiant…",
+      "searchAria": "Rechercher un étudiant par son nom ou son code",
+      "statusAria": "Filtrer par situation financière",
+      "submit": "Rechercher",
+      "empty": "Aucun étudiant facturé ne correspond à ce filtre.",
+      "thStudent": "Étudiant",
+      "thCode": "Code",
+      "thTotal": "Montant total",
+      "thPaid": "Payé",
+      "thOverdue": "Échéances en retard",
+      "thLastPayment": "Dernier paiement",
+      "thStatus": "Statut",
+      "thActions": "Actions",
+      "open": "Dossier financier",
+      "close": "Fermer le dossier"
+    },
+    "detail": {
+      "title": "Dossier financier",
+      "close": "Fermer",
+      "total": "Montant total :",
+      "paid": "Payé :",
+      "outstanding": "Restant :",
+      "bills": "Factures",
+      "billsEmpty": "Aucune facture enregistrée.",
+      "termFallback": "Semestre",
+      "fixed": "Fixe :",
+      "variable": "Variable :",
+      "discount": "Remise :",
+      "sum": "Total :",
+      "billPaid": "Payé :",
+      "billRemaining": "Restant :",
+      "thSeq": "Échéance",
+      "thAmount": "Montant",
+      "thDue": "Date d'échéance",
+      "thStatus": "Statut",
+      "payments": "Paiements",
+      "paymentsEmpty": "Aucun paiement enregistré.",
+      "thGateway": "Passerelle",
+      "thPurpose": "Motif",
+      "thDate": "Date",
+      "loans": "Prêts",
+      "loansEmpty": "Aucun prêt enregistré.",
+      "loanFallback": "Prêt",
+      "appliedToTuition": "Appliqué aux frais de scolarité",
+      "thPaidAmount": "Payé",
+      "scholarships": "Bourses",
+      "scholarshipsEmpty": "Aucune bourse enregistrée.",
+      "thScholarship": "Bourse",
+      "thValue": "Valeur",
+      "refunds": "Remboursements",
+      "refundsEmpty": "Aucune demande de remboursement enregistrée.",
+      "thRequested": "Montant demandé",
+      "thFinal": "Montant final",
+      "thAccount": "Compte",
+      "timeline": "Historique des transactions financières"
+    },
+    "receivables": {
+      "title": "Rapport des créances de scolarité",
+      "empty": "Aucune donnée disponible.",
+      "billed": "Total facturé :",
+      "collected": "Collecté :",
+      "outstanding": "Restant :",
+      "overdue": "Montant en retard :",
+      "installments": "{value, plural, =0 {0 versement} one {# versement} many {# versements} other {# versements}}",
+      "noBills": "Aucune facture de frais de scolarité n'a été enregistrée.",
+      "thTerm": "Semestre",
+      "thBillCount": "Nombre de factures",
+      "thBilled": "Facturé",
+      "thCollected": "Collecté",
+      "thOutstanding": "Restant"
+    },
+    "ledger": {
+      "title": "Vue du grand livre"
+    },
+    "payables": {
+      "title": "Règlement des salaires",
+      "empty": "Aucune paie versée n'est disponible pour règlement.",
+      "thPeriod": "Période",
+      "thNet": "Net",
+      "thDeduction": "Déductions",
+      "thStatus": "Statut",
+      "thActions": "Actions",
+      "settled": "Réglé",
+      "awaiting": "En attente de règlement",
+      "settle": "Règlement de trésorerie",
+      "noticeWallet": "Règlement effectué : le salaire net a été versé sur le portefeuille du personnel et les déductions ont été payées par la trésorerie (total : {amount}).",
+      "noticeCash": "Règlement effectué : {amount} payés par la trésorerie."
+    },
+    "report": {
+      "title": "Rapport sur le coût des salaires",
+      "empty": "Aucun bulletin émis n'a été enregistré.",
+      "totalGross": "Total brut :",
+      "totalDeduction": "Total des déductions :",
+      "totalNet": "Total net :",
+      "thPerson": "Personnel",
+      "thPeriod": "Période",
+      "thGross": "Brut",
+      "thDeduction": "Déductions",
+      "thNet": "Net"
+    },
+    "faculty": {
+      "title": "Rapport des salaires par faculté",
+      "thFaculty": "Faculté",
+      "thSlips": "Nombre de bulletins"
+    },
+    "csv": {
+      "receivables": "Semestre,Année,Trimestre,Nombre de factures,Montant facturé,Collecté,Restant",
+      "report": "Code employé,Nom,Année,Mois,Brut,Déductions,Net",
+      "faculty": "Faculté,Nombre de bulletins,Brut,Déductions,Net"
+    }
+  },
+  "users": {
+    "error": "Une erreur s'est produite",
+    "denied": "Accès réservé aux administrateurs.",
+    "eyebrow": "Personnes",
+    "title": "Utilisateurs",
+    "bulkOpen": "Importation en bloc (CSV)",
+    "add": "+ Ajouter un utilisateur",
+    "helpTitle": "Guide de gestion des utilisateurs",
+    "helpBody": "Sur cette page, vous pouvez créer des comptes utilisateurs, définir leurs rôles et, si nécessaire, réinitialiser leur mot de passe. Utilisez « + Ajouter un utilisateur » pour créer un nouveau compte ou « Importation en bloc (CSV) » pour importer plusieurs utilisateurs à la fois. Cliquez sur la ligne d'un utilisateur pour le modifier. Utilisez « Dossier » pour afficher le profil complet de chaque personne : pour un étudiant, son bulletin, ses examens, ses devoirs, son assiduité et ses activités ; pour un enseignant, ses cours, sa charge d'enseignement et l'état de sa notation.",
+    "empty": "Aucun utilisateur enregistré.",
+    "searchPlaceholder": "Rechercher par nom ou e-mail…",
+    "thName": "Nom",
+    "thEmail": "E-mail",
+    "thRoles": "Rôles",
+    "thStatus": "Statut",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "dossier": "Dossier",
+    "dossierAria": "Dossier complet de {email}",
+    "edit": "Modifier",
+    "editAria": "Modifier {email}",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "form": {
+      "titleEdit": "Modifier l'utilisateur",
+      "titleCreate": "Ajouter un utilisateur",
+      "email": "E-mail",
+      "emailLockedHelper": "L'adresse e-mail ne peut pas être modifiée après la création.",
+      "initialPassword": "Mot de passe initial",
+      "initialPasswordHelper": "Au moins 8 caractères. L'utilisateur pourra le modifier ultérieurement depuis son profil.",
+      "fullName": "Nom complet",
+      "locale": "Langue",
+      "localeFa": "Persan",
+      "roles": "Rôles",
+      "roleLocked": "Seul l'administrateur principal peut attribuer ce rôle",
+      "rolesHelper": "Les rôles administratifs (administrateur système / administrateur principal) ne peuvent être attribués que par l'administrateur principal.",
+      "faculty": "Faculté gérée (Doyen de la faculté)",
+      "facultyEmpty": "— Sélectionner une faculté —",
+      "facultyHelper": "Le doyen de la faculté ne gère que cette faculté. L'effet s'applique lors de la prochaine connexion de l'utilisateur après l'enregistrement.",
+      "isActive": "Le compte est actif",
+      "resetTitle": "Réinitialisation du mot de passe — {who}",
+      "newPassword": "Nouveau mot de passe",
+      "newPasswordHelper": "Au moins 8 caractères. Toutes les sessions actives de cet utilisateur seront invalidées."
+    },
+    "bulkStatus": {
+      "created": "Créé",
+      "duplicate": "Dupliqué",
+      "error": "Erreur"
+    },
+    "bulk": {
+      "title": "Importation en masse d'utilisateurs (CSV)",
+      "close": "Fermer",
+      "intro": "Sélectionnez un fichier CSV avec les en-têtes <c>email,fullName,roles,password</c>. Les colonnes email et fullName sont obligatoires ; roles (séparés par <p>|</p>) et password sont facultatifs. Si le mot de passe est vide, le système en générera un aléatoirement et l'affichera uniquement dans le rapport de cette page.",
+      "downloadTemplate": "Télécharger le modèle de fichier (CSV)",
+      "sampleName": "Jean Dupont",
+      "fileLabel": "Fichier CSV",
+      "emptyFile": "Le fichier est vide.",
+      "badHeader": "La première ligne doit contenir les en-têtes et inclure au moins les colonnes email et fullName (téléchargez le fichier modèle).",
+      "noRows": "Aucune donnée trouvée après la ligne d'en-tête.",
+      "readFailed": "Impossible de lire le fichier. Veuillez sélectionner un fichier CSV valide.",
+      "readSummary": "{rows} lignes lues depuis « {file} » —",
+      "validCount": "{value} valides",
+      "invalidCount": "{value} comportant des erreurs",
+      "previewNote": " — Aperçu des {value} premières lignes",
+      "thRow": "#",
+      "thEmail": "E-mail",
+      "thName": "Nom",
+      "thRoles": "Rôles",
+      "thPassword": "Mot de passe",
+      "thCheck": "Vérification",
+      "hasPassword": "Oui",
+      "autoPassword": "Automatique",
+      "badEmail": "E-mail invalide",
+      "dupInFile": "Dupliqué dans le fichier",
+      "ready": "Prêt",
+      "cancel": "Annuler",
+      "importing": "Importation en cours…",
+      "start": "Démarrer l'importation",
+      "warning": "⚠️ Les mots de passe générés ne s'affichent <b>que ici</b> et ne pourront pas être récupérés ultérieurement ; veuillez télécharger le rapport avant de fermer.",
+      "createdCount": "Créés : {value}",
+      "dupCount": "Dupliqués : {value}",
+      "errCount": "Erreurs : {value}",
+      "noReport": "Aucun rapport reçu du serveur.",
+      "rEmail": "E-mail",
+      "rStatus": "Statut",
+      "rReason": "Raison",
+      "rPassword": "Mot de passe généré",
+      "downloadReport": "Télécharger le rapport CSV",
+      "another": "Importer un autre fichier"
+    }
+  },
+  "membershipQueue": {
+    "eyebrow": "Tableau de bord · Adhésion",
+    "title": "File d'attente des adhésions",
+    "lead": "Demandes d'adhésion, vérification d'identité, suspension/annulation/rétablissement.",
+    "help": {
+      "title": "Aide",
+      "body": "La « vérification d'identité » fait passer une adhésion en attente au statut vérifié ; l'utilisateur procède ensuite au paiement depuis sa page « Mon adhésion ». Les actions « Suspendre », « Rétablir » et « Annuler » sont réservées au rôle de gestionnaire des adhésions. L'annulation est définitive et irréversible ; la ligne n'est pas supprimée, son statut passe simplement à « Annulée » et elle reste visible dans l'historique par souci de transparence. Lorsque l'adhésion d'un domaine de spécialité est activée, l'utilisateur est automatiquement ajouté au groupe de messagerie correspondant à ce domaine."
+    },
+    "status": {
+      "pending": "En attente de validation",
+      "verified": "Vérifié",
+      "active": "Actif",
+      "renewal_due": "Renouvellement requis",
+      "grace": "Période de grâce",
+      "lapsed": "Expiré",
+      "suspended": "Suspendu",
+      "revoked": "Annulé"
+    },
+    "filters": {
+      "label": "Statut",
+      "all": "Tous"
+    },
+    "loading": "Chargement en cours…",
+    "noName": "Sans nom",
+    "row": {
+      "field": "Domaine de spécialité : {name}",
+      "noField": "Aucun domaine de spécialité",
+      "requested": "· Demandé le : {date}",
+      "expires": "· Expire le : {date}",
+      "suspendReason": "Motif de la suspension : {reason}",
+      "revokeReason": "Motif de l'annulation : {reason}"
+    },
+    "reasonPlaceholder": "Motif (facultatif)",
+    "actions": {
+      "verify": "Vérifier l'identité",
+      "suspend": "Suspendre l'adhésion",
+      "unsuspend": "Rétablir",
+      "revoke": "Annuler",
+      "revokeConfirm": "L'annulation est définitive — Êtes-vous sûr(e) ?",
+      "revokeYes": "Oui, annuler",
+      "cancel": "Annuler"
+    },
+    "notice": {
+      "verified": "L'identité du membre a été vérifiée.",
+      "suspended": "L'adhésion a été suspendue.",
+      "unsuspended": "La suspension a été levée.",
+      "revoked": "L'adhésion a été annulée."
+    },
+    "history": {
+      "title": "Historique des transitions",
+      "actor": "· Acteur :",
+      "system": "· Système"
+    },
+    "empty": {
+      "title": "Aucune adhésion dans ce statut",
+      "body": "La liste est filtrée selon le statut sélectionné. Supprimez le filtre pour afficher toutes les demandes.",
+      "cta": "Afficher tous les statuts"
+    },
+    "selectHint": "Sélectionnez une adhésion dans la liste."
+  },
+  "auditExport": {
+    "button": "Export CSV",
+    "pending": "Préparation en cours…",
+    "error": "Échec de l'exportation. Veuillez réessayer.",
+    "note": "Les {rows} dernières lignes avec ces mêmes filtres, en lecture seule"
+  }
+}

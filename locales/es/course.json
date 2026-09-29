@@ -1,0 +1,182 @@
+{
+  "agent": {
+    "chatButton": "Chatear sobre esta lección",
+    "desc": "Asistente de inteligencia artificial especializado en este campo — La conversación comienza con el contexto de esta lección. El acceso a este asistente depende de tu plan; si está bloqueado, se mostrará la ruta de actualización.",
+    "title": "Asistente especializado de la disciplina",
+    "tutorButton": "Pregunta rápida a Tutor"
+  },
+  "assess": {
+    "action": {
+      "enterExam": "Entrar a la sala de examen",
+      "startQuiz": "Iniciar cuestionario",
+      "viewAssignment": "Ver tarea"
+    },
+    "due": "Fecha límite: {date}",
+    "empty": {
+      "assignment": "Aún no se ha publicado ninguna tarea para esta lección.",
+      "exam": "Aún no se ha publicado ningún examen para esta lección."
+    },
+    "kind": {
+      "assignment": "Tarea",
+      "exam": "Examen",
+      "quiz": "Cuestionario"
+    },
+    "points": "{n, number} puntos",
+    "questions": "{n, number} preguntas",
+    "tools": {
+      "builder": "Creador de exámenes",
+      "gradingQueue": "Cola de calificación",
+      "itemAnalysis": "Análisis de ítems",
+      "questionBank": "Banco de preguntas"
+    }
+  },
+  "assessStatus": {
+    "closed": "Cerrado",
+    "draft": "Borrador",
+    "published": "Abierto"
+  },
+  "attendance": {
+    "atRisk": "⚠ Grupo {group, number}: {count, number} estudiantes en riesgo de superar el límite de ausencias del reglamento — La decisión final depende de ti.",
+    "empty": "Aún no se ha registrado la asistencia para esta lección.",
+    "late": "{n, number} retiros/retrasos",
+    "myDetails": "Detalles de mi asistencia",
+    "noneAtRisk": "En tus {n, number} grupos de esta lección, ningún estudiante está en riesgo de superar el límite de ausencias.",
+    "overThreshold": "⚠ Tus ausencias han superado el límite reglamentario permitido — El estado final será determinado por el profesor/comisión.",
+    "present": "{n, number} presentes",
+    "recordButton": "Registrar asistencia",
+    "sessions": "{n, number} sesiones registradas",
+    "unexcused": "{n, number} ausencias injustificadas"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "title": "Inicia sesión para ver esta lección"
+  },
+  "common": {
+    "error": "Error",
+    "group": "Grupo {n, number}",
+    "loading": "Cargando…"
+  },
+  "enrol": {
+    "busy": "Inscribiendo...",
+    "button": "Inscribirse en esta lección",
+    "error": {
+      "title": "Inscripción fallida"
+    },
+    "toast": {
+      "title": "Inscripción completada"
+    }
+  },
+  "files": {
+    "attachmentFallback": "Adjunto",
+    "content": {
+      "empty": "No hay archivos ni folletos en el contenido de este curso.",
+      "title": "Archivos y folletos del contenido del curso"
+    },
+    "group": {
+      "empty": "Aún no se ha compartido ningún archivo en el grupo o canal de este curso.",
+      "title": "Archivos compartidos en los grupos de este curso"
+    },
+    "kind": {
+      "file": "Archivo",
+      "image": "Imagen",
+      "link": "Enlace",
+      "video": "Vídeo"
+    },
+    "loadMore": "Cargar más",
+    "open": "Abrir ↗"
+  },
+  "grades": {
+    "mine": {
+      "average": "Promedio: {avg, number} de 100",
+      "empty": "Aún no hay calificaciones registradas para exámenes o tareas en este curso; se mostrarán aquí una vez que el profesor las corrija.",
+      "title": "Calificaciones de exámenes y tareas de este curso"
+    },
+    "official": {
+      "details": "Detalles y reclamación",
+      "title": "Calificación oficial (expediente)"
+    },
+    "sheetStatus": {
+      "announced": "Anunciada",
+      "finalized": "Finalizada"
+    },
+    "tools": {
+      "gradebook": "Libreta de calificaciones de este curso",
+      "gradingQueue": "Cola de calificación",
+      "submission": "Flujo de calificaciones oficial"
+    }
+  },
+  "group": {
+    "announcementsChannel": "Canal de anuncios de la clase",
+    "create": {
+      "toast": {
+        "title": "Grupo del curso creado"
+      }
+    },
+    "createButton": "Crear grupo + canal de clase",
+    "empty": {
+      "staff": "No se te ha asignado ningún grupo de este curso.",
+      "student": "No tienes una inscripción activa en la sección de este curso."
+    },
+    "notProvisioned": "El espacio de chat de este grupo aún no ha sido creado.",
+    "openGroup": "Abrir el grupo de la clase",
+    "studentNotProvisioned": "El profesor aún no ha creado el grupo de chat de esta clase."
+  },
+  "help": {
+    "body": "Todas las secciones de este curso —contenido, sesiones, tareas, exámenes, calificaciones, asistencia, archivos, grupo de clase y asistente de disciplina— están disponibles desde las pestañas de esta misma página.",
+    "title": "Guía del centro del curso"
+  },
+  "missing": {
+    "body": "El identificador del curso no está especificado.",
+    "catalog": "Ir al catálogo",
+    "title": "Curso"
+  },
+  "overview": {
+    "credits": "{n, number} crédito",
+    "enrolled": "Inscrito",
+    "fullView": "Vista completa de introducción y sesiones"
+  },
+  "page": {
+    "screenLabel": "Centro del curso"
+  },
+  "recStatus": {
+    "failed": "Error",
+    "processing": "Procesando",
+    "ready": "Listo"
+  },
+  "sessionStatus": {
+    "cancelled": "Cancelado",
+    "ended": "Finalizado",
+    "live": "En vivo",
+    "scheduled": "Programado"
+  },
+  "sessions": {
+    "count": "{n, plural, one {# sesión} many {# sesiones} other {# sesiones}}",
+    "empty": "Aún no hay sesiones programadas para este curso.",
+    "join": {
+      "error": {
+        "title": "Error al unirse"
+      },
+      "toast": {
+        "msg": "Tu asistencia ha sido registrada.",
+        "title": "Unirse a la clase"
+      }
+    },
+    "joinButton": "Unirse a la clase",
+    "recordingStatus": "Grabación: {status}",
+    "recordingsArchive": "Archivo de grabaciones",
+    "report": "Informe de la sesión"
+  },
+  "tabs": {
+    "agent": "Asistente de la carrera",
+    "ariaLabel": "Secciones del curso",
+    "assignments": "Tareas",
+    "attendance": "Asistencia",
+    "content": "Contenido",
+    "exams": "Exámenes",
+    "files": "Archivos y apuntes",
+    "grades": "Calificaciones",
+    "group": "Grupo del curso",
+    "overview": "Resumen",
+    "sessions": "Sesiones y grabaciones"
+  }
+}

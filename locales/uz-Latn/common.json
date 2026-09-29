@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "Bekor qilish",
+    "close": "Yopish",
+    "confirm": "Tasdiqlash",
+    "save": "Saqlash",
+    "search": "Qidirish",
+    "select": "Tanlash"
+  },
+  "help": {
+    "toggle": "Yordam",
+    "close": "Yordamni yopish"
+  },
+  "state": {
+    "empty": "Ko‘rsatish uchun hech narsa yo‘q.",
+    "error": "Xatolik yuz berdi.",
+    "loading": "Yuklanmoqda…",
+    "noResults": "Natija topilmadi."
+  },
+  "time": {
+    "justNow": "Hozirgina"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "Yaqinlashayotgan tadbirlar",
+      "full": "To‘liq taqvim",
+      "empty": "Keyingi {days, number} kunda tadbir yo‘q",
+      "error": "Tadbirlarni yuklab bo‘lmadi",
+      "today": "Bugun",
+      "allDay": "Kun bo‘yi"
+    },
+    "type": {
+      "meeting": "Dars",
+      "exam": "Imtihon",
+      "assignment": "Topshiriq",
+      "term": "Semestr davri",
+      "event": "Tadbir",
+      "personal": "Shaxsiy"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "Sahifada xatolik yuz berdi",
+      "body": "Kechirasiz — muammo yuz berdi. Bu xatolik avtomatik ravishda qayd etildi. Bosh sahifaga qaytishingiz yoki sahifani qayta yuklashingiz mumkin.",
+      "home": "Bosh sahifaga qaytish",
+      "reload": "Qayta yuklash"
+    }
+  },
+  "money": {
+    "rialUnit": "﷼"
+  },
+  "notFound": {
+    "back": "Oldingi sahifaga qaytish",
+    "body": "Siz izlagan manzil mavjud emas yoki ko‘chirilgan. Oldingi sahifaga yoki bosh sahifaga qaytishingiz mumkin.",
+    "home": "Bosh sahifaga qaytish",
+    "programs": "Ta’lim dasturlarini ko‘rish",
+    "screenLabel": "404 · Topilmadi",
+    "search": "Qidirish",
+    "title": "Sahifa topilmadi"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "Buni men bilan baham ko‘rganingiz uchun katta rahmat. Buni aytish oson bo‘lmaganini bilaman, siz yolg‘iz emassiz. Hislaringiz haqiqiy va muhim, siz bir insondan darhol ko‘mak olishga loyiqsiz. Iltimos, hoziroq Umid yordam liniyasining 1480 raqamiga qo‘ng‘iroq qiling; u yerda sizni mehr bilan tinglaydigan kishi bor.",
+      "tipHelpline": "Umid yordam liniyasiga darhol qo‘ng‘iroq qiling: 1480 (kecha-yu kunduz va maxfiy)",
+      "tipEmergency": "Agar bevosita xavf ostida bo‘lsangiz, shoshilinch tibbiy yordamning 115 raqamiga qo‘ng‘iroq qiling",
+      "tipCompany": "Imkon bo‘lsa, hoziroq o‘zingiz ishonadigan kishining yonida bo‘ling"
+    }
+  }
+}

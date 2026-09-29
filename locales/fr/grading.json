@@ -1,0 +1,317 @@
+{
+  "queue": {
+    "actions": {
+      "close": "Fermer"
+    },
+    "activity": {
+      "ariaLabel": "Activité de l'étudiant — {person}",
+      "buttonLabel": "Activité",
+      "buttonTitle": "Afficher l'historique d'activité de l'étudiant",
+      "close": "Fermer",
+      "title": "Historique d'activité de l'étudiant"
+    },
+    "ai": {
+      "applied": "Brouillon IA appliqué — ceci est une suggestion qui nécessite votre révision.",
+      "busy": "Réception en cours…",
+      "button": "Brouillon IA",
+      "buttonTitle": "Obtenir une suggestion de note et de commentaire par l'IA (nécessite une révision)",
+      "error": "Échec de la récupération du brouillon IA",
+      "unstructured": "Le brouillon IA a été reçu mais ne contenait pas de note/commentaire structuré ; veuillez vérifier manuellement."
+    },
+    "answers": {
+      "attachmentMeta": "{size, number} Ko · Télécharger",
+      "attachments": "Fichiers joints",
+      "empty": "Aucune réponse enregistrée à afficher.",
+      "loading": "Chargement des réponses…",
+      "questionPoints": "{points, number} points",
+      "submittedText": "Réponse soumise",
+      "title": "Réponses de l'étudiant"
+    },
+    "breadcrumb": "Évaluation · File de notation",
+    "checklist": {
+      "doneLabel": "File de notation terminée",
+      "doneReason": "Aucun autre élément dans la file de notation.",
+      "grade": "Évaluer les travaux en attente",
+      "nextLabel": "Ouvrir l'élément suivant à évaluer",
+      "pick": "Sélectionner une évaluation à noter"
+    },
+    "detail": {
+      "autoScore": "· Note automatique : {score, number}"
+    },
+    "error": {
+      "loadAnswers": "Échec du chargement des réponses",
+      "loadAssessments": "Échec du chargement des évaluations",
+      "loadSubmissions": "Échec du chargement des soumissions",
+      "saveGrade": "Échec de l'enregistrement de la note"
+    },
+    "feedback": {
+      "label": "Commentaire pour l'étudiant",
+      "placeholder": "Écrivez les points forts, les erreurs et des conseils d'amélioration…"
+    },
+    "filter": {
+      "all": "Tous",
+      "aria": "Filtrer par statut",
+      "graded": "Noté",
+      "pending": "En attente de notation"
+    },
+    "grade": {
+      "title": "Note et commentaire"
+    },
+    "help": {
+      "body": "Sélectionnez d'abord une évaluation (examen ou devoir) pour afficher les soumissions des étudiants. Cliquez sur « Évaluer » pour voir les réponses, attribuer une note (de 0 à 100), rédiger des commentaires et enregistrer ; vous pouvez également utiliser le « Brouillon IA » si vous le souhaitez.",
+      "title": "Aide de la file de notation"
+    },
+    "kind": {
+      "assignment": "Devoir",
+      "quiz": "Quiz"
+    },
+    "kpi": {
+      "graded": "Corrigé",
+      "pending": "En attente de correction",
+      "total": "Total des travaux"
+    },
+    "list": {
+      "autoScore": "Score automatique : {score, number}",
+      "emptyAllGraded": "Aucun travail en attente de correction — tout a été évalué.",
+      "emptyFilter": "Aucun travail trouvé avec ce filtre.",
+      "emptyNone": "Aucun travail n'a encore été soumis pour cette évaluation.",
+      "loading": "Chargement des travaux...",
+      "recordedScore": "Score enregistré : {score, number} sur 100"
+    },
+    "meta": {
+      "totalPoints": "· Total des points : {points, number}"
+    },
+    "notFinal": "Ce travail n'est pas encore finalisé (brouillon) et ne peut pas être corrigé.",
+    "panel": {
+      "ariaLabel": "Correction du travail — {person}",
+      "title": "Correction du travail"
+    },
+    "row": {
+      "editGrade": "Modifier la note",
+      "grade": "Corriger",
+      "view": "Afficher"
+    },
+    "rubric": {
+      "applyLabel": "Appliquer la grille d'évaluation (facultatif)",
+      "criterionFallback": "Critère",
+      "criterionScoreAria": "Score pour le critère « {criterion} » sur {max}",
+      "finalScore": "Note finale :",
+      "hint": "Attribuez une note pour chaque critère ; la note finale est calculée à partir de la somme des critères et convertie en pourcentage (0 à 100).",
+      "levelFallback": "Niveau",
+      "none": "— Sans grille d'évaluation (notation libre) —",
+      "of": "sur",
+      "outOf100": "sur 100",
+      "outOfMax": "sur {max, number}",
+      "scoreLabel": "Notation par grille d'évaluation",
+      "sum": "Total :"
+    },
+    "save": {
+      "action": "Enregistrer la note",
+      "busy": "Enregistrement en cours...",
+      "needFinalTitle": "Le travail doit être finalisé",
+      "needScoreTitle": "Veuillez d'abord saisir une note",
+      "title": "Enregistrer la note"
+    },
+    "score": {
+      "aria": "Note sur 100",
+      "hint": "La note finale est enregistrée sous forme de pourcentage (0 à 100).",
+      "label": "Note (0 à 100)",
+      "outOf100": "sur 100",
+      "placeholder": "0"
+    },
+    "search": {
+      "aria": "Rechercher un étudiant",
+      "placeholder": "Rechercher par nom ou identifiant d'étudiant…"
+    },
+    "select": {
+      "empty": "Aucune évaluation publiée n'est disponible pour la correction.",
+      "label": "Sélectionner une évaluation (examen / devoir)",
+      "loading": "Chargement des évaluations…"
+    },
+    "status": {
+      "draft": "Brouillon",
+      "graded": "Corrigé",
+      "submitted": "En attente de correction"
+    },
+    "subtitle": "Sélectionnez une évaluation pour consulter les soumissions des étudiants, examiner les réponses et enregistrer des notes et des commentaires.",
+    "title": "File de correction",
+    "toast": {
+      "gradeSaved": "Note enregistrée",
+      "queueDone": "File de correction terminée",
+      "remaining": "{count, plural, one {# autre élément dans la file de correction} many {# autres éléments dans la file de correction} other {# autre élément dans la file de correction}}"
+    }
+  },
+  "submission": {
+    "actions": {
+      "announce": "Annonce provisoire aux étudiants",
+      "blockedByObjections": "{count, plural, one {L'enregistrement définitif est impossible tant qu'il y a # réclamation ouverte.} many {L'enregistrement définitif est impossible tant qu'il y a # réclamations ouvertes.} other {L'enregistrement définitif est impossible tant qu'il y a # réclamations ouvertes.}}",
+      "components": "Configurer les composants de la note",
+      "finalize": "Enregistrer définitivement les notes",
+      "import": "Importer les notes depuis les examens",
+      "saveDraft": "Enregistrer comme brouillon",
+      "taNote": "L'enregistrement définitif (final) des notes relève de la responsabilité du professeur du cours ; vos notes sont enregistrées en tant que brouillon pour le professeur."
+    },
+    "announce": {
+      "deadlineAria": "Date limite de réclamation",
+      "deadlineFuture": "La date limite de réclamation doit être ultérieure.",
+      "deadlineInvalid": "La date saisie n'est pas valide.",
+      "deadlineLabel": "Date limite de réclamation",
+      "deadlineRequired": "Définissez la date limite de réclamation.",
+      "dialogBody": "Avec l'annonce provisoire, les étudiants peuvent voir leurs notes et soumettre des réclamations jusqu'à la fin de la période fixée.",
+      "dialogSubmit": "Annonce provisoire",
+      "dialogTitle": "Annonce provisoire des notes"
+    },
+    "back": "Retour à la liste des cours",
+    "breadcrumb": {
+      "instructor": "Enseignement · Enseignant",
+      "ta": "Enseignement · Assistant d'enseignement"
+    },
+    "chip": {
+      "announced": "Annoncé",
+      "draft": "Provisoire",
+      "finalized": "Définitif",
+      "noSheet": "Sans feuille",
+      "objectionDeadline": "Date limite de réclamation : {date}"
+    },
+    "components": {
+      "add": "+ Ajouter un composant",
+      "assignAria": "Composant de note {title}",
+      "assignEmpty": "Aucun examen publié n'est disponible pour ce cours.",
+      "assignNone": "— Aucun composant —",
+      "assignTitle": "Associer des examens aux composants",
+      "dialogSubmit": "Enregistrer",
+      "dialogTitle": "Configurer les composants de notation et les pondérations",
+      "fallbackTitle": "Composant",
+      "introLead": "Chaque composant (partiel, examen final, devoirs, etc.) possède une pondération ; il est recommandé que la somme des poids soit égale à 100. Associez ensuite chaque évaluation à un composant. Ce paramètre s'applique au niveau du",
+      "introRest": "et est commun à tous les groupes de ce cours.",
+      "introStrong": "cours",
+      "loading": "Chargement en cours…",
+      "percentSign": "%",
+      "removeAria": "Supprimer {title}",
+      "saved": "Les composants de notation et les pondérations ont été enregistrés.",
+      "titleAria": "Titre du composant de notation",
+      "titlePlaceholder": "Titre du composant (ex. : Partiel)",
+      "titleRequired": "Veuillez saisir le titre de tous les composants.",
+      "untitled": "Sans titre",
+      "weightAria": "Poids de {title}",
+      "weightInvalid": "Le poids de « {title} » doit être un nombre entier compris entre 0 et 100.",
+      "weightSumLabel": "Somme des poids : {percent}",
+      "weightSumNote": " (différent de 100 — normalisé proportionnellement lors du calcul)"
+    },
+    "correct": {
+      "busy": "Enregistrement en cours…",
+      "cancel": "Annuler",
+      "failed": "Échec de la correction de la note.",
+      "gradeAria": "Note rectificative de {person}",
+      "gradeRange": "La note rectificative doit être comprise entre 0 et 20.",
+      "open": "Corriger",
+      "openAria": "Corriger la note de {person}",
+      "reasonAria": "Motif de la correction de la note",
+      "reasonPlaceholder": "Motif de la correction (obligatoire)",
+      "reasonRequired": "La saisie du motif de la correction de la note est obligatoire.",
+      "submit": "Soumettre la correction",
+      "success": "La note a été corrigée avec succès et enregistrée dans l'historique des modifications."
+    },
+    "detail": {
+      "adminCorrectionNote": "En tant qu'administrateur du système, vous pouvez, dans des cas exceptionnels, corriger une note en indiquant un motif ; chaque correction est enregistrée dans l'historique.",
+      "finalizedBadge": "Finalisé",
+      "finalizedNote": "— Les notes de ce cours sont finalisées, verrouillées et ne peuvent plus être modifiées.",
+      "loading": "Chargement en cours…",
+      "objectionDeadline": "Date limite de réclamation pour les étudiants : {date}"
+    },
+    "dialog": {
+      "cancel": "Annuler",
+      "close": "Fermer"
+    },
+    "empty": {
+      "instructor": "Aucun cours ne vous a été attribué pour la saisie des notes en tant qu'enseignant pour ce semestre. Si vous pensez qu'un cours devrait figurer ici, veuillez contacter la gestion des examens.",
+      "ta": "En tant qu'assistant d'enseignement, aucun cours ne vous a été attribué pour la saisie des notes provisoires pour ce semestre. Cette attribution est effectuée par l'enseignant du cours ou la gestion des examens.",
+      "title": "Aucun cours attribué pour la saisie des notes"
+    },
+    "error": {
+      "generic": "Une erreur s'est produite"
+    },
+    "finalize": {
+      "confirmLead": "En validant définitivement, les notes pour « {course} »",
+      "confirmRest": "et ne pourront plus être modifiées ; les notes seront enregistrées sur le bulletin des étudiants. Souhaitez-vous continuer ?",
+      "confirmStrong": "seront verrouillées",
+      "dialogSubmit": "Validation définitive",
+      "dialogTitle": "Validation définitive des notes"
+    },
+    "help": {
+      "instructorBody": "Sélectionnez d'abord le cours. Saisissez les notes et enregistrez-les provisoirement avec « Enregistrement provisoire » ; l'« Annonce provisoire » permet aux étudiants de consulter leurs notes et de soumettre des réclamations jusqu'à la date limite fixée. Une fois toutes les réclamations ouvertes traitées, la « Validation définitive » verrouille les notes et les reporte sur le bulletin.",
+      "taLead": "En tant qu'assistant d'enseignement, vous ne voyez que les classes qui vous sont attribuées. Saisissez les notes et utilisez « Enregistrement provisoire » pour les enregistrer en tant que brouillon pour l'enseignant du cours.",
+      "taRest": "et n'est pas accessible pour vous sur cette page.",
+      "taStrong": "La validation définitive (finale) des notes relève de la seule responsabilité de l'enseignant du cours",
+      "titleInstructor": "Guide de saisie des notes",
+      "titleTa": "Guide de saisie des notes (brouillon)"
+    },
+    "import": {
+      "calculating": "Calcul en cours…",
+      "dialogSubmit": "Appliquer comme brouillon",
+      "dialogTitle": "Importer des notes depuis les examens",
+      "draftRest": "est ; il vous incombe de réviser, d'« annoncer » et de « valider définitivement ».",
+      "draftStrong": "brouillon",
+      "introLead": "La note globale de chaque étudiant est calculée à partir des examens notés du cours et convertie sur une échelle de 0 à 20 (seuil de réussite : {passMark, number}). Il s'agit simplement d'un",
+      "noComponentsNote": "Aucun composant de note configuré ; la moyenne simple de tous les examens sera utilisée. Pour appliquer des pondérations, veuillez d'abord configurer « Paramètres des composants de note ».",
+      "noData": "Aucune donnée",
+      "overwriteLabel": "Écraser les notes déjà saisies (par défaut : seules les lignes vides sont remplies)",
+      "resultNoData": "{count, plural, one { · # étudiant sans données d'examen} many { · # étudiants sans données d'examen} other { · # étudiants sans données d'examen}}",
+      "resultSkipped": "{count, plural, one { · # note existante laissée inchangée} many { · # notes existantes laissées inchangées} other { · # notes existantes laissées inchangées}}",
+      "resultWritten": "{count, plural, one {Importation des notes depuis les examens : # note enregistrée comme brouillon} many {Importation des notes depuis les examens : # notes enregistrées comme brouillon} other {Importation des notes depuis les examens : # notes enregistrées comme brouillon}}",
+      "tableCurrent": "Note actuelle",
+      "tablePercent": "Pourcentage total",
+      "tableProposed": "Note proposée",
+      "tableStudent": "Étudiant",
+      "unassignedNote": "{count, plural, one {# examen n'a été affecté à aucun composant et n'a pas été pris en compte dans le calcul.} many {# examens n'ont été affectés à aucun composant et n'ont pas été pris en compte dans le calcul.} other {# examens n'ont été affectés à aucun composant et n'ont pas été pris en compte dans le calcul.}}",
+      "weightSumNote": "La somme des pondérations est de {percent} (et non de 100 %) ; le calcul est normalisé proportionnellement aux pondérations existantes."
+    },
+    "list": {
+      "enrolled": "{count, plural, one {# étudiant} many {# étudiants} other {# étudiants}}"
+    },
+    "loading": "Chargement en cours…",
+    "objection": {
+      "hasBadge": "⚠️ Oui",
+      "instructorReplyLabel": "Réponse de l'enseignant :",
+      "replyAria": "Répondre à la réclamation de {person}",
+      "replyPlaceholder": "Réponse de l'enseignant…",
+      "replyRequired": "Veuillez rédiger le texte de la réponse.",
+      "replySaved": "La réponse à la réclamation a été enregistrée.",
+      "replySubmit": "Enregistrer la réponse"
+    },
+    "roster": {
+      "empty": "Aucun étudiant n'est inscrit à ce cours.",
+      "gradeAria": "Note de {person}"
+    },
+    "sheet": {
+      "announcedAt": " · Publié le {date}"
+    },
+    "subtitle": {
+      "instructor": "Enregistrement provisoire, publication aux étudiants, gestion des réclamations et validation définitive des notes de fin de semestre.",
+      "ta": "Saisie des notes provisoires pour les classes qui vous sont assignées. La validation définitive des notes relève de la responsabilité de l'enseignant du cours."
+    },
+    "summary": {
+      "enteredGrades": "Note saisie",
+      "openObjections": "Réclamation en cours",
+      "students": "Étudiant"
+    },
+    "table": {
+      "grade": "Note (0 à 20)",
+      "objection": "Réclamation",
+      "student": "Étudiant"
+    },
+    "title": {
+      "instructor": "Saisie des notes",
+      "ta": "Saisie des notes provisoires"
+    },
+    "toast": {
+      "announced": "Les notes ont été publiées à titre provisoire ; les étudiants peuvent soumettre des réclamations jusqu'à la fin du délai.",
+      "draftSaved": "{count, plural, one {La note de # étudiant a été enregistrée à titre provisoire.} many {Les notes de # étudiants ont été enregistrées à titre provisoire.} other {Les notes de # étudiants ont été enregistrées à titre provisoire.}}",
+      "finalized": "Les notes de ce cours ont été finalisées."
+    },
+    "validate": {
+      "gradeRange": "La note de « {person} » doit être un nombre compris entre 0 et 20.",
+      "noGrades": "Aucune note n'a été saisie."
+    }
+  }
+}

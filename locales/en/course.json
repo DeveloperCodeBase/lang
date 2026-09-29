@@ -1,0 +1,182 @@
+{
+  "agent": {
+    "chatButton": "Discuss this lesson",
+    "desc": "AI assistant specialized in this field — the conversation starts with the context of this lesson. Access to this assistant depends on your plan; if locked, an upgrade path will be shown.",
+    "title": "Specialized Field Assistant",
+    "tutorButton": "Quick question to Tutor"
+  },
+  "assess": {
+    "action": {
+      "enterExam": "Enter exam room",
+      "startQuiz": "Start quiz",
+      "viewAssignment": "View assignment"
+    },
+    "due": "Due: {date}",
+    "empty": {
+      "assignment": "No assignments have been published for this lesson yet.",
+      "exam": "No exams have been published for this lesson yet."
+    },
+    "kind": {
+      "assignment": "Assignment",
+      "exam": "Exam",
+      "quiz": "Quiz"
+    },
+    "points": "{n, number} points",
+    "questions": "{n, number} questions",
+    "tools": {
+      "builder": "Test Builder",
+      "gradingQueue": "Grading Queue",
+      "itemAnalysis": "Item Analysis",
+      "questionBank": "Question Bank"
+    }
+  },
+  "assessStatus": {
+    "closed": "Closed",
+    "draft": "Draft",
+    "published": "Open"
+  },
+  "attendance": {
+    "atRisk": "⚠ Group {group, number}: {count, number} students are nearing the absence limit per regulations — final decision is yours.",
+    "empty": "No attendance records have been registered for this lesson yet.",
+    "late": "{n, number} late",
+    "myDetails": "My attendance details",
+    "noneAtRisk": "In your {n, number} groups for this lesson, no students are nearing the absence limit.",
+    "overThreshold": "⚠ Your absences have exceeded the permitted regulatory limit — final status will be determined by the instructor/commission.",
+    "present": "{n, number} present",
+    "recordButton": "Record Attendance",
+    "sessions": "{n, number} recorded sessions",
+    "unexcused": "{n, number} unexcused absences"
+  },
+  "auth": {
+    "login": "Log in",
+    "title": "Log in to view this lesson"
+  },
+  "common": {
+    "error": "Error",
+    "group": "Group {n, number}",
+    "loading": "Loading..."
+  },
+  "enrol": {
+    "busy": "Enrolling...",
+    "button": "Enroll in this lesson",
+    "error": {
+      "title": "Enrollment failed"
+    },
+    "toast": {
+      "title": "Enrollment completed"
+    }
+  },
+  "files": {
+    "attachmentFallback": "Attachment",
+    "content": {
+      "empty": "There are no files or handouts in this course's content.",
+      "title": "Course Content Files and Handouts"
+    },
+    "group": {
+      "empty": "No files have been shared yet in this course's group or channel.",
+      "title": "Files Shared in This Course's Groups"
+    },
+    "kind": {
+      "file": "File",
+      "image": "Image",
+      "link": "Link",
+      "video": "Video"
+    },
+    "loadMore": "Load more",
+    "open": "Open ↗"
+  },
+  "grades": {
+    "mine": {
+      "average": "Average: {avg, number} out of 100",
+      "empty": "No grades have been recorded yet for this course's quizzes or assignments; they will appear here once graded by the instructor.",
+      "title": "Course Quizzes and Assignments Grades"
+    },
+    "official": {
+      "details": "Details and Appeal",
+      "title": "Official Grade (Transcript)"
+    },
+    "sheetStatus": {
+      "announced": "Announced",
+      "finalized": "Finalized"
+    },
+    "tools": {
+      "gradebook": "Course Gradebook",
+      "gradingQueue": "Grading Queue",
+      "submission": "Official Grade Workflow"
+    }
+  },
+  "group": {
+    "announcementsChannel": "Class Announcements Channel",
+    "create": {
+      "toast": {
+        "title": "Course group created"
+      }
+    },
+    "createButton": "Create Class Group + Channel",
+    "empty": {
+      "staff": "No course group has been assigned to you.",
+      "student": "You are not actively enrolled in any section of this course."
+    },
+    "notProvisioned": "The discussion space for this group has not been created yet.",
+    "openGroup": "Open Class Group",
+    "studentNotProvisioned": "The instructor has not created the discussion group for this class yet."
+  },
+  "help": {
+    "body": "All sections of this course — content, sessions, assignments, quizzes, grades, attendance, files, class group, and discipline assistant — are available from the tabs on this page.",
+    "title": "Course Hub Guide"
+  },
+  "missing": {
+    "body": "Course ID is not specified.",
+    "catalog": "Go to Catalog",
+    "title": "Course"
+  },
+  "overview": {
+    "credits": "{n, number} credits",
+    "enrolled": "Enrolled",
+    "fullView": "Full Introduction and Sessions View"
+  },
+  "page": {
+    "screenLabel": "Course Hub"
+  },
+  "recStatus": {
+    "failed": "Failed",
+    "processing": "Processing",
+    "ready": "Ready"
+  },
+  "sessionStatus": {
+    "cancelled": "Cancelled",
+    "ended": "Ended",
+    "live": "Live",
+    "scheduled": "Scheduled"
+  },
+  "sessions": {
+    "count": "{n, plural, one {# session} other {# sessions}}",
+    "empty": "No sessions have been scheduled for this course yet.",
+    "join": {
+      "error": {
+        "title": "Failed to Join"
+      },
+      "toast": {
+        "msg": "Your attendance has been recorded.",
+        "title": "Join Class"
+      }
+    },
+    "joinButton": "Join Class",
+    "recordingStatus": "Recording: {status}",
+    "recordingsArchive": "Recordings Archive",
+    "report": "Session Report"
+  },
+  "tabs": {
+    "agent": "Major Assistant",
+    "ariaLabel": "Course Sections",
+    "assignments": "Assignments",
+    "attendance": "Attendance",
+    "content": "Content",
+    "exams": "Exams",
+    "files": "Files & Handouts",
+    "grades": "Grades",
+    "group": "Course Group",
+    "overview": "Overview",
+    "sessions": "Sessions & Recordings"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "new": {
+    "eyebrow": "服务台",
+    "title": "新申请",
+    "back": "返回",
+    "empty": "未定义申请类型。",
+    "loadError": "无法加载申请类型列表。",
+    "searchLabel": "搜索申请类型",
+    "searchPlaceholder": "例如：延期、证明、宿舍…",
+    "noResults": "未找到匹配该词条的申请类型。",
+    "externalBadge": "外部系统",
+    "externalHint": "此申请将在外部系统（Sajad）中处理。",
+    "externalContinue": "前往外部系统继续 ↗",
+    "chooseAnother": "选择其他类型",
+    "sectionPlaceholder": "请选择课程…",
+    "sectionsLoading": "正在加载课程列表…",
+    "sectionsError": "无法加载课程列表。您已填写的内容已保留。",
+    "submit": "提交并发送",
+    "backToTypes": "返回选择类型",
+    "saveDraft": "保存草稿",
+    "draftHint": "您可以将未完成的表单保存，稍后在“我的申请”中将其完成并发送。"
+  },
+  "detail": {
+    "submit": "发送",
+    "resubmit": "修改并重新发送",
+    "cancel": "取消申请",
+    "edit": {
+      "title": "修改申请表",
+      "hintReturned": "此申请已被退回以供修改。请修改字段，然后点击“修改并重新发送”。",
+      "hintDraft": "此申请尚未发送。您可以完善并保存表单，稍后发送。",
+      "selectPlaceholder": "请选择…",
+      "save": "保存更改",
+      "saved": "更改已保存",
+      "savedSectionUnavailable": "课程已保存；目前不在注册列表中"
+    },
+    "decision": {
+      "EDIT": "修改表单",
+      "SUBMIT": "提交申请",
+      "APPROVE": "批准",
+      "REJECT": "拒绝",
+      "REFER": "退回修改",
+      "RESUBMIT": "重新发送",
+      "CANCEL": "取消",
+      "AUTO": "自动操作",
+      "SKIP": "自动跳过步骤",
+      "INFORM": "通知"
+    }
+  },
+  "errors": {
+    "generic": "发生错误",
+    "requiredField": "«{field}» 必填",
+    "decisionNoteRequired": "拒绝或退回时必须填写说明"
+  },
+  "viewer": {
+    "serviceDeskLabel": "服务台",
+    "pageTitle": "请求详情",
+    "backToInbox": "返回收件箱",
+    "issuancePending": "请求已批准，正在制证中。凭证注册后将显示编号和查询链接。",
+    "verifyPhoneFirst": "制证正等待验证证书持有者的电话号码。请在账户设置中验证号码；系统将重试自动制证。",
+    "issuanceRetry": "制证尚未完成。系统将重试；无需再次提交申请或确认。",
+    "refreshIssuance": "刷新制证状态",
+    "submittedByStudent": "由学生提交",
+    "workflow": "工作流",
+    "form": "请求信息",
+    "result": "结果",
+    "certificateNo": "证书编号：",
+    "verifyCertificate": "查询证书",
+    "legacyCertificate": "此编号记录在旧版请求输出中，未关联至可查询的凭证。请联系教务服务负责人以获取正式证书。",
+    "dropped": "课程已成功删除。",
+    "completed": "已完成",
+    "history": "操作历史",
+    "yourAction": "您的操作",
+    "decisionNote": "决定说明",
+    "notePlaceholder": "说明（批准可选，拒绝/退回必填）",
+    "stepKinds": {
+      "approval": "人工审批",
+      "inform": "通知"
+    },
+    "skipReasons": {
+      "condition_not_matched": "阶段条件不满足"
+    },
+    "informRecipients": "{count, plural, other {已记录给 # 位接收者}}",
+    "terminalDefault": "最终操作",
+    "terminal": {
+      "issue_certificate": "颁发证书",
+      "emergency_drop": "退课",
+      "register_course": "选课"
+    },
+    "roles": {
+      "faculty_admin": "院系管理员/专员",
+      "admin": "系统管理员",
+      "super_admin": "超级管理员",
+      "instructor": "教师",
+      "ta": "助教"
+    },
+    "status": {
+      "DRAFT": "草稿",
+      "IN_PROGRESS": "进行中",
+      "FULFILLING": "等待颁发证书",
+      "RETURNED": "已退回修改",
+      "COMPLETED": "已完成",
+      "REJECTED": "已驳回",
+      "CANCELED": "已取消"
+    }
+  },
+  "inbox": {
+    "eyebrow": "教育服务",
+    "new": "+ 新建申请",
+    "helpTitle": "服务台指南",
+    "help": "您的申请将由相关人员逐步审核。打开任何申请即可查看状态和历史记录。对于被退回的申请，您可以修改后重新提交。",
+    "mine": "我的申请",
+    "pending": "等待我的审批",
+    "loading": "正在加载...",
+    "loadError": "无法加载申请列表。",
+    "retry": "重试",
+    "continueScan": "此区域未找到虚拟申请。请点击“显示更多”以继续查看队列。",
+    "emptyPending": "没有等待您审批的申请。",
+    "emptyMine": "您还没有提交过申请。",
+    "step": "步骤",
+    "viewAction": "查看与处理",
+    "waiting": "等待中",
+    "more": "显示更多列表"
+  }
+}

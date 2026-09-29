@@ -1,0 +1,149 @@
+{
+  "mediaLibrary": {
+    "open": "Médiathèque",
+    "title": "Ma médiathèque",
+    "close": "Fermer",
+    "search": "Rechercher dans les noms de fichiers",
+    "filter": {
+      "label": "Type de fichier",
+      "all": "Tous",
+      "video": "Vidéo",
+      "audio": "Audio",
+      "image": "Image",
+      "document": "Document"
+    },
+    "sort": {
+      "label": "Trier par",
+      "newest": "Le plus récent",
+      "largest": "Le plus grand"
+    },
+    "usage": "{used} sur {quota} utilisés",
+    "usageNoQuota": "{used} utilisés",
+    "size": {
+      "b": "{n} octet",
+      "kb": "{n} Ko",
+      "mb": "{n} Mo",
+      "gb": "{n} Go"
+    },
+    "duration": "Durée : {time}",
+    "type": {
+      "video": "Vidéo",
+      "audio": "Audio",
+      "image": "Image",
+      "document": "Document",
+      "slide": "Diapositive",
+      "h5p": "Interactif (H5P)",
+      "caption": "Sous-titre"
+    },
+    "usedIn": {
+      "label": "Utilisé dans",
+      "sections": "{count, plural, =0 {0 section} one {# section} many {# sections} other {# sections}}",
+      "projects": "{count, plural, =0 {0 projet de montage} one {# projet de montage} many {# projets de montage} other {# projets de montage}}",
+      "templates": "{count, plural, =0 {0 modèle} one {# modèle} many {# modèles} other {# modèles}}"
+    },
+    "unused": "Pas encore utilisé",
+    "badge": {
+      "take": "Prise d'enregistrement",
+      "processing": "En cours de traitement",
+      "failed": "Échec du traitement"
+    },
+    "actions": {
+      "more": "Plus d'actions pour « {name} »",
+      "preview": "Aperçu",
+      "use": "Utiliser dans la section",
+      "edit": "Modifier dans la timeline",
+      "saveTemplate": "Enregistrer comme modèle",
+      "delete": "Supprimer"
+    },
+    "loadMore": "Afficher plus",
+    "empty": {
+      "title": "Vous n'avez pas encore de média",
+      "body": "Enregistrez ou téléchargez un fichier pour qu'il apparaisse ici.",
+      "record": "Aller à l'enregistrement"
+    },
+    "noResults": "Aucun résultat trouvé avec ce filtre.",
+    "error": "Impossible de charger la bibliothèque.",
+    "errorHint": "Vérifiez votre connexion et réessayez.",
+    "retry": "Réessayer",
+    "delete": {
+      "title": "Supprimer « {name} » ?",
+      "body": "Le fichier sera définitivement supprimé et ne pourra pas être récupéré.",
+      "confirm": "Supprimer",
+      "cancel": "Annuler",
+      "done": "Fichier supprimé."
+    },
+    "pickSection": {
+      "title": "Sélectionner la section",
+      "hint": "Seules les sections compatibles avec ce type de fichier sont affichées.",
+      "empty": "Aucune section compatible dans ce cours ; commencez par créer une section dans le programme.",
+      "replaceWarn": "Cette section contient déjà un fichier qui sera remplacé.",
+      "confirm": "Placer dans cette section",
+      "cancel": "Annuler",
+      "done": "Fichier placé dans la section.",
+      "error": "Échec du placement du fichier dans la section.",
+      "loadError": "Impossible de charger la liste des sections."
+    },
+    "preview": {
+      "title": "Aperçu de « {name} »",
+      "error": "Aperçu non disponible."
+    }
+  },
+  "studioTemplates": {
+    "open": "À partir des modèles",
+    "title": "Bibliothèque de modèles",
+    "close": "Fermer",
+    "cat": {
+      "label": "Catégorie de modèle",
+      "lesson_intro": "Introduction de la leçon",
+      "lesson_summary": "Résumé de la leçon",
+      "instructor_intro": "Présentation de l'instructeur",
+      "assignment_notice": "Avis de devoir"
+    },
+    "scope": {
+      "label": "Portée",
+      "all": "Tous",
+      "tenant": "Modèles de l'établissement",
+      "personal": "Mes modèles"
+    },
+    "badge": {
+      "tenant": "Établissement",
+      "personal": "Personnel"
+    },
+    "use": "Utiliser",
+    "using": "Préparation…",
+    "copiedNote": "Une copie a été créée dans votre bibliothèque multimédia.",
+    "useError": "Échec de la préparation du modèle.",
+    "preview": "Aperçu",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "unavailable": "Le fichier de ce modèle n'est pas disponible.",
+    "empty": {
+      "title": "Aucun modèle dans cette catégorie",
+      "body": "Dans la bibliothèque multimédia, sélectionnez « Enregistrer comme modèle » pour un fichier."
+    },
+    "error": "Échec du chargement des modèles.",
+    "retry": "Réessayer",
+    "form": {
+      "createTitle": "Enregistrer comme modèle",
+      "editTitle": "Modifier le modèle",
+      "title": "Titre",
+      "titleRequired": "Le titre est obligatoire.",
+      "description": "Description (facultatif)",
+      "category": "Catégorie",
+      "scope": "Qui peut voir ceci ?",
+      "scopePersonal": "Moi uniquement",
+      "scopeTenant": "Tous les enseignants de l'établissement",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "saved": "Modèle enregistré.",
+      "error": "Échec de l'enregistrement du modèle."
+    },
+    "deleteDialog": {
+      "title": "Supprimer le modèle « {title} » ?",
+      "body": "Le modèle sera retiré de la bibliothèque ; les parties qui l'utilisent ne seront pas modifiées.",
+      "confirm": "Supprimer",
+      "cancel": "Annuler",
+      "done": "Modèle supprimé."
+    }
+  }
+}

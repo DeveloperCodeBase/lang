@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "cancel": "取消",
+    "close": "关闭",
+    "confirm": "确认",
+    "save": "保存",
+    "search": "搜索",
+    "select": "选择"
+  },
+  "calendar": {
+    "comingUp": {
+      "title": "即将到来",
+      "full": "完整日历",
+      "empty": "未来 {days, number} 天内没有活动",
+      "error": "无法加载活动",
+      "today": "今天",
+      "allDay": "全天"
+    },
+    "type": {
+      "meeting": "班级",
+      "exam": "考试",
+      "assignment": "作业",
+      "term": "学期期限",
+      "event": "活动",
+      "personal": "个人"
+    }
+  },
+  "error": {
+    "boundary": {
+      "title": "页面遇到错误",
+      "body": "非常抱歉，出错了。此错误已自动记录。您可以返回首页或重新加载页面。",
+      "home": "返回首页",
+      "reload": "重新加载"
+    }
+  },
+  "help": {
+    "toggle": "帮助",
+    "close": "关闭帮助"
+  },
+  "money": {
+    "rialUnit": "里亚尔"
+  },
+  "notFound": {
+    "back": "返回上一页",
+    "body": "您寻找的地址不存在或已被移动。您可以返回上一页或返回首页。",
+    "home": "返回首页",
+    "programs": "查看项目",
+    "screenLabel": "404 · 未找到",
+    "search": "搜索",
+    "title": "未找到页面"
+  },
+  "state": {
+    "empty": "没有可显示的项目。",
+    "error": "发生错误。",
+    "loading": "正在加载…",
+    "noResults": "未找到结果。"
+  },
+  "time": {
+    "justNow": "刚刚"
+  },
+  "wellness": {
+    "crisis": {
+      "reply": "非常感谢你向我倾诉这些；我知道这并不容易说出口，你并不是孤单一人。你的感受是真实而重要的，你理应得到及时的真人支持。请立即拨打希望热线 1480；那里有人会耐心地倾听你。",
+      "tipHelpline": "立即拨打希望热线：1480（24小时保密）",
+      "tipEmergency": "如果您处于紧急危险中，请拨打 115 急救电话",
+      "tipCompany": "如果可以的话，现在就去和一个你信任的人在一起"
+    }
+  }
+}

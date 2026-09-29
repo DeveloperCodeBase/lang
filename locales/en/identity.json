@@ -1,0 +1,716 @@
+{
+  "login": {
+    "hero": {
+      "eyebrowText": "WELCOME BACK",
+      "eyebrowSubtext": "Sign In",
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account. If you haven't registered yet, you can get started in less than <b>2 minutes</b>."
+    },
+    "aria": {
+      "search": "Search",
+      "languageToggle": "Toggle Language (EN)"
+    },
+    "toast": {
+      "searchDisabled": "Search is not active in demo mode",
+      "languageDisplay": "Display Language: English",
+      "loginSuccess": "Successfully signed in — redirecting…",
+      "passwordCorrectNeed2fa": "Password correct — please enter your two-factor authentication code.",
+      "demoFilled": "The \"{role}\" email has been filled — enter your password and click \"Sign In\""
+    },
+    "demoPicker": {
+      "title": "Quick sign in with demo account",
+      "groupAriaLabel": "Demo accounts by role",
+      "hint": "Clicking any role will only fill in that account's email; then enter your password and click \"Sign In\"."
+    },
+    "demoRoles": {
+      "student": "Student",
+      "instructor": "Instructor",
+      "ta": "Teaching Assistant",
+      "faculty_admin": "Faculty Administrator",
+      "admin": "University Administrator",
+      "super_admin": "System Administrator",
+      "content_manager": "Content Manager",
+      "finance_manager": "Finance Manager",
+      "support": "Support",
+      "membership_operator": "Membership Operator",
+      "membership_manager": "Membership Program Manager",
+      "assessor": "Assessor",
+      "assessment_manager": "Assessment Center Manager",
+      "moderator": "Moderator",
+      "counselor": "University Counselor",
+      "parent": "Parent",
+      "org": "Organization"
+    },
+    "tenant": {
+      "label": "Organization ID / TENANT",
+      "hint": "Optional for general students",
+      "toggleShow": "Sign in as an organizational user? (Organization ID)"
+    },
+    "email": {
+      "label": "Email or Username"
+    },
+    "password": {
+      "label": "Password",
+      "forgotLink": "Forgot?",
+      "showAria": "Show password",
+      "hideAria": "Hide password"
+    },
+    "remember": {
+      "label": "Remember me"
+    },
+    "twofa": {
+      "label": "Two-factor authentication enabled",
+      "hint": "After signing in, a 6-digit code will be sent to your email/SMS."
+    },
+    "lockout": {
+      "message": "Account temporarily locked due to multiple failed attempts — {countdown} until retry."
+    },
+    "submit": {
+      "default": "Sign in",
+      "pending": "Signing in…"
+    },
+    "divider": {
+      "orText": "OR · یا"
+    },
+    "sso": {
+      "google": {
+        "label": "Google",
+        "toast": "Google SSO — Coming Soon"
+      },
+      "national": {
+        "label": "National Portal",
+        "toast": "Sign in via National Portal — Coming Soon"
+      },
+      "org": {
+        "label": "Organization",
+        "toast": "Enterprise Sign-In — Coming Soon"
+      }
+    },
+    "signup": {
+      "cta": "Don't have an account? <b>Create one now →</b>"
+    },
+    "twoFactor": {
+      "description": "Two-factor authentication is enabled for this account. Enter the 6-digit code from your Authenticator app (or one of your recovery codes).",
+      "codeLabel": "Two-factor verification code",
+      "codePlaceholder": "123456",
+      "submit": "Verify and Sign In",
+      "submitting": "Verifying…",
+      "back": "Back to sign in"
+    },
+    "errors": {
+      "tenantRequired": "Organization ID is required.",
+      "emailRequired": "Email/Username is required.",
+      "emailInvalid": "Invalid email format.",
+      "passwordRequired": "Password is required.",
+      "passwordMinLength": "Password must be at least 8 characters.",
+      "invalidInput": "Invalid input.",
+      "unknown": "Unknown error",
+      "twoFactorIncomplete": "Please enter the complete verification code.",
+      "twoFactorInvalid": "Invalid verification code."
+    },
+    "atoms": {
+      "passStrength": {
+        "veryWeak": "Very weak",
+        "weak": "Weak",
+        "medium": "Medium",
+        "strong": "Strong",
+        "veryStrong": "Very strong"
+      },
+      "demoBox": {
+        "subtitle": "Demo account for {roleLabel}",
+        "fillButton": "Auto-fill ←"
+      }
+    },
+    "brandPanel": {
+      "testimonial": {
+        "starsAria": "Five stars",
+        "quote": "“This was the first time I felt like I had a real learning assistant. The cognitive profile knows where I'm stuck and what I should do.”",
+        "authorInitials": "N.R",
+        "authorName": "Nasrin Razavi",
+        "authorRole": "M.Sc. · Data Science"
+      },
+      "stats": {
+        "tenantsValue": "{value, number}+",
+        "tenantsLabel": "Universities and organizations",
+        "learnersValue": "{value, number}K",
+        "learnersLabel": "Active learners",
+        "uptimeValue": "{value, number}%",
+        "uptimeLabel": "System uptime"
+      },
+      "eyebrowText": "LEARN AT SCALE",
+      "eyebrowSubtext": "Learning at scale",
+      "headlineLine1": "Personalized learning,",
+      "headlineLine2": "at <hl>university</hl> scale",
+      "lede": "The native AI platform for higher education — developed for {org}; {slogan}."
+    },
+    "coBrand": {
+      "linkLegal": "Terms and Privacy",
+      "linkSupport": "Support",
+      "linkStatus": "System Status",
+      "linkApi": "API"
+    }
+  },
+  "verifyPhone": {
+    "eyebrow": "Phone Number Verification",
+    "title": "Verify your phone number",
+    "subtitle": "To sign up, make wallet payments, and receive certificates, your phone number must be verified.",
+    "loading": "Checking status…",
+    "phone": {
+      "label": "Phone number",
+      "submit": "Send verification code",
+      "skip": "Skip for now"
+    },
+    "code": {
+      "changeNumber": "Change number"
+    },
+    "toast": {
+      "codeSent": {
+        "title": "Code sent",
+        "msg": "A 6-digit code has been sent to your phone."
+      },
+      "verified": {
+        "title": "Verified",
+        "msg": "Your phone number has been verified."
+      }
+    },
+    "errors": {
+      "invalidPhone": "Invalid phone number.",
+      "sendFailed": "Failed to send code."
+    }
+  },
+  "apply": {
+    "wizard": {
+      "screenLabel": "Application — Enrollment",
+      "eyebrow": "ADMISSIONS · Enrollment and Admission",
+      "title": "Step-by-step Enrollment",
+      "lead": "No login required. Enter your identity information and documents, complete authentication (Hoda), and receive a tracking code."
+    },
+    "steps": {
+      "role": {
+        "label": "Application type",
+        "heading": "Select application type",
+        "helpTitle": "Which role?",
+        "helpBody": "\"Student\" is for academic admission and \"Instructor / Faculty\" is for educational collaboration. Other roles (parent, organization) are activated via support, and administrative roles (university/faculty president, content manager, support, etc.) are created by the university, not via public registration.",
+        "selectedLabel": "Selected role:"
+      },
+      "identity": {
+        "label": "Identity information",
+        "heading": "Identity information",
+        "helpTitle": "Identity Information Guide",
+        "helpBody": "All asterisks fields are required. The national ID is validated immediately. Please enter the birth date in the Solar Hijri format (e.g., 1380/05/12)."
+      },
+      "documents": {
+        "label": "Upload Documents",
+        "heading": "Upload Documents",
+        "helpTitle": "Document Upload Guide",
+        "helpBody": "Upload a clear image or scan of your documents. Allowed formats: JPG, PNG, WebP or PDF — each file must be under 1.3 MB. Asterisk-marked documents are required."
+      },
+      "verification": {
+        "label": "Identity Verification",
+        "heading": "Identity Verification (Hoda System)",
+        "helpTitle": "About Identity Verification",
+        "helpBodyPart1": "This inquiry is conducted based on your national ID, birth certificate number, and birth date, and has three levels: basic match, identity confirmation, and full inquiry.",
+        "helpBodyNote": "Note:",
+        "helpBodyPart2": "Since direct access to the government system is not available, this step is",
+        "helpBodyDemo": "demonstration",
+        "helpBodyPart3": "only, and the result will be attached to your file.",
+        "loading": "Querying…",
+        "notRun": "The inquiry was not performed.",
+        "retryButton": "Try Again",
+        "levelBadge": "Level {level} of 3",
+        "statusVerified": "Full Identity Verification (Demo)",
+        "statusPartial": "Partial Identity Verification",
+        "statusNone": "Not Verified",
+        "refSuffix": " · Tracking Code: {ref}",
+        "helperText": "If the verification level is low, you can return to the \"Identity Information\" step and complete the information. Submitting the application is possible at any level; final review is done by the admissions expert."
+      },
+      "review": {
+        "label": "Review and Submit",
+        "heading": "Review and Submit",
+        "helpTitle": "Final Review",
+        "helpBody": "Please review your information once. To edit any section, return to the relevant step from the steps above. By clicking \"Submit Application\", your file will be registered and a tracking code will be issued."
+      }
+    },
+    "roles": {
+      "student": {
+        "title": "Student",
+        "description": "Admission to study programs"
+      },
+      "instructor": {
+        "title": "Instructor / Faculty Member",
+        "description": "Collaboration as a professor"
+      }
+    },
+    "identity": {
+      "programLabel": "Study Program",
+      "programsLoading": "Loading programs…",
+      "noActivePrograms": "There are currently no active programs open for admission.",
+      "selectPlaceholder": "— Please select —",
+      "preferredDeptLabel": "Preferred Department (Optional)",
+      "preferredDeptPlaceholder": "e.g.: Computer Engineering",
+      "desiredRankLabel": "Desired Academic Rank (Optional)",
+      "fullNameLabel": "Full Name",
+      "fatherNameLabel": "Father's Name",
+      "nationalIdLabel": "National ID",
+      "nationalIdValid": "National ID is valid ✓",
+      "nationalIdInvalidChecksum": "Invalid National ID checksum",
+      "birthCertNoLabel": "Birth certificate number",
+      "birthDateLabel": "Date of birth (Solar Hijri)",
+      "genderLabel": "Gender",
+      "emailLabel": "Email",
+      "emailVerified": "Your email has been verified.",
+      "sendEmailOtpButton": "Send verification code to email",
+      "otpPromptPrefix": "Enter the 6-digit code sent to",
+      "otpPromptSuffix": ":",
+      "verifyOtpButton": "Verify code",
+      "resendOtpCountdown": "Resend ({seconds})",
+      "resendOtpButton": "Resend",
+      "phoneLabel": "Phone number",
+      "provinceLabel": "Province",
+      "cityLabel": "City",
+      "postalCodeLabel": "Postal code",
+      "addressLabel": "Address",
+      "expertiseLabel": "Areas of expertise (comma separated)",
+      "expertisePlaceholder": "Machine Learning, Networking, Database",
+      "cvUrlLabel": "Resume / CV URL (optional)",
+      "educationLabel": "Education history (optional)",
+      "addEducationButton": "+ Add degree",
+      "noEducationHint": "Optionally, add your previous degrees.",
+      "educationDegreePlaceholder": "Degree (High School / Bachelor's...)",
+      "educationFieldPlaceholder": "Field of study",
+      "educationInstitutionPlaceholder": "Institution",
+      "educationYearPlaceholder": "Year",
+      "educationGpaPlaceholder": "GPA",
+      "bioLabel": "About you / Motivation (optional)"
+    },
+    "ranks": {
+      "assistant": "Assistant Professor",
+      "associate": "Associate Professor",
+      "full": "Full Professor",
+      "emeritus": "Professor Emeritus"
+    },
+    "genders": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "provinces": {
+      "tehran": "Tehran",
+      "alborz": "Alborz",
+      "isfahan": "Isfahan",
+      "fars": "Fars",
+      "khorasanRazavi": "Razavi Khorasan",
+      "eastAzerbaijan": "East Azerbaijan",
+      "westAzerbaijan": "West Azerbaijan",
+      "khuzestan": "Khuzestan",
+      "mazandaran": "Mazandaran",
+      "gilan": "Gilan",
+      "kerman": "Kerman",
+      "kermanshah": "Kermanshah",
+      "qom": "Qom",
+      "qazvin": "Qazvin",
+      "yazd": "Yazd",
+      "golestan": "Golestan",
+      "hamedan": "Hamadan",
+      "ardabil": "Ardabil",
+      "zanjan": "Zanjan",
+      "markazi": "Markazi",
+      "hormozgan": "Hormozgan",
+      "lorestan": "Lorestan",
+      "sistanBaluchestan": "Sistan and Baluchestan",
+      "kurdistan": "Kurdistan",
+      "bushehr": "Bushehr",
+      "arak": "Arak",
+      "semnan": "Semnan",
+      "ilam": "Ilam",
+      "chaharmahalBakhtiari": "Chaharmahal and Bakhtiari",
+      "kohgiluyehBoyerahmad": "Kohgiluyeh and Boyer-Ahmad",
+      "northKhorasan": "North Khorasan",
+      "southKhorasan": "South Khorasan"
+    },
+    "degreeLevels": {
+      "bachelor": "Bachelor's",
+      "master": "Master's",
+      "phd": "PhD",
+      "certificate": "Certificate"
+    },
+    "upload": {
+      "slots": {
+        "nationalCard": "National ID card image",
+        "birthCert": "Birth certificate (first page) image",
+        "transcriptStudent": "Latest degree / Academic transcripts",
+        "transcriptInstructor": "Latest degree certificate",
+        "resume": "Resume (file)",
+        "other": "Other documents (optional)"
+      }
+    },
+    "actions": {
+      "remove": "Remove",
+      "chooseFile": "Choose file",
+      "prevStep": "Previous step",
+      "nextStep": "Next step",
+      "submitButton": "Submit application",
+      "cancelButton": "Cancel"
+    },
+    "review": {
+      "typeLabel": "Application type",
+      "programLabel": "Field of study",
+      "emptyValue": "—",
+      "fullNameLabel": "Full name",
+      "fatherNameLabel": "Father's name",
+      "nationalIdLabel": "National ID",
+      "birthCertNoLabel": "Birth certificate number",
+      "birthDateLabel": "Date of birth",
+      "genderLabel": "Gender",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "provinceCityLabel": "Province / City",
+      "docsCountLabel": "Uploaded documents",
+      "docsCount": "{count, plural, one {# item} other {# items}}",
+      "hodaLevelLabel": "Identity verification level (Hoda)",
+      "hodaLevelValue": "{level} of 3"
+    },
+    "errors": {
+      "fileTypeInvalid": "Only images (JPG/PNG/WebP) or PDF are allowed.",
+      "fileTooLarge": "File size must be less than 1.3 MB. Please scan or take a photo with a lower resolution.",
+      "fileReadFailed": "Failed to read file.",
+      "programsFetchFailed": "Error fetching program list",
+      "emailInvalidBeforeOtp": "Please enter a valid email first.",
+      "otpSendFailed": "Failed to send code. Please try again.",
+      "otpCodeIncomplete": "Please enter the complete 6-digit code.",
+      "otpInvalid": "The code is incorrect or expired. Please try again.",
+      "otpVerifyFailed": "Verification failed. Please try again.",
+      "fileUploadFailed": "File upload failed.",
+      "fullNameRequired": "Full name is required.",
+      "fullNameTooLong": "Name is too long.",
+      "fatherNameRequired": "Father's name is required.",
+      "emailRequired": "Email is required.",
+      "emailInvalidFormat": "Invalid email format.",
+      "emailOtpRequired": "Please verify your email with the verification code first.",
+      "nationalIdRequired": "National ID is required.",
+      "nationalIdInvalid": "Invalid National ID (check digit is incorrect).",
+      "birthCertNoRequired": "Birth certificate number is required.",
+      "birthDateRequired": "Date of birth is required (e.g., 2001/08/03).",
+      "genderRequired": "Please select a gender.",
+      "phoneInvalid": "Invalid phone number.",
+      "bioTooLong": "Description must be at most 2000 characters.",
+      "programRequired": "Selecting a field of study is required.",
+      "cvUrlInvalid": "The resume URL must start with http(s).",
+      "docRequired": "\"{label}\" is required.",
+      "invalidInputFallback": "Invalid input.",
+      "incompleteFields": "Some fields are incomplete.",
+      "trackingTokenMissing": "Tracking code not received. Please contact support.",
+      "submitUnknown": "An unknown error occurred while submitting the request"
+    },
+    "toast": {
+      "reviewFormTitle": "Review Form",
+      "submitFailedTitle": "Submission Failed"
+    },
+    "messages": {
+      "otpSent": "Verification code sent to your email."
+    },
+    "confirmation": {
+      "screenLabel": "Application — Confirmation",
+      "eyebrow": "Submitted",
+      "titleIdempotent": "Your application was already submitted",
+      "title": "Your application has been submitted",
+      "referenceLabel": "Your tracking code:",
+      "idLevelPrefix": "Identity verification level (Hoda):",
+      "idLevelSuffix": "out of 3",
+      "idLevelNotVerified": "— Not verified",
+      "trackingLinkLabel": "Status tracking link — Save this",
+      "trackingLinkHelp": "You can use this link to check the status of your application and cancel it if needed.",
+      "copiedButton": "Copied ✓",
+      "copyButton": "Copy Link",
+      "viewStatusButton": "View Status",
+      "nextStepsHeading": "Next Steps",
+      "backHomeButton": "Back to Home",
+      "copiedToastTitle": "Copied",
+      "copiedToastMsg": "Tracking link copied to clipboard.",
+      "copyFailedToastTitle": "Failed to Copy",
+      "copyFailedToastMsg": "Please select and copy the link manually."
+    },
+    "timeline": {
+      "submitted": {
+        "title": "Application Submitted",
+        "desc": "Your application was submitted and a tracking code was issued."
+      },
+      "review": {
+        "title": "Expert Review",
+        "desc": "The admissions team will review your application and documents within about 14 days."
+      },
+      "verification": {
+        "title": "Identity Verification",
+        "desc": "The identity inquiry result (Hoda) is attached to your file."
+      },
+      "decision": {
+        "title": "Final Decision",
+        "desc": "The result will be announced through this tracking page and via email."
+      }
+    }
+  },
+  "reset": {
+    "screenLabel": "Reset password",
+    "eyebrow": "Password reset",
+    "title": "Set a new password",
+    "validating": "Verifying link…",
+    "invalid": {
+      "body": "This reset link is invalid, expired, or has already been used. You can request a new link.",
+      "requestNew": "Request new link",
+      "backToLogin": "Back to sign in"
+    },
+    "form": {
+      "intro": "Choose a secure new password (at least 8 characters). Once set, log in with your new password.",
+      "newPasswordLabel": "New password",
+      "confirmPasswordLabel": "Confirm password",
+      "submitting": "Submitting…",
+      "submitCta": "Set new password"
+    },
+    "errors": {
+      "tooShort": "Password must be at least 8 characters long.",
+      "mismatch": "The passwords do not match.",
+      "submitFailed": "Password reset failed. The link may have expired or already been used."
+    },
+    "done": {
+      "body": "Your password has been successfully changed. For security, your previous sessions have been closed. Please log in with your new password now.",
+      "loginCta": "Log in to account"
+    }
+  },
+  "claim": {
+    "screenLabel": "Activate account",
+    "eyebrow": "Account activation",
+    "title": "Set password",
+    "validating": "Verifying link…",
+    "invalid": {
+      "body": "This activation link is invalid, expired, or has already been used. If you were recently admitted, check your email for a new link or contact support.",
+      "loginCta": "Log in to account",
+      "backHome": "Back to home"
+    },
+    "form": {
+      "intro": "Set a secure password to activate your account and log in (at least 8 characters).",
+      "passwordLabel": "Password",
+      "confirmPasswordLabel": "Confirm password",
+      "submitting": "Activating…",
+      "submitCta": "Activate and log in"
+    },
+    "errors": {
+      "tooShort": "Password must be at least 8 characters long.",
+      "mismatch": "The passwords do not match.",
+      "submitFailed": "Account activation failed. The link may have expired or already been used."
+    },
+    "toast": {
+      "title": "Welcome",
+      "msg": "Your account has been activated."
+    },
+    "done": {
+      "body": "Your password has been set. You can now log in to your account.",
+      "loginCta": "Log in to account"
+    }
+  },
+  "forgot": {
+    "eyebrow": "RECOVERY",
+    "title": "Forgot your password?",
+    "sub": "Enter your email address. We will send you a secure one-time reset link.",
+    "sentMessage": "If this email is registered in the system, a reset link has been sent to it. Check your inbox (and spam folder). The link is valid for 1 hour.",
+    "emailLabel": "Registered email",
+    "submitCta": "Send recovery link",
+    "securityNote": {
+      "label": "Secure:",
+      "body": "Recovery links are valid for only 1 hour and can only be used once."
+    },
+    "rememberedQuestion": "Remembered your password?",
+    "backToLogin": "Back to sign in",
+    "errors": {
+      "invalidEmail": "The email format is invalid."
+    }
+  },
+  "twoFactor": {
+    "eyebrow": "SECURITY · Two-Step Verification",
+    "title": "Add an extra layer of security",
+    "sub": "Two-factor authentication protects your account against unauthorized access.",
+    "loading": "Preparing…",
+    "errorPhase": {
+      "body": "You must log in to your account first to enable two-factor authentication.",
+      "loginCta": "Sign in"
+    },
+    "step1": {
+      "label": "Step 1 · Scan QR with Authenticator app",
+      "instructions": "Scan this QR code with Google Authenticator / Authy / 1Password.",
+      "manualEntry": "Or enter the key manually:"
+    },
+    "qrLoading": "Preparing QR code…",
+    "recoveryCodes": {
+      "intro": "Recovery codes — save these in a safe place. If you lose your device, these codes are the only way to log in (displayed only once)."
+    },
+    "step2": {
+      "label": "Step 2 · 6-digit code shown in the app"
+    },
+    "codeInputPlaceholder": "123456",
+    "enableCta": "Enable",
+    "skipCta": "Do this later · Back to settings",
+    "errors": {
+      "incomplete": "Enter the 6-digit app code.",
+      "enableFailed": "Enabling failed; check the code."
+    },
+    "done": {
+      "body": "✓ Two-step verification enabled. From now on, when signing in, the Authenticator app code will be required in addition to your password.",
+      "reminder": "Make sure you have saved your recovery codes — they are the only way to log in if your device is lost.",
+      "backToSettings": "Back to settings"
+    }
+  },
+  "verifyEmail": {
+    "eyebrow": "VERIFY · Email Verification",
+    "title": "Verify your email",
+    "sub": "We sent a 6-digit code to your email. This code is valid for 10 minutes.",
+    "codeSentPrefix": "Code sent to",
+    "codeSentSuffix": "",
+    "codeLabel": "6-digit code",
+    "digitAriaLabel": "Digit {index} of the 6-digit verification code",
+    "submitCta": "Verify and continue",
+    "resendQuestion": "Didn't receive the code?",
+    "resendIn": "Resend in 0:42",
+    "note": {
+      "label": "Note:",
+      "body": "If you don't find the email in your inbox, check spam or"
+    },
+    "changeEmailCta": "Change email",
+    "errors": {
+      "incomplete": "Please enter the complete 6-digit code."
+    }
+  },
+  "onboarding": {
+    "steps": {
+      "level": "Placement",
+      "interests": "Interests",
+      "goals": "Goals",
+      "ready": "Ready"
+    },
+    "progress": {
+      "label": "Step {step} of {total} · {stepName}"
+    },
+    "skipCta": "Skip",
+    "level": {
+      "title": "What is your current level in machine learning?",
+      "subtitle": "This helps us build a personalized plan for you. Don't worry — you can change it later.",
+      "options": {
+        "novice": {
+          "title": "Novice",
+          "desc": "I have no experience, I want to start from scratch"
+        },
+        "beginner": {
+          "title": "Beginner",
+          "desc": "I know basic concepts and Python"
+        },
+        "intermediate": {
+          "title": "Intermediate",
+          "desc": "I have implemented a few classical models and worked with scikit-learn"
+        },
+        "advanced": {
+          "title": "Advanced",
+          "desc": "I work on deep learning and have experience with PyTorch/TF"
+        },
+        "professional": {
+          "title": "Professional",
+          "desc": "I have industry or research experience"
+        }
+      },
+      "continueCta": "Continue"
+    },
+    "interests": {
+      "title": "What interests you?",
+      "subtitle": "Select at least 3 interests. Based on this, we will recommend courses, articles, and events.",
+      "tags": {
+        "nlp": "Natural Language Processing",
+        "vision": "Computer Vision",
+        "data": "Data Science",
+        "stats": "Statistics and Probability",
+        "rl": "Reinforcement Learning",
+        "sys": "Distributed Systems",
+        "se": "Software Engineering",
+        "pm": "Product Management",
+        "ux": "User Experience",
+        "ethics": "AI Ethics",
+        "math": "Applied Mathematics",
+        "lin": "Computational Linguistics"
+      },
+      "selectedCount": "{count, plural, one {# selected} other {# selected}}",
+      "continueCta": "Continue"
+    },
+    "goals": {
+      "title": "What is your main goal?",
+      "subtitle": "This adjusts how we recommend courses.",
+      "options": {
+        "career": {
+          "title": "Career transition",
+          "desc": "Enter the AI/Data field"
+        },
+        "promo": {
+          "title": "Growth in current job",
+          "desc": "Promotion and new skills"
+        },
+        "research": {
+          "title": "Academic research",
+          "desc": "Preparation for Ph.D."
+        },
+        "project": {
+          "title": "Build a project",
+          "desc": "Personal idea or startup"
+        },
+        "curiosity": {
+          "title": "Personal curiosity",
+          "desc": "I want to know how it works"
+        },
+        "cert": {
+          "title": "Certificate for employer",
+          "desc": "I need an official credential"
+        }
+      },
+      "continueCta": "Continue"
+    },
+    "ready": {
+      "heading": "Your profile has been created",
+      "body": "Your initial cognitive profile was created using over 24 metrics. AI is ready to suggest your personalized learning path.",
+      "card": {
+        "label": "First recommendation",
+        "courseTitle": "Machine Learning Fundamentals — CS-410",
+        "meta": "Dr. Arash Azimi · 12 weeks · 92% mastery probability of success"
+      },
+      "saving": "Saving…",
+      "startCta": "Start learning"
+    }
+  },
+  "authChrome": {
+    "login": {
+      "testimonial": {
+        "quote": "It was the first time I felt like I had a real educational assistant. The cognitive profile knows where I'm stuck and what I should do.",
+        "avatarInitials": "NR",
+        "name": "Nasrin Razavi",
+        "role": "M.Sc. · Data Science"
+      },
+      "headline": {
+        "line1": "Personalized learning,",
+        "line2": "at university scale"
+      },
+      "stats": "2.4M+ learning events · 99.9% uptime"
+    },
+    "security": {
+      "headline": {
+        "line1": "Security comes first",
+        "line2": "from day one"
+      },
+      "bullets": {
+        "encryption": {
+          "title": "End-to-End Encryption",
+          "desc": "All data is encrypted from source to destination"
+        },
+        "sessions": {
+          "title": "Controllable sessions",
+          "desc": "You can sign out of any session remotely"
+        },
+        "weeklyReport": {
+          "title": "Weekly security report",
+          "desc": "Summary of suspicious activity sent to your email"
+        }
+      }
+    }
+  }
+}

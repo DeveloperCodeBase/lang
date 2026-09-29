@@ -1,0 +1,1271 @@
+{
+  "bundles": {
+    "card": {
+      "badge": "套餐",
+      "buyerCount": "{count, plural, other {# 名买家}}",
+      "courseCount": "{count, plural, other {# 门课程}}",
+      "cover": {
+        "alt": "{title} 套餐封面"
+      },
+      "free": "免费",
+      "savingsChip": "相比单独购买省 {savings}"
+    },
+    "catalog": {
+      "allCoursesButton": "全部课程",
+      "badge": "公开",
+      "empty": {
+        "body": "知识市场的课程套餐即将在此显示。在此之前，您可以单独查看课程。",
+        "cta": "前往知识市场",
+        "title": "暂无发布的套餐"
+      },
+      "help": {
+        "emphasis": "其中包含的所有课程",
+        "lead": "“套餐”是由同一讲师开设的一系列课程组合，以统一价格出售，通常低于单独购买所有课程的总价。购买套餐即可解锁",
+        "tail": "。点击任意套餐即可查看课程列表、价格和优惠金额。",
+        "title": "什么是课程套餐？"
+      },
+      "resultCount": "{count, plural, other {找到 # 个套餐}}",
+      "subtitle": "以更优惠的价格打包购买多门相关课程。",
+      "title": "课程套餐"
+    },
+    "detail": {
+      "authorCta": "这是您的套餐 — 在工作室中编辑",
+      "backButton": "返回套餐列表",
+      "badge": "课程套餐",
+      "buyFree": "免费领取套餐",
+      "buyPaid": "购买套餐 {price}",
+      "cover": {
+        "alt": "{title} 套餐封面"
+      },
+      "dialog": {
+        "bodyCourses": "{count, plural, other {# 门课程}}",
+        "bodyFree": " 此套餐为免费，购买后将立即为您解锁所有课程。",
+        "bodyLead": "套餐“{title}”包含 ",
+        "bodyPaid": " 应付金额：{price}。付款后，套餐内的所有课程将为您解锁。",
+        "bodyTail": "。",
+        "cancelButton": "取消",
+        "closeAriaLabel": "关闭",
+        "processing": "处理中…",
+        "submitFree": "免费领取",
+        "submitPaid": "支付并购买",
+        "titleFree": "领取套餐",
+        "titlePaid": "购买套餐"
+      },
+      "facts": {
+        "buyers": "{count, plural, other {# 名买家}}",
+        "courses": "{count, plural, other {# 门课程}}",
+        "publishedAt": "发布于：{date}"
+      },
+      "free": "免费",
+      "help": {
+        "emphasis": "{count, plural, other {所列出的全部 # 门课程}}",
+        "lead": "通过购买此优惠套装，您将获得 ",
+        "tail": " 的访问权限。如果您之前已经购买过其中的部分课程，系统将不会重复扣费，只有新课程会自动添加到“我的课程”中。支付流程与购买单门课程完全相同。",
+        "title": "购买此套装包含什么？"
+      },
+      "included": {
+        "free": "免费",
+        "heading": "套装包含的课程",
+        "untitled": "未命名课程"
+      },
+      "notFound": "未找到该套装",
+      "note": {
+        "free": "此套装为免费套装，其中的所有课程将立即为您解锁。",
+        "paid": "只需一次支付，套装内的所有课程将永久为您解锁。"
+      },
+      "savingsBadge": "省 {percent, number}%",
+      "separate": {
+        "label": "单独购买课程：",
+        "savingsLead": "— 为您节省"
+      },
+      "toast": {
+        "freeBody": "套装中的所有课程已添加到“我的课程”。",
+        "freeTitle": "套装领取成功。"
+      }
+    },
+    "editor": {
+      "back": "返回套装列表",
+      "compare": {
+        "price": "套装价格",
+        "savings": "买家节省",
+        "sum": "单独购买总价",
+        "title": "价格对比",
+        "warn": "套装价格高于单独购买的总价；套装通常应当更加优惠。"
+      },
+      "help": {
+        "body": "您只能将自己<b>已发布的课程</b>添加到套装中。建议将“套装价格”设得低于“单独购买总价”，以便买家看到优惠。买家通过一次支付即可访问套装中的所有课程，收益将根据课程购买规则在您与大学之间进行分配。套装必须包含至少<b>两门课程</b>才能发布；发布后，课程内容和价格将被锁定。",
+        "title": "套装创建指南"
+      },
+      "items": {
+        "add": "添加课程",
+        "empty": "该套装中尚无课程。点击“添加课程”添加您已发布的课程（发布需要至少两门课程）。",
+        "remove": "移除",
+        "removeAria": "从套装中移除 {title}",
+        "title": "{count, plural, other {套装课程 (#)}}",
+        "untitled": "未命名课程"
+      },
+      "lead": "将您已发布的课程添加到套装中并设定套装价格。系统将实时计算相比单独购买的节省金额。",
+      "locked": "此套装已发布，无法再进行编辑。如需更改课程或价格，您必须创建一个新套装。",
+      "meta": {
+        "coverLabel": "封面图片链接（可选）",
+        "descLabel": "描述",
+        "descPlaceholder": "该套装包含哪些课程，适合哪些人群。",
+        "priceHint": "买家支付的金额即为该金额 ({price})。输入 0 则套装免费并立即解锁访问权限。",
+        "priceLabel": "套装价格（里亚尔）",
+        "pricePlaceholder": "免费套装请输入 0",
+        "save": "保存信息",
+        "saving": "正在保存…",
+        "title": "套装信息",
+        "titleLabel": "套餐标题",
+        "titlePlaceholder": "例如：机器学习完整合集"
+      },
+      "notFound": "未找到套餐",
+      "picker": {
+        "add": "添加",
+        "adding": "正在添加…",
+        "close": "关闭",
+        "closeButton": "关闭",
+        "empty": "没有其他已发布的课程可供添加。请先在工作室中发布您的课程。",
+        "note": "仅显示尚未包含在此套餐中的、<b>您自己已发布</b>的课程。",
+        "title": "添加课程至套餐"
+      },
+      "pub": {
+        "bodyLead": "套餐“{title}”（包含 {count, plural, one {# 门课程} other {# 门课程}}，价格为 ",
+        "bodyTail": "）即将发布，并将在知识市场中上架销售。发布后，套餐内的课程和价格将被锁定。",
+        "cancel": "取消",
+        "close": "关闭",
+        "publishing": "正在发布…"
+      },
+      "publish": "发布套餐",
+      "publishHint": "发布至少需要两门课程。",
+      "toast": {
+        "metaSaved": "套餐信息已保存。",
+        "published": "套餐已发布。",
+        "publishedDesc": "现已可在知识市场中购买。",
+        "removeFailed": "从套餐中移除课程失败。"
+      },
+      "viewPublic": "查看公开页面"
+    },
+    "eyebrow": "知识市场",
+    "free": "免费",
+    "savingsChipShort": "优惠 {percent, number}%",
+    "status": {
+      "archived": "已归档",
+      "draft": "草稿",
+      "published": "已发布",
+      "suspended": "已暂停"
+    },
+    "studio": {
+      "buyerCount": "{count, plural, one {# 位买家} other {# 位买家}}",
+      "courseCount": "{count, plural, one {# 门课程} other {# 门课程}}",
+      "coursesStudio": "课程工作室",
+      "create": {
+        "descLabel": "简短描述",
+        "descPlaceholder": "用一两句话说明此套餐包含哪些课程以及适合什么人群。",
+        "hint": "创建后，您将在下一步中把已发布的课程添加到套餐并设置套餐价格。",
+        "titleLabel": "套餐标题",
+        "titlePlaceholder": "例如：机器学习完整合集"
+      },
+      "del": {
+        "body": "套餐“{title}”将被删除。套餐内的课程将保持不变，仅从您的列表中移除该套餐。此操作不可撤销。",
+        "cancel": "取消",
+        "close": "关闭",
+        "deleting": "正在删除…",
+        "submit": "删除套餐",
+        "title": "删除套餐"
+      },
+      "delete": "删除",
+      "edit": "编辑",
+      "editAria": "编辑套餐 {title}",
+      "empty": {
+        "body": "创建你的第一个套餐，并在其中添加几门已发布的课程。",
+        "title": "你还没有创建任何套餐"
+      },
+      "help": {
+        "body": "“套餐”是你自己的<b>多门已发布课程</b>的组合，以单一价格出售。此价格通常低于各门课程单独购买的总价；系统会向买家展示由此节省的金额。买家<b>只需购买一次</b>套餐，即可立即注册<b>套餐内的所有课程</b>（如果之前已拥有其中某些课程，则不会重复计算）。套餐在处于“草稿”状态时可以自由编辑；发布时必须包含至少<b>两门课程</b>，发布后课程和价格将被锁定。",
+        "title": "什么是课程套餐？"
+      },
+      "lead": "将你的几门已发布课程打包成一个“套餐”，并以组合价（通常低于单买总价）进行销售。买家只需一次支付，即可访问<b>套餐中的所有课程</b>。",
+      "newBundle": "创建新套餐",
+      "title": "我的课程套餐"
+    },
+    "titleRequired": "“套餐标题”为必填项（至少 2 个字符）。"
+  },
+  "cart": {
+    "actions": {
+      "clearCart": "清空购物车",
+      "continueShopping": "继续购物"
+    },
+    "blockedWarning": "{count, plural, other {# 项商品无法购买；请先修改或将其移除。}}",
+    "checkout": {
+      "freeButton": "免费注册购物车商品",
+      "freeToast": {
+        "description": "{count, plural, other {# 门课程已添加到“我的课程”。}}",
+        "title": "免费注册成功。"
+      },
+      "payButton": "结算购物车 — {amount}",
+      "walletToast": {
+        "description": "新的钱包余额：{amount}",
+        "title": "已使用钱包成功购买购物车商品。"
+      }
+    },
+    "empty": {
+      "body": "在“知识市场”中点击“加入购物车”按钮，将你心仪的课程收集到这里。",
+      "cta": "前往知识市场",
+      "title": "你的购物车是空的"
+    },
+    "free": "免费",
+    "header": {
+      "itemCount": "{count, plural, other {# 项}}"
+    },
+    "help": {
+      "body": "每项商品的最新价格直接从课程中读取；如果价格发生变化或优惠券过期，你将在此处看到。你可以为每门课程单独输入优惠券代码。通过“结算购物车”，所有商品只需一次支付即可完成购买，每门课程都有其独立的财务凭证和收据；因此，退款也是针对每门课程单独处理的。",
+      "title": "购物车是如何工作的？"
+    },
+    "item": {
+      "applyCouponButton": "使用优惠券",
+      "couponAriaLabel": "{title} 的优惠券代码",
+      "couponPlaceholder": "优惠券代码（可选）",
+      "discountBadge": "优惠 {amount}",
+      "removeButton": "移除",
+      "removeCouponButton": "移除优惠券",
+      "thisCourse": "本课程",
+      "unavailableTitle": "本课程已下架",
+      "viewAriaLabel": "查看课程 {title}"
+    },
+    "mutateErrorToast": {
+      "title": "更新购物车失败。"
+    },
+    "pageSubtitle": "您已选择购买的课程；所有课程将通过一次支付完成。",
+    "pageTitle": "购物车",
+    "payMethod": {
+      "gateway": "通过网关支付",
+      "wallet": "从钱包支付（余额：{amount}）",
+      "walletInsufficient": "钱包余额不足以支付此购物车，请先充值钱包。"
+    },
+    "summary": {
+      "discountLabel": "优惠",
+      "payableLabel": "应付金额",
+      "subtotalLabel": "小计",
+      "taxNote": "标注金额已包含税费，税额将在每门课程的收据中单独列出。"
+    }
+  },
+  "certificate": {
+    "canvas": {
+      "ariaLabel": {
+        "course": "结业证书 — {courseTitle}",
+        "degree": "学位证书 — {courseTitle}"
+      },
+      "course": {
+        "authenticity": "本证书的真实性仅可通过在线验证系统进行核实。",
+        "codeLabel": "验证码",
+        "disclaimer": "本证书为结业证书，不作为大学学位学历证书。",
+        "gridHeading": "课程与学员信息",
+        "intro": "兹证明",
+        "labels": {
+          "desc": "课程简介",
+          "instructor": "授课教师",
+          "issued": "签发日期",
+          "issuer": "签发机构",
+          "mode": "授课方式",
+          "serial": "序列号"
+        },
+        "modeValue": "在线",
+        "sentence": "已在本校顺利完成以下课程：",
+        "verifyLabel": "在线真伪验证"
+      },
+      "decimalSeparator": ".",
+      "degree": {
+        "authenticity": "本学位证书的真实性仅可通过在线验证系统进行核实。",
+        "creditsUnit": "学分",
+        "gpaOf": "满分",
+        "gridHeading": "课程与学员信息",
+        "idPrefix": "身份证号",
+        "intro": "兹证明",
+        "labels": {
+          "award": "授予学位",
+          "completion": "完成日期",
+          "credits": "总学分",
+          "entry": "入学日期",
+          "faculty": "院系",
+          "field": "专业与方向",
+          "gpa": "平均绩点 (GPA)",
+          "graduation": "毕业日期",
+          "issued": "签发日期",
+          "level": "课程级别/层次",
+          "mode": "授课方式",
+          "serial": "序列号"
+        },
+        "sentence": "已在该大学成功完成以下课程项目并毕业：",
+        "title": "学位证书"
+      },
+      "englishDiplomaBlocked": "未签发英文版学位证书：未登记持有人的罗马字母拼写。秘书处必须在签发时输入该信息；不允许自动生成拉丁文姓名。",
+      "issuedOnLabel": "签发于 {date}",
+      "percentSuffix": "%",
+      "shared": {
+        "eyebrow": "仁慈的真主",
+        "telLabel": "电话："
+      }
+    },
+    "modal": {
+      "cancelButton": "取消",
+      "closeAriaLabel": "关闭",
+      "closeButton": "关闭",
+      "completedIntro": "恭喜！您已完成课程“{courseTitle}”。",
+      "issueButton": "获取结业证书",
+      "issueExplanation": "获取证书后，系统将为您生成一张带有查询码的“结业证书”（这是课程证书，而非大学学位）。如果该课程包含考试，证书仅在考试合格后方可签发。",
+      "issuedByLabel": "签发人：{issuer}",
+      "issuedDateLabel": "签发日期：{date}",
+      "issuedToast": {
+        "description": "已为您签发结业证书。",
+        "title": "证书已签发"
+      },
+      "issuingLabel": "正在签发…",
+      "legalDisclaimer": "此“结业证书”属于知识市场课程，不属于大学学历学位。您可以在“证书与文凭”部分输入查询码以验证其真伪。",
+      "loading": "正在加载…",
+      "openPrintableButton": "可打印证书（PDF / 图片）",
+      "printButton": "打印 / 保存为 PDF",
+      "serialLabel": "查询码：{serial}",
+      "status": {
+        "revoked": "已撤销",
+        "valid": "有效"
+      },
+      "title": "结业证书",
+      "viewCertificateButton": "查看证书"
+    }
+  },
+  "courseDetail": {
+    "about": {
+      "audienceTitle": "课程对象",
+      "objectivesTitle": "学习目标",
+      "prerequisitesTitle": "先修要求",
+      "title": "关于本课程"
+    },
+    "author": {
+      "editInStudio": "这是您的课程 — 在工作室中编辑"
+    },
+    "authorBio": {
+      "showcaseButton": "讲师橱窗",
+      "title": "关于讲师"
+    },
+    "backButton": "返回知识市场",
+    "badges": {
+      "owned": "您已拥有此课程"
+    },
+    "buyDialog": {
+      "cancelButton": "取消",
+      "closeAriaLabel": "关闭",
+      "couponAppliedNote": "优惠券已使用 — 优惠 {amount}。",
+      "couponApplyButton": "使用",
+      "couponChecking": "正在检查…",
+      "couponEmptyError": "请输入优惠券代码。",
+      "couponLabel": "优惠券代码（可选）",
+      "couponPlaceholder": "例如 SUMMER1404",
+      "gatewayFlowNote": "确认后将跳转至支付网关。支付成功后，课程将立即为您解锁，并可在“我的课程”中访问。",
+      "gatewayOption": "支付网关",
+      "memberDiscountNote": "包含 {amount} 会员折扣",
+      "payAndBuy": "支付并购买",
+      "payFromWallet": "从钱包支付",
+      "payableAmountLabel": "应付金额",
+      "paymentMethodLabel": "支付方式",
+      "processing": "正在处理…",
+      "titleFree": "免费开始课程",
+      "titlePaid": "购买课程",
+      "walletFlowNote": "金额将立即从您的钱包中扣除，课程将同时在“我的课程”中解锁。",
+      "walletInsufficientNote": "钱包余额不足以完成此次购买；请先充值。",
+      "walletOption": "钱包 — 余额 {balance}"
+    },
+    "buyNote": {
+      "enrolled": "您已获得该课程的访问权限。",
+      "free": "本课程免费，开始后即可立即访问。",
+      "paid": "一次性买断；支付后永久解锁课程。",
+      "unset": "本课程暂未定价。"
+    },
+    "chart": {
+      "emptyText": "本课程暂无大纲。",
+      "lockedLabel": "锁定",
+      "previewBadge": "免费预览",
+      "previewButton": "免费预览",
+      "sectionCountInModule": "{count, plural, other {# 个章节}}",
+      "title": "课程大纲"
+    },
+    "cta": {
+      "buyWithPrice": "购买 {price}",
+      "continueLearning": "继续学习",
+      "guestBuyLogin": "请登录后购买",
+      "guestFreeLogin": "请登录后免费开始",
+      "startFree": "免费开始",
+      "unpriced": "暂无定价"
+    },
+    "errors": {
+      "invalidId": "课程 ID 无效。",
+      "notAvailable": {
+        "message": "未找到该课程或课程未发布。",
+        "title": "课程不可用"
+      }
+    },
+    "extras": {
+      "faqHeading": "常见问题",
+      "relatedHeading": "相关课程",
+      "stickyBuyAriaLabel": "购买课程",
+      "tagsAriaLabel": "课程标签"
+    },
+    "header": {
+      "contentDuration": "{duration} 内容",
+      "coverAlt": "{title} 课程封面",
+      "enrollmentCount": "{count, plural, other {# 名学员}}",
+      "freePreviewCount": "{count, plural, other {# 个免费预览}}",
+      "lastUpdated": "最后更新：{date}",
+      "lessonCount": "{count, plural, other {# 课时}}",
+      "moduleCount": "{count, plural, other {# 个模块}}",
+      "sectionCount": "{count, plural, other {# 个部分}}"
+    },
+    "helpNote": {
+      "body": "这是知识市场课程介绍页面。您可以在这里查看课程的完整大纲；带有“免费预览”标志的部分可以直接观看，其余部分将在购买后解锁。免费课程可通过“免费开始”立即解锁，付费课程可通过“购买”并通过支付网关完成付款。购买后的课程可在“我的课程”中访问。",
+      "title": "这是什么页面？"
+    },
+    "otherCourses": {
+      "title": "该讲师的其他课程"
+    },
+    "preview": {
+      "closeAriaLabel": "关闭预览"
+    },
+    "price": {
+      "free": "免费",
+      "unset": "未定价"
+    },
+    "purchase": {
+      "addedToMyCourses": "课程已添加至“我的课程”。",
+      "failedToast": {
+        "description": "未能记录购买，您可以重试。",
+        "title": "支付未完成。"
+      },
+      "freeSuccessToast": {
+        "title": "免费报名成功。"
+      },
+      "successToast": {
+        "title": "购买成功。"
+      },
+      "unpricedToast": {
+        "description": "在讲师设定价格之前，暂时无法购买。",
+        "title": "该课程尚未定价。"
+      },
+      "walletSuccessToast": {
+        "descriptionWithBalance": "钱包新余额：{balance}",
+        "title": "使用钱包购买成功。"
+      }
+    },
+    "review": {
+      "authorReplyLabel": "讲师回复",
+      "form": {
+        "commentAriaLabel": "评论内容",
+        "commentPlaceholder": "写下你对这门课的体验（可选）…",
+        "createTitle": "发表评价",
+        "createdToast": "您的评价已提交。",
+        "editTitle": "编辑您的评价",
+        "ratingAriaLabel": "您的评分",
+        "ratingLabel": "评分：",
+        "ratingRequiredError": "请选择评分（1 到 5 星）。",
+        "starAriaLabel": "{count, plural, other {# 星}}",
+        "submitButton": "提交评价",
+        "submitting": "正在提交…",
+        "updateButton": "更新评价",
+        "updatedToast": "您的评价已更新。"
+      },
+      "hide": {
+        "button": "隐藏",
+        "failToast": "隐藏评价失败。",
+        "successToast": "评价已隐藏。"
+      },
+      "mineBadge": "您的评价",
+      "reply": {
+        "ariaLabel": "讲师回复",
+        "cancelButton": "取消",
+        "draftButton": "AI 起草",
+        "draftEmptyError": "未能生成草稿，请重试。",
+        "drafting": "正在撰写…",
+        "editButton": "编辑回复",
+        "placeholder": "写下您的回复（留空 = 删除回复）…",
+        "replyButton": "回复",
+        "sendButton": "提交回复",
+        "sending": "正在提交…",
+        "sentToast": "您的回复已提交。"
+      },
+      "section": {
+        "countLabel": "{count, plural, other {# 条评价}}",
+        "emptyText": "暂无评价。",
+        "starRowLabel": "{count, plural, other {# 星}}",
+        "title": "评价与评分"
+      }
+    },
+    "share": {
+      "ariaLabel": "分享课程",
+      "button": "分享",
+      "copiedToast": {
+        "description": "您可以将其分享给好友。",
+        "title": "课程链接已复制。"
+      },
+      "urlToastTitle": "课程链接"
+    }
+  },
+  "courseExams": {
+    "ai": {
+      "ask": "为什么不对？",
+      "busy": "正在准备…",
+      "disclaimer": "此解释仅供辅助参考，最终解释权以课程讲师的解答与反馈为准。",
+      "generic": "通用指南",
+      "hintLabel": "提示：",
+      "nextLabel": "下一步：",
+      "title": "AI 解释"
+    },
+    "ask": "向老师提问",
+    "askTitle": "就本次考试私下向老师提问",
+    "attemptChip": "第 {n} 次尝试",
+    "attemptStatus": {
+      "expired": "时间到",
+      "in_progress": "进行中",
+      "submitted": "已提交"
+    },
+    "attempts": {
+      "limited": "{used} / {allowed}",
+      "unlimited": "{used}（不限次数）"
+    },
+    "blocked": {
+      "closed": "当前未开放",
+      "noAttempts": "没有剩余次数",
+      "passed": "已通过"
+    },
+    "close": "关闭",
+    "countBadge": "{count, plural, other {# 项}}",
+    "cta": {
+      "continue": "继续考试",
+      "retry": "重新尝试",
+      "start": "开始"
+    },
+    "err": {
+      "loadReview": "加载成绩单失败"
+    },
+    "help": {
+      "body": "这些是讲师为本课程附加的练习和考试。“必修”考试是获得课程证书的条件，在通过之前，相关的后续课程将无法解锁。通过“成绩单”可以查看您的成绩和答案；答案解析的显示取决于讲师设定的规则。",
+      "title": "练习与考试"
+    },
+    "hiddenKey": {
+      "afterClose": "答案解析将在考试截止时间过后或您的尝试次数用完后显示。",
+      "never": "讲师已为本次考试禁用答案解析显示。",
+      "notSubmitted": "最终提交答案后，成绩单将生成。"
+    },
+    "loading": "加载中…",
+    "meta": {
+      "attempts": "尝试次数：{v}",
+      "best": "最高分：{v}",
+      "duration": "{count, plural, other {# 分钟}}",
+      "passMark": "及格分 {v}",
+      "questions": "{count, plural, other {# 个问题}}"
+    },
+    "pendingBadge": "{count, plural, other {# 项剩余必修考试}}",
+    "q": {
+      "correct": "正确",
+      "explanationLabel": "解析：",
+      "number": "第 {n} 题",
+      "points": "{count, plural, other {# 分}}",
+      "wrong": "错误"
+    },
+    "refresh": "刷新",
+    "requiredBadge": "必修",
+    "retry": "重新尝试",
+    "review": "成绩单",
+    "reviewModal": {
+      "attempts": "尝试次数",
+      "bestScore": "最高分",
+      "feedback": "讲师反馈",
+      "passMark": "及格分",
+      "title": "“{title}”的成绩单",
+      "unavailable": "成绩单不可用。"
+    },
+    "status": {
+      "awaiting_grade": "等待批改",
+      "exhausted": "次数已用完",
+      "failed": "未通过",
+      "in_progress": "进行中",
+      "not_started": "未开始",
+      "passed": "通过"
+    },
+    "title": "课程练习与考试"
+  },
+  "coursePlayer": {
+    "actions": {
+      "askInstructorButton": "向讲师私信提问",
+      "reportCardButton": "我在本课程的成绩单"
+    },
+    "certificate": {
+      "claimButton": "领取结业证书",
+      "congratsTitle": "您已完成本课程！",
+      "eligibleMessage": "您可以领取本课程的结业证书了。",
+      "genericPendingMessage": "要领取证书，请先通过课程考试。",
+      "pendingGatesMessage": "{count, plural, other {要领取证书，请先通过以下 {count} 个必修考试：{titles}。}}",
+      "printableButton": "我的证书（打印 / PDF）",
+      "titleSeparator": "、",
+      "viewButton": "查看证书"
+    },
+    "controls": {
+      "markCompleteButton": "标记为已完成",
+      "nextSection": "下一节",
+      "prevSection": "上一节",
+      "sectionCompletedBadge": "本节已完成"
+    },
+    "empty": {
+      "noContent": "本课程暂无内容。",
+      "selectSection": "请从列表中选择一节。"
+    },
+    "error": {
+      "backToMyCourses": "返回我的课程",
+      "loadTitle": "课程加载失败",
+      "notFoundMessage": "未找到课程。"
+    },
+    "errors": {
+      "invalidCourseId": "课程 ID 无效。"
+    },
+    "forbidden": {
+      "description": "您尚未购买本课程或访问权限已被取消。请前往课程页面进行购买。",
+      "myCoursesButton": "我的课程",
+      "title": "您无法访问本课程",
+      "viewCourseButton": "查看课程"
+    },
+    "header": {
+      "authorLabel": "讲师：",
+      "backButton": "我的课程",
+      "completeBadge": "已完成"
+    },
+    "help": {
+      "intro": "从侧边栏选择一节以查看其内容。观看/学习后，每节都会被标记为“已完成”，进度条也会随之更新。视频播放将从您上次中断的地方继续。某些课程可能",
+      "lockedWord": "锁定",
+      "middle": "：它们要么会在特定日期/期限后开放（“本课程将于……开放”），要么需要先在之前的考试中取得及格分数（“在……考试中取得……分后”）；锁定原因会显示在每节课旁。如果讲师为某个级别",
+      "outro": "设置了要求，则只有通过该考试后才会解锁下一级别；所有这些考试的状态都可以在列表上方的“必修考试”中查看，点击“前往”按钮即可直接进入考试。完成 100% 课程并通过必修考试后，您可以领取“结业证书”并进行打印/PDF 导出（此为课程证书，非学历文凭）。",
+      "requiredExamWord": "必修考试",
+      "title": "知识市场学习指南"
+    },
+    "locked": {
+      "goToPrereqExamButton": "前往前置考试",
+      "goToRequiredExamButton": "前往必修考试",
+      "title": "本节尚未开放"
+    },
+    "mobileBar": {
+      "chartButton": "课程目录"
+    },
+    "mobileDrawer": {
+      "closeAriaLabel": "关闭",
+      "title": "课程目录"
+    },
+    "sidebar": {
+      "ariaLabel": "课程内容目录"
+    },
+    "stage": {
+      "askAiButton": "向 AI 提问",
+      "completedBadge": "已完成",
+      "lockedBadge": "已锁定",
+      "minutesUnit": "分钟"
+    },
+    "toast": {
+      "addNoteFailed": "添加笔记失败",
+      "deleteNoteFailed": "删除笔记失败",
+      "editNoteFailed": "编辑笔记失败",
+      "examNotFoundDescription": "该内容可能已被讲师移动，请刷新页面。",
+      "examNotFoundTitle": "在课程目录中未找到此测验",
+      "lessonLockedTitle": "此课时已锁定",
+      "saveProgressFailed": "保存进度失败"
+    }
+  },
+  "gradingQueue": {
+    "attachmentOnly": "此回答仅包含附件。",
+    "back": "返回课程编辑",
+    "close": "关闭",
+    "empty": {
+      "bodyAll": "此课程暂无提交的回答。",
+      "bodyPending": "所有提交的回答均已评分，或者暂无提交的回答。",
+      "titleAll": "暂无要显示的回答",
+      "titlePending": "暂无待评分的回答"
+    },
+    "err": {
+      "alreadyGraded": "此回答已被评分。",
+      "badId": "课程 ID 无效。",
+      "forbidden": "您无权为此回答评分。",
+      "responseMissing": "未找到此回答或其评分标准。",
+      "rubricMissing": "未找到此部分的评分标准。",
+      "rubricMissingLong": "未找到此部分的评分标准。请先在编辑器中定义评估标准。",
+      "rubricUnavailable": "此部分的评分标准不可用。",
+      "scoreTooHigh": "输入的得分无效（不得超过该标准的最高分）。"
+    },
+    "grade": "评分",
+    "graded": "已评分",
+    "help": {
+      "body": "这里列出了该课程中等待评分的学员简答题回答。点击每个回答的“评分”即可打开评估标准；为各项指标打分（不得超过该指标的最高分），总分将实时计算，如有需要可添加反馈。提交教师评分后，该回答将变为<b>最终状态</b>，学员将无法再修改。如需复查已评分的记录，请开启“显示已评分的回答”选项。",
+      "title": "评分队列"
+    },
+    "lead": "为此课程的简答题回答评分",
+    "learnerFallback": "学员",
+    "loadingRubric": "正在加载评分标准…",
+    "notFound": {
+      "back": "返回工作室",
+      "body": "此课程不存在，或者您不是该课程的讲师。",
+      "title": "未找到课程"
+    },
+    "openAttachment": "打开附件",
+    "pending": "待评分",
+    "refresh": "刷新",
+    "regrade": "重新评分",
+    "rowMeta": "部分：{section} · 提交时间：{date}",
+    "savedGrade": "已保存的成绩",
+    "saving": "正在保存…",
+    "showGraded": "显示已评分的答案",
+    "submit": "提交评分",
+    "title": "简答题评分队列"
+  },
+  "instructor": {
+    "backButton": "返回知识市场",
+    "bioHeading": "关于讲师",
+    "coursesEmpty": "暂无课程可显示。",
+    "coursesHeading": "该讲师的课程",
+    "invalidId": "讲师 ID 无效。",
+    "notFound": "未找到讲师。",
+    "social": {
+      "ariaLabel": "讲师链接",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram",
+      "twitter": "Twitter",
+      "website": "网站",
+      "youtube": "YouTube"
+    },
+    "stats": {
+      "courses": "{count, plural, other {已发布 {count} 门课程}}",
+      "learners": "{count, plural, other {名学员}}"
+    }
+  },
+  "marketplace": {
+    "bundlesButton": "课程套餐",
+    "empty": {
+      "clearFiltersCta": "清除筛选条件",
+      "filtered": {
+        "body": "请尝试更改筛选条件或搜索关键词。",
+        "title": "未找到符合条件的课程"
+      },
+      "noCourses": {
+        "body": "知识市场的课程将很快在此显示。",
+        "title": "尚未发布课程"
+      }
+    },
+    "filters": {
+      "category": {
+        "all": "所有分类",
+        "ariaLabel": "分类筛选",
+        "label": "分类"
+      },
+      "language": {
+        "ariaLabel": "语言筛选",
+        "label": "语言"
+      },
+      "level": {
+        "ariaLabel": "级别筛选",
+        "label": "级别"
+      },
+      "price": {
+        "ariaLabel": "价格筛选",
+        "label": "价格"
+      },
+      "sort": {
+        "ariaLabel": "排序",
+        "label": "排序"
+      }
+    },
+    "head": {
+      "description": "搜索、筛选并浏览已发布的在线课程，并在此直接购买。",
+      "title": "知识市场"
+    },
+    "header": {
+      "badge": "公开",
+      "subtitle": "搜索、筛选并浏览市场中已发布的课程。",
+      "title": "知识市场"
+    },
+    "helpNote": {
+      "body": "这里展示的是讲师发布的课程。您可以通过标题或讲师姓名进行搜索，按分类、级别、语言和价格进行筛选，并更改显示顺序。点击 ❤ 图标将任意课程保存至“我的收藏”。点击任意课程即可查看大纲和“免费预览”章节并进行购买。",
+      "title": "什么是知识市场？"
+    },
+    "pagination": {
+      "ariaLabel": "分页",
+      "next": "下一页",
+      "prev": "上一页",
+      "status": "第 {page} 页，共 {totalPages} 页"
+    },
+    "resultCount": "{count, plural, other {找到 # 门课程}}",
+    "search": {
+      "ariaLabel": "搜索课程",
+      "placeholder": "搜索课程或讲师…",
+      "semanticUnavailable": "多语言语义搜索当前不可用；结果仅来自词汇搜索和作者姓名。"
+    },
+    "tags": {
+      "ariaLabel": "标签筛选",
+      "clearButton": "清除标签"
+    }
+  },
+  "qna": {
+    "aiDraft": {
+      "button": "AI 起草",
+      "drafting": "正在起草…",
+      "emptyError": "未能生成草稿；请重试。"
+    },
+    "answer": {
+      "acceptedBadge": "讲师回答"
+    },
+    "badge": {
+      "hidden": "已隐藏",
+      "pinned": "已置顶",
+      "pinnedReply": "置顶回复"
+    },
+    "delete": {
+      "failToast": "删除失败",
+      "label": "删除"
+    },
+    "empty": {
+      "cta": "来提出第一个问题吧。",
+      "message": "暂无提问。",
+      "messageLessonScoped": "本节暂无提问。",
+      "showAllButton": "显示整门课程的问题"
+    },
+    "form": {
+      "labelDefault": "提出您的问题",
+      "labelLessonScoped": "关于课程“{name}”的提问",
+      "labelSection": "关于“{name}”的提问",
+      "placeholder": "写下您关于这门课程的问题…",
+      "submitButton": "提交问题",
+      "submitting": "正在提交…",
+      "successToast": "您的问题已提交。",
+      "validation": "请填写问题内容（至少 2 个字符）。"
+    },
+    "guest": {
+      "loginPrompt": "请登录以进行提问。"
+    },
+    "heading": "问答",
+    "help": {
+      "hide": {
+        "after": "；对学生而言，隐藏的项目将不再可见，但会保留在“审阅视图”中并带有“已隐藏”标记，以便您在需要时重新显示。",
+        "before": "作为审阅者，点击",
+        "eyeWord": "眼睛",
+        "hideWord": "隐藏",
+        "middle": "您可以隐藏不当的问答"
+      },
+      "pin": {
+        "after": "您可以将最佳回答或问题置顶以获得更多关注。当您回答某个问题时，提问者将会自动收到通知。",
+        "before": "使用图标 ",
+        "word": "置顶"
+      },
+      "title": "固定与审阅问答"
+    },
+    "hide": {
+      "failToast": "操作失败",
+      "hiddenToast": "已对学生隐藏。",
+      "hideAriaLabel": "隐藏（不合适）",
+      "hideTitle": "对学生隐藏",
+      "unhiddenToast": "已重新显示。",
+      "unhideAriaLabel": "重新显示（取消隐藏）",
+      "unhideTitle": "重新显示 — 取消隐藏"
+    },
+    "list": {
+      "loading": "正在加载问题...",
+      "questionCount": "{count, plural, other {# 个提问}}",
+      "retry": "重试"
+    },
+    "moderation": {
+      "activeLabel": "审核视图（活跃）",
+      "label": "审核视图"
+    },
+    "pin": {
+      "failToast": "置顶失败",
+      "pinAriaLabel": "固定回答",
+      "pinTitle": "置顶（显示在顶部）",
+      "pinnedToast": "回答已置顶，将显示在上方。",
+      "unpinLabel": "取消置顶",
+      "unpinnedToast": "已取消置顶。"
+    },
+    "reply": {
+      "button": "回复",
+      "cancelButton": "取消",
+      "notifyHint": "提交回答后，提问者将自动收到通知。",
+      "placeholder": "写下您的回答...",
+      "submitButton": "提交回答",
+      "submitting": "正在提交...",
+      "successToast": "您的回答已提交。",
+      "validation": "请填写回复内容（最少 2 个字符）。"
+    },
+    "scope": {
+      "groupAriaLabel": "问答范围",
+      "lessonOnly": "仅本课",
+      "lessonOnlyTitle": "仅限当前课程的问题",
+      "lessonOnlyTitleNamed": "仅“{name}”课程的问题",
+      "wholeCourse": "整门课程"
+    }
+  },
+  "rubricBuilder": {
+    "actions": {
+      "clear": "清除评分标准",
+      "save": "保存评分标准",
+      "saveChanges": "保存评分标准更改",
+      "saved": "已保存评分标准。",
+      "saving": "正在保存..."
+    },
+    "criteria": {
+      "add": "添加标准",
+      "heading": "评估标准",
+      "maxPoints": "最高分",
+      "maxPointsAria": "标准最大分值 {n}",
+      "moveDown": "向下移动",
+      "moveUp": "上移",
+      "remove": "删除评分标准",
+      "titleAria": "标准标题 {n}",
+      "titlePlaceholder": "标准名称（例如：科学准确性）",
+      "total": "总分：{total}"
+    },
+    "err": {
+      "criterionPointsInvalid": "标准的最大分值 {n} 必须是一个不小于 1 的整数。",
+      "criterionTitleEmpty": "标准 {n} 的标题不能为空。",
+      "invalid": "评分标准信息无效；请检查指标和分值。",
+      "levelLabelEmpty": "标准 {n} 中的级别标签不能为空。",
+      "levelPointsRange": "评分标准级别的分值 {n} 必须介于 0 和该标准的最高分之间。",
+      "noCriteria": "每个评分标准必须至少包含一个指标。",
+      "notFound": "未找到此部分，或者该部分不属于“问答题”类型。",
+      "nothingToDelete": "没有可删除的评分标准。",
+      "peersRange": "同伴评估人数必须在 {min} 到 {max} 之间。",
+      "titleRequired": "量规标题为必填项。",
+      "titleTooLong": "评分标准标题不得超过 {max} 个字符。"
+    },
+    "fields": {
+      "description": "描述",
+      "descriptionPlaceholder": "简要说明对学员的期望。",
+      "mode": "评估模式",
+      "optional": "（可选）",
+      "peers": "每个回答的同行评估人数",
+      "peersHelper": "每个回答将由最多 {n} 名其他学员（匿名）进行评估。",
+      "title": "评分标准标题",
+      "titlePlaceholder": "例如：分析练习评估标准"
+    },
+    "help": {
+      "body1": "“简答”部分是一项作业：学员提交文本答案（如有需要，还可提交文件），然后您将根据",
+      "body2": "您正在进行评分。标准是",
+      "body3": "是；每个标准都有一个标题和一个“最高分”，您还可以为每个标准定义多个“描述性等级”（例如：优秀/良好/差，并为每个等级设定分数）。然后",
+      "body4": "请选择：“讲师”（由您在评分队列中评分）、“自我评估”（由学员自行评估）或“同伴评估”（由其他学员匿名评分）。总分将自动计算。",
+      "strong1": "评分标准 (rubric)",
+      "strong2": "标准",
+      "strong3": "评估模式",
+      "title": "为简答题创建“评分标准”"
+    },
+    "levels": {
+      "add": "添加描述性等级",
+      "labelAria": "标准 {c} 的等级 {n} 标签",
+      "labelPlaceholder": "等级标签（例如：优秀）",
+      "pointsAria": "标准 {c} 的等级 {n} 分值",
+      "remove": "删除等级"
+    },
+    "loading": "正在加载评分标准…"
+  },
+  "shared": {
+    "authorFallback": "知识市场讲师",
+    "card": {
+      "cart": {
+        "add": "加入购物车",
+        "addButton": "加入购物车",
+        "inCartButton": "已在购物车中",
+        "loginPrompt": "请登录以加入购物车",
+        "remove": "从购物车移除",
+        "toggleError": "更新购物车失败。"
+      },
+      "cover": {
+        "alt": "课程“{title}”的封面图片"
+      },
+      "enrollmentCount": "{count, plural, other {# 名学员}}",
+      "price": {
+        "free": "免费",
+        "unpriced": "未定价",
+        "unpricedTitle": "暂未定价"
+      },
+      "rating": {
+        "ariaBase": "评分 {rating}（满分 5 分）",
+        "ariaWithCount": "{count, plural, other {评分 {rating}（满分 5 分），共 # 条评价}}",
+        "noRating": "暂无评分"
+      },
+      "wishlist": {
+        "add": "加入收藏夹",
+        "loginPrompt": "请登录以保存至收藏夹",
+        "remove": "从收藏夹移除",
+        "savedButton": "已在收藏夹中",
+        "toggleError": "更新收藏夹失败。"
+      }
+    },
+    "certField": {
+      "author_name": "讲师姓名",
+      "course_title": "课程标题",
+      "issued_date": "颁发日期",
+      "qr": "二维码",
+      "serial": "证书编号",
+      "student_name": "学员姓名",
+      "verify_url": "验证网址"
+    },
+    "contentType": {
+      "audio": "音频",
+      "document": "文档",
+      "h5p": "交互式 (H5P)",
+      "link": "链接",
+      "open_response": "开放式回答",
+      "quiz": "测验",
+      "richtext": "富文本",
+      "slide": "幻灯片",
+      "video": "视频"
+    },
+    "delivery": {
+      "blended": "混合式",
+      "live": "直播",
+      "self_paced": "自主学习"
+    },
+    "duration": {
+      "hoursMinutes": "{h, plural, other {# 小时}} {m, plural, other {# 分钟}}",
+      "hoursOnly": "{h, plural, other {# 小时}}",
+      "minutesOnly": "{m, plural, other {# 分钟}}"
+    },
+    "genericError": "操作出错",
+    "language": {
+      "all": "所有语言",
+      "ar": "阿拉伯语",
+      "en": "英语",
+      "fa": "波斯语"
+    },
+    "level": {
+      "advanced": "高级",
+      "all": "所有级别",
+      "beginner": "初级",
+      "intermediate": "中级"
+    },
+    "lock": {
+      "default": "本节课当前已锁定。",
+      "prerequisite": "请先完成前置课程以解锁。",
+      "requiredAssessment": "请先成功通过上一级别的必修测验以解锁此级别。",
+      "scoreFallback": "必需",
+      "scoreUnlockNoQuiz": "在前置测验中取得至少 {min} 分后解锁。",
+      "scoreUnlockWithQuiz": "在测验“{quiz}”中取得至少 {min} 分后解锁。",
+      "shortDefault": "锁定",
+      "shortPrerequisite": "前置锁定",
+      "shortRequiredAssessment": "测验锁定",
+      "shortScoreUnlock": "分数锁定",
+      "shortTimeRelease": "时间锁定",
+      "timeReleaseNoDate": "本课程将在指定时间解锁。",
+      "timeReleaseWithDate": "本课程将于 {date} 解锁。"
+    },
+    "money": {
+      "rialUnit": "里亚尔"
+    },
+    "payMethod": {
+      "free": "免费",
+      "gateway": "支付网关",
+      "wallet": "钱包"
+    },
+    "priceChip": {
+      "free": "免费"
+    },
+    "priceFilter": {
+      "all": "所有价格",
+      "freeOnly": "仅免费",
+      "lte10m": "1000万里亚尔以下",
+      "lte1m": "100万里亚尔以下",
+      "lte50m": "5000万里亚尔以下",
+      "lte5m": "500万里亚尔以下"
+    },
+    "pricingModel": {
+      "free": "免费",
+      "one_time": "一次性买断"
+    },
+    "purchaseStatus": {
+      "completed": "已完成",
+      "pending": "等待支付",
+      "refunded": "已退款"
+    },
+    "requiredGate": {
+      "attemptsExhausted": "尝试次数已用完 — 请联系课程支持团队进行核查",
+      "attemptsRemaining": "{count, plural, other {剩余 # 次尝试}}",
+      "currentGrade": "您的当前成绩：{grade}",
+      "head": "要解锁下一级别：通过“{title}”测验且成绩 ≥{passPercent}",
+      "shortExhausted": "次数用尽",
+      "shortFailed": "未通过",
+      "shortNotTaken": "未参加",
+      "shortPassed": "已通过"
+    },
+    "sort": {
+      "newest": "最新",
+      "popular": "最受欢迎",
+      "rating": "评分最高"
+    },
+    "status": {
+      "approved": "已批准",
+      "archived": "已归档",
+      "changes_requested": "需要修改",
+      "draft": "草稿",
+      "in_review": "审核中",
+      "published": "已发布",
+      "rejected": "已拒绝",
+      "suspended": "已暂停"
+    },
+    "translationBadge": {
+      "machine": "机器翻译",
+      "pending": "准备中",
+      "stale": "需要更新"
+    }
+  },
+  "translationTab": {
+    "empty": "尚未记录用于翻译的字段。完成课程大纲并发布课程后，相关条目将显示在此处。",
+    "entity": {
+      "MarketCourse": "课程",
+      "MarketLesson": "课时",
+      "MarketModule": "模块",
+      "MarketSection": "部分"
+    },
+    "field": {
+      "description": "描述",
+      "learningObjectives": "学习目标",
+      "prerequisites": "先决条件",
+      "targetAudience": "目标受众",
+      "title": "标题"
+    },
+    "intro": "右侧的波斯语文本为源文本。任何手动编辑都会将该行标记为“已审阅”，且翻译引擎将不再覆盖它。",
+    "loadError": "加载翻译失败。",
+    "loading": "正在加载…",
+    "retranslate": "重新翻译",
+    "retranslateCancel": "取消",
+    "retranslateConfirm": "您有 {count, plural, other {# 行已审阅。}}机器重新翻译将覆盖它们。是否继续？",
+    "retranslateConfirmYes": "是，覆盖",
+    "retranslateQueued": "课程已加入翻译队列。",
+    "save": "保存",
+    "saveError": "保存失败。",
+    "saved": "已保存",
+    "saving": "正在保存…",
+    "sourceColumn": "波斯语文本",
+    "status": {
+      "failed": "失败",
+      "machine": "机器翻译",
+      "missing": "未翻译",
+      "pending": "排队中",
+      "reviewed": "已审阅",
+      "stale": "需要更新"
+    },
+    "summary": "{done} / {total} 个字段已翻译",
+    "tabLabel": "阿拉伯语翻译",
+    "targetColumn": "阿拉伯语文本",
+    "title": "课程内容阿拉伯语翻译"
+  },
+  "viewers": {
+    "audio": {
+      "exhaustedMessage": "无法播放 — 请下载后收听。",
+      "preparing": "正在准备音频…",
+      "unavailable": "音频不可用。"
+    },
+    "book": {
+      "ariaLabel": "图书视图",
+      "exitButton": "返回滚动视图",
+      "nextPageAriaLabel": "下一页",
+      "ofTotal": "共 {total} 页",
+      "pageAlt": "第 {n} 页",
+      "pageLoadFailed": "加载第 {n} 页失败。",
+      "pageNumberInputAriaLabel": "页码",
+      "prevPageAriaLabel": "上一页",
+      "rangeAriaLabel": "页面导航",
+      "retry": "重试",
+      "roleDescription": "图书",
+      "spreadStatusPair": "第 {right} 页和第 {left} 页，共 {total} 页",
+      "spreadStatusSingle": "第 {current} 页，共 {total} 页"
+    },
+    "captions": {
+      "loadFailedError": "无法加载字幕。",
+      "tooLargeError": "字幕文件过大。"
+    },
+    "chapters": {
+      "count": "{count, plural, other {(# 个章节)}}",
+      "title": "视频章节"
+    },
+    "common": {
+      "download": "下载",
+      "downloadFile": "下载文件",
+      "fullscreen": "全屏",
+      "loadingDefault": "正在加载内容…",
+      "retry": "重试"
+    },
+    "doc": {
+      "preparing": "正在准备文档…",
+      "previewFailedMessage": "无法预览 — 请下载以查看。",
+      "unavailable": "文档不可用。"
+    },
+    "link": {
+      "externalResourceTitle": "外部资源",
+      "leavePlatformWarning": "打开此链接将离开本平台。请在继续前确认目标地址。",
+      "noUrlMessage": "此部分未绑定链接。",
+      "openInNewTab": "在新标签页中打开"
+    },
+    "panel": {
+      "durationMinutes": "{count, plural, other {# 分钟}}",
+      "freePreviewBadge": "免费预览",
+      "helpNoteBody": "此页面完全按学生所见的方式展示课程内容。从侧边栏选择一个部分即可查看其内容（视频、幻灯片、文档、音频、文本、链接、测验或 H5P 互动内容）。如需返回编辑，请使用“返回编辑”按钮。",
+      "helpNoteTitle": "学生视角预览"
+    },
+    "quiz": {
+      "description": "此部分包含一个测验。请进入以参加测验。",
+      "enterButton": "进入测验",
+      "noExamMessage": "此部分未关联测验。",
+      "sectionTitle": "本节测验"
+    },
+    "raster": {
+      "bookViewButton": "图书视图",
+      "bookViewPreparing": "正在准备图书视图…",
+      "footerNote": "{kind} — 服务端图像预览。您可以下载以查看完整内容。",
+      "kindDocument": "文档",
+      "kindSlide": "幻灯片",
+      "pageAlt": "第 {n} 页",
+      "pageCountLabel": "{count, plural, other {# 页}}",
+      "preparingPreview": "正在准备 {kind} 的图像预览…",
+      "zoomInAriaLabel": "放大",
+      "zoomOutAriaLabel": "缩小",
+      "zoomPercent": "{zoom}%"
+    },
+    "richtext": {
+      "emptyMessage": "此部分未添加文本。"
+    },
+    "sectionViewer": {
+      "missingFileMessage": "此部分未上传文件。",
+      "unsupportedTypeMessage": "不支持的内容类型“{typeLabel}”。"
+    },
+    "sprite": {
+      "previewAndJumpTitle": "预览与跳转"
+    },
+    "textDoc": {
+      "footerNote": "文本文档 — 您可以下载以查看完整内容。",
+      "renderFailedMessage": "无法显示文档。您可以下载该文件。"
+    },
+    "transcript": {
+      "empty": "此视频暂无文稿。",
+      "loading": "正在加载文稿…",
+      "segmentCount": "{count, plural, other {(# 个部分)}}",
+      "title": "视频文稿"
+    },
+    "video": {
+      "captionLanguageLabel": "字幕语言",
+      "captionsButton": {
+        "offLabel": "字幕：关闭",
+        "onLabel": "字幕：开启",
+        "turnOffTitle": "关闭字幕",
+        "turnOnTitle": "开启字幕"
+      },
+      "exhaustedMessage": "无法播放视频 — 请下载后观看。",
+      "machineTranslatedBadge": "机器翻译",
+      "machineTranslatedSuffix": " — 机器翻译",
+      "machineTranslatedTooltip": "此字幕为机器翻译，可能存在错误。",
+      "persianCaptionLabel": "波斯语",
+      "playbackRateAriaLabel": "视频播放速度",
+      "playbackRateLabel": "播放速度",
+      "preparing": "正在准备视频…",
+      "unavailable": "视频不可用。"
+    }
+  }
+}

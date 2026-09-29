@@ -1,0 +1,951 @@
+{
+  "schools": {
+    "hero": {
+      "counts": "8 facultades · 248 programas",
+      "titleLead": "Una universidad completa,",
+      "titleAccent": "totalmente digital",
+      "lead": "Desde ingeniería y ciencias médicas hasta humanidades y artes. 248 programas académicos en 5 niveles, todos con clases en directo, laboratorios virtuales y certificados verificables."
+    },
+    "help": {
+      "title": "Guía de facultades",
+      "body": "En esta página encontrarás la lista de facultades y programas de estudio de la universidad. Haz clic en cualquier facultad para ver sus programas; al pie de página también encontrarás los cinco niveles de estudio y el número de programas de cada nivel."
+    },
+    "card": {
+      "aria": "Facultad de {school} · {programs, number} programa",
+      "featured": "Programas destacados",
+      "programs": "{count, plural, one {# programa} many {# programas} other {# programas}}",
+      "faculty": "{count, plural, one {profesor} many {profesores} other {profesores}}",
+      "students": "{count, plural, one {estudiante} many {estudiantes} other {estudiantes}}",
+      "labs": "{count, plural, one {laboratorio} many {laboratorios} other {laboratorios}}",
+      "view": "Ver ←"
+    },
+    "levels": {
+      "eyebrow": "Niveles de estudio",
+      "title": "Cinco niveles académicos",
+      "activePrograms": "{count, plural, one {programa activo} many {programas activos} other {programas activos}}"
+    },
+    "level": {
+      "AS": "Técnico superior",
+      "BS": "Grado",
+      "MS": "Máster",
+      "PHD": "Doctorado",
+      "MD": "M.D.",
+      "CERT": "Profesional"
+    }
+  },
+  "calendar": {
+    "hero": {
+      "eyebrow": "Calendario",
+      "title": "Calendario",
+      "lead": "Eventos oficiales del calendario académico y tu horario semanal de clases, todo basado en el calendario solar."
+    },
+    "newEvent": "Nuevo evento",
+    "help": {
+      "title": "Guía del calendario",
+      "body": "El calendario mensual muestra los eventos oficiales (inicio y fin de semestre, exámenes, días festivos y plazos) con fechas solares; haz clic en cualquier día para ver sus eventos. En la sección «Horario semanal», se muestran las clases del semestre actual según los días de la semana y la hora.",
+      "staff": "Como administrador, puedes crear nuevos eventos, así como editarlos o eliminarlos."
+    },
+    "error": {
+      "generic": "Se ha producido un error"
+    },
+    "range": "Del {from} al {to}",
+    "list": {
+      "titleForDay": "Eventos del {day}",
+      "titleUpcoming": "Próximos eventos"
+    },
+    "category": {
+      "academic": "Académico",
+      "holiday": "Festivo",
+      "exam": "Examen",
+      "event": "Evento",
+      "deadline": "Plazo"
+    },
+    "weekday": {
+      "0": "Sábado",
+      "1": "Domingo",
+      "2": "lunes",
+      "3": "martes",
+      "4": "miércoles",
+      "5": "jueves",
+      "6": "viernes"
+    },
+    "events": {
+      "title": "Eventos del calendario",
+      "showUpcoming": "Mostrar próximos eventos",
+      "loading": "Cargando eventos...",
+      "emptyAll": "Aún no hay eventos registrados en el calendario.",
+      "emptyDay": "No hay eventos para este día.",
+      "emptyUpcoming": "No hay próximos eventos registrados.",
+      "edit": "Editar",
+      "editAria": "Editar {title}",
+      "delete": "Eliminar",
+      "deleteAria": "Eliminar {title}"
+    },
+    "week": {
+      "title": "Horario semanal",
+      "titleTeaching": "Horario semanal de enseñanza",
+      "signIn": "Inicia sesión para ver tu horario semanal.",
+      "loading": "Cargando horario semanal...",
+      "emptyInstructor": "No se te han asignado clases con horarios específicos para este semestre.",
+      "emptyStudent": "No tienes clases con horarios específicos en tu programa para este semestre. El horario semanal aparecerá aquí después de realizar la inscripción.",
+      "today": "Hoy",
+      "sessions": "{count, plural, one {# sesión} many {# sesiones} other {# sesiones}}",
+      "credits": "{count, plural, one {# crédito} many {# créditos} other {# créditos}}"
+    },
+    "form": {
+      "titleAdd": "Agregar evento",
+      "titleEdit": "Editar evento",
+      "close": "Cerrar",
+      "title": "Título del evento",
+      "titlePlaceholder": "Por ejemplo: Inicio de inscripción del segundo semestre",
+      "category": "Categoría",
+      "startDate": "Fecha de inicio",
+      "endDate": "Fecha de finalización (opcional)",
+      "endDateAria": "Fecha de finalización",
+      "endDatePlaceholder": "Sin fecha de finalización",
+      "audience": "Público objetivo (opcional)",
+      "audiencePlaceholder": "Por ejemplo: Todas las facultades",
+      "description": "Descripción (opcional)",
+      "descriptionPlaceholder": "Detalles del evento...",
+      "saving": "Guardando...",
+      "saveEdit": "Guardar cambios",
+      "saveNew": "Guardar evento",
+      "cancel": "Cancelar",
+      "errTitle": "El título del evento debe tener al menos 2 caracteres.",
+      "errStart": "Selecciona la fecha de inicio.",
+      "errEndBeforeStart": "La fecha de fin no puede ser anterior a la fecha de inicio."
+    },
+    "delete": {
+      "title": "Eliminar evento",
+      "body": "¿Estás seguro de que deseas eliminar el evento «{title}»? Esta acción no se puede deshacer.",
+      "deleting": "Eliminando...",
+      "confirm": "Eliminar"
+    }
+  },
+  "library": {
+    "type": {
+      "guide": "Guía",
+      "template": "Plantilla",
+      "video": "Vídeo",
+      "link": "Enlace",
+      "document": "Documento",
+      "book": "Libro"
+    },
+    "error": {
+      "generic": "Se ha producido un error"
+    },
+    "hero": {
+      "eyebrow": "Biblioteca digital",
+      "title": "Biblioteca digital",
+      "lead": "Recursos seleccionados del curso: artículos, libros, vídeos, plantillas, guías y enlaces. Cada recurso enlaza a su dirección original y está disponible mediante búsqueda y categorización."
+    },
+    "addResource": "Añadir recurso",
+    "help": {
+      "title": "Gestión de la biblioteca",
+      "body": "Como gestor de contenidos, puedes añadir un nuevo recurso: el título, la URL y el tipo de recurso son obligatorios; el autor, la descripción, las etiquetas, el idioma y el nivel son opcionales. Los recursos en estado de «borrador» solo son visibles para los administradores; al marcar «publicado», el recurso se muestra a todos los usuarios."
+    },
+    "cats": {
+      "title": "Categorías",
+      "all": "Todas"
+    },
+    "search": {
+      "placeholder": "Buscar en la biblioteca: título, autor, descripción, etiqueta",
+      "aria": "Buscar en la biblioteca"
+    },
+    "list": {
+      "title": "Últimos recursos",
+      "results": "{count, plural, one {# resultado} many {# resultados} other {# resultados}}",
+      "loading": "Cargando recursos...",
+      "emptyAll": "Aún no se han registrado recursos en la biblioteca.",
+      "emptySearch": "No se encontraron recursos con esta búsqueda."
+    },
+    "card": {
+      "draft": "Borrador",
+      "open": "Abrir recurso",
+      "openAria": "Abrir {title}",
+      "edit": "Editar",
+      "editAria": "Editar {title}",
+      "delete": "Eliminar",
+      "deleteAria": "Eliminar {title}"
+    },
+    "form": {
+      "titleAdd": "Añadir recurso",
+      "titleEdit": "Editar recurso",
+      "close": "Cerrar",
+      "title": "Título",
+      "titlePlaceholder": "Ej.: Guía de inicio de Python",
+      "url": "URL",
+      "type": "Tipo de recurso",
+      "author": "Autor / Fuente",
+      "optional": "Opcional",
+      "description": "Descripción",
+      "tag": "Etiqueta",
+      "tagPlaceholder": "Ej.: ML",
+      "language": "Idioma",
+      "languagePlaceholder": "Persa / English",
+      "level": "Nivel",
+      "levelPlaceholder": "Grado / Posgrado",
+      "published": "Publicado (visible para todos los usuarios)",
+      "saving": "Guardando...",
+      "saveEdit": "Guardar cambios",
+      "saveNew": "Añadir recurso",
+      "cancel": "Cancelar",
+      "errTitle": "Introduce el título del recurso.",
+      "errUrl": "Introduce la URL del recurso."
+    },
+    "delete": {
+      "title": "Eliminar recurso",
+      "body": "¿Estás seguro de que quieres eliminar este recurso? Se eliminará de la biblioteca.",
+      "deleting": "Eliminando...",
+      "confirm": "Eliminar"
+    }
+  },
+  "faculty": {
+    "hero": {
+      "eyebrow": "Facultad",
+      "title": "Cuerpo docente universitario",
+      "loading": "Cargando miembros del cuerpo docente...",
+      "lead": "{members, number} miembros del cuerpo docente en {schools, number} facultades. La categoría académica, el departamento y la especialidad de cada miembro se muestran a partir de los registros reales."
+    },
+    "help": {
+      "title": "Guía del cuerpo docente",
+      "body": "Cada universidad y facultad tiene su propio cuerpo docente. Haz clic en el nombre de cualquier facultad para ver únicamente a sus miembros. La categoría académica (profesor asistente / profesor asociado / profesor titular), el departamento, el área de especialización y el número de cursos de cada miembro se obtienen de los datos reales del sistema."
+    },
+    "error": {
+      "load": "Error al cargar el cuerpo docente"
+    },
+    "filter": {
+      "all": "Todos"
+    },
+    "loading": "Cargando...",
+    "emptyAll": "Aún no se han registrado miembros en el cuerpo docente. El administrador puede añadir miembros desde la sección «Profesores».",
+    "emptySchool": "No se encontraron miembros en esta facultad.",
+    "card": {
+      "courses": "{count, plural, one {# curso impartido} many {# cursos impartidos} other {# cursos impartidos}}"
+    },
+    "status": {
+      "sabbatical": "Año sabático",
+      "active": "Activo"
+    }
+  },
+  "labs": {
+    "discipline": {
+      "physics": "Física",
+      "chemistry": "Química",
+      "biology": "Biología",
+      "cs": "Informática",
+      "engineering": "Ingeniería",
+      "medical": "Medicina",
+      "other": "Otro"
+    },
+    "difficulty": {
+      "basic": "Básico",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado",
+      "unknown": "Desconocido"
+    },
+    "status": {
+      "in_progress": "En curso",
+      "submitted": "Enviado",
+      "graded": "Calificado"
+    },
+    "retry": "Reintentar",
+    "reload": "Recargar",
+    "loading": "Cargando…",
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "view": "Ver",
+    "resume": "Reanudar",
+    "student": "Estudiante",
+    "experiment": "Experimento",
+    "sentAt": "Enviado: {at}",
+    "minutes": "{count, plural, one {# minuto} many {# minutos} other {# minutos}}",
+    "steps": "{count, plural, one {# paso} many {# pasos} other {# pasos}}",
+    "objectives": "{count, plural, one {# objetivo} many {# objetivos} other {# objetivos}}",
+    "sim": {
+      "ohm": {
+        "volts": "{value} V",
+        "lamp": "Lámpara de carga",
+        "voltage": "Voltaje de la fuente V",
+        "unitVolt": "voltios",
+        "resistance": "Resistencia de carga R",
+        "unitOhm": "ohmios",
+        "current": "Corriente I",
+        "power": "Potencia P",
+        "law": "Ley"
+      },
+      "titration": {
+        "burette": "Bureta (NaOH 0.1 M)",
+        "volume": "Volumen de base añadido",
+        "equivalence": "Punto de equivalencia",
+        "indicator": "Color del indicador",
+        "pink": "Rosa",
+        "colorless": "Incoloro",
+        "state": "Estado",
+        "atEquivalence": "Equivalencia",
+        "basic": "Básico",
+        "acidic": "Ácido"
+      },
+      "projectile": {
+        "path": "Trayectoria del proyectil",
+        "angle": "Ángulo de lanzamiento θ",
+        "unitDegree": "grados",
+        "speed": "Velocidad inicial v₀",
+        "range": "Alcance R",
+        "maxHeight": "Altura máxima",
+        "flightTime": "Tiempo de vuelo",
+        "optimal": "✓ Un ángulo de 45 grados da el mayor alcance posible."
+      },
+      "pendulum": {
+        "title": "Péndulo simple",
+        "length": "Longitud del hilo L",
+        "gravity": "Aceleración de la gravedad g",
+        "period": "Periodo T",
+        "frequency": "Frecuencia f",
+        "planet": "Planeta",
+        "moon": "Luna",
+        "jupiter": "Júpiter",
+        "earth": "Tierra"
+      },
+      "ecg": {
+        "title": "Electrocardiograma",
+        "bradycardia": "Bradicardia",
+        "tachycardia": "Taquicardia",
+        "normal": "Normal",
+        "heartRate": "Frecuencia cardiaca",
+        "beat": "Latido",
+        "rrInterval": "Intervalo R-R",
+        "reading": "Lectura"
+      }
+    },
+    "player": {
+      "errLoad": "No se pudo cargar el informe de la práctica.",
+      "errSubmit": "No se pudo enviar el informe final. Inténtalo de nuevo.",
+      "saving": "Guardando…",
+      "saved": "Guardado ✓",
+      "saveFailed": "Error al guardar",
+      "loading": "Cargando informe…",
+      "objectives": "Objetivos de la práctica",
+      "materials": "Materiales y herramientas",
+      "gradedTitle": "Tu informe ha sido calificado",
+      "scoreLabel": "Puntuación: {score}",
+      "feedbackLabel": "Comentarios del instructor:",
+      "submittedNotice": "El informe se ha enviado correctamente y está pendiente de calificación.",
+      "stepOf": "Paso {current, number} de {total, number}",
+      "answeredPct": "{pct} respondido",
+      "stepAria": "Paso {n, number}",
+      "answerPlaceholder": "Escribe tus observaciones o tu respuesta aquí…",
+      "noSteps": "Este laboratorio aún no tiene ningún paso.",
+      "prevStep": "Paso anterior",
+      "nextStep": "Siguiente paso",
+      "submit": "Enviar informe",
+      "confirmTitle": "¿Enviar informe?",
+      "confirmBody": "Una vez enviado, el informe se bloqueará y ya no se podrá editar; se enviará al instructor para su calificación.",
+      "submitting": "Enviando…",
+      "submitConfirm": "Enviar"
+    },
+    "grade": {
+      "errScore": "La calificación debe ser un número entre 0 y 100.",
+      "saved": "Calificación guardada",
+      "errSave": "No se pudo guardar la calificación. Inténtalo de nuevo.",
+      "reportOf": "Informe de {student}",
+      "submittedAt": "Enviado: {at}",
+      "noAnswer": "— Sin respuesta —",
+      "scoreLabel": "Calificación (de 0 a 100)",
+      "feedbackLabel": "Comentarios",
+      "feedbackPlaceholder": "Escribe tus comentarios para el alumno…",
+      "saving": "Guardando…",
+      "save": "Guardar calificación"
+    },
+    "review": {
+      "errLoad": "No se pudo cargar la cola de revisión.",
+      "title": "Revisión de informes de laboratorio",
+      "labLabel": "Laboratorio:",
+      "labSelect": "Seleccionar laboratorio",
+      "pending": "Pendiente de calificación",
+      "emptyPending": "No hay informes enviados pendientes de calificación.",
+      "grade": "Calificar",
+      "graded": "Calificado"
+    },
+    "myReports": {
+      "errLoad": "No se pudieron cargar tus informes.",
+      "title": "Mis informes de laboratorio",
+      "empty": "Aún no tienes ningún informe. Abre un laboratorio, completa los pasos y escribe tus observaciones.",
+      "gradedAt": "Calificado: {at}",
+      "sentAt": "Enviado: {at}"
+    },
+    "errLoadCatalog": "No se pudieron cargar los laboratorios.",
+    "errTitle": "Error",
+    "errBookmark": "No se pudo guardar. Inténtalo de nuevo.",
+    "eyebrow": "Laboratorio virtual · §6/§14",
+    "title": "Laboratorio virtual",
+    "lead": "Realiza experimentos estructurados de varias disciplinas paso a paso: objetivos y materiales, instrucciones de cada etapa, simulaciones interactivas y un cuadro de registro de observaciones que se guarda automáticamente. Al final, envía el informe para la revisión del profesor.",
+    "search": {
+      "placeholder": "Buscar por título, resumen u objetivos…",
+      "aria": "Buscar experimento",
+      "clear": "Borrar búsqueda"
+    },
+    "filter": {
+      "all": "Todos"
+    },
+    "loadingCatalog": "Cargando experimentos…",
+    "emptyFiltered": "No se encontraron experimentos con estos filtros.",
+    "clearFilters": "Borrar filtros",
+    "foundCount": "{count, plural, one {# experimento encontrado} many {# experimentos encontrados} other {# experimentos encontrados}}",
+    "bookmark": "Marcar",
+    "run": "Ejecutar experimento"
+  },
+  "officeHours": {
+    "day": {
+      "0": "Sábado",
+      "1": "Domingo",
+      "2": "Lunes",
+      "3": "Martes",
+      "4": "Miércoles",
+      "5": "Jueves",
+      "6": "Viernes"
+    },
+    "mode": {
+      "online": "En línea",
+      "inPerson": "Presencial"
+    },
+    "unknownInitial": "¿?",
+    "loading": "Cargando…",
+    "close": "Cerrar",
+    "back": "Volver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "cancelAction": "Cancelar",
+    "error": {
+      "load": "Error al cargar las horas de atención",
+      "book": "Error al reservar la cita",
+      "cancel": "Error al cancelar la cita",
+      "save": "Error al guardar la hora de atención",
+      "delete": "Error al eliminar la hora de atención"
+    },
+    "student": {
+      "eyebrow": "Servicios estudiantiles · §6",
+      "title": "Horas de atención del profesor",
+      "lead": "Consulta los horarios de los profesores y reserva una cita para una reunión presencial o en línea.",
+      "help": {
+        "title": "Guía de horas de atención del profesor",
+        "body": "En «Explorar profesores» puedes ver los horarios disponibles de cada profesor; haz clic en una cita, escribe el motivo de la reunión y resérvala. Tus citas reservadas se pueden ver y cancelar en «Mis citas»."
+      }
+    },
+    "stat": {
+      "instructors": "{count, plural, one {# profesor} many {# profesores} other {# profesores}}",
+      "free": "{count, plural, one {# turno disponible} many {# turnos disponibles} other {# turnos disponibles}}",
+      "mine": "{count, plural, one {# mi turno} many {# mis turnos} other {# mis turnos}}"
+    },
+    "tab": {
+      "browse": "Explorar profesores",
+      "mine": "Mis turnos"
+    },
+    "search": {
+      "placeholder": "Buscar por nombre de profesor o facultad…",
+      "aria": "Buscar",
+      "clear": "Limpiar"
+    },
+    "empty": {
+      "noSlots": "Actualmente no hay horas de consulta registradas.",
+      "noMatch": "No se encontraron resultados."
+    },
+    "slot": {
+      "fullTitle": "Este turno está completo",
+      "bookTitle": "Reservar este turno",
+      "full": "Completo",
+      "bookedOf": "{booked}/{capacity} reservados"
+    },
+    "mine": {
+      "empty": "Aún no has tomado ningún turno.",
+      "booked": "Reservado",
+      "topicLabel": "Tema:",
+      "cancel": "Cancelar turno"
+    },
+    "book": {
+      "aria": "Reservar turno",
+      "title": "Reservar turno de consulta",
+      "topicLabel": "Tema de la consulta (opcional)",
+      "topicPlaceholder": "Por ejemplo: resolución de dudas de la tercera serie de ejercicios, pregunta sobre el proyecto final…",
+      "saving": "Guardando…",
+      "confirm": "Confirmar reserva"
+    },
+    "cancelDialog": {
+      "body": "¿Estás seguro de que deseas cancelar el turno con {instructor}? Este turno volverá a estar disponible.",
+      "thisInstructor": "este profesor",
+      "canceling": "Cancelando…",
+      "confirm": "Sí, cancelar"
+    },
+    "instructor": {
+      "eyebrow": "Facultad · §۶",
+      "title": "Mis horas de consulta",
+      "lead": "Define tus horarios de consulta semanales; los estudiantes reservarán turnos a partir de estos horarios.",
+      "newSlot": "Nueva hora de consulta",
+      "help": {
+        "title": "Guía de horas de consulta",
+        "body": "Define tus horas de consulta semanales con «Nueva hora de consulta» (día, hora, presencial/en línea y capacidad). Los estudiantes reservan turnos a partir de estos horarios; con «Reservas» puedes ver la lista de estudiantes de cada turno."
+      },
+      "empty": "Aún no has definido horas de consulta.",
+      "addFirst": "Agregar primera hora de consulta",
+      "slotCount": "{count, plural, one {# turno} many {# turnos} other {# turnos}}",
+      "inactive": "Inactivo",
+      "bookings": "Reservas",
+      "noteLabel": "Nota:",
+      "loadingBookings": "Cargando reservas…",
+      "noBookings": "Ningún estudiante ha reservado este turno todavía.",
+      "colStudent": "Estudiante",
+      "colTopic": "Tema"
+    },
+    "form": {
+      "aria": "Horas de atención",
+      "titleEdit": "Editar horas de atención",
+      "day": "Día de la semana",
+      "start": "Hora de inicio",
+      "end": "Hora de fin",
+      "mode": "Tipo",
+      "capacity": "Capacidad",
+      "linkOrPlace": "Enlace / Lugar (opcional)",
+      "place": "Lugar (opcional)",
+      "linkPlaceholder": "Ej.: Enlace de la reunión en línea",
+      "placePlaceholder": "Ej.: Edificio técnico, sala 214",
+      "note": "Nota (opcional)",
+      "notePlaceholder": "Ej.: Solo para estudiantes del curso de estructuras de datos",
+      "errTime": "Introduce horas de inicio y fin válidas.",
+      "errOrder": "La hora de fin debe ser posterior a la hora de inicio.",
+      "errCapacity": "La capacidad debe ser un número entero y de al menos 1.",
+      "saving": "Guardando…",
+      "save": "Guardar"
+    },
+    "del": {
+      "title": "Eliminar horas de atención",
+      "body": "¿Estás seguro de que deseas eliminar las horas de atención {slot}?",
+      "alsoCancels": "Las reservas para este horario también se cancelarán.",
+      "deleting": "Eliminando…"
+    }
+  },
+  "calendarPage": {
+    "type": {
+      "meeting": "Clase",
+      "exam": "Examen",
+      "assignment": "Tarea",
+      "term": "Periodo del semestre",
+      "event": "Evento",
+      "personal": "Personal"
+    },
+    "day": {
+      "0": "Sábado",
+      "1": "Domingo",
+      "2": "Lunes",
+      "3": "Martes",
+      "4": "Miércoles",
+      "5": "Jueves",
+      "6": "Viernes"
+    },
+    "examSubtitle": "Examen · {time}",
+    "dateRange": "{from} a {to}",
+    "process": {
+      "registration": "Inscripción",
+      "addDrop": "Altas y bajas",
+      "emergencyDrop": "Baja de emergencia",
+      "exams": "Exámenes",
+      "gradeEntry": "Registro de calificaciones"
+    },
+    "error": {
+      "load": "Error al cargar el calendario",
+      "delete": "Error al eliminar el evento",
+      "save": "Error al guardar el evento",
+      "feedUnavailable": "La URL de suscripción no está disponible.",
+      "feedFetch": "Error al obtener la URL de suscripción"
+    },
+    "delete": {
+      "title": "Eliminar evento personal",
+      "body": "El evento «{title}» se eliminará y no se podrá recuperar.",
+      "confirm": "Eliminar evento"
+    },
+    "toast": {
+      "deleted": "Evento eliminado",
+      "deleteFailed": "No se pudo eliminar",
+      "updated": "Evento actualizado",
+      "added": "Evento añadido",
+      "urlCopied": "URL copiada",
+      "urlCopiedBody": "La URL de suscripción al calendario se ha copiado al portapapeles.",
+      "copyFailed": "No se pudo copiar",
+      "copyFailedBody": "No se pudo copiar la URL; cópiela manualmente."
+    },
+    "eyebrow": "Calendario",
+    "title": "Mi calendario",
+    "subtitle": {
+      "parent": "El calendario académico de su hijo/a",
+      "instructor": "Sus clases, exámenes y eventos de enseñanza",
+      "student": "Sus clases, exámenes, tareas y eventos, todo en un solo lugar"
+    },
+    "action": {
+      "newEvent": "Evento",
+      "subscribe": "Suscribirse al calendario",
+      "termWindows": "Períodos del semestre"
+    },
+    "viewSwitcher": "Vista del calendario",
+    "view": {
+      "month": "Mes",
+      "week": "Semana",
+      "list": "Lista"
+    },
+    "help": {
+      "title": "Ayuda del calendario",
+      "body": "Este calendario muestra todo su horario en un solo lugar: clases semanales, exámenes, fechas límite de tareas, períodos importantes del semestre y eventos universitarios. Elija su vista preferida con «Mes», «Semana» o «Lista», haga clic en cualquier día para ver sus eventos y haga clic en un evento para ir a su página."
+    },
+    "child": {
+      "unnamed": "Estudiante"
+    },
+    "filterLabel": "Filtrar por tipo de evento",
+    "filter": {
+      "all": "Todos"
+    },
+    "dayPanel": {
+      "label": "Eventos del día",
+      "pickDay": "Selecciona un día",
+      "count": "{count, plural, one {# elemento} many {# elementos} other {# elementos}}",
+      "addAria": "Añadir evento a este día",
+      "addTitle": "Añadir evento",
+      "hint": "Haz clic en un día del calendario para ver sus eventos.",
+      "empty": "No hay eventos para este día.",
+      "addPersonal": "Evento personal"
+    },
+    "loading": "Cargando…",
+    "week": {
+      "title": "Horario semanal de clases",
+      "empty": "No hay clases para mostrar en este período.",
+      "rowLabel": "Clases"
+    },
+    "list": {
+      "title": "Próximos eventos",
+      "empty": "No hay eventos en este período.",
+      "today": "Hoy"
+    },
+    "dialog": {
+      "errTitleRequired": "Introduce el título del evento.",
+      "errTitleLong": "El título no puede superar los {max, number} caracteres.",
+      "errDateRequired": "Selecciona la fecha del evento.",
+      "errStartRequired": "Introduce la hora de inicio o activa «Todo el día».",
+      "errEndBeforeStart": "La hora de fin debe ser posterior a la de inicio.",
+      "errNoteLong": "La nota no puede superar los {max, number} caracteres.",
+      "editTitle": "Editar evento personal",
+      "newTitle": "Nuevo evento personal",
+      "close": "Cerrar",
+      "title": "Título",
+      "titlePlaceholder": "Por ejemplo, sesión de estudio en grupo",
+      "date": "Fecha",
+      "dateAria": "Fecha del evento",
+      "allDay": "Todo el día",
+      "from": "Desde",
+      "to": "Hasta",
+      "note": "Nota (opcional)",
+      "notePlaceholder": "Breve descripción…",
+      "cancel": "Cancelar",
+      "saving": "Guardando…",
+      "saveChanges": "Guardar cambios",
+      "add": "Añadir evento"
+    },
+    "subscribe": {
+      "heading": "Suscripción al calendario",
+      "intro": "Con esta URL puedes suscribirte a tu calendario en Google Calendar o en la aplicación de calendario de Apple/móvil para que tus clases, exámenes y eventos personales se actualicen automáticamente.",
+      "preparing": "Preparando…",
+      "copied": "Copiado",
+      "copy": "Copiar",
+      "download": "Descargar archivo .ics",
+      "howtoBefore": "Ayuda: en Google Calendar usa «Other calendars → From URL» y en Apple Calendar usa «File → New Calendar Subscription» e introduce esta misma dirección. Para añadir eventos de una vez, el archivo",
+      "howtoAfter": "descárgalo y ábrelo.",
+      "rotate": "Invalidar enlace anterior y crear uno nuevo",
+      "rotateWarning": "El enlace anterior ya no abrirá tu calendario. Para continuar con la sincronización, reemplaza el nuevo enlace en tus aplicaciones de calendario. Los eventos descargados previamente no se eliminarán.",
+      "rotateConfirm": "Entiendo que las suscripciones anteriores deben configurarse con el nuevo enlace.",
+      "rotating": "Invalidando enlace anterior…",
+      "rotated": "El enlace anterior ha sido invalidado. El nuevo enlace está listo para copiarse.",
+      "rotateFailed": "El resultado del cambio de enlace no está claro. Obtén la dirección actual nuevamente.",
+      "refresh": "Obtener dirección actual"
+    },
+    "chip": {
+      "allDay": "Todo el día",
+      "edit": "Editar {title}",
+      "delete": "Eliminar {title}"
+    }
+  },
+  "parentDash": {
+    "errLoad": "Error al cargar.",
+    "loading": "Cargando…",
+    "childFallback": "Hijo/a",
+    "title": "Portal de padres",
+    "subtitle": "Conexión con la universidad · Datos reales",
+    "childPickerAria": "Seleccionar hijo/a",
+    "gradePercent": "{value, number}%",
+    "mood": {
+      "improving": "Mejorando",
+      "steady": "Estable y tranquilo/a",
+      "declining": "Con una ligera caída",
+      "unknown": "No hay datos registrados"
+    },
+    "wellness": {
+      "title": "Salud mental del/la hijo/a",
+      "intro": "Una visión general y de apoyo del estado de ánimo de {name}; esto es una «evaluación», no un diagnóstico clínico, y no se muestran los detalles privados de las respuestas.",
+      "empty": "No hay información para mostrar.",
+      "moodLabel": "Estado de ánimo reciente:",
+      "dimsLabel": "Resumen de autoevaluaciones:",
+      "dimFallback": "Autoevaluación",
+      "dimsEmpty": "Aún no se ha registrado ningún resultado de autoevaluación para mostrar.",
+      "supportAria": "Apoyar al/la hijo/a",
+      "supportTitle": "Apoya a tu hijo/a",
+      "supportBody": "En estos días, una compañía tranquila y una conversación amable y sin juicios pueden ser de gran ayuda. Si lo deseas, también puedes ponerte en contacto con el centro de asesoramiento de la universidad junto con tu hijo/a.",
+      "contactCta": "Hablar con la universidad / el/la asesor/a"
+    },
+    "status": {
+      "graded": "Calificado",
+      "submitted": "Enviado, pendiente de calificación",
+      "pending": "Aún no realizado"
+    },
+    "academic": {
+      "title": "Exámenes y tareas del/la hijo/a",
+      "intro": "Este es un resumen de los exámenes y tareas publicados de {name} y su estado; por privacidad, no se muestran el enunciado de las preguntas ni las respuestas del estudiante.",
+      "exams": "Exámenes",
+      "examsEmpty": "No hay exámenes publicados para mostrar.",
+      "whenExam": "Fecha",
+      "assignments": "Tareas",
+      "assignmentsEmpty": "No hay tareas publicadas para mostrar.",
+      "whenAssignment": "Fecha límite"
+    },
+    "kpi": {
+      "unread": "Notificaciones no leídas",
+      "total": "Notificaciones totales",
+      "newConvos": "Conversaciones con nuevos mensajes",
+      "children": "Hijos vinculados"
+    },
+    "help": {
+      "title": "Guía del portal para padres",
+      "body": "Desde esta página te mantendrás en contacto con la universidad y los profesores, y podrás ver las notificaciones y mensajes no leídos. Para enviar un mensaje, haz clic en «Mensaje al profesor / universidad», y para ver los avisos, haz clic en «Notificaciones»."
+    },
+    "quick": {
+      "inbox": "Notificaciones",
+      "messages": "Mensaje al profesor / universidad"
+    },
+    "activity": {
+      "title": "Actividad académica del hijo",
+      "noChild": "Aún no se ha vinculado ningún hijo a tu cuenta. Para vincular a un estudiante a la cuenta de padre, comunícate con el soporte de la universidad."
+    }
+  },
+  "membership": {
+    "directory": {
+      "disabled": {
+        "title": "El directorio de miembros está desactivado temporalmente",
+        "body": "El administrador del grupo ha desactivado la visualización del directorio. Una vez activado, los miembros que hayan permitido ser vistos aparecerán aquí."
+      },
+      "eyebrow": "Membresía",
+      "title": "Directorio de miembros",
+      "lead": "Miembros que han activado expresamente la visualización de su perfil en el directorio.",
+      "help": {
+        "title": "Ayuda",
+        "body": "Esta lista solo muestra a los miembros que tienen una membresía activa o un período de gracia (días adicionales de margen después de que caduca la vigencia en los que el acceso aún no se corta) y que han aceptado expresamente mostrar su información en el directorio. Para agregarte a esta lista, da tu consentimiento en «Mi membresía» y activa los interruptores correspondientes desde la pestaña «Privacidad» en la configuración."
+      },
+      "retry": "Reintentar",
+      "searchPlaceholder": "Buscar nombre…",
+      "searchAria": "Buscar nombre de miembro",
+      "filterAria": "Filtrar por área de especialidad",
+      "allFields": "Todas las áreas de especialidad",
+      "loading": "Cargando…",
+      "noName": "Sin nombre",
+      "memberFallback": "Miembro del directorio",
+      "prev": "Anterior",
+      "next": "Siguiente",
+      "selectHint": "Selecciona un miembro de la lista para ver sus detalles.",
+      "since": "Miembro desde {when}",
+      "viewProfile": "Ver perfil público",
+      "about": "Acerca de mí",
+      "links": "Enlaces",
+      "portfolio": "Portafolio",
+      "projectView": "Ver",
+      "projectRepo": "Repositorio de código",
+      "endorsements": "Validaciones de habilidades",
+      "endorsedByMe": "Has validado esta habilidad"
+    },
+    "steps": {
+      "request": {
+        "title": "1) Solicitud de membresía",
+        "what": "Selecciona tu área de especialización (opcional) y envía tu solicitud de membresía.",
+        "cta": "Enviar solicitud de membresía"
+      },
+      "review": {
+        "title": "2) Verificación de identidad",
+        "what": "El operador de membresías revisará tu solicitud y verificará tu identidad.",
+        "cta": "Esperando revisión del operador",
+        "lockedBecause": "Primero debes enviar una solicitud de membresía."
+      },
+      "payment": {
+        "title": "3) Pago",
+        "what": "Selecciona el plan de membresía y paga desde tu monedero.",
+        "cta": "Pagar desde el monedero",
+        "lockedBecause": "Primero debe verificarse tu identidad."
+      },
+      "activation": {
+        "title": "4) Activación",
+        "what": "Inmediatamente después del pago, tu membresía se activará y serás añadido al grupo especializado de tu área.",
+        "cta": "La activación es automática",
+        "lockedBecause": "Primero debes realizar el pago."
+      },
+      "card": {
+        "title": "5) Tarjeta de membresía",
+        "what": "Tu tarjeta de membresía activa, con la fecha de expiración y el plan adquirido.",
+        "cta": "Ver tarjeta de membresía",
+        "lockedBecause": "La membresía debe activarse primero."
+      }
+    },
+    "status": {
+      "pending": "Pendiente de verificación de identidad",
+      "verified": "Identidad verificada — Listo para el pago",
+      "active": "Activo",
+      "renewal_due": "Renovación pendiente",
+      "grace": "Periodo de gracia",
+      "lapsed": "Caducado",
+      "suspended": "Suspendido",
+      "revoked": "Revocado"
+    },
+    "help": {
+      "button": "Ayuda",
+      "title": "Guía de «Mi membresía»",
+      "intro": "Esta página te muestra paso a paso el recorrido de tu membresía profesional, desde la solicitud hasta la tarjeta activa. La membresía no es gratuita y se activa mediante el pago desde el monedero tras la verificación de identidad.",
+      "youCan": {
+        "1": "Solicita la membresía y selecciona tu área de especialización.",
+        "2": "Tras la verificación de identidad, selecciona un plan y realiza el pago.",
+        "3": "Consulta tu tarjeta de membresía activa y su fecha de expiración.",
+        "4": "Concede o retira en cualquier momento tu consentimiento para aparecer en el directorio de miembros.",
+        "5": "Si tu membresía caduca, inicia el proceso de renovación desde esta misma página."
+      },
+      "ifEmpty": "Si aún no has registrado ninguna membresía, verás el formulario de «Solicitud de membresía»; allí mismo puedes seleccionar tu área de especialización y enviar la solicitud.",
+      "sections": {
+        "youCan": "¿Qué puedes hacer aquí?",
+        "ifEmpty": "Si la página está vacía",
+        "chain": "Todo el recorrido, de principio a fin",
+        "roles": "Quién hace qué",
+        "glossary": "Glosario"
+      },
+      "chain": {
+        "1": "Envías una solicitud de membresía (el área de especialización es opcional).",
+        "2": "El operador de membresía verifica y confirma su identidad.",
+        "3": "Seleccionas un plan y pagas desde la cartera digital.",
+        "4": "Tu membresía se activa de inmediato y se emite la tarjeta de miembro.",
+        "5": "Verá un recordatorio de renovación cerca del final del periodo; si no renueva, habrá un periodo de gracia y luego la expiración."
+      },
+      "roles": {
+        "member": {
+          "label": "Usted (miembro)",
+          "does": "Solicitas, pagas y gestionas tu consentimiento para el directorio."
+        },
+        "operator": {
+          "label": "Operador de membresía",
+          "does": "Verifica y aprueba la identidad de las solicitudes."
+        },
+        "manager": {
+          "label": "Gestor de miembros",
+          "does": "Realiza la suspensión, la reactivación y la anulación, y redacta la configuración de la «aplicación»."
+        },
+        "finance": {
+          "label": "Director financiero",
+          "does": "Configura los descuentos, los límites y la política de cupones de membresía en la sección «Dinero»."
+        }
+      },
+      "glossary": {
+        "grace": {
+          "term": "Periodo de gracia",
+          "meaning": "Unos pocos días cortos, justo después de que expire la membresía, en los que la membresía todavía se considera válida para que tenga la oportunidad de renovarla."
+        },
+        "card": {
+          "term": "Tarjeta de membresía",
+          "meaning": "Resumen de su membresía activa — plan, fecha de vencimiento y estado —, que se muestra cuando la membresía está activa."
+        }
+      }
+    },
+    "empty": {
+      "lapsed": {
+        "title": "Tu membresía ha expirado",
+        "body": "La reactivación automática para la membresía caducada aún no está disponible. Para continuar con su membresía y recuperar el acceso al grupo especializado y al directorio de miembros, comuníquese con el operador de membresía a través del servicio de mensajería.",
+        "cta": "Abrir chat"
+      },
+      "directoryNoResults": {
+        "title": "No se encontraron miembros con estas características",
+        "body": "Borra los filtros o prueba con otro término de búsqueda.",
+        "cta": "Borrar filtros"
+      }
+    },
+    "confirm": {
+      "pay": {
+        "title": "Pago de membresía desde la billetera",
+        "body": "Se descontarán {price} del plan «{plan}» de su monedero y la membresía se activará de inmediato. Esta transacción en el monedero no es reembolsable; para detener la membresía, deberá coordinarlo con el operador de membresías más adelante.",
+        "confirmLabel": "Pagar y activar la membresía"
+      },
+      "renew": {
+        "title": "Renovar membresía con el monedero",
+        "body": "Se descontarán {price} del plan «{plan}» de su monedero y el nuevo período continuará a partir de la fecha de expiración actual; los días pagados restantes no se perderán. Esta transacción en el monedero no es reembolsable.",
+        "confirmLabel": "Pagar y renovar membresía"
+      }
+    },
+    "page": {
+      "eyebrow": "Mi cuenta",
+      "title": "Mi membresía",
+      "lead": "Estado de su membresía profesional, solicitudes, pagos y grupo especializado de su área.",
+      "transparency": "Al activar la membresía, se le añadirá al grupo especializado de su área en la aplicación de mensajería; podrá salir del grupo en cualquier momento directamente desde él.",
+      "consentText": "Acepto que la información seleccionada de mi perfil —nombre, área de especialización y, si se selecciona, currículum— se muestre en el directorio de miembros. [Borrador: el texto legal definitivo de la organización será reemplazado]",
+      "journey": {
+        "title": "Ruta de membresía",
+        "next": "Siguiente paso: {cta}",
+        "allDone": "Todos los pasos están completados"
+      },
+      "loading": "Cargando…",
+      "apply": {
+        "title": "Solicitud de membresía",
+        "intro": "Aún no se ha registrado ninguna membresía para ti. Selecciona tu área de especialización (opcional) y envía la solicitud.",
+        "fieldLabel": "Área de especialización (opcional)",
+        "noField": "— Sin área de especialización —",
+        "submit": "Enviar solicitud de membresía"
+      },
+      "expertise": "Área de especialización: {name}",
+      "pending": "Tu solicitud ha sido registrada y está pendiente de verificación de identidad.",
+      "pay": {
+        "intro": "Tu identidad ha sido verificada. Selecciona uno de los planes y realiza el pago para activar tu membresía.",
+        "noPlans": "Actualmente no hay planes disponibles para comprar.",
+        "planLabel": "Plan",
+        "planPlaceholder": "— Seleccionar plan —",
+        "planOption": "{name} — {price} / {days} días",
+        "submit": "Pagar desde el monedero",
+        "insufficient": "El saldo del monedero es insuficiente."
+      },
+      "card": {
+        "label": "Tarjeta de membresía",
+        "paid": "Monto pagado",
+        "expires": "Fecha de caducidad",
+        "graceEnd": "Fin del período de gracia"
+      },
+      "group": {
+        "note": "Te han añadido al grupo especializado «{field}» en la aplicación de mensajería.",
+        "openMessenger": "Abrir aplicación de mensajería"
+      },
+      "directory": {
+        "title": "Directorio de miembros",
+        "consentedBadge": "Consentimiento otorgado",
+        "consentedBody": "Has aceptado mostrar la información seleccionada de tu perfil en el directorio de miembros.",
+        "view": "Ver directorio",
+        "privacy": "Configuración de privacidad",
+        "withdraw": "Retirar consentimiento",
+        "staleNotice": "El texto de consentimiento se ha actualizado; vuelve a confirmarlo para seguir apareciendo en el directorio.",
+        "reconfirm": "Reconfirmar",
+        "accept": "Acepto",
+        "visibilityNote": "La visualización de la membresía, el área de especialización y el currículum se controla desde la tarjeta de «Privacidad» en la configuración."
+      },
+      "suspended": "Tu membresía ha sido suspendida.",
+      "suspendedReason": "Tu membresía ha sido suspendida: {reason}",
+      "revoked": "Tu membresía ha sido revocado.",
+      "revokedReason": "Tu membresía ha sido revocada: {reason}",
+      "renew": {
+        "title": "Renovación de membresía",
+        "intro": "Tu período de membresía está a punto de finalizar. Al renovar desde el monedero, el nuevo período continuará a partir de la fecha de caducidad actual y no se perderá ningún día pagado.",
+        "introLapsed": "Tu período de membresía ha caducado. Al renovar desde el monedero, la membresía volverá a estar activa a partir de hoy.",
+        "submit": "Renovar desde el monedero"
+      }
+    }
+  }
+}
