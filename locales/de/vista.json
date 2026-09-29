@@ -1,0 +1,43 @@
+{
+  "vista": {
+    "head": {
+      "title": "Über Vista",
+      "description": "Vista ist der technische Betreiber und Rechteinhaber dieser Plattform – Dienste, KI-Architektur, Ökosystem und offizielle Unternehmensinformationen."
+    },
+    "hero": {
+      "eyebrow": "TECHNISCHER PARTNER · Mehr erfahren",
+      "ownershipPrefix": "{platform} ist ein Produkt dieser Firma; Das {role} dieser Plattform und alle ihre materiellen und geistigen Rechte gehören",
+      "ownershipSuffix": ".",
+      "siteLinkLabel": "Offizielle Vista-Website ↗",
+      "aboutLinkLabel": "Über {name}"
+    },
+    "sections": {
+      "overview": {
+        "eyebrow": "ÜBERBLICK · Mehr",
+        "title": "Von verstreuten Ideen bis hin zu nutzbaren Produkten, Prozessen und Entscheidungen"
+      },
+      "services": {
+        "eyebrow": "DIENSTLEISTUNGEN · خدمات",
+        "title": "Von der KI-Architektur bis zum serienreifen Produkt"
+      },
+      "architecture": {
+        "eyebrow": "AGENTIC + RAG · معماری",
+        "title": "Sprachmodelle, Unternehmenswissen, Tools und menschliche Überprüfung in einer einzigen Architektur"
+      },
+      "ecosystem": {
+        "eyebrow": "ÖKOSYSTEM · اکوسیستم",
+        "title": "KI, Wissen und Produktentwicklung in einem Kreislauf"
+      },
+      "official": {
+        "eyebrow": "OFFIZIELL · اطلاعاتِ رسمی",
+        "title": "Vorstand und Kontaktmöglichkeiten"
+      }
+    },
+    "ecosystem": {
+      "viewSiteLabel": "Website ansehen ↗"
+    },
+    "official": {
+      "regNoLabel": "Registrierungsnr.:"
+    }
+  }
+}

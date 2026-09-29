@@ -1,0 +1,1055 @@
+{
+  "chart": {
+    "percentile": "{n}ème centile",
+    "percentileAria": "{label} : {n}ième percentile de {max}"
+  },
+  "meta": {
+    "band": {
+      "high": "Élevé",
+      "low": "Faible",
+      "mild": "Doux",
+      "minimal": "Minime",
+      "moderate": "Modéré",
+      "moderatelySevere": "Modérément sévère",
+      "normal": "Normale",
+      "severe": "Sévère",
+      "verySevere": "Très sévère"
+    },
+    "chip": {
+      "percentile": "{n}ème centile",
+      "signature": "La force de la signature"
+    },
+    "degree": {
+      "associate": "Associé",
+      "bachelor": "Baccalauréat",
+      "doctorate": "Doctorat",
+      "master": "Master",
+      "professional_doctorate": "Doctorat professionnel"
+    },
+    "riasecType": {
+      "A": {
+        "desc": "Créativité, expression et design (art, écriture, musique, design).",
+        "name": "Artistique"
+      },
+      "C": {
+        "desc": "Organisation, précision et travail avec les données (comptabilité, administrative, finance).",
+        "name": "Conventionnel"
+      },
+      "E": {
+        "desc": "Leadership, persuasion et affaires (gestion, vente, droit).",
+        "name": "Entreprenant"
+      },
+      "I": {
+        "desc": "Analyse, recherche et résolution de problèmes (sciences, médecine, mathématiques, recherche).",
+        "name": "Enquête"
+      },
+      "R": {
+        "desc": "Travaux pratiques et techniques avec des outils, des machines ou avec la nature (ingénierie, technique, agriculture).",
+        "name": "Réaliste"
+      },
+      "S": {
+        "desc": "Aider, enseigner et interagir avec les gens (éducation, conseil, soins infirmiers).",
+        "name": "Social"
+      }
+    },
+    "section": {
+      "bigfive": "Profil de personnalité des Big Five",
+      "dass21": "Trois dimensions : dépression, anxiété et stress",
+      "disc": "Quatre dimensions comportementales DISC",
+      "fallback": "Sous-échelles",
+      "grit": "Deux sous-échelles de grain",
+      "mai": "Deux dimensions métacognitives",
+      "mslq": "Profil de stratégies de motivation et d’apprentissage",
+      "oejts": "Quatre dimensions de type de personnalité",
+      "riasec": "Six types d'intérêts de carrière",
+      "vark": "Quatre styles d'apprentissage",
+      "via": "Forces de caractère de VIA",
+      "watsonGlaser": "Sous-tests de pensée critique Watson-Glaser"
+    },
+    "subscale": {
+      "bigfive": {
+        "A": "Agréabilité",
+        "C": "Conscience",
+        "E": "Extraversion",
+        "N": "Névrosisme",
+        "O": "Ouverture à l'expérience"
+      },
+      "dass21": {
+        "anxiety": "Anxiété",
+        "depression": "Dépression",
+        "stress": "Stress"
+      },
+      "disc": {
+        "C": "Conscience (C)",
+        "D": "Dominance (D)",
+        "I": "Influencer (I)",
+        "S": "Stabilité (S)"
+      },
+      "grit": {
+        "consistency": "Cohérence des intérêts",
+        "perseverance": "Persévérance dans l'effort",
+        "total": "Score de grain total"
+      },
+      "mai": {
+        "conditional": "Connaissance conditionnelle",
+        "debugging": "Stratégies de débogage",
+        "declarative": "Connaissance déclarative",
+        "evaluation": "Évaluation",
+        "info_management": "Stratégies de gestion de l'information",
+        "monitoring": "Surveillance",
+        "planning": "Planification",
+        "procedural": "Connaissance procédurale"
+      },
+      "mslq": {
+        "control_beliefs": "Croyances de contrôle",
+        "critical_thinking": "Pensée critique",
+        "effort_regulation": "Régulation des efforts",
+        "elaboration": "Élaboration",
+        "extrinsic_goal": "Orientation vers un objectif extrinsèque",
+        "help_seeking": "Recherche d'aide",
+        "intrinsic_goal": "Orientation intrinsèque vers un objectif",
+        "metacog_self_regulation": "Autorégulation métacognitive",
+        "organization": "Organisation",
+        "peer_learning": "Apprentissage par les pairs",
+        "rehearsal": "Répétition",
+        "self_efficacy": "Auto-efficacité",
+        "task_value": "Valeur de la tâche",
+        "test_anxiety": "Tester l'anxiété",
+        "time_study_env": "Temps et environnement d'étude"
+      },
+      "oejts": {
+        "EI": "Extraverti / Introverti",
+        "JP": "Juger / Percevoir",
+        "SN": "Détection / Intuitif",
+        "TF": "Penser / Sentiment"
+      },
+      "riasec": {
+        "A": "Artistique (A)",
+        "C": "Conventionnel (C)",
+        "E": "Entreprenant (E)",
+        "I": "Enquêteur (I)",
+        "R": "Réaliste (R)",
+        "S": "Social (S)"
+      },
+      "vark": {
+        "A": "Auditif (A)",
+        "K": "Kinesthésique (K)",
+        "R": "Lecture/écriture (R)",
+        "V": "Visuel (V)"
+      },
+      "watsonGlaser": {
+        "assumptions": "Reconnaître les hypothèses",
+        "deduction": "Déduction",
+        "evaluation": "Évaluation des arguments",
+        "inference": "Inférence",
+        "interpretation": "Interprétation",
+        "total": "Note totale"
+      }
+    },
+    "via": {
+      "appreciationOfBeauty": "Appréciation de la beauté et de l'excellence",
+      "bravery": "Bravoure",
+      "creativity": "Créativité",
+      "curiosity": "Curiosité",
+      "fairness": "Équité",
+      "forgiveness": "Le pardon",
+      "gratitude": "Gratitude",
+      "honesty": "Honnêteté",
+      "hope": "Espoir",
+      "humility": "Humilité",
+      "humor": "Humour",
+      "judgment": "Jugement",
+      "kindness": "La gentillesse",
+      "leadership": "Direction",
+      "love": "Amour",
+      "loveOfLearning": "L'amour de l'apprentissage",
+      "perseverance": "Persévérance",
+      "perspective": "Point de vue",
+      "prudence": "Prudence",
+      "selfRegulation": "Autorégulation",
+      "socialIntelligence": "Intelligence sociale",
+      "spirituality": "Spiritualité",
+      "teamwork": "Travail d'équipe",
+      "zest": "Zeste/Enthousiasme"
+    }
+  },
+  "result": {
+    "action": {
+      "backToWellness": "Retour à Santé et conseils",
+      "myHistory": "Mon historique de résultats"
+    },
+    "analysis": {
+      "pendingBody": "Vos réponses ont été enregistrées de manière complète et confidentielle. Dès que la clé de notation officielle sera enregistrée, l'analyse de ces réponses sera affichée ici.",
+      "scoreOutOf": "{score} sur {max}",
+      "screeningReminder": "Il s'agit d'un outil de dépistage et non d'un diagnostic.",
+      "soon": "Analyse à venir",
+      "title": "Analyse des résultats"
+    },
+    "backToHistory": "Retour à l'historique des résultats",
+    "crisis": {
+      "aria": "Ressources d'aide immédiate",
+      "callAria": "Appelez {title} à {phone}",
+      "title": "Vous n'êtes pas seul : de l'aide est disponible dès maintenant",
+      "urgent": "Urgent"
+    },
+    "defaultTestName": "Test de santé mentale",
+    "err": {
+      "generic": "Une erreur s'est produite",
+      "invalidId": "ID de résultat invalide"
+    },
+    "gad7": {
+      "mild": {
+        "action": "L’exercice de respiration 4-7-8 et la décomposition des tâches en petites étapes peuvent aider.",
+        "body": "Vous ressentez une certaine inquiétude ou un certain malaise, ce qui est normal. L'anxiété signifie que vous vous souciez de quelque chose, pas que vous en êtes incapable.",
+        "headline": "Légère anxiété"
+      },
+      "minimal": {
+        "body": "Les symptômes d’anxiété sont à leur niveau le plus bas. Vous prenez bien soin de vous.",
+        "headline": "Anxiété minimale"
+      },
+      "moderate": {
+        "body": "Il semble que l’anxiété soit forte ces jours-ci et affecte votre tranquillité d’esprit. Être gentil avec vous-même est la première étape.",
+        "headline": "Anxiété modérée"
+      },
+      "severe": {
+        "body": "Vos réponses indiquent que l’anxiété vous impose un lourd fardeau. Ne restez pas seul ; parler à un spécialiste peut être très utile.",
+        "headline": "Anxiété sévère"
+      }
+    },
+    "help": {
+      "body": "Le résultat de ce questionnaire donne un aperçu général de votre état de bien-être actuel et est conçu pour la conscience de soi. Ce résultat ne constitue pas un diagnostic ; un diagnostic définitif n’est possible que grâce à une évaluation en personne par un spécialiste. Vous pouvez parler avec un conseiller universitaire quand vous le souhaitez.",
+      "title": "Guide des résultats"
+    },
+    "higherIsBetter": "Dans ce test, un score plus élevé indique une meilleure condition.",
+    "keySource": {
+      "aiDerivedV1": "Calculé avec la clé temporaire version 1 (extraction AI) — sera mis à jour lors de l'enregistrement de la clé officielle.",
+      "convention": "La clé de notation a été appliquée sur la base de la convention standard de cet outil.",
+      "file": "La clé de notation a été extraite du fichier de l'outil officiel lui-même.",
+      "pendingKey": "La clé officielle de cet outil n'a pas encore été enregistrée."
+    },
+    "loading": "Chargement…",
+    "meter": {
+      "aria": "Noter {score} sur {outOf}",
+      "bestWithValue": "{value} (meilleur)",
+      "least": "Moins",
+      "leastWithValue": "{value} (Moins)",
+      "mostWithValue": "{value} (le plus élevé)"
+    },
+    "multi": {
+      "bigfive": {
+        "action": "Vous pouvez combiner ce profil avec la Holland Interest Assessment pour obtenir une image plus complète de votre sélection de chemin.",
+        "body": "La personnalité est un spectre, pas une étiquette. Chaque facteur fait partie de votre image ; un score moyen signifie flexibilité et non faiblesse.",
+        "headline": "Votre profil de personnalité Big Five"
+      },
+      "dass21": {
+        "body": "Ce test mesure trois dimensions séparément. Le tableau ci-dessous montre la position de chacun. Les étiquettes de gravité indiquent votre position par rapport à la population générale, et non un diagnostic.",
+        "headline": "Profil de dépression, d'anxiété et de stress"
+      },
+      "grit": {
+        "action": "Si l’une des deux sous-échelles est faible, la définition d’objectifs et la formation d’habitudes peuvent la renforcer.",
+        "body": "Le courage est une combinaison de cohérence d’intérêt et de persévérance dans les efforts. Il s’agit d’une compétence développable et non d’un trait fixe.",
+        "headline": "Votre courage"
+      },
+      "mai": {
+        "action": "Si la « régulation de la cognition » est faible, des exercices d'auto-évaluation pendant les études peuvent aider.",
+        "body": "La métacognition signifie la conscience de votre propre processus d'apprentissage. Un score plus élevé signifie que vous pouvez mieux réguler votre apprentissage.",
+        "headline": "Votre conscience métacognitive"
+      },
+      "mslq": {
+        "action": "Concentrez-vous sur les sous-échelles inférieures ; l'assistant de santé intelligent peut leur suggérer des exercices.",
+        "body": "Ce test montre vos points forts et vos domaines de croissance dans les méthodes d'étude et la motivation afin que vous sachiez quoi renforcer.",
+        "headline": "Votre profil d’apprentissage et de motivation"
+      },
+      "oejts": {
+        "body": "OEJTS est un questionnaire de typologie jungienne ; votre code à quatre lettres (comme INTJ) est construit à partir de quatre axes indépendants : Introverti/Extraverti, Détection/Intuitif, Pensée/Sentiment et Jugement/Perception. C’est un point de départ pour la découverte de soi, pas une certitude ; il est préférable de le visualiser à côté du profil Big Five.",
+        "headline": "Votre type de personnalité (basé sur OEJTS)"
+      },
+      "riasec": {
+        "action": "Considérez le résultat comme un point de départ pour découvrir votre chemin, et non comme une règle définitive. Vous pouvez parler de votre parcours avec un conseiller.",
+        "body": "Ce test vous indique quels types d'activités vous intéressent le plus. Votre code à trois lettres et les spécialisations universitaires correspondantes sont répertoriées ci-dessous.",
+        "headline": "Vos intérêts professionnels — Holland Code"
+      },
+      "vark": {
+        "action": "Utilisez vos styles les plus forts dans vos études, mais ne vous limitez pas à un seul.",
+        "body": "Ce test montre votre préférence pour recevoir des informations. Il s’agit d’une « préférence », pas d’une règle ; la plupart des gens sont multimodaux.",
+        "headline": "Votre style d'apprentissage"
+      },
+      "via": {
+        "action": "Essayez d'appliquer davantage vos atouts dans vos études et dans votre vie ; cela est lié au bien-être.",
+        "body": "Ce test met en évidence vos points forts de caractère positif. Les points forts inférieurs de la liste ne sont pas des faiblesses : ils sont simplement moins importants.",
+        "headline": "Vos atouts de caractère"
+      }
+    },
+    "nextStep": {
+      "title": "Un petit geste bienveillant"
+    },
+    "notFound": "Aucun résultat trouvé.",
+    "page": {
+      "eyebrow": "Santé mentale · Résultat de l'auto-évaluation",
+      "lead": "Il s’agit d’un examen de découverte de soi et non d’un diagnostic clinique. Vos réponses sont personnelles et confidentielles.",
+      "title": "Résultat du test"
+    },
+    "pending": {
+      "body": "Toutes vos réponses ont été soigneusement enregistrées. La clé de notation officielle de cet outil n'est pas encore disponible ; dès son ajout, l'analyse de ces réponses exactes s'affichera pour vous.",
+      "headline": "Vos réponses ont été enregistrées – analyse à venir"
+    },
+    "phq9": {
+      "mild": {
+        "action": "Essayez l'une des ressources d'auto-assistance et suivez ce que vous ressentez pendant quelques jours ; si cela persiste, parlez-en à un conseiller.",
+        "body": "Il semble que vous ressentiez une certaine pression ou une mauvaise humeur, ce qui est tout à fait naturel et gérable.",
+        "headline": "Symptômes légers"
+      },
+      "minimal": {
+        "body": "Vos réponses indiquent que les symptômes de la dépression sont à leur plus bas niveau ces jours-ci. C'est une bonne nouvelle.",
+        "headline": "Symptômes minimes de dépression"
+      },
+      "moderate": {
+        "body": "Vos réponses indiquent que vous subissez une pression importante ces jours-ci. Prenez cela au sérieux et soyez gentil avec vous-même.",
+        "headline": "Symptômes modérés"
+      },
+      "moderatelySevere": {
+        "body": "Il semble que les choses soient vraiment difficiles ces jours-ci. Vous ne devriez pas avoir à porter cette lourde charge tout seul ; vous méritez du soutien.",
+        "headline": "Symptômes modérément sévères"
+      },
+      "severe": {
+        "body": "Vos réponses indiquent que vous subissez beaucoup de pression. Ne restez pas seul et parlez-en à un professionnel dès que possible.",
+        "headline": "Symptômes graves"
+      }
+    },
+    "profile": {
+      "title": "Votre profil"
+    },
+    "programs": {
+      "bestFit": "Meilleur ajustement",
+      "browseCta": "Parcourir les programmes universitaires",
+      "code": "Code d'intérêt : {code}",
+      "cta": "Voir tous les programmes et inscrivez-vous",
+      "degreeAndCode": "{degree} · Code d'intérêt : {code}",
+      "emptyBody": "Aucun programme correspondant n'a encore été enregistré pour votre code d'intérêt, mais vous pouvez consulter tous les programmes universitaires.",
+      "lead": "En fonction de vos intérêts, ces programmes universitaires sont proches de votre Holland Code. Il s’agit d’une suggestion d’auto-évaluation et non d’une prescription : le choix final vous appartient.",
+      "title": "Programmes universitaires suggérés"
+    },
+    "recorded": "Résultat enregistré",
+    "riasec": {
+      "letterAria": "Lettre {name}",
+      "title": "Votre code Hollande"
+    },
+    "rosenberg": {
+      "high": {
+        "body": "Vous avez généralement une bonne idée de votre propre valeur. C'est un atout précieux pour les jours difficiles.",
+        "headline": "Haute estime de soi"
+      },
+      "low": {
+        "body": "Votre vision de vous-même est un peu dure ces jours-ci. Un score faible n’est pas une étiquette négative : l’estime de soi est renforcée par la pratique et la conversation.",
+        "headline": "Estime de soi inférieure à d’habitude"
+      },
+      "moderate": {
+        "action": "Pratiquer l’auto-compassion et noter dans un journal vos points forts peut aider à renforcer ce sentiment.",
+        "body": "Votre vision de vous-même est modérée ; comme la plupart des gens, cela monte et descend parfois. C'est naturel.",
+        "headline": "Estime de soi modérée"
+      }
+    },
+    "safety": {
+      "body": "Certaines de vos réponses indiquent que les choses pourraient être très difficiles en ce moment et que vous méritez du soutien. Veuillez consulter les ressources d'assistance répertoriées ci-dessus ; parler à un compagnon humain peut aider. 💙",
+      "headline": "S'il vous plaît, prenez ce résultat au sérieux - vous n'êtes pas seul"
+    },
+    "score": {
+      "outOf": "sur {outOf}"
+    },
+    "screeningNote": "Merci d'avoir rempli ce questionnaire. Ce résultat est un outil de dépistage de la conscience de soi et non un diagnostic.",
+    "serverType": "Votre type : {name}",
+    "subscale": {
+      "footer": "Ce profil est destiné à la conscience de soi et non au jugement. Aucun score n'est absolument « bon » ou « mauvais » ; chacun fait partie de votre image globale. 💙"
+    },
+    "suggest": {
+      "counselor": "Si vous le souhaitez, vous pouvez prendre rendez-vous avec un conseiller universitaire de la rubrique « Santé et Conseil » ; parler aide.",
+      "selfcare": "Continuez à prendre soin de vous : dormez régulièrement, faites un peu d’activité physique et connectez-vous avec les personnes qui vous sont chères."
+    },
+    "vark": {
+      "dominant": {
+        "A": "Style dominant : Auditif",
+        "K": "Style dominant : kinesthésique/expérientiel",
+        "R": "Style dominant : lecture/écriture",
+        "V": "Style dominant : visuel"
+      }
+    },
+    "who5": {
+      "low": {
+        "action": "Ce pourrait être une bonne idée de passer également un test de dépistage de la dépression (PHQ-9) ou de parler avec un conseiller universitaire.",
+        "body": "Votre score de bien-être est un peu faible ; peut-être que votre énergie ou votre humeur est plus faible que d’habitude ces jours-ci. Ceci est un signe, pas une étiquette.",
+        "headline": "Bien-être inférieur à la normale"
+      },
+      "ok": {
+        "action": "Maintenez cette bonne dynamique en conservant des habitudes saines et en prenant des nouvelles de vous-même de temps en temps.",
+        "body": "Votre score de bien-être est à un bon niveau, ce qui signifie que vous vous sentez bien la plupart du temps ces derniers temps. Excellent!",
+        "headline": "Bon bien-être"
+      },
+      "pill": {
+        "low": "Faible bien-être",
+        "ok": "Bon bien-être"
+      }
+    },
+    "yourResult": "Votre résultat"
+  },
+  "results": {
+    "band": {
+      "who5": {
+        "low": "Faible bien-être",
+        "ok": "Bon bien-être"
+      }
+    },
+    "card": {
+      "attempts": "{count, plural, one {# temps} other {# fois}}",
+      "details": "Détails et interprétation",
+      "latest": "Dernier résultat",
+      "previous": "Résultats précédents"
+    },
+    "category": {
+      "interest": "Intérêts et préférences",
+      "learning": "Style d'apprentissage",
+      "mental": "Santé mentale"
+    },
+    "chart": {
+      "aria": "Tendance de l'humeur au cours des derniers jours {days, number} ; dernière entrée : {last}"
+    },
+    "crisis": {
+      "note": "Vous n'êtes pas seul. Si vous rencontrez des difficultés ces derniers temps, vous pouvez appeler dès maintenant la ligne d'assistance sociale <b>1480 </b> ou parler à un conseiller universitaire. Ouvrez le résultat correspondant pour afficher les ressources d'assistance."
+    },
+    "cta": {
+      "newTest": "Nouvelle auto-évaluation"
+    },
+    "empty": {
+      "body": "Vous n'avez pas encore passé de tests.",
+      "cta": "Commencer une auto-évaluation"
+    },
+    "err": {
+      "generic": "Une erreur s'est produite"
+    },
+    "group": {
+      "unknownTest": "Test de santé mentale"
+    },
+    "head": {
+      "eyebrow": "Santé mentale · Histoire",
+      "lead": "Votre historique de tests de santé mentale, regroupé par test avec une tendance simple par rapport à la fois précédente. Ces résultats concernent la conscience de soi et non le diagnostic.",
+      "title": "Mes résultats d'auto-évaluation"
+    },
+    "help": {
+      "body": "Ici, vous pouvez voir votre « Aperçu de ma santé », vos tendances d'humeur quotidiennes et tous vos résultats de tests de santé mentale. Chaque carte affiche le dernier résultat du test avec sa tendance par rapport à la précédente. Appuyez sur n’importe quel résultat pour afficher ses détails et son interprétation. Ces résultats ne sont visibles que par vous.",
+      "title": "Guide de l'historique des résultats"
+    },
+    "history": {
+      "title": "Histoire par test"
+    },
+    "kpi": {
+      "tests": "Tests terminés",
+      "total": "Résultats totaux"
+    },
+    "mood": {
+      "avg": {
+        "high": "Tu étais de bonne humeur",
+        "low": "Tu as eu des journées un peu lourdes",
+        "mid": "Vous avez eu une humeur équilibrée",
+        "veryLow": "Tu as traversé des jours difficiles"
+      },
+      "avgBadge": "Moyenne {avg} sur 5",
+      "hint": "Enregistrez votre humeur quotidienne à partir du tableau de bord de santé pour compléter sa tendance ici.",
+      "last": "Dernière entrée : {label}",
+      "level": {
+        "1": "Très faible",
+        "2": "Un peu triste",
+        "3": "Neutre",
+        "4": "Bien",
+        "5": "Excellent"
+      },
+      "rangeDays": "{count, plural, one {# dernier jour} other {# derniers jours}}",
+      "streak": "{count, plural, one {# jour consécutif} other {# jours consécutifs}}",
+      "title": "Ma tendance d'humeur"
+    },
+    "overview": {
+      "cellAria": "{label} : {value} — Afficher les détails",
+      "moodLabel": "Humeur quotidienne",
+      "moodValue": "{avg} sur 5 · {label}",
+      "subtitle": "Aperçu du dernier état de chaque dimension : il s'agit d'un instantané permettant de se découvrir soi-même, et non d'un diagnostic.",
+      "title": "Mon aperçu du bien-être"
+    },
+    "state": {
+      "loading": "Chargement…"
+    },
+    "trend": {
+      "delta": "({compte, pluriel, un {# point} autre {# points}})",
+      "down": "Diminution par rapport à la fois précédente",
+      "first": "Premier résultat",
+      "flat": "Aucun changement",
+      "up": "Amélioration par rapport à la fois précédente"
+    },
+    "vark": {
+      "A": "Style dominant : Auditif",
+      "K": "Style dominant : kinesthésique/expérientiel",
+      "R": "Style dominant : Lecture/Écriture",
+      "V": "Style dominant : Visuel"
+    }
+  },
+  "rich": {
+    "ai": {
+      "consent": "Utiliser mes résultats de tests pour une réponse plus personnalisée (facultatif et confidentiel)",
+      "crisisTitle": "S'il vous plaît, ne restez pas seul 💙",
+      "default": {
+        "reply": "Merci de partager cela avec moi 💙 Cela m'importe de mieux vous comprendre. Souhaitez-vous partager un peu plus sur ce qui vous préoccupe le plus : les études, le sommeil, les relations ou ce que vous ressentez ces derniers temps ? Quoi que vous disiez, je suis là pour vous patiemment.",
+        "tip1": "Respirez profondément et concentrez-vous uniquement sur ce moment",
+        "tip2": "Vous pouvez également commencer à utiliser les boutons de réponse rapide ci-dessous"
+      },
+      "disclaimer": "Les réponses à cette conversation sont écrites par l’IA, et non par un humain ; il s’agit d’un compagnon éducatif et ne remplace pas les conseils professionnels. Dans les situations critiques, appelez la ligne d'assistance {phone}.",
+      "greeting": {
+        "high": "Hello 😄 C'est super que tu te sentes bien aujourd'hui ! Utilisons cette énergie pour construire une journée productive. Qu'est-ce qui préoccupe votre esprit?",
+        "low": "Bonjour 💙 Je vois que tu ne te sens pas au mieux aujourd'hui. Je suis heureux que vous soyez ici – le simple fait de vouloir parler est un bon pas vers vous-même. Écrivez-moi ce que vous voulez, je vous écoute patiemment.",
+        "mid": "Bonjour 🌤️ Je suis votre compagnon en psychologie IA. Écrivez tout ce qui vous passe par la tête – études, stress, sommeil ou même bonne humeur – afin que nous puissions l'examiner ensemble.",
+        "none": "Bonjour 🙂 Je suis votre compagnon en psychologie IA ; un espace sûr et confidentiel pour parler. Comment se passent vos journées ces derniers temps ? Nous pouvons parler de tout ce que vous voulez."
+      },
+      "inputAria": "Envoyez un message au compagnon de psychologie de l'IA",
+      "placeholder": "Écrivez tout ce que vous avez sur le cœur…",
+      "quick": {
+        "q1": {
+          "label": "J'ai du stress lors des examens",
+          "message": "Je suis très stressé et inquiet pour mes examens"
+        },
+        "q2": {
+          "label": "J'ai perdu ma motivation",
+          "message": "Je n'ai aucune motivation pour étudier ces jours-ci"
+        },
+        "q3": {
+          "label": "Mon sommeil est perturbé",
+          "message": "Je n'arrive pas à dormir la nuit et je suis fatigué"
+        },
+        "q4": {
+          "label": "je me sens seul",
+          "message": "Je suis loin de ma famille et je me sens seul"
+        },
+        "q5": {
+          "label": "je manque de concentration",
+          "message": "Je n'ai pas de concentration pendant mes études et je me laisse facilement distraire"
+        },
+        "q6": {
+          "label": "Je vais bien! 😊",
+          "message": "Je me sens bien aujourd'hui et plein d'énergie"
+        }
+      },
+      "reset": "Réinitialiser",
+      "resetAria": "Nouvelle discussion",
+      "rules": {
+        "gratitude": {
+          "reply1": "De rien 💙 Je suis si heureuse de pouvoir être là pour vous. N'oubliez pas que ces progrès sont le résultat de vos propres efforts et de votre ouverture d'esprit. Chaque fois que tu as à nouveau besoin d'aide, je suis là.",
+          "tip1": "Enregistrez cette bonne humeur avec une courte note pour vous-même",
+          "tip2": "Faites un acte gentil pour vous-même ou pour quelqu'un d'autre"
+        },
+        "happy": {
+          "reply1": "Wow, c'est merveilleux ! 🎉 Je suis tellement heureuse que vous vous sentiez bien – cette énergie positive mérite d'être célébrée. Faisons en sorte que ce bon sentiment dure et utilisons-le pour vous aider à atteindre vos objectifs.",
+          "reply2": "Cette nouvelle m’a aussi fait chaud au cœur ! 🌟 Savourez en pleine conscience ces bons moments ; c’est ce qui nous donne de la force dans les jours difficiles. Soyez fier de vous.",
+          "tip1": "Notez ce bon moment pour pouvoir y revenir plus tard",
+          "tip2": "En vous concentrant sur cette énergie, faites un petit pas vers votre objectif",
+          "tip3": "Partagez votre bonne humeur avec quelqu'un que vous aimez"
+        },
+        "lonely": {
+          "reply1": "Manquer la maison et se sentir seul, surtout loin de chez soi, est l'un des aspects les plus difficiles de la vie étudiante, et vous n'êtes pas seul dans cette situation 💙 Ce sentiment signifie que vous avez des relations précieuses. Trouvons des moyens de rester en contact avec vos proches et de créer un sentiment d'appartenance ici.",
+          "tip1": "Planifiez un appel court et régulier avec votre famille",
+          "tip2": "Rejoignez un club ou un groupe étudiant qui partage vos intérêts",
+          "tip3": "Commencez une petite conversation avec un camarade de classe aujourd'hui"
+        },
+        "motivation": {
+          "reply1": "Une baisse de motivation arrive à chacun d'entre nous et ce n'est pas un signe de paresse de votre part, c'est souvent un signe de fatigue ou d'objectifs trop ambitieux. Faisons en sorte que l'objectif soit suffisamment petit pour qu'il soit facile de démarrer ; c’est le mouvement qui renforce la motivation, et non l’inverse. 🌱",
+          "reply2": "Lorsque la motivation diminue, au lieu d'attendre le « bon sentiment », commencez simplement pendant deux minutes. Souvent, ces deux minutes font tourner les roues. Soyez fier de vous d’être toujours là et d’essayer.",
+          "tip1": "Concentrez-vous uniquement sur la « première étape de deux minutes », et non sur l'ensemble de la tâche.",
+          "tip2": "Fixez une petite récompense pour la fin de chaque session d'étude",
+          "tip3": "Suivez vos progrès : notez une petite chose que vous avez accomplie aujourd'hui"
+        },
+        "sad": {
+          "reply1": "Je suis désolé que vous ressentiez une lourdeur dans votre cœur ces jours-ci 💙 Vos sentiments sont tout à fait valables et vous n'avez pas besoin de les cacher. Le fait que vous en parliez est un signe de votre force et non de votre faiblesse. Allons-y étape par étape.",
+          "reply2": "Je veux que vous sachiez que vous n'êtes pas seul dans ce sentiment et que cet état passera, même si cela ne semble pas être le cas pour le moment. Soyez plus gentil avec vous-même que jamais ; tu mérites cette gentillesse.",
+          "tip1": "Faites une petite chose agréable pour vous-même (musique, petite promenade, thé)",
+          "tip2": "Écrivez trois choses pour lesquelles vous êtes reconnaissant aujourd'hui",
+          "tip3": "Contactez un ami ou une personne de confiance ; être vu aide"
+        },
+        "sleep": {
+          "reply1": "Un bon sommeil est la base de tout : à la fois la tranquillité d’esprit et la concentration dans les études. Si votre sommeil a été perturbé ces dernières nuits, c'est tout à fait normal ; un esprit occupé a du mal à s’installer. Passons ensemble en revue quelques habitudes simples pour retrouver la qualité de votre sommeil.",
+          "tip1": "Rangez les écrans une heure avant le coucher",
+          "tip2": "Gardez la pièce fraîche et sombre et dormez à la même heure chaque nuit",
+          "tip3": "Si vous n'arrivez pas à vous endormir pendant 20 minutes, levez-vous et faites une activité relaxante"
+        },
+        "stress": {
+          "reply1": "Je comprends tout à fait ; Le stress des examens et la pression des études sont vraiment lourds et ce sentiment est tout à fait naturel. Votre corps essaie de se préparer, mais un peu trop. Ramenons ensemble le calme dans votre esprit – vous l’avez.",
+          "reply2": "Je sens que tu es sous pression et c'est dur. Il est important de savoir que l’anxiété signifie que vous vous souciez de cette question, et non que vous en êtes incapable. Respirez profondément ; Je suis ici avec toi.",
+          "tip1": "Exercice de respiration 4-7-8 : inspirez pendant quatre secondes, maintenez sept secondes, expirez pendant huit secondes",
+          "tip2": "Décomposez les tâches en petites étapes de 25 minutes (Pomodoro)",
+          "tip3": "Buvez un verre d'eau et éloignez-vous de votre bureau pendant deux minutes"
+        },
+        "study": {
+          "reply1": "Lorsque la planification des études est bien organisée, elle élimine à elle seule une grande partie du stress. La concentration est une compétence, pas un trait fixe : elle se renforce avec la pratique. Créons pour vous un rythme simple et réalisable afin que vous puissiez progresser sans vous épuiser.",
+          "tip1": "Travail selon la technique Pomodoro : 25 minutes de concentration + 5 minutes de repos",
+          "tip2": "Mettez votre téléphone portable sur Ne pas déranger et hors de portée",
+          "tip3": "Lisez le sujet le plus difficile dès le matin, lorsque vous avez plus d'énergie"
+        }
+      },
+      "sendAria": "Envoyer un message",
+      "subtitle": "Compagnon et confidentiel · Toujours à vos côtés",
+      "tipsLabel": "🌱Petits conseils :",
+      "title": "Psychologue en IA",
+      "typing": "Taper…"
+    },
+    "appt": {
+      "cancel": {
+        "body": "Ce rendez-vous sera annulé et le créneau sera libéré. Vous devrez réserver à nouveau pour planifier un nouveau rendez-vous.",
+        "confirm": "Annuler le rendez-vous",
+        "title": "Annuler le rendez-vous pour \"{name}\" — {date} à {time}",
+        "titleFallback": "Annuler le rendez-vous"
+      },
+      "cancelBtn": "Annuler le rendez-vous",
+      "cancelling": "Annulation…",
+      "empty": "Vous n'avez pas encore de rendez-vous. Choisissez l'un des conseillers ci-dessous. 🌱",
+      "loading": "Chargement des rendez-vous…",
+      "mode": {
+        "in_person": "En personne",
+        "online": "En ligne"
+      },
+      "note": "Remarque : {note}",
+      "status": {
+        "cancelled": "Annulé",
+        "confirmed": "Confirmé",
+        "done": "Terminé",
+        "requested": "En attente de confirmation"
+      },
+      "title": "Mes rendez-vous"
+    },
+    "assess": {
+      "band": {
+        "calm": {
+          "feedback": "Il semble que vous soyez dans un bon équilibre ces jours-ci – bravo ! Prendre soin de soi, c'est payant.",
+          "label": "Etat bon et équilibré",
+          "suggestion": "Conservez ces bonnes habitudes et n'oubliez pas de consigner votre humeur quotidienne pour maintenir votre élan positif."
+        },
+        "high": {
+          "feedback": "Il semble que les choses soient vraiment difficiles ces jours-ci et que vous ne devriez pas avoir à porter ce poids seul. Vous méritez du soutien.",
+          "label": "Haute pression",
+          "suggestion": "Veuillez réserver une séance avec l'un des conseillers. Si vous estimez que c'est urgent, la hotline d'assistance est disponible 24h/24 et 7j/7."
+        },
+        "mild": {
+          "feedback": "Vous ressentez un peu de pression, ce qui est tout à fait normal et gérable. Vous allez bien.",
+          "label": "Légère pression",
+          "suggestion": "Essayez l’une des ressources d’auto-assistance sur le stress ou le sommeil et prenez une courte pause quotidienne pour vous-même."
+        },
+        "moderate": {
+          "feedback": "On dirait que vous subissez une pression importante ces jours-ci. Il est important de prendre cela au sérieux et d’être gentil avec vous-même.",
+          "label": "Pression modérée",
+          "suggestion": "Parler au psychologue IA ou réserver une séance avec un conseiller peut aider. Ne restez pas seul."
+        }
+      },
+      "close": "Fermer",
+      "closeBtn": "Fermer",
+      "dialogAria": "Brève auto-évaluation",
+      "disclaimer": "Cette auto-évaluation ne constitue pas un diagnostic médical ; c'est simplement un outil de conscience de soi.",
+      "prev": "← Question précédente",
+      "progress": "Question {index} de {total}",
+      "q": {
+        "s1": {
+          "opt": {
+            "o1": "Presque jamais",
+            "o2": "Parfois",
+            "o3": "La plupart des jours",
+            "o4": "Presque toujours"
+          },
+          "prompt": "Au cours de la semaine dernière, à quelle fréquence vous êtes-vous senti stressé ou sous pression ?"
+        },
+        "s2": {
+          "opt": {
+            "o1": "Bon et suffisant",
+            "o2": "Assez bien",
+            "o3": "Agité et insuffisant",
+            "o4": "Très mauvais"
+          },
+          "prompt": "Quelle est la qualité de votre sommeil ces jours-ci ?"
+        },
+        "s3": {
+          "opt": {
+            "o1": "Eh bien",
+            "o2": "Modérément",
+            "o3": "Avec difficulté",
+            "o4": "Presque aucun"
+          },
+          "prompt": "Dans quelle mesure avez-vous réussi à vous concentrer sur vos études et vos tâches ?"
+        },
+        "s4": {
+          "opt": {
+            "o1": "Comme toujours",
+            "o2": "Un peu moins",
+            "o3": "Beaucoup moins",
+            "o4": "Presque aucun"
+          },
+          "prompt": "Dans quelle mesure avez-vous apprécié les choses qui vous apportent habituellement de la joie ?"
+        },
+        "s5": {
+          "opt": {
+            "o1": "Complètement",
+            "o2": "La plupart du temps",
+            "o3": "Rarement",
+            "o4": "Pas du tout"
+          },
+          "prompt": "Dans quelle mesure pensez-vous pouvoir faire face aux défis auxquels vous êtes confrontés ces derniers temps ?"
+        }
+      },
+      "restart": "Recommencer",
+      "resultLabel": "Résultat de l'auto-évaluation",
+      "subtitle": "Confidentiel et pour votre propre information uniquement",
+      "suggestion": "💡 Suggestion : {text}",
+      "teaser": {
+        "body": "Un questionnaire de questions {n} sur le stress, le sommeil et la concentration – en moins de deux minutes, avec des commentaires amicaux et sans jugement. Le résultat est juste pour votre propre conscience.",
+        "cta": "Commencer l'auto-évaluation",
+        "demoNote": "Auto-évaluation d'essai rapide : les résultats ne sont pas enregistrés",
+        "title": "Brève auto-évaluation",
+        "validLead": "Pour des évaluations de santé mentale validées et enregistrables, utilisez",
+        "validLink": "tests psychologiques",
+        "validTail": "."
+      },
+      "title": "Brève auto-évaluation"
+    },
+    "booking": {
+      "cancel": "Annuler",
+      "close": "Fermer",
+      "dateLabel": "Sélectionnez une date",
+      "datePickerAria": "Sélectionnez la date du rendez-vous",
+      "datePlaceholder": "Sélectionnez une date",
+      "dialogAria": "Prendre rendez-vous",
+      "err": {
+        "invalid": "L'heure sélectionnée n'est pas valide.",
+        "noDate": "Veuillez sélectionner une date.",
+        "noTime": "Veuillez sélectionner une heure.",
+        "past": "L'heure sélectionnée est dans le passé ; veuillez choisir une heure ultérieure."
+      },
+      "footnote": "Le rendez-vous sera enregistré avec le statut « En attente de confirmation » ; vous serez informé une fois approuvé par le conseiller. 💙",
+      "modeLabel": "Type de séance",
+      "noteAria": "Note pour le conseiller",
+      "noteLabel": "Remarque",
+      "noteOptional": "(facultatif)",
+      "notePlaceholder": "Si vous le souhaitez, écrivez brièvement ce dont vous aimeriez discuter…",
+      "saving": "Sauvegarde...",
+      "submit": "Confirmer le rendez-vous",
+      "timeLabel": "Sélectionnez l'heure",
+      "title": "Prendre rendez-vous"
+    },
+    "counselors": {
+      "book": "Prendre rendez-vous",
+      "emptyBody": "Les membres de notre équipe seront bientôt là ; si vous avez besoin d'une assistance immédiate, utilisez « Discuter avec AI Counselor » ou la ligne de crise au bas de cette page. 💙",
+      "emptyTitle": "Aucun conseiller disponible pour l'instant",
+      "initialsFallback": "?",
+      "loading": "Chargement des conseillers...",
+      "noMatch": "Aucun conseiller trouvé ne correspond à ces critères."
+    },
+    "emergency": {
+      "body": "Si vous sentez que vous avez besoin d’une aide immédiate en ce moment, vous n’êtes pas seul. Cette ligne est disponible 24h/24 et 7j/7 et est totalement confidentielle.",
+      "center": "🏥 Centre de conseil universitaire · {phone}",
+      "footer": "Toutes les conversations restent confidentielles. Prends soin de toi. 💙",
+      "hope": "☎️ Ligne Espoir · {phone}",
+      "title": "Il y a toujours quelqu'un pour écouter"
+    },
+    "err": {
+      "generic": "Une erreur s'est produite"
+    },
+    "hero": {
+      "eyebrow": "Santé mentale · Soutien aux étudiants",
+      "helpBody": "Cette page est votre espace santé mentale. Vous pouvez discuter en toute confidentialité avec le psychologue IA, enregistrer votre humeur du jour, faire une brève auto-évaluation et utiliser des ressources d'auto-assistance. Pour parler avec un conseiller, vous pouvez également prendre rendez-vous depuis la section conseillers.",
+      "helpTitle": "Guide de santé et de conseil",
+      "lead": "Nous sommes là pour vous. Discutez avec le psychologue IA, prenez rendez-vous avec des conseillers expérimentés, enregistrez votre humeur aujourd'hui et utilisez les ressources d'auto-assistance. Chaque petit pas compte. 💙",
+      "title": "Santé et conseil"
+    },
+    "mood": {
+      "barTitle": "{date} · {level}/{max}",
+      "empty": "Vous n'avez pas encore enregistré votre humeur. Construisez votre première journée consécutive en choisissant l’une des options ci-dessus. 🌱",
+      "loading": "Chargement de l'historique des humeurs...",
+      "opt": {
+        "good": "Bien",
+        "great": "Super",
+        "low": "Un peu bas",
+        "neutral": "Neutre",
+        "veryLow": "Très faible"
+      },
+      "optAria": "Ambiance du journal : {label}",
+      "savedPrefix": "✅ L'humeur du jour a été enregistrée :",
+      "savedSuffix": ". Merci de prendre soin de vous. Le psychologue IA est également là pour vous accompagner en fonction de votre humeur. 💙",
+      "streakPill": "🔥 Série de {days} jours",
+      "subtitle": "Enregistrer votre humeur quotidienne vous aide à mieux vous comprendre.",
+      "title": "Comment te sens-tu aujourd’hui ?"
+    },
+    "myResults": {
+      "all": "Tous les résultats ←",
+      "cardAria": "Résultat {name}",
+      "emptyBody": "Vous n'avez pas encore de résultats. Commencez par une brève auto-évaluation, juste pour votre propre prise de conscience. 💙",
+      "emptyCta": "Commencer une auto-évaluation",
+      "loading": "Chargement des résultats…",
+      "score": "Note : {score}",
+      "title": "Mes résultats",
+      "unknownShort": "Tester",
+      "unknownTest": "Test de santé mentale"
+    },
+    "resources": {
+      "bookmark": "Marque-page",
+      "callCta": "☎️ Appel · {phone}",
+      "crisisTitle": "Lignes d'assistance immédiate",
+      "loading": "Chargement des ressources…",
+      "noMatch": "Aucune ressource trouvée pour ce sujet.",
+      "selfHelpTitle": "Ressources d'auto-assistance",
+      "sortAlpha": "Alphabétique",
+      "sortLabel": "Trier par :",
+      "sortShort": "Le plus court",
+      "topic": {
+        "anxiety": "Anxiété",
+        "general": "Général",
+        "sleep": "Dormir",
+        "stress": "Stress",
+        "wellbeing": "Bien-être"
+      },
+      "topicAll": "Tout",
+      "urgent": "Urgent"
+    },
+    "results": {
+      "body": "L'historique de vos résultats de test avec la tendance de chaque test par rapport à la dernière fois — visible uniquement par vous. 💙",
+      "cta": "Voir les résultats ←",
+      "title": "Mes résultats d'auto-évaluation"
+    },
+    "search": {
+      "aria": "Rechercher",
+      "counselors": "Recherchez un conseiller ou une spécialité…",
+      "resources": "Rechercher des ressources…"
+    },
+    "summary": {
+      "avgMood": "Humeur moyenne",
+      "bookmarks": "Ressources mises en favoris",
+      "streak": "Série d'enregistrements d'humeur",
+      "streakValue": "{days} {jours, pluriel, un {day} autre {days}}",
+      "upcoming": "Rendez-vous à venir"
+    },
+    "tabs": {
+      "counselors": "Conseillers",
+      "resources": "Ressources d'auto-assistance"
+    },
+    "tests": {
+      "body": "Une collection de questionnaires validés pour vérifier votre humeur, vos intérêts et votre style d'apprentissage. Ces outils sont destinés au dépistage et non au diagnostic – vos résultats sont strictement destinés à votre propre connaissance. 💙",
+      "cta": "Voir les tests →",
+      "title": "Tests psychologiques"
+    },
+    "tip": {
+      "counter": "Astuce {index} de {total}",
+      "next": "Conseil suivant →",
+      "title": "Conseil bien-être"
+    },
+    "tips": {
+      "t1": {
+        "body": "Avant d'ouvrir votre téléphone, respirez profondément et choisissez un petit objectif pour aujourd'hui.",
+        "title": "Commencez votre matinée sereinement"
+      },
+      "t2": {
+        "body": "Associez toutes les 52 minutes d’étude ciblée à 17 minutes de véritable repos pour garder l’esprit frais.",
+        "title": "La règle des 52 contre 17"
+      },
+      "t3": {
+        "body": "Essayez de vous coucher exactement à la même heure chaque nuit ; un rythme constant améliore considérablement la qualité du sommeil.",
+        "title": "Fenêtre de sommeil cohérente"
+      },
+      "t4": {
+        "body": "Chaque soir, écrivez trois petites choses pour lesquelles vous êtes reconnaissant : un exercice simple pour un état d’esprit positif.",
+        "title": "Trois gratitudes quotidiennes"
+      },
+      "t5": {
+        "body": "Une conversation quotidienne courte et authentique avec un ami ou un membre de la famille entretient le sentiment d’appartenance.",
+        "title": "Une connexion significative"
+      },
+      "t6": {
+        "body": "Remarquez et reconnaissez chaque petit pas que vous faites ; la motivation se construit sur la constatation de progrès.",
+        "title": "Célébrez le progrès"
+      }
+    }
+  },
+  "test": {
+    "action": {
+      "backToWellness": "Retour au bien-être et aux conseils",
+      "next": "Suivant",
+      "preparing": "Préparation...",
+      "prev": "Précédent",
+      "seeResult": "Afficher le résultat",
+      "start": "Commencer l'auto-évaluation",
+      "submitting": "Envoi..."
+    },
+    "bipolar": {
+      "middle": "État intermédiaire {n, number}",
+      "spectrum": "Spectre entre \"{left}\" et \"{right}\""
+    },
+    "confirm": {
+      "body": "Une fois soumises, les réponses ne peuvent pas être modifiées et le résultat sera calculé immédiatement. Voulez-vous continuer ?",
+      "cancelLabel": "Annuler",
+      "confirmLabel": "Soumission finale",
+      "title": "Soumission finale de l’auto-évaluation"
+    },
+    "consent": {
+      "label": "Je comprends qu'il s'agit d'une auto-évaluation de dépistage et je suis d'accord avec la manière dont les résultats sont stockés et pris en charge/partagés (comme expliqué ci-dessus)."
+    },
+    "crisis": {
+      "aria": "Ressources d'aide immédiate",
+      "heading": "Si vous avez besoin d'une aide immédiate, vous n'êtes pas seul",
+      "line": {
+        "behzisti": {
+          "desc": "24h/24 et 7j/7 et confidentiel",
+          "title": "Ligne d'assistance téléphonique Behzisti"
+        },
+        "emergency": {
+          "desc": "En cas de danger immédiat",
+          "title": "Urgence"
+        }
+      },
+      "message": "Chaque fois que les choses vous semblent accablantes, vous pouvez parler dès maintenant à une personne qui vous soutient. Ces lignes sont gratuites et confidentielles."
+    },
+    "empty": {
+      "body": "Cette auto-évaluation ne comporte actuellement aucune question à afficher ; revenez plus tard ou revenez à Bien-être et conseil.",
+      "title": "Les questions de ce test ne sont pas encore disponibles"
+    },
+    "err": {
+      "generic": "Une erreur s'est produite. Veuillez réessayer.",
+      "unavailable": "Ce test n'est pas disponible."
+    },
+    "header": {
+      "eyebrow": "Santé mentale · Auto-évaluation",
+      "fallbackName": "Tester",
+      "licensedNote": "Cette version est fournie à des fins pédagogiques."
+    },
+    "help": {
+      "body": "Il s’agit d’un outil de dépistage et de connaissance de soi, et non d’un diagnostic médical. Répondez patiemment et honnêtement ; les réponses sont enregistrées automatiquement et vous pouvez continuer à tout moment.",
+      "title": "À propos de cette auto-évaluation"
+    },
+    "intro": {
+      "beforeStart": "Avant de commencer, c'est bon à savoir",
+      "disclaimerFallback": "Cet outil est un instrument de dépistage et non un diagnostic clinique et ne remplace pas la consultation d'un professionnel.",
+      "minutes": "{count, plural, one {Environ # minute} other {Environ # minutes}}",
+      "point1": "Votre résultat est personnel et confidentiel, et reste toujours à votre disposition.",
+      "point2": "Un score faible n’est pas un « label » ; c'est un point de départ pour mieux prendre soin de soi.",
+      "questionCount": "{count, plural, one {# question} other {# questions}}",
+      "whoSees": {
+        "point1": "Si un parent est connecté à votre compte, il ne voit qu'un « résumé de soutien » (tel que le niveau général et l'humeur) — et non vos réponses exactes ou votre score brut.",
+        "point2": "Si le résultat indique une situation de crise et que vous n'êtes donc pas seul, le conseiller universitaire et le parent lié sont avertis pour être à vos côtés. Demander de l’aide est un signe de force. 💙",
+        "title": "Qui voit le résultat ?"
+      }
+    },
+    "loading": "Chargement…",
+    "nav": {
+      "back": "Bien-être et conseil"
+    },
+    "progress": {
+      "answered": "{answered, number} de {total, number} a répondu",
+      "aria": "Progression de l'achèvement des tests"
+    },
+    "question": {
+      "counter": "{index, number}/{total, number}",
+      "multiHint": "Vous pouvez sélectionner plusieurs options.",
+      "saveError": "Non enregistré : essayez à nouveau de sélectionner.",
+      "saved": "Enregistré",
+      "saving": "Sauvegarde…"
+    },
+    "taking": {
+      "footerNote": "Cette auto-évaluation est un outil de dépistage et non un diagnostic. Si vous avez besoin d'aide maintenant, utilisez les lignes ci-dessus. 💙",
+      "remaining": "Pour voir votre résultat, répondez à toutes les questions {total, number} (questions {remaining, number} restantes).",
+      "resumed": "Vous êtes revenu à votre auto-évaluation inachevée. Si les réponses apparaissent à nouveau vides, sélectionnez-les simplement à nouveau : rien n'est perdu."
+    },
+    "trueFalse": {
+      "false": "Faux",
+      "true": "Vrai"
+    }
+  },
+  "tests": {
+    "card": {
+      "categoryTitle": "Catégorie d'outils",
+      "copyright": {
+        "free": "Gratuit et accessible au public",
+        "licensed": "Version ouverte/alternative — source protégée par le droit d'auteur"
+      },
+      "copyrightTitle": "Statut du droit d'auteur / Source",
+      "lastResult": "Dernier résultat",
+      "lastResultTitle": "Voir le dernier résultat",
+      "lastTaken": "Dernière prise : {date}",
+      "minutes": "{count, plural, one {Environ # minute} other {Environ # minutes}}",
+      "minutesFew": "Quelques minutes",
+      "retake": "Reprendre",
+      "start": "Démarrer l'essai",
+      "startAria": "Démarrer {name}",
+      "viewResult": "Afficher le résultat"
+    },
+    "category": {
+      "career": {
+        "blurb": "Découvrez les intérêts de carrière et les codes de personnalité et de carrière pour une sélection de chemin plus éclairée.",
+        "label": "Intérêts et parcours de carrière"
+      },
+      "cognitive": {
+        "blurb": "Pensée critique, inférence et évaluation des arguments.",
+        "label": "Capacité cognitive"
+      },
+      "creativity": {
+        "blurb": "Évaluer la maîtrise, l'originalité, la flexibilité et l'élaboration de la résolution de problèmes.",
+        "label": "Créativité"
+      },
+      "emotional": {
+        "blurb": "Capacité à reconnaître et à gérer vos propres émotions et celles des autres dans des situations réelles.",
+        "label": "Intelligence émotionnelle"
+      },
+      "interest": {
+        "blurb": "Comprenez les intérêts et le style de personnalité pour une sélection plus éclairée des matières principales et des chemins.",
+        "label": "Intérêts et parcours"
+      },
+      "job_satisfaction": {
+        "blurb": "Évaluez la satisfaction au travail, le superviseur, les collègues, le salaire et les opportunités de croissance.",
+        "label": "Satisfaction au travail"
+      },
+      "learning": {
+        "blurb": "Comprenez le style d’étude et d’apprentissage pour une planification des études plus efficace.",
+        "label": "Style d'apprentissage"
+      },
+      "mental": {
+        "blurb": "Court dépistage pour prendre conscience du bien-être actuel : anxiété, humeur, bien-être et estime de soi.",
+        "label": "Santé mentale"
+      },
+      "personality": {
+        "blurb": "Questionnaires de personnalité bien connus – type, traits Big Five et style comportemental.",
+        "label": "Personnalité"
+      }
+    },
+    "crisis": {
+      "aria": "Ressources d'aide immédiate",
+      "body": "Demander de l'aide est un signe de force. Ces permanences téléphoniques sont gratuites et confidentielles :",
+      "line": {
+        "behzisti": "Ligne d'assistance téléphonique de conseil en matière de bien-être",
+        "medicalEmergency": "Urgence médicale",
+        "socialEmergency": "Urgence sociale"
+      },
+      "title": "Si vous avez besoin d'aide en ce moment, vous n'êtes pas seul 💙"
+    },
+    "empty": {
+      "body": "Des auto-évaluations en matière de santé mentale seront bientôt disponibles. 🌱 En attendant, vous pouvez consulter les résultats précédents.",
+      "title": "Aucun test actif pour le moment"
+    },
+    "err": {
+      "generic": "Une erreur s'est produite"
+    },
+    "group": {
+      "count": "{count, plural, one {# test} other {# tests}}"
+    },
+    "head": {
+      "eyebrow": "Santé mentale · Dépistage et découverte de soi",
+      "lead": "Une collection de questionnaires validés pour une meilleure prise de conscience de votre bien-être, de vos intérêts et de votre style d'apprentissage. Ces outils sont destinés au « dépistage » et non au « diagnostic » : les résultats sont destinés à votre propre connaissance uniquement et ne remplacent pas la consultation d'un professionnel. 💙",
+      "title": "Tests psychologiques"
+    },
+    "help": {
+      "body": "Chaque carte représente un test. Appuyez dessus pour démarrer le test ; chaque réponse est enregistrée automatiquement et vous pouvez reprendre plus tard. Si vous avez déjà passé un test, un badge « dernier résultat » apparaîtra sur la carte, et vous pourrez à nouveau consulter le résultat. Toutes les réponses sont confidentielles et destinées uniquement à vous.",
+      "title": "Guide des tests psychologiques"
+    },
+    "history": "Historique des résultats",
+    "kpi": {
+      "available": "Test disponible",
+      "completed": "Test terminé"
+    },
+    "state": {
+      "loading": "Chargement..."
+    }
+  }
+}

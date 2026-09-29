@@ -65,6 +65,34 @@ const server = http.createServer((req, res) => {
       ? (fs.statSync(path.join(__dirname, 'locales_translated.zip')).size / (1024 * 1024)).toFixed(2)
       : '0';
 
+    // Build rows from coverage.locales
+    let rowsHtml = '';
+    let completedLangsCount = 0;
+    if (coverage.locales) {
+      for (const [code, info] of Object.entries(coverage.locales)) {
+        const isComplete = info.coverage_pct >= 99.9;
+        if (isComplete) completedLangsCount++;
+        const badgeClass = isComplete ? 'badge badge-success' : (info.coverage_pct > 20 ? 'badge' : 'badge badge-warning');
+        const badgeText = code === 'fa' ? 'اصل منبع' : (isComplete ? 'کامل (۱۰۰٪)' : (info.coverage_pct > 20 ? 'در حال ترجمه' : 'نیاز به ترجمه'));
+        const nameText = info.name || code;
+        rowsHtml += `
+          <tr>
+            <td><strong>${code}</strong> <span style="color: var(--muted); font-size: 0.85rem;">(${nameText})</span></td>
+            <td><span class="${badgeClass}">${badgeText}</span></td>
+            <td>${info.completed_catalogs} / ${info.total_catalogs}</td>
+            <td>${info.existing_preserved?.toLocaleString('fa-IR') || info.existing_preserved}</td>
+            <td>
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <div style="flex: 1; background: #334155; height: 8px; border-radius: 4px; overflow: hidden;">
+                  <div style="background: ${isComplete ? 'var(--success)' : 'var(--primary)'}; width: ${info.coverage_pct}%; height: 100%;"></div>
+                </div>
+                <span style="font-weight: 600; min-width: 48px; text-align: left;">${info.coverage_pct}%</span>
+              </div>
+            </td>
+          </tr>`;
+      }
+    }
+
     const html = `<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -107,6 +135,11 @@ const server = http.createServer((req, res) => {
       background: rgba(74, 222, 128, 0.15);
       color: var(--success);
       border-color: rgba(74, 222, 128, 0.3);
+    }
+    .badge-warning {
+      background: rgba(251, 191, 36, 0.15);
+      color: var(--warning);
+      border-color: rgba(251, 191, 36, 0.3);
     }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
     .card {
@@ -163,7 +196,7 @@ const server = http.createServer((req, res) => {
           <h1>بستهٔ خروجی ترجمه و اعتبارسنجی Locales</h1>
           <p style="color: var(--muted); font-size: 0.95rem;">مخزن DeveloperCodeBase/digiuniversity · شاخهٔ codex/global-i18n-50</p>
         </div>
-        <span class="badge badge-success">✓ ساختار و صحت آزموده شد</span>
+        <span class="badge badge-success">✓ وضعیت بلادرنگ گزارش</span>
       </div>
     </header>
 
@@ -183,18 +216,18 @@ const server = http.createServer((req, res) => {
     <div class="grid">
       <div class="card">
         <div class="card-title">کلیدهای منبع فارسی (fa)</div>
-        <div class="card-value">۱۲,۹۷۹ کلید</div>
+        <div class="card-value">${(coverage.total_source_keys || 12685).toLocaleString('fa-IR')} کلید</div>
         <p style="font-size: 0.85rem; color: var(--success); margin-top: 0.25rem;">در ۳۲ کاتالوگ (حفظ ۱۰۰٪ دست‌نخورده)</p>
       </div>
       <div class="card">
         <div class="card-title">زبان‌های با پوشش کامل (۱۰۰٪)</div>
-        <div class="card-value">fa, ar, en</div>
+        <div class="card-value">${completedLangsCount} از ۵۰ زبان</div>
         <p style="font-size: 0.85rem; color: var(--muted); margin-top: 0.25rem;">تمام ۳۲ کاتالوگ با تطابق ۱:۱</p>
       </div>
       <div class="card">
-        <div class="card-title">زبان‌های با پوشش بالا (۹۱.۶٪)</div>
-        <div class="card-value">es, zh-Hans</div>
-        <p style="font-size: 0.85rem; color: var(--muted); margin-top: 0.25rem;">۳۱ از ۳۲ کاتالوگ کامل (۱۱,۸۸۸ کلید)</p>
+        <div class="card-title">زبان بعدی در حال تکمیل</div>
+        <div class="card-value">pt (پرتغالی)</div>
+        <p style="font-size: 0.85rem; color: var(--muted); margin-top: 0.25rem;">در حال ترجمهٔ کاتالوگ‌ها به Português</p>
       </div>
     </div>
 
@@ -216,21 +249,15 @@ const server = http.createServer((req, res) => {
       <table>
         <thead>
           <tr>
-            <th>کد زبان</th>
+            <th>کد و نام زبان</th>
             <th>وضعیت</th>
             <th>کاتالوگ‌های کامل</th>
-            <th>کلیدهای معتبر</th>
+            <th>کلیدهای ترجمه‌شده</th>
             <th>درصد پوشش</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td>fa (منبع)</td><td><span class="badge badge-success">اصل منبع</span></td><td>۳۲ / ۳۲</td><td>۱۲,۹۷۹</td><td>۱۰۰.۰٪</td></tr>
-          <tr><td>ar (عربی)</td><td><span class="badge badge-success">کامل</span></td><td>۳۲ / ۳۲</td><td>۱۲,۹۷۹</td><td>۱۰۰.۰٪</td></tr>
-          <tr><td>en (انگلیسی)</td><td><span class="badge badge-success">کامل</span></td><td>۳۲ / ۳۲</td><td>۱۲,۹۷۹</td><td>۱۰۰.۰٪</td></tr>
-          <tr><td>es (اسپانیایی)</td><td><span class="badge">پوشش بالا</span></td><td>۳۱ / ۳۲</td><td>۱۱,۸۸۸</td><td>۹۱.۶٪</td></tr>
-          <tr><td>zh-Hans (چینی ساده)</td><td><span class="badge">پوشش بالا</span></td><td>۳۱ / ۳۲</td><td>۱۱,۸۸۸</td><td>۹۱.۶٪</td></tr>
-          <tr><td>fr (فرانسوی)</td><td><span class="badge">متوسط</span></td><td>۱۹ / ۳۲</td><td>۳,۱۷۵</td><td>۲۴.۵٪</td></tr>
-          <tr><td>۴۴ زبان دیگر</td><td><span class="badge">پایه</span></td><td>۳ / ۳۲</td><td>۱۰۱</td><td>۰.۸٪</td></tr>
+          ${rowsHtml}
         </tbody>
       </table>
     </div>

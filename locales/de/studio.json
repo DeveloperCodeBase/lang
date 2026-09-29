@@ -1,0 +1,1447 @@
+{
+  "analytics": {
+    "help": {
+      "body": "Hier können Sie den Verbrauch der Lernenden einsehen: Abschlussquoten, Abgabepunkte und abschnittsweise Fortschritte. Nutzen Sie diese Daten, um den Inhalt der Abschnitte mit den höchsten Abbruchraten zu verbessern. Alle Zahlen werden aggregiert und die Identitäten der Lernenden werden nicht angezeigt – die einzige Ausnahme ist die Liste „Gefährdet“ am Ende dieser Seite, die den Lernenden helfen soll und keine E-Mail-Adressen enthält.",
+      "title": "Leitfaden zur Kursanalyse"
+    },
+    "insightsLoading": "Bewertungsanalysen werden geladen..."
+  },
+  "assess": {
+    "aiExplainOptIn": "Aktivieren Sie „KI-Erklärung für falsche Antworten“ für dieses Quiz (ausgeführt ab Welle E5 – nur Vorschläge, nie automatisch).",
+    "aiExplainRow": "KI-Erklärung für falsche Antworten (in Kürze verfügbar)",
+    "aria": {
+      "mode": "Modus",
+      "policy": "Richtlinie zur Antwortanzeige",
+      "removeLink": "Anhang entfernen"
+    },
+    "assessmentOption": "{title} ({n}-Frage)",
+    "attach": {
+      "title": "Übung/Bewertung dem Kurs beifügen"
+    },
+    "badge": {
+      "maxAttempts": "Max. Versuche: {n}",
+      "pass": "Bestehensnote: {v}",
+      "showAnswers": "Antworten anzeigen: {v}"
+    },
+    "builderTitle": "Kursbewertungs-Builder",
+    "del": {
+      "body": "Diese Prüfung/Übung wird von dieser Stufe (Kurs/Modul/Lektion) getrennt; Sie können es wieder anbringen.",
+      "cancel": "Abbrechen",
+      "confirm": "Anhang entfernen",
+      "title": "Bewertungsanhang aus Kurs entfernen?"
+    },
+    "empty": {
+      "body": "Wählen Sie zum Anhängen oben eine Bewertung aus dem „Assessment Builder“ aus oder erstellen Sie zunächst eine im Abschnitt „Assessment Builder“ unten auf dieser Seite.",
+      "title": "Noch keine Übung/Bewertung beigefügt"
+    },
+    "field": {
+      "assessment": "Bewertung",
+      "attempts": "Max. Versuche (optional)",
+      "lesson": "Lektion",
+      "level": "Bindungsebene",
+      "mode": "Modus",
+      "module": "Modul",
+      "pass": "Bestehenspunktzahl % (optional)",
+      "policy": "Richtlinie zur Antwortanzeige"
+    },
+    "help": {
+      "body": "Hier erstellen Sie die Kursübungen und -bewertungen und verbinden sie mit dem Kurs. Erstellen Sie zunächst im Abschnitt „Assessment Builder“ eine Bewertung und fügen Sie die dazugehörigen Fragen hinzu (aus 14 Typen oder aus der Fragendatenbank); Verbinden Sie es dann im Abschnitt „Kursanhang“ mit dem gesamten Kurs, einem Modul oder einer Lektion und legen Sie den Modus fest: „Üben“ für kostenlose Wiederholung, „Erforderlich“ als Bedingung für den Fortschritt des Käufers und die Ausstellung von Zertifikaten. Beschreibende/Datei-/Code-Antworten werden in der „Bewertungswarteschlange“ auf derselben Seite bewertet.",
+      "title": "Leitfaden zur Registerkarte „Bewertungen“."
+    },
+    "level": {
+      "course": "Gesamter Kurs",
+      "lesson": "Lektion: {title}",
+      "module": "Modul: {title}"
+    },
+    "mode": {
+      "practice": "Üben",
+      "required": "Erforderlich"
+    },
+    "new": {
+      "noAssessments": "Erstellen Sie zunächst eine Bewertung im Abschnitt „Assessment Builder“ unten auf dieser Seite.",
+      "title": "Neuer Anhang"
+    },
+    "notEditable": "Dieser Kurs kann in seinem aktuellen Zustand nicht bearbeitet werden. Um Anhänge zu ändern, erstellen Sie zunächst eine „Neue Version“ oder warten Sie, bis die Überprüfung abgeschlossen ist.",
+    "opt": {
+      "levelCourse": "Gesamter Kurs",
+      "levelLesson": "Eine Lektion",
+      "levelModule": "Ein Modul",
+      "modePractice": "Üben (freie Wiederholung)",
+      "modeRequiredBuyer": "Erforderlich (Käuferfortschrittsbedingung)",
+      "modeRequiredShort": "Erforderlich (Fortschrittsbedingung)",
+      "pickAssessment": "— Bewertung auswählen —",
+      "pickLesson": "— Lektion auswählen —",
+      "pickModule": "— Modul auswählen —",
+      "showAfterClose": "Antwort anzeigen: Nach dem Schließen",
+      "showImmediate": "Antwort anzeigen: Sofort",
+      "showNever": "Antwort anzeigen: Niemals"
+    },
+    "policy": {
+      "after_close": "Nachdem die Bewertung abgeschlossen ist",
+      "immediate": "Unmittelbar nach der Antwort",
+      "never": "Niemals"
+    },
+    "refresh": "Aktualisieren",
+    "submit": "Dem Kurs beifügen"
+  },
+  "authoring": {
+    "actions": {
+      "preview": "Vorschau",
+      "publish": "Veröffentlichen",
+      "publishDisabledTitle": "Dieses Studio ist eine Demo; Die tatsächliche Veröffentlichung ist noch nicht implementiert",
+      "saveDraft": "Entwurf speichern",
+      "saveDraftDisabledTitle": "Dieses Studio ist eine Demo; Die tatsächliche Einsparung ist noch nicht implementiert"
+    },
+    "agents": {
+      "coach": {
+        "controls": {
+          "probing": "Sondierende Anfrage"
+        },
+        "name": "COACH – Befragender Coach",
+        "role": "Stellen Sie bohrende Fragen, anstatt direkte Antworten zu geben"
+      },
+      "critic": {
+        "name": "KRITIKER – Kritiker",
+        "role": "Annahmen in Frage stellen und Argumentationsfehler finden"
+      },
+      "grader": {
+        "controls": {
+          "instructorApproval": "Genehmigung des Kursleiters erforderlich"
+        },
+        "name": "GRADER – Grader",
+        "role": "Erstbewertung mit Rubrik · Genehmigung erforderlich"
+      },
+      "intro": "Definieren Sie, was jeder KI-Agent tun darf, welche Ressourcen er verwenden soll und wo eine menschliche Zustimmung erforderlich ist.",
+      "mentor": {
+        "name": "MENTOR – Langfristiger Mentor",
+        "role": "Lernpfad und Motivationsberatung"
+      },
+      "title": "KI-Agent-Richtlinien für diese Lektion",
+      "tutor": {
+        "controls": {
+          "multiLevel": "Mehrstufige Erklärung",
+          "videoRef": "Videoreferenz"
+        },
+        "name": "TUTOR – Erklärer",
+        "role": "Beantwortung von Studentenfragen mit internen Referenzen"
+      }
+    },
+    "archives": {
+      "notes": {
+        "meta": "Markdown · 12 Dateien",
+        "title": "Hinweise für Kursleiter"
+      },
+      "oldCourse": {
+        "meta": "18 aufgezeichnete Sitzungen",
+        "title": "Alter RL-Kurs 1403"
+      },
+      "paper": {
+        "meta": "PDF · 520 Seiten",
+        "title": "Sutton & Barto-Papier"
+      },
+      "questionBank": {
+        "meta": "234 QTI-Fragen",
+        "title": "Bestehende Fragendatenbank"
+      }
+    },
+    "blueprint": {
+      "description": {
+        "label": "Beschreibung",
+        "placeholder": "Der Kurs „Reinforcement Learning“ behandelt die Prinzipien und Algorithmen des Lernens aus Erfahrung ..."
+      },
+      "fields": {
+        "code": {
+          "label": "Kurscode"
+        },
+        "duration": {
+          "label": "Dauer",
+          "placeholder": "10 Wochen"
+        },
+        "level": {
+          "label": "Ebene",
+          "placeholder": "Absolvent"
+        },
+        "modules": {
+          "label": "Anzahl der Module",
+          "placeholder": "12"
+        },
+        "titleEn": {
+          "label": "Englischer Titel"
+        },
+        "titleFa": {
+          "label": "Persischer Titel",
+          "placeholder": "Verstärkungslernen"
+        }
+      },
+      "outcomes": {
+        "addAction": "Lernziel hinzufügen",
+        "addToastBody": "Das Ziel wurde zur Liste hinzugefügt.",
+        "addToastTitle": "Neues Lernziel",
+        "intro": "Am Ende dieses Kurses wird der Student in der Lage sein:",
+        "levels": {
+          "analyze": "Analysieren",
+          "apply": "Bewerben",
+          "create": "Erstellen",
+          "remember": "Denken Sie daran",
+          "understand": "Verstehe"
+        },
+        "list": {
+          "bellman": "Lösen Sie die Bellman-Gleichung für eine einfache Umgebung",
+          "gymProject": "Implementieren Sie ein echtes RL-Projekt in einer Fitnessstudio-Umgebung",
+          "mdp": "Formulieren Sie das Problem als MDP",
+          "policyKinds": "Erklären Sie den Unterschied zwischen On-Policy- und Off-Policy-Methoden",
+          "qLearning": "Implementieren Sie Q-Learning von Grund auf in Python"
+        }
+      }
+    },
+    "breadcrumb": {
+      "instructorConsole": "Lehrerkonsole",
+      "myCourses": "Meine Kurse",
+      "newDraft": "Neuer Entwurf"
+    },
+    "demoBanner": {
+      "body": "Dieses Studio ist eine Vorschau auf den Kurserstellungsprozess. Es ist nicht mit dem Backend verbunden und es werden keine Änderungen gespeichert oder veröffentlicht. Die Schaltflächen „Entwurf speichern“ und „Veröffentlichen“ sind deaktiviert, bis dieser Abschnitt abgeschlossen ist.",
+      "title": "Demo / Vorschau"
+    },
+    "header": {
+      "title": "Reinforcement Learning · Graduiertenniveau"
+    },
+    "help": {
+      "body": "Auf dieser Seite erstellen Sie die Struktur eines Kurses: allgemeine Spezifikationen (Blueprint), Lehrplan und Sitzungen, Bewertungen, Ressourcen und Richtlinien für KI-Agenten. Wechseln Sie mithilfe der Registerkarten oben zwischen den Abschnitten und verwenden Sie die Schaltflächen „Entwurf speichern“ und „Veröffentlichen“ oben auf der Seite, um den Kurs zu speichern oder für Studenten zu veröffentlichen.",
+      "title": "Kurs-Authoring-Studio-Leitfaden"
+    },
+    "notReady": {
+      "assessmentBody": "Der Bewertungsteil dieses Kurses ist noch nicht implementiert; In Kürze wird hier die Möglichkeit hinzugefügt, Tests und Aufgaben zu definieren.",
+      "resourcesBody": "Der Ressourcenabschnitt dieses Kurses ist noch nicht implementiert; In Kürze wird hier die Möglichkeit hinzugefügt, Dateien und Referenzen hinzuzufügen.",
+      "title": "Dieser Abschnitt ist noch nicht fertig"
+    },
+    "outline": {
+      "addAction": "Sitzung hinzufügen",
+      "addToastBody": "Sitzung zum Lehrplan hinzugefügt.",
+      "addToastTitle": "Neue Sitzung hinzugefügt",
+      "sessionSettingsAria": "{session}-Einstellungen",
+      "sessionSettingsTitle": "Sitzungseinstellungen",
+      "sessions": {
+        "s1": {
+          "n": "Sitzung 1",
+          "title": "Einführung – Geschichte und Anwendungen von RL"
+        },
+        "s2": {
+          "n": "Sitzung 2",
+          "title": "Markov-Entscheidungsprozesse"
+        },
+        "s3": {
+          "n": "Sitzung 3",
+          "title": "Bellman-Gleichung"
+        },
+        "s4": {
+          "n": "Sitzung 4",
+          "title": "Monte-Carlo-Methoden"
+        },
+        "s5": {
+          "n": "Sitzung 5"
+        },
+        "s6": {
+          "n": "Sitzung 6",
+          "title": "Funktionsnäherung – DQN"
+        },
+        "s7": {
+          "n": "Sitzung 7"
+        },
+        "s8": {
+          "n": "Sitzung 8"
+        }
+      },
+      "title": "Lehrplan · 12 Sitzungen"
+    },
+    "planner": {
+      "generate": "Erstellen Sie einen ersten Vorschlag",
+      "pitch": "Ich kann für diesen Kurs 12 Sitzungen vorschlagen, komplett mit Lernzielen, Konzeptkarten und Tests. Sie treffen den letzten Anruf.",
+      "toastBody": "Die anfängliche Kursstruktur ist in 20 Sekunden fertig ...",
+      "toastTitle": "KI generiert"
+    },
+    "safety": {
+      "body": "Ohne die endgültige Genehmigung des Dozenten werden keine generierten Inhalte veröffentlicht. Die Quelle jedes Vorschlags ist nachvollziehbar."
+    },
+    "screenLabel": "Studio 13",
+    "tabs": {
+      "agents": "KI-Agenten",
+      "assessment": "Bewertung",
+      "blueprint": "Blaupause",
+      "outline": "Lehrplan",
+      "resources": "Ressourcen",
+      "sessions": "Sitzungen"
+    },
+    "toast": {
+      "previewOpened": "Vorschau wird in einem neuen Fenster geöffnet"
+    }
+  },
+  "captions": {
+    "addAtPlayhead": "Untertitel am Abspielkopf hinzufügen",
+    "approve": "Genehmigen",
+    "approveAll": "Alle Zeilen genehmigen",
+    "approveAllTitle": "Markiert alle Zeilen als genehmigt. Nach dem Speichern wird das Abzeichen „Maschinell übersetzt“ vom Player entfernt.",
+    "approveTitle": "Genehmigung bedeutet, dass Sie diese Übersetzung überprüft haben und sie korrekt ist; Die Maschine wird diese Zeile anschließend nicht überschreiben.",
+    "approved": "Genehmigt",
+    "approvedOf": "{approved, number} von {total, number}-Linien genehmigt",
+    "approximate": "Ungefährer Zeitpunkt",
+    "approximateTitle": "Wortzeiten sind ungefähre Angaben",
+    "asrDisabled": "Die automatische Transkription ist auf diesem Server nicht aktiviert. Schreiben Sie Untertitel manuell oder laden Sie eine „.vtt“-Datei hoch.",
+    "empty": "Für diesen Abschnitt wurden keine Untertitel aufgezeichnet. Bewegen Sie den Player zum gewünschten Zeitpunkt und klicken Sie auf „Untertitel zur aktuellen Zeit“ oder laden Sie eine „.vtt“-/„.srt“-Datei über die Registerkarte „Inhalt“ hoch.",
+    "endHere": "Ende = Aktuelle Zeit",
+    "errors": {
+      "needOneCue": "Zum Speichern ist mindestens eine Beschriftung mit Text erforderlich."
+    },
+    "generate": "Automatisches Transkript erstellen",
+    "generating": "Sparen...",
+    "lang": {
+      "ar": "Arabisch",
+      "de": "Deutsch",
+      "en": "Englisch",
+      "es": "Spanisch",
+      "fa": "Persisch",
+      "fr": "Französisch",
+      "ku": "Kurdisch",
+      "ps": "Paschtu",
+      "ru": "Russisch",
+      "tr": "Türkisch",
+      "ur": "Urdu",
+      "zh": "Chinesisch"
+    },
+    "langLabel": "Untertitelsprache",
+    "loading": "Untertitel lesen...",
+    "merge": "Zusammenführen",
+    "mergeTitle": "Führt diese Zeile mit der nächsten zusammen.",
+    "notAttached": "Diese Datei ist noch keinem Abschnitt des Kurses zugeordnet; Untertitel werden im „Abschnitt“ gespeichert. Hängen Sie die Datei daher zunächst über die Registerkarte „Inhalt“ an einen Videoabschnitt an.",
+    "notice": {
+      "prefilled": "Maschinengenerierter Text, der in den Editor geladen wird; überprüfen und speichern.",
+      "reviewSaved": "Untertitel gespeichert; {count, plural, one {# verified line} other {# verified lines}} aufgezeichnet.",
+      "transcriptQueued": "Antrag eingereicht; Die Vorbereitung des Transkripts kann einige Minuten dauern.",
+      "transcriptReady": "Das Transkript für diesen Abschnitt ist bereits fertig.",
+      "translationReady": "Die Übersetzung „{language}“ ist fertig. Überprüfen und speichern Sie es."
+    },
+    "option": {
+      "stored": "– Gespeichert",
+      "storedMachine": "— Gespeichert (Maschine)",
+      "storedReviewed": "— Gespeichert (Rezensiert)",
+      "translationReady": "— Übersetzung bereit"
+    },
+    "prefill": "Aus dem Transkript ausfüllen",
+    "prefilling": "Lesen...",
+    "preparing": "Transkript vorbereiten...",
+    "recheck": "Überprüfen Sie es noch einmal",
+    "remove": "Entfernen Sie diesen Untertitel",
+    "retranslate": "{count, plural, one {# line} other {# lines}} neu übersetzen",
+    "retranslateTitle": "Es werden nur Zeilen neu übersetzt, deren Quelltext sich geändert hat; genehmigte Leitungen bleiben unberührt.",
+    "retranslating": "Neuübersetzung…",
+    "reviewHint": "Eine Spalte ist der Quelltext und die daneben liegende Spalte ist die Übersetzung; ihr Timing ist identisch. Bis alle Zeilen genehmigt sind, zeigt der Player diesen Untertitel als „Maschinell übersetzt“ an.",
+    "save": "Untertitel speichern",
+    "saving": "Sparen…",
+    "seek": "Gehen Sie zu {time}",
+    "sourceColumn": "Quelltext (Referenz)",
+    "sourceMissing": "Im Quelltranskript wurde keine entsprechende Zeile gefunden.",
+    "split": "Geteilt",
+    "splitTitle": "Teilt diese Zeile zum aktuellen Zeitpunkt in zwei Teile.",
+    "startHere": "Start = Aktuelle Zeit",
+    "status": {
+      "machine": "Maschinell übersetzt",
+      "machineTitle": "Diese Zeile wurde maschinell erstellt und wurde noch von niemandem genehmigt.",
+      "reviewed": "Bewertet",
+      "reviewedTitle": "Diese Linie wurde von einem Menschen genehmigt.",
+      "stale": "Muss aktualisiert werden",
+      "staleTitle": "Der Quelltext dieser Zeile hat sich seit der Übersetzung geändert."
+    },
+    "targetColumn": "{language}-Übersetzung",
+    "textLabel": "Untertiteltext",
+    "tooLong": "{count, plural, one {# character} other {# characters}} – Zu lang",
+    "tooLongTitle": "Zeilen mit mehr als 55 Zeichen können nicht mit Wiedergabegeschwindigkeit gelesen werden; Bitte teilen Sie es auf.",
+    "transcriptError": "Transkriptfehler: {error}",
+    "translate": "Übersetzung anfordern",
+    "translating": "Übersetzen…",
+    "unsaved": "Nicht gespeichert"
+  },
+  "certTpl": {
+    "align": {
+      "center": "Mitte",
+      "left": "Links",
+      "right": "Richtig"
+    },
+    "alignLabel": "Ausrichtung",
+    "colorAria": "{field}-Farbe",
+    "colorLabel": "Textfarbe",
+    "colorReset": "Standard",
+    "err": {
+      "notImage": "Die Zertifikatsvorlage muss eine Bilddatei (PNG oder JPG) sein. Wenn Ihr Design in Word vorliegt, exportieren Sie es bitte zuerst als Bild.",
+      "tooLarge": "Die Größe des Vorlagenbildes darf {max} MB nicht überschreiten."
+    },
+    "fields": {
+      "empty": "Sie haben noch keine Felder im Design platziert – fügen Sie bitte mindestens „Name des Lernenden“ und „Zertifikatscode“ hinzu.",
+      "hint": "X und Y sind Prozentsätze der Breite/Höhe des Designs und „Größe“ ist ein Prozentsatz der Breite.",
+      "title": "Feldplatzierung ({n} von {max})"
+    },
+    "intro": "Sie können Ihr eigenes vorgefertigtes Design hochladen; Das System schreibt den Namen, den Kurstitel, das Datum und den Bestätigungscode des Lernenden darauf und stellt dem Lernenden eine druckbare Ausgabe (PDF/Bild) zur Verfügung. Wenn Sie keine Vorlage hochladen, wird die Standardvorlage der Plattform verwendet. Die Datei muss ein Bild (PNG/JPG) und vorzugsweise im Querformat mit einem A4-Seitenverhältnis sein.",
+    "num": {
+      "fontSize": "Schriftgröße (%)",
+      "qrSide": "Seite (%)",
+      "x": "Horizontal (%)",
+      "y": "Vertikal (%)"
+    },
+    "previewNote": "Live-Vorschau – genau das, was der Lernende drucken wird (Beispieldaten).",
+    "remove": "Entfernen",
+    "replace": "Ersetzen Sie das Vorlagenbild",
+    "reset": "Auf Standardvorlage zurücksetzen",
+    "sample": {
+      "authorName": "Name des Kursleiters",
+      "studentName": "Name des Lernenden"
+    },
+    "save": "Zertifikatvorlage speichern",
+    "title": "Zertifikatvorlage (kundenspezifisches Design)",
+    "toast": {
+      "saved": "Zertifikatsvorlage gespeichert",
+      "uploaded": "Vorlagenbild hochgeladen",
+      "uploadedDesc": "Passen Sie nun die Feldpositionen an und speichern Sie."
+    },
+    "upload": "Laden Sie das Vorlagenbild hoch",
+    "uploading": "Hochladen… {pct}",
+    "weight": {
+      "bold": "Fett",
+      "normal": "Normal"
+    },
+    "weightLabel": "Gewicht"
+  },
+  "content": {
+    "action": {
+      "add": "Inhalt hinzufügen",
+      "edit": "Inhalt bearbeiten"
+    },
+    "allDone": "Alle Abschnitte haben Inhalte – tolle Arbeit!",
+    "badge": {
+      "freePreview": "Kostenlose Vorschau",
+      "has": "Inhalt",
+      "none": "Kein Inhalt"
+    },
+    "crumb": "Modul {mod} „{modTitle}“ › Lektion {lesson} „{lessonTitle}“",
+    "emptyStructure": "In der Lehrplanstruktur sind noch keine Abschnitte definiert. Erstellen Sie zunächst die Kursstruktur im Reiter „Lehrplan“. Laden Sie dann den Inhalt für jeden Abschnitt hier hoch.",
+    "goCurriculum": "Gehen Sie zum Lehrplan",
+    "heading": "Abschnittsinhalt",
+    "help": {
+      "body": "Hier werden alle Kursabschnitte in einer Arbeitsliste angezeigt, sodass Sie deren Inhalte einzeln vervollständigen können: Dateien (Video/Folie/Dokument/Audio/interaktives H5P), Text, Links oder Tests. Mit dem „Recording Studio“ können Sie Videos direkt hier in Ihrem Browser aufnehmen und an einen Abschnitt anhängen. Das Erstellen oder Neuanordnen der Abschnitte selbst erfolgt im Reiter „Lehrplan“.",
+      "title": "Anleitung zur Registerkarte „Inhalt“."
+    },
+    "locked": "Bearbeiten gesperrt",
+    "onlyEmpty": "Nur leere Abschnitte",
+    "progressCount": "{done} von {total}-Abschnitten haben Inhalt",
+    "progressLabel": "Fortschritt der Inhaltsvervollständigung",
+    "recordStudio": "Aufnahmestudio"
+  },
+  "copilot": {
+    "actions": {
+      "describe": {
+        "hint": "Entwerfen Sie einen Einführungstext und wichtige Erkenntnisse für die Verkaufsseite",
+        "label": "Schreiben Sie eine Kursbeschreibung"
+      },
+      "objectives": {
+        "hint": "„Nach diesem Kurs sind Sie in der Lage…“ Liste",
+        "label": "Schlagen Sie Lernziele vor"
+      },
+      "pricing": {
+        "hint": "Hinweis: Es wird kein Preis automatisch angewendet",
+        "label": "Empfohlene Preisspanne"
+      },
+      "quiz-transcript": {
+        "hint": "Für Abschnitte mit Transkripten",
+        "label": "Quiz aus dem Vorlesungsprotokoll"
+      }
+    },
+    "closeAria": "Enger Assistent",
+    "confidence": "Vertrauen {pct}",
+    "copied": "Kopiert",
+    "copy": "Kopieren",
+    "copyList": "Liste kopieren",
+    "copyQuestions": "Fragen kopieren",
+    "copyText": "Text kopieren",
+    "draftNote": "Alles, was hier generiert wird, ist nur ein Entwurf; Es wird nichts automatisch auf den Kurs angewendet.",
+    "err": {
+      "noGroundable": "Kein Abschnitt enthält Transkripte oder Text; Bitte laden Sie eine Untertiteldatei hoch oder schreiben Sie den Vorlesungstext für einen Abschnitt."
+    },
+    "humanReview": "Erfordert eine menschliche Überprüfung",
+    "instructionLabel": "Optionale Anweisungen für den Assistenten",
+    "instructionPlaceholder": "Machen Sie beispielsweise den Ton formeller",
+    "localFallback": "Lokaler Entwurf (KI-Dienst war nicht verfügbar)",
+    "noActions": "Ich habe keinen fertigen Vorschlag für diesen Abschnitt. Gehen Sie zu „Übersicht“, „Inhalt“ oder „Preise“.",
+    "pricing": {
+      "chip": "Beratungsvorschlag – nicht angewendet",
+      "current": "Aktueller Preis",
+      "range": "Reichweite",
+      "rangeValue": "{min} bis {max}",
+      "suggested": "Vorschlag"
+    },
+    "quizDisabledHint": "Kein Abschnitt enthält ein Transkript oder einen Text; Bitte vervollständigen Sie zunächst den Inhalt eines Abschnitts.",
+    "quizSource": "Abgeleitet von den {chars}-Zeichen von {kind} in diesem Abschnitt.",
+    "quizSourceKind": {
+      "caption": "Transkript",
+      "richtext": "Text"
+    },
+    "sectionLabel": "Abschnitt mit Transkript oder Text",
+    "source": {
+      "caption": "Transkript",
+      "richtext": "Vorlesungstext"
+    },
+    "sourceOption": "{path} — {kind}",
+    "title": "Studioassistent"
+  },
+  "coupons": {
+    "help": {
+      "body": "Erstellen Sie Rabattcodes für diesen Kurs (Prozentsatz oder Festbetrag, mit Nutzungsbeschränkungen und Ablaufdaten). Der Käufer gibt den Code an der Kasse ein und der Endbetrag wird mit dem Rabatt berechnet. Globale Codes (für alle Kurse) werden vom Marktplatz-Administrator erstellt.",
+      "title": "Leitfaden für Rabattcodes"
+    }
+  },
+  "cover": {
+    "advancedHelper": "Klicken Sie auf die Schaltfläche „Informationen speichern“, um die eingegebene URL zu speichern. Es wird empfohlen, das Bild direkt hochzuladen, anstatt eine URL zu verwenden (das hochgeladene Bild wird auch Gästen angezeigt).",
+    "advancedToggle": "Oder geben Sie die Bild-URL ein (erweitert)",
+    "alt": "Titelbild des Kurses",
+    "dropNew": "Legen Sie das Titelbild hier ab oder klicken Sie",
+    "dropReplace": "Neues Bild hier einfügen oder klicken",
+    "err": {
+      "empty": "Die ausgewählte Datei ist leer. Bitte wählen Sie ein anderes Bild.",
+      "tooLarge": "Die Größe des Titelbildes überschreitet die maximale Grenze (maximal {max} MB). Bitte wählen Sie ein kleineres Bild."
+    },
+    "hint": "PNG, JPG oder WebP – max. {max} MB",
+    "uploadAria": "Laden Sie das Titelbild des Kurses hoch",
+    "uploading": "Hochladen… {pct}"
+  },
+  "curriculum": {
+    "addLesson": "Lektion hinzufügen",
+    "addModule": "Modul hinzufügen",
+    "addSection": "Abschnitt hinzufügen",
+    "aria": {
+      "deleteLesson": "Lektion löschen",
+      "deleteModule": "Modul löschen",
+      "deleteSection": "Abschnitt löschen",
+      "editLesson": "Lektion bearbeiten",
+      "editModule": "Modul bearbeiten",
+      "editSection": "Abschnitt bearbeiten",
+      "lessonFiles": "Unterrichtsanhangsdateien",
+      "moveDown": "Bewegen Sie sich nach unten",
+      "moveLessonDown": "Lektion nach unten verschieben",
+      "moveLessonUp": "Lektion nach oben verschieben",
+      "moveSectionDown": "Abschnitt nach unten verschieben",
+      "moveSectionUp": "Abschnitt nach oben verschieben",
+      "moveUp": "Bewegen Sie sich nach oben",
+      "sectionType": "Inhaltstyp von {title}"
+    },
+    "contentBtn": "Inhalt",
+    "contentTypeHelper": "Klicken Sie nach dem Speichern im selben Abschnitt auf die Schaltfläche „Inhalt“, um eine Datei, einen Text, einen Link oder ein Quiz anzuhängen.",
+    "delete": {
+      "bodySection": "„{label}“ wird gelöscht.",
+      "bodyTree": "„{label}“ und alle seine Unterpunkte werden gelöscht.",
+      "title": {
+        "lesson": "Lektion löschen?",
+        "module": "Modul löschen?",
+        "section": "Abschnitt löschen?"
+      }
+    },
+    "dialog": {
+      "create": {
+        "lesson": "Lektion hinzufügen",
+        "module": "Modul hinzufügen",
+        "section": "Abschnitt hinzufügen"
+      },
+      "edit": {
+        "lesson": "Lektion bearbeiten",
+        "module": "Modul bearbeiten",
+        "section": "Abschnitt bearbeiten"
+      }
+    },
+    "drip": {
+      "fixedAria": "Veröffentlichungsdatum der Lektion",
+      "fixedBadge": "Von {date}",
+      "fixedHelper": "Diese Lektion ist an diesem Datum für alle Lernenden geöffnet (ideal für einen kohortenbasierten Kurs mit festem Zeitplan).",
+      "fixedLabel": "Erscheinungsdatum",
+      "fixedPlaceholder": "Datum auswählen",
+      "fixedTitle": "Veröffentlichung zu einem bestimmten Datum",
+      "help": {
+        "fixedTerm": "Spezifisches Datum",
+        "p1": "„Inhalt löschen“ sperrt eine Lektion, bis eine Bedingung erfüllt ist:",
+        "p2": "(Relativ) bedeutet, dass die Lektion für jeden Schüler eine bestimmte Anzahl von Tagen nach seinem eigenen Kaufdatum freigeschaltet wird; Ideal für die wöchentliche Zustellung (jede Person zählt ab ihrem eigenen Tag).",
+        "p3": "(Behoben) bedeutet, dass die Lektion für alle am exakt gleichen Kalenderdatum freigeschaltet wird; Ideal für Simultan-/Kohortenkurse mit gemeinsamem Kalender.",
+        "p4": "Sperrt die Lektion, bis die erforderliche Mindestpunktzahl bei einem vorangegangenen Quiz erreicht ist; Dies bedeutet einen auf Beherrschung basierenden Lernpfad: Bis das Quiz der vorherigen Stufe bestanden ist, bleibt die nächste Stufe gesperrt. Diese Bedingungen werden mit der sequentiellen Voraussetzung der Lektion kombiniert und alle müssen erfüllt sein, damit die Lektion freigeschaltet wird. Die Sperre wird vollständig serverseitig durchgesetzt; Gesperrte Unterrichtsinhalte können nicht abgespielt werden, auch wenn sie umgangen werden.",
+        "relativeTerm": "Tage nach der Einschreibung",
+        "scoreTerm": "Mit Punktestand freischalten",
+        "title": "Was ist Drip-Content?"
+      },
+      "intro": "Sie können diese Lektion bis zu einem bestimmten Zeitpunkt oder bis zum Erreichen der erforderlichen Punktzahl in einem vorangegangenen Quiz sperren. Wenn Sie mehrere Bedingungen festlegen, wird die Lektion nur dann freigeschaltet, wenn alle Bedingungen (und ggf. die sequentiellen Voraussetzungen) erfüllt sind.",
+      "minLabel": "Erforderliche Mindestpunktzahl ({min} bis {max})",
+      "minPlaceholder": "z.B. 70",
+      "mode": {
+        "fixed": "An einem bestimmten Datum",
+        "none": "Keine Zeitsperre (direkt nach dem Kauf)",
+        "relative": "Einige Tage nach der Einschreibung der Studierenden"
+      },
+      "noQuiz": "Vor dieser Lektion gibt es keinen Abschnitt „Quiz“. Erstellen Sie zunächst in einer vorherigen Lektion einen Abschnitt vom Typ „Quiz“, damit Sie diese Lektion anhand der Punktzahl festlegen können.",
+      "offsetDaysUnset": "…",
+      "offsetDaysValue": "{n} Tage",
+      "offsetHelper": "Diese Lektion schaltet {days} nach dem Anmeldedatum jedes Schülers frei (geeignet für die wöchentliche Kursbereitstellung).",
+      "offsetLabel": "Die Freischaltung erfolgt einige Tage nach der Anmeldung",
+      "offsetPlaceholder": "z.B. 7",
+      "quizCurrent": "Aktuell ausgewähltes Quiz",
+      "quizLabel": "Zustandsquiz",
+      "quizPlaceholder": "— Quiz auswählen —",
+      "relativeBadge": "{days} Tage nach der Einschreibung",
+      "relativeTitle": "Veröffentlichung einige Tage nach der Einschreibung",
+      "scoreBadge": "Ergebnis ≥ {score}",
+      "scoreTitle": "Mit Quiz-Ergebnis freischalten",
+      "scoreToggle": "Wird freigeschaltet, nachdem bei einem Quiz die erforderliche Punktzahl erreicht wurde",
+      "timeModeLabel": "Veröffentlichungsplan",
+      "title": "Drip-Inhalt (Lektionssperre)"
+    },
+    "empty": "Noch kein Lehrplan hinzugefügt.",
+    "emptyHint": "Beginnen Sie mit „Abschnitt hinzufügen“ oder erstellen Sie einen Entwurf mit „✨ Abschnitte generieren“.",
+    "err": {
+      "fixedDate": "Wählen Sie unter „Veröffentlichung an einem bestimmten Datum“ ein Datum aus.",
+      "quizRequired": "Wählen Sie bei „Mit Punktestand freischalten“ ein vorangehendes Quiz im Kurs aus.",
+      "relativeDays": "Für „Geplante Freigabe“ muss die Anzahl der Tage größer als Null sein.",
+      "relativeMax": "Die Veröffentlichungstage können höchstens {max} (zehn Jahre) betragen.",
+      "scoreRange": "Die erforderliche Punktzahl muss eine Zahl zwischen {min} und {max} sein.",
+      "titleRequired": "„Titel“ ist erforderlich (mindestens {min} Zeichen)."
+    },
+    "field": {
+      "contentType": "Inhaltstyp",
+      "description": "Beschreibung (optional)",
+      "title": "Titel"
+    },
+    "freePreview": "Kostenlose Vorschau",
+    "freePreviewFull": "Kostenlose Vorschau (für alle sichtbar)",
+    "hasContent": "Inhalt",
+    "help": {
+      "body": "Fügen Sie Module, Lektionen innerhalb jedes Moduls und Abschnitte innerhalb jeder Lektion hinzu. Ändern Sie die Reihenfolge eines Elements mit den Auf-/Ab-Tasten. Legen Sie für jeden Abschnitt den „Inhaltstyp“ und die Option „Kostenlose Vorschau“ fest und verwenden Sie dann die Schaltfläche „Inhalt“, um eine Datei (Video/Folie/Dokument/Audio/interaktives H5P), Text, Link oder Quiz an diesen Abschnitt anzuhängen. Mit „✨ Module generieren“ können Sie mithilfe von KI einen Strukturentwurf erstellen und diesen vor der Bewerbung bearbeiten.",
+      "title": "Lehrplan-Leitfaden"
+    },
+    "lessonBadge": "Lektion {n}",
+    "lessonFilesTitle": "Anhänge",
+    "moduleBadge": "Modul {n}",
+    "noContent": "Kein Inhalt",
+    "noLessons": "Kein Unterricht.",
+    "noSections": "Keine Abschnitte.",
+    "outlineBtn": "✨ Module generieren (AI-Entwurf)",
+    "outlineBtnTitle": "Generieren Sie eine vorgeschlagene Lehrplanstruktur mit KI",
+    "quizOption": "Modul {mod} › Lektion {lesson} › {title}",
+    "title": "Lehrplan"
+  },
+  "edit": {
+    "chapter": {
+      "addHere": "Kapitel zum aktuellen Zeitpunkt",
+      "defaultTitle": "Kapitel {n}",
+      "empty": "Es sind noch keine Kapitel aufgezeichnet. Bewegen Sie den Player zum gewünschten Zeitpunkt und klicken Sie auf „Kapitel zum aktuellen Zeitpunkt“.",
+      "gotoAria": "Gehen Sie zum Kapitel {title} bei {at}",
+      "placeholder": "Kapiteltitel (optional)",
+      "removeAria": "Entfernen Sie das Kapitel {title}",
+      "titleAria": "Kapiteltitel"
+    },
+    "edl": {
+      "err": {
+        "dupId": "Clip-IDs müssen eindeutig sein.",
+        "duration": "Die Dauer der Quelldatei ist ungültig.",
+        "empty": "Die Timeline muss mindestens einen Clip enthalten.",
+        "outOfRange": "Clips müssen innerhalb des Quelldateibereichs liegen.",
+        "overlap": "Timeline-Clips dürfen sich nicht überlappen.",
+        "tooMany": "Zu viele Timeline-Clips.",
+        "tooShort": "Jeder Clip muss mindestens 0,05 Sekunden lang sein."
+      }
+    },
+    "page": {
+      "backToContent": "Zurück zum Kursinhalt",
+      "badge": {
+        "dirty": "Nicht gespeichert",
+        "queued": "In der Warteschlange zur Ausgabeverarbeitung…",
+        "rendered": "Ausgabe bereit"
+      },
+      "chapters": {
+        "intro": "Kapitel fungieren als „Videokapitel“ und erscheinen als Markierungen auf der Zeitleiste des Schüler-Players. Markierungen werden auch unterhalb der Timeline angezeigt."
+      },
+      "courseContent": "Kursinhalte",
+      "cutHere": "Zum aktuellen Zeitpunkt schneiden",
+      "cutToPlayhead": "Auf aktuelle Zeit zuschneiden",
+      "cutToPlayheadTitle": "Löscht vom Anfang dieses Clips bis zum aktuellen Zeitpunkt",
+      "err": {
+        "badUrl": "Ungültige Bearbeitungs-URL.",
+        "notFound": "Bearbeitungsprojekt nicht gefunden.",
+        "title": "Zeitleiste konnte nicht geöffnet werden"
+      },
+      "help": {
+        "body": "Diese Zeitleiste ist „zerstörungsfrei“: Ihre hochgeladene Datei ändert sich nie und es wird nur eine Liste der beibehaltenen Segmente gespeichert. Beim Abspielen dieser Seite wird die bearbeitete Version angezeigt (gelöschte Segmente werden übersprungen), und jeder Schnitt kann mit „Rückgängig“ oder „Bereich wiederherstellen“ rückgängig gemacht werden. Durch Klicken auf „Exportieren“ wird aus den beibehaltenen Segmenten eine brandneue <b>-Datei </b> erstellt. Die Originaldatei bleibt unberührt und Sie können sie jederzeit erneut bearbeiten und exportieren.",
+        "title": "Bearbeiten Sie, ohne die Originaldatei zu beschädigen"
+      },
+      "mergeAfter": "Nächsten Bereich wiederherstellen",
+      "mergeBefore": "Vorhergehenden Bereich wiederherstellen",
+      "noSectionChapters": "Diese Datei ist noch nicht mit einem Kursabschnitt verbunden; Kapitel werden im „Abschnitt“ gespeichert.",
+      "queuedCallout": "Der Export wird zur Verarbeitung in die Warteschlange gestellt. Abhängig von der Dateilänge kann dies mehrere zehn Minuten dauern; Sie können diese Seite schließen – das Ergebnis wird gespeichert.",
+      "redo": "Wiederholen",
+      "removeSegmentAria": "Entfernen Sie dieses Segment",
+      "removeSelected": "Ausgewähltes Segment entfernen",
+      "render": "Exportieren",
+      "renderTitle": "Erstellen Sie aus den beibehaltenen Segmenten eine gekürzte Datei",
+      "rendering": "Einreichen…",
+      "resetAll": "Gesamte Datei zurücksetzen",
+      "save": "Zeitleiste speichern",
+      "saving": "Sparen…",
+      "segmentN": "Segment {n}",
+      "segments": {
+        "intro": "Jede Zeile ist ein beibehaltenes Segment. „Bereich wiederherstellen“ stellt die gelöschte Lücke neben demselben Segment wieder her – kein Schnitt ist endgültig."
+      },
+      "stat": {
+        "count": "Anzahl der Segmente: {n}",
+        "kept": "Endgültige Dauer:",
+        "removed": "Entfernt:"
+      },
+      "targetSection": "Zielabschnitt (diese Datei wird in mehreren Abschnitten verwendet)",
+      "title": "Zeitleiste bearbeiten",
+      "toast": {
+        "queued": "Der Export wurde in die Warteschlange gestellt. Sobald es fertig ist, wird es hier angezeigt.",
+        "renderFailed": "Exportverarbeitung fehlgeschlagen; Du kannst es noch einmal versuchen.",
+        "rendered": "Die exportierte Datei ist fertig.",
+        "saved": "Zeitleiste gespeichert."
+      },
+      "toolsAria": "Bearbeitungswerkzeuge",
+      "undo": "Rückgängig machen"
+    },
+    "player": {
+      "loading": "Wiedergabe wird vorbereitet…",
+      "note": "Die Wiedergabe erfolgt „virtuell“: Gelöschte Segmente werden übersprungen und die Originaldatei bleibt unberührt.",
+      "pause": "Pause",
+      "pauseAria": "Wiedergabe anhalten",
+      "play": "Bearbeitete Version abspielen",
+      "playAria": "Bearbeitete Vorschau abspielen"
+    },
+    "poster": {
+      "capture": "Dieser Rahmen",
+      "clear": "Posterbild entfernen",
+      "err": {
+        "capture": "Frame konnte nicht erfasst werden.",
+        "noCanvas": "Das Erfassen von Frames wird in diesem Browser nicht unterstützt.",
+        "noFrame": "Es ist noch kein Bild zur Aufnahme bereit; Spielen Sie einen Teil des Videos ab und versuchen Sie es erneut."
+      },
+      "hasPoster": "Dieser Abschnitt enthält bereits ein Posterbild. Um es zu ersetzen, erfassen Sie ein neues Bild und speichern Sie es.",
+      "intro": "Halten Sie den Player im gewünschten Moment an und klicken Sie auf „Bild aufnehmen“. Dieses Bild wird dem Schüler vor Beginn der Wiedergabe angezeigt und ist durch genau dieselbe Videosperre geschützt.",
+      "noSection": "Diese Datei ist noch keinem Abschnitt zugeordnet; Das Posterbild wird in einem „Abschnitt“ gespeichert. Hängen Sie die Datei daher zunächst über die Registerkarte „Inhalt“ an einen Videoabschnitt an.",
+      "previewAlt": "Vorschau des Posterbilds",
+      "save": "Als Posterbild speichern",
+      "saving": "Sparen...",
+      "videoOnly": "Posterbilder sind nur für Videoabschnitte aussagekräftig."
+    },
+    "rail": {
+      "captions": "Bildunterschriften",
+      "chapters": "Kapitel",
+      "poster": "Plakat",
+      "segments": "Segmente"
+    },
+    "strip": {
+      "building": "Wellenform erstellen...",
+      "noWave": "Für diese Datei ist keine Wellenform verfügbar."
+    },
+    "timeline": {
+      "handleEnd": "Segmentende – {at}",
+      "handleStart": "Segmentanfang – {at}"
+    }
+  },
+  "examQueue": {
+    "ai": {
+      "draft": "KI-Entwurf",
+      "suggestionOnly": "Der KI-Entwurf ist nur ein Vorschlag; Es wird keine Note gespeichert, bis Sie auf „Note absenden“ klicken.",
+      "unstructured": "Entwurf erhalten, aber es fehlte eine strukturierte Bewertung/Feedback; Bitte überprüfen Sie es manuell."
+    },
+    "aiBusy": "Empfangen...",
+    "autoScore": "Automatische Bewertung: {v}",
+    "awaiting": "{n} steht zur Benotung aus",
+    "close": "Schließen",
+    "editGrade": "Note bearbeiten",
+    "empty": "Diese Liste enthält keine Elemente.",
+    "fbLabel": "Feedback für den Käufer (optional)",
+    "fbPlaceholder": "Tipps, die helfen, die Antwort zu verbessern ...",
+    "filter": {
+      "all": "Alle",
+      "graded": "Benotet",
+      "submitted": "Ausstehende Benotung"
+    },
+    "grade": "Aufgezeichnete Note: {v}",
+    "gradeAction": "Note",
+    "idle": "Es steht keine Bewertung aus",
+    "intro": "Multiple-Choice-Fragen und Fragen mit kurzen Antworten werden automatisch bewertet. Was Sie hier sehen, sind beschreibende Antworten, Dateien und Code, über den Sie die endgültige Entscheidung treffen. Durch die Übermittlung einer Note wird der Status „Prüfung erforderlich“ des Käufers sofort aktualisiert.",
+    "loading": "Laden...",
+    "refresh": "Aktualisieren",
+    "scoreLabel": "Punktzahl (0 bis 100)",
+    "scorePlaceholder": "z.B. 85",
+    "sent": "Eingereicht: {d}",
+    "status": {
+      "draft": "Entwurf",
+      "graded": "Benotet",
+      "submitted": "Warten auf die Benotung"
+    },
+    "submit": "Note abgeben",
+    "title": "Benotungswarteschlange"
+  },
+  "faq": {
+    "add": "Frage hinzufügen",
+    "empty": "Es wurden noch keine Fragen hinzugefügt.",
+    "err": {
+      "halfRow": "Jede Frage muss eine Antwort haben (unvollständige Zeilen vervollständigen oder entfernen)."
+    },
+    "field": {
+      "a": "Antwort",
+      "q": "Frage"
+    },
+    "intro": "Diese FAQs werden im Akkordeon-Layout auf der Kurseinführungsseite angezeigt und helfen Käufern bei der Kaufentscheidung (z. B. „Für wen ist dieser Kurs gedacht?“).",
+    "itemLabel": "Frage {n}",
+    "remove": "Löschen",
+    "removeAria": "Frage {n} löschen",
+    "save": "FAQs speichern",
+    "title": "FAQs (Öffentliche Seite)"
+  },
+  "home": {
+    "bundles": "Kurspakete",
+    "card": {
+      "clone": "Doppelter Kurs",
+      "editAria": "Kurs {title} bearbeiten",
+      "level": "Ebene: {level}",
+      "updatedAt": "Zuletzt bearbeitet: {date}"
+    },
+    "clone": {
+      "bodyAfter": "des Kurses „{title}“ wird erstellt (Titel „{title} (Kopie)“). Alle Lehrplanstrukturen – Kapitel, Lektionen, Abschnitte und deren Inhalte – werden in den neuen Kurs kopiert und Sie können sie frei bearbeiten. Käufer und Einschreibungen des ursprünglichen Kurses bleiben unverändert, und der ursprüngliche Kurs bleibt erhalten.",
+      "bodyBefore": "A",
+      "bodyStrong": "Entwurfsexemplar",
+      "busy": "Kopie erstellen…",
+      "helpBody": "„Kurs duplizieren“ erstellt eine völlig unabhängige und frische Version als Entwurf; Dies unterscheidet sich von einer „Neuen Version“ (die denselben Kurs aktualisiert). Nutzen Sie die Duplizierung, um einen ähnlichen Kurs mit einer vorgefertigten Struktur zu erstellen: Es wird eine Kopie erstellt, dann ändern Sie Titel, Beschreibung und Inhalt für den neuen Kurs. Die Kopie ist unveröffentlicht und muss wie jeder neue Kurs zur Begutachtung eingereicht und dann veröffentlicht werden.",
+      "helpTitle": "Was bewirkt das Duplizieren eines Kurses?",
+      "submit": "Kopie erstellen",
+      "title": "Doppelter Kurs"
+    },
+    "empty": {
+      "body": "Erstellen Sie Ihren ersten Kurs mit der Schritt-für-Schritt-Anleitung: Details, Lehrplan, Inhalt, Preise und Veröffentlichungscheckliste.",
+      "cta": "Neuen Kurs erstellen (Schritt für Schritt)",
+      "title": "Sie haben noch keine Kurse erstellt"
+    },
+    "eyebrow": "Wissensmarkt",
+    "help": {
+      "body": "Hier ist die Liste der Kurse, die Sie erstellt haben. Verwenden Sie „Neuen Kurs erstellen“, um einen Kursentwurf zu erstellen, und rufen Sie dann den Editor auf, um die Kursinformationen und die Lehrplanstruktur zu vervollständigen (Kapitel → Lektion → Abschnitt). Das Hochladen von Dateien, das Einreichen zur Überprüfung und das Veröffentlichen werden in späteren Phasen aktiviert.",
+      "title": "Knowledge Studio-Leitfaden"
+    },
+    "lead": "Erstellen und strukturieren Sie Ihre Bildungskurse: Kapitel, Lektionen und Abschnitte. Jeder Kurs beginnt als „Entwurf“ und kann frei bearbeitet werden, solange er ein Entwurf bleibt.",
+    "newCourse": "Neuen Kurs erstellen",
+    "title": "Wissensstudio"
+  },
+  "insights": {
+    "aiExplain": "KI-Erklärung",
+    "assessments": {
+      "empty": "Sie haben diesem Kurs noch keine Bewertungen beigefügt. Erstellen oder hängen Sie eine Bewertung über die Registerkarte „Bewertungen“ an.",
+      "title": "Beurteilungen und Übungen"
+    },
+    "awaitingBadge": "{n} wartet auf die Benotung",
+    "err": {
+      "csv": "Der CSV-Export ist fehlgeschlagen",
+      "itemAnalysis": "Die Artikelanalyse ist nicht verfügbar"
+    },
+    "items": {
+      "correct": "Richtig:",
+      "difficulty": "Schwierigkeit:",
+      "discrimination": "Diskriminierung:",
+      "intro": "Basierend auf {n}-Antwortbögen. „Schwierigkeit“ ist das Verhältnis richtiger Antworten und „Diskriminierung“ ist der Leistungsunterschied zwischen den besten und schlechtesten Antworten; Eine negative Zahl weist auf ein Problem mit dem Frage- oder Antwortschlüssel hin.",
+      "loading": "Artikelanalyse berechnen…",
+      "manual": "Manuelle Bewertung",
+      "question": "Frage {n}",
+      "seenBy": "Gesehen von:"
+    },
+    "itemsClose": "Close-Item-Analyse",
+    "itemsOpen": "Artikelanalyse",
+    "kpi": {
+      "atRisk": "Gefährdeter Lernender",
+      "awaiting": "Einreichungen warten auf Ihre Bewertung",
+      "oldest": "Älteste ausstehende (Tage)",
+      "stale": "Ausstehend seit über {days} Tagen"
+    },
+    "loading": "Bewertungsergebnisse werden geladen…",
+    "mode": {
+      "practice": "Üben",
+      "required": "Erforderlich"
+    },
+    "msg": {
+      "cancel": "Abbrechen",
+      "close": "Schließen",
+      "counter": "{n} / {max}-Zeichen",
+      "failed": "Nachricht konnte nicht gesendet werden",
+      "note": "Diese Nachricht wird in der Kursdiskussion und im internen Messenger versendet. Die E-Mail-Adresse des Lernenden wird nicht an Sie weitergegeben.",
+      "placeholder": "Beispielsweise ist mir aufgefallen, dass Sie den Unterricht mehrere Wochen lang nicht fortgesetzt haben. Lassen Sie mich wissen, wenn Sie irgendwo nicht weiterkommen, damit ich Ihnen helfen kann.",
+      "send": "Senden",
+      "sending": "Senden…",
+      "sent": "Nachricht per Messenger gesendet.",
+      "title": "Nachricht an {name}"
+    },
+    "noTakers": "Diese Einschätzung hat noch niemand vorgenommen.",
+    "retry": "Versuchen Sie es erneut",
+    "risk": {
+      "csv": "Anonymer CSV-Export",
+      "empty": "Niemand ist gefährdet – ein Fortschritt unter {pct} nach {days}-Tagen oder ein nicht bestandenes erforderliches Assessment sind die Kriterien für diese Liste.",
+      "intro": "Liste der Lernenden, die Ihre Unterstützung benötigen. E-Mail-Adressen werden nicht angezeigt; Der Kontakt erfolgt ausschließlich über den internen Messenger und der CSV-Export erfolgt völlig anonym (nur unter Verwendung dauerhafter Pseudonyme).",
+      "message": "Nachricht senden",
+      "progress": "Fortschritt {pct} · {days} Tage seit der Anmeldung",
+      "pseudonymTitle": "Kurspseudonym",
+      "refresh": "Liste aktualisieren",
+      "show": "Liste anzeigen ({n})",
+      "title": "Gefährdete Lernende"
+    },
+    "stat": {
+      "attempts": "Versuche:",
+      "avg": "Durchschnitt:",
+      "median": "Median:",
+      "minutes": "{n} min",
+      "pass": "Bestanden:",
+      "passBar": "(Überschreiten der Schwelle {v})",
+      "samples": "(aus {n}-Versuchen)",
+      "takers": "Teilnehmer:",
+      "timeSpent": "Zeitaufwand:"
+    },
+    "verdict": {
+      "negative": "Negative Diskriminierung – Leistungsträger haben mehr verpasst; Bitte überprüfen Sie den Schlüssel",
+      "tooEasy": "Zu einfach – fast jeder hat richtig geantwortet",
+      "tooHard": "Zu schwer – die Frageaufforderung könnte mehrdeutig sein"
+    }
+  },
+  "overview": {
+    "category": {
+      "current": "Aktuelle Kategorie",
+      "helper": "Kategorien werden vom Marktplatzmanager im „Marktplatzmanagement“ definiert.",
+      "none": "Nicht kategorisiert"
+    },
+    "cover": {
+      "empty": "Kein Titelbild registriert.",
+      "helper": "Dieses Bild wird auf der Kurskarte im „Wissensmarktplatz“ und für Besucher (ohne Login) angezeigt. Das empfohlene Seitenverhältnis ist 16:9.",
+      "label": "Titelbild des Kurses"
+    },
+    "err": {
+      "titleRequired": "„Kurstitel“ ist erforderlich (mindestens 2 Zeichen)."
+    },
+    "field": {
+      "audience": "Zielgruppe (optional)",
+      "category": "Kategorie",
+      "delivery": "Liefermodus",
+      "description": "Kursbeschreibung",
+      "language": "Sprache",
+      "level": "Ebene",
+      "objectives": "Lernziele (optional)",
+      "prerequisites": "Voraussetzungen (optional)",
+      "searchAliases": "Alternative Namen und lateinische Schreibweise (optional)",
+      "title": "Kurstitel"
+    },
+    "help": {
+      "body": "Der Kurstitel, die Beschreibung und die Spezifikationen werden hier vervollständigt; Dieselben Informationen werden auf der öffentlichen Kursseite im „Wissensmarktplatz“ angezeigt. Eine umfassendere Beschreibung und klarere Lernziele erhöhen die Kaufwahrscheinlichkeit. Die Struktur des Lehrplans finden Sie auf der Registerkarte „Lehrplan“, das Hochladen von Inhalten auf der Registerkarte „Inhalt“ und die Preise auf der Registerkarte „Preise“.",
+      "title": "Kursinformationsleitfaden"
+    },
+    "objectivesPlaceholder": "Am Ende dieses Kurses sind die Lernenden in der Lage...",
+    "searchAliasesHelper": "Schreiben Sie jedes Element in eine neue Zeile. Diese Werte werden nur für die Suche verwendet und das System errät keine Transliterationen oder Namen.",
+    "searchAliasesPlaceholder": "Maschinelles Lernen\nYadgiri Mashin",
+    "readonlySummary": "Ebene: {level} · Modus: {delivery}",
+    "save": "Informationen speichern",
+    "saving": "Sparen...",
+    "title": "Kursinformationen"
+  },
+  "pricing": {
+    "current": "Aktueller Preis: {value}",
+    "err": {
+      "positive": "Bei einem kostenpflichtigen Kurs muss der Preis eine Zahl größer als Null sein."
+    },
+    "field": {
+      "model": "Preismodell",
+      "price": "Preis (Rial)"
+    },
+    "help": {
+      "body": "„Kostenlos“ bedeutet, dass Lernende den Kurs sofort und ohne Bezahlung erhalten. „Einmaliger Kauf“ bedeutet, dass der Kurs mit einer einzigen Zahlung dauerhaft freigeschaltet wird (zukünftige Updates sind für den Käufer ebenfalls kostenlos). Ein Prozentsatz des Betrags wird als Hochschulanteil abgezogen, der Rest wird als Ihr Anteil registriert; Dieser Prozentsatz wird vom Marktplatzmanager festgelegt. Rabattcodes für diesen Kurs können Sie im Reiter „Rabattcodes“ erstellen.",
+      "title": "Preisleitfaden"
+    },
+    "intro": "Wählen Sie das Kurspreismodell aus. Ein „kostenloser“ Kurs wird für den Lernenden sofort freigeschaltet; Ein „Einmalkauf“-Kurs wird durch Zahlung über das verfügbare Gateway freigeschaltet. Sie können den Preis jederzeit ändern; Der von jedem Käufer gezahlte Betrag wird zum Zeitpunkt des Kaufs festgelegt.",
+    "none": "Es wurde noch kein Preis festgelegt.",
+    "pricePlaceholder": "z.B. 5000000",
+    "save": "Preis sparen",
+    "savedOk": "Gespeichert.",
+    "share": {
+      "authorLabel": "Ihr Nettoanteil aus jedem Verkauf:",
+      "note": "Der Anteilsprozentsatz wird vom Marktplatzmanager bestimmt; Die Auszahlung des Dozentenanteils erfolgt in der nächsten Phase.",
+      "pending": "Ihr Nettoanteil errechnet sich nach Abzug des Hochschulanteils (festgelegt durch den Marktplatzleiter).",
+      "universityLabel": "Universitätsanteil aus jedem Verkauf:"
+    },
+    "title": "Preise"
+  },
+  "readiness": {
+    "chip": "Veröffentlichungsbereitschaft {ok, number}/{total, number}",
+    "chipAria": "Veröffentlichungsbereitschaft: {ok, number} der {total, number} erforderlichen Elemente",
+    "complete": "Komplett",
+    "items": {
+      "assessments": "Die Lehrveranstaltung beinhaltet mindestens eine Hausaufgabe/Prüfung",
+      "category": "Kategorie ist ausgewählt",
+      "content": "Es gibt mindestens einen Abschnitt mit echtem Inhalt",
+      "cover": "Das Titelbild des Kurses ist festgelegt",
+      "description": "Die Kursbeschreibung ist eingegeben",
+      "freePreview": "Verfügt über mindestens einen Abschnitt „Kostenlose Vorschau“.",
+      "lessons": "Jedes Modul umfasst mindestens eine Lektion",
+      "modules": "Der Kurs besteht aus mindestens einem Modul",
+      "objectives": "Lernziele werden schriftlich festgehalten",
+      "pricing": "Der Kurspreis ist festgelegt (kostenlos oder kostenpflichtig)",
+      "title": "Kurstitel ist eingetragen"
+    },
+    "lead": "„Erforderliche“ Elemente müssen vor „Zur Überprüfung einreichen“ abgeschlossen sein; „Vorgeschlagene“ Elemente verbessern die Qualität der Kursseite, verhindern jedoch nicht die Einreichung.",
+    "optional": "Vorgeschlagen",
+    "title": "Bereitschaftscheckliste veröffentlichen"
+  },
+  "record": {
+    "again": "Nochmals aufnehmen",
+    "audio": {
+      "saveHint": "Die Audiodatei wird genau so gespeichert, wie sie aufgenommen wurde, und nur in Audioabschnitten platziert.",
+      "noAudioSections": "Dieser Kurs verfügt über keinen kompatiblen Audiobereich. Die Datei wird nur in der Medienbibliothek gespeichert.",
+      "saveAction": "Audio im Kurs speichern",
+      "saveTitle": "Speichern Sie aufgenommenes Audio",
+      "saved": "Die Audiodatei wurde gespeichert und an den Kursabschnitt angehängt.",
+      "savedLibrary": "Die Audiodatei wurde in der Medienbibliothek gespeichert."
+    },
+    "backToEditor": "Zurück zum Kurseditor",
+    "camera": "Kamera",
+    "courseEditor": "Kursredakteur",
+    "deviceDefault": "Standard",
+    "deviceNumbered": "{name} {n}",
+    "devicePending": "Wird angezeigt, nachdem die Erlaubnis erteilt wurde",
+    "editInTimeline": "In der Timeline bearbeiten",
+    "err": {
+      "badCourseId": "Ungültige Kurs-ID.",
+      "courseNotFound": "Kurs nicht gefunden.",
+      "courseTitle": "Der Kurs konnte nicht geladen werden",
+      "empty": "Die Aufnahme war leer; Bitte versuchen Sie es noch einmal.",
+      "noDevice": "Keine Kamera oder kein Mikrofon gefunden.",
+      "permission": "Der Zugriff auf Kamera/Mikrofon/Bildschirm wurde verweigert oder die Freigabe wurde abgebrochen.",
+      "pickSection": "Wählen Sie einen Kursabschnitt aus, um eine Verbindung herzustellen.",
+      "startFailed": "Die Aufnahme konnte nicht gestartet werden. Ihr Browser unterstützt diese Funktion möglicherweise nicht.",
+      "unsupportedSettings": "Die Aufnahme mit diesen Einstellungen wird nicht unterstützt. Versuchen Sie es mit einer anderen Quelle."
+    },
+    "gotoEditor": "Gehen Sie zum Kurseditor",
+    "grid": {
+      "hint": "Das Rahmenraster dient lediglich als Orientierungshilfe. Es ist nur in der Vorschau sichtbar und wird nie im aufgezeichneten Video angezeigt.",
+      "off": "Rahmenraster: Aus",
+      "on": "Rahmenraster: Ein"
+    },
+    "help": {
+      "body": "Wählen Sie eine Aufnahmequelle (Kamera, Bildschirm, Kamera+Bildschirm oder nur Audio) und klicken Sie dann auf „Vorschau starten“, um das Video/Audio zu überprüfen. Klicken Sie auf „Aufnahme starten“, um zu beginnen. Sie können es pausieren oder beenden. Wenn Sie fertig sind, überprüfen Sie das Video und hängen Sie es mit „Als Kursvideo speichern“ an einen Kursabschnitt an. Die Aufnahme wird unkomprimiert (raw) gespeichert.",
+      "title": "Leitfaden für Aufnahmestudios"
+    },
+    "lead": "„{title}“ – Nehmen Sie eine Lektion direkt in Ihrem Browser auf und speichern Sie sie als Kursvideo.",
+    "mb": "{v} MB",
+    "mic": "Mikrofon",
+    "micLevel": "Mikrofonpegel",
+    "micReady": "Mikrofon ist bereit.",
+    "notEditable": "Dieser Kurs hat den Status „{status}“; Sie können aufzeichnen, aber das Anhängen des Videos an einen Abschnitt ist nur möglich, wenn der Kurs „Entwurf“ oder „Überarbeitung erforderlich“ ist.",
+    "pause": "Pause",
+    "previewAudioHint": "Klicken Sie auf „Vorschau starten“, um den Ton zu überprüfen.",
+    "previewVideoHint": "Klicken Sie auf „Vorschau starten“, um das Video anzusehen.",
+    "resume": {
+      "action": "Setzen Sie den Upload fort",
+      "discard": "Verwerfen",
+      "note": "Es wurde ein unvollständiger Upload einer vorherigen Aufnahme gefunden ({size}) – Sie können ihn ohne erneute Aufnahme fortsetzen."
+    },
+    "resumeRec": "Aufnahme fortsetzen",
+    "save": {
+      "cancel": "Abbrechen",
+      "close": "Schließen",
+      "helper": "Das Rohvideo wird hochgeladen und an diesen Abschnitt angehängt; Der Inhaltstyp des Abschnitts wird auf „Video“ festgelegt.",
+      "noSections": "Dieser Kurs hat noch keine Abschnitte. Erstellen Sie zunächst einen Abschnitt im Kurseditor und hängen Sie dann das Video daran an.",
+      "submit": "Hochladen und anhängen",
+      "targetLabel": "An Abschnitt anhängen",
+      "title": "Aufgenommenes Video speichern",
+      "uploading": "Sparen...",
+      "willConvert": "(Inhaltstyp wird in Video geändert)"
+    },
+    "saveAsVideo": "Als Kursvideo speichern",
+    "saved": "Video gespeichert und an den Kursabschnitt angehängt.",
+    "source": {
+      "audio": {
+        "hint": "Audioaufnahme ohne Video",
+        "label": "Nur Audio"
+      },
+      "camera": {
+        "hint": "Ihr Video und Audio von der Webcam",
+        "label": "Kamera"
+      },
+      "camera_screen": {
+        "hint": "Bildschirm mit kleinem Kamera-Overlay in der Ecke",
+        "label": "Kamera + Bildschirm"
+      },
+      "screen": {
+        "hint": "Bildschirmfreigabe + Mikrofon-Audio",
+        "label": "Bildschirm"
+      }
+    },
+    "sourceTitle": "Aufnahmequelle",
+    "start": "Starten Sie die Aufnahme",
+    "startPreview": "Vorschau starten",
+    "stats": "Dauer: {d} · Größe: {size}",
+    "stop": "Stoppen Sie die Aufnahme",
+    "title": "Aufnahmestudio",
+    "toast": {
+      "attached": "Video an den Kursabschnitt angehängt.",
+      "attachedDesc": "Sie können es im Kurseditor einsehen."
+    },
+    "unsupported": "Ihr Browser unterstützt keine In-Browser-Aufzeichnung. Bitte verwenden Sie eine aktuelle Version von Chrome oder Edge.",
+    "profile": {
+      "label": "Aufnahmequalität: {preset}",
+      "estimateRate": "Ca. {size} pro Minute",
+      "estimate": "Bisherige Aufnahmegröße: {size}",
+      "unavailable": "Die Einstellungen für die Aufnahmequalität konnten nicht abgerufen werden; unter Verwendung der Standardbrowserqualität."
+    },
+    "limit": {
+      "max": "Maximale Dauer pro Take: {minutes} Minuten",
+      "warn": "Es bleibt weniger als eine Minute bis zum maximalen Aufnahmelimit.",
+      "stopped": "Die Aufzeichnung hat das {minutes}-Minutenlimit erreicht und wurde gestoppt."
+    },
+    "recovery": {
+      "found": "Es wurde eine unvollendete Aufnahme von {when} gefunden ({duration}).",
+      "recover": "Erholen",
+      "recovering": "Wiederherstellung...",
+      "discard": "Verwerfen",
+      "discardTitle": "Unvollendete Aufnahme löschen?",
+      "discardBody": "Diese Aufzeichnung wird nur in diesem Browser gespeichert und kann nach dem Löschen nicht wiederhergestellt werden.",
+      "discardConfirm": "Löschen",
+      "cancel": "Abbrechen",
+      "failed": "Die Aufnahme konnte nicht wiederhergestellt werden.",
+      "lowSpace": "Der Speicherplatz im Browser ist gering; Wenn die Seite unerwartet geschlossen wird, kann ein Teil der Aufzeichnung möglicherweise nicht wiederhergestellt werden.",
+      "stoppedPersisting": "Der Browserspeicher ist voll; Die Aufzeichnung wird fortgesetzt, das Backup kann jedoch nicht mehr gespeichert werden."
+    }
+  },
+  "sectionContent": {
+    "close": "Schließen",
+    "title": "Inhalt von „{title}“"
+  },
+  "settings": {
+    "cert": {
+      "courseTitleFallback": "Kurstitel",
+      "err": {
+        "pass": "Der Schwellenwert für das Bestehen muss eine ganze Zahl zwischen 0 und 100 sein."
+      },
+      "help": {
+        "body": "Wenn ein Student den Kurs abschließt, wird ihm ein „Certificate of Completion“ ausgestellt. Wenn Sie „Benutzerdefinierter Zertifikatstitel“ leer lassen, wird der Standardtitel „{title}“ verwendet. Der „Zertifikatsuntertitel“ (optional) wird in der Zertifikatsbeschreibung angezeigt. Diese Einstellungen wirken sich nur auf das Zertifikat dieses Kurses aus und haben keine Auswirkungen auf zuvor ausgestellte Zertifikate.",
+        "title": "Zertifikatsanpassung"
+      },
+      "passHelper": "Sofern es sich bei der Lehrveranstaltung um Prüfungsabschnitte handelt, wird das Zertifikat erst ab einer Punktzahl, die diesem Schwellenwert entspricht oder darüber liegt, ausgestellt.",
+      "passLabel": "Schwelle zum Bestehen der Kursprüfung (%)",
+      "passPlaceholder": "Leer = 60 (Standard)",
+      "previewLabel": "Vorschau des Zertifikatstitels",
+      "save": "Zertifikateinstellungen speichern",
+      "subtitleLabel": "Untertitel des Zertifikats",
+      "subtitlePlaceholder": "z. B. Wissensmarkt-Spezialkurs",
+      "title": "Abschlusszertifikat (optional)",
+      "titleLabel": "Benutzerdefinierter Zertifikatstitel"
+    },
+    "info": {
+      "delivery": "Versandart",
+      "level": "Ebene",
+      "note": "„Neue Version erstellen“ und „Kurs klonen“ sind in der oberen Leiste des Studios verfügbar (für veröffentlichte Kurse).",
+      "status": "Status",
+      "title": "Kursinformationen",
+      "updated": "Zuletzt bearbeitet",
+      "version": "Aktuelle Version",
+      "versionValue": "Version {n}"
+    },
+    "saving": "Sparen…",
+    "showcase": {
+      "bioLabel": "Biografie",
+      "bioPlaceholder": "Stellen Sie sich den Besuchern der öffentlichen Seite vor…",
+      "headlineLabel": "Überschrift (unter Ihrem Namen)",
+      "headlinePlaceholder": "z. B. Dozent für Programmierung und Datenwissenschaft",
+      "intro": "Diese Informationen werden auf Ihrer öffentlichen „Instructor Showcase“-Seite neben Ihren veröffentlichten Kursen angezeigt und gehören Ihnen, nicht diesem Kurs.",
+      "loading": "Laden…",
+      "save": "Vitrine speichern",
+      "title": "Instruktor-Showcase (öffentlich)"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegramm",
+      "twitter": "Twitter",
+      "website": "Website",
+      "youtube": "YouTube"
+    }
+  },
+  "shell": {
+    "backToStudio": "Zurück zum Studio",
+    "brand": "Wissensstudio",
+    "clone": "Klonkurs",
+    "cloneModal": {
+      "bodyAfter": "Es wird eine Kopie dieses Kurses erstellt (mit dem Titel „{title} (Kopie)“). Die gesamte Kursstruktur und der Inhalt werden in die Kopie kopiert und Sie können sie frei bearbeiten. Käufer des ursprünglichen Kurses bleiben unverändert und der ursprüngliche Kurs bleibt erhalten.",
+      "bodyBefore": "A",
+      "bodyStrong": "Entwurfsexemplar",
+      "busy": "Kopie erstellen...",
+      "helpBody": "„Kurs duplizieren“ erstellt einen völlig unabhängigen neuen Kurs als Entwurf (anders als „Neue Version“: eine neue Version aktualisiert diesen bestehenden Kurs). Es eignet sich zum Erstellen eines ähnlichen Kurses mit einer vorgefertigten Struktur. Die Kopie ist unveröffentlicht und muss wie jeder neue Kurs zur Genehmigung eingereicht und dann veröffentlicht werden.",
+      "helpTitle": "Was bewirkt die Duplizierung von Kursen?",
+      "submit": "Kopie erstellen"
+    },
+    "copilot": "Studio-Copilot",
+    "draft": {
+      "banner": "Bearbeiten „Neue Version“",
+      "bannerVersion": "(Version {n, number})",
+      "body": "Die aktuell veröffentlichte Version bleibt für Käufer aktiv. Ihre Änderungen werden auf diesen Entwurf angewendet und ersetzen die vorherige Version erst nach „Zur Genehmigung einreichen“, Genehmigung durch den Prüfer und „Veröffentlichen“ (aktuelle Käufer erhalten kostenlosen Zugriff auf die neue Version).",
+      "helpBody": "Um einen veröffentlichten Kurs zu aktualisieren, klicken Sie auf „Neue Version erstellen“: Eine Kopie der aktuellen Version wird als „Entwurf“ erstellt, der frei bearbeitet werden kann, während die veröffentlichte Version für aktuelle Käufer aktiv und intakt bleibt. Klicken Sie nach der Bearbeitung auf „Zur Genehmigung einreichen“ und dann (nach Genehmigung durch den Prüfer) auf „Veröffentlichen“, sodass die neue Version die vorherige ersetzt. Aktuelle Käufer erhalten Zugriff auf die neue Version, ohne erneut zu bezahlen. Es ist jeweils nur ein offener Entwurf zulässig.",
+      "helpTitle": "Leitfaden zur neuen Version"
+    },
+    "gradingQueue": "Benotungswarteschlange",
+    "invalidId": "Ungültige Kurs-ID.",
+    "loadErrorTitle": "Der Kurs konnte nicht geladen werden",
+    "lock": {
+      "inReview": "Dieser Kurs wurde zur Überprüfung eingereicht und befindet sich im Status „In Überprüfung“. Die Bearbeitung ist gesperrt, bis die Überprüfung abgeschlossen ist. Wenn nach der Entscheidung des Prüfers Überarbeitungen erforderlich sind, wird es wieder entsperrt.",
+      "other": "Dieser Kurs hat den Status „{status}“ und ist schreibgeschützt. Eine Bearbeitung ist nur möglich, wenn der Kurs „Entwurf“ oder „Überarbeitung erforderlich“ ist.",
+      "published": "Dieser Kurs ist veröffentlicht und für Käufer aktiv; seine Struktur und sein Inhalt sind gesperrt. Um Änderungen vorzunehmen, klicken Sie auf „Neue Version erstellen“, um einen bearbeitbaren Entwurf zu erstellen. (Sie können das Titelbild und den Preis weiterhin aktualisieren.)"
+    },
+    "newVersion": "Neue Version erstellen",
+    "newVersionModal": {
+      "bodyAfter": "der aktuell veröffentlichten Version wird als „Entwurf“ erstellt. Sie können diesen Entwurf frei bearbeiten; Die aktuell veröffentlichte Version bleibt für Käufer aktiv und intakt. Wenn Sie fertig sind, klicken Sie auf „Zur Genehmigung einreichen“ und dann auf „Veröffentlichen“, um die vorherige Version zu ersetzen.",
+      "bodyBefore": "A",
+      "bodyStrong": "kopieren",
+      "busy": "Erstellen..."
+    },
+    "notFound": "Kurs nicht gefunden.",
+    "notReady": "Der Kurs ist noch nicht zur Einreichung bereit; Bitte füllen Sie die folgenden Punkte aus:",
+    "preview": "Vorschau",
+    "publish": "Kurs veröffentlichen",
+    "publishing": "Veröffentlichung...",
+    "recorder": "Aufnahmestudio",
+    "review": {
+      "changes": "Der Rezensent hat Überarbeitungen angefordert – Anmerkung des Rezensenten:",
+      "decidedAt": "Entscheidungsdatum: {date}",
+      "hint": "Korrigieren Sie die Elemente und klicken Sie erneut auf „Zur Genehmigung einreichen“.",
+      "rejected": "Dieser Kurs wurde abgelehnt – Anmerkung des Rezensenten:"
+    },
+    "saveFailed": "Speichern fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "saved": "Gespeichert",
+    "saving": "Sparen...",
+    "submit": "Zur Genehmigung einreichen",
+    "submitModal": {
+      "bodyAfter": "wird sein. Stellen Sie vor dem Einreichen sicher, dass die Kursstruktur und der Inhalt vollständig sind.",
+      "bodyBefore": "Durch die Einreichung zur Genehmigung wird der Kurs an den Knowledge Market-Prüfer (Content Manager) gesendet, bis die Prüfung abgeschlossen ist",
+      "bodyStrong": "Sperre bearbeiten",
+      "busy": "Einreichen…",
+      "missing": "Fehlende Artikel:"
+    },
+    "tabs": {
+      "analytics": "Analytik",
+      "assessments": "Beurteilungen",
+      "content": "Inhalt",
+      "coupons": "Gutscheine",
+      "curriculum": "Lehrplan",
+      "overview": "Übersicht",
+      "pricing": "Preise",
+      "settings": "Einstellungen"
+    },
+    "tabsAria": "Kursstudioabschnitte",
+    "version": "Version {n, number}"
+  },
+  "storage": {
+    "colInstructor": "Lehrer",
+    "colUsage": "Nutzung",
+    "diskFree": "Freier Speicherplatz auf dem Server: {free} (Mindestmenge: {floor})",
+    "diskUnknown": "Der freie Speicherplatz auf dem Server ist derzeit nicht messbar (Fail-Open – Uploads werden nicht blockiert).",
+    "err": {
+      "diskFloor": "Der API-Festplattenspeicher muss eine Ganzzahl und mindestens 1 GB sein.",
+      "globalCap": "Die globale Studioobergrenze muss eine Ganzzahl sein und mindestens 1 GB betragen.",
+      "maxTake": "Die maximale Take-Länge muss eine ganze Zahl sein und mindestens 1 Minute betragen.",
+      "quota": "Das Kontingent pro Kursleiter muss eine ganze Zahl sein und mindestens 1 GB betragen.",
+      "retention": "Der Aufbewahrungszeitraum für Rohdaten muss eine ganze Zahl sein und mindestens 1 Tag betragen."
+    },
+    "error": "Fehler",
+    "field": {
+      "diskFloor": "API-Festplattenboden",
+      "diskFloorHelp": "Wenn der freie Speicherplatz des Servers auf diesen Wert sinkt, werden neue Uploads abgelehnt.",
+      "globalCap": "Globale Obergrenze für Studio",
+      "maxTake": "Maximale Länge pro Take",
+      "preset": "Voreingestellte Standard-Bitrate für die Aufnahme",
+      "presetHelp": "Der Aufnahmeselektor wird in der nächsten Welle hinzugefügt; Dies ist nur die Standardeinstellung des Mieters.",
+      "quota": "Kontingent pro Kursleiter",
+      "retention": "Aufbewahrungsfrist für Rohkost",
+      "retentionHelp": "Nur Policennummer; Die automatische Löschung wird in der nächsten Welle aktiviert."
+    },
+    "gb": "{v} GB",
+    "globalUsage": "Globale Nutzung von Studio",
+    "help": {
+      "body": "„Pro-Lehrer-Quote“ und „Globale Obergrenze“ blockieren jetzt Uploads im Studio, wenn sie erfüllt sind. „API Disk Floor“ gewährleistet minimalen freien Speicherplatz auf dem Server, bevor ein neuer Upload akzeptiert wird. „Raw Take Retention Period“ ist eine Richtliniennummer – ein automatischer Lösch-Cronjob wird in der nächsten Welle erstellt (abhängig vom Take-Modell); Bis dahin findet keine automatische Löschung statt und die EDL/Endausgabe wird nie automatisch gelöscht.",
+      "title": "Studio-Speicherhandbuch"
+    },
+    "keepForever": "Löschen Sie EDL und endgültige Ausgabe niemals automatisch",
+    "lead": "Kursleiterkontingente, globale Obergrenze, Rohdatenaufbewahrung und Speicherplatzbelegung auf dem Server.",
+    "loadFailed": "Die Einstellungen konnten nicht geladen werden",
+    "marketAdmin": "Marktmanagement",
+    "perInstructor": "Pro Lehrernutzung",
+    "policy": "Speicherrichtlinie",
+    "preset": {
+      "balanced": "Ausgewogen",
+      "high_quality": "Hohe Qualität",
+      "slow_internet": "Langsames Internet"
+    },
+    "save": "Einstellungen speichern",
+    "savedOk": "Gespeichert.",
+    "saving": "Sparen...",
+    "title": "Studiospeicher",
+    "unit": {
+      "day": "Tag",
+      "gb": "GB",
+      "minute": "Minute"
+    },
+    "usageOf": "{used} von {cap}"
+  },
+  "studioFlow": {
+    "ariaLabel": "Schritte zur Kurserstellung",
+    "steps": {
+      "info": "Informationen",
+      "record": "Aufnahme",
+      "edit": "Bearbeiten",
+      "publish": "Veröffentlichen"
+    },
+    "sub": {
+      "info": "Titel, Beschreibung, Bild und Preis",
+      "record": "Nehmen Sie Video und Audio auf oder laden Sie sie hoch",
+      "edit": "Trimmen und arrangieren Sie Takes",
+      "publish": "Bereitschaft prüfen und absenden"
+    },
+    "state": {
+      "done": "Fertig",
+      "current": "Aktueller Schritt",
+      "upcoming": "Nächster Schritt",
+      "blocked": "Noch nicht fertig"
+    },
+    "optional": "Optional",
+    "compact": "Schritt {current} von {total}: {label}",
+    "counts": {
+      "record": "{sections}-Medienabschnitt · {takes}-Aufnahmen",
+      "edit": "{projects} Bearbeitungsprojekt",
+      "publish": "{ok} von {total} erforderliche Elemente"
+    },
+    "reason": {
+      "publishBlocked": "Vervollständigen Sie vor der Veröffentlichung die erforderlichen Vorbereitungselemente.",
+      "newCourse": "Speichern Sie zunächst die grundlegenden Kursinformationen."
+    },
+    "phase": {
+      "not_ready": "Unvollständig",
+      "ready": "Bereit zur Einreichung",
+      "in_review": "Ausstehende Überprüfung",
+      "needs_changes": "Muss überarbeitet werden",
+      "approved": "Genehmigt",
+      "published": "Veröffentlicht",
+      "rejected": "Abgelehnt",
+      "suspended": "Suspendiert",
+      "archived": "Archiviert"
+    },
+    "loading": "Ladephasen...",
+    "error": "Der Phasenstatus konnte nicht geladen werden.",
+    "retry": "Versuchen Sie es noch einmal"
+  },
+  "saveChip": {
+    "saved": "Gespeichert",
+    "savedAt": "Gespeichert · {when}",
+    "saving": "Sparen...",
+    "savingPct": "Speichern... {pct}",
+    "offline": "Offline – in der Warteschlange",
+    "error": "Nicht gespeichert",
+    "retry": "Versuchen Sie es noch einmal"
+  },
+  "studioTakes": {
+    "title": "Aufnahme dauert",
+    "toggle": "Takes ein-/ausblenden",
+    "empty": "Für diesen Kurs wurden noch keine Takes erfasst.",
+    "loading": "Das Laden dauert...",
+    "error": "Die Liste der Takes konnte nicht geladen werden.",
+    "retry": "Versuchen Sie es noch einmal",
+    "source": {
+      "camera": "Kamera",
+      "screen": "Bildschirm",
+      "camera_screen": "Kamera und Bildschirm",
+      "audio": "Nur Audio"
+    },
+    "preset": {
+      "slow": "Geringe Größe",
+      "balanced": "Ausgewogen",
+      "high": "Hohe Qualität"
+    },
+    "recovered": "Wiederhergestellt",
+    "used": "Wird im Abschnitt {n} verwendet",
+    "purgeOn": "Automatisches Löschen der Rohdatei: {date}",
+    "purged": "Rohdatei gemäß Aufbewahrungsrichtlinie gelöscht ({date})",
+    "assetDeleted": "Die Datei für diesen Take wurde gelöscht",
+    "registerFailed": "Die Datei wurde gespeichert, konnte aber nicht in der Take-Liste registriert werden.",
+    "registerRetry": "Registrieren Sie sich erneut",
+    "sectionLabel": "Kursabschnitt für diesen Take",
+    "attach": "Im Abschnitt platzieren",
+    "attaching": "Platzierung...",
+    "attached": "Nehmen Sie es in den ausgewählten Abschnitt ein."
+  },
+  "tags": {
+    "count": "({selected} von {max})",
+    "empty": "Noch keine Tags definiert (Abschnitt „Marktmanagement“).",
+    "intro": "Mithilfe von Tags können Benutzer den Kurs in der Marktplatz-Präsentation entdecken und die Empfehlungen für „Ähnliche Kurse“ unterstützen. Das Tag-Vokabular wird vom Marktmanager definiert.",
+    "loading": "Laden...",
+    "save": "Tags speichern",
+    "title": "Kurs-Tags"
+  },
+  "wizard": {
+    "back": "Wissensstudio",
+    "busy": "Bitte warten…",
+    "createAndNext": "Entwurf erstellen und fortfahren",
+    "errors": {
+      "moduleTitleShort": "Der Modultitel muss mindestens 2 Zeichen lang sein.",
+      "titleRequired": "„Kurstitel“ ist erforderlich (mindestens 2 Zeichen)."
+    },
+    "eyebrow": "Wissensmarkt",
+    "lead": "Gehen Sie Schritt für Schritt vor; Sie können den Kurs jederzeit verlassen – der Kurs wird als „Entwurf“ gespeichert und kann im „Knowledge Studio“ fortgesetzt werden.",
+    "next": "Nächster Schritt",
+    "prev": "Vorheriger Schritt",
+    "s1": {
+      "delivery": "Versandart",
+      "heading": "1 · Einzelheiten zum Grundkurs",
+      "language": "Sprache",
+      "level": "Ebene",
+      "summary": "Kurze Zusammenfassung",
+      "summaryPlaceholder": "Beschreiben Sie in ein oder zwei Sätzen, was dieser Kurs lehrt.",
+      "title": "Kurstitel",
+      "titlePlaceholder": "z. B. Grundlagen des maschinellen Lernens"
+    },
+    "s2": {
+      "add": "Hinzufügen",
+      "empty": "Es wurden noch keine Module hinzugefügt.",
+      "generate": "✨ Module generieren (AI-Entwurf)",
+      "heading": "2 · Erster Lehrplan",
+      "lead": "Bauen Sie das Grundgerüst des Kurses auf: Sie können KI verwenden, um einen vollständigen Entwurf (Modul ← Lektion ← Abschnitt) zu erstellen und ihn vor der Bewerbung zu überprüfen, oder Modultitel vorerst manuell hinzufügen. Dieser Schritt ist optional und kann auch später im Reiter „Module“ durchgeführt werden.",
+      "lessonCount": "({count, plural, one {# lesson} other {# lessons}})",
+      "manualLabel": "Modul manuell hinzufügen",
+      "manualPlaceholder": "z. B. Einführung und Voraussetzungen"
+    },
+    "s3": {
+      "assessBody": "Auf der Registerkarte „Bewertungen“ können Sie Übungen und Tests für den Kurs erstellen (14 Fragetypen, Fragenbank, zeitgesteuerte Prüfungen) und diese mit dem gesamten Kurs, einem Modul oder einer Lektion verbinden – verwenden Sie den Modus „Übung“ für kostenlose Wiederholungen oder den Modus „Erforderlich“ als Fortschrittsbedingung für Käufer.",
+      "assessTitle": "Praxis und Beurteilungen",
+      "goAssessments": "Gehen Sie zur Registerkarte „Bewertungen“.",
+      "goContent": "Gehen Sie zur Registerkarte „Inhalt“.",
+      "heading": "3 · Abschnittsinhalt",
+      "lead": "Der Inhalt für jeden Abschnitt (Video, Folie, Dokument, Audio, interaktive H5P-Inhalte, Text, Link oder Quiz) wird auf der Registerkarte „Inhalt“ des Kursstudios hochgeladen; Dort sehen Sie die Liste aller Abschnitte mit dem Status „Hat Inhalt / Kein Inhalt“ und können diese nacheinander abschließen. Für die Videoaufzeichnung steht außerdem das browserbasierte „Recording Studio“ zur Verfügung (Kamera, Bildschirm oder beides).",
+      "note": "Sie können diesen Schritt überspringen und den Inhalt später vervollständigen – der Kurs wird erst veröffentlicht, wenn Sie auf „Zur Überprüfung einreichen“ klicken.",
+      "recorder": "Aufnahmestudio"
+    },
+    "s4": {
+      "heading": "4 · Preise",
+      "lead": "Wählen Sie, ob der Kurs „kostenlos“ oder „einmaliger Kauf“ ist. Sie können den Preis später ändern; Der von jedem Käufer gezahlte Betrag wird zum Zeitpunkt des Kaufs gesperrt."
+    },
+    "s5": {
+      "goStudio": "Gehen Sie zum Kursstudio",
+      "heading": "5 · Checkliste für die Veröffentlichung",
+      "lead": "„Erforderliche“ Elemente müssen vor „Zur Überprüfung einreichen“ abgeschlossen sein; „Empfohlene“ Elemente verbessern die Qualität der Kursseite. Jeder Punkt kann im Kursstudio erledigt werden.",
+      "loading": "Checkliste wird abgerufen…",
+      "ready": "Der Kurs ist zur Einreichung bereit – reichen Sie ihn über die obere Studioleiste ein."
+    },
+    "steps": {
+      "basics": "Grundlegende Informationen",
+      "content": "Inhalt",
+      "outline": "Gliederung",
+      "pricing": "Preise",
+      "readiness": "Checkliste für Veröffentlichungen"
+    },
+    "stepsAria": "Schritte zur Kurserstellung",
+    "title": "Neuen Kurs erstellen"
+  }
+}

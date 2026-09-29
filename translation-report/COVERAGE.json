@@ -1,407 +1,407 @@
 {
-  "total_source_keys": 12979,
+  "total_source_keys": 12685,
   "total_target_languages": 50,
   "catalogs_count": 32,
   "locales": {
     "fa": {
-      "existing_preserved": 12979,
-      "newly_translated": 0,
+      "name": "فارسی (منبع)",
+      "existing_preserved": 12685,
       "missing": 0,
       "completed_catalogs": 32,
       "total_catalogs": 32,
       "coverage_pct": 100.0
     },
     "en": {
-      "existing_preserved": 11567,
-      "newly_translated": 1412,
+      "name": "انگلیسی (English)",
+      "existing_preserved": 12685,
       "missing": 0,
       "completed_catalogs": 32,
       "total_catalogs": 32,
       "coverage_pct": 100.0
     },
     "ar": {
-      "existing_preserved": 12979,
-      "newly_translated": 0,
+      "name": "عربی (العربية)",
+      "existing_preserved": 12685,
       "missing": 0,
       "completed_catalogs": 32,
       "total_catalogs": 32,
       "coverage_pct": 100.0
     },
     "zh-Hans": {
-      "existing_preserved": 11567,
-      "newly_translated": 321,
-      "missing": 1091,
-      "completed_catalogs": 31,
+      "name": "چینی ساده‌شده (简体中文)",
+      "existing_preserved": 12685,
+      "missing": 0,
+      "completed_catalogs": 32,
       "total_catalogs": 32,
-      "coverage_pct": 91.59
+      "coverage_pct": 100.0
     },
     "es": {
-      "existing_preserved": 11567,
-      "newly_translated": 321,
-      "missing": 1091,
-      "completed_catalogs": 31,
+      "name": "اسپانیایی (Español)",
+      "existing_preserved": 12685,
+      "missing": 0,
+      "completed_catalogs": 32,
       "total_catalogs": 32,
-      "coverage_pct": 91.59
+      "coverage_pct": 100.0
     },
     "fr": {
-      "existing_preserved": 2854,
-      "newly_translated": 321,
-      "missing": 9804,
-      "completed_catalogs": 19,
+      "name": "فرانسوی (Français)",
+      "existing_preserved": 12685,
+      "missing": 0,
+      "completed_catalogs": 32,
       "total_catalogs": 32,
-      "coverage_pct": 24.46
+      "coverage_pct": 100.0
     },
     "de": {
-      "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
-      "completed_catalogs": 2,
+      "name": "آلمانی (Deutsch)",
+      "existing_preserved": 12685,
+      "missing": 0,
+      "completed_catalogs": 32,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 100.0
     },
     "ru": {
-      "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
-      "completed_catalogs": 2,
+      "name": "روسی (Русский)",
+      "existing_preserved": 12685,
+      "missing": 0,
+      "completed_catalogs": 32,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 100.0
     },
     "pt": {
+      "name": "پرتغالی (Português)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "hi": {
+      "name": "هندی (हिन्दी)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ur": {
+      "name": "اردو (اردو)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "bn": {
+      "name": "بنگالی (বাংলা)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ja": {
+      "name": "ژاپنی (日本語)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ko": {
+      "name": "کره‌ای (한국어)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "tr": {
+      "name": "ترکی (Türkçe)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "it": {
+      "name": "ایتالیایی (Italiano)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "nl": {
+      "name": "هلندی (Nederlands)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "id": {
+      "name": "اندونزیایی (Bahasa Indonesia)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ms": {
+      "name": "مالایی (Bahasa Melayu)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "th": {
+      "name": "تایلندی (ไทย)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "vi": {
+      "name": "ویتنامی (Tiếng Việt)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "fil": {
+      "name": "فیلیپینی (Filipino)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "pa-Guru": {
+      "name": "پنجابی گورموخی (ਪੰਜਾਬੀ)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "te": {
+      "name": "تلوگو (తెలుగు)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ta": {
+      "name": "تامیلی (தமிழ்)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "mr": {
+      "name": "مراتی (मराठी)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "gu": {
+      "name": "گجراتی (ગુજરાતી)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "kn": {
+      "name": "کانادا (ಕನ್ನಡ)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ml": {
+      "name": "مالایالام (മലയാളം)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ne": {
+      "name": "نپالی (नेपाली)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "si": {
+      "name": "سینهالی (සිංහල)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "my": {
+      "name": "برمه‌ای (မြန်မာ)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "km": {
+      "name": "خمری (ខ្មែរ)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "lo": {
+      "name": "لائو (ລາວ)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "mn-Cyrl": {
+      "name": "مغولی سیریلیک (Монгол)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ug": {
+      "name": "اویغوری (ئۇيغۇرچە)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "kk": {
+      "name": "قزاقی (Қазақша)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "uz-Latn": {
+      "name": "ازبکی لاتین (Oʻzbekcha)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "tg": {
+      "name": "تاجیکی (Тоҷикӣ)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ps": {
+      "name": "پشتو (پښتو)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ckb": {
+      "name": "کردی سورانی (کوردی سۆرانی)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "hy": {
+      "name": "ارمنی (Հայերեն)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ka": {
+      "name": "گرجی (ქართული)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "he": {
+      "name": "عبری (עבריت)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "el": {
+      "name": "یونانی (Ελληνικά)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "ro": {
+      "name": "رومانیایی (Română)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "pl": {
+      "name": "لهستانی (Polski)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "uk": {
+      "name": "اوکراینی (Українська)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "mk": {
+      "name": "مقدونی (Македонски)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     },
     "sw": {
+      "name": "سواحیلی (Kiswahili)",
       "existing_preserved": 101,
-      "newly_translated": 0,
-      "missing": 12197,
+      "missing": 12584,
       "completed_catalogs": 2,
       "total_catalogs": 32,
-      "coverage_pct": 0.78
+      "coverage_pct": 0.8
     }
   }
 }

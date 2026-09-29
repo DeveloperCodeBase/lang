@@ -1,0 +1,1477 @@
+{
+  "analytics": {
+    "anonymous": "Benutzer",
+    "attendance": {
+      "absentChip": "✗ Fehlt {count, number}",
+      "absentLabel": "Abwesend",
+      "avatarFallback": "?",
+      "duration": "Dauer: {value}",
+      "empty": "Es wurde noch keine Anwesenheit registriert. Wenn Teilnehmer beitreten, werden sie hier angezeigt.",
+      "excusedChip": "Entschuldigt {count, number}",
+      "excusedLabel": "Entschuldigt",
+      "finalized": "Abgeschlossen",
+      "inClass": "Im Unterricht",
+      "joinedAt": "Beigetreten: {time}",
+      "lateChip": "⏰ Spätes {count, number}",
+      "lateLabel": "Spät",
+      "left": "Links",
+      "loading": "Anwesenheit wird geladen…",
+      "neverOpened": "Diese Sitzung fand nicht statt (keine Anwesenheit registriert).",
+      "presentChip": "✓ Präsentieren Sie {count, number}",
+      "presentLabel": "Anwesend",
+      "provisional": "Vorläufig (bis zum Ende des Unterrichts)",
+      "refreshNote": "{count, number} Personen · Aktualisierungen alle {seconds, number} Sekunden",
+      "stillPresent": "(Derzeit anwesend)",
+      "title": "Anwesenheitsliste"
+    },
+    "duration": {
+      "hours": "{count, number} Stunden",
+      "hoursMinutes": "{hours, number} Stunden und {minutes, number} Minuten",
+      "lessThanMinute": "Weniger als 1 Minute",
+      "minutes": "{count, number} Minuten"
+    },
+    "error": {
+      "attendance": "Anwesenheitsliste konnte nicht abgerufen werden. Dieser Abschnitt steht nur dem Gastgeber zur Verfügung."
+    },
+    "participation": {
+      "aria": "Mikrofon offen {on, number} von {total, number}",
+      "empty": "Noch ist niemand in der Klasse.",
+      "muted": "Stummgeschaltet: {count, number}",
+      "on": "Offen: {count, number} ({pct, number}%)",
+      "title": "Audio-Teilnahme"
+    },
+    "poll": {
+      "active": "Eine Umfrage ist derzeit aktiv",
+      "idle": "Keine aktiven Umfragen"
+    },
+    "stat": {
+      "chat": "Chat-Nachrichten",
+      "hands": "Hände erhoben",
+      "micOn": "Offene Mikrofone",
+      "present": "Derzeit vorhanden"
+    }
+  },
+  "assistant": {
+    "chip": {
+      "example": "Geben Sie ein Beispiel",
+      "practice": "Erstellen Sie eine Übungsfrage",
+      "quiz": "Entwerfen Sie ein kurzes Quiz mit Antworten",
+      "summarize": "Fassen Sie dieses Thema zusammen"
+    },
+    "error": {
+      "createSession": "Assistentenkonversation konnte nicht erstellt werden."
+    },
+    "hostMode": "Lehrermodus – Fragen und Übungsdesign",
+    "inputLabel": "Fragen Sie Smart Assistant",
+    "intro": "Fragen Sie nach dem Unterrichtsthema – Antworten stammen aus Kursmaterialien (RAG).",
+    "introHost": "Als Dozent können Sie auch Übungen und Tests erstellen.",
+    "label": "Intelligenter Assistent",
+    "noAnswer": "Keine Antwort erhalten. Bitte fragen Sie noch einmal.",
+    "placeholder": "Geben Sie Ihre Frage ein ...",
+    "questionCount": "{count, number}-Fragen",
+    "send": "Frage senden",
+    "sendShort": "Senden",
+    "sessionTitle": "Live-Kurs – {name}",
+    "source": "Quelle",
+    "sources": "Quellen ({count, number})",
+    "title": "Klasse Smart Assistant",
+    "typing": "Antwort schreiben…"
+  },
+  "atoms": {
+    "captions": {
+      "etaTradeoff": "Wenn η zu groß ist, divergiert die Kostenfunktion; wenn es zu klein ist, ist die Konvergenz langsam.",
+      "fasterNoisier": "Dies führt dazu, dass Aktualisierungen schneller, aber schwankender sind.",
+      "lrAnswer": "Gute Frage. Wir kombinieren es normalerweise mit einem Learning Rate Scheduler oder Adam.",
+      "lrQuestion": "Professor, wie wird die optimale Lernrate für SGD ausgewählt?",
+      "sgdStep": "Der stochastische Gradientenabstieg verwendet nur eine Stichprobe pro Schritt, um den Gradienten zu berechnen."
+    },
+    "chat": {
+      "seed": {
+        "answer": "Klar. Angenommen, θ = 0,8, Gradient = 2,4 und η = 0,1. Dann:",
+        "answerTime": "14:25",
+        "ask": "Können Sie ein numerisches Beispiel für Gewichtsaktualisierungen in SGD geben?",
+        "askTime": "14:25",
+        "greeting": "Hallo 👋 Ich bin der smarte Assistent für diese Sitzung. Ich kann Echtzeitzusammenfassungen bereitstellen, Konzepte vereinfachen oder zusätzliche Übungsübungen vorschlagen.",
+        "greetingTime": "14:23"
+      }
+    },
+    "people": {
+      "ali": {
+        "init": "A",
+        "name": "Ali R."
+      },
+      "arman": {
+        "init": "A",
+        "name": "Arman B."
+      },
+      "azimi": {
+        "init": "DA",
+        "name": "Azimi"
+      },
+      "hanieh": {
+        "init": "H",
+        "name": "Hanieh F."
+      },
+      "mohsen": {
+        "init": "M",
+        "name": "Mohsen H."
+      },
+      "neda": {
+        "init": "N",
+        "name": "Neda Kazemi"
+      },
+      "nima": {
+        "init": "N",
+        "name": "Nima J."
+      },
+      "sara": {
+        "init": "S",
+        "name": "Sara M."
+      },
+      "zahra": {
+        "init": "Z",
+        "name": "Zahra K."
+      }
+    },
+    "poll": {
+      "options": {
+        "adamWeighted": "Adam mit Klassengewichtung",
+        "rmspropWarmup": "RMSprop mit Aufwärmen",
+        "sgdMomentum": "Standard-SGD mit Momentum"
+      },
+      "question": "Welche Optimierungsmethode eignet sich am besten zum Training tiefer Netzwerke auf unausgeglichenen Daten?"
+    },
+    "qa": {
+      "q1": {
+        "text": "Wenn die Kostenfunktion nicht konvex ist, konvergiert SGD zu einem globalen Minimum?",
+        "time": "Vor 2 Minuten"
+      },
+      "q2": {
+        "text": "Was ist der praktische Unterschied zwischen Momentum und Adam?",
+        "time": "Vor 5 Minuten"
+      },
+      "q3": {
+        "text": "Welche Mini-Batch-Größe wird für ResNet-50 empfohlen?",
+        "time": "Vor 8 Minuten"
+      },
+      "q4": {
+        "text": "Welche Einstellungen sollten auf SGD für unausgeglichene Datensätze angewendet werden?",
+        "time": "Vor 12 Minuten"
+      },
+      "tags": {
+        "adaptive": "Adaptiv",
+        "highlight": "Hervorheben",
+        "practical": "Praktisch"
+      }
+    },
+    "slides": {
+      "compare": {
+        "body": "Mini-Batch stellt ein Gleichgewicht zwischen Chargenstabilität und SGD-Geschwindigkeit her. Typische Größe: 32 bis 256."
+      },
+      "noise": {
+        "body": "Zufällige Schwankungen ermöglichen es dem Algorithmus, lokalen Minima zu entgehen und auf nicht konvexen Oberflächen eine bessere Leistung zu erzielen.",
+        "title": "Warum Lärm nützlich ist"
+      },
+      "sgd": {
+        "body": "In jedem Schritt werden die Gewichte mit einer einzelnen Zufallsdatenstichprobe aktualisiert. Schneller als Batch GD, aber mit mehr Oszillation entlang des Konvergenzpfads.",
+        "title": "Stochastischer Gradientenabstieg"
+      }
+    },
+    "suggestions": {
+      "exercise": "Generieren Sie eine ähnliche Übung",
+      "resources": "Zusätzliche Ressourcen",
+      "simpler": "Erklären Sie es einfacher",
+      "summary": "Zusammenfassung der letzten 2 Minuten"
+    },
+    "tabs": {
+      "assistant": "Assistent",
+      "captions": "Bildunterschriften",
+      "poll": "Umfrage",
+      "questions": "Fragen"
+    },
+    "timeline": {
+      "r1": {
+        "label": "Rückblick auf die vorherige Sitzung",
+        "time": "14:02"
+      },
+      "r2": {
+        "label": "Konzept des Gradientenabstiegs",
+        "time": "14:08"
+      },
+      "r3": {
+        "label": "Batch-Version",
+        "time": "14:16"
+      },
+      "r4": {
+        "label": "Stochastischer Gradientenabstieg",
+        "time": "14:22"
+      },
+      "r5": {
+        "label": "Momentum und Adam",
+        "time": "14:35"
+      },
+      "r6": {
+        "label": "Interaktive Übung + Fragen und Antworten",
+        "time": "14:45"
+      }
+    },
+    "transcript": {
+      "live": {
+        "momentum": "Wenn wir das Lernen unter Berücksichtigung früherer Werte aktualisieren, nennt man das Momentum.",
+        "nesterovAnswer": "Nesterov sagt zunächst die nächste Position voraus und berechnet dort den Gradienten.",
+        "nesterovQuestion": "Wie unterscheidet sich das von Nesterov?",
+        "pytorchQuestion": "Kann diese Idee in PyTorch umgesetzt werden?"
+      },
+      "seed": {
+        "r1": {
+          "text": "Beim stochastischen Gradientenabstieg wird bei jedem Schritt nur eine Probe zur Berechnung des Gradienten verwendet.",
+          "time": "14:20"
+        },
+        "r2": {
+          "text": "Dies erhöht die Rechengeschwindigkeit und verringert den Speicherverbrauch.",
+          "time": "14:21"
+        },
+        "r3": {
+          "highlight": "Optimale Lernrate",
+          "text": "Herr Professor, wie wird die optimale Lernrate gewählt?",
+          "time": "14:22"
+        },
+        "r4": {
+          "text": "Normalerweise kombinieren wir es mit einem Learning Rate Scheduler oder adaptiven Algorithmen wie Adam.",
+          "time": "14:22"
+        },
+        "r5": {
+          "text": "Was ist der genaue Hauptunterschied zwischen SGD und Mini-Batch?",
+          "time": "14:23"
+        },
+        "r6": {
+          "text": "Chargengröße. Im Mini-Batch nehmen wir zwischen 32 und 256 Proben, um ein besseres Gleichgewicht zwischen Stabilität und Geschwindigkeit zu erreichen.",
+          "time": "14:23"
+        }
+      }
+    }
+  },
+  "breakout": {
+    "anonymous": "Benutzer",
+    "decrease": "Räume verkleinern",
+    "duration": "Dauer: {count, number} Minuten",
+    "durationLabel": "Dauer (Minuten)",
+    "empty": "Leer",
+    "end": "Ende",
+    "increase": "Platz hinzufügen",
+    "manualLabel": "Manuelle Zuweisung",
+    "maxRooms": "Maximal {count, number} Räume",
+    "memberCount": "{count, number} Leute",
+    "mode": {
+      "auto": "Automatisch",
+      "manual": "Handbuch",
+      "random": "Zufällig"
+    },
+    "modeLabel": "Zuweisungsmethode",
+    "moved": "Sie wurden in diesen Raum verschoben",
+    "noParticipants": "Noch keine Teilnehmer im Unterricht. Sie können sie zuweisen, sobald andere beitreten.",
+    "noneOpen": "Keine aktiven Breakout-Räume. Wenn Räume vom Gastgeber geöffnet werden, erscheint Ihr Raum hier.",
+    "open": "Offene Räume",
+    "phaseNote": "Zu diesem Zeitpunkt sind die Teilnehmerzuordnung und der Chat/Notizen pro Raum aktiv. Separate Audio- und Videofunktionen pro Raum erfordern eine Medieninfrastruktur (SFU, Stufe 3) und liegen derzeit nicht in diesem Abschnitt.",
+    "preview": "Die {people, number}-Teilnehmer werden auf {rooms, number} Räume verteilt (ca. {per, number} Personen pro Raum).",
+    "roomCountLabel": "Anzahl der Zimmer",
+    "roomFor": "Platz für {name}",
+    "roomName": "Raum {index, number}",
+    "title": "Breakout-Räume",
+    "unassigned": "Ihnen wurde noch kein Raum zugewiesen. Bitte warten Sie auf den Gastgeber.",
+    "you": "Du"
+  },
+  "chat": {
+    "anonymousAuthor": "Benutzer",
+    "channels": {
+      "class": "Klasse",
+      "staff": "Mitarbeiter",
+      "table": "Tisch"
+    },
+    "empty": "Noch keine Nachrichten gesendet.",
+    "note": {
+      "class": "Über den Klassenkanal werden Nachrichten live mit allen Teilnehmern geteilt.",
+      "locked": "Der Chat wurde vom Host gesperrt. Nur der Host kann Nachrichten senden.",
+      "staff": "Dieser Kanal ist nur für den Dozenten und die Lehrassistenten sichtbar; Schüler können es nicht sehen.",
+      "table": "Dieses Gespräch ist nur für Tischnachbarn und Kursleiter sichtbar."
+    },
+    "placeholder": "Geben Sie eine Nachricht ein…",
+    "placeholderLocked": "Chat ist gesperrt…",
+    "rejected": {
+      "channel": "Dieser Kanal steht Ihnen nicht zur Verfügung – Ihre Nachricht wurde nicht gesendet.",
+      "locked": "Der Chat ist gesperrt – Ihre Nachricht wurde nicht gesendet."
+    },
+    "send": "Nachricht senden",
+    "tableTarget": "An den Tisch senden",
+    "unread": "{count, plural, one {#} other {#}}"
+  },
+  "classes": {
+    "card": {
+      "attendees": "{value, number}-Teilnehmer",
+      "cancelled": "Diese Sitzung wurde abgesagt.",
+      "joinDirect": "Direkteinstieg",
+      "joinLobby": "Betreten Sie die Lobby",
+      "newTab": "In neuem Tab öffnen",
+      "report": "Sitzungsbericht",
+      "reportTitle": "Vollständiger Bericht für diese Sitzung"
+    },
+    "emptyAll": "Keine Sitzungen entsprechen Ihrer Suche.",
+    "emptyHint": "Es ist nicht möglich, dass eine Person dies nicht tut.",
+    "emptySearch": "Es ist nicht einfach, mehr als einen Tag zu verbringen.",
+    "errLoad": "Es ist nicht einfach, etwas zu tun",
+    "eyebrow": "Das ist nicht der Fall",
+    "filter": {
+      "all": "Alle",
+      "ended": "Beendet",
+      "live": "Lebe jetzt",
+      "scheduled": "Geplant"
+    },
+    "filterAria": "Filtern Sie Live-Sitzungen",
+    "form": {
+      "applySlot": "اعمال این زمان",
+      "cancel": "Abbrechen",
+      "close": "Schließen",
+      "course": "Zugehöriger Kurs",
+      "coursePick": "— Kurs auswählen —",
+      "courseSearch": "Kurs suchen (Code oder Name)…",
+      "courseSearchAria": "Kurs suchen",
+      "coursesError": "Kursliste ist nicht verfügbar; Bitte versuchen Sie es später noch einmal.",
+      "coursesLoading": "Kurse werden geladen…",
+      "date": "Datum",
+      "dateAria": "Sitzungsdatum",
+      "datePlaceholder": "Sitzungsdatum auswählen",
+      "desc": "Beschreibung (optional)",
+      "descPlaceholder": "Themen oder Hauptnotizen für diese Sitzung…",
+      "end": "Endzeit",
+      "errCourse": "Bitte wählen Sie einen zugehörigen Kurs aus.",
+      "errCreate": "Es konnte keine neue Sitzung erstellt werden. Bitte versuchen Sie es erneut.",
+      "errDate": "Bitte wählen Sie einen Sitzungstermin aus.",
+      "errTime": "Bitte geben Sie gültige Start- und Endzeiten ein.",
+      "errTitle": "Bitte geben Sie einen Sitzungstitel ein.",
+      "policy": "Zulassungsbedingungen",
+      "section": "Abschnitt/Klasse (optional)",
+      "sectionAll": "— Gesamter Kurs (kein spezifischer Abschnitt) —",
+      "sectionOption": "Abschnitt {group, number}",
+      "start": "Startzeit",
+      "submit": "Sitzung planen",
+      "submitting": "Terminplanung…",
+      "title": "Planen Sie eine Live-Kurssitzung",
+      "titleLabel": "Sitzungstitel",
+      "titlePlaceholder": "z. B. Kapitel 3 Problemlösung"
+    },
+    "group": {
+      "live": "Lebe jetzt",
+      "liveEmpty": "Derzeit sind keine Sitzungen live.",
+      "past": "Vergangenheit",
+      "pastEmpty": "Es wurden keine vergangenen Sitzungen aufgezeichnet.",
+      "upcoming": "Demnächst",
+      "upcomingEmpty": "Keine bevorstehenden Sitzungen geplant."
+    },
+    "help": {
+      "body": "Auf dieser Seite können Sie Live-Kurse in den Kategorien „Jetzt live“, „Kommend“ und „Vergangen“ sehen. Klicken Sie auf „Lobby betreten“, um Ihre Kamera und Ihr Mikrofon vor dem Betreten zu testen. Wenn eine Sitzung gerade live ist, klicken Sie auf „Direkteintritt“, um sofort beizutreten. Dozenten und Administratoren können mit „Neue Sitzung“ einen neuen Live-Kurs planen.",
+      "title": "Leitfaden für Live-Kurse"
+    },
+    "kpi": {
+      "live": "Lebe jetzt",
+      "total": "Gesamtzahl der Sitzungen",
+      "upcoming": "Demnächst"
+    },
+    "lead": "Sehen Sie sich hier Live-, kommende und vergangene Sitzungen an. Betreten Sie die Lobby, um Ihre Kamera und Ihr Mikrofon zu testen, oder nehmen Sie – wenn es sich um eine Live-Sitzung handelt – direkt am Kurs teil.",
+    "loading": "Sitzungen werden geladen…",
+    "new": "Neue Sitzung",
+    "noCourse": "Kein zugehöriger Kurs",
+    "policy": {
+      "enrolled": "Nur eingeschriebene Studierende",
+      "invite": "Nur auf Einladung",
+      "public": "Offen für alle (Öffentlich)"
+    },
+    "schedule": {
+      "at": "{date} · {clock}",
+      "unknown": "Zeit nicht angegeben"
+    },
+    "searchAria": "Suchsitzungen",
+    "searchPlaceholder": "Suche nach Titel, Kurs oder Dozent…",
+    "status": {
+      "cancelled": "Abgesagt",
+      "ended": "Beendet",
+      "live": "Lebe jetzt",
+      "scheduled": "Geplant"
+    },
+    "title": "Live-Kurse"
+  },
+  "guide": {
+    "button": "Leitfaden",
+    "lobby": {
+      "chain": {
+        "check": "Hier testen Sie Ihren Namen, Ihre Kamera und Ihr Mikrofon und absolvieren die Bereitschaftscheckliste.",
+        "enter": "Zur Unterrichtszeit gelangen Sie von dort aus in diesen Vorraum.",
+        "join": "Sobald Sie den Kurs betreten, werden Sie in den Live-Raum gebracht. Der Leitfaden fährt dort fort.",
+        "schedule": "Der Live-Kurs ist im Lehrplan geplant und erscheint unter „Meine Kurse“."
+      },
+      "ifEmpty": "Wenn der Unterricht noch nicht begonnen hat, warten Sie auf den Gastgeber. Aktualisierungen des Verbindungsstatus finden Sie auf derselben Seite.",
+      "intro": "Willkommen im Vorraum für den Live-Kurs. Hier überprüfen Sie vor dem Betreten Ton, Bild und Verbindung.",
+      "roles": {
+        "host": {
+          "does": "Betritt den Raum, begrüßt die Schüler und beginnt den Unterricht.",
+          "label": "Gastgeber (Dozent)"
+        },
+        "student": {
+          "does": "Testet Kamera/Mikrofon, prüft die Bereitschaft und betritt die Klasse.",
+          "label": "Du (Student)"
+        },
+        "support": {
+          "does": "Wenn Gerätetests wiederholt fehlschlagen, verwendet der technische Support diesen Bereitschaftsbericht zur Fehlerbehebung.",
+          "label": "Technischer Support"
+        }
+      },
+      "title": "Leitfaden für die Zimmervorbereitung",
+      "youCan": {
+        "camera": "Kameravorschau anzeigen und ein-/ausschalten; Wenn diese Option deaktiviert ist, wird Ihr Avatar angezeigt.",
+        "join": "Sobald die Bereitschaftscheckliste grün wird, können Sie über die Schaltfläche „Klasse betreten“ beitreten.",
+        "mic": "Schalten Sie Ihr Mikrofon mit der Mikrofontaste ein/aus.",
+        "name": "Bearbeiten Sie Ihren Anzeigenamen, bevor Sie den Kurs betreten."
+      }
+    },
+    "sections": {
+      "chain": "Komplette Reise, vom Anfang bis zum Ende",
+      "ifEmpty": "Wenn die Seite leer ist",
+      "roles": "Wer macht was",
+      "youCan": "Was kann man hier tun?"
+    },
+    "session": {
+      "chain": {
+        "participate": "Während des Unterrichts nehmen Sie per Mikrofon/Kamera/Chat teil; Der Host steuert den Unterrichtsablauf.",
+        "record": "Wenn der Gastgeber die Aufzeichnung ermöglicht, ist die Aufzeichnung nach Unterrichtsende verfügbar.",
+        "review": "Sie kehren von „Aufzeichnungen“ zurück, um einen verpassten Kurs oder eine verpasste Studie noch einmal durchzugehen.",
+        "start": "Der Gastgeber (Lehrer) startet den Live-Kurs; Du betrittst den Raum."
+      },
+      "ifEmpty": "Wenn der Unterricht noch nicht begonnen hat, warten Sie auf den Gastgeber. Verbindungsstatusaktualisierungen auf dieser Seite.",
+      "intro": "Diese Seite ist Ihr Live-Klassenzimmer mit Mikrofon/Kamera, Bildschirmfreigabe, Chat und Fragen und Antworten. Der Gastgeber (Lehrer) verwaltet den Kurs und zeichnet bei Bedarf auf.",
+      "roles": {
+        "host": {
+          "does": "Startet/steuert den Unterricht und ermöglicht bei Bedarf die Aufzeichnung.",
+          "label": "Gastgeber (Dozent)"
+        },
+        "student": {
+          "does": "Nimmt am Kurs teil, nimmt daran teil und schaut sich die Aufzeichnungen bei Bedarf später an.",
+          "label": "Du (Student)"
+        }
+      },
+      "title": "Live-Klassenführer",
+      "youCan": {
+        "chat": "Senden Sie Nachrichten oder stellen Sie schriftlich Fragen über „Chat“.",
+        "media": "Schalten Sie Ihr Mikrofon und Ihre Kamera über die untere Leiste ein/aus.",
+        "recordings": "Nach Unterrichtsende können Sie sich die Aufzeichnung unter „Aufzeichnungen“ ansehen, sofern sie aufgezeichnet wurde.",
+        "share": "Geben Sie Ihren Bildschirm frei, wenn der Gastgeber dies zulässt."
+      }
+    }
+  },
+  "hands": {
+    "count": "{count, plural, one {# Hand erhoben} other {# Hände erhoben}}",
+    "lower": "Untere Hand",
+    "lowerAll": "Senken Sie alle Hände",
+    "ordinal": "{count, number}",
+    "overflow": "{count, plural, one {# andere Person wartet} other {# andere Leute warten}}",
+    "position": "{count, plural, one {Du bist dran: #} other {Du bist dran: #}}",
+    "title": "Sprechwarteschlange"
+  },
+  "lobby": {
+    "back": "Zurück zum Arbeitsbereich",
+    "removedByHost": "Sie wurden aus diesem Kurs entfernt. Ein erneuter Beitritt ist nur nach Genehmigung des Kursleiters möglich.",
+    "removedServiceDesk": "Senden Sie das Ticket am Service Desk",
+    "cam": {
+      "off": "Schalten Sie die Kamera aus",
+      "on": "Kamera einschalten",
+      "stateOff": "Kamera aus",
+      "stateOn": "Kamera an"
+    },
+    "camOffOverlay": "Die Kamera ist ausgeschaltet",
+    "conn": {
+      "fair": "Fair",
+      "good": "Gut",
+      "poor": "Arm",
+      "title": "Verbindungsqualität",
+      "unknown": "Unbekannt"
+    },
+    "cta": {
+      "blocked": "Um am Kurs teilnehmen zu können, müssen die oben genannten kritischen Voraussetzungen (sichere Verbindung und Browserunterstützung) erfüllt sein.",
+      "blockedTitle": "Der Zutritt ist erst möglich, wenn kritische Voraussetzungen erfüllt sind",
+      "enter": "Betreten Sie die Klasse",
+      "ready": "Überprüfen Sie Ihr Video und Audio, bevor Sie eintreten.",
+      "waiting": "Der Dozent ist noch nicht angemeldet; Sie können eintreten und warten."
+    },
+    "device": {
+      "camera": "Kamera",
+      "cameraNone": "Keine Kamera gefunden",
+      "fallback": "{device} {index, number}",
+      "mic": "Mikrofon",
+      "micNone": "Kein Mikrofon gefunden",
+      "speaker": "Sprecher",
+      "speakerDefault": "Standardlautsprecher des Systems"
+    },
+    "fallbackTitle": "Live-Klasse",
+    "guest": "Gast",
+    "help": {
+      "body": "Bevor Sie den Live-Kurs betreten, testen Sie hier Ihre Kamera, Ihr Mikrofon und Ihren Lautsprecher. Verwenden Sie die Schaltflächen unter der Vorschau, um Kamera oder Mikrofon umzuschalten und Geräte in der Einstellungsspalte zu ändern. Wenn alles fertig ist, klicken Sie auf „Klasse betreten“.",
+      "title": "Leitfaden für den Klasseneinstieg"
+    },
+    "joinMuted": "Treten Sie mit stummgeschaltetem Mikrofon ein",
+    "loading": "Sitzungsdetails werden geladen…",
+    "media": {
+      "denied": "Der Kamera- oder Mikrofonzugriff wurde nicht gewährt.",
+      "deniedTitle": "Zugriff auf Kamera/Mikrofon verweigert",
+      "notFound": "Kamera oder Mikrofongerät nicht gefunden."
+    },
+    "meta": {
+      "host": "Dozent: {name}",
+      "time": "Zeit: {time}"
+    },
+    "meter": {
+      "label": "Mikrofonpegel",
+      "micOff": "Das Mikrofon ist stummgeschaltet – heben Sie die Stummschaltung zum Testen auf."
+    },
+    "mic": {
+      "off": "Mikrofon stumm schalten",
+      "on": "Stummschaltung des Mikrofons aufheben",
+      "stateOff": "Mikrofon stummgeschaltet",
+      "stateOn": "Mikrofon aktiv"
+    },
+    "perm": {
+      "retry": "Berechtigungsanfrage erneut versuchen",
+      "step1": "Klicken Sie auf das Schlosssymbol neben der Adressleiste des Browsers.",
+      "step2": "Setzen Sie die Berechtigungen „Kamera“ und „Mikrofon“ auf „Zulassen“.",
+      "step3": "Klicken Sie dann auf die Schaltfläche unten, um es erneut zu versuchen.",
+      "without": "Sie können den Kurs auch ohne Kamera/Mikrofon betreten."
+    },
+    "settings": {
+      "name": "Ihr Anzeigename im Unterricht",
+      "title": "Audio- und Videoeinstellungen"
+    },
+    "speaker": {
+      "playing": "Spielen…",
+      "test": "Testen"
+    },
+    "status": {
+      "ended": "Diese Sitzung ist beendet",
+      "live": "In Bearbeitung",
+      "prefix": "Status: {status}",
+      "waiting": "Der Kursleiter ist noch nicht angemeldet"
+    }
+  },
+  "notes": {
+    "ariaLabel": "Gemeinsame Unterrichtsnotizen",
+    "charCount": "{count, number}-Zeichen",
+    "empty": "Es wurde noch nichts geschrieben",
+    "exportLabel": "Textexport",
+    "exportTitle": "Als Textdatei (.txt) speichern",
+    "placeholder": "Schreiben Sie hier... Was Sie schreiben, ist für alle Teilnehmer in Echtzeit sichtbar.",
+    "synced": "Synchronisiert",
+    "syncing": "Änderungen werden in Echtzeit synchronisiert",
+    "title": "Geteilte Notizen"
+  },
+  "panel": {
+    "close": "Schließen",
+    "host": {
+      "actionsFor": "Hostaktionen für {name}",
+      "kick": "Entfernen",
+      "lockChat": "Chat sperren",
+      "lowerHand": "Untere Hand",
+      "makePresenter": "Moderator machen",
+      "mute": "Stumm",
+      "muteAll": "Alle stumm schalten",
+      "unlockChat": "Chat entsperren"
+    },
+    "people": {
+      "note": "Aktualisierungen der Teilnehmerliste in Echtzeit. Video-Feeds werden angezeigt, sobald die Live-Medien-Engine eine Verbindung herstellt."
+    },
+    "tabCount": "({count, number})",
+    "tabs": {
+      "analytics": "Analytik",
+      "assistant": "Assistent",
+      "breakout": "Ausbruch",
+      "chat": "Chatten",
+      "notes": "Notizen",
+      "people": "Teilnehmer",
+      "polls": "Umfragen",
+      "tables": "Tische"
+    },
+    "transcript": {
+      "captionTag": "(Rede)",
+      "download": "Vollständiges Transkript herunterladen ⬇",
+      "fileHeader": "Klassenprotokoll",
+      "fileSuffix": "-transcript.txt",
+      "preparing": "Vorbereiten…",
+      "privateTag": "(Privat)",
+      "regionLabel": "Live-Mitschrift der Rede"
+    }
+  },
+  "poll": {
+    "addOption": "Option hinzufügen",
+    "cancel": "Abbrechen",
+    "changeHint": "Um Ihre Stimme zu ändern, wählen Sie eine andere Option.",
+    "emptyGuest": "Derzeit gibt es keine aktiven Umfragen. Wenn der Host eine Umfrage startet, wird diese hier angezeigt.",
+    "emptyHost": "Keine aktiven Umfragen. Klicken Sie auf „Neue Umfrage“, um eine zu erstellen.",
+    "end": "Umfrage beenden",
+    "endedBadge": "Beendet",
+    "finalTotal": "Endgültige Ergebnisse · Gesamt {count, plural, one {# vote} other {# votes}}",
+    "minOptions": "Zum Starten sind mindestens {min, number} nicht leere Optionen erforderlich.",
+    "multi": "Mehrfachauswahl",
+    "multiLabel": "Auswahl mehrerer Optionen zulassen (Multiple Choice)",
+    "new": "Neue Umfrage",
+    "optionN": "Option {n, number}",
+    "optionTally": "{pct, number}% · {count, number}",
+    "optionsLabel": "Optionen ({used, number} von {max, number})",
+    "questionAria": "Fragetext",
+    "questionLabel": "Frage",
+    "questionPlaceholder": "z. B.: Welches Thema bevorzugen Sie?",
+    "removeOption": "Option entfernen",
+    "single": "Einzelauswahl",
+    "start": "Umfrage starten",
+    "status": {
+      "ended": "Die Umfrage ist beendet – endgültige Ergebnisse.",
+      "endingWait": "Warten auf Bestätigung für das Ende der Umfrage…",
+      "startFailed": "Der Server hat den Start der Umfrage nicht bestätigt. Überprüfen Sie die Verbindungs- und Hostberechtigungen und versuchen Sie es erneut.",
+      "started": "Umfrage gestartet – Warten auf Antworten…",
+      "starting": "Umfrage wird gestartet…",
+      "voteFailed": "Die Abgabe der Stimme wurde nicht bestätigt; Bitte versuchen Sie es noch einmal.",
+      "voteSent": "Ihre Stimme wurde abgegeben ✓",
+      "voting": "Abstimmung wird abgegeben…",
+      "waitingAnswers": "Warten auf Antworten…"
+    },
+    "submitVote": "Stimme abgeben",
+    "title": "Umfrage",
+    "updateVote": "Abstimmung aktualisieren",
+    "voteCount": "{count, plural, one {# Abstimmung} other {# Stimmen}}"
+  },
+  "preflight": {
+    "bandwidth": {
+      "detail": "Ihre Internetverbindung wurde als schwach erkannt; Kameravideos werden in geringerer Qualität gesendet, um Unterbrechungen zu vermeiden.",
+      "good": "Gut",
+      "label": "Qualität der Internetverbindung",
+      "unknown": "Unbekannt",
+      "weak": "Schwach"
+    },
+    "captions": {
+      "available": "Verfügbar",
+      "detail": "Auf der Spracherkennung des Browsers basierende Live-Untertitel und Übersetzungen funktionieren nur in Chrome/Edge. Andere Klassenfunktionen bleiben auch ohne sie vollständig zugänglich.",
+      "label": "Live-Untertitel (optional)",
+      "limited": "Begrenzt"
+    },
+    "device": {
+      "absentDetail": "Kein aktives {device} gefunden. Geräteverbindung prüfen; Sie können die Klasse weiterhin ohne {device} betreten.",
+      "absentStatus": "Nicht gefunden",
+      "camera": "Kamera",
+      "deniedDetail": "Der Zugriff auf {device} wurde verweigert. Klicken Sie auf das Schlosssymbol neben der Adressleiste und stellen Sie „{device}“ auf „Zulassen“. Sie können auch ohne teilnehmen.",
+      "deniedStatus": "Zugriff verweigert",
+      "microphone": "Mikrofon",
+      "promptDetail": "Die Zugriffsberechtigung für {device} wurde noch nicht erteilt. Wählen Sie „Zulassen“, wenn Sie von Ihrem Browser dazu aufgefordert werden.",
+      "promptStatus": "Warten auf Erlaubnis",
+      "readyStatus": "Bereit"
+    },
+    "panel": {
+      "blocked": "Sie können den Kurs erst betreten, wenn die roten Punkte oben gelöst sind. Sobald das Problem behoben ist, klicken Sie auf „Erneut prüfen“.",
+      "checking": "Überprüfen…",
+      "regionLabel": "Prüfung der Gerätebereitschaft vor der Einreise",
+      "retry": "Überprüfen Sie es noch einmal",
+      "severity": {
+        "fail": "Problem",
+        "pass": "Bereit",
+        "warn": "Warnung"
+      },
+      "title": "Überprüfung der Gerätebereitschaft"
+    },
+    "screen": {
+      "detail": "Ihr Browser unterstützt keine Bildschirmfreigabe. Wenn Sie eine Präsentation planen, verwenden Sie Chrome/Edge oder Desktop-Firefox. Für die Besichtigung des Kurses ist es nicht erforderlich.",
+      "label": "Bildschirmfreigabe"
+    },
+    "secure": {
+      "bad": "Unsicher",
+      "detail": "Diese Seite wird nicht über eine sichere Verbindung (HTTPS) geöffnet; Browser gewähren Kamera- und Mikrofonzugriff nur über HTTPS. Bitte öffnen Sie die URL mit https.",
+      "label": "Sichere Verbindung (HTTPS)",
+      "ok": "Sicher"
+    },
+    "supported": "Unterstützt",
+    "unsupported": "Nicht unterstützt",
+    "webrtc": {
+      "detail": "Ihr Browser unterstützt keinen Kamera-/Mikrofonzugriff (getUserMedia). Bitte verwenden Sie eine aktuelle Version von Chrome, Edge oder Desktop-Firefox.",
+      "label": "Unterstützung für Videoanrufe (WebRTC)"
+    }
+  },
+  "pulse": {
+    "confused": "{count, plural, one {# Person ist verwirrt} other {# Leute sind verwirrt}}",
+    "slower": "{count, plural, one {# Person möchte ein langsameres Tempo} other {# Leute wollen ein langsameres Tempo}}",
+    "title": "Klassenimpuls",
+    "window": "In der letzten Minute"
+  },
+  "reactions": {
+    "throttled": "Machen Sie es etwas langsamer – Ihre Reaktionen sind vorübergehend eingeschränkt."
+  },
+  "review": {
+    "title": "Akademischer Review-Fall",
+    "separateDecision": "Der Erhalt eines Berichts stellt keine Bestätigung dafür dar, dass der Kurs nicht stattgefunden hat. Die Entscheidung liegt beim Studienreferenten der Fakultät.",
+    "pendingDecision": "Es wurden Abwesenheitsbeweise erfasst und der Fall steht noch aus.",
+    "reportReceived": "Bericht erhalten",
+    "reviewerMissing": "Kein akademischer Fakultätsbeauftragter zugewiesen; Der Fall bleibt offen.",
+    "reason": "Beschreibung und Grund (mindestens 10 Zeichen)",
+    "fileReport": "Bericht absenden",
+    "confirmNotHeld": "Bestätigen Sie nicht",
+    "rejectNotHeld": "Nicht gehaltene Meldung ablehnen",
+    "requestMakeup": "Fordern Sie eine Make-up-Sitzung an",
+    "start": "Vorgeschlagener Start",
+    "end": "Vorgeschlagenes Ende",
+    "submitMakeup": "Make-up-Anfrage stellen",
+    "makeupRequested": "Gewünschte Nachholzeit",
+    "approveMakeup": "Nachholzeit genehmigen",
+    "rejectMakeup": "Nachholwunsch ablehnen",
+    "makeupScheduled": "Eine Make-up-Sitzung ist geplant; Die Durchführung ist noch nicht bestätigt.",
+    "notHeld": {
+      "confirmed": "Bestätigt, nicht gehalten",
+      "rejected": "Nicht gehaltener Bericht abgelehnt"
+    },
+    "makeup": {
+      "approved": "Nachholwunsch genehmigt",
+      "rejected": "Nachholantrag abgelehnt"
+    },
+    "actionFailed": "Diese Aktion konnte nicht ausgeführt werden; Bitte versuchen Sie es noch einmal."
+  },
+  "report": {
+    "playback": {
+      "open": "Interaktive Wiederholung"
+    },
+    "att": {
+      "ABSENT": "Abwesend",
+      "EXCUSED": "Entschuldigt",
+      "LATE": "Spät",
+      "NONE": "—",
+      "PRESENT": "Anwesend",
+      "absent": "Abwesend: {value, number}",
+      "excused": "Entschuldigt: {value, number}",
+      "finalized": "Abgeschlossen",
+      "late": "Spät: {value, number}",
+      "present": "Gegenwart: {value, number}",
+      "provisional": "Provisorisch",
+      "total": "Gesamt: {value, number}",
+      "unrecorded": "Nicht aufgezeichnet"
+    },
+    "attendance": {
+      "noRoster": "Für diese Sitzung ist kein Teilnehmerverzeichnis verfügbar.",
+      "noSection": "Diese Sitzung ist nicht an eine bestimmte Klasse/Gruppe gebunden; Die formelle Anwesenheit wird nur für abschnittsbasierte Sitzungen erfasst. Die tatsächliche Teilnehmerliste erscheint unten.",
+      "title": "Anwesenheit"
+    },
+    "back": "Zurück zum Sitzungs-Hub",
+    "captions": {
+      "lines": "Beschriftungszeilen",
+      "linesValue": "{value, number}-Linien",
+      "recording": "Aufnahme",
+      "soniox": "Gespeicherte Live-Übersetzung",
+      "title": "Untertitel und Aufzeichnung"
+    },
+    "chat": {
+      "download": "Transkript herunterladen",
+      "empty": "Für diese Sitzung wurden im öffentlichen Chat keine Nachrichten aufgezeichnet.",
+      "exportHead": "Sitzungs-Chat-Protokoll: {title}",
+      "showAll": "Alle {value, number}-Nachrichten anzeigen",
+      "showLess": "Weniger anzeigen",
+      "title": "Gespeicherter Chat",
+      "truncated": "Zeigt die ersten {shown, number}-Nachrichten von insgesamt {total, number} (Anzeigelimit)."
+    },
+    "conn": {
+      "direct": "Direkt",
+      "nat": "Über NAT",
+      "relay": "Über Relay",
+      "unknown": "Unbekannt"
+    },
+    "counselor": {
+      "adviseesTitle": "Meine beratenen Studierenden",
+      "eyebrow": "Live-Kurs · Konsolidierter Sitzungsbericht",
+      "helpBody": "Berateransicht: Aggregierte Sitzungsteilnahmestatistiken (ohne Namen) sowie Anwesenheitsstatus für Studierende mit geplanten Beratungsterminen bei Ihnen. Kurschats und Transkripte sind von dieser Ansicht ausgeschlossen.",
+      "helpTitle": "Leitfaden für Beraterberichte",
+      "kpiAdvisees": "Beratene Studierende",
+      "kpiTotal": "Gesamtzahl der Studierenden",
+      "noAdvisees": "Keiner Ihrer empfohlenen Studierenden ist mit dieser Sitzung verbunden.",
+      "statsTitle": "Statistiken zur Sitzungsteilnahme"
+    },
+    "engagement": {
+      "hands": "Hände erhoben:",
+      "handsTitle": "Hände erhoben",
+      "notCaptured": "Für diese Sitzung wurden keine interaktiven Artefakte aufgezeichnet (geschlossen ohne Host „Sitzung beenden“ oder es fand keine Live-Interaktion statt).",
+      "polls": "Umfragen:",
+      "reactions": "Reaktionen:",
+      "timelineTitle": "Zeitleiste",
+      "title": "Engagement und Interaktion"
+    },
+    "errLoad": "Der Sitzungsbericht konnte nicht geladen werden.",
+    "full": {
+      "eyebrow": "Live-Kurs · Sitzungsbericht",
+      "helpBody": "Dieser Bericht zeigt alle persistenten Daten einer Live-Unterrichtssitzung an einem Ort an: tatsächlicher Zeitpunkt und Dauer, Anwesenheit der Schüler, Teilnehmerliste, gespeicherter Chat, dem Sprecher zugeordnetes Sprachtranskript, Live-Umfragen, Reaktionen und Aufzeichnungsstatus. Interaktive Artefakte werden nur gespeichert, wenn sie vom Host mit „Sitzung beenden“ geschlossen werden.",
+      "helpTitle": "Leitfaden zum Sitzungsbericht"
+    },
+    "hostSuffix": "(Gastgeber)",
+    "kpi": {
+      "absent": "Abwesend",
+      "actualMinutes": "Tatsächliche Sitzungsdauer",
+      "chatCount": "Chat-Nachrichten",
+      "joins": "Anzahl der Teilnehmer",
+      "myMinutes": "Meine Anwesenheitsdauer",
+      "myStatus": "Mein Anwesenheitsstatus",
+      "participants": "Teilnehmer",
+      "presentIncLate": "Anwesend (auch spät)",
+      "scheduledMinutes": "Geplante Dauer",
+      "totalMinutes": "Gesamtanwesenheitsminuten"
+    },
+    "loading": "Sitzungsbericht wird geladen…",
+    "minutes": "{value, number} min",
+    "neverOpened": "Diese Sitzung wurde nicht abgehalten (kein Gastgebereintrag aufgezeichnet).",
+    "noCourse": "Allgemeine Sitzung",
+    "noName": "Ohne Titel",
+    "parent": {
+      "childrenTitle": "Anwesenheit von Kindern",
+      "eyebrow": "Live-Kurs · Anwesenheitsbericht der Kinder",
+      "helpBody": "Gemäß der Zugriffsmatrix zeigt der Sitzungsbericht nur eine Anwesenheitsübersicht für Ihr(e) Kind(er) an; Klassenchat und Sprachprotokolle sind für Eltern nicht sichtbar.",
+      "helpTitle": "Leitfaden für Elternberichte",
+      "kpiChildren": "Mit dieser Sitzung verknüpftes Kind",
+      "noChildren": "Keines Ihrer Kinder ist an dieser Sitzung beteiligt."
+    },
+    "participants": {
+      "empty": "Niemand nahm an dieser Sitzung teil.",
+      "title": "Teilnehmer"
+    },
+    "poll": {
+      "ended": "Beendet",
+      "multi": "· Multiple-Choice",
+      "open": "Offen",
+      "total": "Gesamtstimmen: {value, number}"
+    },
+    "polls": {
+      "title": "Umfragen"
+    },
+    "recording": {
+      "duration": "· {duration}",
+      "none": "Nicht verfügbar",
+      "play": "Aufnahme abspielen",
+      "processing": "Verarbeitung…"
+    },
+    "self": {
+      "attendanceTitle": "Meine Anwesenheit",
+      "eyebrow": "Live-Kurs · Ihr Bericht für diese Sitzung",
+      "firstJoin": "Erstmals beigetreten:",
+      "helpBody": "Dies ist Ihr persönlicher Sitzungsbericht: Ihre eigene Anwesenheit, öffentlicher Chat, Ihre aufgezeichneten Äußerungen und öffentliche Sitzungsinhalte (Umfragen und Reaktionen). Die Daten anderer Schüler werden nur dem Dozenten und autorisierten Mitarbeitern angezeigt.",
+      "helpTitle": "Leitfaden für persönliche Berichte",
+      "joinsLabel": "Anzahl der Beitritte:",
+      "minutesLabel": "Anwesenheitszeit:",
+      "myTranscript": "Meine Äußerungen",
+      "myTranscriptEmpty": "In dieser Sitzung wurde keine Rede von Ihnen aufgezeichnet (Live-Untertitel/Übersetzung waren nicht aktiv oder Sie haben nicht gesprochen).",
+      "reactionsTitle": "Sitzungsreaktionen",
+      "reactionsTotal": "Gesamt: {value, number}",
+      "recordingTitle": "Sitzungsaufzeichnung"
+    },
+    "table": {
+      "conn": "Verbindungstyp",
+      "firstJoin": "Erster Beitritt",
+      "joins": "Treten Sie Count bei",
+      "minutes": "Dauer",
+      "name": "Name",
+      "status": "Status"
+    },
+    "timeline": {
+      "breakoutClose": "Breakout-Räume schließen",
+      "breakoutOpen": "Öffnen Sie Breakout-Räume",
+      "hand": "Hand erhoben",
+      "pollEnd": "Umfrage beenden",
+      "pollStart": "Umfrage starten"
+    },
+    "timing": {
+      "actual": "Tatsächliche Sitzung",
+      "late": "{value, number} Minuten zu spät gestartet",
+      "notHeld": "Nicht gehalten",
+      "onTime": "Pünktlich angefangen",
+      "range": "{start} bis {end}",
+      "scheduled": "Geplant",
+      "title": "Timing"
+    },
+    "transcript": {
+      "empty": "Für diese Sitzung wurde keine Rede aufgezeichnet (Live-Untertitel oder Übersetzung waren während der Sitzung nicht aktiv).",
+      "title": "Redeprotokoll des Sprechers",
+      "truncatedAll": "Ein Teil des Transkripts wurde aufgrund von Ladegrenzen weggelassen (Zähler sind genau).",
+      "truncatedSpeaker": "Zeigt die ersten {shown, number}-Äußerungen von {total, number} (Anzeigelimit).",
+      "utterances": "{value, number}-Äußerungen"
+    },
+    "unavailable": "Der Sitzungsbericht ist derzeit nicht verfügbar."
+  },
+  "session": {
+    "absence": {
+      "instructorDisconnected": "Verbindung zum Lehrer unterbrochen – der Unterricht wird bis zur Rückkehr fortgesetzt.",
+      "takeOver": "Akzeptieren Sie die vorübergehende Kontrolle über Tische und Rednerwarteschlangen"
+    },
+    "supervision": {
+      "waiting": "Der Unterricht findet vorübergehend ohne akademischen Betreuer statt. Warten auf die Rückkehr des Ausbilders oder die Übernahme der Verantwortung durch den Assistenten.",
+      "paused": "Die akademische Betreuung wurde nicht innerhalb des erlaubten Zeitfensters wieder aufgenommen; Aufnahme gestoppt. Klasse und Inhalt bleiben erhalten.",
+      "recordingDenied": "Für die Teilnahme an diesem Kurs sind die Übernahme akademischer Verantwortung und eine gültige Anwesenheit erforderlich.",
+      "offer": "Bieten Sie {name} die Klassenverantwortung an",
+      "offerPending": "Verantwortungsangebot gesendet; Bis zur ausdrücklichen Annahme durch den Assistenten liegt die Verantwortung bei Ihnen.",
+      "accept": "Übernehmen Sie die akademische Verantwortung für den Unterricht",
+      "conflict": "Sie sind bereits für einen anderen Live-Kurs verantwortlich. Bitte beenden Sie es zuerst oder delegieren Sie die Verantwortung an einen anwesenden und autorisierten Assistenten.",
+      "returnFirst": "Zurück zur ersten Klasse",
+      "returnLobby": "Zurück in den Vorraum"
+    },
+    "cohost": {
+      "denied": "Co-Host kann nicht gewährt werden; Der/die Assistent/in muss in dieser Klasse anwesend sein und dieser Sektion zugeordnet sein.",
+      "grant": "{name} vorübergehend bewerben",
+      "granted": "Sie sind jetzt vorübergehender Co-Moderator dieses Kurses.",
+      "instructorPresent": "Der Lehrer ist zum Unterricht zurückgekehrt. Delegationsantrag nicht zulässig.",
+      "manage": "Verwalten Sie temporäre Co-Hosts",
+      "revoke": "Co-Host für {name} widerrufen",
+      "revoked": "Ihr Co-Host-Zugriff wurde widerrufen."
+    },
+    "kick": {
+      "failed": "Die Entfernung der Schüler war unvollständig. Die Medienverbindung wurde noch nicht geschlossen. Bitte versuchen Sie es noch einmal.",
+      "manage": "Studenten wurden aus dieser Sitzung entfernt",
+      "restore": "Erlauben Sie {name}, wieder beizutreten",
+      "restoreFailed": "Die Berechtigung zum erneuten Beitritt konnte nicht erfasst werden. Bitte versuchen Sie es erneut."
+    },
+    "archive": {
+      "btn": "Transkriptarchiv",
+      "download": "Archiv herunterladen",
+      "empty": "Noch keine Rede im Archiv gespeichert.",
+      "error": "Archiv konnte nicht abgerufen werden.",
+      "loading": "Archiv wird geladen…",
+      "reload": "Neu laden",
+      "retry": "Versuchen Sie es erneut",
+      "short": "Archiv",
+      "title": "Transkriptarchiv (gespeichert)"
+    },
+    "browserUnknown": "Unbekannt",
+    "capset": {
+      "btn": "Untertiteleinstellungen",
+      "fontSize": "Schriftgröße",
+      "lg": "Groß",
+      "maxLines": "Maximale Anzeigezeilen",
+      "md": "Mittel",
+      "off": "Aus",
+      "on": "Auf",
+      "showNames": "Sprechernamen anzeigen",
+      "sm": "Klein",
+      "title": "Einstellungen für die Anzeige von Untertiteln"
+    },
+    "captions": {
+      "cpuSlow": "Die Sprachverarbeitung auf der aktuellen Server-CPU ist langsamer als in Echtzeit. Untertitel werden nach dem Server-Upgrade aktiviert",
+      "deviceUnsupported": "Untertitel werden auf diesem Browser/Gerät nicht unterstützt. Verwenden Sie Safari auf dem iPhone oder einem Laptop",
+      "engineStuck": "Die Sprach-Engine des Browsers reagiert nicht. Bitte versuchen Sie es noch einmal",
+      "fallbackServer": "Browser-Sprach-Engine nicht zulässig; auf Server-Engine umgestellt (kann auf diesem Server langsamer sein)",
+      "micDenied": "Mikrofonzugriff nicht gewährt",
+      "micRequired": "Für Untertitel muss das Mikrofon aktiv sein",
+      "needMic": "Schalten Sie die Stummschaltung des Mikrofons auf, um Untertitel zu aktivieren",
+      "noNativeNoServer": "In Ihrem Browser fehlen native Untertitel und der Sprachdienst des Servers ist nicht aktiv",
+      "recordFailed": "Die Audioaufnahme für Untertitel ist fehlgeschlagen",
+      "unavailableHere": "Untertitel sind in diesem Browser nicht verfügbar",
+      "unsupported": "Ihr Browser unterstützt keine Live-Transkription (Chrome/Edge)"
+    },
+    "close": "Schließen",
+    "collabLoading": "Laden…",
+    "conn": {
+      "fair": "Fair",
+      "good": "Gut",
+      "poor": "Arm",
+      "unknown": "Unbekannt"
+    },
+    "connFoot": "Verbindungsqualität: {quality} · {count, number} Teilnehmer",
+    "diag": {
+      "available": "Verfügbar ✓",
+      "browser": "Browser",
+      "engine": "Motor",
+      "engineNative": "Nativer Browser",
+      "engineNone": "❌ Keine",
+      "engineServer": "Server",
+      "hint": "Wenn sich „Audio Level“ beim Sprechen nicht ändert, liefert der Browser kein Mikrofon-Audio an die Seite.",
+      "lastError": "Letzter Fehler",
+      "level": "Audiopegel",
+      "listening": "Zuhören ✓",
+      "mic": "Mikrofon",
+      "micOff": "Aus ❌",
+      "micOn": "Auf ✓",
+      "off": "Aus",
+      "restarts": "Startversuche",
+      "speech": "Browser-Spracherkennung",
+      "starting": "Beginnend mit …",
+      "status": "🛈 Untertitelstatus:",
+      "unavailable": "Nicht verfügbar ❌"
+    },
+    "download": {
+      "chat": "Chat herunterladen",
+      "formatMenu": "Format herunterladen",
+      "label": "Herunterladen",
+      "loading": "Herunterladen…",
+      "srt": "Untertitel (.srt)",
+      "txt": "Laden Sie TXT herunter",
+      "vtt": "WebVTT (.vtt)"
+    },
+    "end": {
+      "cancel": "Abbrechen",
+      "confirmBody": "Nach der Bestätigung haben Sie 10 Sekunden Zeit, um die Beendigung des Kurses abzubrechen. dann werden alle Teilnehmer getrennt.",
+      "confirmCta": "Beenden Sie den Unterricht für alle",
+      "confirmTitle": "Unterricht für alle Teilnehmer beenden?",
+      "failed": "Sitzung konnte nicht beendet werden; Bitte versuchen Sie es noch einmal.",
+      "pendingHost": "Der Unterricht endet in {seconds} Sekunden.",
+      "pendingStudent": "Der Kursleiter beendet den Unterricht.",
+      "undo": "Brechen Sie den Abschlusskurs ab",
+      "undoFailed": "Die Stornierungsfrist ist abgelaufen. Um fortzufahren, erstellen Sie eine neue Sitzung."
+    },
+    "ended": {
+      "byHost": "Der Unterricht wurde vom Lehrer beendet",
+      "forAll": "Der Unterricht endete für alle",
+      "redirecting": "Weiterleitung zur Live-Kursliste…"
+    },
+    "film": {
+      "emptyHint": "Wenn andere beitreten, wird die Kachel jedes Teilnehmers hier angezeigt.",
+      "emptyTitle": "Es ist noch niemand beigetreten",
+      "regionLabel": "Teilnehmer"
+    },
+    "fs": {
+      "enter": "Geben Sie den Vollbildmodus ein",
+      "enterLabel": "Vollbild ⛶",
+      "exit": "Beenden Sie den Vollbildmodus"
+    },
+    "guest": "Gast",
+    "jitsi": {
+      "loadFailed": "Videoraum konnte nicht geladen werden. Überprüfen Sie die Internetverbindung oder die Jitsi-Domain oder verwenden Sie die Schaltfläche unten, um die Sitzung in einem neuen Tab zu öffnen.",
+      "openNewTab": "Sitzung in neuem Tab öffnen"
+    },
+    "lang": {
+      "faShort": "FA"
+    },
+    "langMenu": {
+      "help": "Sprache, in der Sie Untertitel anzeigen",
+      "my": "Meine Sprache: {label}",
+      "notFound": "Keine Sprache gefunden.",
+      "searchLabel": "Suchsprache",
+      "searchPlaceholder": "Sprache suchen…"
+    },
+    "layout": {
+      "custom": "Benutzerdefiniert",
+      "focusPresentation": "Präsentationsschwerpunkt",
+      "focusVideo": "Videofokus",
+      "smart": "Schlau"
+    },
+    "leave": "Verlasse den Unterricht",
+    "leaveShort": "Geh",
+    "media": {
+      "audioOnly": "Kameravideo war nicht verfügbar; Fortsetzung im Nur-Audio-Modus.",
+      "denied": "Der Zugriff auf Kamera/Mikrofon wurde verweigert. Klicken Sie in Ihrer Adressleiste auf das Schloss-/Kamerasymbol, erlauben Sie den Zugriff und klicken Sie dann auf „Wiederholen“.",
+      "errSuffix": "(Fehler: {name})",
+      "generic": "Auf Mediengeräte konnte nicht zugegriffen werden. Sie können mit ausgeschalteter Kamera und Mikrofon im Unterricht bleiben.",
+      "inUse": "Die Kamera wird von einer anderen App oder einem anderen Tab verwendet. Bitte schließen Sie Lobby-Tabs oder Hintergrund-Apps.",
+      "notFound": "Keine Kamera oder Mikrofon gefunden. Schließen Sie ein Gerät an und klicken Sie auf „Wiederholen“ oder fahren Sie stummgeschaltet fort.",
+      "retry": "Versuchen Sie es noch einmal",
+      "unsupported": "Ihr Browser unterstützt keinen Kamera-/Mikrofonzugriff oder die Seite wird nicht über eine sichere Verbindung (HTTPS) geladen."
+    },
+    "panel": {
+      "chatTranslated": "Chat (übersetzt)",
+      "empty": "Noch keine Rede aufgezeichnet.",
+      "regionLabel": "Live-übersetzte Rede",
+      "title": "Live-Chat (übersetzt)"
+    },
+    "participant": "Teilnehmer",
+    "rec": {
+      "active": "Aufnahme",
+      "armed": "Bereit zur Aufnahme",
+      "cancel": "Abbrechen",
+      "netFailed": "Verbindung zum Server fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "paused": "Vorübergehend pausiert",
+      "retry": "Versuchen Sie es erneut",
+      "saveCta": "Im Archiv speichern",
+      "saveFailed": "Aufzeichnung konnte nicht gespeichert werden (Code {code, number}). Bitte versuchen Sie es erneut.",
+      "saveMeta": "Dateigröße: {size} MB · Dauer: {clock}",
+      "saveTitle": "Aufnahme im Archiv speichern?",
+      "saved": "Aufnahme im Archiv gespeichert",
+      "durableServer": "Dieses Segment wird auf dem Server aufgezeichnet.",
+      "durablePending": "Das Segment wird sicher in diesem Browser gespeichert und wartet auf die Server-Festschreibung.",
+      "durableUnprotected": "Aktives Segment ist noch nicht geschützt; Bei einem unerwarteten Absturz können nicht gespeicherte Daten verloren gehen.",
+      "recoveryAvailable": "Ihnen steht eine nicht festgeschriebene sichere Aufzeichnung zur Wiederherstellung zur Verfügung.",
+      "recoveryOpen": "Aufnahme wiederherstellen",
+      "startFailed": "Die Aufnahme konnte nicht gestartet werden. Bitte versuchen Sie es erneut.",
+      "unsupportedRecorder": "Ihr Browser unterstützt keine Videoaufzeichnung (MediaRecorder). Bitte verwenden Sie einen aktuellen Chrome/Edge- oder Desktop-Firefox.",
+      "unsupportedScreen": "Ihr Browser unterstützt keine Bildschirmaufzeichnung. Bitte verwenden Sie einen aktuellen Chrome/Edge- oder Desktop-Firefox.",
+      "uploading": "Hochladen… {pct, number}%"
+    },
+    "reconnecting": "Wieder verbinden…",
+    "selfName": "{name} (Sie)",
+    "share": {
+      "failed": "Die Bildschirmfreigabe ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "unsupported": "Ihr Browser unterstützt keine Bildschirmfreigabe. Bitte verwenden Sie einen aktuellen Chrome/Edge- oder Desktop-Firefox."
+    },
+    "someone": "Ein Teilnehmer",
+    "soniox": {
+      "captionFailed": "Live-Untertitel-Stream getrennt; Die Verbindung konnte nach mehreren Versuchen nicht wiederhergestellt werden. Der Unterricht selbst läuft normal weiter – Sie können die Untertitel bei Bedarf wieder umschalten.",
+      "connecting": "Live-Übersetzung: Verbinden…",
+      "detectedLabel": "Erkannt:",
+      "detectedTitle": "Erkannte Sprache des Sprechers",
+      "error": "Live-Übersetzung: Fehler – Wiederholen",
+      "exportDate": "Exportdatum: {date}",
+      "exportHead": "Live-übersetztes Transkript – Sitzung {id}",
+      "group": "Live-Übersetzung",
+      "langSep": ",",
+      "on": "Live-Übersetzung: An",
+      "receiveOnly": "Untertitel-Anzeigemodus: Sehen Sie sich die Sprache anderer ohne Mikrofon an",
+      "saveFallback": "Serverspeicherung fehlgeschlagen – stattdessen lokal gespeichert",
+      "stConnecting": "Verbinden…",
+      "stError": "Fehler",
+      "stMore": "+{value, number}",
+      "stOn": "Auf",
+      "stOnTargets": "Ein · → {langs}",
+      "stPaused": "Pausiert (stummgeschaltet)",
+      "stReceiveOnly": "Nur Anzeige (kein Mikrofon)",
+      "stReconnecting": "Wieder verbinden…",
+      "stTranscribeOnly": "Ein · Nur Transkription",
+      "turnOn": "Live-Übersetzung aktivieren",
+      "unavailable": "Live-Übersetzung nicht verfügbar"
+    },
+    "stage": {
+      "captionFeed": "Live übersetzte Untertitel",
+      "modeLabel": "Bühnenmodus",
+      "noShare": "Keine Präsentation geteilt",
+      "noShareHint": "Klicken Sie zum Präsentieren auf „Bildschirm teilen“ oder wählen Sie „Whiteboard“ für gemeinsames Zeichnen.",
+      "share": "Bildschirm teilen",
+      "whiteboard": "Whiteboard"
+    },
+    "tile": {
+      "handRaised": "Hand erhoben",
+      "pin": "Pin {name}",
+      "quality": {
+        "connecting": "Wieder verbinden",
+        "fair": "Verbindungsqualität: Mittelmäßig",
+        "good": "Verbindungsqualität: Gut",
+        "poor": "Verbindungsqualität: Schlecht",
+        "unknown": "Verbindungsqualität: Unbekannt"
+      }
+    },
+    "titleFallback": "Live-Klasse",
+    "duplicate": {
+      "replaced": "Sie haben von einem anderen Gerät aus beigetreten; Audio und Video auf diesem Gerät wurden getrennt.",
+      "continued": "Vorherige Geräteverbindung geschlossen; Sie sind jetzt von diesem Gerät aus verbunden.",
+      "continueHere": "Fahren Sie mit diesem Gerät fort"
+    },
+    "toast": {
+      "captionsOn": "Klassenuntertitel aktiviert – der Ton jedes Sprechers ist mit seinem Namen beschriftet",
+      "chatLocked": "Chat vom Gastgeber gesperrt",
+      "chatUnlocked": "Chat freigeschaltet",
+      "joined": "{name} ist beigetreten",
+      "kicked": "Sie wurden vom Gastgeber aus dem Kurs entfernt.",
+      "left": "{name} links",
+      "recStarted": "Aufnahme gestartet",
+      "recStopped": "Die Aufnahme wurde gestoppt"
+    },
+    "toolbar": {
+      "cam": "Kamera",
+      "captionsGroup": "Bildunterschriften und Übersetzung",
+      "ccOff": "Bildunterschriften (CC)",
+      "ccOn": "Bildunterschriften ✓ ({lang})",
+      "ccStarting": "Bildunterschriften… ({lang})",
+      "endClass": "Unterricht beenden",
+      "endClassShort": "Ende",
+      "handShort": "Hand",
+      "langEn": "Sprache: Englisch",
+      "langFa": "Sprache: Persisch",
+      "layout": "Layout",
+      "mic": "Mikrofon",
+      "more": "Mehr",
+      "moreLabel": "Mehr Kontrollen",
+      "panel": "Chat & Leute",
+      "panelShort": "Chatten",
+      "raiseHand": "Hand heben",
+      "reactions": "Reaktionen",
+      "sendReaction": "Senden Sie die Reaktion {emoji}",
+      "share": "Bildschirm teilen",
+      "shareShort": "Teilen"
+    },
+    "topbar": {
+      "elapsedLabel": "Unterrichtsdauer",
+      "hostPrefix": "Host: {name}",
+      "loadingTitle": "Laden…",
+      "recOffTitle": "Die Aufzeichnung erfolgt im Browser des Hosts und wird nach Abschluss im Archiv gespeichert",
+      "recOnTitle": "Diese Sitzung wird gerade aufgezeichnet (Aufzeichnung im Host-Browser)",
+      "recStart": "Starten Sie die Aufnahme",
+      "recStop": "Stoppen Sie die Aufnahme"
+    },
+    "unpin": "Lösen",
+    "unpinLabel": "Ausgangsstift ✕",
+    "view": {
+      "gallery": "Galerie",
+      "modeLabel": "Ansichtsmodus",
+      "podium": "Podium"
+    },
+    "you": "Du"
+  },
+  "signals": {
+    "aria": {
+      "confused": "Signalisieren Sie, dass das Konzept unklar ist",
+      "slower": "Bitten Sie den Lehrer um ein langsameres Tempo"
+    },
+    "confused": "Ich habe es nicht verstanden",
+    "sent": "Aufgezeichnet",
+    "slower": "Gehen Sie langsamer"
+  },
+  "tables": {
+    "assign": {
+      "balanced": "Automatisch (ausgeglichen)",
+      "noStudents": "Noch sind keine Schüler im Unterricht.",
+      "pickFor": "Tabelle für {name}",
+      "random": "Zufällig",
+      "title": "Sitzplatzstudenten",
+      "unassigned": "Nicht zugewiesen"
+    },
+    "cancel": "Abbrechen",
+    "confirm": "Ja",
+    "countLabel": "Anzahl neuer Tabellen",
+    "capacity": "{used, number} von {total, number} Personen",
+    "capacityLabel": "Kapazität pro Tisch",
+    "create": "Tabelle erstellen",
+    "defaultName": "Tabelle {index, number}",
+    "dissolve": "Tisch auflösen",
+    "dissolveConfirm": "„{name}“ auflösen? Seine Mitglieder kehren in die Hauptklasse zurück.",
+    "duration": {
+      "label": "Tischarbeitsdauer",
+      "option": "{count, number} Minuten"
+    },
+    "empty": "Es wurden noch keine Tabellen erstellt.",
+    "extend": "{count, number} weitere Minuten",
+    "limit": "Maximale {count, number}-Tabellen",
+    "mediaNote": "Während der Tischarbeit sehen und hören Sie nur Ihre Tischnachbarn.",
+    "memberCount": "{count, number} Leute",
+    "members": "Tischkameraden",
+    "nameLabel": "Tabellenname",
+    "peekNotice": "Der Kursleiter überwacht die Tische",
+    "rejected": {
+      "empty": "Keine Tabelle hat Mitglieder.",
+      "full": "Dieser Tisch ist voll.",
+      "error": "Es ist ein Fehler aufgetreten; Bitte versuchen Sie es noch einmal.",
+      "forbidden": "Sie haben keine Berechtigung für diese Aktion.",
+      "invalid": "Ungültige Anfrage.",
+      "limit": "Sie haben die maximale Anzahl an Tischen erreicht.",
+      "noRound": "Die Tischarbeit hat noch nicht begonnen.",
+      "notFound": "Diese Tabelle existiert nicht mehr.",
+      "roundActive": "Diese Aktion kann nicht ausgeführt werden, während die Tabellenarbeit ausgeführt wird.",
+      "selectionLocked": "Die Tischauswahl ist durch den Dozenten gesperrt."
+    },
+    "remaining": "Verbleibende Zeit: {time}",
+    "rename": "Umbenennen",
+    "returnAll": "Alles zurückgeben",
+    "returnAllConfirm": "Alle in die Hauptklasse zurückbringen?",
+    "returned": "Alle kehrten in die Hauptklasse zurück.",
+    "running": "Tischarbeiten in Bearbeitung",
+    "save": "Speichern",
+    "select": {
+      "action": "Tabelle auswählen",
+      "full": "Voll",
+      "hint": "Wählen Sie einen offenen Tisch aus. Sie können es ändern, solange der Dozent die Auswahl offen lässt.",
+      "selected": "Dein Tisch",
+      "title": "Wählen Sie Tabelle aus"
+    },
+    "selection": {
+      "close": "Schließen Sie die Studentenauswahl ab",
+      "open": "Studentenauswahl öffnen"
+    },
+    "start": "Beginnen Sie mit der Tischarbeit",
+    "startHint": "Es ist mindestens eine Tabelle mit Mitgliedern erforderlich.",
+    "timeUp": "Die Tischzeit ist beendet; alle kehrten in die Hauptklasse zurück.",
+    "title": "Gruppentische",
+    "transcriptConsentProgress": "Zustimmung zur Sprachtranskription: {accepted} von {total}",
+    "transcriptDurableEnabled": "Die dauerhafte Aufzeichnung ist nur mit Zustimmung aller Personen aktiv.",
+    "transcriptConsentAccept": "Einwilligung zur Table-Audio-Aufzeichnung",
+    "transcriptConsentWithdraw": "Einwilligung widerrufen",
+    "transcriptWithdrawalReason": "Grund für den Widerruf der Einwilligung",
+    "transcriptQuarantined": "Das Transkript dieser Tabelle wird zur sicheren Wiedergabe unter Quarantäne gestellt.",
+    "transcriptConsentUnavailable": "Der Einwilligungsstatus für das Tabellentranskript ist nicht verfügbar.",
+    "visit": {
+      "join": "Machen Sie mit",
+      "joined": "Sie befinden sich bei „{name}“",
+      "leave": "Zurück zur Hauptklasse",
+      "peek": "Hören Sie ruhig zu",
+      "peeking": "„{name}“ hören"
+    },
+    "you": {
+      "assigned": "Sie befinden sich bei „{name}“",
+      "unassigned": "Ihnen wurde noch kein Tisch zugewiesen.",
+      "waiting": "Die Tischarbeit hat noch nicht begonnen."
+    }
+  },
+  "wb": {
+    "canvasLabel": "Geteilte Whiteboard-Leinwand",
+    "clearAll": "Alles löschen",
+    "clearAllTitle": "Alles löschen (Host)",
+    "clearConfirm": "Bestätigen Sie, dass alles gelöscht ist",
+    "clearConfirmShort": "Bestätigen?",
+    "clearConfirmTitle": "Klicken Sie zur Bestätigung erneut",
+    "colorGroup": "Farbe",
+    "colorSwatch": "Farbe {color}",
+    "exportPng": "PNG exportieren",
+    "exportPngTitle": "Als PNG-Bild speichern",
+    "hintEmpty": "Das Whiteboard ist leer. Wählen Sie ein Werkzeug und zeichnen Sie auf der Leinwand.",
+    "hintText": "Geben Sie Text ein und drücken Sie die Eingabetaste, um ihn auf der Tafel zu platzieren.",
+    "itemCount": "{count, plural, one {# Element auf dem Whiteboard} other {# Elemente auf dem Whiteboard}}",
+    "lock": "Whiteboard sperren",
+    "lockTitle": "Whiteboard für andere sperren",
+    "lockedNotice": "Whiteboard wurde vom Host gesperrt; Zur Zeit nur ansehen.",
+    "lockedTitle": "Das Whiteboard ist gesperrt – zum Entsperren klicken",
+    "redo": "Wiederholen",
+    "textLabel": "Text auf Whiteboard",
+    "textPlaceholder": "Text… (Eingabetaste zum Platzieren, Esc zum Abbrechen)",
+    "toolbarLabel": "Whiteboard-Tools",
+    "tools": {
+      "arrow": "Pfeil",
+      "circle": "Kreis",
+      "eraser": "Radiergummi",
+      "line": "Linie",
+      "pen": "Stift",
+      "rect": "Rechteck",
+      "select": "Auswählen",
+      "text": "Text"
+    },
+    "undo": "Rückgängig machen",
+    "undoTitle": "Rückgängig machen (Ihr letztes Element)",
+    "unlock": "Whiteboard entsperren",
+    "widthGroup": "Strichbreite",
+    "widthOption": "Breite {width, number}"
+  },
+  "sessionAnalysis": {
+    "title": "Sitzungsanalyse",
+    "loading": "Analysieren…",
+    "failed": "Die Sitzungsanalyse konnte nicht abgeschlossen werden",
+    "reviewRequired": "Bei dieser Ausgabe handelt es sich um einen Entwurf, der von einem Kursleiter überprüft werden muss.",
+    "confidence": "Geschätztes Vertrauen: {value, number, ::percent}",
+    "unavailable": "Eine Live-Sitzungsanalyse ist nicht verfügbar. Es wurden keine zusammenfassenden oder pädagogischen Fragen generiert.",
+    "truncated": "Diese Analyse deckt nur einen Teil des gespeicherten Transkripts ab; Der Sitzungstext überschreitet das Verarbeitungslimit.",
+    "quiz": "Vorgeschlagene Fragen ({count, number})",
+    "suggestedAnswer": "Vorgeschlagene Antwort: {answer}",
+    "sources": "Referenztranskriptauszüge ({count, number})"
+  },
+  "playback": {
+    "back": "Zurück zum Sitzungsbericht",
+    "chatTitle": "Öffentlicher Replay-Chat",
+    "archivedChatTitle": "Archivierter Live-Chat (schreibgeschützt)",
+    "replayChatTitle": "Neuer Replay-Chat",
+    "replayChatMessageLabel": "Neue Wiederholungsnachricht",
+    "sendReplayChat": "Nachricht zum aktuellen Zeitstempel posten",
+    "replayChatHidden": "Diese Nachricht wurde vor anderen verborgen",
+    "replayChatHide": "Nachricht ausblenden",
+    "replayChatUnhide": "Nachricht einblenden",
+    "replayChatReportReason": "Grund für die Meldung der Meldung",
+    "replayChatReport": "Nachricht melden",
+    "replayChatUnavailable": "Der Replay-Chat ist nicht verfügbar oder Aktionen sind nicht zulässig.",
+    "loadMoreChat": "Ältere Nachrichten laden",
+    "makeupTitle": "Gutschrift für Replay-Make-up-Anwesenheit",
+    "makeupSeparateNotice": "Diese Gutschrift wird nach Überprüfung durch den Kursleiter erfasst und hat keinen Einfluss auf die bisherige Teilnahme oder die Noten.",
+    "makeupSessionLabel": "ID der Make-up-Sitzung",
+    "makeupThresholdLabel": "Mindestverifizierte Wiedergabezeit (Prozentsatz)",
+    "makeupEnable": "Make-up aktivieren",
+    "makeupDisable": "Make-up deaktivieren",
+    "makeupThreshold": "Erforderliche Mindestwiedergabezeit: {percent}%",
+    "makeupOpenSession": "Gehen Sie zur Wiederholung der Nachholsitzung",
+    "makeupWatched": "Vom Server aufgezeichnete Wiedergabezeit: {percent}%",
+    "makeupReasonLabel": "Grund für den Nachholwunsch",
+    "makeupClaim": "Senden Sie eine Anfrage zur Make-up-Überprüfung",
+    "makeupCreditStatus": "Kreditstatus: {status}",
+    "makeupStudentLabel": "Student",
+    "makeupDecisionReasonLabel": "Entscheidungsgrund des Kursleiters",
+    "makeupConfirm": "Bestätigen Sie die Nachholgutschrift",
+    "makeupReverse": "Bestätigte Gutschrift manuell stornieren",
+    "makeupUnavailable": "Nachholaktionen sind nicht gestattet oder es liegen keine Informationen vor.",
+    "makeupStatus": {
+      "pending": "Genehmigung ausstehend",
+      "confirmed": "Bestätigt",
+      "cancelled": "Abgesagt",
+      "reversed": "Umgekehrt"
+    },
+    "artifactsTitle": "Persistente freigegebene Elemente nach der Klasse",
+    "artifactsAudienceNotice": "Diese Elemente sind nur für Benutzer mit aktuellem Zugriff auf diesen Kurs und die Aufzeichnung sichtbar; Bildschirmfreigaben werden nicht gespeichert.",
+    "artifactsEnableLearners": "Ermöglichen Sie Lernendenbeiträge",
+    "artifactsDisableLearners": "Teilnehmerbeiträge deaktivieren",
+    "artifactKindLabel": "Inhaltstyp",
+    "artifactTitleLabel": "Titel",
+    "artifactWhiteboardLabel": "Textschnappschuss vom Whiteboard",
+    "artifactDocumentLabel": "Kursdokument-ID",
+    "artifactCreate": "Geteiltes Element speichern",
+    "artifactApprove": "Veröffentlichung genehmigen",
+    "artifactHide": "Verstecken",
+    "artifactUnavailable": "Das Speichern oder Verwalten dieses freigegebenen Elements ist nicht gestattet.",
+    "artifactKind": {
+      "pdf": "PDF",
+      "whiteboard": "Whiteboard",
+      "file_pin": "Angepinnte Datei"
+    },
+    "artifactStatus": {
+      "pending": "Warten auf die Genehmigung des Lehrers",
+      "published": "Veröffentlicht",
+      "hidden": "Versteckt"
+    },
+    "notesTitle": "Meine zeitgestempelten Notizen",
+    "noteLabel": "Notiztext",
+    "addNote": "Notiz zum aktuellen Zeitpunkt hinzufügen",
+    "saveNote": "Bearbeitung speichern",
+    "editNote": "Bearbeiten",
+    "deleteNote": "Löschen",
+    "seekNote": "Zum Notizzeitstempel springen",
+    "questionsTitle": "Wiederholungsfragen",
+    "questionLabel": "Frage mit Zeitstempel",
+    "askQuestion": "Frage abschicken",
+    "questionPublished": "Für den Unterricht veröffentlicht",
+    "questionOptIn": "Einwilligung zur Veröffentlichung",
+    "questionOptOut": "Einwilligung zur Veröffentlichung widerrufen",
+    "questionApprove": "Veröffentlichung genehmigen",
+    "questionUnpublish": "Veröffentlichung aufheben",
+    "answerLabel": "Offizielle Antwort",
+    "answerQuestion": "Antwort abschicken",
+    "roomTitle": "Gruppenüberwachungsraum",
+    "createRoom": "Erstellen Sie einen privaten Raum",
+    "roomIdLabel": "Raum-ID",
+    "joinRoom": "Treten Sie dem Raum bei",
+    "roomUserLabel": "Benutzer-ID",
+    "inviteRoom": "Einladen",
+    "offerHandover": "Übergabe der Angebotskontrolle",
+    "acceptHandover": "Übergabe annehmen",
+    "removeMember": "Aus dem Raum entfernen",
+    "closeRoom": "Raum schließen",
+    "roomPlay": "Spielen Sie für alle",
+    "roomPause": "Pause für alle",
+    "roomSeek": "Suchen Sie die Gruppenwiedergabe zur ausgewählten Zeit",
+    "roomUnavailable": "Der Raum ist nicht verfügbar oder Ihnen fehlen die erforderlichen Berechtigungen.",
+    "roomWaiting": "Warten auf Zimmerverbindung…",
+    "questionUnavailable": "Diese Aktion ist nicht zulässig oder die Frage ist nicht mehr verfügbar.",
+    "questionHide": "Frage ausblenden",
+    "questionUnhide": "Frage einblenden",
+    "questionHidden": "Vor dem Unterricht versteckt",
+    "questionReportReason": "Grund für die Meldung der Frage",
+    "questionReport": "Frage melden",
+    "eyebrow": "Interaktive Wiederholung",
+    "loading": "Wiedergabe wird vorbereitet…",
+    "jump": "Springen Sie zu dieser Veranstaltung",
+    "jumpToPoll": "Springe zur Umfrage {question}",
+    "jumpToTableStart": "Zum Beginn der Tischaktivität springen",
+    "jumpToTranscript": "Springen Sie zu diesem Transkript-Zeitstempel",
+    "speedLabel": "Wiedergabegeschwindigkeit",
+    "watchedProgress": "Auf diesem Gerät angesehene Wiedergabe: {percent}%",
+    "serverWatchEvidence": "Vom Server aufgezeichneter Fortschritt: {percent}%.",
+    "notAttendanceCredit": "Dieser Wert allein stellt keine Anwesenheitsgutschrift dar.",
+    "fullscreen": "Vollbild",
+    "captionsLabel": "Sitzungsuntertitel",
+    "showCaptions": "Untertitel anzeigen",
+    "hideCaptions": "Untertitel ausblenden",
+    "me": "Ich",
+    "noMatches": "Es wurde kein Text gefunden, der Ihrer Suche entspricht.",
+    "noRecording": "Für diese Sitzung ist keine Wiedergabeaufzeichnung verfügbar.",
+    "open": "Interaktive Wiederholung",
+    "pollsTitle": "Aufgezeichnete Umfragen",
+    "pollNotReached": "Um zu antworten, rufen Sie zunächst den Zeitstempel dieser Umfrage in der Wiederholung auf.",
+    "pollAnswerFailed": "Die Wiedergabeantwort konnte nicht aufgezeichnet werden; Bitte versuchen Sie es noch einmal.",
+    "searchLabel": "Transkript durchsuchen",
+    "searchPlaceholder": "Suche Sitzungsrede…",
+    "searchLoading": "Transkript wird gesucht…",
+    "searchUnavailable": "Die Transkriptsuche ist nicht zulässig oder vorübergehend nicht verfügbar.",
+    "loadMoreResults": "Weitere Ergebnisse anzeigen",
+    "table": "Tabelle {id}",
+    "timelineLabel": "Zeitleiste des Ereignisses wiederholen",
+    "transcriptTitle": "Durchsuchbares Transkript",
+    "downloadTranscript": "Transkript herunterladen",
+    "transcriptDownloadUnavailable": "Das Herunterladen des Transkripts ist nicht gestattet oder vorübergehend nicht verfügbar.",
+    "unavailable": "Die Wiederholung dieser Sitzung ist nicht verfügbar."
+  }
+}

@@ -1,0 +1,1477 @@
+{
+  "analytics": {
+    "anonymous": "Utilisateur",
+    "attendance": {
+      "absentChip": "✗ Absent {count, number}",
+      "absentLabel": "Absent",
+      "avatarFallback": "?",
+      "duration": "Durée : {value}",
+      "empty": "Aucune présence enregistrée pour l'instant. À mesure que les participants rejoindront, ils apparaîtront ici.",
+      "excusedChip": "Excusé {count, number}",
+      "excusedLabel": "Excusé",
+      "finalized": "Finalisé",
+      "inClass": "En cours",
+      "joinedAt": "Arrivée : {time}",
+      "lateChip": "⏰ En retard {count, number}",
+      "lateLabel": "En retard",
+      "left": "A quitté",
+      "loading": "Chargement des présences…",
+      "neverOpened": "Cette session n'a pas eu lieu (aucune présence enregistrée).",
+      "presentChip": "✓ Présent {count, number}",
+      "presentLabel": "Présent",
+      "provisional": "Provisoire (jusqu'à la fin du cours)",
+      "refreshNote": "{count, number} personnes · Mise à jour toutes les {seconds, number} secondes",
+      "stillPresent": " (Actuellement présent)",
+      "title": "Liste des présences"
+    },
+    "duration": {
+      "hours": "{count, plural, one {# heure} other {# heures}}",
+      "hoursMinutes": "{hours, number} heures et {minutes, number} minutes",
+      "lessThanMinute": "Moins d'une minute",
+      "minutes": "{count, plural, one {# minute} other {# minutes}}"
+    },
+    "error": {
+      "attendance": "Impossible de récupérer la liste des présences. Cette section est réservée à l'hôte."
+    },
+    "participation": {
+      "aria": "Microphone ouvert {on, number} sur {total, number}",
+      "empty": "Personne n'est encore dans le cours.",
+      "muted": "Micro coupé : {count, number}",
+      "on": "Ouvert : {count, number} ({pct, number} %)",
+      "title": "Participation audio"
+    },
+    "poll": {
+      "active": "Un sondage est actuellement en cours",
+      "idle": "Aucun sondage actif"
+    },
+    "stat": {
+      "chat": "Messages de chat",
+      "hands": "Mains levées",
+      "micOn": "Micros ouverts",
+      "present": "Actuellement présents"
+    }
+  },
+  "assistant": {
+    "chip": {
+      "example": "Donner un exemple",
+      "practice": "Créer une question d'entraînement",
+      "quiz": "Concevoir un court quiz avec réponses",
+      "summarize": "Résumer ce sujet"
+    },
+    "error": {
+      "createSession": "Échec de la création de la conversation avec l'assistant."
+    },
+    "hostMode": "Mode enseignant — Conception de questions et d'exercices",
+    "inputLabel": "Poser une question à l'assistant intelligent",
+    "intro": "Posez vos questions sur le sujet du cours — les réponses s'appuient sur les supports de cours (RAG).",
+    "introHost": " En tant qu'enseignant, vous pouvez également générer des exercices et des quiz.",
+    "label": "Assistant intelligent",
+    "noAnswer": "Aucune réponse reçue. Veuillez poser votre question à nouveau.",
+    "placeholder": "Saisissez votre question…",
+    "questionCount": "{count, number} questions",
+    "send": "Envoyer la question",
+    "sendShort": "Envoyer",
+    "sessionTitle": "Cours en direct — {name}",
+    "source": "Source",
+    "sources": "Sources ({count, number})",
+    "title": "Assistant intelligent du cours",
+    "typing": "Rédaction de la réponse…"
+  },
+  "atoms": {
+    "captions": {
+      "etaTradeoff": "Si η est trop grand, la fonction de coût diverge ; s'il est trop petit, la convergence est lente.",
+      "fasterNoisier": "Cela permet des mises à jour plus rapides mais avec davantage d'oscillations.",
+      "lrAnswer": "Bonne question. Nous l'associons généralement à un programmateur de taux d'apprentissage ou à Adam.",
+      "lrQuestion": "Professeur, comment choisit-on le taux d'apprentissage optimal pour la SGD ?",
+      "sgdStep": "La descente de gradient stochastique n'utilise qu'un seul échantillon par étape pour calculer le gradient."
+    },
+    "chat": {
+      "seed": {
+        "answer": "Bien sûr. Supposons θ = 0.8, gradient = 2.4 et η = 0.1. Alors :",
+        "answerTime": "14:25",
+        "ask": "Pouvez-vous donner un exemple numérique de mise à jour des poids en SGD ?",
+        "askTime": "14:25",
+        "greeting": "Bonjour 👋 Je suis l'assistant intelligent de cette session. Je peux fournir des résumés en temps réel, simplifier les concepts ou suggérer des exercices d'entraînement.",
+        "greetingTime": "14:23"
+      }
+    },
+    "people": {
+      "ali": {
+        "init": "A",
+        "name": "Ali R."
+      },
+      "arman": {
+        "init": "A",
+        "name": "Arman B."
+      },
+      "azimi": {
+        "init": "DA",
+        "name": "Dr. Azimi"
+      },
+      "hanieh": {
+        "init": "H",
+        "name": "Hanieh F."
+      },
+      "mohsen": {
+        "init": "M",
+        "name": "Mohsen H."
+      },
+      "neda": {
+        "init": "N",
+        "name": "Neda Kazemi"
+      },
+      "nima": {
+        "init": "N",
+        "name": "Nima J."
+      },
+      "sara": {
+        "init": "S",
+        "name": "Sara M."
+      },
+      "zahra": {
+        "init": "Z",
+        "name": "Zahra K."
+      }
+    },
+    "poll": {
+      "options": {
+        "adamWeighted": "Adam avec pondération des classes",
+        "rmspropWarmup": "RMSprop avec phase d'échauffement (Warm-up)",
+        "sgdMomentum": "SGD standard avec Momentum"
+      },
+      "question": "Quelle méthode d'optimisation est la plus adaptée pour entraîner des réseaux profonds sur des données déséquilibrées ?"
+    },
+    "qa": {
+      "q1": {
+        "text": "Si la fonction de coût n'est pas convexe, la SGD converge-t-elle vers un minimum global ?",
+        "time": "Il y a 2 minutes"
+      },
+      "q2": {
+        "text": "Quelle est la différence pratique entre Momentum et Adam ?",
+        "time": "Il y a 5 minutes"
+      },
+      "q3": {
+        "text": "Quelle taille de mini-lot est recommandée pour ResNet-50 ?",
+        "time": "Il y a 8 minutes"
+      },
+      "q4": {
+        "text": "Quels paramètres appliquer à la SGD pour les jeux de données déséquilibrés ?",
+        "time": "Il y a 12 minutes"
+      },
+      "tags": {
+        "adaptive": "Adaptatif",
+        "highlight": "Point clé",
+        "practical": "Pratique"
+      }
+    },
+    "slides": {
+      "compare": {
+        "body": "Le mini-lot trouve un équilibre entre la stabilité du traitement par lot et la rapidité de la SGD. Taille typique : 32 à 256."
+      },
+      "noise": {
+        "body": "Les fluctuations aléatoires permettent à l'algorithme d'échapper aux minima locaux et d'obtenir de meilleurs résultats sur des surfaces non convexes.",
+        "title": "Pourquoi le bruit est utile"
+      },
+      "sgd": {
+        "body": "À chaque étape, les poids sont mis à jour à l'aide d'un seul échantillon aléatoire. Plus rapide que la descente par lot, mais avec davantage d'oscillations sur la trajectoire de convergence.",
+        "title": "Descente de gradient stochastique"
+      }
+    },
+    "suggestions": {
+      "exercise": "Générer un exercice similaire",
+      "resources": "Ressources complémentaires",
+      "simpler": "Expliquer plus simplement",
+      "summary": "Résumé des 2 dernières minutes"
+    },
+    "tabs": {
+      "assistant": "Assistant",
+      "captions": "Sous-titres",
+      "poll": "Sondage",
+      "questions": "Questions"
+    },
+    "timeline": {
+      "r1": {
+        "label": "Révision de la séance précédente",
+        "time": "14:02"
+      },
+      "r2": {
+        "label": "Concept de la descente de gradient",
+        "time": "14:08"
+      },
+      "r3": {
+        "label": "Version par lot (Batch)",
+        "time": "14:16"
+      },
+      "r4": {
+        "label": "Descente de gradient stochastique",
+        "time": "14:22"
+      },
+      "r5": {
+        "label": "Momentum et Adam",
+        "time": "14:35"
+      },
+      "r6": {
+        "label": "Exercice interactif et Q&R",
+        "time": "14:45"
+      }
+    },
+    "transcript": {
+      "live": {
+        "momentum": "Si nous mettons à jour le taux d'apprentissage en tenant compte des valeurs précédentes, cela s'appelle le Momentum.",
+        "nesterovAnswer": "Nesterov prédit d'abord la position suivante et y calcule le gradient.",
+        "nesterovQuestion": "En quoi cela diffère-t-il de Nesterov ?",
+        "pytorchQuestion": "Cette idée peut-elle être implémentée dans PyTorch ?"
+      },
+      "seed": {
+        "r1": {
+          "text": "Dans la descente de gradient stochastique, un seul échantillon est utilisé à chaque étape pour calculer le gradient.",
+          "time": "14:20"
+        },
+        "r2": {
+          "text": "Cela accélère le calcul et réduit l'utilisation de la mémoire.",
+          "time": "14:21"
+        },
+        "r3": {
+          "highlight": "Taux d'apprentissage optimal",
+          "text": "Professeur, comment choisit-on le taux d'apprentissage optimal ?",
+          "time": "14:22"
+        },
+        "r4": {
+          "text": "Nous l'associons généralement à un programmateur de taux d'apprentissage ou à des algorithmes adaptatifs comme Adam.",
+          "time": "14:22"
+        },
+        "r5": {
+          "text": "Quelle est la différence clé exacte entre SGD et Mini-batch ?",
+          "time": "14:23"
+        },
+        "r6": {
+          "text": "La taille du lot. Dans le mini-lot, nous prenons entre 32 et 256 échantillons pour un meilleur compromis entre stabilité et vitesse.",
+          "time": "14:23"
+        }
+      }
+    }
+  },
+  "breakout": {
+    "anonymous": "Utilisateur",
+    "decrease": "Réduire le nombre de salles",
+    "duration": "Durée : {count, number} minutes",
+    "durationLabel": "Durée (minutes)",
+    "empty": "Vide",
+    "end": "Terminer",
+    "increase": "Ajouter une salle",
+    "manualLabel": "Attribution manuelle",
+    "maxRooms": "Maximum {count, number} salles",
+    "memberCount": "{count, number} personnes",
+    "mode": {
+      "auto": "Automatique",
+      "manual": "Manuel",
+      "random": "Aléatoire"
+    },
+    "modeLabel": "Méthode d'attribution",
+    "moved": "Vous avez été déplacé dans cette salle",
+    "noParticipants": "Aucun participant dans le cours pour l'instant. Vous pourrez les attribuer dès qu'ils rejoindront.",
+    "noneOpen": "Aucune salle de sous-commission active. Lorsque l'hôte ouvrira des salles, la vôtre apparaîtra ici.",
+    "open": "Ouvrir les salles",
+    "phaseNote": "À cette étape, l'attribution des participants ainsi que le chat et les notes par salle sont actifs. L'audio et la vidéo séparés par salle nécessitent une infrastructure média (SFU, Étape 3) et sont actuellement en dehors de cette section.",
+    "preview": "{people, number} participants seront répartis dans {rooms, number} salles (environ {per, number} personnes par salle).",
+    "roomCountLabel": "Nombre de salles",
+    "roomFor": "Salle pour {name}",
+    "roomName": "Salle {index, number}",
+    "title": "Salles de sous-commission",
+    "unassigned": "Vous n'avez pas encore été assigné à une salle. Veuillez attendre l'hôte.",
+    "you": "Vous"
+  },
+  "chat": {
+    "anonymousAuthor": "Utilisateur",
+    "channels": {
+      "class": "Cours",
+      "staff": "Équipe pédagogique",
+      "table": "Table"
+    },
+    "empty": "Aucun message envoyé pour le moment.",
+    "note": {
+      "class": "Les messages sont partagés en direct avec tous les participants via le canal du cours.",
+      "locked": "Le chat a été verrouillé par l'hôte. Seul l'hôte peut envoyer des messages.",
+      "staff": "Ce canal est visible uniquement par l'enseignant et les assistants ; les étudiants ne peuvent pas le voir.",
+      "table": "Cette conversation n'est visible que par les personnes à votre table et les enseignants."
+    },
+    "placeholder": "Écrivez un message…",
+    "placeholderLocked": "Le chat est verrouillé…",
+    "rejected": {
+      "channel": "Ce canal ne vous est pas ouvert — votre message n'a pas été envoyé.",
+      "locked": "Le chat est verrouillé — votre message n'a pas été envoyé."
+    },
+    "send": "Envoyer le message",
+    "tableTarget": "Envoyer à la table",
+    "unread": "{count, plural, one {#} other {#}}"
+  },
+  "classes": {
+    "card": {
+      "attendees": "{value, number} participants",
+      "cancelled": "Cette session a été annulée.",
+      "joinDirect": "Entrée directe",
+      "joinLobby": "Entrer dans l'antichambre",
+      "newTab": "Ouvrir dans un nouvel onglet",
+      "report": "Rapport de session",
+      "reportTitle": "Rapport complet de cette session"
+    },
+    "emptyAll": "Aucune session ne correspond à votre recherche.",
+    "emptyHint": "Dès qu'un cours est planifié par l'enseignant, il apparaîtra ici.",
+    "emptySearch": "Aucune session ne correspond à cette recherche ou à ce filtre.",
+    "errLoad": "Échec du chargement des sessions.",
+    "eyebrow": "Cours en direct · Centre des sessions",
+    "filter": {
+      "all": "Toutes",
+      "ended": "Terminées",
+      "live": "En direct",
+      "scheduled": "Planifiées"
+    },
+    "filterAria": "Filtrer les sessions en direct",
+    "form": {
+      "applySlot": "Appliquer ce créneau",
+      "cancel": "Annuler",
+      "close": "Fermer",
+      "course": "Cours associé",
+      "coursePick": "— Sélectionner un cours —",
+      "courseSearch": "Rechercher un cours (code ou intitulé)…",
+      "courseSearchAria": "Rechercher un cours",
+      "coursesError": "La liste des cours est indisponible ; veuillez réessayer plus tard.",
+      "coursesLoading": "Chargement des cours…",
+      "date": "Date",
+      "dateAria": "Date de la session",
+      "datePlaceholder": "Sélectionner la date de la session",
+      "desc": "Description (optionnel)",
+      "descPlaceholder": "Sujets ou points clés de cette session…",
+      "end": "Heure de fin",
+      "errCourse": "Veuillez sélectionner un cours associé.",
+      "errCreate": "Échec de la création de la session. Veuillez réessayer.",
+      "errDate": "Veuillez sélectionner une date de session.",
+      "errTime": "Veuillez indiquer des heures de début et de fin valides.",
+      "errTitle": "Veuillez saisir un intitulé de session.",
+      "policy": "Politique d'admission",
+      "section": "Section / Classe (optionnel)",
+      "sectionAll": "— Tout le cours (sans section spécifique) —",
+      "sectionOption": "Section {group, number}",
+      "start": "Heure de début",
+      "submit": "Planifier la session",
+      "submitting": "Planification en cours…",
+      "title": "Planifier une session de cours en direct",
+      "titleLabel": "Titre de la session",
+      "titlePlaceholder": "ex. : Résolution de problèmes du chapitre 3"
+    },
+    "group": {
+      "live": "En direct",
+      "liveEmpty": "Aucune session n'est actuellement en direct.",
+      "past": "Passées",
+      "pastEmpty": "Aucune session passée enregistrée.",
+      "upcoming": "À venir",
+      "upcomingEmpty": "Aucune session à venir planifiée."
+    },
+    "help": {
+      "body": "Sur cette page, vous pouvez consulter les cours en direct classés en « En direct », « À venir » et « Passées ». Cliquez sur « Entrer dans l'antichambre » pour tester votre caméra et votre microphone avant d'entrer ; si une session est en direct, cliquez sur « Entrée directe » pour la rejoindre immédiatement. Les enseignants et administrateurs peuvent planifier un nouveau cours avec « Nouvelle session ».",
+      "title": "Guide des cours en direct"
+    },
+    "kpi": {
+      "live": "En direct",
+      "total": "Total des sessions",
+      "upcoming": "À venir"
+    },
+    "lead": "Consultez les sessions en direct, à venir et passées ; entrez dans l'antichambre pour tester vos périphériques ou rejoignez directement le cours s'il a débuté.",
+    "loading": "Chargement des sessions…",
+    "new": "Nouvelle session",
+    "noCourse": "Aucun cours associé",
+    "policy": {
+      "enrolled": "Étudiants inscrits uniquement",
+      "invite": "Sur invitation uniquement",
+      "public": "Ouvert à tous (Public)"
+    },
+    "schedule": {
+      "at": "{date} · {clock}",
+      "unknown": "Horaire non précisé"
+    },
+    "searchAria": "Rechercher des sessions",
+    "searchPlaceholder": "Rechercher par titre, cours ou enseignant…",
+    "status": {
+      "cancelled": "Annulé",
+      "ended": "Terminé",
+      "live": "En direct",
+      "scheduled": "Planifié"
+    },
+    "title": "Cours en direct"
+  },
+  "guide": {
+    "button": "Guide",
+    "lobby": {
+      "chain": {
+        "check": "Ici, vous testez votre nom, votre caméra et votre microphone et effectuez la vérification préalable.",
+        "enter": "À l'heure du cours, accédez à cette antichambre depuis cet endroit.",
+        "join": "En entrant dans le cours, vous êtes redirigé vers la salle en direct ; le guide s'y poursuit.",
+        "schedule": "Le cours en direct est planifié dans le programme et apparaît dans « Mes cours »."
+      },
+      "ifEmpty": "Si le cours n'a pas encore commencé, attendez l'hôte ; l'état de la connexion se met à jour sur cette même page.",
+      "intro": "Bienvenue dans l'antichambre du cours en direct. Vérifiez ici votre son, votre image et votre connexion avant d'entrer.",
+      "roles": {
+        "host": {
+          "does": "Entre dans la salle, accueille les étudiants et démarre le cours.",
+          "label": "Hôte (Enseignant)"
+        },
+        "student": {
+          "does": "Teste la caméra et le microphone, vérifie l'état de préparation et entre dans le cours.",
+          "label": "Vous (Étudiant)"
+        },
+        "support": {
+          "does": "Si les tests de périphériques échouent à répétition, le support technique utilise ce rapport d'état pour le dépannage.",
+          "label": "Support technique"
+        }
+      },
+      "title": "Guide de l'antichambre",
+      "youCan": {
+        "camera": "Affichez l'aperçu de la caméra et activez-la ou désactivez-la ; lorsqu'elle est coupée, votre avatar s'affiche.",
+        "join": "Dès que la liste de vérification passe au vert, rejoignez le cours à l'aide du bouton Entrer dans le cours.",
+        "mic": "Activez ou désactivez votre microphone à l'aide du bouton microphone.",
+        "name": "Modifiez votre nom d'affichage avant d'entrer dans le cours."
+      }
+    },
+    "sections": {
+      "chain": "Parcours complet, du début à la fin",
+      "ifEmpty": "Si la page est vide",
+      "roles": "Qui fait quoi",
+      "youCan": "Que pouvez-vous faire ici ?"
+    },
+    "session": {
+      "chain": {
+        "participate": "Pendant le cours, vous participez via le microphone, la caméra et le chat ; l'hôte gère le déroulement.",
+        "record": "Si l'hôte active l'enregistrement, celui-ci devient disponible une fois le cours terminé.",
+        "review": "Vous revenez depuis « Enregistrements » pour revoir un cours manqué ou réviser.",
+        "start": "L'hôte (enseignant) démarre le cours en direct ; vous rejoignez la salle."
+      },
+      "ifEmpty": "Si le cours n'a pas encore commencé, attendez l'hôte ; l'état de la connexion se met à jour sur cette page.",
+      "intro": "Cette page est votre salle de cours en direct avec microphone/caméra, partage d'écran, chat et Q&R. L'hôte (enseignant) gère le cours et enregistre si nécessaire.",
+      "roles": {
+        "host": {
+          "does": "Démarre et contrôle le cours, et active l'enregistrement si besoin.",
+          "label": "Hôte (Enseignant)"
+        },
+        "student": {
+          "does": "Rejoint le cours, participe et regarde les enregistrements plus tard si nécessaire.",
+          "label": "Vous (Étudiant)"
+        }
+      },
+      "title": "Guide du cours en direct",
+      "youCan": {
+        "chat": "Envoyez des messages ou posez des questions par écrit à l'aide du « Chat ».",
+        "media": "Activez ou désactivez votre microphone et votre caméra depuis la barre inférieure.",
+        "recordings": "Une fois le cours terminé, regardez l'enregistrement sous « Enregistrements » s'il a été enregistré.",
+        "share": "Partagez votre écran si l'hôte vous y autorise."
+      }
+    }
+  },
+  "hands": {
+    "count": "{count, plural, one {# main levée} other {# mains levées}}",
+    "lower": "Baisser la main",
+    "lowerAll": "Baisser toutes les mains",
+    "ordinal": "{count, number}",
+    "overflow": "{count, plural, one {# autre personne attend} other {# autres personnes attendent}}",
+    "position": "{count, plural, one {Votre tour : #} other {Votre tour : #}}",
+    "title": "File d'attente des prises de parole"
+  },
+  "lobby": {
+    "back": "Retour à l'espace de travail",
+    "removedByHost": "Vous avez été exclu de ce cours. Vous ne pouvez le rejoindre qu'après autorisation de l'enseignant.",
+    "removedServiceDesk": "Soumettre un ticket au Service Desk",
+    "cam": {
+      "off": "Désactiver la caméra",
+      "on": "Activer la caméra",
+      "stateOff": "Caméra désactivée",
+      "stateOn": "Caméra activée"
+    },
+    "camOffOverlay": "La caméra est désactivée",
+    "conn": {
+      "fair": "Moyenne",
+      "good": "Bonne",
+      "poor": "Médiocre",
+      "title": "Qualité de la connexion",
+      "unknown": "Inconnue"
+    },
+    "cta": {
+      "blocked": "Pour entrer dans le cours, les prérequis critiques ci-dessus (connexion sécurisée et compatibilité du navigateur) doivent être résolus.",
+      "blockedTitle": "Impossible d'entrer tant que les prérequis critiques ne sont pas résolus",
+      "enter": "Entrer dans le cours",
+      "ready": "Vérifiez votre vidéo et votre audio avant d'entrer.",
+      "waiting": "L'enseignant n'est pas encore entré ; vous pouvez entrer et attendre."
+    },
+    "device": {
+      "camera": "Caméra",
+      "cameraNone": "Aucune caméra trouvée",
+      "fallback": "{device} {index, number}",
+      "mic": "Microphone",
+      "micNone": "Aucun microphone trouvé",
+      "speaker": "Haut-parleur",
+      "speakerDefault": "Haut-parleur par défaut du système"
+    },
+    "fallbackTitle": "Cours en direct",
+    "guest": "Invité",
+    "help": {
+      "body": "Avant d'entrer dans le cours en direct, testez ici votre caméra, votre microphone et votre haut-parleur. Utilisez les boutons sous l'aperçu pour activer ou désactiver la caméra ou le microphone et modifiez les périphériques dans la colonne des paramètres. Lorsque tout est prêt, cliquez sur « Entrer dans le cours ».",
+      "title": "Guide d'entrée dans le cours"
+    },
+    "joinMuted": "Entrer avec le micro coupé",
+    "loading": "Chargement des détails de la session…",
+    "media": {
+      "denied": "L'accès à la caméra ou au microphone n'a pas été accordé.",
+      "deniedTitle": "Accès à la caméra / au microphone refusé",
+      "notFound": "Périphérique de caméra ou de microphone introuvable."
+    },
+    "meta": {
+      "host": "Enseignant : {name}",
+      "time": "Heure : {time}"
+    },
+    "meter": {
+      "label": "Niveau du microphone",
+      "micOff": "Le microphone est coupé — réactivez-le pour tester."
+    },
+    "mic": {
+      "off": "Couper le microphone",
+      "on": "Réactiver le microphone",
+      "stateOff": "Microphone coupé",
+      "stateOn": "Microphone actif"
+    },
+    "perm": {
+      "retry": "Réessayer la demande d'autorisation",
+      "step1": "Cliquez sur l'icône de cadenas à côté de la barre d'adresse du navigateur.",
+      "step2": "Définissez les autorisations « Caméra » et « Microphone » sur « Autoriser ».",
+      "step3": "Cliquez ensuite sur le bouton ci-dessous pour réessayer.",
+      "without": "Vous pouvez également entrer dans le cours sans caméra ni microphone."
+    },
+    "settings": {
+      "name": "Votre nom d'affichage dans le cours",
+      "title": "Paramètres audio et vidéo"
+    },
+    "speaker": {
+      "playing": "Lecture en cours…",
+      "test": "Tester"
+    },
+    "status": {
+      "ended": "Cette session est terminée",
+      "live": "En cours",
+      "prefix": "État : {status}",
+      "waiting": "L'enseignant n'est pas encore entré"
+    }
+  },
+  "notes": {
+    "ariaLabel": "Notes partagées du cours",
+    "charCount": "{count, number} caractères",
+    "empty": "Rien n'a encore été écrit",
+    "exportLabel": "Exportation de texte",
+    "exportTitle": "Enregistrer sous forme de fichier texte (.txt)",
+    "placeholder": "Écrivez ici… Ce que vous écrivez est visible par tous les participants en temps réel.",
+    "synced": "Synchronisé",
+    "syncing": "Les modifications sont synchronisées en temps réel",
+    "title": "Notes partagées"
+  },
+  "panel": {
+    "close": "Fermer",
+    "host": {
+      "actionsFor": "Actions de l'hôte pour {name}",
+      "kick": "Exclure",
+      "lockChat": "Verrouiller le chat",
+      "lowerHand": "Baisser la main",
+      "makePresenter": "Nommer présentateur",
+      "mute": "Couper le micro",
+      "muteAll": "Couper tous les micros",
+      "unlockChat": "Déverrouiller le chat"
+    },
+    "people": {
+      "note": "La liste des participants se met à jour en temps réel. Les flux vidéo apparaîtront dès que le moteur multimédia en direct sera connecté."
+    },
+    "tabCount": " ({count, number})",
+    "tabs": {
+      "analytics": "Analyses",
+      "assistant": "Assistant",
+      "breakout": "Salles de groupe",
+      "chat": "Chat",
+      "notes": "Notes",
+      "people": "Participants",
+      "polls": "Sondages",
+      "tables": "Tables"
+    },
+    "transcript": {
+      "captionTag": " (Parole)",
+      "download": "Télécharger la transcription intégrale ⬇",
+      "fileHeader": "Transcription du cours",
+      "fileSuffix": "-transcription.txt",
+      "preparing": "Préparation…",
+      "privateTag": " (Privé)",
+      "regionLabel": "Transcription de la parole en direct"
+    }
+  },
+  "poll": {
+    "addOption": "Ajouter une option",
+    "cancel": "Annuler",
+    "changeHint": "Pour modifier votre vote, sélectionnez une autre option.",
+    "emptyGuest": "Il n'y a actuellement aucun sondage actif. Lorsque l'hôte lancera un sondage, il apparaîtra ici.",
+    "emptyHost": "Aucun sondage actif. Cliquez sur « Nouveau sondage » pour en créer un.",
+    "end": "Terminer le sondage",
+    "endedBadge": "Terminé",
+    "finalTotal": "Résultats finaux · Total {count, plural, one {# vote} other {# votes}}",
+    "minOptions": "Au moins {min, number} options non vides sont requises pour démarrer.",
+    "multi": "Choix multiple",
+    "multiLabel": "Autoriser la sélection de plusieurs options (Choix multiple)",
+    "new": "Nouveau sondage",
+    "optionN": "Option {n, number}",
+    "optionTally": "{pct, number} % · {count, number}",
+    "optionsLabel": "Options ({used, number} sur {max, number})",
+    "questionAria": "Texte de la question",
+    "questionLabel": "Question",
+    "questionPlaceholder": "ex. : Quel sujet préférez-vous ?",
+    "removeOption": "Supprimer l'option",
+    "single": "Choix unique",
+    "start": "Démarrer le sondage",
+    "status": {
+      "ended": "Le sondage est terminé — résultats définitifs.",
+      "endingWait": "En attente de la confirmation de fin de sondage…",
+      "startFailed": "Le serveur n'a pas confirmé le démarrage du sondage. Vérifiez votre connexion et vos droits d'hôte, puis réessayez.",
+      "started": "Sondage démarré — en attente des réponses…",
+      "starting": "Démarrage du sondage…",
+      "voteFailed": "L'envoi du vote n'a pas été confirmé ; veuillez réessayer.",
+      "voteSent": "Votre vote a été enregistré ✓",
+      "voting": "Envoi du vote…",
+      "waitingAnswers": "En attente de réponses…"
+    },
+    "submitVote": "Envoyer le vote",
+    "title": "Sondage",
+    "updateVote": "Modifier le vote",
+    "voteCount": "{count, plural, one {# vote} other {# votes}}"
+  },
+  "preflight": {
+    "bandwidth": {
+      "detail": "Votre connexion Internet a été détectée comme faible ; la vidéo de la caméra sera transmise avec une qualité réduite pour éviter les interruptions.",
+      "good": "Bonne",
+      "label": "Qualité de la connexion Internet",
+      "unknown": "Inconnue",
+      "weak": "Faible"
+    },
+    "captions": {
+      "available": "Disponible",
+      "detail": "Le sous-titrage et la traduction en direct basés sur la reconnaissance vocale du navigateur fonctionnent uniquement sous Chrome/Edge. Les autres fonctionnalités du cours restent pleinement accessibles sans cela.",
+      "label": "Sous-titres en direct (optionnel)",
+      "limited": "Limité"
+    },
+    "device": {
+      "absentDetail": "Aucun périphérique {device} actif trouvé. Vérifiez le branchement ; vous pouvez toujours entrer dans le cours sans {device}.",
+      "absentStatus": "Introuvable",
+      "camera": "Caméra",
+      "deniedDetail": "L'accès à {device} a été refusé. Cliquez sur l'icône de cadenas à côté de la barre d'adresse et autorisez « {device} ». Vous pouvez toujours entrer sans cela.",
+      "deniedStatus": "Accès refusé",
+      "microphone": "Microphone",
+      "promptDetail": "L'autorisation d'accéder à {device} n'a pas encore été accordée. Sélectionnez Autoriser lorsque votre navigateur vous le demande.",
+      "promptStatus": "En attente d'autorisation",
+      "readyStatus": "Prêt"
+    },
+    "panel": {
+      "blocked": "Vous ne pouvez pas entrer dans le cours tant que les éléments en rouge ci-dessus ne sont pas résolus. Une fois corrigés, cliquez sur « Revérifier ».",
+      "checking": "Vérification en cours…",
+      "regionLabel": "Vérification des périphériques avant l'entrée",
+      "retry": "Revérifier",
+      "severity": {
+        "fail": "Problème",
+        "pass": "Prêt",
+        "warn": "Avertissement"
+      },
+      "title": "Vérification de l'état des périphériques"
+    },
+    "screen": {
+      "detail": "Votre navigateur ne prend pas en charge le partage d'écran. Si vous prévoyez de faire une présentation, utilisez Chrome, Edge ou Firefox pour ordinateur. Ce n'est pas requis pour assister au cours.",
+      "label": "Partage d'écran"
+    },
+    "secure": {
+      "bad": "Non sécurisé",
+      "detail": "Cette page n'est pas ouverte via une connexion sécurisée (HTTPS) ; les navigateurs n'accordent l'accès à la caméra et au microphone que sous HTTPS. Veuillez ouvrir l'URL avec https.",
+      "label": "Connexion sécurisée (HTTPS)",
+      "ok": "Sécurisé"
+    },
+    "supported": "Pris en charge",
+    "unsupported": "Non pris en charge",
+    "webrtc": {
+      "detail": "Votre navigateur ne prend pas en charge l'accès à la caméra et au microphone (getUserMedia). Veuillez utiliser une version récente de Chrome, Edge ou Firefox pour ordinateur.",
+      "label": "Prise en charge des appels vidéo (WebRTC)"
+    }
+  },
+  "pulse": {
+    "confused": "{count, plural, one {# personne est perplexe} other {# personnes sont perplexes}}",
+    "slower": "{count, plural, one {# personne souhaite un rythme plus lent} other {# personnes souhaitent un rythme plus lent}}",
+    "title": "Pouls du cours",
+    "window": "Au cours de la dernière minute"
+  },
+  "reactions": {
+    "throttled": "Ralentissez un peu — vos réactions sont temporairement limitées."
+  },
+  "review": {
+    "title": "Dossier d'évaluation académique",
+    "separateDecision": "La réception d'un signalement ne confirme pas que le cours n'a pas eu lieu. La décision incombe au responsable pédagogique.",
+    "pendingDecision": "Les preuves d'absence ont été enregistrées et le dossier est en attente de décision.",
+    "reportReceived": "Signalement reçu",
+    "reviewerMissing": "Aucun responsable pédagogique assigné ; le dossier reste ouvert.",
+    "reason": "Description et motif (au moins 10 caractères)",
+    "fileReport": "Soumettre le signalement",
+    "confirmNotHeld": "Confirmer le cours non tenu",
+    "rejectNotHeld": "Rejeter le signalement de cours non tenu",
+    "requestMakeup": "Demander une session de rattrapage",
+    "start": "Début proposé",
+    "end": "Fin proposée",
+    "submitMakeup": "Soumettre la demande de rattrapage",
+    "makeupRequested": "Créneau de rattrapage demandé",
+    "approveMakeup": "Approuver le créneau de rattrapage",
+    "rejectMakeup": "Rejeter la demande de rattrapage",
+    "makeupScheduled": "La session de rattrapage a été planifiée ; sa tenue n'est pas encore confirmée.",
+    "notHeld": {
+      "confirmed": "Non-tenue confirmée",
+      "rejected": "Signalement de non-tenue rejeté"
+    },
+    "makeup": {
+      "approved": "Demande de rattrapage approuvée",
+      "rejected": "Demande de rattrapage rejetée"
+    },
+    "actionFailed": "Impossible d'effectuer cette action ; veuillez réessayer."
+  },
+  "report": {
+    "playback": {
+      "open": "Relecture interactive"
+    },
+    "att": {
+      "ABSENT": "Absent",
+      "EXCUSED": "Excusé",
+      "LATE": "En retard",
+      "NONE": "—",
+      "PRESENT": "Présent",
+      "absent": "Absents : {value, number}",
+      "excused": "Excusés : {value, number}",
+      "finalized": "Finalisé",
+      "late": "En retard : {value, number}",
+      "present": "Présents : {value, number}",
+      "provisional": "Provisoire",
+      "total": "Total : {value, number}",
+      "unrecorded": "Non enregistré"
+    },
+    "attendance": {
+      "noRoster": "Aucune liste d'inscrits disponible pour cette session.",
+      "noSection": "Cette session n'est pas liée à une section spécifique ; la présence officielle n'est enregistrée que pour les cours rattachés à une section. La liste des participants réels apparaît ci-dessous.",
+      "title": "Présence"
+    },
+    "back": "Retour au centre des sessions",
+    "captions": {
+      "lines": "Lignes de sous-titres",
+      "linesValue": "{value, number} lignes",
+      "recording": "Enregistrement",
+      "soniox": "Traduction en direct enregistrée",
+      "title": "Sous-titres et enregistrement"
+    },
+    "chat": {
+      "download": "Télécharger la transcription",
+      "empty": "Aucun message n'a été enregistré dans le chat public pour cette session.",
+      "exportHead": "Journal du chat de la session : {title}",
+      "showAll": "Afficher les {value, number} messages",
+      "showLess": "Afficher moins",
+      "title": "Chat enregistré",
+      "truncated": "Affichage des {shown, number} premiers messages sur {total, number} au total (limite d'affichage)."
+    },
+    "conn": {
+      "direct": "Directe",
+      "nat": "Via NAT",
+      "relay": "Via Relais",
+      "unknown": "Inconnue"
+    },
+    "counselor": {
+      "adviseesTitle": "Mes étudiants suivis",
+      "eyebrow": "Cours en direct · Rapport consolidé de session",
+      "helpBody": "Vue conseiller : statistiques globales de présence (anonymisées) et état de présence des étudiants que vous suivez. Le chat et les transcriptions du cours sont exclus de cette vue.",
+      "helpTitle": "Guide du rapport conseiller",
+      "kpiAdvisees": "Étudiants suivis",
+      "kpiTotal": "Total des étudiants",
+      "noAdvisees": "Aucun de vos étudiants suivis n'est associé à cette session.",
+      "statsTitle": "Statistiques de présence à la session"
+    },
+    "engagement": {
+      "hands": "Mains levées :",
+      "handsTitle": "Mains levées",
+      "notCaptured": "Les éléments interactifs n'ont pas été enregistrés pour cette session (fermeture sans « Terminer la session » ou aucune interaction en direct).",
+      "polls": "Sondages :",
+      "reactions": "Réactions :",
+      "timelineTitle": "Chronologie",
+      "title": "Engagement et interaction"
+    },
+    "errLoad": "Échec du chargement du rapport de session.",
+    "full": {
+      "eyebrow": "Cours en direct · Rapport de session",
+      "helpBody": "Ce rapport regroupe toutes les données enregistrées d'une session de cours : horaires réels, présences des étudiants, liste des participants, chat sauvegardé, transcription de la parole par intervenant, sondages, réactions et statut de l'enregistrement.",
+      "helpTitle": "Guide du rapport de session"
+    },
+    "hostSuffix": " (Hôte)",
+    "kpi": {
+      "absent": "Absents",
+      "actualMinutes": "Durée réelle de la session",
+      "chatCount": "Messages de chat",
+      "joins": "Nombre de connexions",
+      "myMinutes": "Ma durée de présence",
+      "myStatus": "Mon statut de présence",
+      "participants": "Participants",
+      "presentIncLate": "Présents (retards inclus)",
+      "scheduledMinutes": "Durée planifiée",
+      "totalMinutes": "Total des minutes de présence"
+    },
+    "loading": "Chargement du rapport de session…",
+    "minutes": "{value, number} min",
+    "neverOpened": "Cette session n'a pas eu lieu (aucune connexion de l'hôte enregistrée).",
+    "noCourse": "Session générale",
+    "noName": "Sans titre",
+    "parent": {
+      "childrenTitle": "Présence de l'enfant / des enfants",
+      "eyebrow": "Cours en direct · Rapport de présence enfant",
+      "helpBody": "Conformément à la politique d'accès, le rapport n'affiche que le récapitulatif de présence de votre enfant ; le chat et les transcriptions du cours ne sont pas visibles par les parents.",
+      "helpTitle": "Guide du rapport parent",
+      "kpiChildren": "Enfant associé à cette session",
+      "noChildren": "Aucun de vos enfants n'est associé à cette session."
+    },
+    "participants": {
+      "empty": "Personne n'a rejoint cette session.",
+      "title": "Participants"
+    },
+    "poll": {
+      "ended": "Terminé",
+      "multi": " · Choix multiple",
+      "open": "Ouvert",
+      "total": "Total des votes : {value, number}"
+    },
+    "polls": {
+      "title": "Sondages"
+    },
+    "recording": {
+      "duration": " · {duration}",
+      "none": "Non disponible",
+      "play": "Lire l'enregistrement",
+      "processing": "Traitement en cours…"
+    },
+    "self": {
+      "attendanceTitle": "Ma présence",
+      "eyebrow": "Cours en direct · Votre rapport pour cette session",
+      "firstJoin": "Première connexion :",
+      "helpBody": "Ceci est votre rapport personnel : votre présence, le chat public, vos interventions enregistrées et les contenus publics de la session (sondages et réactions).",
+      "helpTitle": "Guide du rapport personnel",
+      "joinsLabel": "Nombre de connexions :",
+      "minutesLabel": "Temps de présence :",
+      "myTranscript": "Mes interventions",
+      "myTranscriptEmpty": "Aucune prise de parole enregistrée pour vous lors de cette session.",
+      "reactionsTitle": "Réactions de la session",
+      "reactionsTotal": "Total : {value, number}",
+      "recordingTitle": "Enregistrement de la session"
+    },
+    "table": {
+      "conn": "Type de connexion",
+      "firstJoin": "Première connexion",
+      "joins": "Connexions",
+      "minutes": "Durée",
+      "name": "Nom",
+      "status": "Statut"
+    },
+    "timeline": {
+      "breakoutClose": "Fermeture des salles de sous-commission",
+      "breakoutOpen": "Ouverture des salles de sous-commission",
+      "hand": "Main levée",
+      "pollEnd": "Fin du sondage",
+      "pollStart": "Début du sondage"
+    },
+    "timing": {
+      "actual": "Session réelle",
+      "late": "Démarrée avec {value, number} minutes de retard",
+      "notHeld": "Non tenue",
+      "onTime": "Démarrée à l'heure",
+      "range": "{start} à {end}",
+      "scheduled": "Planifiée",
+      "title": "Horaires"
+    },
+    "transcript": {
+      "empty": "Aucune parole enregistrée pour cette session (les sous-titres en direct ou la traduction n'étaient pas actifs).",
+      "title": "Transcription de la parole par intervenant",
+      "truncatedAll": "Une partie de la transcription a été omise en raison des limites de chargement.",
+      "truncatedSpeaker": "Affichage des {shown, number} premières interventions sur {total, number} (limite d'affichage).",
+      "utterances": "{value, number} interventions"
+    },
+    "unavailable": "Le rapport de session est actuellement indisponible."
+  },
+  "session": {
+    "absence": {
+      "instructorDisconnected": "Connexion de l'enseignant perdue — le cours se poursuit en attendant son retour.",
+      "takeOver": "Prendre temporairement le contrôle des tables et de la file d'attente de parole"
+    },
+    "supervision": {
+      "waiting": "Le cours est temporairement sans supervision académique. En attente du retour de l'enseignant ou de la prise de relais par un assistant.",
+      "paused": "La supervision académique n'a pas été reprise dans le délai imparti ; l'enregistrement est suspendu. Le cours et les contenus sont préservés.",
+      "recordingDenied": "Pour enregistrer ce cours, la validation de la responsabilité académique et une présence effective sont requises.",
+      "offer": "Transférer la responsabilité du cours à {name}",
+      "offerPending": "Offre de responsabilité envoyée ; tant qu'elle n'est pas acceptée par l'assistant, elle demeure sous votre responsabilité.",
+      "accept": "Accepter la responsabilité académique du cours",
+      "conflict": "Vous êtes déjà responsable d'un autre cours en direct. Veuillez le terminer d'abord ou déléguer la responsabilité à un assistant habilité et présent.",
+      "returnFirst": "Retourner au premier cours",
+      "returnLobby": "Retourner à l'antichambre"
+    },
+    "cohost": {
+      "denied": "Impossible d'accorder le statut de co-hôte ; l'assistant doit être présent dans ce cours et assigné à cette section.",
+      "grant": "Promouvoir temporairement {name}",
+      "granted": "Vous êtes désormais co-hôte temporaire de ce cours.",
+      "instructorPresent": "L'enseignant est de retour dans le cours ; la demande de délégation n'est pas autorisée.",
+      "manage": "Gérer le co-hôte temporaire",
+      "revoke": "Révoquer le statut de co-hôte pour {name}",
+      "revoked": "Votre accès de co-hôte a été révoqué."
+    },
+    "kick": {
+      "failed": "L'exclusion de l'étudiant est incomplète. La connexion média n'est pas encore fermée ; veuillez réessayer.",
+      "manage": "Étudiants exclus de cette session",
+      "restore": "Autoriser {name} à rejoindre à nouveau",
+      "restoreFailed": "Impossible d'enregistrer l'autorisation de retour. Veuillez réessayer."
+    },
+    "archive": {
+      "btn": "Archive des transcriptions",
+      "download": "Télécharger l'archive",
+      "empty": "Aucune parole enregistrée dans l'archive pour l'instant.",
+      "error": "Échec de la récupération de l'archive.",
+      "loading": "Chargement de l'archive…",
+      "reload": "Recharger",
+      "retry": "Réessayer",
+      "short": "Archive",
+      "title": "Archive des transcriptions (Enregistrées)"
+    },
+    "browserUnknown": "Inconnu",
+    "capset": {
+      "btn": "Paramètres des sous-titres",
+      "fontSize": "Taille de police",
+      "lg": "Grande",
+      "maxLines": "Lignes d'affichage maximales",
+      "md": "Moyenne",
+      "off": "Désactivé",
+      "on": "Activé",
+      "showNames": "Afficher les noms des intervenants",
+      "sm": "Petite",
+      "title": "Paramètres d'affichage des sous-titres"
+    },
+    "captions": {
+      "cpuSlow": "Le traitement vocal sur le processeur actuel du serveur est plus lent que le temps réel ; les sous-titres s'activeront après la mise à niveau du serveur",
+      "deviceUnsupported": "Sous-titres non pris en charge sur ce navigateur/appareil ; utilisez Safari sur iPhone ou un ordinateur",
+      "engineStuck": "Le moteur vocal du navigateur ne répond pas ; veuillez réessayer",
+      "fallbackServer": "Moteur vocal du navigateur non autorisé ; bascule vers le moteur serveur (peut être plus lent sur ce serveur)",
+      "micDenied": "Accès au microphone non accordé",
+      "micRequired": "Le microphone doit être actif pour les sous-titres",
+      "needMic": "Réactivez le micro pour activer les sous-titres",
+      "noNativeNoServer": "Votre navigateur ne dispose pas de sous-titres natifs et le service vocal serveur n'est pas actif",
+      "recordFailed": "L'enregistrement audio pour les sous-titres a échoué",
+      "unavailableHere": "Sous-titres non disponibles dans ce navigateur",
+      "unsupported": "Votre navigateur ne prend pas en charge la transcription en direct (Chrome/Edge)"
+    },
+    "close": "Fermer",
+    "collabLoading": "Chargement…",
+    "conn": {
+      "fair": "Moyenne",
+      "good": "Bonne",
+      "poor": "Médiocre",
+      "unknown": "Inconnue"
+    },
+    "connFoot": "Qualité de connexion : {quality} · {count, number} participants",
+    "diag": {
+      "available": "Disponible ✓",
+      "browser": "Navigateur",
+      "engine": "Moteur",
+      "engineNative": "Navigateur natif",
+      "engineNone": "❌ Aucun",
+      "engineServer": "Serveur",
+      "hint": "Si le « Niveau audio » ne bouge pas lorsque vous parlez, le navigateur ne transmet pas l'audio du microphone à la page.",
+      "lastError": "Dernière erreur",
+      "level": "Niveau audio",
+      "listening": "À l'écoute ✓",
+      "mic": "Microphone",
+      "micOff": "Désactivé ❌",
+      "micOn": "Activé ✓",
+      "off": "Désactivé",
+      "restarts": "Tentatives de démarrage",
+      "speech": "Reconnaissance vocale du navigateur",
+      "starting": "Démarrage…",
+      "status": "🛈 État des sous-titres :",
+      "unavailable": "Non disponible ❌"
+    },
+    "download": {
+      "chat": "Télécharger le chat",
+      "formatMenu": "Format de téléchargement",
+      "label": "Télécharger",
+      "loading": "Téléchargement en cours…",
+      "srt": "Sous-titres (.srt)",
+      "txt": "Télécharger TXT",
+      "vtt": "WebVTT (.vtt)"
+    },
+    "end": {
+      "cancel": "Annuler",
+      "confirmBody": "Une fois confirmé, vous aurez 10 secondes pour annuler la fin du cours ; ensuite tous les participants seront déconnectés.",
+      "confirmCta": "Terminer le cours pour tout le monde",
+      "confirmTitle": "Terminer le cours pour tous les participants ?",
+      "failed": "Impossible de terminer la session ; veuillez réessayer.",
+      "pendingHost": "Le cours se terminera dans {seconds} secondes.",
+      "pendingStudent": "L'enseignant met fin au cours.",
+      "undo": "Annuler la fin du cours",
+      "undoFailed": "Le délai d'annulation a expiré. Pour continuer, créez une nouvelle session."
+    },
+    "ended": {
+      "byHost": "Cours terminé par l'enseignant",
+      "forAll": "Cours terminé pour tout le monde",
+      "redirecting": "Redirection vers la liste des cours…"
+    },
+    "film": {
+      "emptyHint": "À mesure que les participants rejoindront, leurs vignettes apparaîtront ici.",
+      "emptyTitle": "Personne n'a encore rejoint le cours",
+      "regionLabel": "Participants"
+    },
+    "fs": {
+      "enter": "Passer en plein écran",
+      "enterLabel": "Plein écran ⛶",
+      "exit": "Quitter le plein écran"
+    },
+    "guest": "Invité",
+    "jitsi": {
+      "loadFailed": "Échec du chargement de la salle vidéo. Vérifiez votre connexion Internet ou le domaine Jitsi, ou utilisez le bouton ci-dessous pour ouvrir la session dans un nouvel onglet.",
+      "openNewTab": "Ouvrir la session dans un nouvel onglet"
+    },
+    "lang": {
+      "faShort": "FA"
+    },
+    "langMenu": {
+      "help": "Langue dans laquelle vous consultez les sous-titres",
+      "my": "Ma langue : {label}",
+      "notFound": "Aucune langue trouvée.",
+      "searchLabel": "Rechercher une langue",
+      "searchPlaceholder": "Rechercher une langue…"
+    },
+    "layout": {
+      "custom": "Personnalisé",
+      "focusPresentation": "Priorité à la présentation",
+      "focusVideo": "Priorité à la vidéo",
+      "smart": "Intelligent"
+    },
+    "leave": "Quitter le cours",
+    "leaveShort": "Quitter",
+    "media": {
+      "audioOnly": "La caméra est indisponible ; poursuite en mode audio uniquement.",
+      "denied": "L'accès à la caméra ou au micro a été refusé. Cliquez sur l'icône de cadenas dans la barre d'adresse pour autoriser, puis cliquez sur « Réessayer ».",
+      "errSuffix": " (Erreur : {name})",
+      "generic": "Impossible d'accéder aux périphériques média. Vous pouvez rester dans le cours avec la caméra et le micro coupés.",
+      "inUse": "La caméra est utilisée par une autre application ou un autre onglet — veuillez fermer les onglets de l'antichambre ou les applications en arrière-plan.",
+      "notFound": "Aucune caméra ni aucun microphone trouvés. Branchez un appareil et cliquez sur « Réessayer », ou continuez sans son.",
+      "retry": "Réessayer",
+      "unsupported": "Votre navigateur ne prend pas en charge l'accès à la caméra/au micro ou la page n'est pas chargée via une connexion sécurisée (HTTPS)."
+    },
+    "panel": {
+      "chatTranslated": "Chat (Traduit)",
+      "empty": "Aucune parole enregistrée pour le moment.",
+      "regionLabel": "Paroles traduites en direct",
+      "title": "Chat en direct (Traduit)"
+    },
+    "participant": "Participant",
+    "rec": {
+      "active": "Enregistrement en cours",
+      "armed": "Prêt à enregistrer",
+      "cancel": "Annuler",
+      "netFailed": "Échec de connexion au serveur. Veuillez réessayer.",
+      "paused": "Temporairement en pause",
+      "retry": "Réessayer",
+      "saveCta": "Enregistrer dans l'archive",
+      "saveFailed": "Échec de l'enregistrement (code {code, number}). Veuillez réessayer.",
+      "saveMeta": "Taille : {size} Mo · Durée : {clock}",
+      "saveTitle": "Enregistrer l'enregistrement dans l'archive ?",
+      "saved": "Enregistrement sauvegardé dans l'archive",
+      "durableServer": "Ce segment est enregistré sur le serveur.",
+      "durablePending": "Le segment est conservé dans ce navigateur en attente de validation par le serveur.",
+      "durableUnprotected": "Le segment actif n'est pas encore sécurisé ; une fermeture inattendue peut entraîner la perte des données non sauvegardées.",
+      "recoveryAvailable": "Un enregistrement sécurisé non validé est disponible pour récupération.",
+      "recoveryOpen": "Récupérer l'enregistrement",
+      "startFailed": "Échec du démarrage de l'enregistrement. Veuillez réessayer.",
+      "unsupportedRecorder": "Votre navigateur ne prend pas en charge l'enregistrement vidéo (MediaRecorder). Veuillez utiliser une version récente de Chrome, Edge ou Firefox pour ordinateur.",
+      "unsupportedScreen": "Votre navigateur ne prend pas en charge l'enregistrement de l'écran. Veuillez utiliser une version récente de Chrome, Edge ou Firefox pour ordinateur.",
+      "uploading": "Téléversement en cours… {pct, number} %"
+    },
+    "reconnecting": "Reconnexion en cours…",
+    "selfName": "{name} (Vous)",
+    "share": {
+      "failed": "Échec du partage d'écran. Veuillez réessayer.",
+      "unsupported": "Votre navigateur ne prend pas en charge le partage d'écran. Veuillez utiliser une version récente de Chrome, Edge ou Firefox pour ordinateur."
+    },
+    "someone": "Un participant",
+    "soniox": {
+      "captionFailed": "Flux de sous-titres déconnecté ; la connexion n'a pas pu être rétablie après plusieurs tentatives. Le cours se poursuit normalement.",
+      "connecting": "Traduction en direct : Connexion en cours…",
+      "detectedLabel": "Détectée :",
+      "detectedTitle": "Langue détectée de l'orateur",
+      "error": "Traduction en direct : Erreur — Nouvel essai en cours",
+      "exportDate": "Date d'exportation : {date}",
+      "exportHead": "Transcription traduite en direct — Session {id}",
+      "group": "Traduction en direct",
+      "langSep": ", ",
+      "on": "Traduction en direct : Activée",
+      "receiveOnly": "Mode affichage des sous-titres : Voir les paroles des autres sans activer le micro",
+      "saveFallback": "Échec de l'enregistrement sur le serveur — sauvegardé localement à la place",
+      "stConnecting": "Connexion en cours…",
+      "stError": "Erreur",
+      "stMore": " +{value, number}",
+      "stOn": "Activé",
+      "stOnTargets": "Activé · → {langs}",
+      "stPaused": "En pause (Micro coupé)",
+      "stReceiveOnly": "Affichage uniquement (Sans micro)",
+      "stReconnecting": "Reconnexion…",
+      "stTranscribeOnly": "Activé · Transcription uniquement",
+      "turnOn": "Activer la traduction en direct",
+      "unavailable": "Traduction en direct indisponible"
+    },
+    "stage": {
+      "captionFeed": "Sous-titres traduits en direct",
+      "modeLabel": "Mode de présentation",
+      "noShare": "Aucune présentation partagée",
+      "noShareHint": "Pour présenter, cliquez sur « Partager l'écran » ou sélectionnez « Tableau blanc » pour dessiner ensemble.",
+      "share": "Partager l'écran",
+      "whiteboard": "Tableau blanc"
+    },
+    "tile": {
+      "handRaised": "Main levée",
+      "pin": "Épingler {name}",
+      "quality": {
+        "connecting": "Reconnexion",
+        "fair": "Qualité de connexion : Moyenne",
+        "good": "Qualité de connexion : Bonne",
+        "poor": "Qualité de connexion : Médiocre",
+        "unknown": "Qualité de connexion : Inconnue"
+      }
+    },
+    "titleFallback": "Cours en direct",
+    "duplicate": {
+      "replaced": "Vous vous êtes connecté depuis un autre appareil ; l'audio et la vidéo sur cet appareil ont été coupés.",
+      "continued": "Connexion de l'appareil précédent fermée ; vous êtes désormais connecté depuis cet appareil.",
+      "continueHere": "Continuer sur cet appareil"
+    },
+    "toast": {
+      "captionsOn": "Sous-titres activés — chaque orateur est identifié par son nom",
+      "chatLocked": "Chat verrouillé par l'hôte",
+      "chatUnlocked": "Chat déverrouillé",
+      "joined": "{name} a rejoint le cours",
+      "kicked": "Vous avez été exclu du cours par l'hôte.",
+      "left": "{name} a quitté le cours",
+      "recStarted": "Enregistrement démarré",
+      "recStopped": "Enregistrement arrêté"
+    },
+    "toolbar": {
+      "cam": "Caméra",
+      "captionsGroup": "Sous-titres et traduction",
+      "ccOff": "Sous-titres (CC)",
+      "ccOn": "Sous-titres ✓ ({lang})",
+      "ccStarting": "Sous-titres… ({lang})",
+      "endClass": "Terminer le cours",
+      "endClassShort": "Terminer",
+      "handShort": "Main",
+      "langEn": "Langue : Anglais",
+      "langFa": "Langue : Persan",
+      "layout": "Disposition",
+      "mic": "Microphone",
+      "more": "Plus",
+      "moreLabel": "Plus de commandes",
+      "panel": "Chat et participants",
+      "panelShort": "Chat",
+      "raiseHand": "Lever la main",
+      "reactions": "Réactions",
+      "sendReaction": "Envoyer la réaction {emoji}",
+      "share": "Partager l'écran",
+      "shareShort": "Partager"
+    },
+    "topbar": {
+      "elapsedLabel": "Durée du cours",
+      "hostPrefix": "Hôte : {name}",
+      "loadingTitle": "Chargement…",
+      "recOffTitle": "L'enregistrement s'effectue dans le navigateur de l'hôte et est sauvegardé dans l'archive une fois terminé",
+      "recOnTitle": "Cette session est actuellement enregistrée (enregistrement dans le navigateur de l'hôte)",
+      "recStart": "Démarrer l'enregistrement",
+      "recStop": "Arrêter l'enregistrement"
+    },
+    "unpin": "Désépingler",
+    "unpinLabel": "Quitter l'épinglage ✕",
+    "view": {
+      "gallery": "Mosaïque",
+      "modeLabel": "Mode d'affichage",
+      "podium": "Tribune"
+    },
+    "you": "Vous"
+  },
+  "signals": {
+    "aria": {
+      "confused": "Signaler que le concept n'est pas clair",
+      "slower": "Demander à l'enseignant de ralentir le rythme"
+    },
+    "confused": "Je n'ai pas compris",
+    "sent": "Enregistré",
+    "slower": "Ralentir le rythme"
+  },
+  "tables": {
+    "assign": {
+      "balanced": "Automatique (équilibré)",
+      "noStudents": "Aucun étudiant dans le cours pour l'instant.",
+      "pickFor": "Table pour {name}",
+      "random": "Aléatoire",
+      "title": "Placer les étudiants",
+      "unassigned": "Non assigné"
+    },
+    "cancel": "Annuler",
+    "confirm": "Oui",
+    "countLabel": "Nombre de nouvelles tables",
+    "capacity": "{used, number} sur {total, number} personnes",
+    "capacityLabel": "Capacité par table",
+    "create": "Créer une table",
+    "defaultName": "Table {index, number}",
+    "dissolve": "Dissoudre la table",
+    "dissolveConfirm": "Dissoudre « {name} » ? Ses membres retourneront dans la classe principale.",
+    "duration": {
+      "label": "Durée du travail en table",
+      "option": "{count, number} minutes"
+    },
+    "empty": "Aucune table créée pour le moment.",
+    "extend": "{count, number} minutes supplémentaires",
+    "limit": "Maximum {count, number} tables",
+    "mediaNote": "Pendant le travail en table, seuls vos camarades de table vous voient et vous entendent.",
+    "memberCount": "{count, number} personnes",
+    "members": "Camarades de table",
+    "nameLabel": "Nom de la table",
+    "peekNotice": "L'enseignant supervise les tables",
+    "rejected": {
+      "empty": "Aucune table n'a de membres.",
+      "full": "Cette table est complète.",
+      "error": "Une erreur est survenue ; veuillez réessayer.",
+      "forbidden": "Vous n'avez pas l'autorisation pour cette action.",
+      "invalid": "Demande invalide.",
+      "limit": "Vous avez atteint le nombre maximal de tables.",
+      "noRound": "Le travail en table n'a pas commencé.",
+      "notFound": "Cette table n'existe plus.",
+      "roundActive": "Cette action ne peut pas être effectuée pendant le travail en table.",
+      "selectionLocked": "La sélection de table est verrouillée par l'enseignant."
+    },
+    "remaining": "Temps restant : {time}",
+    "rename": "Renommer",
+    "returnAll": "Rappeler tout le monde",
+    "returnAllConfirm": "Rappeler tout le monde dans la classe principale ?",
+    "returned": "Tout le monde est revenu dans la classe principale.",
+    "running": "Travail en table en cours",
+    "save": "Enregistrer",
+    "select": {
+      "action": "Sélectionner la table",
+      "full": "Complète",
+      "hint": "Sélectionnez une table disponible ; vous pouvez la modifier tant que l'enseignant laisse la sélection ouverte.",
+      "selected": "Votre table",
+      "title": "Sélectionner une table"
+    },
+    "selection": {
+      "close": "Fermer la sélection des étudiants",
+      "open": "Ouvrir la sélection des étudiants"
+    },
+    "start": "Démarrer le travail en table",
+    "startHint": "Au moins une table avec des membres est requise.",
+    "timeUp": "Le temps de travail en table est écoulé ; tout le monde est retourné dans la classe principale.",
+    "title": "Tables de groupe",
+    "transcriptConsentProgress": "Consentement transcription vocale : {accepted} sur {total}",
+    "transcriptDurableEnabled": "L'enregistrement persistant n'est actif qu'avec le consentement de tous.",
+    "transcriptConsentAccept": "Accepter l'enregistrement audio de la table",
+    "transcriptConsentWithdraw": "Retirer le consentement",
+    "transcriptWithdrawalReason": "Motif du retrait du consentement",
+    "transcriptQuarantined": "La transcription de cette table est mise en quarantaine pour une recréation sécurisée.",
+    "transcriptConsentUnavailable": "L'état du consentement à la transcription n'est pas disponible.",
+    "visit": {
+      "join": "Rejoindre",
+      "joined": "Vous êtes à « {name} »",
+      "leave": "Retourner à la classe principale",
+      "peek": "Écouter discrètement",
+      "peeking": "Écoute de « {name} »"
+    },
+    "you": {
+      "assigned": "Vous êtes à « {name} »",
+      "unassigned": "Vous n'avez pas encore été assigné à une table.",
+      "waiting": "Le travail en table n'a pas encore commencé."
+    }
+  },
+  "wb": {
+    "canvasLabel": "Zone de dessin du tableau blanc partagé",
+    "clearAll": "Tout effacer",
+    "clearAllTitle": "Tout effacer (Hôte)",
+    "clearConfirm": "Confirmer l'effacement complet",
+    "clearConfirmShort": "Confirmer ?",
+    "clearConfirmTitle": "Cliquez à nouveau pour confirmer",
+    "colorGroup": "Couleur",
+    "colorSwatch": "Couleur {color}",
+    "exportPng": "Exporter en PNG",
+    "exportPngTitle": "Enregistrer sous forme d'image PNG",
+    "hintEmpty": "Le tableau blanc est vide. Sélectionnez un outil et dessinez sur la zone de travail.",
+    "hintText": "Saisissez du texte et appuyez sur Entrée pour le placer sur le tableau.",
+    "itemCount": "{count, plural, one {# élément sur le tableau blanc} other {# éléments sur le tableau blanc}}",
+    "lock": "Verrouiller le tableau blanc",
+    "lockTitle": "Verrouiller le tableau blanc pour les participants",
+    "lockedNotice": "Le tableau blanc a été verrouillé par l'hôte ; consultation uniquement pour le moment.",
+    "lockedTitle": "Le tableau blanc est verrouillé — cliquez pour déverrouiller",
+    "redo": "Rétablir",
+    "textLabel": "Texte sur le tableau blanc",
+    "textPlaceholder": "Texte… (Entrée pour placer, Échap pour annuler)",
+    "toolbarLabel": "Outils du tableau blanc",
+    "tools": {
+      "arrow": "Flèche",
+      "circle": "Cercle",
+      "eraser": "Gomme",
+      "line": "Ligne",
+      "pen": "Stylo",
+      "rect": "Rectangle",
+      "select": "Sélectionner",
+      "text": "Texte"
+    },
+    "undo": "Annuler",
+    "undoTitle": "Annuler (votre dernier élément)",
+    "unlock": "Déverrouiller le tableau blanc",
+    "widthGroup": "Épaisseur du trait",
+    "widthOption": "Épaisseur {width, number}"
+  },
+  "sessionAnalysis": {
+    "title": "Analyse de la session",
+    "loading": "Analyse en cours…",
+    "failed": "L'analyse de la session n'a pas pu être effectuée",
+    "reviewRequired": "Cette sortie est un brouillon et nécessite la révision de l'enseignant.",
+    "confidence": "Confiance estimée : {value, number, ::percent}",
+    "unavailable": "L'analyse de la session en direct n'est pas disponible. Aucun résumé ni question pédagogique n'a été généré.",
+    "truncated": "Cette analyse ne couvre qu'une partie de la transcription enregistrée ; le texte de la session dépasse la limite de traitement.",
+    "quiz": "Questions suggérées ({count, number})",
+    "suggestedAnswer": "Réponse suggérée : {answer}",
+    "sources": "Extraits de transcription de référence ({count, number})"
+  },
+  "playback": {
+    "back": "Retour au rapport de session",
+    "chatTitle": "Chat public du replay",
+    "archivedChatTitle": "Chat archivé du direct (Lecture seule)",
+    "replayChatTitle": "Nouveau chat du replay",
+    "replayChatMessageLabel": "Nouveau message de replay",
+    "sendReplayChat": "Publier le message au repère temporel actuel",
+    "replayChatHidden": "Ce message a été masqué pour les autres",
+    "replayChatHide": "Masquer le message",
+    "replayChatUnhide": "Afficher le message",
+    "replayChatReportReason": "Motif du signalement du message",
+    "replayChatReport": "Signaler le message",
+    "replayChatUnavailable": "Le chat du replay n'est pas disponible ou l'action n'est pas autorisée.",
+    "loadMoreChat": "Charger les messages précédents",
+    "makeupTitle": "Crédit de présence par rattrapage en replay",
+    "makeupSeparateNotice": "Ce crédit est attribué après validation de l'enseignant et ne modifie pas les présences historiques.",
+    "makeupSessionLabel": "Identifiant de la session de rattrapage",
+    "makeupThresholdLabel": "Temps de visionnage minimum validé (pourcentage)",
+    "makeupEnable": "Activer le rattrapage",
+    "makeupDisable": "Désactiver le rattrapage",
+    "makeupThreshold": "Temps de visionnage minimum requis : {percent}%",
+    "makeupOpenSession": "Accéder au replay de la session de rattrapage",
+    "makeupWatched": "Temps de visionnage enregistré par le serveur : {percent}%",
+    "makeupReasonLabel": "Motif de la demande de rattrapage",
+    "makeupClaim": "Soumettre la demande de validation de rattrapage",
+    "makeupCreditStatus": "Statut du crédit : {status}",
+    "makeupStudentLabel": "Étudiant",
+    "makeupDecisionReasonLabel": "Motif de la décision de l'enseignant",
+    "makeupConfirm": "Valider le crédit de rattrapage",
+    "makeupReverse": "Annuler manuellement le crédit validé",
+    "makeupUnavailable": "L'action de présence par rattrapage n'est pas autorisée ou les informations sont indisponibles.",
+    "makeupStatus": {
+      "pending": "En attente d'approbation",
+      "confirmed": "Confirmé",
+      "cancelled": "Annulé",
+      "reversed": "Annulé a posteriori"
+    },
+    "artifactsTitle": "Éléments partagés persistants d'après-cours",
+    "artifactsAudienceNotice": "Ces éléments ne sont visibles que par les utilisateurs ayant accès à ce cours et à cet enregistrement ; les partages d'écran ne sont pas enregistrés.",
+    "artifactsEnableLearners": "Autoriser les contributions des apprenants",
+    "artifactsDisableLearners": "Désactiver les contributions des apprenants",
+    "artifactKindLabel": "Type de contenu",
+    "artifactTitleLabel": "Titre",
+    "artifactWhiteboardLabel": "Capture textuelle du tableau blanc",
+    "artifactDocumentLabel": "Identifiant du document de cours",
+    "artifactCreate": "Enregistrer l'élément partagé",
+    "artifactApprove": "Approuver la publication",
+    "artifactHide": "Masquer",
+    "artifactUnavailable": "L'enregistrement ou la gestion de cet élément n'est pas autorisé.",
+    "artifactKind": {
+      "pdf": "PDF",
+      "whiteboard": "Tableau blanc",
+      "file_pin": "Fichier épinglé"
+    },
+    "artifactStatus": {
+      "pending": "En attente d'approbation par l'enseignant",
+      "published": "Publié",
+      "hidden": "Masqué"
+    },
+    "notesTitle": "Mes notes horodatées",
+    "noteLabel": "Texte de la note",
+    "addNote": "Ajouter une note au repère actuel",
+    "saveNote": "Enregistrer la modification",
+    "editNote": "Modifier",
+    "deleteNote": "Supprimer",
+    "seekNote": "Aller au repère de la note",
+    "questionsTitle": "Questions du replay",
+    "questionLabel": "Question horodatée",
+    "askQuestion": "Poser une question",
+    "questionPublished": "Publiée pour la classe",
+    "questionOptIn": "Consentir à la publication",
+    "questionOptOut": "Retirer le consentement de publication",
+    "questionApprove": "Approuver la publication",
+    "questionUnpublish": "Dépublier",
+    "answerLabel": "Réponse officielle",
+    "answerQuestion": "Soumettre la réponse",
+    "roomTitle": "Salon de visionnage en groupe",
+    "createRoom": "Créer un salon privé",
+    "roomIdLabel": "Identifiant du salon",
+    "joinRoom": "Rejoindre le salon",
+    "roomUserLabel": "Identifiant utilisateur",
+    "inviteRoom": "Inviter",
+    "offerHandover": "Proposer le transfert de contrôle",
+    "acceptHandover": "Accepter le transfert",
+    "removeMember": "Retirer du salon",
+    "closeRoom": "Fermer le salon",
+    "roomPlay": "Lecture pour tous",
+    "roomPause": "Pause pour tous",
+    "roomSeek": "Déplacer la lecture de groupe au moment sélectionné",
+    "roomUnavailable": "Le salon est indisponible ou vous ne disposez pas des autorisations nécessaires.",
+    "roomWaiting": "En attente de connexion au salon…",
+    "questionUnavailable": "Cette action n'est pas autorisée ou la question n'est plus disponible.",
+    "questionHide": "Masquer la question",
+    "questionUnhide": "Afficher la question",
+    "questionHidden": "Masquée pour la classe",
+    "questionReportReason": "Motif du signalement de la question",
+    "questionReport": "Signaler la question",
+    "eyebrow": "Relecture interactive",
+    "loading": "Préparation du replay…",
+    "jump": "Aller à cet événement",
+    "jumpToPoll": "Aller au sondage {question}",
+    "jumpToTableStart": "Aller au début de l'activité en table",
+    "jumpToTranscript": "Aller à ce repère de transcription",
+    "speedLabel": "Vitesse de lecture",
+    "watchedProgress": "Replay visionné sur cet appareil : {percent}%",
+    "serverWatchEvidence": "Progression enregistrée sur le serveur : {percent}%.",
+    "notAttendanceCredit": "Cette valeur seule ne constitue pas un crédit de présence.",
+    "fullscreen": "Plein écran",
+    "captionsLabel": "Sous-titres de la session",
+    "showCaptions": "Afficher les sous-titres",
+    "hideCaptions": "Masquer les sous-titres",
+    "me": "Moi",
+    "noMatches": "Aucun texte correspondant à votre recherche.",
+    "noRecording": "Aucun enregistrement de replay n'est disponible pour cette session.",
+    "open": "Relecture interactive",
+    "pollsTitle": "Sondages enregistrés",
+    "pollNotReached": "Pour répondre, atteignez d'abord le repère de ce sondage dans le replay.",
+    "pollAnswerFailed": "Impossible d'enregistrer la réponse au replay ; veuillez réessayer.",
+    "searchLabel": "Rechercher dans la transcription",
+    "searchPlaceholder": "Rechercher dans les paroles de la session…",
+    "searchLoading": "Recherche dans la transcription en cours…",
+    "searchUnavailable": "La recherche dans la transcription n'est pas autorisée ou temporairement indisponible.",
+    "loadMoreResults": "Afficher plus de résultats",
+    "table": "Table {id}",
+    "timelineLabel": "Chronologie des événements du replay",
+    "transcriptTitle": "Transcription avec recherche",
+    "downloadTranscript": "Télécharger la transcription",
+    "transcriptDownloadUnavailable": "Le téléchargement de la transcription n'est pas autorisé ou temporairement indisponible.",
+    "unavailable": "Le replay de cette session n'est pas disponible."
+  }
+}

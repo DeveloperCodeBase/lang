@@ -1,0 +1,372 @@
+{
+  "title": {
+    "queue": "Moderationswarteschlange",
+    "community": "Community-Moderation",
+    "rules": "Automatisierte Regeln",
+    "log": "Aktionsprotokoll"
+  },
+  "common": {
+    "refresh": "Aktualisieren",
+    "loading": "Laden…",
+    "retry": "Versuchen Sie es noch einmal",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "empty": "Keine Artikel gefunden.",
+    "loadError": "Laden fehlgeschlagen.",
+    "actionError": "Aktion fehlgeschlagen.",
+    "prev": "Zurück",
+    "next": "Als nächstes",
+    "pageOf": "Seite {page} von {pages}"
+  },
+  "queue": {
+    "page": {
+      "eyebrow": "Moderator · Content-Moderationsschalter",
+      "lead": "Benutzerberichte und automatisierte Regelflags werden in einer einzigen Warteschlange mit Fristen zusammengefasst. Fordern Sie einen Gegenstand an, überprüfen Sie den Kontext und treffen Sie eine Entscheidung. Die Entscheidung wird sofort ausgeführt und der Autor benachrichtigt.",
+      "helpTitle": "Hilfe zur Moderationswarteschlange",
+      "help": "Verwenden Sie Ansichten und Filter, um die Warteschlange einzugrenzen und nach dem nächstgelegenen Abgabetermin zu sortieren. „Claim“ weist Ihnen den Bericht zu, sodass nicht zwei Moderatoren gleichzeitig an demselben Element arbeiten. Entscheidungen über von Ihnen eingereichte Berichte oder von Ihnen verfasste Inhalte müssen von einem anderen Moderator getroffen werden."
+    },
+    "kpi": {
+      "open": "Offen",
+      "breached": "Überfällig",
+      "escalated": "Eskaliert",
+      "mine": "Mir zugewiesen",
+      "unassigned": "Nicht zugewiesen",
+      "filtered": "Gefiltert",
+      "resolved": "Gelöst",
+      "dismissed": "Entlassen"
+    },
+    "viewsLabel": "Warteschlangenansicht",
+    "view": {
+      "open": "Offen",
+      "mine": "Mir zugewiesen",
+      "unassigned": "Nicht zugewiesen",
+      "escalated": "Eskaliert",
+      "breached": "Überfällig",
+      "decided": "Geschlossen",
+      "all": "Alle"
+    },
+    "filter": {
+      "contentType": "Inhaltstyp",
+      "source": "Quelle",
+      "severity": "Schweregrad",
+      "status": "Status",
+      "any": "Alle",
+      "post": "Beitrag",
+      "comment": "Antwort",
+      "message": "Nachricht",
+      "profile": "Profil",
+      "other": "Andere",
+      "community": "Posten und antworten",
+      "user": "Benutzerbericht",
+      "auto": "Automatisierte Regelmarkierung",
+      "search": "Inhalt oder Grund suchen…"
+    },
+    "sort": {
+      "label": "Sortieren nach",
+      "due": "Nächste Frist",
+      "age": "Älteste"
+    },
+    "col": {
+      "content": "Inhalt",
+      "reason": "Grund",
+      "severity": "Schweregrad",
+      "age": "Alter",
+      "due": "Frist",
+      "assignee": "Bevollmächtigter",
+      "status": "Status"
+    },
+    "severity": {
+      "low": "Niedrig",
+      "normal": "Normal",
+      "high": "Hoch"
+    },
+    "status": {
+      "PENDING": "Ausstehend",
+      "RESOLVED": "Gelöst",
+      "DISMISSED": "Entlassen"
+    },
+    "age": {
+      "minutes": "{count, plural, one {# Minute} other {# Minuten}}",
+      "hours": "{count, plural, one {# Stunde} other {# Std}}",
+      "days": "{count, plural, one {# Tag} other {# Tage}}"
+    },
+    "ago": "Vor {age}",
+    "reportedAt": "Gemeldet am {date}",
+    "dueAt": "Fällig: {date}",
+    "sla": {
+      "onTime": "Pünktlich",
+      "dueSoon": "Bald fällig",
+      "breached": "Überfällig",
+      "decided": "Geschlossen"
+    },
+    "siblings": "{count, plural, one {# Bericht für diesen Inhalt} other {# Berichte für diesen Inhalt}}",
+    "contentGone": "Dieser Inhalt ist in der Community nicht mehr sichtbar.",
+    "autoFlag": "Gekennzeichnet durch Regel „{rule}“",
+    "suggested": "Regelvorschlag: {action}",
+    "escalatedBadge": "An den leitenden Administrator eskaliert",
+    "claim": "Anspruch",
+    "release": "Veröffentlichung",
+    "assign": "Zuweisen...",
+    "claimedBy": "Beansprucht von {name}",
+    "claimedByMe": "Von Ihnen beansprucht",
+    "noAssignee": "Nicht zugewiesen",
+    "assignTitle": "Bericht zuordnen",
+    "assignPick": "Moderator auswählen",
+    "review": "Überprüfen und entscheiden",
+    "quickActions": "Schnelle Aktionen",
+    "emptyOpen": "Die Warteschlange ist leer; Keine offenen Berichte zur Überprüfung.",
+    "emptyFilter": "Es wurden keine Artikel gefunden, die diesen Filtern entsprechen."
+  },
+  "community": {
+    "page": {
+      "eyebrow": "Moderator · Diskussions-Community",
+      "lead": "Dieselbe Moderationswarteschlange, beschränkt auf Community-Diskussionen und Antworten. Überprüfen Sie jedes Element und schließen Sie es mit einer schnellen Aktion – ausblenden, entfernen, warnen oder verwerfen.",
+      "helpTitle": "Leitfaden zur Community-Moderation",
+      "help": "In dieser Warteschlange werden Berichte und Flags angezeigt, die sich auf die Community beziehen. Sie können gemeldete Nachrichten und Profile auch mithilfe des Inhaltstypfilters anzeigen. Durch das Ausblenden und Entfernen wird der Inhalt tatsächlich aus der Community entfernt und kann aus dem Aktionsverlauf wiederhergestellt werden."
+    }
+  },
+  "decision": {
+    "title": "Entscheidung melden",
+    "action": {
+      "ignore": {
+        "label": "Entlassen",
+        "hint": "Der Bericht ist geschlossen; Der Inhalt und die Autorenangabe bleiben davon unberührt."
+      },
+      "hide": {
+        "label": "Verstecken",
+        "hint": "Der Inhalt bleibt der Community verborgen und kann von jedem Moderator wiederhergestellt werden. Eine Benachrichtigung wird an den Autor gesendet."
+      },
+      "remove": {
+        "label": "Entfernen",
+        "hint": "Der Inhalt wird aus der Community entfernt und kann nur von einem Administrator wiederhergestellt werden. Eine Benachrichtigung wird an den Autor gesendet."
+      },
+      "warn": {
+        "label": "Autor warnen",
+        "hint": "Eine offizielle Warnung wird im Verlauf des Autors protokolliert und eine Benachrichtigung wird an ihn gesendet."
+      },
+      "restrict": {
+        "label": "Vorübergehende Entsendungsbeschränkung",
+        "hint": "Bis zum Ende des ausgewählten Zeitraums kann der Autor keine Diskussionen oder Antworten in der Community verfassen."
+      },
+      "escalate": {
+        "label": "Eskalieren Sie es an den leitenden Administrator",
+        "hint": "Der Bericht bleibt offen und nur ein Administrator kann darüber entscheiden."
+      }
+    },
+    "warnAuthor": "Warnen Sie auch den Autor",
+    "restrictFor": "Dauer der Einschränkung",
+    "duration": {
+      "d1": "Eines Tages",
+      "d3": "Drei Tage",
+      "d7": "Eine Woche",
+      "d30": "Einen Monat"
+    },
+    "note": "Hinweis (optional)",
+    "submit": "Entscheidung einreichen",
+    "noTarget": "Dieser Bericht ist keinem bestimmten Community-Inhalt zugeordnet; Ausblenden und Entfernen sind nicht verfügbar.",
+    "noAuthor": "Der Autor dieses Inhalts ist unbekannt; Warnungen und Einschränkungen liegen nicht vor.",
+    "selfBlocked": "Sie sind der Reporter oder Autor dieses Inhalts; Die Entscheidung liegt bei einem anderen Moderator.",
+    "escalatedBlocked": "Dieser Bericht wurde eskaliert; Nur ein Administrator kann entscheiden.",
+    "alreadyClosed": "Dieser Bericht wurde bereits geschlossen; Es kann keine neue Entscheidung erfasst werden.",
+    "choose": "Wählen Sie eine Entscheidung",
+    "done": {
+      "ignore": "Bericht geschlossen.",
+      "hide": "Inhalt ausgeblendet.",
+      "remove": "Inhalt entfernt.",
+      "warn": "Warnung aufgezeichnet und dem Autor mitgeteilt.",
+      "restrict": "Buchungseinschränkung erfasst bis {until}.",
+      "escalate": "Der Bericht wurde an den leitenden Administrator eskaliert.",
+      "alreadyGone": "Entscheidung protokolliert; Der Autor hatte den Inhalt bereits gelöscht."
+    }
+  },
+  "context": {
+    "messageOnly": "Der Überprüfungszugriff ist nur auf diese gemeldete Nachricht beschränkt.",
+    "reportSnapshot": "Zum Zeitpunkt des Berichts aufgezeichneter Text",
+    "migrationSnapshot": "Dieser Bericht ist alt; Der folgende Text wurde bei der Migration zur Überprüfungswarteschlange aufgezeichnet.",
+    "currentMessage": "Aktueller Nachrichtentext nach der Bearbeitung",
+    "loadAttachment": "Gemeldeten Anhang anzeigen",
+    "downloadAttachment": "Anhang herunterladen",
+    "title": "Hinter diesem Inhalt",
+    "author": "Autor",
+    "reporter": "Reporter",
+    "autoReporter": "Automatisierte Regel",
+    "noAuthor": "Der Autor dieses Inhalts ist unbekannt oder nicht mehr verfügbar.",
+    "joined": "Mitglied seit {date}",
+    "stats": {
+      "threads": "{count, plural, one {# Diskussion} other {# Diskussionen}}",
+      "replies": "{count, plural, one {# Antwort} other {# Antworten}}",
+      "votes": "{count, plural, one {# Abstimmung} other {# Stimmen}}",
+      "filed": "{count, plural, one {# Bericht eingereicht} other {# Berichte eingereicht}}",
+      "against": "{count, plural, one {# gegen diesen Benutzer melden} other {# Berichte gegen diesen Benutzer}}"
+    },
+    "warnings": "{count, plural, one {# Warnung} other {# Warnungen}}",
+    "activeRestriction": "Aktive Einschränkung bis {until}",
+    "noRestriction": "Keine aktiven Einschränkungen",
+    "lift": "Hebebeschränkung",
+    "viewInCommunity": "In der Community ansehen"
+  },
+  "rules": {
+    "page": {
+      "eyebrow": "Moderator · Automatisierte Moderation",
+      "lead": "Regeln bewerten neue Community-Inhalte und kennzeichnen sie nur in der Moderationswarteschlange, damit bei Verstößen menschliche Entscheidungen getroffen werden können.",
+      "helpTitle": "Leitfaden für automatisierte Regeln",
+      "help": "Es werden drei Arten von Regeln ausgewertet: Schlüsselwort, Veröffentlichungsgeschwindigkeit und Berichtsschwellenwert. Die „Vorgeschlagene Aktion“ wird nur dem Moderator in der Warteschlange angezeigt und nie automatisch ausgeführt. Verwenden Sie vor dem Speichern die Option „Regel testen“, um zu prüfen, ob eine Regel Beispieltext markiert."
+    },
+    "flagOnlyNotice": "Regeln kennzeichnen Elemente nur für den Moderator. Es werden keine Inhalte automatisch ausgeblendet oder entfernt und keine Benutzer werden automatisch eingeschränkt.",
+    "new": "Neue Regel",
+    "edit": "Regel bearbeiten",
+    "delete": "Regel löschen",
+    "deleteConfirm": "Diese Regel löschen? Vorhandene Flags bleiben in der Warteschlange.",
+    "search": "Suche nach Name oder Bedingung...",
+    "allTypes": "Alle Arten",
+    "emptyAll": "Es wurden noch keine Regeln definiert.",
+    "emptyFilter": "Es wurden keine Regeln gefunden, die diesem Filter entsprechen.",
+    "toggleLabel": "Regel „{name}“ aktivieren oder deaktivieren",
+    "createdAt": "Erstellt am {date}",
+    "kpi": {
+      "total": "Totale Regeln",
+      "active": "Aktive Regeln",
+      "hits": "Gesamttreffer"
+    },
+    "state": {
+      "on": "Aktiv",
+      "off": "Inaktiv"
+    },
+    "col": {
+      "name": "Name",
+      "type": "Typ",
+      "condition": "Zustand",
+      "suggested": "Vorgeschlagene Maßnahme",
+      "hits": "Treffer",
+      "lastHit": "Letzter Treffer",
+      "active": "Aktiv"
+    },
+    "type": {
+      "keyword": "Stichwort",
+      "rate_limit": "Ratenbegrenzung",
+      "report_threshold": "Schwellenwert melden",
+      "auto_action": "Vermächtnis"
+    },
+    "summary": {
+      "keyword": "{count, plural, one {# Schlüsselwort} other {# Schlüsselwörter}}",
+      "rate": "Mehr als {max} Einsendungen in {seconds} Sekunden",
+      "threshold": "{min} separate Berichte in {hours} Stunden",
+      "thresholdAny": "{min} separate Berichte"
+    },
+    "legacy": "Textzustand; nicht ausgewertet",
+    "legacyHint": "Diese Regel wurde vor der Evaluierungs-Engine erstellt und hat keine strukturierte Bedingung. Definieren Sie die Bedingung neu, um sie zu aktivieren.",
+    "hitsNone": "Keine aufgezeichnet",
+    "suggestedAction": {
+      "flag": "Nur Flagge",
+      "hide": "Verstecken",
+      "warn": "Warnen",
+      "block": "Einreichung einschränken"
+    },
+    "form": {
+      "name": "Name",
+      "type": "Typ",
+      "description": "Beschreibung (optional)",
+      "keywords": "Schlüsselwörter – eines pro Zeile",
+      "keywordsHint": "Sowohl Persisch als auch Arabisch werden akzeptiert; Diakritische Zeichen, „ي/ی“, „ك/ک“ und Nicht-Joiner mit der Breite Null werden als identisch behandelt.",
+      "match": "Matching-Methode",
+      "matchWord": "Ganzes Wort",
+      "matchSubstring": "Irgendwo im Text",
+      "severity": "Schweregrad der Flagge",
+      "maxPosts": "Max. Beiträge",
+      "windowSeconds": "Fenster (Sekunden)",
+      "minReports": "Min. verschiedene Reporter",
+      "windowHours": "Fenster (Stunden)",
+      "targets": "Bewerben Sie sich bei",
+      "suggested": "Vorgeschlagene Aktion für den Moderator",
+      "suggestedHint": "Dies ist nur ein Vorschlag für den Moderator; Die Engine führt es nie automatisch aus.",
+      "active": "Aktiv",
+      "errKeywords": "Geben Sie mindestens ein gültiges Schlüsselwort ein (eins pro Zeile).",
+      "errTargets": "Wählen Sie mindestens „Diskussion“ oder „Antwort“.",
+      "errNumber": "Geben Sie eine positive Ganzzahl innerhalb des zulässigen Bereichs ein.",
+      "errName": "Der Name muss zwischen 2 und 160 Zeichen lang sein.",
+      "errCondition": "Bedingung oder Beschreibung müssen mindestens 2 Zeichen lang sein."
+    },
+    "test": {
+      "title": "Regeltest",
+      "placeholder": "Geben Sie Text ein, um zu sehen, ob die Regel eine Markierung auslöst",
+      "run": "Testen",
+      "hit": "Markiert: {matched}",
+      "miss": "Nicht markiert"
+    }
+  },
+  "log": {
+    "page": {
+      "eyebrow": "Überwachen · Moderationstransparenz",
+      "lead": "Jede Moderationsentscheidung – Ausblenden, Löschen, Warnung, Einschränkung und Wiederherstellung – wird in diesem Protokoll mit Akteur, Zeitstempel und Notiz aufgezeichnet. Umkehrbare Aktionen können hier rückgängig gemacht werden.",
+      "helpTitle": "Leitfaden zur Aktionsgeschichte",
+      "help": "Die Registerkarte „Aktionen“ ist das Aktionsprotokoll der Moderations-Engine und enthält eine Schaltfläche zum Wiederherstellen. Auf der Registerkarte „Berichtsverlauf“ werden geschlossene Berichte mit Suche und Filterung angezeigt. Tippen Sie auf eine beliebige Zeile, um Details anzuzeigen."
+    },
+    "legacyNote": "Vor der Moderations-Engine geschlossene Berichte sind nur auf der Registerkarte „Berichtsverlauf“ sichtbar.",
+    "searchActions": "Suchaktionen...",
+    "filterKind": "Aktionstyp",
+    "allKinds": "Alle Aktionen",
+    "filters": "Filter",
+    "clearFilters": "Filter löschen",
+    "search": "Suchen Sie nach Inhalt, Grund oder Notiz ...",
+    "searchClear": "Suche löschen",
+    "filterStatus": "Statusfilter",
+    "allStatuses": "Alle Status",
+    "filterResolution": "Auflösungsfilter",
+    "allResolutions": "Alle Vorsätze",
+    "emptyActions": "Es wurden noch keine Aktionen aufgezeichnet.",
+    "emptyHistory": "Es wurden noch keine Berichte geschlossen.",
+    "emptyFilter": "Es wurden keine Artikel gefunden, die diesen Filtern entsprechen.",
+    "count": "{count, plural, one {# Artikel} other {# Artikel}}",
+    "col": {
+      "when": "Zeit",
+      "actor": "Schauspieler",
+      "kind": "Aktion",
+      "target": "Benutzer",
+      "content": "Inhalt",
+      "note": "Hinweis",
+      "state": "Status"
+    },
+    "kind": {
+      "dismiss": "Entlassen",
+      "escalate": "Eskalieren",
+      "hide": "Verstecken",
+      "remove": "Entfernen",
+      "restore": "Wiederherstellen",
+      "warn": "Warnen",
+      "warning_revoke": "Warnung widerrufen",
+      "restrict": "Veröffentlichung einschränken",
+      "restriction_lift": "Hebebeschränkung"
+    },
+    "tab": {
+      "actions": "Aktionen",
+      "history": "Berichtsverlauf"
+    },
+    "kpi": {
+      "total": "Geschlossene Berichte",
+      "removed": "Inhalt entfernt",
+      "today": "Die heutigen Entscheidungen",
+      "actions": "Aufgezeichnete Aktionen"
+    },
+    "revert": "Wiederherstellen",
+    "reverted": "Zurückgesetzt am {date}",
+    "revertConfirm": "Möchten Sie diese Aktion rückgängig machen? Der Autor wird benachrichtigt.",
+    "revertDone": {
+      "restored": "Inhalt wiederhergestellt.",
+      "revoked": "Warnung widerrufen.",
+      "lifted": "Einschränkung aufgehoben."
+    },
+    "history": {
+      "when": "Zeit",
+      "type": "Inhaltstyp",
+      "reason": "Grund",
+      "resolution": "Auflösung",
+      "detailTitle": "Details melden",
+      "reportedAt": "Gemeldet am {date}",
+      "decidedAt": "Habe mich für {date} entschieden",
+      "noNote": "Keine Notizen aufgezeichnet.",
+      "filterByThis": "Berichte mit dieser Auflösung anzeigen"
+    }
+  }
+}
