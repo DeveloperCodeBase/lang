@@ -1,0 +1,711 @@
+{
+  "dashboard": {
+    "eyebrow": "Gestión del sistema · Datos reales",
+    "title": "Panel de gestión",
+    "lead": "Vista general del sistema y acceso rápido a las secciones de gestión. Las estadísticas se obtienen de los servicios activos de la plataforma.",
+    "refresh": "Actualizar",
+    "loading": "Cargando…",
+    "consoleLoading": "Cargando la consola de monitoreo…",
+    "errors": {
+      "load": "Error al cargar el panel",
+      "allDown": "Ninguno de los servicios del panel está disponible."
+    },
+    "kpi": {
+      "aria": "Indicadores clave",
+      "users": "Usuarios",
+      "courses": "Cursos",
+      "ai": "Interacciones de IA",
+      "audit": "Eventos de auditoría"
+    },
+    "audit": {
+      "title": "Últimos eventos de auditoría",
+      "viewAll": "Ver todo",
+      "unavailable": "El registro de auditoría no está disponible (—).",
+      "empty": "No hay eventos registrados.",
+      "systemActor": "Sistema"
+    },
+    "actions": {
+      "create": "Crear",
+      "update": "Editar",
+      "delete": "Eliminar",
+      "login": "Iniciar sesión",
+      "logout": "Cerrar sesión",
+      "transition": "Cambiar estado",
+      "approve": "Aprobar",
+      "reject": "Rechazar",
+      "enroll": "Inscribirse",
+      "drop": "Dar de baja",
+      "pay": "Pagar",
+      "settle": "Liquidar"
+    },
+    "quick": {
+      "title": "Acceso rápido",
+      "searchPlaceholder": "Buscar secciones…",
+      "searchAria": "Buscar secciones de gestión",
+      "empty": "No se encontró ninguna sección con este título."
+    },
+    "groups": {
+      "all": "Todos",
+      "academic": "Académico",
+      "people": "Personas",
+      "finance": "Finanzas",
+      "governance": "Gobierno"
+    },
+    "links": {
+      "schools": {
+        "title": "Facultades y departamentos",
+        "desc": "Estructura educativa de cuatro niveles"
+      },
+      "terms": {
+        "title": "Semestres académicos",
+        "desc": "Periodos y ventanas de procesos"
+      },
+      "students": {
+        "title": "Estudiantes",
+        "desc": "Expediente y situación académica"
+      },
+      "instructors": {
+        "title": "Profesorado",
+        "desc": "Miembros del cuerpo docente y asignaciones"
+      },
+      "users": {
+        "title": "Usuarios y roles",
+        "desc": "Cuentas y accesos"
+      },
+      "treasury": {
+        "title": "Tesorería e informes",
+        "desc": "Libro mayor y conciliación financiera"
+      },
+      "commission": {
+        "title": "Comisión de casos especiales",
+        "desc": "Revisión y resolución de expedientes"
+      },
+      "audit": {
+        "title": "Informe de auditoría",
+        "desc": "Eventos registrados en el sistema"
+      }
+    },
+    "detail": {
+      "title": "Detalles del evento",
+      "close": "Cerrar",
+      "action": "Acción",
+      "subject": "Asunto",
+      "user": "Usuario",
+      "ip": "Dirección IP",
+      "time": "Hora",
+      "fullReport": "Informe completo"
+    }
+  },
+  "membershipConfig": {
+    "eyebrow": "Panel de administración · Membresía",
+    "title": "Configuración de membresía",
+    "lead": "Descuentos para miembros, visibilidad en el directorio, áreas de especialización, planes de venta y registro de cambios.",
+    "version": "Versión guardada: {version}",
+    "helpTitle": "Ayuda",
+    "helpBody": "La sección «Finanzas» (descuentos para miembros, límites, política de cupones, plazo de gracia) solo puede ser guardada por el rol de director financiero. La sección «Programa» (visibilidad en el directorio, áreas de especialización) solo por el rol de director de membresía. Los «Planes» con cualquiera de los dos roles. «Restaurar valores predeterminados» restablece toda la sección, no un solo campo. «Historial» actualmente muestra el identificador sin procesar del actor; la visualización del nombre se ha pospuesto para el siguiente paso.",
+    "loading": "Cargando…",
+    "loadError": "Se produjo un error al cargar la configuración de membresía.",
+    "resetDefaults": "Restaurar valores predeterminados",
+    "saving": "Guardando…",
+    "tabs": {
+      "money": "Finanzas",
+      "program": "Programa",
+      "plans": "Planes",
+      "history": "Historial"
+    },
+    "scope": {
+      "all": "Todos los cursos",
+      "selected": "Categorías seleccionadas"
+    },
+    "stacking": {
+      "best_of": "Mejor descuento/cupón",
+      "coupon_wins": "El cupón gana",
+      "stack": "Combinar ambos"
+    },
+    "visibility": {
+      "off": "Desactivado",
+      "members_only": "Solo miembros",
+      "authenticated": "Usuarios autenticados",
+      "public": "Público"
+    },
+    "historyScope": {
+      "config": "Configuración",
+      "plan": "Plan"
+    },
+    "money": {
+      "readOnly": "Solo el administrador financiero puede guardar o restablecer esta sección.",
+      "percentLabel": "Porcentaje de descuento para miembros",
+      "percentHelper": "0 a 100 — Cero significa que el descuento está desactivado.",
+      "maxRialLabel": "Límite máximo de descuento en riales (vacío = sin límite)",
+      "scopeLabel": "Alcance del descuento",
+      "categoriesLabel": "Categorías seleccionadas (separadas por «,»)",
+      "categoriesHelper": "Solo se aplica cuando el alcance es «Categorías seleccionadas».",
+      "categorySeparator": ", ",
+      "stackingLabel": "Política de acumulación de descuento con cupones",
+      "stackingHelper": "«Mejor descuento/cupón»: se aplica el mayor. «El cupón gana»: si hay un cupón, se ignora el descuento de miembro. «Combinar ambos»: ambos descuentos se aplican juntos.",
+      "graceLabel": "Período de gracia (días)",
+      "save": "Guardar sección de dinero",
+      "saved": "Sección de dinero guardada.",
+      "resetDone": "La sección de dinero se ha restablecido a los valores predeterminados.",
+      "errSave": "Se produjo un error al guardar la sección de dinero.",
+      "errReset": "Se produjo un error al restablecer la sección de dinero.",
+      "errRequired": "Introduce un valor.",
+      "errPercentRange": "Debe ser un número entero entre 0 y 100.",
+      "errMaxRial": "Debe ser un número entero no negativo (o vacío para sin límite).",
+      "errGraceRange": "Debe ser un número entero entre 0 y 365.",
+      "errCategoriesRequired": "Cuando el alcance es «Categorías seleccionadas», se requiere al menos una categoría.",
+      "resetConfirm": {
+        "title": "Restablecer la sección «Dinero» a los valores predeterminados",
+        "body": "El descuento de miembro, el límite en riales, el alcance, la política de cupones y el período de gracia volverán a los valores predeterminados del sistema, no solo un campo. Esto surtirá efecto de inmediato y se registrará en el historial; puedes volver a guardar los valores deseados si es necesario.",
+        "confirmLabel": "Restablecer valores predeterminados"
+      }
+    },
+    "program": {
+      "readOnly": "Solo el administrador de membresías puede guardar o restablecer esta sección.",
+      "visibilityLabel": "Visibilidad del directorio de miembros",
+      "publicNote": "Actualmente funciona igual que «Usuarios autenticados»; la visualización sin iniciar sesión estará disponible en la próxima oleada",
+      "fieldsTitle": "Áreas de especialización",
+      "thCode": "Código",
+      "thNameFa": "Nombre en persa",
+      "thNameEn": "Nombre en inglés",
+      "thActive": "Activo",
+      "toggleAria": "Activar/desactivar el área {name}",
+      "note": "No se admite agregar, eliminar o editar áreas en este paso, solo activar o desactivar las áreas existentes.",
+      "save": "Guardar sección del programa",
+      "saved": "Se guardó la sección del programa.",
+      "resetDone": "La sección del programa se restableció a los valores predeterminados.",
+      "errSave": "Hubo un error al guardar la sección del programa.",
+      "errReset": "Hubo un error al restablecer la sección del programa.",
+      "errNoActive": "Se requiere al menos un área de especialización activa."
+    },
+    "plans": {
+      "readOnly": "Solo el administrador de membresías o el administrador financiero pueden crear o editar planes.",
+      "loadError": "Hubo un error al cargar los planes.",
+      "thCode": "Código",
+      "thName": "Nombre",
+      "thPrice": "Precio",
+      "thPeriod": "Duración del periodo (días)",
+      "thStatus": "Estado",
+      "thActions": "Acciones",
+      "statusSellable": "Activo · A la venta",
+      "statusNotSellable": "Activo · Aún no a la venta",
+      "statusInactive": "Inactivo",
+      "editAria": "Editar {name}",
+      "deactivateAria": "Desactivar {name}",
+      "newPlan": "Nuevo plan",
+      "editTitle": "Editar plan {name}",
+      "codeLabel": "Código (inmutable)",
+      "nameFaLabel": "Nombre en persa",
+      "priceLabel": "Precio (Rial)",
+      "periodLabel": "Duración del periodo (días)",
+      "activeLabel": "Activo (un plan activo debe tener un precio mayor que cero)",
+      "errCode": "El código del plan no es válido: solo letras minúsculas en inglés, números y guiones bajos.",
+      "errNameFa": "Se requiere el nombre del plan en persa.",
+      "errPrice": "El precio debe ser un número entero no negativo.",
+      "errPeriod": "La duración del periodo debe ser un número entero de al menos 1.",
+      "errSave": "Hubo un error al guardar el plan.",
+      "errDeactivate": "Hubo un error al desactivar el plan.",
+      "confirmTitle": "Desactivar plan",
+      "confirmBody": "El plan «{name}» se desactivará y ya no se mostrará para la venta. Esta acción se registrará en el historial.",
+      "confirmAction": "Desactivar"
+    },
+    "history": {
+      "scopeLabel": "Ámbito",
+      "scopeAll": "Todos",
+      "loading": "Cargando…",
+      "empty": "Todavía no se ha registrado ningún evento.",
+      "loadError": "Error al cargar el historial.",
+      "thDate": "Fecha",
+      "thScope": "Ámbito",
+      "thTarget": "Objetivo",
+      "thActor": "Actor (ID)",
+      "thKeys": "Claves modificadas",
+      "prev": "Anterior",
+      "next": "Siguiente",
+      "pager": "Página {page} — {total} eventos"
+    }
+  },
+  "parentLinks": {
+    "readOnly": {
+      "title": "Su acceso en esta página es de solo lectura",
+      "body": "Crear y revocar el vínculo de padre/madre es una decisión de concesión de acceso: a partir de ese momento, el padre o madre puede ver las calificaciones, la asistencia, la matrícula y el resumen de salud del estudiante. Esta decisión recae en el administrador; usted puede ver los vínculos activos y buscar entre ellos.",
+      "empty": "Todavía no se ha registrado ningún vínculo."
+    }
+  },
+  "regulation": {
+    "status": {
+      "title": "Estado de aplicación de las reglas",
+      "allOn": "Todas las reglas aplicables en esta página están activadas y el servidor las está aplicando.",
+      "offIntro": "Estas reglas están configuradas pero no se están aplicando actualmente; el número que aparece junto a ellas es solo informativo:",
+      "hint": "Para aplicarlas, active el interruptor de la regla correspondiente en su grupo y haga clic en \"Guardar normativa\"."
+    },
+    "knobs": {
+      "objectionWindowMinDays": {
+        "label": "Plazo mínimo de objeción del estudiante (días)",
+        "helper": "El profesor no puede establecer un plazo menor que este al publicar una calificación. 0 significa sin mínimo."
+      },
+      "minCreditFloorEnforced": {
+        "label": "Aplicación del mínimo de créditos al retirar una asignatura",
+        "helper": "Activado (por defecto) = se rechazan las bajas que dejen los créditos del semestre por debajo del mínimo; se exceptúan el periodo de prueba, el verano y el último semestre. Desactivado = solo advertencia visual."
+      },
+      "attendanceMaxAbsenceRatio": {
+        "label": "Proporción máxima de ausencias injustificadas",
+        "helper": "3/16 ≈ 0,1875 — superar esta proporción marca al estudiante con «calificación de cero»"
+      },
+      "lateGraceMinutes": {
+        "label": "Tolerancia de retraso en la entrada (minutos)",
+        "helper": "Entrada hasta este minuto después del inicio = presente; después de eso = retraso"
+      },
+      "closeGraceMinutes": {
+        "label": "Tolerancia de cierre automático de sesión (minutos)",
+        "helper": "Una sesión abierta que haya superado la hora programada de finalización se cerrará automáticamente después de estos minutos"
+      },
+      "openGraceMinutes": {
+        "label": "Tolerancia de apertura automática de clase (minutos)",
+        "helper": "La sala de clase se prepara para la entrada tantos minutos antes del inicio programado"
+      },
+      "noShowGraceMinutes": {
+        "label": "Tolerancia de advertencia por ausencia del profesor (minutos)",
+        "helper": "Si el profesor no se presenta dentro de este plazo tras el inicio programado, se avisa al responsable de la facultad; la clase no se cancela automáticamente"
+      },
+      "supervisionGraceSeconds": {
+        "label": "Tolerancia por ausencia de supervisor educativo (segundos)",
+        "helper": "Tras la ausencia continua del supervisor autorizado, la grabación se pausa y se notifica al director académico; el valor por defecto es 120 segundos"
+      },
+      "passThresholdPercent": {
+        "label": "Umbral de aprobación (porcentaje)",
+        "helper": "El porcentaje que se alinea exactamente con la calificación de aprobación del nivel"
+      },
+      "gradeRoundStep": {
+        "label": "Paso de redondeo de calificación (sobre 0..20)",
+        "helper": "Precisión de redondeo en la escala de 20"
+      },
+      "summerCapMax": {
+        "label": "Límite de créditos del semestre de verano",
+        "helper": "«Máximo 6 créditos en verano» — se aplica solo con el interruptor de abajo"
+      },
+      "summerCapEnforced": {
+        "label": "Aplicar límite de verano",
+        "helper": "Desactivado (predeterminado) = límite normal de verano; Activado = se aplica el límite superior (independientemente del promedio)"
+      },
+      "addLimit": {
+        "label": "Número máximo de adiciones de cursos en altas y bajas"
+      },
+      "dropLimit": {
+        "label": "Número máximo de retiros de cursos en altas y bajas"
+      },
+      "objectionSlaDaysUndergrad": {
+        "label": "Plazo de respuesta del profesor — Técnico/Grado (días)"
+      },
+      "objectionSlaDaysGrad": {
+        "label": "Plazo de respuesta del profesor — Posgrado (días)"
+      },
+      "emergencyDropWindowEnforced": {
+        "label": "Obligar ventana de retiro de emergencia",
+        "helper": "Activado = el retiro de emergencia solo se permite dentro del intervalo EMERGENCY_DROP"
+      },
+      "gradeEntryWindowEnforced": {
+        "label": "Obligar ventana de registro de calificaciones",
+        "helper": "Activado = la publicación/finalización de calificaciones solo se permite dentro del intervalo GRADE_ENTRY"
+      }
+    },
+    "pageEyebrow": "Panel de administración · Normativa",
+    "pageTitle": "Normativa académica",
+    "savedVersion": "Versión guardada: {version}",
+    "help": {
+      "title": "Ayuda de normativa",
+      "body": "Estos valores determinan las reglas ministeriales a nivel de organización (asistencia, calificaciones, inscripción, reclamaciones, ventanas). Cada valor tiene un valor predeterminado ministerial; edítelo y guárdelo para personalizarlo para esta organización. La insignia «Personalizado» indica que el valor difiere del predeterminado ministerial."
+    },
+    "groups": {
+      "attendance": {
+        "title": "Asistencia"
+      },
+      "grade": {
+        "title": "Calificación"
+      },
+      "enrollment": {
+        "title": "Inscripción y altas/bajas",
+        "note": "El límite de verano solo surte efecto cuando el interruptor «Aplicar límite de verano» está activado. El valor predeterminado es desactivado, lo que significa que el verano aplica el límite normal."
+      },
+      "objection": {
+        "title": "Reclamación de calificación (plazo de respuesta)"
+      },
+      "calendar": {
+        "title": "Ventanas de calendario",
+        "note": "El valor predeterminado para ambas es desactivado = comportamiento actual (sin restricciones de intervalo)."
+      }
+    },
+    "badge": {
+      "custom": "Personalizado",
+      "default": "Predeterminado"
+    },
+    "bool": {
+      "on": "Activado",
+      "off": "Desactivado"
+    },
+    "ministryDefault": "Predeterminado ministerial: {value}",
+    "loading": "Cargando…",
+    "unavailable": "La normativa no está disponible.",
+    "actions": {
+      "save": "Guardar normativa",
+      "saving": "Guardando…",
+      "revert": "Deshacer cambios"
+    },
+    "saved": "Normativa guardada.",
+    "errors": {
+      "loadFailed": "Error al cargar la normativa.",
+      "saveFailed": "Error al guardar la normativa.",
+      "formInvalid": "Algunos valores no son válidos; corrija los elementos en rojo.",
+      "required": "Introduzca un valor.",
+      "notNumber": "Número no válido.",
+      "notInteger": "El número debe ser entero.",
+      "range": "Debe estar entre {min} y {max}."
+    }
+  },
+  "treasury": {
+    "eyebrow": "Finanzas · Tesorería",
+    "title": "Tesorería e informes",
+    "error": "Se produjo un error",
+    "loading": "Cargando…",
+    "csvExport": "Exportar CSV",
+    "help": {
+      "title": "Ayuda de tesorería",
+      "body": "Vista general del libro mayor (activo/pasivo/ingresos/gastos), liquidación de tesorería de las nóminas (pago neto + depósito de deducciones desde la cuenta de efectivo) e informe de coste de nóminas con exportación en CSV. La liquidación pone a cero las cuentas de «sueldos/deducciones por pagar» frente al «efectivo»."
+    },
+    "months": [
+      "Farvardin",
+      "Ordibehesht",
+      "Jordad",
+      "Tir",
+      "Mordad",
+      "Shahrivar",
+      "Mehr",
+      "Aban",
+      "Azar",
+      "Dey",
+      "Bahman",
+      "Esfand"
+    ],
+    "period": "{month} {year}",
+    "groups": {
+      "asset": "Activos",
+      "liability": "Pasivos",
+      "income": "Ingresos",
+      "expense": "Gastos"
+    },
+    "rosterStatus": {
+      "all": "Todos los estados",
+      "hasOverdue": "Con vencido",
+      "partial": "Pago parcial",
+      "unpaid": "Sin pagar",
+      "cleared": "Liquidado"
+    },
+    "finStatus": {
+      "PENDING": "Pendiente",
+      "PAID": "Pagado",
+      "OVERDUE": "Vencido",
+      "PARTIAL": "Pago parcial",
+      "UNPAID": "Sin pagar",
+      "CLEARED": "Liquidado",
+      "APPROVED": "Aprobado",
+      "REJECTED": "Rechazado",
+      "DISBURSED": "Desembolsado",
+      "REPAYING": "En reembolso",
+      "SETTLED": "Liquidado",
+      "REFUNDED": "Reembolsado",
+      "SUCCESS": "Éكسito",
+      "FAILED": "Error",
+      "CANCELLED": "Cancelado"
+    },
+    "recon": {
+      "title": "Salud financiera y conciliación de la cartera",
+      "refresh": "Actualizar",
+      "desc": "Verificación de solo lectura de los invariantes monetarios; cada valor debe ser cero. Una discrepancia significa que el libro mayor requiere revisión (esta comprobación no corrige nada).",
+      "checking": "Comprobando...",
+      "unavailable": "El estado de conciliación no está disponible.",
+      "healthy": "Saludable — Se cumplen todos los invariantes",
+      "drift": "Discrepancia — Requiere revisión",
+      "lastCheck": "Última comprobación: {at}",
+      "walletDrift": "Discrepancia de cartera (espejo ⇄ 2400)",
+      "mirrorSum": "Suma de espejo de transacciones",
+      "walletLiability": "Pasivo de cartera (2400)",
+      "ledgerNet": "Conciliación de partida doble (debe − haber)",
+      "clearingDrift": "Compensación de retiro (2500 ⇄ reservas)",
+      "payoutClearing": "Compensación pendiente (2500)",
+      "openHolds": "Reservas de retiro abiertas",
+      "unbackedPaid": "Pago liquidado sin soporte",
+      "unbackedTuition": "Matrícula (importe total)",
+      "unbackedSubscription": "Suscripción de pasarela (importe total)",
+      "unbackedNote": "Este contador muestra las filas liquidadas que carecen de un asiento de partida doble; casi siempre son vestigios de pagos anteriores a la corrección atómica. Un número distinto de cero no es un error ni pone en rojo el estado «saludable»; la reparación se realiza por decisión del director financiero y la ejecución de un script."
+    },
+    "roster": {
+      "title": "Estudiantes / Estado financiero",
+      "desc": "Busque estudiantes con facturas de matrícula por nombre o código de estudiante. Haga clic en cualquier fila para abrir el expediente financiero completo (facturas, cuotas, pagos, préstamos, becas, reembolsos). Solo se muestran datos financieros.",
+      "searchPlaceholder": "Nombre o código de estudiante...",
+      "searchAria": "Buscar estudiante por nombre o código",
+      "statusAria": "Filtrar por estado financiero",
+      "submit": "Buscar",
+      "empty": "No se encontraron estudiantes con facturas para este filtro.",
+      "thStudent": "Estudiante",
+      "thCode": "Código",
+      "thTotal": "Importe total",
+      "thPaid": "Pagado",
+      "thOverdue": "Cuotas vencidas",
+      "thLastPayment": "Último pago",
+      "thStatus": "Estado",
+      "thActions": "Acciones",
+      "open": "Expediente financiero",
+      "close": "Cerrar expediente"
+    },
+    "detail": {
+      "title": "Expediente financiero",
+      "close": "Cerrar",
+      "total": "Importe total:",
+      "paid": "Pagado:",
+      "outstanding": "Pendiente:",
+      "bills": "Facturas",
+      "billsEmpty": "No hay facturas registradas.",
+      "termFallback": "Semestre",
+      "fixed": "Fijo:",
+      "variable": "Variable:",
+      "discount": "Descuento:",
+      "sum": "Suma:",
+      "billPaid": "Pagado:",
+      "billRemaining": "Pendiente:",
+      "thSeq": "Plazo",
+      "thAmount": "Importe",
+      "thDue": "Vencimiento",
+      "thStatus": "Estado",
+      "payments": "Pagos",
+      "paymentsEmpty": "No hay pagos registrados.",
+      "thGateway": "Pasarela",
+      "thPurpose": "Concepto",
+      "thDate": "Fecha",
+      "loans": "Préstamos",
+      "loansEmpty": "No hay préstamos registrados.",
+      "loanFallback": "Préstamo",
+      "appliedToTuition": "Aplicado a la matrícula",
+      "thPaidAmount": "Pagado",
+      "scholarships": "Becas",
+      "scholarshipsEmpty": "No hay becas registradas.",
+      "thScholarship": "Beca",
+      "thValue": "Valor",
+      "refunds": "Reembolsos",
+      "refundsEmpty": "No hay solicitudes de reembolso registradas.",
+      "thRequested": "Importe solicitado",
+      "thFinal": "Importe final",
+      "thAccount": "Cuenta",
+      "timeline": "Historial de actividad financiera"
+    },
+    "receivables": {
+      "title": "Informe de cuentas por cobrar de matrículas",
+      "empty": "No hay datos disponibles.",
+      "billed": "Total facturado:",
+      "collected": "Cobrado:",
+      "outstanding": "Pendiente:",
+      "overdue": "Monto vencido:",
+      "installments": "{value} cuota",
+      "noBills": "No hay facturas de matrícula registradas.",
+      "thTerm": "Semestre",
+      "thBillCount": "N.º de recibos",
+      "thBilled": "Facturado",
+      "thCollected": "Cobrado",
+      "thOutstanding": "Pendiente"
+    },
+    "ledger": {
+      "title": "Vista del libro mayor"
+    },
+    "payables": {
+      "title": "Liquidación de sueldos",
+      "empty": "No hay ejecuciones de sueldos pagados para liquidar.",
+      "thPeriod": "Periodo",
+      "thNet": "Neto",
+      "thDeduction": "Deducciones",
+      "thStatus": "Estado",
+      "thActions": "Acciones",
+      "settled": "Liquidado",
+      "awaiting": "Pendiente de liquidación",
+      "settle": "Liquidación de tesorería",
+      "noticeWallet": "Liquidación realizada: el sueldo neto se depositó en la billetera del personal y las deducciones se pagaron desde la tesorería (total {amount}).",
+      "noticeCash": "Liquidación realizada: {amount} pagado desde la tesorería."
+    },
+    "report": {
+      "title": "Informe de costos salariales",
+      "empty": "No hay recibos emitidos registrados.",
+      "totalGross": "Total bruto:",
+      "totalDeduction": "Total de deducciones:",
+      "totalNet": "Total neto:",
+      "thPerson": "Personal",
+      "thPeriod": "Periodo",
+      "thGross": "Bruto",
+      "thDeduction": "Deducciones",
+      "thNet": "Neto"
+    },
+    "faculty": {
+      "title": "Informe de sueldos por facultad",
+      "thFaculty": "Facultad",
+      "thSlips": "N.º de recibos"
+    },
+    "csv": {
+      "receivables": "Semestre,Año,Semestre,N.º de recibos,Monto facturado,Cobrado,Pendiente",
+      "report": "Código de empleado,Nombre,Año,Mes,Bruto,Deducciones,Neto",
+      "faculty": "Facultad,N.º de recibos,Bruto,Deducciones,Neto"
+    }
+  },
+  "users": {
+    "error": "Se produjo un error",
+    "denied": "Acceso exclusivo para administradores.",
+    "eyebrow": "Personas",
+    "title": "Usuarios",
+    "bulkOpen": "Importación masiva (CSV)",
+    "add": "+ Añadir usuario",
+    "helpTitle": "Guía de gestión de usuarios",
+    "helpBody": "En esta página puedes crear cuentas de usuario, asignar sus roles y restablecer sus contraseñas si es necesario. Utiliza «+ Añadir usuario» para crear una cuenta nueva o «Importación masiva (CSV)» para registrar varios usuarios a la vez; haz clic en la fila de cualquier usuario para editarlo. En «Expediente» verás el perfil completo de cada persona: para los estudiantes, el expediente académico, exámenes, tareas, asistencia y actividad; para los profesores, las clases, la carga docente y el progreso de calificación.",
+    "empty": "No hay usuarios registrados.",
+    "searchPlaceholder": "Buscar por nombre o correo…",
+    "thName": "Nombre",
+    "thEmail": "Correo electrónico",
+    "thRoles": "Roles",
+    "thStatus": "Estado",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "dossier": "Expediente",
+    "dossierAria": "Expediente completo de {email}",
+    "edit": "Editar",
+    "editAria": "Editar {email}",
+    "resetPassword": "Restablecer contraseña",
+    "form": {
+      "titleEdit": "Editar usuario",
+      "titleCreate": "Añadir usuario",
+      "email": "Correo electrónico",
+      "emailLockedHelper": "El correo electrónico no se puede cambiar después de la creación.",
+      "initialPassword": "Contraseña inicial",
+      "initialPasswordHelper": "Al menos 8 caracteres. El usuario podrá cambiarla más tarde desde su perfil.",
+      "fullName": "Nombre y apellidos",
+      "locale": "Idioma",
+      "localeFa": "Persa",
+      "roles": "Roles",
+      "roleLocked": "Solo el administrador general puede asignar este rol",
+      "rolesHelper": "Los roles de gestión (administrador del sistema / administrador general) solo pueden ser asignados por el administrador general.",
+      "faculty": "Facultad gestionada (Decanato)",
+      "facultyEmpty": "— Seleccionar facultad —",
+      "facultyHelper": "El decano solo administra esta facultad en específico. Se aplicará al próximo inicio de sesión del usuario tras guardar.",
+      "isActive": "La cuenta está activa",
+      "resetTitle": "Restablecer contraseña — {who}",
+      "newPassword": "Nueva contraseña",
+      "newPasswordHelper": "Al menos 8 caracteres. Se cerrarán todas las sesiones activas de este usuario."
+    },
+    "bulkStatus": {
+      "created": "Creado",
+      "duplicate": "Duplicado",
+      "error": "Error"
+    },
+    "bulk": {
+      "title": "Importación masiva de usuarios (CSV)",
+      "close": "Cerrar",
+      "intro": "Selecciona un archivo CSV con las columnas <c>email,fullName,roles,password</c>. Las columnas email y fullName son obligatorias; roles (separados por <p>|</p>) y password son opcionales. Si la contraseña se deja en blanco, el sistema generará una aleatoria y solo la mostrará en el informe de esta página.",
+      "downloadTemplate": "Descargar archivo de plantilla (CSV)",
+      "sampleName": "Juan Pérez",
+      "fileLabel": "Archivo CSV",
+      "emptyFile": "El archivo está vacío.",
+      "badHeader": "La primera fila debe ser la cabecera y contener al menos las columnas email y fullName (descarga el archivo de plantilla).",
+      "noRows": "No se encontraron datos después de la fila de cabecera.",
+      "readFailed": "No se pudo leer el archivo. Selecciona un archivo CSV válido.",
+      "readSummary": "Se leyeron {rows} filas de «{file}» —",
+      "validCount": "{value} válidos",
+      "invalidCount": "{value} con errores",
+      "previewNote": " — Vista previa de las primeras {value} filas",
+      "thRow": "#",
+      "thEmail": "Correo electrónico",
+      "thName": "Nombre",
+      "thRoles": "Roles",
+      "thPassword": "Contraseña",
+      "thCheck": "Verificación",
+      "hasPassword": "Sí",
+      "autoPassword": "Automática",
+      "badEmail": "Correo electrónico no válido",
+      "dupInFile": "Duplicado en el archivo",
+      "ready": "Listo",
+      "cancel": "Cancelar",
+      "importing": "Importando…",
+      "start": "Iniciar importación",
+      "warning": "⚠️ Las contraseñas generadas <b>solo se muestran aquí</b> y no se podrán recuperar más tarde; descarga el informe antes de cerrar.",
+      "createdCount": "Creados: {value}",
+      "dupCount": "Duplicados: {value}",
+      "errCount": "Errores: {value}",
+      "noReport": "No se recibió ningún informe del servidor.",
+      "rEmail": "Correo electrónico",
+      "rStatus": "Estado",
+      "rReason": "Motivo",
+      "rPassword": "Contraseña generada",
+      "downloadReport": "Descargar informe CSV",
+      "another": "Subir otro archivo"
+    }
+  },
+  "membershipQueue": {
+    "eyebrow": "Panel de administración · Membresía",
+    "title": "Cola de membresía",
+    "lead": "Solicitudes de membresía, verificación de identidad, suspensión/revocación/reactivación.",
+    "help": {
+      "title": "Ayuda",
+      "body": "La «Verificación de identidad» cambia una membresía pendiente a verificada; el usuario luego realiza el pago desde su página de «Mi membresía». La «Suspensión», «Reactivación» y «Revocación» solo están disponibles para el rol de administrador de membresías. La revocación es definitiva e irreversible; la fila no se elimina, su estado cambia a «Revocada» y permanece en el historial para mayor transparencia. Al activarse una membresía con un área de especialización, el usuario se añade automáticamente al grupo de mensajería de dicha área."
+    },
+    "status": {
+      "pending": "Pendiente de aprobación",
+      "verified": "Verificada",
+      "active": "Activa",
+      "renewal_due": "Renovación pendiente",
+      "grace": "Periodo de gracia",
+      "lapsed": "Caducada",
+      "suspended": "Suspendida",
+      "revoked": "Revocada"
+    },
+    "filters": {
+      "label": "Estado",
+      "all": "Todos"
+    },
+    "loading": "Cargando…",
+    "noName": "Sin nombre",
+    "row": {
+      "field": "Área de especialización: {name}",
+      "noField": "Sin área de especialización",
+      "requested": "· Solicitud: {date}",
+      "expires": "· Expiración: {date}",
+      "suspendReason": "Motivo de suspensión: {reason}",
+      "revokeReason": "Motivo de revocación: {reason}"
+    },
+    "reasonPlaceholder": "Motivo (opcional)",
+    "actions": {
+      "verify": "Verificar identidad",
+      "suspend": "Suspender membresía",
+      "unsuspend": "Reactivar",
+      "revoke": "Revocar",
+      "revokeConfirm": "La revocación es irreversible. ¿Estás seguro?",
+      "revokeYes": "Sí, revocar",
+      "cancel": "Cancelar"
+    },
+    "notice": {
+      "verified": "Se ha verificado la identidad del miembro.",
+      "suspended": "Membresía suspendida.",
+      "unsuspended": "Membresía reactivada.",
+      "revoked": "Membresía revocada."
+    },
+    "history": {
+      "title": "Historial de transiciones",
+      "actor": "· Actor:",
+      "system": "· Del sistema"
+    },
+    "empty": {
+      "title": "No hay membresías en este estado",
+      "body": "La lista está filtrada según el estado seleccionado. Borra los filtros para ver todas las solicitudes.",
+      "cta": "Mostrar todos los estados"
+    },
+    "selectHint": "Selecciona una membresía de la lista."
+  },
+  "auditExport": {
+    "button": "Exportar CSV",
+    "pending": "Preparando…",
+    "error": "No se pudo exportar; inténtalo de nuevo.",
+    "note": "Últimas {rows} filas con estos filtros, solo lectura"
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "common": {
+    "user": "User",
+    "close": "Close",
+    "you": "You",
+    "cancel": "Cancel",
+    "working": "Working…",
+    "loading": "Loading…"
+  },
+  "errors": {
+    "generic": "An error occurred"
+  },
+  "role": {
+    "owner": "Owner",
+    "admin": "Admin",
+    "member": "Member"
+  },
+  "mute": {
+    "title": "Notifications for this chat",
+    "hint": "Muted: Messages and mentions in this conversation will not trigger notifications (they remain in the list).",
+    "on": "🔕 Muted",
+    "off": "🔔 Notifications on"
+  },
+  "file": {
+    "unsupported": "This file type is not supported. Send an image (PNG/JPG/WebP/GIF) or document (PDF/Word/Excel/PowerPoint/Text/ZIP).",
+    "kind": {
+      "image": "Image",
+      "voice": "Voice message",
+      "file": "File"
+    },
+    "tooLarge": "{label} size exceeds the allowed limit (maximum {value, number} MB)."
+  },
+  "size": {
+    "bytes": "{value} bytes",
+    "kb": "{value} KB",
+    "mb": "{value} MB"
+  },
+  "preview": {
+    "poll": "📊 Poll: {body}",
+    "image": "🖼️ Image",
+    "file": "📎 File",
+    "fileNamed": "📎 {name}",
+    "voice": "🎤 Voice message",
+    "message": "Message"
+  },
+  "media": {
+    "image": "Image",
+    "file": "File",
+    "generic": "Media",
+    "tabsAria": "Media type",
+    "tabImages": "Images",
+    "tabFiles": "Files",
+    "emptyImages": "No images have been shared in this chat.",
+    "emptyFiles": "No files have been shared in this chat.",
+    "open": "Open image: {name}",
+    "dialogAria": "{title} media",
+    "sharedTitle": "Shared media",
+    "imageAlt": "Attached image",
+    "downloadFile": "Download file: {name}",
+    "downloadFileSized": "Download file: {name} ({size})",
+    "downloadImage": "Download image",
+    "download": "Download",
+    "lightboxAria": "Image: {name}"
+  },
+  "day": {
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "presence": {
+    "justNow": "Just now",
+    "minutesAgo": "{value, plural, one {# minute ago} other {# minutes ago}}",
+    "hoursAgo": "{value, plural, one {# hour ago} other {# hours ago}}",
+    "dayAtTime": "{day} at {time}",
+    "online": "Online",
+    "offline": "Offline",
+    "lastSeen": "Last seen {when}"
+  },
+  "mention": {
+    "viewProfile": "View {name}'s profile",
+    "dialog": "Mention member",
+    "empty": "No members found.",
+    "listAria": "Members for mention"
+  },
+  "list": {
+    "title": "Messages",
+    "unreadPill": "{value, plural, one {# unread} other {# unread}}",
+    "classSpacesTitle": "Class Chat Spaces",
+    "classGroups": "Course Groups",
+    "newCta": "+ New",
+    "loading": "Loading…",
+    "emptyTitle": "No conversations yet.",
+    "emptyHint": "Start a conversation with \"+ New\".",
+    "emptyCta": "+ Start conversation",
+    "noSearchMatch": "No conversations found matching \"{query}\".",
+    "noUnread": "You have no unread conversations.",
+    "noneInFolder": "No conversations in this folder.",
+    "placeholder": "Select a conversation.",
+    "unreadSep": "Unread messages"
+  },
+  "search": {
+    "ariaMessages": "Search messages",
+    "ariaConvos": "Search conversations",
+    "placeholderMessages": "Search all messages…",
+    "placeholderConvos": "Search conversations…",
+    "clear": "Clear search",
+    "modeLabel": "Search mode",
+    "tabConvos": "Conversations",
+    "tabMessages": "Messages",
+    "tabMentions": "My mentions",
+    "minChars": "Enter at least {value, number} characters to search messages.",
+    "searching": "Searching…",
+    "noMessages": "No messages found matching \"{query}\"."
+  },
+  "mentions": {
+    "loading": "Loading mentions…",
+    "empty": "You haven't been mentioned in any messages yet."
+  },
+  "spaces": {
+    "intro": "For each course you teach, a \"Discussion Group\" (everyone can post) and an \"Announcement Channel\" (only you) will be created. Enrolled students are automatically added and will see them in their conversation list.",
+    "noSections": "No courses are registered for you.",
+    "groupNumber": " · Group {value, number}",
+    "active": "Active",
+    "resync": "Resync roster",
+    "create": "Create space"
+  },
+  "chat": {
+    "untitled": "Chat",
+    "back": "Back",
+    "memberCount": "{value, number} members",
+    "onlineCount": " · {value, number} online",
+    "tapForInfo": " · Tap for info",
+    "menuAria": "Chat options",
+    "menuTitle": "Options",
+    "olderMessages": "Older messages",
+    "empty": "No messages yet. Send the first message.",
+    "readOnly": "Only administrators can post in this channel."
+  },
+  "voice": {
+    "unsupported": "Voice recording is not supported in this browser.",
+    "denied": "Microphone access was denied. Check microphone permissions in your browser.",
+    "cancel": "Cancel recording",
+    "recording": "Recording voice message…",
+    "send": "Send voice message",
+    "record": "Record voice message"
+  },
+  "copy": {
+    "ok": "Message text copied.",
+    "failed": "Could not copy text."
+  },
+  "ai": {
+    "prompt": {
+      "explain": "Explain this message simply and briefly:\n\"{body}\"",
+      "summarize": "Summarize this message in one or two sentences:\n\"{body}\"",
+      "ask": "Help me with this message and highlight its key points:\n\"{body}\"",
+      "translate": "Translate this text into fluent English if Persian, otherwise into fluent Persian:\n\"{body}\""
+    },
+    "sessionTitle": "From Messenger",
+    "noAnswer": "(No answer received)",
+    "sheet": {
+      "aria": "Smart Assistant response",
+      "title": {
+        "explain": "Explain with AI",
+        "summarize": "Summary",
+        "ask": "Ask Assistant",
+        "translate": "Translate"
+      },
+      "loading": "Writing…",
+      "plansCta": "View plans →",
+      "agentsCta": "Continue in \"Smart Assistants\" →"
+    }
+  },
+  "pin": {
+    "limit": "You can pin up to {value, number} messages. Unpin one first.",
+    "barAria": "Pinned messages ({value, number})",
+    "barTitle": "Pinned message",
+    "listAria": "Pinned messages list",
+    "listTitle": "Pins list",
+    "remove": "Unpin"
+  },
+  "report": {
+    "done": "Your report has been submitted and will be reviewed by administrators. Thank you.",
+    "title": "Report message",
+    "hint": "This message will be reported to administrators for review. Select or enter a reason (optional).",
+    "reasonAria": "Report reason",
+    "reason": {
+      "abusive": "Abusive or harassing content",
+      "spam": "Spam or advertisements",
+      "inappropriate": "Inappropriate content",
+      "other": "Other reasons"
+    },
+    "noteLabel": "Additional details (optional)",
+    "notePlaceholder": "Describe if desired…",
+    "sending": "Submitting…",
+    "submit": "Submit report"
+  },
+  "forward": {
+    "batchBody": "Forward {value, number} messages",
+    "doneOne": "Message forwarded.",
+    "doneMany": "{value, number} messages forwarded.",
+    "title": "Forward message",
+    "searchAria": "Search conversations",
+    "searchPlaceholder": "Search conversations…",
+    "empty": "No conversations found.",
+    "current": "Current conversation"
+  },
+  "bulkDelete": {
+    "done": "{value, number} messages deleted.",
+    "partial": "{value, number} messages deleted ({skipped, number} messages could not be deleted)."
+  },
+  "block": {
+    "done": "This user has been blocked. You can no longer send messages to each other.",
+    "lifted": "Block removed. You can now send messages.",
+    "unblockCta": "Unblock",
+    "blockCta": "Block user",
+    "barText": "You have blocked this user; sending messages is not permitted."
+  },
+  "bubble": {
+    "aria": {
+      "select": "{state} — Message from {name}",
+      "selected": "Selected",
+      "selectable": "Select",
+      "message": "Message from {name} — Menu key or right-click for options"
+    },
+    "forwardedFrom": "Forwarded from",
+    "pinned": "Pinned",
+    "jumpToReplied": "Go to {name}'s message",
+    "edited": " · Edited",
+    "quickActions": "Quick message actions",
+    "likeAria": "Like reaction",
+    "like": "Like",
+    "reply": "Reply",
+    "more": "More options",
+    "menu": "Message options"
+  },
+  "qa": {
+    "question": "Class question",
+    "hasAccepted": " · Has accepted answer",
+    "accepted": "Accepted answer",
+    "openAria": "Class Q&A",
+    "openTitle": "Q&A",
+    "sendAsAria": "Send as class question",
+    "sendAsOn": "This message will be sent as a question",
+    "filterAria": "Filter questions",
+    "filter": {
+      "all": "All",
+      "unanswered": "Unanswered",
+      "answered": "Answered"
+    },
+    "empty": {
+      "unanswered": "No unanswered questions.",
+      "answered": "No questions have an accepted answer yet.",
+      "all": "No questions posted yet. Ask a question with the ❓ button next to compose."
+    },
+    "jump": "Go to {name}'s question",
+    "acceptedBadge": "Accepted answer",
+    "answersCount": "{value, number} answers",
+    "olderItems": "Older items"
+  },
+  "status": {
+    "failed": "Failed to send",
+    "retry": "Retry",
+    "pending": "Sending",
+    "read": "Read",
+    "sent": "Sent"
+  },
+  "seenBy": {
+    "aria": "Who has seen this",
+    "title": "Seen by"
+  },
+  "selection": {
+    "barAria": "Message selection bar",
+    "cancelAria": "Cancel selection",
+    "count": "{value, number} selected",
+    "idle": "Select messages",
+    "forward": "Forward",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "confirmAria": "Confirm message deletion",
+    "confirmBody": "Delete {value, number} messages? Messages you do not have permission to delete will be skipped."
+  },
+  "convoSearch": {
+    "toggleAria": "Search in this conversation",
+    "toggleTitle": "Search in conversation",
+    "aria": "Search message in this conversation",
+    "placeholder": "Search message in this conversation…",
+    "advAria": "Advanced filters",
+    "advTitle": "Filters (sender · type · date range)",
+    "close": "Close search",
+    "sender": "Sender",
+    "senderAria": "Filter by sender",
+    "kindAria": "Message type",
+    "kind": {
+      "all": "All",
+      "media": "Media",
+      "file": "File",
+      "question": "Questions"
+    },
+    "rangeAria": "Date range",
+    "range": {
+      "all": "All time",
+      "1d": "Past 24 hours",
+      "7d": "Past 7 days",
+      "30d": "Past 30 days"
+    },
+    "noResults": "No messages found matching \"{query}\" in this conversation."
+  },
+  "drop": {
+    "title": "Drop to send",
+    "limits": "Images up to {image, number} MB · Documents up to {file, number} MB"
+  },
+  "fab": {
+    "newMessages": "{value, number} new messages — Go to latest message",
+    "jumpToLatest": "Go to latest message",
+    "jumpToBottom": "Scroll to bottom"
+  },
+  "typing": {
+    "separator": ", ",
+    "andOthers": " and {value, number} others",
+    "suffix": " is typing…",
+    "peer": "typing…"
+  },
+  "compose": {
+    "replyingTo": "Replying to",
+    "cancelReply": "Cancel reply",
+    "editing": "Edit message",
+    "cancelEdit": "Cancel edit",
+    "emojiPicker": "Choose emoji",
+    "insertEmoji": "Insert {emoji}",
+    "emoji": "Emoji",
+    "aria": "Compose message",
+    "placeholder": "Type a message…",
+    "save": "Save",
+    "send": "Send"
+  },
+  "attach": {
+    "title": "Attachment",
+    "aria": "Attach file",
+    "image": "Photo",
+    "file": "Document or file",
+    "poll": "Poll",
+    "note": "Images up to {image, number} MB · Documents up to {file, number} MB. Typed text will be sent as a caption."
+  },
+  "ctx": {
+    "aria": "Message options",
+    "react": "React with {emoji}",
+    "quickReact": "Quick react",
+    "moreEmoji": "More emojis",
+    "more": "More",
+    "reply": "Reply",
+    "copy": "Copy text",
+    "forward": "Forward",
+    "qaAccept": "Mark as accepted answer",
+    "qaClear": "Remove accepted answer",
+    "ai": {
+      "explain": "Explain with AI",
+      "summarize": "Summarize",
+      "ask": "Ask Assistant",
+      "translate": "Translate"
+    },
+    "select": "Select",
+    "edit": "Edit",
+    "seenBy": "Message info",
+    "pin": "Pin"
+  },
+  "pins": {
+    "title": "Pinned messages",
+    "heading": "Pinned messages ({value, number})",
+    "empty": "No pinned messages.",
+    "jump": "Go to pinned message",
+    "unpinShort": "Unpin"
+  },
+  "poll": {
+    "dialogAria": "Create poll",
+    "heading": "New poll",
+    "questionLabel": "Question",
+    "questionPlaceholder": "e.g., Which time works best for make-up class?",
+    "optionsLabel": "Options ({min, number} to {max, number})",
+    "option": "Option {value, number}",
+    "removeOption": "Remove option {value, number}",
+    "addOption": "+ Add option",
+    "multi": "Allow multiple answers",
+    "creating": "Creating…",
+    "create": "Create poll"
+  },
+  "newChat": {
+    "title": "New conversation",
+    "groupNameRequired": "Group name is required",
+    "channelNameRequired": "Channel name is required",
+    "tab": {
+      "dm": "Direct",
+      "group": "Group",
+      "channel": "Channel",
+      "discover": "Discover",
+      "class": "Class"
+    },
+    "discoverEmpty": "No public channels to join. (Create public channels in the \"Channel\" tab.)",
+    "subscriberCount": "{value, number} members",
+    "open": "Open",
+    "join": "Join",
+    "classEmpty": "You have no course sections to teach. (Class space is created by the course instructor.)",
+    "provision": "Create class space",
+    "groupName": "Group name",
+    "channelName": "Channel name",
+    "channelDesc": "Channel description",
+    "descOptional": "Description (optional)",
+    "searchUserAria": "Search user",
+    "searchUserPlaceholder": "Search user…",
+    "noUser": "No user found.",
+    "createGroup": "Create group ({value, number})",
+    "createChannel": "Create channel ({value, number})"
+  },
+  "groupInfo": {
+    "aria": "{kind} info",
+    "tabsAria": "Conversation info",
+    "tabMembers": "Members",
+    "tabMedia": "Media",
+    "membersHeading": "Members ({value, number})",
+    "addToggle": "+ Add",
+    "add": "Add",
+    "noneToAdd": "No users available to add.",
+    "demote": "Remove admin",
+    "promote": "Promote to admin",
+    "removeMember": "Remove member",
+    "thisMember": "This member",
+    "leave": "Leave {kind}"
+  }
+}

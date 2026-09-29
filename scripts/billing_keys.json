@@ -1,0 +1,1078 @@
+{
+  "checkout.action.busy": {
+    "en": "Processing...",
+    "fa": "در حال پردازش…"
+  },
+  "checkout.action.downgrade": {
+    "en": "Confirm Downgrade and Receive Credit",
+    "fa": "تأیید تنزل و دریافت اعتبار"
+  },
+  "checkout.action.free": {
+    "en": "Free Activation",
+    "fa": "فعال‌سازی رایگان"
+  },
+  "checkout.action.gateway": {
+    "en": "Pay and Activate Subscription",
+    "fa": "پرداخت و فعال‌سازی اشتراک"
+  },
+  "checkout.action.renew": {
+    "en": "Renew Subscription",
+    "fa": "تمدید اشتراک"
+  },
+  "checkout.action.wallet": {
+    "en": "Pay from Wallet and Activate",
+    "fa": "پرداخت از کیف پول و فعال‌سازی"
+  },
+  "checkout.amount.free": {
+    "en": "Free",
+    "fa": "رایگان"
+  },
+  "checkout.amount.noPayment": {
+    "en": "No payment required",
+    "fa": "بدون پرداخت"
+  },
+  "checkout.back": {
+    "en": "→ Back to plans",
+    "fa": "→ بازگشت به پلن‌ها"
+  },
+  "checkout.cancel.body": {
+    "en": "Your current subscription will be canceled and you will return to the free plan.",
+    "fa": "اشتراک فعلی شما لغو می‌شود و به پلن رایگان بازمی‌گردید."
+  },
+  "checkout.cancel.button": {
+    "en": "Cancel Subscription",
+    "fa": "لغو اشتراک"
+  },
+  "checkout.cancel.confirm": {
+    "en": "Cancel Subscription",
+    "fa": "لغو اشتراک"
+  },
+  "checkout.cancel.dismiss": {
+    "en": "Dismiss",
+    "fa": "انصراف"
+  },
+  "checkout.cancel.done": {
+    "en": "Your subscription has been canceled.",
+    "fa": "اشتراک شما لغو شد."
+  },
+  "checkout.cancel.title": {
+    "en": "Cancel Subscription",
+    "fa": "لغو اشتراک"
+  },
+  "checkout.creditNote": {
+    "en": "An amount of {amount} for the unused days of your current plan will be credited to your wallet.",
+    "fa": "مبلغ {amount} بابت روزهای استفاده‌نشدهٔ پلن فعلی به کیف پول شما واریز می‌شود."
+  },
+  "checkout.currentPlanLabel": {
+    "en": "Your current plan:",
+    "fa": "پلن فعلی شما:"
+  },
+  "checkout.error.cancel": {
+    "en": "Failed to cancel subscription.",
+    "fa": "لغو اشتراک ناموفق بود."
+  },
+  "checkout.error.checkout": {
+    "en": "Failed to initiate payment.",
+    "fa": "آغاز پرداخت ناموفق بود."
+  },
+  "checkout.error.load": {
+    "en": "Failed to load plan details.",
+    "fa": "بارگذاری اطلاعات پلن با خطا مواجه شد."
+  },
+  "checkout.guest.body": {
+    "en": "Sign in to your account to make a purchase or change your subscription. Your selected plan will be saved after you log in.",
+    "fa": "برای خرید یا تغییر اشتراک وارد حساب کاربری خود شوید؛ پلن انتخابی شما پس از ورود حفظ می‌شود."
+  },
+  "checkout.guest.cta": {
+    "en": "Sign in / Register",
+    "fa": "ورود / ثبت‌نام"
+  },
+  "checkout.guest.title": {
+    "en": "Sign in to continue",
+    "fa": "برای ادامه وارد شوید"
+  },
+  "checkout.loading": {
+    "en": "Loading...",
+    "fa": "در حال بارگذاری…"
+  },
+  "checkout.mockNote": {
+    "en": "«Sample» test gateway — real payment will be activated once the gateway is connected",
+    "fa": "درگاه آزمایشی «نمونه» — پرداخت واقعی پس از اتصال درگاه فعال می‌شود"
+  },
+  "checkout.notFound": {
+    "en": "Plan not found.",
+    "fa": "پلن یافت نشد."
+  },
+  "checkout.payFrom.gateway": {
+    "en": "Payment Gateway",
+    "fa": "درگاه پرداخت"
+  },
+  "checkout.payFrom.insufficient": {
+    "en": "Insufficient wallet balance",
+    "fa": "موجودی کیف پول کافی نیست"
+  },
+  "checkout.payFrom.label": {
+    "en": "Payment method",
+    "fa": "روش پرداخت"
+  },
+  "checkout.payFrom.wallet": {
+    "en": "Wallet",
+    "fa": "کیف پول"
+  },
+  "checkout.payFrom.walletWithBalance": {
+    "en": "Wallet ({balance})",
+    "fa": "کیف پول ({balance})"
+  },
+  "checkout.period.aria": {
+    "en": "Billing cycle",
+    "fa": "دورهٔ پرداخت"
+  },
+  "checkout.period.month": {
+    "en": "Monthly",
+    "fa": "ماهانه"
+  },
+  "checkout.period.year": {
+    "en": "Yearly (2 months free)",
+    "fa": "سالانه (۲ ماه رایگان)"
+  },
+  "checkout.prorationNote": {
+    "en": "Only the prorated amount for the remaining days until the end of the current cycle has been calculated.",
+    "fa": "فقط مابه‌التفاوتِ روزهای باقی‌مانده تا پایان دورهٔ فعلی محاسبه شده است."
+  },
+  "checkout.quota": {
+    "en": "AI message limit: {count, plural, one {# message} other {# messages}} per month",
+    "fa": "سقف پیام هوش مصنوعی: {count, plural, one {# پیام} other {# پیام}} در ماه"
+  },
+  "checkout.rel.downgrade": {
+    "en": "Downgrade plan",
+    "fa": "تنزل پلن"
+  },
+  "checkout.rel.lateral": {
+    "en": "Switch plan",
+    "fa": "تغییر پلن"
+  },
+  "checkout.rel.none": {
+    "en": "Buy subscription",
+    "fa": "خرید اشتراک"
+  },
+  "checkout.rel.same": {
+    "en": "Your current plan",
+    "fa": "پلن فعلی شما"
+  },
+  "checkout.rel.upgrade": {
+    "en": "Upgrade plan",
+    "fa": "ارتقای پلن"
+  },
+  "checkout.suffix.month": {
+    "en": "/ month",
+    "fa": "/ ماه"
+  },
+  "checkout.suffix.proration": {
+    "en": "(Prorated)",
+    "fa": "(مابه‌التفاوت)"
+  },
+  "checkout.suffix.year": {
+    "en": "/ year",
+    "fa": "/ سال"
+  },
+  "orgInvoice.action.close": {
+    "en": "Close",
+    "fa": "بستن"
+  },
+  "orgInvoice.action.confirm": {
+    "en": "Approve Settlement",
+    "fa": "تأییدِ تسویه"
+  },
+  "orgInvoice.action.details": {
+    "en": "Details",
+    "fa": "جزئیات"
+  },
+  "orgInvoice.action.new": {
+    "en": "New Invoice",
+    "fa": "فاکتور جدید"
+  },
+  "orgInvoice.action.print": {
+    "en": "Print / PDF Export",
+    "fa": "چاپ / خروجی PDF"
+  },
+  "orgInvoice.action.reject": {
+    "en": "Reject Request",
+    "fa": "ردِ درخواست"
+  },
+  "orgInvoice.action.requestSettlement": {
+    "en": "Submit Settlement Request",
+    "fa": "ثبتِ درخواستِ تسویه"
+  },
+  "orgInvoice.detail.amount": {
+    "en": "Amount payable",
+    "fa": "مبلغِ قابل پرداخت"
+  },
+  "orgInvoice.detail.aria": {
+    "en": "Invoice details {number}",
+    "fa": "جزئیاتِ فاکتور {number}"
+  },
+  "orgInvoice.detail.dueDate": {
+    "en": "Due date",
+    "fa": "سررسید"
+  },
+  "orgInvoice.detail.heading": {
+    "en": "Invoice {number}",
+    "fa": "فاکتور {number}"
+  },
+  "orgInvoice.detail.issuedDate": {
+    "en": "Issue date",
+    "fa": "تاریخ صدور"
+  },
+  "orgInvoice.detail.ledgerTxn": {
+    "en": "General ledger transaction ID",
+    "fa": "شناسهٔ سندِ دفترِ کل"
+  },
+  "orgInvoice.detail.paidDate": {
+    "en": "Settlement date",
+    "fa": "تاریخ تسویه"
+  },
+  "orgInvoice.detail.requestedAt": {
+    "en": "Settlement request date",
+    "fa": "تاریخ درخواستِ تسویه"
+  },
+  "orgInvoice.detail.settlementNote": {
+    "en": "Note",
+    "fa": "توضیح"
+  },
+  "orgInvoice.detail.settlementRef": {
+    "en": "Transfer reference number",
+    "fa": "شمارهٔ حواله"
+  },
+  "orgInvoice.error.create": {
+    "en": "Failed to issue invoice.",
+    "fa": "صدورِ فاکتور ناموفق بود."
+  },
+  "orgInvoice.error.load": {
+    "en": "Failed to load invoices.",
+    "fa": "بارگذاریِ فاکتورها ناموفق بود."
+  },
+  "orgInvoice.error.settle": {
+    "en": "Failed to record settlement operation.",
+    "fa": "ثبتِ عملیاتِ تسویه ناموفق بود."
+  },
+  "orgInvoice.eyebrow": {
+    "en": "Enterprise Billing",
+    "fa": "صورت‌حساب سازمانی"
+  },
+  "orgInvoice.filter.all": {
+    "en": "All",
+    "fa": "همه"
+  },
+  "orgInvoice.filter.aria": {
+    "en": "Status filter",
+    "fa": "فیلترِ وضعیت"
+  },
+  "orgInvoice.help.body": {
+    "en": "You issue the invoice, the organization issues the remittance, and registers a «Settlement Request» right here. The invoice is not marked as «Settled» until the finance department approves the remittance; financial approval is what writes the general ledger entry.",
+    "fa": "فاکتور را صادر می‌کنید، سازمان حواله را می‌زند و در همین‌جا «درخواستِ تسویه» ثبت می‌کند. فاکتور تا وقتی واحدِ مالی حواله را تأیید نکند «تسویه‌شده» نمی‌شود؛ تأییدِ مالی است که سندِ دفترِ کل را می‌نویسد."
+  },
+  "orgInvoice.help.title": {
+    "en": "What does this page do?",
+    "fa": "این صفحه چه‌کار می‌کند؟"
+  },
+  "orgInvoice.kpi.filteredNote": {
+    "en": "Status filter is active; only the card for that status has a number while the rest remain «—», because the filtered list is not the source for counting other statuses.",
+    "fa": "فیلترِ وضعیت فعال است؛ فقط کارتِ همان وضعیت عدد دارد و بقیه «—» می‌مانند، چون فهرستِ فیلترشده منبعِ شمارشِ وضعیت‌های دیگر نیست."
+  },
+  "orgInvoice.kpi.total": {
+    "en": "Total Amount",
+    "fa": "جمعِ مبالغ"
+  },
+  "orgInvoice.lead": {
+    "en": "Corporate training invoices: issuance, due date tracking, and settlement upon financial department approval.",
+    "fa": "فاکتورهای آموزشِ سازمانی: صدور، پیگیریِ سررسید و تسویه با تأییدِ واحدِ مالی."
+  },
+  "orgInvoice.new.amount": {
+    "en": "Amount (Rials)",
+    "fa": "مبلغ (ریال)"
+  },
+  "orgInvoice.new.due": {
+    "en": "Due date",
+    "fa": "سررسید"
+  },
+  "orgInvoice.new.dueAria": {
+    "en": "Select due date",
+    "fa": "انتخابِ تاریخِ سررسید"
+  },
+  "orgInvoice.new.issued": {
+    "en": "Issue date",
+    "fa": "تاریخ صدور"
+  },
+  "orgInvoice.new.issuedAria": {
+    "en": "Select issue date",
+    "fa": "انتخابِ تاریخِ صدور"
+  },
+  "orgInvoice.new.number": {
+    "en": "Invoice number",
+    "fa": "شمارهٔ فاکتور"
+  },
+  "orgInvoice.new.numberPlaceholder": {
+    "en": "INV-2025-001",
+    "fa": "INV-1404-001"
+  },
+  "orgInvoice.new.submit": {
+    "en": "Issue invoice",
+    "fa": "صدورِ فاکتور"
+  },
+  "orgInvoice.new.submitting": {
+    "en": "Saving...",
+    "fa": "در حال ثبت…"
+  },
+  "orgInvoice.new.title": {
+    "en": "New invoice",
+    "fa": "فاکتور جدید"
+  },
+  "orgInvoice.new.titleLabel": {
+    "en": "Title",
+    "fa": "عنوان"
+  },
+  "orgInvoice.new.titlePlaceholder": {
+    "en": "Corporate training course…",
+    "fa": "دورهٔ آموزشیِ سازمانی…"
+  },
+  "orgInvoice.print.dueNote": {
+    "en": "This invoice has not been settled yet; this document is not a payment receipt.",
+    "fa": "این فاکتور هنوز تسویه نشده است؛ این برگه رسیدِ پرداخت نیست."
+  },
+  "orgInvoice.print.paidNote": {
+    "en": "This invoice has been settled and its corresponding entry is recorded in the general ledger.",
+    "fa": "این فاکتور تسویه شده و سندِ متناظرِ آن در دفترِ کل ثبت است."
+  },
+  "orgInvoice.print.pendingNote": {
+    "en": "The settlement request for this invoice has been submitted but not yet approved by the finance department; this document is not a payment receipt.",
+    "fa": "درخواستِ تسویهٔ این فاکتور ثبت شده اما هنوز واحدِ مالی آن را تأیید نکرده است؛ این برگه رسیدِ پرداخت نیست."
+  },
+  "orgInvoice.search.aria": {
+    "en": "Search invoices",
+    "fa": "جست‌وجو در فاکتورها"
+  },
+  "orgInvoice.search.placeholder": {
+    "en": "Invoice number or title...",
+    "fa": "شماره یا عنوانِ فاکتور…"
+  },
+  "orgInvoice.settle.awaitingFinance": {
+    "en": "The settlement request has been submitted and is awaiting finance department approval.",
+    "fa": "درخواستِ تسویه ثبت شده و در انتظارِ تأییدِ واحدِ مالی است."
+  },
+  "orgInvoice.settle.busy": {
+    "en": "Saving…",
+    "fa": "در حال ثبت…"
+  },
+  "orgInvoice.settle.cancel": {
+    "en": "Cancel",
+    "fa": "انصراف"
+  },
+  "orgInvoice.settle.confirmBody": {
+    "en": "By approving, invoice {number} in the amount of {amount} will be marked as settled and a balanced general ledger entry will be created. This action cannot be undone.",
+    "fa": "با تأیید، فاکتور {number} به مبلغ {amount} تسویه‌شده ثبت می‌شود و سندِ متوازنِ دفترِ کل نوشته می‌شود. این کار برگشت‌پذیر نیست."
+  },
+  "orgInvoice.settle.confirmSubmit": {
+    "en": "Approve and record entry",
+    "fa": "تأیید و ثبتِ سند"
+  },
+  "orgInvoice.settle.confirmTitle": {
+    "en": "Approve settlement",
+    "fa": "تأییدِ تسویه"
+  },
+  "orgInvoice.settle.noteLabel": {
+    "en": "Note (optional)",
+    "fa": "توضیح (اختیاری)"
+  },
+  "orgInvoice.settle.reasonLabel": {
+    "en": "Reason for rejection",
+    "fa": "دلیلِ رد"
+  },
+  "orgInvoice.settle.reasonRequired": {
+    "en": "A reason is required to reject the request.",
+    "fa": "برای ردِ درخواست، نوشتنِ دلیل الزامی است."
+  },
+  "orgInvoice.settle.refLabel": {
+    "en": "Transfer or receipt reference number (optional)",
+    "fa": "شمارهٔ حواله یا رسید (اختیاری)"
+  },
+  "orgInvoice.settle.refPlaceholder": {
+    "en": "e.g., bank tracking number",
+    "fa": "مثلاً شمارهٔ پیگیریِ بانکی"
+  },
+  "orgInvoice.settle.rejectBody": {
+    "en": "Invoice {number} will return to due status and your reason will be recorded for the organization.",
+    "fa": "فاکتور {number} به وضعیتِ سررسید برمی‌گردد و دلیلِ شما برای سازمان ثبت می‌شود."
+  },
+  "orgInvoice.settle.rejectSubmit": {
+    "en": "Reject request",
+    "fa": "ردِ درخواست"
+  },
+  "orgInvoice.settle.rejectTitle": {
+    "en": "Reject settlement request",
+    "fa": "ردِ درخواستِ تسویه"
+  },
+  "orgInvoice.settle.requestBody": {
+    "en": "This will send invoice {number} in the amount of {amount} to the finance department review queue. No funds are transferred right now; settlement will be recorded after financial approval.",
+    "fa": "با این کار فاکتور {number} به مبلغ {amount} به صفِ بررسیِ واحدِ مالی می‌رود. هیچ مبلغی همین حالا جابه‌جا نمی‌شود؛ تسویه پس از تأییدِ مالی ثبت می‌شود."
+  },
+  "orgInvoice.settle.requestSubmit": {
+    "en": "Submit request",
+    "fa": "ثبتِ درخواست"
+  },
+  "orgInvoice.settle.requestTitle": {
+    "en": "Submit settlement request",
+    "fa": "ثبتِ درخواستِ تسویه"
+  },
+  "orgInvoice.state.empty": {
+    "en": "No invoices have been issued yet.",
+    "fa": "هنوز فاکتوری صادر نشده است."
+  },
+  "orgInvoice.state.emptyFiltered": {
+    "en": "No invoices found matching this filter.",
+    "fa": "فاکتوری با این فیلتر پیدا نشد."
+  },
+  "orgInvoice.state.loading": {
+    "en": "Loading…",
+    "fa": "در حال بارگذاری…"
+  },
+  "orgInvoice.status.DUE": {
+    "en": "Due",
+    "fa": "سررسید"
+  },
+  "orgInvoice.status.OVERDUE": {
+    "en": "Overdue",
+    "fa": "معوق"
+  },
+  "orgInvoice.status.PAID": {
+    "en": "Settled",
+    "fa": "تسویه‌شده"
+  },
+  "orgInvoice.status.PENDING_MANUAL": {
+    "en": "Pending Financial Approval",
+    "fa": "در انتظار تأیید مالی"
+  },
+  "orgInvoice.table.actions": {
+    "en": "Actions",
+    "fa": "عملیات"
+  },
+  "orgInvoice.table.amount": {
+    "en": "Amount",
+    "fa": "مبلغ"
+  },
+  "orgInvoice.table.dueDate": {
+    "en": "Due date",
+    "fa": "سررسید"
+  },
+  "orgInvoice.table.number": {
+    "en": "Number",
+    "fa": "شماره"
+  },
+  "orgInvoice.table.status": {
+    "en": "Status",
+    "fa": "وضعیت"
+  },
+  "orgInvoice.table.title": {
+    "en": "Title",
+    "fa": "عنوان"
+  },
+  "orgInvoice.title": {
+    "en": "Organization Invoices",
+    "fa": "فاکتورهای سازمان"
+  },
+  "orgSeats.cap.clear": {
+    "en": "Clear cap",
+    "fa": "پاک‌کردنِ سقف"
+  },
+  "orgSeats.cap.cleared": {
+    "en": "Seat cap cleared; it is now \"Unregistered\".",
+    "fa": "سقفِ صندلی پاک شد؛ از این پس «ثبت‌نشده» است."
+  },
+  "orgSeats.cap.error": {
+    "en": "An error occurred while saving the seat cap.",
+    "fa": "ثبتِ سقفِ صندلی با خطا مواجه شد."
+  },
+  "orgSeats.cap.hint": {
+    "en": "This number is the organization's license cap and is only registered by the finance department. Leaving it blank means \"no cap registered\" — in that case, \"Total seats\", \"Available\", and \"Occupancy rate\" will not show any numbers.",
+    "fa": "این عدد سقفِ لایسنسِ سازمان است و فقط واحدِ مالی آن را ثبت می‌کند. خالی گذاشتنش یعنی «سقفی ثبت نشده» — در آن حالت «کل صندلی‌ها»، «آزاد» و «نرخِ اشغال» هیچ عددی نشان نمی‌دهند."
+  },
+  "orgSeats.cap.invalid": {
+    "en": "The cap must be an integer between 0 and 1000000.",
+    "fa": "سقف باید عددِ صحیحِ بینِ ۰ تا ۱۰۰۰۰۰۰ باشد."
+  },
+  "orgSeats.cap.label": {
+    "en": "Seat cap",
+    "fa": "سقفِ صندلی"
+  },
+  "orgSeats.cap.placeholder": {
+    "en": "e.g. 250",
+    "fa": "مثلاً ۲۵۰"
+  },
+  "orgSeats.cap.save": {
+    "en": "Save cap",
+    "fa": "ثبتِ سقف"
+  },
+  "orgSeats.cap.saved": {
+    "en": "Seat cap saved.",
+    "fa": "سقفِ صندلی ثبت شد."
+  },
+  "orgSeats.cap.saving": {
+    "en": "Saving...",
+    "fa": "در حالِ ثبت…"
+  },
+  "orgSeats.cap.title": {
+    "en": "Seat Contract Cap",
+    "fa": "سقفِ قراردادِ صندلی"
+  },
+  "orgSeats.capFull": {
+    "en": "No available seats left — license capacity is full.",
+    "fa": "هیچ صندلیِ آزادی باقی نمانده — ظرفیتِ لایسنس تکمیل است."
+  },
+  "orgSeats.capUnsetNote": {
+    "en": "This organization's seat cap is not registered. Until the finance department registers the contract cap, \"Total seats\", \"Available\", and \"Occupancy rate\" will not show any figures — we do not display fabricated numbers.",
+    "fa": "سقفِ صندلیِ این سازمان ثبت نشده است. تا وقتی واحدِ مالی سقفِ قرارداد را ثبت نکند، «کل صندلی‌ها»، «آزاد» و «نرخِ اشغال» عددی ندارند — عددِ ساختگی نشان نمی‌دهیم."
+  },
+  "orgSeats.coursesBasis": {
+    "en": "Based on {linked} out of {total} members who have user accounts.",
+    "fa": "بر پایهٔ {linked} عضو از {total} عضو که حسابِ کاربری دارند."
+  },
+  "orgSeats.coursesNoBasis": {
+    "en": "No members have user accounts, so there is no average.",
+    "fa": "هیچ عضوی حسابِ کاربری ندارد، پس میانگینی وجود ندارد."
+  },
+  "orgSeats.lead.noCap": {
+    "en": "Organization License Seat Management — This organization's contract cap has not been registered yet, so the \"Total\" and \"Available\" figures are not displayed. You can see the number of allocated seats and assign or reclaim seats for any member.",
+    "fa": "مدیریتِ صندلی‌هایِ لایسنسِ سازمان — سقفِ قراردادِ این سازمان هنوز ثبت نشده، پس عددِ «کل» و «آزاد» نمایش داده نمی‌شود. تعدادِ صندلیِ تخصیص‌یافته را می‌بینید و می‌توانید صندلیِ هر عضو را بدهید یا پس بگیرید."
+  },
+  "orgSeats.lead.withCap": {
+    "en": "Organization License Seat Management — Shows how many seats are used and available out of the total {cap} purchased seats. In the allocation list, you can assign or reclaim seats for each member.",
+    "fa": "مدیریتِ صندلی‌هایِ لایسنسِ سازمان — از مجموعِ {cap} صندلیِ خریداری‌شده می‌بینید چند صندلی استفاده شده و چند صندلی آزاد است. در فهرستِ تخصیص می‌توانید صندلیِ هر عضو را بدهید یا پس بگیرید."
+  },
+  "orgSeats.manageDenied": {
+    "en": "Allocating and reclaiming member seats is the organization manager's responsibility. The finance role registers the contract cap and views its usage.",
+    "fa": "تخصیص و پس‌گرفتنِ صندلیِ اعضا کارِ مدیرِ سازمان است. نقشِ مالی سقفِ قرارداد را ثبت می‌کند و مصرفِ آن را می‌بیند."
+  },
+  "orgSeats.unknown": {
+    "en": "Unregistered",
+    "fa": "ثبت‌نشده"
+  },
+  "tuition.billStatus.PAID": {
+    "en": "Paid in full",
+    "fa": "تسویه‌شده"
+  },
+  "tuition.billStatus.PARTIAL": {
+    "en": "Partially paid",
+    "fa": "بخشی پرداخت"
+  },
+  "tuition.billStatus.UNPAID": {
+    "en": "Unpaid",
+    "fa": "پرداخت‌نشده"
+  },
+  "tuition.breakdown.discount": {
+    "en": "Discount / Scholarship",
+    "fa": "تخفیف / بورسیه"
+  },
+  "tuition.breakdown.fixed": {
+    "en": "Fixed Tuition",
+    "fa": "شهریهٔ ثابت"
+  },
+  "tuition.breakdown.paid": {
+    "en": "Paid",
+    "fa": "پرداخت‌شده"
+  },
+  "tuition.breakdown.remaining": {
+    "en": "Remaining",
+    "fa": "مانده"
+  },
+  "tuition.breakdown.title": {
+    "en": "Tuition Breakdown",
+    "fa": "تفکیک شهریه"
+  },
+  "tuition.breakdown.total": {
+    "en": "Total",
+    "fa": "جمع کل"
+  },
+  "tuition.breakdown.variable": {
+    "en": "Variable Tuition ({credits, plural, one {# credit} other {# credits}} × {rate})",
+    "fa": "شهریهٔ متغیر ({credits, plural, one {# واحد} other {# واحد}} × {rate})"
+  },
+  "tuition.courses.col.code": {
+    "en": "Code",
+    "fa": "کد"
+  },
+  "tuition.courses.col.credits": {
+    "en": "Credits",
+    "fa": "واحد"
+  },
+  "tuition.courses.col.title": {
+    "en": "Title",
+    "fa": "عنوان"
+  },
+  "tuition.courses.title": {
+    "en": "Variable Tuition Courses",
+    "fa": "دروس مبنای شهریهٔ متغیر"
+  },
+  "tuition.empty.noTariff": {
+    "en": "The tuition tariff for your program has not been set yet. Please contact the finance department.",
+    "fa": "تعرفهٔ شهریه برای مقطع شما هنوز تنظیم نشده است. با امور مالی تماس بگیرید."
+  },
+  "tuition.empty.noTerm": {
+    "en": "There is no active term for tuition calculation.",
+    "fa": "نیم‌سال فعالی برای محاسبهٔ شهریه وجود ندارد."
+  },
+  "tuition.eyebrow": {
+    "en": "Billing",
+    "fa": "مالی"
+  },
+  "tuition.gate.goRegistration": {
+    "en": "Go to Course Selection",
+    "fa": "رفتن به انتخاب واحد"
+  },
+  "tuition.gate.locked": {
+    "en": "⚠️ Fixed tuition ({amount}) is not paid — course selection is locked.",
+    "fa": "⚠️ شهریهٔ ثابت ({amount}) پرداخت نشده — انتخاب واحد قفل است."
+  },
+  "tuition.gate.open": {
+    "en": "✅ Fixed tuition paid — course selection is open.",
+    "fa": "✅ شهریهٔ ثابت پرداخت شده — انتخاب واحد باز است."
+  },
+  "tuition.genericError": {
+    "en": "An error occurred",
+    "fa": "خطا رخ داد"
+  },
+  "tuition.help.body": {
+    "en": "Tuition = Fixed (basis for course selection gate) + Variable (number of credits × rate per credit) − Discount/Scholarship. Until the fixed tuition is paid, course selection is locked. You can pay the total remaining balance or each installment. In test mode, the gateway is a mock gateway and is not real.",
+    "fa": "شهریه = «ثابت» (مبنای گیت انتخاب واحد) + «متغیر» (تعداد واحد × نرخ هر واحد) − تخفیف/بورسیه. تا شهریهٔ ثابت پرداخت نشود، انتخاب واحد قفل است. می‌توانید کل مانده یا هر قسط را پرداخت کنید. در حالت آزمایشی، درگاه «نمونه» است و واقعی نیست."
+  },
+  "tuition.help.title": {
+    "en": "Tuition Help",
+    "fa": "راهنمای شهریه"
+  },
+  "tuition.history.col.amount": {
+    "en": "Amount",
+    "fa": "مبلغ"
+  },
+  "tuition.history.col.date": {
+    "en": "Date",
+    "fa": "تاریخ"
+  },
+  "tuition.history.col.method": {
+    "en": "Method",
+    "fa": "روش"
+  },
+  "tuition.history.col.status": {
+    "en": "Status",
+    "fa": "وضعیت"
+  },
+  "tuition.history.title": {
+    "en": "Payment History",
+    "fa": "تاریخچهٔ پرداخت"
+  },
+  "tuition.instStatus.OVERDUE": {
+    "en": "Overdue",
+    "fa": "معوق"
+  },
+  "tuition.instStatus.PAID": {
+    "en": "Paid",
+    "fa": "پرداخت‌شده"
+  },
+  "tuition.instStatus.PENDING": {
+    "en": "Pending",
+    "fa": "در انتظار"
+  },
+  "tuition.installments.col.actions": {
+    "en": "Actions",
+    "fa": "عملیات"
+  },
+  "tuition.installments.col.amount": {
+    "en": "Amount",
+    "fa": "مبلغ"
+  },
+  "tuition.installments.col.due": {
+    "en": "Due Date",
+    "fa": "سررسید"
+  },
+  "tuition.installments.col.seq": {
+    "en": "Installment",
+    "fa": "قسط"
+  },
+  "tuition.installments.col.status": {
+    "en": "Status",
+    "fa": "وضعیت"
+  },
+  "tuition.installments.pay": {
+    "en": "Pay",
+    "fa": "پرداخت"
+  },
+  "tuition.installments.title": {
+    "en": "Installments",
+    "fa": "اقساط"
+  },
+  "tuition.loading": {
+    "en": "Loading…",
+    "fa": "در حال بارگذاری…"
+  },
+  "tuition.nav.aid": {
+    "en": "Financial Aid",
+    "fa": "بورسیه"
+  },
+  "tuition.nav.clearance": {
+    "en": "Clearance",
+    "fa": "تسویه‌حساب"
+  },
+  "tuition.nav.loans": {
+    "en": "Student Loans",
+    "fa": "وام‌های دانشجویی"
+  },
+  "tuition.nav.refund": {
+    "en": "Refund",
+    "fa": "استرداد"
+  },
+  "tuition.pay.mockGateway": {
+    "en": "Mock Gateway",
+    "fa": "درگاه آزمایشی «نمونه»"
+  },
+  "tuition.pay.payRemaining": {
+    "en": "Pay Remaining ({amount})",
+    "fa": "پرداخت مانده ({amount})"
+  },
+  "tuition.pay.remaining": {
+    "en": "Remaining",
+    "fa": "مانده"
+  },
+  "tuition.pay.settled": {
+    "en": "Settled",
+    "fa": "تسویه‌شده"
+  },
+  "tuition.pay.title": {
+    "en": "Payment",
+    "fa": "پرداخت"
+  },
+  "tuition.payStatus.CANCELED": {
+    "en": "Canceled",
+    "fa": "لغو"
+  },
+  "tuition.payStatus.FAILED": {
+    "en": "Failed",
+    "fa": "ناموفق"
+  },
+  "tuition.payStatus.PAID": {
+    "en": "Successful",
+    "fa": "موفق"
+  },
+  "tuition.payStatus.PENDING": {
+    "en": "Pending",
+    "fa": "در انتظار"
+  },
+  "tuition.provider.mock": {
+    "en": "Mock",
+    "fa": "نمونه"
+  },
+  "tuition.result.failed": {
+    "en": "Payment was incomplete or cancelled.",
+    "fa": "پرداخت ناتمام ماند یا لغو شد."
+  },
+  "tuition.result.success": {
+    "en": "Payment was successfully recorded.",
+    "fa": "پرداخت با موفقیت ثبت شد."
+  },
+  "tuition.title": {
+    "en": "Tuition and Payments",
+    "fa": "شهریه و پرداخت"
+  },
+  "wallet.balance.blocked": {
+    "en": "Wallet is blocked.",
+    "fa": "کیف پول مسدود است."
+  },
+  "wallet.balance.label": {
+    "en": "Current Balance",
+    "fa": "موجودی فعلی"
+  },
+  "wallet.error.load": {
+    "en": "Failed to load wallet.",
+    "fa": "بارگذاری کیف پول با خطا مواجه شد."
+  },
+  "wallet.error.topup": {
+    "en": "Top-up failed.",
+    "fa": "افزایش موجودی با خطا مواجه شد."
+  },
+  "wallet.error.topupAmount": {
+    "en": "Please enter a valid top-up amount (positive number, Rials).",
+    "fa": "مبلغ افزایش موجودی را (عددی مثبت، ریال) وارد کنید."
+  },
+  "wallet.error.topupStart": {
+    "en": "Failed to initiate payment.",
+    "fa": "شروع پرداخت با خطا مواجه شد."
+  },
+  "wallet.error.withdraw": {
+    "en": "Failed to submit withdrawal request.",
+    "fa": "ثبت درخواست برداشت با خطا مواجه شد."
+  },
+  "wallet.error.withdrawAmount": {
+    "en": "Please enter the withdrawal amount (Rials).",
+    "fa": "مبلغ برداشت را (ریال) وارد کنید."
+  },
+  "wallet.eyebrow": {
+    "en": "Billing · Wallet",
+    "fa": "مالی · کیف پول"
+  },
+  "wallet.help.body": {
+    "en": "Your wallet balance can be used across the entire platform (including tuition payments). \"Top up\" takes you to the payment gateway, and upon successful payment, the amount is instantly added to your wallet.",
+    "fa": "موجودی کیف پول شما در سراسر پلتفرم قابل استفاده است (از جمله پرداخت شهریه). «افزایش موجودی» شما را به درگاه پرداخت می‌برد و پس از پرداخت موفق، مبلغ بلافاصله به کیف پول اضافه می‌شود."
+  },
+  "wallet.help.title": {
+    "en": "Wallet Guide",
+    "fa": "راهنمای کیف پول"
+  },
+  "wallet.history.col.amount": {
+    "en": "Amount",
+    "fa": "مبلغ"
+  },
+  "wallet.history.col.date": {
+    "en": "Date",
+    "fa": "تاریخ"
+  },
+  "wallet.history.col.kind": {
+    "en": "Type",
+    "fa": "نوع"
+  },
+  "wallet.history.empty": {
+    "en": "No transactions recorded yet.",
+    "fa": "هنوز تراکنشی ثبت نشده است."
+  },
+  "wallet.history.title": {
+    "en": "Transaction History",
+    "fa": "تاریخچهٔ تراکنش‌ها"
+  },
+  "wallet.kind.manual_adjust": {
+    "en": "Manual Adjustment",
+    "fa": "اصلاح دستی"
+  },
+  "wallet.kind.manual_credit": {
+    "en": "Manual Credit",
+    "fa": "اعتبار دستی"
+  },
+  "wallet.kind.market_purchase": {
+    "en": "Course Purchase (Knowledge Market)",
+    "fa": "خرید دوره (بازار دانش)"
+  },
+  "wallet.kind.market_refund": {
+    "en": "Course Purchase Refund",
+    "fa": "استرداد خرید دوره"
+  },
+  "wallet.kind.pay_subscription": {
+    "en": "Subscription Payment",
+    "fa": "پرداخت اشتراک"
+  },
+  "wallet.kind.pay_tuition": {
+    "en": "Tuition Payment",
+    "fa": "پرداخت شهریه"
+  },
+  "wallet.kind.refund_in": {
+    "en": "Refund",
+    "fa": "بازگشت وجه"
+  },
+  "wallet.kind.scholarship_in": {
+    "en": "Scholarship",
+    "fa": "بورسیه"
+  },
+  "wallet.kind.topup": {
+    "en": "Top-up",
+    "fa": "افزایش موجودی"
+  },
+  "wallet.kind.withdrawal_hold": {
+    "en": "Withdrawal Hold",
+    "fa": "رزرو برداشت"
+  },
+  "wallet.kind.withdrawal_refund": {
+    "en": "Withdrawal Refund",
+    "fa": "بازگشت برداشت"
+  },
+  "wallet.lead": {
+    "en": "View and top up your balance, and track your transaction history.",
+    "fa": "موجودی خود را ببینید، افزایش دهید، و تاریخچهٔ تراکنش‌ها را دنبال کنید."
+  },
+  "wallet.loading": {
+    "en": "Loading wallet…",
+    "fa": "در حال بارگذاری کیف پول…"
+  },
+  "wallet.receipt.close": {
+    "en": "Close",
+    "fa": "بستن"
+  },
+  "wallet.receipt.footer": {
+    "en": "This receipt is generated automatically by the system.",
+    "fa": "این رسید به‌صورت خودکار توسط سامانه صادر شده است."
+  },
+  "wallet.receipt.open": {
+    "en": "Receipt",
+    "fa": "رسید"
+  },
+  "wallet.receipt.print": {
+    "en": "Print / PDF",
+    "fa": "چاپ / PDF"
+  },
+  "wallet.receipt.row.amount": {
+    "en": "Amount",
+    "fa": "مبلغ"
+  },
+  "wallet.receipt.row.bankTrace": {
+    "en": "Bank Trace Code",
+    "fa": "کد پیگیری بانکی"
+  },
+  "wallet.receipt.row.date": {
+    "en": "Date",
+    "fa": "تاریخ"
+  },
+  "wallet.receipt.row.holder": {
+    "en": "Account Holder",
+    "fa": "صاحب حساب"
+  },
+  "wallet.receipt.row.iban": {
+    "en": "IBAN",
+    "fa": "شمارهٔ شبا"
+  },
+  "wallet.receipt.row.id": {
+    "en": "ID",
+    "fa": "شناسه"
+  },
+  "wallet.receipt.row.kind": {
+    "en": "Type",
+    "fa": "نوع"
+  },
+  "wallet.receipt.row.reason": {
+    "en": "Description",
+    "fa": "توضیح"
+  },
+  "wallet.receipt.row.status": {
+    "en": "Status",
+    "fa": "وضعیت"
+  },
+  "wallet.receipt.row.txnId": {
+    "en": "Transaction ID",
+    "fa": "شناسهٔ تراکنش"
+  },
+  "wallet.receipt.row.withdrawalKind": {
+    "en": "Withdrawal to bank account",
+    "fa": "برداشت به حساب بانکی"
+  },
+  "wallet.receipt.title": {
+    "en": "Wallet Receipt",
+    "fa": "رسید کیف پول"
+  },
+  "wallet.title": {
+    "en": "My Wallet",
+    "fa": "کیف پول من"
+  },
+  "wallet.topup.aria": {
+    "en": "Top-up amount in Rials",
+    "fa": "مبلغ افزایش موجودی به ریال"
+  },
+  "wallet.topup.busy": {
+    "en": "Redirecting to gateway…",
+    "fa": "در حال انتقال به درگاه…"
+  },
+  "wallet.topup.placeholder": {
+    "en": "Custom amount (Rials)",
+    "fa": "مبلغ دلخواه (ریال)"
+  },
+  "wallet.topup.submit": {
+    "en": "Top Up",
+    "fa": "افزایش موجودی"
+  },
+  "wallet.topup.title": {
+    "en": "Top Up Balance",
+    "fa": "افزایش موجودی"
+  },
+  "wallet.topupResult.failed": {
+    "en": "Top-up failed; if any amount was deducted, it will be refunded.",
+    "fa": "افزایش موجودی ناموفق بود؛ در صورت کسر وجه، مبلغ بازمی‌گردد."
+  },
+  "wallet.topupResult.success": {
+    "en": "Wallet balance successfully topped up.",
+    "fa": "موجودی کیف پول با موفقیت افزایش یافت."
+  },
+  "wallet.unavailable": {
+    "en": "Wallet is unavailable.",
+    "fa": "کیف پول در دسترس نیست."
+  },
+  "wallet.withdraw.amountAria": {
+    "en": "Withdrawal amount in Rials",
+    "fa": "مبلغ برداشت به ریال"
+  },
+  "wallet.withdraw.amountPlaceholder": {
+    "en": "Amount (Rials)",
+    "fa": "مبلغ (ریال)"
+  },
+  "wallet.withdraw.busy": {
+    "en": "Submitting…",
+    "fa": "در حال ثبت…"
+  },
+  "wallet.withdraw.col.amount": {
+    "en": "Amount",
+    "fa": "مبلغ"
+  },
+  "wallet.withdraw.col.date": {
+    "en": "Date",
+    "fa": "تاریخ"
+  },
+  "wallet.withdraw.col.iban": {
+    "en": "IBAN",
+    "fa": "شبا"
+  },
+  "wallet.withdraw.col.status": {
+    "en": "Status",
+    "fa": "وضعیت"
+  },
+  "wallet.withdraw.holderAria": {
+    "en": "Account Holder Name",
+    "fa": "نام صاحب حساب"
+  },
+  "wallet.withdraw.holderPlaceholder": {
+    "en": "Account Holder Name",
+    "fa": "نام صاحب حساب"
+  },
+  "wallet.withdraw.ibanAria": {
+    "en": "IBAN",
+    "fa": "شمارهٔ شبا"
+  },
+  "wallet.withdraw.ibanPlaceholder": {
+    "en": "IBAN (IR…)",
+    "fa": "شمارهٔ شبا (IR…)"
+  },
+  "wallet.withdraw.note": {
+    "en": "The requested amount is immediately reserved from your wallet and will be deposited into your account after financial manager approval.",
+    "fa": "مبلغ درخواستی بلافاصله از کیف پول شما رزرو می‌شود و پس از تأیید مدیر مالی به حسابتان واریز می‌گردد."
+  },
+  "wallet.withdraw.ok": {
+    "en": "Withdrawal request submitted and amount reserved; it will be deposited after financial approval.",
+    "fa": "درخواست برداشت ثبت شد و مبلغ رزرو شد؛ پس از تأیید مالی واریز می‌شود."
+  },
+  "wallet.withdraw.submit": {
+    "en": "Request Withdrawal",
+    "fa": "درخواست برداشت"
+  },
+  "wallet.withdraw.title": {
+    "en": "Withdraw to Bank Account",
+    "fa": "برداشت به حساب بانکی"
+  },
+  "wallet.withdrawStatus.approved": {
+    "en": "Approved",
+    "fa": "تأییدشده"
+  },
+  "wallet.withdrawStatus.failed": {
+    "en": "Failed",
+    "fa": "ناموفق"
+  },
+  "wallet.withdrawStatus.paid": {
+    "en": "Paid",
+    "fa": "پرداخت‌شده"
+  },
+  "wallet.withdrawStatus.rejected": {
+    "en": "Rejected",
+    "fa": "ردشده"
+  },
+  "wallet.withdrawStatus.requested": {
+    "en": "Pending Approval",
+    "fa": "در انتظار تأیید"
+  }
+}

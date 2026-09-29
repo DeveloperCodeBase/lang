@@ -1,0 +1,317 @@
+{
+  "queue": {
+    "actions": {
+      "close": "Cerrar"
+    },
+    "activity": {
+      "ariaLabel": "Actividad del estudiante — {person}",
+      "buttonLabel": "Actividad",
+      "buttonTitle": "Ver detalles de la actividad del estudiante",
+      "close": "Cerrar",
+      "title": "Detalles de la actividad del estudiante"
+    },
+    "ai": {
+      "applied": "Borrador de IA aplicado: esto es una sugerencia y requiere su revisión.",
+      "busy": "Obteniendo...",
+      "button": "Borrador de IA",
+      "buttonTitle": "Obtener sugerencia de calificación y comentarios de la IA (requiere revisión)",
+      "error": "Error al obtener el borrador de la IA",
+      "unstructured": "Se recibió el borrador de la IA, pero no tenía una calificación o comentarios estructurados; revíselo manualmente."
+    },
+    "answers": {
+      "attachmentMeta": "{size, number} KB · Descargar",
+      "attachments": "Archivos adjuntos",
+      "empty": "No hay respuestas registradas para mostrar.",
+      "loading": "Cargando respuestas...",
+      "questionPoints": "{points, number} puntos",
+      "submittedText": "Respuesta enviada",
+      "title": "Respuestas del estudiante"
+    },
+    "breadcrumb": "Calificación · Cola de calificación",
+    "checklist": {
+      "doneLabel": "Cola de calificación finalizada",
+      "doneReason": "No quedan más elementos en la cola de calificación.",
+      "grade": "Calificar elementos pendientes",
+      "nextLabel": "Abrir siguiente elemento para calificar",
+      "pick": "Seleccionar examen para calificar"
+    },
+    "detail": {
+      "autoScore": "· Puntuación automática: {score, number}"
+    },
+    "error": {
+      "loadAnswers": "Error al cargar las respuestas",
+      "loadAssessments": "Error al cargar las evaluaciones",
+      "loadSubmissions": "Error al cargar las entregas",
+      "saveGrade": "Error al guardar la calificación"
+    },
+    "feedback": {
+      "label": "Comentarios para el estudiante",
+      "placeholder": "Escriba fortalezas, debilidades y orientación para mejorar..."
+    },
+    "filter": {
+      "all": "Todos",
+      "aria": "Filtro de estado",
+      "graded": "Calificado",
+      "pending": "Pendiente de calificación"
+    },
+    "grade": {
+      "title": "Calificación y comentarios"
+    },
+    "help": {
+      "body": "Primero seleccione una evaluación (examen o tarea) para mostrar las entregas enviadas por los estudiantes. Haga clic en \"Calificar\" para ver las respuestas, escribir una calificación (de 0 a 100) y comentarios, y guardarlos; si lo desea, puede usar el \"Borrador de IA\" como ayuda.",
+      "title": "Guía de la cola de calificación"
+    },
+    "kind": {
+      "assignment": "Tarea",
+      "quiz": "Cuestionario"
+    },
+    "kpi": {
+      "graded": "Calificado",
+      "pending": "Pendiente de calificación",
+      "total": "Total de entregas"
+    },
+    "list": {
+      "autoScore": "Puntuación automática: {score, number}",
+      "emptyAllGraded": "No hay entregas pendientes de calificación; todas han sido revisadas.",
+      "emptyFilter": "No se encontraron entregas con este filtro.",
+      "emptyNone": "Aún no se ha enviado ninguna entrega para esta evaluación.",
+      "loading": "Cargando entregas…",
+      "recordedScore": "Puntuación registrada: {score, number} de 100"
+    },
+    "meta": {
+      "totalPoints": "· Puntos totales: {points, number}"
+    },
+    "notFinal": "Esta entrega aún no es definitiva (es un borrador) y no se puede calificar.",
+    "panel": {
+      "ariaLabel": "Calificar entrega — {person}",
+      "title": "Calificar entrega"
+    },
+    "row": {
+      "editGrade": "Editar calificación",
+      "grade": "Calificar",
+      "view": "Ver"
+    },
+    "rubric": {
+      "applyLabel": "Aplicar rúbrica (opcional)",
+      "criterionFallback": "Criterio",
+      "criterionScoreAria": "Puntuación del criterio \"{criterion}\" de {max}",
+      "finalScore": "Puntuación final:",
+      "hint": "Asigne una puntuación a cada criterio; la puntuación final se calcula a partir de la suma de los criterios y se convierte a un porcentaje (de 0 a 100).",
+      "levelFallback": "Nivel",
+      "none": "— Sin rúbrica (calificación libre) —",
+      "of": "de",
+      "outOf100": "de 100",
+      "outOfMax": "de {max, number}",
+      "scoreLabel": "Calificación con rúbrica",
+      "sum": "Suma:"
+    },
+    "save": {
+      "action": "Guardar calificación",
+      "busy": "Guardando…",
+      "needFinalTitle": "La entrega debe estar finalizada",
+      "needScoreTitle": "Introduzca la calificación primero",
+      "title": "Guardar calificación"
+    },
+    "score": {
+      "aria": "Puntuación de 100",
+      "hint": "La puntuación final se registra como un porcentaje (de 0 a 100).",
+      "label": "Calificación (0 a 100)",
+      "outOf100": "de 100",
+      "placeholder": "0"
+    },
+    "search": {
+      "aria": "Buscar estudiante",
+      "placeholder": "Buscar nombre o ID de estudiante..."
+    },
+    "select": {
+      "empty": "Todavía no hay evaluaciones publicadas para calificar.",
+      "label": "Seleccionar evaluación (examen / tarea)",
+      "loading": "Cargando evaluaciones..."
+    },
+    "status": {
+      "draft": "Borrador",
+      "graded": "Calificado",
+      "submitted": "Pendiente de calificación"
+    },
+    "subtitle": "Selecciona una evaluación para ver las entregas de los estudiantes, revisar las respuestas y registrar calificaciones y comentarios.",
+    "title": "Cola de calificación",
+    "toast": {
+      "gradeSaved": "Calificación guardada",
+      "queueDone": "Cola de calificación completada",
+      "remaining": "{count, plural, one {# elemento restante en la cola de calificación} many {# elementos restantes en la cola de calificación} other {# elementos restantes en la cola de calificación}}"
+    }
+  },
+  "submission": {
+    "actions": {
+      "announce": "Anunciar provisionalmente a los estudiantes",
+      "blockedByObjections": "{count, plural, one {No se puede finalizar hasta que se responda a # objeción abierta.} many {No se puede finalizar hasta que se respondan a # objeciones abiertas.} other {No se puede finalizar hasta que se respondan a # objeciones abiertas.}}",
+      "components": "Configurar componentes de calificación",
+      "finalize": "Finalizar calificaciones",
+      "import": "Importar calificaciones de exámenes",
+      "saveDraft": "Guardar borrador",
+      "taNote": "La finalización de las calificaciones está reservada para el profesor del curso; tus calificaciones se guardarán como borrador para el profesor."
+    },
+    "announce": {
+      "deadlineAria": "Plazo de objeción",
+      "deadlineFuture": "El plazo de objeción debe ser en el futuro.",
+      "deadlineInvalid": "La fecha introducida no es válida.",
+      "deadlineLabel": "Plazo de objeción",
+      "deadlineRequired": "Establece el plazo de objeción.",
+      "dialogBody": "Al hacer el anuncio provisional, los estudiantes verán sus calificaciones y podrán presentar objeciones hasta el final del plazo establecido.",
+      "dialogSubmit": "Anunciar provisionalmente",
+      "dialogTitle": "Anuncio provisional de calificaciones"
+    },
+    "back": "Volver a la lista de cursos",
+    "breadcrumb": {
+      "instructor": "Educación · Profesor",
+      "ta": "Educación · Asistente de docencia"
+    },
+    "chip": {
+      "announced": "Anunciado",
+      "draft": "Provisional",
+      "finalized": "Finalizado",
+      "noSheet": "Sin hoja",
+      "objectionDeadline": "Plazo de objeción: {date}"
+    },
+    "components": {
+      "add": "+ Añadir componente",
+      "assignAria": "Componente de calificación {title}",
+      "assignEmpty": "No hay exámenes publicados para este curso.",
+      "assignNone": "— Sin componente —",
+      "assignTitle": "Asignar exámenes a componentes",
+      "dialogSubmit": "Guardar",
+      "dialogTitle": "Configurar componentes de calificación y ponderaciones",
+      "fallbackTitle": "Componente",
+      "introLead": "Cada componente (como parcial, final, tareas) tiene una ponderación; es preferible que la suma de las ponderaciones sea 100. Luego, asigne cada examen a un componente. Esta configuración está a nivel de",
+      "introRest": "y es común para todos los grupos de la misma asignatura.",
+      "introStrong": "asignatura",
+      "loading": "Cargando...",
+      "percentSign": "%",
+      "removeAria": "Eliminar {title}",
+      "saved": "Los componentes de calificación y las ponderaciones se han guardado.",
+      "titleAria": "Título del componente de calificación",
+      "titlePlaceholder": "Título del componente (por ejemplo, Parcial)",
+      "titleRequired": "Introduzca un título para todos los componentes.",
+      "untitled": "Sin título",
+      "weightAria": "Ponderación de {title}",
+      "weightInvalid": "La ponderación de «{title}» debe ser un número entero entre 0 y 100.",
+      "weightSumLabel": "Suma de ponderaciones: {percent}",
+      "weightSumNote": " (no es igual a 100 — se normalizará proporcionalmente a los pesos durante el cálculo)"
+    },
+    "correct": {
+      "busy": "Registrando...",
+      "cancel": "Cancelar",
+      "failed": "La corrección de la calificación no tuvo éxito.",
+      "gradeAria": "Calificación corregida de {person}",
+      "gradeRange": "La calificación corregida debe ser un número entre 0 y 20.",
+      "open": "Corregir",
+      "openAria": "Corregir calificación de {person}",
+      "reasonAria": "Motivo de la corrección de la calificación",
+      "reasonPlaceholder": "Motivo de la corrección (obligatorio)",
+      "reasonRequired": "Es obligatorio registrar el motivo de la corrección de la calificación.",
+      "submit": "Registrar corrección",
+      "success": "La calificación se corrigió correctamente y se registró en el historial de correcciones."
+    },
+    "detail": {
+      "adminCorrectionNote": "Como administrador del sistema, en casos excepcionales puede corregir una calificación registrando un motivo; cada corrección se guarda en el historial.",
+      "finalizedBadge": "Finalizado",
+      "finalizedNote": "— Las calificaciones de esta asignatura están finalizadas y bloqueadas, y ya no se pueden modificar.",
+      "loading": "Cargando...",
+      "objectionDeadline": "Fecha límite de objeción para los estudiantes: {date}"
+    },
+    "dialog": {
+      "cancel": "Cancelar",
+      "close": "Cerrar"
+    },
+    "empty": {
+      "instructor": "En el semestre actual, no se le ha asignado ninguna clase para registrar calificaciones como profesor del curso. Si esperaba ver alguna asignatura aquí, comuníquese con la administración académica.",
+      "ta": "Como asistente de enseñanza, en el semestre actual no se le ha asignado ninguna clase para registrar borradores de calificaciones. Esta asignación la realiza el profesor del curso o la administración académica.",
+      "title": "No hay asignaturas asignadas para registrar calificaciones"
+    },
+    "error": {
+      "generic": "Se produjo un error"
+    },
+    "finalize": {
+      "confirmLead": "Al enviar definitivamente, las calificaciones de «{course}»",
+      "confirmRest": "y ya no se podrán modificar; las calificaciones se registrarán en el expediente de los estudiantes. ¿Desea continuar?",
+      "confirmStrong": "se bloquearán",
+      "dialogSubmit": "Envío definitivo",
+      "dialogTitle": "Envío definitivo de calificaciones"
+    },
+    "help": {
+      "instructorBody": "Primero seleccione el curso. Introduzca las calificaciones y haga clic en «Guardar borrador»; con «Anuncio provisional», los estudiantes podrán ver sus calificaciones y registrar reclamaciones hasta la fecha límite establecida. Tras responder a todas las reclamaciones abiertas, el «Envío definitivo» bloqueará las calificaciones y las registrará en el expediente académico.",
+      "taLead": "Como asistente de docencia, solo verá las clases asignadas a usted. Introduzca las calificaciones y haga clic en «Guardar borrador» para registrarlas como borrador para el profesor del curso.",
+      "taRest": "y no está disponible para usted en esta página.",
+      "taStrong": "El envío definitivo (final) de las calificaciones está reservado exclusivamente para el profesor del curso.",
+      "titleInstructor": "Guía de registro de calificaciones",
+      "titleTa": "Guía de registro de calificaciones provisionales"
+    },
+    "import": {
+      "calculating": "Calculando…",
+      "dialogSubmit": "Aplicar como borrador",
+      "dialogTitle": "Importar calificaciones de exámenes",
+      "draftRest": "; la revisión, el «anuncio» y el «envío definitivo» dependen de usted.",
+      "draftStrong": "borrador",
+      "introLead": "La calificación total de cada estudiante se calcula a partir de los exámenes calificados del curso y se convierte a una escala de 0 a 20 (nota mínima de aprobación: {passMark, number}). Esto es solo un",
+      "noComponentsNote": "Los componentes de calificación no están configurados; se utilizará el promedio simple de todos los exámenes. Para ponderarlos, configure primero los «Componentes de calificación».",
+      "noData": "Sin datos",
+      "overwriteLabel": "Sobrescribir calificaciones ingresadas previamente (predeterminado: solo se completan las filas vacías)",
+      "resultNoData": "{count, plural, one { · # estudiante sin datos de examen} many { · # estudiantes sin datos de examen} other { · # estudiantes sin datos de examen}}",
+      "resultSkipped": "{count, plural, one { · # calificación existente se dejó intacta} many { · # calificaciones existentes se dejaron intactas} other { · # calificaciones existentes se dejaron intactas}}",
+      "resultWritten": "{count, plural, one {Importación de exámenes: se registró # calificación como borrador} many {Importación de exámenes: se registraron # calificaciones como borrador} other {Importación de exámenes: se registraron # calificaciones como borrador}}",
+      "tableCurrent": "Calificación actual",
+      "tablePercent": "Porcentaje total",
+      "tableProposed": "Calificación propuesta",
+      "tableStudent": "Estudiante",
+      "unassignedNote": "{count, plural, one {# examen no está asignado a ningún componente y no se incluyó en el cálculo.} many {# exámenes no están asignados a ningún componente y no se incluyeron en el cálculo.} other {# exámenes no están asignados a ningún componente y no se incluyeron en el cálculo.}}",
+      "weightSumNote": "La suma de los pesos es {percent} (no el 100 %); el cálculo se normalizará en función de los pesos existentes."
+    },
+    "list": {
+      "enrolled": "{count, plural, one {# estudiante} many {# estudiantes} other {# estudiantes}}"
+    },
+    "loading": "Cargando…",
+    "objection": {
+      "hasBadge": "⚠️ Sí",
+      "instructorReplyLabel": "Respuesta del profesor:",
+      "replyAria": "Responder a la reclamación de {person}",
+      "replyPlaceholder": "Respuesta del profesor…",
+      "replyRequired": "Escriba el texto de la respuesta.",
+      "replySaved": "La respuesta a la reclamación ha sido registrada.",
+      "replySubmit": "Registrar respuesta"
+    },
+    "roster": {
+      "empty": "Ningún estudiante se ha inscrito en este curso.",
+      "gradeAria": "Calificación de {person}"
+    },
+    "sheet": {
+      "announcedAt": " · Anunciado el {date}"
+    },
+    "subtitle": {
+      "instructor": "Guardar temporalmente, anunciar a los estudiantes, revisar objeciones y finalizar las calificaciones finales del curso.",
+      "ta": "Registrar borradores de calificaciones para las clases que se le asignaron. El envío final de las calificaciones está a cargo del profesor del curso."
+    },
+    "summary": {
+      "enteredGrades": "Calificación ingresada",
+      "openObjections": "Objeción abierta",
+      "students": "Estudiante"
+    },
+    "table": {
+      "grade": "Calificación (0 a 20)",
+      "objection": "Objeción",
+      "student": "Estudiante"
+    },
+    "title": {
+      "instructor": "Calificaciones",
+      "ta": "Registro de borrador de calificaciones"
+    },
+    "toast": {
+      "announced": "Las calificaciones se anunciaron temporalmente; los estudiantes pueden presentar objeciones hasta el final del plazo.",
+      "draftSaved": "{count, plural, one {Se guardó temporalmente la calificación de # estudiante.} many {Se guardaron temporalmente las calificaciones de # estudiantes.} other {Se guardaron temporalmente las calificaciones de # estudiantes.}}",
+      "finalized": "Las calificaciones de este curso han sido finalizadas."
+    },
+    "validate": {
+      "gradeRange": "La calificación de «{person}» debe ser un número entre 0 y 20.",
+      "noGrades": "No se ha ingresado ninguna calificación."
+    }
+  }
+}

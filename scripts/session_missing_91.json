@@ -1,0 +1,457 @@
+{
+  "session.archive.btn": {
+    "fa": "بایگانیِ گفتگو",
+    "en": "Transcript Archive",
+    "es": "Archivo de transcripciones"
+  },
+  "session.archive.download": {
+    "fa": "دانلود بایگانی",
+    "en": "Download archive",
+    "es": "Descargar archivo"
+  },
+  "session.archive.empty": {
+    "fa": "هنوز گفتاری در بایگانی ذخیره نشده است.",
+    "en": "No speech stored in archive yet.",
+    "es": "Aún no hay voz almacenada en el archivo."
+  },
+  "session.archive.error": {
+    "fa": "دریافت بایگانی ناموفق بود.",
+    "en": "Failed to retrieve archive.",
+    "es": "Error al recuperar el archivo."
+  },
+  "session.archive.loading": {
+    "fa": "در حال بارگذاری بایگانی…",
+    "en": "Loading archive…",
+    "es": "Cargando archivo…"
+  },
+  "session.archive.reload": {
+    "fa": "بارگذاری دوباره",
+    "en": "Reload",
+    "es": "Recargar"
+  },
+  "session.archive.retry": {
+    "fa": "تلاش دوباره",
+    "en": "Try again",
+    "es": "Reintentar"
+  },
+  "session.archive.short": {
+    "fa": "بایگانی",
+    "en": "Archive",
+    "es": "Archivo"
+  },
+  "session.archive.title": {
+    "fa": "بایگانیِ گفتگو (ذخیره‌شده)",
+    "en": "Transcript Archive (Stored)",
+    "es": "Archivo de transcripciones (guardadas)"
+  },
+  "session.browserUnknown": {
+    "fa": "نامشخص",
+    "en": "Unknown",
+    "es": "Desconocido"
+  },
+  "session.capset.btn": {
+    "fa": "تنظیمات زیرنویس",
+    "en": "Caption Settings",
+    "es": "Ajustes de subtítulos"
+  },
+  "session.capset.fontSize": {
+    "fa": "اندازهٔ متن",
+    "en": "Font size",
+    "es": "Tamaño de fuente"
+  },
+  "session.capset.lg": {
+    "fa": "بزرگ",
+    "en": "Large",
+    "es": "Grande"
+  },
+  "session.capset.maxLines": {
+    "fa": "بیشینهٔ خطوط نمایش",
+    "en": "Maximum display lines",
+    "es": "Líneas máximas"
+  },
+  "session.capset.md": {
+    "fa": "متوسط",
+    "en": "Medium",
+    "es": "Mediano"
+  },
+  "session.capset.off": {
+    "fa": "خاموش",
+    "en": "Off",
+    "es": "Desactivados"
+  },
+  "session.capset.on": {
+    "fa": "روشن",
+    "en": "On",
+    "es": "Activados"
+  },
+  "session.capset.showNames": {
+    "fa": "نمایش نام گوینده",
+    "en": "Show speaker names",
+    "es": "Mostrar nombres de hablantes"
+  },
+  "session.capset.sm": {
+    "fa": "کوچک",
+    "en": "Small",
+    "es": "Pequeño"
+  },
+  "session.capset.title": {
+    "fa": "تنظیمات نمایش زیرنویس",
+    "en": "Caption Display Settings",
+    "es": "Configuración de subtítulos"
+  },
+  "session.captions.cpuSlow": {
+    "fa": "پردازش گفتار روی CPU فعلی سرور کندتر از زمان واقعی است؛ زیرنویس پس از ارتقای سرور فعال می‌شود",
+    "en": "Speech processing on current server CPU is slower than real-time; captions will activate following server upgrade",
+    "es": "Rendimiento lento de CPU; los subtítulos pueden retrasarse."
+  },
+  "session.captions.deviceUnsupported": {
+    "fa": "زیرنویس روی این مرورگر/دستگاه پشتیبانی نمی‌شود؛ از Safari آیفون یا از لپ‌تاپ استفاده کنید",
+    "en": "Captions not supported on this browser/device; use Safari on iPhone or a laptop",
+    "es": "Dispositivo no compatible con reconocimiento de voz."
+  },
+  "session.captions.engineStuck": {
+    "fa": "موتور گفتار مرورگر پاسخ نمی‌دهد؛ دوباره تلاش کنید",
+    "en": "Browser speech engine is not responding; please try again",
+    "es": "El motor de subtítulos no responde. Reiniciando…"
+  },
+  "session.captions.fallbackServer": {
+    "fa": "موتور گفتار این مرورگر مجاز نیست؛ موتور سرور جایگزین شد (روی این سرور ممکن است کند باشد)",
+    "en": "Browser speech engine not permitted; switched to server engine (may be slower on this server)",
+    "es": "Cambiando a subtítulos del servidor…"
+  },
+  "session.captions.micDenied": {
+    "fa": "دسترسی میکروفون داده نشد",
+    "en": "Microphone access not granted",
+    "es": "Micrófono denegado para subtítulos."
+  },
+  "session.captions.micRequired": {
+    "fa": "برای زیرنویس، میکروفون باید روشن باشد",
+    "en": "Microphone must be active for captions",
+    "es": "Se requiere micrófono para transcribir voz."
+  },
+  "session.captions.needMic": {
+    "fa": "برای زیرنویس، میکروفون را روشن کنید",
+    "en": "Unmute microphone to enable captions",
+    "es": "Activa tu micrófono para utilizar subtítulos."
+  },
+  "session.captions.noNativeNoServer": {
+    "fa": "مرورگر شما زیرنویس بومی ندارد و سرویس گفتار سرور هم فعال نیست",
+    "en": "Your browser lacks native captions and server speech service is not active",
+    "es": "No hay reconocimiento nativo ni del servidor disponible."
+  },
+  "session.captions.recordFailed": {
+    "fa": "ضبط صدا برای زیرنویس ممکن نشد",
+    "en": "Audio recording for captions failed",
+    "es": "Error al registrar subtítulos."
+  },
+  "session.captions.unavailableHere": {
+    "fa": "زیرنویس در این مرورگر در دسترس نیست",
+    "en": "Captions not available in this browser",
+    "es": "Subtítulos no disponibles en este contexto."
+  },
+  "session.captions.unsupported": {
+    "fa": "مرورگر شما رونویسی زنده را پشتیبانی نمی‌کند (کروم/اج)",
+    "en": "Your browser does not support live transcription (Chrome/Edge)",
+    "es": "Subtítulos no compatibles en este navegador."
+  },
+  "session.close": {
+    "fa": "بستن",
+    "en": "Close",
+    "es": "Cerrar"
+  },
+  "session.cohost.manage": {
+    "fa": "مدیریت هم‌میزبان موقت",
+    "en": "Manage temporary co-host",
+    "es": "Gestionar coanfitriones"
+  },
+  "session.cohost.revoke": {
+    "fa": "لغو هم‌میزبانی {name}",
+    "en": "Revoke co-host for {name}",
+    "es": "Revocar coanfitrión"
+  },
+  "session.cohost.revoked": {
+    "fa": "دسترسی هم‌میزبانی شما لغو شد.",
+    "en": "Your co-host access has been revoked.",
+    "es": "Rol de coanfitrión revocado"
+  },
+  "session.collabLoading": {
+    "fa": "در حال بارگذاری…",
+    "en": "Loading…",
+    "es": "Cargando herramientas colaborativas…"
+  },
+  "session.conn.fair": {
+    "fa": "متوسط",
+    "en": "Fair",
+    "es": "Regular"
+  },
+  "session.conn.good": {
+    "fa": "خوب",
+    "en": "Good",
+    "es": "Buena"
+  },
+  "session.conn.poor": {
+    "fa": "ضعیف",
+    "en": "Poor",
+    "es": "Deficiente"
+  },
+  "session.conn.unknown": {
+    "fa": "نامشخص",
+    "en": "Unknown",
+    "es": "Desconocida"
+  },
+  "session.connFoot": {
+    "fa": "کیفیت اتصال: {quality} · {count, plural, one {# شرکت‌کننده} other {# شرکت‌کننده}}",
+    "en": "Connection quality: {quality} · {count, number} participants",
+    "es": "La calidad de conexión afecta la fluidez de audio y video."
+  },
+  "session.diag.available": {
+    "fa": "موجود ✓",
+    "en": "Available ✓",
+    "es": "Disponible"
+  },
+  "session.diag.browser": {
+    "fa": "مرورگر",
+    "en": "Browser",
+    "es": "Navegador: {name}"
+  },
+  "session.diag.engine": {
+    "fa": "موتور",
+    "en": "Engine",
+    "es": "Motor de audio/video: {engine}"
+  },
+  "session.diag.engineNative": {
+    "fa": "بومی مرورگر",
+    "en": "Native browser",
+    "es": "Motor nativo WebRTC"
+  },
+  "session.diag.engineNone": {
+    "fa": "❌ هیچ‌کدام",
+    "en": "❌ None",
+    "es": "Ninguno"
+  },
+  "session.diag.engineServer": {
+    "fa": "سرور",
+    "en": "Server",
+    "es": "Motor del servidor"
+  },
+  "session.diag.hint": {
+    "fa": "اگر «سطح صدا» هنگام حرف‌زدن حرکت نمی‌کند، مرورگر صدای میکروفون را به صفحه نمی‌دهد.",
+    "en": "If \"Audio Level\" does not move when speaking, the browser is not delivering microphone audio to the page.",
+    "es": "Información técnica para resolución de problemas."
+  },
+  "session.diag.lastError": {
+    "fa": "آخرین خطا",
+    "en": "Last error",
+    "es": "Último error: {err}"
+  },
+  "session.diag.level": {
+    "fa": "سطح صدا",
+    "en": "Audio level",
+    "es": "Nivel de audio: {value}"
+  },
+  "session.diag.listening": {
+    "fa": "در حال شنیدن ✓",
+    "en": "Listening ✓",
+    "es": "Escuchando señal…"
+  },
+  "session.diag.mic": {
+    "fa": "میکروفون",
+    "en": "Microphone",
+    "es": "Micrófono: {name}"
+  },
+  "session.diag.micOff": {
+    "fa": "خاموش ❌",
+    "en": "Off ❌",
+    "es": "Micrófono apagado"
+  },
+  "session.diag.micOn": {
+    "fa": "روشن ✓",
+    "en": "On ✓",
+    "es": "Micrófono encendido"
+  },
+  "session.diag.off": {
+    "fa": "خاموش",
+    "en": "Off",
+    "es": "Apagado"
+  },
+  "session.diag.restarts": {
+    "fa": "تلاش راه‌اندازی",
+    "en": "Start attempts",
+    "es": "Reintentos: {count, number}"
+  },
+  "session.diag.speech": {
+    "fa": "تشخیص گفتار مرورگر",
+    "en": "Browser speech recognition",
+    "es": "Voz detectada: {status}"
+  },
+  "session.diag.starting": {
+    "fa": "در حال راه‌اندازی…",
+    "en": "Starting…",
+    "es": "Iniciando diagnóstico…"
+  },
+  "session.diag.status": {
+    "fa": "🛈 وضعیت زیرنویس:",
+    "en": "🛈 Caption status:",
+    "es": "Estado: {status}"
+  },
+  "session.diag.unavailable": {
+    "fa": "نیست ❌",
+    "en": "Not available ❌",
+    "es": "Diagnóstico no disponible."
+  },
+  "session.download.chat": {
+    "fa": "دانلود گفتگو",
+    "en": "Download chat",
+    "es": "Descargar chat"
+  },
+  "session.download.formatMenu": {
+    "fa": "قالب دانلود",
+    "en": "Download format",
+    "es": "Elegir formato de descarga"
+  },
+  "session.download.label": {
+    "fa": "دانلود",
+    "en": "Download",
+    "es": "Descargar recursos"
+  },
+  "session.download.loading": {
+    "fa": "در حال دریافت…",
+    "en": "Downloading…",
+    "es": "Preparando descarga…"
+  },
+  "session.download.srt": {
+    "fa": "زیرنویس (.srt)",
+    "en": "Subtitles (.srt)",
+    "es": "Subtítulos (.srt)"
+  },
+  "session.download.txt": {
+    "fa": "متن (.txt)",
+    "en": "Download TXT",
+    "es": "Texto (.txt)"
+  },
+  "session.download.vtt": {
+    "fa": "وب‌ویتی‌تی (.vtt)",
+    "en": "WebVTT (.vtt)",
+    "es": "Subtítulos WebVTT (.vtt)"
+  },
+  "session.end.cancel": {
+    "fa": "انصراف",
+    "en": "Cancel",
+    "es": "Cancelar"
+  },
+  "session.end.confirmBody": {
+    "fa": "پس از تأیید، ۱۰ ثانیه برای لغو پایان کلاس فرصت دارید؛ سپس همه خارج می‌شوند.",
+    "en": "Once confirmed, you will have 10 seconds to cancel ending the class; then all participants will be disconnected.",
+    "es": "¿Confirmas el cierre definitivo de la sesión para todos?"
+  },
+  "session.end.confirmCta": {
+    "fa": "پایان کلاس برای همه",
+    "en": "End class for everyone",
+    "es": "Finalizar ahora"
+  },
+  "session.end.confirmTitle": {
+    "fa": "کلاس برای همهٔ شرکت‌کنندگان پایان یابد؟",
+    "en": "End class for all participants?",
+    "es": "Cierre de sesión"
+  },
+  "session.end.failed": {
+    "fa": "پایان دادن کلاس ممکن نشد. دوباره تلاش کنید.",
+    "en": "Could not end session; please try again.",
+    "es": "Error al finalizar la sesión."
+  },
+  "session.end.pendingHost": {
+    "fa": "کلاس تا {seconds} ثانیهٔ دیگر پایان می‌یابد.",
+    "en": "Class will end in {seconds} seconds.",
+    "es": "Esperando confirmación del anfitrión…"
+  },
+  "session.end.pendingStudent": {
+    "fa": "استاد در حال پایان‌دادن کلاس است.",
+    "en": "Instructor is ending the class.",
+    "es": "El docente está finalizando la clase…"
+  },
+  "session.end.undo": {
+    "fa": "لغو پایان کلاس",
+    "en": "Cancel ending class",
+    "es": "Deshacer cierre"
+  },
+  "session.end.undoFailed": {
+    "fa": "مهلت لغو گذشته است. برای ادامه، جلسهٔ تازه بسازید.",
+    "en": "Cancellation window has expired. To continue, create a new session.",
+    "es": "No se pudo deshacer el cierre."
+  },
+  "session.ended.byHost": {
+    "fa": "کلاس توسط استاد پایان یافت",
+    "en": "Class ended by instructor",
+    "es": "La sesión fue finalizada por el anfitrión."
+  },
+  "session.ended.forAll": {
+    "fa": "کلاس برای همه پایان یافت",
+    "en": "Class ended for everyone",
+    "es": "La clase ha concluido para todos."
+  },
+  "session.ended.redirecting": {
+    "fa": "در حال انتقال به فهرست کلاس‌های زنده…",
+    "en": "Redirecting to live class list…",
+    "es": "Redirigiendo al aula…"
+  },
+  "session.film.emptyHint": {
+    "fa": "با ورودِ دیگران، کاشیِ هرکس همین‌جا ظاهر می‌شود.",
+    "en": "As others join, each participant's tile will appear here.",
+    "es": "Los videos de los participantes aparecerán aquí."
+  },
+  "session.film.emptyTitle": {
+    "fa": "هنوز کسی نپیوسته",
+    "en": "No one has joined yet",
+    "es": "Sin participantes con cámara"
+  },
+  "session.film.regionLabel": {
+    "fa": "شرکت‌کنندگان",
+    "en": "Participants",
+    "es": "Cinta de videos de participantes"
+  },
+  "session.fs.enter": {
+    "fa": "تمام‌صفحه",
+    "en": "Enter fullscreen",
+    "es": "Pantalla completa"
+  },
+  "session.fs.enterLabel": {
+    "fa": "تمام‌صفحه ⛶",
+    "en": "Fullscreen ⛶",
+    "es": "Entrar a pantalla completa"
+  },
+  "session.fs.exit": {
+    "fa": "خروج از تمام‌صفحه",
+    "en": "Exit fullscreen",
+    "es": "Salir de pantalla completa"
+  },
+  "session.guest": {
+    "fa": "مهمان",
+    "en": "Guest",
+    "es": "Invitado"
+  },
+  "session.jitsi.loadFailed": {
+    "fa": "بارگذاری اتاق ویدیویی ممکن نشد. اتصال اینترنت یا دامنهٔ Jitsi را بررسی کنید، یا از دکمهٔ زیر برای باز کردن جلسه در زبانهٔ جدید استفاده کنید.",
+    "en": "Failed to load video room. Check internet connection or Jitsi domain, or use the button below to open session in a new tab.",
+    "es": "Error al cargar la sala de videollamada."
+  },
+  "session.kick.failed": {
+    "fa": "حذف دانشجو کامل نشد. اتصال رسانه هنوز بسته نشده است؛ دوباره تلاش کنید.",
+    "en": "Student removal was incomplete. Media connection has not closed yet; please try again.",
+    "es": "No se pudo expulsar al participante."
+  },
+  "session.kick.manage": {
+    "fa": "دانشجویان حذف‌شده از این جلسه",
+    "en": "Students removed from this session",
+    "es": "Gestionar expulsiones"
+  },
+  "session.kick.restore": {
+    "fa": "اجازهٔ بازگشت به {name}",
+    "en": "Allow {name} to rejoin",
+    "es": "Permitir reingreso"
+  },
+  "session.kick.restoreFailed": {
+    "fa": "اجازهٔ بازگشت ثبت نشد. دوباره تلاش کنید.",
+    "en": "Could not record rejoin permission. Please try again.",
+    "es": "No se pudo restaurar el acceso."
+  }
+}

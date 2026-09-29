@@ -1,0 +1,220 @@
+{
+  "bubble": {
+    "copied": "Copiado",
+    "copy": "Copiar",
+    "copyAria": "Copiar respuesta",
+    "offlineNotice": "Respuesta provisional sin conexión — el servicio inteligente no está disponible"
+  },
+  "capabilities": {
+    "aligned": "Alineado con el programa del curso",
+    "editable": "Listo para copiar y editar",
+    "fast": "Respuestas listas en segundos"
+  },
+  "chat": {
+    "assistantCount": "{count, plural, one {# respuesta generada} many {# respuestas generadas} other {# respuestas generadas}}",
+    "assistantName": "Asistente del profesor",
+    "newShort": "Nuevo",
+    "preparing": "Preparando contenido...",
+    "requestCount": "{count, plural, one {# solicitud} many {# solicitudes} other {# solicitudes}}",
+    "resetAria": "Limpiar conversación"
+  },
+  "common": {
+    "close": "Cerrar"
+  },
+  "composer": {
+    "hint": "Enter para enviar · Shift+Enter para una nueva línea",
+    "placeholderFree": "Escribe tu pregunta o selecciona una de las herramientas...",
+    "sendAria": "Enviar solicitud al asistente"
+  },
+  "context": {
+    "courseCode": "Código del curso",
+    "courseLabel": "Curso",
+    "reviewNotice": "Revisa y edita las respuestas generadas antes de usarlas en clase.",
+    "sectionTitle": "Contexto de la clase",
+    "students": "Estudiantes",
+    "suggestedTopics": "Temas sugeridos",
+    "term": "Semestre"
+  },
+  "courses": {
+    "db": {
+      "title": "Bases de datos"
+    },
+    "ds": {
+      "title": "Estructuras de datos"
+    },
+    "ml": {
+      "title": "Aprendizaje automático"
+    },
+    "net": {
+      "title": "Redes de computadoras"
+    },
+    "term1404": "Primer semestre de 1404"
+  },
+  "header": {
+    "eyebrow": "Asistente de enseñanza para profesores",
+    "freeModeDemoNote": "La consulta libre aún no está conectada a un modelo real: esta es una respuesta de ejemplo. Para obtener una respuesta real, selecciona una de las 4 herramientas superiores (cuestionario, rúbrica, retroalimentación, resumen).",
+    "historyButton": "Historial",
+    "newThreadButton": "Nueva conversación",
+    "subtitle": "Tu herramienta de apoyo docente: crea cuestionarios, sugiere rúbricas, redacta retroalimentación y resume sesiones en segundos, listas para usar en clase.",
+    "title": "Asistente inteligente para profesores"
+  },
+  "help": {
+    "body": "Este asistente te ayuda a crear contenido para tus clases rápidamente: cuestionarios de opción múltiple, rúbricas de evaluación, retroalimentación para estudiantes o resúmenes de sesiones. Selecciona una herramienta, escribe el tema y envíalo; la respuesta estará lista para que la copies y uses en clase. Nota: revisa y edita las respuestas generadas antes de usarlas.",
+    "title": "Guía del asistente inteligente para profesores"
+  },
+  "history": {
+    "empty": "No se encontraron elementos que coincidan con el filtro.",
+    "filterAll": "Todos",
+    "items": {
+      "complexityQuiz": {
+        "at": "12/07/1404",
+        "title": "Cuestionario: Complejidad temporal"
+      },
+      "feedbackSet3": {
+        "at": "08/07/1404",
+        "title": "Comentarios de la práctica de la serie 3"
+      },
+      "finalRubric": {
+        "at": "10/07/1404",
+        "title": "Rúbrica del proyecto final"
+      },
+      "graphsSummary": {
+        "at": "05/07/1404",
+        "title": "Resumen de la sesión de grafos"
+      }
+    },
+    "messageCount": "{count, plural, one {# mensaje} many {# mensajes} other {# mensajes}}",
+    "searchPlaceholder": "Buscar en el historial...",
+    "title": "Historial de solicitudes"
+  },
+  "kinds": {
+    "feedback": "Comentarios del estudiante",
+    "free": "Pregunta abierta",
+    "mcq": "Cuestionario de opción múltiple",
+    "rubric": "Rúbrica de evaluación",
+    "summary": "Resumen de la sesión"
+  },
+  "preview": {
+    "copied": "Copiado",
+    "copySample": "Copiar muestra",
+    "title": "Muestra de salida — {tool}",
+    "useTool": "Usar esta herramienta"
+  },
+  "reply": {
+    "feedback": {
+      "closing": "Conclusión: vas por el buen camino; con una pequeña corrección la respuesta estará completa. ¡Mucho éxito!",
+      "greeting": "Hola, agradezco tu esfuerzo en esta respuesta 🙏",
+      "header": "✍️ Comentarios constructivos sugeridos:",
+      "improve": "Área de mejora: en la sección «{topic}» el razonamiento no está completo; te sugiero aclarar el paso intermedio con un ejemplo numérico.",
+      "nextStep": "Siguiente paso: revisa los ejercicios 3 y 4 de este mismo tema y, si tienes dudas, plántalo en la sesión de resolución de dudas de la próxima semana.",
+      "strengths": "Puntos fuertes: la estructura de la respuesta es clara y has identificado correctamente el concepto principal."
+    },
+    "free": {
+      "canDo": "Puedo preparar para este tema un cuestionario, una rúbrica de evaluación, comentarios para estudiantes o un resumen de la sesión.",
+      "chooseTool": "Selecciona una de las herramientas de arriba o escribe una pregunta más precisa para generar contenido listo para la clase.",
+      "intro": "En respuesta a tu pregunta sobre «{topic}»:"
+    },
+    "mcq": {
+      "answerKey": "🔑 Clave de respuestas: 1-b, 2-b, 3 a 5 de desarrollo (se adjunta respuesta de muestra).",
+      "header": "🧪 Cinco preguntas de opción múltiple sobre «{topic}» (con clave de respuestas):",
+      "q1": "1) ¿Qué opción ofrece una definición correcta de «{topic}»?",
+      "q1a": "   a) Primera definición incorrecta",
+      "q1b": "   b) Definición precisa y completa ✅",
+      "q1c": "   c) Definición incompleta",
+      "q1d": "   d) Ninguna de las anteriores",
+      "q2": "2) ¿En qué escenario se encuentra la aplicación principal de «{topic}»?",
+      "q2a": "   a) Escenario no relacionado",
+      "q2b": "   b) Escenario de aplicación real ✅",
+      "q2c": "   c) Escenario contradictorio",
+      "q2d": "   d) Opciones b y c",
+      "q3": "3) ¿Cuál es la complejidad/coste habitual de este concepto? (Nivel: Intermedio)",
+      "q4": "4) Explique la relación de «{topic}» con el tema prerrequisito. (Nivel: Difícil)",
+      "q5": "5) Mencione un contraejemplo para un concepto erróneo común. (Nivel: Difícil)",
+      "tip": "💡 Consejo: Las preguntas 4 y 5 están diseñadas para distinguir a los estudiantes avanzados."
+    },
+    "rubric": {
+      "c1": "1. Corrección y validez de la solución — 40%",
+      "c1Excellent": "   Excelente (40): Resultado completamente correcto y cobertura de todos los casos",
+      "c1Good": "   Bueno (30): Faltan algunos casos límite",
+      "c1Weak": "   Débil (15): Error lógico fundamental",
+      "c2": "2. Calidad y legibilidad del código — 20%",
+      "c3": "3. Rendimiento y complejidad — 20%",
+      "c4": "4. Documentación e informe — 10%",
+      "c5": "5. Originalidad y probidad académica — 10%",
+      "header": "📋 Rúbrica sugerida para la tarea «{topic}» (Total de 100 puntos):",
+      "tip": "💡 Sugerencia: Se han definido tres niveles para cada criterio (excelente/bueno/débil) para que la calificación sea transparente y defendible."
+    },
+    "summary": {
+      "h1": "• Estudio de la sección relacionada en la fuente del curso",
+      "h2": "• Resolución de tres ejercicios seleccionados para la próxima sesión",
+      "header": "📝 Resumen de la sesión «{topic}»:",
+      "homeworkTitle": "Tareas de esta sesión:",
+      "keyPointsTitle": "Puntos clave:",
+      "p1": "• Definición y motivación del planteamiento del problema",
+      "p2": "• Conceptos básicos y terminología técnica",
+      "p3": "• Un ejemplo práctico paso a paso",
+      "p4": "• Errores comunes y cómo evitarlos",
+      "prereq": "Prerrequisito para la próxima sesión: Repasar «{topic}» antes de entrar en el tema avanzado.",
+      "readTime": "⏱️ Tiempo estimado de lectura de repaso: unos 90 minutos."
+    }
+  },
+  "sampleDate": "2025/10/07",
+  "suggestions": {
+    "feedback": {
+      "partialReasoning": "La respuesta es correcta pero el razonamiento está incompleto",
+      "stackQueue": "El estudiante ha confundido la pila con la cola"
+    },
+    "mcq": {
+      "bst": "Árboles binarios de búsqueda",
+      "complexity": "Complejidad temporal de los algoritmos",
+      "normalization": "Normalización de bases de datos"
+    },
+    "rubric": {
+      "mlFinal": "Proyecto final de aprendizaje automático",
+      "netLab": "Informe de laboratorio de redes",
+      "quicksort": "Implementación de ordenamiento rápido"
+    },
+    "summary": {
+      "graphs": "Introducción a los grafos",
+      "overfitting": "Sobreajuste y subajuste",
+      "transactions": "Transacciones en bases de datos"
+    }
+  },
+  "thread": {
+    "reset": "Se ha iniciado una nueva conversación. ¿Qué preparamos para la clase de hoy?",
+    "welcome": "Hola, estimado profesor 👋 Soy su asistente inteligente. Puedo crear cuestionarios, sugerir rúbricas de evaluación, redactar comentarios para estudiantes o preparar un resumen de la sesión. Elija una de las tarjetas de arriba o escriba su pregunta."
+  },
+  "tools": {
+    "feedback": {
+      "hint": "Comentarios constructivos y respetuosos para la respuesta del estudiante",
+      "label": "Escribe comentarios para esta respuesta",
+      "placeholder": "Escribe aquí un resumen de la respuesta del estudiante...",
+      "prompt": "Escribe comentarios constructivos para esta respuesta del estudiante sobre: «{topic}»"
+    },
+    "mcq": {
+      "hint": "Breve cuestionario con clave de respuestas y nivel de dificultad",
+      "label": "Crear 5 preguntas de opción múltiple",
+      "placeholder": "Tema del cuestionario, por ejemplo, «Árboles binarios de búsqueda»",
+      "prompt": "Crea 5 preguntas de opción múltiple sobre «{topic}» con su clave de respuestas."
+    },
+    "previewAria": "Vista previa de {tool}",
+    "rubric": {
+      "hint": "Criterios de evaluación ponderados para una tarea",
+      "label": "Sugerir una rúbrica",
+      "placeholder": "Título de la tarea, por ejemplo, «Implementación del algoritmo de ordenamiento rápido»",
+      "prompt": "Sugiere una rúbrica de evaluación para la tarea «{topic}»."
+    },
+    "sampleButton": "Ejemplo",
+    "sectionHint": "Selecciona uno",
+    "sectionTitle": "Herramientas rápidas",
+    "select": "Seleccionar",
+    "selected": "Seleccionado",
+    "summary": {
+      "hint": "Resumen de los puntos clave y las tareas de una sesión",
+      "label": "Resumen de la sesión",
+      "placeholder": "Título o tema de la sesión, por ejemplo, «Introducción a los grafos»",
+      "prompt": "Genera el resumen de la sesión «{topic}» junto con las tareas."
+    }
+  },
+  "topicFallback": "este tema"
+}

@@ -1,0 +1,141 @@
+{
+  "actions": {
+    "postJob": "+ انشر فرصة عمل"
+  },
+  "appStatus": {
+    "accepted": "مقبول",
+    "applied": "مرسل",
+    "rejected": "مرفوض",
+    "reviewing": "قيد المراجعة"
+  },
+  "applicants": {
+    "closeButton": "أغلق",
+    "empty": "لم يتقدم أحد لهذه الفرصة بعد.",
+    "eyebrow": "المتقدمون للفرصة",
+    "loading": "جارٍ تحميل المتقدمين…",
+    "statusLabel": "الحالة:"
+  },
+  "apply": {
+    "counter": "{current, number} / {max, number} حرف",
+    "employerPage": "صفحة إعلان جهة العمل ↗",
+    "eyebrow": "إرسال طلب",
+    "noteLabel": "ملاحظة مرافقة (اختياري)",
+    "notePlaceholder": "لماذا أنت مناسب لهذه الفرصة؟ اكتب مهاراتك ودوافعك باختصار…",
+    "submit": "سجّل الطلب وأرسله",
+    "submitting": "جارٍ الإرسال…"
+  },
+  "closeJob": {
+    "closing": "جارٍ الإغلاق…",
+    "confirm": "هل تريد إغلاق «{title}»؟ بعد الإغلاق لن تظهر هذه الفرصة للطلاب ولن يُقبل أي طلب جديد.",
+    "submit": "نعم، أغلقها",
+    "title": "إغلاق فرصة العمل"
+  },
+  "common": {
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "saving": "جارٍ الحفظ…"
+  },
+  "cv": {
+    "completePercent": "مكتملة بنسبة ٪{percent, number}",
+    "createButton": "أنشئ سيرة ذاتية",
+    "defaultHolder": "مستخدم",
+    "editButton": "عدِّل السيرة الذاتية",
+    "empty": "لم تُنشئ سيرة ذاتية بعد. ابدأ بـ«أنشئ سيرة ذاتية» ليتعرف عليك أصحاب العمل بصورة أفضل.",
+    "loading": "جارٍ تحميل السيرة الذاتية…",
+    "title": "سيرتي الذاتية"
+  },
+  "cvEditor": {
+    "createTitle": "إنشاء سيرة ذاتية",
+    "editTitle": "تعديل السيرة الذاتية",
+    "educationOrgPlaceholder": "الجامعة / المعهد",
+    "educationTitle": "المؤهلات الدراسية",
+    "educationTitlePlaceholder": "المرحلة / التخصص",
+    "experienceOrgPlaceholder": "الشركة / المؤسسة",
+    "experienceTitle": "الخبرات العملية / التدريب",
+    "experienceTitlePlaceholder": "المنصب / العنوان",
+    "headlineLabel": "العنوان المهني (Headline)",
+    "headlinePlaceholder": "مثال: طالب هندسة البرمجيات · مهتم بواجهات المستخدم",
+    "save": "احفظ السيرة الذاتية",
+    "skillsLabel": "المهارات (افصل بينها بفاصلة)",
+    "skillsPlaceholder": "React، TypeScript، Git، العمل الجماعي",
+    "summaryLabel": "نبذة عني",
+    "summaryPlaceholder": "نبذة عنك وعن أهدافك ونقاط قوتك…"
+  },
+  "entry": {
+    "add": "+ أضف",
+    "detailPlaceholder": "الوصف (اختياري)",
+    "empty": "لم يُضف أي عنصر.",
+    "periodPlaceholder": "الفترة الزمنية (مثال: ٢٠٢٣ إلى ٢٠٢٤)",
+    "remove": "احذف",
+    "removeLabel": "حذف العنصر"
+  },
+  "errors": {
+    "generic": "حدث خطأ"
+  },
+  "help": {
+    "body": "في هذه الصفحة ترى فرص العمل المفتوحة وتصفّيها حسب نوع التعاون أو عبر البحث. اضغط «قدِّم» على أي فرصة للتقدم إليها؛ وتظهر حالة جميع طلباتك في قسم «طلباتي». أكمل سيرتك الذاتية في بطاقة «سيرتي الذاتية».",
+    "manager": " بصفتك مسؤول الخدمات المهنية يمكنك نشر إعلان جديد عبر «انشر فرصة عمل»، وتعديله أو إغلاقه، ومراجعة «المتقدمين» لكل فرصة وتحديث حالتهم.",
+    "title": "دليل الخدمات المهنية"
+  },
+  "jobForm": {
+    "applyUrlLabel": "رابط إعلان جهة العمل (اختياري)",
+    "companyLabel": "الشركة / المؤسسة",
+    "createTitle": "نشر فرصة عمل",
+    "descriptionLabel": "وصف الفرصة",
+    "descriptionPlaceholder": "شرح المهام والمهارات المطلوبة والشروط…",
+    "editTitle": "تعديل فرصة العمل",
+    "errors": {
+      "company": "أدخل اسم الشركة / المؤسسة.",
+      "description": "أدخل وصف الفرصة ({min, number} حرف على الأقل).",
+      "title": "أدخل عنوان الفرصة ({min, number} حرف على الأقل)."
+    },
+    "locationLabel": "الموقع",
+    "locationPlaceholder": "طهران / عن بُعد",
+    "publish": "انشر الفرصة",
+    "saveChanges": "احفظ التغييرات",
+    "tagLabel": "الوسم (اختياري)",
+    "tagPlaceholder": "React / بيانات / تصميم",
+    "titleLabel": "عنوان الفرصة",
+    "titlePlaceholder": "مثال: متدرب تطوير واجهات المستخدم",
+    "typeLabel": "نوع التعاون"
+  },
+  "jobs": {
+    "applicants": "المتقدمون",
+    "applied": "✓ قدّمت طلبك",
+    "apply": "قدِّم",
+    "clearSearch": "امسح",
+    "close": "أغلق",
+    "closed": "مغلقة",
+    "closedBadge": "مغلقة",
+    "edit": "عدِّل",
+    "empty": "لم نعثر على أي فرصة بهذه المرشحات.",
+    "loading": "جارٍ تحميل الفرص…",
+    "resetFilters": "أعد ضبط المرشحات",
+    "retry": "أعد المحاولة",
+    "searchLabel": "البحث عن فرصة عمل",
+    "searchPlaceholder": "ابحث عن عنوان أو شركة أو مهارة…",
+    "title": "فرص العمل",
+    "typeFilterLabel": "نوع التعاون"
+  },
+  "myApps": {
+    "empty": "لم تتقدم لأي فرصة بعد.",
+    "loading": "جارٍ التحميل…",
+    "title": "طلباتي"
+  },
+  "page": {
+    "eyebrow": "خدمات الطلاب · التوظيف",
+    "lead": "ابحث عن فرص التدريب والتوظيف، وأنشئ سيرتك الذاتية، وأرسل طلبك مباشرة؛ وتابع حالة طلباتك من هنا.",
+    "title": "الخدمات المهنية"
+  },
+  "stats": {
+    "myApplications": "{count, plural, zero {لا طلبات لي} one {لي طلب واحد} two {لي طلبان} few {لي # طلبات} many {لي # طلبًا} other {لي # طلب}}",
+    "openJobs": "{count, plural, zero {لا توجد فرص مفتوحة} one {فرصة مفتوحة واحدة} two {فرصتان مفتوحتان} few {# فرص مفتوحة} many {# فرصة مفتوحة} other {# فرصة مفتوحة}}"
+  },
+  "type": {
+    "all": "الكل",
+    "contract": "بعقد",
+    "full_time": "دوام كامل",
+    "internship": "تدريب",
+    "part_time": "دوام جزئي"
+  }
+}

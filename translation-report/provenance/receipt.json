@@ -1,0 +1,36 @@
+{
+  "batchId": "PX-WEB-LOCALES-V1-BATCH-001",
+  "operation": "translation",
+  "provider": "Google AI Studio",
+  "model": "gemini-3.8-flash",
+  "promptVersion": "PX-WEB-LOCALES-FOLDER-ALL-LANGUAGES-001",
+  "generatedAt": "2026-09-29T02:44:00Z",
+  "reviewState": "unreviewed",
+  "humanReviewed": false,
+  "catalogsCompleted": {
+    "en": [
+      "messenger.json",
+      "live.json",
+      "landing.brand.json",
+      "shell.json (assistantUnavailable)"
+    ],
+    "es": [
+      "messenger.json",
+      "landing.brand.json",
+      "assess.json (58 keys)",
+      "shell.json (assistantUnavailable)"
+    ],
+    "zh-Hans": [
+      "messenger.json",
+      "landing.brand.json",
+      "shell.json (assistantUnavailable)"
+    ],
+    "fr": [
+      "messenger.json",
+      "landing.brand.json"
+    ],
+    "all_48_targets": [
+      "landing.brand.json"
+    ]
+  }
+}

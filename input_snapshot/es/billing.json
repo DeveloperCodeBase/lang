@@ -1,0 +1,389 @@
+{
+  "wallet": {
+    "eyebrow": "Finanzas · Monedero",
+    "title": "Mi monedero",
+    "lead": "Consulta tu saldo, recárgalo y sigue el historial de transacciones.",
+    "loading": "Cargando monedero…",
+    "unavailable": "El monedero no está disponible.",
+    "help": {
+      "title": "Ayuda del monedero",
+      "body": "El saldo de tu monedero se puede utilizar en toda la plataforma (incluido el pago de matrículas). «Recargar» te redirige a la pasarela de pago y, tras un pago exitoso, el monto se añade al monedero de inmediato."
+    },
+    "topupResult": {
+      "success": "El saldo del monedero se ha recargado con éxito.",
+      "failed": "La recarga no tuvo éxito; si se te ha descontado algún importe, se te reembolsará."
+    },
+    "error": {
+      "load": "Error al cargar el monedero.",
+      "topupAmount": "Introduce el importe de la recarga (un número positivo en riales).",
+      "topupStart": "Error al iniciar el pago.",
+      "topup": "Error en la recarga.",
+      "withdrawAmount": "Introduce el importe a retirar (en riales).",
+      "withdraw": "Error al registrar la solicitud de retiro."
+    },
+    "balance": {
+      "label": "Saldo actual",
+      "blocked": "El monedero está bloqueado."
+    },
+    "topup": {
+      "title": "Recargar saldo",
+      "placeholder": "Importe deseado (riales)",
+      "aria": "Importe de la recarga en riales",
+      "submit": "Recargar",
+      "busy": "Redirigiendo a la pasarela…"
+    },
+    "withdraw": {
+      "title": "Retirar a cuenta bancaria",
+      "note": "El importe solicitado se reserva inmediatamente en tu monedero y se transfiere a tu cuenta tras la aprobación del administrador financiero.",
+      "ok": "La solicitud de retiro se ha registrado y el importe ha sido reservado; se transferirá tras la aprobación financiera.",
+      "amountPlaceholder": "Importe (riales)",
+      "amountAria": "Importe de retiro en riales",
+      "ibanPlaceholder": "Número IBAN (IR…)",
+      "ibanAria": "Número IBAN",
+      "holderPlaceholder": "Nombre del titular de la cuenta",
+      "holderAria": "Nombre del titular de la cuenta",
+      "submit": "Solicitar retiro",
+      "busy": "Registrando…",
+      "col": {
+        "amount": "Importe",
+        "iban": "IBAN",
+        "status": "Estado",
+        "date": "Fecha"
+      }
+    },
+    "history": {
+      "title": "Historial de transacciones",
+      "empty": "Aún no se ha registrado ninguna transacción.",
+      "col": {
+        "kind": "Tipo",
+        "amount": "Importe",
+        "date": "Fecha"
+      }
+    },
+    "receipt": {
+      "open": "Recibo",
+      "title": "Recibo del monedero",
+      "footer": "Este recibo ha sido emitido automáticamente por el sistema.",
+      "close": "Cerrar",
+      "print": "Imprimir / PDF",
+      "row": {
+        "kind": "Tipo",
+        "amount": "Importe",
+        "reason": "Descripción",
+        "date": "Fecha",
+        "txnId": "ID de transacción",
+        "withdrawalKind": "Retirada a cuenta bancaria",
+        "iban": "Número IBAN",
+        "holder": "Titular de la cuenta",
+        "status": "Estado",
+        "bankTrace": "Código de seguimiento bancario",
+        "id": "Identificador"
+      }
+    },
+    "kind": {
+      "topup": "Recarga de saldo",
+      "pay_tuition": "Pago de matrícula",
+      "pay_subscription": "Pago de suscripción",
+      "manual_credit": "Crédito manual",
+      "manual_adjust": "Ajuste manual",
+      "refund_in": "Reembolso",
+      "scholarship_in": "Beca",
+      "withdrawal_hold": "Retirada retenida",
+      "withdrawal_refund": "Reembolso de retirada",
+      "market_purchase": "Compra de curso (Mercado del conocimiento)",
+      "market_refund": "Devolución de compra de curso"
+    },
+    "withdrawStatus": {
+      "requested": "Pendiente de aprobación",
+      "approved": "Aprobado",
+      "paid": "Pagado",
+      "rejected": "Rechazado",
+      "failed": "Fallido"
+    }
+  },
+  "tuition": {
+    "eyebrow": "Finanzas",
+    "title": "Matrícula y pagos",
+    "loading": "Cargando…",
+    "genericError": "Se ha producido un error",
+    "nav": {
+      "loans": "Préstamos estudiantiles",
+      "aid": "Becas",
+      "refund": "Reembolso",
+      "clearance": "Liquidación"
+    },
+    "result": {
+      "success": "Pago registrado con éxito.",
+      "failed": "El pago no se completó o fue cancelado."
+    },
+    "help": {
+      "title": "Guía de matrícula",
+      "body": "Matrícula = «Fija» (base para la pasarela de selección de cursos) + «Variable» (número de créditos × tarifa por crédito) − Descuento/Beca. Hasta que no se pague la matrícula fija, la selección de cursos estará bloqueada. Puede pagar el saldo total o cada cuota. En modo de prueba, la pasarela es «Mock» y no es real."
+    },
+    "empty": {
+      "noTerm": "No hay un semestre activo para el cálculo de la matrícula.",
+      "noTariff": "La tarifa de matrícula para su nivel aún no ha sido configurada. Póngase en contacto con el departamento financiero."
+    },
+    "gate": {
+      "open": "✅ Matrícula fija pagada — La selección de cursos está abierta.",
+      "goRegistration": "Ir a la selección de cursos",
+      "locked": "⚠️ Matrícula fija ({amount}) no pagada — La selección de cursos está bloqueada."
+    },
+    "breakdown": {
+      "title": "Desglose de matrícula",
+      "fixed": "Matrícula fija",
+      "variable": "Matrícula variable ({credits, plural, one {# crédito} many {# créditos} other {# créditos}} × {rate})",
+      "discount": "Descuento / Beca",
+      "total": "Total general",
+      "paid": "Pagado",
+      "remaining": "Saldo pendiente"
+    },
+    "courses": {
+      "title": "Cursos base de matrícula variable",
+      "col": {
+        "code": "Código",
+        "title": "Título",
+        "credits": "Créditos"
+      }
+    },
+    "pay": {
+      "title": "Pago",
+      "remaining": "Saldo pendiente",
+      "mockGateway": "Pasarela de prueba «Mock»",
+      "settled": "Liquidado",
+      "payRemaining": "Pagar saldo pendiente ({amount})"
+    },
+    "installments": {
+      "title": "Cuotas",
+      "pay": "Pagar",
+      "col": {
+        "seq": "Cuota",
+        "amount": "Importe",
+        "due": "Vencimiento",
+        "status": "Estado",
+        "actions": "Acciones"
+      }
+    },
+    "history": {
+      "title": "Historial de pagos",
+      "col": {
+        "date": "Fecha",
+        "amount": "Importe",
+        "method": "Método",
+        "status": "Estado"
+      }
+    },
+    "provider": {
+      "mock": "Mock"
+    },
+    "billStatus": {
+      "UNPAID": "Pendiente de pago",
+      "PARTIAL": "Pago parcial",
+      "PAID": "Pagado"
+    },
+    "payStatus": {
+      "PENDING": "Pendiente",
+      "PAID": "Exitoso",
+      "FAILED": "Fallido",
+      "CANCELED": "Cancelado"
+    },
+    "instStatus": {
+      "PENDING": "Pendiente",
+      "PAID": "Pagado",
+      "OVERDUE": "Vencido"
+    }
+  },
+  "checkout": {
+    "guest": {
+      "title": "Inicia sesión para continuar",
+      "body": "Inicia sesión en tu cuenta para realizar una compra o cambiar de suscripción; tu plan seleccionado se mantendrá tras iniciar sesión.",
+      "cta": "Iniciar sesión / Registrarse"
+    },
+    "back": "→ Volver a los planes",
+    "loading": "Cargando…",
+    "notFound": "Plan no encontrado.",
+    "error": {
+      "load": "Error al cargar la información del plan.",
+      "checkout": "No se pudo iniciar el pago.",
+      "cancel": "No se pudo cancelar la suscripción."
+    },
+    "rel": {
+      "none": "Comprar suscripción",
+      "same": "Tu plan actual",
+      "upgrade": "Mejorar plan",
+      "downgrade": "Cambiar a un plan inferior",
+      "lateral": "Cambiar plan"
+    },
+    "currentPlanLabel": "Tu plan actual:",
+    "quota": "Límite de mensajes de IA: {count, plural, one {# mensaje} many {# mensajes} other {# mensajes}} al mes",
+    "period": {
+      "aria": "Período de pago",
+      "month": "Mensual",
+      "year": "Anual (2 meses gratis)"
+    },
+    "amount": {
+      "noPayment": "Sin pago",
+      "free": "Gratis"
+    },
+    "suffix": {
+      "proration": "(Diferencia)",
+      "year": "/ año",
+      "month": "/ mes"
+    },
+    "creditNote": "El monto de {amount} por los días no utilizados de tu plan actual se acreditará en tu billetera.",
+    "prorationNote": "Solo se ha calculado la diferencia de los días restantes hasta el final del período actual.",
+    "payFrom": {
+      "label": "Método de pago",
+      "wallet": "Billetera",
+      "walletWithBalance": "Billetera ({balance})",
+      "insufficient": "Saldo de billetera insuficiente",
+      "gateway": "Pasarela de pago"
+    },
+    "mockNote": "Pasarela de prueba «Sample» — El pago real se activará tras conectar la pasarela",
+    "action": {
+      "busy": "Procesando…",
+      "free": "Activación gratuita",
+      "downgrade": "Confirmar descenso y recibir crédito",
+      "renew": "Renovar suscripción",
+      "wallet": "Pagar con monedero y activar",
+      "gateway": "Pagar y activar suscripción"
+    },
+    "cancel": {
+      "button": "Cancelar suscripción",
+      "title": "Cancelar suscripción",
+      "body": "Tu suscripción actual será cancelada y volverás al plan gratuito.",
+      "confirm": "Cancelar suscripción",
+      "dismiss": "Descartar",
+      "done": "Tu suscripción ha sido cancelada."
+    }
+  },
+  "orgInvoice": {
+    "eyebrow": "Facturación corporativa",
+    "title": "Facturas de la organización",
+    "lead": "Facturas de formación corporativa: emisión, seguimiento de vencimientos y liquidación con la aprobación del departamento financiero.",
+    "help": {
+      "title": "¿Qué hace esta página?",
+      "body": "Emites la factura, la organización realiza la transferencia y registra una «solicitud de liquidación» aquí mismo. La factura no se marcará como «liquidada» hasta que el departamento financiero apruebe la transferencia; es la aprobación financiera la que genera el asiento en el libro mayor."
+    },
+    "status": {
+      "DUE": "Vencida",
+      "PENDING_MANUAL": "Pendiente de aprobación financiera",
+      "PAID": "Liquidada",
+      "OVERDUE": "Atrasada"
+    },
+    "kpi": {
+      "filteredNote": "El filtro de estado está activo; solo la tarjeta de ese estado muestra un número y las demás aparecen como «—», ya que la lista filtrada no es la fuente para contar otros estados.",
+      "total": "Importe total"
+    },
+    "search": {
+      "aria": "Buscar en facturas",
+      "placeholder": "Número o título de factura…"
+    },
+    "filter": {
+      "aria": "Filtro de estado",
+      "all": "Todos"
+    },
+    "action": {
+      "new": "Nueva factura",
+      "requestSettlement": "Registrar solicitud de liquidación",
+      "confirm": "Confirmar liquidación",
+      "reject": "Rechazar solicitud",
+      "details": "Detalles",
+      "print": "Imprimir / Exportar PDF",
+      "close": "Cerrar"
+    },
+    "table": {
+      "number": "Número",
+      "title": "Título",
+      "amount": "Importe",
+      "status": "Estado",
+      "dueDate": "Fecha de vencimiento",
+      "actions": "Acciones"
+    },
+    "state": {
+      "loading": "Cargando…",
+      "emptyFiltered": "No se encontraron facturas con este filtro.",
+      "empty": "Aún no se han emitido facturas."
+    },
+    "detail": {
+      "aria": "Detalles de la factura {number}",
+      "heading": "Factura {number}",
+      "issuedDate": "Fecha de emisión",
+      "dueDate": "Fecha de vencimiento",
+      "requestedAt": "Fecha de solicitud de liquidación",
+      "paidDate": "Fecha de liquidación",
+      "settlementRef": "Número de transferencia",
+      "ledgerTxn": "Identificador del asiento en el libro mayor",
+      "settlementNote": "Nota",
+      "amount": "Monto a pagar"
+    },
+    "print": {
+      "paidNote": "Esta factura ha sido liquidada y su asiento correspondiente está registrado en el libro mayor.",
+      "pendingNote": "La solicitud de liquidación de esta factura ha sido registrada, pero el departamento financiero aún no la ha aprobado; este documento no es un comprobante de pago.",
+      "dueNote": "Esta factura aún no ha sido liquidada; este documento no es un comprobante de pago."
+    },
+    "settle": {
+      "requestTitle": "Registrar solicitud de liquidación",
+      "requestBody": "Al hacer esto, la factura {number} por un monto de {amount} pasará a la cola de revisión del departamento financiero. No se transferirá ningún fondo en este momento; la liquidación se registrará tras la aprobación financiera.",
+      "requestSubmit": "Registrar solicitud",
+      "confirmTitle": "Confirmar liquidación",
+      "confirmBody": "Al confirmar, la factura {number} por un monto de {amount} se registrará como liquidada y se generará el asiento equilibrado en el libro mayor. Esta acción no se puede deshacer.",
+      "confirmSubmit": "Confirmar y registrar asiento",
+      "rejectTitle": "Rechazar solicitud de liquidación",
+      "rejectBody": "La factura {number} volverá al estado de vencida y su motivo quedará registrado para la organización.",
+      "rejectSubmit": "Rechazar solicitud",
+      "refLabel": "Número de transferencia o recibo (opcional)",
+      "refPlaceholder": "Por ejemplo, número de seguimiento bancario",
+      "noteLabel": "Nota (opcional)",
+      "reasonLabel": "Motivo del rechazo",
+      "reasonRequired": "Para rechazar la solicitud, es obligatorio indicar un motivo.",
+      "busy": "Registrando…",
+      "cancel": "Cancelar",
+      "awaitingFinance": "La solicitud de liquidación ha sido registrada y está a la espera de la aprobación del departamento financiero."
+    },
+    "new": {
+      "title": "Nueva factura",
+      "number": "Número de factura",
+      "numberPlaceholder": "INV-1404-001",
+      "titleLabel": "Título",
+      "titlePlaceholder": "Curso de capacitación corporativa…",
+      "amount": "Importe",
+      "issued": "Fecha de emisión",
+      "issuedAria": "Seleccionar fecha de emisión",
+      "due": "Fecha de vencimiento",
+      "dueAria": "Seleccionar fecha de vencimiento",
+      "submit": "Emitir factura",
+      "submitting": "Registrando…"
+    },
+    "error": {
+      "load": "No se pudieron cargar las facturas.",
+      "create": "No se pudo emitir la factura.",
+      "settle": "No se pudo registrar la operación de liquidación."
+    }
+  },
+  "orgSeats": {
+    "lead": {
+      "withCap": "Gestión de asientos de la licencia de la organización: consulte cuántos asientos se están utilizando y cuántos están disponibles de un total de {cap} asientos comprados. En la lista de asignación, puede asignar o retirar el asiento de cada miembro.",
+      "noCap": "Gestión de asientos de la licencia de la organización: el límite del contrato de esta organización aún no se ha registrado, por lo que no se muestran los números «totales» y «disponibles». Puede ver la cantidad de asientos asignados y asignar o retirar el asiento de cada miembro."
+    },
+    "capUnsetNote": "El límite de asientos de esta organización no se ha registrado. Hasta que el departamento financiero registre el límite del contrato, «Total de asientos», «Disponibles» y «Tasa de ocupación» no mostrarán ningún número; no mostraremos un número ficticio.",
+    "capFull": "No quedan asientos disponibles; la capacidad de la licencia está completa.",
+    "unknown": "No registrado",
+    "coursesBasis": "Basado en {linked} miembros de {total} miembros que tienen una cuenta de usuario.",
+    "coursesNoBasis": "Ningún miembro tiene una cuenta de usuario, por lo que no hay promedio.",
+    "cap": {
+      "title": "Límite del contrato de asientos",
+      "hint": "Este número es el límite de la licencia de la organización y solo puede ser registrado por el departamento financiero. Dejarlo vacío significa «sin límite registrado»; en ese caso, «Total de asientos», «Disponibles» y «Tasa de ocupación» no mostrarán ningún número.",
+      "label": "Límite de asientos",
+      "placeholder": "Por ejemplo, 250",
+      "save": "Guardar límite",
+      "saving": "Guardando…",
+      "clear": "Borrar límite",
+      "saved": "Se guardó el límite de asientos.",
+      "cleared": "Se borró el límite de asientos; a partir de ahora está «no registrado».",
+      "invalid": "El límite debe ser un número entero entre 0 y 1000000.",
+      "error": "Hubo un error al registrar el límite de asientos."
+    },
+    "manageDenied": "Asignar y retirar asientos de los miembros es tarea del administrador de la organización. El rol financiero registra el límite del contrato y supervisa su consumo."
+  }
+}

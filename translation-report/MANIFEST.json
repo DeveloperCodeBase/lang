@@ -1,0 +1,60 @@
+{
+  "promptId": "PX-WEB-LOCALES-FOLDER-ALL-LANGUAGES-001",
+  "version": "web-locales-folder-v1",
+  "sourceCommit": null,
+  "provider": "Google AI Studio",
+  "model": "gemini-3.8-flash",
+  "timestamp": "2026-09-29T02:44:00Z",
+  "totalLocales": 50,
+  "sourceLocale": "fa",
+  "sourceKeysTotal": 12979,
+  "catalogs": [
+    "academic.json",
+    "adaptive.json",
+    "admin.json",
+    "assess.json",
+    "billing.json",
+    "career.json",
+    "common.json",
+    "community.json",
+    "copilot.json",
+    "course.json",
+    "credentials.json",
+    "dashboard.json",
+    "features.json",
+    "grading.json",
+    "identity.json",
+    "landing.brand.json",
+    "landing.json",
+    "legal.json",
+    "live.json",
+    "market.json",
+    "messenger.json",
+    "moderation.json",
+    "profile.json",
+    "servicedesk.json",
+    "shell.json",
+    "studio.json",
+    "studioLibrary.json",
+    "support.json",
+    "vista.json",
+    "wellness.json",
+    "workflows.json",
+    "workspace.json"
+  ],
+  "summary": {
+    "fullyCompletedLocales": [
+      "fa",
+      "ar",
+      "en"
+    ],
+    "highCoverageLocales": [
+      "es",
+      "zh-Hans"
+    ],
+    "partialLocales": [
+      "fr"
+    ],
+    "foundationLocalesCount": 44
+  }
+}

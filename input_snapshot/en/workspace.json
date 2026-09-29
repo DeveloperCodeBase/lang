@@ -1,0 +1,951 @@
+{
+  "schools": {
+    "hero": {
+      "counts": "8 Schools · 248 Programs",
+      "titleLead": "A complete university,",
+      "titleAccent": "fully digital",
+      "lead": "From engineering and medical sciences to humanities and arts. 248 academic programs across 5 degree levels — all featuring live classes, virtual labs, and verifiable credentials."
+    },
+    "help": {
+      "title": "Schools Guide",
+      "body": "On this page, you can see the list of the university's schools and study programs. Click on any school to view its programs; at the bottom of the page, the five study levels and the number of programs in each level are also displayed."
+    },
+    "card": {
+      "aria": "{school} School · {programs, number} program",
+      "featured": "Featured Programs",
+      "programs": "{count, plural, one {# program} other {# programs}}",
+      "faculty": "{count, plural, one {Faculty member} other {Faculty members}}",
+      "students": "{count, plural, one {Student} other {Students}}",
+      "labs": "{count, plural, one {Lab} other {Labs}}",
+      "view": "View →"
+    },
+    "levels": {
+      "eyebrow": "Degree Levels",
+      "title": "Five Degree Levels",
+      "activePrograms": "{count, plural, one {active program} other {active programs}}"
+    },
+    "level": {
+      "AS": "Associate",
+      "BS": "Bachelor's",
+      "MS": "Master's",
+      "PHD": "Ph.D.",
+      "MD": "M.D.",
+      "CERT": "Professional"
+    }
+  },
+  "calendar": {
+    "hero": {
+      "eyebrow": "Calendar",
+      "title": "Calendar",
+      "lead": "Official academic calendar events and your weekly class schedule — all based on the Solar Hijri calendar."
+    },
+    "newEvent": "New Event",
+    "help": {
+      "title": "Calendar Guide",
+      "body": "The monthly calendar shows official events (term start and end, exams, holidays, and deadlines) with Solar Hijri dates; click on any day to view its events. In the \"Weekly Schedule\" section, your current semester classes are displayed by days of the week (Saturday to Friday) and time.",
+      "staff": "As an administrator, you can create new events and edit or delete existing ones."
+    },
+    "error": {
+      "generic": "An error occurred"
+    },
+    "range": "{from} to {to}",
+    "list": {
+      "titleForDay": "Events on {day}",
+      "titleUpcoming": "Upcoming Events"
+    },
+    "category": {
+      "academic": "Academic",
+      "holiday": "Holiday",
+      "exam": "Exam",
+      "event": "Event",
+      "deadline": "Deadline"
+    },
+    "weekday": {
+      "0": "Saturday",
+      "1": "Sunday",
+      "2": "Monday",
+      "3": "Tuesday",
+      "4": "Wednesday",
+      "5": "Thursday",
+      "6": "Friday"
+    },
+    "events": {
+      "title": "Calendar Events",
+      "showUpcoming": "Show Upcoming Events",
+      "loading": "Loading events...",
+      "emptyAll": "No events have been added to the calendar yet.",
+      "emptyDay": "There are no events for this day.",
+      "emptyUpcoming": "No upcoming events registered.",
+      "edit": "Edit",
+      "editAria": "Edit {title}",
+      "delete": "Delete",
+      "deleteAria": "Delete {title}"
+    },
+    "week": {
+      "title": "Weekly Schedule",
+      "titleTeaching": "Weekly Teaching Schedule",
+      "signIn": "Sign in to view your weekly schedule.",
+      "loading": "Loading weekly schedule...",
+      "emptyInstructor": "No classes with a scheduled time have been assigned to you for this semester.",
+      "emptyStudent": "No scheduled classes are in your schedule for this semester. Once course registration is complete, your weekly schedule will appear here.",
+      "today": "Today",
+      "sessions": "{count, plural, one {# session} other {# sessions}}",
+      "credits": "{count, plural, one {# credit} other {# credits}}"
+    },
+    "form": {
+      "titleAdd": "Add Event",
+      "titleEdit": "Edit Event",
+      "close": "Close",
+      "title": "Event Title",
+      "titlePlaceholder": "e.g., Spring semester course registration begins",
+      "category": "Category",
+      "startDate": "Start Date",
+      "endDate": "End Date (Optional)",
+      "endDateAria": "End Date",
+      "endDatePlaceholder": "No end date",
+      "audience": "Audience (Optional)",
+      "audiencePlaceholder": "e.g., All departments",
+      "description": "Description (Optional)",
+      "descriptionPlaceholder": "Event details...",
+      "saving": "Saving...",
+      "saveEdit": "Save Changes",
+      "saveNew": "Save event",
+      "cancel": "Cancel",
+      "errTitle": "The event title must be at least 2 characters long.",
+      "errStart": "Please select a start date.",
+      "errEndBeforeStart": "The end date cannot be earlier than the start date."
+    },
+    "delete": {
+      "title": "Delete event",
+      "body": "Are you sure you want to delete the event \"{title}\"? This action cannot be undone.",
+      "deleting": "Deleting...",
+      "confirm": "Delete"
+    }
+  },
+  "library": {
+    "type": {
+      "guide": "Guide",
+      "template": "Template",
+      "video": "Video",
+      "link": "Link",
+      "document": "Document",
+      "book": "Book"
+    },
+    "error": {
+      "generic": "An error occurred"
+    },
+    "hero": {
+      "eyebrow": "Digital Library",
+      "title": "Digital Library",
+      "lead": "Curated course resources — articles, books, videos, templates, guides, and links. Each resource links to its original URL and is accessible via search and categorization."
+    },
+    "addResource": "Add resource",
+    "help": {
+      "title": "Library Management",
+      "body": "As a content manager, you can add new resources: title, URL, and resource type are required; author, description, tags, language, and level are optional. \"Draft\" resources are only visible to managers; enabling \"Published\" makes the resource visible to all users."
+    },
+    "cats": {
+      "title": "Categories",
+      "all": "All"
+    },
+    "search": {
+      "placeholder": "Search library — title, author, description, tag",
+      "aria": "Search library"
+    },
+    "list": {
+      "title": "Latest resources",
+      "results": "{count, plural, one {# result} other {# results}}",
+      "loading": "Loading resources...",
+      "emptyAll": "No resources have been added to the library yet.",
+      "emptySearch": "No resources found matching your search."
+    },
+    "card": {
+      "draft": "Draft",
+      "open": "Open resource",
+      "openAria": "Open {title}",
+      "edit": "Edit",
+      "editAria": "Edit {title}",
+      "delete": "Delete",
+      "deleteAria": "Delete {title}"
+    },
+    "form": {
+      "titleAdd": "Add resource",
+      "titleEdit": "Edit resource",
+      "close": "Close",
+      "title": "Title",
+      "titlePlaceholder": "e.g., Getting Started with Python Guide",
+      "url": "URL",
+      "type": "Resource Type",
+      "author": "Author / Source",
+      "optional": "Optional",
+      "description": "Description",
+      "tag": "Tag",
+      "tagPlaceholder": "e.g., ML",
+      "language": "Language",
+      "languagePlaceholder": "Persian / English",
+      "level": "Level",
+      "levelPlaceholder": "Undergraduate / Graduate",
+      "published": "Published (visible to all users)",
+      "saving": "Saving…",
+      "saveEdit": "Save Changes",
+      "saveNew": "Add Resource",
+      "cancel": "Cancel",
+      "errTitle": "Please enter the resource title.",
+      "errUrl": "Please enter the resource URL."
+    },
+    "delete": {
+      "title": "Delete Resource",
+      "body": "Are you sure you want to delete this resource? It will be removed from the library.",
+      "deleting": "Deleting…",
+      "confirm": "Delete"
+    }
+  },
+  "faculty": {
+    "hero": {
+      "eyebrow": "Faculty",
+      "title": "University Faculty",
+      "loading": "Loading faculty members…",
+      "lead": "{members, number} faculty members across {schools, number} schools — academic rank, department, and specialty are displayed for each member based on actual records."
+    },
+    "help": {
+      "title": "Faculty Guide",
+      "body": "Each university and school has its own faculty. Click on any school name to view only its members. Academic rank (Assistant Professor/Associate Professor/Full Professor), department, area of expertise, and number of courses for each member are retrieved from the system's live data."
+    },
+    "error": {
+      "load": "Failed to load faculty"
+    },
+    "filter": {
+      "all": "All"
+    },
+    "loading": "Loading…",
+    "emptyAll": "No faculty members have been registered yet. An administrator can add members from the \"Professors\" section.",
+    "emptySchool": "No members found in this school.",
+    "card": {
+      "courses": "{count, plural, one {# course offered} other {# courses offered}}"
+    },
+    "status": {
+      "sabbatical": "Sabbatical",
+      "active": "Active"
+    }
+  },
+  "labs": {
+    "discipline": {
+      "physics": "Physics",
+      "chemistry": "Chemistry",
+      "biology": "Biology",
+      "cs": "Computer Science",
+      "engineering": "Engineering",
+      "medical": "Medical",
+      "other": "Other"
+    },
+    "difficulty": {
+      "basic": "Basic",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "unknown": "Unknown"
+    },
+    "status": {
+      "in_progress": "In Progress",
+      "submitted": "Submitted",
+      "graded": "Graded"
+    },
+    "retry": "Retry",
+    "reload": "Reload",
+    "loading": "Loading…",
+    "close": "Close",
+    "cancel": "Cancel",
+    "view": "View",
+    "resume": "Resume",
+    "student": "Student",
+    "experiment": "Experiment",
+    "sentAt": "Submitted: {at}",
+    "minutes": "{count, plural, one {# minute} other {# minutes}}",
+    "steps": "{count, plural, one {# step} other {# steps}}",
+    "objectives": "{count, plural, one {# objective} other {# objectives}}",
+    "sim": {
+      "ohm": {
+        "volts": "{value} V",
+        "lamp": "Load Lamp",
+        "voltage": "Source Voltage V",
+        "unitVolt": "Volts",
+        "resistance": "Load Resistance R",
+        "unitOhm": "Ohms",
+        "current": "Current I",
+        "power": "Power P",
+        "law": "Relationship"
+      },
+      "titration": {
+        "burette": "Burette (0.1M NaOH)",
+        "volume": "Base Volume Added",
+        "equivalence": "Equivalence Point",
+        "indicator": "Indicator Color",
+        "pink": "Pink",
+        "colorless": "Colorless",
+        "state": "State",
+        "atEquivalence": "Equivalence",
+        "basic": "Basic",
+        "acidic": "Acidic"
+      },
+      "projectile": {
+        "path": "Projectile Path",
+        "angle": "Launch Angle θ",
+        "unitDegree": "degrees",
+        "speed": "Initial Speed v₀",
+        "range": "Range R",
+        "maxHeight": "Max Height",
+        "flightTime": "Flight Time",
+        "optimal": "✓ An angle of 45 degrees yields the maximum possible range."
+      },
+      "pendulum": {
+        "title": "Simple Pendulum",
+        "length": "String Length L",
+        "gravity": "Gravitational Acceleration g",
+        "period": "Period T",
+        "frequency": "Frequency f",
+        "planet": "Planet",
+        "moon": "Moon",
+        "jupiter": "Jupiter",
+        "earth": "Earth"
+      },
+      "ecg": {
+        "title": "Electrocardiogram",
+        "bradycardia": "Bradycardia",
+        "tachycardia": "Tachycardia",
+        "normal": "Normal",
+        "heartRate": "Heart Rate",
+        "beat": "Beat",
+        "rrInterval": "R-R Interval",
+        "reading": "Interpretation"
+      }
+    },
+    "player": {
+      "errLoad": "Failed to load the lab report.",
+      "errSubmit": "Failed to submit the report. Please try again.",
+      "saving": "Saving…",
+      "saved": "Saved ✓",
+      "saveFailed": "Save failed",
+      "loading": "Loading report…",
+      "objectives": "Lab Objectives",
+      "materials": "Materials & Tools",
+      "gradedTitle": "Your report has been graded",
+      "scoreLabel": "Score: {score}",
+      "feedbackLabel": "Instructor feedback:",
+      "submittedNotice": "The report has been submitted and is awaiting grading.",
+      "stepOf": "Step {current, number} of {total, number}",
+      "answeredPct": "{pct} answered",
+      "stepAria": "Step {n, number}",
+      "answerPlaceholder": "Write your observation or answer here…",
+      "noSteps": "This lab does not have any steps yet.",
+      "prevStep": "Previous step",
+      "nextStep": "Next step",
+      "submit": "Submit report",
+      "confirmTitle": "Submit report?",
+      "confirmBody": "Once submitted, the report will be locked and can no longer be edited; it will be sent to the instructor for grading.",
+      "submitting": "Submitting…",
+      "submitConfirm": "Submit"
+    },
+    "grade": {
+      "errScore": "The score must be a number between 0 and 100.",
+      "saved": "Score saved",
+      "errSave": "Failed to save score. Please try again.",
+      "reportOf": "{student}'s report",
+      "submittedAt": "Submitted: {at}",
+      "noAnswer": "— No answer —",
+      "scoreLabel": "Score (0 to 100)",
+      "feedbackLabel": "Feedback",
+      "feedbackPlaceholder": "Write your feedback for the student…",
+      "saving": "Saving…",
+      "save": "Save score"
+    },
+    "review": {
+      "errLoad": "Failed to load review queue.",
+      "title": "Lab Report Reviews",
+      "labLabel": "Lab:",
+      "labSelect": "Select lab",
+      "pending": "Pending grading",
+      "emptyPending": "There are no submitted reports to grade.",
+      "grade": "Grade",
+      "graded": "Graded"
+    },
+    "myReports": {
+      "errLoad": "Failed to load your reports.",
+      "title": "My Lab Reports",
+      "empty": "You don't have any reports yet. Open a lab, complete the steps, and write down your observations.",
+      "gradedAt": "Graded: {at}",
+      "sentAt": "Submitted: {at}"
+    },
+    "errLoadCatalog": "Failed to load labs.",
+    "errTitle": "Error",
+    "errBookmark": "Failed to save. Please try again.",
+    "eyebrow": "Virtual Lab · §6/§14",
+    "title": "Virtual Lab",
+    "lead": "Perform structured experiments across various disciplines step by step: objectives and required materials, step-by-step instructions, interactive simulations, and an auto-saving observation log. At the end, submit your report for instructor grading.",
+    "search": {
+      "placeholder": "Search by title, summary, or objectives…",
+      "aria": "Search experiments",
+      "clear": "Clear search"
+    },
+    "filter": {
+      "all": "All"
+    },
+    "loadingCatalog": "Loading experiments…",
+    "emptyFiltered": "No experiments found matching these filters.",
+    "clearFilters": "Clear filters",
+    "foundCount": "{count, plural, one {# experiment found} other {# experiments found}}",
+    "bookmark": "Bookmark",
+    "run": "Run experiment"
+  },
+  "officeHours": {
+    "day": {
+      "0": "Saturday",
+      "1": "Sunday",
+      "2": "Monday",
+      "3": "Tuesday",
+      "4": "Wednesday",
+      "5": "Thursday",
+      "6": "Friday"
+    },
+    "mode": {
+      "online": "Online",
+      "inPerson": "In-person"
+    },
+    "unknownInitial": "?",
+    "loading": "Loading…",
+    "close": "Close",
+    "back": "Back",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancelAction": "Cancel",
+    "error": {
+      "load": "Failed to load office hours",
+      "book": "Failed to book appointment",
+      "cancel": "Failed to cancel appointment",
+      "save": "Failed to save office hours",
+      "delete": "Failed to delete office hours"
+    },
+    "student": {
+      "eyebrow": "Student Services · §6",
+      "title": "Office Hours",
+      "lead": "View faculty office hours and book appointments for in-person or online meetings.",
+      "help": {
+        "title": "Office Hours Guide",
+        "body": "Under \"Browse Faculty\", you can see each instructor's available times; click on a slot and enter the meeting topic to book it. Your booked appointments can be viewed and canceled in \"My Appointments\"."
+      }
+    },
+    "stat": {
+      "instructors": "{count, plural, one {# instructor} other {# instructors}}",
+      "free": "{count, plural, one {# available slot} other {# available slots}}",
+      "mine": "{count, plural, one {# my slot} other {# my slots}}"
+    },
+    "tab": {
+      "browse": "Browse Instructors",
+      "mine": "My Appointments"
+    },
+    "search": {
+      "placeholder": "Search by instructor name or department…",
+      "aria": "Search",
+      "clear": "Clear"
+    },
+    "empty": {
+      "noSlots": "No office hours are currently available.",
+      "noMatch": "No results found."
+    },
+    "slot": {
+      "fullTitle": "This slot is full",
+      "bookTitle": "Book this slot",
+      "full": "Full",
+      "bookedOf": "{booked}/{capacity} booked"
+    },
+    "mine": {
+      "empty": "You haven't booked any appointments yet.",
+      "booked": "Booked",
+      "topicLabel": "Topic:",
+      "cancel": "Cancel Appointment"
+    },
+    "book": {
+      "aria": "Book Appointment",
+      "title": "Book Office Hour Appointment",
+      "topicLabel": "Meeting Topic (optional)",
+      "topicPlaceholder": "e.g., Homework 3 debugging, final project questions…",
+      "saving": "Saving…",
+      "confirm": "Confirm Booking"
+    },
+    "cancelDialog": {
+      "body": "Are you sure you want to cancel your appointment with {instructor}? This slot will become available again.",
+      "thisInstructor": "this instructor",
+      "canceling": "Canceling…",
+      "confirm": "Yes, cancel"
+    },
+    "instructor": {
+      "eyebrow": "Faculty · §6",
+      "title": "My Office Hours",
+      "lead": "Set your weekly availability; students can book appointments during these times.",
+      "newSlot": "New Office Hour",
+      "help": {
+        "title": "My Office Hours Guide",
+        "body": "Define your weekly availability using \"New Office Hour\" (day, time, in-person/online, and capacity). Students will book these times; use \"Bookings\" to view the student list for each slot."
+      },
+      "empty": "You haven't defined any office hours yet.",
+      "addFirst": "Add First Office Hour",
+      "slotCount": "{count, plural, one {# slot} other {# slots}}",
+      "inactive": "Inactive",
+      "bookings": "Bookings",
+      "noteLabel": "Note:",
+      "loadingBookings": "Loading bookings…",
+      "noBookings": "No students have booked this slot yet.",
+      "colStudent": "Student",
+      "colTopic": "Topic"
+    },
+    "form": {
+      "aria": "Office Hours",
+      "titleEdit": "Edit Office Hours",
+      "day": "Day of the week",
+      "start": "Start time",
+      "end": "End time",
+      "mode": "Type",
+      "capacity": "Capacity",
+      "linkOrPlace": "Link / Location (optional)",
+      "place": "Location (optional)",
+      "linkPlaceholder": "e.g., Online meeting link",
+      "placePlaceholder": "e.g., Engineering Building, Room 214",
+      "note": "Note (optional)",
+      "notePlaceholder": "e.g., Only for Data Structures students",
+      "errTime": "Please enter valid start and end times.",
+      "errOrder": "The end time must be after the start time.",
+      "errCapacity": "Capacity must be an integer of at least 1.",
+      "saving": "Saving…",
+      "save": "Save"
+    },
+    "del": {
+      "title": "Delete Office Hours",
+      "body": "Are you sure you want to delete the office hours slot {slot}?",
+      "alsoCancels": "Any bookings for this slot will also be canceled.",
+      "deleting": "Deleting…"
+    }
+  },
+  "calendarPage": {
+    "type": {
+      "meeting": "Class",
+      "exam": "Exam",
+      "assignment": "Assignment",
+      "term": "Semester range",
+      "event": "Event",
+      "personal": "Personal"
+    },
+    "day": {
+      "0": "Saturday",
+      "1": "Sunday",
+      "2": "Monday",
+      "3": "Tuesday",
+      "4": "Wednesday",
+      "5": "Thursday",
+      "6": "Friday"
+    },
+    "examSubtitle": "Exam · {time}",
+    "dateRange": "{from} to {to}",
+    "process": {
+      "registration": "Course Registration",
+      "addDrop": "Add/Drop",
+      "emergencyDrop": "Emergency Withdrawal",
+      "exams": "Exams",
+      "gradeEntry": "Grade Submission"
+    },
+    "error": {
+      "load": "Failed to load calendar",
+      "delete": "Failed to delete event",
+      "save": "Failed to save event",
+      "feedUnavailable": "Subscription URL is not available.",
+      "feedFetch": "Failed to fetch subscription URL"
+    },
+    "delete": {
+      "title": "Delete Personal Event",
+      "body": "The event \"{title}\" will be deleted and cannot be recovered.",
+      "confirm": "Delete Event"
+    },
+    "toast": {
+      "deleted": "Event deleted",
+      "deleteFailed": "Deletion failed",
+      "updated": "Event updated",
+      "added": "Event added",
+      "urlCopied": "URL copied",
+      "urlCopiedBody": "Calendar subscription URL copied to clipboard.",
+      "copyFailed": "Copy failed",
+      "copyFailedBody": "Could not copy the URL; please copy it manually."
+    },
+    "eyebrow": "Calendar",
+    "title": "My Calendar",
+    "subtitle": {
+      "parent": "Your child's academic calendar",
+      "instructor": "Your classes, exams, and teaching events",
+      "student": "Your classes, exams, assignments, and events — all in one place"
+    },
+    "action": {
+      "newEvent": "Event",
+      "subscribe": "Subscribe to Calendar",
+      "termWindows": "Term Periods"
+    },
+    "viewSwitcher": "Calendar View",
+    "view": {
+      "month": "Month",
+      "week": "Week",
+      "list": "List"
+    },
+    "help": {
+      "title": "Calendar Guide",
+      "body": "This calendar displays all your schedules in one place: weekly classes, exams, assignment deadlines, important term periods, and university events. Choose your preferred view using \"Month\", \"Week\", or \"List\", click on any day to view its events, and click on an event to go to its page."
+    },
+    "child": {
+      "unnamed": "Student"
+    },
+    "filterLabel": "Event Type Filter",
+    "filter": {
+      "all": "All"
+    },
+    "dayPanel": {
+      "label": "Day Events",
+      "pickDay": "Select a day",
+      "count": "{count, plural, one {# item} other {# items}}",
+      "addAria": "Add event to this day",
+      "addTitle": "Add event",
+      "hint": "Tap a day on the calendar to view its events.",
+      "empty": "No events on this day.",
+      "addPersonal": "Personal event"
+    },
+    "loading": "Loading…",
+    "week": {
+      "title": "Weekly class schedule",
+      "empty": "No classes to display in this range.",
+      "rowLabel": "Classes"
+    },
+    "list": {
+      "title": "Upcoming events",
+      "empty": "No events in this range.",
+      "today": "Today"
+    },
+    "dialog": {
+      "errTitleRequired": "Enter the event title.",
+      "errTitleLong": "The title must not exceed {max, number} characters.",
+      "errDateRequired": "Select the event date.",
+      "errStartRequired": "Enter the start time or enable \"All-day\".",
+      "errEndBeforeStart": "The end time must be after the start time.",
+      "errNoteLong": "The note must not exceed {max, number} characters.",
+      "editTitle": "Edit personal event",
+      "newTitle": "New personal event",
+      "close": "Close",
+      "title": "Title",
+      "titlePlaceholder": "e.g., Study group session",
+      "date": "Date",
+      "dateAria": "Event date",
+      "allDay": "All-day",
+      "from": "From",
+      "to": "To",
+      "note": "Note (optional)",
+      "notePlaceholder": "Short description…",
+      "cancel": "Cancel",
+      "saving": "Saving…",
+      "saveChanges": "Save changes",
+      "add": "Add event"
+    },
+    "subscribe": {
+      "heading": "Calendar subscription",
+      "intro": "You can use this URL to subscribe to your calendar in Google Calendar or Apple/mobile calendar so that your classes, exams, and personal events stay automatically updated.",
+      "preparing": "Preparing…",
+      "copied": "Copied",
+      "copy": "Copy",
+      "download": "Download .ics file",
+      "howtoBefore": "Instructions: In Google Calendar, use «Other calendars → From URL», and in Apple Calendar, use «File → New Calendar Subscription» to enter this exact URL. To import events all at once, download and open the file",
+      "howtoAfter": ".",
+      "rotate": "Revoke previous link and generate new link",
+      "rotateWarning": "The previous link will no longer update your calendar. To continue syncing, replace the new link in your calendar applications. Previously downloaded events will not be deleted.",
+      "rotateConfirm": "I understand that previous subscriptions must be updated with the new link.",
+      "rotating": "Revoking previous link…",
+      "rotated": "Previous link revoked. New link is ready to copy.",
+      "rotateFailed": "The link update status is uncertain. Please retrieve the current URL again.",
+      "refresh": "Retrieve current URL"
+    },
+    "chip": {
+      "allDay": "All day",
+      "edit": "Edit {title}",
+      "delete": "Delete {title}"
+    }
+  },
+  "parentDash": {
+    "errLoad": "Failed to load.",
+    "loading": "Loading…",
+    "childFallback": "Child",
+    "title": "Parent Portal",
+    "subtitle": "University connection · Live data",
+    "childPickerAria": "Select child",
+    "gradePercent": "{value, number}%",
+    "mood": {
+      "improving": "Improving",
+      "steady": "Steady",
+      "declining": "Slight decline",
+      "unknown": "No data recorded"
+    },
+    "wellness": {
+      "title": "Child's Wellbeing",
+      "intro": "A supportive overview of {name}'s current state; this is a «screening», not a clinical diagnosis, and private response details are not displayed.",
+      "empty": "No information to display.",
+      "moodLabel": "Recent mood:",
+      "dimsLabel": "Self-assessment summary:",
+      "dimFallback": "Self-assessment",
+      "dimsEmpty": "No self-assessment results recorded for display yet.",
+      "supportAria": "Support child",
+      "supportTitle": "Be there for your child",
+      "supportBody": "These days, calm companionship and a kind, non-judgmental conversation can be very helpful. If you wish, you can also connect with the university counseling center alongside your child.",
+      "contactCta": "Speak with university / counselor"
+    },
+    "status": {
+      "graded": "Graded",
+      "submitted": "Submitted, pending grade",
+      "pending": "Not completed yet"
+    },
+    "academic": {
+      "title": "Child's Exams and Assignments",
+      "intro": "This is a summary of {name}'s published exams and assignments and their status. For privacy reasons, the exam questions and student answers are not displayed.",
+      "exams": "Exams",
+      "examsEmpty": "No published exams to display.",
+      "whenExam": "Date",
+      "assignments": "Assignments",
+      "assignmentsEmpty": "No published assignments to display.",
+      "whenAssignment": "Deadline"
+    },
+    "kpi": {
+      "unread": "Unread notifications",
+      "total": "Total notifications",
+      "newConvos": "Conversations with new messages",
+      "children": "Linked children"
+    },
+    "help": {
+      "title": "Parent Portal Guide",
+      "body": "From this page, you can stay in touch with the university and professors, and view unread notifications and messages. To send a message, tap \"Message Professor / University\", and to view announcements, tap \"Notifications\"."
+    },
+    "quick": {
+      "inbox": "Notifications",
+      "messages": "Message Professor / University"
+    },
+    "activity": {
+      "title": "Child's Academic Activity",
+      "noChild": "No child has been linked to your account yet. To link a student to your parent account, please contact university support."
+    }
+  },
+  "membership": {
+    "directory": {
+      "disabled": {
+        "title": "Member directory is currently disabled",
+        "body": "The organization administrator has disabled the directory display. Once enabled, members who have permitted visibility will be shown here."
+      },
+      "eyebrow": "Membership",
+      "title": "Member Directory",
+      "lead": "Members who have explicitly consented to enable their profile display in the directory.",
+      "help": {
+        "title": "Help",
+        "body": "This list only shows members who either have an active membership or are in a grace period (extra days of access after expiration before access is cut off) and have explicitly agreed to display their information in the directory. To add yourself to this list, give your consent in \"My Membership\" and turn on the relevant toggles from the \"Privacy\" tab in settings."
+      },
+      "retry": "Try again",
+      "searchPlaceholder": "Search name…",
+      "searchAria": "Search member name",
+      "filterAria": "Filter area of expertise",
+      "allFields": "All fields of expertise",
+      "loading": "Loading…",
+      "noName": "No name",
+      "memberFallback": "Directory member",
+      "prev": "Previous",
+      "next": "Next",
+      "selectHint": "Select a member from the list to view their details.",
+      "since": "Member since {when}",
+      "viewProfile": "View public profile",
+      "about": "About me",
+      "links": "Links",
+      "portfolio": "Portfolio",
+      "projectView": "View",
+      "projectRepo": "Code Repository",
+      "endorsements": "Skill Endorsements",
+      "endorsedByMe": "You have endorsed this skill"
+    },
+    "steps": {
+      "request": {
+        "title": "1) Membership Request",
+        "what": "Select your field of expertise (optional) and submit your membership request.",
+        "cta": "Submit Membership Request"
+      },
+      "review": {
+        "title": "2) Identity Verification",
+        "what": "A membership operator will review your request and verify your identity.",
+        "cta": "Awaiting Operator Review",
+        "lockedBecause": "You must first submit a membership request."
+      },
+      "payment": {
+        "title": "3) Payment",
+        "what": "Select a membership plan and pay from your wallet.",
+        "cta": "Pay from Wallet",
+        "lockedBecause": "Your identity must be verified first."
+      },
+      "activation": {
+        "title": "4) Activation",
+        "what": "Immediately after payment, your membership will be activated and you will be added to the specialist group in your field.",
+        "cta": "Activation is Automatic",
+        "lockedBecause": "Payment must be completed first."
+      },
+      "card": {
+        "title": "5) Membership Card",
+        "what": "Your active membership card, complete with expiration date and purchased plan.",
+        "cta": "View Membership Card",
+        "lockedBecause": "Membership must be activated first."
+      }
+    },
+    "status": {
+      "pending": "Awaiting Identity Verification",
+      "verified": "Identity Verified — Ready for Payment",
+      "active": "Active",
+      "renewal_due": "Renewal Due",
+      "grace": "Grace Period",
+      "lapsed": "Expired",
+      "suspended": "Suspended",
+      "revoked": "Revoked"
+    },
+    "help": {
+      "button": "Help",
+      "title": "«My Membership» Guide",
+      "intro": "This page shows your professional membership journey step-by-step, from request to active card. Membership is not free; after identity verification, it is activated by paying from your wallet.",
+      "youCan": {
+        "1": "Apply for membership and select your field of expertise.",
+        "2": "After identity verification, select a plan and make the payment.",
+        "3": "View your active membership card and its expiration date.",
+        "4": "Grant or revoke consent to display your profile in the member directory at any time.",
+        "5": "If your membership expires, initiate the renewal process from this same page."
+      },
+      "ifEmpty": "If you have not yet registered a membership, you will see the «Membership Request» form — simply select your area of expertise and submit your request there.",
+      "sections": {
+        "youCan": "What you can do here",
+        "ifEmpty": "If the page is empty",
+        "chain": "The complete journey, from start to finish",
+        "roles": "Who does what",
+        "glossary": "Glossary"
+      },
+      "chain": {
+        "1": "You submit a membership request (specifying an area of expertise is optional).",
+        "2": "The membership operator reviews and approves your identity.",
+        "3": "You select a plan and pay from your wallet.",
+        "4": "Your membership becomes active immediately and a membership card is issued.",
+        "5": "Near the end of the period, you will see a renewal reminder; if not renewed, there is a grace period followed by expiration."
+      },
+      "roles": {
+        "member": {
+          "label": "You (Member)",
+          "does": "Submit requests, make payments, and manage directory consent."
+        },
+        "operator": {
+          "label": "Membership Operator",
+          "does": "Review and verify request identities."
+        },
+        "manager": {
+          "label": "Membership Manager",
+          "does": "Handle suspensions, reinstatements, and revocations, and configure program settings."
+        },
+        "finance": {
+          "label": "Finance Manager",
+          "does": "Set discounts, limits, and membership coupon policies in the \"Finance\" section."
+        }
+      },
+      "glossary": {
+        "grace": {
+          "term": "Grace Period",
+          "meaning": "A short window immediately following membership expiration during which membership is still considered valid to give you time to renew."
+        },
+        "card": {
+          "term": "Membership Card",
+          "meaning": "A summary of your active membership—plan, expiration date, and status—displayed when your membership is active."
+        }
+      }
+    },
+    "empty": {
+      "lapsed": {
+        "title": "Your membership has expired",
+        "body": "Automatic reactivation for expired memberships is not yet available. To continue your membership and regain access to the professional group and member directory, contact the membership operator via messenger.",
+        "cta": "Open Messenger"
+      },
+      "directoryNoResults": {
+        "title": "No members found matching these criteria",
+        "body": "Clear your filters or try another search term.",
+        "cta": "Clear Filters"
+      }
+    },
+    "confirm": {
+      "pay": {
+        "title": "Membership Payment from Wallet",
+        "body": "The amount of {price} will be deducted from your wallet for the \"{plan}\" plan, and your membership will be activated immediately. This wallet transaction is non-refundable; to stop your membership, you must coordinate with the membership operator later.",
+        "confirmLabel": "Pay and Activate Membership"
+      },
+      "renew": {
+        "title": "Membership Renewal from Wallet",
+        "body": "The amount of {price} will be deducted from your wallet for the \"{plan}\" plan, and the new period will continue from your current expiration date—remaining paid days are not lost. This wallet transaction is non-refundable.",
+        "confirmLabel": "Pay and Renew Membership"
+      }
+    },
+    "page": {
+      "eyebrow": "My Account",
+      "title": "My Membership",
+      "lead": "Your professional membership status, requests, payments, and field-specific professional group.",
+      "transparency": "Once your membership is activated, you will be added to your field's professional group in the messenger; you can leave the group at any time from within the group itself.",
+      "consentText": "I agree that my selected profile information—name, area of expertise, and resume if chosen—will be displayed in the member directory. [Draft — to be replaced by the organization's final legal text]",
+      "journey": {
+        "title": "Membership Journey",
+        "next": "Next step: {cta}",
+        "allDone": "All steps are completed"
+      },
+      "loading": "Loading...",
+      "apply": {
+        "title": "Membership Application",
+        "intro": "You do not have a membership registered yet. Select your field of expertise (optional) and apply.",
+        "fieldLabel": "Field of expertise (optional)",
+        "noField": "— No field of expertise —",
+        "submit": "Submit Membership Application"
+      },
+      "expertise": "Field of expertise: {name}",
+      "pending": "Your application has been submitted and is pending identity verification.",
+      "pay": {
+        "intro": "Your identity has been verified. To activate your membership, select one of the plans and make the payment.",
+        "noPlans": "No purchasable plans are currently available.",
+        "planLabel": "Plan",
+        "planPlaceholder": "— Select a plan —",
+        "planOption": "{name} — {price} / {days} days",
+        "submit": "Pay from Wallet",
+        "insufficient": "Insufficient wallet balance."
+      },
+      "card": {
+        "label": "Membership Card",
+        "paid": "Paid Amount",
+        "expires": "Expiration Date",
+        "graceEnd": "Grace Period End"
+      },
+      "group": {
+        "note": "You have been added to the specialized group “{field}” in the messenger.",
+        "openMessenger": "Open Messenger"
+      },
+      "directory": {
+        "title": "Member Directory",
+        "consentedBadge": "Consent Given",
+        "consentedBody": "You have agreed to display your selected profile information in the member directory.",
+        "view": "View Directory",
+        "privacy": "Privacy Display Settings",
+        "withdraw": "Withdraw Consent",
+        "staleNotice": "The consent text has been updated; please re-confirm to continue your presence in the directory.",
+        "reconfirm": "Re-confirm",
+        "accept": "I Accept",
+        "visibilityNote": "Display of membership, field of expertise, and resume is controlled from the “Privacy” card in settings."
+      },
+      "suspended": "Your membership has been suspended.",
+      "suspendedReason": "Your membership has been suspended: {reason}",
+      "revoked": "Your membership has been revoked.",
+      "revokedReason": "Your membership has been revoked: {reason}",
+      "renew": {
+        "title": "Renew Membership",
+        "intro": "Your membership period is coming to an end. By renewing from your wallet, the new period will continue from this expiration date and no paid days will be lost.",
+        "introLapsed": "Your membership period has expired. By renewing from your wallet, your membership will be reactivated starting today.",
+        "submit": "Renew from wallet"
+      }
+    }
+  }
+}

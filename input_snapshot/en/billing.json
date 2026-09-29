@@ -1,0 +1,389 @@
+{
+  "wallet": {
+    "eyebrow": "Billing · Wallet",
+    "title": "My Wallet",
+    "lead": "View and top up your balance, and track your transaction history.",
+    "loading": "Loading wallet…",
+    "unavailable": "Wallet is unavailable.",
+    "help": {
+      "title": "Wallet Guide",
+      "body": "Your wallet balance can be used across the entire platform (including tuition payments). \"Top up\" takes you to the payment gateway, and upon successful payment, the amount is instantly added to your wallet."
+    },
+    "topupResult": {
+      "success": "Wallet balance successfully topped up.",
+      "failed": "Top-up failed; if any amount was deducted, it will be refunded."
+    },
+    "error": {
+      "load": "Failed to load wallet.",
+      "topupAmount": "Please enter a valid top-up amount (positive number, Rials).",
+      "topupStart": "Failed to initiate payment.",
+      "topup": "Top-up failed.",
+      "withdrawAmount": "Please enter the withdrawal amount (Rials).",
+      "withdraw": "Failed to submit withdrawal request."
+    },
+    "balance": {
+      "label": "Current Balance",
+      "blocked": "Wallet is blocked."
+    },
+    "topup": {
+      "title": "Top Up Balance",
+      "placeholder": "Custom amount (Rials)",
+      "aria": "Top-up amount in Rials",
+      "submit": "Top Up",
+      "busy": "Redirecting to gateway…"
+    },
+    "withdraw": {
+      "title": "Withdraw to Bank Account",
+      "note": "The requested amount is immediately reserved from your wallet and will be deposited into your account after financial manager approval.",
+      "ok": "Withdrawal request submitted and amount reserved; it will be deposited after financial approval.",
+      "amountPlaceholder": "Amount (Rials)",
+      "amountAria": "Withdrawal amount in Rials",
+      "ibanPlaceholder": "IBAN (IR…)",
+      "ibanAria": "IBAN",
+      "holderPlaceholder": "Account Holder Name",
+      "holderAria": "Account Holder Name",
+      "submit": "Request Withdrawal",
+      "busy": "Submitting…",
+      "col": {
+        "amount": "Amount",
+        "iban": "IBAN",
+        "status": "Status",
+        "date": "Date"
+      }
+    },
+    "history": {
+      "title": "Transaction History",
+      "empty": "No transactions recorded yet.",
+      "col": {
+        "kind": "Type",
+        "amount": "Amount",
+        "date": "Date"
+      }
+    },
+    "receipt": {
+      "open": "Receipt",
+      "title": "Wallet Receipt",
+      "footer": "This receipt is generated automatically by the system.",
+      "close": "Close",
+      "print": "Print / PDF",
+      "row": {
+        "kind": "Type",
+        "amount": "Amount",
+        "reason": "Description",
+        "date": "Date",
+        "txnId": "Transaction ID",
+        "withdrawalKind": "Withdrawal to bank account",
+        "iban": "IBAN",
+        "holder": "Account Holder",
+        "status": "Status",
+        "bankTrace": "Bank Trace Code",
+        "id": "ID"
+      }
+    },
+    "kind": {
+      "topup": "Top-up",
+      "pay_tuition": "Tuition Payment",
+      "pay_subscription": "Subscription Payment",
+      "manual_credit": "Manual Credit",
+      "manual_adjust": "Manual Adjustment",
+      "refund_in": "Refund",
+      "scholarship_in": "Scholarship",
+      "withdrawal_hold": "Withdrawal Hold",
+      "withdrawal_refund": "Withdrawal Refund",
+      "market_purchase": "Course Purchase (Knowledge Market)",
+      "market_refund": "Course Purchase Refund"
+    },
+    "withdrawStatus": {
+      "requested": "Pending Approval",
+      "approved": "Approved",
+      "paid": "Paid",
+      "rejected": "Rejected",
+      "failed": "Failed"
+    }
+  },
+  "tuition": {
+    "eyebrow": "Billing",
+    "title": "Tuition and Payments",
+    "loading": "Loading…",
+    "genericError": "An error occurred",
+    "nav": {
+      "loans": "Student Loans",
+      "aid": "Financial Aid",
+      "refund": "Refund",
+      "clearance": "Clearance"
+    },
+    "result": {
+      "success": "Payment was successfully recorded.",
+      "failed": "Payment was incomplete or cancelled."
+    },
+    "help": {
+      "title": "Tuition Help",
+      "body": "Tuition = Fixed (basis for course selection gate) + Variable (number of credits × rate per credit) − Discount/Scholarship. Until the fixed tuition is paid, course selection is locked. You can pay the total remaining balance or each installment. In test mode, the gateway is a mock gateway and is not real."
+    },
+    "empty": {
+      "noTerm": "There is no active term for tuition calculation.",
+      "noTariff": "The tuition tariff for your program has not been set yet. Please contact the finance department."
+    },
+    "gate": {
+      "open": "✅ Fixed tuition paid — course selection is open.",
+      "goRegistration": "Go to Course Selection",
+      "locked": "⚠️ Fixed tuition ({amount}) is not paid — course selection is locked."
+    },
+    "breakdown": {
+      "title": "Tuition Breakdown",
+      "fixed": "Fixed Tuition",
+      "variable": "Variable Tuition ({credits, plural, one {# credit} other {# credits}} × {rate})",
+      "discount": "Discount / Scholarship",
+      "total": "Total",
+      "paid": "Paid",
+      "remaining": "Remaining"
+    },
+    "courses": {
+      "title": "Variable Tuition Courses",
+      "col": {
+        "code": "Code",
+        "title": "Title",
+        "credits": "Credits"
+      }
+    },
+    "pay": {
+      "title": "Payment",
+      "remaining": "Remaining",
+      "mockGateway": "Mock Gateway",
+      "settled": "Settled",
+      "payRemaining": "Pay Remaining ({amount})"
+    },
+    "installments": {
+      "title": "Installments",
+      "pay": "Pay",
+      "col": {
+        "seq": "Installment",
+        "amount": "Amount",
+        "due": "Due Date",
+        "status": "Status",
+        "actions": "Actions"
+      }
+    },
+    "history": {
+      "title": "Payment History",
+      "col": {
+        "date": "Date",
+        "amount": "Amount",
+        "method": "Method",
+        "status": "Status"
+      }
+    },
+    "provider": {
+      "mock": "Mock"
+    },
+    "billStatus": {
+      "UNPAID": "Unpaid",
+      "PARTIAL": "Partially paid",
+      "PAID": "Paid in full"
+    },
+    "payStatus": {
+      "PENDING": "Pending",
+      "PAID": "Successful",
+      "FAILED": "Failed",
+      "CANCELED": "Canceled"
+    },
+    "instStatus": {
+      "PENDING": "Pending",
+      "PAID": "Paid",
+      "OVERDUE": "Overdue"
+    }
+  },
+  "checkout": {
+    "guest": {
+      "title": "Sign in to continue",
+      "body": "Sign in to your account to make a purchase or change your subscription. Your selected plan will be saved after you log in.",
+      "cta": "Sign in / Register"
+    },
+    "back": "→ Back to plans",
+    "loading": "Loading...",
+    "notFound": "Plan not found.",
+    "error": {
+      "load": "Failed to load plan details.",
+      "checkout": "Failed to initiate payment.",
+      "cancel": "Failed to cancel subscription."
+    },
+    "rel": {
+      "none": "Buy subscription",
+      "same": "Your current plan",
+      "upgrade": "Upgrade plan",
+      "downgrade": "Downgrade plan",
+      "lateral": "Switch plan"
+    },
+    "currentPlanLabel": "Your current plan:",
+    "quota": "AI message limit: {count, plural, one {# message} other {# messages}} per month",
+    "period": {
+      "aria": "Billing cycle",
+      "month": "Monthly",
+      "year": "Yearly (2 months free)"
+    },
+    "amount": {
+      "noPayment": "No payment required",
+      "free": "Free"
+    },
+    "suffix": {
+      "proration": "(Prorated)",
+      "year": "/ year",
+      "month": "/ month"
+    },
+    "creditNote": "An amount of {amount} for the unused days of your current plan will be credited to your wallet.",
+    "prorationNote": "Only the prorated amount for the remaining days until the end of the current cycle has been calculated.",
+    "payFrom": {
+      "label": "Payment method",
+      "wallet": "Wallet",
+      "walletWithBalance": "Wallet ({balance})",
+      "insufficient": "Insufficient wallet balance",
+      "gateway": "Payment Gateway"
+    },
+    "mockNote": "«Sample» test gateway — real payment will be activated once the gateway is connected",
+    "action": {
+      "busy": "Processing...",
+      "free": "Free Activation",
+      "downgrade": "Confirm Downgrade and Receive Credit",
+      "renew": "Renew Subscription",
+      "wallet": "Pay from Wallet and Activate",
+      "gateway": "Pay and Activate Subscription"
+    },
+    "cancel": {
+      "button": "Cancel Subscription",
+      "title": "Cancel Subscription",
+      "body": "Your current subscription will be canceled and you will return to the free plan.",
+      "confirm": "Cancel Subscription",
+      "dismiss": "Dismiss",
+      "done": "Your subscription has been canceled."
+    }
+  },
+  "orgInvoice": {
+    "eyebrow": "Enterprise Billing",
+    "title": "Organization Invoices",
+    "lead": "Corporate training invoices: issuance, due date tracking, and settlement upon financial department approval.",
+    "help": {
+      "title": "What does this page do?",
+      "body": "You issue the invoice, the organization issues the remittance, and registers a «Settlement Request» right here. The invoice is not marked as «Settled» until the finance department approves the remittance; financial approval is what writes the general ledger entry."
+    },
+    "status": {
+      "DUE": "Due",
+      "PENDING_MANUAL": "Pending Financial Approval",
+      "PAID": "Settled",
+      "OVERDUE": "Overdue"
+    },
+    "kpi": {
+      "filteredNote": "Status filter is active; only the card for that status has a number while the rest remain «—», because the filtered list is not the source for counting other statuses.",
+      "total": "Total Amount"
+    },
+    "search": {
+      "aria": "Search invoices",
+      "placeholder": "Invoice number or title..."
+    },
+    "filter": {
+      "aria": "Status filter",
+      "all": "All"
+    },
+    "action": {
+      "new": "New Invoice",
+      "requestSettlement": "Submit Settlement Request",
+      "confirm": "Approve Settlement",
+      "reject": "Reject Request",
+      "details": "Details",
+      "print": "Print / PDF Export",
+      "close": "Close"
+    },
+    "table": {
+      "number": "Number",
+      "title": "Title",
+      "amount": "Amount",
+      "status": "Status",
+      "dueDate": "Due date",
+      "actions": "Actions"
+    },
+    "state": {
+      "loading": "Loading…",
+      "emptyFiltered": "No invoices found matching this filter.",
+      "empty": "No invoices have been issued yet."
+    },
+    "detail": {
+      "aria": "Invoice details {number}",
+      "heading": "Invoice {number}",
+      "issuedDate": "Issue date",
+      "dueDate": "Due date",
+      "requestedAt": "Settlement request date",
+      "paidDate": "Settlement date",
+      "settlementRef": "Transfer reference number",
+      "ledgerTxn": "General ledger transaction ID",
+      "settlementNote": "Note",
+      "amount": "Amount payable"
+    },
+    "print": {
+      "paidNote": "This invoice has been settled and its corresponding entry is recorded in the general ledger.",
+      "pendingNote": "The settlement request for this invoice has been submitted but not yet approved by the finance department; this document is not a payment receipt.",
+      "dueNote": "This invoice has not been settled yet; this document is not a payment receipt."
+    },
+    "settle": {
+      "requestTitle": "Submit settlement request",
+      "requestBody": "This will send invoice {number} in the amount of {amount} to the finance department review queue. No funds are transferred right now; settlement will be recorded after financial approval.",
+      "requestSubmit": "Submit request",
+      "confirmTitle": "Approve settlement",
+      "confirmBody": "By approving, invoice {number} in the amount of {amount} will be marked as settled and a balanced general ledger entry will be created. This action cannot be undone.",
+      "confirmSubmit": "Approve and record entry",
+      "rejectTitle": "Reject settlement request",
+      "rejectBody": "Invoice {number} will return to due status and your reason will be recorded for the organization.",
+      "rejectSubmit": "Reject request",
+      "refLabel": "Transfer or receipt reference number (optional)",
+      "refPlaceholder": "e.g., bank tracking number",
+      "noteLabel": "Note (optional)",
+      "reasonLabel": "Reason for rejection",
+      "reasonRequired": "A reason is required to reject the request.",
+      "busy": "Saving…",
+      "cancel": "Cancel",
+      "awaitingFinance": "The settlement request has been submitted and is awaiting finance department approval."
+    },
+    "new": {
+      "title": "New invoice",
+      "number": "Invoice number",
+      "numberPlaceholder": "INV-2025-001",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Corporate training course…",
+      "amount": "Amount (Rials)",
+      "issued": "Issue date",
+      "issuedAria": "Select issue date",
+      "due": "Due date",
+      "dueAria": "Select due date",
+      "submit": "Issue invoice",
+      "submitting": "Saving..."
+    },
+    "error": {
+      "load": "Failed to load invoices.",
+      "create": "Failed to issue invoice.",
+      "settle": "Failed to record settlement operation."
+    }
+  },
+  "orgSeats": {
+    "lead": {
+      "withCap": "Organization License Seat Management — Shows how many seats are used and available out of the total {cap} purchased seats. In the allocation list, you can assign or reclaim seats for each member.",
+      "noCap": "Organization License Seat Management — This organization's contract cap has not been registered yet, so the \"Total\" and \"Available\" figures are not displayed. You can see the number of allocated seats and assign or reclaim seats for any member."
+    },
+    "capUnsetNote": "This organization's seat cap is not registered. Until the finance department registers the contract cap, \"Total seats\", \"Available\", and \"Occupancy rate\" will not show any figures — we do not display fabricated numbers.",
+    "capFull": "No available seats left — license capacity is full.",
+    "unknown": "Unregistered",
+    "coursesBasis": "Based on {linked} out of {total} members who have user accounts.",
+    "coursesNoBasis": "No members have user accounts, so there is no average.",
+    "cap": {
+      "title": "Seat Contract Cap",
+      "hint": "This number is the organization's license cap and is only registered by the finance department. Leaving it blank means \"no cap registered\" — in that case, \"Total seats\", \"Available\", and \"Occupancy rate\" will not show any numbers.",
+      "label": "Seat cap",
+      "placeholder": "e.g. 250",
+      "save": "Save cap",
+      "saving": "Saving...",
+      "clear": "Clear cap",
+      "saved": "Seat cap saved.",
+      "cleared": "Seat cap cleared; it is now \"Unregistered\".",
+      "invalid": "The cap must be an integer between 0 and 1000000.",
+      "error": "An error occurred while saving the seat cap."
+    },
+    "manageDenied": "Allocating and reclaiming member seats is the organization manager's responsibility. The finance role registers the contract cap and views its usage."
+  }
+}

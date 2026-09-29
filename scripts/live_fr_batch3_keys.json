@@ -1,0 +1,1142 @@
+{
+  "atoms.captions.etaTradeoff": {
+    "en": "If η is too large, the cost function diverges; if too small, convergence is slow.",
+    "fa": "اگر η خیلی بزرگ باشد، تابع هزینه واگرا می‌شود و اگر کوچک باشد، همگرایی کند است.",
+    "es": "Si η es demasiado grande, la función de coste diverge; si es muy pequeña, la convergencia es lenta."
+  },
+  "atoms.captions.fasterNoisier": {
+    "en": "This causes updates to be faster but more oscillating.",
+    "fa": "این موضوع باعث می‌شود به‌روزرسانی‌ها سریع‌تر اما نوسانی‌تر باشند.",
+    "es": "Esto hace que las actualizaciones sean más rápidas pero más oscilantes."
+  },
+  "atoms.captions.lrAnswer": {
+    "en": "Good question. We typically combine it with a Learning Rate Scheduler or Adam.",
+    "fa": "سؤال خوبی است. معمولاً با Learning Rate Scheduler یا Adam ترکیب می‌کنیم.",
+    "es": "Buena pregunta. Normalmente se combina con un planificador de tasa de aprendizaje o con Adam."
+  },
+  "atoms.captions.lrQuestion": {
+    "en": "Professor, how is the optimal learning rate selected for SGD?",
+    "fa": "استاد، نرخ یادگیری بهینه برای SGD چطور انتخاب می‌شود؟",
+    "es": "¿Profesor, cómo se selecciona la tasa de aprendizaje óptima para SGD?"
+  },
+  "atoms.captions.sgdStep": {
+    "en": "Stochastic Gradient Descent uses only one sample per step to compute the gradient.",
+    "fa": "گرادیان نزولی تصادفی، در هر گام فقط یک نمونه را برای محاسبه‌ی گرادیان به‌کار می‌برد.",
+    "es": "El descenso de gradiente estocástico utiliza solo una muestra por paso para calcular el gradiente."
+  },
+  "atoms.chat.seed.answer": {
+    "en": "Sure. Suppose θ = 0.8, gradient = 2.4, and η = 0.1. Then:",
+    "fa": "حتماً. فرض کن θ = ۰٫۸ و گرادیان = ۲٫۴ و η = ۰٫۱. آنگاه:",
+    "es": "Claro. Supongamos θ = 0.8, gradiente = 2.4 y η = 0.1. Entonces:"
+  },
+  "atoms.chat.seed.answerTime": {
+    "en": "14:25",
+    "fa": "۱۴:۲۵",
+    "es": "14:25"
+  },
+  "atoms.chat.seed.ask": {
+    "en": "Can you provide a numerical example of weight updates in SGD?",
+    "fa": "یک مثال عددی از به‌روزرسانی وزن‌ها در SGD می‌دی؟",
+    "es": "¿Podría dar un ejemplo numérico de actualización de pesos en SGD?"
+  },
+  "atoms.chat.seed.askTime": {
+    "en": "14:25",
+    "fa": "۱۴:۲۵",
+    "es": "14:25"
+  },
+  "atoms.chat.seed.greeting": {
+    "en": "Hello 👋 I am the smart assistant for this session. I can provide real-time summaries, simplify concepts, or suggest extra practice exercises.",
+    "fa": "سلام 👋 من دستیار هوشمند این جلسه هستم. می‌توانم خلاصه‌ی لحظه‌ای، توضیح ساده‌تر مفاهیم، یا تمرین اضافه پیشنهاد دهم.",
+    "es": "Hola 👋 Soy el asistente inteligente de esta sesión. Puedo resumir en tiempo real, aclarar conceptos o sugerir ejercicios prácticos."
+  },
+  "atoms.chat.seed.greetingTime": {
+    "en": "14:23",
+    "fa": "۱۴:۲۳",
+    "es": "14:23"
+  },
+  "atoms.people.ali.init": {
+    "en": "A",
+    "fa": "ع",
+    "es": "A"
+  },
+  "atoms.people.ali.name": {
+    "en": "Ali R.",
+    "fa": "علی ر.",
+    "es": "Ali R."
+  },
+  "atoms.people.arman.init": {
+    "en": "A",
+    "fa": "آ",
+    "es": "A"
+  },
+  "atoms.people.arman.name": {
+    "en": "Arman B.",
+    "fa": "آرمان ب.",
+    "es": "Armán B."
+  },
+  "atoms.people.azimi.init": {
+    "en": "DA",
+    "fa": "آع",
+    "es": "DA"
+  },
+  "atoms.people.azimi.name": {
+    "en": "Dr. Azimi",
+    "fa": "دکتر عظیمی",
+    "es": "Dr. Azimi"
+  },
+  "atoms.people.hanieh.init": {
+    "en": "H",
+    "fa": "ه",
+    "es": "H"
+  },
+  "atoms.people.hanieh.name": {
+    "en": "Hanieh F.",
+    "fa": "هانیه ف.",
+    "es": "Hanieh F."
+  },
+  "atoms.people.mohsen.init": {
+    "en": "M",
+    "fa": "م",
+    "es": "M"
+  },
+  "atoms.people.mohsen.name": {
+    "en": "Mohsen H.",
+    "fa": "محسن ح.",
+    "es": "Mohsen H."
+  },
+  "atoms.people.neda.init": {
+    "en": "N",
+    "fa": "ن",
+    "es": "N"
+  },
+  "atoms.people.neda.name": {
+    "en": "Neda Kazemi",
+    "fa": "ندا کاظمی",
+    "es": "Neda Kazemi"
+  },
+  "atoms.people.nima.init": {
+    "en": "N",
+    "fa": "ن",
+    "es": "N"
+  },
+  "atoms.people.nima.name": {
+    "en": "Nima J.",
+    "fa": "نیما ج.",
+    "es": "Nima J."
+  },
+  "atoms.people.sara.init": {
+    "en": "S",
+    "fa": "س",
+    "es": "S"
+  },
+  "atoms.people.sara.name": {
+    "en": "Sara M.",
+    "fa": "سارا م.",
+    "es": "Sara M."
+  },
+  "atoms.people.zahra.init": {
+    "en": "Z",
+    "fa": "ز",
+    "es": "Z"
+  },
+  "atoms.people.zahra.name": {
+    "en": "Zahra K.",
+    "fa": "زهرا ک.",
+    "es": "Zahra K."
+  },
+  "atoms.poll.options.adamWeighted": {
+    "en": "Adam with class weighting",
+    "fa": "Adam با وزن‌دهی کلاس‌ها",
+    "es": "Adam con ponderación de clases"
+  },
+  "atoms.poll.options.rmspropWarmup": {
+    "en": "RMSprop with Warm-up",
+    "fa": "RMSprop با Warm-up",
+    "es": "RMSprop con calentamiento (Warm-up)"
+  },
+  "atoms.poll.options.sgdMomentum": {
+    "en": "Standard SGD with Momentum",
+    "fa": "SGD ساده با Momentum",
+    "es": "SGD estándar con momento (Momentum)"
+  },
+  "atoms.poll.question": {
+    "en": "Which optimization method is best suited for training deep networks on imbalanced data?",
+    "fa": "کدام روش بهینه‌سازی برای آموزش شبکه‌های عمیق با داده‌ی نامتوازن مناسب‌تر است؟",
+    "es": "¿Qué método de optimización es más adecuado para entrenar redes profundas con datos desbalanceados?"
+  },
+  "atoms.qa.q1.text": {
+    "en": "If the cost function is non-convex, does SGD converge to a global minimum?",
+    "fa": "اگر تابع هزینه غیرمحدب باشد، آیا SGD به حداقل سراسری همگرا می‌شود؟",
+    "es": "Si la función de coste no es convexa, ¿converge SGD a un mínimo global?"
+  },
+  "atoms.qa.q1.time": {
+    "en": "2 minutes ago",
+    "fa": "۲ دقیقه پیش",
+    "es": "Hace 2 minutos"
+  },
+  "atoms.qa.q2.text": {
+    "en": "What is the practical difference between Momentum and Adam?",
+    "fa": "تفاوت Momentum و Adam در عمل چقدر است؟",
+    "es": "¿Cuál es la diferencia práctica entre Momentum y Adam?"
+  },
+  "atoms.qa.q2.time": {
+    "en": "5 minutes ago",
+    "fa": "۵ دقیقه پیش",
+    "es": "Hace 5 minutos"
+  },
+  "atoms.qa.q3.text": {
+    "en": "What mini-batch size is recommended for ResNet-50?",
+    "fa": "Mini-batch چه اندازه‌ای برای ResNet-50 توصیه می‌شود؟",
+    "es": "¿Qué tamaño de mini-lote se recomienda para ResNet-50?"
+  },
+  "atoms.qa.q3.time": {
+    "en": "8 minutes ago",
+    "fa": "۸ دقیقه پیش",
+    "es": "Hace 8 minutos"
+  },
+  "atoms.qa.q4.text": {
+    "en": "What settings should be applied to SGD for imbalanced datasets?",
+    "fa": "برای داده‌های نامتوازن، چه تنظیماتی روی SGD اعمال کنیم؟",
+    "es": "¿Qué ajustes deben aplicarse a SGD para conjuntos de datos desbalanceados?"
+  },
+  "atoms.qa.q4.time": {
+    "en": "12 minutes ago",
+    "fa": "۱۲ دقیقه پیش",
+    "es": "Hace 12 minutos"
+  },
+  "atoms.qa.tags.adaptive": {
+    "en": "Adaptive",
+    "fa": "تطبیقی",
+    "es": "Adaptativo"
+  },
+  "atoms.qa.tags.highlight": {
+    "en": "Highlight",
+    "fa": "هایلایت",
+    "es": "Destacado"
+  },
+  "atoms.qa.tags.practical": {
+    "en": "Practical",
+    "fa": "کاربردی",
+    "es": "Práctico"
+  },
+  "atoms.slides.compare.body": {
+    "en": "Mini-batch strikes a balance between Batch stability and SGD speed. Typical size: 32 to 256.",
+    "fa": "Mini-batch تعادلی بین پایداری Batch و سرعت SGD ایجاد می‌کند. اندازه‌ی متداول: ۳۲ تا ۲۵۶.",
+    "es": "El mini-lote equilibra la estabilidad del lote completo y la velocidad de SGD. Tamaño habitual: 32 a 256."
+  },
+  "atoms.slides.noise.body": {
+    "en": "Random fluctuations allow the algorithm to escape local minima and perform better on non-convex surfaces.",
+    "fa": "نوسان تصادفی به الگوریتم اجازه می‌دهد از کمینه‌های محلی فرار کند و در سطوح غیرمحدب عملکرد بهتری داشته باشد.",
+    "es": "Las fluctuaciones aleatorias permiten escapar de mínimos locales y rendir mejor en superficies no convexas."
+  },
+  "atoms.slides.noise.title": {
+    "en": "Why noise is useful",
+    "fa": "چرا نوسان مفید است؟",
+    "es": "Por qué es útil el ruido"
+  },
+  "atoms.slides.sgd.body": {
+    "en": "In each step, weights are updated with a single random data sample. Faster than Batch GD but with more oscillation along the convergence path.",
+    "fa": "در هر گام، با یک نمونه‌ی تصادفی از داده‌ها وزن‌ها را به‌روز می‌کنیم. سریع‌تر از Batch GD اما با نوسان بیشتر در مسیر همگرایی.",
+    "es": "En cada paso, los pesos se actualizan con una sola muestra aleatoria. Más rápido pero con más oscilación."
+  },
+  "atoms.slides.sgd.title": {
+    "en": "Stochastic Gradient Descent",
+    "fa": "گرادیان نزولی تصادفی",
+    "es": "Descenso de gradiente estocástico"
+  },
+  "atoms.suggestions.exercise": {
+    "en": "Generate similar exercise",
+    "fa": "تمرین مشابه بساز",
+    "es": "Generar ejercicio similar"
+  },
+  "atoms.suggestions.resources": {
+    "en": "Additional resources",
+    "fa": "منابع تکمیلی",
+    "es": "Recursos adicionales"
+  },
+  "atoms.suggestions.simpler": {
+    "en": "Explain more simply",
+    "fa": "ساده‌تر توضیح بده",
+    "es": "Explicar de forma más sencilla"
+  },
+  "atoms.suggestions.summary": {
+    "en": "Summary of the last 2 minutes",
+    "fa": "خلاصه‌ی ۲ دقیقه‌ی اخیر",
+    "es": "Resumen de los últimos 2 minutos"
+  },
+  "atoms.tabs.assistant": {
+    "en": "Assistant",
+    "fa": "دستیار",
+    "es": "Asistente"
+  },
+  "atoms.tabs.captions": {
+    "en": "Captions",
+    "fa": "زیرنویس",
+    "es": "Subtítulos"
+  },
+  "atoms.tabs.poll": {
+    "en": "Poll",
+    "fa": "نظرسنجی",
+    "es": "Encuesta"
+  },
+  "atoms.tabs.questions": {
+    "en": "Questions",
+    "fa": "پرسش",
+    "es": "Preguntas"
+  },
+  "atoms.timeline.r1.label": {
+    "en": "Previous session review",
+    "fa": "مرور جلسه قبل",
+    "es": "Repaso de la sesión anterior"
+  },
+  "atoms.timeline.r1.time": {
+    "en": "14:02",
+    "fa": "۱۴:۰۲",
+    "es": "14:02"
+  },
+  "atoms.timeline.r2.label": {
+    "en": "Gradient descent concept",
+    "fa": "مفهوم گرادیان نزولی",
+    "es": "Concepto de descenso de gradiente"
+  },
+  "atoms.timeline.r2.time": {
+    "en": "14:08",
+    "fa": "۱۴:۰۸",
+    "es": "14:08"
+  },
+  "atoms.timeline.r3.label": {
+    "en": "Batch version",
+    "fa": "نسخه‌ی Batch",
+    "es": "Versión por lotes (Batch)"
+  },
+  "atoms.timeline.r3.time": {
+    "en": "14:16",
+    "fa": "۱۴:۱۶",
+    "es": "14:16"
+  },
+  "atoms.timeline.r4.label": {
+    "en": "Stochastic Gradient Descent",
+    "fa": "گرادیان نزولی تصادفی",
+    "es": "Descenso de gradiente estocástico (SGD)"
+  },
+  "atoms.timeline.r4.time": {
+    "en": "14:22",
+    "fa": "۱۴:۲۲",
+    "es": "14:22"
+  },
+  "atoms.timeline.r5.label": {
+    "en": "Momentum and Adam",
+    "fa": "Momentum و Adam",
+    "es": "Momentum y Adam"
+  },
+  "atoms.timeline.r5.time": {
+    "en": "14:35",
+    "fa": "۱۴:۳۵",
+    "es": "14:35"
+  },
+  "atoms.timeline.r6.label": {
+    "en": "Interactive exercise + Q&A",
+    "fa": "تمرین تعاملی + پرسش",
+    "es": "Ejercicio interactivo y preguntas"
+  },
+  "atoms.timeline.r6.time": {
+    "en": "14:45",
+    "fa": "۱۴:۴۵",
+    "es": "14:45"
+  },
+  "atoms.transcript.live.momentum": {
+    "en": "If we update learning taking into account previous values, that is called Momentum.",
+    "fa": "اگر یاد گیری را با لحاظ مقدار قبلی به‌روزرسانی کنیم، به آن Momentum می‌گویند.",
+    "es": "Si actualizamos el aprendizaje teniendo en cuenta valores previos, se denomina Momentum."
+  },
+  "atoms.transcript.live.nesterovAnswer": {
+    "en": "Nesterov first predicts the next position and computes the gradient there.",
+    "fa": "Nesterov ابتدا یک پیش‌بینی از موقعیت بعدی می‌سازد و گرادیان را آنجا حساب می‌کند.",
+    "es": "Nesterov primero predice la posición siguiente y calcula el gradiente allí."
+  },
+  "atoms.transcript.live.nesterovQuestion": {
+    "en": "How does this differ from Nesterov?",
+    "fa": "این روش با Nesterov چه تفاوتی دارد؟",
+    "es": "¿En qué se diferencia esto de Nesterov?"
+  },
+  "atoms.transcript.live.pytorchQuestion": {
+    "en": "Can this idea be implemented in PyTorch?",
+    "fa": "می‌شود این ایده را در پای‌تورچ پیاده کرد؟",
+    "es": "¿Se puede implementar esta idea en PyTorch?"
+  },
+  "atoms.transcript.seed.r1.text": {
+    "en": "In stochastic gradient descent, only one sample is used to compute the gradient at each step.",
+    "fa": "در گرادیان نزولی تصادفی، در هر گام تنها یک نمونه برای محاسبه گرادیان استفاده می‌شود.",
+    "es": "En el descenso de gradiente estocástico, solo se usa una muestra para calcular el gradiente en cada paso."
+  },
+  "atoms.transcript.seed.r1.time": {
+    "en": "14:20",
+    "fa": "۱۴:۲۰",
+    "es": "14:20"
+  },
+  "atoms.transcript.seed.r2.text": {
+    "en": "This increases computation speed and decreases memory usage.",
+    "fa": "این موضوع باعث افزایش سرعت محاسبات و کاهش حافظه می‌شود.",
+    "es": "Esto aumenta la velocidad de cálculo y reduce el uso de memoria."
+  },
+  "atoms.transcript.seed.r2.time": {
+    "en": "14:21",
+    "fa": "۱۴:۲۱",
+    "es": "14:21"
+  },
+  "atoms.transcript.seed.r3.highlight": {
+    "en": "Optimal learning rate",
+    "fa": "نرخ یادگیری بهینه",
+    "es": "Tasa de aprendizaje óptima"
+  },
+  "atoms.transcript.seed.r3.text": {
+    "en": "Professor, how is the optimal learning rate chosen?",
+    "fa": "استاد، نرخ یادگیری بهینه چطور انتخاب می‌شود؟",
+    "es": "Profesor, ¿cómo se elige la tasa de aprendizaje óptima?"
+  },
+  "atoms.transcript.seed.r3.time": {
+    "en": "14:22",
+    "fa": "۱۴:۲۲",
+    "es": "14:22"
+  },
+  "atoms.transcript.seed.r4.text": {
+    "en": "Usually we combine it with a Learning Rate Scheduler or adaptive algorithms like Adam.",
+    "fa": "معمولاً با Learning Rate Scheduler یا الگوریتم‌های تطبیقی مثل Adam ترکیب می‌کنیم.",
+    "es": "Normalmente lo combinamos con un programador de tasa de aprendizaje o algoritmos adaptativos como Adam."
+  },
+  "atoms.transcript.seed.r4.time": {
+    "en": "14:22",
+    "fa": "۱۴:۲۲",
+    "es": "14:22"
+  },
+  "atoms.transcript.seed.r5.text": {
+    "en": "What is the exact key difference between SGD and Mini-batch?",
+    "fa": "تفاوت اصلی SGD با Mini-batch چیه دقیقاً؟",
+    "es": "¿Cuál es la diferencia clave exacta entre SGD y Mini-batch?"
+  },
+  "atoms.transcript.seed.r5.time": {
+    "en": "14:23",
+    "fa": "۱۴:۲۳",
+    "es": "14:23"
+  },
+  "atoms.transcript.seed.r6.text": {
+    "en": "Batch size. In Mini-batch we take between 32 and 256 samples for a better balance between stability and speed.",
+    "fa": "اندازه‌ی دسته. در Mini-batch بین ۳۲ تا ۲۵۶ نمونه می‌گیریم تا تعادل بهتری بین پایداری و سرعت داشته باشیم.",
+    "es": "El tamaño del lote. En Mini-batch tomamos entre 32 y 256 muestras para un mejor equilibrio entre estabilidad y velocidad."
+  },
+  "atoms.transcript.seed.r6.time": {
+    "en": "14:23",
+    "fa": "۱۴:۲۳",
+    "es": "14:23"
+  },
+  "classes.card.attendees": {
+    "en": "{value, number} participants",
+    "fa": "{value, number} شرکت‌کننده",
+    "es": "{value, number} participantes"
+  },
+  "classes.card.cancelled": {
+    "en": "This session has been cancelled.",
+    "fa": "این جلسه لغو شده است.",
+    "es": "Esta sesión ha sido cancelada."
+  },
+  "classes.card.joinDirect": {
+    "en": "Direct Entry",
+    "fa": "ورود مستقیم",
+    "es": "Entrada directa"
+  },
+  "classes.card.joinLobby": {
+    "en": "Enter Lobby",
+    "fa": "ورود به لابی",
+    "es": "Entrar a la sala de espera"
+  },
+  "classes.card.newTab": {
+    "en": "Open in new tab",
+    "fa": "باز شدن در برگهٔ جدید",
+    "es": "Abrir en nueva pestaña"
+  },
+  "classes.card.report": {
+    "en": "Session Report",
+    "fa": "گزارش جلسه",
+    "es": "Informe de sesión"
+  },
+  "classes.card.reportTitle": {
+    "en": "Complete report for this session",
+    "fa": "گزارش کامل این جلسه",
+    "es": "Informe completo de esta sesión"
+  },
+  "classes.emptyAll": {
+    "en": "No sessions match your search.",
+    "fa": "هنوز هیچ جلسهٔ کلاس زنده‌ای ثبت نشده است.",
+    "es": "Ninguna sesión coincide con tu búsqueda."
+  },
+  "classes.emptyHint": {
+    "en": "به‌محض زمان‌بندی توسط استاد، اینجا نمایش داده می‌شود.",
+    "fa": "به‌محض زمان‌بندی توسط استاد، اینجا نمایش داده می‌شود.",
+    "es": "Tan pronto como el profesor la programe, aparecerá aquí."
+  },
+  "classes.emptySearch": {
+    "en": "جلسه‌ای با این جست‌وجو یا فیلتر یافت نشد.",
+    "fa": "جلسه‌ای با این جست‌وجو یا فیلتر یافت نشد.",
+    "es": "No se encontraron sesiones que coincidan con esta búsqueda o filtro."
+  },
+  "classes.errLoad": {
+    "en": "بارگذاری جلسات با خطا مواجه شد",
+    "fa": "بارگذاری جلسات با خطا مواجه شد",
+    "es": "Error al cargar las sesiones"
+  },
+  "classes.eyebrow": {
+    "en": "کلاس زنده · مرکز جلسات",
+    "fa": "کلاس زنده · مرکز جلسات",
+    "es": "Clase en vivo · Centro de sesiones"
+  },
+  "classes.filter.all": {
+    "en": "All",
+    "fa": "همه",
+    "es": "Todas"
+  },
+  "classes.filter.ended": {
+    "en": "Ended",
+    "fa": "گذشته",
+    "es": "Finalizadas"
+  },
+  "classes.filter.live": {
+    "en": "Live Now",
+    "fa": "در حال برگزاری",
+    "es": "En vivo ahora"
+  },
+  "classes.filter.scheduled": {
+    "en": "Scheduled",
+    "fa": "پیش‌رو",
+    "es": "Programadas"
+  },
+  "classes.filterAria": {
+    "en": "Filter live sessions",
+    "fa": "فیلتر وضعیت",
+    "es": "Filtrar sesiones en vivo"
+  },
+  "classes.form.applySlot": {
+    "en": "اعمال این زمان",
+    "fa": "اعمال این زمان",
+    "es": "Aplicar esta franja horaria"
+  },
+  "classes.form.cancel": {
+    "en": "Cancel",
+    "fa": "انصراف",
+    "es": "Cancelar"
+  },
+  "classes.form.close": {
+    "en": "Close",
+    "fa": "بستن",
+    "es": "Cerrar"
+  },
+  "classes.form.course": {
+    "en": "Associated course",
+    "fa": "درس مرتبط",
+    "es": "Curso asociado"
+  },
+  "classes.form.coursePick": {
+    "en": "— Select course —",
+    "fa": "— انتخاب درس —",
+    "es": "— Seleccionar curso —"
+  },
+  "classes.form.courseSearch": {
+    "en": "Search course (code or name)…",
+    "fa": "جست‌وجوی درس (کد یا نام)…",
+    "es": "Buscar curso (código o nombre)…"
+  },
+  "classes.form.courseSearchAria": {
+    "en": "Search course",
+    "fa": "جست‌وجوی درس",
+    "es": "Buscar curso"
+  },
+  "classes.form.coursesError": {
+    "en": "Course list is unavailable; please try again later.",
+    "fa": "فهرست دروس در دسترس نیست؛ کمی بعد دوباره تلاش کنید.",
+    "es": "La lista de cursos no está disponible; inténtalo de nuevo más tarde."
+  },
+  "classes.form.coursesLoading": {
+    "en": "Loading courses…",
+    "fa": "در حال بارگذاری دروس…",
+    "es": "Cargando cursos…"
+  },
+  "classes.form.date": {
+    "en": "Date",
+    "fa": "تاریخ",
+    "es": "Fecha"
+  },
+  "classes.form.dateAria": {
+    "en": "Session date",
+    "fa": "تاریخ جلسه",
+    "es": "Fecha de la sesión"
+  },
+  "classes.form.datePlaceholder": {
+    "en": "Select session date",
+    "fa": "انتخاب تاریخ جلسه",
+    "es": "Seleccionar fecha de la sesión"
+  },
+  "classes.form.desc": {
+    "en": "Description (optional)",
+    "fa": "توضیح (اختیاری)",
+    "es": "Descripción (opcional)"
+  },
+  "classes.form.descPlaceholder": {
+    "en": "Topics or key notes for this session…",
+    "fa": "سرفصل‌ها یا نکات این جلسه…",
+    "es": "Temas o notas clave de esta sesión…"
+  },
+  "classes.form.end": {
+    "en": "End time",
+    "fa": "ساعت پایان",
+    "es": "Hora de finalización"
+  },
+  "classes.form.errCourse": {
+    "en": "Please select an associated course.",
+    "fa": "درس مرتبط را انتخاب کنید.",
+    "es": "Por favor, selecciona un curso asociado."
+  },
+  "classes.form.errCreate": {
+    "en": "Failed to create new session. Please try again.",
+    "fa": "ثبت جلسهٔ جدید با خطا مواجه شد. دوباره تلاش کنید.",
+    "es": "Error al crear la nueva sesión. Por favor, inténtalo de nuevo."
+  },
+  "classes.form.errDate": {
+    "en": "Please select a session date.",
+    "fa": "تاریخ جلسه را انتخاب کنید.",
+    "es": "Por favor, selecciona una fecha para la sesión."
+  },
+  "classes.form.errTime": {
+    "en": "Please enter valid start and end times.",
+    "fa": "ساعت شروع و پایان را به‌درستی وارد کنید.",
+    "es": "Por favor, introduce horas de inicio y fin válidas."
+  },
+  "classes.form.errTitle": {
+    "en": "Please enter a session title.",
+    "fa": "عنوان جلسه را وارد کنید.",
+    "es": "Por favor, introduce un título para la sesión."
+  },
+  "classes.form.policy": {
+    "en": "Admission policy",
+    "fa": "سیاست ورود",
+    "es": "Política de admisión"
+  },
+  "classes.form.section": {
+    "en": "Section/Class (optional)",
+    "fa": "گروه/کلاس (اختیاری)",
+    "es": "Sección/Grupo (opcional)"
+  },
+  "classes.form.sectionAll": {
+    "en": "— Whole course (no specific section) —",
+    "fa": "— کل درس (بدون گروه خاص) —",
+    "es": "— Curso completo (sin grupo específico) —"
+  },
+  "classes.form.sectionOption": {
+    "en": "Section {group, number}",
+    "fa": "گروه {group, number}",
+    "es": "Grupo {group, number}"
+  },
+  "classes.form.start": {
+    "en": "Start time",
+    "fa": "ساعت شروع",
+    "es": "Hora de inicio"
+  },
+  "classes.form.submit": {
+    "en": "Schedule session",
+    "fa": "ثبت و زمان‌بندی",
+    "es": "Programar sesión"
+  },
+  "classes.form.submitting": {
+    "en": "Scheduling…",
+    "fa": "در حال ثبت…",
+    "es": "Programando…"
+  },
+  "classes.form.title": {
+    "en": "Schedule Live Class Session",
+    "fa": "زمان‌بندی جلسهٔ کلاس زنده",
+    "es": "Programar sesión de clase en vivo"
+  },
+  "classes.form.titleLabel": {
+    "en": "Session title",
+    "fa": "عنوان جلسه",
+    "es": "Título de la sesión"
+  },
+  "classes.form.titlePlaceholder": {
+    "en": "e.g., Chapter 3 Problem Solving",
+    "fa": "مثلاً: حل تمرین فصل سوم",
+    "es": "ej., Sesión 4: Algoritmos de optimización"
+  },
+  "classes.group.live": {
+    "en": "Live Now",
+    "fa": "در حال برگزاری",
+    "es": "En vivo ahora"
+  },
+  "classes.group.liveEmpty": {
+    "en": "No sessions are currently live.",
+    "fa": "هیچ جلسه‌ای در این لحظه زنده نیست.",
+    "es": "No hay sesiones en vivo actualmente."
+  },
+  "classes.group.past": {
+    "en": "Past",
+    "fa": "گذشته",
+    "es": "Pasadas"
+  },
+  "classes.group.pastEmpty": {
+    "en": "No past sessions recorded.",
+    "fa": "جلسهٔ گذشته‌ای ثبت نشده است.",
+    "es": "No hay sesiones pasadas registradas."
+  },
+  "classes.group.upcoming": {
+    "en": "Upcoming",
+    "fa": "پیش‌رو",
+    "es": "Próximas"
+  },
+  "classes.group.upcomingEmpty": {
+    "en": "No upcoming sessions scheduled.",
+    "fa": "جلسهٔ پیش‌رویی زمان‌بندی نشده است.",
+    "es": "No hay sesiones programadas próximamente."
+  },
+  "classes.help.body": {
+    "en": "On this page, you can see live classes categorized as \"Live Now\", \"Upcoming\", and \"Past\". Click \"Enter Lobby\" to test your camera and microphone before entering; if a session is currently live, click \"Direct Entry\" to join immediately. Instructors and administrators can schedule a new live class with \"New Session\".",
+    "fa": "در این صفحه فهرست کلاس‌های زندهٔ «در حال برگزاری»، «پیش‌رو» و «گذشته» را می‌بینید. با «ورود به لابی» دوربین و میکروفون خود را آزمایش کنید و سپس وارد کلاس شوید؛ اگر جلسه‌ای همین حالا زنده است، با «ورود مستقیم» بی‌درنگ به آن بپیوندید. استادان و مدیران می‌توانند با «جلسهٔ جدید» یک کلاس زنده زمان‌بندی کنند.",
+    "es": "En esta página puedes ver las clases divididas en \"En vivo ahora\", \"Próximas\" y \"Pasadas\". Pulsa \"Entrar a la sala de espera\" para probar cámara y micrófono; si una sesión está en curso, pulsa \"Entrada directa\"."
+  },
+  "classes.help.title": {
+    "en": "Live Classes Guide",
+    "fa": "راهنمای کلاس‌های زنده",
+    "es": "Guía de clases en vivo"
+  },
+  "classes.kpi.live": {
+    "en": "Live Now",
+    "fa": "در حال برگزاری",
+    "es": "En vivo ahora"
+  },
+  "classes.kpi.total": {
+    "en": "Total Sessions",
+    "fa": "تعداد جلسات",
+    "es": "Total de sesiones"
+  },
+  "classes.kpi.upcoming": {
+    "en": "Upcoming",
+    "fa": "پیش‌رو",
+    "es": "Próximas"
+  },
+  "classes.lead": {
+    "en": "View live, upcoming, and past sessions here; enter the lobby to test your camera and microphone or — if a session is live — join the class directly.",
+    "fa": "جلسات در حال برگزاری، پیش‌رو و گذشته را اینجا ببینید؛ برای آزمایش دوربین و میکروفون به لابی وارد شوید یا — اگر جلسه‌ای زنده است — مستقیم به کلاس بپیوندید.",
+    "es": "Consulta las sesiones en vivo, próximas y pasadas; entra a la sala de espera para probar cámara y micrófono o únete directamente si la sesión está en curso."
+  },
+  "classes.loading": {
+    "en": "Loading sessions…",
+    "fa": "در حال بارگذاری جلسات…",
+    "es": "Cargando sesiones…"
+  },
+  "classes.new": {
+    "en": "New Session",
+    "fa": "جلسهٔ جدید",
+    "es": "Nueva sesión"
+  },
+  "classes.noCourse": {
+    "en": "No associated course",
+    "fa": "بدون درس مرتبط",
+    "es": "Sin curso asociado"
+  },
+  "classes.policy.enrolled": {
+    "en": "Enrolled students only",
+    "fa": "فقط دانشجویان ثبت‌نام‌شده",
+    "es": "Solo estudiantes inscritos"
+  },
+  "classes.policy.invite": {
+    "en": "Invitation only",
+    "fa": "فقط با دعوت‌نامه",
+    "es": "Solo por invitación"
+  },
+  "classes.policy.public": {
+    "en": "Open to all (Public)",
+    "fa": "آزاد برای همه (عمومی)",
+    "es": "Abierta a todos (Pública)"
+  },
+  "classes.schedule.at": {
+    "en": "{date} · {clock}",
+    "fa": "{date} · ساعت {clock}",
+    "es": "{date} · {clock}"
+  },
+  "classes.schedule.unknown": {
+    "en": "Time unspecified",
+    "fa": "زمان نامشخص",
+    "es": "Horario no especificado"
+  },
+  "classes.searchAria": {
+    "en": "Search sessions",
+    "fa": "جست‌وجوی جلسه",
+    "es": "Buscar sesiones en vivo"
+  },
+  "classes.searchPlaceholder": {
+    "en": "Search by title, course, or instructor…",
+    "fa": "جست‌وجو در عنوان، درس یا مدرس…",
+    "es": "Buscar por título de sesión o nombre de curso…"
+  },
+  "classes.status.cancelled": {
+    "en": "Cancelled",
+    "fa": "لغوشده",
+    "es": "Cancelada"
+  },
+  "classes.status.ended": {
+    "en": "Ended",
+    "fa": "پایان‌یافته",
+    "es": "Finalizada"
+  },
+  "classes.status.live": {
+    "en": "Live Now",
+    "fa": "در حال برگزاری",
+    "es": "En curso"
+  },
+  "classes.status.scheduled": {
+    "en": "Scheduled",
+    "fa": "زمان‌بندی‌شده",
+    "es": "Programada"
+  },
+  "classes.title": {
+    "en": "Live Classes",
+    "fa": "کلاس‌های زنده",
+    "es": "Clases en vivo"
+  },
+  "tables.assign.balanced": {
+    "en": "Automatic (balanced)",
+    "fa": "خودکار (متوازن)",
+    "es": "Automático (equilibrado)"
+  },
+  "tables.assign.noStudents": {
+    "en": "No students in class yet.",
+    "fa": "هنوز دانشجویی در کلاس نیست.",
+    "es": "Aún no hay estudiantes en la clase."
+  },
+  "tables.assign.pickFor": {
+    "en": "Table for {name}",
+    "fa": "میزِ {name}",
+    "es": "Mesa para {name}"
+  },
+  "tables.assign.random": {
+    "en": "Random",
+    "fa": "تصادفی",
+    "es": "Aleatorio"
+  },
+  "tables.assign.title": {
+    "en": "Seat students",
+    "fa": "چیدنِ دانشجوها",
+    "es": "Asignar asientos"
+  },
+  "tables.assign.unassigned": {
+    "en": "Unassigned",
+    "fa": "بی‌میز",
+    "es": "Sin asignar"
+  },
+  "tables.cancel": {
+    "en": "Cancel",
+    "fa": "انصراف",
+    "es": "Cancelar"
+  },
+  "tables.confirm": {
+    "en": "Yes",
+    "fa": "بله",
+    "es": "Sí"
+  },
+  "tables.countLabel": {
+    "en": "Number of new tables",
+    "fa": "تعدادِ میزهای تازه",
+    "es": "Número de nuevas mesas"
+  },
+  "tables.capacity": {
+    "en": "{used, number} of {total, number} people",
+    "fa": "{used, number} از {total, number} نفر",
+    "es": "{used, number} de {total, number} personas"
+  },
+  "tables.capacityLabel": {
+    "en": "Capacity per table",
+    "fa": "ظرفیت هر میز",
+    "es": "Capacidad por mesa"
+  },
+  "tables.create": {
+    "en": "Create table",
+    "fa": "ساختنِ میز",
+    "es": "Crear mesa"
+  },
+  "tables.defaultName": {
+    "en": "Table {index, number}",
+    "fa": "میزِ {index, number}",
+    "es": "Mesa {index, number}"
+  },
+  "tables.dissolve": {
+    "en": "Dissolve table",
+    "fa": "انحلالِ میز",
+    "es": "Disolver mesa"
+  },
+  "tables.dissolveConfirm": {
+    "en": "Dissolve \"{name}\"? Its members will return to the main class.",
+    "fa": "«{name}» منحل شود؟ اعضایش به کلاسِ اصلی برمی‌گردند.",
+    "es": "¿Disolver \"{name}\"? Sus miembros volverán a la clase principal."
+  },
+  "tables.duration.label": {
+    "en": "Table work duration",
+    "fa": "مدتِ کار در میزها",
+    "es": "Duración del trabajo en mesas"
+  },
+  "tables.duration.option": {
+    "en": "{count, number} minutes",
+    "fa": "{count, number} دقیقه",
+    "es": "{count, number} minutos"
+  },
+  "tables.empty": {
+    "en": "No tables created yet.",
+    "fa": "هنوز میزی ساخته نشده است.",
+    "es": "Aún no se han creado mesas."
+  },
+  "tables.extend": {
+    "en": "{count, number} more minutes",
+    "fa": "{count, number} دقیقه بیشتر",
+    "es": "{count, number} minutos más"
+  },
+  "tables.limit": {
+    "en": "Maximum {count, number} tables",
+    "fa": "حداکثر {count, number} میز",
+    "es": "Máximo {count, number} mesas"
+  },
+  "tables.mediaNote": {
+    "en": "During table work, only your tablemates see and hear you.",
+    "fa": "در زمانِ کار در میزها فقط هم‌میزی‌هایتان شما را می‌بینند و می‌شنوند.",
+    "es": "Durante el trabajo en mesas, solo tus compañeros de mesa te ven y te escuchan."
+  },
+  "tables.memberCount": {
+    "en": "{count, number} people",
+    "fa": "{count, number} نفر",
+    "es": "{count, number} personas"
+  },
+  "tables.members": {
+    "en": "Tablemates",
+    "fa": "هم‌میزی‌ها",
+    "es": "Compañeros de mesa"
+  },
+  "tables.nameLabel": {
+    "en": "Table name",
+    "fa": "نامِ میز",
+    "es": "Nombre de la mesa"
+  },
+  "tables.peekNotice": {
+    "en": "Instructor is monitoring tables",
+    "fa": "استاد در حال نظارت بر میزهاست",
+    "es": "El docente está supervisando las mesas"
+  },
+  "tables.rejected.empty": {
+    "en": "No tables have members.",
+    "fa": "هیچ میزی عضو ندارد.",
+    "es": "Ninguna mesa tiene miembros."
+  },
+  "tables.rejected.full": {
+    "en": "This table is full.",
+    "fa": "ظرفیت این میز کامل شده است.",
+    "es": "Esta mesa está llena."
+  },
+  "tables.rejected.error": {
+    "en": "An error occurred; please try again.",
+    "fa": "خطایی رخ داد؛ دوباره تلاش کنید.",
+    "es": "Ocurrió un error; por favor inténtalo de nuevo."
+  },
+  "tables.rejected.forbidden": {
+    "en": "You do not have permission for this action.",
+    "fa": "اجازهٔ این کار را ندارید.",
+    "es": "No tienes permiso para esta acción."
+  },
+  "tables.rejected.invalid": {
+    "en": "Invalid request.",
+    "fa": "درخواست نامعتبر بود.",
+    "es": "Solicitud no válida."
+  },
+  "tables.rejected.limit": {
+    "en": "You have reached the maximum number of tables.",
+    "fa": "به سقفِ تعدادِ میزها رسیده‌اید.",
+    "es": "Has alcanzado el número máximo de mesas."
+  },
+  "tables.rejected.noRound": {
+    "en": "Table work has not started.",
+    "fa": "کار در میزها شروع نشده است.",
+    "es": "El trabajo en mesas no ha comenzado."
+  },
+  "tables.rejected.notFound": {
+    "en": "This table no longer exists.",
+    "fa": "این میز دیگر وجود ندارد.",
+    "es": "Esta mesa ya no existe."
+  },
+  "tables.rejected.roundActive": {
+    "en": "This action cannot be performed while table work is in progress.",
+    "fa": "تا کار در میزها در جریان است این کار ممکن نیست.",
+    "es": "Esta acción no se puede realizar mientras el trabajo en mesas esté activo."
+  },
+  "tables.rejected.selectionLocked": {
+    "en": "Table selection is locked by the instructor.",
+    "fa": "انتخاب این میز توسط استاد بسته است.",
+    "es": "La selección de mesa está bloqueada por el docente."
+  },
+  "tables.remaining": {
+    "en": "Time remaining: {time}",
+    "fa": "زمانِ باقی‌مانده: {time}",
+    "es": "Tiempo restante: {time}"
+  },
+  "tables.rename": {
+    "en": "Rename",
+    "fa": "تغییرِ نام",
+    "es": "Renombrar"
+  },
+  "tables.returnAll": {
+    "en": "Return all",
+    "fa": "بازگشتِ همه",
+    "es": "Regresar a todos"
+  },
+  "tables.returnAllConfirm": {
+    "en": "Return everyone to the main class?",
+    "fa": "همه به کلاسِ اصلی برگردند؟",
+    "es": "¿Regresar a todos a la clase principal?"
+  },
+  "tables.returned": {
+    "en": "Everyone returned to the main class.",
+    "fa": "همه به کلاسِ اصلی برگشتند.",
+    "es": "Todos regresaron a la clase principal."
+  },
+  "tables.running": {
+    "en": "Table work in progress",
+    "fa": "کار در میزها در جریان است",
+    "es": "Trabajo en mesas en progreso"
+  },
+  "tables.save": {
+    "en": "Save",
+    "fa": "ذخیره",
+    "es": "Guardar"
+  },
+  "tables.select.action": {
+    "en": "Select table",
+    "fa": "انتخاب میز",
+    "es": "Elegir mesa"
+  },
+  "tables.select.full": {
+    "en": "Full",
+    "fa": "تکمیل",
+    "es": "Llena"
+  },
+  "tables.select.hint": {
+    "en": "Select an open table; you can change it as long as the instructor leaves selection open.",
+    "fa": "میز باز را انتخاب کنید؛ تا وقتی استاد انتخاب را باز بگذارد می‌توانید آن را تغییر دهید.",
+    "es": "Elige una mesa libre; puedes cambiarte mientras las mesas estén abiertas."
+  },
+  "tables.select.selected": {
+    "en": "Your table",
+    "fa": "میز شما",
+    "es": "Mesa seleccionada: {name}"
+  },
+  "tables.select.title": {
+    "en": "Select Table",
+    "fa": "انتخاب میز",
+    "es": "Seleccionar mesa de trabajo"
+  },
+  "tables.selection.close": {
+    "en": "Close student selection",
+    "fa": "بستن انتخاب دانشجو",
+    "es": "Cerrar selección de mesas"
+  },
+  "tables.selection.open": {
+    "en": "Open student selection",
+    "fa": "بازکردن انتخاب دانشجو",
+    "es": "Abrir selección de mesas"
+  },
+  "tables.start": {
+    "en": "Start table work",
+    "fa": "شروعِ کار در میزها",
+    "es": "Iniciar mesas"
+  },
+  "tables.startHint": {
+    "en": "At least one table with members is required.",
+    "fa": "دست‌کم یک میزِ دارای عضو لازم است.",
+    "es": "Asigna a los estudiantes a mesas y pulsa Iniciar."
+  },
+  "tables.timeUp": {
+    "en": "Table time has ended; everyone returned to the main class.",
+    "fa": "زمانِ میزها تمام شد؛ همه به کلاسِ اصلی برگشتند.",
+    "es": "El tiempo de trabajo en mesas ha terminado."
+  },
+  "tables.title": {
+    "en": "Group Tables",
+    "fa": "میزهای گروهی",
+    "es": "Mesas de trabajo colaborativo"
+  },
+  "tables.transcriptConsentProgress": {
+    "en": "Voice transcript consent: {accepted} of {total}",
+    "fa": "رضایت رونوشت صوتی: {accepted} از {total}",
+    "es": "Procesando consentimiento…"
+  },
+  "tables.transcriptDurableEnabled": {
+    "en": "Persistent recording is active only with everyone's consent.",
+    "fa": "ثبت ماندگار فقط با رضایت همه فعال است.",
+    "es": "Transcripción de mesas guardada."
+  },
+  "tables.transcriptConsentAccept": {
+    "en": "Consent to table audio recording",
+    "fa": "رضایت به ثبت صوت میز",
+    "es": "Aceptar transcripción en mesas"
+  },
+  "tables.transcriptConsentWithdraw": {
+    "en": "Withdraw consent",
+    "fa": "پس‌گرفتن رضایت",
+    "es": "Retirar consentimiento de transcripción"
+  },
+  "tables.transcriptWithdrawalReason": {
+    "en": "Reason for withdrawing consent",
+    "fa": "دلیل پس‌گرفتن رضایت",
+    "es": "Motivo del retiro de consentimiento"
+  },
+  "tables.transcriptQuarantined": {
+    "en": "This table's transcript is quarantined for safe recreation.",
+    "fa": "رونوشت این میز برای بازسازی امن قرنطینه شده است.",
+    "es": "Transcripción en cuarentena temporal."
+  },
+  "tables.transcriptConsentUnavailable": {
+    "en": "Table transcript consent status is unavailable.",
+    "fa": "وضعیت رضایت رونوشت میز در دسترس نیست.",
+    "es": "Consentimiento no disponible."
+  },
+  "tables.visit.join": {
+    "en": "Join",
+    "fa": "پیوستن",
+    "es": "Entrar a la mesa"
+  },
+  "tables.visit.joined": {
+    "en": "You are at \"{name}\"",
+    "fa": "در «{name}» هستید",
+    "es": "Has entrado a la mesa"
+  },
+  "tables.visit.leave": {
+    "en": "Return to main class",
+    "fa": "بازگشت به کلاسِ اصلی",
+    "es": "Salir de la mesa"
+  },
+  "tables.visit.peek": {
+    "en": "Listen quietly",
+    "fa": "شنیدنِ بی‌صدا",
+    "es": "Observar mesa"
+  },
+  "tables.visit.peeking": {
+    "en": "Listening to \"{name}\"",
+    "fa": "در حالِ شنیدنِ «{name}»",
+    "es": "Observando mesa…"
+  },
+  "tables.you.assigned": {
+    "en": "You are at \"{name}\"",
+    "fa": "شما در «{name}» هستید",
+    "es": "Asignado a: {name}"
+  },
+  "tables.you.unassigned": {
+    "en": "You have not been assigned to a table yet.",
+    "fa": "هنوز به میزی فرستاده نشده‌اید.",
+    "es": "Aún no tienes mesa asignada."
+  },
+  "tables.you.waiting": {
+    "en": "Table work has not started yet.",
+    "fa": "کار در میزها هنوز شروع نشده است.",
+    "es": "Esperando asignación de mesa…"
+  }
+}

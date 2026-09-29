@@ -741,6 +741,30 @@
     "6": {
       "meaning": "Vínculo de \"este evaluador × este candidato × este ejercicio\". Lo único que le permite al evaluador registrar evidencias y calificaciones.",
       "term": "Asignación"
+    },
+    "7": {
+      "term": "Wash-up",
+      "meaning": "Reunión final de deliberación donde los evaluadores consensúan las calificaciones."
+    },
+    "8": {
+      "term": "Evidencia conductual",
+      "meaning": "Hecho observable y medible registrado durante la evaluación."
+    },
+    "9": {
+      "term": "Rúbrica de evaluación",
+      "meaning": "Conjunto de criterios y niveles de desempeño para calificar objetivamente."
+    },
+    "10": {
+      "term": "Sesgo de anclaje",
+      "meaning": "Tendencia a depender en exceso de la primera impresión al calificar."
+    },
+    "11": {
+      "term": "Puntuación acordada",
+      "meaning": "Calificación final consensuada en la reunión de wash-up que sustituye a las puntuaciones individuales."
+    },
+    "12": {
+      "term": "Calibración",
+      "meaning": "Proceso de alineación entre evaluadores para garantizar consistencia y equidad."
     }
   },
   "hub": {
@@ -1489,6 +1513,10 @@
     "1": {
       "does": "Solo ve sus propias asignaciones; registra evidencias y califica. No ve las puntuaciones de otros evaluadores.",
       "label": "Evaluador"
+    },
+    "2": {
+      "label": "Observador externo",
+      "does": "Registra evidencias independientes sin participar directamente en la deliberación."
     }
   },
   "rubric": {
@@ -1570,6 +1598,21 @@
     },
     "weight": {
       "check": "Suma de ponderación de criterios: {n}% de 100%"
+    },
+    "card": {
+      "criteriaCount": "{n} criterios",
+      "weightSum": "Suma de ponderaciones: {sum}%",
+      "updated": "Actualizado: {date}"
+    },
+    "action": {
+      "back": "Volver",
+      "close": "Cerrar",
+      "save": "Guardar",
+      "edit": "Editar",
+      "cancel": "Cancelar",
+      "removeAria": "Eliminar criterio",
+      "remove": "Eliminar",
+      "add": "Añadir criterio"
     }
   },
   "rubricValid": {
@@ -2067,5 +2110,42 @@
       "newSessionCta": "Nueva sesión",
       "sessionsTitle": "Sesiones de debate"
     }
+  },
+  "roster": {
+    "scheduledAtSuffix": " · Hora: {at}",
+    "evidenceTextHint": "Escriba objetivamente lo que observó, sin juicios de valor — p. ej., «En el minuto 10 resumió la propuesta del compañero».",
+    "evidenceSubmit": "Guardar evidencia",
+    "noAssignmentBody": "Aún no se ha asignado ningún evaluador a este candidato.",
+    "noAssignmentTitle": "Sin evaluador asignado",
+    "assignmentsHeading": "Asignaciones de evaluación",
+    "candidateFallback": "Candidato sin nombre",
+    "durationSuffix": " · Duración: {duration}",
+    "eyebrow": "Lista de evaluación",
+    "competencyPlaceholder": "Seleccione o busque una competencia…",
+    "competencyHint": "Competencia relacionada con esta evidencia",
+    "competencyLabel": "Competencia evaluada",
+    "competenciesHeading": "Competencias",
+    "evidenceSaved": "Evidencia guardada con éxito.",
+    "candidatePlaceholder": "Buscar candidato por nombre o código…",
+    "rateCta": "Calificar",
+    "assessorSelf": "Usted",
+    "candidateHint": "Seleccione el candidato para registrar la evaluación.",
+    "candidateStatusSuffix": " · Estado: {status}",
+    "assessorLine": "Evaluador: {name}",
+    "evidenceTextLabel": "Texto de la evidencia observada",
+    "loading": "Cargando lista de candidatos…",
+    "assessorOther": "Otro evaluador",
+    "quickEvidenceHint": "Registre observaciones rápidas durante la sesión.",
+    "quickEvidenceHeading": "Registro rápido de evidencias",
+    "candidateFallbackRow": "Candidato #{id}",
+    "candidateLabel": "Candidato"
+  },
+  "help": {
+    "rolesHeading": "Roles y permisos de evaluación",
+    "ifEmptyHeading": "Qué hacer si la lista está vacía",
+    "helpCta": "Centro de ayuda de evaluación",
+    "glossaryHeading": "Glosario de términos",
+    "chainHeading": "Cadena de evaluación",
+    "youCanHeading": "Acciones disponibles"
   }
 }

@@ -1,0 +1,1822 @@
+{
+  "breakout.end": {
+    "en": "End",
+    "fa": "پایان",
+    "ar": "إنهاء"
+  },
+  "breakout.manualLabel": {
+    "en": "Manual assignment",
+    "fa": "تخصیص دستی",
+    "ar": "توزيع يدويّ"
+  },
+  "breakout.maxRooms": {
+    "en": "Maximum {count, number} rooms",
+    "fa": "حداکثر {count, number} اتاق",
+    "ar": "بحدّ أقصى {count, number} غرفة"
+  },
+  "breakout.mode.auto": {
+    "en": "Automatic",
+    "fa": "خودکار",
+    "ar": "تلقائيّ"
+  },
+  "breakout.mode.manual": {
+    "en": "Manual",
+    "fa": "دستی",
+    "ar": "يدويّ"
+  },
+  "breakout.mode.random": {
+    "en": "Random",
+    "fa": "تصادفی",
+    "ar": "عشوائيّ"
+  },
+  "breakout.modeLabel": {
+    "en": "Assignment method",
+    "fa": "نحوهٔ تخصیص",
+    "ar": "طريقة التوزيع"
+  },
+  "breakout.moved": {
+    "en": "You have been moved to this room",
+    "fa": "شما به این اتاق منتقل شده‌اید",
+    "ar": "تمّ نقلك إلى هذه الغرفة"
+  },
+  "breakout.noParticipants": {
+    "en": "No participants in class yet. You can assign them once others join.",
+    "fa": "هنوز شرکت‌کننده‌ای در کلاس نیست. با ورود دیگران می‌توانید آن‌ها را به اتاق‌ها تخصیص دهید.",
+    "ar": "لا يوجد مشارك في الصفّ بعد. وبدخول الآخرين يمكنك توزيعهم على الغرف."
+  },
+  "breakout.noneOpen": {
+    "en": "No active breakout rooms. When rooms are opened by the host, your room will appear here.",
+    "fa": "اتاق گروهی فعالی وجود ندارد. با باز شدن اتاق‌ها توسط میزبان، اتاق شما همین‌جا نمایش داده می‌شود.",
+    "ar": "لا توجد غرفة فرعيّة فعّالة. وعندما يفتح المضيف الغرف ستظهر غرفتك هنا."
+  },
+  "breakout.open": {
+    "en": "Open rooms",
+    "fa": "باز کردن اتاق‌ها",
+    "ar": "فتح الغرف"
+  },
+  "breakout.phaseNote": {
+    "en": "At this stage, participant assignment and per-room chat/notes are active. Separate per-room audio and video require media infrastructure (SFU, Stage 3) and are currently outside this section.",
+    "fa": "در این مرحله، تخصیص شرکت‌کنندگان و چت/یادداشتِ هر اتاق فعال است. ویدیو و صدای مجزای هر اتاق به زیرساخت رسانه (SFU، مرحلهٔ ۳) نیاز دارد و فعلاً خارج از این بخش است.",
+    "ar": "في هذه المرحلة، توزيع المشاركين ودردشة/ملاحظات كلّ غرفة مفعّلة. أمّا الفيديو والصوت المنفصلان لكلّ غرفة فيحتاجان إلى بنية الوسائط (SFU، المرحلة ٣) وهما خارج هذا القسم حاليّاً."
+  },
+  "breakout.preview": {
+    "en": "{people, number} participants will be distributed across {rooms, number} rooms (approx. {per, number} people per room).",
+    "fa": "{people, number} شرکت‌کننده در {rooms, number} اتاق توزیع می‌شوند (حدوداً {per, number} نفر در هر اتاق).",
+    "ar": "يُوزَّع {people, number} مشاركاً على {rooms, number} غرفة (نحو {per, number} في كلّ غرفة)."
+  },
+  "breakout.roomCountLabel": {
+    "en": "Number of rooms",
+    "fa": "تعداد اتاق‌ها",
+    "ar": "عدد الغرف"
+  },
+  "breakout.roomFor": {
+    "en": "Room for {name}",
+    "fa": "اتاق برای {name}",
+    "ar": "الغرفة لـ{name}"
+  },
+  "breakout.you": {
+    "en": "You",
+    "fa": "شما",
+    "ar": "أنت"
+  },
+  "classes.group.live": {
+    "en": "Live Now",
+    "fa": "در حال برگزاری",
+    "ar": "جارية الآن"
+  },
+  "classes.group.liveEmpty": {
+    "en": "No sessions are currently live.",
+    "fa": "هیچ جلسه‌ای در این لحظه زنده نیست.",
+    "ar": "لا جلسة مباشرة في هذه اللحظة."
+  },
+  "classes.group.past": {
+    "en": "Past",
+    "fa": "گذشته",
+    "ar": "السابقة"
+  },
+  "classes.group.pastEmpty": {
+    "en": "No past sessions recorded.",
+    "fa": "جلسهٔ گذشته‌ای ثبت نشده است.",
+    "ar": "لم تُسجَّل أيّ جلسة سابقة."
+  },
+  "classes.group.upcoming": {
+    "en": "Upcoming",
+    "fa": "پیش‌رو",
+    "ar": "القادمة"
+  },
+  "classes.group.upcomingEmpty": {
+    "en": "No upcoming sessions scheduled.",
+    "fa": "جلسهٔ پیش‌رویی زمان‌بندی نشده است.",
+    "ar": "لم تُجدوَل أيّ جلسة قادمة."
+  },
+  "classes.help.body": {
+    "en": "On this page, you can see live classes categorized as \"Live Now\", \"Upcoming\", and \"Past\". Click \"Enter Lobby\" to test your camera and microphone before entering; if a session is currently live, click \"Direct Entry\" to join immediately. Instructors and administrators can schedule a new live class with \"New Session\".",
+    "fa": "در این صفحه فهرست کلاس‌های زندهٔ «در حال برگزاری»، «پیش‌رو» و «گذشته» را می‌بینید. با «ورود به لابی» دوربین و میکروفون خود را آزمایش کنید و سپس وارد کلاس شوید؛ اگر جلسه‌ای همین حالا زنده است، با «ورود مستقیم» بی‌درنگ به آن بپیوندید. استادان و مدیران می‌توانند با «جلسهٔ جدید» یک کلاس زنده زمان‌بندی کنند.",
+    "ar": "تعرض هذه الصفحة قائمة الصفوف المباشرة «الجارية» و«القادمة» و«السابقة». جرّب الكاميرا والميكروفون عبر «ادخل الرَّدهة» ثمّ ادخل الصفّ؛ وإن كانت جلسة ما جارية الآن فانضمّ إليها فوراً عبر «ادخل مباشرة». يستطيع الأساتذة والمديرون جدولة صفّ مباشر عبر «جلسة جديدة»."
+  },
+  "classes.help.title": {
+    "en": "Live Classes Guide",
+    "fa": "راهنمای کلاس‌های زنده",
+    "ar": "دليل الصفوف المباشرة"
+  },
+  "classes.kpi.live": {
+    "en": "Live Now",
+    "fa": "در حال برگزاری",
+    "ar": "جارية الآن"
+  },
+  "classes.kpi.total": {
+    "en": "Total Sessions",
+    "fa": "تعداد جلسات",
+    "ar": "عدد الجلسات"
+  },
+  "classes.kpi.upcoming": {
+    "en": "Upcoming",
+    "fa": "پیش‌رو",
+    "ar": "القادمة"
+  },
+  "classes.lead": {
+    "en": "View live, upcoming, and past sessions here; enter the lobby to test your camera and microphone or — if a session is live — join the class directly.",
+    "fa": "جلسات در حال برگزاری، پیش‌رو و گذشته را اینجا ببینید؛ برای آزمایش دوربین و میکروفون به لابی وارد شوید یا — اگر جلسه‌ای زنده است — مستقیم به کلاس بپیوندید.",
+    "ar": "اطّلِع هنا على الجلسات الجارية والقادمة والسابقة؛ ادخل الرَّدهة لتجربة الكاميرا والميكروفون، أو انضمّ إلى الصفّ مباشرة إن كانت الجلسة جارية."
+  },
+  "classes.loading": {
+    "en": "Loading sessions…",
+    "fa": "در حال بارگذاری جلسات…",
+    "ar": "جارٍ تحميل الجلسات…"
+  },
+  "classes.new": {
+    "en": "New Session",
+    "fa": "جلسهٔ جدید",
+    "ar": "جلسة جديدة"
+  },
+  "classes.noCourse": {
+    "en": "No associated course",
+    "fa": "بدون درس مرتبط",
+    "ar": "دون مقرّر مرتبط"
+  },
+  "classes.policy.enrolled": {
+    "en": "Enrolled students only",
+    "fa": "فقط دانشجویان ثبت‌نام‌شده",
+    "ar": "الطلبة المسجّلون فقط"
+  },
+  "classes.policy.invite": {
+    "en": "Invitation only",
+    "fa": "فقط با دعوت‌نامه",
+    "ar": "بدعوة فقط"
+  },
+  "classes.policy.public": {
+    "en": "Open to all (Public)",
+    "fa": "آزاد برای همه (عمومی)",
+    "ar": "مفتوحة للجميع (عامّة)"
+  },
+  "classes.schedule.at": {
+    "en": "{date} · {clock}",
+    "fa": "{date} · ساعت {clock}",
+    "ar": "{date} · الساعة {clock}"
+  },
+  "classes.schedule.unknown": {
+    "en": "Time unspecified",
+    "fa": "زمان نامشخص",
+    "ar": "الوقت غير محدّد"
+  },
+  "classes.searchAria": {
+    "en": "Search sessions",
+    "fa": "جست‌وجوی جلسه",
+    "ar": "البحث عن جلسة"
+  },
+  "classes.searchPlaceholder": {
+    "en": "Search by title, course, or instructor…",
+    "fa": "جست‌وجو در عنوان، درس یا مدرس…",
+    "ar": "ابحث في العنوان أو المقرّر أو المدرّس…"
+  },
+  "classes.title": {
+    "en": "Live Classes",
+    "fa": "کلاس‌های زنده",
+    "ar": "الصفوف المباشرة"
+  },
+  "guide.lobby.chain.check": {
+    "en": "Here you test your name, camera, and microphone and complete the readiness checklist.",
+    "fa": "اینجا نام، دوربین و میکروفون را می‌آزمایید و فهرستِ آمادگی را کامل می‌کنید.",
+    "ar": "هنا تجرّب الاسم والكاميرا والميكروفون وتُكمل قائمة الجاهزيّة."
+  },
+  "guide.lobby.chain.enter": {
+    "en": "At class time, enter this pre-room from there.",
+    "fa": "در زمانِ کلاس، از همان‌جا واردِ همین پیش‌اتاق می‌شوید.",
+    "ar": "في موعد الصفّ، تدخل من هناك إلى هذه الرَّدهة نفسها."
+  },
+  "guide.lobby.chain.join": {
+    "en": "Upon entering the class, you are transferred to the live room; the guide continues there.",
+    "fa": "با ورود به کلاس، به اتاقِ زنده منتقل می‌شوید؛ ادامهٔ راهنما در همان صفحه است.",
+    "ar": "بالدخول إلى الصفّ تنتقل إلى الغرفة المباشرة، وتتمّة الدليل في تلك الصفحة."
+  },
+  "guide.lobby.chain.schedule": {
+    "en": "The live class is scheduled in the syllabus and appears in \"My Classes\".",
+    "fa": "کلاسِ زنده در برنامهٔ درسی زمان‌بندی می‌شود و در «کلاس‌های من» دیده می‌شود.",
+    "ar": "يُجدوَل الصفّ المباشر في البرنامج الأكاديمي ويظهر في «صفوفي»."
+  },
+  "guide.lobby.ifEmpty": {
+    "en": "If the class has not started yet, wait for the host; connection status updates on this same page.",
+    "fa": "اگر فهرستِ آمادگی هنوز کامل نشده، معمولاً یعنی مرورگر هنوز اجازهٔ میکروفون/دوربین را نگرفته است؛ اجازه را بدهید تا وضعیت به‌روز شود. بدونِ دوربین هم می‌توانید وارد شوید.",
+    "ar": "إذا لم تكتمل قائمة الجاهزيّة بعد، فذلك يعني غالباً أنّ المتصفّح لم يحصل بعد على إذن الميكروفون والكاميرا؛ امنح الإذن لتُحدَّث الحالة. ويمكنك الدخول من دون كاميرا أيضاً."
+  },
+  "guide.lobby.intro": {
+    "en": "Welcome to the pre-room for the live class. Here you check your sound, picture, and connection before entering.",
+    "fa": "این صفحه، اتاقِ آمادگیِ پیش از ورود به کلاسِ زنده است: نامِ نمایشی، میکروفون و دوربینِ خود را اینجا می‌آزمایید تا هنگامِ ورود، همه‌چیز درست کار کند.",
+    "ar": "هذه الصفحة هي غرفة التهيئة قبل الدخول إلى الصفّ المباشر: هنا تجرّب اسمك الظاهر والميكروفون والكاميرا حتّى يعمل كلّ شيء على ما يُرام عند الدخول."
+  },
+  "guide.lobby.roles.host.does": {
+    "en": "Enters the room, welcomes students, and starts the class.",
+    "fa": "کلاس را باز می‌کند؛ تا پیش از آن، همین صفحه وضعیتِ انتظار را نشان می‌دهد.",
+    "ar": "يفتح الصفّ؛ وإلى أن يفعل، تعرض هذه الصفحة حالة الانتظار."
+  },
+  "guide.lobby.roles.host.label": {
+    "en": "Host (Instructor)",
+    "fa": "میزبان (استاد)",
+    "ar": "المضيف (المدرّس)"
+  },
+  "guide.lobby.roles.student.does": {
+    "en": "Tests camera/microphone, checks readiness, and enters the class.",
+    "fa": "پیش از ورود، نام و تجهیزاتِ خود را می‌آزمایید و سپس واردِ کلاس می‌شوید.",
+    "ar": "تجرّب اسمك وأجهزتك قبل الدخول، ثمّ تدخل الصفّ."
+  },
+  "guide.lobby.roles.student.label": {
+    "en": "You (Student)",
+    "fa": "شما (دانشجو)",
+    "ar": "أنت (الطالب)"
+  },
+  "guide.lobby.roles.support.does": {
+    "en": "If device tests repeatedly fail, technical support uses this readiness report for troubleshooting.",
+    "fa": "اگر آزمونِ تجهیزات مدام شکست بخورد، از همین گزارشِ آمادگی برایِ عیب‌یابی استفاده می‌کند.",
+    "ar": "إذا تكرّر فشل اختبار الأجهزة، يستعين بتقرير الجاهزيّة هذا نفسه في تشخيص العطل."
+  },
+  "guide.lobby.roles.support.label": {
+    "en": "Technical Support",
+    "fa": "پشتیبانیِ فنی",
+    "ar": "الدعم الفنّي"
+  },
+  "guide.lobby.youCan.camera": {
+    "en": "View camera preview and toggle it on/off; when off, your avatar is displayed.",
+    "fa": "پیش‌نمایشِ دوربین را ببینید و آن را روشن/خاموش کنید؛ اگر خاموش باشد، آواتارِ شما نمایش داده می‌شود.",
+    "ar": "شاهِد معاينة الكاميرا وشغّلها أو أوقفها؛ وإذا كانت متوقّفة ظهرت صورتك الرمزيّة."
+  },
+  "guide.lobby.youCan.join": {
+    "en": "Once the readiness checklist turns green, join using the Enter Class button.",
+    "fa": "پس از سبز شدنِ فهرستِ آمادگی، با دکمهٔ ورود به کلاس بپیوندید.",
+    "ar": "بعد أن تصبح قائمة الجاهزيّة خضراء، انضمّ إلى الصفّ بزرّ الدخول."
+  },
+  "guide.lobby.youCan.mic": {
+    "en": "Turn your microphone on/off with the microphone button.",
+    "fa": "میکروفون را بیازمایید و از فهرستِ آمادگی مطمئن شوید هیچ مانعی برایِ ورود نیست.",
+    "ar": "جرّب الميكروفون وتأكّد من قائمة الجاهزيّة أنّه لا مانع من الدخول."
+  },
+  "guide.lobby.youCan.name": {
+    "en": "Edit your display name before entering class.",
+    "fa": "نامِ نمایشیِ خود را پیش از ورود به کلاس ویرایش کنید.",
+    "ar": "عدّل اسمك الظاهر قبل الدخول إلى الصفّ."
+  },
+  "guide.sections.chain": {
+    "en": "Full journey, from start to finish",
+    "fa": "کلِ مسیر، از ابتدا تا انتها",
+    "ar": "المسار كاملاً، من البداية إلى النهاية"
+  },
+  "guide.sections.ifEmpty": {
+    "en": "If the page is empty",
+    "fa": "اگر صفحه خالی بود",
+    "ar": "إذا كانت الصفحة فارغة"
+  },
+  "guide.sections.roles": {
+    "en": "Who does what",
+    "fa": "چه کسی چه می‌کند",
+    "ar": "مَن يفعل ماذا"
+  },
+  "guide.sections.youCan": {
+    "en": "What can you do here?",
+    "fa": "اینجا چه کاری می‌توانید انجام دهید؟",
+    "ar": "ما الذي يمكنك فعله هنا؟"
+  },
+  "guide.session.chain.participate": {
+    "en": "During class you participate via microphone/camera/chat; the host controls the class flow.",
+    "fa": "در طولِ کلاس با میکروفون/دوربین/گفت‌وگو مشارکت می‌کنید؛ میزبان جریانِ کلاس را کنترل می‌کند.",
+    "ar": "تشارك أثناء الصفّ بالميكروفون والكاميرا والمحادثة، بينما يتحكّم المضيف في سير الصفّ."
+  },
+  "guide.session.chain.record": {
+    "en": "If the host enables recording, the recording becomes available after class ends.",
+    "fa": "اگر میزبان ضبط را فعال کند، پس از پایانِ کلاس ضبط در دسترس قرار می‌گیرد.",
+    "ar": "إذا فعّل المضيف التسجيل، يصبح التسجيل متاحاً بعد انتهاء الصفّ."
+  },
+  "guide.session.chain.review": {
+    "en": "You return from \"Recordings\" to review a missed class or study.",
+    "fa": "شما از «ضبط‌شده‌ها» به کلاسِ ازدست‌رفته یا برایِ مرور بازمی‌گردید.",
+    "ar": "تعود من «التسجيلات» إلى صفّ فاتك أو لمراجعته."
+  },
+  "guide.session.chain.start": {
+    "en": "The host (instructor) starts the live class; you join the room.",
+    "fa": "میزبان (استاد) کلاسِ زنده را شروع می‌کند؛ شما به اتاق می‌پیوندید.",
+    "ar": "يبدأ المضيف (المدرّس) الصفّ المباشر، ثمّ تنضمّ أنت إلى الغرفة."
+  },
+  "guide.session.ifEmpty": {
+    "en": "If class hasn't started yet, wait for the host; connection status updates on this page.",
+    "fa": "اگر کلاس هنوز شروع نشده، منتظرِ میزبان بمانید؛ وضعیتِ اتصال در همین صفحه به‌روزرسانی می‌شود.",
+    "ar": "إذا لم يبدأ الصفّ بعد، فانتظر المضيف؛ تُحدَّث حالة الاتصال في هذه الصفحة نفسها."
+  },
+  "guide.session.intro": {
+    "en": "This page is your live class room with microphone/camera, screen sharing, chat, and Q&A. The host (instructor) manages the class and records if needed.",
+    "fa": "این صفحه، اتاقِ کلاسِ زندهٔ شما با میکروفون/دوربین، اشتراکِ صفحه، گفت‌وگو و پرسش‌وپاسخ است. میزبان (استاد) کلاس را کنترل و در صورتِ نیاز ضبط می‌کند.",
+    "ar": "هذه الصفحة هي غرفة صفّك المباشر مع الميكروفون والكاميرا ومشاركة الشاشة والمحادثة والأسئلة والأجوبة. يتحكّم المضيف (المدرّس) في الصفّ ويسجّله عند الحاجة."
+  },
+  "guide.session.roles.host.does": {
+    "en": "Starts/controls the class and enables recording if needed.",
+    "fa": "کلاس را شروع/کنترل می‌کند و در صورتِ نیاز ضبط را فعال می‌کند.",
+    "ar": "يبدأ الصفّ ويتحكّم فيه، ويفعّل التسجيل عند الحاجة."
+  },
+  "guide.session.roles.host.label": {
+    "en": "Host (Instructor)",
+    "fa": "میزبان (استاد)",
+    "ar": "المضيف (المدرّس)"
+  },
+  "guide.session.roles.student.does": {
+    "en": "Joins the class, participates, and watches recordings later if needed.",
+    "fa": "به کلاس می‌پیوندید، مشارکت می‌کنید و در صورتِ نیاز ضبط را بعداً می‌بینید.",
+    "ar": "تنضمّ إلى الصفّ وتشارك فيه، وتشاهد التسجيل لاحقاً عند الحاجة."
+  },
+  "guide.session.roles.student.label": {
+    "en": "You (Student)",
+    "fa": "شما (دانشجو)",
+    "ar": "أنت (الطالب)"
+  },
+  "guide.session.title": {
+    "en": "Live Class Guide",
+    "fa": "راهنمایِ «کلاسِ زنده»",
+    "ar": "دليل «الصفّ المباشر»"
+  },
+  "guide.session.youCan.chat": {
+    "en": "Send messages or ask questions in writing using \"Chat\".",
+    "fa": "با «گفت‌وگو» به‌صورتِ نوشتاری پیام بدهید یا سؤال بپرسید.",
+    "ar": "أرسِل رسالة مكتوبة أو اطرح سؤالاً عبر «المحادثة»."
+  },
+  "guide.session.youCan.media": {
+    "en": "Turn your microphone and camera on/off from the bottom bar.",
+    "fa": "میکروفون و دوربینِ خود را از نوارِ پایین روشن/خاموش کنید.",
+    "ar": "شغّل الميكروفون والكاميرا أو أوقفهما من الشريط السفليّ."
+  },
+  "guide.session.youCan.recordings": {
+    "en": "After class ends, watch the recording under \"Recordings\" if recorded.",
+    "fa": "پس از پایانِ کلاس، اگر ضبط شده باشد، از «ضبط‌شده‌ها» آن را ببینید.",
+    "ar": "بعد انتهاء الصفّ، شاهِد التسجيل من «التسجيلات» إن كان الصفّ مسجَّلاً."
+  },
+  "guide.session.youCan.share": {
+    "en": "Share your screen if permitted by the host.",
+    "fa": "اگر میزبان اجازه دهد، صفحهٔ خود را به اشتراک بگذارید.",
+    "ar": "شارِك شاشتك إذا سمح المضيف بذلك."
+  },
+  "playback.acceptHandover": {
+    "en": "Accept handover",
+    "fa": "پذیرش واگذاری",
+    "ar": "قبول التسليم"
+  },
+  "playback.addNote": {
+    "en": "Add note at current time",
+    "fa": "ثبت یادداشت در زمان فعلی",
+    "ar": "احفظ الملاحظة عند الوقت الحالي"
+  },
+  "playback.answerLabel": {
+    "en": "Official answer",
+    "fa": "پاسخ رسمی",
+    "ar": "إجابة رسمية"
+  },
+  "playback.answerQuestion": {
+    "en": "Submit answer",
+    "fa": "ثبت پاسخ",
+    "ar": "إرسال الإجابة"
+  },
+  "playback.artifactApprove": {
+    "en": "Approve publication",
+    "fa": "تأیید انتشار",
+    "ar": "اعتماد النشر"
+  },
+  "playback.artifactCreate": {
+    "en": "Save shared item",
+    "fa": "ثبت اشتراک",
+    "ar": "حفظ المشاركة"
+  },
+  "playback.artifactDocumentLabel": {
+    "en": "Course document ID",
+    "fa": "شناسهٔ سند همین درس",
+    "ar": "معرّف مستند من المقرر نفسه"
+  },
+  "playback.artifactHide": {
+    "en": "Hide",
+    "fa": "پنهان‌کردن",
+    "ar": "إخفاء"
+  },
+  "playback.artifactKind.file_pin": {
+    "en": "Pinned file",
+    "fa": "سنجاق فایل",
+    "ar": "تثبيت ملف"
+  },
+  "playback.artifactKind.pdf": {
+    "en": "PDF",
+    "fa": "PDF",
+    "ar": "PDF"
+  },
+  "playback.artifactKind.whiteboard": {
+    "en": "Whiteboard",
+    "fa": "وایت‌برد",
+    "ar": "سبورة"
+  },
+  "playback.artifactKindLabel": {
+    "en": "Content type",
+    "fa": "نوع محتوا",
+    "ar": "نوع المحتوى"
+  },
+  "playback.artifactStatus.hidden": {
+    "en": "Hidden",
+    "fa": "پنهان‌شده",
+    "ar": "مخفي"
+  },
+  "playback.artifactStatus.pending": {
+    "en": "Awaiting instructor approval",
+    "fa": "در انتظار تأیید مدرس",
+    "ar": "بانتظار اعتماد المدرّس"
+  },
+  "playback.artifactStatus.published": {
+    "en": "Published",
+    "fa": "منتشرشده",
+    "ar": "منشور"
+  },
+  "playback.artifactTitleLabel": {
+    "en": "Title",
+    "fa": "عنوان",
+    "ar": "العنوان"
+  },
+  "playback.artifactUnavailable": {
+    "en": "Saving or managing this shared item is not permitted.",
+    "fa": "ثبت یا مدیریت این اشتراک مجاز نیست.",
+    "ar": "لا يُسمح بحفظ هذه المشاركة أو إدارتها."
+  },
+  "playback.artifactWhiteboardLabel": {
+    "en": "Whiteboard textual snapshot",
+    "fa": "عکس‌وضعیت متنی وایت‌برد",
+    "ar": "لقطة نصية للسبورة"
+  },
+  "playback.artifactsDisableLearners": {
+    "en": "Disable learner contributions",
+    "fa": "بستن مشارکت یادگیرنده",
+    "ar": "إيقاف مساهمة المتعلّمين"
+  },
+  "playback.artifactsEnableLearners": {
+    "en": "Enable learner contributions",
+    "fa": "فعال‌کردن مشارکت یادگیرنده",
+    "ar": "تمكين مساهمة المتعلّمين"
+  },
+  "playback.askQuestion": {
+    "en": "Submit question",
+    "fa": "ثبت پرسش",
+    "ar": "أرسل السؤال"
+  },
+  "playback.captionsLabel": {
+    "en": "Session captions",
+    "fa": "زیرنویس جلسه",
+    "ar": "ترجمة الجلسة"
+  },
+  "playback.closeRoom": {
+    "en": "Close room",
+    "fa": "بستن اتاق",
+    "ar": "إغلاق الغرفة"
+  },
+  "playback.createRoom": {
+    "en": "Create private room",
+    "fa": "ساخت اتاق خصوصی",
+    "ar": "إنشاء غرفة خاصة"
+  },
+  "playback.deleteNote": {
+    "en": "Delete",
+    "fa": "حذف",
+    "ar": "حذف"
+  },
+  "playback.downloadTranscript": {
+    "en": "Download transcript",
+    "fa": "دانلود رونوشت",
+    "ar": "تنزيل النص"
+  },
+  "playback.editNote": {
+    "en": "Edit",
+    "fa": "ویرایش",
+    "ar": "تعديل"
+  },
+  "playback.eyebrow": {
+    "en": "Interactive Replay",
+    "fa": "بازپخش تعاملی",
+    "ar": "إعادة تشغيل تفاعلية"
+  },
+  "playback.hideCaptions": {
+    "en": "Hide captions",
+    "fa": "پنهان‌کردن زیرنویس",
+    "ar": "إخفاء الترجمة"
+  },
+  "playback.inviteRoom": {
+    "en": "Invite",
+    "fa": "دعوت",
+    "ar": "دعوة"
+  },
+  "playback.joinRoom": {
+    "en": "Join room",
+    "fa": "پیوستن به اتاق",
+    "ar": "الانضمام إلى الغرفة"
+  },
+  "playback.jump": {
+    "en": "Jump to this event",
+    "fa": "رفتن به این رخداد",
+    "ar": "الانتقال إلى هذا الحدث"
+  },
+  "playback.jumpToPoll": {
+    "en": "Jump to poll {question}",
+    "fa": "رفتن به نظرسنجی {question}",
+    "ar": "الانتقال إلى استطلاع {question}"
+  },
+  "playback.jumpToTableStart": {
+    "en": "Jump to table activity start",
+    "fa": "رفتن به زمان شروع فعالیت میزها",
+    "ar": "الانتقال إلى وقت بدء نشاط الطاولات"
+  },
+  "playback.jumpToTranscript": {
+    "en": "Jump to this transcript timestamp",
+    "fa": "رفتن به زمان این رونوشت",
+    "ar": "الانتقال إلى توقيت هذا النص"
+  },
+  "playback.loadMoreResults": {
+    "en": "Show more results",
+    "fa": "نمایش نتیجه‌های بیشتر",
+    "ar": "عرض المزيد من النتائج"
+  },
+  "playback.loading": {
+    "en": "Preparing replay…",
+    "fa": "در حال آماده‌سازی بازپخش…",
+    "ar": "يجري تجهيز إعادة التشغيل…"
+  },
+  "playback.me": {
+    "en": "Me",
+    "fa": "من",
+    "ar": "أنا"
+  },
+  "playback.noMatches": {
+    "en": "No text found matching your search.",
+    "fa": "متنی مطابق جست‌وجوی شما پیدا نشد.",
+    "ar": "لم يُعثر على نص يطابق بحثك."
+  },
+  "playback.noRecording": {
+    "en": "No playback recording is available for this session.",
+    "fa": "ضبط آمادهٔ پخش برای این جلسه وجود ندارد.",
+    "ar": "لا يوجد تسجيل جاهز للتشغيل لهذه الجلسة."
+  },
+  "playback.notAttendanceCredit": {
+    "en": "This value alone does not constitute attendance credit.",
+    "fa": "این مقدار به‌تنهایی اعتبار حضور نیست.",
+    "ar": "هذه النسبة وحدها لا تُمنح بها درجة الحضور."
+  },
+  "playback.noteLabel": {
+    "en": "Note text",
+    "fa": "متن یادداشت",
+    "ar": "نص الملاحظة"
+  },
+  "playback.notesTitle": {
+    "en": "My Timestamped Notes",
+    "fa": "یادداشت‌های زمان‌دار من",
+    "ar": "ملاحظاتي المؤقتة"
+  },
+  "playback.offerHandover": {
+    "en": "Offer control handover",
+    "fa": "پیشنهاد واگذاری",
+    "ar": "عرض التسليم"
+  },
+  "playback.open": {
+    "en": "Interactive Replay",
+    "fa": "بازپخش تعاملی",
+    "ar": "إعادة تشغيل تفاعلية"
+  },
+  "playback.pollAnswerFailed": {
+    "en": "Could not record replay answer; please try again.",
+    "fa": "ثبت پاسخ بازپخش ممکن نشد؛ دوباره تلاش کنید.",
+    "ar": "تعذّر حفظ إجابة إعادة التشغيل؛ حاول مرة أخرى."
+  },
+  "playback.pollNotReached": {
+    "en": "To answer, first reach this poll's timestamp in the replay.",
+    "fa": "برای پاسخ، ابتدا به زمان این نظرسنجی در بازپخش برسید.",
+    "ar": "لإرسال الإجابة، انتقل أولًا إلى وقت هذا الاستطلاع في إعادة التشغيل."
+  },
+  "playback.pollsTitle": {
+    "en": "Recorded Polls",
+    "fa": "نظرسنجی‌های ثبت‌شده",
+    "ar": "الاستطلاعات المحفوظة"
+  },
+  "playback.questionApprove": {
+    "en": "Approve publication",
+    "fa": "تأیید انتشار",
+    "ar": "اعتماد النشر"
+  },
+  "playback.questionHidden": {
+    "en": "Hidden from class",
+    "fa": "پنهان‌شده از کلاس",
+    "ar": "مخفي عن الصف"
+  },
+  "playback.questionHide": {
+    "en": "Hide question",
+    "fa": "پنهان‌کردن پرسش",
+    "ar": "إخفاء السؤال"
+  },
+  "playback.questionLabel": {
+    "en": "Timestamped question",
+    "fa": "پرسش زمان‌دار",
+    "ar": "سؤال مؤقت"
+  },
+  "playback.questionOptIn": {
+    "en": "Consent to publish",
+    "fa": "اجازهٔ انتشار",
+    "ar": "السماح بالنشر"
+  },
+  "playback.questionOptOut": {
+    "en": "Withdraw publication consent",
+    "fa": "لغو اجازهٔ انتشار",
+    "ar": "إلغاء السماح بالنشر"
+  },
+  "playback.questionPublished": {
+    "en": "Published for class",
+    "fa": "منتشرشده برای کلاس",
+    "ar": "منشور للصف"
+  },
+  "playback.questionReport": {
+    "en": "Report question",
+    "fa": "گزارش پرسش",
+    "ar": "الإبلاغ عن السؤال"
+  },
+  "playback.questionReportReason": {
+    "en": "Reason for reporting question",
+    "fa": "دلیل گزارش پرسش",
+    "ar": "سبب الإبلاغ عن السؤال"
+  },
+  "playback.questionUnavailable": {
+    "en": "This action is not permitted or the question is no longer available.",
+    "fa": "این عملیات مجاز نیست یا پرسش دیگر در دسترس نیست.",
+    "ar": "هذه العملية غير مسموحة أو لم يعد السؤال متاحاً."
+  },
+  "playback.questionUnhide": {
+    "en": "Unhide question",
+    "fa": "بازگرداندن پرسش",
+    "ar": "إظهار السؤال مجدداً"
+  },
+  "playback.questionUnpublish": {
+    "en": "Unpublish",
+    "fa": "لغو انتشار",
+    "ar": "إلغاء النشر"
+  },
+  "playback.questionsTitle": {
+    "en": "Replay Questions",
+    "fa": "پرسش‌های بازپخش",
+    "ar": "أسئلة إعادة التشغيل"
+  },
+  "playback.removeMember": {
+    "en": "Remove from room",
+    "fa": "حذف از اتاق",
+    "ar": "إزالة من الغرفة"
+  },
+  "playback.roomIdLabel": {
+    "en": "Room ID",
+    "fa": "شناسهٔ اتاق",
+    "ar": "معرّف الغرفة"
+  },
+  "playback.roomPause": {
+    "en": "Pause for all",
+    "fa": "توقف برای همه",
+    "ar": "إيقاف للجميع"
+  },
+  "playback.roomPlay": {
+    "en": "Play for all",
+    "fa": "پخش برای همه",
+    "ar": "تشغيل للجميع"
+  },
+  "playback.roomSeek": {
+    "en": "Seek group playback to selected time",
+    "fa": "بردن پخش گروهی به زمان انتخابی",
+    "ar": "الانتقال بالتشغيل الجماعي إلى الوقت المحدد"
+  },
+  "playback.roomTitle": {
+    "en": "Group Watch Room",
+    "fa": "اتاقِ پخش گروهی",
+    "ar": "غرفة تشغيل جماعي"
+  },
+  "playback.roomUnavailable": {
+    "en": "Room is unavailable or you lack required permissions.",
+    "fa": "اتاق در دسترس نیست یا اجازهٔ لازم را ندارید.",
+    "ar": "الغرفة غير متاحة أو لا تملك الإذن اللازم."
+  },
+  "playback.roomUserLabel": {
+    "en": "User ID",
+    "fa": "شناسهٔ کاربر",
+    "ar": "معرّف المستخدم"
+  },
+  "playback.roomWaiting": {
+    "en": "Waiting for room connection…",
+    "fa": "منتظر اتصال به اتاق…",
+    "ar": "بانتظار الاتصال بالغرفة…"
+  },
+  "playback.saveNote": {
+    "en": "Save edit",
+    "fa": "ذخیرهٔ ویرایش",
+    "ar": "حفظ التعديل"
+  },
+  "playback.searchLabel": {
+    "en": "Search transcript",
+    "fa": "جست‌وجو در رونوشت",
+    "ar": "البحث في النص"
+  },
+  "playback.searchLoading": {
+    "en": "Searching transcript…",
+    "fa": "در حال جست‌وجوی رونوشت…",
+    "ar": "جارٍ البحث في النص…"
+  },
+  "playback.searchPlaceholder": {
+    "en": "Search session speech…",
+    "fa": "جست‌وجو در گفتار جلسه…",
+    "ar": "ابحث في كلام الجلسة…"
+  },
+  "playback.searchUnavailable": {
+    "en": "Transcript search is not permitted or temporarily unavailable.",
+    "fa": "جست‌وجوی رونوشت مجاز نیست یا موقتاً ممکن نشد.",
+    "ar": "لا يُسمح بالبحث في النص أو يتعذر ذلك مؤقتًا."
+  },
+  "playback.seekNote": {
+    "en": "Jump to note timestamp",
+    "fa": "رفتن به زمان یادداشت",
+    "ar": "الانتقال إلى وقت الملاحظة"
+  },
+  "playback.serverWatchEvidence": {
+    "en": "Server-recorded progress: {percent}%.",
+    "fa": "پیشرفت ثبت‌شده در سرور: {percent}٪.",
+    "ar": "التقدّم المسجّل على الخادم: {percent}٪."
+  },
+  "playback.showCaptions": {
+    "en": "Show captions",
+    "fa": "نمایش زیرنویس",
+    "ar": "إظهار الترجمة"
+  },
+  "playback.speedLabel": {
+    "en": "Playback speed",
+    "fa": "سرعت پخش",
+    "ar": "سرعة التشغيل"
+  },
+  "playback.table": {
+    "en": "Table {id}",
+    "fa": "میز {id}",
+    "ar": "الطاولة {id}"
+  },
+  "playback.timelineLabel": {
+    "en": "Replay event timeline",
+    "fa": "نوار زمان رخدادهای بازپخش",
+    "ar": "شريط زمن أحداث إعادة التشغيل"
+  },
+  "playback.transcriptDownloadUnavailable": {
+    "en": "Transcript download is not permitted or temporarily unavailable.",
+    "fa": "دریافت رونوشت مجاز نیست یا موقتاً ممکن نشد.",
+    "ar": "لا يُسمح بتنزيل النص أو يتعذر ذلك مؤقتًا."
+  },
+  "playback.unavailable": {
+    "en": "Replay for this session is unavailable.",
+    "fa": "بازپخش این جلسه در دسترس نیست.",
+    "ar": "إعادة تشغيل هذه الجلسة غير متاحة."
+  },
+  "playback.watchedProgress": {
+    "en": "Playback watched on this device: {percent}%",
+    "fa": "میزان تماشای این دستگاه: {percent}٪",
+    "ar": "التقدّم في المشاهدة على هذا الجهاز: {percent}٪"
+  },
+  "report.counselor.statsTitle": {
+    "en": "Session Attendance Stats",
+    "fa": "آمار حضور جلسه",
+    "ar": "إحصاءات حضور الجلسة"
+  },
+  "report.engagement.hands": {
+    "en": "Hands raised:",
+    "fa": "دست بلندکردن:",
+    "ar": "رفع اليد:"
+  },
+  "report.engagement.handsTitle": {
+    "en": "Hands raised",
+    "fa": "دست بلندکردن",
+    "ar": "رفع اليد"
+  },
+  "report.engagement.notCaptured": {
+    "en": "Interactive artifacts were not recorded for this session (closed without host \"End Session\" or no live interaction occurred).",
+    "fa": "آثار تعاملی این جلسه ثبت نشده است (جلسه بدون «پایان جلسه»ی زندهٔ میزبان بسته شد یا تعامل زنده‌ای رخ نداد).",
+    "ar": "لم تُسجَّل آثار التفاعل لهذه الجلسة (أُغلقت الجلسة دون «إنهاء الجلسة» المباشر من المضيف، أو لم يحدث تفاعل مباشر)."
+  },
+  "report.engagement.polls": {
+    "en": "Polls:",
+    "fa": "نظرسنجی‌ها:",
+    "ar": "الاستطلاعات:"
+  },
+  "report.engagement.reactions": {
+    "en": "Reactions:",
+    "fa": "مجموع واکنش‌ها:",
+    "ar": "مجموع التفاعلات:"
+  },
+  "report.engagement.timelineTitle": {
+    "en": "Timeline",
+    "fa": "خط زمانی",
+    "ar": "الخطّ الزمنيّ"
+  },
+  "report.errLoad": {
+    "en": "Failed to load session report.",
+    "fa": "بارگذاری گزارش جلسه با خطا مواجه شد.",
+    "ar": "تعذّر تحميل تقرير الجلسة."
+  },
+  "report.full.eyebrow": {
+    "en": "Live Class · Session Report",
+    "fa": "کلاس زنده · گزارش جلسه",
+    "ar": "الصفّ المباشر · تقرير الجلسة"
+  },
+  "report.full.helpBody": {
+    "en": "This report displays all persistent data of a live class session in one place: actual timing and duration, student attendance, participant list, saved chat, speaker-attributed speech transcript, live polls, reactions, and recording status. Interactive artifacts are only saved when closed by the host using \"End Session\".",
+    "fa": "این گزارش همهٔ داده‌های ماندگارِ یک جلسهٔ کلاس زنده را یک‌جا نشان می‌دهد: زمان‌بندی و مدت واقعی، حضورغیاب دانشجویان، فهرست شرکت‌کنندگان، گفت‌وگوی ذخیره‌شده، رونوشت گفتار به تفکیک گوینده، نظرسنجی‌ها و واکنش‌های زنده، و وضعیت ضبط. آثار تعاملی تنها زمانی ثبت می‌شوند که جلسه با «پایان جلسه»ی میزبان بسته شود.",
+    "ar": "يعرض هذا التقرير في مكان واحد كلّ البيانات الدائمة لجلسة صفّ مباشر: التوقيت والمدّة الفعليّة، وحضور الطلبة، وقائمة المشاركين، والمحادثة المحفوظة، ونصّ الكلام بحسب المتحدّث، والاستطلاعات والتفاعلات المباشرة، وحالة التسجيل. ولا تُسجَّل آثار التفاعل إلّا إذا أُغلقت الجلسة بزرّ «إنهاء الجلسة» لدى المضيف."
+  },
+  "report.full.helpTitle": {
+    "en": "Session Report Guide",
+    "fa": "راهنمای گزارش جلسه",
+    "ar": "دليل تقرير الجلسة"
+  },
+  "report.hostSuffix": {
+    "en": " (Host)",
+    "fa": " · مدرس: {name}",
+    "ar": " · المدرّس: {name}"
+  },
+  "report.kpi.actualMinutes": {
+    "en": "Actual session duration",
+    "fa": "مدت واقعی جلسه",
+    "ar": "المدّة الفعليّة للجلسة"
+  },
+  "report.kpi.chatCount": {
+    "en": "Chat messages",
+    "fa": "پیام گفت‌وگو",
+    "ar": "رسائل المحادثة"
+  },
+  "report.kpi.joins": {
+    "en": "Join count",
+    "fa": "دفعات ورود",
+    "ar": "مرّات الدخول"
+  },
+  "report.kpi.myMinutes": {
+    "en": "My attendance duration",
+    "fa": "مدت حضور من",
+    "ar": "مدّة حضوري"
+  },
+  "report.kpi.myStatus": {
+    "en": "My attendance status",
+    "fa": "وضعیت حضور من",
+    "ar": "حالة حضوري"
+  },
+  "report.kpi.participants": {
+    "en": "Participants",
+    "fa": "شرکت‌کننده",
+    "ar": "مشارك"
+  },
+  "report.kpi.presentIncLate": {
+    "en": "Present (including late)",
+    "fa": "حاضر (شامل تأخیر)",
+    "ar": "الحاضرون (مع المتأخّرين)"
+  },
+  "report.kpi.scheduledMinutes": {
+    "en": "Scheduled duration",
+    "fa": "مدت زمان‌بندی‌شده",
+    "ar": "المدّة المجدولة"
+  },
+  "report.kpi.totalMinutes": {
+    "en": "Total attendance minutes",
+    "fa": "مجموع دقایق حضور",
+    "ar": "مجموع دقائق الحضور"
+  },
+  "report.loading": {
+    "en": "Loading session report…",
+    "fa": "در حال بارگذاری گزارش جلسه…",
+    "ar": "جارٍ تحميل تقرير الجلسة…"
+  },
+  "report.minutes": {
+    "en": "{value, number} min",
+    "fa": "{value, number} دقیقه",
+    "ar": "{value, number} دقيقة"
+  },
+  "report.neverOpened": {
+    "en": "This session was not held (no host entry recorded).",
+    "fa": "این جلسه هرگز برگزار نشد؛ هیچ‌کس وارد نشد و حضورغیابی ثبت نشده است.",
+    "ar": "لم تُعقد هذه الجلسة قطّ؛ لم يدخلها أحد ولم يُسجَّل فيها حضور."
+  },
+  "report.noCourse": {
+    "en": "General Session",
+    "fa": "بدون درس مرتبط",
+    "ar": "دون مقرّر مرتبط"
+  },
+  "report.noName": {
+    "en": "Untitled",
+    "fa": "بدون نام",
+    "ar": "دون اسم"
+  },
+  "report.parent.childrenTitle": {
+    "en": "Child(ren) Attendance",
+    "fa": "حضور فرزند(ان)",
+    "ar": "حضور الأبناء"
+  },
+  "report.parent.eyebrow": {
+    "en": "Live Class · Child Attendance Report",
+    "fa": "کلاس زنده · گزارش حضور فرزند",
+    "ar": "الصفّ المباشر · تقرير حضور الابن"
+  },
+  "report.parent.helpBody": {
+    "en": "Per the access matrix, the session report only displays an attendance summary for your child(ren); class chat and speech transcripts are not visible to parents.",
+    "fa": "طبق ماتریس دسترسی، در گزارش جلسه فقط خلاصهٔ حضور فرزند(ان) شما نمایش داده می‌شود؛ گفت‌وگو و رونوشت گفتار کلاس برای والد قابل مشاهده نیست.",
+    "ar": "بحسب مصفوفة الصلاحيّات، لا يظهر في تقرير الجلسة سوى ملخّص حضور أبنائك؛ أمّا محادثة الصفّ ونصّ الكلام فغير متاحَين لوليّ الأمر."
+  },
+  "report.parent.helpTitle": {
+    "en": "Parent Report Guide",
+    "fa": "راهنمای گزارش والد",
+    "ar": "دليل تقرير وليّ الأمر"
+  },
+  "report.parent.kpiChildren": {
+    "en": "Child linked to this session",
+    "fa": "فرزند مرتبط با این جلسه",
+    "ar": "الأبناء المرتبطون بهذه الجلسة"
+  },
+  "report.parent.noChildren": {
+    "en": "None of your children are associated with this session.",
+    "fa": "فرزندی از شما با این جلسه مرتبط نیست.",
+    "ar": "لا يرتبط أيّ من أبنائك بهذه الجلسة."
+  },
+  "report.poll.ended": {
+    "en": "Ended",
+    "fa": "پایان‌یافته",
+    "ar": "منتهٍ"
+  },
+  "report.poll.multi": {
+    "en": " · Multiple choice",
+    "fa": " · چندگزینه‌ای",
+    "ar": " · متعدّد الخيارات"
+  },
+  "report.poll.open": {
+    "en": "Open",
+    "fa": "باز",
+    "ar": "مفتوح"
+  },
+  "report.poll.total": {
+    "en": "Total votes: {value, number}",
+    "fa": "مجموع آرا: {value, number}",
+    "ar": "مجموع الأصوات: {value, number}"
+  },
+  "report.polls.title": {
+    "en": "Polls",
+    "fa": "نظرسنجی‌ها",
+    "ar": "الاستطلاعات"
+  },
+  "report.recording.none": {
+    "en": "Not available",
+    "fa": "موجود نیست",
+    "ar": "غير متاح"
+  },
+  "report.recording.play": {
+    "en": "Play recording",
+    "fa": "پخش ضبط",
+    "ar": "شغّل التسجيل"
+  },
+  "report.self.attendanceTitle": {
+    "en": "My Attendance",
+    "fa": "حضور من",
+    "ar": "حضوري"
+  },
+  "report.self.eyebrow": {
+    "en": "Live Class · Your Report for this Session",
+    "fa": "کلاس زنده · گزارش شما از این جلسه",
+    "ar": "الصفّ المباشر · تقريرك عن هذه الجلسة"
+  },
+  "report.self.firstJoin": {
+    "en": "First joined:",
+    "fa": "اولین ورود:",
+    "ar": "أوّل دخول:"
+  },
+  "report.self.helpBody": {
+    "en": "This is your personal session report: your own attendance, public chat, your recorded utterances, and public session content (polls and reactions). Other students' information is only shown to the instructor and authorized staff.",
+    "fa": "این نمای شخصیِ گزارش جلسه است: حضور خودتان، گفت‌وگوی عمومی، گفته‌های ثبت‌شدهٔ خودتان و محتوای عمومی جلسه (نظرسنجی‌ها و واکنش‌ها). اطلاعات سایر دانشجویان فقط برای استاد و کادر مجاز نمایش داده می‌شود.",
+    "ar": "هذا هو العرض الشخصيّ لتقرير الجلسة: حضورك أنت، والمحادثة العامّة، وعباراتك المسجَّلة، والمحتوى العامّ للجلسة (الاستطلاعات والتفاعلات). أمّا معلومات بقيّة الطلبة فلا تظهر إلّا للأستاذ والكادر المخوَّل."
+  },
+  "report.self.helpTitle": {
+    "en": "Personal Report Guide",
+    "fa": "راهنمای گزارش شخصی",
+    "ar": "دليل التقرير الشخصيّ"
+  },
+  "report.self.joinsLabel": {
+    "en": "Join count:",
+    "fa": "دفعات ورود:",
+    "ar": "مرّات الدخول:"
+  },
+  "report.self.minutesLabel": {
+    "en": "Attendance time:",
+    "fa": "مدت حضور:",
+    "ar": "مدّة الحضور:"
+  },
+  "report.self.myTranscript": {
+    "en": "My Utterances",
+    "fa": "گفته‌های من",
+    "ar": "عباراتي"
+  },
+  "report.self.myTranscriptEmpty": {
+    "en": "No speech recorded from you in this session (live captions/translation was not active or you did not speak).",
+    "fa": "گفتاری از شما در این جلسه ثبت نشده است (زیرنویس/ترجمهٔ زنده فعال نبوده یا صحبت نکرده‌اید).",
+    "ar": "لم يُسجَّل كلام لك في هذه الجلسة (لم تكن الترجمة/التفريغ المباشر مفعَّلاً أو لم تتحدّث)."
+  },
+  "report.self.reactionsTitle": {
+    "en": "Session Reactions",
+    "fa": "واکنش‌های جلسه",
+    "ar": "تفاعلات الجلسة"
+  },
+  "report.self.reactionsTotal": {
+    "en": "Total: {value, number}",
+    "fa": "مجموع: {value, number}",
+    "ar": "المجموع: {value, number}"
+  },
+  "report.self.recordingTitle": {
+    "en": "Session Recording",
+    "fa": "ضبط جلسه",
+    "ar": "تسجيل الجلسة"
+  },
+  "report.table.conn": {
+    "en": "Connection Type",
+    "fa": "نوع اتصال",
+    "ar": "نوع الاتّصال"
+  },
+  "report.table.firstJoin": {
+    "en": "First Joined",
+    "fa": "اولین ورود",
+    "ar": "أوّل دخول"
+  },
+  "report.table.joins": {
+    "en": "Join Count",
+    "fa": "دفعات ورود",
+    "ar": "مرّات الدخول"
+  },
+  "report.table.minutes": {
+    "en": "Duration",
+    "fa": "مدت حضور",
+    "ar": "مدّة الحضور"
+  },
+  "report.table.name": {
+    "en": "Name",
+    "fa": "نام",
+    "ar": "الاسم"
+  },
+  "report.table.status": {
+    "en": "Status",
+    "fa": "وضعیت",
+    "ar": "الحالة"
+  },
+  "report.timeline.breakoutClose": {
+    "en": "Close breakout rooms",
+    "fa": "بستن اتاق‌های فرعی",
+    "ar": "إغلاق الغرف الفرعيّة"
+  },
+  "report.timeline.breakoutOpen": {
+    "en": "Open breakout rooms",
+    "fa": "باز شدن اتاق‌های فرعی",
+    "ar": "فتح الغرف الفرعيّة"
+  },
+  "report.timeline.hand": {
+    "en": "Hand raised",
+    "fa": "دست بلند شد",
+    "ar": "رفع يد"
+  },
+  "report.timeline.pollEnd": {
+    "en": "End poll",
+    "fa": "پایان نظرسنجی",
+    "ar": "انتهاء استطلاع"
+  },
+  "report.timeline.pollStart": {
+    "en": "Start poll",
+    "fa": "شروع نظرسنجی",
+    "ar": "بدء استطلاع"
+  },
+  "report.timing.actual": {
+    "en": "Actual Session",
+    "fa": "برگزاری واقعی",
+    "ar": "الانعقاد الفعليّ"
+  },
+  "report.timing.late": {
+    "en": "Started {value, number} minutes late",
+    "fa": "با {value, number} دقیقه تأخیر شروع شد",
+    "ar": "بدأت متأخّرة {value, number} دقيقة"
+  },
+  "report.timing.notHeld": {
+    "en": "Not held",
+    "fa": "برگزار نشد",
+    "ar": "لم تُعقد"
+  },
+  "report.timing.onTime": {
+    "en": "Started on time",
+    "fa": "به‌موقع شروع شد",
+    "ar": "بدأت في وقتها"
+  },
+  "report.timing.range": {
+    "en": "{start} to {end}",
+    "fa": "{start} تا {end}",
+    "ar": "{start} حتّى {end}"
+  },
+  "report.timing.scheduled": {
+    "en": "Scheduled",
+    "fa": "زمان‌بندی‌شده",
+    "ar": "الموعد المجدول"
+  },
+  "report.timing.title": {
+    "en": "Timing",
+    "fa": "زمان‌بندی",
+    "ar": "التوقيت"
+  },
+  "report.transcript.empty": {
+    "en": "No speech recorded for this session (live captions or translation was not active during the session).",
+    "fa": "گفتاری برای این جلسه ثبت نشده است (زیرنویس یا ترجمهٔ زنده در جلسه فعال نبوده).",
+    "ar": "لم يُسجَّل كلام لهذه الجلسة (لم تكن الترجمة أو التفريغ المباشر مفعَّلاً)."
+  },
+  "report.transcript.title": {
+    "en": "Speech Transcript by Speaker",
+    "fa": "رونوشت گفتار به تفکیک گوینده",
+    "ar": "نصّ الكلام بحسب المتحدّث"
+  },
+  "report.transcript.truncatedAll": {
+    "en": "Part of the transcript was omitted due to loading limits (counters are exact).",
+    "fa": "بخشی از گفتار به دلیل سقف بارگذاری در این نما نیامده است (شمارنده‌ها دقیق‌اند).",
+    "ar": "لم يظهر جزء من الكلام في هذا العرض بسبب حدّ التحميل (العدّادات دقيقة)."
+  },
+  "report.transcript.truncatedSpeaker": {
+    "en": "Showing first {shown, number} utterances of {total, number} (display limit).",
+    "fa": "نمایش {shown, number} گفتهٔ نخست از {total, number} (سقف نمایش).",
+    "ar": "عرض أوّل {shown, number} عبارة من {total, number} (حدّ العرض)."
+  },
+  "report.transcript.utterances": {
+    "en": "{value, number} utterances",
+    "fa": "{value, number} گفته",
+    "ar": "{value, number} عبارة"
+  },
+  "report.unavailable": {
+    "en": "Session report is currently unavailable.",
+    "fa": "گزارش این جلسه در دسترس نیست.",
+    "ar": "تقرير هذه الجلسة غير متاح."
+  },
+  "review.requestMakeup": {
+    "en": "Request make-up session",
+    "fa": "درخواست جلسهٔ جبرانی",
+    "ar": "طلب حصة تعويضية"
+  },
+  "session.capset.off": {
+    "en": "Off",
+    "fa": "خاموش",
+    "ar": "مطفأ"
+  },
+  "session.capset.on": {
+    "en": "On",
+    "fa": "روشن",
+    "ar": "مشغَّل"
+  },
+  "session.capset.showNames": {
+    "en": "Show speaker names",
+    "fa": "نمایش نام گوینده",
+    "ar": "إظهار اسم المتحدّث"
+  },
+  "session.captions.micRequired": {
+    "en": "Microphone must be active for captions",
+    "fa": "برای زیرنویس، میکروفون باید روشن باشد",
+    "ar": "يجب أن يكون الميكروفون مشغَّلاً لتظهر الترجمة النصّيّة"
+  },
+  "session.captions.needMic": {
+    "en": "Unmute microphone to enable captions",
+    "fa": "برای زیرنویس، میکروفون را روشن کنید",
+    "ar": "شغِّل الميكروفون لتظهر الترجمة النصّيّة"
+  },
+  "session.captions.noNativeNoServer": {
+    "en": "Your browser lacks native captions and server speech service is not active",
+    "fa": "مرورگر شما زیرنویس بومی ندارد و سرویس گفتار سرور هم فعال نیست",
+    "ar": "متصفّحك لا يملك ترجمة نصّيّة أصليّة، وخدمة الكلام على الخادم غير مفعَّلة"
+  },
+  "session.captions.recordFailed": {
+    "en": "Audio recording for captions failed",
+    "fa": "ضبط صدا برای زیرنویس ممکن نشد",
+    "ar": "تعذّر تسجيل الصوت للترجمة النصّيّة"
+  },
+  "session.captions.unavailableHere": {
+    "en": "Captions not available in this browser",
+    "fa": "زیرنویس در این مرورگر در دسترس نیست",
+    "ar": "الترجمة النصّيّة غير متاحة في هذا المتصفّح"
+  },
+  "session.diag.available": {
+    "en": "Available ✓",
+    "fa": "موجود ✓",
+    "ar": "متاح ✓"
+  },
+  "session.diag.browser": {
+    "en": "Browser",
+    "fa": "مرورگر",
+    "ar": "المتصفّح"
+  },
+  "session.diag.engine": {
+    "en": "Engine",
+    "fa": "موتور",
+    "ar": "المحرّك"
+  },
+  "session.diag.engineNative": {
+    "en": "Native browser",
+    "fa": "بومی مرورگر",
+    "ar": "أصليّ في المتصفّح"
+  },
+  "session.diag.engineNone": {
+    "en": "❌ None",
+    "fa": "❌ هیچ‌کدام",
+    "ar": "❌ لا شيء"
+  },
+  "session.diag.engineServer": {
+    "en": "Server",
+    "fa": "سرور",
+    "ar": "الخادم"
+  },
+  "session.diag.hint": {
+    "en": "If \"Audio Level\" does not move when speaking, the browser is not delivering microphone audio to the page.",
+    "fa": "اگر «سطح صدا» هنگام حرف‌زدن حرکت نمی‌کند، مرورگر صدای میکروفون را به صفحه نمی‌دهد.",
+    "ar": "إذا لم يتحرّك «مستوى الصوت» أثناء الكلام، فإنّ المتصفّح لا يمرّر صوت الميكروفون إلى الصفحة."
+  },
+  "session.diag.lastError": {
+    "en": "Last error",
+    "fa": "آخرین خطا",
+    "ar": "آخر خطأ"
+  },
+  "session.diag.level": {
+    "en": "Audio level",
+    "fa": "سطح صدا",
+    "ar": "مستوى الصوت"
+  },
+  "session.diag.listening": {
+    "en": "Listening ✓",
+    "fa": "در حال شنیدن ✓",
+    "ar": "جارٍ الإنصات ✓"
+  },
+  "session.diag.mic": {
+    "en": "Microphone",
+    "fa": "میکروفون",
+    "ar": "الميكروفون"
+  },
+  "session.diag.micOff": {
+    "en": "Off ❌",
+    "fa": "خاموش ❌",
+    "ar": "مطفأ ❌"
+  },
+  "session.diag.micOn": {
+    "en": "On ✓",
+    "fa": "روشن ✓",
+    "ar": "مشغَّل ✓"
+  },
+  "session.diag.off": {
+    "en": "Off",
+    "fa": "خاموش",
+    "ar": "مطفأة"
+  },
+  "session.diag.restarts": {
+    "en": "Start attempts",
+    "fa": "تلاش راه‌اندازی",
+    "ar": "محاولات التشغيل"
+  },
+  "session.diag.speech": {
+    "en": "Browser speech recognition",
+    "fa": "تشخیص گفتار مرورگر",
+    "ar": "التعرّف على الكلام في المتصفّح"
+  },
+  "session.diag.starting": {
+    "en": "Starting…",
+    "fa": "در حال راه‌اندازی…",
+    "ar": "جارٍ التشغيل…"
+  },
+  "session.diag.status": {
+    "en": "🛈 Caption status:",
+    "fa": "🛈 وضعیت زیرنویس:",
+    "ar": "🛈 حالة الترجمة النصّيّة:"
+  },
+  "session.diag.unavailable": {
+    "en": "Not available ❌",
+    "fa": "نیست ❌",
+    "ar": "غير متاح ❌"
+  },
+  "session.download.formatMenu": {
+    "en": "Download format",
+    "fa": "قالب دانلود",
+    "ar": "صيغة التنزيل"
+  },
+  "session.download.label": {
+    "en": "Download",
+    "fa": "دانلود",
+    "ar": "نزِّل"
+  },
+  "session.download.loading": {
+    "en": "Downloading…",
+    "fa": "در حال دریافت…",
+    "ar": "جارٍ التنزيل…"
+  },
+  "session.download.srt": {
+    "en": "Subtitles (.srt)",
+    "fa": "زیرنویس (.srt)",
+    "ar": "ترجمة (.srt)"
+  },
+  "session.download.txt": {
+    "en": "Download TXT",
+    "fa": "متن (.txt)",
+    "ar": "نصّ (.txt)"
+  },
+  "session.download.vtt": {
+    "en": "WebVTT (.vtt)",
+    "fa": "وب‌ویتی‌تی (.vtt)",
+    "ar": "ويب‌في‌تي‌تي (.vtt)"
+  },
+  "session.end.confirmBody": {
+    "en": "Once confirmed, you will have 10 seconds to cancel ending the class; then all participants will be disconnected.",
+    "fa": "پس از تأیید، ۱۰ ثانیه برای لغو پایان کلاس فرصت دارید؛ سپس همه خارج می‌شوند.",
+    "ar": "بعد التأكيد، لديك ١٠ ثوانٍ للتراجع عن إنهاء الصفّ؛ ثم يخرج الجميع."
+  },
+  "session.end.confirmCta": {
+    "en": "End class for everyone",
+    "fa": "پایان کلاس برای همه",
+    "ar": "إنهاء الصفّ للجميع"
+  },
+  "session.end.confirmTitle": {
+    "en": "End class for all participants?",
+    "fa": "کلاس برای همهٔ شرکت‌کنندگان پایان یابد؟",
+    "ar": "هل يُنهى الصفّ لجميع المشاركين؟"
+  },
+  "session.end.pendingHost": {
+    "en": "Class will end in {seconds} seconds.",
+    "fa": "کلاس تا {seconds} ثانیهٔ دیگر پایان می‌یابد.",
+    "ar": "سينتهي الصفّ بعد {seconds} ثوانٍ."
+  },
+  "session.end.pendingStudent": {
+    "en": "Instructor is ending the class.",
+    "fa": "استاد در حال پایان‌دادن کلاس است.",
+    "ar": "الأستاذ بصدد إنهاء الصفّ."
+  },
+  "session.end.undo": {
+    "en": "Cancel ending class",
+    "fa": "لغو پایان کلاس",
+    "ar": "التراجع عن إنهاء الصفّ"
+  },
+  "session.end.undoFailed": {
+    "en": "Cancellation window has expired. To continue, create a new session.",
+    "fa": "مهلت لغو گذشته است. برای ادامه، جلسهٔ تازه بسازید.",
+    "ar": "انتهت مهلة التراجع. للمتابعة أنشئ جلسة جديدة."
+  },
+  "session.ended.byHost": {
+    "en": "Class ended by instructor",
+    "fa": "کلاس توسط استاد پایان یافت",
+    "ar": "أنهى الأستاذ الصفّ"
+  },
+  "session.ended.forAll": {
+    "en": "Class ended for everyone",
+    "fa": "کلاس برای همه پایان یافت",
+    "ar": "انتهى الصفّ للجميع"
+  },
+  "session.ended.redirecting": {
+    "en": "Redirecting to live class list…",
+    "fa": "در حال انتقال به فهرست کلاس‌های زنده…",
+    "ar": "جارٍ الانتقال إلى قائمة الصفوف المباشرة…"
+  },
+  "session.film.emptyHint": {
+    "en": "As others join, each participant's tile will appear here.",
+    "fa": "با ورودِ دیگران، کاشیِ هرکس همین‌جا ظاهر می‌شود.",
+    "ar": "بانضمام الآخرين، تظهر بطاقة كلّ واحد منهم هنا."
+  },
+  "session.film.emptyTitle": {
+    "en": "No one has joined yet",
+    "fa": "هنوز کسی نپیوسته",
+    "ar": "لم ينضمّ أحد بعد"
+  },
+  "session.film.regionLabel": {
+    "en": "Participants",
+    "fa": "شرکت‌کنندگان",
+    "ar": "المشاركون"
+  },
+  "session.fs.enterLabel": {
+    "en": "Fullscreen ⛶",
+    "fa": "تمام‌صفحه ⛶",
+    "ar": "ملء الشاشة ⛶"
+  },
+  "session.jitsi.loadFailed": {
+    "en": "Failed to load video room. Check internet connection or Jitsi domain, or use the button below to open session in a new tab.",
+    "fa": "بارگذاری اتاق ویدیویی ممکن نشد. اتصال اینترنت یا دامنهٔ Jitsi را بررسی کنید، یا از دکمهٔ زیر برای باز کردن جلسه در زبانهٔ جدید استفاده کنید.",
+    "ar": "تعذّر تحميل غرفة الفيديو. تحقّق من اتصال الإنترنت أو نطاق Jitsi، أو استخدم الزرّ أدناه لفتح الجلسة في تبويب جديد."
+  },
+  "session.jitsi.openNewTab": {
+    "en": "Open session in new tab",
+    "fa": "باز کردن جلسه در زبانهٔ جدید",
+    "ar": "افتح الجلسة في تبويب جديد"
+  },
+  "session.media.retry": {
+    "en": "Retry",
+    "fa": "تلاش مجدد",
+    "ar": "أعد المحاولة"
+  },
+  "session.participant": {
+    "en": "Participant",
+    "fa": "شرکت‌کننده",
+    "ar": "مشارك"
+  },
+  "session.rec.durablePending": {
+    "en": "Segment is held safely in this browser, awaiting server commit.",
+    "fa": "بخشِ صادرشده در این مرورگر محفوظ است و هنوز در انتظار ثبت سرور است.",
+    "ar": "الجزء الصادر محفوظ في هذا المتصفّح وما زال بانتظار حفظه على الخادم."
+  },
+  "session.rec.durableServer": {
+    "en": "This segment is recorded on the server.",
+    "fa": "این بخش در سرور ثبت شده است.",
+    "ar": "حُفِظ هذا الجزء على الخادم."
+  },
+  "session.rec.durableUnprotected": {
+    "en": "Active segment is not yet protected; an unexpected crash may lose unsaved data.",
+    "fa": "بخشِ فعال هنوز محافظت‌شده نیست؛ خرابی ناگهانی ممکن است دادهٔ صادرنشده را از بین ببرد.",
+    "ar": "الجزء النشط غير محميّ بعد؛ قد يفقد التعطّل المفاجئ البيانات التي لم تُصدر."
+  },
+  "session.rec.recoveryAvailable": {
+    "en": "You have an uncommitted safe recording available for recovery.",
+    "fa": "یک ضبطِ محفوظِ ثبت‌نشده برای بازیابی دارید.",
+    "ar": "لديك تسجيل محفوظ لم يُسجَّل بعد ويمكن استعادته."
+  },
+  "session.rec.recoveryOpen": {
+    "en": "Recover recording",
+    "fa": "بازیابی ضبط",
+    "ar": "استعادة التسجيل"
+  },
+  "session.rec.retry": {
+    "en": "Try again",
+    "fa": "تلاش مجدد",
+    "ar": "إعادة المحاولة"
+  },
+  "session.rec.saveCta": {
+    "en": "Save to archive",
+    "fa": "ذخیره در آرشیو",
+    "ar": "الحفظ في الأرشيف"
+  },
+  "session.rec.saveFailed": {
+    "en": "Failed to save recording (code {code, number}). Please try again.",
+    "fa": "ذخیرهٔ ضبط ناموفق بود (کد {code, number}). دوباره تلاش کنید.",
+    "ar": "تعذّر حفظ التسجيل (الرمز {code, number}). أعد المحاولة."
+  },
+  "session.rec.saveMeta": {
+    "en": "File size: {size} MB · Duration: {clock}",
+    "fa": "حجم فایل: {size} مگابایت · مدت: {clock}",
+    "ar": "حجم الملفّ: {size} ميغابايت · المدّة: {clock}"
+  },
+  "session.rec.saveTitle": {
+    "en": "Save recording to archive?",
+    "fa": "ضبط در آرشیو ذخیره شود؟",
+    "ar": "هل يُحفظ التسجيل في الأرشيف؟"
+  },
+  "session.rec.startFailed": {
+    "en": "Failed to start recording. Please try again.",
+    "fa": "شروع ضبط ممکن نشد. دوباره تلاش کنید.",
+    "ar": "تعذّر بدء التسجيل. أعد المحاولة."
+  },
+  "session.rec.unsupportedRecorder": {
+    "en": "Your browser does not support video recording (MediaRecorder). Please use an up-to-date Chrome/Edge or desktop Firefox.",
+    "fa": "مرورگر شما ضبط ویدئو (MediaRecorder) را پشتیبانی نمی‌کند. از نسخهٔ به‌روز کروم/اج یا فایرفاکس دسکتاپ استفاده کنید.",
+    "ar": "متصفّحك لا يدعم تسجيل الفيديو (MediaRecorder). استخدم نسخة محدَّثة من كروم/إيدج أو فايرفوكس على سطح المكتب."
+  },
+  "session.rec.unsupportedScreen": {
+    "en": "Your browser does not support screen recording. Please use an up-to-date Chrome/Edge or desktop Firefox.",
+    "fa": "مرورگر شما ضبط صفحه را پشتیبانی نمی‌کند. از نسخهٔ به‌روز کروم/اج یا فایرفاکس دسکتاپ استفاده کنید.",
+    "ar": "متصفّحك لا يدعم تسجيل الشاشة. استخدم نسخة محدَّثة من كروم/إيدج أو فايرفوكس على سطح المكتب."
+  },
+  "session.rec.uploading": {
+    "en": "Uploading… {pct, number}%",
+    "fa": "در حال بارگذاری… {pct, number}٪",
+    "ar": "جارٍ الرفع… {pct, number}٪"
+  },
+  "session.soniox.exportDate": {
+    "en": "Export date: {date}",
+    "fa": "تاریخ دریافت: {date}",
+    "ar": "تاريخ التنزيل: {date}"
+  },
+  "session.soniox.exportHead": {
+    "en": "Live Translated Transcript — Session {id}",
+    "fa": "گفتگوی ترجمه‌شدهٔ زنده — جلسهٔ {id}",
+    "ar": "محادثة مترجَمة مباشرةً — جلسة {id}"
+  },
+  "session.soniox.group": {
+    "en": "Live Translation",
+    "fa": "ترجمهٔ زنده",
+    "ar": "الترجمة المباشرة"
+  },
+  "session.soniox.langSep": {
+    "en": ", ",
+    "fa": "، ",
+    "ar": "، "
+  },
+  "session.soniox.on": {
+    "en": "Live translation: On",
+    "fa": "ترجمهٔ زنده: روشن",
+    "ar": "الترجمة المباشرة: مشغَّلة"
+  },
+  "session.soniox.receiveOnly": {
+    "en": "Caption display mode: View speech of others without microphone",
+    "fa": "حالت نمایش زیرنویس: بدون میکروفون، گفتار دیگران را می‌بینید",
+    "ar": "وضع عرض الترجمة النصّيّة: ترى كلام الآخرين دون ميكروفون"
+  },
+  "session.soniox.saveFallback": {
+    "en": "Server save failed — saved locally instead",
+    "fa": "ذخیرهٔ نسخهٔ سرور ناموفق بود — نسخهٔ محلی ذخیره شد",
+    "ar": "تعذّر حفظ نسخة الخادم — حُفظت نسخة محلّيّة"
+  },
+  "session.soniox.stConnecting": {
+    "en": "Connecting…",
+    "fa": "در حال اتصال…",
+    "ar": "جارٍ الاتّصال…"
+  },
+  "session.soniox.stError": {
+    "en": "Error",
+    "fa": "خطا",
+    "ar": "خطأ"
+  },
+  "session.soniox.stMore": {
+    "en": " +{value, number}",
+    "fa": " +{value, number}",
+    "ar": " +{value, number}"
+  },
+  "session.soniox.stOn": {
+    "en": "On",
+    "fa": "روشن",
+    "ar": "مشغَّلة"
+  },
+  "session.soniox.stOnTargets": {
+    "en": "On · → {langs}",
+    "fa": "روشن · → {langs}",
+    "ar": "مشغَّلة · ← {langs}"
+  },
+  "session.soniox.stPaused": {
+    "en": "Paused (Muted)",
+    "fa": "متوقف (بی‌صدا)",
+    "ar": "متوقّفة (صامت)"
+  },
+  "session.soniox.stReceiveOnly": {
+    "en": "Display only (No mic)",
+    "fa": "فقط نمایش (بدون میکروفون)",
+    "ar": "عرض فقط (دون ميكروفون)"
+  },
+  "session.soniox.stReconnecting": {
+    "en": "Reconnecting…",
+    "fa": "اتصالِ مجدد…",
+    "ar": "إعادة الاتّصال…"
+  },
+  "session.soniox.stTranscribeOnly": {
+    "en": "On · Transcription only",
+    "fa": "روشن · فقط رونویسی",
+    "ar": "مشغَّلة · تفريغ فقط"
+  },
+  "session.soniox.turnOn": {
+    "en": "Turn on live translation",
+    "fa": "ترجمهٔ زنده — روشن کردن",
+    "ar": "الترجمة المباشرة — شغِّلها"
+  },
+  "session.soniox.unavailable": {
+    "en": "Live translation unavailable",
+    "fa": "ترجمهٔ زنده در دسترس نیست",
+    "ar": "الترجمة المباشرة غير متاحة"
+  },
+  "session.stage.whiteboard": {
+    "en": "Whiteboard",
+    "fa": "تخته",
+    "ar": "السبّورة"
+  },
+  "session.supervision.accept": {
+    "en": "Accept academic responsibility for class",
+    "fa": "پذیرش مسئولیت آموزشی کلاس",
+    "ar": "قبول المسؤولية التعليمية عن الصف"
+  },
+  "session.supervision.conflict": {
+    "en": "You are already responsible for another live class. Please end it first or delegate responsibility to an attending and authorized assistant.",
+    "fa": "شما هنوز مسئول کلاس زندهٔ دیگری هستید. ابتدا آن را پایان دهید یا مسئولیتش را به دستیار حاضر و مجاز بسپارید و پذیرش او را بگیرید.",
+    "ar": "ما زلت مسؤولًا عن صف مباشر آخر. أنهِه أولًا أو انقل مسؤوليته إلى مساعد حاضر ومخوّل بعد قبوله الصريح."
+  },
+  "session.supervision.returnFirst": {
+    "en": "Return to first class",
+    "fa": "بازگشت به کلاس نخست",
+    "ar": "العودة إلى الصف الأول"
+  },
+  "session.supervision.returnLobby": {
+    "en": "Return to pre-room",
+    "fa": "بازگشت به پیش‌اتاق",
+    "ar": "العودة إلى غرفة الانتظار"
+  },
+  "session.tile.quality.connecting": {
+    "en": "Reconnecting",
+    "fa": "در حال اتصالِ مجدد",
+    "ar": "جارٍ إعادة الاتصال"
+  },
+  "session.tile.quality.fair": {
+    "en": "Connection quality: Fair",
+    "fa": "کیفیتِ اتصال: متوسط",
+    "ar": "جودة الاتصال: متوسّطة"
+  },
+  "session.tile.quality.good": {
+    "en": "Connection quality: Good",
+    "fa": "کیفیتِ اتصال: خوب",
+    "ar": "جودة الاتصال: جيّدة"
+  },
+  "session.tile.quality.poor": {
+    "en": "Connection quality: Poor",
+    "fa": "کیفیتِ اتصال: ضعیف",
+    "ar": "جودة الاتصال: ضعيفة"
+  },
+  "session.tile.quality.unknown": {
+    "en": "Connection quality: Unknown",
+    "fa": "کیفیتِ اتصال: نامعلوم",
+    "ar": "جودة الاتصال: غير معروفة"
+  },
+  "session.toast.left": {
+    "en": "{name} left",
+    "fa": "{name} خارج شد",
+    "ar": "خرج {name}"
+  },
+  "session.toast.recStarted": {
+    "en": "Recording started",
+    "fa": "ضبط آغاز شد",
+    "ar": "بدأ التسجيل"
+  },
+  "session.toast.recStopped": {
+    "en": "Recording stopped",
+    "fa": "ضبط متوقف شد",
+    "ar": "توقّف التسجيل"
+  },
+  "session.toolbar.endClass": {
+    "en": "End Class",
+    "fa": "پایان کلاس",
+    "ar": "إنهاء الصفّ"
+  },
+  "session.toolbar.endClassShort": {
+    "en": "End",
+    "fa": "پایان",
+    "ar": "إنهاء"
+  },
+  "session.toolbar.handShort": {
+    "en": "Hand",
+    "fa": "دست",
+    "ar": "اليد"
+  },
+  "session.toolbar.langEn": {
+    "en": "Language: English",
+    "fa": "زبان: English",
+    "ar": "اللغة: English"
+  },
+  "session.toolbar.langFa": {
+    "en": "Language: Persian",
+    "fa": "زبان: فارسی",
+    "ar": "اللغة: الفارسيّة"
+  },
+  "session.toolbar.moreLabel": {
+    "en": "More controls",
+    "fa": "کنترل‌های بیشتر",
+    "ar": "عناصر تحكّم إضافيّة"
+  },
+  "session.toolbar.panel": {
+    "en": "Chat & People",
+    "fa": "گفتگو و افراد",
+    "ar": "المحادثة والأشخاص"
+  },
+  "session.toolbar.panelShort": {
+    "en": "Chat",
+    "fa": "گفتگو",
+    "ar": "المحادثة"
+  },
+  "session.toolbar.raiseHand": {
+    "en": "Raise Hand",
+    "fa": "بالا بردن دست",
+    "ar": "رفع اليد"
+  },
+  "session.toolbar.sendReaction": {
+    "en": "Send reaction {emoji}",
+    "fa": "ارسال واکنش {emoji}",
+    "ar": "أرسِل التفاعل {emoji}"
+  },
+  "session.toolbar.shareShort": {
+    "en": "Share",
+    "fa": "اشتراک",
+    "ar": "مشاركة"
+  },
+  "session.topbar.recStart": {
+    "en": "Start recording",
+    "fa": "شروع ضبط",
+    "ar": "ابدأ التسجيل"
+  },
+  "session.topbar.recStop": {
+    "en": "Stop recording",
+    "fa": "توقف ضبط",
+    "ar": "أوقِف التسجيل"
+  },
+  "tables.select.selected": {
+    "en": "Your table",
+    "fa": "میز شما",
+    "ar": "طاولتك"
+  },
+  "tables.select.title": {
+    "en": "Select Table",
+    "fa": "انتخاب میز",
+    "ar": "اختيار طاولة"
+  },
+  "tables.selection.close": {
+    "en": "Close student selection",
+    "fa": "بستن انتخاب دانشجو",
+    "ar": "إغلاق اختيار الطلاب"
+  },
+  "tables.selection.open": {
+    "en": "Open student selection",
+    "fa": "بازکردن انتخاب دانشجو",
+    "ar": "فتح اختيار الطلاب"
+  },
+  "tables.startHint": {
+    "en": "At least one table with members is required.",
+    "fa": "دست‌کم یک میزِ دارای عضو لازم است.",
+    "ar": "يلزم وجود طاولة واحدة على الأقل فيها أعضاء."
+  },
+  "tables.timeUp": {
+    "en": "Table time has ended; everyone returned to the main class.",
+    "fa": "زمانِ میزها تمام شد؛ همه به کلاسِ اصلی برگشتند.",
+    "ar": "انتهى وقت الطاولات؛ عاد الجميع إلى الصفّ الرئيسي."
+  },
+  "tables.transcriptConsentAccept": {
+    "en": "Consent to table audio recording",
+    "fa": "رضایت به ثبت صوت میز",
+    "ar": "الموافقة على حفظ صوت الطاولة"
+  },
+  "tables.transcriptConsentProgress": {
+    "en": "Voice transcript consent: {accepted} of {total}",
+    "fa": "رضایت رونوشت صوتی: {accepted} از {total}",
+    "ar": "موافقات نصّ الصوت: {accepted} من {total}"
+  },
+  "tables.transcriptConsentUnavailable": {
+    "en": "Table transcript consent status is unavailable.",
+    "fa": "وضعیت رضایت رونوشت میز در دسترس نیست.",
+    "ar": "حالة موافقة نصّ الطاولة غير متاحة."
+  },
+  "tables.transcriptConsentWithdraw": {
+    "en": "Withdraw consent",
+    "fa": "پس‌گرفتن رضایت",
+    "ar": "سحب الموافقة"
+  },
+  "tables.transcriptDurableEnabled": {
+    "en": "Persistent recording is active only with everyone's consent.",
+    "fa": "ثبت ماندگار فقط با رضایت همه فعال است.",
+    "ar": "لا يبدأ الحفظ الدائم إلا بعد موافقة الجميع."
+  },
+  "tables.transcriptQuarantined": {
+    "en": "This table's transcript is quarantined for safe recreation.",
+    "fa": "رونوشت این میز برای بازسازی امن قرنطینه شده است.",
+    "ar": "عُزل نصّ هذه الطاولة إلى أن يُعاد إنشاؤه بأمان."
+  },
+  "tables.transcriptWithdrawalReason": {
+    "en": "Reason for withdrawing consent",
+    "fa": "دلیل پس‌گرفتن رضایت",
+    "ar": "سبب سحب الموافقة"
+  },
+  "tables.visit.join": {
+    "en": "Join",
+    "fa": "پیوستن",
+    "ar": "انضمام"
+  },
+  "tables.visit.joined": {
+    "en": "You are at \"{name}\"",
+    "fa": "در «{name}» هستید",
+    "ar": "أنت في «{name}»"
+  },
+  "tables.visit.leave": {
+    "en": "Return to main class",
+    "fa": "بازگشت به کلاسِ اصلی",
+    "ar": "العودة إلى الصفّ الرئيسي"
+  },
+  "tables.visit.peek": {
+    "en": "Listen quietly",
+    "fa": "شنیدنِ بی‌صدا",
+    "ar": "استماع صامت"
+  },
+  "tables.visit.peeking": {
+    "en": "Listening to \"{name}\"",
+    "fa": "در حالِ شنیدنِ «{name}»",
+    "ar": "تستمع الآن إلى «{name}»"
+  },
+  "tables.you.assigned": {
+    "en": "You are at \"{name}\"",
+    "fa": "شما در «{name}» هستید",
+    "ar": "أنت في «{name}»"
+  },
+  "tables.you.unassigned": {
+    "en": "You have not been assigned to a table yet.",
+    "fa": "هنوز به میزی فرستاده نشده‌اید.",
+    "ar": "لم تُرسَل إلى أيّ طاولة بعد."
+  },
+  "tables.you.waiting": {
+    "en": "Table work has not started yet.",
+    "fa": "کار در میزها هنوز شروع نشده است.",
+    "ar": "لم يبدأ العمل على الطاولات بعد."
+  }
+}

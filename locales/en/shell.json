@@ -944,5 +944,6 @@
     "helpTitle": "All Tools Guide",
     "help": "This page is a shortcut to all sections of your workspace. Click any card to go to that section, or use the box above to quickly search for a tool.",
     "empty": "No tools found matching \"{query}\"."
-  }
+  },
+  "assistantUnavailable": "Assistant temporarily failed to load; course page remains accessible."
 }

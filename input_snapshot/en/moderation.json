@@ -1,0 +1,372 @@
+{
+  "title": {
+    "queue": "Moderation Queue",
+    "community": "Community Moderation",
+    "rules": "Automated Rules",
+    "log": "Action Log"
+  },
+  "common": {
+    "refresh": "Refresh",
+    "loading": "Loading…",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "confirm": "Confirm",
+    "empty": "No items found.",
+    "loadError": "Failed to load.",
+    "actionError": "Action failed.",
+    "prev": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {pages}"
+  },
+  "queue": {
+    "page": {
+      "eyebrow": "Moderator · Content Moderation Desk",
+      "lead": "User reports and automated rule flags pooled into a single queue with deadlines. Claim an item, review the context, and make a decision; the decision is executed immediately and the author is notified.",
+      "helpTitle": "Moderation Queue Help",
+      "help": "Use views and filters to narrow down the queue and sort by the nearest deadline. \"Claim\" assigns the report to you so two moderators don't work on the same item simultaneously. Decisions on reports you submitted or content you authored must be handled by another moderator."
+    },
+    "kpi": {
+      "open": "Open",
+      "breached": "Overdue",
+      "escalated": "Escalated",
+      "mine": "Assigned to me",
+      "unassigned": "Unassigned",
+      "filtered": "Filtered",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    },
+    "viewsLabel": "Queue View",
+    "view": {
+      "open": "Open",
+      "mine": "Assigned to me",
+      "unassigned": "Unassigned",
+      "escalated": "Escalated",
+      "breached": "Overdue",
+      "decided": "Closed",
+      "all": "All"
+    },
+    "filter": {
+      "contentType": "Content Type",
+      "source": "Source",
+      "severity": "Severity",
+      "status": "Status",
+      "any": "All",
+      "post": "Post",
+      "comment": "Reply",
+      "message": "Message",
+      "profile": "Profile",
+      "other": "Other",
+      "community": "Post & Reply",
+      "user": "User Report",
+      "auto": "Automated Rule Flag",
+      "search": "Search content or reason…"
+    },
+    "sort": {
+      "label": "Sort by",
+      "due": "Closest deadline",
+      "age": "Oldest"
+    },
+    "col": {
+      "content": "Content",
+      "reason": "Reason",
+      "severity": "Severity",
+      "age": "Age",
+      "due": "Deadline",
+      "assignee": "Assignee",
+      "status": "Status"
+    },
+    "severity": {
+      "low": "Low",
+      "normal": "Normal",
+      "high": "High"
+    },
+    "status": {
+      "PENDING": "Pending",
+      "RESOLVED": "Resolved",
+      "DISMISSED": "Dismissed"
+    },
+    "age": {
+      "minutes": "{count, plural, one {# minute} other {# minutes}}",
+      "hours": "{count, plural, one {# hour} other {# hours}}",
+      "days": "{count, plural, one {# day} other {# days}}"
+    },
+    "ago": "{age} ago",
+    "reportedAt": "Reported on {date}",
+    "dueAt": "Due: {date}",
+    "sla": {
+      "onTime": "On time",
+      "dueSoon": "Due soon",
+      "breached": "Overdue",
+      "decided": "Closed"
+    },
+    "siblings": "{count, plural, one {# report for this content} other {# reports for this content}}",
+    "contentGone": "This content is no longer visible in the community.",
+    "autoFlag": "Flagged by rule \"{rule}\"",
+    "suggested": "Rule suggestion: {action}",
+    "escalatedBadge": "Escalated to senior admin",
+    "claim": "Claim",
+    "release": "Release",
+    "assign": "Assign...",
+    "claimedBy": "Claimed by {name}",
+    "claimedByMe": "Claimed by you",
+    "noAssignee": "Unassigned",
+    "assignTitle": "Assign report",
+    "assignPick": "Select moderator",
+    "review": "Review and decide",
+    "quickActions": "Quick actions",
+    "emptyOpen": "The queue is empty; no open reports to review.",
+    "emptyFilter": "No items found matching these filters."
+  },
+  "community": {
+    "page": {
+      "eyebrow": "Moderator · Discussion community",
+      "lead": "The same moderation queue, limited to community discussions and replies. Review each item and close it with a quick action — hide, remove, warn, or dismiss.",
+      "helpTitle": "Community moderation guide",
+      "help": "This queue shows reports and flags related to the community. You can also view reported messages and profiles using the content type filter. Hiding and removing actually removes the content from the community and can be restored from the action history."
+    }
+  },
+  "decision": {
+    "title": "Report decision",
+    "action": {
+      "ignore": {
+        "label": "Dismiss",
+        "hint": "The report is closed; the content and author's account remain untouched."
+      },
+      "hide": {
+        "label": "Hide",
+        "hint": "The content is hidden from the community and can be restored by any moderator. A notification is sent to the author."
+      },
+      "remove": {
+        "label": "Remove",
+        "hint": "The content is removed from the community and can only be restored by an administrator. A notification is sent to the author."
+      },
+      "warn": {
+        "label": "Warn author",
+        "hint": "An official warning is logged in the author's history and a notification is sent to them."
+      },
+      "restrict": {
+        "label": "Temporary posting restriction",
+        "hint": "The author cannot write discussions or replies in the community until the selected period ends."
+      },
+      "escalate": {
+        "label": "Escalate to senior admin",
+        "hint": "The report remains open and only an administrator can decide on it."
+      }
+    },
+    "warnAuthor": "Also warn the author",
+    "restrictFor": "Restriction duration",
+    "duration": {
+      "d1": "One day",
+      "d3": "Three days",
+      "d7": "One week",
+      "d30": "One month"
+    },
+    "note": "Note (optional)",
+    "submit": "Submit decision",
+    "noTarget": "This report is not attached to a specific community content; hide and remove are unavailable.",
+    "noAuthor": "The author of this content is unknown; warnings and restrictions are not available.",
+    "selfBlocked": "You are the reporter or author of this content; the decision belongs to another moderator.",
+    "escalatedBlocked": "This report has been escalated; only an administrator can decide.",
+    "alreadyClosed": "This report has already been closed; no new decision can be recorded.",
+    "choose": "Choose a decision",
+    "done": {
+      "ignore": "Report closed.",
+      "hide": "Content hidden.",
+      "remove": "Content removed.",
+      "warn": "Warning recorded and notified to the author.",
+      "restrict": "Posting restriction recorded until {until}.",
+      "escalate": "Report escalated to senior administrator.",
+      "alreadyGone": "Decision recorded; the author had already deleted the content."
+    }
+  },
+  "context": {
+    "messageOnly": "Review access is restricted only to this reported message.",
+    "reportSnapshot": "Text recorded at the time of report",
+    "migrationSnapshot": "This report is old; the text below was recorded when migrating to the review queue.",
+    "currentMessage": "Current message text after editing",
+    "loadAttachment": "View reported attachment",
+    "downloadAttachment": "Download attachment",
+    "title": "Behind this content",
+    "author": "Author",
+    "reporter": "Reporter",
+    "autoReporter": "Automated rule",
+    "noAuthor": "The author of this content is unknown or no longer available.",
+    "joined": "Member since {date}",
+    "stats": {
+      "threads": "{count, plural, one {# discussion} other {# discussions}}",
+      "replies": "{count, plural, one {# reply} other {# replies}}",
+      "votes": "{count, plural, one {# vote} other {# votes}}",
+      "filed": "{count, plural, one {# filed report} other {# filed reports}}",
+      "against": "{count, plural, one {# report against this user} other {# reports against this user}}"
+    },
+    "warnings": "{count, plural, one {# warning} other {# warnings}}",
+    "activeRestriction": "Active restriction until {until}",
+    "noRestriction": "No active restrictions",
+    "lift": "Lift restriction",
+    "viewInCommunity": "View in community"
+  },
+  "rules": {
+    "page": {
+      "eyebrow": "Moderator · Automated moderation",
+      "lead": "Rules evaluate new community content and only flag it in the moderation queue for human decision-making upon violations.",
+      "helpTitle": "Automated rules guide",
+      "help": "Three types of rules are evaluated: keyword, posting velocity, and report threshold. The 'Suggested action' is only shown to the moderator in the queue and is never executed automatically. Use 'Test rule' before saving to check whether a rule flags sample text."
+    },
+    "flagOnlyNotice": "Rules only flag items for the moderator. No content is hidden or removed automatically, and no users are restricted automatically.",
+    "new": "New rule",
+    "edit": "Edit rule",
+    "delete": "Delete rule",
+    "deleteConfirm": "Delete this rule? Existing flags will remain in the queue.",
+    "search": "Search by name or condition...",
+    "allTypes": "All types",
+    "emptyAll": "No rules have been defined yet.",
+    "emptyFilter": "No rules found matching this filter.",
+    "toggleLabel": "Enable or disable rule \"{name}\"",
+    "createdAt": "Created on {date}",
+    "kpi": {
+      "total": "Total rules",
+      "active": "Active rules",
+      "hits": "Total hits"
+    },
+    "state": {
+      "on": "Active",
+      "off": "Inactive"
+    },
+    "col": {
+      "name": "Name",
+      "type": "Type",
+      "condition": "Condition",
+      "suggested": "Suggested action",
+      "hits": "Hits",
+      "lastHit": "Last hit",
+      "active": "Active"
+    },
+    "type": {
+      "keyword": "Keyword",
+      "rate_limit": "Rate limit",
+      "report_threshold": "Report threshold",
+      "auto_action": "Legacy"
+    },
+    "summary": {
+      "keyword": "{count, plural, one {# keyword} other {# keywords}}",
+      "rate": "More than {max} submissions in {seconds} seconds",
+      "threshold": "{min} separate reports in {hours} hours",
+      "thresholdAny": "{min} separate reports"
+    },
+    "legacy": "Text condition; not evaluated",
+    "legacyHint": "This rule was created before the evaluation engine and has no structured condition. Redefine the condition to enable it.",
+    "hitsNone": "None recorded",
+    "suggestedAction": {
+      "flag": "Flag only",
+      "hide": "Hide",
+      "warn": "Warn",
+      "block": "Restrict submission"
+    },
+    "form": {
+      "name": "Name",
+      "type": "Type",
+      "description": "Description (optional)",
+      "keywords": "Keywords — one per line",
+      "keywordsHint": "Both Persian and Arabic are accepted; diacritics, \"ي/ی\", \"ك/ک\", and zero-width non-joiners are treated as identical.",
+      "match": "Matching method",
+      "matchWord": "Whole word",
+      "matchSubstring": "Anywhere in text",
+      "severity": "Flag severity",
+      "maxPosts": "Max posts",
+      "windowSeconds": "Window (seconds)",
+      "minReports": "Min distinct reporters",
+      "windowHours": "Window (hours)",
+      "targets": "Apply to",
+      "suggested": "Suggested action for moderator",
+      "suggestedHint": "This is only a suggestion for the moderator; the engine never executes it automatically.",
+      "active": "Active",
+      "errKeywords": "Enter at least one valid keyword (one per line).",
+      "errTargets": "Select at least one of \"Discussion\" or \"Reply\".",
+      "errNumber": "Enter a positive integer within the allowed range.",
+      "errName": "Name must be between 2 and 160 characters.",
+      "errCondition": "Condition or description must be at least 2 characters."
+    },
+    "test": {
+      "title": "Rule test",
+      "placeholder": "Type text to see if the rule triggers a flag",
+      "run": "Test",
+      "hit": "Flagged: {matched}",
+      "miss": "Not flagged"
+    }
+  },
+  "log": {
+    "page": {
+      "eyebrow": "Monitor · Moderation Transparency",
+      "lead": "Every moderation decision — hide, delete, warning, restriction, and restore — is recorded in this log with the actor, timestamp, and note. Reversible actions can be undone right here.",
+      "helpTitle": "Action History Guide",
+      "help": "The \"Actions\" tab is the moderation engine's action log and includes a restore button; the \"Report History\" tab shows closed reports with search and filtering. Tap any row to view details."
+    },
+    "legacyNote": "Reports closed prior to the moderation engine are only visible in the \"Report History\" tab.",
+    "searchActions": "Search actions...",
+    "filterKind": "Action type",
+    "allKinds": "All actions",
+    "filters": "Filters",
+    "clearFilters": "Clear filters",
+    "search": "Search content, reason, or note...",
+    "searchClear": "Clear search",
+    "filterStatus": "Status filter",
+    "allStatuses": "All statuses",
+    "filterResolution": "Resolution filter",
+    "allResolutions": "All resolutions",
+    "emptyActions": "No actions recorded yet.",
+    "emptyHistory": "No reports have been closed yet.",
+    "emptyFilter": "No items found matching these filters.",
+    "count": "{count, plural, one {# item} other {# items}}",
+    "col": {
+      "when": "Time",
+      "actor": "Actor",
+      "kind": "Action",
+      "target": "User",
+      "content": "Content",
+      "note": "Note",
+      "state": "Status"
+    },
+    "kind": {
+      "dismiss": "Dismiss",
+      "escalate": "Escalate",
+      "hide": "Hide",
+      "remove": "Remove",
+      "restore": "Restore",
+      "warn": "Warn",
+      "warning_revoke": "Revoke warning",
+      "restrict": "Restrict posting",
+      "restriction_lift": "Lift restriction"
+    },
+    "tab": {
+      "actions": "Actions",
+      "history": "Report history"
+    },
+    "kpi": {
+      "total": "Closed reports",
+      "removed": "Removed content",
+      "today": "Today's decisions",
+      "actions": "Recorded actions"
+    },
+    "revert": "Restore",
+    "reverted": "Reverted on {date}",
+    "revertConfirm": "Do you want to revert this action? The author will be notified.",
+    "revertDone": {
+      "restored": "Content restored.",
+      "revoked": "Warning revoked.",
+      "lifted": "Restriction lifted."
+    },
+    "history": {
+      "when": "Time",
+      "type": "Content type",
+      "reason": "Reason",
+      "resolution": "Resolution",
+      "detailTitle": "Report details",
+      "reportedAt": "Reported on {date}",
+      "decidedAt": "Decided on {date}",
+      "noNote": "No notes recorded.",
+      "filterByThis": "Show reports with this resolution"
+    }
+  }
+}

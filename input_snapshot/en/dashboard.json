@@ -1,0 +1,549 @@
+{
+  "actions": {
+    "concept": {
+      "label": "Suggested concept",
+      "sub": "18 min · 3 short exercises",
+      "title": "Matrix derivative"
+    },
+    "group": {
+      "label": "Study group",
+      "sub": "Tomorrow 20:30",
+      "title": "With Ali and Sara"
+    },
+    "quiz": {
+      "label": "Makeup quiz",
+      "sub": "8 adaptive questions",
+      "title": "Optimization · Level 2"
+    },
+    "review": {
+      "label": "Suggested review",
+      "sub": "Unclear concept logged",
+      "title": "Session 5 from minute 22"
+    }
+  },
+  "activity": {
+    "clustering": {
+      "label": "In-class question clustering",
+      "value": "2"
+    },
+    "events": {
+      "label": "Logged learning events",
+      "value": "234"
+    },
+    "semantic": {
+      "label": "Semantic search",
+      "value": "9"
+    },
+    "title": "System activity · Last 24 hours",
+    "tutor": {
+      "label": "AI Tutor response",
+      "value": "18"
+    }
+  },
+  "bm": {
+    "count": "{value, number} saved item",
+    "countMore": "{value, number} saved items+",
+    "emptyList": "You haven't saved anything yet.",
+    "error": "Error",
+    "eyebrow": "Saved items",
+    "helpBody": "Anything you mark with the \"Save\" button—chat messages, library resources, experiments, and links—gathers here. Filter by type using the tabs above, search in the search box, and click any item to go to its address.",
+    "helpTitle": "Saved Items Guide",
+    "loadFailed": "Failed to load saved items.",
+    "loadMore": "Show more items",
+    "loadMoreFailed": "Failed to load more items.",
+    "loading": "Loading…",
+    "loadingList": "Loading saved items…",
+    "meta": {
+      "chat_message": "Message",
+      "lab": "Lab",
+      "lesson": "Lesson",
+      "library": "Library",
+      "link": "Link"
+    },
+    "removeAria": "Remove from saved items: {title}",
+    "removeFailed": "Removal failed. Try again.",
+    "removeTitle": "Remove from saved",
+    "removed": "Removed",
+    "removedMsg": "Removed from \"Saved\".",
+    "retry": "Retry",
+    "searchAria": "Search saved items",
+    "searchPlaceholder": "Search saved items — title or note",
+    "title": "Saved and Favorites",
+    "type": {
+      "all": "All",
+      "chat_message": "Messages",
+      "lab": "Lab",
+      "lesson": "Lessons",
+      "library": "Library",
+      "link": "Links"
+    },
+    "untitled": "(Untitled)"
+  },
+  "cognitive": {
+    "and": "and",
+    "badge": "Cognitive Profile · Live",
+    "bodyLead": "Based on 234 interactions in the last 12 classes, your cognitive profile has been updated. The model observes that in",
+    "bodyMid": "you are strong, but in",
+    "bodyTail": "you have room for growth.",
+    "growthArea": "applied mathematics",
+    "strengthOne": "coding",
+    "strengthTwo": "persistence",
+    "title": "Your Cognitive Map"
+  },
+  "courses": {
+    "capacityLine": "{used, number} of {cap, number} capacity · {credits, number} credits",
+    "cohortSuffix": " · Cohort: {name}",
+    "confirm": {
+      "withdraw": {
+        "body": "You are withdrawing from the course \"{title}\". After withdrawal, your enrollment in this course will be deactivated, and its effect on your grade/tuition will be calculated according to educational regulations; you must re-enroll to return.",
+        "cta": "Withdraw from course",
+        "title": "Withdraw from course"
+      }
+    },
+    "day": {
+      "0": "Saturday",
+      "1": "Sunday",
+      "2": "Monday",
+      "3": "Tuesday",
+      "4": "Wednesday",
+      "5": "Thursday",
+      "6": "Friday"
+    },
+    "deletedCourse": "(Deleted course)",
+    "deletedEnrollment": "(Deleted enrollment)",
+    "enrolledAt": "Enrolled: {date}",
+    "errUnknown": "Unknown error",
+    "errorTitle": "Error",
+    "groupSuffix": " · Group {value, number}",
+    "loading": "Loading from API...",
+    "open": "View course",
+    "scheduleNone": "No schedule specified",
+    "sectionStatus": {
+      "CANCELED": "Canceled",
+      "CLOSED": "Closed",
+      "OPEN": "Open"
+    },
+    "signIn": {
+      "cta": "Sign in",
+      "title": "Sign in to view your courses"
+    },
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "dropped": "Dropped",
+      "inactive": "Inactive",
+      "withdrawn": "Withdrawn"
+    },
+    "student": {
+      "catalogCta": "View catalog",
+      "empty": "You are not enrolled in any courses yet.",
+      "eyebrow": "My Enrollments",
+      "helpBody": "All the courses you are enrolled in are listed here. You can open any course or withdraw from an active course.",
+      "helpTitle": "My Courses Help",
+      "intro": "Every course you are enrolled in is listed here. You can withdraw from an active course; its status will change to \"{status}\".",
+      "title": "My Courses"
+    },
+    "teach": {
+      "empty": "No classes have been assigned to you yet. Once assigned by the department head, your classes will appear here.",
+      "eyebrow": "My Teaching",
+      "gradebook": "Gradebook",
+      "grades": "Enter Grades",
+      "helpBody": "This list shows the classes you teach (not the courses you are enrolled in as a student). Instructor assignments are managed by the department head; if you do not see a class, no class has been assigned to you yet. Click \"Grading Queue\" to grade submissions, or \"Enter Grades\" to submit final grades.",
+      "helpTitle": "My Courses Help (Instructor)",
+      "hub": "Course Hub",
+      "intro": "The classes assigned to you are listed here. From each class, you can access the gradebook, student roster, grade entry, and grading queue.",
+      "queue": "Grading Queue",
+      "roster": "Students",
+      "statCredits": "Total Credits",
+      "statSections": "My Classes",
+      "statStudents": "Students",
+      "title": "My Courses"
+    },
+    "thisCourse": "This course",
+    "withdraw": "Withdraw",
+    "withdrawnToast": "Withdrawal recorded"
+  },
+  "credentials": {
+    "all": "All ←",
+    "bayes": {
+      "date": "February 14, 2026",
+      "sub": "20 modules · 84% mastery",
+      "title": "Applied Bayesian Statistics"
+    },
+    "db": {
+      "date": "December 31, 2025",
+      "sub": "18 modules · 88% mastery",
+      "title": "Advanced Database"
+    },
+    "ml": {
+      "date": "March 8, 2026",
+      "sub": "24 modules · 92% mastery",
+      "title": "Machine Learning Fundamentals"
+    },
+    "title": "Recent Certificates"
+  },
+  "greet": {
+    "fallback": "Welcome",
+    "focus": "optimization",
+    "headlineLead": ", today focus on ",
+    "headlineTail": ".",
+    "hello": "Hello {name}",
+    "idPrefix": " · ID ",
+    "inboxAria": "Notifications Inbox",
+    "inboxTitle": "Notifications",
+    "joinNextClass": "Join Next Class",
+    "panelPrefix": "Panel ",
+    "roleStudent": "Student",
+    "summary": "3 open tasks · Next session in 90 minutes · Cognitive profile updated."
+  },
+  "help": {
+    "body": "This dashboard provides a summary of your academic status: open tasks, the next session, cognitive profile, and recent certificates. Use the \"Join Next Class\" button to enter the live class and view the weekly schedule with \"Full Calendar\".",
+    "title": "Dashboard Guide"
+  },
+  "instructor": {
+    "allSections": "All My Classes",
+    "atRisk": {
+      "absences": "{absences, number} absence out of {total, number} sessions",
+      "note": "This list is a flag only — course withdrawal/failing grade is decided by the instructor/commission and is never applied automatically.",
+      "title": "Students Nearing the Absence Limit"
+    },
+    "distTitle": "Final Grade Distribution ({value, number} grades)",
+    "empty": "No classes have been assigned to you yet. Once assigned by the head of the department, classes will appear here.",
+    "grades": "Enter Grades",
+    "helpBody": "The classes assigned to you are listed here — along with the weekly schedule, capacity, and number of enrolled students. Click \"Enter Grades\" to submit grades, \"Gradebook\" for the gradebook, and \"Live Class\" to hold a class. If you don't see any classes, instructor assignments are handled by the head of the department.",
+    "helpTitle": "Instructor Dashboard Guide",
+    "hub": "Course Hub",
+    "kpi": {
+      "atRisk": "At-Risk Attendance",
+      "capacity": "Total Capacity",
+      "queue": "Grading Queue",
+      "sections": "My Classes",
+      "students": "Students",
+      "today": "Class Today"
+    },
+    "liveClass": "Live Class",
+    "nudge": {
+      "atRisk": "{value, number} student is near the absence regulation limit | {value, number} students are near the absence regulation limit",
+      "atRiskCta": "Review Attendance",
+      "queue": "{value, number} item waiting for you in the grading queue | {value, number} items waiting for you in the grading queue",
+      "queueCta": "Go to Grading Queue"
+    },
+    "quick": {
+      "assessmentBuilder": "Assessment Builder",
+      "attendance": "Attendance",
+      "gradeSubmission": "Submit Grades",
+      "gradebook": "Gradebook",
+      "gradingQueue": "Assignment Grading Queue",
+      "liveClass": "Live Class",
+      "myCourses": "My Courses",
+      "payroll": "Payroll"
+    },
+    "roster": "Students",
+    "subtitle": "Your classes for the current semester · Live data",
+    "title": "Instructor Dashboard",
+    "todayTitle": "Today's Classes ({day})"
+  },
+  "kit": {
+    "errLoad": "Failed to load dashboard",
+    "quickLinks": "Quick Links"
+  },
+  "kpi": {
+    "courses": {
+      "label": "Active Courses",
+      "trend": "2 today",
+      "value": "4"
+    },
+    "hours": {
+      "label": "Learning Hours · Week",
+      "trend": "+ 1.8h",
+      "value": "12.4"
+    },
+    "mastery": {
+      "label": "Average Mastery",
+      "trend": "+ 4.2",
+      "unit": "%",
+      "value": "78"
+    },
+    "risk": {
+      "label": "At-Risk Rate",
+      "trend": "Low",
+      "value": "0.12"
+    }
+  },
+  "notif": {
+    "allRead": "All notifications have been read",
+    "emptyAll": "You have no notifications yet.",
+    "emptyUnread": "You have no unread notifications.",
+    "eyebrow": "Notifications",
+    "helpBody": "All your notifications are gathered here. Clicking any notification marks it as read and takes you to the related page. Use the \"Unread\" tab to see only new notifications, and use the button at the top of the page to mark all as read at once.",
+    "helpTitle": "Notification Center Guide",
+    "loadFailed": "Failed to load notifications.",
+    "loading": "Loading…",
+    "markAll": "Mark all as read",
+    "retry": "Retry",
+    "settings": "Settings",
+    "tab": {
+      "all": "All",
+      "unread": "Unread"
+    },
+    "tabCount": " ({value, number})",
+    "title": "Notification Inbox",
+    "unreadLead": "{value, number} unread notification"
+  },
+  "org": {
+    "title": "Organization Dashboard",
+    "subtitle": "Overview · Live data",
+    "kpi": {
+      "activeMembers": "Active Organization Members",
+      "seatsUsed": "Assigned Seats",
+      "seatCap": "Total Contract Seats",
+      "overdueInvoices": "Overdue Invoices",
+      "catalogCourses": "Catalog Courses",
+      "activeEnrollments": "Active Enrollments (All Courses)",
+      "programs": "Study Programs",
+      "currentTerm": "Current Term"
+    },
+    "help": {
+      "title": "Organization Dashboard Guide",
+      "body": "This page provides an overview of your organization: active members, assigned seats, and overdue invoices, alongside current term courses and study programs. A value shown as “—” means it has not yet been registered in the system — for instance, until the finance department registers the contract seat limit, “Total Contract Seats” will show no number."
+    },
+    "links": {
+      "seats": "Seats",
+      "invoices": "Organization Invoices",
+      "catalog": "Course Catalog",
+      "inbox": "Notifications",
+      "settings": "Settings"
+    }
+  },
+  "progress": {
+    "band": {
+      "high": "High",
+      "low": "Low",
+      "medium": "Medium"
+    },
+    "courses": {
+      "active": "Active",
+      "completed": "Completed",
+      "dropped": "Dropped",
+      "title": "My Courses",
+      "untitled": "Untitled"
+    },
+    "event": {
+      "ai_summary_viewed": "Viewed AI Summary",
+      "ai_tutor_asked": "Asked AI Tutor",
+      "assignment_submitted": "Submitted Assignment",
+      "class_joined": "Joined Class",
+      "class_left": "Left Class",
+      "confusion_reported": "Reported Confusion",
+      "course_opened": "Opened Course",
+      "lesson_completed": "Completed Lesson",
+      "lesson_opened": "Open lesson",
+      "quiz_started": "Start quiz",
+      "quiz_submitted": "Submit quiz",
+      "submission_graded": "Graded",
+      "video_paused": "Pause video",
+      "video_played": "Play video"
+    },
+    "eyebrow": "Live progress · Real-time data",
+    "feed": {
+      "ai": "AI Assistant",
+      "all": "All",
+      "class": "Class",
+      "empty": "No events recorded yet. To get started, join a class or submit a quiz.",
+      "emptyFiltered": "No events found in this category.",
+      "learning": "Learning"
+    },
+    "feedTitle": "Recent Activity",
+    "helpBody": "This page provides a real-time summary of your academic status: average grade, active and completed courses, class attendance, and AI assistant interactions. The \"Next Steps\" section shows recommended tasks, and \"Shortcuts\" let you jump directly to course registration, transcripts, and other pages.",
+    "helpTitle": "Dashboard Guide",
+    "introAfter": "is read. Enrollments, class attendance, quiz submissions, and AI assistant usage are all saved as events.",
+    "introBefore": "Every figure on this page comes directly from",
+    "kpi": {
+      "activeCourses": "Active Courses",
+      "activeCoursesHint": "Out of {value, number} total enrollments",
+      "ai": "AI Interactions",
+      "aiHint": "Assistant requests",
+      "aiQuota": "AI Message Quota",
+      "aiQuotaHint": "Plan {plan}",
+      "aiQuotaNearLimit": "Plan {plan} · Near limit",
+      "attendance": "Attendance",
+      "attendanceHint": "Attendance records",
+      "attendanceRate": "Attendance Rate",
+      "attendanceRateOk": "Excused absences are permitted",
+      "attendanceRateOver": "⚠ Exceeded the maximum allowed absence limit",
+      "avgGrade": "Average Grade",
+      "avgGradeHint": "Out of 100",
+      "doneCourses": "Completed Courses",
+      "doneCoursesHint": "{value, number} dropped",
+      "gpa": "GPA",
+      "gpaHint": "Out of 20 (Final grades)",
+      "gpaHintProgram": "Out of 20 · Program average: {avg}",
+      "submissions": "Quizzes / Assignments",
+      "submissionsHint": "{value, number} graded",
+      "submissionsNone": "Not graded"
+    },
+    "next": {
+      "class": {
+        "hint": "View your weekly schedule and join your next class.",
+        "label": "You haven't attended any classes yet"
+      },
+      "enroll": {
+        "hint": "Register for semester courses to get started.",
+        "label": "You have no active courses"
+      },
+      "lowgrade": {
+        "hint": "Get help from the AI assistant or educational counseling.",
+        "label": "Grade average below expectations"
+      },
+      "ontrack": {
+        "hint": "Your academic progress is on the right track. Keep it up!",
+        "label": "Everything is looking good"
+      },
+      "pending": {
+        "hint": "Track the results of your assignments and exams.",
+        "label": "{value, plural, one {{value, number} submission awaiting grading} other {{value, number} submissions awaiting grading}}"
+      },
+      "title": "Next Steps"
+    },
+    "quick": {
+      "add-drop": {
+        "desc": "Modify your course enrollment",
+        "label": "Add/Drop"
+      },
+      "assignments": {
+        "desc": "Pending tasks and deadlines",
+        "label": "Assignments & Exams"
+      },
+      "registration": {
+        "desc": "Register for semester courses",
+        "label": "Course Enrollment"
+      },
+      "schedule": {
+        "desc": "Classes and timing",
+        "label": "Weekly Schedule"
+      },
+      "transcript": {
+        "desc": "Grades and academic status",
+        "label": "Transcript & GPA"
+      },
+      "tuition": {
+        "desc": "Financial status and settlement",
+        "label": "Tuition & Payment"
+      }
+    },
+    "quickTitle": "Shortcuts",
+    "risk": {
+      "disclaimerAfter": " — for human review.",
+      "disclaimerBefore": "This index is calculated based on defined rules and",
+      "disclaimerStrong": " never makes the final decision",
+      "noFactors": "No significant risk factors identified.",
+      "title": "Learning Risk Index"
+    },
+    "signIn": {
+      "cta": "Sign In",
+      "title": "Sign in to view your dashboard"
+    },
+    "student": "Student",
+    "tenant": {
+      "ai": "AI calls",
+      "avgGrade": "Overall Average Grade",
+      "courses": "Courses",
+      "eventDist": "Event Distribution",
+      "sessions": "Class Sessions",
+      "submissions": "Submissions",
+      "title": "Organization Dashboard (Admin)",
+      "users": "Active Users"
+    },
+    "term": {
+      "grading": "Grading submissions",
+      "title": "Term Progress"
+    },
+    "title": "{name}'s Dashboard"
+  },
+  "radar": {
+    "basics": "Basics",
+    "coding": "Coding",
+    "communication": "Communication",
+    "consistency": "Consistency",
+    "math": "Mathematics",
+    "problemSolving": "Problem Solving"
+  },
+  "schedule": {
+    "fullCalendar": "Full Calendar →",
+    "join": "Join",
+    "s1": {
+      "by": "Dr. Azimi",
+      "day": "Today",
+      "in": "90 minutes",
+      "kind": "Live Class",
+      "time": "14:00",
+      "title": "Machine Learning — Session 8"
+    },
+    "s2": {
+      "by": "AI Coach",
+      "day": "Today",
+      "in": "Now",
+      "kind": "Self-paced",
+      "time": "16:30",
+      "title": "Adaptive Exercise · Optimization"
+    },
+    "s3": {
+      "by": "Dr. Mousavi",
+      "day": "Tomorrow",
+      "in": "Tomorrow",
+      "kind": "Workshop",
+      "time": "10:00",
+      "title": "Advanced NLP — workshop"
+    },
+    "s4": {
+      "by": "Automatic",
+      "day": "Wednesday",
+      "in": "48 hours",
+      "kind": "Adaptive Test",
+      "time": "18:00",
+      "title": "Statistical Analysis Skill · Exam"
+    },
+    "s5": {
+      "by": "Nasrin, Ali, Sareh",
+      "day": "Thursday",
+      "in": "96 hours",
+      "kind": "Peer",
+      "time": "20:30",
+      "title": "Study Group — Mathematics"
+    },
+    "title": "This Week's Schedule"
+  },
+  "screenLabel": "04 My Workspace",
+  "shell": {
+    "greeting": "Hello {name}",
+    "greetingAnon": "Welcome",
+    "inboxAria": "Notification Inbox",
+    "inboxTitle": "Notifications",
+    "panel": "{role} Panel"
+  },
+  "sub": {
+    "emptyBody": "After submitting your first assignment or quiz, your history will appear here.",
+    "emptyTitle": "No submissions recorded yet",
+    "error": "An error occurred",
+    "eyebrow": "Submissions",
+    "historyTitle": "My Submission History",
+    "loading": "Loading…",
+    "myCourses": "My Courses",
+    "score": "{grade, number}/{total, number}",
+    "status": {
+      "draft": "Draft",
+      "graded": "Graded",
+      "submitted": "Submitted"
+    },
+    "summary": "{total, number} recorded submission · {graded, number} graded",
+    "tab": {
+      "history": "History",
+      "upload": "New Submission"
+    },
+    "title": "Assignment Submission",
+    "untitled": "Untitled",
+    "uploadBody": "To submit an assignment or quiz, go to \"My Courses\", open the relevant course, and open the desired assignment — file and response submissions are handled from there.",
+    "uploadCta": "Go to My Courses",
+    "uploadTitle": "Open the assignment from within its course"
+  }
+}

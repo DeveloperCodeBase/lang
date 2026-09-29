@@ -1,0 +1,317 @@
+{
+  "queue": {
+    "actions": {
+      "close": "Close"
+    },
+    "activity": {
+      "ariaLabel": "Student activity — {person}",
+      "buttonLabel": "Activity",
+      "buttonTitle": "View student activity details",
+      "close": "Close",
+      "title": "Student Activity Details"
+    },
+    "ai": {
+      "applied": "AI draft applied — this is a suggestion and requires your review.",
+      "busy": "Fetching…",
+      "button": "AI Draft",
+      "buttonTitle": "Get grade and feedback suggestions from AI (review required)",
+      "error": "Failed to fetch AI draft",
+      "unstructured": "AI draft received but lacked structured grade/feedback; please review manually."
+    },
+    "answers": {
+      "attachmentMeta": "{size, number} KB · Download",
+      "attachments": "Attachments",
+      "empty": "No answers recorded to display.",
+      "loading": "Loading answers…",
+      "questionPoints": "{points, number} points",
+      "submittedText": "Submitted Answer",
+      "title": "Student Answers"
+    },
+    "breadcrumb": "Grading · Grading Queue",
+    "checklist": {
+      "doneLabel": "Grading queue complete",
+      "doneReason": "No other items remaining in the grading queue.",
+      "grade": "Grade pending submissions",
+      "nextLabel": "Open next item for grading",
+      "pick": "Select assessment to grade"
+    },
+    "detail": {
+      "autoScore": "· Auto score: {score, number}"
+    },
+    "error": {
+      "loadAnswers": "Failed to load answers",
+      "loadAssessments": "Failed to load assessments",
+      "loadSubmissions": "Failed to load submissions",
+      "saveGrade": "Failed to save grade"
+    },
+    "feedback": {
+      "label": "Feedback for student",
+      "placeholder": "Write strengths, issues, and guidance for improvement…"
+    },
+    "filter": {
+      "all": "All",
+      "aria": "Status filter",
+      "graded": "Graded",
+      "pending": "Pending"
+    },
+    "grade": {
+      "title": "Grade and Feedback"
+    },
+    "help": {
+      "body": "First, select an assessment (quiz or assignment) to display students' submitted work. Click \"Grade\" to view answers, write a grade (0 to 100) and feedback, and submit. You can optionally use \"AI Draft\" for assistance.",
+      "title": "Grading Queue Guide"
+    },
+    "kind": {
+      "assignment": "Assignment",
+      "quiz": "Quiz"
+    },
+    "kpi": {
+      "graded": "Graded",
+      "pending": "Pending grading",
+      "total": "Total submissions"
+    },
+    "list": {
+      "autoScore": "Automatic score: {score, number}",
+      "emptyAllGraded": "No submissions waiting for grading — all have been reviewed.",
+      "emptyFilter": "No submissions found with this filter.",
+      "emptyNone": "No submissions have been sent for this assessment yet.",
+      "loading": "Loading submissions…",
+      "recordedScore": "Recorded score: {score, number} out of 100"
+    },
+    "meta": {
+      "totalPoints": "· Total points: {points, number}"
+    },
+    "notFinal": "This submission is not finalized yet (draft) and cannot be graded.",
+    "panel": {
+      "ariaLabel": "Grade submission — {person}",
+      "title": "Grade submission"
+    },
+    "row": {
+      "editGrade": "Edit grade",
+      "grade": "Grade",
+      "view": "View"
+    },
+    "rubric": {
+      "applyLabel": "Apply rubric (optional)",
+      "criterionFallback": "Criterion",
+      "criterionScoreAria": "Score for criterion \"{criterion}\" out of {max}",
+      "finalScore": "Final score:",
+      "hint": "Assign a score for each criterion; the final score is calculated from the sum of criteria and converted to a percentage (0 to 100).",
+      "levelFallback": "Level",
+      "none": "— No rubric (free grading) —",
+      "of": "of",
+      "outOf100": "out of 100",
+      "outOfMax": "out of {max, number}",
+      "scoreLabel": "Rubric grading",
+      "sum": "Total:"
+    },
+    "save": {
+      "action": "Save grade",
+      "busy": "Saving…",
+      "needFinalTitle": "The submission must be finalized",
+      "needScoreTitle": "Enter a grade first",
+      "title": "Save grade"
+    },
+    "score": {
+      "aria": "Score out of 100",
+      "hint": "The final score is recorded as a percentage (0 to 100).",
+      "label": "Score (0 to 100)",
+      "outOf100": "out of 100",
+      "placeholder": "0"
+    },
+    "search": {
+      "aria": "Search student",
+      "placeholder": "Search student name or ID…"
+    },
+    "select": {
+      "empty": "There are no published assessments to grade yet.",
+      "label": "Select assessment (exam / assignment)",
+      "loading": "Loading assessments…"
+    },
+    "status": {
+      "draft": "Draft",
+      "graded": "Graded",
+      "submitted": "Pending grading"
+    },
+    "subtitle": "Select an assessment to view student submissions, review answers, and record grades and feedback.",
+    "title": "Grading Queue",
+    "toast": {
+      "gradeSaved": "Grade saved",
+      "queueDone": "Grading queue completed",
+      "remaining": "{count, plural, one {# item remaining in the grading queue} other {# items remaining in the grading queue}}"
+    }
+  },
+  "submission": {
+    "actions": {
+      "announce": "Tentatively announce to students",
+      "blockedByObjections": "{count, plural, one {Final submission is not possible until # open objection is resolved.} other {Final submission is not possible until # open objections are resolved.}}",
+      "components": "Configure grade components",
+      "finalize": "Finalize grades",
+      "import": "Import grades from exams",
+      "saveDraft": "Save draft",
+      "taNote": "Finalizing grades is restricted to the course instructor; your grades will be saved as a draft for the instructor."
+    },
+    "announce": {
+      "deadlineAria": "Objection deadline",
+      "deadlineFuture": "The objection deadline must be in the future.",
+      "deadlineInvalid": "The entered date is invalid.",
+      "deadlineLabel": "Objection deadline",
+      "deadlineRequired": "Set the objection deadline.",
+      "dialogBody": "By announcing provisionally, students can see their grades and submit objections until the set deadline.",
+      "dialogSubmit": "Tentative announcement",
+      "dialogTitle": "Provisional Grade Announcement"
+    },
+    "back": "Back to course list",
+    "breadcrumb": {
+      "instructor": "Education · Instructor",
+      "ta": "Education · Teaching Assistant"
+    },
+    "chip": {
+      "announced": "Announced",
+      "draft": "Draft",
+      "finalized": "Finalized",
+      "noSheet": "No sheet",
+      "objectionDeadline": "Objection deadline: {date}"
+    },
+    "components": {
+      "add": "+ Add component",
+      "assignAria": "Grade component {title}",
+      "assignEmpty": "There are no published exams for this course.",
+      "assignNone": "— No component —",
+      "assignTitle": "Assign exams to components",
+      "dialogSubmit": "Save",
+      "dialogTitle": "Configure Grade Components and Weights",
+      "fallbackTitle": "Component",
+      "introLead": "Each component (e.g., midterm, final, assignments) has a weight; the sum of weights is ideally 100. Then, assign each assessment to a component. This setting is at the",
+      "introRest": "level and is shared across all sections of the same course.",
+      "introStrong": "course",
+      "loading": "Loading...",
+      "percentSign": "%",
+      "removeAria": "Remove {title}",
+      "saved": "Grade components and weights saved.",
+      "titleAria": "Grade component title",
+      "titlePlaceholder": "Component title (e.g., Midterm)",
+      "titleRequired": "Please enter a title for all components.",
+      "untitled": "Untitled",
+      "weightAria": "Weight of {title}",
+      "weightInvalid": "The weight of \"{title}\" must be an integer between 0 and 100.",
+      "weightSumLabel": "Total weight: {percent}",
+      "weightSumNote": " (not equal to 100 — will be normalized proportionally during calculation)"
+    },
+    "correct": {
+      "busy": "Saving...",
+      "cancel": "Cancel",
+      "failed": "Grade correction failed.",
+      "gradeAria": "Corrected grade for {person}",
+      "gradeRange": "The corrected grade must be a number between 0 and 20.",
+      "open": "Correct",
+      "openAria": "Correct grade for {person}",
+      "reasonAria": "Reason for grade correction",
+      "reasonPlaceholder": "Reason for correction (required)",
+      "reasonRequired": "Entering a reason for grade correction is required.",
+      "submit": "Submit correction",
+      "success": "The grade was successfully corrected and recorded in the correction history."
+    },
+    "detail": {
+      "adminCorrectionNote": "As a system administrator, you can correct a grade in exceptional cases by providing a reason; every correction is logged in the history.",
+      "finalizedBadge": "Finalized",
+      "finalizedNote": "— The grades for this course are finalized, locked, and can no longer be changed.",
+      "loading": "Loading...",
+      "objectionDeadline": "Student objection deadline: {date}"
+    },
+    "dialog": {
+      "cancel": "Cancel",
+      "close": "Close"
+    },
+    "empty": {
+      "instructor": "No classes have been assigned to you as an instructor for entering grades in the current semester. If you expected to see a course here, please contact the education office.",
+      "ta": "As a teaching assistant, no classes have been assigned to you for entering draft grades in the current semester. This assignment is made by the course instructor or the education office.",
+      "title": "No courses assigned for grade entry"
+    },
+    "error": {
+      "generic": "An error occurred"
+    },
+    "finalize": {
+      "confirmLead": "Upon final submission, the grades for «{course}»",
+      "confirmRest": "and cannot be changed further; the grades will be entered into the students' transcripts. Do you wish to continue?",
+      "confirmStrong": "will be locked",
+      "dialogSubmit": "Final Submit",
+      "dialogTitle": "Final Grade Submission"
+    },
+    "help": {
+      "instructorBody": "First, select the course. Enter the grades and click \"Save Draft\"; with \"Provisional Announce\", students can view their grades and submit objections until the designated deadline. After resolving all open objections, \"Final Submit\" locks the grades and enters them into the transcript.",
+      "taLead": "As a teaching assistant, you only see the classes assigned to you. Enter the grades and click \"Save Draft\" to record them as a draft for the course instructor.",
+      "taRest": "and is not available to you on this page.",
+      "taStrong": "Final submission of grades is restricted to the course instructor",
+      "titleInstructor": "Grade Submission Guide",
+      "titleTa": "Draft Grade Submission Guide"
+    },
+    "import": {
+      "calculating": "Calculating…",
+      "dialogSubmit": "Apply as Draft",
+      "dialogTitle": "Import Grades from Assessments",
+      "draftRest": "is; review, \"Announce\" and \"Final Submit\" are up to you.",
+      "draftStrong": "Draft",
+      "introLead": "Each student's total score is calculated from the graded course assessments and scaled to 0 to 20 (passing threshold: {passMark, number}). This is only a",
+      "noComponentsNote": "Grade components are not configured; a simple average of all assessments will be used. To apply weighting, first configure \"Grade Components\".",
+      "noData": "No data",
+      "overwriteLabel": "Overwrite previously entered grades (default: only empty rows are filled)",
+      "resultNoData": "{count, plural, one { · # student without assessment data} other { · # students without assessment data}}",
+      "resultSkipped": "{count, plural, one { · # existing grade left unchanged} other { · # existing grades left unchanged}}",
+      "resultWritten": "{count, plural, one {Import grades from assessments: # grade saved as draft} other {Import grades from assessments: # grades saved as draft}}",
+      "tableCurrent": "Current grade",
+      "tablePercent": "Total percentage",
+      "tableProposed": "Proposed grade",
+      "tableStudent": "Student",
+      "unassignedNote": "{count, plural, one {# assessment was not assigned to any component and was excluded from the calculation.} other {# assessments were not assigned to any component and were excluded from the calculation.}}",
+      "weightSumNote": "The sum of weights is {percent} (not 100%); the calculation is normalized relative to the existing weights."
+    },
+    "list": {
+      "enrolled": "{count, plural, one {# student} other {# students}}"
+    },
+    "loading": "Loading…",
+    "objection": {
+      "hasBadge": "⚠️ Yes",
+      "instructorReplyLabel": "Instructor's reply:",
+      "replyAria": "Reply to {person}'s objection",
+      "replyPlaceholder": "Instructor's reply…",
+      "replyRequired": "Please write the reply text.",
+      "replySaved": "Objection reply saved.",
+      "replySubmit": "Submit Reply"
+    },
+    "roster": {
+      "empty": "No students are enrolled in this course.",
+      "gradeAria": "{person}'s grade"
+    },
+    "sheet": {
+      "announcedAt": " · Announced on {date}"
+    },
+    "subtitle": {
+      "instructor": "Save temporarily, announce to students, handle objections, and finalize final term grades.",
+      "ta": "Enter draft grades for your assigned classes. Final submission of grades is handled by the course instructor."
+    },
+    "summary": {
+      "enteredGrades": "Entered grade",
+      "openObjections": "Open objection",
+      "students": "Student"
+    },
+    "table": {
+      "grade": "Grade (0 to 20)",
+      "objection": "Objection",
+      "student": "Student"
+    },
+    "title": {
+      "instructor": "Grade Entry",
+      "ta": "Draft Grade Entry"
+    },
+    "toast": {
+      "announced": "Grades have been provisionally announced; students can submit objections until the deadline.",
+      "draftSaved": "{count, plural, one {The grade for # student has been saved temporarily.} other {The grades for # students have been saved temporarily.}}",
+      "finalized": "The grades for this course have been finalized."
+    },
+    "validate": {
+      "gradeRange": "The grade for \"{person}\" must be a number between 0 and 20.",
+      "noGrades": "No grades have been entered."
+    }
+  }
+}

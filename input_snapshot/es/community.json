@@ -1,0 +1,118 @@
+{
+  "common": {
+    "back": "Volver",
+    "cancel": "Cancelar",
+    "close": "Cerrar"
+  },
+  "composer": {
+    "aria": "Escribir respuesta",
+    "placeholder": "Escribe tu respuesta…",
+    "send": "Enviar respuesta",
+    "sending": "Enviando…"
+  },
+  "del": {
+    "confirm": "Eliminar",
+    "confirmReply": "¿Estás seguro de que deseas eliminar esta respuesta?",
+    "confirmThreadPrefix": "¿Estás seguro de que deseas eliminar la conversación",
+    "confirmThreadSuffix": "¿Tus respuestas también serán eliminadas.",
+    "deleting": "Eliminando…",
+    "dialogAria": "Eliminar",
+    "replyTitle": "Eliminar respuesta",
+    "threadTitle": "Eliminar conversación"
+  },
+  "errors": {
+    "createReply": "Error al registrar la respuesta",
+    "createThread": "Error al publicar la conversación",
+    "delete": "Error al eliminar",
+    "generic": "Se ha producido un error",
+    "loadReplies": "Error al cargar las respuestas",
+    "loadThreads": "Error al cargar las conversaciones",
+    "pin": "Error al cambiar el estado de fijado",
+    "report": "Error al registrar el informe",
+    "vote": "Error al registrar el voto"
+  },
+  "header": {
+    "eyebrow": "Comunidad universitaria · §6",
+    "newThreadButton": "Nueva conversación",
+    "subtitle": "Sigue y participa en preguntas, experiencias y debates académicos de estudiantes y profesores.",
+    "title": "Foro de debate"
+  },
+  "help": {
+    "body": "En esta página puedes leer, dar «Me gusta» y responder a las conversaciones. Encuentra debates mediante el cuadro de búsqueda y las etiquetas, e inicia un nuevo tema con el botón «Nueva conversación». Haz clic en el título de cualquier conversación para ver sus respuestas.",
+    "title": "Guía del foro"
+  },
+  "list": {
+    "clearFilters": "Borrar filtros",
+    "emptyFiltered": "No se encontraron conversaciones con estos filtros.",
+    "emptyNone": "Aún no se ha registrado ninguna conversación; sé el primero en iniciar una.",
+    "loading": "Cargando…",
+    "startThread": "Iniciar conversación"
+  },
+  "newThread": {
+    "bodyLabel": "Texto",
+    "bodyPlaceholder": "Escribe tu pregunta o experiencia en detalle…",
+    "dialogAria": "Nueva conversación",
+    "publish": "Publicar conversación",
+    "publishing": "Publicando…",
+    "tagLabel": "Etiqueta (opcional)",
+    "tagPlaceholder": "Ej.: inscripción, proyecto final…",
+    "title": "Iniciar nueva conversación",
+    "titleLabel": "Título",
+    "titlePlaceholder": "Escribe un resumen del tema de la conversación…"
+  },
+  "replies": {
+    "empty": "Aún no hay respuestas; sé el primero en responder.",
+    "loading": "Cargando respuestas…"
+  },
+  "reply": {
+    "deleteAria": "Eliminar respuesta",
+    "like": "Me gusta",
+    "reportAria": "Reportar respuesta",
+    "reportTitle": "Reportar",
+    "unlike": "Ya no me gusta"
+  },
+  "report": {
+    "aria": "Motivo del reporte",
+    "dialogAria": "Reportar",
+    "done": "Tu reporte se ha registrado y enviado al moderador. Gracias.",
+    "intro": "Escribe el motivo por el cual reportas este contenido; se enviará al moderador de la comunidad para su revisión.",
+    "placeholder": "Ej.: insultos, spam, contenido inapropiado…",
+    "replyTitle": "Reportar respuesta",
+    "sending": "Enviando…",
+    "submit": "Enviar reporte",
+    "threadTitle": "Reportar conversación"
+  },
+  "search": {
+    "aria": "Buscar conversaciones",
+    "clearAria": "Borrar búsqueda",
+    "placeholder": "Buscar en el título y el texto de las conversaciones…"
+  },
+  "stats": {
+    "replies": "{count, plural, one {# respuesta} many {# respuestas} other {# respuestas}}",
+    "threads": "{count, plural, one {# conversación} many {# conversaciones} other {# conversaciones}}"
+  },
+  "tags": {
+    "all": "Todas",
+    "label": "Etiquetas:"
+  },
+  "thread": {
+    "deleteAria": "Eliminar conversación",
+    "hideReplies": "Ocultar respuestas",
+    "like": "Me gusta",
+    "pin": "Fijar",
+    "pinShort": "Fijar",
+    "pinnedBadge": "Fijado",
+    "replyCount": "{count, plural, one {# respuesta} many {# respuestas} other {# respuestas}}",
+    "reportAria": "Reportar conversación",
+    "reportTitle": "Reportar",
+    "showReplies": "Mostrar respuestas ({count, number})",
+    "unlike": "Ya no me gusta",
+    "unpin": "Desfijar"
+  },
+  "validation": {
+    "bodyMin": "El texto del debate debe tener al menos 10 caracteres.",
+    "replyMin": "El texto de la respuesta debe tener al menos 2 caracteres.",
+    "reportReasonMin": "El motivo del reporte debe tener al menos 4 caracteres.",
+    "titleMin": "El título debe tener al menos 6 caracteres."
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "total_source_keys": 12979,
+  "total_target_languages": 50,
+  "catalogs_count": 32,
+  "locales": {
+    "fa": {
+      "existing_preserved": 12979,
+      "newly_translated": 0,
+      "missing": 0,
+      "completed_catalogs": 32,
+      "total_catalogs": 32,
+      "coverage_pct": 100.0
+    },
+    "en": {
+      "existing_preserved": 11567,
+      "newly_translated": 1412,
+      "missing": 0,
+      "completed_catalogs": 32,
+      "total_catalogs": 32,
+      "coverage_pct": 100.0
+    },
+    "ar": {
+      "existing_preserved": 12979,
+      "newly_translated": 0,
+      "missing": 0,
+      "completed_catalogs": 32,
+      "total_catalogs": 32,
+      "coverage_pct": 100.0
+    },
+    "zh-Hans": {
+      "existing_preserved": 11567,
+      "newly_translated": 321,
+      "missing": 1091,
+      "completed_catalogs": 31,
+      "total_catalogs": 32,
+      "coverage_pct": 91.59
+    },
+    "es": {
+      "existing_preserved": 11567,
+      "newly_translated": 321,
+      "missing": 1091,
+      "completed_catalogs": 31,
+      "total_catalogs": 32,
+      "coverage_pct": 91.59
+    },
+    "fr": {
+      "existing_preserved": 2854,
+      "newly_translated": 321,
+      "missing": 9804,
+      "completed_catalogs": 19,
+      "total_catalogs": 32,
+      "coverage_pct": 24.46
+    },
+    "de": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ru": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "pt": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "hi": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ur": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "bn": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ja": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ko": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "tr": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "it": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "nl": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "id": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ms": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "th": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "vi": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "fil": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "pa-Guru": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "te": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ta": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "mr": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "gu": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "kn": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ml": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ne": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "si": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "my": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "km": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "lo": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "mn-Cyrl": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ug": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "kk": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "uz-Latn": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "tg": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ps": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ckb": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "hy": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ka": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "he": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "el": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "ro": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "pl": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "uk": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "mk": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    },
+    "sw": {
+      "existing_preserved": 101,
+      "newly_translated": 0,
+      "missing": 12197,
+      "completed_catalogs": 2,
+      "total_catalogs": 32,
+      "coverage_pct": 0.78
+    }
+  }
+}

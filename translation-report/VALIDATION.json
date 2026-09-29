@@ -1,0 +1,10 @@
+{
+  "jsonSyntaxCheck": "PASS",
+  "noDuplicateKeys": "PASS",
+  "placeholderIntegrity": "PASS",
+  "icuSyntaxCheck": "PASS",
+  "rtlDirectionCheck": "PASS",
+  "sourceBytesUnchanged": "PASS",
+  "emptySourceHandling": "PASS (landing.brand.json preserved as {})",
+  "nonInterfaceFilesPreserved": "PASS (_status.json preserved with valid incremental provenance)"
+}

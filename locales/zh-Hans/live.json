@@ -1,0 +1,1477 @@
+{
+  "analytics": {
+    "anonymous": "用户",
+    "attendance": {
+      "absentChip": "✗ 缺勤 {count, number}",
+      "absentLabel": "缺勤",
+      "avatarFallback": "？",
+      "duration": "时长：{value}",
+      "empty": "暂无考勤记录。随着参与者加入，将在此处显示。",
+      "excusedChip": "请假 {count, number}",
+      "excusedLabel": "请假",
+      "finalized": "已定稿",
+      "inClass": "在课",
+      "joinedAt": "进入时间：{time}",
+      "lateChip": "⏰ 迟到 {count, number}",
+      "lateLabel": "迟到",
+      "left": "已离开",
+      "loading": "正在加载考勤…",
+      "neverOpened": "本次课时未举行（未记录考勤）。",
+      "presentChip": "✓ 出勤 {count, number}",
+      "presentLabel": "出勤",
+      "provisional": "临时（直到下课）",
+      "refreshNote": "{count, number} 人 · 每 {seconds, number} 秒更新",
+      "stillPresent": "（当前在课）",
+      "title": "考勤名单"
+    },
+    "duration": {
+      "hours": "{count, number} 小时",
+      "hoursMinutes": "{hours, number} 小时 {minutes, number} 分钟",
+      "lessThanMinute": "不足 1 分钟",
+      "minutes": "{count, number} 分钟"
+    },
+    "error": {
+      "attendance": "无法获取考勤名单。此部分仅对主持人开放。"
+    },
+    "participation": {
+      "aria": "开启麦克风 {on, number} / {total, number}",
+      "empty": "教室中尚无人员。",
+      "muted": "静音：{count, number}",
+      "on": "已开启：{count, number} ({pct, number}%)",
+      "title": "语音参与度"
+    },
+    "poll": {
+      "active": "当前有进行中的投票",
+      "idle": "暂无活动投票"
+    },
+    "stat": {
+      "chat": "聊天消息",
+      "hands": "举手发言",
+      "micOn": "麦克风已开",
+      "present": "当前在课"
+    }
+  },
+  "assistant": {
+    "chip": {
+      "example": "举个例子",
+      "practice": "生成练习题",
+      "quiz": "设计包含答案的简短测验",
+      "summarize": "总结本主题"
+    },
+    "error": {
+      "createSession": "创建智能助教对话失败。"
+    },
+    "hostMode": "教师模式 — 提问与习题设计",
+    "inputLabel": "向智能助教提问",
+    "intro": "围绕课程主题提问 — 回答基于课程参考资料生成 (RAG)。",
+    "introHost": " 作为授课教师，您还可以生成练习题和测验题。",
+    "label": "智能助教",
+    "noAnswer": "未收到回复。请再次提问。",
+    "placeholder": "输入您的问题…",
+    "questionCount": "{count, number} 个问题",
+    "send": "发送问题",
+    "sendShort": "发送",
+    "sessionTitle": "在线直播课堂 — {name}",
+    "source": "参考来源",
+    "sources": "参考来源 ({count, number})",
+    "title": "课堂智能助教",
+    "typing": "正在撰写回复…"
+  },
+  "atoms": {
+    "captions": {
+      "etaTradeoff": "如果 η 过大，损失函数将发散；如果过小，收敛速度会变慢。",
+      "fasterNoisier": "这使得更新速度更快，但振荡幅度更大。",
+      "lrAnswer": "好问题。我们通常将其与学习率调度器（Learning Rate Scheduler）或 Adam 结合使用。",
+      "lrQuestion": "教授，如何为 SGD 选择最佳学习率？",
+      "sgdStep": "随机梯度下降在每一步仅使用单个样本来计算梯度。"
+    },
+    "chat": {
+      "seed": {
+        "answer": "当然。假设 θ = 0.8，梯度 = 2.4，η = 0.1。那么：",
+        "answerTime": "14:25",
+        "ask": "您能提供一个 SGD 中权重更新的数值示例吗？",
+        "askTime": "14:25",
+        "greeting": "你好 👋 我是本节课的智能助教。我可以提供实时摘要、简化概念或推荐额外的练习题。",
+        "greetingTime": "14:23"
+      }
+    },
+    "people": {
+      "ali": {
+        "init": "A",
+        "name": "Ali R."
+      },
+      "arman": {
+        "init": "A",
+        "name": "Arman B."
+      },
+      "azimi": {
+        "init": "DA",
+        "name": "阿齐米博士"
+      },
+      "hanieh": {
+        "init": "H",
+        "name": "Hanieh F."
+      },
+      "mohsen": {
+        "init": "M",
+        "name": "Mohsen H."
+      },
+      "neda": {
+        "init": "N",
+        "name": "Neda Kazemi"
+      },
+      "nima": {
+        "init": "N",
+        "name": "Nima J."
+      },
+      "sara": {
+        "init": "S",
+        "name": "Sara M."
+      },
+      "zahra": {
+        "init": "Z",
+        "name": "Zahra K."
+      }
+    },
+    "poll": {
+      "options": {
+        "adamWeighted": "带类别加权的 Adam",
+        "rmspropWarmup": "带预热（Warm-up）的 RMSprop",
+        "sgdMomentum": "带动量的标准 SGD"
+      },
+      "question": "哪种优化方法最适合在不平衡数据集上训练深度神经网络？"
+    },
+    "qa": {
+      "q1": {
+        "text": "如果损失函数是非凸的，SGD 是否能收敛到全局最小值？",
+        "time": "2 分钟前"
+      },
+      "q2": {
+        "text": "在实践中，Momentum 和 Adam 有什么核心区别？",
+        "time": "5 分钟前"
+      },
+      "q3": {
+        "text": "对于 ResNet-50，推荐使用多大的小批量（mini-batch）？",
+        "time": "8 分钟前"
+      },
+      "q4": {
+        "text": "在不平衡数据集上，应该对 SGD 应用哪些设置？",
+        "time": "12 分钟前"
+      },
+      "tags": {
+        "adaptive": "自适应",
+        "highlight": "高光",
+        "practical": "实践"
+      }
+    },
+    "slides": {
+      "compare": {
+        "body": "小批量在全批量（Batch）稳定性和 SGD 速度之间取得平衡。典型大小：32 到 256。"
+      },
+      "noise": {
+        "body": "随机波动使算法能够跳出局部极小值，在非凸曲面上表现更佳。",
+        "title": "为什么噪声是有用的"
+      },
+      "sgd": {
+        "body": "每一步仅使用单个随机数据样本更新权重。比全批量更快，但在收敛路径上伴随更多振荡。",
+        "title": "随机梯度下降 (SGD)"
+      }
+    },
+    "suggestions": {
+      "exercise": "生成同类练习题",
+      "resources": "补充参考资料",
+      "simpler": "用更浅显的语言解释",
+      "summary": "过去 2 分钟内容摘要"
+    },
+    "tabs": {
+      "assistant": "助教",
+      "captions": "字幕",
+      "poll": "投票",
+      "questions": "提问"
+    },
+    "timeline": {
+      "r1": {
+        "label": "上节课内容回顾",
+        "time": "14:02"
+      },
+      "r2": {
+        "label": "梯度下降核心概念",
+        "time": "14:08"
+      },
+      "r3": {
+        "label": "全批量版本",
+        "time": "14:16"
+      },
+      "r4": {
+        "label": "随机梯度下降 (SGD)",
+        "time": "14:22"
+      },
+      "r5": {
+        "label": "Momentum 与 Adam",
+        "time": "14:35"
+      },
+      "r6": {
+        "label": "互动练习与答疑",
+        "time": "14:45"
+      }
+    },
+    "transcript": {
+      "live": {
+        "momentum": "如果我们在更新时考虑之前的数值，这就叫做动量（Momentum）。",
+        "nesterovAnswer": "Nesterov 首先预测下一步的位置并在该处计算梯度。",
+        "nesterovQuestion": "这与 Nesterov 算法有何不同？",
+        "pytorchQuestion": "这个思路可以在 PyTorch 中实现吗？"
+      },
+      "seed": {
+        "r1": {
+          "text": "在随机梯度下降中，每一步仅使用单个样本来计算梯度。",
+          "time": "14:20"
+        },
+        "r2": {
+          "text": "这提升了计算速度并显著降低了内存占用。",
+          "time": "14:21"
+        },
+        "r3": {
+          "highlight": "最佳学习率",
+          "text": "教授，如何选择最佳学习率？",
+          "time": "14:22"
+        },
+        "r4": {
+          "text": "通常我们会结合学习率调度器或像 Adam 这样的自适应优化器。",
+          "time": "14:22"
+        },
+        "r5": {
+          "text": "SGD 与小批量（Mini-batch）之间的确切区别是什么？",
+          "time": "14:23"
+        },
+        "r6": {
+          "text": "批量大小。在小批量中我们取 32 到 256 个样本，以便在稳定性与速度之间取得更佳平衡。",
+          "time": "14:23"
+        }
+      }
+    }
+  },
+  "breakout": {
+    "anonymous": "用户",
+    "decrease": "减少讨论室",
+    "duration": "讨论室时长",
+    "durationLabel": "时长 ({minutes, number} 分钟)",
+    "empty": "课堂中暂无参与者。",
+    "end": "结束",
+    "increase": "增加讨论室",
+    "manualLabel": "手动分配",
+    "maxRooms": "最多 {count, number} 个讨论室",
+    "memberCount": "{count, number} 人",
+    "mode": {
+      "auto": "自动",
+      "manual": "手动",
+      "random": "随机"
+    },
+    "modeLabel": "分配方式",
+    "moved": "您已被移动至此讨论室",
+    "noParticipants": "课堂中暂无参与者。当他人加入后，您即可进行分配。",
+    "noneOpen": "暂无活动的分组讨论室。当主持人开启讨论室后，您的讨论室将在此显示。",
+    "open": "开启讨论室",
+    "phaseNote": "在当前阶段，参与者分配以及每个讨论室独立的聊天/笔记功能已激活。",
+    "preview": "{people, number} 名参与者将分配至 {rooms, number} 个讨论室（每室约 {per, number} 人）。",
+    "roomCountLabel": "讨论室数量",
+    "roomFor": "{name} 的讨论室",
+    "roomName": "讨论室 {number, number}",
+    "title": "分组讨论室",
+    "unassigned": "未分配 ({count, number})",
+    "you": "您"
+  },
+  "chat": {
+    "anonymousAuthor": "用户",
+    "channels": {
+      "class": "全班",
+      "staff": "教职员工",
+      "table": "讨论桌"
+    },
+    "empty": "尚未发送任何消息。",
+    "note": {
+      "class": "消息将通过全班频道实时向所有参与者公开。",
+      "locked": "聊天已被主持人锁定。仅主持人可以发送消息。",
+      "staff": "此频道仅对教师和助教可见；学生无法查看。",
+      "table": "此对话仅对同桌成员和教师可见。"
+    },
+    "placeholder": "输入消息…",
+    "placeholderLocked": "聊天已被锁定…",
+    "rejected": {
+      "channel": "此频道不对您开放 — 您的消息未发送。",
+      "locked": "聊天已锁定 — 您的消息未发送。"
+    },
+    "send": "发送消息",
+    "tableTarget": "发送至讨论桌",
+    "unread": "{count, plural, other {#}}"
+  },
+  "classes": {
+    "card": {
+      "attendees": "{value, number} 名参与者",
+      "cancelled": "本节课已取消。",
+      "joinDirect": "直接进入",
+      "joinLobby": "进入等候室",
+      "newTab": "在新标签页中打开",
+      "report": "课时报告",
+      "reportTitle": "本节课的完整报告"
+    },
+    "emptyAll": "没有符合您搜索条件的课时。",
+    "emptyHint": "授课教师排课后将在此处显示。",
+    "emptySearch": "未找到匹配此搜索或筛选条件的课时。",
+    "errLoad": "加载课时失败",
+    "eyebrow": "直播课堂 · 课时中心",
+    "filter": {
+      "all": "全部",
+      "ended": "已结束",
+      "live": "正在直播",
+      "scheduled": "已排定"
+    },
+    "filterAria": "筛选直播课时",
+    "form": {
+      "applySlot": "应用此时间段",
+      "cancel": "取消",
+      "close": "关闭",
+      "course": "关联课程",
+      "coursePick": "— 选择课程 —",
+      "courseSearch": "搜索课程（代码或名称）…",
+      "courseSearchAria": "搜索课程",
+      "coursesError": "课程列表不可用；请稍后重试。",
+      "coursesLoading": "正在加载课程…",
+      "date": "日期",
+      "dateAria": "课时日期",
+      "datePlaceholder": "选择课时日期",
+      "desc": "描述（可选）",
+      "descPlaceholder": "本节课的主题或重点提示…",
+      "end": "结束时间",
+      "errCourse": "请选择一门关联课程。",
+      "errCreate": "创建新课时失败。请重试。",
+      "errDate": "请选择课时日期。",
+      "errTime": "请输入有效的起止时间。",
+      "errTitle": "请输入课时名称。",
+      "policy": "准入规则",
+      "section": "班级/分组（可选）",
+      "sectionAll": "— 全体课程（不限班级）—",
+      "sectionOption": "第 {group, number} 班",
+      "start": "开始时间",
+      "submit": "排定课时",
+      "submitting": "正在排定…",
+      "title": "排定直播课时",
+      "titleLabel": "课时名称",
+      "titlePlaceholder": "例如：第 4 讲：优化算法"
+    },
+    "group": {
+      "live": "正在直播",
+      "liveEmpty": "当前暂无直播课时。",
+      "past": "往期课时",
+      "pastEmpty": "暂无往期课时记录。",
+      "upcoming": "即将开始",
+      "upcomingEmpty": "暂无已排定的未来课时。"
+    },
+    "help": {
+      "body": "在此页面中，您可以查看分类为“正在直播”、“即将开始”和“往期课时”的在线课堂。点击“进入等候室”可在进入前测试摄像头与麦克风；若课时正在进行，可点击“直接进入”。授课教师或管理员可通过“新建课时”排定新课程。",
+      "title": "直播课堂指南"
+    },
+    "kpi": {
+      "live": "正在直播",
+      "total": "课时总数",
+      "upcoming": "即将开始"
+    },
+    "lead": "在此查看正在直播、即将开始和往期的直播课时；进入等候室测试摄像头与麦克风，或在开课时直接进入课堂。",
+    "loading": "正在加载课时…",
+    "new": "新建课时",
+    "noCourse": "无关联课程",
+    "policy": {
+      "enrolled": "仅限选课学生",
+      "invite": "仅凭邀请",
+      "public": "全员开放（公开）"
+    },
+    "schedule": {
+      "at": "{date} · {clock}",
+      "unknown": "时间未指定"
+    },
+    "searchAria": "搜索直播课时",
+    "searchPlaceholder": "按课时名称或课程名称搜索…",
+    "status": {
+      "cancelled": "已取消",
+      "ended": "已结束",
+      "live": "正在直播",
+      "scheduled": "已排定"
+    },
+    "title": "直播课堂"
+  },
+  "guide": {
+    "button": "课堂指南",
+    "lobby": {
+      "chain": {
+        "check": "在此您可以核对姓名、测试摄像头和麦克风，并完成就绪检查清单。",
+        "enter": "一切就绪后，点击“进入课堂”。",
+        "join": "进入课堂后，您将转移至在线教室；使用指南将在该处继续提供帮助。",
+        "schedule": "直播课堂已排定在教学大纲中，并会展示在“我的课程”中。"
+      },
+      "ifEmpty": "若设备未能列出，请检查摄像头与麦克风物理连接。",
+      "intro": "等候室允许您在正式进课前测试音视频设备与网络状况。",
+      "roles": {
+        "host": {
+          "does": "管理房间设置并等候学生有序进入课堂。",
+          "label": "授课教师 / 主持人"
+        },
+        "student": {
+          "does": "测试摄像头与麦克风，检查就绪状态并进入课堂。",
+          "label": "您（学生）"
+        },
+        "support": {
+          "does": "若设备持续检测失败，技术支持团队可利用就绪报告进行排障。",
+          "label": "技术支持"
+        }
+      },
+      "title": "进课步骤指南",
+      "youCan": {
+        "camera": "查看摄像头预览画面并切换开关；关闭时将显示头像。",
+        "join": "当就绪检查清单全部变绿后，点击进入课堂按钮加入。",
+        "mic": "通过麦克风按钮开启或关闭麦克风。",
+        "name": "在进入课堂前修改您的显示名称。"
+      }
+    },
+    "sections": {
+      "chain": "从始至终的完整流程",
+      "ifEmpty": "页面为空时的说明",
+      "roles": "人员角色与分工",
+      "youCan": "您可以在此进行哪些操作？"
+    },
+    "session": {
+      "chain": {
+        "participate": "课堂中您可通过语音/视频/文字互动；教师把控课堂节奏。",
+        "record": "若教师开启了录制，下课后录像将生成并可供观看。",
+        "review": "缺课或复习时，可从“录像”中随时回顾学习。",
+        "start": "教师开启直播课；您进入教室开始上课。"
+      },
+      "ifEmpty": "若课程尚未开始，请耐心等候教师；连接状态在此更新。",
+      "intro": "这是您的在线直播教室，集成了音视频通话、屏幕共享、白板协作与问答功能。",
+      "roles": {
+        "host": {
+          "does": "主导课堂教学、管理互动并按需开启课程录制。",
+          "label": "授课教师 / 主持人"
+        },
+        "student": {
+          "does": "加入课堂、积极参与并在课后观看录像复习。",
+          "label": "您（学生）"
+        }
+      },
+      "title": "在线课堂使用指南",
+      "youCan": {
+        "chat": "在“聊天”面板中发送文字消息或提出问题。",
+        "media": "通过底部控制栏灵活开启或关闭摄像头与麦克风。",
+        "recordings": "课程结束后，可在“录像”中查看看录播内容。",
+        "share": "经教师许可后，可向全班共享您的电脑屏幕。"
+      }
+    }
+  },
+  "hands": {
+    "count": "{count, plural, other {# 人举手}}",
+    "lower": "放下手",
+    "lowerAll": "放下所有人的手",
+    "ordinal": "{count, number}",
+    "overflow": "{count, plural, other {还有 # 人在等待}}",
+    "position": "{count, plural, other {您的位次：#}}",
+    "title": "发言队列"
+  },
+  "lobby": {
+    "back": "返回工作台",
+    "removedByHost": "您已被移出本节课。仅在获得教师许可后方可重新加入。",
+    "removedServiceDesk": "向服务台提交工单",
+    "cam": {
+      "off": "关闭摄像头",
+      "on": "开启摄像头",
+      "stateOff": "摄像头已关闭",
+      "stateOn": "摄像头已开启"
+    },
+    "camOffOverlay": "摄像头处于关闭状态",
+    "conn": {
+      "fair": "一般",
+      "good": "良好",
+      "poor": "较差",
+      "title": "连接质量",
+      "unknown": "未知"
+    },
+    "cta": {
+      "blocked": "要进入课堂，必须先解决上方标记的关键前提条件。",
+      "blockedTitle": "在解决关键前提条件前无法进入",
+      "enter": "进入课堂",
+      "ready": "请在进入前检查您的视频与音频。",
+      "waiting": "教师尚未进入；您可以提前进入并等候。"
+    },
+    "device": {
+      "camera": "摄像头",
+      "cameraNone": "未找到摄像头",
+      "fallback": "{device} {index, number}",
+      "mic": "麦克风",
+      "micNone": "未找到麦克风",
+      "speaker": "扬声器",
+      "speakerDefault": "系统默认扬声器"
+    },
+    "fallbackTitle": "在线直播课堂",
+    "guest": "访客",
+    "help": {
+      "body": "在进入直播课堂前，请在此测试摄像头、麦克风和扬声器。使用预览下方的按钮切换开关，并在设置栏中选择设备。全部就绪后，点击“进入课堂”。",
+      "title": "进课指南"
+    },
+    "joinMuted": "以麦克风静音状态进入",
+    "loading": "正在加载课时详情…",
+    "media": {
+      "denied": "未授予摄像头或麦克风访问权限。",
+      "deniedTitle": "摄像头/麦克风权限被拒绝",
+      "notFound": "未找到摄像头或麦克风设备。"
+    },
+    "meta": {
+      "host": "授课教师：{name}",
+      "time": "时间：{time}"
+    },
+    "meter": {
+      "label": "麦克风音量",
+      "micOff": "麦克风已静音 — 取消静音以进行测试。"
+    },
+    "mic": {
+      "off": "静音麦克风",
+      "on": "开启麦克风",
+      "stateOff": "麦克风已静音",
+      "stateOn": "麦克风已激活"
+    },
+    "perm": {
+      "retry": "重试权限请求",
+      "step1": "点击浏览器地址栏旁的锁形图标。",
+      "step2": "将“摄像头”和“麦克风”权限设为“允许”。",
+      "step3": "然后点击下方按钮重试。",
+      "without": "您也可以在没有摄像头/麦克风的情况下进入课堂。"
+    },
+    "settings": {
+      "name": "您在课堂中的显示名称",
+      "title": "音视频设置"
+    },
+    "speaker": {
+      "playing": "正在播放…",
+      "test": "测试"
+    },
+    "status": {
+      "ended": "本节课已结束",
+      "live": "正在直播",
+      "prefix": "状态：{status}",
+      "waiting": "教师尚未进入"
+    }
+  },
+  "notes": {
+    "ariaLabel": "课堂共享笔记",
+    "charCount": "{count, number} 个字符",
+    "empty": "暂未记录任何内容",
+    "exportLabel": "导出文本",
+    "exportTitle": "保存为文本文件 (.txt)",
+    "placeholder": "在此输入… 您的输入将实时对所有参与者可见。",
+    "synced": "已同步",
+    "syncing": "正在实时同步编辑内容",
+    "title": "共享笔记"
+  },
+  "panel": {
+    "close": "关闭",
+    "host": {
+      "actionsFor": "对 {name} 的主持人操作",
+      "kick": "移除",
+      "lockChat": "锁定聊天",
+      "lowerHand": "放下手",
+      "makePresenter": "设为主讲人",
+      "mute": "静音",
+      "muteAll": "全员静音",
+      "unlockChat": "解锁聊天"
+    },
+    "people": {
+      "note": "参与者名单实时更新。当媒体引擎连接成功后将显示视频画面。"
+    },
+    "tabCount": " ({count, number})",
+    "tabs": {
+      "analytics": "分析",
+      "assistant": "助教",
+      "breakout": "分组",
+      "chat": "聊天",
+      "notes": "笔记",
+      "people": "参与者",
+      "polls": "投票",
+      "tables": "讨论桌"
+    },
+    "transcript": {
+      "captionTag": "（语音）",
+      "download": "下载完整逐字稿 ⬇",
+      "fileHeader": "课堂逐字稿",
+      "fileSuffix": "-逐字稿.txt",
+      "preparing": "正在准备…",
+      "privateTag": "（私密）",
+      "regionLabel": "实时语音逐字稿"
+    }
+  },
+  "poll": {
+    "addOption": "添加选项",
+    "cancel": "取消",
+    "changeHint": "若要修改投票，请选择其他选项。",
+    "emptyGuest": "当前没有正在进行的投票。当主持人发起投票时，将在此处显示。",
+    "emptyHost": "暂无活动投票。点击“新建投票”即可创建。",
+    "end": "结束投票",
+    "endedBadge": "已结束",
+    "finalTotal": "最终结果 · 共 {count, plural, other {# 票}}",
+    "minOptions": "至少需要 {min, number} 个非空选项方可发起。",
+    "multi": "多选",
+    "multiLabel": "允许选择多个选项（多选）",
+    "new": "新建投票",
+    "optionN": "选项 {n, number}",
+    "optionTally": "{pct, number}% · {count, number}",
+    "optionsLabel": "选项 ({used, number} / {max, number})",
+    "questionAria": "问题内容",
+    "questionLabel": "问题",
+    "questionPlaceholder": "例如：您倾向于讨论哪个主题？",
+    "removeOption": "移除选项",
+    "single": "单选",
+    "start": "发起投票",
+    "status": {
+      "ended": "投票已结束 — 最终结果。",
+      "endingWait": "正在等待投票结束确认…",
+      "startFailed": "服务器未确认投票发起。请检查连接与主持人权限后重试。",
+      "started": "投票已发起 — 等待回应中…",
+      "starting": "正在发起投票…",
+      "voteFailed": "投票提交未被确认；请重试。",
+      "voteSent": "您的投票已提交 ✓",
+      "voting": "正在提交投票…",
+      "waitingAnswers": "等待回应中…"
+    },
+    "submitVote": "提交投票",
+    "title": "投票",
+    "updateVote": "修改投票",
+    "voteCount": "{count, plural, other {# 票}}"
+  },
+  "preflight": {
+    "bandwidth": {
+      "detail": "检测到您的网络连接较弱；摄像头视频将以较低质量传输以避免中断。",
+      "good": "良好",
+      "label": "网络连接质量",
+      "unknown": "未知",
+      "weak": "较弱"
+    },
+    "captions": {
+      "available": "可用",
+      "detail": "基于浏览器语音识别的实时字幕与翻译仅在 Chrome/Edge 中可用。其他课堂功能依然完全可用。",
+      "label": "实时字幕（可选）",
+      "limited": "受限"
+    },
+    "device": {
+      "absentDetail": "未找到活动的 {device}。请检查设备连接；您仍可在没有 {device} 的情况下进入课堂。",
+      "absentStatus": "未找到",
+      "camera": "摄像头",
+      "deniedDetail": "对 {device} 的访问被拒绝。点击地址栏旁的锁形图标并将“{device}”设为允许。",
+      "deniedStatus": "访问被拒绝",
+      "microphone": "麦克风",
+      "promptDetail": "尚未授予 {device} 访问权限。浏览器提示时请选择允许。",
+      "promptStatus": "等待授权",
+      "readyStatus": "就绪"
+    },
+    "panel": {
+      "blocked": "在解决上方红色标记的问题之前，您无法进入课堂。解决后请点击“重新检查”。",
+      "checking": "正在检查…",
+      "regionLabel": "进课前设备就绪情况检查",
+      "retry": "重新检查",
+      "severity": {
+        "fail": "问题",
+        "pass": "就绪",
+        "warn": "警告"
+      },
+      "title": "设备就绪检查"
+    },
+    "screen": {
+      "detail": "您的浏览器不支持屏幕共享。如需展示，请使用桌面版 Chrome、Edge 或 Firefox。",
+      "label": "屏幕共享"
+    },
+    "secure": {
+      "bad": "不安全",
+      "detail": "此页面未通过安全连接 (HTTPS) 打开；浏览器仅在 HTTPS 下允许访问摄像头和麦克风。",
+      "label": "安全连接 (HTTPS)",
+      "ok": "安全"
+    },
+    "supported": "支持",
+    "unsupported": "不支持",
+    "webrtc": {
+      "detail": "您的浏览器不支持实时音视频通话 (WebRTC)。请使用最新版本的 Chrome、Edge 或桌面版 Firefox。",
+      "label": "视频通话支持 (WebRTC)"
+    }
+  },
+  "pulse": {
+    "confused": "{count, plural, other {# 人感到困惑}}",
+    "slower": "{count, plural, other {# 人希望放慢节奏}}",
+    "title": "课堂脉搏",
+    "window": "在最近一分钟内"
+  },
+  "reactions": {
+    "throttled": "请稍慢一点 — 您的回应互动暂时受到限制。"
+  },
+  "review": {
+    "title": "教务复核案件",
+    "separateDecision": "收到报告并不代表最终确认未开课。决定权归院系教务处所有。",
+    "pendingDecision": "缺勤证明已记录，案件正在等待裁决。",
+    "reportReceived": "报告已收到",
+    "reviewerMissing": "院系尚未指派教务专员；案件保持开启状态。",
+    "reason": "情况描述与理由（至少 10 个字符）",
+    "fileReport": "提交报告",
+    "confirmNotHeld": "确认未开课",
+    "rejectNotHeld": "驳回未开课报告",
+    "requestMakeup": "申请补课课时",
+    "start": "建议开始时间",
+    "end": "建议结束时间",
+    "submitMakeup": "提交补课申请",
+    "makeupRequested": "申请的补课时间",
+    "approveMakeup": "批准补课时间",
+    "rejectMakeup": "驳回补课申请",
+    "makeupScheduled": "补课已排定；实际开课尚待确认。",
+    "notHeld": {
+      "confirmed": "已确认未开课",
+      "rejected": "未开课报告已驳回"
+    },
+    "makeup": {
+      "approved": "补课申请已批准",
+      "rejected": "补课申请已驳回"
+    },
+    "actionFailed": "无法执行此操作；请重试。"
+  },
+  "report": {
+    "playback": {
+      "open": "交互式回放"
+    },
+    "att": {
+      "ABSENT": "缺勤",
+      "EXCUSED": "请假",
+      "LATE": "迟到",
+      "NONE": "—",
+      "PRESENT": "出勤",
+      "absent": "缺勤：{value, number}",
+      "excused": "请假：{value, number}",
+      "finalized": "已定稿",
+      "late": "迟到：{value, number}",
+      "present": "出勤：{value, number}",
+      "provisional": "临时",
+      "total": "总计：{value, number}",
+      "unrecorded": "未记录"
+    },
+    "attendance": {
+      "noRoster": "此课时无可用的选课名单。",
+      "noSection": "本次课时未关联至特定班级/组；正式考勤仅对分班课时记录。实际参与者名单见下方。",
+      "title": "考勤"
+    },
+    "back": "返回课时中心",
+    "captions": {
+      "lines": "字幕行数",
+      "linesValue": "{value, number} 行",
+      "recording": "录像",
+      "soniox": "已存储的实时翻译",
+      "title": "字幕与录像"
+    },
+    "chat": {
+      "download": "下载逐字稿",
+      "empty": "本节课的公共聊天中未记录任何消息。",
+      "exportHead": "课时聊天日志：{title}",
+      "showAll": "显示全部 {value, number} 条消息",
+      "showLess": "显示较少",
+      "title": "已保存的聊天",
+      "truncated": "正在显示前 {shown, number} 条消息，共 {total, number} 条（显示限制）。"
+    },
+    "conn": {
+      "direct": "直接连接",
+      "nat": "通过 NAT",
+      "relay": "通过中继",
+      "unknown": "未知"
+    },
+    "counselor": {
+      "adviseesTitle": "我的受指导学生",
+      "eyebrow": "直播课堂 · 课时综合报告",
+      "helpBody": "顾问视图：课时考勤汇总统计（不含姓名），以及已与您排定指导的学生考勤状态。课堂聊天和逐字稿在此视图中被排除。",
+      "helpTitle": "顾问报告指南",
+      "kpiAdvisees": "受指导学生",
+      "kpiTotal": "学生总数",
+      "noAdvisees": "您的受指导学生均未选修此课程。",
+      "statsTitle": "课时考勤统计概览"
+    },
+    "engagement": {
+      "hands": "举手发言：",
+      "handsTitle": "举手发言",
+      "notCaptured": "本节课未记录互动数据（可能未正常结束或课堂中无互动发生）。",
+      "polls": "课堂投票：",
+      "reactions": "互动回应：",
+      "timelineTitle": "课堂时间轴",
+      "title": "互动参与度概览"
+    },
+    "errLoad": "加载课时报告失败。",
+    "full": {
+      "eyebrow": "直播课堂 · 课时综合报告",
+      "helpBody": "本报告集中展示在线直播课时的所有持久化数据：授课起止时间、学生考勤记录、参与者名单、课堂聊天记录、按发言人归因的语音逐字稿、投票、互动反应及录制状态。",
+      "helpTitle": "课时报告说明指南"
+    },
+    "hostSuffix": "（主持人）",
+    "kpi": {
+      "absent": "缺勤人数",
+      "actualMinutes": "实际授课时长",
+      "chatCount": "聊天消息条数",
+      "joins": "进出课堂人次",
+      "myMinutes": "我的听课时长",
+      "myStatus": "我的考勤状态",
+      "participants": "参与者总数",
+      "presentIncLate": "出勤总数（含迟到）",
+      "scheduledMinutes": "计划排课时长",
+      "totalMinutes": "全班总听课分钟数"
+    },
+    "loading": "正在加载课时报告…",
+    "minutes": "{value, number} 分钟",
+    "neverOpened": "本节课未开课（未记录到主持人进入）。",
+    "noCourse": "无关联课程",
+    "noName": "未命名",
+    "parent": {
+      "childrenTitle": "子女考勤记录",
+      "eyebrow": "直播课堂 · 子女考勤报告",
+      "helpBody": "依据访问权限矩阵，课时报告仅向家长呈现子女的考勤摘要；课堂公共聊天与语音逐字稿对家长不公开。",
+      "helpTitle": "家长报告说明指南",
+      "kpiChildren": "关联至本次课时的子女",
+      "noChildren": "您的子女均未关联本次课时。"
+    },
+    "participants": {
+      "empty": "暂无参与者记录。",
+      "title": "参与者详细名单"
+    },
+    "poll": {
+      "ended": "已结束",
+      "multi": " · 多选",
+      "open": "开放中",
+      "total": "总投票数：{value, number}"
+    },
+    "polls": {
+      "title": "课堂投票记录"
+    },
+    "recording": {
+      "duration": "录像时长：{duration}",
+      "none": "暂不可用",
+      "play": "播放录像",
+      "processing": "正在处理录像…"
+    },
+    "self": {
+      "attendanceTitle": "我的出勤",
+      "eyebrow": "直播课堂 · 您的课时专属报告",
+      "firstJoin": "首次进入：",
+      "helpBody": "这是您的专属课时报告：包含您个人的出勤记录、公共聊天、您的发言记录以及全班公开内容（投票和互动回应）。",
+      "helpTitle": "个人报告使用指南",
+      "joinsLabel": "进出课堂人次：",
+      "minutesLabel": "在课听课时长：",
+      "myTranscript": "我的语音发言记录",
+      "myTranscriptEmpty": "未记录到您的语音发言。",
+      "reactionsTitle": "您的互动回应",
+      "reactionsTotal": "已发送的回应总数：{value, number}",
+      "recordingTitle": "课时录像"
+    },
+    "table": {
+      "conn": "连接状态",
+      "firstJoin": "首次进入",
+      "joins": "进出人次",
+      "minutes": "听课时长（分钟）",
+      "name": "姓名",
+      "status": "考勤状态"
+    },
+    "timeline": {
+      "breakoutClose": "分组讨论室关闭",
+      "breakoutOpen": "分组讨论室开启",
+      "hand": "举手发言",
+      "pollEnd": "投票结束",
+      "pollStart": "发起投票"
+    },
+    "timing": {
+      "actual": "实际时长：{value}",
+      "late": "迟到时长：{value}",
+      "notHeld": "未开课",
+      "onTime": "准时",
+      "range": "{start} 至 {end}",
+      "scheduled": "计划时长：{value}",
+      "title": "起止时间与时长"
+    },
+    "transcript": {
+      "empty": "本次课时暂无可用的语音逐字稿。",
+      "title": "按发言人归因的语音逐字稿",
+      "truncatedAll": "由于展示限制，部分逐字稿已被截断。",
+      "truncatedSpeaker": "更多发言内容未予展开展示。",
+      "utterances": "{count, number} 段发言"
+    },
+    "unavailable": "报告暂不可用"
+  },
+  "session": {
+    "absence": {
+      "instructorDisconnected": "教师连接断开。课程将继续进行，等待教师返回。",
+      "takeOver": "接受讨论桌与发言队列的临时管理控制权"
+    },
+    "supervision": {
+      "waiting": "正在等待教学督导…",
+      "paused": "教学督导已暂停",
+      "recordingDenied": "督导录制权限被拒绝",
+      "offer": "提供教学督导",
+      "offerPending": "督导邀请等待中",
+      "accept": "接受教学督导",
+      "conflict": "教学督导请求发生冲突。",
+      "returnFirst": "返回初始视图",
+      "returnLobby": "返回等候室"
+    },
+    "cohost": {
+      "denied": "联席主持人权限被拒绝",
+      "grant": "指定联席主持人",
+      "granted": "已授予联席主持人角色",
+      "instructorPresent": "主讲教师在线",
+      "manage": "管理联席主持人",
+      "revoke": "撤销联席主持人",
+      "revoked": "联席主持人角色已撤销"
+    },
+    "kick": {
+      "failed": "移出参与者失败。",
+      "manage": "管理移出名单",
+      "restore": "允许重新加入",
+      "restoreFailed": "恢复访问权限失败。"
+    },
+    "archive": {
+      "btn": "逐字稿归档",
+      "download": "下载归档",
+      "empty": "归档中暂无存储的语音内容。",
+      "error": "获取归档失败。",
+      "loading": "正在加载归档…",
+      "reload": "重新加载",
+      "retry": "重试",
+      "short": "归档",
+      "title": "逐字稿归档（已存储）"
+    },
+    "browserUnknown": "未知",
+    "capset": {
+      "btn": "字幕设置",
+      "fontSize": "字号大小",
+      "lg": "大号",
+      "maxLines": "最大行数",
+      "md": "中号",
+      "off": "已关闭",
+      "on": "已开启",
+      "showNames": "显示发言人姓名",
+      "sm": "小号",
+      "title": "字幕偏好设置"
+    },
+    "captions": {
+      "cpuSlow": "CPU 负载较高；字幕可能会有延迟。",
+      "deviceUnsupported": "设备不支持语音识别功能。",
+      "engineStuck": "字幕引擎无响应。正在重启…",
+      "fallbackServer": "正在切换到服务器端字幕…",
+      "micDenied": "麦克风权限被拒绝，无法生成字幕。",
+      "micRequired": "生成语音字幕需要使用麦克风。",
+      "needMic": "请开启麦克风以使用字幕功能。",
+      "noNativeNoServer": "无可用的本地或服务器端语音识别服务。",
+      "recordFailed": "记录字幕失败。",
+      "unavailableHere": "字幕在此场景下暂不可用。",
+      "unsupported": "此浏览器不支持字幕功能。"
+    },
+    "close": "关闭",
+    "collabLoading": "正在加载协作工具…",
+    "conn": {
+      "fair": "一般",
+      "good": "良好",
+      "poor": "较差",
+      "unknown": "未知"
+    },
+    "connFoot": "连接质量将直接影响音视频的流畅度。",
+    "diag": {
+      "available": "可用",
+      "browser": "浏览器：{name}",
+      "engine": "音视频引擎：{engine}",
+      "engineNative": "WebRTC 本地原生引擎",
+      "engineNone": "无",
+      "engineServer": "服务器转发引擎",
+      "hint": "供技术排障与网络优化的详细信息。",
+      "lastError": "最近错误：{err}",
+      "level": "音频电平：{value}",
+      "listening": "正在监听音频信号…",
+      "mic": "麦克风：{name}",
+      "micOff": "麦克风已关",
+      "micOn": "麦克风已开",
+      "off": "关闭",
+      "restarts": "重试次数：{count, number}",
+      "speech": "检测到语音：{status}",
+      "starting": "正在启动诊断…",
+      "status": "状态：{status}",
+      "unavailable": "诊断功能不可用。"
+    },
+    "download": {
+      "chat": "下载聊天记录",
+      "formatMenu": "选择下载格式",
+      "label": "下载课堂资源",
+      "loading": "正在准备下载…",
+      "srt": "字幕 (.srt)",
+      "txt": "文本 (.txt)",
+      "vtt": "WebVTT 字幕 (.vtt)"
+    },
+    "end": {
+      "cancel": "取消",
+      "confirmBody": "您确定要为全班正式结束本次课时吗？",
+      "confirmCta": "立即下课",
+      "confirmTitle": "结束课时确认",
+      "failed": "结束课时失败。",
+      "pendingHost": "正在等待主持人确认…",
+      "pendingStudent": "教师正在结束本次课堂…",
+      "undo": "撤销结束",
+      "undoFailed": "撤销结束操作失败。"
+    },
+    "ended": {
+      "byHost": "本次课时已被主持人正式结束。",
+      "forAll": "课堂已全员结束。",
+      "redirecting": "正在重定向回课程主页…"
+    },
+    "film": {
+      "emptyHint": "参与者的摄像头画面将显示在此处。",
+      "emptyTitle": "暂无开启摄像头的成员",
+      "regionLabel": "参与者画面胶卷栏"
+    },
+    "fs": {
+      "enter": "全屏",
+      "enterLabel": "进入全屏模式",
+      "exit": "退出全屏"
+    },
+    "guest": "访客",
+    "jitsi": {
+      "loadFailed": "加载视频通话房间失败。",
+      "openNewTab": "在新标签页中打开"
+    },
+    "lang": {
+      "faShort": "FA"
+    },
+    "langMenu": {
+      "help": "选择您偏好的字幕与翻译语言。",
+      "my": "我的语言",
+      "notFound": "未找到语言",
+      "searchLabel": "搜索语言",
+      "searchPlaceholder": "搜索语言…"
+    },
+    "layout": {
+      "custom": "自定义",
+      "focusPresentation": "聚焦演示内容",
+      "focusVideo": "聚焦主讲人视频",
+      "smart": "智能布局"
+    },
+    "leave": "离开课堂",
+    "leaveShort": "离开",
+    "media": {
+      "audioOnly": "仅开启音频",
+      "denied": "媒体设备权限被拒绝",
+      "errSuffix": "（设备异常）",
+      "generic": "媒体异常",
+      "inUse": "摄像头或麦克风正被其他程序占用。",
+      "notFound": "未找到媒体设备。",
+      "retry": "重试",
+      "unsupported": "不支持的媒体格式。"
+    },
+    "panel": {
+      "chatTranslated": "已翻译的聊天",
+      "empty": "侧边栏当前暂无内容。",
+      "regionLabel": "侧边工具栏",
+      "title": "侧边栏"
+    },
+    "participant": "参与者",
+    "rec": {
+      "active": "正在录制课堂…",
+      "armed": "录制已就绪可开始",
+      "cancel": "取消录制",
+      "netFailed": "录制网络错误",
+      "paused": "录制已暂停",
+      "retry": "重试录制",
+      "saveCta": "保存",
+      "saveFailed": "保存录像文件失败。",
+      "saveMeta": "正在保存录像元数据…",
+      "saveTitle": "保存录像",
+      "saved": "录像保存成功。",
+      "durableServer": "备份已安全存储在服务器端。",
+      "durablePending": "正在保存录像持久备份…",
+      "durableUnprotected": "未受保护的录像。",
+      "recoveryAvailable": "有可恢复的课时录像数据。",
+      "recoveryOpen": "打开恢复",
+      "startFailed": "启动录制失败。",
+      "unsupportedRecorder": "您的浏览器不支持该录制格式。",
+      "unsupportedScreen": "无法录制屏幕画面。",
+      "uploading": "正在上传视频文件…"
+    },
+    "reconnecting": "正在重新连接… 请稍候。",
+    "selfName": "您",
+    "share": {
+      "failed": "屏幕共享失败。",
+      "unsupported": "此浏览器不支持屏幕共享。"
+    },
+    "someone": "某位成员",
+    "soniox": {
+      "captionFailed": "实时字幕处理失败。",
+      "connecting": "正在连接转录引擎…",
+      "detectedLabel": "检测到的语言",
+      "detectedTitle": "自动语言检测",
+      "error": "转录引擎错误。",
+      "exportDate": "日期：{date}",
+      "exportHead": "课时转录文本",
+      "group": "语音转录工具",
+      "langSep": " | ",
+      "on": "已开启",
+      "receiveOnly": "仅接收字幕模式",
+      "saveFallback": "正在保存逐字稿备用副本…",
+      "stConnecting": "正在连接语音服务…",
+      "stError": "语音服务发生错误。",
+      "stMore": "更多转录选项",
+      "stOn": "语音转录已激活",
+      "stOnTargets": "活动目标",
+      "stPaused": "语音转录已暂停",
+      "stReceiveOnly": "仅收听模式",
+      "stReconnecting": "正在重新连接语音服务…",
+      "stTranscribeOnly": "仅转录模式",
+      "turnOn": "开启语音服务",
+      "unavailable": "语音服务不可用。"
+    },
+    "stage": {
+      "captionFeed": "实时字幕流",
+      "modeLabel": "主讲台模式",
+      "noShare": "当前无人共享屏幕。",
+      "noShareHint": "当教师或参与者开始共享屏幕时，画面将在此处呈现。",
+      "share": "共享屏幕",
+      "whiteboard": "主讲台白板共享"
+    },
+    "tile": {
+      "handRaised": "已举手",
+      "pin": "固定画面",
+      "quality": {
+        "connecting": "连接中…",
+        "fair": "画质一般",
+        "good": "画质良好",
+        "poor": "画质较差",
+        "unknown": "画质未知"
+      }
+    },
+    "titleFallback": "在线直播虚拟课堂",
+    "duplicate": {
+      "replaced": "您已在另一个窗口或标签页中打开了本次课时。",
+      "continued": "课时已在另一个窗口中继续。",
+      "continueHere": "在此窗口继续"
+    },
+    "toast": {
+      "captionsOn": "字幕已开启",
+      "chatLocked": "聊天已被主持人锁定",
+      "chatUnlocked": "聊天已被主持人解锁",
+      "joined": "您已加入课堂",
+      "kicked": "您已被移出课堂",
+      "left": "您已离开课堂",
+      "recStarted": "录制已开始",
+      "recStopped": "录制已停止"
+    },
+    "toolbar": {
+      "cam": "摄像头",
+      "captionsGroup": "字幕与翻译",
+      "ccOff": "关闭字幕",
+      "ccOn": "开启字幕",
+      "ccStarting": "正在启动字幕…",
+      "endClass": "全员下课",
+      "endClassShort": "下课",
+      "handShort": "举手",
+      "langEn": "英语",
+      "langFa": "波斯语",
+      "layout": "切换布局",
+      "mic": "麦克风",
+      "more": "更多选项",
+      "moreLabel": "更多工具",
+      "panel": "打开侧边栏",
+      "panelShort": "侧栏",
+      "raiseHand": "举手发言",
+      "reactions": "互动回应",
+      "sendReaction": "发送互动回应",
+      "share": "共享屏幕",
+      "shareShort": "共享"
+    },
+    "topbar": {
+      "elapsedLabel": "已进行时间",
+      "hostPrefix": "授课教师：",
+      "loadingTitle": "正在加载课堂…",
+      "recOffTitle": "未在录制",
+      "recOnTitle": "正在录制",
+      "recStart": "开始录制",
+      "recStop": "停止录制"
+    },
+    "unpin": "取消固定",
+    "unpinLabel": "从主舞台取消固定视频",
+    "view": {
+      "gallery": "画廊视图",
+      "modeLabel": "视图模式",
+      "podium": "演讲台 / 主讲人视图"
+    },
+    "you": "您"
+  },
+  "signals": {
+    "aria": {
+      "confused": "提示概念不明确",
+      "slower": "请求教师放慢授课节奏"
+    },
+    "confused": "我没听懂",
+    "sent": "已记录",
+    "slower": "放慢节奏"
+  },
+  "tables": {
+    "assign": {
+      "balanced": "自动（均衡分配）",
+      "noStudents": "课堂中暂无学生。",
+      "pickFor": "为 {name} 安排讨论桌",
+      "random": "随机分配",
+      "title": "安排座位",
+      "unassigned": "未分配"
+    },
+    "cancel": "取消",
+    "confirm": "是",
+    "countLabel": "新建桌数",
+    "capacity": "{used, number} / {total, number} 人",
+    "capacityLabel": "每桌容量",
+    "create": "创建讨论桌",
+    "defaultName": "第 {index, number} 桌",
+    "dissolve": "解散讨论桌",
+    "dissolveConfirm": "解散“{name}”？其成员将返回主课堂。",
+    "duration": {
+      "label": "分组工作时长",
+      "option": "{count, number} 分钟"
+    },
+    "empty": "尚未创建讨论桌。",
+    "extend": "延长 {count, number} 分钟",
+    "limit": "最多 {count, number} 张桌",
+    "mediaNote": "在讨论桌工作期间，仅同桌成员可以听到和看到您。",
+    "memberCount": "{count, number} 人",
+    "members": "同桌成员",
+    "nameLabel": "讨论桌名称",
+    "peekNotice": "教师正在巡视讨论桌",
+    "rejected": {
+      "empty": "没有任何桌子包含成员。",
+      "full": "此讨论桌已满员。",
+      "error": "发生错误；请重试。",
+      "forbidden": "您没有权限执行此操作。",
+      "invalid": "无效请求。",
+      "limit": "已达到最大讨论桌数量上限。",
+      "noRound": "分组讨论尚未开始。",
+      "notFound": "该讨论桌已不存在。",
+      "roundActive": "分组工作进行期间无法执行此操作。",
+      "selectionLocked": "选桌功能已被教师锁定。"
+    },
+    "remaining": "剩余时间：{time}",
+    "rename": "重命名",
+    "returnAll": "全员返回",
+    "returnAllConfirm": "让所有人返回主课堂？",
+    "returned": "所有人已返回主课堂。",
+    "running": "分组讨论进行中",
+    "save": "保存",
+    "select": {
+      "action": "选择讨论桌",
+      "full": "已满",
+      "hint": "选择一张空闲讨论桌；只要讨论桌开放，您就可以更换。",
+      "selected": "已选讨论桌：{name}",
+      "title": "选择讨论桌"
+    },
+    "selection": {
+      "close": "关闭选桌",
+      "open": "开放选桌"
+    },
+    "start": "开始分组讨论",
+    "startHint": "将学生分配至各讨论桌后点击“开始”。",
+    "timeUp": "讨论桌协作时间已结束。",
+    "title": "协作讨论桌",
+    "transcriptConsentProgress": "正在处理授权…",
+    "transcriptDurableEnabled": "讨论桌转录已妥善保存。",
+    "transcriptConsentAccept": "同意讨论桌录音转录",
+    "transcriptConsentWithdraw": "撤回讨论桌转录授权",
+    "transcriptWithdrawalReason": "撤回授权理由",
+    "transcriptQuarantined": "转录内容暂处于隔离保护中。",
+    "transcriptConsentUnavailable": "转录授权不可用。",
+    "visit": {
+      "join": "进入该桌",
+      "joined": "您已进入该讨论桌",
+      "leave": "离开该桌",
+      "peek": "查看该桌",
+      "peeking": "正在巡视讨论桌…"
+    },
+    "you": {
+      "assigned": "已分配至：{name}",
+      "unassigned": "您尚未被分配到讨论桌。",
+      "waiting": "正在等待分配讨论桌…"
+    }
+  },
+  "wb": {
+    "canvasLabel": "共享白板画布",
+    "clearAll": "清空全部",
+    "clearAllTitle": "清空全部（主持人）",
+    "clearConfirm": "确认清空全部",
+    "clearConfirmShort": "确认？",
+    "clearConfirmTitle": "再次点击以确认",
+    "colorGroup": "颜色",
+    "colorSwatch": "颜色 {color}",
+    "exportPng": "导出 PNG",
+    "exportPngTitle": "保存为 PNG 图片",
+    "hintEmpty": "白板当前为空。请选择工具并在画布上绘制。",
+    "hintText": "输入文字并按 Enter 放置在白板上。",
+    "itemCount": "{count, plural, other {白板上有 # 个元素}}",
+    "lock": "锁定白板",
+    "lockTitle": "为其他参与者锁定白板",
+    "lockedNotice": "白板已被主持人锁定；当前仅供查看。",
+    "lockedTitle": "白板已锁定 — 点击以解锁",
+    "redo": "重做",
+    "textLabel": "白板上的文字",
+    "textPlaceholder": "文字… (Enter 放置，Esc 取消)",
+    "toolbarLabel": "白板工具",
+    "tools": {
+      "arrow": "箭头",
+      "circle": "圆形",
+      "eraser": "橡皮擦",
+      "line": "直线",
+      "pen": "画笔",
+      "rect": "矩形",
+      "select": "选择",
+      "text": "文字"
+    },
+    "undo": "撤销",
+    "undoTitle": "撤销（您的最后一项操作）",
+    "unlock": "解锁白板",
+    "widthGroup": "线条粗细",
+    "widthOption": "粗细 {width, number}"
+  },
+  "sessionAnalysis": {
+    "title": "课时分析",
+    "loading": "正在分析…",
+    "failed": "无法完成课时分析",
+    "reviewRequired": "此结果为草稿，需要授课教师审核。",
+    "confidence": "预估置信度：{value, number, ::percent}",
+    "unavailable": "实时课时分析不可用。未生成任何摘要或教学问题。",
+    "truncated": "此分析仅涵盖已存储的部分逐字稿；课时文本已超出处理上限。",
+    "quiz": "推荐提问 ({count, number})",
+    "suggestedAnswer": "建议答案：{answer}",
+    "sources": "参考逐字稿摘录 ({count, number})"
+  },
+  "playback": {
+    "back": "返回课时报告",
+    "chatTitle": "回放公开聊天",
+    "archivedChatTitle": "已归档的直播聊天（只读）",
+    "replayChatTitle": "回放新聊天",
+    "replayChatMessageLabel": "回放新消息",
+    "sendReplayChat": "在当前时间点发送消息",
+    "replayChatHidden": "此消息已被对他人隐藏",
+    "replayChatHide": "隐藏消息",
+    "replayChatUnhide": "取消隐藏消息",
+    "replayChatReportReason": "举报消息理由",
+    "replayChatReport": "举报消息",
+    "replayChatUnavailable": "回放聊天不可用或操作不被允许。",
+    "loadMoreChat": "加载更早的消息",
+    "makeupTitle": "回放补课考勤认定",
+    "makeupSeparateNotice": "此学分在教师审核后记录，不会直接修改历史考勤或成绩。",
+    "makeupSessionLabel": "补课课时 ID",
+    "makeupThresholdLabel": "最低验证观看时长（百分比）",
+    "makeupEnable": "启用补课认定",
+    "makeupDisable": "停用补课认定",
+    "makeupThreshold": "要求的最低观看时长：{percent}%",
+    "makeupOpenSession": "前往补课课时回放",
+    "makeupWatched": "服务器记录的观看时长：{percent}%",
+    "makeupReasonLabel": "补课申请理由",
+    "makeupClaim": "提交补课审核申请",
+    "makeupCreditStatus": "认定状态：{status}",
+    "makeupStudentLabel": "学生",
+    "makeupDecisionReasonLabel": "教师裁定理由",
+    "makeupConfirm": "确认补课认定",
+    "makeupReverse": "手动撤销已确认的认定",
+    "makeupUnavailable": "补课考勤操作不被允许或信息不可用。",
+    "makeupStatus": {
+      "pending": "等待审批",
+      "confirmed": "已确认",
+      "cancelled": "已取消",
+      "reversed": "已撤销"
+    },
+    "artifactsTitle": "课后共享的持久化文件",
+    "artifactsAudienceNotice": "这些文件仅对当前具有本课程及录像访问权限的用户可见；屏幕共享内容不予存储。",
+    "artifactsEnableLearners": "允许学员贡献文件",
+    "artifactsDisableLearners": "禁止学员贡献文件",
+    "artifactKindLabel": "内容类型",
+    "artifactTitleLabel": "标题",
+    "artifactWhiteboardLabel": "白板文本快照",
+    "artifactDocumentLabel": "课程文档 ID",
+    "artifactCreate": "保存共享文件",
+    "artifactApprove": "批准发布",
+    "artifactHide": "隐藏",
+    "artifactUnavailable": "不允许保存或管理此共享项目。",
+    "artifactKind": {
+      "pdf": "PDF",
+      "whiteboard": "白板",
+      "file_pin": "置顶文件"
+    },
+    "artifactStatus": {
+      "pending": "等待教师审批",
+      "published": "已发布",
+      "hidden": "已隐藏"
+    },
+    "notesTitle": "我的时间戳笔记",
+    "noteLabel": "笔记内容",
+    "addNote": "在当前时间添加笔记",
+    "saveNote": "保存修改",
+    "editNote": "编辑",
+    "deleteNote": "删除",
+    "seekNote": "跳转至笔记时间戳",
+    "questionsTitle": "回放问答",
+    "questionLabel": "带时间戳的提问",
+    "askQuestion": "提交提问",
+    "questionPublished": "已向全班公开",
+    "questionOptIn": "同意公开",
+    "questionOptOut": "撤销公开授权",
+    "questionApprove": "批准发布",
+    "questionUnpublish": "取消发布",
+    "answerLabel": "官方解答",
+    "answerQuestion": "提交解答",
+    "roomTitle": "小组一起看房间",
+    "createRoom": "创建专属房间",
+    "roomIdLabel": "房间 ID",
+    "joinRoom": "加入房间",
+    "roomUserLabel": "用户 ID",
+    "inviteRoom": "邀请",
+    "offerHandover": "提议转交控制权",
+    "acceptHandover": "接受控制权转交",
+    "removeMember": "从房间中移出",
+    "closeRoom": "关闭房间",
+    "roomPlay": "全员播放",
+    "roomPause": "全员暂停",
+    "roomSeek": "将全组回放同步跳转至指定时间",
+    "roomUnavailable": "房间不可用或您缺少必要权限。",
+    "roomWaiting": "正在等待房间连接…",
+    "questionUnavailable": "此操作不被允许或提问已不可用。",
+    "questionHide": "隐藏提问",
+    "questionUnhide": "取消隐藏提问",
+    "questionHidden": "对全班隐藏",
+    "questionReportReason": "举报提问理由",
+    "questionReport": "举报提问",
+    "eyebrow": "交互式回放",
+    "loading": "正在准备回放…",
+    "jump": "跳转至此事件",
+    "jumpToPoll": "跳转至投票：{question}",
+    "jumpToTableStart": "跳转至讨论桌活动开始点",
+    "jumpToTranscript": "跳转至逐字稿对应时间戳",
+    "speedLabel": "播放速度",
+    "watchedProgress": "此设备上观看的回放进度：{percent}%",
+    "serverWatchEvidence": "服务器记录的学习进度：{percent}%。",
+    "notAttendanceCredit": "仅凭此数值并不构成有效的出勤学分认定。",
+    "fullscreen": "全屏",
+    "captionsLabel": "课时字幕",
+    "showCaptions": "显示字幕",
+    "hideCaptions": "隐藏字幕",
+    "me": "我",
+    "noMatches": "未找到匹配您搜索内容的文本。",
+    "noRecording": "此课时无可用的回放录像。",
+    "open": "交互式回放",
+    "pollsTitle": "录制中的投票",
+    "pollNotReached": "若要作答，请先在回放进度中播放至该投票所在的时间点。",
+    "pollAnswerFailed": "无法记录回放作答；请重试。",
+    "searchLabel": "搜索逐字稿",
+    "searchPlaceholder": "搜索课堂语音内容…",
+    "searchLoading": "正在搜索逐字稿…",
+    "searchUnavailable": "逐字稿搜索功能不被允许或暂时不可用。",
+    "loadMoreResults": "展示更多结果",
+    "table": "第 {id} 桌",
+    "timelineLabel": "回放事件时间轴",
+    "transcriptTitle": "交互式逐字稿",
+    "downloadTranscript": "下载逐字稿",
+    "transcriptDownloadUnavailable": "逐字稿下载功能受限或暂时不可用。",
+    "unavailable": "本次课时的回放功能暂不可用。"
+  }
+}

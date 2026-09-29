@@ -1,0 +1,427 @@
+{
+  "common": {
+    "user": "Utilisateur",
+    "close": "Fermer",
+    "you": "Vous",
+    "cancel": "Annuler",
+    "working": "En cours…",
+    "loading": "Chargement…"
+  },
+  "errors": {
+    "generic": "Une erreur est survenue"
+  },
+  "role": {
+    "owner": "Propriétaire",
+    "admin": "Administrateur",
+    "member": "Membre"
+  },
+  "mute": {
+    "title": "Notifications de cette conversation",
+    "hint": "En sourdine : les messages et mentions de cette discussion ne déclencheront pas de notification (ils restent dans la liste).",
+    "on": "🔕 En sourdine",
+    "off": "🔔 Notifications activées"
+  },
+  "file": {
+    "unsupported": "Ce type de fichier n'est pas pris en charge. Envoyez une image (PNG/JPG/WebP/GIF) ou un document (PDF/Word/Excel/PowerPoint/Texte/ZIP).",
+    "kind": {
+      "image": "Image",
+      "voice": "Message vocal",
+      "file": "Fichier"
+    },
+    "tooLarge": "La taille de {label} dépasse la limite autorisée (maximum {value, number} Mo)."
+  },
+  "size": {
+    "bytes": "{value} octets",
+    "kb": "{value} Ko",
+    "mb": "{value} Mo"
+  },
+  "preview": {
+    "poll": "📊 Sondage : {body}",
+    "image": "🖼️ Image",
+    "file": "📎 Fichier",
+    "fileNamed": "📎 {name}",
+    "voice": "🎤 Message vocal",
+    "message": "Message"
+  },
+  "media": {
+    "image": "Image",
+    "file": "Fichier",
+    "generic": "Médias",
+    "tabsAria": "Type de média",
+    "tabImages": "Images",
+    "tabFiles": "Fichiers",
+    "emptyImages": "Aucune image partagée dans cette conversation.",
+    "emptyFiles": "Aucun fichier partagé dans cette conversation.",
+    "open": "Ouvrir l'image : {name}",
+    "dialogAria": "Médias de {title}",
+    "sharedTitle": "Médias partagés",
+    "imageAlt": "Image jointe",
+    "downloadFile": "Télécharger le fichier : {name}",
+    "downloadFileSized": "Télécharger le fichier : {name} ({size})",
+    "downloadImage": "Télécharger l'image",
+    "download": "Télécharger",
+    "lightboxAria": "Image : {name}"
+  },
+  "day": {
+    "today": "Aujourd'hui",
+    "yesterday": "Hier"
+  },
+  "presence": {
+    "justNow": "À l'instant",
+    "minutesAgo": "{value, plural, one {il y a # minute} other {il y a # minutes}}",
+    "hoursAgo": "{value, plural, one {il y a # heure} other {il y a # heures}}",
+    "dayAtTime": "{day} à {time}",
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "lastSeen": "Vu(e) pour la dernière fois {when}"
+  },
+  "mention": {
+    "viewProfile": "Voir le profil de {name}",
+    "dialog": "Mentionner un membre",
+    "empty": "Aucun membre trouvé.",
+    "listAria": "Membres à mentionner"
+  },
+  "list": {
+    "title": "Messages",
+    "unreadPill": "{value, plural, one {# non lu} other {# non lus}}",
+    "classSpacesTitle": "Espaces de discussion de classe",
+    "classGroups": "Groupes de cours",
+    "newCta": "+ Nouveau",
+    "loading": "Chargement…",
+    "emptyTitle": "Aucune conversation pour le moment.",
+    "emptyHint": "Démarrez une conversation avec « + Nouveau ».",
+    "emptyCta": "+ Démarrer une conversation",
+    "noSearchMatch": "Aucune conversation correspondant à « {query} ».",
+    "noUnread": "Aucune conversation non lue.",
+    "noneInFolder": "Aucune conversation dans ce dossier.",
+    "placeholder": "Sélectionnez une conversation.",
+    "unreadSep": "Messages non lus"
+  },
+  "search": {
+    "ariaMessages": "Rechercher des messages",
+    "ariaConvos": "Rechercher des conversations",
+    "placeholderMessages": "Rechercher dans tous les messages…",
+    "placeholderConvos": "Rechercher des conversations…",
+    "clear": "Effacer la recherche",
+    "modeLabel": "Mode de recherche",
+    "tabConvos": "Conversations",
+    "tabMessages": "Messages",
+    "tabMentions": "Mes mentions",
+    "minChars": "Saisissez au moins {value, number} caractères pour rechercher des messages.",
+    "searching": "Recherche en cours…",
+    "noMessages": "Aucun message trouvé pour « {query} »."
+  },
+  "mentions": {
+    "loading": "Chargement des mentions…",
+    "empty": "Vous n'avez pas encore été mentionné(e) dans un message."
+  },
+  "spaces": {
+    "intro": "Pour chaque cours que vous enseignez, un « Groupe de discussion » (tout le monde écrit) et un « Canal d'annonces » (vous seul) seront créés. Les étudiants inscrits y sont automatiquement ajoutés.",
+    "noSections": "Aucun cours n'est enregistré pour vous.",
+    "groupNumber": " · Groupe {value, number}",
+    "active": "Actif",
+    "resync": "Resynchroniser la liste",
+    "create": "Créer l'espace"
+  },
+  "chat": {
+    "untitled": "Conversation",
+    "back": "Retour",
+    "memberCount": "{value, number} membres",
+    "onlineCount": " · {value, number} en ligne",
+    "tapForInfo": " · Appuyer pour les informations",
+    "menuAria": "Options de la conversation",
+    "menuTitle": "Options",
+    "olderMessages": "Messages précédents",
+    "empty": "Aucun message pour l'instant. Envoyez le premier message.",
+    "readOnly": "Seuls les administrateurs peuvent publier dans ce canal."
+  },
+  "voice": {
+    "unsupported": "L'enregistrement vocal n'est pas pris en charge par ce navigateur.",
+    "denied": "Accès au microphone refusé. Vérifiez les autorisations de votre navigateur.",
+    "cancel": "Annuler l'enregistrement",
+    "recording": "Enregistrement du message vocal…",
+    "send": "Envoyer le message vocal",
+    "record": "Enregistrer un message vocal"
+  },
+  "copy": {
+    "ok": "Texte du message copié.",
+    "failed": "Impossible de copier le texte."
+  },
+  "ai": {
+    "prompt": {
+      "explain": "Explique ce message simplement et brièvement :\n« {body} »",
+      "summarize": "Résume ce message en une ou deux phrases :\n« {body} »",
+      "ask": "Aide-moi avec ce message et souligne les points clés :\n« {body} »",
+      "translate": "Traduis ce texte en français fluide s'il est dans une autre langue, ou en anglais s'il est en français :\n« {body} »"
+    },
+    "sessionTitle": "Depuis la messagerie",
+    "noAnswer": "(Aucune réponse reçue)",
+    "sheet": {
+      "aria": "Réponse de l'assistant intelligent",
+      "title": {
+        "explain": "Expliquer avec l'IA",
+        "summarize": "Résumé",
+        "ask": "Demander à l'assistant",
+        "translate": "Traduire"
+      },
+      "loading": "Rédaction en cours…",
+      "plansCta": "Voir les forfaits →",
+      "agentsCta": "Continuer dans « Assistants intelligents » →"
+    }
+  },
+  "pin": {
+    "limit": "Vous pouvez épingler jusqu'à {value, number} messages. Détachez-en un d'abord.",
+    "barAria": "Messages épinglés ({value, number})",
+    "barTitle": "Message épinglé",
+    "listAria": "Liste des messages épinglés",
+    "listTitle": "Liste des épingles",
+    "remove": "Détacher"
+  },
+  "report": {
+    "done": "Votre signalement a été envoyé et sera examiné par les administrateurs. Merci.",
+    "title": "Signaler le message",
+    "hint": "Ce message sera signalé aux administrateurs pour examen. Choisissez ou indiquez un motif (facultatif).",
+    "reasonAria": "Motif du signalement",
+    "reason": {
+      "abusive": "Contenu injurieux ou harcèlement",
+      "spam": "Spam ou publicité",
+      "inappropriate": "Contenu inapproprié",
+      "other": "Autre motif"
+    },
+    "noteLabel": "Précisions supplémentaires (facultatif)",
+    "notePlaceholder": "Précisez si vous le souhaitez…",
+    "sending": "Envoi en cours…",
+    "submit": "Envoyer le signalement"
+  },
+  "forward": {
+    "batchBody": "Transférer {value, number} messages",
+    "doneOne": "Message transféré.",
+    "doneMany": "{value, number} messages transférés.",
+    "title": "Transférer le message",
+    "searchAria": "Rechercher une conversation",
+    "searchPlaceholder": "Rechercher une conversation…",
+    "empty": "Aucune conversation trouvée.",
+    "current": "Conversation actuelle"
+  },
+  "bulkDelete": {
+    "done": "{value, number} messages supprimés.",
+    "partial": "{value, number} messages supprimés ({skipped, number} messages n'ont pas pu être supprimés)."
+  },
+  "block": {
+    "done": "Cet utilisateur a été bloqué. Vous ne pouvez plus vous envoyer de messages.",
+    "lifted": "Blocage levé. Vous pouvez désormais envoyer des messages.",
+    "unblockCta": "Débloquer",
+    "blockCta": "Bloquer l'utilisateur",
+    "barText": "Vous avez bloqué cet utilisateur ; l'envoi de messages n'est pas autorisé."
+  },
+  "bubble": {
+    "aria": {
+      "select": "{state} — Message de {name}",
+      "selected": "Sélectionné",
+      "selectable": "Sélectionner",
+      "message": "Message de {name} — Touche menu ou clic droit pour les options"
+    },
+    "forwardedFrom": "Transféré de",
+    "pinned": "Épinglé",
+    "jumpToReplied": "Aller au message de {name}",
+    "edited": " · Modifié",
+    "quickActions": "Actions rapides du message",
+    "likeAria": "Réaction J'aime",
+    "like": "J'aime",
+    "reply": "Répondre",
+    "more": "Plus d'options",
+    "menu": "Options du message"
+  },
+  "qa": {
+    "question": "Question de cours",
+    "hasAccepted": " · Réponse acceptée",
+    "accepted": "Réponse acceptée",
+    "openAria": "Questions-réponses du cours",
+    "openTitle": "Questions-réponses",
+    "sendAsAria": "Envoyer comme question de cours",
+    "sendAsOn": "Ce message sera envoyé comme question",
+    "filterAria": "Filtrar les questions",
+    "filter": {
+      "all": "Toutes",
+      "unanswered": "Sans réponse",
+      "answered": "Avec réponse"
+    },
+    "empty": {
+      "unanswered": "Aucune question sans réponse.",
+      "answered": "Aucune question n'a encore de réponse acceptée.",
+      "all": "Aucune question posée pour l'instant. Posez une question avec le bouton ❓ à côté de la saisie."
+    },
+    "jump": "Aller à la question de {name}",
+    "acceptedBadge": "Réponse acceptée",
+    "answersCount": "{value, number} réponses",
+    "olderItems": "Éléments précédents"
+  },
+  "status": {
+    "failed": "Échec de l'envoi",
+    "retry": "Réessayer",
+    "pending": "Envoi en cours",
+    "read": "Lu",
+    "sent": "Envoyé"
+  },
+  "seenBy": {
+    "aria": "Vu par qui",
+    "title": "Vu par"
+  },
+  "selection": {
+    "barAria": "Barre de sélection des messages",
+    "cancelAria": "Annuler la sélection",
+    "count": "{value, number} sélectionnés",
+    "idle": "Sélectionner des messages",
+    "forward": "Transférer",
+    "delete": "Supprimer",
+    "deleting": "Suppression en cours…",
+    "confirmAria": "Confirmer la suppression des messages",
+    "confirmBody": "Supprimer {value, number} messages ? Les messages que vous n'avez pas le droit de supprimer seront ignorés."
+  },
+  "convoSearch": {
+    "toggleAria": "Rechercher dans cette conversation",
+    "toggleTitle": "Rechercher dans la conversation",
+    "aria": "Rechercher un message dans cette conversation",
+    "placeholder": "Rechercher un message dans cette conversation…",
+    "advAria": "Filtres avancés",
+    "advTitle": "Filtres (expéditeur · type · période)",
+    "close": "Fermer la recherche",
+    "sender": "Expéditeur",
+    "senderAria": "Filtrer par expéditeur",
+    "kindAria": "Type de message",
+    "kind": {
+      "all": "Tous",
+      "media": "Médias",
+      "file": "Fichiers",
+      "question": "Questions"
+    },
+    "rangeAria": "Période",
+    "range": {
+      "all": "Toutes les dates",
+      "1d": "Dernières 24 heures",
+      "7d": "7 derniers jours",
+      "30d": "30 derniers jours"
+    },
+    "noResults": "Aucun message correspondant à « {query} » dans cette conversation."
+  },
+  "drop": {
+    "title": "Déposez pour envoyer",
+    "limits": "Images jusqu'à {image, number} Mo · Documents jusqu'à {file, number} Mo"
+  },
+  "fab": {
+    "newMessages": "{value, number} nouveaux messages — Aller au dernier message",
+    "jumpToLatest": "Aller au dernier message",
+    "jumpToBottom": "Aller en bas"
+  },
+  "typing": {
+    "separator": ", ",
+    "andOthers": " et {value, number} autres personnes",
+    "suffix": " est en train d'écrire…",
+    "peer": "écrit…"
+  },
+  "compose": {
+    "replyingTo": "Réponse à",
+    "cancelReply": "Annuler la réponse",
+    "editing": "Modifier le message",
+    "cancelEdit": "Annuler la modification",
+    "emojiPicker": "Choisir un emoji",
+    "insertEmoji": "Insérer {emoji}",
+    "emoji": "Emoji",
+    "aria": "Rédiger un message",
+    "placeholder": "Écrivez un message…",
+    "save": "Enregistrer",
+    "send": "Envoyer"
+  },
+  "attach": {
+    "title": "Pièce jointe",
+    "aria": "Joindre un fichier",
+    "image": "Photo",
+    "file": "Document ou fichier",
+    "poll": "Sondage",
+    "note": "Images jusqu'à {image, number} Mo · Documents jusqu'à {file, number} Mo. Le texte saisi sera envoyé comme légende."
+  },
+  "ctx": {
+    "aria": "Options du message",
+    "react": "Réagir avec {emoji}",
+    "quickReact": "Réaction rapide",
+    "moreEmoji": "Plus d'emojis",
+    "more": "Plus",
+    "reply": "Répondre",
+    "copy": "Copier le texte",
+    "forward": "Transférer",
+    "qaAccept": "Choisir comme réponse acceptée",
+    "qaClear": "Retirer la réponse acceptée",
+    "ai": {
+      "explain": "Expliquer avec l'IA",
+      "summarize": "Résumer",
+      "ask": "Demander à l'assistant",
+      "translate": "Traduire"
+    },
+    "select": "Sélectionner",
+    "edit": "Modifier",
+    "seenBy": "Infos du message",
+    "pin": "Épingler"
+  },
+  "pins": {
+    "title": "Messages épinglés",
+    "heading": "Messages épinglés ({value, number})",
+    "empty": "Aucun message épinglé.",
+    "jump": "Aller au message épinglé",
+    "unpinShort": "Détacher"
+  },
+  "poll": {
+    "dialogAria": "Créer un sondage",
+    "heading": "Nouveau sondage",
+    "questionLabel": "Question",
+    "questionPlaceholder": "ex. : Quel horaire convient le mieux pour le cours de rattrapage ?",
+    "optionsLabel": "Options ({min, number} à {max, number})",
+    "option": "Option {value, number}",
+    "removeOption": "Supprimer l'option {value, number}",
+    "addOption": "+ Ajouter une option",
+    "multi": "Autoriser plusieurs choix",
+    "creating": "Création en cours…",
+    "create": "Créer le sondage"
+  },
+  "newChat": {
+    "title": "Nouvelle conversation",
+    "groupNameRequired": "Le nom du groupe est obligatoire",
+    "channelNameRequired": "Le nom du canal est obligatoire",
+    "tab": {
+      "dm": "Direct",
+      "group": "Groupe",
+      "channel": "Canal",
+      "discover": "Découvrir",
+      "class": "Classe"
+    },
+    "discoverEmpty": "Aucun canal public à rejoindre. (Créez des canaux publics dans l'onglet « Canal ».)",
+    "subscriberCount": "{value, number} membres",
+    "open": "Ouvrir",
+    "join": "Rejoindre",
+    "classEmpty": "Vous n'avez aucun cours à dispenser. (L'espace de classe est créé par l'enseignant du cours.)",
+    "provision": "Créer l'espace de classe",
+    "groupName": "Nom du groupe",
+    "channelName": "Nom du canal",
+    "channelDesc": "Description du canal",
+    "descOptional": "Description (facultatif)",
+    "searchUserAria": "Rechercher un utilisateur",
+    "searchUserPlaceholder": "Rechercher un utilisateur…",
+    "noUser": "Aucun utilisateur trouvé.",
+    "createGroup": "Créer le groupe ({value, number})",
+    "createChannel": "Créer le canal ({value, number})"
+  },
+  "groupInfo": {
+    "aria": "Informations sur {kind}",
+    "tabsAria": "Informations sur la conversation",
+    "tabMembers": "Membres",
+    "tabMedia": "Médias",
+    "membersHeading": "Membres ({value, number})",
+    "addToggle": "+ Ajouter",
+    "add": "Ajouter",
+    "noneToAdd": "Aucun utilisateur à ajouter.",
+    "demote": "Rétrograder l'administrateur",
+    "promote": "Promouvoir administrateur",
+    "removeMember": "Retirer le membre",
+    "thisMember": "Ce membre",
+    "leave": "Quitter {kind}"
+  }
+}

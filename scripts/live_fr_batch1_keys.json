@@ -1,0 +1,732 @@
+{
+  "signals.aria.confused": {
+    "en": "Signal that concept is unclear",
+    "fa": "اعلام متوجه‌نشدن مطلب",
+    "es": "Indicar que el concepto no está claro"
+  },
+  "signals.aria.slower": {
+    "en": "Request slower pace from instructor",
+    "fa": "درخواست سرعت کمتر از مدرس",
+    "es": "Pedir al profesor que vaya más despacio"
+  },
+  "signals.confused": {
+    "en": "I didn't understand",
+    "fa": "متوجه نشدم",
+    "es": "No entendí"
+  },
+  "signals.sent": {
+    "en": "Recorded",
+    "fa": "ثبت شد",
+    "es": "Registrado"
+  },
+  "signals.slower": {
+    "en": "Go slower",
+    "fa": "آهسته‌تر",
+    "es": "Más despacio"
+  },
+  "reactions.throttled": {
+    "en": "Slow down a bit — your reactions are temporarily limited.",
+    "fa": "کمی آهسته‌تر — واکنش‌های شما موقتاً محدود شد.",
+    "es": "Ve más despacio — tus reacciones están temporalmente limitadas."
+  },
+  "pulse.confused": {
+    "en": "{count, plural, one {# person is confused} other {# people are confused}}",
+    "fa": "{count, plural, one {# نفر متوجه نشده} other {# نفر متوجه نشده‌اند}}",
+    "es": "{count, plural, one {# persona no entiende} other {# personas no entienden}}"
+  },
+  "pulse.slower": {
+    "en": "{count, plural, one {# person wants a slower pace} other {# people want a slower pace}}",
+    "fa": "{count, plural, one {# نفر آهسته‌تر می‌خواهد} other {# نفر آهسته‌تر می‌خواهند}}",
+    "es": "{count, plural, one {# persona pide ir más despacio} other {# personas piden ir más despacio}}"
+  },
+  "pulse.title": {
+    "en": "Class Pulse",
+    "fa": "نبض کلاس",
+    "es": "Pulso de la clase"
+  },
+  "pulse.window": {
+    "en": "In the last minute",
+    "fa": "در یک دقیقهٔ گذشته",
+    "es": "En el último minuto"
+  },
+  "hands.count": {
+    "en": "{count, plural, one {# hand raised} other {# hands raised}}",
+    "fa": "{count, plural, one {# دست بالاست} other {# دست بالاست}}",
+    "es": "{count, plural, one {# mano levantada} other {# manos levantadas}}"
+  },
+  "hands.lower": {
+    "en": "Lower hand",
+    "fa": "پایین‌آوردن دست",
+    "es": "Bajar mano"
+  },
+  "hands.lowerAll": {
+    "en": "Lower all hands",
+    "fa": "پایین‌آوردن همهٔ دست‌ها",
+    "es": "Bajar todas las manos"
+  },
+  "hands.ordinal": {
+    "en": "{count, number}",
+    "fa": "{count, number}",
+    "es": "{count, number}"
+  },
+  "hands.overflow": {
+    "en": "{count, plural, one {# other person is waiting} other {# other people are waiting}}",
+    "fa": "{count, plural, one {# نفر دیگر منتظر است} other {# نفر دیگر منتظرند}}",
+    "es": "{count, plural, one {# persona más está esperando} other {# personas más están esperando}}"
+  },
+  "hands.position": {
+    "en": "{count, plural, one {Your turn: #} other {Your turn: #}}",
+    "fa": "{count, plural, one {نوبت شما: #} other {نوبت شما: #}}",
+    "es": "{count, plural, one {Tu turno: #} other {Tu turno: #}}"
+  },
+  "hands.title": {
+    "en": "Speaking Queue",
+    "fa": "نوبت صحبت",
+    "es": "Turno de palabra"
+  },
+  "notes.ariaLabel": {
+    "en": "Shared class notes",
+    "fa": "یادداشت مشترک کلاس",
+    "es": "Notas compartidas de la clase"
+  },
+  "notes.charCount": {
+    "en": "{count, number} characters",
+    "fa": "{count, number} نویسه",
+    "es": "{count, number} caracteres"
+  },
+  "notes.empty": {
+    "en": "Nothing has been written yet",
+    "fa": "هنوز چیزی نوشته نشده است",
+    "es": "Aún no se ha escrito nada"
+  },
+  "notes.exportLabel": {
+    "en": "Text export",
+    "fa": "خروجی متنی",
+    "es": "Exportar texto"
+  },
+  "notes.exportTitle": {
+    "en": "Save as text file (.txt)",
+    "fa": "ذخیره به‌صورت فایل متنی (.txt)",
+    "es": "Guardar como archivo de texto (.txt)"
+  },
+  "notes.placeholder": {
+    "en": "Write here… What you write is visible to all participants in real time.",
+    "fa": "اینجا بنویسید… آنچه می‌نویسید همزمان برای همهٔ شرکت‌کنندگان دیده می‌شود.",
+    "es": "Escribe aquí… Lo que escribas será visible para todos en tiempo real."
+  },
+  "notes.synced": {
+    "en": "Synced",
+    "fa": "همگام‌سازی شد",
+    "es": "Sincronizado"
+  },
+  "notes.syncing": {
+    "en": "Edits are synced in real time",
+    "fa": "ویرایش‌ها به‌صورت زنده همگام می‌شوند",
+    "es": "Los cambios se sincronizan en tiempo real"
+  },
+  "notes.title": {
+    "en": "Shared Notes",
+    "fa": "یادداشت مشترک",
+    "es": "Notas compartidas"
+  },
+  "chat.anonymousAuthor": {
+    "en": "User",
+    "fa": "کاربر",
+    "es": "Usuario"
+  },
+  "chat.channels.class": {
+    "en": "Class",
+    "fa": "کلاس",
+    "es": "Clase"
+  },
+  "chat.channels.staff": {
+    "en": "Staff",
+    "fa": "کارکنان",
+    "es": "Personal docente"
+  },
+  "chat.channels.table": {
+    "en": "Table",
+    "fa": "میز",
+    "es": "Mesa"
+  },
+  "chat.empty": {
+    "en": "No messages sent yet.",
+    "fa": "هنوز پیامی ارسال نشده است.",
+    "es": "Aún no se han enviado mensajes."
+  },
+  "chat.note.class": {
+    "en": "Messages are shared live with all participants via the class channel.",
+    "fa": "پیام‌ها به‌صورت زنده از طریق کانال کلاس بین همهٔ شرکت‌کنندگان به اشتراک گذاشته می‌شوند.",
+    "es": "Los mensajes se comparten en directo con toda la clase a través del canal de la clase."
+  },
+  "chat.note.locked": {
+    "en": "Chat has been locked by the host. Only the host can send messages.",
+    "fa": "چت توسط میزبان قفل شده است. فقط میزبان می‌تواند پیام بفرستد.",
+    "es": "El chat ha sido bloqueado por el anfitrión. Solo el anfitrión puede enviar mensajes."
+  },
+  "chat.note.staff": {
+    "en": "This channel is only visible to the instructor and teaching assistants; students cannot see it.",
+    "fa": "این کانال فقط بین مدرس و دستیارها است؛ دانشجویان آن را نمی‌بینند.",
+    "es": "Este canal solo es visible para el docente y los asistentes; los estudiantes no pueden verlo."
+  },
+  "chat.note.table": {
+    "en": "This conversation is only visible to tablemates and instructors.",
+    "fa": "این گفتگو فقط برای هم‌میزی‌ها و استادان دیده می‌شود.",
+    "es": "Esta conversación solo es visible para los integrantes de la mesa y el docente."
+  },
+  "chat.placeholder": {
+    "en": "Type a message…",
+    "fa": "پیام بنویسید…",
+    "es": "Escribe un mensaje…"
+  },
+  "chat.placeholderLocked": {
+    "en": "Chat is locked…",
+    "fa": "چت قفل است…",
+    "es": "El chat está bloqueado…"
+  },
+  "chat.rejected.channel": {
+    "en": "This channel is not open to you — your message was not sent.",
+    "fa": "این کانال برای شما باز نیست — پیام شما فرستاده نشد.",
+    "es": "Este canal no está disponible para ti — tu mensaje no fue enviado."
+  },
+  "chat.rejected.locked": {
+    "en": "Chat is locked — your message was not sent.",
+    "fa": "چت قفل است — پیام شما فرستاده نشد.",
+    "es": "El chat está bloqueado — tu mensaje no fue enviado."
+  },
+  "chat.send": {
+    "en": "Send message",
+    "fa": "ارسال پیام",
+    "es": "Enviar mensaje"
+  },
+  "chat.tableTarget": {
+    "en": "Send to table",
+    "fa": "ارسال به میز",
+    "es": "Enviar a la mesa"
+  },
+  "chat.unread": {
+    "en": "{count, plural, one {#} other {#}}",
+    "fa": "{count, plural, one {#} other {#}}",
+    "es": "{count, plural, one {#} other {#}}"
+  },
+  "assistant.chip.example": {
+    "en": "Give an example",
+    "fa": "یک مثال بزن",
+    "es": "Dar un ejemplo"
+  },
+  "assistant.chip.practice": {
+    "en": "Create practice question",
+    "fa": "سؤال تمرینی بساز",
+    "es": "Crear pregunta de práctica"
+  },
+  "assistant.chip.quiz": {
+    "en": "Design a short quiz with answers",
+    "fa": "یک کوییز کوتاه با پاسخ طراحی کن",
+    "es": "Diseñar un cuestionario breve con respuestas"
+  },
+  "assistant.chip.summarize": {
+    "en": "Summarize this topic",
+    "fa": "این مبحث را خلاصه کن",
+    "es": "Resumir este tema"
+  },
+  "assistant.error.createSession": {
+    "en": "Failed to create assistant conversation.",
+    "fa": "ایجاد گفت‌وگوی دستیار ناموفق بود.",
+    "es": "No se pudo crear la conversación con el asistente."
+  },
+  "assistant.hostMode": {
+    "en": "Instructor Mode — Questions and exercise design",
+    "fa": "حالت مدرس — پرسش و طراحی تمرین",
+    "es": "Modo profesor — Diseño de preguntas y ejercicios"
+  },
+  "assistant.inputLabel": {
+    "en": "Ask Smart Assistant",
+    "fa": "پرسش از دستیار هوشمند",
+    "es": "Preguntar al asistente inteligente"
+  },
+  "assistant.intro": {
+    "en": "Ask about the class topic — answers come from course materials (RAG).",
+    "fa": "دربارهٔ مبحث کلاس بپرسید — پاسخ از منابع درسی (RAG) می‌آید.",
+    "es": "Pregunta sobre el tema de clase — las respuestas provienen del material del curso (RAG)."
+  },
+  "assistant.introHost": {
+    "en": " As an instructor, you can also generate exercises and quizzes.",
+    "fa": " به‌عنوان مدرس می‌توانید تمرین و کوییز هم بسازید.",
+    "es": " Como profesor, también puedes generar ejercicios y cuestionarios."
+  },
+  "assistant.label": {
+    "en": "Smart Assistant",
+    "fa": "دستیار هوشمند",
+    "es": "Asistente inteligente"
+  },
+  "assistant.noAnswer": {
+    "en": "No response received. Please ask again.",
+    "fa": "پاسخی دریافت نشد. دوباره بپرسید.",
+    "es": "No se recibió respuesta. Por favor, pregunta de nuevo."
+  },
+  "assistant.placeholder": {
+    "en": "Type your question…",
+    "fa": "پرسش خود را بنویسید…",
+    "es": "Escribe tu pregunta…"
+  },
+  "assistant.questionCount": {
+    "en": "{count, number} questions",
+    "fa": "{count, number} پرسش",
+    "es": "{count, number} preguntas"
+  },
+  "assistant.send": {
+    "en": "Send question",
+    "fa": "ارسال پرسش",
+    "es": "Enviar pregunta"
+  },
+  "assistant.sendShort": {
+    "en": "Send",
+    "fa": "ارسال",
+    "es": "Enviar"
+  },
+  "assistant.sessionTitle": {
+    "en": "Live Class — {name}",
+    "fa": "کلاس زنده — {name}",
+    "es": "Clase en vivo — {name}"
+  },
+  "assistant.source": {
+    "en": "Source",
+    "fa": "منبع",
+    "es": "Fuente"
+  },
+  "assistant.sources": {
+    "en": "Sources ({count, number})",
+    "fa": "منابع ({count, number})",
+    "es": "Fuentes ({count, number})"
+  },
+  "assistant.title": {
+    "en": "Class Smart Assistant",
+    "fa": "دستیار هوشمند کلاس",
+    "es": "Asistente inteligente de clase"
+  },
+  "assistant.typing": {
+    "en": "Writing response…",
+    "fa": "در حال نوشتن پاسخ…",
+    "es": "Escribiendo respuesta…"
+  },
+  "sessionAnalysis.title": {
+    "en": "Session Analysis",
+    "fa": "تحلیل جلسه",
+    "es": "Análisis de la sesión"
+  },
+  "sessionAnalysis.loading": {
+    "en": "Analyzing…",
+    "fa": "در حال تحلیل…",
+    "es": "Analizando…"
+  },
+  "sessionAnalysis.failed": {
+    "en": "Session analysis could not be completed",
+    "fa": "تحلیل جلسه انجام نشد",
+    "es": "No se pudo completar el análisis de la sesión"
+  },
+  "sessionAnalysis.reviewRequired": {
+    "en": "This output is a draft and requires instructor review.",
+    "fa": "این خروجی پیش‌نویس است و باید مدرس آن را بازبینی کند.",
+    "es": "Este resultado es un borrador y requiere revisión del docente."
+  },
+  "sessionAnalysis.confidence": {
+    "en": "Estimated confidence: {value, number, ::percent}",
+    "fa": "اطمینان برآوردی: {value, number, ::percent}",
+    "es": "Confianza estimada: {value, number, ::percent}"
+  },
+  "sessionAnalysis.unavailable": {
+    "en": "Live session analysis is not available. No summary or educational questions were generated.",
+    "fa": "تحلیل واقعی جلسه در دسترس نیست. خلاصه یا پرسش آموزشی تولید نشده است.",
+    "es": "El análisis en vivo no está disponible. No se generaron resúmenes ni preguntas."
+  },
+  "sessionAnalysis.truncated": {
+    "en": "This analysis covers only part of the stored transcript; session text exceeds the processing limit.",
+    "fa": "این تحلیل فقط بخشی از رونوشت ذخیره‌شده را پوشش می‌دهد؛ متن جلسه از محدودیت پردازش بیشتر است.",
+    "es": "Este análisis cubre solo parte de la transcripción; el texto supera el límite de procesamiento."
+  },
+  "sessionAnalysis.quiz": {
+    "en": "Suggested Questions ({count, number})",
+    "fa": "پرسش‌های پیشنهادی ({count, number})",
+    "es": "Preguntas sugeridas ({count, number})"
+  },
+  "sessionAnalysis.suggestedAnswer": {
+    "en": "Suggested answer: {answer}",
+    "fa": "پاسخ پیشنهادی: {answer}",
+    "es": "Respuesta sugerida: {answer}"
+  },
+  "sessionAnalysis.sources": {
+    "en": "Reference Transcript Excerpts ({count, number})",
+    "fa": "گزیده‌های رونوشتِ مرجع ({count, number})",
+    "es": "Extractos de referencia de la transcripción ({count, number})"
+  },
+  "review.title": {
+    "en": "Academic Review Case",
+    "fa": "پروندهٔ بررسی آموزشی",
+    "es": "Expediente de revisión académica"
+  },
+  "review.separateDecision": {
+    "en": "Receiving a report does not confirm that the class was not held. The decision rests with the faculty academic officer.",
+    "fa": "دریافت گزارش، تأیید برگزارنشدن کلاس نیست. تصمیم با مسئول آموزشی دانشکده است.",
+    "es": "La recepción del informe no confirma que la clase no se haya celebrado. La decisión corresponde a la dirección académica de la facultad."
+  },
+  "review.pendingDecision": {
+    "en": "Absence evidence has been recorded and the case is pending decision.",
+    "fa": "شواهد غیبت ثبت شده و پرونده در انتظار تصمیم است.",
+    "es": "La justificación de ausencia ha sido registrada y el caso está pendiente de resolución."
+  },
+  "review.reportReceived": {
+    "en": "Report received",
+    "fa": "گزارش دریافت شد",
+    "es": "Informe recibido"
+  },
+  "review.reviewerMissing": {
+    "en": "No faculty academic officer assigned; case remains open.",
+    "fa": "مسئول آموزشی دانشکده تعیین نشده است؛ پرونده باز می‌ماند.",
+    "es": "No hay responsable académico asignado a la facultad; el expediente permanece abierto."
+  },
+  "review.reason": {
+    "en": "Description and reason (at least 10 characters)",
+    "fa": "شرح و دلیل (حداقل ۱۰ نویسه)",
+    "es": "Descripción y motivo (al menos 10 caracteres)"
+  },
+  "review.fileReport": {
+    "en": "Submit report",
+    "fa": "ثبت گزارش",
+    "es": "Enviar informe"
+  },
+  "review.confirmNotHeld": {
+    "en": "Confirm not held",
+    "fa": "تأیید برگزارنشدن",
+    "es": "Confirmar clase no celebrada"
+  },
+  "review.rejectNotHeld": {
+    "en": "Reject not-held report",
+    "fa": "رد گزارش برگزارنشدن",
+    "es": "Rechazar informe de no celebración"
+  },
+  "review.requestMakeup": {
+    "en": "Request make-up session",
+    "fa": "درخواست جلسهٔ جبرانی",
+    "es": "Solicitar clase de recuperación"
+  },
+  "review.start": {
+    "en": "Proposed start",
+    "fa": "شروع پیشنهادی",
+    "es": "Inicio propuesto"
+  },
+  "review.end": {
+    "en": "Proposed end",
+    "fa": "پایان پیشنهادی",
+    "es": "Fin propuesto"
+  },
+  "review.submitMakeup": {
+    "en": "Submit make-up request",
+    "fa": "ارسال درخواست جبرانی",
+    "es": "Enviar solicitud de recuperación"
+  },
+  "review.makeupRequested": {
+    "en": "Requested make-up time",
+    "fa": "زمان درخواستی جبرانی",
+    "es": "Horario de recuperación solicitado"
+  },
+  "review.approveMakeup": {
+    "en": "Approve make-up time",
+    "fa": "تأیید زمان جبرانی",
+    "es": "Aprobar horario de recuperación"
+  },
+  "review.rejectMakeup": {
+    "en": "Reject make-up request",
+    "fa": "رد درخواست جبرانی",
+    "es": "Rechazar solicitud de recuperación"
+  },
+  "review.makeupScheduled": {
+    "en": "Make-up session has been scheduled; holding it is not yet confirmed.",
+    "fa": "جلسهٔ جبرانی زمان‌بندی شد؛ برگزاری آن هنوز تأیید نشده است.",
+    "es": "La clase de recuperación ha sido programada; su realización aún no está confirmada."
+  },
+  "review.notHeld.confirmed": {
+    "en": "Confirmed not held",
+    "fa": "برگزارنشدن تأیید شد",
+    "es": "Confirmado: clase no celebrada"
+  },
+  "review.notHeld.rejected": {
+    "en": "Not-held report rejected",
+    "fa": "برگزارنشدن رد شد",
+    "es": "Informe de clase no celebrada rechazado"
+  },
+  "review.makeup.approved": {
+    "en": "Make-up request approved",
+    "fa": "درخواست جبرانی تأیید شد",
+    "es": "Solicitud de recuperación aprobada"
+  },
+  "review.makeup.rejected": {
+    "en": "Make-up request rejected",
+    "fa": "درخواست جبرانی رد شد",
+    "es": "Solicitud de recuperación rechazada"
+  },
+  "review.actionFailed": {
+    "en": "Could not perform this action; please try again.",
+    "fa": "انجام این اقدام ممکن نشد؛ دوباره تلاش کنید.",
+    "es": "No se pudo realizar esta acción; por favor inténtalo de nuevo."
+  },
+  "breakout.anonymous": {
+    "en": "User",
+    "fa": "کاربر",
+    "es": "Usuario"
+  },
+  "breakout.decrease": {
+    "en": "Decrease rooms",
+    "fa": "کم کردن اتاق",
+    "es": "Reducir salas"
+  },
+  "breakout.duration": {
+    "en": "Duration: {count, number} minutes",
+    "fa": "مدت: {count, number} دقیقه",
+    "es": "Duración de salas"
+  },
+  "breakout.durationLabel": {
+    "en": "Duration (minutes)",
+    "fa": "مدت (دقیقه)",
+    "es": "Duración ({minutes, number} min)"
+  },
+  "breakout.empty": {
+    "en": "Empty",
+    "fa": "خالی",
+    "es": "No hay participantes en la clase."
+  },
+  "breakout.end": {
+    "en": "End",
+    "fa": "پایان",
+    "es": "Finalizar"
+  },
+  "breakout.increase": {
+    "en": "Add room",
+    "fa": "افزودن اتاق",
+    "es": "Aumentar salas"
+  },
+  "breakout.manualLabel": {
+    "en": "Manual assignment",
+    "fa": "تخصیص دستی",
+    "es": "Asignación manual"
+  },
+  "breakout.maxRooms": {
+    "en": "Maximum {count, number} rooms",
+    "fa": "حداکثر {count, number} اتاق",
+    "es": "Máximo {count, number} salas"
+  },
+  "breakout.memberCount": {
+    "en": "{count, number} people",
+    "fa": "{count, number} نفر",
+    "es": "{count, number} personas"
+  },
+  "breakout.mode.auto": {
+    "en": "Automatic",
+    "fa": "خودکار",
+    "es": "Automático"
+  },
+  "breakout.mode.manual": {
+    "en": "Manual",
+    "fa": "دستی",
+    "es": "Manual"
+  },
+  "breakout.mode.random": {
+    "en": "Random",
+    "fa": "تصادفی",
+    "es": "Aleatorio"
+  },
+  "breakout.modeLabel": {
+    "en": "Assignment method",
+    "fa": "نحوهٔ تخصیص",
+    "es": "Método de asignación"
+  },
+  "breakout.moved": {
+    "en": "You have been moved to this room",
+    "fa": "شما به این اتاق منتقل شده‌اید",
+    "es": "Has sido movido a esta sala"
+  },
+  "breakout.noParticipants": {
+    "en": "No participants in class yet. You can assign them once others join.",
+    "fa": "هنوز شرکت‌کننده‌ای در کلاس نیست. با ورود دیگران می‌توانید آن‌ها را به اتاق‌ها تخصیص دهید.",
+    "es": "Aún no hay participantes en clase. Podrás asignarlos cuando otros se unan."
+  },
+  "breakout.noneOpen": {
+    "en": "No active breakout rooms. When rooms are opened by the host, your room will appear here.",
+    "fa": "اتاق گروهی فعالی وجود ندارد. با باز شدن اتاق‌ها توسط میزبان، اتاق شما همین‌جا نمایش داده می‌شود.",
+    "es": "No hay salas de grupo activas. Cuando el anfitrión abra salas, aparecerá la tuya."
+  },
+  "breakout.open": {
+    "en": "Open rooms",
+    "fa": "باز کردن اتاق‌ها",
+    "es": "Abrir salas"
+  },
+  "breakout.phaseNote": {
+    "en": "At this stage, participant assignment and per-room chat/notes are active. Separate per-room audio and video require media infrastructure (SFU, Stage 3) and are currently outside this section.",
+    "fa": "در این مرحله، تخصیص شرکت‌کنندگان و چت/یادداشتِ هر اتاق فعال است. ویدیو و صدای مجزای هر اتاق به زیرساخت رسانه (SFU، مرحلهٔ ۳) نیاز دارد و فعلاً خارج از این بخش است.",
+    "es": "En esta etapa, la asignación de participantes y el chat/notas por sala están activos."
+  },
+  "breakout.preview": {
+    "en": "{people, number} participants will be distributed across {rooms, number} rooms (approx. {per, number} people per room).",
+    "fa": "{people, number} شرکت‌کننده در {rooms, number} اتاق توزیع می‌شوند (حدوداً {per, number} نفر در هر اتاق).",
+    "es": "{people, number} participantes se distribuirán en {rooms, number} salas (aprox. {per, number} personas por sala)."
+  },
+  "breakout.roomCountLabel": {
+    "en": "Number of rooms",
+    "fa": "تعداد اتاق‌ها",
+    "es": "Número de salas"
+  },
+  "breakout.roomFor": {
+    "en": "Room for {name}",
+    "fa": "اتاق برای {name}",
+    "es": "Sala para {name}"
+  },
+  "breakout.roomName": {
+    "en": "Room {index, number}",
+    "fa": "اتاق {index, number}",
+    "es": "Sala {number, number}"
+  },
+  "breakout.title": {
+    "en": "Breakout Rooms",
+    "fa": "اتاق‌های گروهی",
+    "es": "Salas para grupos pequeños"
+  },
+  "breakout.unassigned": {
+    "en": "You have not been assigned to a room yet. Please wait for the host.",
+    "fa": "هنوز به اتاقی اختصاص داده نشده‌اید. منتظر میزبان بمانید.",
+    "es": "Sin asignar ({count, number})"
+  },
+  "breakout.you": {
+    "en": "You",
+    "fa": "شما",
+    "es": "Tú"
+  },
+  "panel.close": {
+    "en": "Close",
+    "fa": "بستن",
+    "es": "Cerrar"
+  },
+  "panel.host.actionsFor": {
+    "en": "Host actions for {name}",
+    "fa": "اقدامات میزبان برای {name}",
+    "es": "Acciones de anfitrión para {name}"
+  },
+  "panel.host.kick": {
+    "en": "Remove",
+    "fa": "اخراج",
+    "es": "Expulsar"
+  },
+  "panel.host.lockChat": {
+    "en": "Lock chat",
+    "fa": "قفل چت",
+    "es": "Bloquear chat"
+  },
+  "panel.host.lowerHand": {
+    "en": "Lower hand",
+    "fa": "پایین‌آوردن دست",
+    "es": "Bajar mano"
+  },
+  "panel.host.makePresenter": {
+    "en": "Make presenter",
+    "fa": "ارائه‌دهنده",
+    "es": "Hacer presentador"
+  },
+  "panel.host.mute": {
+    "en": "Mute",
+    "fa": "سکوت",
+    "es": "Silenciar"
+  },
+  "panel.host.muteAll": {
+    "en": "Mute all",
+    "fa": "سکوت همه",
+    "es": "Silenciar a todos"
+  },
+  "panel.host.unlockChat": {
+    "en": "Unlock chat",
+    "fa": "باز کردن چت",
+    "es": "Desbloquear chat"
+  },
+  "panel.people.note": {
+    "en": "Participant list updates in real time. Video feeds will appear once the live media engine connects.",
+    "fa": "فهرست شرکت‌کنندگان به‌صورت زنده به‌روزرسانی می‌شود. تصویر دوربین دیگران با اتصال موتور رسانهٔ زنده نمایش داده می‌شود.",
+    "es": "La lista de participantes se actualiza en tiempo real. Los videos aparecerán cuando se conecte el motor multimedia."
+  },
+  "panel.tabCount": {
+    "en": " ({count, number})",
+    "fa": " ({count, number})",
+    "es": " ({count, number})"
+  },
+  "panel.tabs.analytics": {
+    "en": "Analytics",
+    "fa": "تحلیل",
+    "es": "Análisis"
+  },
+  "panel.tabs.assistant": {
+    "en": "Assistant",
+    "fa": "دستیار",
+    "es": "Asistente"
+  },
+  "panel.tabs.breakout": {
+    "en": "Breakout",
+    "fa": "اتاق‌ها",
+    "es": "Salas de grupo"
+  },
+  "panel.tabs.chat": {
+    "en": "Chat",
+    "fa": "چت",
+    "es": "Chat"
+  },
+  "panel.tabs.notes": {
+    "en": "Notes",
+    "fa": "یادداشت",
+    "es": "Notas"
+  },
+  "panel.tabs.people": {
+    "en": "Participants",
+    "fa": "شرکت‌کنندگان",
+    "es": "Participantes"
+  },
+  "panel.tabs.polls": {
+    "en": "Polls",
+    "fa": "نظرسنجی",
+    "es": "Encuestas"
+  },
+  "panel.tabs.tables": {
+    "en": "Tables",
+    "fa": "میزها",
+    "es": "Mesas"
+  },
+  "panel.transcript.captionTag": {
+    "en": " (Speech)",
+    "fa": " (گفتار)",
+    "es": " (Voz)"
+  },
+  "panel.transcript.download": {
+    "en": "Download full transcript ⬇",
+    "fa": "دانلود کل گفتگو ⬇",
+    "es": "Descargar transcripción completa ⬇"
+  },
+  "panel.transcript.fileHeader": {
+    "en": "Class Transcript",
+    "fa": "گفتگوی کلاس",
+    "es": "Transcripción de clase"
+  },
+  "panel.transcript.fileSuffix": {
+    "en": "-transcript.txt",
+    "fa": "-گفتگو.txt",
+    "es": "-transcripcion.txt"
+  },
+  "panel.transcript.preparing": {
+    "en": "Preparing…",
+    "fa": "در حال آماده‌سازی…",
+    "es": "Preparando…"
+  },
+  "panel.transcript.privateTag": {
+    "en": " (Private)",
+    "fa": " (خصوصی)",
+    "es": " (Privado)"
+  },
+  "panel.transcript.regionLabel": {
+    "en": "Live speech transcript",
+    "fa": "رونوشت زندهٔ گفتار",
+    "es": "Transcripción de voz en vivo"
+  }
+}

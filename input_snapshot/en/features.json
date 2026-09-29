@@ -1,0 +1,769 @@
+{
+  "detail": {
+    "notFound": {
+      "title": "Feature not found",
+      "body": "The URL provided does not match any of the university's features.",
+      "cta": "View all features"
+    },
+    "backToIndex": "All features",
+    "routeNotBuiltNote": "This feature has not yet been built as a page on the platform — contact us for custom orders or more information.",
+    "blocks": {
+      "what": "What this feature does",
+      "who": "Who it is for",
+      "problem": "What problem it solves",
+      "parts": "What components it is made of"
+    },
+    "partsHint": "Order of work from right to left.",
+    "nav": {
+      "prev": "Previous feature",
+      "next": "Next feature"
+    },
+    "competency-assessment-center": {
+      "what": "The assessment center manages a candidate's complete evaluation cycle from project definition to report publication: exercises are scheduled, assessors score independently, and results are finalized only after a human consensus session.",
+      "who": [
+        "Assessment Center Manager",
+        "Assessors",
+        "Organizations that measure hiring or promotion based on competency"
+      ],
+      "problem": "Competency assessment is usually reduced to subjective interviews without leaving defensible documentation. Here, every score is tied to a specific exercise, a specific assessor, and a specific indicator.",
+      "parts": [
+        "Project and candidate definition",
+        "Assessment exercises",
+        "Independent assessor scoring",
+        "Consensus session",
+        "Final report"
+      ]
+    },
+    "candidate-assessment-journey": {
+      "what": "The candidate has a personal page displaying all their exercises, deadlines for each, submission status, and finally a personal results report. Each exercise opens on the same page and the response is recorded right there.",
+      "who": [
+        "Assessment Candidate",
+        "A student undergoing the competency assessment process"
+      ],
+      "problem": "Candidates usually do not know which stage they are in or what is expected of them. This page brings all of that together in a single view.",
+      "parts": [
+        "Exercise list",
+        "Deadline and submission status",
+        "Response form",
+        "Personal results report"
+      ]
+    },
+    "assessor-console": {
+      "what": "The assessor sees the list of exercises assigned to them, has the indicators for each exercise alongside the candidate's response, and records the score along with behavioral evidence. Each assessor's score remains hidden from others until the consensus session.",
+      "who": [
+        "Assessment Center Assessor",
+        "Center manager who schedules the workload of the assessors"
+      ],
+      "problem": "When assessors see each other's scores, the evaluation falls into premature convergence. Independent scoring is a rule of the system here, not an ethical recommendation.",
+      "parts": [
+        "Queue of assigned exercises",
+        "Behavioral indicators",
+        "Score and evidence recording",
+        "Assessor independence lock"
+      ]
+    },
+    "washup-consensus-session": {
+      "what": "After independent scoring concludes, the system displays the discrepancies between assessors on each indicator, and the consensus session resolves those discrepancies one by one. The final score is the sole output of this session.",
+      "who": [
+        "Assessors",
+        "Assessment Center Manager",
+        "Assessment Quality Supervisor"
+      ],
+      "problem": "Averaging assessors' scores hides significant discrepancies. Here, discrepancies are highlighted and discussed.",
+      "parts": [
+        "Display Indicator Discrepancies",
+        "Discussion and Rationale Logging",
+        "Consensus Score",
+        "Session Sign-off"
+      ]
+    },
+    "assessment-report-publish": {
+      "what": "The assessment center output is a structured report: the score for each indicator, its standing relative to the expected level, behavioral evidence, and personal development recommendations. Publishing the report to the candidate is a separate human decision.",
+      "who": [
+        "Candidate",
+        "Sponsoring Employer",
+        "Assessment Center Manager"
+      ],
+      "problem": "If an assessment result is just a single number, it is neither defensible nor actionable. A structured report resolves both.",
+      "parts": [
+        "Indicator Scores",
+        "Comparison with Expected Level",
+        "Behavioral Evidence",
+        "Development Recommendation",
+        "Publishing Control"
+      ]
+    },
+    "shared-competency-core": {
+      "what": "Competencies, levels, and behavioral indicators are defined once, and all subsystems — courses, exams, assessment centers, and employee performance evaluations — reference the same unified definition.",
+      "who": [
+        "Curriculum Designer",
+        "Assessment Center Manager",
+        "HR Manager"
+      ],
+      "problem": "When each unit uses its own terminology, course scores cannot be compared with assessment and performance evaluation results. The shared core is that missing bridge.",
+      "parts": [
+        "Competency Tree",
+        "Proficiency Levels",
+        "Behavioral Indicators",
+        "Mapping to Courses and Exams"
+      ]
+    },
+    "assessment-tool-registry": {
+      "what": "Each assessment tool is registered with its own profile: what it measures, on what basis, how its output is interpreted, and who is authorized to administer it. The administration of any tool starts right here.",
+      "who": [
+        "Assessment Expert",
+        "Consultant",
+        "Student and Candidate"
+      ],
+      "problem": "Assessment tools are usually administered in a scattered, unprofiled manner, leading to subjective interpretations. The registry keeps the method and administration permission alongside the tool.",
+      "parts": [
+        "Tool Profile",
+        "Administration Rules",
+        "Interpretation Key",
+        "Role-Based Access"
+      ]
+    },
+    "psychometric-test-bank": {
+      "what": "A collection of standardized psychometric tests that users take themselves, with automated scoring and interpretation visible only to the user and authorized consultants.",
+      "who": [
+        "Student",
+        "University Counselor",
+        "Mental Health Specialist"
+      ],
+      "problem": "Access to standard psychometric tools is usually tied to in-person visits. Here, administration is online and confidentiality is the default.",
+      "parts": [
+        "Test form",
+        "Automated scoring",
+        "Confidential interpretation",
+        "Consultant referral"
+      ]
+    },
+    "individual-development-plan": {
+      "what": "The Individual Development Plan is designed and delivered based on the assessment center's output, tailored specifically for each organization: covering lessons, exercises, feedback, and timeframes. The scope and delivery format are agreed upon with the organization before development.",
+      "who": [
+        "Post-assessment candidate",
+        "Student",
+        "Human resources manager"
+      ],
+      "problem": "An assessment report remains on the desk without an action plan. This section connects the result to the next step — starting with a conversation, not a ready-made page.",
+      "parts": [
+        "Competency gap from the assessment center",
+        "Suggested actions",
+        "Timeline",
+        "Custom delivery"
+      ]
+    },
+    "employer-portal": {
+      "what": "The employer workspace is defined and delivered custom for each organization: ordering assessments, tracking candidate progress, and receiving final reports — exclusively with the individual's explicit consent. The scope and access boundaries are agreed upon with the organization prior to development.",
+      "who": [
+        "Companies and organizations requesting assessments",
+        "HR recruitment unit"
+      ],
+      "problem": "Exchanging assessment results is usually done via email and files; neither a trail remains nor is individual consent recorded. The portal regulates both.",
+      "parts": [
+        "Assessment order",
+        "Candidate tracking",
+        "Individual consent",
+        "Report delivery",
+        "Pre-development scope agreement"
+      ]
+    },
+    "membership-registry": {
+      "what": "The applicant submits a membership request, documents are reviewed, and upon human approval, they receive a verifiable digital card. Membership level determines associated benefits and discounts.",
+      "who": [
+        "Professionals applying for membership",
+        "Membership secretariat",
+        "Current members"
+      ],
+      "problem": "Paper membership is neither verifiable nor connected to platform benefits. The digital card covers both.",
+      "parts": [
+        "Application form",
+        "Document review",
+        "Human approval",
+        "Digital card",
+        "Benefits and discounts"
+      ]
+    },
+    "member-directory": {
+      "what": "Member directory filtered by area of expertise, membership level, and city. Each member decides whether their profile is public and which parts of it are visible.",
+      "who": [
+        "Members",
+        "Employers searching for specialists",
+        "Membership secretariat"
+      ],
+      "problem": "A professional network is valuable when it is discoverable. The directory provides this discoverability layer, with the member's own privacy controls.",
+      "parts": [
+        "Specialty and level filter",
+        "Member profile",
+        "Visibility control",
+        "Link to Credential"
+      ]
+    },
+    "expertise-card": {
+      "what": "The Expertise Card displays an individual's verified field and level of expertise on a standard two-sided card, featuring a unique code, verification barcode, and the same security layout as credentials.",
+      "who": [
+        "Members with verified expertise",
+        "Employer",
+        "Membership Secretariat"
+      ],
+      "problem": "Claiming expertise without a verifiable authority holds no value for the counterpart. The card ties the claim to a verifiable record.",
+      "parts": [
+        "Two-sided card design",
+        "Unique code",
+        "Verification barcode",
+        "Printable output"
+      ]
+    },
+    "credential-registry-verify": {
+      "what": "Every certificate and credential is issued with a unique code, and anyone—without needing an account—can check its validity on the public verification page. The verification page displays only the necessary public data.",
+      "who": [
+        "Graduate",
+        "Employer and verifying authority",
+        "Credential issuing unit"
+      ],
+      "problem": "Forging a document is easy when there is no verification path. The unique code and public verification page reduce checking time to a few seconds.",
+      "parts": [
+        "Credential issuance",
+        "Unique code and barcode",
+        "Public verification page",
+        "Revocation and expiration",
+        "Printable output"
+      ]
+    },
+    "live-class": {
+      "what": "The live class runs on self-hosted video infrastructure: multi-party audio and video, screen sharing, whiteboard, breakout rooms, live polling, and session recording. Before joining, a device testing room checks the microphone and camera.",
+      "who": [
+        "Instructor",
+        "Student",
+        "Educational event host"
+      ],
+      "problem": "Reliance on external video services means disconnections, limitations, and class data leaving the premises. Self-hosted infrastructure eliminates all three.",
+      "parts": [
+        "Device testing room",
+        "Video and screen sharing",
+        "Whiteboard",
+        "Breakout rooms",
+        "Session recording"
+      ]
+    },
+    "session-report-attendance": {
+      "what": "Attendance is built from actual connection events rather than manual lists: who joined when, how long they stayed, and what sections they participated in. The post-session report puts these alongside class events.",
+      "who": [
+        "Instructor",
+        "Educational expert",
+        "Student"
+      ],
+      "problem": "Manual roll call in online classes is both time-consuming and inaccurate. Connection events provide a more precise source.",
+      "parts": [
+        "Check-in and check-out events",
+        "Duration of attendance",
+        "Participation in polls and chat",
+        "Final session report"
+      ]
+    },
+    "exam-assessment-engine": {
+      "what": "Exams run with timing, randomization of question and option order, auto-saving of answers, and automated grading of closed questions. Descriptive questions go to the human grading queue.",
+      "who": [
+        "Instructor",
+        "Student",
+        "Assessment Specialist"
+      ],
+      "problem": "An online exam without auto-save and internet-drop resilience leads to complaints. Here, answers are preserved moment by moment.",
+      "parts": [
+        "Exam Design",
+        "Scheduling and Randomization",
+        "Auto-Save",
+        "Auto-Grading",
+        "Human Grading Queue"
+      ]
+    },
+    "question-bank": {
+      "what": "Questions are tagged by course, syllabus, difficulty level, and target competency. Instead of a fixed list, the exam is built from rules: how many questions, from which syllabus, and at what difficulty.",
+      "who": [
+        "Instructor",
+        "Assessment Specialist",
+        "Question Designer"
+      ],
+      "problem": "A fixed exam for everyone gets shared around and imposes the same difficulty across different levels. Rule-based drawing mitigates both issues.",
+      "parts": [
+        "Syllabus and Difficulty Tag",
+        "Exam Generation Rule",
+        "Individual Randomization",
+        "Question Quality Analysis"
+      ]
+    },
+    "proctoring-review": {
+      "what": "Suspicious events during the exam—such as window switching, unusual timing patterns, or multiple simultaneous logins—are flagged and placed in a queue for human proctor review. The final decision always rests with a human.",
+      "who": [
+        "Proctor",
+        "Instructor",
+        "Disciplinary Committee"
+      ],
+      "problem": "Automated cheating judgments carry a high error cost. The system only highlights indicators; the human makes the call.",
+      "parts": [
+        "Suspicious Event Logging",
+        "Review Queue",
+        "Human Proctor Decision",
+        "Case History"
+      ]
+    },
+    "academic-sis": {
+      "what": "Faculty, program, syllabus, term, course offering, course registration, add/drop, transcript, and degree audit are defined in an interconnected chain. Every course registration is evaluated against prerequisites, capacity, and unit limits.",
+      "who": [
+        "Student",
+        "Educational Expert",
+        "Department Chair",
+        "Vice Dean of Education"
+      ],
+      "problem": "Most academic errors stem from inconsistencies between syllabi, offerings, and course registration. An integrated chain checks consistency at the moment of submission.",
+      "parts": [
+        "Faculty and Program Structure",
+        "Syllabus and Prerequisites",
+        "Course Offering and Capacity",
+        "Registration and Add/Drop",
+        "Transcript and Degree Audit"
+      ]
+    },
+    "regulation-policy-engine": {
+      "what": "Unit limits, probation conditions, duration limits, emergency withdrawal conditions, and similar rules are defined as configurable rules and applied at the exact moment of request submission. Critical decisions still go to the human commission.",
+      "who": [
+        "Vice Dean of Education",
+        "Educational Expert",
+        "Special Cases Commission"
+      ],
+      "problem": "When regulations are just text, their enforcement relies on individual memory and diverges across departments. Enforceable rules guarantee consistency.",
+      "parts": [
+        "Rule Definition",
+        "Real-time Application",
+        "Authorized Exception",
+        "Referral to Commission"
+      ]
+    },
+    "gradebook-grade-flow": {
+      "what": "The instructor temporarily saves the grade, the student submits an appeal within a specified window, a review is conducted, and the grade is locked only upon final human approval. Every grade change is logged with its timestamp and actor.",
+      "who": [
+        "Instructor",
+        "Student",
+        "Educational Expert",
+        "Department Head"
+      ],
+      "problem": "Grades are the most sensitive educational data, and untracked changes destroy trust in the entire system. Official workflows and change logs eliminate this risk.",
+      "parts": [
+        "Temporary Save",
+        "Appeal Window",
+        "Review",
+        "Final Lock",
+        "Change Log"
+      ]
+    },
+    "admissions-apply": {
+      "what": "The applicant fills out the admission form, uploads their documents, and receives a tracking code. Any status change — review, document deficiency, interview, result — can be tracked using that same code.",
+      "who": [
+        "Admission Applicant",
+        "Admission Expert",
+        "Admission Committee"
+      ],
+      "problem": "Phone inquiries about admission status are both exhausting for applicants and create administrative workload. A tracking code reduces both.",
+      "parts": [
+        "Application Form",
+        "Document Upload",
+        "Tracking Code",
+        "Review Workflow",
+        "Result Announcement"
+      ]
+    },
+    "wallet-payments": {
+      "what": "Every user has a currency wallet: topping up via payment gateway, paying tuition and purchasing courses from the same balance, and refunds back to the same wallet. Every transaction has its own receipt, and the balance is derived from the sum of receipts.",
+      "who": [
+        "Student",
+        "Knowledge Marketplace Author",
+        "Finance Department"
+      ],
+      "problem": "Scattering payments across gateways and receipts makes financial reconciliation impossible. A unified wallet creates a single ledger.",
+      "parts": [
+        "Gateway Top-up",
+        "Internal Payment",
+        "Refund",
+        "Transaction Receipt",
+        "User Statement"
+      ]
+    },
+    "tuition-finance": {
+      "what": "Tuition is calculated based on selected credits and course type, discounts and financial aids are applied, and the remaining balance is converted into scheduled installments. Final settlement is a prerequisite for certificate issuance.",
+      "who": [
+        "Student",
+        "Student Finance Specialist",
+        "Welfare Office"
+      ],
+      "problem": "Manual tuition calculations involving discounts and installments are the primary source of financial discrepancies for students. Systemic calculation makes figures traceable.",
+      "parts": [
+        "Tuition Calculation",
+        "Discounts & Grants",
+        "Installment Plan",
+        "Payment",
+        "Settlement"
+      ]
+    },
+    "subscription-plans": {
+      "what": "Access to a portion of services is defined through the subscription plan: each plan has its own limits, benefits, and duration, and upgrades or renewals are handled from the same page.",
+      "who": [
+        "Student",
+        "Freelance Specialist",
+        "Group Subscription Applicant Organization"
+      ],
+      "problem": "Ambiguous pricing ties purchasing decisions to phone calls. A transparent plan with clear limits leaves the choice directly to the user.",
+      "parts": [
+        "Plan Definition",
+        "Limits & Benefits",
+        "Purchase & Renewal",
+        "Upgrade & Plan Change"
+      ]
+    },
+    "knowledge-marketplace": {
+      "what": "The knowledge marketplace is a space where instructors, students, or specialists can create and sell courses. Buyers view the course within the same system, submit assignments, and receive a verifiable certificate upon completion.",
+      "who": [
+        "Course Author",
+        "Course Buyer",
+        "Content Moderation Unit"
+      ],
+      "problem": "Practical knowledge acquired within the university usually remains confined to the classroom. The marketplace provides an official, financial pathway for its distribution.",
+      "parts": [
+        "Showcase & Search",
+        "Cart & Payment",
+        "Purchased Class",
+        "Quality Review",
+        "Completion Certificate"
+      ]
+    },
+    "course-studio": {
+      "what": "The studio is the author's workbench: building the course structure, adding video and text lessons, defining assignments and quizzes, setting prices and coupons, previewing, and ultimately submitting for review and publication.",
+      "who": [
+        "Course Author",
+        "Content Production Assistant",
+        "Quality Reviewer"
+      ],
+      "problem": "Producing a course without an integrated workbench turns into a messy exchange of files and messages. The studio brings all steps together in one place.",
+      "parts": [
+        "Syllabus Structure",
+        "Lesson Upload",
+        "Assignment & Quiz",
+        "Price & Coupon",
+        "Preview & Publish"
+      ]
+    },
+    "media-pipeline-captions": {
+      "what": "Uploaded videos or recorded sessions enter the processing queue: audio extraction, generating captions on self-hosted infrastructure, building playback versions, and making them available in the player.",
+      "who": [
+        "Course Author",
+        "Instructor",
+        "Student requiring captions"
+      ],
+      "problem": "Videos without captions are unsearchable and unusable for hearing-impaired users. Automated processing eliminates manual captioning work.",
+      "parts": [
+        "Processing queue",
+        "Audio extraction",
+        "Caption generation",
+        "Playback versions",
+        "Player"
+      ]
+    },
+    "author-payouts": {
+      "what": "From each sale, the author's share and the platform's share are separated based on a defined rule; the author views their own statement and submits a withdrawal request. Final payment is made after human approval by the finance unit.",
+      "who": [
+        "Course author",
+        "Finance unit",
+        "Market manager"
+      ],
+      "problem": "Lack of transparency in sales shares destroys the motivation to create content. Real-time statements make the relationship trustworthy.",
+      "parts": [
+        "Share rule",
+        "Sales statement",
+        "Withdrawal request",
+        "Financial approval"
+      ]
+    },
+    "wellness-counseling": {
+      "what": "Students submit counseling requests directly, schedule appointments, and their files are visible only to the responsible counselor. Urgent cases follow a separate, faster path.",
+      "who": [
+        "Student",
+        "University counselor",
+        "Mental health specialist"
+      ],
+      "problem": "The bureaucratic path of counseling is usually so full of obstacles that individuals give up. Direct requests and default confidentiality remove these barriers.",
+      "parts": [
+        "Counseling request",
+        "Scheduling",
+        "Confidential file",
+        "Urgency queue",
+        "Referral"
+      ]
+    },
+    "ai-assistant-agents": {
+      "what": "Assistants work based on user roles and context: querying course handouts, assisting with question design, session summarization, and academic path guidance. Every response includes sources, confidence levels, and the need for human review.",
+      "who": [
+        "Student",
+        "Instructor",
+        "Educational expert"
+      ],
+      "problem": "Source-less language model responses are dangerous in educational contexts. Requiring sources and confidence levels makes responses verifiable.",
+      "parts": [
+        "Role-based assistants",
+        "Source-backed response",
+        "Confidence level",
+        "Human review indicator"
+      ]
+    },
+    "academic-messenger-network": {
+      "what": "The internal messenger covers private chats, automated course groups, and one-way official announcement channels. Course group memberships are created from course enrollment, not manually.",
+      "who": [
+        "Student",
+        "Instructor",
+        "Public relations unit"
+      ],
+      "problem": "When class communication moves to external networks, neither history remains nor role boundaries are respected. The internal messenger restores both.",
+      "parts": [
+        "Private chat",
+        "Automatic course group",
+        "Announcement channel",
+        "Message search"
+      ]
+    },
+    "service-desk": {
+      "what": "Administrative requests—enrollment certificates, leaves of absence, major changes, special requests—are submitted from a single service desk, and the approval workflow for each request type is predefined. Applicants always know whose desk their request is currently on.",
+      "who": [
+        "Student",
+        "Staff",
+        "Approving experts"
+      ],
+      "problem": "In-person visits and phone follow-ups impose a huge hidden cost on both parties. A transparent workflow eliminates this.",
+      "parts": [
+        "Request form",
+        "Approval workflow",
+        "Real-time status",
+        "Document attachment",
+        "Archive"
+      ]
+    },
+    "exec-dashboard": {
+      "what": "The executive dashboard builds key performance indicators for each domain from that domain's actual data and provides a path to drill down into the details of any number. No number on this page lacks an expandable source.",
+      "who": [
+        "Senior manager",
+        "Vice presidents",
+        "Unit managers"
+      ],
+      "problem": "Manual management reports are always late and always inconsistent. A dashboard connected to live data keeps decisions up to date.",
+      "parts": [
+        "Educational indicators",
+        "Financial indicators",
+        "Assessment indicators",
+        "System health",
+        "Link to details"
+      ]
+    },
+    "multi-tenancy": {
+      "what": "Every server query is scoped to its own tenant boundary, and each group has its own users, courses, branding, and settings. The global configuration page currently works with sample data and writes back to itself; the isolation strategy is enforced at the server level, not from that page.",
+      "who": [
+        "Platform administrator",
+        "Hosted organizations",
+        "Infrastructure team"
+      ],
+      "problem": "Deploying a separate version for each organization multiplies maintenance overhead. Logical isolation makes a single installation sufficient for everyone.",
+      "parts": [
+        "Data isolation on the server",
+        "Dedicated branding",
+        "Independent settings",
+        "Configuration console with sample data"
+      ]
+    },
+    "auth-security-hardening": {
+      "what": "Password or SMS login, two-factor authentication, revokable sessions, and role-based access are validated on every server request. Client-side role control is merely cosmetic; the actual decision is made on the server.",
+      "who": [
+        "All users",
+        "Security manager",
+        "Support"
+      ],
+      "problem": "Purely cosmetic access control is the most common vulnerability in educational systems. Server-side validation on every query closes this gap.",
+      "parts": [
+        "Multi-day login",
+        "Two-factor authentication",
+        "Session management",
+        "Role-based access"
+      ]
+    },
+    "sms-otp-verification": {
+      "what": "The user's mobile number is verified using a short-lived one-time code; the same flow is used for passwordless login and account recovery. Attempt limits and send intervals are enforced.",
+      "who": [
+        "New users",
+        "Account recovery user",
+        "Support"
+      ],
+      "problem": "An unverified number means an unrecoverable account and undelivered notifications. SMS verification establishes baseline identity.",
+      "parts": [
+        "Code sending",
+        "Validity window",
+        "Attempt limit",
+        "Login and recovery"
+      ]
+    },
+    "hr-hiring-payroll": {
+      "what": "The HR lifecycle—job postings, resume intake, interviews, hiring, contracts, salary decrees, attendance, and payslips—is defined in a single chain. Payroll finalization always requires explicit human approval.",
+      "who": [
+        "HR Manager",
+        "Payroll Specialist",
+        "Department Managers",
+        "Employees"
+      ],
+      "problem": "Scattering personnel records across physical and digital files makes payroll calculations error-prone. A unified chain unifies history and calculation.",
+      "parts": [
+        "Postings & Resumes",
+        "Interview",
+        "Contract & Decree",
+        "Attendance & Work hours",
+        "Payslip"
+      ]
+    },
+    "course-hub-ia": {
+      "what": "Each course features a central hub page that brings together weekly content, assignments, live and recorded sessions, resources, group discussions, and the course gradebook.",
+      "who": [
+        "Student",
+        "Instructor",
+        "Teaching Assistant"
+      ],
+      "problem": "Scattering a course's components across multiple pages is the most frequent complaint among users of educational systems. The central hub page brings everything one click away.",
+      "parts": [
+        "Weekly content",
+        "Assignment & Submission",
+        "Sessions & Recordings",
+        "Resources",
+        "Course gradebook"
+      ]
+    },
+    "panel-analytics": {
+      "what": "Analytics build progress trends for individuals, classes, and programs based on actual learning events: participation, assignment submissions, quiz results, and attendance. Each chart drills down into its underlying data.",
+      "who": [
+        "Instructor",
+        "Department Head",
+        "Assessment Specialist",
+        "Student"
+      ],
+      "problem": "Without a trend view, learning issues are only noticed at the end of the term—when it is too late to act.",
+      "parts": [
+        "Learning events",
+        "Individual and class trends",
+        "Course Comparison",
+        "Open Raw Data"
+      ]
+    },
+    "parent-portal": {
+      "what": "Following a verified connection to the student, the parent has a limited view of grades, attendance, weekly schedule, and tuition status. The scope of access is explicit and approved by the university.",
+      "who": [
+        "Parents",
+        "Educational Expert",
+        "Student"
+      ],
+      "problem": "Family communication with the university is usually limited to phone calls. A controlled view builds transparency without violating privacy.",
+      "parts": [
+        "Verified Connection",
+        "Grades",
+        "Attendance",
+        "Weekly Schedule",
+        "Tuition Status"
+      ]
+    },
+    "org-portal": {
+      "what": "The educational purchaser organization has a separate space: user definition, bulk enrollment in courses, management of purchased seats, billing, and staff progress reporting.",
+      "who": [
+        "Organization Training Manager",
+        "Organization Finance Unit",
+        "Enrolled Staff"
+      ],
+      "problem": "Manual bulk enrollment is both error-prone and makes reporting impossible. The organizational portal solves both.",
+      "parts": [
+        "Organization Users",
+        "Bulk Enrollment",
+        "Seat Management",
+        "Billing",
+        "Progress Reporting"
+      ]
+    },
+    "self-hosted-monitoring": {
+      "what": "Service status, resource consumption, and database health are collected and displayed on the same internal infrastructure. The alert channel is configured outside the platform and on the team's own operational tools.",
+      "who": [
+        "Infrastructure Team",
+        "System Administrator"
+      ],
+      "problem": "Reliance on external monitoring services means operational data leaves the system, and monitoring fails during network outages. Internal monitoring eliminates both.",
+      "parts": [
+        "Service Health",
+        "Resource Consumption",
+        "Database Health"
+      ]
+    },
+    "audit-log": {
+      "what": "Changes to grades, roles, financial status, report publication, and similar sensitive items are recorded in an append-only log: who, when, what was changed from what value to what value.",
+      "who": [
+        "System Administrator",
+        "Internal Auditor",
+        "Disciplinary Committee"
+      ],
+      "problem": "Without an audit log, any claim of violation or error is uninvestigatable. The recorded trail makes investigation possible.",
+      "parts": [
+        "Sensitive Events",
+        "Actor and Timestamp",
+        "Previous and Subsequent Values",
+        "Search and Filter"
+      ]
+    },
+    "academic-calendar": {
+      "what": "The calendar of each semester defines official windows, and those same windows automatically open and close the locking of related operations: course selection is not possible outside its window.",
+      "who": [
+        "Educational Expert",
+        "Student",
+        "Professor"
+      ],
+      "problem": "When a calendar is merely an announcement, its execution becomes manual and inconsistent. Linking the calendar to operational locks guarantees execution.",
+      "parts": [
+        "Term ranges",
+        "Operational lock",
+        "Events and occasions",
+        "Personal view"
+      ]
+    },
+    "brand-trust-seals": {
+      "what": "Name, logo, color, address, and official seals are all read from a single configuration and applied consistently across all pages, documents, and cards. Changing the brand means changing a single file, not searching the entire system.",
+      "who": [
+        "Site visitor",
+        "Public relations unit",
+        "Development team"
+      ],
+      "problem": "Divergence of names and logos between pages and documents breaks visual trust. A single source makes divergence impossible.",
+      "parts": [
+        "Brand configuration",
+        "Logo and color",
+        "Official seals",
+        "Global application"
+      ]
+    },
+    "jalali-calendar-ui": {
+      "what": "Every date seen by the user is Jalali, and every number is written in Persian digits; backend storage remains standard so that data exchange with other systems is not broken.",
+      "who": [
+        "All users",
+        "Development team"
+      ],
+      "problem": "Gregorian dates in a Persian user interface cause reading errors and create a foreign experience. Global conversion solves this once and for all.",
+      "parts": [
+        "Display conversion",
+        "Persian digits",
+        "Date picker",
+        "Standard storage"
+      ]
+    },
+    "listSeparator": ", ",
+    "schematicAria": "Components of this feature: {parts}"
+  },
+  "index": {
+    "eyebrow": "University Features",
+    "title": "Everything a university needs, on a single platform",
+    "lead": "{brand} is built from {count, number} interconnected features — from competency assessment and live classes to finance, support, and infrastructure. Click on any card to view its complete description."
+  }
+}

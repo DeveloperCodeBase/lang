@@ -1,0 +1,141 @@
+{
+  "actions": {
+    "postJob": "+ Publicar oferta de empleo"
+  },
+  "appStatus": {
+    "accepted": "Aceptada",
+    "applied": "Enviada",
+    "rejected": "Rechazada",
+    "reviewing": "En revisión"
+  },
+  "applicants": {
+    "closeButton": "Cerrar",
+    "empty": "Nadie ha solicitado esta oferta todavía.",
+    "eyebrow": "Candidatos de la oferta",
+    "loading": "Cargando candidatos…",
+    "statusLabel": "Estado:"
+  },
+  "apply": {
+    "counter": "{current, number} / {max, number} caracteres",
+    "employerPage": "Página de la oferta del empleador ↗",
+    "eyebrow": "Enviar solicitud",
+    "noteLabel": "Nota adjunta (opcional)",
+    "notePlaceholder": "¿Por qué eres apto para esta oferta? Escribe brevemente tus habilidades y motivación…",
+    "submit": "Registrar y enviar solicitud",
+    "submitting": "Enviando…"
+  },
+  "closeJob": {
+    "closing": "Cerrando…",
+    "confirm": "¿Cerrar «{title}»? Después de cerrarla, esta oferta ya no se mostrará a los estudiantes y no se aceptarán nuevas solicitudes.",
+    "submit": "Sí, cerrar",
+    "title": "Cerrar oferta de empleo"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "saving": "Guardando…"
+  },
+  "cv": {
+    "completePercent": "{percent, number}% completado",
+    "createButton": "Crear currículum",
+    "defaultHolder": "Usuario",
+    "editButton": "Editar currículum",
+    "empty": "Aún no has creado un currículum. Comienza con «Crear currículum» para que los empleadores te conozcan mejor.",
+    "loading": "Cargando currículum…",
+    "title": "Mi currículum"
+  },
+  "cvEditor": {
+    "createTitle": "Crear currículum",
+    "editTitle": "Editar currículum",
+    "educationOrgPlaceholder": "Universidad / Institución",
+    "educationTitle": "Historial académico",
+    "educationTitlePlaceholder": "Título / Carrera",
+    "experienceOrgPlaceholder": "Empresa / Organización",
+    "experienceTitle": "Experiencia laboral / Prácticas",
+    "experienceTitlePlaceholder": "Puesto / Cargo",
+    "headlineLabel": "Título profesional (Headline)",
+    "headlinePlaceholder": "Ej.: Estudiante de ingeniería de software · Interesado/a en Frontend",
+    "save": "Guardar currículum",
+    "skillsLabel": "Habilidades (separadas por comas)",
+    "skillsPlaceholder": "React, TypeScript, Git, trabajo en equipo",
+    "summaryLabel": "Sobre mí",
+    "summaryPlaceholder": "Un resumen sobre ti, tus objetivos y fortalezas..."
+  },
+  "entry": {
+    "add": "+ Añadir",
+    "detailPlaceholder": "Descripción (opcional)",
+    "empty": "No se han añadido elementos.",
+    "periodPlaceholder": "Periodo de tiempo (ej.: 2023 a 2024)",
+    "remove": "Eliminar",
+    "removeLabel": "Eliminar elemento"
+  },
+  "errors": {
+    "generic": "Se ha producido un error"
+  },
+  "help": {
+    "body": "En esta página puedes ver las ofertas de empleo abiertas y filtrar por tipo de colaboración o búsqueda. Haz clic en «Solicitar» en cualquier oferta para postularte; el estado de todas tus solicitudes se muestra en la sección «Mis solicitudes». Completa tu currículum en la tarjeta «Mi currículum».",
+    "manager": "Como gestor de servicios profesionales, puedes publicar un nuevo anuncio con «Publicar oferta de empleo», editarlo o cerrarlo, y revisar a los «Candidatos» de cada oferta y actualizar su estado.",
+    "title": "Guía de servicios profesionales"
+  },
+  "jobForm": {
+    "applyUrlLabel": "Enlace de la oferta del empleador (opcional)",
+    "companyLabel": "Empresa / Organización",
+    "createTitle": "Publicar oferta de empleo",
+    "descriptionLabel": "Descripción de la oferta",
+    "descriptionPlaceholder": "Descripción de tareas, habilidades necesarias y condiciones...",
+    "editTitle": "Editar oferta de empleo",
+    "errors": {
+      "company": "Introduce el nombre de la empresa u organización.",
+      "description": "Introduce la descripción de la oferta (al menos {min, number} caracteres).",
+      "title": "Introduce el título de la oferta (al menos {min, number} caracteres)."
+    },
+    "locationLabel": "Ubicación",
+    "locationPlaceholder": "Madrid / Remoto",
+    "publish": "Publicar oferta",
+    "saveChanges": "Guardar cambios",
+    "tagLabel": "Etiqueta (opcional)",
+    "tagPlaceholder": "React / Datos / Diseño",
+    "titleLabel": "Título de la oferta",
+    "titlePlaceholder": "Ej.: Becario/a de desarrollo Frontend",
+    "typeLabel": "Tipo de colaboración"
+  },
+  "jobs": {
+    "applicants": "Candidatos",
+    "applied": "✓ Solicitado",
+    "apply": "Solicitar",
+    "clearSearch": "Limpiar",
+    "close": "Cerrar",
+    "closed": "Cerrado",
+    "closedBadge": "Cerrado",
+    "edit": "Editar",
+    "empty": "No se encontraron ofertas con estos filtros.",
+    "loading": "Cargando ofertas…",
+    "resetFilters": "Restablecer filtros",
+    "retry": "Reintentar",
+    "searchLabel": "Buscar oferta de empleo",
+    "searchPlaceholder": "Buscar por puesto, empresa o habilidad…",
+    "title": "Ofertas de empleo",
+    "typeFilterLabel": "Tipo de contrato"
+  },
+  "myApps": {
+    "empty": "Todavía no has solicitado ninguna oferta.",
+    "loading": "Cargando…",
+    "title": "Mis solicitudes"
+  },
+  "page": {
+    "eyebrow": "Servicios para estudiantes · Empleo",
+    "lead": "Busca oportunidades de prácticas y empleo, crea tu currículum y envía solicitudes directamente; haz el seguimiento del estado de tus solicitudes aquí mismo.",
+    "title": "Servicios de carrera"
+  },
+  "stats": {
+    "myApplications": "{count, plural, one {# solicitud mía} many {# solicitudes mías} other {# solicitudes mías}}",
+    "openJobs": "{count, plural, one {# oferta abierta} many {# ofertas abiertas} other {# ofertas abiertas}}"
+  },
+  "type": {
+    "all": "Todos",
+    "contract": "Por contrato",
+    "full_time": "Tiempo completo",
+    "internship": "Prácticas",
+    "part_time": "Medio tiempo"
+  }
+}

@@ -1,0 +1,1477 @@
+{
+  "analytics": {
+    "anonymous": "Usuario",
+    "attendance": {
+      "absentChip": "✗ Ausente {count, number}",
+      "absentLabel": "Ausente",
+      "avatarFallback": "?",
+      "duration": "Duración: {value}",
+      "empty": "Aún no se ha registrado asistencia. Aparecerán aquí según se unan los participantes.",
+      "excusedChip": "Justificado {count, number}",
+      "excusedLabel": "Justificado",
+      "finalized": "Finalizado",
+      "inClass": "En clase",
+      "joinedAt": "Entrada: {time}",
+      "lateChip": "⏰ Tarde {count, number}",
+      "lateLabel": "Tarde",
+      "left": "Salió",
+      "loading": "Cargando asistencia…",
+      "neverOpened": "Esta sesión no se celebró (no hay asistencia registrada).",
+      "presentChip": "✓ Presente {count, number}",
+      "presentLabel": "Presente",
+      "provisional": "Provisional (hasta el fin de la clase)",
+      "refreshNote": "{count, number} personas · Actualización cada {seconds, number} s",
+      "stillPresent": " (Actualmente en clase)",
+      "title": "Lista de asistencia"
+    },
+    "duration": {
+      "hours": "{count, number} horas",
+      "hoursMinutes": "{hours, number} horas y {minutes, number} minutos",
+      "lessThanMinute": "Menos de 1 minuto",
+      "minutes": "{count, number} minutos"
+    },
+    "error": {
+      "attendance": "No se pudo obtener la lista de asistencia. Esta sección solo está disponible para el anfitrión."
+    },
+    "participation": {
+      "aria": "Micrófonos abiertos {on, number} de {total, number}",
+      "empty": "Aún no hay nadie en clase.",
+      "muted": "Silenciados: {count, number}",
+      "on": "Abiertos: {count, number} ({pct, number}%)",
+      "title": "Participación por voz"
+    },
+    "poll": {
+      "active": "Hay una encuesta activa actualmente",
+      "idle": "No hay encuestas activas"
+    },
+    "stat": {
+      "chat": "Mensajes en el chat",
+      "hands": "Manos levantadas",
+      "micOn": "Micrófonos abiertos",
+      "present": "Presentes ahora"
+    }
+  },
+  "assistant": {
+    "chip": {
+      "example": "Dar un ejemplo",
+      "practice": "Crear pregunta de práctica",
+      "quiz": "Diseñar un cuestionario breve con respuestas",
+      "summarize": "Resumir este tema"
+    },
+    "error": {
+      "createSession": "No se pudo crear la conversación con el asistente."
+    },
+    "hostMode": "Modo profesor — Diseño de preguntas y ejercicios",
+    "inputLabel": "Preguntar al asistente inteligente",
+    "intro": "Pregunta sobre el tema de clase — las respuestas provienen del material del curso (RAG).",
+    "introHost": " Como profesor, también puedes generar ejercicios y cuestionarios.",
+    "label": "Asistente inteligente",
+    "noAnswer": "No se recibió respuesta. Por favor, pregunta de nuevo.",
+    "placeholder": "Escribe tu pregunta…",
+    "questionCount": "{count, number} preguntas",
+    "send": "Enviar pregunta",
+    "sendShort": "Enviar",
+    "sessionTitle": "Clase en vivo — {name}",
+    "source": "Fuente",
+    "sources": "Fuentes ({count, number})",
+    "title": "Asistente inteligente de clase",
+    "typing": "Escribiendo respuesta…"
+  },
+  "atoms": {
+    "captions": {
+      "etaTradeoff": "Si η es demasiado grande, la función de coste diverge; si es muy pequeña, la convergencia es lenta.",
+      "fasterNoisier": "Esto hace que las actualizaciones sean más rápidas pero más oscilantes.",
+      "lrAnswer": "Buena pregunta. Normalmente se combina con un planificador de tasa de aprendizaje o con Adam.",
+      "lrQuestion": "¿Profesor, cómo se selecciona la tasa de aprendizaje óptima para SGD?",
+      "sgdStep": "El descenso de gradiente estocástico utiliza solo una muestra por paso para calcular el gradiente."
+    },
+    "chat": {
+      "seed": {
+        "answer": "Claro. Supongamos θ = 0.8, gradiente = 2.4 y η = 0.1. Entonces:",
+        "answerTime": "14:25",
+        "ask": "¿Podría dar un ejemplo numérico de actualización de pesos en SGD?",
+        "askTime": "14:25",
+        "greeting": "Hola 👋 Soy el asistente inteligente de esta sesión. Puedo resumir en tiempo real, aclarar conceptos o sugerir ejercicios prácticos.",
+        "greetingTime": "14:23"
+      }
+    },
+    "people": {
+      "ali": {
+        "init": "A",
+        "name": "Ali R."
+      },
+      "arman": {
+        "init": "A",
+        "name": "Armán B."
+      },
+      "azimi": {
+        "init": "DA",
+        "name": "Dr. Azimi"
+      },
+      "hanieh": {
+        "init": "H",
+        "name": "Hanieh F."
+      },
+      "mohsen": {
+        "init": "M",
+        "name": "Mohsen H."
+      },
+      "neda": {
+        "init": "N",
+        "name": "Neda Kazemi"
+      },
+      "nima": {
+        "init": "N",
+        "name": "Nima J."
+      },
+      "sara": {
+        "init": "S",
+        "name": "Sara M."
+      },
+      "zahra": {
+        "init": "Z",
+        "name": "Zahra K."
+      }
+    },
+    "poll": {
+      "options": {
+        "adamWeighted": "Adam con ponderación de clases",
+        "rmspropWarmup": "RMSprop con calentamiento (Warm-up)",
+        "sgdMomentum": "SGD estándar con momento (Momentum)"
+      },
+      "question": "¿Qué método de optimización es más adecuado para entrenar redes profundas con datos desbalanceados?"
+    },
+    "qa": {
+      "q1": {
+        "text": "Si la función de coste no es convexa, ¿converge SGD a un mínimo global?",
+        "time": "Hace 2 minutos"
+      },
+      "q2": {
+        "text": "¿Cuál es la diferencia práctica entre Momentum y Adam?",
+        "time": "Hace 5 minutos"
+      },
+      "q3": {
+        "text": "¿Qué tamaño de mini-lote se recomienda para ResNet-50?",
+        "time": "Hace 8 minutos"
+      },
+      "q4": {
+        "text": "¿Qué ajustes deben aplicarse a SGD para conjuntos de datos desbalanceados?",
+        "time": "Hace 12 minutos"
+      },
+      "tags": {
+        "adaptive": "Adaptativo",
+        "highlight": "Destacado",
+        "practical": "Práctico"
+      }
+    },
+    "slides": {
+      "compare": {
+        "body": "El mini-lote equilibra la estabilidad del lote completo y la velocidad de SGD. Tamaño habitual: 32 a 256."
+      },
+      "noise": {
+        "body": "Las fluctuaciones aleatorias permiten escapar de mínimos locales y rendir mejor en superficies no convexas.",
+        "title": "Por qué es útil el ruido"
+      },
+      "sgd": {
+        "body": "En cada paso, los pesos se actualizan con una sola muestra aleatoria. Más rápido pero con más oscilación.",
+        "title": "Descenso de gradiente estocástico"
+      }
+    },
+    "suggestions": {
+      "exercise": "Generar ejercicio similar",
+      "resources": "Recursos adicionales",
+      "simpler": "Explicar de forma más sencilla",
+      "summary": "Resumen de los últimos 2 minutos"
+    },
+    "tabs": {
+      "assistant": "Asistente",
+      "captions": "Subtítulos",
+      "poll": "Encuesta",
+      "questions": "Preguntas"
+    },
+    "timeline": {
+      "r1": {
+        "label": "Repaso de la sesión anterior",
+        "time": "14:02"
+      },
+      "r2": {
+        "label": "Concepto de descenso de gradiente",
+        "time": "14:08"
+      },
+      "r3": {
+        "label": "Versión por lotes (Batch)",
+        "time": "14:16"
+      },
+      "r4": {
+        "label": "Descenso de gradiente estocástico (SGD)",
+        "time": "14:22"
+      },
+      "r5": {
+        "label": "Momentum y Adam",
+        "time": "14:35"
+      },
+      "r6": {
+        "label": "Ejercicio interactivo y preguntas",
+        "time": "14:45"
+      }
+    },
+    "transcript": {
+      "live": {
+        "momentum": "Si actualizamos el aprendizaje teniendo en cuenta valores previos, se denomina Momentum.",
+        "nesterovAnswer": "Nesterov primero predice la posición siguiente y calcula el gradiente allí.",
+        "nesterovQuestion": "¿En qué se diferencia esto de Nesterov?",
+        "pytorchQuestion": "¿Se puede implementar esta idea en PyTorch?"
+      },
+      "seed": {
+        "r1": {
+          "text": "En el descenso de gradiente estocástico, solo se usa una muestra para calcular el gradiente en cada paso.",
+          "time": "14:20"
+        },
+        "r2": {
+          "text": "Esto aumenta la velocidad de cálculo y reduce el uso de memoria.",
+          "time": "14:21"
+        },
+        "r3": {
+          "highlight": "Tasa de aprendizaje óptima",
+          "text": "Profesor, ¿cómo se elige la tasa de aprendizaje óptima?",
+          "time": "14:22"
+        },
+        "r4": {
+          "text": "Normalmente lo combinamos con un programador de tasa de aprendizaje o algoritmos adaptativos como Adam.",
+          "time": "14:22"
+        },
+        "r5": {
+          "text": "¿Cuál es la diferencia clave exacta entre SGD y Mini-batch?",
+          "time": "14:23"
+        },
+        "r6": {
+          "text": "El tamaño del lote. En Mini-batch tomamos entre 32 y 256 muestras para un mejor equilibrio entre estabilidad y velocidad.",
+          "time": "14:23"
+        }
+      }
+    }
+  },
+  "breakout": {
+    "anonymous": "Usuario",
+    "decrease": "Reducir salas",
+    "duration": "Duración de salas",
+    "durationLabel": "Duración ({minutes, number} min)",
+    "empty": "No hay participantes en la clase.",
+    "end": "Finalizar",
+    "increase": "Aumentar salas",
+    "manualLabel": "Asignación manual",
+    "maxRooms": "Máximo {count, number} salas",
+    "memberCount": "{count, number} personas",
+    "mode": {
+      "auto": "Automático",
+      "manual": "Manual",
+      "random": "Aleatorio"
+    },
+    "modeLabel": "Método de asignación",
+    "moved": "Has sido movido a esta sala",
+    "noParticipants": "Aún no hay participantes en clase. Podrás asignarlos cuando otros se unan.",
+    "noneOpen": "No hay salas de grupo activas. Cuando el anfitrión abra salas, aparecerá la tuya.",
+    "open": "Abrir salas",
+    "phaseNote": "En esta etapa, la asignación de participantes y el chat/notas por sala están activos.",
+    "preview": "{people, number} participantes se distribuirán en {rooms, number} salas (aprox. {per, number} personas por sala).",
+    "roomCountLabel": "Número de salas",
+    "roomFor": "Sala para {name}",
+    "roomName": "Sala {number, number}",
+    "title": "Salas para grupos pequeños",
+    "unassigned": "Sin asignar ({count, number})",
+    "you": "Tú"
+  },
+  "chat": {
+    "anonymousAuthor": "Usuario",
+    "channels": {
+      "class": "Clase",
+      "staff": "Personal docente",
+      "table": "Mesa"
+    },
+    "empty": "Aún no se han enviado mensajes.",
+    "note": {
+      "class": "Los mensajes se comparten en directo con toda la clase a través del canal de la clase.",
+      "locked": "El chat ha sido bloqueado por el anfitrión. Solo el anfitrión puede enviar mensajes.",
+      "staff": "Este canal solo es visible para el docente y los asistentes; los estudiantes no pueden verlo.",
+      "table": "Esta conversación solo es visible para los integrantes de la mesa y el docente."
+    },
+    "placeholder": "Escribe un mensaje…",
+    "placeholderLocked": "El chat está bloqueado…",
+    "rejected": {
+      "channel": "Este canal no está disponible para ti — tu mensaje no fue enviado.",
+      "locked": "El chat está bloqueado — tu mensaje no fue enviado."
+    },
+    "send": "Enviar mensaje",
+    "tableTarget": "Enviar a la mesa",
+    "unread": "{count, plural, one {#} other {#}}"
+  },
+  "classes": {
+    "card": {
+      "attendees": "{value, number} participantes",
+      "cancelled": "Esta sesión ha sido cancelada.",
+      "joinDirect": "Entrada directa",
+      "joinLobby": "Entrar a la sala de espera",
+      "newTab": "Abrir en nueva pestaña",
+      "report": "Informe de sesión",
+      "reportTitle": "Informe completo de esta sesión"
+    },
+    "emptyAll": "Ninguna sesión coincide con tu búsqueda.",
+    "emptyHint": "Tan pronto como el profesor la programe, aparecerá aquí.",
+    "emptySearch": "No se encontraron sesiones que coincidan con esta búsqueda o filtro.",
+    "errLoad": "Error al cargar las sesiones",
+    "eyebrow": "Clase en vivo · Centro de sesiones",
+    "filter": {
+      "all": "Todas",
+      "ended": "Finalizadas",
+      "live": "En vivo ahora",
+      "scheduled": "Programadas"
+    },
+    "filterAria": "Filtrar sesiones en vivo",
+    "form": {
+      "applySlot": "Aplicar esta franja horaria",
+      "cancel": "Cancelar",
+      "close": "Cerrar",
+      "course": "Curso asociado",
+      "coursePick": "— Seleccionar curso —",
+      "courseSearch": "Buscar curso (código o nombre)…",
+      "courseSearchAria": "Buscar curso",
+      "coursesError": "La lista de cursos no está disponible; inténtalo de nuevo más tarde.",
+      "coursesLoading": "Cargando cursos…",
+      "date": "Fecha",
+      "dateAria": "Fecha de la sesión",
+      "datePlaceholder": "Seleccionar fecha de la sesión",
+      "desc": "Descripción (opcional)",
+      "descPlaceholder": "Temas o notas clave de esta sesión…",
+      "end": "Hora de finalización",
+      "errCourse": "Por favor, selecciona un curso asociado.",
+      "errCreate": "Error al crear la nueva sesión. Por favor, inténtalo de nuevo.",
+      "errDate": "Por favor, selecciona una fecha para la sesión.",
+      "errTime": "Por favor, introduce horas de inicio y fin válidas.",
+      "errTitle": "Por favor, introduce un título para la sesión.",
+      "policy": "Política de admisión",
+      "section": "Sección/Grupo (opcional)",
+      "sectionAll": "— Curso completo (sin grupo específico) —",
+      "sectionOption": "Grupo {group, number}",
+      "start": "Hora de inicio",
+      "submit": "Programar sesión",
+      "submitting": "Programando…",
+      "title": "Programar sesión de clase en vivo",
+      "titleLabel": "Título de la sesión",
+      "titlePlaceholder": "ej., Sesión 4: Algoritmos de optimización"
+    },
+    "group": {
+      "live": "En vivo ahora",
+      "liveEmpty": "No hay sesiones en vivo actualmente.",
+      "past": "Pasadas",
+      "pastEmpty": "No hay sesiones pasadas registradas.",
+      "upcoming": "Próximas",
+      "upcomingEmpty": "No hay sesiones programadas próximamente."
+    },
+    "help": {
+      "body": "En esta página puedes ver las clases divididas en \"En vivo ahora\", \"Próximas\" y \"Pasadas\". Pulsa \"Entrar a la sala de espera\" para probar cámara y micrófono; si una sesión está en curso, pulsa \"Entrada directa\".",
+      "title": "Guía de clases en vivo"
+    },
+    "kpi": {
+      "live": "En vivo ahora",
+      "total": "Total de sesiones",
+      "upcoming": "Próximas"
+    },
+    "lead": "Consulta las sesiones en vivo, próximas y pasadas; entra a la sala de espera para probar cámara y micrófono o únete directamente si la sesión está en curso.",
+    "loading": "Cargando sesiones…",
+    "new": "Nueva sesión",
+    "noCourse": "Sin curso asociado",
+    "policy": {
+      "enrolled": "Solo estudiantes inscritos",
+      "invite": "Solo por invitación",
+      "public": "Abierta a todos (Pública)"
+    },
+    "schedule": {
+      "at": "{date} · {clock}",
+      "unknown": "Horario no especificado"
+    },
+    "searchAria": "Buscar sesiones en vivo",
+    "searchPlaceholder": "Buscar por título de sesión o nombre de curso…",
+    "status": {
+      "cancelled": "Cancelada",
+      "ended": "Finalizada",
+      "live": "En curso",
+      "scheduled": "Programada"
+    },
+    "title": "Clases en vivo"
+  },
+  "guide": {
+    "button": "Guía de clase",
+    "lobby": {
+      "chain": {
+        "check": "Aquí pruebas tu nombre, cámara y micrófono y completas la lista de preparación.",
+        "enter": "Cuando todo esté listo, pulsa \"Entrar a clase\".",
+        "join": "Al entrar a la clase, se te transfiere a la sala en vivo; la guía continúa allí.",
+        "schedule": "La clase en vivo se programa en el plan de estudios y aparece en \"Mis clases\"."
+      },
+      "ifEmpty": "Si los dispositivos no aparecen, comprueba la conexión de tu cámara y micrófono.",
+      "intro": "Esta sala de espera te permite comprobar tu equipo y conexión antes de entrar a la clase.",
+      "roles": {
+        "host": {
+          "does": "Gestiona los ajustes de la sala y espera a que los alumnos ingresen.",
+          "label": "Profesor / Anfitrión"
+        },
+        "student": {
+          "does": "Prueba cámara/micrófono, comprueba la preparación y entra a clase.",
+          "label": "Tú (Estudiante)"
+        },
+        "support": {
+          "does": "Proporciona asistencia técnica si los dispositivos fallan repetidamente.",
+          "label": "Soporte técnico"
+        }
+      },
+      "title": "Pasos para entrar a clase",
+      "youCan": {
+        "camera": "Visualiza la vista previa de la cámara y actívala o desactívala.",
+        "join": "Cuando todo esté listo, únete usando el botón Entrar a clase.",
+        "mic": "Activa o desactiva tu micrófono con el botón de micrófono.",
+        "name": "Edita tu nombre visible antes de entrar a clase."
+      }
+    },
+    "sections": {
+      "chain": "Recorrido completo, de principio a fin",
+      "ifEmpty": "Si la página está vacía",
+      "roles": "Quién hace qué",
+      "youCan": "¿Qué puedes hacer aquí?"
+    },
+    "session": {
+      "chain": {
+        "participate": "Durante la clase participas por micrófono/cámara/chat; el docente modera el flujo.",
+        "record": "Si el profesor graba la clase, estará disponible tras finalizar.",
+        "review": "Vuelve desde Grabaciones para repasar una clase perdida.",
+        "start": "El profesor inicia la clase en vivo; tú te unes a la sala."
+      },
+      "ifEmpty": "Si la clase aún no ha comenzado, espera al docente.",
+      "intro": "Esta es tu aula virtual en vivo con micrófono, cámara, pizarra, chat y preguntas.",
+      "roles": {
+        "host": {
+          "does": "Inicia y modera la clase, y graba si es necesario.",
+          "label": "Profesor / Anfitrión"
+        },
+        "student": {
+          "does": "Se une a la clase, participa y consulta grabaciones.",
+          "label": "Tú (Estudiante)"
+        }
+      },
+      "title": "Guía de la clase en vivo",
+      "youCan": {
+        "chat": "Envía mensajes o preguntas escritas en el Chat.",
+        "media": "Enciende o apaga tu micrófono y cámara desde la barra inferior.",
+        "recordings": "Tras finalizar la clase, mira la grabación si fue registrada.",
+        "share": "Comparte tu pantalla si el docente lo permite."
+      }
+    }
+  },
+  "hands": {
+    "count": "{count, plural, one {# mano levantada} other {# manos levantadas}}",
+    "lower": "Bajar mano",
+    "lowerAll": "Bajar todas las manos",
+    "ordinal": "{count, number}",
+    "overflow": "{count, plural, one {# persona más está esperando} other {# personas más están esperando}}",
+    "position": "{count, plural, one {Tu turno: #} other {Tu turno: #}}",
+    "title": "Turno de palabra"
+  },
+  "lobby": {
+    "back": "Volver al espacio de trabajo",
+    "removedByHost": "Has sido expulsado de esta clase. Solo podrás volver a ingresar con autorización del docente.",
+    "removedServiceDesk": "Enviar solicitud al servicio de soporte",
+    "cam": {
+      "off": "Apagar cámara",
+      "on": "Encender cámara",
+      "stateOff": "Cámara apagada",
+      "stateOn": "Cámara encendida"
+    },
+    "camOffOverlay": "La cámara está apagada",
+    "conn": {
+      "fair": "Regular",
+      "good": "Buena",
+      "poor": "Deficiente",
+      "title": "Calidad de conexión",
+      "unknown": "Desconocida"
+    },
+    "cta": {
+      "blocked": "Para ingresar a la clase, debes resolver los requisitos críticos indicados arriba.",
+      "blockedTitle": "No puedes ingresar hasta resolver los requisitos críticos",
+      "enter": "Entrar a clase",
+      "ready": "Verifica tu video y audio antes de ingresar.",
+      "waiting": "El profesor aún no ha entrado; puedes ingresar y esperar."
+    },
+    "device": {
+      "camera": "Cámara",
+      "cameraNone": "No se encontró cámara",
+      "fallback": "{device} {index, number}",
+      "mic": "Micrófono",
+      "micNone": "No se encontró micrófono",
+      "speaker": "Altavoz",
+      "speakerDefault": "Altavoz predeterminado del sistema"
+    },
+    "fallbackTitle": "Clase en vivo",
+    "guest": "Invitado",
+    "help": {
+      "body": "Antes de entrar a la clase en vivo, prueba aquí tu cámara, micrófono y altavoces. Usa los botones bajo la vista previa para activar/desactivar y selecciona tus dispositivos en la columna de ajustes. Cuando todo esté listo, pulsa \"Entrar a clase\".",
+      "title": "Guía de acceso a clase"
+    },
+    "joinMuted": "Entrar con micrófono silenciado",
+    "loading": "Cargando detalles de la sesión…",
+    "media": {
+      "denied": "No se concedió acceso a la cámara o al micrófono.",
+      "deniedTitle": "Acceso denegado a cámara/micrófono",
+      "notFound": "No se encontró dispositivo de cámara o micrófono."
+    },
+    "meta": {
+      "host": "Profesor: {name}",
+      "time": "Hora: {time}"
+    },
+    "meter": {
+      "label": "Nivel del micrófono",
+      "micOff": "El micrófono está silenciado — activa para probar."
+    },
+    "mic": {
+      "off": "Silenciar micrófono",
+      "on": "Activar micrófono",
+      "stateOff": "Micrófono silenciado",
+      "stateOn": "Micrófono activo"
+    },
+    "perm": {
+      "retry": "Reintentar solicitud de permiso",
+      "step1": "Haz clic en el icono del candado junto a la barra de direcciones del navegador.",
+      "step2": "Configura los permisos de \"Cámara\" y \"Micrófono\" en \"Permitir\".",
+      "step3": "Luego haz clic en el botón de abajo para reintentar.",
+      "without": "También puedes ingresar a la clase sin cámara ni micrófono."
+    },
+    "settings": {
+      "name": "Tu nombre visible en clase",
+      "title": "Ajustes de audio y video"
+    },
+    "speaker": {
+      "playing": "Reproduciendo…",
+      "test": "Probar"
+    },
+    "status": {
+      "ended": "Esta sesión ha finalizado",
+      "live": "En curso",
+      "prefix": "Estado: {status}",
+      "waiting": "El docente aún no ha ingresado"
+    }
+  },
+  "notes": {
+    "ariaLabel": "Notas compartidas de la clase",
+    "charCount": "{count, number} caracteres",
+    "empty": "Aún no se ha escrito nada",
+    "exportLabel": "Exportar texto",
+    "exportTitle": "Guardar como archivo de texto (.txt)",
+    "placeholder": "Escribe aquí… Lo que escribas será visible para todos en tiempo real.",
+    "synced": "Sincronizado",
+    "syncing": "Los cambios se sincronizan en tiempo real",
+    "title": "Notas compartidas"
+  },
+  "panel": {
+    "close": "Cerrar",
+    "host": {
+      "actionsFor": "Acciones de anfitrión para {name}",
+      "kick": "Expulsar",
+      "lockChat": "Bloquear chat",
+      "lowerHand": "Bajar mano",
+      "makePresenter": "Hacer presentador",
+      "mute": "Silenciar",
+      "muteAll": "Silenciar a todos",
+      "unlockChat": "Desbloquear chat"
+    },
+    "people": {
+      "note": "La lista de participantes se actualiza en tiempo real. Los videos aparecerán cuando se conecte el motor multimedia."
+    },
+    "tabCount": " ({count, number})",
+    "tabs": {
+      "analytics": "Análisis",
+      "assistant": "Asistente",
+      "breakout": "Salas de grupo",
+      "chat": "Chat",
+      "notes": "Notas",
+      "people": "Participantes",
+      "polls": "Encuestas",
+      "tables": "Mesas"
+    },
+    "transcript": {
+      "captionTag": " (Voz)",
+      "download": "Descargar transcripción completa ⬇",
+      "fileHeader": "Transcripción de clase",
+      "fileSuffix": "-transcripcion.txt",
+      "preparing": "Preparando…",
+      "privateTag": " (Privado)",
+      "regionLabel": "Transcripción de voz en vivo"
+    }
+  },
+  "poll": {
+    "addOption": "Añadir opción",
+    "cancel": "Cancelar",
+    "changeHint": "Para cambiar tu voto, selecciona otra opción.",
+    "emptyGuest": "Actualmente no hay encuestas activas. Cuando el profesor inicie una, aparecerá aquí.",
+    "emptyHost": "No hay encuestas activas. Haz clic en \"Nueva encuesta\" para crear una.",
+    "end": "Finalizar encuesta",
+    "endedBadge": "Finalizada",
+    "finalTotal": "Resultados finales · Total {count, plural, one {# voto} other {# votos}}",
+    "minOptions": "Se requieren al menos {min, number} opciones no vacías para iniciar.",
+    "multi": "Opción múltiple",
+    "multiLabel": "Permitir seleccionar varias opciones (Opción múltiple)",
+    "new": "Nueva encuesta",
+    "optionN": "Opción {n, number}",
+    "optionTally": "{pct, number}% · {count, number}",
+    "optionsLabel": "Opciones ({used, number} de {max, number})",
+    "questionAria": "Texto de la pregunta",
+    "questionLabel": "Pregunta",
+    "questionPlaceholder": "ej., ¿Qué tema prefieres repasar?",
+    "removeOption": "Eliminar opción",
+    "single": "Opción única",
+    "start": "Iniciar encuesta",
+    "status": {
+      "ended": "La encuesta ha finalizado — resultados finales.",
+      "endingWait": "Esperando confirmación de cierre de encuesta…",
+      "startFailed": "El servidor no confirmó el inicio de la encuesta. Comprueba la conexión y permisos.",
+      "started": "Encuesta iniciada — esperando respuestas…",
+      "starting": "Iniciando encuesta…",
+      "voteFailed": "No se confirmó el envío del voto; por favor inténtalo de nuevo.",
+      "voteSent": "Tu voto ha sido registrado ✓",
+      "voting": "Enviando voto…",
+      "waitingAnswers": "Esperando respuestas…"
+    },
+    "submitVote": "Emitir voto",
+    "title": "Encuesta",
+    "updateVote": "Cambiar voto",
+    "voteCount": "{count, plural, one {# voto} other {# votos}}"
+  },
+  "preflight": {
+    "bandwidth": {
+      "detail": "Tu conexión se detectó como lenta; el video de la cámara se enviará en menor calidad para evitar cortes.",
+      "good": "Buena",
+      "label": "Calidad de conexión a internet",
+      "unknown": "Desconocida",
+      "weak": "Débil"
+    },
+    "captions": {
+      "available": "Disponible",
+      "detail": "Los subtítulos y traducción en vivo basados en voz solo funcionan en Chrome/Edge. Las demás funciones de la clase están disponibles.",
+      "label": "Subtítulos en vivo (opcional)",
+      "limited": "Limitado"
+    },
+    "device": {
+      "absentDetail": "No se encontró {device} activo. Revisa la conexión; aún puedes entrar a la clase sin {device}.",
+      "absentStatus": "No encontrado",
+      "camera": "Cámara",
+      "deniedDetail": "Se denegó el acceso a {device}. Haz clic en el candado junto a la barra de direcciones y selecciona \"Permitir\".",
+      "deniedStatus": "Acceso denegado",
+      "microphone": "Micrófono",
+      "promptDetail": "Aún no se ha otorgado permiso para {device}. Elige Permitir cuando el navegador lo solicite.",
+      "promptStatus": "Esperando permiso",
+      "readyStatus": "Listo"
+    },
+    "panel": {
+      "blocked": "No puedes ingresar a la clase hasta corregir los elementos en rojo arriba. Tras corregirlos, pulsa \"Revisar de nuevo\".",
+      "checking": "Comprobando…",
+      "regionLabel": "Comprobación de preparación de dispositivos antes de entrar",
+      "retry": "Revisar de nuevo",
+      "severity": {
+        "fail": "Problema",
+        "pass": "Listo",
+        "warn": "Aviso"
+      },
+      "title": "Comprobación de dispositivos"
+    },
+    "screen": {
+      "detail": "Tu navegador no permite compartir pantalla. Para presentar, usa Chrome, Edge o Firefox de escritorio.",
+      "label": "Compartir pantalla"
+    },
+    "secure": {
+      "bad": "No segura",
+      "detail": "Esta página no está abierta bajo una conexión segura (HTTPS); los navegadores solo conceden acceso a cámara y micrófono con HTTPS.",
+      "label": "Conexión segura (HTTPS)",
+      "ok": "Segura"
+    },
+    "supported": "Compatible",
+    "unsupported": "No compatible",
+    "webrtc": {
+      "detail": "Tu navegador no soporta llamadas en tiempo real (WebRTC). Usa una versión actualizada de Chrome, Edge o Firefox.",
+      "label": "Soporte de videollamadas (WebRTC)"
+    }
+  },
+  "pulse": {
+    "confused": "{count, plural, one {# persona no entiende} other {# personas no entienden}}",
+    "slower": "{count, plural, one {# persona pide ir más despacio} other {# personas piden ir más despacio}}",
+    "title": "Pulso de la clase",
+    "window": "En el último minuto"
+  },
+  "reactions": {
+    "throttled": "Ve más despacio — tus reacciones están temporalmente limitadas."
+  },
+  "review": {
+    "title": "Expediente de revisión académica",
+    "separateDecision": "La recepción del informe no confirma que la clase no se haya celebrado. La decisión corresponde a la dirección académica de la facultad.",
+    "pendingDecision": "La justificación de ausencia ha sido registrada y el caso está pendiente de resolución.",
+    "reportReceived": "Informe recibido",
+    "reviewerMissing": "No hay responsable académico asignado a la facultad; el expediente permanece abierto.",
+    "reason": "Descripción y motivo (al menos 10 caracteres)",
+    "fileReport": "Enviar informe",
+    "confirmNotHeld": "Confirmar clase no celebrada",
+    "rejectNotHeld": "Rechazar informe de no celebración",
+    "requestMakeup": "Solicitar clase de recuperación",
+    "start": "Inicio propuesto",
+    "end": "Fin propuesto",
+    "submitMakeup": "Enviar solicitud de recuperación",
+    "makeupRequested": "Horario de recuperación solicitado",
+    "approveMakeup": "Aprobar horario de recuperación",
+    "rejectMakeup": "Rechazar solicitud de recuperación",
+    "makeupScheduled": "La clase de recuperación ha sido programada; su realización aún no está confirmada.",
+    "notHeld": {
+      "confirmed": "Confirmado: clase no celebrada",
+      "rejected": "Informe de clase no celebrada rechazado"
+    },
+    "makeup": {
+      "approved": "Solicitud de recuperación aprobada",
+      "rejected": "Solicitud de recuperación rechazada"
+    },
+    "actionFailed": "No se pudo realizar esta acción; por favor inténtalo de nuevo."
+  },
+  "report": {
+    "playback": {
+      "open": "Reproducción interactiva"
+    },
+    "att": {
+      "ABSENT": "Ausente",
+      "EXCUSED": "Justificado",
+      "LATE": "Tarde",
+      "NONE": "—",
+      "PRESENT": "Presente",
+      "absent": "Ausentes: {value, number}",
+      "excused": "Justificados: {value, number}",
+      "finalized": "Finalizado",
+      "late": "Tarde: {value, number}",
+      "present": "Presentes: {value, number}",
+      "provisional": "Provisional",
+      "total": "Total: {value, number}",
+      "unrecorded": "Sin registrar"
+    },
+    "attendance": {
+      "noRoster": "No hay lista de inscritos disponible para esta sesión.",
+      "noSection": "Esta sesión no está vinculada a un grupo específico; la asistencia formal solo se registra para sesiones de grupo. La lista real de participantes aparece abajo.",
+      "title": "Asistencia"
+    },
+    "back": "Volver al centro de sesiones",
+    "captions": {
+      "lines": "Líneas de subtítulos",
+      "linesValue": "{value, number} líneas",
+      "recording": "Grabación",
+      "soniox": "Traducción en vivo guardada",
+      "title": "Subtítulos y grabación"
+    },
+    "chat": {
+      "download": "Descargar transcripción",
+      "empty": "No se registraron mensajes en el chat público para esta sesión.",
+      "exportHead": "Registro de chat de la sesión: {title}",
+      "showAll": "Mostrar los {value, number} mensajes",
+      "showLess": "Mostrar menos",
+      "title": "Chat guardado",
+      "truncated": "Mostrando los primeros {shown, number} mensajes de {total, number} en total (límite de visualización)."
+    },
+    "conn": {
+      "direct": "Directa",
+      "nat": "Vía NAT",
+      "relay": "Vía Relay",
+      "unknown": "Desconocida"
+    },
+    "counselor": {
+      "adviseesTitle": "Mis estudiantes asesorados",
+      "eyebrow": "Clase en vivo · Informe consolidado de la sesión",
+      "helpBody": "Vista de asesor: estadísticas agregadas de asistencia a la sesión (sin nombres) más el estado de asistencia para estudiantes con tutoría programada contigo. El chat y las transcripciones de la clase están excluidos de esta vista.",
+      "helpTitle": "Guía del informe para asesores",
+      "kpiAdvisees": "Estudiantes asesorados",
+      "kpiTotal": "Total de estudiantes",
+      "noAdvisees": "Ninguno de tus estudiantes asesorados está inscrito en esta clase.",
+      "statsTitle": "Estadísticas de asistencia a la sesión"
+    },
+    "engagement": {
+      "hands": "Manos levantadas:",
+      "handsTitle": "Manos levantadas",
+      "notCaptured": "No se registraron interacciones interactivas en esta sesión.",
+      "polls": "Encuestas:",
+      "reactions": "Reacciones:",
+      "timelineTitle": "Línea de tiempo",
+      "title": "Resumen de participación"
+    },
+    "errLoad": "Error al cargar el informe de la sesión.",
+    "full": {
+      "eyebrow": "Clase en vivo · Informe de sesión",
+      "helpBody": "Este informe muestra todos los datos persistentes de una sesión de clase en un solo lugar: horarios, asistencia, participantes, chat, transcripción, encuestas y grabaciones.",
+      "helpTitle": "Guía del informe de sesión"
+    },
+    "hostSuffix": " (Anfitrión)",
+    "kpi": {
+      "absent": "Ausentes",
+      "actualMinutes": "Duración real de la sesión",
+      "chatCount": "Mensajes en el chat",
+      "joins": "Total de conexiones",
+      "myMinutes": "Mi tiempo de asistencia",
+      "myStatus": "Mi estado de asistencia",
+      "participants": "Participantes",
+      "presentIncLate": "Presentes (incluyendo tardanzas)",
+      "scheduledMinutes": "Duración programada",
+      "totalMinutes": "Minutos totales de asistencia"
+    },
+    "loading": "Cargando informe de sesión…",
+    "minutes": "{value, number} min",
+    "neverOpened": "Esta sesión no se celebró (no se registró ingreso del anfitrión).",
+    "noCourse": "Sin curso asociado",
+    "noName": "Sin título",
+    "parent": {
+      "childrenTitle": "Asistencia de hijos",
+      "eyebrow": "Clase en vivo · Informe de asistencia de hijos",
+      "helpBody": "Según la matriz de acceso, el informe solo muestra el resumen de asistencia de tus hijos; el chat y las transcripciones no son visibles para los padres.",
+      "helpTitle": "Guía del informe para padres",
+      "kpiChildren": "Hijo vinculado a esta sesión",
+      "noChildren": "Ninguno de tus hijos está asociado con esta sesión."
+    },
+    "participants": {
+      "empty": "No hay participantes registrados.",
+      "title": "Lista detallada de participantes"
+    },
+    "poll": {
+      "ended": "Finalizada",
+      "multi": " · Opción múltiple",
+      "open": "Abierta",
+      "total": "Votos totales: {value, number}"
+    },
+    "polls": {
+      "title": "Encuestas realizadas"
+    },
+    "recording": {
+      "duration": "Duración del video: {duration}",
+      "none": "No disponible",
+      "play": "Reproducir grabación",
+      "processing": "Procesando grabación…"
+    },
+    "self": {
+      "attendanceTitle": "Mi asistencia",
+      "eyebrow": "Clase en vivo · Tu informe de esta sesión",
+      "firstJoin": "Primer ingreso:",
+      "helpBody": "Este es tu informe personal de la sesión: tu propia asistencia, chat público, intervenciones registradas y contenido público (encuestas y reacciones).",
+      "helpTitle": "Guía de tu informe personal",
+      "joinsLabel": "Conexiones a clase:",
+      "minutesLabel": "Tu permanencia:",
+      "myTranscript": "Mis intervenciones de voz",
+      "myTranscriptEmpty": "No se registraron intervenciones de voz tuyas.",
+      "reactionsTitle": "Tus reacciones",
+      "reactionsTotal": "Reacciones enviadas: {value, number}",
+      "recordingTitle": "Grabación de la sesión"
+    },
+    "table": {
+      "conn": "Conexión",
+      "firstJoin": "Primer ingreso",
+      "joins": "Conexiones",
+      "minutes": "Duración (min)",
+      "name": "Nombre",
+      "status": "Estado"
+    },
+    "timeline": {
+      "breakoutClose": "Salas cerradas",
+      "breakoutOpen": "Salas abiertas",
+      "hand": "Mano levantada",
+      "pollEnd": "Encuesta finalizada",
+      "pollStart": "Encuesta iniciada"
+    },
+    "timing": {
+      "actual": "Real: {value}",
+      "late": "Tardanza: {value}",
+      "notHeld": "No celebrada",
+      "onTime": "Puntual",
+      "range": "{start} a {end}",
+      "scheduled": "Programado: {value}",
+      "title": "Horario y duración"
+    },
+    "transcript": {
+      "empty": "No hay transcripciones disponibles para esta sesión.",
+      "title": "Transcripción de voz atribuida",
+      "truncatedAll": "Transcripción truncada por límite de visualización.",
+      "truncatedSpeaker": "Intervenciones adicionales no mostradas.",
+      "utterances": "{count, number} intervenciones"
+    },
+    "unavailable": "Informe no disponible"
+  },
+  "session": {
+    "absence": {
+      "instructorDisconnected": "El profesor se ha desconectado. La clase continúa hasta su regreso.",
+      "takeOver": "Asumir la gestión temporal de mesas y turno de palabra"
+    },
+    "supervision": {
+      "waiting": "Esperando supervisión pedagógica…",
+      "paused": "Supervisión en pausa",
+      "recordingDenied": "Permiso de grabación de supervisión denegado",
+      "offer": "Ofrecer supervisión",
+      "offerPending": "Oferta de supervisión pendiente",
+      "accept": "Aceptar supervisión",
+      "conflict": "Conflicto en la solicitud de supervisión.",
+      "returnFirst": "Volver a la vista inicial",
+      "returnLobby": "Volver a la sala de espera"
+    },
+    "cohost": {
+      "denied": "Permiso de coanfitrión denegado",
+      "grant": "Designar coanfitrión",
+      "granted": "Rol de coanfitrión otorgado",
+      "instructorPresent": "Profesor titular presente",
+      "manage": "Gestionar coanfitriones",
+      "revoke": "Revocar coanfitrión",
+      "revoked": "Rol de coanfitrión revocado"
+    },
+    "kick": {
+      "failed": "No se pudo expulsar al participante.",
+      "manage": "Gestionar expulsiones",
+      "restore": "Permitir reingreso",
+      "restoreFailed": "No se pudo restaurar el acceso."
+    },
+    "archive": {
+      "btn": "Archivo de transcripciones",
+      "download": "Descargar archivo",
+      "empty": "Aún no hay voz almacenada en el archivo.",
+      "error": "Error al recuperar el archivo.",
+      "loading": "Cargando archivo…",
+      "reload": "Recargar",
+      "retry": "Reintentar",
+      "short": "Archivo",
+      "title": "Archivo de transcripciones (guardadas)"
+    },
+    "browserUnknown": "Desconocido",
+    "capset": {
+      "btn": "Ajustes de subtítulos",
+      "fontSize": "Tamaño de fuente",
+      "lg": "Grande",
+      "maxLines": "Líneas máximas",
+      "md": "Mediano",
+      "off": "Desactivados",
+      "on": "Activados",
+      "showNames": "Mostrar nombres de hablantes",
+      "sm": "Pequeño",
+      "title": "Configuración de subtítulos"
+    },
+    "captions": {
+      "cpuSlow": "Rendimiento lento de CPU; los subtítulos pueden retrasarse.",
+      "deviceUnsupported": "Dispositivo no compatible con reconocimiento de voz.",
+      "engineStuck": "El motor de subtítulos no responde. Reiniciando…",
+      "fallbackServer": "Cambiando a subtítulos del servidor…",
+      "micDenied": "Micrófono denegado para subtítulos.",
+      "micRequired": "Se requiere micrófono para transcribir voz.",
+      "needMic": "Activa tu micrófono para utilizar subtítulos.",
+      "noNativeNoServer": "No hay reconocimiento nativo ni del servidor disponible.",
+      "recordFailed": "Error al registrar subtítulos.",
+      "unavailableHere": "Subtítulos no disponibles en este contexto.",
+      "unsupported": "Subtítulos no compatibles en este navegador."
+    },
+    "close": "Cerrar",
+    "collabLoading": "Cargando herramientas colaborativas…",
+    "conn": {
+      "fair": "Regular",
+      "good": "Buena",
+      "poor": "Deficiente",
+      "unknown": "Desconocida"
+    },
+    "connFoot": "La calidad de conexión afecta la fluidez de audio y video.",
+    "diag": {
+      "available": "Disponible",
+      "browser": "Navegador: {name}",
+      "engine": "Motor de audio/video: {engine}",
+      "engineNative": "Motor nativo WebRTC",
+      "engineNone": "Ninguno",
+      "engineServer": "Motor del servidor",
+      "hint": "Información técnica para resolución de problemas.",
+      "lastError": "Último error: {err}",
+      "level": "Nivel de audio: {value}",
+      "listening": "Escuchando señal…",
+      "mic": "Micrófono: {name}",
+      "micOff": "Micrófono apagado",
+      "micOn": "Micrófono encendido",
+      "off": "Apagado",
+      "restarts": "Reintentos: {count, number}",
+      "speech": "Voz detectada: {status}",
+      "starting": "Iniciando diagnóstico…",
+      "status": "Estado: {status}",
+      "unavailable": "Diagnóstico no disponible."
+    },
+    "download": {
+      "chat": "Descargar chat",
+      "formatMenu": "Elegir formato de descarga",
+      "label": "Descargar recursos",
+      "loading": "Preparando descarga…",
+      "srt": "Subtítulos (.srt)",
+      "txt": "Texto (.txt)",
+      "vtt": "Subtítulos WebVTT (.vtt)"
+    },
+    "end": {
+      "cancel": "Cancelar",
+      "confirmBody": "¿Confirmas el cierre definitivo de la sesión para todos?",
+      "confirmCta": "Finalizar ahora",
+      "confirmTitle": "Cierre de sesión",
+      "failed": "Error al finalizar la sesión.",
+      "pendingHost": "Esperando confirmación del anfitrión…",
+      "pendingStudent": "El docente está finalizando la clase…",
+      "undo": "Deshacer cierre",
+      "undoFailed": "No se pudo deshacer el cierre."
+    },
+    "ended": {
+      "byHost": "La sesión fue finalizada por el anfitrión.",
+      "forAll": "La clase ha concluido para todos.",
+      "redirecting": "Redirigiendo al aula…"
+    },
+    "film": {
+      "emptyHint": "Los videos de los participantes aparecerán aquí.",
+      "emptyTitle": "Sin participantes con cámara",
+      "regionLabel": "Cinta de videos de participantes"
+    },
+    "fs": {
+      "enter": "Pantalla completa",
+      "enterLabel": "Entrar a pantalla completa",
+      "exit": "Salir de pantalla completa"
+    },
+    "guest": "Invitado",
+    "jitsi": {
+      "loadFailed": "Error al cargar la sala de videollamada.",
+      "openNewTab": "Abrir en nueva pestaña"
+    },
+    "lang": {
+      "faShort": "FA"
+    },
+    "langMenu": {
+      "help": "Selecciona tu idioma preferido para subtítulos y traducción.",
+      "my": "Mi idioma",
+      "notFound": "Idioma no encontrado",
+      "searchLabel": "Buscar idioma",
+      "searchPlaceholder": "Buscar idioma…"
+    },
+    "layout": {
+      "custom": "Personalizado",
+      "focusPresentation": "Foco en presentación",
+      "focusVideo": "Foco en video",
+      "smart": "Diseño inteligente"
+    },
+    "leave": "Salir de la clase",
+    "leaveShort": "Salir",
+    "media": {
+      "audioOnly": "Solo audio activado",
+      "denied": "Acceso a medios denegado",
+      "errSuffix": "(Error de dispositivo)",
+      "generic": "Error de medios",
+      "inUse": "La cámara o el micrófono están en uso por otra aplicación.",
+      "notFound": "Dispositivo de medios no encontrado.",
+      "retry": "Reintentar",
+      "unsupported": "Formato de medios no compatible."
+    },
+    "panel": {
+      "chatTranslated": "Chat traducido",
+      "empty": "No hay contenido disponible en este panel.",
+      "regionLabel": "Panel lateral de herramientas",
+      "title": "Panel lateral"
+    },
+    "participant": "Participante",
+    "rec": {
+      "active": "Grabando clase…",
+      "armed": "Grabación lista para iniciar",
+      "cancel": "Cancelar grabación",
+      "netFailed": "Error de red al grabar",
+      "paused": "Grabación pausada",
+      "retry": "Reintentar grabación",
+      "saveCta": "Guardar",
+      "saveFailed": "Error al guardar la grabación.",
+      "saveMeta": "Guardando metadatos…",
+      "saveTitle": "Guardar grabación",
+      "saved": "Grabación guardada correctamente.",
+      "durableServer": "Copia guardada en el servidor.",
+      "durablePending": "Guardando copia de seguridad de la grabación…",
+      "durableUnprotected": "Grabación no protegida.",
+      "recoveryAvailable": "Recuperación de grabación disponible.",
+      "recoveryOpen": "Abrir recuperación",
+      "startFailed": "No se pudo iniciar la grabación.",
+      "unsupportedRecorder": "Grabador no compatible con tu navegador.",
+      "unsupportedScreen": "No se puede grabar la pantalla.",
+      "uploading": "Subiendo archivo de video…"
+    },
+    "reconnecting": "Reconectando… Por favor, espera.",
+    "selfName": "Tú",
+    "share": {
+      "failed": "No se pudo compartir la pantalla.",
+      "unsupported": "Compartir pantalla no es compatible en este navegador."
+    },
+    "someone": "Alguien",
+    "soniox": {
+      "captionFailed": "Error al procesar subtítulos en tiempo real.",
+      "connecting": "Conectando motor de transcripción…",
+      "detectedLabel": "Idioma detectado",
+      "detectedTitle": "Detección automática de idioma",
+      "error": "Error del motor de transcripción.",
+      "exportDate": "Fecha: {date}",
+      "exportHead": "Transcripción de la sesión",
+      "group": "Herramientas de voz",
+      "langSep": " | ",
+      "on": "Activado",
+      "receiveOnly": "Solo recepción de subtítulos",
+      "saveFallback": "Guardando respaldo de transcripción…",
+      "stConnecting": "Conectando servicio de voz…",
+      "stError": "Error en el servicio de voz.",
+      "stMore": "Más opciones de transcripción",
+      "stOn": "Voz activa",
+      "stOnTargets": "Objetivos activos",
+      "stPaused": "Voz pausada",
+      "stReceiveOnly": "Modo escucha",
+      "stReconnecting": "Reconectando voz…",
+      "stTranscribeOnly": "Solo transcripción",
+      "turnOn": "Activar servicio de voz",
+      "unavailable": "Servicio de voz no disponible."
+    },
+    "stage": {
+      "captionFeed": "Canal de subtítulos en vivo",
+      "modeLabel": "Modo de escenario",
+      "noShare": "Nadie está compartiendo pantalla.",
+      "noShareHint": "Cuando el profesor o un participante comparta pantalla, aparecerá aquí.",
+      "share": "Pantalla compartida",
+      "whiteboard": "Pizarra compartida en el escenario"
+    },
+    "tile": {
+      "handRaised": "Mano levantada",
+      "pin": "Fijar video",
+      "quality": {
+        "connecting": "Conectando…",
+        "fair": "Calidad regular",
+        "good": "Calidad buena",
+        "poor": "Calidad baja",
+        "unknown": "Calidad desconocida"
+      }
+    },
+    "titleFallback": "Clase virtual en vivo",
+    "duplicate": {
+      "replaced": "Has abierto esta sesión en otra ventana o pestaña.",
+      "continued": "La sesión continuó en otra ventana.",
+      "continueHere": "Continuar aquí"
+    },
+    "toast": {
+      "captionsOn": "Subtítulos activados",
+      "chatLocked": "El chat ha sido bloqueado por el anfitrión",
+      "chatUnlocked": "El chat ha sido desbloqueado por el anfitrión",
+      "joined": "Te has unido a la clase",
+      "kicked": "Has sido expulsado de la clase",
+      "left": "Has salido de la clase",
+      "recStarted": "Grabación iniciada",
+      "recStopped": "Grabación detenida"
+    },
+    "toolbar": {
+      "cam": "Cámara",
+      "captionsGroup": "Subtítulos y traducción",
+      "ccOff": "Desactivar subtítulos",
+      "ccOn": "Activar subtítulos",
+      "ccStarting": "Iniciando subtítulos…",
+      "endClass": "Finalizar clase para todos",
+      "endClassShort": "Finalizar clase",
+      "handShort": "Mano",
+      "langEn": "Inglés",
+      "langFa": "Persa",
+      "layout": "Diseño de vista",
+      "mic": "Micrófono",
+      "more": "Más opciones",
+      "moreLabel": "Más herramientas",
+      "panel": "Abrir panel lateral",
+      "panelShort": "Panel",
+      "raiseHand": "Levantar mano",
+      "reactions": "Reacciones",
+      "sendReaction": "Enviar reacción",
+      "share": "Compartir pantalla",
+      "shareShort": "Compartir"
+    },
+    "topbar": {
+      "elapsedLabel": "Tiempo transcurrido",
+      "hostPrefix": "Profesor:",
+      "loadingTitle": "Cargando clase…",
+      "recOffTitle": "Grabación apagada",
+      "recOnTitle": "Grabación activa",
+      "recStart": "Iniciar grabación",
+      "recStop": "Detener grabación"
+    },
+    "unpin": "Desfijar",
+    "unpinLabel": "Desfijar video del escenario",
+    "view": {
+      "gallery": "Vista en cuadrícula",
+      "modeLabel": "Modo de visualización",
+      "podium": "Vista de podio / orador principal"
+    },
+    "you": "Tú"
+  },
+  "signals": {
+    "aria": {
+      "confused": "Indicar que el concepto no está claro",
+      "slower": "Pedir al profesor que vaya más despacio"
+    },
+    "confused": "No entendí",
+    "sent": "Registrado",
+    "slower": "Más despacio"
+  },
+  "tables": {
+    "assign": {
+      "balanced": "Automático (equilibrado)",
+      "noStudents": "Aún no hay estudiantes en la clase.",
+      "pickFor": "Mesa para {name}",
+      "random": "Aleatorio",
+      "title": "Asignar asientos",
+      "unassigned": "Sin asignar"
+    },
+    "cancel": "Cancelar",
+    "confirm": "Sí",
+    "countLabel": "Número de nuevas mesas",
+    "capacity": "{used, number} de {total, number} personas",
+    "capacityLabel": "Capacidad por mesa",
+    "create": "Crear mesa",
+    "defaultName": "Mesa {index, number}",
+    "dissolve": "Disolver mesa",
+    "dissolveConfirm": "¿Disolver \"{name}\"? Sus miembros volverán a la clase principal.",
+    "duration": {
+      "label": "Duración del trabajo en mesas",
+      "option": "{count, number} minutos"
+    },
+    "empty": "Aún no se han creado mesas.",
+    "extend": "{count, number} minutos más",
+    "limit": "Máximo {count, number} mesas",
+    "mediaNote": "Durante el trabajo en mesas, solo tus compañeros de mesa te ven y te escuchan.",
+    "memberCount": "{count, number} personas",
+    "members": "Compañeros de mesa",
+    "nameLabel": "Nombre de la mesa",
+    "peekNotice": "El docente está supervisando las mesas",
+    "rejected": {
+      "empty": "Ninguna mesa tiene miembros.",
+      "full": "Esta mesa está llena.",
+      "error": "Ocurrió un error; por favor inténtalo de nuevo.",
+      "forbidden": "No tienes permiso para esta acción.",
+      "invalid": "Solicitud no válida.",
+      "limit": "Has alcanzado el número máximo de mesas.",
+      "noRound": "El trabajo en mesas no ha comenzado.",
+      "notFound": "Esta mesa ya no existe.",
+      "roundActive": "Esta acción no se puede realizar mientras el trabajo en mesas esté activo.",
+      "selectionLocked": "La selección de mesa está bloqueada por el docente."
+    },
+    "remaining": "Tiempo restante: {time}",
+    "rename": "Renombrar",
+    "returnAll": "Regresar a todos",
+    "returnAllConfirm": "¿Regresar a todos a la clase principal?",
+    "returned": "Todos regresaron a la clase principal.",
+    "running": "Trabajo en mesas en progreso",
+    "save": "Guardar",
+    "select": {
+      "action": "Elegir mesa",
+      "full": "Llena",
+      "hint": "Elige una mesa libre; puedes cambiarte mientras las mesas estén abiertas.",
+      "selected": "Mesa seleccionada: {name}",
+      "title": "Seleccionar mesa de trabajo"
+    },
+    "selection": {
+      "close": "Cerrar selección de mesas",
+      "open": "Abrir selección de mesas"
+    },
+    "start": "Iniciar mesas",
+    "startHint": "Asigna a los estudiantes a mesas y pulsa Iniciar.",
+    "timeUp": "El tiempo de trabajo en mesas ha terminado.",
+    "title": "Mesas de trabajo colaborativo",
+    "transcriptConsentProgress": "Procesando consentimiento…",
+    "transcriptDurableEnabled": "Transcripción de mesas guardada.",
+    "transcriptConsentAccept": "Aceptar transcripción en mesas",
+    "transcriptConsentWithdraw": "Retirar consentimiento de transcripción",
+    "transcriptWithdrawalReason": "Motivo del retiro de consentimiento",
+    "transcriptQuarantined": "Transcripción en cuarentena temporal.",
+    "transcriptConsentUnavailable": "Consentimiento no disponible.",
+    "visit": {
+      "join": "Entrar a la mesa",
+      "joined": "Has entrado a la mesa",
+      "leave": "Salir de la mesa",
+      "peek": "Observar mesa",
+      "peeking": "Observando mesa…"
+    },
+    "you": {
+      "assigned": "Asignado a: {name}",
+      "unassigned": "Aún no tienes mesa asignada.",
+      "waiting": "Esperando asignación de mesa…"
+    }
+  },
+  "wb": {
+    "canvasLabel": "Lienzo de pizarra compartida",
+    "clearAll": "Borrar todo",
+    "clearAllTitle": "Borrar todo (Anfitrión)",
+    "clearConfirm": "Confirmar borrado total",
+    "clearConfirmShort": "¿Confirmar?",
+    "clearConfirmTitle": "Haz clic de nuevo para confirmar",
+    "colorGroup": "Color",
+    "colorSwatch": "Color {color}",
+    "exportPng": "Exportar PNG",
+    "exportPngTitle": "Guardar como imagen PNG",
+    "hintEmpty": "La pizarra está vacía. Selecciona una herramienta y dibuja en el lienzo.",
+    "hintText": "Escribe texto y pulsa Enter para colocarlo en la pizarra.",
+    "itemCount": "{count, plural, one {# elemento en la pizarra} other {# elementos en la pizarra}}",
+    "lock": "Bloquear pizarra",
+    "lockTitle": "Bloquear pizarra para otros participantes",
+    "lockedNotice": "La pizarra ha sido bloqueada por el anfitrión; solo lectura en este momento.",
+    "lockedTitle": "La pizarra está bloqueada — haz clic para desbloquear",
+    "redo": "Rehacer",
+    "textLabel": "Texto en la pizarra",
+    "textPlaceholder": "Texto… (Enter para colocar, Esc para cancelar)",
+    "toolbarLabel": "Herramientas de pizarra",
+    "tools": {
+      "arrow": "Flecha",
+      "circle": "Círculo",
+      "eraser": "Borrador",
+      "line": "Línea",
+      "pen": "Lápiz",
+      "rect": "Rectángulo",
+      "select": "Seleccionar",
+      "text": "Texto"
+    },
+    "undo": "Deshacer",
+    "undoTitle": "Deshacer (tu último trazo)",
+    "unlock": "Desbloquear pizarra",
+    "widthGroup": "Grosor del trazo",
+    "widthOption": "Grosor {width, number}"
+  },
+  "sessionAnalysis": {
+    "title": "Análisis de la sesión",
+    "loading": "Analizando…",
+    "failed": "No se pudo completar el análisis de la sesión",
+    "reviewRequired": "Este resultado es un borrador y requiere revisión del docente.",
+    "confidence": "Confianza estimada: {value, number, ::percent}",
+    "unavailable": "El análisis en vivo no está disponible. No se generaron resúmenes ni preguntas.",
+    "truncated": "Este análisis cubre solo parte de la transcripción; el texto supera el límite de procesamiento.",
+    "quiz": "Preguntas sugeridas ({count, number})",
+    "suggestedAnswer": "Respuesta sugerida: {answer}",
+    "sources": "Extractos de referencia de la transcripción ({count, number})"
+  },
+  "playback": {
+    "back": "Volver al informe de sesión",
+    "chatTitle": "Chat de la reproducción",
+    "archivedChatTitle": "Chat archivado de la clase (Solo lectura)",
+    "replayChatTitle": "Nuevo chat de reproducción",
+    "replayChatMessageLabel": "Nuevo mensaje en reproducción",
+    "sendReplayChat": "Publicar mensaje en la marca de tiempo actual",
+    "replayChatHidden": "Este mensaje ha sido ocultado para otros",
+    "replayChatHide": "Ocultar mensaje",
+    "replayChatUnhide": "Mostrar mensaje",
+    "replayChatReportReason": "Motivo del reporte del mensaje",
+    "replayChatReport": "Reportar mensaje",
+    "replayChatUnavailable": "El chat de reproducción no está disponible o la acción no está permitida.",
+    "loadMoreChat": "Cargar mensajes anteriores",
+    "makeupTitle": "Crédito de asistencia por reproducción de recuperación",
+    "makeupSeparateNotice": "Este crédito se registra tras la revisión del profesor y no altera las calificaciones ni la asistencia histórica.",
+    "makeupSessionLabel": "ID de sesión de recuperación",
+    "makeupThresholdLabel": "Tiempo mínimo verificado de visualización (porcentaje)",
+    "makeupEnable": "Habilitar recuperación",
+    "makeupDisable": "Deshabilitar recuperación",
+    "makeupThreshold": "Tiempo mínimo requerido de visualización: {percent}%",
+    "makeupOpenSession": "Ir a la reproducción de la sesión de recuperación",
+    "makeupWatched": "Tiempo de visualización registrado por el servidor: {percent}%",
+    "makeupReasonLabel": "Motivo de la solicitud de recuperación",
+    "makeupClaim": "Enviar solicitud de revisión de recuperación",
+    "makeupCreditStatus": "Estado del crédito: {status}",
+    "makeupStudentLabel": "Estudiante",
+    "makeupDecisionReasonLabel": "Motivo de la decisión del docente",
+    "makeupConfirm": "Confirmar crédito de recuperación",
+    "makeupReverse": "Revertir manualmente el crédito confirmado",
+    "makeupUnavailable": "La acción de asistencia de recuperación no está permitida o la información no está disponible.",
+    "makeupStatus": {
+      "pending": "Pendiente de aprobación",
+      "confirmed": "Confirmado",
+      "cancelled": "Cancelado",
+      "reversed": "Revertido"
+    },
+    "artifactsTitle": "Archivos compartidos persistentes tras la clase",
+    "artifactsAudienceNotice": "Estos elementos solo son visibles para usuarios con acceso actual a este curso y grabación; las pantallas compartidas no se almacenan.",
+    "artifactsEnableLearners": "Habilitar aportes de estudiantes",
+    "artifactsDisableLearners": "Deshabilitar aportes de estudiantes",
+    "artifactKindLabel": "Tipo de contenido",
+    "artifactTitleLabel": "Título",
+    "artifactWhiteboardLabel": "Captura textual de la pizarra",
+    "artifactDocumentLabel": "ID del documento del curso",
+    "artifactCreate": "Guardar elemento compartido",
+    "artifactApprove": "Aprobar publicación",
+    "artifactHide": "Ocultar",
+    "artifactUnavailable": "No se permite gestionar este elemento.",
+    "artifactKind": {
+      "pdf": "PDF",
+      "whiteboard": "Pizarra",
+      "file_pin": "Archivo fijado"
+    },
+    "artifactStatus": {
+      "pending": "Esperando aprobación del docente",
+      "published": "Publicado",
+      "hidden": "Oculto"
+    },
+    "notesTitle": "Mis notas con marca de tiempo",
+    "noteLabel": "Texto de la nota",
+    "addNote": "Añadir nota en este momento",
+    "saveNote": "Guardar cambios",
+    "editNote": "Editar",
+    "deleteNote": "Eliminar",
+    "seekNote": "Ir a la marca de tiempo de la nota",
+    "questionsTitle": "Preguntas en la reproducción",
+    "questionLabel": "Pregunta con marca de tiempo",
+    "askQuestion": "Enviar pregunta",
+    "questionPublished": "Publicada para la clase",
+    "questionOptIn": "Autorizar publicación",
+    "questionOptOut": "Retirar autorización",
+    "questionApprove": "Aprobar publicación",
+    "questionUnpublish": "Despublicar",
+    "answerLabel": "Respuesta oficial",
+    "answerQuestion": "Enviar respuesta",
+    "roomTitle": "Sala de visualización grupal",
+    "createRoom": "Crear sala privada",
+    "roomIdLabel": "ID de la sala",
+    "joinRoom": "Unirse a la sala",
+    "roomUserLabel": "ID de usuario",
+    "inviteRoom": "Invitar",
+    "offerHandover": "Ofrecer transferencia de control",
+    "acceptHandover": "Aceptar transferencia de control",
+    "removeMember": "Eliminar de la sala",
+    "closeRoom": "Cerrar sala",
+    "roomPlay": "Reproducir para todos",
+    "roomPause": "Pausar para todos",
+    "roomSeek": "Avanzar reproducción grupal al tiempo elegido",
+    "roomUnavailable": "La sala no está disponible o careces de permisos.",
+    "roomWaiting": "Esperando conexión con la sala…",
+    "questionUnavailable": "Acción no permitida o la pregunta ya no está disponible.",
+    "questionHide": "Ocultar pregunta",
+    "questionUnhide": "Mostrar pregunta",
+    "questionHidden": "Oculta para la clase",
+    "questionReportReason": "Motivo del reporte",
+    "questionReport": "Reportar pregunta",
+    "eyebrow": "Reproducción interactiva",
+    "loading": "Preparando reproducción…",
+    "jump": "Saltar a este evento",
+    "jumpToPoll": "Saltar a la encuesta {question}",
+    "jumpToTableStart": "Saltar al inicio de actividad en mesas",
+    "jumpToTranscript": "Saltar a este momento de la transcripción",
+    "speedLabel": "Velocidad de reproducción",
+    "watchedProgress": "Reproducción vista en este dispositivo: {percent}%",
+    "serverWatchEvidence": "Progreso registrado por el servidor: {percent}%.",
+    "notAttendanceCredit": "Este valor por sí solo no otorga crédito de asistencia.",
+    "fullscreen": "Pantalla completa",
+    "captionsLabel": "Subtítulos de la sesión",
+    "showCaptions": "Mostrar subtítulos",
+    "hideCaptions": "Ocultar subtítulos",
+    "me": "Yo",
+    "noMatches": "No se encontró texto que coincida con tu búsqueda.",
+    "noRecording": "No hay grabación disponible para esta sesión.",
+    "open": "Reproducción interactiva",
+    "pollsTitle": "Encuestas registradas",
+    "pollNotReached": "Para responder, avanza primero hasta la marca de tiempo de la encuesta.",
+    "pollAnswerFailed": "No se pudo registrar la respuesta; inténtalo de nuevo.",
+    "searchLabel": "Buscar en transcripción",
+    "searchPlaceholder": "Buscar en el audio de la sesión…",
+    "searchLoading": "Buscando en la transcripción…",
+    "searchUnavailable": "Búsqueda en transcripción no disponible.",
+    "loadMoreResults": "Mostrar más resultados",
+    "table": "Mesa {id}",
+    "timelineLabel": "Línea de tiempo de eventos",
+    "transcriptTitle": "Transcripción interactiva",
+    "downloadTranscript": "Descargar transcripción",
+    "transcriptDownloadUnavailable": "Descarga de transcripción no disponible.",
+    "unavailable": "La reproducción para esta sesión no está disponible."
+  }
+}

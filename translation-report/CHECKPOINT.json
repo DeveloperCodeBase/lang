@@ -1,0 +1,27 @@
+{
+  "status": "CHECKPOINT_INCOMPLETE",
+  "timestamp": "2026-09-29T10:26:22.846565Z",
+  "resumable": true,
+  "nextTask": "Assemble French live.json using generated parts 1-5, then translate fr/market.json and studio.json",
+  "fullyCompletedLocales": [
+    "fa",
+    "ar",
+    "en",
+    "es",
+    "zh-Hans"
+  ],
+  "inProgressLocales": {
+    "fr": {
+      "completedCatalogs": 21,
+      "totalCatalogs": 32,
+      "liveJsonBatchesExtracted": [
+        146,
+        234,
+        228,
+        244,
+        239
+      ]
+    }
+  },
+  "archiveName": "locales_translated.zip"
+}

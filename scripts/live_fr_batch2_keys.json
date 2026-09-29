@@ -1,0 +1,1172 @@
+{
+  "wb.canvasLabel": {
+    "en": "Shared whiteboard canvas",
+    "fa": "بوم تخته‌سفید مشترک",
+    "es": "Lienzo de pizarra compartida"
+  },
+  "wb.clearAll": {
+    "en": "Clear all",
+    "fa": "پاک کردن همه",
+    "es": "Borrar todo"
+  },
+  "wb.clearAllTitle": {
+    "en": "Clear all (Host)",
+    "fa": "پاک کردن همه (میزبان)",
+    "es": "Borrar todo (Anfitrión)"
+  },
+  "wb.clearConfirm": {
+    "en": "Confirm clear all",
+    "fa": "تأیید پاک کردن همه",
+    "es": "Confirmar borrado total"
+  },
+  "wb.clearConfirmShort": {
+    "en": "Confirm?",
+    "fa": "تأیید؟",
+    "es": "¿Confirmar?"
+  },
+  "wb.clearConfirmTitle": {
+    "en": "Click again to confirm",
+    "fa": "برای تأیید دوباره بزنید",
+    "es": "Haz clic de nuevo para confirmar"
+  },
+  "wb.colorGroup": {
+    "en": "Color",
+    "fa": "رنگ",
+    "es": "Color"
+  },
+  "wb.colorSwatch": {
+    "en": "Color {color}",
+    "fa": "رنگ {color}",
+    "es": "Color {color}"
+  },
+  "wb.exportPng": {
+    "en": "Export PNG",
+    "fa": "خروجی PNG",
+    "es": "Exportar PNG"
+  },
+  "wb.exportPngTitle": {
+    "en": "Save as PNG image",
+    "fa": "ذخیره به‌صورت تصویر PNG",
+    "es": "Guardar como imagen PNG"
+  },
+  "wb.hintEmpty": {
+    "en": "Whiteboard is empty. Select a tool and draw on the canvas.",
+    "fa": "تخته خالی است. یک ابزار را انتخاب کنید و روی بوم بکشید.",
+    "es": "La pizarra está vacía. Selecciona una herramienta y dibuja en el lienzo."
+  },
+  "wb.hintText": {
+    "en": "Type text and press Enter to place it on the board.",
+    "fa": "متن را بنویسید و Enter بزنید تا روی تخته ثبت شود.",
+    "es": "Escribe texto y pulsa Enter para colocarlo en la pizarra."
+  },
+  "wb.itemCount": {
+    "en": "{count, plural, one {# item on whiteboard} other {# items on whiteboard}}",
+    "fa": "{count, plural, one {# مورد روی تخته} other {# مورد روی تخته}}",
+    "es": "{count, plural, one {# elemento en la pizarra} other {# elementos en la pizarra}}"
+  },
+  "wb.lock": {
+    "en": "Lock whiteboard",
+    "fa": "قفل کردن تخته",
+    "es": "Bloquear pizarra"
+  },
+  "wb.lockTitle": {
+    "en": "Lock whiteboard for others",
+    "fa": "قفل کردن تخته برای دیگران",
+    "es": "Bloquear pizarra para otros participantes"
+  },
+  "wb.lockedNotice": {
+    "en": "Whiteboard has been locked by the host; view only at this time.",
+    "fa": "تخته توسط میزبان قفل شده است؛ در حال حاضر فقط مشاهده ممکن است.",
+    "es": "La pizarra ha sido bloqueada por el anfitrión; solo lectura en este momento."
+  },
+  "wb.lockedTitle": {
+    "en": "Whiteboard is locked — click to unlock",
+    "fa": "تخته قفل است — برای بازکردن بزنید",
+    "es": "La pizarra está bloqueada — haz clic para desbloquear"
+  },
+  "wb.redo": {
+    "en": "Redo",
+    "fa": "ازنو",
+    "es": "Rehacer"
+  },
+  "wb.textLabel": {
+    "en": "Text on whiteboard",
+    "fa": "متن روی تخته",
+    "es": "Texto en la pizarra"
+  },
+  "wb.textPlaceholder": {
+    "en": "Text… (Enter to place, Esc to cancel)",
+    "fa": "متن… (Enter ثبت، Esc انصراف)",
+    "es": "Texto… (Enter para colocar, Esc para cancelar)"
+  },
+  "wb.toolbarLabel": {
+    "en": "Whiteboard tools",
+    "fa": "ابزار تخته‌سفید",
+    "es": "Herramientas de pizarra"
+  },
+  "wb.tools.arrow": {
+    "en": "Arrow",
+    "fa": "پیکان",
+    "es": "Flecha"
+  },
+  "wb.tools.circle": {
+    "en": "Circle",
+    "fa": "دایره",
+    "es": "Círculo"
+  },
+  "wb.tools.eraser": {
+    "en": "Eraser",
+    "fa": "پاک‌کن",
+    "es": "Borrador"
+  },
+  "wb.tools.line": {
+    "en": "Line",
+    "fa": "خط",
+    "es": "Línea"
+  },
+  "wb.tools.pen": {
+    "en": "Pen",
+    "fa": "قلم",
+    "es": "Lápiz"
+  },
+  "wb.tools.rect": {
+    "en": "Rectangle",
+    "fa": "مستطیل",
+    "es": "Rectángulo"
+  },
+  "wb.tools.select": {
+    "en": "Select",
+    "fa": "انتخاب",
+    "es": "Seleccionar"
+  },
+  "wb.tools.text": {
+    "en": "Text",
+    "fa": "متن",
+    "es": "Texto"
+  },
+  "wb.undo": {
+    "en": "Undo",
+    "fa": "واگرد",
+    "es": "Deshacer"
+  },
+  "wb.undoTitle": {
+    "en": "Undo (your last item)",
+    "fa": "واگرد (آخرین مورد خودتان)",
+    "es": "Deshacer (tu último trazo)"
+  },
+  "wb.unlock": {
+    "en": "Unlock whiteboard",
+    "fa": "باز کردن قفل تخته",
+    "es": "Desbloquear pizarra"
+  },
+  "wb.widthGroup": {
+    "en": "Stroke width",
+    "fa": "ضخامت قلم",
+    "es": "Grosor del trazo"
+  },
+  "wb.widthOption": {
+    "en": "Width {width, number}",
+    "fa": "ضخامت {width, number}",
+    "es": "Grosor {width, number}"
+  },
+  "preflight.bandwidth.detail": {
+    "en": "Your internet connection was detected as weak; camera video will be sent at lower quality to avoid interruptions.",
+    "fa": "اتصالِ اینترنتِ شما ضعیف تشخیص داده شد؛ ویدیوی دوربین با کیفیتِ ساده‌تر ارسال می‌شود تا تصویر قطع‌ونصل نشود.",
+    "es": "Tu conexión se detectó como lenta; el video de la cámara se enviará en menor calidad para evitar cortes."
+  },
+  "preflight.bandwidth.good": {
+    "en": "Good",
+    "fa": "مناسب",
+    "es": "Buena"
+  },
+  "preflight.bandwidth.label": {
+    "en": "Internet connection quality",
+    "fa": "کیفیتِ اتصالِ اینترنت",
+    "es": "Calidad de conexión a internet"
+  },
+  "preflight.bandwidth.unknown": {
+    "en": "Unknown",
+    "fa": "نامشخص",
+    "es": "Desconocida"
+  },
+  "preflight.bandwidth.weak": {
+    "en": "Weak",
+    "fa": "ضعیف",
+    "es": "Débil"
+  },
+  "preflight.captions.available": {
+    "en": "Available",
+    "fa": "در دسترس",
+    "es": "Disponible"
+  },
+  "preflight.captions.detail": {
+    "en": "Browser speech-recognition based live captions and translation only work in Chrome/Edge. Other class features remain fully accessible without it.",
+    "fa": "زیرنویس و ترجمهٔ زندهٔ مبتنی بر تشخیص گفتارِ مرورگر فقط در کروم/اج کار می‌کند. سایر امکانات کلاس بدون آن کامل در دسترس‌اند.",
+    "es": "Los subtítulos y traducción en vivo basados en voz solo funcionan en Chrome/Edge. Las demás funciones de la clase están disponibles."
+  },
+  "preflight.captions.label": {
+    "en": "Live captions (optional)",
+    "fa": "زیرنویس زنده (اختیاری)",
+    "es": "Subtítulos en vivo (opcional)"
+  },
+  "preflight.captions.limited": {
+    "en": "Limited",
+    "fa": "محدود",
+    "es": "Limitado"
+  },
+  "preflight.device.absentDetail": {
+    "en": "No active {device} found. Check device connection; you can still enter the class without {device}.",
+    "fa": "{device} فعالی یافت نشد. اتصال دستگاه را بررسی کنید؛ ورود به کلاس بدون {device} هم ممکن است.",
+    "es": "No se encontró {device} activo. Revisa la conexión; aún puedes entrar a la clase sin {device}."
+  },
+  "preflight.device.absentStatus": {
+    "en": "Not found",
+    "fa": "یافت نشد",
+    "es": "No encontrado"
+  },
+  "preflight.device.camera": {
+    "en": "Camera",
+    "fa": "دوربین",
+    "es": "Cámara"
+  },
+  "preflight.device.deniedDetail": {
+    "en": "Access to {device} was denied. Click the lock icon next to the address bar and set \"{device}\" to Allow. You can still enter without it.",
+    "fa": "دسترسی به {device} رد شده است. روی آیکن قفل کنار نوار آدرس مرورگر بزنید و دسترسی «{device}» را روی «اجازه» بگذارید. می‌توانید بدون آن هم وارد شوید.",
+    "es": "Se denegó el acceso a {device}. Haz clic en el candado junto a la barra de direcciones y selecciona \"Permitir\"."
+  },
+  "preflight.device.deniedStatus": {
+    "en": "Access denied",
+    "fa": "دسترسی رد شده",
+    "es": "Acceso denegado"
+  },
+  "preflight.device.microphone": {
+    "en": "Microphone",
+    "fa": "میکروفون",
+    "es": "Micrófono"
+  },
+  "preflight.device.promptDetail": {
+    "en": "Permission to access {device} has not been granted yet. Select Allow when prompted by your browser.",
+    "fa": "هنوز اجازهٔ دسترسی به {device} داده نشده است. هنگام درخواست مرورگر، «اجازه» را انتخاب کنید.",
+    "es": "Aún no se ha otorgado permiso para {device}. Elige Permitir cuando el navegador lo solicite."
+  },
+  "preflight.device.promptStatus": {
+    "en": "Awaiting permission",
+    "fa": "در انتظار اجازه",
+    "es": "Esperando permiso"
+  },
+  "preflight.device.readyStatus": {
+    "en": "Ready",
+    "fa": "آماده",
+    "es": "Listo"
+  },
+  "preflight.panel.blocked": {
+    "en": "You cannot enter the class until the red item(s) above are resolved. Once fixed, click \"Re-check\".",
+    "fa": "تا برطرف‌شدن مورد(های) قرمزِ بالا امکان ورود به کلاس نیست. پس از رفع مشکل، دکمهٔ «بررسی مجدد» را بزنید.",
+    "es": "No puedes ingresar a la clase hasta corregir los elementos en rojo arriba. Tras corregirlos, pulsa \"Revisar de nuevo\"."
+  },
+  "preflight.panel.checking": {
+    "en": "Checking…",
+    "fa": "در حال بررسی…",
+    "es": "Comprobando…"
+  },
+  "preflight.panel.regionLabel": {
+    "en": "Device readiness check before entry",
+    "fa": "بررسی آماده‌بودن دستگاه پیش از ورود",
+    "es": "Comprobación de preparación de dispositivos antes de entrar"
+  },
+  "preflight.panel.retry": {
+    "en": "Re-check",
+    "fa": "بررسی مجدد",
+    "es": "Revisar de nuevo"
+  },
+  "preflight.panel.severity.fail": {
+    "en": "Issue",
+    "fa": "مشکل",
+    "es": "Problema"
+  },
+  "preflight.panel.severity.pass": {
+    "en": "Ready",
+    "fa": "آماده",
+    "es": "Listo"
+  },
+  "preflight.panel.severity.warn": {
+    "en": "Warning",
+    "fa": "هشدار",
+    "es": "Aviso"
+  },
+  "preflight.panel.title": {
+    "en": "Device Readiness Check",
+    "fa": "بررسی آماده‌بودن دستگاه",
+    "es": "Comprobación de dispositivos"
+  },
+  "preflight.screen.detail": {
+    "en": "Your browser does not support screen sharing. If you plan to present, use Chrome/Edge or desktop Firefox. It is not required for viewing the class.",
+    "fa": "مرورگر شما اشتراک‌گذاری صفحه را پشتیبانی نمی‌کند. اگر قصد ارائه دارید، از کروم/اج یا فایرفاکس دسکتاپ استفاده کنید. برای تماشای کلاس نیازی به آن نیست.",
+    "es": "Tu navegador no permite compartir pantalla. Para presentar, usa Chrome, Edge o Firefox de escritorio."
+  },
+  "preflight.screen.label": {
+    "en": "Screen sharing",
+    "fa": "اشتراک‌گذاری صفحه",
+    "es": "Compartir pantalla"
+  },
+  "preflight.secure.bad": {
+    "en": "Insecure",
+    "fa": "ناامن",
+    "es": "No segura"
+  },
+  "preflight.secure.detail": {
+    "en": "This page is not opened over a secure connection (HTTPS); browsers only grant camera and microphone access on HTTPS. Please open the URL with https.",
+    "fa": "این صفحه روی اتصال امن (HTTPS) باز نشده است؛ مرورگرها دسترسی به دوربین و میکروفون را فقط روی HTTPS می‌دهند. لطفاً نشانی را با https باز کنید.",
+    "es": "Esta página no está abierta bajo una conexión segura (HTTPS); los navegadores solo conceden acceso a cámara y micrófono con HTTPS."
+  },
+  "preflight.secure.label": {
+    "en": "Secure connection (HTTPS)",
+    "fa": "اتصال امن (HTTPS)",
+    "es": "Conexión segura (HTTPS)"
+  },
+  "preflight.secure.ok": {
+    "en": "Secure",
+    "fa": "امن",
+    "es": "Segura"
+  },
+  "preflight.supported": {
+    "en": "Supported",
+    "fa": "پشتیبانی می‌شود",
+    "es": "Compatible"
+  },
+  "preflight.unsupported": {
+    "en": "Not supported",
+    "fa": "پشتیبانی نمی‌شود",
+    "es": "No compatible"
+  },
+  "preflight.webrtc.detail": {
+    "en": "Your browser does not support camera/microphone access (getUserMedia). Please use an up-to-date version of Chrome, Edge, or desktop Firefox.",
+    "fa": "مرورگر شما از دسترسی به دوربین/میکروفون (getUserMedia) پشتیبانی نمی‌کند. از نسخهٔ به‌روزِ کروم، اج یا فایرفاکس دسکتاپ استفاده کنید.",
+    "es": "Tu navegador no soporta llamadas en tiempo real (WebRTC). Usa una versión actualizada de Chrome, Edge o Firefox."
+  },
+  "preflight.webrtc.label": {
+    "en": "Video call support (WebRTC)",
+    "fa": "پشتیبانی از تماس تصویری (WebRTC)",
+    "es": "Soporte de videollamadas (WebRTC)"
+  },
+  "guide.button": {
+    "en": "Guide",
+    "fa": "راهنما",
+    "es": "Guía de clase"
+  },
+  "guide.lobby.chain.check": {
+    "en": "Here you test your name, camera, and microphone and complete the readiness checklist.",
+    "fa": "اینجا نام، دوربین و میکروفون را می‌آزمایید و فهرستِ آمادگی را کامل می‌کنید.",
+    "es": "Aquí pruebas tu nombre, cámara y micrófono y completas la lista de preparación."
+  },
+  "guide.lobby.chain.enter": {
+    "en": "At class time, enter this pre-room from there.",
+    "fa": "در زمانِ کلاس، از همان‌جا واردِ همین پیش‌اتاق می‌شوید.",
+    "es": "Cuando todo esté listo, pulsa \"Entrar a clase\"."
+  },
+  "guide.lobby.chain.join": {
+    "en": "Upon entering the class, you are transferred to the live room; the guide continues there.",
+    "fa": "با ورود به کلاس، به اتاقِ زنده منتقل می‌شوید؛ ادامهٔ راهنما در همان صفحه است.",
+    "es": "Al entrar a la clase, se te transfiere a la sala en vivo; la guía continúa allí."
+  },
+  "guide.lobby.chain.schedule": {
+    "en": "The live class is scheduled in the syllabus and appears in \"My Classes\".",
+    "fa": "کلاسِ زنده در برنامهٔ درسی زمان‌بندی می‌شود و در «کلاس‌های من» دیده می‌شود.",
+    "es": "La clase en vivo se programa en el plan de estudios y aparece en \"Mis clases\"."
+  },
+  "guide.lobby.ifEmpty": {
+    "en": "If the class has not started yet, wait for the host; connection status updates on this same page.",
+    "fa": "اگر فهرستِ آمادگی هنوز کامل نشده، معمولاً یعنی مرورگر هنوز اجازهٔ میکروفون/دوربین را نگرفته است؛ اجازه را بدهید تا وضعیت به‌روز شود. بدونِ دوربین هم می‌توانید وارد شوید.",
+    "es": "Si los dispositivos no aparecen, comprueba la conexión de tu cámara y micrófono."
+  },
+  "guide.lobby.intro": {
+    "en": "Welcome to the pre-room for the live class. Here you check your sound, picture, and connection before entering.",
+    "fa": "این صفحه، اتاقِ آمادگیِ پیش از ورود به کلاسِ زنده است: نامِ نمایشی، میکروفون و دوربینِ خود را اینجا می‌آزمایید تا هنگامِ ورود، همه‌چیز درست کار کند.",
+    "es": "Esta sala de espera te permite comprobar tu equipo y conexión antes de entrar a la clase."
+  },
+  "guide.lobby.roles.host.does": {
+    "en": "Enters the room, welcomes students, and starts the class.",
+    "fa": "کلاس را باز می‌کند؛ تا پیش از آن، همین صفحه وضعیتِ انتظار را نشان می‌دهد.",
+    "es": "Gestiona los ajustes de la sala y espera a que los alumnos ingresen."
+  },
+  "guide.lobby.roles.host.label": {
+    "en": "Host (Instructor)",
+    "fa": "میزبان (استاد)",
+    "es": "Profesor / Anfitrión"
+  },
+  "guide.lobby.roles.student.does": {
+    "en": "Tests camera/microphone, checks readiness, and enters the class.",
+    "fa": "پیش از ورود، نام و تجهیزاتِ خود را می‌آزمایید و سپس واردِ کلاس می‌شوید.",
+    "es": "Prueba cámara/micrófono, comprueba la preparación y entra a clase."
+  },
+  "guide.lobby.roles.student.label": {
+    "en": "You (Student)",
+    "fa": "شما (دانشجو)",
+    "es": "Tú (Estudiante)"
+  },
+  "guide.lobby.roles.support.does": {
+    "en": "If device tests repeatedly fail, technical support uses this readiness report for troubleshooting.",
+    "fa": "اگر آزمونِ تجهیزات مدام شکست بخورد، از همین گزارشِ آمادگی برایِ عیب‌یابی استفاده می‌کند.",
+    "es": "Proporciona asistencia técnica si los dispositivos fallan repetidamente."
+  },
+  "guide.lobby.roles.support.label": {
+    "en": "Technical Support",
+    "fa": "پشتیبانیِ فنی",
+    "es": "Soporte técnico"
+  },
+  "guide.lobby.title": {
+    "en": "Pre-room Guide",
+    "fa": "راهنمایِ «پیش‌اتاقِ کلاس»",
+    "es": "Pasos para entrar a clase"
+  },
+  "guide.lobby.youCan.camera": {
+    "en": "View camera preview and toggle it on/off; when off, your avatar is displayed.",
+    "fa": "پیش‌نمایشِ دوربین را ببینید و آن را روشن/خاموش کنید؛ اگر خاموش باشد، آواتارِ شما نمایش داده می‌شود.",
+    "es": "Visualiza la vista previa de la cámara y actívala o desactívala."
+  },
+  "guide.lobby.youCan.join": {
+    "en": "Once the readiness checklist turns green, join using the Enter Class button.",
+    "fa": "پس از سبز شدنِ فهرستِ آمادگی، با دکمهٔ ورود به کلاس بپیوندید.",
+    "es": "Cuando todo esté listo, únete usando el botón Entrar a clase."
+  },
+  "guide.lobby.youCan.mic": {
+    "en": "Turn your microphone on/off with the microphone button.",
+    "fa": "میکروفون را بیازمایید و از فهرستِ آمادگی مطمئن شوید هیچ مانعی برایِ ورود نیست.",
+    "es": "Activa o desactiva tu micrófono con el botón de micrófono."
+  },
+  "guide.lobby.youCan.name": {
+    "en": "Edit your display name before entering class.",
+    "fa": "نامِ نمایشیِ خود را پیش از ورود به کلاس ویرایش کنید.",
+    "es": "Edita tu nombre visible antes de entrar a clase."
+  },
+  "guide.sections.chain": {
+    "en": "Full journey, from start to finish",
+    "fa": "کلِ مسیر، از ابتدا تا انتها",
+    "es": "Recorrido completo, de principio a fin"
+  },
+  "guide.sections.ifEmpty": {
+    "en": "If the page is empty",
+    "fa": "اگر صفحه خالی بود",
+    "es": "Si la página está vacía"
+  },
+  "guide.sections.roles": {
+    "en": "Who does what",
+    "fa": "چه کسی چه می‌کند",
+    "es": "Quién hace qué"
+  },
+  "guide.sections.youCan": {
+    "en": "What can you do here?",
+    "fa": "اینجا چه کاری می‌توانید انجام دهید؟",
+    "es": "¿Qué puedes hacer aquí?"
+  },
+  "guide.session.chain.participate": {
+    "en": "During class you participate via microphone/camera/chat; the host controls the class flow.",
+    "fa": "در طولِ کلاس با میکروفون/دوربین/گفت‌وگو مشارکت می‌کنید؛ میزبان جریانِ کلاس را کنترل می‌کند.",
+    "es": "Durante la clase participas por micrófono/cámara/chat; el docente modera el flujo."
+  },
+  "guide.session.chain.record": {
+    "en": "If the host enables recording, the recording becomes available after class ends.",
+    "fa": "اگر میزبان ضبط را فعال کند، پس از پایانِ کلاس ضبط در دسترس قرار می‌گیرد.",
+    "es": "Si el profesor graba la clase, estará disponible tras finalizar."
+  },
+  "guide.session.chain.review": {
+    "en": "You return from \"Recordings\" to review a missed class or study.",
+    "fa": "شما از «ضبط‌شده‌ها» به کلاسِ ازدست‌رفته یا برایِ مرور بازمی‌گردید.",
+    "es": "Vuelve desde Grabaciones para repasar una clase perdida."
+  },
+  "guide.session.chain.start": {
+    "en": "The host (instructor) starts the live class; you join the room.",
+    "fa": "میزبان (استاد) کلاسِ زنده را شروع می‌کند؛ شما به اتاق می‌پیوندید.",
+    "es": "El profesor inicia la clase en vivo; tú te unes a la sala."
+  },
+  "guide.session.ifEmpty": {
+    "en": "If class hasn't started yet, wait for the host; connection status updates on this page.",
+    "fa": "اگر کلاس هنوز شروع نشده، منتظرِ میزبان بمانید؛ وضعیتِ اتصال در همین صفحه به‌روزرسانی می‌شود.",
+    "es": "Si la clase aún no ha comenzado, espera al docente."
+  },
+  "guide.session.intro": {
+    "en": "This page is your live class room with microphone/camera, screen sharing, chat, and Q&A. The host (instructor) manages the class and records if needed.",
+    "fa": "این صفحه، اتاقِ کلاسِ زندهٔ شما با میکروفون/دوربین، اشتراکِ صفحه، گفت‌وگو و پرسش‌وپاسخ است. میزبان (استاد) کلاس را کنترل و در صورتِ نیاز ضبط می‌کند.",
+    "es": "Esta es tu aula virtual en vivo con micrófono, cámara, pizarra, chat y preguntas."
+  },
+  "guide.session.roles.host.does": {
+    "en": "Starts/controls the class and enables recording if needed.",
+    "fa": "کلاس را شروع/کنترل می‌کند و در صورتِ نیاز ضبط را فعال می‌کند.",
+    "es": "Inicia y modera la clase, y graba si es necesario."
+  },
+  "guide.session.roles.host.label": {
+    "en": "Host (Instructor)",
+    "fa": "میزبان (استاد)",
+    "es": "Profesor / Anfitrión"
+  },
+  "guide.session.roles.student.does": {
+    "en": "Joins the class, participates, and watches recordings later if needed.",
+    "fa": "به کلاس می‌پیوندید، مشارکت می‌کنید و در صورتِ نیاز ضبط را بعداً می‌بینید.",
+    "es": "Se une a la clase, participa y consulta grabaciones."
+  },
+  "guide.session.roles.student.label": {
+    "en": "You (Student)",
+    "fa": "شما (دانشجو)",
+    "es": "Tú (Estudiante)"
+  },
+  "guide.session.title": {
+    "en": "Live Class Guide",
+    "fa": "راهنمایِ «کلاسِ زنده»",
+    "es": "Guía de la clase en vivo"
+  },
+  "guide.session.youCan.chat": {
+    "en": "Send messages or ask questions in writing using \"Chat\".",
+    "fa": "با «گفت‌وگو» به‌صورتِ نوشتاری پیام بدهید یا سؤال بپرسید.",
+    "es": "Envía mensajes o preguntas escritas en el Chat."
+  },
+  "guide.session.youCan.media": {
+    "en": "Turn your microphone and camera on/off from the bottom bar.",
+    "fa": "میکروفون و دوربینِ خود را از نوارِ پایین روشن/خاموش کنید.",
+    "es": "Enciende o apaga tu micrófono y cámara desde la barra inferior."
+  },
+  "guide.session.youCan.recordings": {
+    "en": "After class ends, watch the recording under \"Recordings\" if recorded.",
+    "fa": "پس از پایانِ کلاس، اگر ضبط شده باشد، از «ضبط‌شده‌ها» آن را ببینید.",
+    "es": "Tras finalizar la clase, mira la grabación si fue registrada."
+  },
+  "guide.session.youCan.share": {
+    "en": "Share your screen if permitted by the host.",
+    "fa": "اگر میزبان اجازه دهد، صفحهٔ خود را به اشتراک بگذارید.",
+    "es": "Comparte tu pantalla si el docente lo permite."
+  },
+  "analytics.anonymous": {
+    "en": "User",
+    "fa": "کاربر",
+    "es": "Usuario"
+  },
+  "analytics.attendance.absentChip": {
+    "en": "✗ Absent {count, number}",
+    "fa": "✗ غایب {count, number}",
+    "es": "✗ Ausente {count, number}"
+  },
+  "analytics.attendance.absentLabel": {
+    "en": "Absent",
+    "fa": "غایب",
+    "es": "Ausente"
+  },
+  "analytics.attendance.avatarFallback": {
+    "en": "?",
+    "fa": "؟",
+    "es": "?"
+  },
+  "analytics.attendance.duration": {
+    "en": "Duration: {value}",
+    "fa": "مدت: {value}",
+    "es": "Duración: {value}"
+  },
+  "analytics.attendance.empty": {
+    "en": "No attendance recorded yet. As participants join, they will appear here.",
+    "fa": "هنوز ورود حضوری ثبت نشده است. با پیوستن شرکت‌کنندگان، اینجا نمایش داده می‌شود.",
+    "es": "Aún no se ha registrado asistencia. Aparecerán aquí según se unan los participantes."
+  },
+  "analytics.attendance.excusedChip": {
+    "en": "Excused {count, number}",
+    "fa": "موجه {count, number}",
+    "es": "Justificado {count, number}"
+  },
+  "analytics.attendance.excusedLabel": {
+    "en": "Excused",
+    "fa": "موجه",
+    "es": "Justificado"
+  },
+  "analytics.attendance.finalized": {
+    "en": "Finalized",
+    "fa": "قطعی‌شده",
+    "es": "Finalizado"
+  },
+  "analytics.attendance.inClass": {
+    "en": "In class",
+    "fa": "در کلاس",
+    "es": "En clase"
+  },
+  "analytics.attendance.joinedAt": {
+    "en": "Joined: {time}",
+    "fa": "ورود: {time}",
+    "es": "Entrada: {time}"
+  },
+  "analytics.attendance.lateChip": {
+    "en": "⏰ Late {count, number}",
+    "fa": "⏰ تأخیر {count, number}",
+    "es": "⏰ Tarde {count, number}"
+  },
+  "analytics.attendance.lateLabel": {
+    "en": "Late",
+    "fa": "با تأخیر",
+    "es": "Tarde"
+  },
+  "analytics.attendance.left": {
+    "en": "Left",
+    "fa": "خارج شده",
+    "es": "Salió"
+  },
+  "analytics.attendance.loading": {
+    "en": "Loading attendance…",
+    "fa": "در حال بارگذاری حضور…",
+    "es": "Cargando asistencia…"
+  },
+  "analytics.attendance.neverOpened": {
+    "en": "This session was not held (no attendance recorded).",
+    "fa": "این جلسه برگزار نشد (حضوری ثبت نشده).",
+    "es": "Esta sesión no se celebró (no hay asistencia registrada)."
+  },
+  "analytics.attendance.presentChip": {
+    "en": "✓ Present {count, number}",
+    "fa": "✓ حاضر {count, number}",
+    "es": "✓ Presente {count, number}"
+  },
+  "analytics.attendance.presentLabel": {
+    "en": "Present",
+    "fa": "حاضر",
+    "es": "Presente"
+  },
+  "analytics.attendance.provisional": {
+    "en": "Provisional (until class ends)",
+    "fa": "موقت (تا پایان کلاس)",
+    "es": "Provisional (hasta el fin de la clase)"
+  },
+  "analytics.attendance.refreshNote": {
+    "en": "{count, number} people · Updates every {seconds, number} seconds",
+    "fa": "{count, number} نفر · هر {seconds, number} ثانیه به‌روزرسانی",
+    "es": "{count, number} personas · Actualización cada {seconds, number} s"
+  },
+  "analytics.attendance.stillPresent": {
+    "en": " (Currently attending)",
+    "fa": " (در حال حضور)",
+    "es": " (Actualmente en clase)"
+  },
+  "analytics.attendance.title": {
+    "en": "Attendance List",
+    "fa": "فهرست حضور",
+    "es": "Lista de asistencia"
+  },
+  "analytics.duration.hours": {
+    "en": "{count, number} hours",
+    "fa": "{count, number} ساعت",
+    "es": "{count, number} horas"
+  },
+  "analytics.duration.hoursMinutes": {
+    "en": "{hours, number} hours and {minutes, number} minutes",
+    "fa": "{hours, number} ساعت و {minutes, number} دقیقه",
+    "es": "{hours, number} horas y {minutes, number} minutos"
+  },
+  "analytics.duration.lessThanMinute": {
+    "en": "Less than 1 minute",
+    "fa": "کمتر از ۱ دقیقه",
+    "es": "Menos de 1 minuto"
+  },
+  "analytics.duration.minutes": {
+    "en": "{count, number} minutes",
+    "fa": "{count, number} دقیقه",
+    "es": "{count, number} minutos"
+  },
+  "analytics.error.attendance": {
+    "en": "Could not retrieve attendance list. This section is only available to the host.",
+    "fa": "دریافت فهرست حضور ممکن نشد. این بخش فقط برای میزبان در دسترس است.",
+    "es": "No se pudo obtener la lista de asistencia. Esta sección solo está disponible para el anfitrión."
+  },
+  "analytics.participation.aria": {
+    "en": "Microphone open {on, number} of {total, number}",
+    "fa": "میکروفون باز {on, number} از {total, number}",
+    "es": "Micrófonos abiertos {on, number} de {total, number}"
+  },
+  "analytics.participation.empty": {
+    "en": "No one is in the class yet.",
+    "fa": "هنوز کسی در کلاس حاضر نیست.",
+    "es": "Aún no hay nadie en clase."
+  },
+  "analytics.participation.muted": {
+    "en": "Muted: {count, number}",
+    "fa": "بی‌صدا: {count, number}",
+    "es": "Silenciados: {count, number}"
+  },
+  "analytics.participation.on": {
+    "en": "Open: {count, number} ({pct, number}%)",
+    "fa": "باز: {count, number} ({pct, number}٪)",
+    "es": "Abiertos: {count, number} ({pct, number}%)"
+  },
+  "analytics.participation.title": {
+    "en": "Audio Participation",
+    "fa": "مشارکت صوتی",
+    "es": "Participación por voz"
+  },
+  "analytics.poll.active": {
+    "en": "A poll is currently active",
+    "fa": "یک نظرسنجی فعال است",
+    "es": "Hay una encuesta activa actualmente"
+  },
+  "analytics.poll.idle": {
+    "en": "No active polls",
+    "fa": "نظرسنجی فعالی نیست",
+    "es": "No hay encuestas activas"
+  },
+  "analytics.stat.chat": {
+    "en": "Chat messages",
+    "fa": "پیام چت",
+    "es": "Mensajes en el chat"
+  },
+  "analytics.stat.hands": {
+    "en": "Hands raised",
+    "fa": "دست بالا",
+    "es": "Manos levantadas"
+  },
+  "analytics.stat.micOn": {
+    "en": "Open mics",
+    "fa": "میکروفون باز",
+    "es": "Micrófonos abiertos"
+  },
+  "analytics.stat.present": {
+    "en": "Currently present",
+    "fa": "حاضر اکنون",
+    "es": "Presentes ahora"
+  },
+  "lobby.back": {
+    "en": "Back to workspace",
+    "fa": "بازگشت به میز کار",
+    "es": "Volver al espacio de trabajo"
+  },
+  "lobby.removedByHost": {
+    "en": "You have been removed from this class. Rejoining is only possible after instructor permission.",
+    "fa": "شما از این کلاس حذف شده‌اید. ورود دوباره فقط پس از اجازهٔ استاد ممکن است.",
+    "es": "Has sido expulsado de esta clase. Solo podrás volver a ingresar con autorización del docente."
+  },
+  "lobby.removedServiceDesk": {
+    "en": "Submit ticket at Service Desk",
+    "fa": "ثبت اعتراض در پیشخوان خدمات",
+    "es": "Enviar solicitud al servicio de soporte"
+  },
+  "lobby.cam.off": {
+    "en": "Turn camera off",
+    "fa": "خاموش کردن دوربین",
+    "es": "Apagar cámara"
+  },
+  "lobby.cam.on": {
+    "en": "Turn camera on",
+    "fa": "روشن کردن دوربین",
+    "es": "Encender cámara"
+  },
+  "lobby.cam.stateOff": {
+    "en": "Camera off",
+    "fa": "دوربین خاموش",
+    "es": "Cámara apagada"
+  },
+  "lobby.cam.stateOn": {
+    "en": "Camera on",
+    "fa": "دوربین روشن",
+    "es": "Cámara encendida"
+  },
+  "lobby.camOffOverlay": {
+    "en": "Camera is off",
+    "fa": "دوربین خاموش است",
+    "es": "La cámara está apagada"
+  },
+  "lobby.conn.fair": {
+    "en": "Fair",
+    "fa": "متوسط",
+    "es": "Regular"
+  },
+  "lobby.conn.good": {
+    "en": "Good",
+    "fa": "خوب",
+    "es": "Buena"
+  },
+  "lobby.conn.poor": {
+    "en": "Poor",
+    "fa": "ضعیف",
+    "es": "Deficiente"
+  },
+  "lobby.conn.title": {
+    "en": "Connection Quality",
+    "fa": "کیفیت اتصال",
+    "es": "Calidad de conexión"
+  },
+  "lobby.conn.unknown": {
+    "en": "Unknown",
+    "fa": "نامشخص",
+    "es": "Desconocida"
+  },
+  "lobby.cta.blocked": {
+    "en": "To enter the class, the critical prerequisites above (secure connection and browser support) must be resolved.",
+    "fa": "برای ورود به کلاس باید موارد ضروری بالا (اتصال امن و پشتیبانی مرورگر) برطرف شوند.",
+    "es": "Para ingresar a la clase, debes resolver los requisitos críticos indicados arriba."
+  },
+  "lobby.cta.blockedTitle": {
+    "en": "Cannot enter until critical prerequisites are resolved",
+    "fa": "تا برطرف‌شدن موارد ضروری امکان ورود نیست",
+    "es": "No puedes ingresar hasta resolver los requisitos críticos"
+  },
+  "lobby.cta.enter": {
+    "en": "Enter Class",
+    "fa": "ورود به کلاس",
+    "es": "Entrar a clase"
+  },
+  "lobby.cta.ready": {
+    "en": "Check your video and audio before entering.",
+    "fa": "پیش از ورود، تصویر و صدای خود را بررسی کنید.",
+    "es": "Verifica tu video y audio antes de ingresar."
+  },
+  "lobby.cta.waiting": {
+    "en": "The instructor has not entered yet; you may enter and wait.",
+    "fa": "هنوز استاد وارد نشده است؛ می‌توانید وارد شوید و منتظر بمانید.",
+    "es": "El profesor aún no ha entrado; puedes ingresar y esperar."
+  },
+  "lobby.device.camera": {
+    "en": "Camera",
+    "fa": "دوربین",
+    "es": "Cámara"
+  },
+  "lobby.device.cameraNone": {
+    "en": "No camera found",
+    "fa": "دوربینی یافت نشد",
+    "es": "No se encontró cámara"
+  },
+  "lobby.device.fallback": {
+    "en": "{device} {index, number}",
+    "fa": "{device} {index, number}",
+    "es": "{device} {index, number}"
+  },
+  "lobby.device.mic": {
+    "en": "Microphone",
+    "fa": "میکروفون",
+    "es": "Micrófono"
+  },
+  "lobby.device.micNone": {
+    "en": "No microphone found",
+    "fa": "میکروفونی یافت نشد",
+    "es": "No se encontró micrófono"
+  },
+  "lobby.device.speaker": {
+    "en": "Speaker",
+    "fa": "بلندگو",
+    "es": "Altavoz"
+  },
+  "lobby.device.speakerDefault": {
+    "en": "System default speaker",
+    "fa": "بلندگوی پیش‌فرض سیستم",
+    "es": "Altavoz predeterminado del sistema"
+  },
+  "lobby.fallbackTitle": {
+    "en": "Live Class",
+    "fa": "کلاس زنده",
+    "es": "Clase en vivo"
+  },
+  "lobby.guest": {
+    "en": "Guest",
+    "fa": "میهمان",
+    "es": "Invitado"
+  },
+  "lobby.help.body": {
+    "en": "Before entering the live class, test your camera, microphone, and speaker here. Use the buttons below the preview to toggle camera or microphone and change devices in the settings column. When everything is ready, click \"Enter Class\".",
+    "fa": "پیش از ورود به کلاس زنده، اینجا دوربین، میکروفون و بلندگوی خود را آزمایش کنید. با دکمه‌های پایینِ تصویر می‌توانید دوربین یا میکروفون را روشن/خاموش کنید و در ستون تنظیمات دستگاه‌ها را عوض کنید. وقتی همه‌چیز آماده بود، دکمهٔ «ورود به کلاس» را بزنید.",
+    "es": "Antes de entrar a la clase en vivo, prueba aquí tu cámara, micrófono y altavoces. Usa los botones bajo la vista previa para activar/desactivar y selecciona tus dispositivos en la columna de ajustes. Cuando todo esté listo, pulsa \"Entrar a clase\"."
+  },
+  "lobby.help.title": {
+    "en": "Class Entry Guide",
+    "fa": "راهنمای ورود به کلاس",
+    "es": "Guía de acceso a clase"
+  },
+  "lobby.joinMuted": {
+    "en": "Enter with microphone muted",
+    "fa": "ورود با میکروفون خاموش",
+    "es": "Entrar con micrófono silenciado"
+  },
+  "lobby.loading": {
+    "en": "Loading session details…",
+    "fa": "در حال بارگذاری اطلاعات جلسه…",
+    "es": "Cargando detalles de la sesión…"
+  },
+  "lobby.media.denied": {
+    "en": "Camera or microphone access was not granted.",
+    "fa": "دسترسی به دوربین یا میکروفون داده نشد.",
+    "es": "No se concedió acceso a la cámara o al micrófono."
+  },
+  "lobby.media.deniedTitle": {
+    "en": "Camera/microphone access denied",
+    "fa": "دسترسی به دوربین/میکروفون داده نشد",
+    "es": "Acceso denegado a cámara/micrófono"
+  },
+  "lobby.media.notFound": {
+    "en": "Camera or microphone device not found.",
+    "fa": "دستگاه دوربین یا میکروفون پیدا نشد.",
+    "es": "No se encontró dispositivo de cámara o micrófono."
+  },
+  "lobby.meta.host": {
+    "en": "Instructor: {name}",
+    "fa": "استاد: {name}",
+    "es": "Profesor: {name}"
+  },
+  "lobby.meta.time": {
+    "en": "Time: {time}",
+    "fa": "زمان: {time}",
+    "es": "Hora: {time}"
+  },
+  "lobby.meter.label": {
+    "en": "Microphone level",
+    "fa": "سطح میکروفون",
+    "es": "Nivel del micrófono"
+  },
+  "lobby.meter.micOff": {
+    "en": "Microphone is muted — unmute to test.",
+    "fa": "میکروفون خاموش است — برای آزمایش آن را روشن کنید.",
+    "es": "El micrófono está silenciado — activa para probar."
+  },
+  "lobby.mic.off": {
+    "en": "Mute microphone",
+    "fa": "خاموش کردن میکروفون",
+    "es": "Silenciar micrófono"
+  },
+  "lobby.mic.on": {
+    "en": "Unmute microphone",
+    "fa": "روشن کردن میکروفون",
+    "es": "Activar micrófono"
+  },
+  "lobby.mic.stateOff": {
+    "en": "Microphone muted",
+    "fa": "میکروفون خاموش",
+    "es": "Micrófono silenciado"
+  },
+  "lobby.mic.stateOn": {
+    "en": "Microphone active",
+    "fa": "میکروفون روشن",
+    "es": "Micrófono activo"
+  },
+  "lobby.perm.retry": {
+    "en": "Retry permission request",
+    "fa": "تلاش مجدد برای دسترسی",
+    "es": "Reintentar solicitud de permiso"
+  },
+  "lobby.perm.step1": {
+    "en": "Click the lock icon next to the browser address bar.",
+    "fa": "روی آیکن قفل کنار نوار آدرس مرورگر کلیک کنید.",
+    "es": "Haz clic en el icono del candado junto a la barra de direcciones del navegador."
+  },
+  "lobby.perm.step2": {
+    "en": "Set \"Camera\" and \"Microphone\" permissions to \"Allow\".",
+    "fa": "دسترسی «دوربین» و «میکروفون» را روی «اجازه» بگذارید.",
+    "es": "Configura los permisos de \"Cámara\" y \"Micrófono\" en \"Permitir\"."
+  },
+  "lobby.perm.step3": {
+    "en": "Then click the button below to retry.",
+    "fa": "سپس دکمهٔ زیر را برای تلاش مجدد بزنید.",
+    "es": "Luego haz clic en el botón de abajo para reintentar."
+  },
+  "lobby.perm.without": {
+    "en": "You can also enter the class without camera/microphone.",
+    "fa": "می‌توانید بدون دوربین/میکروفون هم وارد کلاس شوید.",
+    "es": "También puedes ingresar a la clase sin cámara ni micrófono."
+  },
+  "lobby.settings.name": {
+    "en": "Your display name in class",
+    "fa": "نام نمایشی شما در کلاس",
+    "es": "Tu nombre visible en clase"
+  },
+  "lobby.settings.title": {
+    "en": "Audio & Video Settings",
+    "fa": "تنظیمات صدا و تصویر",
+    "es": "Ajustes de audio y video"
+  },
+  "lobby.speaker.playing": {
+    "en": "Playing…",
+    "fa": "در حال پخش…",
+    "es": "Reproduciendo…"
+  },
+  "lobby.speaker.test": {
+    "en": "Test",
+    "fa": "آزمایش",
+    "es": "Probar"
+  },
+  "lobby.status.ended": {
+    "en": "This session has ended",
+    "fa": "این جلسه به پایان رسیده است",
+    "es": "Esta sesión ha finalizado"
+  },
+  "lobby.status.live": {
+    "en": "In progress",
+    "fa": "در حال برگزاری",
+    "es": "En curso"
+  },
+  "lobby.status.prefix": {
+    "en": "Status: {status}",
+    "fa": "وضعیت: {status}",
+    "es": "Estado: {status}"
+  },
+  "lobby.status.waiting": {
+    "en": "Instructor has not entered yet",
+    "fa": "استاد هنوز وارد نشده",
+    "es": "El docente aún no ha ingresado"
+  },
+  "poll.addOption": {
+    "en": "Add option",
+    "fa": "افزودن گزینه",
+    "es": "Añadir opción"
+  },
+  "poll.cancel": {
+    "en": "Cancel",
+    "fa": "انصراف",
+    "es": "Cancelar"
+  },
+  "poll.changeHint": {
+    "en": "To change your vote, select another option.",
+    "fa": "برای تغییر رأی، گزینهٔ دیگری را انتخاب کنید.",
+    "es": "Para cambiar tu voto, selecciona otra opción."
+  },
+  "poll.emptyGuest": {
+    "en": "There are currently no active polls. When the host starts a poll, it will appear here.",
+    "fa": "در حال حاضر نظرسنجی فعالی نیست. با شروع نظرسنجی توسط میزبان، همین‌جا نمایش داده می‌شود.",
+    "es": "Actualmente no hay encuestas activas. Cuando el profesor inicie una, aparecerá aquí."
+  },
+  "poll.emptyHost": {
+    "en": "No active polls. Click \"New Poll\" to create one.",
+    "fa": "نظرسنجی فعالی وجود ندارد. برای ساختن یک نظرسنجی «نظرسنجی جدید» را بزنید.",
+    "es": "No hay encuestas activas. Haz clic en \"Nueva encuesta\" para crear una."
+  },
+  "poll.end": {
+    "en": "End poll",
+    "fa": "پایان نظرسنجی",
+    "es": "Finalizar encuesta"
+  },
+  "poll.endedBadge": {
+    "en": "Ended",
+    "fa": "پایان‌یافته",
+    "es": "Finalizada"
+  },
+  "poll.finalTotal": {
+    "en": "Final results · Total {count, plural, one {# vote} other {# votes}}",
+    "fa": "نتایج نهایی · مجموع {count, plural, one {# رأی} other {# رأی}}",
+    "es": "Resultados finales · Total {count, plural, one {# voto} other {# votos}}"
+  },
+  "poll.minOptions": {
+    "en": "At least {min, number} non-empty options are required to start.",
+    "fa": "برای شروع، دست‌کم {min, number} گزینهٔ غیرخالی لازم است.",
+    "es": "Se requieren al menos {min, number} opciones no vacías para iniciar."
+  },
+  "poll.multi": {
+    "en": "Multiple choice",
+    "fa": "چندگزینه‌ای",
+    "es": "Opción múltiple"
+  },
+  "poll.multiLabel": {
+    "en": "Allow selecting multiple options (Multiple choice)",
+    "fa": "امکان انتخاب چند گزینه (چندگزینه‌ای)",
+    "es": "Permitir seleccionar varias opciones (Opción múltiple)"
+  },
+  "poll.new": {
+    "en": "New poll",
+    "fa": "نظرسنجی جدید",
+    "es": "Nueva encuesta"
+  },
+  "poll.optionN": {
+    "en": "Option {n, number}",
+    "fa": "گزینه {n, number}",
+    "es": "Opción {n, number}"
+  },
+  "poll.optionTally": {
+    "en": "{pct, number}% · {count, number}",
+    "fa": "{pct, number}٪ · {count, number}",
+    "es": "{pct, number}% · {count, number}"
+  },
+  "poll.optionsLabel": {
+    "en": "Options ({used, number} of {max, number})",
+    "fa": "گزینه‌ها ({used, number} از {max, number})",
+    "es": "Opciones ({used, number} de {max, number})"
+  },
+  "poll.questionAria": {
+    "en": "Question text",
+    "fa": "متن پرسش",
+    "es": "Texto de la pregunta"
+  },
+  "poll.questionLabel": {
+    "en": "Question",
+    "fa": "پرسش",
+    "es": "Pregunta"
+  },
+  "poll.questionPlaceholder": {
+    "en": "e.g., Which topic do you prefer?",
+    "fa": "مثلاً: کدام موضوع را بیشتر می‌پسندید؟",
+    "es": "ej., ¿Qué tema prefieres repasar?"
+  },
+  "poll.removeOption": {
+    "en": "Remove option",
+    "fa": "حذف گزینه",
+    "es": "Eliminar opción"
+  },
+  "poll.single": {
+    "en": "Single choice",
+    "fa": "تک‌گزینه‌ای",
+    "es": "Opción única"
+  },
+  "poll.start": {
+    "en": "Start poll",
+    "fa": "شروع نظرسنجی",
+    "es": "Iniciar encuesta"
+  },
+  "poll.status.ended": {
+    "en": "Poll has ended — final results.",
+    "fa": "نظرسنجی پایان یافت — نتایج نهایی.",
+    "es": "La encuesta ha finalizado — resultados finales."
+  },
+  "poll.status.endingWait": {
+    "en": "Waiting for poll end confirmation…",
+    "fa": "در انتظار تأیید پایان نظرسنجی…",
+    "es": "Esperando confirmación de cierre de encuesta…"
+  },
+  "poll.status.startFailed": {
+    "en": "Server did not confirm poll start. Check connection and host permissions and try again.",
+    "fa": "سرور شروعِ نظرسنجی را تأیید نکرد. اتصال و دسترسی میزبان را بررسی کنید و دوباره تلاش کنید.",
+    "es": "El servidor no confirmó el inicio de la encuesta. Comprueba la conexión y permisos."
+  },
+  "poll.status.started": {
+    "en": "Poll started — awaiting responses…",
+    "fa": "نظرسنجی آغاز شد — در انتظار پاسخ‌ها…",
+    "es": "Encuesta iniciada — esperando respuestas…"
+  },
+  "poll.status.starting": {
+    "en": "Starting poll…",
+    "fa": "در حال شروعِ نظرسنجی…",
+    "es": "Iniciando encuesta…"
+  },
+  "poll.status.voteFailed": {
+    "en": "Vote submission was not confirmed; please try again.",
+    "fa": "ارسال رأی تأیید نشد؛ دوباره تلاش کنید.",
+    "es": "No se confirmó el envío del voto; por favor inténtalo de nuevo."
+  },
+  "poll.status.voteSent": {
+    "en": "Your vote was submitted ✓",
+    "fa": "رأی شما ارسال شد ✓",
+    "es": "Tu voto ha sido registrado ✓"
+  },
+  "poll.status.voting": {
+    "en": "Submitting vote…",
+    "fa": "در حال ارسال رأی…",
+    "es": "Enviando voto…"
+  },
+  "poll.status.waitingAnswers": {
+    "en": "Awaiting responses…",
+    "fa": "در انتظار پاسخ‌ها…",
+    "es": "Esperando respuestas…"
+  },
+  "poll.submitVote": {
+    "en": "Submit vote",
+    "fa": "ثبت رأی",
+    "es": "Emitir voto"
+  },
+  "poll.title": {
+    "en": "Poll",
+    "fa": "نظرسنجی",
+    "es": "Encuesta"
+  },
+  "poll.updateVote": {
+    "en": "Update vote",
+    "fa": "به‌روزرسانی رأی",
+    "es": "Cambiar voto"
+  },
+  "poll.voteCount": {
+    "en": "{count, plural, one {# vote} other {# votes}}",
+    "fa": "{count, plural, one {# رأی} other {# رأی}}",
+    "es": "{count, plural, one {# voto} other {# votos}}"
+  }
+}

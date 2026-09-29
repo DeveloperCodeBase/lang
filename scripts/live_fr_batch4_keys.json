@@ -1,0 +1,1222 @@
+{
+  "report.playback.open": {
+    "en": "Interactive Replay",
+    "fa": "بازپخش تعاملی",
+    "es": "Reproducción interactiva"
+  },
+  "report.att.ABSENT": {
+    "en": "Absent",
+    "fa": "غایب",
+    "es": "Ausente"
+  },
+  "report.att.EXCUSED": {
+    "en": "Excused",
+    "fa": "موجه",
+    "es": "Justificado"
+  },
+  "report.att.LATE": {
+    "en": "Late",
+    "fa": "با تأخیر",
+    "es": "Tarde"
+  },
+  "report.att.NONE": {
+    "en": "—",
+    "fa": "—",
+    "es": "—"
+  },
+  "report.att.PRESENT": {
+    "en": "Present",
+    "fa": "حاضر",
+    "es": "Presente"
+  },
+  "report.att.absent": {
+    "en": "Absent: {value, number}",
+    "fa": "غایب: {value, number}",
+    "es": "Ausentes: {value, number}"
+  },
+  "report.att.excused": {
+    "en": "Excused: {value, number}",
+    "fa": "موجه: {value, number}",
+    "es": "Justificados: {value, number}"
+  },
+  "report.att.finalized": {
+    "en": "Finalized",
+    "fa": "قطعی‌شده",
+    "es": "Finalizado"
+  },
+  "report.att.late": {
+    "en": "Late: {value, number}",
+    "fa": "با تأخیر: {value, number}",
+    "es": "Tarde: {value, number}"
+  },
+  "report.att.present": {
+    "en": "Present: {value, number}",
+    "fa": "حاضر: {value, number}",
+    "es": "Presentes: {value, number}"
+  },
+  "report.att.provisional": {
+    "en": "Provisional",
+    "fa": "موقت",
+    "es": "Provisional"
+  },
+  "report.att.total": {
+    "en": "Total: {value, number}",
+    "fa": "مجموع: {value, number}",
+    "es": "Total: {value, number}"
+  },
+  "report.att.unrecorded": {
+    "en": "Unrecorded",
+    "fa": "ثبت‌نشده",
+    "es": "Sin registrar"
+  },
+  "report.attendance.noRoster": {
+    "en": "No enrolled roster available for this session.",
+    "fa": "روستر ثبت‌نامی برای این جلسه موجود نیست.",
+    "es": "No hay lista de inscritos disponible para esta sesión."
+  },
+  "report.attendance.noSection": {
+    "en": "This session is not linked to a specific class/group; formal attendance is only recorded for section-based sessions. Actual participant list appears below.",
+    "fa": "این جلسه به گروه/کلاس خاصی متصل نیست؛ حضورغیاب رسمی فقط برای جلسات گروه‌محور ثبت می‌شود. فهرست شرکت‌کنندگان واقعی در بخش زیر آمده است.",
+    "es": "Esta sesión no está vinculada a un grupo específico; la asistencia formal solo se registra para sesiones de grupo. La lista real de participantes aparece abajo."
+  },
+  "report.attendance.title": {
+    "en": "Attendance",
+    "fa": "حضورغیاب",
+    "es": "Asistencia"
+  },
+  "report.back": {
+    "en": "Back to session hub",
+    "fa": "بازگشت به مرکز جلسات",
+    "es": "Volver al centro de sesiones"
+  },
+  "report.captions.lines": {
+    "en": "Caption lines",
+    "fa": "خطوط زیرنویس",
+    "es": "Líneas de subtítulos"
+  },
+  "report.captions.linesValue": {
+    "en": "{value, number} lines",
+    "fa": "{value, number} خط",
+    "es": "{value, number} líneas"
+  },
+  "report.captions.recording": {
+    "en": "Recording",
+    "fa": "ضبط",
+    "es": "Grabación"
+  },
+  "report.captions.soniox": {
+    "en": "Stored live translation",
+    "fa": "ترجمهٔ زندهٔ ذخیره‌شده",
+    "es": "Traducción en vivo guardada"
+  },
+  "report.captions.title": {
+    "en": "Captions & Recording",
+    "fa": "زیرنویس و ضبط",
+    "es": "Subtítulos y grabación"
+  },
+  "report.chat.download": {
+    "en": "Download transcript",
+    "fa": "دانلود متن",
+    "es": "Descargar transcripción"
+  },
+  "report.chat.empty": {
+    "en": "No messages were recorded in the public chat for this session.",
+    "fa": "پیامی در گفت‌وگوی عمومی این جلسه ثبت نشده است.",
+    "es": "No se registraron mensajes en el chat público para esta sesión."
+  },
+  "report.chat.exportHead": {
+    "en": "Session Chat Log: {title}",
+    "fa": "گزارش گفت‌وگوی جلسه: {title}",
+    "es": "Registro de chat de la sesión: {title}"
+  },
+  "report.chat.showAll": {
+    "en": "Show all {value, number} messages",
+    "fa": "نمایش همهٔ {value, number} پیام",
+    "es": "Mostrar los {value, number} mensajes"
+  },
+  "report.chat.showLess": {
+    "en": "Show less",
+    "fa": "نمایش کمتر",
+    "es": "Mostrar menos"
+  },
+  "report.chat.title": {
+    "en": "Saved Chat",
+    "fa": "گفت‌وگوی ذخیره‌شده",
+    "es": "Chat guardado"
+  },
+  "report.chat.truncated": {
+    "en": "Showing first {shown, number} messages of {total, number} total (display limit).",
+    "fa": "نمایش {shown, number} پیام نخست از مجموع {total, number} پیام (سقف نمایش).",
+    "es": "Mostrando los primeros {shown, number} mensajes de {total, number} en total (límite de visualización)."
+  },
+  "report.conn.direct": {
+    "en": "Direct",
+    "fa": "مستقیم",
+    "es": "Directa"
+  },
+  "report.conn.nat": {
+    "en": "Via NAT",
+    "fa": "از طریق NAT",
+    "es": "Vía NAT"
+  },
+  "report.conn.relay": {
+    "en": "Via Relay",
+    "fa": "از طریق رله",
+    "es": "Vía Relay"
+  },
+  "report.conn.unknown": {
+    "en": "Unknown",
+    "fa": "نامشخص",
+    "es": "Desconocida"
+  },
+  "report.counselor.adviseesTitle": {
+    "en": "My Advised Students",
+    "fa": "دانشجویان تحت مشاورهٔ من",
+    "es": "Mis estudiantes asesorados"
+  },
+  "report.counselor.eyebrow": {
+    "en": "Live Class · Consolidated Session Report",
+    "fa": "کلاس زنده · گزارش تجمیعی جلسه",
+    "es": "Clase en vivo · Informe consolidado de la sesión"
+  },
+  "report.counselor.helpBody": {
+    "en": "Advisor view: Aggregate session attendance stats (without names) plus attendance status for students with scheduled advising with you. Class chat and transcripts are excluded from this view.",
+    "fa": "نمای مشاور: آمار تجمیعی حضور جلسه (بدون اسامی) به‌علاوهٔ وضعیت حضور دانشجویانی که با شما نوبت مشاوره دارند. گفت‌وگو و رونوشت گفتار کلاس در این نما نیست.",
+    "es": "Vista de asesor: estadísticas agregadas de asistencia a la sesión (sin nombres) más el estado de asistencia para estudiantes con tutoría programada contigo. El chat y las transcripciones de la clase están excluidos de esta vista."
+  },
+  "report.counselor.helpTitle": {
+    "en": "Advisor Report Guide",
+    "fa": "راهنمای گزارش مشاور",
+    "es": "Guía del informe para asesores"
+  },
+  "report.counselor.kpiAdvisees": {
+    "en": "Advised Students",
+    "fa": "دانشجویان تحت مشاوره",
+    "es": "Estudiantes asesorados"
+  },
+  "report.counselor.kpiTotal": {
+    "en": "Total Students",
+    "fa": "کل دانشجویان",
+    "es": "Total de estudiantes"
+  },
+  "report.counselor.noAdvisees": {
+    "en": "None of your advised students are associated with this session.",
+    "fa": "هیچ‌یک از دانشجویان تحت مشاورهٔ شما با این جلسه مرتبط نیست.",
+    "es": "Ninguno de tus estudiantes asesorados está inscrito en esta clase."
+  },
+  "report.counselor.statsTitle": {
+    "en": "Session Attendance Stats",
+    "fa": "آمار حضور جلسه",
+    "es": "Estadísticas de asistencia a la sesión"
+  },
+  "report.engagement.hands": {
+    "en": "Hands raised:",
+    "fa": "دست بلندکردن:",
+    "es": "Manos levantadas:"
+  },
+  "report.engagement.handsTitle": {
+    "en": "Hands raised",
+    "fa": "دست بلندکردن",
+    "es": "Manos levantadas"
+  },
+  "report.engagement.notCaptured": {
+    "en": "Interactive artifacts were not recorded for this session (closed without host \"End Session\" or no live interaction occurred).",
+    "fa": "آثار تعاملی این جلسه ثبت نشده است (جلسه بدون «پایان جلسه»ی زندهٔ میزبان بسته شد یا تعامل زنده‌ای رخ نداد).",
+    "es": "No se registraron interacciones interactivas en esta sesión."
+  },
+  "report.engagement.polls": {
+    "en": "Polls:",
+    "fa": "نظرسنجی‌ها:",
+    "es": "Encuestas:"
+  },
+  "report.engagement.reactions": {
+    "en": "Reactions:",
+    "fa": "مجموع واکنش‌ها:",
+    "es": "Reacciones:"
+  },
+  "report.engagement.timelineTitle": {
+    "en": "Timeline",
+    "fa": "خط زمانی",
+    "es": "Línea de tiempo"
+  },
+  "report.engagement.title": {
+    "en": "Engagement & Interaction",
+    "fa": "تعامل زنده",
+    "es": "Resumen de participación"
+  },
+  "report.errLoad": {
+    "en": "Failed to load session report.",
+    "fa": "بارگذاری گزارش جلسه با خطا مواجه شد.",
+    "es": "Error al cargar el informe de la sesión."
+  },
+  "report.full.eyebrow": {
+    "en": "Live Class · Session Report",
+    "fa": "کلاس زنده · گزارش جلسه",
+    "es": "Clase en vivo · Informe de sesión"
+  },
+  "report.full.helpBody": {
+    "en": "This report displays all persistent data of a live class session in one place: actual timing and duration, student attendance, participant list, saved chat, speaker-attributed speech transcript, live polls, reactions, and recording status. Interactive artifacts are only saved when closed by the host using \"End Session\".",
+    "fa": "این گزارش همهٔ داده‌های ماندگارِ یک جلسهٔ کلاس زنده را یک‌جا نشان می‌دهد: زمان‌بندی و مدت واقعی، حضورغیاب دانشجویان، فهرست شرکت‌کنندگان، گفت‌وگوی ذخیره‌شده، رونوشت گفتار به تفکیک گوینده، نظرسنجی‌ها و واکنش‌های زنده، و وضعیت ضبط. آثار تعاملی تنها زمانی ثبت می‌شوند که جلسه با «پایان جلسه»ی میزبان بسته شود.",
+    "es": "Este informe muestra todos los datos persistentes de una sesión de clase en un solo lugar: horarios, asistencia, participantes, chat, transcripción, encuestas y grabaciones."
+  },
+  "report.full.helpTitle": {
+    "en": "Session Report Guide",
+    "fa": "راهنمای گزارش جلسه",
+    "es": "Guía del informe de sesión"
+  },
+  "report.hostSuffix": {
+    "en": " (Host)",
+    "fa": " · مدرس: {name}",
+    "es": " (Anfitrión)"
+  },
+  "report.kpi.absent": {
+    "en": "Absent",
+    "fa": "غایب",
+    "es": "Ausentes"
+  },
+  "report.kpi.actualMinutes": {
+    "en": "Actual session duration",
+    "fa": "مدت واقعی جلسه",
+    "es": "Duración real de la sesión"
+  },
+  "report.kpi.chatCount": {
+    "en": "Chat messages",
+    "fa": "پیام گفت‌وگو",
+    "es": "Mensajes en el chat"
+  },
+  "report.kpi.joins": {
+    "en": "Join count",
+    "fa": "دفعات ورود",
+    "es": "Total de conexiones"
+  },
+  "report.kpi.myMinutes": {
+    "en": "My attendance duration",
+    "fa": "مدت حضور من",
+    "es": "Mi tiempo de asistencia"
+  },
+  "report.kpi.myStatus": {
+    "en": "My attendance status",
+    "fa": "وضعیت حضور من",
+    "es": "Mi estado de asistencia"
+  },
+  "report.kpi.participants": {
+    "en": "Participants",
+    "fa": "شرکت‌کننده",
+    "es": "Participantes"
+  },
+  "report.kpi.presentIncLate": {
+    "en": "Present (including late)",
+    "fa": "حاضر (شامل تأخیر)",
+    "es": "Presentes (incluyendo tardanzas)"
+  },
+  "report.kpi.scheduledMinutes": {
+    "en": "Scheduled duration",
+    "fa": "مدت زمان‌بندی‌شده",
+    "es": "Duración programada"
+  },
+  "report.kpi.totalMinutes": {
+    "en": "Total attendance minutes",
+    "fa": "مجموع دقایق حضور",
+    "es": "Minutos totales de asistencia"
+  },
+  "report.loading": {
+    "en": "Loading session report…",
+    "fa": "در حال بارگذاری گزارش جلسه…",
+    "es": "Cargando informe de sesión…"
+  },
+  "report.minutes": {
+    "en": "{value, number} min",
+    "fa": "{value, number} دقیقه",
+    "es": "{value, number} min"
+  },
+  "report.neverOpened": {
+    "en": "This session was not held (no host entry recorded).",
+    "fa": "این جلسه هرگز برگزار نشد؛ هیچ‌کس وارد نشد و حضورغیابی ثبت نشده است.",
+    "es": "Esta sesión no se celebró (no se registró ingreso del anfitrión)."
+  },
+  "report.noCourse": {
+    "en": "General Session",
+    "fa": "بدون درس مرتبط",
+    "es": "Sin curso asociado"
+  },
+  "report.noName": {
+    "en": "Untitled",
+    "fa": "بدون نام",
+    "es": "Sin título"
+  },
+  "report.parent.childrenTitle": {
+    "en": "Child(ren) Attendance",
+    "fa": "حضور فرزند(ان)",
+    "es": "Asistencia de hijos"
+  },
+  "report.parent.eyebrow": {
+    "en": "Live Class · Child Attendance Report",
+    "fa": "کلاس زنده · گزارش حضور فرزند",
+    "es": "Clase en vivo · Informe de asistencia de hijos"
+  },
+  "report.parent.helpBody": {
+    "en": "Per the access matrix, the session report only displays an attendance summary for your child(ren); class chat and speech transcripts are not visible to parents.",
+    "fa": "طبق ماتریس دسترسی، در گزارش جلسه فقط خلاصهٔ حضور فرزند(ان) شما نمایش داده می‌شود؛ گفت‌وگو و رونوشت گفتار کلاس برای والد قابل مشاهده نیست.",
+    "es": "Según la matriz de acceso, el informe solo muestra el resumen de asistencia de tus hijos; el chat y las transcripciones no son visibles para los padres."
+  },
+  "report.parent.helpTitle": {
+    "en": "Parent Report Guide",
+    "fa": "راهنمای گزارش والد",
+    "es": "Guía del informe para padres"
+  },
+  "report.parent.kpiChildren": {
+    "en": "Child linked to this session",
+    "fa": "فرزند مرتبط با این جلسه",
+    "es": "Hijo vinculado a esta sesión"
+  },
+  "report.parent.noChildren": {
+    "en": "None of your children are associated with this session.",
+    "fa": "فرزندی از شما با این جلسه مرتبط نیست.",
+    "es": "Ninguno de tus hijos está asociado con esta sesión."
+  },
+  "report.participants.empty": {
+    "en": "No one joined this session.",
+    "fa": "هیچ‌کس در این جلسه وارد نشد.",
+    "es": "No hay participantes registrados."
+  },
+  "report.participants.title": {
+    "en": "Participants",
+    "fa": "شرکت‌کنندگان",
+    "es": "Lista detallada de participantes"
+  },
+  "report.poll.ended": {
+    "en": "Ended",
+    "fa": "پایان‌یافته",
+    "es": "Finalizada"
+  },
+  "report.poll.multi": {
+    "en": " · Multiple choice",
+    "fa": " · چندگزینه‌ای",
+    "es": " · Opción múltiple"
+  },
+  "report.poll.open": {
+    "en": "Open",
+    "fa": "باز",
+    "es": "Abierta"
+  },
+  "report.poll.total": {
+    "en": "Total votes: {value, number}",
+    "fa": "مجموع آرا: {value, number}",
+    "es": "Votos totales: {value, number}"
+  },
+  "report.polls.title": {
+    "en": "Polls",
+    "fa": "نظرسنجی‌ها",
+    "es": "Encuestas realizadas"
+  },
+  "report.recording.duration": {
+    "en": " · {duration}",
+    "fa": " · {duration}",
+    "es": "Duración del video: {duration}"
+  },
+  "report.recording.none": {
+    "en": "Not available",
+    "fa": "موجود نیست",
+    "es": "No disponible"
+  },
+  "report.recording.play": {
+    "en": "Play recording",
+    "fa": "پخش ضبط",
+    "es": "Reproducir grabación"
+  },
+  "report.recording.processing": {
+    "en": "Processing…",
+    "fa": "در حال پردازش…",
+    "es": "Procesando grabación…"
+  },
+  "report.self.attendanceTitle": {
+    "en": "My Attendance",
+    "fa": "حضور من",
+    "es": "Mi asistencia"
+  },
+  "report.self.eyebrow": {
+    "en": "Live Class · Your Report for this Session",
+    "fa": "کلاس زنده · گزارش شما از این جلسه",
+    "es": "Clase en vivo · Tu informe de esta sesión"
+  },
+  "report.self.firstJoin": {
+    "en": "First joined:",
+    "fa": "اولین ورود:",
+    "es": "Primer ingreso:"
+  },
+  "report.self.helpBody": {
+    "en": "This is your personal session report: your own attendance, public chat, your recorded utterances, and public session content (polls and reactions). Other students' information is only shown to the instructor and authorized staff.",
+    "fa": "این نمای شخصیِ گزارش جلسه است: حضور خودتان، گفت‌وگوی عمومی، گفته‌های ثبت‌شدهٔ خودتان و محتوای عمومی جلسه (نظرسنجی‌ها و واکنش‌ها). اطلاعات سایر دانشجویان فقط برای استاد و کادر مجاز نمایش داده می‌شود.",
+    "es": "Este es tu informe personal de la sesión: tu propia asistencia, chat público, intervenciones registradas y contenido público (encuestas y reacciones)."
+  },
+  "report.self.helpTitle": {
+    "en": "Personal Report Guide",
+    "fa": "راهنمای گزارش شخصی",
+    "es": "Guía de tu informe personal"
+  },
+  "report.self.joinsLabel": {
+    "en": "Join count:",
+    "fa": "دفعات ورود:",
+    "es": "Conexiones a clase:"
+  },
+  "report.self.minutesLabel": {
+    "en": "Attendance time:",
+    "fa": "مدت حضور:",
+    "es": "Tu permanencia:"
+  },
+  "report.self.myTranscript": {
+    "en": "My Utterances",
+    "fa": "گفته‌های من",
+    "es": "Mis intervenciones de voz"
+  },
+  "report.self.myTranscriptEmpty": {
+    "en": "No speech recorded from you in this session (live captions/translation was not active or you did not speak).",
+    "fa": "گفتاری از شما در این جلسه ثبت نشده است (زیرنویس/ترجمهٔ زنده فعال نبوده یا صحبت نکرده‌اید).",
+    "es": "No se registraron intervenciones de voz tuyas."
+  },
+  "report.self.reactionsTitle": {
+    "en": "Session Reactions",
+    "fa": "واکنش‌های جلسه",
+    "es": "Tus reacciones"
+  },
+  "report.self.reactionsTotal": {
+    "en": "Total: {value, number}",
+    "fa": "مجموع: {value, number}",
+    "es": "Reacciones enviadas: {value, number}"
+  },
+  "report.self.recordingTitle": {
+    "en": "Session Recording",
+    "fa": "ضبط جلسه",
+    "es": "Grabación de la sesión"
+  },
+  "report.table.conn": {
+    "en": "Connection Type",
+    "fa": "نوع اتصال",
+    "es": "Conexión"
+  },
+  "report.table.firstJoin": {
+    "en": "First Joined",
+    "fa": "اولین ورود",
+    "es": "Primer ingreso"
+  },
+  "report.table.joins": {
+    "en": "Join Count",
+    "fa": "دفعات ورود",
+    "es": "Conexiones"
+  },
+  "report.table.minutes": {
+    "en": "Duration",
+    "fa": "مدت حضور",
+    "es": "Duración (min)"
+  },
+  "report.table.name": {
+    "en": "Name",
+    "fa": "نام",
+    "es": "Nombre"
+  },
+  "report.table.status": {
+    "en": "Status",
+    "fa": "وضعیت",
+    "es": "Estado"
+  },
+  "report.timeline.breakoutClose": {
+    "en": "Close breakout rooms",
+    "fa": "بستن اتاق‌های فرعی",
+    "es": "Salas cerradas"
+  },
+  "report.timeline.breakoutOpen": {
+    "en": "Open breakout rooms",
+    "fa": "باز شدن اتاق‌های فرعی",
+    "es": "Salas abiertas"
+  },
+  "report.timeline.hand": {
+    "en": "Hand raised",
+    "fa": "دست بلند شد",
+    "es": "Mano levantada"
+  },
+  "report.timeline.pollEnd": {
+    "en": "End poll",
+    "fa": "پایان نظرسنجی",
+    "es": "Encuesta finalizada"
+  },
+  "report.timeline.pollStart": {
+    "en": "Start poll",
+    "fa": "شروع نظرسنجی",
+    "es": "Encuesta iniciada"
+  },
+  "report.timing.actual": {
+    "en": "Actual Session",
+    "fa": "برگزاری واقعی",
+    "es": "Real: {value}"
+  },
+  "report.timing.late": {
+    "en": "Started {value, number} minutes late",
+    "fa": "با {value, number} دقیقه تأخیر شروع شد",
+    "es": "Tardanza: {value}"
+  },
+  "report.timing.notHeld": {
+    "en": "Not held",
+    "fa": "برگزار نشد",
+    "es": "No celebrada"
+  },
+  "report.timing.onTime": {
+    "en": "Started on time",
+    "fa": "به‌موقع شروع شد",
+    "es": "Puntual"
+  },
+  "report.timing.range": {
+    "en": "{start} to {end}",
+    "fa": "{start} تا {end}",
+    "es": "{start} a {end}"
+  },
+  "report.timing.scheduled": {
+    "en": "Scheduled",
+    "fa": "زمان‌بندی‌شده",
+    "es": "Programado: {value}"
+  },
+  "report.timing.title": {
+    "en": "Timing",
+    "fa": "زمان‌بندی",
+    "es": "Horario y duración"
+  },
+  "report.transcript.empty": {
+    "en": "No speech recorded for this session (live captions or translation was not active during the session).",
+    "fa": "گفتاری برای این جلسه ثبت نشده است (زیرنویس یا ترجمهٔ زنده در جلسه فعال نبوده).",
+    "es": "No hay transcripciones disponibles para esta sesión."
+  },
+  "report.transcript.title": {
+    "en": "Speech Transcript by Speaker",
+    "fa": "رونوشت گفتار به تفکیک گوینده",
+    "es": "Transcripción de voz atribuida"
+  },
+  "report.transcript.truncatedAll": {
+    "en": "Part of the transcript was omitted due to loading limits (counters are exact).",
+    "fa": "بخشی از گفتار به دلیل سقف بارگذاری در این نما نیامده است (شمارنده‌ها دقیق‌اند).",
+    "es": "Transcripción truncada por límite de visualización."
+  },
+  "report.transcript.truncatedSpeaker": {
+    "en": "Showing first {shown, number} utterances of {total, number} (display limit).",
+    "fa": "نمایش {shown, number} گفتهٔ نخست از {total, number} (سقف نمایش).",
+    "es": "Intervenciones adicionales no mostradas."
+  },
+  "report.transcript.utterances": {
+    "en": "{value, number} utterances",
+    "fa": "{value, number} گفته",
+    "es": "{count, number} intervenciones"
+  },
+  "report.unavailable": {
+    "en": "Session report is currently unavailable.",
+    "fa": "گزارش این جلسه در دسترس نیست.",
+    "es": "Informe no disponible"
+  },
+  "playback.back": {
+    "en": "Back to session report",
+    "fa": "بازگشت به گزارش جلسه",
+    "es": "Volver al informe de sesión"
+  },
+  "playback.chatTitle": {
+    "en": "Public Replay Chat",
+    "fa": "گفت‌وگوی عمومیِ بازپخش",
+    "es": "Chat de la reproducción"
+  },
+  "playback.archivedChatTitle": {
+    "en": "Archived Live Chat (Read-only)",
+    "fa": "گفت‌وگوی زندهٔ بایگانی‌شده (فقط خواندنی)",
+    "es": "Chat archivado de la clase (Solo lectura)"
+  },
+  "playback.replayChatTitle": {
+    "en": "New Replay Chat",
+    "fa": "گفت‌وگوی تازهٔ بازپخش",
+    "es": "Nuevo chat de reproducción"
+  },
+  "playback.replayChatMessageLabel": {
+    "en": "New replay message",
+    "fa": "پیام جدید بازپخش",
+    "es": "Nuevo mensaje en reproducción"
+  },
+  "playback.sendReplayChat": {
+    "en": "Post message at current timestamp",
+    "fa": "ثبت پیام در زمان فعلی",
+    "es": "Publicar mensaje en la marca de tiempo actual"
+  },
+  "playback.replayChatHidden": {
+    "en": "This message has been hidden from others",
+    "fa": "این پیام از دید دیگران پنهان شده است",
+    "es": "Este mensaje ha sido ocultado para otros"
+  },
+  "playback.replayChatHide": {
+    "en": "Hide message",
+    "fa": "پنهان‌کردن پیام",
+    "es": "Ocultar mensaje"
+  },
+  "playback.replayChatUnhide": {
+    "en": "Unhide message",
+    "fa": "بازگرداندن پیام",
+    "es": "Mostrar mensaje"
+  },
+  "playback.replayChatReportReason": {
+    "en": "Reason for reporting message",
+    "fa": "دلیل گزارش پیام",
+    "es": "Motivo del reporte del mensaje"
+  },
+  "playback.replayChatReport": {
+    "en": "Report message",
+    "fa": "گزارش پیام",
+    "es": "Reportar mensaje"
+  },
+  "playback.replayChatUnavailable": {
+    "en": "Replay chat is not available or action is not permitted.",
+    "fa": "گفت‌وگوی بازپخش در دسترس نیست یا عملیات مجاز نیست.",
+    "es": "El chat de reproducción no está disponible o la acción no está permitida."
+  },
+  "playback.loadMoreChat": {
+    "en": "Load older messages",
+    "fa": "نمایش پیام‌های قدیمی‌تر",
+    "es": "Cargar mensajes anteriores"
+  },
+  "playback.makeupTitle": {
+    "en": "Replay Make-up Attendance Credit",
+    "fa": "اعتبار حضور جبرانیِ بازپخش",
+    "es": "Crédito de asistencia por reproducción de recuperación"
+  },
+  "playback.makeupSeparateNotice": {
+    "en": "This credit is recorded following instructor review and does not alter historical attendance or grades.",
+    "fa": "این اعتبار پس از بررسی مدرس ثبت می‌شود و حضور تاریخی جلسه یا نمره را تغییر نمی‌دهد.",
+    "es": "Este crédito se registra tras la revisión del profesor y no altera las calificaciones ni la asistencia histórica."
+  },
+  "playback.makeupSessionLabel": {
+    "en": "Make-up session ID",
+    "fa": "شناسهٔ جلسهٔ واقعی جبران",
+    "es": "ID de sesión de recuperación"
+  },
+  "playback.makeupThresholdLabel": {
+    "en": "Minimum verified watch time (percentage)",
+    "fa": "حداقل تماشای تأییدشده (درصد)",
+    "es": "Tiempo mínimo verificado de visualización (porcentaje)"
+  },
+  "playback.makeupEnable": {
+    "en": "Enable make-up",
+    "fa": "فعال‌سازی جبران",
+    "es": "Habilitar recuperación"
+  },
+  "playback.makeupDisable": {
+    "en": "Disable make-up",
+    "fa": "غیرفعال‌سازی جبران",
+    "es": "Deshabilitar recuperación"
+  },
+  "playback.makeupThreshold": {
+    "en": "Required minimum watch time: {percent}%",
+    "fa": "حداقل تماشای لازم: {percent}٪",
+    "es": "Tiempo mínimo requerido de visualización: {percent}%"
+  },
+  "playback.makeupOpenSession": {
+    "en": "Go to make-up session replay",
+    "fa": "رفتن به بازپخش جلسهٔ جبران",
+    "es": "Ir a la reproducción de la sesión de recuperación"
+  },
+  "playback.makeupWatched": {
+    "en": "Server-recorded watch time: {percent}%",
+    "fa": "تماشای ثبت‌شده در سرور: {percent}٪",
+    "es": "Tiempo de visualización registrado por el servidor: {percent}%"
+  },
+  "playback.makeupReasonLabel": {
+    "en": "Reason for make-up request",
+    "fa": "دلیل درخواست جبران",
+    "es": "Motivo de la solicitud de recuperación"
+  },
+  "playback.makeupClaim": {
+    "en": "Submit make-up review request",
+    "fa": "ثبت درخواست بررسی جبران",
+    "es": "Enviar solicitud de revisión de recuperación"
+  },
+  "playback.makeupCreditStatus": {
+    "en": "Credit status: {status}",
+    "fa": "وضعیت اعتبار: {status}",
+    "es": "Estado del crédito: {status}"
+  },
+  "playback.makeupStudentLabel": {
+    "en": "Student",
+    "fa": "دانشجو",
+    "es": "Estudiante"
+  },
+  "playback.makeupDecisionReasonLabel": {
+    "en": "Instructor decision reason",
+    "fa": "دلیل تصمیم مدرس",
+    "es": "Motivo de la decisión del docente"
+  },
+  "playback.makeupConfirm": {
+    "en": "Confirm make-up credit",
+    "fa": "تأیید اعتبار جبران",
+    "es": "Confirmar crédito de recuperación"
+  },
+  "playback.makeupReverse": {
+    "en": "Manually reverse confirmed credit",
+    "fa": "برگشت دستیِ اعتبار تأییدشده",
+    "es": "Revertir manualmente el crédito confirmado"
+  },
+  "playback.makeupUnavailable": {
+    "en": "Make-up attendance action is not permitted or information is unavailable.",
+    "fa": "عملیات حضور جبرانی مجاز نیست یا اطلاعات آن در دسترس نیست.",
+    "es": "La acción de asistencia de recuperación no está permitida o la información no está disponible."
+  },
+  "playback.makeupStatus.pending": {
+    "en": "Pending approval",
+    "fa": "در انتظار تأیید",
+    "es": "Pendiente de aprobación"
+  },
+  "playback.makeupStatus.confirmed": {
+    "en": "Confirmed",
+    "fa": "تأییدشده",
+    "es": "Confirmado"
+  },
+  "playback.makeupStatus.cancelled": {
+    "en": "Cancelled",
+    "fa": "لغوشده",
+    "es": "Cancelado"
+  },
+  "playback.makeupStatus.reversed": {
+    "en": "Reversed",
+    "fa": "برگشت‌داده‌شده",
+    "es": "Revertido"
+  },
+  "playback.artifactsTitle": {
+    "en": "Post-class Persistent Shared Items",
+    "fa": "اشتراک‌های ماندگار پس از کلاس",
+    "es": "Archivos compartidos persistentes tras la clase"
+  },
+  "playback.artifactsAudienceNotice": {
+    "en": "These items are only visible to users with current access to this course and recording; screen shares are not saved.",
+    "fa": "این موارد فقط برای کاربران دارای دسترسی فعلی همین درس و ضبط دیده می‌شوند؛ اشتراک صفحه ذخیره نمی‌شود.",
+    "es": "Estos elementos solo son visibles para usuarios con acceso actual a este curso y grabación; las pantallas compartidas no se almacenan."
+  },
+  "playback.artifactsEnableLearners": {
+    "en": "Enable learner contributions",
+    "fa": "فعال‌کردن مشارکت یادگیرنده",
+    "es": "Habilitar aportes de estudiantes"
+  },
+  "playback.artifactsDisableLearners": {
+    "en": "Disable learner contributions",
+    "fa": "بستن مشارکت یادگیرنده",
+    "es": "Deshabilitar aportes de estudiantes"
+  },
+  "playback.artifactKindLabel": {
+    "en": "Content type",
+    "fa": "نوع محتوا",
+    "es": "Tipo de contenido"
+  },
+  "playback.artifactTitleLabel": {
+    "en": "Title",
+    "fa": "عنوان",
+    "es": "Título"
+  },
+  "playback.artifactWhiteboardLabel": {
+    "en": "Whiteboard textual snapshot",
+    "fa": "عکس‌وضعیت متنی وایت‌برد",
+    "es": "Captura textual de la pizarra"
+  },
+  "playback.artifactDocumentLabel": {
+    "en": "Course document ID",
+    "fa": "شناسهٔ سند همین درس",
+    "es": "ID del documento del curso"
+  },
+  "playback.artifactCreate": {
+    "en": "Save shared item",
+    "fa": "ثبت اشتراک",
+    "es": "Guardar elemento compartido"
+  },
+  "playback.artifactApprove": {
+    "en": "Approve publication",
+    "fa": "تأیید انتشار",
+    "es": "Aprobar publicación"
+  },
+  "playback.artifactHide": {
+    "en": "Hide",
+    "fa": "پنهان‌کردن",
+    "es": "Ocultar"
+  },
+  "playback.artifactUnavailable": {
+    "en": "Saving or managing this shared item is not permitted.",
+    "fa": "ثبت یا مدیریت این اشتراک مجاز نیست.",
+    "es": "No se permite gestionar este elemento."
+  },
+  "playback.artifactKind.pdf": {
+    "en": "PDF",
+    "fa": "PDF",
+    "es": "PDF"
+  },
+  "playback.artifactKind.whiteboard": {
+    "en": "Whiteboard",
+    "fa": "وایت‌برد",
+    "es": "Pizarra"
+  },
+  "playback.artifactKind.file_pin": {
+    "en": "Pinned file",
+    "fa": "سنجاق فایل",
+    "es": "Archivo fijado"
+  },
+  "playback.artifactStatus.pending": {
+    "en": "Awaiting instructor approval",
+    "fa": "در انتظار تأیید مدرس",
+    "es": "Esperando aprobación del docente"
+  },
+  "playback.artifactStatus.published": {
+    "en": "Published",
+    "fa": "منتشرشده",
+    "es": "Publicado"
+  },
+  "playback.artifactStatus.hidden": {
+    "en": "Hidden",
+    "fa": "پنهان‌شده",
+    "es": "Oculto"
+  },
+  "playback.notesTitle": {
+    "en": "My Timestamped Notes",
+    "fa": "یادداشت‌های زمان‌دار من",
+    "es": "Mis notas con marca de tiempo"
+  },
+  "playback.noteLabel": {
+    "en": "Note text",
+    "fa": "متن یادداشت",
+    "es": "Texto de la nota"
+  },
+  "playback.addNote": {
+    "en": "Add note at current time",
+    "fa": "ثبت یادداشت در زمان فعلی",
+    "es": "Añadir nota en este momento"
+  },
+  "playback.saveNote": {
+    "en": "Save edit",
+    "fa": "ذخیرهٔ ویرایش",
+    "es": "Guardar cambios"
+  },
+  "playback.editNote": {
+    "en": "Edit",
+    "fa": "ویرایش",
+    "es": "Editar"
+  },
+  "playback.deleteNote": {
+    "en": "Delete",
+    "fa": "حذف",
+    "es": "Eliminar"
+  },
+  "playback.seekNote": {
+    "en": "Jump to note timestamp",
+    "fa": "رفتن به زمان یادداشت",
+    "es": "Ir a la marca de tiempo de la nota"
+  },
+  "playback.questionsTitle": {
+    "en": "Replay Questions",
+    "fa": "پرسش‌های بازپخش",
+    "es": "Preguntas en la reproducción"
+  },
+  "playback.questionLabel": {
+    "en": "Timestamped question",
+    "fa": "پرسش زمان‌دار",
+    "es": "Pregunta con marca de tiempo"
+  },
+  "playback.askQuestion": {
+    "en": "Submit question",
+    "fa": "ثبت پرسش",
+    "es": "Enviar pregunta"
+  },
+  "playback.questionPublished": {
+    "en": "Published for class",
+    "fa": "منتشرشده برای کلاس",
+    "es": "Publicada para la clase"
+  },
+  "playback.questionOptIn": {
+    "en": "Consent to publish",
+    "fa": "اجازهٔ انتشار",
+    "es": "Autorizar publicación"
+  },
+  "playback.questionOptOut": {
+    "en": "Withdraw publication consent",
+    "fa": "لغو اجازهٔ انتشار",
+    "es": "Retirar autorización"
+  },
+  "playback.questionApprove": {
+    "en": "Approve publication",
+    "fa": "تأیید انتشار",
+    "es": "Aprobar publicación"
+  },
+  "playback.questionUnpublish": {
+    "en": "Unpublish",
+    "fa": "لغو انتشار",
+    "es": "Despublicar"
+  },
+  "playback.answerLabel": {
+    "en": "Official answer",
+    "fa": "پاسخ رسمی",
+    "es": "Respuesta oficial"
+  },
+  "playback.answerQuestion": {
+    "en": "Submit answer",
+    "fa": "ثبت پاسخ",
+    "es": "Enviar respuesta"
+  },
+  "playback.roomTitle": {
+    "en": "Group Watch Room",
+    "fa": "اتاقِ پخش گروهی",
+    "es": "Sala de visualización grupal"
+  },
+  "playback.createRoom": {
+    "en": "Create private room",
+    "fa": "ساخت اتاق خصوصی",
+    "es": "Crear sala privada"
+  },
+  "playback.roomIdLabel": {
+    "en": "Room ID",
+    "fa": "شناسهٔ اتاق",
+    "es": "ID de la sala"
+  },
+  "playback.joinRoom": {
+    "en": "Join room",
+    "fa": "پیوستن به اتاق",
+    "es": "Unirse a la sala"
+  },
+  "playback.roomUserLabel": {
+    "en": "User ID",
+    "fa": "شناسهٔ کاربر",
+    "es": "ID de usuario"
+  },
+  "playback.inviteRoom": {
+    "en": "Invite",
+    "fa": "دعوت",
+    "es": "Invitar"
+  },
+  "playback.offerHandover": {
+    "en": "Offer control handover",
+    "fa": "پیشنهاد واگذاری",
+    "es": "Ofrecer transferencia de control"
+  },
+  "playback.acceptHandover": {
+    "en": "Accept handover",
+    "fa": "پذیرش واگذاری",
+    "es": "Aceptar transferencia de control"
+  },
+  "playback.removeMember": {
+    "en": "Remove from room",
+    "fa": "حذف از اتاق",
+    "es": "Eliminar de la sala"
+  },
+  "playback.closeRoom": {
+    "en": "Close room",
+    "fa": "بستن اتاق",
+    "es": "Cerrar sala"
+  },
+  "playback.roomPlay": {
+    "en": "Play for all",
+    "fa": "پخش برای همه",
+    "es": "Reproducir para todos"
+  },
+  "playback.roomPause": {
+    "en": "Pause for all",
+    "fa": "توقف برای همه",
+    "es": "Pausar para todos"
+  },
+  "playback.roomSeek": {
+    "en": "Seek group playback to selected time",
+    "fa": "بردن پخش گروهی به زمان انتخابی",
+    "es": "Avanzar reproducción grupal al tiempo elegido"
+  },
+  "playback.roomUnavailable": {
+    "en": "Room is unavailable or you lack required permissions.",
+    "fa": "اتاق در دسترس نیست یا اجازهٔ لازم را ندارید.",
+    "es": "La sala no está disponible o careces de permisos."
+  },
+  "playback.roomWaiting": {
+    "en": "Waiting for room connection…",
+    "fa": "منتظر اتصال به اتاق…",
+    "es": "Esperando conexión con la sala…"
+  },
+  "playback.questionUnavailable": {
+    "en": "This action is not permitted or the question is no longer available.",
+    "fa": "این عملیات مجاز نیست یا پرسش دیگر در دسترس نیست.",
+    "es": "Acción no permitida o la pregunta ya no está disponible."
+  },
+  "playback.questionHide": {
+    "en": "Hide question",
+    "fa": "پنهان‌کردن پرسش",
+    "es": "Ocultar pregunta"
+  },
+  "playback.questionUnhide": {
+    "en": "Unhide question",
+    "fa": "بازگرداندن پرسش",
+    "es": "Mostrar pregunta"
+  },
+  "playback.questionHidden": {
+    "en": "Hidden from class",
+    "fa": "پنهان‌شده از کلاس",
+    "es": "Oculta para la clase"
+  },
+  "playback.questionReportReason": {
+    "en": "Reason for reporting question",
+    "fa": "دلیل گزارش پرسش",
+    "es": "Motivo del reporte"
+  },
+  "playback.questionReport": {
+    "en": "Report question",
+    "fa": "گزارش پرسش",
+    "es": "Reportar pregunta"
+  },
+  "playback.eyebrow": {
+    "en": "Interactive Replay",
+    "fa": "بازپخش تعاملی",
+    "es": "Reproducción interactiva"
+  },
+  "playback.loading": {
+    "en": "Preparing replay…",
+    "fa": "در حال آماده‌سازی بازپخش…",
+    "es": "Preparando reproducción…"
+  },
+  "playback.jump": {
+    "en": "Jump to this event",
+    "fa": "رفتن به این رخداد",
+    "es": "Saltar a este evento"
+  },
+  "playback.jumpToPoll": {
+    "en": "Jump to poll {question}",
+    "fa": "رفتن به نظرسنجی {question}",
+    "es": "Saltar a la encuesta {question}"
+  },
+  "playback.jumpToTableStart": {
+    "en": "Jump to table activity start",
+    "fa": "رفتن به زمان شروع فعالیت میزها",
+    "es": "Saltar al inicio de actividad en mesas"
+  },
+  "playback.jumpToTranscript": {
+    "en": "Jump to this transcript timestamp",
+    "fa": "رفتن به زمان این رونوشت",
+    "es": "Saltar a este momento de la transcripción"
+  },
+  "playback.speedLabel": {
+    "en": "Playback speed",
+    "fa": "سرعت پخش",
+    "es": "Velocidad de reproducción"
+  },
+  "playback.watchedProgress": {
+    "en": "Playback watched on this device: {percent}%",
+    "fa": "میزان تماشای این دستگاه: {percent}٪",
+    "es": "Reproducción vista en este dispositivo: {percent}%"
+  },
+  "playback.serverWatchEvidence": {
+    "en": "Server-recorded progress: {percent}%.",
+    "fa": "پیشرفت ثبت‌شده در سرور: {percent}٪.",
+    "es": "Progreso registrado por el servidor: {percent}%."
+  },
+  "playback.notAttendanceCredit": {
+    "en": "This value alone does not constitute attendance credit.",
+    "fa": "این مقدار به‌تنهایی اعتبار حضور نیست.",
+    "es": "Este valor por sí solo no otorga crédito de asistencia."
+  },
+  "playback.fullscreen": {
+    "en": "Fullscreen",
+    "fa": "نمایش تمام‌صفحه",
+    "es": "Pantalla completa"
+  },
+  "playback.captionsLabel": {
+    "en": "Session captions",
+    "fa": "زیرنویس جلسه",
+    "es": "Subtítulos de la sesión"
+  },
+  "playback.showCaptions": {
+    "en": "Show captions",
+    "fa": "نمایش زیرنویس",
+    "es": "Mostrar subtítulos"
+  },
+  "playback.hideCaptions": {
+    "en": "Hide captions",
+    "fa": "پنهان‌کردن زیرنویس",
+    "es": "Ocultar subtítulos"
+  },
+  "playback.me": {
+    "en": "Me",
+    "fa": "من",
+    "es": "Yo"
+  },
+  "playback.noMatches": {
+    "en": "No text found matching your search.",
+    "fa": "متنی مطابق جست‌وجوی شما پیدا نشد.",
+    "es": "No se encontró texto que coincida con tu búsqueda."
+  },
+  "playback.noRecording": {
+    "en": "No playback recording is available for this session.",
+    "fa": "ضبط آمادهٔ پخش برای این جلسه وجود ندارد.",
+    "es": "No hay grabación disponible para esta sesión."
+  },
+  "playback.open": {
+    "en": "Interactive Replay",
+    "fa": "بازپخش تعاملی",
+    "es": "Reproducción interactiva"
+  },
+  "playback.pollsTitle": {
+    "en": "Recorded Polls",
+    "fa": "نظرسنجی‌های ثبت‌شده",
+    "es": "Encuestas registradas"
+  },
+  "playback.pollNotReached": {
+    "en": "To answer, first reach this poll's timestamp in the replay.",
+    "fa": "برای پاسخ، ابتدا به زمان این نظرسنجی در بازپخش برسید.",
+    "es": "Para responder, avanza primero hasta la marca de tiempo de la encuesta."
+  },
+  "playback.pollAnswerFailed": {
+    "en": "Could not record replay answer; please try again.",
+    "fa": "ثبت پاسخ بازپخش ممکن نشد؛ دوباره تلاش کنید.",
+    "es": "No se pudo registrar la respuesta; inténtalo de nuevo."
+  },
+  "playback.searchLabel": {
+    "en": "Search transcript",
+    "fa": "جست‌وجو در رونوشت",
+    "es": "Buscar en transcripción"
+  },
+  "playback.searchPlaceholder": {
+    "en": "Search session speech…",
+    "fa": "جست‌وجو در گفتار جلسه…",
+    "es": "Buscar en el audio de la sesión…"
+  },
+  "playback.searchLoading": {
+    "en": "Searching transcript…",
+    "fa": "در حال جست‌وجوی رونوشت…",
+    "es": "Buscando en la transcripción…"
+  },
+  "playback.searchUnavailable": {
+    "en": "Transcript search is not permitted or temporarily unavailable.",
+    "fa": "جست‌وجوی رونوشت مجاز نیست یا موقتاً ممکن نشد.",
+    "es": "Búsqueda en transcripción no disponible."
+  },
+  "playback.loadMoreResults": {
+    "en": "Show more results",
+    "fa": "نمایش نتیجه‌های بیشتر",
+    "es": "Mostrar más resultados"
+  },
+  "playback.table": {
+    "en": "Table {id}",
+    "fa": "میز {id}",
+    "es": "Mesa {id}"
+  },
+  "playback.timelineLabel": {
+    "en": "Replay event timeline",
+    "fa": "نوار زمان رخدادهای بازپخش",
+    "es": "Línea de tiempo de eventos"
+  },
+  "playback.transcriptTitle": {
+    "en": "Searchable Transcript",
+    "fa": "رونوشت قابل جست‌وجو",
+    "es": "Transcripción interactiva"
+  },
+  "playback.downloadTranscript": {
+    "en": "Download transcript",
+    "fa": "دانلود رونوشت",
+    "es": "Descargar transcripción"
+  },
+  "playback.transcriptDownloadUnavailable": {
+    "en": "Transcript download is not permitted or temporarily unavailable.",
+    "fa": "دریافت رونوشت مجاز نیست یا موقتاً ممکن نشد.",
+    "es": "Descarga de transcripción no disponible."
+  },
+  "playback.unavailable": {
+    "en": "Replay for this session is unavailable.",
+    "fa": "بازپخش این جلسه در دسترس نیست.",
+    "es": "La reproducción para esta sesión no está disponible."
+  }
+}

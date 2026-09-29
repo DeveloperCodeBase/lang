@@ -1,0 +1,816 @@
+{
+  "aid": {
+    "active": {
+      "amount": {
+        "label": "Amount",
+        "value": "8,400,000 T"
+      },
+      "coverage": {
+        "label": "Tuition Coverage",
+        "value": "70%"
+      },
+      "label": "Your Active Financial Aid",
+      "status": {
+        "label": "Status",
+        "value": "Active"
+      },
+      "title": "Brilliant Talent Scholarship — Spring 2026 Semester",
+      "type": {
+        "label": "Type",
+        "value": "Repayable"
+      }
+    },
+    "apply": {
+      "ariaLabel": "Apply for {title}",
+      "button": "Apply",
+      "toast": {
+        "msg": "Your application for \"{title}\" is under review.",
+        "title": "Application Submitted"
+      }
+    },
+    "available": {
+      "title": "Available Scholarships"
+    },
+    "card": {
+      "capacity": "Capacity",
+      "criteria": "Criteria",
+      "deadline": "Deadline"
+    },
+    "hero": {
+      "eyebrow": "Financial Aid",
+      "lead": "12 active financial aids · 8 available scholarships",
+      "title": "Loans and Scholarships"
+    },
+    "screenLabel": "40 financial aids"
+  },
+  "alumni": {
+    "card": {
+      "cohort": "Cohort {year}",
+      "mentees": "{count, plural, one {# mentee} other {# mentees}}"
+    },
+    "hero": {
+      "demoNote": "The stats and mentors on this page are demo data — the real alumni network is not yet connected",
+      "eyebrow": "Alumni",
+      "lead": "12,400 alumni across 42 cities and 28 countries. A network of future mentors, collaborators, and employers.",
+      "title": "Alumni Network"
+    },
+    "mentor": {
+      "ariaLabel": "Request mentoring from {name}",
+      "full": "At Full Capacity",
+      "request": "Request Mentoring",
+      "toast": {
+        "msg": "Your request has been sent to {name}.",
+        "title": "Mentoring Request Sent"
+      }
+    },
+    "mentors": {
+      "title": "Find an Alumni Mentor"
+    },
+    "screenLabel": "42 alumni network",
+    "stats": {
+      "academia": {
+        "label": "In Universities Worldwide",
+        "value": "1,400"
+      },
+      "salary": {
+        "label": "Average Salary After 3 Years",
+        "value": "82M/mo"
+      },
+      "total": {
+        "label": "Total Alumni",
+        "value": "12.4K"
+      },
+      "unicorn": {
+        "label": "At unicorn companies",
+        "value": "2,800"
+      }
+    }
+  },
+  "attendance": {
+    "mine": {
+      "badge": {
+        "atRisk": "At risk of course drop",
+        "ok": "Status: Eligible"
+      },
+      "courseFallback": "Course",
+      "empty": "No attendance has been recorded for any course yet. Once the first session is held and attendance is recorded by the instructor, it will appear here.",
+      "emptyCta": "View My Courses",
+      "err": {
+        "generic": "An error occurred"
+      },
+      "eyebrow": "Education · Attendance",
+      "help": {
+        "body": "Unexcused absences exceeding {max} out of every {outOf} sessions, according to academic regulations, may lead to dropping the course. This page only provides warnings; the final decision regarding course drops rests with the academic office/instructor. If you see a warning, coordinate with your instructor or the academic office before reaching the threshold. Excused absences are not counted.",
+        "title": "Attendance Guide"
+      },
+      "kpi": {
+        "atRisk": "Courses near absence threshold",
+        "courses": "Courses with recorded attendance"
+      },
+      "lead": "Your attendance status in each course is based on sessions recorded by the instructor; you can see warnings here if you are approaching the permitted absence threshold ({max} out of {outOf} sessions).",
+      "legend": "Indicator line: Permitted threshold ({max} out of {outOf} sessions). Excused absences are not counted.",
+      "loading": "Loading...",
+      "meter": {
+        "label": "Unexcused absences",
+        "text": "{unexcused} of {total} sessions ({pct})"
+      },
+      "noSessions": "No sessions have been recorded for this course yet.",
+      "stat": {
+        "absent": "Absent",
+        "excused": "Excused",
+        "late": "Late",
+        "present": "Present",
+        "total": "Total sessions"
+      },
+      "thresholdTitle": "Permitted threshold ({max} of {outOf})",
+      "title": "My Attendance",
+      "warn": {
+        "body": "In {n} course(s), your unexcused absences have exceeded the allowed limit and you are at risk of being dropped from the course. Please coordinate with your instructor or the academic office as soon as possible. (The final decision rests with the academic office.)",
+        "title": "Absence threshold warning ({max}/{outOf})"
+      }
+    },
+    "parent": {
+      "bySectionTitle": "Attendance by Course",
+      "childFallback": "Student",
+      "emptyAttendance": "No attendance has been recorded for this child yet.",
+      "err": {
+        "children": "Failed to load children",
+        "data": "Failed to load attendance data"
+      },
+      "eyebrow": "Parent · Attendance",
+      "help": {
+        "body": "On this page, you can view your child's attendance status. If you have more than one child, use the buttons above to select the desired child to view their attendance rate by course and list of recent sessions.",
+        "title": "Child Attendance Guide"
+      },
+      "kpi": {
+        "absent": "Absences",
+        "present": "Present",
+        "rate": "Overall attendance rate",
+        "total": "Total sessions"
+      },
+      "lead": "Your child's attendance rate by course and recent session list.",
+      "loading": "Loading...",
+      "loadingData": "Loading attendance...",
+      "noChildren": "No child has been linked to your account yet. Please contact university support to link.",
+      "recentTitle": "Recent sessions",
+      "sectionRate": "{pct} ({attended}/{total})",
+      "table": {
+        "course": "Course",
+        "date": "Date",
+        "status": "Status"
+      },
+      "tally": {
+        "absent": "Absent: {n}",
+        "excused": "Excused: {n}",
+        "late": "Late: {n}",
+        "present": "Present: {n}"
+      },
+      "title": "Child's Attendance"
+    },
+    "roster": {
+      "courseUntitled": "Untitled",
+      "emptyRoster": "No students are enrolled in this course yet.",
+      "err": {
+        "generic": "An error occurred"
+      },
+      "eyebrow": "Instructor · Class Roster",
+      "file": "File",
+      "fileAria": "{name} file",
+      "gradeLabel": "Current Grade",
+      "help": {
+        "body": "This list is read from the grading system and only shows courses where you are the instructor. \"Current Grade\" is the grade recorded on the grade sheet; before recording, it is displayed as \"—\". Attendance percentage and assignments are not provided on this page.",
+        "title": "Help"
+      },
+      "kpi": {
+        "graded": "Graded",
+        "objections": "Open objections",
+        "total": "Total students",
+        "ungraded": "Ungraded"
+      },
+      "lead": "Enrolled students in each of your courses; view name, email, and current grade, along with search and sorting. To submit or announce grades, please visit the \"Grade Submission\" page.",
+      "loadingRoster": "Loading student roster...",
+      "loadingSections": "Loading courses...",
+      "noResults": "No students found matching this search.",
+      "noSections": "You have no courses (sections) this semester.",
+      "objectionOpen": "Open objection",
+      "optionNone": "— Select a course —",
+      "optionSection": "{course} · {n} students",
+      "pickPrompt": "Select a course from the list above to view the student roster.",
+      "pickerLabel": "Select course",
+      "retry": "Try again",
+      "searchAria": "Search student",
+      "searchPlaceholder": "Search name or email…",
+      "showing": "Showing {shown} of {total} students",
+      "sort": {
+        "grade": "Sort: Highest Grade",
+        "name": "Sort: Student Name"
+      },
+      "sortAria": "Sort",
+      "status": {
+        "graded": "Graded",
+        "ungraded": "Enrolled (Ungraded)"
+      },
+      "title": "Student Roster",
+      "unnamed": "Unnamed"
+    },
+    "status": {
+      "absent": "Absent",
+      "excused": "Excused",
+      "late": "Late",
+      "present": "Present",
+      "unset": "Unset"
+    },
+    "teacher": {
+      "bulk": {
+        "label": "All:"
+      },
+      "emptyRoster": "There are no students enrolled in \"{title}\".",
+      "emptyRosterNoSection": "There are no students.",
+      "err": {
+        "atRisk": "Failed to load absence status",
+        "roster": "Failed to load roster",
+        "save": "Failed to save attendance",
+        "sections": "Failed to load sections"
+      },
+      "eyebrow": "Instructor · Attendance",
+      "field": {
+        "date": "Session Date",
+        "section": "Section"
+      },
+      "help": {
+        "body": "On this page, you record student attendance for each class. First, select the section and session date; then, click on each student's status to cycle through present, absent, late, and excused (or use the \"All\" buttons to set everyone's status at once) and finally click \"Save\".",
+        "title": "Attendance Guide"
+      },
+      "kpi": {
+        "absent": "Absent",
+        "late": "Late",
+        "present": "Present",
+        "total": "Total"
+      },
+      "lead": "Select the section and session date and record student attendance.",
+      "loading": "Loading…",
+      "noSections": "No sections are assigned to you.",
+      "option": {
+        "section": "{code} — {title} (Group {group})"
+      },
+      "risk": {
+        "checking": "Checking absence status…",
+        "limit": "Limit: Unexcused absences exceeding {pct} of sessions ({sessions} recorded session{sessions, plural, one {} other {s}} so far)",
+        "listTitle": "Students at risk of exam debarment ({n})",
+        "none": "No students have exceeded the absence limit",
+        "over": "{n} student{n, plural, one {} other {s}} have exceeded the absence limit",
+        "presence": "{pct} attendance",
+        "unavailable": "Attendance status is not available.",
+        "unexcused": "{n, plural, one {{n} unexcused absence} other {{n} unexcused absences}}",
+        "warnOnly": "— Warning only; course drop is decided by the instructor/commission."
+      },
+      "rosterLoading": "Loading roster…",
+      "row": {
+        "file": "File",
+        "fileAria": "{name}'s file",
+        "presence": "Attendance: {pct}",
+        "presenceDetail": "Attendance: {pct} ({present} out of {total} sessions)",
+        "presenceTitle": "Attendance in {sessions} recorded sessions",
+        "riskBadge": "At risk of bar · {n, plural, one {{n} absence} other {{n} absences}}",
+        "riskTitle": "Excessive absences ({pct}) — Warning only, not automatic drop",
+        "statusAria": "Status of {name}"
+      },
+      "save": "Save",
+      "saved": "✓ Attendance saved — you can select the next class or another date, or view the at-risk roster on this same page",
+      "title": "Attendance"
+    }
+  },
+  "career": {
+    "apply": {
+      "ariaLabel": "Apply for position at {company}",
+      "button": "Apply",
+      "toast": {
+        "msg": "Your application for the position at {company} has been submitted.",
+        "title": "Application Submitted"
+      }
+    },
+    "card": {
+      "match": "{pct, number}% match"
+    },
+    "filters": {
+      "experience": {
+        "junior": "Junior",
+        "mid": "Mid-level",
+        "senior": "Senior",
+        "student": "Student",
+        "title": "Experience"
+      },
+      "type": {
+        "fullTime": "Full-time",
+        "internship": "Internship",
+        "partTime": "Part-time",
+        "project": "Project-based",
+        "remote": "Remote",
+        "title": "Type"
+      }
+    },
+    "hero": {
+      "eyebrow": "Career Services",
+      "lead": "482 active positions · 234 partner companies · Average hiring time: 34 days",
+      "title": "Career and Internship Center"
+    },
+    "match": {
+      "body": "AI finds suitable positions based on your skills, courses, projects, and interests.",
+      "resumeButton": "Update Resume",
+      "title": "23 positions matching your profile",
+      "toast": {
+        "msg": "The results have been listed below.",
+        "title": "23 Profile-Matching Positions"
+      },
+      "viewButton": "View Matches"
+    },
+    "save": {
+      "ariaLabel": "Add to favorites",
+      "title": "Save",
+      "toast": "Added to favorites"
+    },
+    "screenLabel": "39 career services"
+  },
+  "degree": {
+    "card": {
+      "credits": "{n, plural, one {{n, number} credit} other {{n, number} credits}}"
+    },
+    "categories": {
+      "core": {
+        "courses": {
+          "advancedMath": "Advanced Mathematics",
+          "bayesianStats": "Bayesian Statistics",
+          "dataStructures": "Advanced Data Structures",
+          "mlFoundations": "Machine Learning Foundations",
+          "optimisation": "Computational Optimization",
+          "researchMethods": "Advanced Research Methods"
+        },
+        "title": "Core and Required Courses"
+      },
+      "elective": {
+        "courses": {
+          "aiEthics": "AI Ethics",
+          "innovation": "Innovation and Startup",
+          "language": "Specialized Language",
+          "seminar": "Specialized Seminar"
+        },
+        "title": "Elective"
+      },
+      "major": {
+        "courses": {
+          "appliedAi": "Applied AI",
+          "deepLearning": "Deep Learning",
+          "nlp": "Natural Language Processing",
+          "recommenders": "Recommender Systems",
+          "vision": "Computer Vision"
+        },
+        "title": "Major and Specialization Courses"
+      },
+      "thesis": {
+        "courses": {
+          "defence": "Final Defense",
+          "dissertation": "Dissertation (1 to 6)",
+          "proposal": "Thesis Proposal",
+          "seminarOne": "Seminar 1",
+          "seminarTwo": "Seminar 2"
+        },
+        "title": "Thesis and Seminar"
+      }
+    },
+    "hero": {
+      "eyebrow": "Degree Progress",
+      "lead": "Master of Science in Data Science · 48 credits completed out of 120",
+      "title": "Degree Pathway"
+    },
+    "progress": {
+      "earned": "48 credits earned",
+      "estimate": "Estimated Graduation: July 2027",
+      "percent": "40%",
+      "title": "Overall Progress"
+    },
+    "screenLabel": "37 Degree Pathway"
+  },
+  "gradebook": {
+    "mine": {
+      "badge": {
+        "answered": "Answered",
+        "awaitingReply": "Awaiting Reply",
+        "final": "Final",
+        "provisional": "Provisional"
+      },
+      "courseFallback": "Course",
+      "dialog": {
+        "cancel": "Cancel",
+        "close": "Close",
+        "counter": "{len} / {max} characters (minimum {min})",
+        "errLength": "The objection text must be between {min} and {max} characters",
+        "placeholder": "Write the reason for your objection to the posted grade...",
+        "submit": "Submit Objection",
+        "textLabel": "Objection Text",
+        "title": "Submit Grade Objection"
+      },
+      "empty": "No grades have been posted yet. Once the instructor posts a grade, it will appear here.",
+      "errGeneric": "An error occurred",
+      "eyebrow": "Academics · Grades",
+      "gradeFinalized": "This grade has been finalized.",
+      "helpBody": "Here you can see the posted grades for each course. If a grade is provisional and the objection window is open, you can use the \"Submit Objection\" button to contest the grade and view the instructor's response right here.",
+      "helpTitle": "Grades and Objections Guide",
+      "instructorReply": "Instructor Response",
+      "kpi": {
+        "announced": "Courses with Posted Grades",
+        "final": "Final Grade",
+        "openWindow": "Open Objection Window"
+      },
+      "lead": "Your posted grades; you can submit an objection to provisional grades before the deadline expires.",
+      "loading": "Loading...",
+      "objectionDeadline": "Objection Deadline",
+      "outOf": "out of {max}",
+      "title": "Grades & Objections",
+      "viewMyCourses": "View My Courses",
+      "windowClosed": "The objection window has closed.",
+      "yourObjection": "Your Objection"
+    },
+    "parent": {
+      "colCode": "Code",
+      "colCourse": "Course",
+      "colCredits": "Credits",
+      "colGrade": "Grade",
+      "errLoadChildren": "Failed to load children",
+      "errLoadGrades": "Failed to load grades",
+      "eyebrow": "Parent · Grades",
+      "gpaTrend": "Term GPA Trend",
+      "helpBody": "On this page, you can view your child's academic transcript, including term GPA, cumulative GPA, and grade trends. If you have more than one child, select the desired child from the top, then use the term buttons to view the course grades for each term.",
+      "helpTitle": "Child's Grades Guide",
+      "inProgress": "In Progress",
+      "kpi": {
+        "courseCount": "Enrolled Courses",
+        "cumulativeGpa": "Cumulative GPA",
+        "field": "Major",
+        "totalCredits": "Total Credits"
+      },
+      "lead": "Your child's academic transcript, term GPA, and cumulative GPA.",
+      "loading": "Loading...",
+      "loadingGrades": "Loading grades...",
+      "noChildren": "No children are currently linked to your account. Please contact university support to link an account.",
+      "noGrades": "No grades have been recorded for this child yet.",
+      "studentFallback": "Student",
+      "termGpaLabel": "Term GPA:",
+      "title": "Child's Grades and Transcript"
+    },
+    "teacher": {
+      "backToCourses": "← All Courses",
+      "class": {
+        "buildAssessment": "Create Assessment",
+        "colAverage": "Average",
+        "colStudent": "Student",
+        "emptyStudents": "There are no active students in this course.",
+        "errLoad": "Failed to load the gradebook",
+        "profile": "Profile",
+        "profileOf": "{name}'s Profile",
+        "title": "Gradebook: {course}"
+      },
+      "kind": {
+        "exercise": "Exercise",
+        "quiz": "Quiz"
+      },
+      "loading": "Loading...",
+      "noPublishedAssessments": "No published assessments yet.",
+      "picker": {
+        "colActions": "Actions",
+        "colCode": "Code",
+        "colTitle": "Title",
+        "empty": "No courses found.",
+        "errLoad": "Failed to load courses",
+        "eyebrow": "Gradebook",
+        "helpBody": "Select a course from the list to view its grades. If you are an instructor or manager, you will see the transcripts of all students in the course; if you are a student, your own grades and feedback will be displayed.",
+        "helpTitle": "Gradebook Guide",
+        "lead": "Select a course to view grades.",
+        "title": "Gradebook",
+        "viewGrades": "Grades →"
+      },
+      "self": {
+        "averageLabel": "Average:",
+        "colAssessment": "Assessment",
+        "colFeedback": "Feedback",
+        "colGrade": "Grade",
+        "colKind": "Type",
+        "errLoad": "Failed to load grades",
+        "title": "My Grades: {course}"
+      }
+    }
+  },
+  "hackathons": {
+    "card": {
+      "ariaLabel": "{title} competition details",
+      "details": "Details →",
+      "toastMsg": "{kind} · Prize: {prize} · Deadline: {deadline}",
+      "until": "Until {deadline}"
+    },
+    "featured": {
+      "badge": "Featured Competition",
+      "body": "Build AI tools to help doctors and patients. 48 hours of teamwork, with mentoring from specialists in Shiraz and Mayo Clinic.",
+      "date": {
+        "label": "Date",
+        "value": "September 19-21"
+      },
+      "duration": "48 hours",
+      "findTeammate": "Find Teammate",
+      "prize": {
+        "label": "First Prize",
+        "value": "800M Tomans"
+      },
+      "registerButton": "Team Registration",
+      "registerBy": {
+        "label": "Register By",
+        "value": "September 11"
+      },
+      "registerToast": {
+        "msg": "The team registration form is loading.",
+        "title": "Team Registration"
+      },
+      "teamSize": "Teams of up to 5",
+      "title": "National Health AI Hackathon 2026"
+    },
+    "hero": {
+      "demoNote": "The competitions and prizes listed on this page are for demonstration only — actual registration is not connected",
+      "eyebrow": "Competitions",
+      "lead": "12 active competitions · Total prizes 2.4 billion Tomans · Career opportunities for top performers",
+      "title": "Hackathons and Competitions"
+    },
+    "others": {
+      "title": "Other Competitions"
+    },
+    "screenLabel": "43 Competitions"
+  },
+  "honorCode": {
+    "screenLabel": "44 Honor Code"
+  },
+  "registration": {
+    "actions": {
+      "add": "Add",
+      "full": "Full",
+      "remove": "Remove"
+    },
+    "aiHint": {
+      "body": "Based on your degree path and previous performance, I recommend \"Reinforcement Learning\" to advance your research.",
+      "label": "AI Recommendation"
+    },
+    "cart": {
+      "courseCount": "Number of Courses",
+      "limits": "Min 9 credits · Max 24 credits in the summer semester",
+      "submit": "Finalize Registration",
+      "title": "Registration Cart",
+      "totalCredits": "Total Credits"
+    },
+    "confirm": {
+      "body": "{courses, number} course(s) with a total of {credits, number} credits will be registered. After confirmation, Add/Drop is possible during the first 2 weeks of the semester.",
+      "confirmLabel": "Final Confirmation",
+      "title": "Finalize Registration",
+      "toast": {
+        "msg": "Your summer term schedule has been confirmed.",
+        "title": "Registration Finalized"
+      }
+    },
+    "course": {
+      "capacity": "Capacity: {enrolled, number} / {capacity, number}",
+      "credits": "{n, number} credits",
+      "prereq": "Prerequisite: {code}"
+    },
+    "courses": {
+      "cs580": {
+        "day": "Sunday 14:00",
+        "prof": "M. Kiani",
+        "title": "Scalable Systems Architecture"
+      },
+      "cs650": {
+        "day": "Monday 16:00",
+        "prof": "Dr. Azimi",
+        "title": "Reinforcement Learning"
+      },
+      "cs720": {
+        "day": "Tuesday 10:00",
+        "prof": "Dr. Taheri",
+        "title": "Explainable Artificial Intelligence"
+      },
+      "mgmt410": {
+        "day": "Thursday 10:00",
+        "prof": "Dr. Razavi",
+        "title": "Innovation and Entrepreneurship"
+      },
+      "res601": {
+        "day": "Flexible",
+        "prof": "Advisor",
+        "title": "Thesis Proposal"
+      },
+      "stat540": {
+        "day": "Wednesday 14:00",
+        "prof": "Dr. Farhadi",
+        "title": "Nonparametric Statistics"
+      }
+    },
+    "filters": {
+      "all": "All",
+      "ariaLabel": "Filter Courses",
+      "elective": "Elective",
+      "major": "Major",
+      "noConflict": "No Conflict",
+      "open": "Open",
+      "required": "Required"
+    },
+    "hero": {
+      "eyebrow": "Summer 1405 Term Registration",
+      "lead": "Registration Window: Shahrivar 5 - 20 · Add/Drop Period: First 2 weeks of the term",
+      "title": "Course Selection"
+    },
+    "screenLabel": "38 Registration"
+  },
+  "sectionInstructor": {
+    "assign": {
+      "close": "Close",
+      "empty": "No instructor found. Please add them from the \"Instructors\" section first.",
+      "load": "Load: {n} classes",
+      "none": "No instructor (Unassigned)",
+      "subtitle": "{title} · Section {group}",
+      "title": "Assign Instructor"
+    },
+    "capacity": "{enrolled}/{capacity} capacity",
+    "cta": {
+      "assign": "Assign Instructor",
+      "assistants": "Teaching Assistant",
+      "change": "Change Instructor"
+    },
+    "day": {
+      "fri": "Friday",
+      "mon": "Monday",
+      "sat": "Saturday",
+      "sun": "Sunday",
+      "thu": "Thursday",
+      "tue": "Tuesday",
+      "wed": "Wednesday"
+    },
+    "emptySections": "No classes have been registered for this semester. First, create a class from \"Course Offerings\".",
+    "errGeneric": "An error occurred",
+    "eyebrow": "Academics · Instructor Assignment",
+    "filter": {
+      "all": "All",
+      "assigned": "Assigned",
+      "unassigned": "Unassigned"
+    },
+    "help": {
+      "body": "First, select the semester. Each row is a \"class\" (a section of a course); click \"Assign / Change\" and select the instructor. Each instructor's teaching load (number of classes) is shown next to their name. Classes are created in \"Course Offerings / Sectioning\"; here you only assign the instructor. With \"Teaching Assistant\", you can add one or more TAs to the class; the TA gains access to the student roster and class analytics, and can enter grades as drafts, but final grade submission is restricted to the instructor.",
+      "title": "Instructor Assignment Guide"
+    },
+    "instructorFallback": "Instructor",
+    "kpi": {
+      "assigned": "Assigned",
+      "instructors": "Instructors",
+      "sections": "Classes",
+      "unassigned": "Unassigned"
+    },
+    "lead": "Select the responsible instructor for each course class (section) in the semester.",
+    "loading": "Loading...",
+    "noSchedule": "No schedule recorded",
+    "rank": {
+      "ASSISTANT": "Assistant Professor",
+      "ASSOCIATE": "Associate Professor",
+      "EMERITUS": "Professor Emeritus",
+      "FULL": "Full Professor"
+    },
+    "sectionMeta": "({code} · Section {group} · {credits} credits)",
+    "ta": {
+      "add": "+ Add Teaching Assistant...",
+      "close": "Close",
+      "dialogLabel": "Manage Teaching Assistant",
+      "empty": "No teaching assistant has been assigned to this class yet.",
+      "loading": "Loading...",
+      "note1": "The teaching assistant gains access to the student roster and analytics for this class, and can record grades as ",
+      "note2": ". Final submission of grades is restricted to the course instructor.",
+      "noteDraft": "Draft",
+      "pickerTitle": "Select Teaching Assistant",
+      "remove": "Remove",
+      "removeAria": "Remove teaching assistant {name}",
+      "retry": "Try again",
+      "subtitle": "{title} · Group {group}",
+      "title": "Teaching Assistant"
+    },
+    "termCurrent": " (Current)",
+    "title": "Assign Instructor to Classes",
+    "toast": {
+      "assignFailed": "Assignment failed"
+    },
+    "unassigned": "Unassigned"
+  },
+  "transcript": {
+    "actions": {
+      "pdf": "Official PDF",
+      "verify": "Digital Verification"
+    },
+    "download": {
+      "toast": {
+        "msg": "The transcript PDF file is ready.",
+        "title": "Downloading"
+      }
+    },
+    "help": {
+      "body": "This page shows your official transcript broken down by term and course. Click \"Official PDF\" to get the official version, and \"Digital Verification\" for valid inquiry.",
+      "title": "Transcript Guide"
+    },
+    "hero": {
+      "eyebrow": "Official Transcript",
+      "lead": "Nasrin Razavi · Code 84-02-17 · Master of Data Science · Term 2",
+      "title": "Official Transcript"
+    },
+    "screenLabel": "36 Transcript",
+    "semester": {
+      "creditsLabel": "Credits"
+    },
+    "summary": {
+      "current": {
+        "label": "Current Credits",
+        "value": "18"
+      },
+      "earned": {
+        "label": "Credits Earned",
+        "value": "48 of 120"
+      },
+      "gpa": {
+        "label": "Cumulative GPA",
+        "value": "3.82"
+      },
+      "level": {
+        "label": "Level",
+        "value": "Master's"
+      },
+      "standing": {
+        "label": "Standing",
+        "value": "Honors"
+      }
+    },
+    "table": {
+      "code": "Code",
+      "credits": "Credits",
+      "grade": "Grade",
+      "professor": "Instructor",
+      "score": "Score",
+      "title": "Course Title"
+    }
+  },
+  "wellness": {
+    "crisis": {
+      "toast": {
+        "msg": "An operator will contact you shortly.",
+        "title": "Crisis Line Active"
+      }
+    },
+    "hero": {
+      "eyebrow": "Student Wellness",
+      "lead": "Student life comes with its own pressures. We are here for you — psychological counseling, stress management, and an intelligent companion for tough days. Everything is confidential.",
+      "title": "Mind and Body Health"
+    },
+    "resources": {
+      "items": {
+        "examAnxiety": "Exam Anxiety Management Guide",
+        "facultyTalk": "How to Have Constructive Conversations with Faculty",
+        "mindfulness": "5-Minute Mindfulness Exercises",
+        "pomodoro": "Pomodoro Techniques for Focus",
+        "sleep": "Healthy Sleep for Students",
+        "workLifeBalance": "Work-Study Balance Management"
+      },
+      "title": "Resources",
+      "toastMsg": "The educational resource was added to your personal archive."
+    },
+    "screenLabel": "41 Health",
+    "services": {
+      "ai": {
+        "cta": "Start Chat",
+        "desc": "Confidential chat with trained AI",
+        "title": "24/7 AI Companion"
+      },
+      "crisis": {
+        "cta": "Emergency Call",
+        "desc": "If you are in a crisis situation",
+        "title": "24/7 Crisis Helpline"
+      },
+      "individual": {
+        "cta": "Book Session",
+        "desc": "Confidential session with a psychologist",
+        "title": "Individual Counseling"
+      },
+      "peer": {
+        "cta": "Join Group",
+        "desc": "Chat with peers in a safe space",
+        "title": "Peer Support Groups"
+      },
+      "selfCheck": {
+        "cta": "Start Test",
+        "desc": "PHQ-9, GAD-7, Stress",
+        "title": "Self-Assessment Test"
+      },
+      "timeSleep": {
+        "cta": "Start Program",
+        "desc": "Tools and habit building",
+        "title": "Time and Sleep Management"
+      }
+    }
+  }
+}

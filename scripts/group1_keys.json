@@ -1,0 +1,1714 @@
+{
+  "analytics.anonymous": {
+    "en": "User",
+    "fa": "کاربر"
+  },
+  "analytics.attendance.absentChip": {
+    "en": "✗ Absent {count, number}",
+    "fa": "✗ غایب {count, number}"
+  },
+  "analytics.attendance.absentLabel": {
+    "en": "Absent",
+    "fa": "غایب"
+  },
+  "analytics.attendance.avatarFallback": {
+    "en": "?",
+    "fa": "؟"
+  },
+  "analytics.attendance.duration": {
+    "en": "Duration: {value}",
+    "fa": "مدت: {value}"
+  },
+  "analytics.attendance.empty": {
+    "en": "No attendance recorded yet. As participants join, they will appear here.",
+    "fa": "هنوز ورود حضوری ثبت نشده است. با پیوستن شرکت‌کنندگان، اینجا نمایش داده می‌شود."
+  },
+  "analytics.attendance.excusedChip": {
+    "en": "Excused {count, number}",
+    "fa": "موجه {count, number}"
+  },
+  "analytics.attendance.excusedLabel": {
+    "en": "Excused",
+    "fa": "موجه"
+  },
+  "analytics.attendance.finalized": {
+    "en": "Finalized",
+    "fa": "قطعی‌شده"
+  },
+  "analytics.attendance.inClass": {
+    "en": "In class",
+    "fa": "در کلاس"
+  },
+  "analytics.attendance.joinedAt": {
+    "en": "Joined: {time}",
+    "fa": "ورود: {time}"
+  },
+  "analytics.attendance.lateChip": {
+    "en": "⏰ Late {count, number}",
+    "fa": "⏰ تأخیر {count, number}"
+  },
+  "analytics.attendance.lateLabel": {
+    "en": "Late",
+    "fa": "با تأخیر"
+  },
+  "analytics.attendance.left": {
+    "en": "Left",
+    "fa": "خارج شده"
+  },
+  "analytics.attendance.loading": {
+    "en": "Loading attendance…",
+    "fa": "در حال بارگذاری حضور…"
+  },
+  "analytics.attendance.neverOpened": {
+    "en": "This session was not held (no attendance recorded).",
+    "fa": "این جلسه برگزار نشد (حضوری ثبت نشده)."
+  },
+  "analytics.attendance.presentChip": {
+    "en": "✓ Present {count, number}",
+    "fa": "✓ حاضر {count, number}"
+  },
+  "analytics.attendance.presentLabel": {
+    "en": "Present",
+    "fa": "حاضر"
+  },
+  "analytics.attendance.provisional": {
+    "en": "Provisional (until class ends)",
+    "fa": "موقت (تا پایان کلاس)"
+  },
+  "analytics.attendance.refreshNote": {
+    "en": "{count, number} people · Updates every {seconds, number} seconds",
+    "fa": "{count, number} نفر · هر {seconds, number} ثانیه به‌روزرسانی"
+  },
+  "analytics.attendance.stillPresent": {
+    "en": " (Currently attending)",
+    "fa": " (در حال حضور)"
+  },
+  "analytics.attendance.title": {
+    "en": "Attendance List",
+    "fa": "فهرست حضور"
+  },
+  "analytics.duration.hours": {
+    "en": "{count, number} hours",
+    "fa": "{count, number} ساعت"
+  },
+  "analytics.duration.hoursMinutes": {
+    "en": "{hours, number} hours and {minutes, number} minutes",
+    "fa": "{hours, number} ساعت و {minutes, number} دقیقه"
+  },
+  "analytics.duration.lessThanMinute": {
+    "en": "Less than 1 minute",
+    "fa": "کمتر از ۱ دقیقه"
+  },
+  "analytics.duration.minutes": {
+    "en": "{count, number} minutes",
+    "fa": "{count, number} دقیقه"
+  },
+  "analytics.error.attendance": {
+    "en": "Could not retrieve attendance list. This section is only available to the host.",
+    "fa": "دریافت فهرست حضور ممکن نشد. این بخش فقط برای میزبان در دسترس است."
+  },
+  "analytics.participation.aria": {
+    "en": "Microphone open {on, number} of {total, number}",
+    "fa": "میکروفون باز {on, number} از {total, number}"
+  },
+  "analytics.participation.empty": {
+    "en": "No one is in the class yet.",
+    "fa": "هنوز کسی در کلاس حاضر نیست."
+  },
+  "analytics.participation.muted": {
+    "en": "Muted: {count, number}",
+    "fa": "بی‌صدا: {count, number}"
+  },
+  "analytics.participation.on": {
+    "en": "Open: {count, number} ({pct, number}%)",
+    "fa": "باز: {count, number} ({pct, number}٪)"
+  },
+  "analytics.participation.title": {
+    "en": "Audio Participation",
+    "fa": "مشارکت صوتی"
+  },
+  "analytics.poll.active": {
+    "en": "A poll is currently active",
+    "fa": "یک نظرسنجی فعال است"
+  },
+  "analytics.poll.idle": {
+    "en": "No active polls",
+    "fa": "نظرسنجی فعالی نیست"
+  },
+  "analytics.stat.chat": {
+    "en": "Chat messages",
+    "fa": "پیام چت"
+  },
+  "analytics.stat.hands": {
+    "en": "Hands raised",
+    "fa": "دست بالا"
+  },
+  "analytics.stat.micOn": {
+    "en": "Open mics",
+    "fa": "میکروفون باز"
+  },
+  "analytics.stat.present": {
+    "en": "Currently present",
+    "fa": "حاضر اکنون"
+  },
+  "assistant.chip.example": {
+    "en": "Give an example",
+    "fa": "یک مثال بزن"
+  },
+  "assistant.chip.practice": {
+    "en": "Create practice question",
+    "fa": "سؤال تمرینی بساز"
+  },
+  "assistant.chip.quiz": {
+    "en": "Design a short quiz with answers",
+    "fa": "یک کوییز کوتاه با پاسخ طراحی کن"
+  },
+  "assistant.chip.summarize": {
+    "en": "Summarize this topic",
+    "fa": "این مبحث را خلاصه کن"
+  },
+  "assistant.error.createSession": {
+    "en": "Failed to create assistant conversation.",
+    "fa": "ایجاد گفت‌وگوی دستیار ناموفق بود."
+  },
+  "assistant.hostMode": {
+    "en": "Instructor Mode — Questions and exercise design",
+    "fa": "حالت مدرس — پرسش و طراحی تمرین"
+  },
+  "assistant.inputLabel": {
+    "en": "Ask Smart Assistant",
+    "fa": "پرسش از دستیار هوشمند"
+  },
+  "assistant.intro": {
+    "en": "Ask about the class topic — answers come from course materials (RAG).",
+    "fa": "دربارهٔ مبحث کلاس بپرسید — پاسخ از منابع درسی (RAG) می‌آید."
+  },
+  "assistant.introHost": {
+    "en": " As an instructor, you can also generate exercises and quizzes.",
+    "fa": " به‌عنوان مدرس می‌توانید تمرین و کوییز هم بسازید."
+  },
+  "assistant.label": {
+    "en": "Smart Assistant",
+    "fa": "دستیار هوشمند"
+  },
+  "assistant.noAnswer": {
+    "en": "No response received. Please ask again.",
+    "fa": "پاسخی دریافت نشد. دوباره بپرسید."
+  },
+  "assistant.placeholder": {
+    "en": "Type your question…",
+    "fa": "پرسش خود را بنویسید…"
+  },
+  "assistant.questionCount": {
+    "en": "{count, number} questions",
+    "fa": "{count, number} پرسش"
+  },
+  "assistant.send": {
+    "en": "Send question",
+    "fa": "ارسال پرسش"
+  },
+  "assistant.sendShort": {
+    "en": "Send",
+    "fa": "ارسال"
+  },
+  "assistant.sessionTitle": {
+    "en": "Live Class — {name}",
+    "fa": "کلاس زنده — {name}"
+  },
+  "assistant.source": {
+    "en": "Source",
+    "fa": "منبع"
+  },
+  "assistant.sources": {
+    "en": "Sources ({count, number})",
+    "fa": "منابع ({count, number})"
+  },
+  "assistant.title": {
+    "en": "Class Smart Assistant",
+    "fa": "دستیار هوشمند کلاس"
+  },
+  "assistant.typing": {
+    "en": "Writing response…",
+    "fa": "در حال نوشتن پاسخ…"
+  },
+  "atoms.captions.etaTradeoff": {
+    "en": "If η is too large, the cost function diverges; if too small, convergence is slow.",
+    "fa": "اگر η خیلی بزرگ باشد، تابع هزینه واگرا می‌شود و اگر کوچک باشد، همگرایی کند است."
+  },
+  "atoms.captions.fasterNoisier": {
+    "en": "This causes updates to be faster but more oscillating.",
+    "fa": "این موضوع باعث می‌شود به‌روزرسانی‌ها سریع‌تر اما نوسانی‌تر باشند."
+  },
+  "atoms.captions.lrAnswer": {
+    "en": "Good question. We typically combine it with a Learning Rate Scheduler or Adam.",
+    "fa": "سؤال خوبی است. معمولاً با Learning Rate Scheduler یا Adam ترکیب می‌کنیم."
+  },
+  "atoms.captions.lrQuestion": {
+    "en": "Professor, how is the optimal learning rate selected for SGD?",
+    "fa": "استاد، نرخ یادگیری بهینه برای SGD چطور انتخاب می‌شود؟"
+  },
+  "atoms.captions.sgdStep": {
+    "en": "Stochastic Gradient Descent uses only one sample per step to compute the gradient.",
+    "fa": "گرادیان نزولی تصادفی، در هر گام فقط یک نمونه را برای محاسبه‌ی گرادیان به‌کار می‌برد."
+  },
+  "atoms.chat.seed.answer": {
+    "en": "Sure. Suppose θ = 0.8, gradient = 2.4, and η = 0.1. Then:",
+    "fa": "حتماً. فرض کن θ = ۰٫۸ و گرادیان = ۲٫۴ و η = ۰٫۱. آنگاه:"
+  },
+  "atoms.chat.seed.answerTime": {
+    "en": "14:25",
+    "fa": "۱۴:۲۵"
+  },
+  "atoms.chat.seed.ask": {
+    "en": "Can you provide a numerical example of weight updates in SGD?",
+    "fa": "یک مثال عددی از به‌روزرسانی وزن‌ها در SGD می‌دی؟"
+  },
+  "atoms.chat.seed.askTime": {
+    "en": "14:25",
+    "fa": "۱۴:۲۵"
+  },
+  "atoms.chat.seed.greeting": {
+    "en": "Hello 👋 I am the smart assistant for this session. I can provide real-time summaries, simplify concepts, or suggest extra practice exercises.",
+    "fa": "سلام 👋 من دستیار هوشمند این جلسه هستم. می‌توانم خلاصه‌ی لحظه‌ای، توضیح ساده‌تر مفاهیم، یا تمرین اضافه پیشنهاد دهم."
+  },
+  "atoms.chat.seed.greetingTime": {
+    "en": "14:23",
+    "fa": "۱۴:۲۳"
+  },
+  "atoms.people.ali.init": {
+    "en": "A",
+    "fa": "ع"
+  },
+  "atoms.people.ali.name": {
+    "en": "Ali R.",
+    "fa": "علی ر."
+  },
+  "atoms.people.arman.init": {
+    "en": "A",
+    "fa": "آ"
+  },
+  "atoms.people.arman.name": {
+    "en": "Arman B.",
+    "fa": "آرمان ب."
+  },
+  "atoms.people.azimi.init": {
+    "en": "DA",
+    "fa": "آع"
+  },
+  "atoms.people.azimi.name": {
+    "en": "Dr. Azimi",
+    "fa": "دکتر عظیمی"
+  },
+  "atoms.people.hanieh.init": {
+    "en": "H",
+    "fa": "ه"
+  },
+  "atoms.people.hanieh.name": {
+    "en": "Hanieh F.",
+    "fa": "هانیه ف."
+  },
+  "atoms.people.mohsen.init": {
+    "en": "M",
+    "fa": "م"
+  },
+  "atoms.people.mohsen.name": {
+    "en": "Mohsen H.",
+    "fa": "محسن ح."
+  },
+  "atoms.people.neda.init": {
+    "en": "N",
+    "fa": "ن"
+  },
+  "atoms.people.neda.name": {
+    "en": "Neda Kazemi",
+    "fa": "ندا کاظمی"
+  },
+  "atoms.people.nima.init": {
+    "en": "N",
+    "fa": "ن"
+  },
+  "atoms.people.nima.name": {
+    "en": "Nima J.",
+    "fa": "نیما ج."
+  },
+  "atoms.people.sara.init": {
+    "en": "S",
+    "fa": "س"
+  },
+  "atoms.people.sara.name": {
+    "en": "Sara M.",
+    "fa": "سارا م."
+  },
+  "atoms.people.zahra.init": {
+    "en": "Z",
+    "fa": "ز"
+  },
+  "atoms.people.zahra.name": {
+    "en": "Zahra K.",
+    "fa": "زهرا ک."
+  },
+  "atoms.poll.options.adamWeighted": {
+    "en": "Adam with class weighting",
+    "fa": "Adam با وزن‌دهی کلاس‌ها"
+  },
+  "atoms.poll.options.rmspropWarmup": {
+    "en": "RMSprop with Warm-up",
+    "fa": "RMSprop با Warm-up"
+  },
+  "atoms.poll.options.sgdMomentum": {
+    "en": "Standard SGD with Momentum",
+    "fa": "SGD ساده با Momentum"
+  },
+  "atoms.poll.question": {
+    "en": "Which optimization method is best suited for training deep networks on imbalanced data?",
+    "fa": "کدام روش بهینه‌سازی برای آموزش شبکه‌های عمیق با داده‌ی نامتوازن مناسب‌تر است؟"
+  },
+  "atoms.qa.q1.text": {
+    "en": "If the cost function is non-convex, does SGD converge to a global minimum?",
+    "fa": "اگر تابع هزینه غیرمحدب باشد، آیا SGD به حداقل سراسری همگرا می‌شود؟"
+  },
+  "atoms.qa.q1.time": {
+    "en": "2 minutes ago",
+    "fa": "۲ دقیقه پیش"
+  },
+  "atoms.qa.q2.text": {
+    "en": "What is the practical difference between Momentum and Adam?",
+    "fa": "تفاوت Momentum و Adam در عمل چقدر است؟"
+  },
+  "atoms.qa.q2.time": {
+    "en": "5 minutes ago",
+    "fa": "۵ دقیقه پیش"
+  },
+  "atoms.qa.q3.text": {
+    "en": "What mini-batch size is recommended for ResNet-50?",
+    "fa": "Mini-batch چه اندازه‌ای برای ResNet-50 توصیه می‌شود؟"
+  },
+  "atoms.qa.q3.time": {
+    "en": "8 minutes ago",
+    "fa": "۸ دقیقه پیش"
+  },
+  "atoms.qa.q4.text": {
+    "en": "What settings should be applied to SGD for imbalanced datasets?",
+    "fa": "برای داده‌های نامتوازن، چه تنظیماتی روی SGD اعمال کنیم؟"
+  },
+  "atoms.qa.q4.time": {
+    "en": "12 minutes ago",
+    "fa": "۱۲ دقیقه پیش"
+  },
+  "atoms.qa.tags.adaptive": {
+    "en": "Adaptive",
+    "fa": "تطبیقی"
+  },
+  "atoms.qa.tags.highlight": {
+    "en": "Highlight",
+    "fa": "هایلایت"
+  },
+  "atoms.qa.tags.practical": {
+    "en": "Practical",
+    "fa": "کاربردی"
+  },
+  "atoms.slides.compare.body": {
+    "en": "Mini-batch strikes a balance between Batch stability and SGD speed. Typical size: 32 to 256.",
+    "fa": "Mini-batch تعادلی بین پایداری Batch و سرعت SGD ایجاد می‌کند. اندازه‌ی متداول: ۳۲ تا ۲۵۶."
+  },
+  "atoms.slides.noise.body": {
+    "en": "Random fluctuations allow the algorithm to escape local minima and perform better on non-convex surfaces.",
+    "fa": "نوسان تصادفی به الگوریتم اجازه می‌دهد از کمینه‌های محلی فرار کند و در سطوح غیرمحدب عملکرد بهتری داشته باشد."
+  },
+  "atoms.slides.noise.title": {
+    "en": "Why noise is useful",
+    "fa": "چرا نوسان مفید است؟"
+  },
+  "atoms.slides.sgd.body": {
+    "en": "In each step, weights are updated with a single random data sample. Faster than Batch GD but with more oscillation along the convergence path.",
+    "fa": "در هر گام، با یک نمونه‌ی تصادفی از داده‌ها وزن‌ها را به‌روز می‌کنیم. سریع‌تر از Batch GD اما با نوسان بیشتر در مسیر همگرایی."
+  },
+  "atoms.slides.sgd.title": {
+    "en": "Stochastic Gradient Descent",
+    "fa": "گرادیان نزولی تصادفی"
+  },
+  "atoms.suggestions.exercise": {
+    "en": "Generate similar exercise",
+    "fa": "تمرین مشابه بساز"
+  },
+  "atoms.suggestions.resources": {
+    "en": "Additional resources",
+    "fa": "منابع تکمیلی"
+  },
+  "atoms.suggestions.simpler": {
+    "en": "Explain more simply",
+    "fa": "ساده‌تر توضیح بده"
+  },
+  "atoms.suggestions.summary": {
+    "en": "Summary of the last 2 minutes",
+    "fa": "خلاصه‌ی ۲ دقیقه‌ی اخیر"
+  },
+  "atoms.tabs.assistant": {
+    "en": "Assistant",
+    "fa": "دستیار"
+  },
+  "atoms.tabs.captions": {
+    "en": "Captions",
+    "fa": "زیرنویس"
+  },
+  "atoms.tabs.poll": {
+    "en": "Poll",
+    "fa": "نظرسنجی"
+  },
+  "atoms.tabs.questions": {
+    "en": "Questions",
+    "fa": "پرسش"
+  },
+  "atoms.timeline.r1.label": {
+    "en": "Previous session review",
+    "fa": "مرور جلسه قبل"
+  },
+  "atoms.timeline.r1.time": {
+    "en": "14:02",
+    "fa": "۱۴:۰۲"
+  },
+  "atoms.timeline.r2.label": {
+    "en": "Gradient descent concept",
+    "fa": "مفهوم گرادیان نزولی"
+  },
+  "atoms.timeline.r2.time": {
+    "en": "14:08",
+    "fa": "۱۴:۰۸"
+  },
+  "atoms.timeline.r3.label": {
+    "en": "Batch version",
+    "fa": "نسخه‌ی Batch"
+  },
+  "atoms.timeline.r3.time": {
+    "en": "14:16",
+    "fa": "۱۴:۱۶"
+  },
+  "atoms.timeline.r4.label": {
+    "en": "Stochastic Gradient Descent",
+    "fa": "گرادیان نزولی تصادفی"
+  },
+  "atoms.timeline.r4.time": {
+    "en": "14:22",
+    "fa": "۱۴:۲۲"
+  },
+  "atoms.timeline.r5.label": {
+    "en": "Momentum and Adam",
+    "fa": "Momentum و Adam"
+  },
+  "atoms.timeline.r5.time": {
+    "en": "14:35",
+    "fa": "۱۴:۳۵"
+  },
+  "atoms.timeline.r6.label": {
+    "en": "Interactive exercise + Q&A",
+    "fa": "تمرین تعاملی + پرسش"
+  },
+  "atoms.timeline.r6.time": {
+    "en": "14:45",
+    "fa": "۱۴:۴۵"
+  },
+  "atoms.transcript.live.momentum": {
+    "en": "If we update learning taking into account previous values, that is called Momentum.",
+    "fa": "اگر یاد گیری را با لحاظ مقدار قبلی به‌روزرسانی کنیم، به آن Momentum می‌گویند."
+  },
+  "atoms.transcript.live.nesterovAnswer": {
+    "en": "Nesterov first predicts the next position and computes the gradient there.",
+    "fa": "Nesterov ابتدا یک پیش‌بینی از موقعیت بعدی می‌سازد و گرادیان را آنجا حساب می‌کند."
+  },
+  "atoms.transcript.live.nesterovQuestion": {
+    "en": "How does this differ from Nesterov?",
+    "fa": "این روش با Nesterov چه تفاوتی دارد؟"
+  },
+  "atoms.transcript.live.pytorchQuestion": {
+    "en": "Can this idea be implemented in PyTorch?",
+    "fa": "می‌شود این ایده را در پای‌تورچ پیاده کرد؟"
+  },
+  "atoms.transcript.seed.r1.text": {
+    "en": "In stochastic gradient descent, only one sample is used to compute the gradient at each step.",
+    "fa": "در گرادیان نزولی تصادفی، در هر گام تنها یک نمونه برای محاسبه گرادیان استفاده می‌شود."
+  },
+  "atoms.transcript.seed.r1.time": {
+    "en": "14:20",
+    "fa": "۱۴:۲۰"
+  },
+  "atoms.transcript.seed.r2.text": {
+    "en": "This increases computation speed and decreases memory usage.",
+    "fa": "این موضوع باعث افزایش سرعت محاسبات و کاهش حافظه می‌شود."
+  },
+  "atoms.transcript.seed.r2.time": {
+    "en": "14:21",
+    "fa": "۱۴:۲۱"
+  },
+  "atoms.transcript.seed.r3.highlight": {
+    "en": "Optimal learning rate",
+    "fa": "نرخ یادگیری بهینه"
+  },
+  "atoms.transcript.seed.r3.text": {
+    "en": "Professor, how is the optimal learning rate chosen?",
+    "fa": "استاد، نرخ یادگیری بهینه چطور انتخاب می‌شود؟"
+  },
+  "atoms.transcript.seed.r3.time": {
+    "en": "14:22",
+    "fa": "۱۴:۲۲"
+  },
+  "atoms.transcript.seed.r4.text": {
+    "en": "Usually we combine it with a Learning Rate Scheduler or adaptive algorithms like Adam.",
+    "fa": "معمولاً با Learning Rate Scheduler یا الگوریتم‌های تطبیقی مثل Adam ترکیب می‌کنیم."
+  },
+  "atoms.transcript.seed.r4.time": {
+    "en": "14:22",
+    "fa": "۱۴:۲۲"
+  },
+  "atoms.transcript.seed.r5.text": {
+    "en": "What is the exact key difference between SGD and Mini-batch?",
+    "fa": "تفاوت اصلی SGD با Mini-batch چیه دقیقاً؟"
+  },
+  "atoms.transcript.seed.r5.time": {
+    "en": "14:23",
+    "fa": "۱۴:۲۳"
+  },
+  "atoms.transcript.seed.r6.text": {
+    "en": "Batch size. In Mini-batch we take between 32 and 256 samples for a better balance between stability and speed.",
+    "fa": "اندازه‌ی دسته. در Mini-batch بین ۳۲ تا ۲۵۶ نمونه می‌گیریم تا تعادل بهتری بین پایداری و سرعت داشته باشیم."
+  },
+  "atoms.transcript.seed.r6.time": {
+    "en": "14:23",
+    "fa": "۱۴:۲۳"
+  },
+  "breakout.anonymous": {
+    "en": "User",
+    "fa": "کاربر"
+  },
+  "breakout.decrease": {
+    "en": "Decrease rooms",
+    "fa": "کم کردن اتاق"
+  },
+  "breakout.duration": {
+    "en": "Duration: {count, number} minutes",
+    "fa": "مدت: {count, number} دقیقه"
+  },
+  "breakout.durationLabel": {
+    "en": "Duration (minutes)",
+    "fa": "مدت (دقیقه)"
+  },
+  "breakout.empty": {
+    "en": "Empty",
+    "fa": "خالی"
+  },
+  "breakout.end": {
+    "en": "End",
+    "fa": "پایان"
+  },
+  "breakout.increase": {
+    "en": "Add room",
+    "fa": "افزودن اتاق"
+  },
+  "breakout.manualLabel": {
+    "en": "Manual assignment",
+    "fa": "تخصیص دستی"
+  },
+  "breakout.maxRooms": {
+    "en": "Maximum {count, number} rooms",
+    "fa": "حداکثر {count, number} اتاق"
+  },
+  "breakout.memberCount": {
+    "en": "{count, number} people",
+    "fa": "{count, number} نفر"
+  },
+  "breakout.mode.auto": {
+    "en": "Automatic",
+    "fa": "خودکار"
+  },
+  "breakout.mode.manual": {
+    "en": "Manual",
+    "fa": "دستی"
+  },
+  "breakout.mode.random": {
+    "en": "Random",
+    "fa": "تصادفی"
+  },
+  "breakout.modeLabel": {
+    "en": "Assignment method",
+    "fa": "نحوهٔ تخصیص"
+  },
+  "breakout.moved": {
+    "en": "You have been moved to this room",
+    "fa": "شما به این اتاق منتقل شده‌اید"
+  },
+  "breakout.noParticipants": {
+    "en": "No participants in class yet. You can assign them once others join.",
+    "fa": "هنوز شرکت‌کننده‌ای در کلاس نیست. با ورود دیگران می‌توانید آن‌ها را به اتاق‌ها تخصیص دهید."
+  },
+  "breakout.noneOpen": {
+    "en": "No active breakout rooms. When rooms are opened by the host, your room will appear here.",
+    "fa": "اتاق گروهی فعالی وجود ندارد. با باز شدن اتاق‌ها توسط میزبان، اتاق شما همین‌جا نمایش داده می‌شود."
+  },
+  "breakout.open": {
+    "en": "Open rooms",
+    "fa": "باز کردن اتاق‌ها"
+  },
+  "breakout.phaseNote": {
+    "en": "At this stage, participant assignment and per-room chat/notes are active. Separate per-room audio and video require media infrastructure (SFU, Stage 3) and are currently outside this section.",
+    "fa": "در این مرحله، تخصیص شرکت‌کنندگان و چت/یادداشتِ هر اتاق فعال است. ویدیو و صدای مجزای هر اتاق به زیرساخت رسانه (SFU، مرحلهٔ ۳) نیاز دارد و فعلاً خارج از این بخش است."
+  },
+  "breakout.preview": {
+    "en": "{people, number} participants will be distributed across {rooms, number} rooms (approx. {per, number} people per room).",
+    "fa": "{people, number} شرکت‌کننده در {rooms, number} اتاق توزیع می‌شوند (حدوداً {per, number} نفر در هر اتاق)."
+  },
+  "breakout.roomCountLabel": {
+    "en": "Number of rooms",
+    "fa": "تعداد اتاق‌ها"
+  },
+  "breakout.roomFor": {
+    "en": "Room for {name}",
+    "fa": "اتاق برای {name}"
+  },
+  "breakout.roomName": {
+    "en": "Room {index, number}",
+    "fa": "اتاق {index, number}"
+  },
+  "breakout.title": {
+    "en": "Breakout Rooms",
+    "fa": "اتاق‌های گروهی"
+  },
+  "breakout.unassigned": {
+    "en": "You have not been assigned to a room yet. Please wait for the host.",
+    "fa": "هنوز به اتاقی اختصاص داده نشده‌اید. منتظر میزبان بمانید."
+  },
+  "breakout.you": {
+    "en": "You",
+    "fa": "شما"
+  },
+  "chat.anonymousAuthor": {
+    "en": "User",
+    "fa": "کاربر"
+  },
+  "chat.channels.class": {
+    "en": "Class",
+    "fa": "کلاس"
+  },
+  "chat.channels.staff": {
+    "en": "Staff",
+    "fa": "کارکنان"
+  },
+  "chat.channels.table": {
+    "en": "Table",
+    "fa": "میز"
+  },
+  "chat.empty": {
+    "en": "No messages sent yet.",
+    "fa": "هنوز پیامی ارسال نشده است."
+  },
+  "chat.note.class": {
+    "en": "Messages are shared live with all participants via the class channel.",
+    "fa": "پیام‌ها به‌صورت زنده از طریق کانال کلاس بین همهٔ شرکت‌کنندگان به اشتراک گذاشته می‌شوند."
+  },
+  "chat.note.locked": {
+    "en": "Chat has been locked by the host. Only the host can send messages.",
+    "fa": "چت توسط میزبان قفل شده است. فقط میزبان می‌تواند پیام بفرستد."
+  },
+  "chat.note.staff": {
+    "en": "This channel is only visible to the instructor and teaching assistants; students cannot see it.",
+    "fa": "این کانال فقط بین مدرس و دستیارها است؛ دانشجویان آن را نمی‌بینند."
+  },
+  "chat.note.table": {
+    "en": "This conversation is only visible to tablemates and instructors.",
+    "fa": "این گفتگو فقط برای هم‌میزی‌ها و استادان دیده می‌شود."
+  },
+  "chat.placeholder": {
+    "en": "Type a message…",
+    "fa": "پیام بنویسید…"
+  },
+  "chat.placeholderLocked": {
+    "en": "Chat is locked…",
+    "fa": "چت قفل است…"
+  },
+  "chat.rejected.channel": {
+    "en": "This channel is not open to you — your message was not sent.",
+    "fa": "این کانال برای شما باز نیست — پیام شما فرستاده نشد."
+  },
+  "chat.rejected.locked": {
+    "en": "Chat is locked — your message was not sent.",
+    "fa": "چت قفل است — پیام شما فرستاده نشد."
+  },
+  "chat.send": {
+    "en": "Send message",
+    "fa": "ارسال پیام"
+  },
+  "chat.tableTarget": {
+    "en": "Send to table",
+    "fa": "ارسال به میز"
+  },
+  "chat.unread": {
+    "en": "{count, plural, one {#} other {#}}",
+    "fa": "{count, plural, one {#} other {#}}"
+  },
+  "classes.card.attendees": {
+    "en": "{value, number} participants",
+    "fa": "{value, number} شرکت‌کننده"
+  },
+  "classes.card.cancelled": {
+    "en": "This session has been cancelled.",
+    "fa": "این جلسه لغو شده است."
+  },
+  "classes.card.joinDirect": {
+    "en": "Direct Entry",
+    "fa": "ورود مستقیم"
+  },
+  "classes.card.joinLobby": {
+    "en": "Enter Lobby",
+    "fa": "ورود به لابی"
+  },
+  "classes.card.newTab": {
+    "en": "Open in new tab",
+    "fa": "باز شدن در برگهٔ جدید"
+  },
+  "classes.card.report": {
+    "en": "Session Report",
+    "fa": "گزارش جلسه"
+  },
+  "classes.card.reportTitle": {
+    "en": "Complete report for this session",
+    "fa": "گزارش کامل این جلسه"
+  },
+  "classes.emptyAll": {
+    "en": "No sessions match your search.",
+    "fa": "هنوز هیچ جلسهٔ کلاس زنده‌ای ثبت نشده است."
+  },
+  "classes.emptyHint": {
+    "en": "به‌محض زمان‌بندی توسط استاد، اینجا نمایش داده می‌شود.",
+    "fa": "به‌محض زمان‌بندی توسط استاد، اینجا نمایش داده می‌شود."
+  },
+  "classes.emptySearch": {
+    "en": "جلسه‌ای با این جست‌وجو یا فیلتر یافت نشد.",
+    "fa": "جلسه‌ای با این جست‌وجو یا فیلتر یافت نشد."
+  },
+  "classes.errLoad": {
+    "en": "بارگذاری جلسات با خطا مواجه شد",
+    "fa": "بارگذاری جلسات با خطا مواجه شد"
+  },
+  "classes.eyebrow": {
+    "en": "کلاس زنده · مرکز جلسات",
+    "fa": "کلاس زنده · مرکز جلسات"
+  },
+  "classes.filter.all": {
+    "en": "All",
+    "fa": "همه"
+  },
+  "classes.filter.ended": {
+    "en": "Ended",
+    "fa": "گذشته"
+  },
+  "classes.filter.live": {
+    "en": "Live Now",
+    "fa": "در حال برگزاری"
+  },
+  "classes.filter.scheduled": {
+    "en": "Scheduled",
+    "fa": "پیش‌رو"
+  },
+  "classes.filterAria": {
+    "en": "Filter live sessions",
+    "fa": "فیلتر وضعیت"
+  },
+  "classes.form.applySlot": {
+    "en": "اعمال این زمان",
+    "fa": "اعمال این زمان"
+  },
+  "classes.form.cancel": {
+    "en": "Cancel",
+    "fa": "انصراف"
+  },
+  "classes.form.close": {
+    "en": "Close",
+    "fa": "بستن"
+  },
+  "classes.form.course": {
+    "en": "Associated course",
+    "fa": "درس مرتبط"
+  },
+  "classes.form.coursePick": {
+    "en": "— Select course —",
+    "fa": "— انتخاب درس —"
+  },
+  "classes.form.courseSearch": {
+    "en": "Search course (code or name)…",
+    "fa": "جست‌وجوی درس (کد یا نام)…"
+  },
+  "classes.form.courseSearchAria": {
+    "en": "Search course",
+    "fa": "جست‌وجوی درس"
+  },
+  "classes.form.coursesError": {
+    "en": "Course list is unavailable; please try again later.",
+    "fa": "فهرست دروس در دسترس نیست؛ کمی بعد دوباره تلاش کنید."
+  },
+  "classes.form.coursesLoading": {
+    "en": "Loading courses…",
+    "fa": "در حال بارگذاری دروس…"
+  },
+  "classes.form.date": {
+    "en": "Date",
+    "fa": "تاریخ"
+  },
+  "classes.form.dateAria": {
+    "en": "Session date",
+    "fa": "تاریخ جلسه"
+  },
+  "classes.form.datePlaceholder": {
+    "en": "Select session date",
+    "fa": "انتخاب تاریخ جلسه"
+  },
+  "classes.form.desc": {
+    "en": "Description (optional)",
+    "fa": "توضیح (اختیاری)"
+  },
+  "classes.form.descPlaceholder": {
+    "en": "Topics or key notes for this session…",
+    "fa": "سرفصل‌ها یا نکات این جلسه…"
+  },
+  "classes.form.end": {
+    "en": "End time",
+    "fa": "ساعت پایان"
+  },
+  "classes.form.errCourse": {
+    "en": "Please select an associated course.",
+    "fa": "درس مرتبط را انتخاب کنید."
+  },
+  "classes.form.errCreate": {
+    "en": "Failed to create new session. Please try again.",
+    "fa": "ثبت جلسهٔ جدید با خطا مواجه شد. دوباره تلاش کنید."
+  },
+  "classes.form.errDate": {
+    "en": "Please select a session date.",
+    "fa": "تاریخ جلسه را انتخاب کنید."
+  },
+  "classes.form.errTime": {
+    "en": "Please enter valid start and end times.",
+    "fa": "ساعت شروع و پایان را به‌درستی وارد کنید."
+  },
+  "classes.form.errTitle": {
+    "en": "Please enter a session title.",
+    "fa": "عنوان جلسه را وارد کنید."
+  },
+  "classes.form.policy": {
+    "en": "Admission policy",
+    "fa": "سیاست ورود"
+  },
+  "classes.form.section": {
+    "en": "Section/Class (optional)",
+    "fa": "گروه/کلاس (اختیاری)"
+  },
+  "classes.form.sectionAll": {
+    "en": "— Whole course (no specific section) —",
+    "fa": "— کل درس (بدون گروه خاص) —"
+  },
+  "classes.form.sectionOption": {
+    "en": "Section {group, number}",
+    "fa": "گروه {group, number}"
+  },
+  "classes.form.start": {
+    "en": "Start time",
+    "fa": "ساعت شروع"
+  },
+  "classes.form.submit": {
+    "en": "Schedule session",
+    "fa": "ثبت و زمان‌بندی"
+  },
+  "classes.form.submitting": {
+    "en": "Scheduling…",
+    "fa": "در حال ثبت…"
+  },
+  "classes.form.title": {
+    "en": "Schedule Live Class Session",
+    "fa": "زمان‌بندی جلسهٔ کلاس زنده"
+  },
+  "classes.form.titleLabel": {
+    "en": "Session title",
+    "fa": "عنوان جلسه"
+  },
+  "classes.form.titlePlaceholder": {
+    "en": "e.g., Chapter 3 Problem Solving",
+    "fa": "مثلاً: حل تمرین فصل سوم"
+  },
+  "classes.group.live": {
+    "en": "Live Now",
+    "fa": "در حال برگزاری"
+  },
+  "classes.group.liveEmpty": {
+    "en": "No sessions are currently live.",
+    "fa": "هیچ جلسه‌ای در این لحظه زنده نیست."
+  },
+  "classes.group.past": {
+    "en": "Past",
+    "fa": "گذشته"
+  },
+  "classes.group.pastEmpty": {
+    "en": "No past sessions recorded.",
+    "fa": "جلسهٔ گذشته‌ای ثبت نشده است."
+  },
+  "classes.group.upcoming": {
+    "en": "Upcoming",
+    "fa": "پیش‌رو"
+  },
+  "classes.group.upcomingEmpty": {
+    "en": "No upcoming sessions scheduled.",
+    "fa": "جلسهٔ پیش‌رویی زمان‌بندی نشده است."
+  },
+  "classes.help.body": {
+    "en": "On this page, you can see live classes categorized as \"Live Now\", \"Upcoming\", and \"Past\". Click \"Enter Lobby\" to test your camera and microphone before entering; if a session is currently live, click \"Direct Entry\" to join immediately. Instructors and administrators can schedule a new live class with \"New Session\".",
+    "fa": "در این صفحه فهرست کلاس‌های زندهٔ «در حال برگزاری»، «پیش‌رو» و «گذشته» را می‌بینید. با «ورود به لابی» دوربین و میکروفون خود را آزمایش کنید و سپس وارد کلاس شوید؛ اگر جلسه‌ای همین حالا زنده است، با «ورود مستقیم» بی‌درنگ به آن بپیوندید. استادان و مدیران می‌توانند با «جلسهٔ جدید» یک کلاس زنده زمان‌بندی کنند."
+  },
+  "classes.help.title": {
+    "en": "Live Classes Guide",
+    "fa": "راهنمای کلاس‌های زنده"
+  },
+  "classes.kpi.live": {
+    "en": "Live Now",
+    "fa": "در حال برگزاری"
+  },
+  "classes.kpi.total": {
+    "en": "Total Sessions",
+    "fa": "تعداد جلسات"
+  },
+  "classes.kpi.upcoming": {
+    "en": "Upcoming",
+    "fa": "پیش‌رو"
+  },
+  "classes.lead": {
+    "en": "View live, upcoming, and past sessions here; enter the lobby to test your camera and microphone or — if a session is live — join the class directly.",
+    "fa": "جلسات در حال برگزاری، پیش‌رو و گذشته را اینجا ببینید؛ برای آزمایش دوربین و میکروفون به لابی وارد شوید یا — اگر جلسه‌ای زنده است — مستقیم به کلاس بپیوندید."
+  },
+  "classes.loading": {
+    "en": "Loading sessions…",
+    "fa": "در حال بارگذاری جلسات…"
+  },
+  "classes.new": {
+    "en": "New Session",
+    "fa": "جلسهٔ جدید"
+  },
+  "classes.noCourse": {
+    "en": "No associated course",
+    "fa": "بدون درس مرتبط"
+  },
+  "classes.policy.enrolled": {
+    "en": "Enrolled students only",
+    "fa": "فقط دانشجویان ثبت‌نام‌شده"
+  },
+  "classes.policy.invite": {
+    "en": "Invitation only",
+    "fa": "فقط با دعوت‌نامه"
+  },
+  "classes.policy.public": {
+    "en": "Open to all (Public)",
+    "fa": "آزاد برای همه (عمومی)"
+  },
+  "classes.schedule.at": {
+    "en": "{date} · {clock}",
+    "fa": "{date} · ساعت {clock}"
+  },
+  "classes.schedule.unknown": {
+    "en": "Time unspecified",
+    "fa": "زمان نامشخص"
+  },
+  "classes.searchAria": {
+    "en": "Search sessions",
+    "fa": "جست‌وجوی جلسه"
+  },
+  "classes.searchPlaceholder": {
+    "en": "Search by title, course, or instructor…",
+    "fa": "جست‌وجو در عنوان، درس یا مدرس…"
+  },
+  "classes.status.cancelled": {
+    "en": "Cancelled",
+    "fa": "لغوشده"
+  },
+  "classes.status.ended": {
+    "en": "Ended",
+    "fa": "پایان‌یافته"
+  },
+  "classes.status.live": {
+    "en": "Live Now",
+    "fa": "در حال برگزاری"
+  },
+  "classes.status.scheduled": {
+    "en": "Scheduled",
+    "fa": "زمان‌بندی‌شده"
+  },
+  "classes.title": {
+    "en": "Live Classes",
+    "fa": "کلاس‌های زنده"
+  },
+  "guide.button": {
+    "en": "Guide",
+    "fa": "راهنما"
+  },
+  "guide.lobby.chain.check": {
+    "en": "Here you test your name, camera, and microphone and complete the readiness checklist.",
+    "fa": "اینجا نام، دوربین و میکروفون را می‌آزمایید و فهرستِ آمادگی را کامل می‌کنید."
+  },
+  "guide.lobby.chain.enter": {
+    "en": "At class time, enter this pre-room from there.",
+    "fa": "در زمانِ کلاس، از همان‌جا واردِ همین پیش‌اتاق می‌شوید."
+  },
+  "guide.lobby.chain.join": {
+    "en": "Upon entering the class, you are transferred to the live room; the guide continues there.",
+    "fa": "با ورود به کلاس، به اتاقِ زنده منتقل می‌شوید؛ ادامهٔ راهنما در همان صفحه است."
+  },
+  "guide.lobby.chain.schedule": {
+    "en": "The live class is scheduled in the syllabus and appears in \"My Classes\".",
+    "fa": "کلاسِ زنده در برنامهٔ درسی زمان‌بندی می‌شود و در «کلاس‌های من» دیده می‌شود."
+  },
+  "guide.lobby.ifEmpty": {
+    "en": "If the class has not started yet, wait for the host; connection status updates on this same page.",
+    "fa": "اگر فهرستِ آمادگی هنوز کامل نشده، معمولاً یعنی مرورگر هنوز اجازهٔ میکروفون/دوربین را نگرفته است؛ اجازه را بدهید تا وضعیت به‌روز شود. بدونِ دوربین هم می‌توانید وارد شوید."
+  },
+  "guide.lobby.intro": {
+    "en": "Welcome to the pre-room for the live class. Here you check your sound, picture, and connection before entering.",
+    "fa": "این صفحه، اتاقِ آمادگیِ پیش از ورود به کلاسِ زنده است: نامِ نمایشی، میکروفون و دوربینِ خود را اینجا می‌آزمایید تا هنگامِ ورود، همه‌چیز درست کار کند."
+  },
+  "guide.lobby.roles.host.does": {
+    "en": "Enters the room, welcomes students, and starts the class.",
+    "fa": "کلاس را باز می‌کند؛ تا پیش از آن، همین صفحه وضعیتِ انتظار را نشان می‌دهد."
+  },
+  "guide.lobby.roles.host.label": {
+    "en": "Host (Instructor)",
+    "fa": "میزبان (استاد)"
+  },
+  "guide.lobby.roles.student.does": {
+    "en": "Tests camera/microphone, checks readiness, and enters the class.",
+    "fa": "پیش از ورود، نام و تجهیزاتِ خود را می‌آزمایید و سپس واردِ کلاس می‌شوید."
+  },
+  "guide.lobby.roles.student.label": {
+    "en": "You (Student)",
+    "fa": "شما (دانشجو)"
+  },
+  "guide.lobby.roles.support.does": {
+    "en": "If device tests repeatedly fail, technical support uses this readiness report for troubleshooting.",
+    "fa": "اگر آزمونِ تجهیزات مدام شکست بخورد، از همین گزارشِ آمادگی برایِ عیب‌یابی استفاده می‌کند."
+  },
+  "guide.lobby.roles.support.label": {
+    "en": "Technical Support",
+    "fa": "پشتیبانیِ فنی"
+  },
+  "guide.lobby.title": {
+    "en": "Pre-room Guide",
+    "fa": "راهنمایِ «پیش‌اتاقِ کلاس»"
+  },
+  "guide.lobby.youCan.camera": {
+    "en": "View camera preview and toggle it on/off; when off, your avatar is displayed.",
+    "fa": "پیش‌نمایشِ دوربین را ببینید و آن را روشن/خاموش کنید؛ اگر خاموش باشد، آواتارِ شما نمایش داده می‌شود."
+  },
+  "guide.lobby.youCan.join": {
+    "en": "Once the readiness checklist turns green, join using the Enter Class button.",
+    "fa": "پس از سبز شدنِ فهرستِ آمادگی، با دکمهٔ ورود به کلاس بپیوندید."
+  },
+  "guide.lobby.youCan.mic": {
+    "en": "Turn your microphone on/off with the microphone button.",
+    "fa": "میکروفون را بیازمایید و از فهرستِ آمادگی مطمئن شوید هیچ مانعی برایِ ورود نیست."
+  },
+  "guide.lobby.youCan.name": {
+    "en": "Edit your display name before entering class.",
+    "fa": "نامِ نمایشیِ خود را پیش از ورود به کلاس ویرایش کنید."
+  },
+  "guide.sections.chain": {
+    "en": "Full journey, from start to finish",
+    "fa": "کلِ مسیر، از ابتدا تا انتها"
+  },
+  "guide.sections.ifEmpty": {
+    "en": "If the page is empty",
+    "fa": "اگر صفحه خالی بود"
+  },
+  "guide.sections.roles": {
+    "en": "Who does what",
+    "fa": "چه کسی چه می‌کند"
+  },
+  "guide.sections.youCan": {
+    "en": "What can you do here?",
+    "fa": "اینجا چه کاری می‌توانید انجام دهید؟"
+  },
+  "guide.session.chain.participate": {
+    "en": "During class you participate via microphone/camera/chat; the host controls the class flow.",
+    "fa": "در طولِ کلاس با میکروفون/دوربین/گفت‌وگو مشارکت می‌کنید؛ میزبان جریانِ کلاس را کنترل می‌کند."
+  },
+  "guide.session.chain.record": {
+    "en": "If the host enables recording, the recording becomes available after class ends.",
+    "fa": "اگر میزبان ضبط را فعال کند، پس از پایانِ کلاس ضبط در دسترس قرار می‌گیرد."
+  },
+  "guide.session.chain.review": {
+    "en": "You return from \"Recordings\" to review a missed class or study.",
+    "fa": "شما از «ضبط‌شده‌ها» به کلاسِ ازدست‌رفته یا برایِ مرور بازمی‌گردید."
+  },
+  "guide.session.chain.start": {
+    "en": "The host (instructor) starts the live class; you join the room.",
+    "fa": "میزبان (استاد) کلاسِ زنده را شروع می‌کند؛ شما به اتاق می‌پیوندید."
+  },
+  "guide.session.ifEmpty": {
+    "en": "If class hasn't started yet, wait for the host; connection status updates on this page.",
+    "fa": "اگر کلاس هنوز شروع نشده، منتظرِ میزبان بمانید؛ وضعیتِ اتصال در همین صفحه به‌روزرسانی می‌شود."
+  },
+  "guide.session.intro": {
+    "en": "This page is your live class room with microphone/camera, screen sharing, chat, and Q&A. The host (instructor) manages the class and records if needed.",
+    "fa": "این صفحه، اتاقِ کلاسِ زندهٔ شما با میکروفون/دوربین، اشتراکِ صفحه، گفت‌وگو و پرسش‌وپاسخ است. میزبان (استاد) کلاس را کنترل و در صورتِ نیاز ضبط می‌کند."
+  },
+  "guide.session.roles.host.does": {
+    "en": "Starts/controls the class and enables recording if needed.",
+    "fa": "کلاس را شروع/کنترل می‌کند و در صورتِ نیاز ضبط را فعال می‌کند."
+  },
+  "guide.session.roles.host.label": {
+    "en": "Host (Instructor)",
+    "fa": "میزبان (استاد)"
+  },
+  "guide.session.roles.student.does": {
+    "en": "Joins the class, participates, and watches recordings later if needed.",
+    "fa": "به کلاس می‌پیوندید، مشارکت می‌کنید و در صورتِ نیاز ضبط را بعداً می‌بینید."
+  },
+  "guide.session.roles.student.label": {
+    "en": "You (Student)",
+    "fa": "شما (دانشجو)"
+  },
+  "guide.session.title": {
+    "en": "Live Class Guide",
+    "fa": "راهنمایِ «کلاسِ زنده»"
+  },
+  "guide.session.youCan.chat": {
+    "en": "Send messages or ask questions in writing using \"Chat\".",
+    "fa": "با «گفت‌وگو» به‌صورتِ نوشتاری پیام بدهید یا سؤال بپرسید."
+  },
+  "guide.session.youCan.media": {
+    "en": "Turn your microphone and camera on/off from the bottom bar.",
+    "fa": "میکروفون و دوربینِ خود را از نوارِ پایین روشن/خاموش کنید."
+  },
+  "guide.session.youCan.recordings": {
+    "en": "After class ends, watch the recording under \"Recordings\" if recorded.",
+    "fa": "پس از پایانِ کلاس، اگر ضبط شده باشد، از «ضبط‌شده‌ها» آن را ببینید."
+  },
+  "guide.session.youCan.share": {
+    "en": "Share your screen if permitted by the host.",
+    "fa": "اگر میزبان اجازه دهد، صفحهٔ خود را به اشتراک بگذارید."
+  },
+  "hands.count": {
+    "en": "{count, plural, one {# hand raised} other {# hands raised}}",
+    "fa": "{count, plural, one {# دست بالاست} other {# دست بالاست}}"
+  },
+  "hands.lower": {
+    "en": "Lower hand",
+    "fa": "پایین‌آوردن دست"
+  },
+  "hands.lowerAll": {
+    "en": "Lower all hands",
+    "fa": "پایین‌آوردن همهٔ دست‌ها"
+  },
+  "hands.ordinal": {
+    "en": "{count, number}",
+    "fa": "{count, number}"
+  },
+  "hands.overflow": {
+    "en": "{count, plural, one {# other person is waiting} other {# other people are waiting}}",
+    "fa": "{count, plural, one {# نفر دیگر منتظر است} other {# نفر دیگر منتظرند}}"
+  },
+  "hands.position": {
+    "en": "{count, plural, one {Your turn: #} other {Your turn: #}}",
+    "fa": "{count, plural, one {نوبت شما: #} other {نوبت شما: #}}"
+  },
+  "hands.title": {
+    "en": "Speaking Queue",
+    "fa": "نوبت صحبت"
+  },
+  "lobby.back": {
+    "en": "Back to workspace",
+    "fa": "بازگشت به میز کار"
+  },
+  "lobby.removedByHost": {
+    "en": "You have been removed from this class. Rejoining is only possible after instructor permission.",
+    "fa": "شما از این کلاس حذف شده‌اید. ورود دوباره فقط پس از اجازهٔ استاد ممکن است."
+  },
+  "lobby.removedServiceDesk": {
+    "en": "Submit ticket at Service Desk",
+    "fa": "ثبت اعتراض در پیشخوان خدمات"
+  },
+  "lobby.cam.off": {
+    "en": "Turn camera off",
+    "fa": "خاموش کردن دوربین"
+  },
+  "lobby.cam.on": {
+    "en": "Turn camera on",
+    "fa": "روشن کردن دوربین"
+  },
+  "lobby.cam.stateOff": {
+    "en": "Camera off",
+    "fa": "دوربین خاموش"
+  },
+  "lobby.cam.stateOn": {
+    "en": "Camera on",
+    "fa": "دوربین روشن"
+  },
+  "lobby.camOffOverlay": {
+    "en": "Camera is off",
+    "fa": "دوربین خاموش است"
+  },
+  "lobby.conn.fair": {
+    "en": "Fair",
+    "fa": "متوسط"
+  },
+  "lobby.conn.good": {
+    "en": "Good",
+    "fa": "خوب"
+  },
+  "lobby.conn.poor": {
+    "en": "Poor",
+    "fa": "ضعیف"
+  },
+  "lobby.conn.title": {
+    "en": "Connection Quality",
+    "fa": "کیفیت اتصال"
+  },
+  "lobby.conn.unknown": {
+    "en": "Unknown",
+    "fa": "نامشخص"
+  },
+  "lobby.cta.blocked": {
+    "en": "To enter the class, the critical prerequisites above (secure connection and browser support) must be resolved.",
+    "fa": "برای ورود به کلاس باید موارد ضروری بالا (اتصال امن و پشتیبانی مرورگر) برطرف شوند."
+  },
+  "lobby.cta.blockedTitle": {
+    "en": "Cannot enter until critical prerequisites are resolved",
+    "fa": "تا برطرف‌شدن موارد ضروری امکان ورود نیست"
+  },
+  "lobby.cta.enter": {
+    "en": "Enter Class",
+    "fa": "ورود به کلاس"
+  },
+  "lobby.cta.ready": {
+    "en": "Check your video and audio before entering.",
+    "fa": "پیش از ورود، تصویر و صدای خود را بررسی کنید."
+  },
+  "lobby.cta.waiting": {
+    "en": "The instructor has not entered yet; you may enter and wait.",
+    "fa": "هنوز استاد وارد نشده است؛ می‌توانید وارد شوید و منتظر بمانید."
+  },
+  "lobby.device.camera": {
+    "en": "Camera",
+    "fa": "دوربین"
+  },
+  "lobby.device.cameraNone": {
+    "en": "No camera found",
+    "fa": "دوربینی یافت نشد"
+  },
+  "lobby.device.fallback": {
+    "en": "{device} {index, number}",
+    "fa": "{device} {index, number}"
+  },
+  "lobby.device.mic": {
+    "en": "Microphone",
+    "fa": "میکروفون"
+  },
+  "lobby.device.micNone": {
+    "en": "No microphone found",
+    "fa": "میکروفونی یافت نشد"
+  },
+  "lobby.device.speaker": {
+    "en": "Speaker",
+    "fa": "بلندگو"
+  },
+  "lobby.device.speakerDefault": {
+    "en": "System default speaker",
+    "fa": "بلندگوی پیش‌فرض سیستم"
+  },
+  "lobby.fallbackTitle": {
+    "en": "Live Class",
+    "fa": "کلاس زنده"
+  },
+  "lobby.guest": {
+    "en": "Guest",
+    "fa": "میهمان"
+  },
+  "lobby.help.body": {
+    "en": "Before entering the live class, test your camera, microphone, and speaker here. Use the buttons below the preview to toggle camera or microphone and change devices in the settings column. When everything is ready, click \"Enter Class\".",
+    "fa": "پیش از ورود به کلاس زنده، اینجا دوربین، میکروفون و بلندگوی خود را آزمایش کنید. با دکمه‌های پایینِ تصویر می‌توانید دوربین یا میکروفون را روشن/خاموش کنید و در ستون تنظیمات دستگاه‌ها را عوض کنید. وقتی همه‌چیز آماده بود، دکمهٔ «ورود به کلاس» را بزنید."
+  },
+  "lobby.help.title": {
+    "en": "Class Entry Guide",
+    "fa": "راهنمای ورود به کلاس"
+  },
+  "lobby.joinMuted": {
+    "en": "Enter with microphone muted",
+    "fa": "ورود با میکروفون خاموش"
+  },
+  "lobby.loading": {
+    "en": "Loading session details…",
+    "fa": "در حال بارگذاری اطلاعات جلسه…"
+  },
+  "lobby.media.denied": {
+    "en": "Camera or microphone access was not granted.",
+    "fa": "دسترسی به دوربین یا میکروفون داده نشد."
+  },
+  "lobby.media.deniedTitle": {
+    "en": "Camera/microphone access denied",
+    "fa": "دسترسی به دوربین/میکروفون داده نشد"
+  },
+  "lobby.media.notFound": {
+    "en": "Camera or microphone device not found.",
+    "fa": "دستگاه دوربین یا میکروفون پیدا نشد."
+  },
+  "lobby.meta.host": {
+    "en": "Instructor: {name}",
+    "fa": "استاد: {name}"
+  },
+  "lobby.meta.time": {
+    "en": "Time: {time}",
+    "fa": "زمان: {time}"
+  },
+  "lobby.meter.label": {
+    "en": "Microphone level",
+    "fa": "سطح میکروفون"
+  },
+  "lobby.meter.micOff": {
+    "en": "Microphone is muted — unmute to test.",
+    "fa": "میکروفون خاموش است — برای آزمایش آن را روشن کنید."
+  },
+  "lobby.mic.off": {
+    "en": "Mute microphone",
+    "fa": "خاموش کردن میکروفون"
+  },
+  "lobby.mic.on": {
+    "en": "Unmute microphone",
+    "fa": "روشن کردن میکروفون"
+  },
+  "lobby.mic.stateOff": {
+    "en": "Microphone muted",
+    "fa": "میکروفون خاموش"
+  },
+  "lobby.mic.stateOn": {
+    "en": "Microphone active",
+    "fa": "میکروفون روشن"
+  },
+  "lobby.perm.retry": {
+    "en": "Retry permission request",
+    "fa": "تلاش مجدد برای دسترسی"
+  },
+  "lobby.perm.step1": {
+    "en": "Click the lock icon next to the browser address bar.",
+    "fa": "روی آیکن قفل کنار نوار آدرس مرورگر کلیک کنید."
+  },
+  "lobby.perm.step2": {
+    "en": "Set \"Camera\" and \"Microphone\" permissions to \"Allow\".",
+    "fa": "دسترسی «دوربین» و «میکروفون» را روی «اجازه» بگذارید."
+  },
+  "lobby.perm.step3": {
+    "en": "Then click the button below to retry.",
+    "fa": "سپس دکمهٔ زیر را برای تلاش مجدد بزنید."
+  },
+  "lobby.perm.without": {
+    "en": "You can also enter the class without camera/microphone.",
+    "fa": "می‌توانید بدون دوربین/میکروفون هم وارد کلاس شوید."
+  },
+  "lobby.settings.name": {
+    "en": "Your display name in class",
+    "fa": "نام نمایشی شما در کلاس"
+  },
+  "lobby.settings.title": {
+    "en": "Audio & Video Settings",
+    "fa": "تنظیمات صدا و تصویر"
+  },
+  "lobby.speaker.playing": {
+    "en": "Playing…",
+    "fa": "در حال پخش…"
+  },
+  "lobby.speaker.test": {
+    "en": "Test",
+    "fa": "آزمایش"
+  },
+  "lobby.status.ended": {
+    "en": "This session has ended",
+    "fa": "این جلسه به پایان رسیده است"
+  },
+  "lobby.status.live": {
+    "en": "In progress",
+    "fa": "در حال برگزاری"
+  },
+  "lobby.status.prefix": {
+    "en": "Status: {status}",
+    "fa": "وضعیت: {status}"
+  },
+  "lobby.status.waiting": {
+    "en": "Instructor has not entered yet",
+    "fa": "استاد هنوز وارد نشده"
+  },
+  "notes.ariaLabel": {
+    "en": "Shared class notes",
+    "fa": "یادداشت مشترک کلاس"
+  },
+  "notes.charCount": {
+    "en": "{count, number} characters",
+    "fa": "{count, number} نویسه"
+  },
+  "notes.empty": {
+    "en": "Nothing has been written yet",
+    "fa": "هنوز چیزی نوشته نشده است"
+  },
+  "notes.exportLabel": {
+    "en": "Text export",
+    "fa": "خروجی متنی"
+  },
+  "notes.exportTitle": {
+    "en": "Save as text file (.txt)",
+    "fa": "ذخیره به‌صورت فایل متنی (.txt)"
+  },
+  "notes.placeholder": {
+    "en": "Write here… What you write is visible to all participants in real time.",
+    "fa": "اینجا بنویسید… آنچه می‌نویسید همزمان برای همهٔ شرکت‌کنندگان دیده می‌شود."
+  },
+  "notes.synced": {
+    "en": "Synced",
+    "fa": "همگام‌سازی شد"
+  },
+  "notes.syncing": {
+    "en": "Edits are synced in real time",
+    "fa": "ویرایش‌ها به‌صورت زنده همگام می‌شوند"
+  },
+  "notes.title": {
+    "en": "Shared Notes",
+    "fa": "یادداشت مشترک"
+  },
+  "panel.close": {
+    "en": "Close",
+    "fa": "بستن"
+  },
+  "panel.host.actionsFor": {
+    "en": "Host actions for {name}",
+    "fa": "اقدامات میزبان برای {name}"
+  },
+  "panel.host.kick": {
+    "en": "Remove",
+    "fa": "اخراج"
+  },
+  "panel.host.lockChat": {
+    "en": "Lock chat",
+    "fa": "قفل چت"
+  },
+  "panel.host.lowerHand": {
+    "en": "Lower hand",
+    "fa": "پایین‌آوردن دست"
+  },
+  "panel.host.makePresenter": {
+    "en": "Make presenter",
+    "fa": "ارائه‌دهنده"
+  },
+  "panel.host.mute": {
+    "en": "Mute",
+    "fa": "سکوت"
+  },
+  "panel.host.muteAll": {
+    "en": "Mute all",
+    "fa": "سکوت همه"
+  },
+  "panel.host.unlockChat": {
+    "en": "Unlock chat",
+    "fa": "باز کردن چت"
+  },
+  "panel.people.note": {
+    "en": "Participant list updates in real time. Video feeds will appear once the live media engine connects.",
+    "fa": "فهرست شرکت‌کنندگان به‌صورت زنده به‌روزرسانی می‌شود. تصویر دوربین دیگران با اتصال موتور رسانهٔ زنده نمایش داده می‌شود."
+  },
+  "panel.tabCount": {
+    "en": " ({count, number})",
+    "fa": " ({count, number})"
+  },
+  "panel.tabs.analytics": {
+    "en": "Analytics",
+    "fa": "تحلیل"
+  },
+  "panel.tabs.assistant": {
+    "en": "Assistant",
+    "fa": "دستیار"
+  },
+  "panel.tabs.breakout": {
+    "en": "Breakout",
+    "fa": "اتاق‌ها"
+  },
+  "panel.tabs.chat": {
+    "en": "Chat",
+    "fa": "چت"
+  },
+  "panel.tabs.notes": {
+    "en": "Notes",
+    "fa": "یادداشت"
+  },
+  "panel.tabs.people": {
+    "en": "Participants",
+    "fa": "شرکت‌کنندگان"
+  },
+  "panel.tabs.polls": {
+    "en": "Polls",
+    "fa": "نظرسنجی"
+  },
+  "panel.tabs.tables": {
+    "en": "Tables",
+    "fa": "میزها"
+  },
+  "panel.transcript.captionTag": {
+    "en": " (Speech)",
+    "fa": " (گفتار)"
+  },
+  "panel.transcript.download": {
+    "en": "Download full transcript ⬇",
+    "fa": "دانلود کل گفتگو ⬇"
+  },
+  "panel.transcript.fileHeader": {
+    "en": "Class Transcript",
+    "fa": "گفتگوی کلاس"
+  },
+  "panel.transcript.fileSuffix": {
+    "en": "-transcript.txt",
+    "fa": "-گفتگو.txt"
+  },
+  "panel.transcript.preparing": {
+    "en": "Preparing…",
+    "fa": "در حال آماده‌سازی…"
+  },
+  "panel.transcript.privateTag": {
+    "en": " (Private)",
+    "fa": " (خصوصی)"
+  },
+  "panel.transcript.regionLabel": {
+    "en": "Live speech transcript",
+    "fa": "رونوشت زندهٔ گفتار"
+  },
+  "poll.addOption": {
+    "en": "Add option",
+    "fa": "افزودن گزینه"
+  },
+  "poll.cancel": {
+    "en": "Cancel",
+    "fa": "انصراف"
+  },
+  "poll.changeHint": {
+    "en": "To change your vote, select another option.",
+    "fa": "برای تغییر رأی، گزینهٔ دیگری را انتخاب کنید."
+  },
+  "poll.emptyGuest": {
+    "en": "There are currently no active polls. When the host starts a poll, it will appear here.",
+    "fa": "در حال حاضر نظرسنجی فعالی نیست. با شروع نظرسنجی توسط میزبان، همین‌جا نمایش داده می‌شود."
+  },
+  "poll.emptyHost": {
+    "en": "No active polls. Click \"New Poll\" to create one.",
+    "fa": "نظرسنجی فعالی وجود ندارد. برای ساختن یک نظرسنجی «نظرسنجی جدید» را بزنید."
+  },
+  "poll.end": {
+    "en": "End poll",
+    "fa": "پایان نظرسنجی"
+  },
+  "poll.endedBadge": {
+    "en": "Ended",
+    "fa": "پایان‌یافته"
+  },
+  "poll.finalTotal": {
+    "en": "Final results · Total {count, plural, one {# vote} other {# votes}}",
+    "fa": "نتایج نهایی · مجموع {count, plural, one {# رأی} other {# رأی}}"
+  },
+  "poll.minOptions": {
+    "en": "At least {min, number} non-empty options are required to start.",
+    "fa": "برای شروع، دست‌کم {min, number} گزینهٔ غیرخالی لازم است."
+  },
+  "poll.multi": {
+    "en": "Multiple choice",
+    "fa": "چندگزینه‌ای"
+  },
+  "poll.multiLabel": {
+    "en": "Allow selecting multiple options (Multiple choice)",
+    "fa": "امکان انتخاب چند گزینه (چندگزینه‌ای)"
+  },
+  "poll.new": {
+    "en": "New poll",
+    "fa": "نظرسنجی جدید"
+  },
+  "poll.optionN": {
+    "en": "Option {n, number}",
+    "fa": "گزینه {n, number}"
+  },
+  "poll.optionTally": {
+    "en": "{pct, number}% · {count, number}",
+    "fa": "{pct, number}٪ · {count, number}"
+  },
+  "poll.optionsLabel": {
+    "en": "Options ({used, number} of {max, number})",
+    "fa": "گزینه‌ها ({used, number} از {max, number})"
+  },
+  "poll.questionAria": {
+    "en": "Question text",
+    "fa": "متن پرسش"
+  },
+  "poll.questionLabel": {
+    "en": "Question",
+    "fa": "پرسش"
+  },
+  "poll.questionPlaceholder": {
+    "en": "e.g., Which topic do you prefer?",
+    "fa": "مثلاً: کدام موضوع را بیشتر می‌پسندید؟"
+  },
+  "poll.removeOption": {
+    "en": "Remove option",
+    "fa": "حذف گزینه"
+  },
+  "poll.single": {
+    "en": "Single choice",
+    "fa": "تک‌گزینه‌ای"
+  },
+  "poll.start": {
+    "en": "Start poll",
+    "fa": "شروع نظرسنجی"
+  },
+  "poll.status.ended": {
+    "en": "Poll has ended — final results.",
+    "fa": "نظرسنجی پایان یافت — نتایج نهایی."
+  },
+  "poll.status.endingWait": {
+    "en": "Waiting for poll end confirmation…",
+    "fa": "در انتظار تأیید پایان نظرسنجی…"
+  },
+  "poll.status.startFailed": {
+    "en": "Server did not confirm poll start. Check connection and host permissions and try again.",
+    "fa": "سرور شروعِ نظرسنجی را تأیید نکرد. اتصال و دسترسی میزبان را بررسی کنید و دوباره تلاش کنید."
+  },
+  "poll.status.started": {
+    "en": "Poll started — awaiting responses…",
+    "fa": "نظرسنجی آغاز شد — در انتظار پاسخ‌ها…"
+  },
+  "poll.status.starting": {
+    "en": "Starting poll…",
+    "fa": "در حال شروعِ نظرسنجی…"
+  },
+  "poll.status.voteFailed": {
+    "en": "Vote submission was not confirmed; please try again.",
+    "fa": "ارسال رأی تأیید نشد؛ دوباره تلاش کنید."
+  },
+  "poll.status.voteSent": {
+    "en": "Your vote was submitted ✓",
+    "fa": "رأی شما ارسال شد ✓"
+  },
+  "poll.status.voting": {
+    "en": "Submitting vote…",
+    "fa": "در حال ارسال رأی…"
+  },
+  "poll.status.waitingAnswers": {
+    "en": "Awaiting responses…",
+    "fa": "در انتظار پاسخ‌ها…"
+  },
+  "poll.submitVote": {
+    "en": "Submit vote",
+    "fa": "ثبت رأی"
+  },
+  "poll.title": {
+    "en": "Poll",
+    "fa": "نظرسنجی"
+  },
+  "poll.updateVote": {
+    "en": "Update vote",
+    "fa": "به‌روزرسانی رأی"
+  },
+  "poll.voteCount": {
+    "en": "{count, plural, one {# vote} other {# votes}}",
+    "fa": "{count, plural, one {# رأی} other {# رأی}}"
+  }
+}

@@ -1,0 +1,1477 @@
+{
+  "analytics": {
+    "anonymous": "User",
+    "attendance": {
+      "absentChip": "✗ Absent {count, number}",
+      "absentLabel": "Absent",
+      "avatarFallback": "?",
+      "duration": "Duration: {value}",
+      "empty": "No attendance recorded yet. As participants join, they will appear here.",
+      "excusedChip": "Excused {count, number}",
+      "excusedLabel": "Excused",
+      "finalized": "Finalized",
+      "inClass": "In class",
+      "joinedAt": "Joined: {time}",
+      "lateChip": "⏰ Late {count, number}",
+      "lateLabel": "Late",
+      "left": "Left",
+      "loading": "Loading attendance…",
+      "neverOpened": "This session was not held (no attendance recorded).",
+      "presentChip": "✓ Present {count, number}",
+      "presentLabel": "Present",
+      "provisional": "Provisional (until class ends)",
+      "refreshNote": "{count, number} people · Updates every {seconds, number} seconds",
+      "stillPresent": " (Currently attending)",
+      "title": "Attendance List"
+    },
+    "duration": {
+      "hours": "{count, number} hours",
+      "hoursMinutes": "{hours, number} hours and {minutes, number} minutes",
+      "lessThanMinute": "Less than 1 minute",
+      "minutes": "{count, number} minutes"
+    },
+    "error": {
+      "attendance": "Could not retrieve attendance list. This section is only available to the host."
+    },
+    "participation": {
+      "aria": "Microphone open {on, number} of {total, number}",
+      "empty": "No one is in the class yet.",
+      "muted": "Muted: {count, number}",
+      "on": "Open: {count, number} ({pct, number}%)",
+      "title": "Audio Participation"
+    },
+    "poll": {
+      "active": "A poll is currently active",
+      "idle": "No active polls"
+    },
+    "stat": {
+      "chat": "Chat messages",
+      "hands": "Hands raised",
+      "micOn": "Open mics",
+      "present": "Currently present"
+    }
+  },
+  "assistant": {
+    "chip": {
+      "example": "Give an example",
+      "practice": "Create practice question",
+      "quiz": "Design a short quiz with answers",
+      "summarize": "Summarize this topic"
+    },
+    "error": {
+      "createSession": "Failed to create assistant conversation."
+    },
+    "hostMode": "Instructor Mode — Questions and exercise design",
+    "inputLabel": "Ask Smart Assistant",
+    "intro": "Ask about the class topic — answers come from course materials (RAG).",
+    "introHost": " As an instructor, you can also generate exercises and quizzes.",
+    "label": "Smart Assistant",
+    "noAnswer": "No response received. Please ask again.",
+    "placeholder": "Type your question…",
+    "questionCount": "{count, number} questions",
+    "send": "Send question",
+    "sendShort": "Send",
+    "sessionTitle": "Live Class — {name}",
+    "source": "Source",
+    "sources": "Sources ({count, number})",
+    "title": "Class Smart Assistant",
+    "typing": "Writing response…"
+  },
+  "atoms": {
+    "captions": {
+      "etaTradeoff": "If η is too large, the cost function diverges; if too small, convergence is slow.",
+      "fasterNoisier": "This causes updates to be faster but more oscillating.",
+      "lrAnswer": "Good question. We typically combine it with a Learning Rate Scheduler or Adam.",
+      "lrQuestion": "Professor, how is the optimal learning rate selected for SGD?",
+      "sgdStep": "Stochastic Gradient Descent uses only one sample per step to compute the gradient."
+    },
+    "chat": {
+      "seed": {
+        "answer": "Sure. Suppose θ = 0.8, gradient = 2.4, and η = 0.1. Then:",
+        "answerTime": "14:25",
+        "ask": "Can you provide a numerical example of weight updates in SGD?",
+        "askTime": "14:25",
+        "greeting": "Hello 👋 I am the smart assistant for this session. I can provide real-time summaries, simplify concepts, or suggest extra practice exercises.",
+        "greetingTime": "14:23"
+      }
+    },
+    "people": {
+      "ali": {
+        "init": "A",
+        "name": "Ali R."
+      },
+      "arman": {
+        "init": "A",
+        "name": "Arman B."
+      },
+      "azimi": {
+        "init": "DA",
+        "name": "Dr. Azimi"
+      },
+      "hanieh": {
+        "init": "H",
+        "name": "Hanieh F."
+      },
+      "mohsen": {
+        "init": "M",
+        "name": "Mohsen H."
+      },
+      "neda": {
+        "init": "N",
+        "name": "Neda Kazemi"
+      },
+      "nima": {
+        "init": "N",
+        "name": "Nima J."
+      },
+      "sara": {
+        "init": "S",
+        "name": "Sara M."
+      },
+      "zahra": {
+        "init": "Z",
+        "name": "Zahra K."
+      }
+    },
+    "poll": {
+      "options": {
+        "adamWeighted": "Adam with class weighting",
+        "rmspropWarmup": "RMSprop with Warm-up",
+        "sgdMomentum": "Standard SGD with Momentum"
+      },
+      "question": "Which optimization method is best suited for training deep networks on imbalanced data?"
+    },
+    "qa": {
+      "q1": {
+        "text": "If the cost function is non-convex, does SGD converge to a global minimum?",
+        "time": "2 minutes ago"
+      },
+      "q2": {
+        "text": "What is the practical difference between Momentum and Adam?",
+        "time": "5 minutes ago"
+      },
+      "q3": {
+        "text": "What mini-batch size is recommended for ResNet-50?",
+        "time": "8 minutes ago"
+      },
+      "q4": {
+        "text": "What settings should be applied to SGD for imbalanced datasets?",
+        "time": "12 minutes ago"
+      },
+      "tags": {
+        "adaptive": "Adaptive",
+        "highlight": "Highlight",
+        "practical": "Practical"
+      }
+    },
+    "slides": {
+      "compare": {
+        "body": "Mini-batch strikes a balance between Batch stability and SGD speed. Typical size: 32 to 256."
+      },
+      "noise": {
+        "body": "Random fluctuations allow the algorithm to escape local minima and perform better on non-convex surfaces.",
+        "title": "Why noise is useful"
+      },
+      "sgd": {
+        "body": "In each step, weights are updated with a single random data sample. Faster than Batch GD but with more oscillation along the convergence path.",
+        "title": "Stochastic Gradient Descent"
+      }
+    },
+    "suggestions": {
+      "exercise": "Generate similar exercise",
+      "resources": "Additional resources",
+      "simpler": "Explain more simply",
+      "summary": "Summary of the last 2 minutes"
+    },
+    "tabs": {
+      "assistant": "Assistant",
+      "captions": "Captions",
+      "poll": "Poll",
+      "questions": "Questions"
+    },
+    "timeline": {
+      "r1": {
+        "label": "Previous session review",
+        "time": "14:02"
+      },
+      "r2": {
+        "label": "Gradient descent concept",
+        "time": "14:08"
+      },
+      "r3": {
+        "label": "Batch version",
+        "time": "14:16"
+      },
+      "r4": {
+        "label": "Stochastic Gradient Descent",
+        "time": "14:22"
+      },
+      "r5": {
+        "label": "Momentum and Adam",
+        "time": "14:35"
+      },
+      "r6": {
+        "label": "Interactive exercise + Q&A",
+        "time": "14:45"
+      }
+    },
+    "transcript": {
+      "live": {
+        "momentum": "If we update learning taking into account previous values, that is called Momentum.",
+        "nesterovAnswer": "Nesterov first predicts the next position and computes the gradient there.",
+        "nesterovQuestion": "How does this differ from Nesterov?",
+        "pytorchQuestion": "Can this idea be implemented in PyTorch?"
+      },
+      "seed": {
+        "r1": {
+          "text": "In stochastic gradient descent, only one sample is used to compute the gradient at each step.",
+          "time": "14:20"
+        },
+        "r2": {
+          "text": "This increases computation speed and decreases memory usage.",
+          "time": "14:21"
+        },
+        "r3": {
+          "highlight": "Optimal learning rate",
+          "text": "Professor, how is the optimal learning rate chosen?",
+          "time": "14:22"
+        },
+        "r4": {
+          "text": "Usually we combine it with a Learning Rate Scheduler or adaptive algorithms like Adam.",
+          "time": "14:22"
+        },
+        "r5": {
+          "text": "What is the exact key difference between SGD and Mini-batch?",
+          "time": "14:23"
+        },
+        "r6": {
+          "text": "Batch size. In Mini-batch we take between 32 and 256 samples for a better balance between stability and speed.",
+          "time": "14:23"
+        }
+      }
+    }
+  },
+  "breakout": {
+    "anonymous": "User",
+    "decrease": "Decrease rooms",
+    "duration": "Duration: {count, number} minutes",
+    "durationLabel": "Duration (minutes)",
+    "empty": "Empty",
+    "end": "End",
+    "increase": "Add room",
+    "manualLabel": "Manual assignment",
+    "maxRooms": "Maximum {count, number} rooms",
+    "memberCount": "{count, number} people",
+    "mode": {
+      "auto": "Automatic",
+      "manual": "Manual",
+      "random": "Random"
+    },
+    "modeLabel": "Assignment method",
+    "moved": "You have been moved to this room",
+    "noParticipants": "No participants in class yet. You can assign them once others join.",
+    "noneOpen": "No active breakout rooms. When rooms are opened by the host, your room will appear here.",
+    "open": "Open rooms",
+    "phaseNote": "At this stage, participant assignment and per-room chat/notes are active. Separate per-room audio and video require media infrastructure (SFU, Stage 3) and are currently outside this section.",
+    "preview": "{people, number} participants will be distributed across {rooms, number} rooms (approx. {per, number} people per room).",
+    "roomCountLabel": "Number of rooms",
+    "roomFor": "Room for {name}",
+    "roomName": "Room {index, number}",
+    "title": "Breakout Rooms",
+    "unassigned": "You have not been assigned to a room yet. Please wait for the host.",
+    "you": "You"
+  },
+  "chat": {
+    "anonymousAuthor": "User",
+    "channels": {
+      "class": "Class",
+      "staff": "Staff",
+      "table": "Table"
+    },
+    "empty": "No messages sent yet.",
+    "note": {
+      "class": "Messages are shared live with all participants via the class channel.",
+      "locked": "Chat has been locked by the host. Only the host can send messages.",
+      "staff": "This channel is only visible to the instructor and teaching assistants; students cannot see it.",
+      "table": "This conversation is only visible to tablemates and instructors."
+    },
+    "placeholder": "Type a message…",
+    "placeholderLocked": "Chat is locked…",
+    "rejected": {
+      "channel": "This channel is not open to you — your message was not sent.",
+      "locked": "Chat is locked — your message was not sent."
+    },
+    "send": "Send message",
+    "tableTarget": "Send to table",
+    "unread": "{count, plural, one {#} other {#}}"
+  },
+  "classes": {
+    "card": {
+      "attendees": "{value, number} participants",
+      "cancelled": "This session has been cancelled.",
+      "joinDirect": "Direct Entry",
+      "joinLobby": "Enter Lobby",
+      "newTab": "Open in new tab",
+      "report": "Session Report",
+      "reportTitle": "Complete report for this session"
+    },
+    "emptyAll": "No sessions match your search.",
+    "emptyHint": "به‌محض زمان‌بندی توسط استاد، اینجا نمایش داده می‌شود.",
+    "emptySearch": "جلسه‌ای با این جست‌وجو یا فیلتر یافت نشد.",
+    "errLoad": "بارگذاری جلسات با خطا مواجه شد",
+    "eyebrow": "کلاس زنده · مرکز جلسات",
+    "filter": {
+      "all": "All",
+      "ended": "Ended",
+      "live": "Live Now",
+      "scheduled": "Scheduled"
+    },
+    "filterAria": "Filter live sessions",
+    "form": {
+      "applySlot": "اعمال این زمان",
+      "cancel": "Cancel",
+      "close": "Close",
+      "course": "Associated course",
+      "coursePick": "— Select course —",
+      "courseSearch": "Search course (code or name)…",
+      "courseSearchAria": "Search course",
+      "coursesError": "Course list is unavailable; please try again later.",
+      "coursesLoading": "Loading courses…",
+      "date": "Date",
+      "dateAria": "Session date",
+      "datePlaceholder": "Select session date",
+      "desc": "Description (optional)",
+      "descPlaceholder": "Topics or key notes for this session…",
+      "end": "End time",
+      "errCourse": "Please select an associated course.",
+      "errCreate": "Failed to create new session. Please try again.",
+      "errDate": "Please select a session date.",
+      "errTime": "Please enter valid start and end times.",
+      "errTitle": "Please enter a session title.",
+      "policy": "Admission policy",
+      "section": "Section/Class (optional)",
+      "sectionAll": "— Whole course (no specific section) —",
+      "sectionOption": "Section {group, number}",
+      "start": "Start time",
+      "submit": "Schedule session",
+      "submitting": "Scheduling…",
+      "title": "Schedule Live Class Session",
+      "titleLabel": "Session title",
+      "titlePlaceholder": "e.g., Chapter 3 Problem Solving"
+    },
+    "group": {
+      "live": "Live Now",
+      "liveEmpty": "No sessions are currently live.",
+      "past": "Past",
+      "pastEmpty": "No past sessions recorded.",
+      "upcoming": "Upcoming",
+      "upcomingEmpty": "No upcoming sessions scheduled."
+    },
+    "help": {
+      "body": "On this page, you can see live classes categorized as \"Live Now\", \"Upcoming\", and \"Past\". Click \"Enter Lobby\" to test your camera and microphone before entering; if a session is currently live, click \"Direct Entry\" to join immediately. Instructors and administrators can schedule a new live class with \"New Session\".",
+      "title": "Live Classes Guide"
+    },
+    "kpi": {
+      "live": "Live Now",
+      "total": "Total Sessions",
+      "upcoming": "Upcoming"
+    },
+    "lead": "View live, upcoming, and past sessions here; enter the lobby to test your camera and microphone or — if a session is live — join the class directly.",
+    "loading": "Loading sessions…",
+    "new": "New Session",
+    "noCourse": "No associated course",
+    "policy": {
+      "enrolled": "Enrolled students only",
+      "invite": "Invitation only",
+      "public": "Open to all (Public)"
+    },
+    "schedule": {
+      "at": "{date} · {clock}",
+      "unknown": "Time unspecified"
+    },
+    "searchAria": "Search sessions",
+    "searchPlaceholder": "Search by title, course, or instructor…",
+    "status": {
+      "cancelled": "Cancelled",
+      "ended": "Ended",
+      "live": "Live Now",
+      "scheduled": "Scheduled"
+    },
+    "title": "Live Classes"
+  },
+  "guide": {
+    "button": "Guide",
+    "lobby": {
+      "chain": {
+        "check": "Here you test your name, camera, and microphone and complete the readiness checklist.",
+        "enter": "At class time, enter this pre-room from there.",
+        "join": "Upon entering the class, you are transferred to the live room; the guide continues there.",
+        "schedule": "The live class is scheduled in the syllabus and appears in \"My Classes\"."
+      },
+      "ifEmpty": "If the class has not started yet, wait for the host; connection status updates on this same page.",
+      "intro": "Welcome to the pre-room for the live class. Here you check your sound, picture, and connection before entering.",
+      "roles": {
+        "host": {
+          "does": "Enters the room, welcomes students, and starts the class.",
+          "label": "Host (Instructor)"
+        },
+        "student": {
+          "does": "Tests camera/microphone, checks readiness, and enters the class.",
+          "label": "You (Student)"
+        },
+        "support": {
+          "does": "If device tests repeatedly fail, technical support uses this readiness report for troubleshooting.",
+          "label": "Technical Support"
+        }
+      },
+      "title": "Pre-room Guide",
+      "youCan": {
+        "camera": "View camera preview and toggle it on/off; when off, your avatar is displayed.",
+        "join": "Once the readiness checklist turns green, join using the Enter Class button.",
+        "mic": "Turn your microphone on/off with the microphone button.",
+        "name": "Edit your display name before entering class."
+      }
+    },
+    "sections": {
+      "chain": "Full journey, from start to finish",
+      "ifEmpty": "If the page is empty",
+      "roles": "Who does what",
+      "youCan": "What can you do here?"
+    },
+    "session": {
+      "chain": {
+        "participate": "During class you participate via microphone/camera/chat; the host controls the class flow.",
+        "record": "If the host enables recording, the recording becomes available after class ends.",
+        "review": "You return from \"Recordings\" to review a missed class or study.",
+        "start": "The host (instructor) starts the live class; you join the room."
+      },
+      "ifEmpty": "If class hasn't started yet, wait for the host; connection status updates on this page.",
+      "intro": "This page is your live class room with microphone/camera, screen sharing, chat, and Q&A. The host (instructor) manages the class and records if needed.",
+      "roles": {
+        "host": {
+          "does": "Starts/controls the class and enables recording if needed.",
+          "label": "Host (Instructor)"
+        },
+        "student": {
+          "does": "Joins the class, participates, and watches recordings later if needed.",
+          "label": "You (Student)"
+        }
+      },
+      "title": "Live Class Guide",
+      "youCan": {
+        "chat": "Send messages or ask questions in writing using \"Chat\".",
+        "media": "Turn your microphone and camera on/off from the bottom bar.",
+        "recordings": "After class ends, watch the recording under \"Recordings\" if recorded.",
+        "share": "Share your screen if permitted by the host."
+      }
+    }
+  },
+  "hands": {
+    "count": "{count, plural, one {# hand raised} other {# hands raised}}",
+    "lower": "Lower hand",
+    "lowerAll": "Lower all hands",
+    "ordinal": "{count, number}",
+    "overflow": "{count, plural, one {# other person is waiting} other {# other people are waiting}}",
+    "position": "{count, plural, one {Your turn: #} other {Your turn: #}}",
+    "title": "Speaking Queue"
+  },
+  "lobby": {
+    "back": "Back to workspace",
+    "removedByHost": "You have been removed from this class. Rejoining is only possible after instructor permission.",
+    "removedServiceDesk": "Submit ticket at Service Desk",
+    "cam": {
+      "off": "Turn camera off",
+      "on": "Turn camera on",
+      "stateOff": "Camera off",
+      "stateOn": "Camera on"
+    },
+    "camOffOverlay": "Camera is off",
+    "conn": {
+      "fair": "Fair",
+      "good": "Good",
+      "poor": "Poor",
+      "title": "Connection Quality",
+      "unknown": "Unknown"
+    },
+    "cta": {
+      "blocked": "To enter the class, the critical prerequisites above (secure connection and browser support) must be resolved.",
+      "blockedTitle": "Cannot enter until critical prerequisites are resolved",
+      "enter": "Enter Class",
+      "ready": "Check your video and audio before entering.",
+      "waiting": "The instructor has not entered yet; you may enter and wait."
+    },
+    "device": {
+      "camera": "Camera",
+      "cameraNone": "No camera found",
+      "fallback": "{device} {index, number}",
+      "mic": "Microphone",
+      "micNone": "No microphone found",
+      "speaker": "Speaker",
+      "speakerDefault": "System default speaker"
+    },
+    "fallbackTitle": "Live Class",
+    "guest": "Guest",
+    "help": {
+      "body": "Before entering the live class, test your camera, microphone, and speaker here. Use the buttons below the preview to toggle camera or microphone and change devices in the settings column. When everything is ready, click \"Enter Class\".",
+      "title": "Class Entry Guide"
+    },
+    "joinMuted": "Enter with microphone muted",
+    "loading": "Loading session details…",
+    "media": {
+      "denied": "Camera or microphone access was not granted.",
+      "deniedTitle": "Camera/microphone access denied",
+      "notFound": "Camera or microphone device not found."
+    },
+    "meta": {
+      "host": "Instructor: {name}",
+      "time": "Time: {time}"
+    },
+    "meter": {
+      "label": "Microphone level",
+      "micOff": "Microphone is muted — unmute to test."
+    },
+    "mic": {
+      "off": "Mute microphone",
+      "on": "Unmute microphone",
+      "stateOff": "Microphone muted",
+      "stateOn": "Microphone active"
+    },
+    "perm": {
+      "retry": "Retry permission request",
+      "step1": "Click the lock icon next to the browser address bar.",
+      "step2": "Set \"Camera\" and \"Microphone\" permissions to \"Allow\".",
+      "step3": "Then click the button below to retry.",
+      "without": "You can also enter the class without camera/microphone."
+    },
+    "settings": {
+      "name": "Your display name in class",
+      "title": "Audio & Video Settings"
+    },
+    "speaker": {
+      "playing": "Playing…",
+      "test": "Test"
+    },
+    "status": {
+      "ended": "This session has ended",
+      "live": "In progress",
+      "prefix": "Status: {status}",
+      "waiting": "Instructor has not entered yet"
+    }
+  },
+  "notes": {
+    "ariaLabel": "Shared class notes",
+    "charCount": "{count, number} characters",
+    "empty": "Nothing has been written yet",
+    "exportLabel": "Text export",
+    "exportTitle": "Save as text file (.txt)",
+    "placeholder": "Write here… What you write is visible to all participants in real time.",
+    "synced": "Synced",
+    "syncing": "Edits are synced in real time",
+    "title": "Shared Notes"
+  },
+  "panel": {
+    "close": "Close",
+    "host": {
+      "actionsFor": "Host actions for {name}",
+      "kick": "Remove",
+      "lockChat": "Lock chat",
+      "lowerHand": "Lower hand",
+      "makePresenter": "Make presenter",
+      "mute": "Mute",
+      "muteAll": "Mute all",
+      "unlockChat": "Unlock chat"
+    },
+    "people": {
+      "note": "Participant list updates in real time. Video feeds will appear once the live media engine connects."
+    },
+    "tabCount": " ({count, number})",
+    "tabs": {
+      "analytics": "Analytics",
+      "assistant": "Assistant",
+      "breakout": "Breakout",
+      "chat": "Chat",
+      "notes": "Notes",
+      "people": "Participants",
+      "polls": "Polls",
+      "tables": "Tables"
+    },
+    "transcript": {
+      "captionTag": " (Speech)",
+      "download": "Download full transcript ⬇",
+      "fileHeader": "Class Transcript",
+      "fileSuffix": "-transcript.txt",
+      "preparing": "Preparing…",
+      "privateTag": " (Private)",
+      "regionLabel": "Live speech transcript"
+    }
+  },
+  "poll": {
+    "addOption": "Add option",
+    "cancel": "Cancel",
+    "changeHint": "To change your vote, select another option.",
+    "emptyGuest": "There are currently no active polls. When the host starts a poll, it will appear here.",
+    "emptyHost": "No active polls. Click \"New Poll\" to create one.",
+    "end": "End poll",
+    "endedBadge": "Ended",
+    "finalTotal": "Final results · Total {count, plural, one {# vote} other {# votes}}",
+    "minOptions": "At least {min, number} non-empty options are required to start.",
+    "multi": "Multiple choice",
+    "multiLabel": "Allow selecting multiple options (Multiple choice)",
+    "new": "New poll",
+    "optionN": "Option {n, number}",
+    "optionTally": "{pct, number}% · {count, number}",
+    "optionsLabel": "Options ({used, number} of {max, number})",
+    "questionAria": "Question text",
+    "questionLabel": "Question",
+    "questionPlaceholder": "e.g., Which topic do you prefer?",
+    "removeOption": "Remove option",
+    "single": "Single choice",
+    "start": "Start poll",
+    "status": {
+      "ended": "Poll has ended — final results.",
+      "endingWait": "Waiting for poll end confirmation…",
+      "startFailed": "Server did not confirm poll start. Check connection and host permissions and try again.",
+      "started": "Poll started — awaiting responses…",
+      "starting": "Starting poll…",
+      "voteFailed": "Vote submission was not confirmed; please try again.",
+      "voteSent": "Your vote was submitted ✓",
+      "voting": "Submitting vote…",
+      "waitingAnswers": "Awaiting responses…"
+    },
+    "submitVote": "Submit vote",
+    "title": "Poll",
+    "updateVote": "Update vote",
+    "voteCount": "{count, plural, one {# vote} other {# votes}}"
+  },
+  "preflight": {
+    "bandwidth": {
+      "detail": "Your internet connection was detected as weak; camera video will be sent at lower quality to avoid interruptions.",
+      "good": "Good",
+      "label": "Internet connection quality",
+      "unknown": "Unknown",
+      "weak": "Weak"
+    },
+    "captions": {
+      "available": "Available",
+      "detail": "Browser speech-recognition based live captions and translation only work in Chrome/Edge. Other class features remain fully accessible without it.",
+      "label": "Live captions (optional)",
+      "limited": "Limited"
+    },
+    "device": {
+      "absentDetail": "No active {device} found. Check device connection; you can still enter the class without {device}.",
+      "absentStatus": "Not found",
+      "camera": "Camera",
+      "deniedDetail": "Access to {device} was denied. Click the lock icon next to the address bar and set \"{device}\" to Allow. You can still enter without it.",
+      "deniedStatus": "Access denied",
+      "microphone": "Microphone",
+      "promptDetail": "Permission to access {device} has not been granted yet. Select Allow when prompted by your browser.",
+      "promptStatus": "Awaiting permission",
+      "readyStatus": "Ready"
+    },
+    "panel": {
+      "blocked": "You cannot enter the class until the red item(s) above are resolved. Once fixed, click \"Re-check\".",
+      "checking": "Checking…",
+      "regionLabel": "Device readiness check before entry",
+      "retry": "Re-check",
+      "severity": {
+        "fail": "Issue",
+        "pass": "Ready",
+        "warn": "Warning"
+      },
+      "title": "Device Readiness Check"
+    },
+    "screen": {
+      "detail": "Your browser does not support screen sharing. If you plan to present, use Chrome/Edge or desktop Firefox. It is not required for viewing the class.",
+      "label": "Screen sharing"
+    },
+    "secure": {
+      "bad": "Insecure",
+      "detail": "This page is not opened over a secure connection (HTTPS); browsers only grant camera and microphone access on HTTPS. Please open the URL with https.",
+      "label": "Secure connection (HTTPS)",
+      "ok": "Secure"
+    },
+    "supported": "Supported",
+    "unsupported": "Not supported",
+    "webrtc": {
+      "detail": "Your browser does not support camera/microphone access (getUserMedia). Please use an up-to-date version of Chrome, Edge, or desktop Firefox.",
+      "label": "Video call support (WebRTC)"
+    }
+  },
+  "pulse": {
+    "confused": "{count, plural, one {# person is confused} other {# people are confused}}",
+    "slower": "{count, plural, one {# person wants a slower pace} other {# people want a slower pace}}",
+    "title": "Class Pulse",
+    "window": "In the last minute"
+  },
+  "reactions": {
+    "throttled": "Slow down a bit — your reactions are temporarily limited."
+  },
+  "review": {
+    "title": "Academic Review Case",
+    "separateDecision": "Receiving a report does not confirm that the class was not held. The decision rests with the faculty academic officer.",
+    "pendingDecision": "Absence evidence has been recorded and the case is pending decision.",
+    "reportReceived": "Report received",
+    "reviewerMissing": "No faculty academic officer assigned; case remains open.",
+    "reason": "Description and reason (at least 10 characters)",
+    "fileReport": "Submit report",
+    "confirmNotHeld": "Confirm not held",
+    "rejectNotHeld": "Reject not-held report",
+    "requestMakeup": "Request make-up session",
+    "start": "Proposed start",
+    "end": "Proposed end",
+    "submitMakeup": "Submit make-up request",
+    "makeupRequested": "Requested make-up time",
+    "approveMakeup": "Approve make-up time",
+    "rejectMakeup": "Reject make-up request",
+    "makeupScheduled": "Make-up session has been scheduled; holding it is not yet confirmed.",
+    "notHeld": {
+      "confirmed": "Confirmed not held",
+      "rejected": "Not-held report rejected"
+    },
+    "makeup": {
+      "approved": "Make-up request approved",
+      "rejected": "Make-up request rejected"
+    },
+    "actionFailed": "Could not perform this action; please try again."
+  },
+  "report": {
+    "playback": {
+      "open": "Interactive Replay"
+    },
+    "att": {
+      "ABSENT": "Absent",
+      "EXCUSED": "Excused",
+      "LATE": "Late",
+      "NONE": "—",
+      "PRESENT": "Present",
+      "absent": "Absent: {value, number}",
+      "excused": "Excused: {value, number}",
+      "finalized": "Finalized",
+      "late": "Late: {value, number}",
+      "present": "Present: {value, number}",
+      "provisional": "Provisional",
+      "total": "Total: {value, number}",
+      "unrecorded": "Unrecorded"
+    },
+    "attendance": {
+      "noRoster": "No enrolled roster available for this session.",
+      "noSection": "This session is not linked to a specific class/group; formal attendance is only recorded for section-based sessions. Actual participant list appears below.",
+      "title": "Attendance"
+    },
+    "back": "Back to session hub",
+    "captions": {
+      "lines": "Caption lines",
+      "linesValue": "{value, number} lines",
+      "recording": "Recording",
+      "soniox": "Stored live translation",
+      "title": "Captions & Recording"
+    },
+    "chat": {
+      "download": "Download transcript",
+      "empty": "No messages were recorded in the public chat for this session.",
+      "exportHead": "Session Chat Log: {title}",
+      "showAll": "Show all {value, number} messages",
+      "showLess": "Show less",
+      "title": "Saved Chat",
+      "truncated": "Showing first {shown, number} messages of {total, number} total (display limit)."
+    },
+    "conn": {
+      "direct": "Direct",
+      "nat": "Via NAT",
+      "relay": "Via Relay",
+      "unknown": "Unknown"
+    },
+    "counselor": {
+      "adviseesTitle": "My Advised Students",
+      "eyebrow": "Live Class · Consolidated Session Report",
+      "helpBody": "Advisor view: Aggregate session attendance stats (without names) plus attendance status for students with scheduled advising with you. Class chat and transcripts are excluded from this view.",
+      "helpTitle": "Advisor Report Guide",
+      "kpiAdvisees": "Advised Students",
+      "kpiTotal": "Total Students",
+      "noAdvisees": "None of your advised students are associated with this session.",
+      "statsTitle": "Session Attendance Stats"
+    },
+    "engagement": {
+      "hands": "Hands raised:",
+      "handsTitle": "Hands raised",
+      "notCaptured": "Interactive artifacts were not recorded for this session (closed without host \"End Session\" or no live interaction occurred).",
+      "polls": "Polls:",
+      "reactions": "Reactions:",
+      "timelineTitle": "Timeline",
+      "title": "Engagement & Interaction"
+    },
+    "errLoad": "Failed to load session report.",
+    "full": {
+      "eyebrow": "Live Class · Session Report",
+      "helpBody": "This report displays all persistent data of a live class session in one place: actual timing and duration, student attendance, participant list, saved chat, speaker-attributed speech transcript, live polls, reactions, and recording status. Interactive artifacts are only saved when closed by the host using \"End Session\".",
+      "helpTitle": "Session Report Guide"
+    },
+    "hostSuffix": " (Host)",
+    "kpi": {
+      "absent": "Absent",
+      "actualMinutes": "Actual session duration",
+      "chatCount": "Chat messages",
+      "joins": "Join count",
+      "myMinutes": "My attendance duration",
+      "myStatus": "My attendance status",
+      "participants": "Participants",
+      "presentIncLate": "Present (including late)",
+      "scheduledMinutes": "Scheduled duration",
+      "totalMinutes": "Total attendance minutes"
+    },
+    "loading": "Loading session report…",
+    "minutes": "{value, number} min",
+    "neverOpened": "This session was not held (no host entry recorded).",
+    "noCourse": "General Session",
+    "noName": "Untitled",
+    "parent": {
+      "childrenTitle": "Child(ren) Attendance",
+      "eyebrow": "Live Class · Child Attendance Report",
+      "helpBody": "Per the access matrix, the session report only displays an attendance summary for your child(ren); class chat and speech transcripts are not visible to parents.",
+      "helpTitle": "Parent Report Guide",
+      "kpiChildren": "Child linked to this session",
+      "noChildren": "None of your children are associated with this session."
+    },
+    "participants": {
+      "empty": "No one joined this session.",
+      "title": "Participants"
+    },
+    "poll": {
+      "ended": "Ended",
+      "multi": " · Multiple choice",
+      "open": "Open",
+      "total": "Total votes: {value, number}"
+    },
+    "polls": {
+      "title": "Polls"
+    },
+    "recording": {
+      "duration": " · {duration}",
+      "none": "Not available",
+      "play": "Play recording",
+      "processing": "Processing…"
+    },
+    "self": {
+      "attendanceTitle": "My Attendance",
+      "eyebrow": "Live Class · Your Report for this Session",
+      "firstJoin": "First joined:",
+      "helpBody": "This is your personal session report: your own attendance, public chat, your recorded utterances, and public session content (polls and reactions). Other students' information is only shown to the instructor and authorized staff.",
+      "helpTitle": "Personal Report Guide",
+      "joinsLabel": "Join count:",
+      "minutesLabel": "Attendance time:",
+      "myTranscript": "My Utterances",
+      "myTranscriptEmpty": "No speech recorded from you in this session (live captions/translation was not active or you did not speak).",
+      "reactionsTitle": "Session Reactions",
+      "reactionsTotal": "Total: {value, number}",
+      "recordingTitle": "Session Recording"
+    },
+    "table": {
+      "conn": "Connection Type",
+      "firstJoin": "First Joined",
+      "joins": "Join Count",
+      "minutes": "Duration",
+      "name": "Name",
+      "status": "Status"
+    },
+    "timeline": {
+      "breakoutClose": "Close breakout rooms",
+      "breakoutOpen": "Open breakout rooms",
+      "hand": "Hand raised",
+      "pollEnd": "End poll",
+      "pollStart": "Start poll"
+    },
+    "timing": {
+      "actual": "Actual Session",
+      "late": "Started {value, number} minutes late",
+      "notHeld": "Not held",
+      "onTime": "Started on time",
+      "range": "{start} to {end}",
+      "scheduled": "Scheduled",
+      "title": "Timing"
+    },
+    "transcript": {
+      "empty": "No speech recorded for this session (live captions or translation was not active during the session).",
+      "title": "Speech Transcript by Speaker",
+      "truncatedAll": "Part of the transcript was omitted due to loading limits (counters are exact).",
+      "truncatedSpeaker": "Showing first {shown, number} utterances of {total, number} (display limit).",
+      "utterances": "{value, number} utterances"
+    },
+    "unavailable": "Session report is currently unavailable."
+  },
+  "session": {
+    "absence": {
+      "instructorDisconnected": "Instructor connection lost — class continues until their return.",
+      "takeOver": "Accept temporary control of tables and speaking queue"
+    },
+    "supervision": {
+      "waiting": "Class is temporarily without an academic supervisor. Waiting for instructor return or assistant assumption of responsibility.",
+      "paused": "Academic supervision was not resumed within the allowed window; recording stopped. Class and content are preserved.",
+      "recordingDenied": "To record this class, accepted academic responsibility and valid attendance are required.",
+      "offer": "Offer class responsibility to {name}",
+      "offerPending": "Responsibility offer sent; until explicit acceptance by assistant, responsibility remains yours.",
+      "accept": "Accept academic responsibility for class",
+      "conflict": "You are already responsible for another live class. Please end it first or delegate responsibility to an attending and authorized assistant.",
+      "returnFirst": "Return to first class",
+      "returnLobby": "Return to pre-room"
+    },
+    "cohost": {
+      "denied": "Cannot grant co-host; assistant must be present in this class and assigned to this section.",
+      "grant": "Temporarily promote {name}",
+      "granted": "You are now temporary co-host of this class.",
+      "instructorPresent": "Instructor has returned to class; delegation request not permitted.",
+      "manage": "Manage temporary co-host",
+      "revoke": "Revoke co-host for {name}",
+      "revoked": "Your co-host access has been revoked."
+    },
+    "kick": {
+      "failed": "Student removal was incomplete. Media connection has not closed yet; please try again.",
+      "manage": "Students removed from this session",
+      "restore": "Allow {name} to rejoin",
+      "restoreFailed": "Could not record rejoin permission. Please try again."
+    },
+    "archive": {
+      "btn": "Transcript Archive",
+      "download": "Download archive",
+      "empty": "No speech stored in archive yet.",
+      "error": "Failed to retrieve archive.",
+      "loading": "Loading archive…",
+      "reload": "Reload",
+      "retry": "Try again",
+      "short": "Archive",
+      "title": "Transcript Archive (Stored)"
+    },
+    "browserUnknown": "Unknown",
+    "capset": {
+      "btn": "Caption Settings",
+      "fontSize": "Font size",
+      "lg": "Large",
+      "maxLines": "Maximum display lines",
+      "md": "Medium",
+      "off": "Off",
+      "on": "On",
+      "showNames": "Show speaker names",
+      "sm": "Small",
+      "title": "Caption Display Settings"
+    },
+    "captions": {
+      "cpuSlow": "Speech processing on current server CPU is slower than real-time; captions will activate following server upgrade",
+      "deviceUnsupported": "Captions not supported on this browser/device; use Safari on iPhone or a laptop",
+      "engineStuck": "Browser speech engine is not responding; please try again",
+      "fallbackServer": "Browser speech engine not permitted; switched to server engine (may be slower on this server)",
+      "micDenied": "Microphone access not granted",
+      "micRequired": "Microphone must be active for captions",
+      "needMic": "Unmute microphone to enable captions",
+      "noNativeNoServer": "Your browser lacks native captions and server speech service is not active",
+      "recordFailed": "Audio recording for captions failed",
+      "unavailableHere": "Captions not available in this browser",
+      "unsupported": "Your browser does not support live transcription (Chrome/Edge)"
+    },
+    "close": "Close",
+    "collabLoading": "Loading…",
+    "conn": {
+      "fair": "Fair",
+      "good": "Good",
+      "poor": "Poor",
+      "unknown": "Unknown"
+    },
+    "connFoot": "Connection quality: {quality} · {count, number} participants",
+    "diag": {
+      "available": "Available ✓",
+      "browser": "Browser",
+      "engine": "Engine",
+      "engineNative": "Native browser",
+      "engineNone": "❌ None",
+      "engineServer": "Server",
+      "hint": "If \"Audio Level\" does not move when speaking, the browser is not delivering microphone audio to the page.",
+      "lastError": "Last error",
+      "level": "Audio level",
+      "listening": "Listening ✓",
+      "mic": "Microphone",
+      "micOff": "Off ❌",
+      "micOn": "On ✓",
+      "off": "Off",
+      "restarts": "Start attempts",
+      "speech": "Browser speech recognition",
+      "starting": "Starting…",
+      "status": "🛈 Caption status:",
+      "unavailable": "Not available ❌"
+    },
+    "download": {
+      "chat": "Download chat",
+      "formatMenu": "Download format",
+      "label": "Download",
+      "loading": "Downloading…",
+      "srt": "Subtitles (.srt)",
+      "txt": "Download TXT",
+      "vtt": "WebVTT (.vtt)"
+    },
+    "end": {
+      "cancel": "Cancel",
+      "confirmBody": "Once confirmed, you will have 10 seconds to cancel ending the class; then all participants will be disconnected.",
+      "confirmCta": "End class for everyone",
+      "confirmTitle": "End class for all participants?",
+      "failed": "Could not end session; please try again.",
+      "pendingHost": "Class will end in {seconds} seconds.",
+      "pendingStudent": "Instructor is ending the class.",
+      "undo": "Cancel ending class",
+      "undoFailed": "Cancellation window has expired. To continue, create a new session."
+    },
+    "ended": {
+      "byHost": "Class ended by instructor",
+      "forAll": "Class ended for everyone",
+      "redirecting": "Redirecting to live class list…"
+    },
+    "film": {
+      "emptyHint": "As others join, each participant's tile will appear here.",
+      "emptyTitle": "No one has joined yet",
+      "regionLabel": "Participants"
+    },
+    "fs": {
+      "enter": "Enter fullscreen",
+      "enterLabel": "Fullscreen ⛶",
+      "exit": "Exit fullscreen"
+    },
+    "guest": "Guest",
+    "jitsi": {
+      "loadFailed": "Failed to load video room. Check internet connection or Jitsi domain, or use the button below to open session in a new tab.",
+      "openNewTab": "Open session in new tab"
+    },
+    "lang": {
+      "faShort": "FA"
+    },
+    "langMenu": {
+      "help": "Language in which you view captions",
+      "my": "My language: {label}",
+      "notFound": "No language found.",
+      "searchLabel": "Search language",
+      "searchPlaceholder": "Search language…"
+    },
+    "layout": {
+      "custom": "Custom",
+      "focusPresentation": "Presentation focus",
+      "focusVideo": "Video focus",
+      "smart": "Smart"
+    },
+    "leave": "Leave class",
+    "leaveShort": "Leave",
+    "media": {
+      "audioOnly": "Camera video was unavailable; continuing in audio-only mode.",
+      "denied": "Camera/mic access was denied. Click the lock/camera icon in your address bar, allow access, then click \"Retry\".",
+      "errSuffix": " (Error: {name})",
+      "generic": "Could not access media devices. You may stay in class with camera and mic off.",
+      "inUse": "Camera is in use by another app or tab — please close lobby tabs or background apps.",
+      "notFound": "No camera or microphone found. Connect a device and click \"Retry\", or continue muted.",
+      "retry": "Retry",
+      "unsupported": "Your browser does not support camera/mic access or the page is not loaded via secure connection (HTTPS)."
+    },
+    "panel": {
+      "chatTranslated": "Chat (Translated)",
+      "empty": "No speech recorded yet.",
+      "regionLabel": "Live translated speech",
+      "title": "Live Chat (Translated)"
+    },
+    "participant": "Participant",
+    "rec": {
+      "active": "Recording",
+      "armed": "Ready to record",
+      "cancel": "Cancel",
+      "netFailed": "Connection to server failed. Please try again.",
+      "paused": "Temporarily paused",
+      "retry": "Try again",
+      "saveCta": "Save to archive",
+      "saveFailed": "Failed to save recording (code {code, number}). Please try again.",
+      "saveMeta": "File size: {size} MB · Duration: {clock}",
+      "saveTitle": "Save recording to archive?",
+      "saved": "Recording saved to archive",
+      "durableServer": "This segment is recorded on the server.",
+      "durablePending": "Segment is held safely in this browser, awaiting server commit.",
+      "durableUnprotected": "Active segment is not yet protected; an unexpected crash may lose unsaved data.",
+      "recoveryAvailable": "You have an uncommitted safe recording available for recovery.",
+      "recoveryOpen": "Recover recording",
+      "startFailed": "Failed to start recording. Please try again.",
+      "unsupportedRecorder": "Your browser does not support video recording (MediaRecorder). Please use an up-to-date Chrome/Edge or desktop Firefox.",
+      "unsupportedScreen": "Your browser does not support screen recording. Please use an up-to-date Chrome/Edge or desktop Firefox.",
+      "uploading": "Uploading… {pct, number}%"
+    },
+    "reconnecting": "Reconnecting…",
+    "selfName": "{name} (You)",
+    "share": {
+      "failed": "Screen sharing failed. Please try again.",
+      "unsupported": "Your browser does not support screen sharing. Please use an up-to-date Chrome/Edge or desktop Firefox."
+    },
+    "someone": "A participant",
+    "soniox": {
+      "captionFailed": "Live caption stream disconnected; connection could not be restored after several attempts. Class itself continues normally — you can toggle captions again if desired.",
+      "connecting": "Live translation: Connecting…",
+      "detectedLabel": "Detected:",
+      "detectedTitle": "Speaker's detected language",
+      "error": "Live translation: Error — Retrying",
+      "exportDate": "Export date: {date}",
+      "exportHead": "Live Translated Transcript — Session {id}",
+      "group": "Live Translation",
+      "langSep": ", ",
+      "on": "Live translation: On",
+      "receiveOnly": "Caption display mode: View speech of others without microphone",
+      "saveFallback": "Server save failed — saved locally instead",
+      "stConnecting": "Connecting…",
+      "stError": "Error",
+      "stMore": " +{value, number}",
+      "stOn": "On",
+      "stOnTargets": "On · → {langs}",
+      "stPaused": "Paused (Muted)",
+      "stReceiveOnly": "Display only (No mic)",
+      "stReconnecting": "Reconnecting…",
+      "stTranscribeOnly": "On · Transcription only",
+      "turnOn": "Turn on live translation",
+      "unavailable": "Live translation unavailable"
+    },
+    "stage": {
+      "captionFeed": "Live translated captions",
+      "modeLabel": "Stage mode",
+      "noShare": "No presentation shared",
+      "noShareHint": "To present, click \"Share Screen\", or select \"Whiteboard\" for collaborative drawing.",
+      "share": "Share screen",
+      "whiteboard": "Whiteboard"
+    },
+    "tile": {
+      "handRaised": "Hand raised",
+      "pin": "Pin {name}",
+      "quality": {
+        "connecting": "Reconnecting",
+        "fair": "Connection quality: Fair",
+        "good": "Connection quality: Good",
+        "poor": "Connection quality: Poor",
+        "unknown": "Connection quality: Unknown"
+      }
+    },
+    "titleFallback": "Live Class",
+    "duplicate": {
+      "replaced": "You joined from another device; audio and video on this device have been disconnected.",
+      "continued": "Previous device connection closed; you are now connected from this device.",
+      "continueHere": "Continue on this device"
+    },
+    "toast": {
+      "captionsOn": "Class captions enabled — each speaker's audio labeled with their name",
+      "chatLocked": "Chat locked by host",
+      "chatUnlocked": "Chat unlocked",
+      "joined": "{name} joined",
+      "kicked": "You have been removed from the class by the host.",
+      "left": "{name} left",
+      "recStarted": "Recording started",
+      "recStopped": "Recording stopped"
+    },
+    "toolbar": {
+      "cam": "Camera",
+      "captionsGroup": "Captions & Translation",
+      "ccOff": "Captions (CC)",
+      "ccOn": "Captions ✓ ({lang})",
+      "ccStarting": "Captions… ({lang})",
+      "endClass": "End Class",
+      "endClassShort": "End",
+      "handShort": "Hand",
+      "langEn": "Language: English",
+      "langFa": "Language: Persian",
+      "layout": "Layout",
+      "mic": "Microphone",
+      "more": "More",
+      "moreLabel": "More controls",
+      "panel": "Chat & People",
+      "panelShort": "Chat",
+      "raiseHand": "Raise Hand",
+      "reactions": "Reactions",
+      "sendReaction": "Send reaction {emoji}",
+      "share": "Share screen",
+      "shareShort": "Share"
+    },
+    "topbar": {
+      "elapsedLabel": "Class duration",
+      "hostPrefix": "Host: {name}",
+      "loadingTitle": "Loading…",
+      "recOffTitle": "Recording occurs in the host's browser and is saved to archive upon completion",
+      "recOnTitle": "This session is currently being recorded (recording in host browser)",
+      "recStart": "Start recording",
+      "recStop": "Stop recording"
+    },
+    "unpin": "Unpin",
+    "unpinLabel": "Exit pin ✕",
+    "view": {
+      "gallery": "Gallery",
+      "modeLabel": "View mode",
+      "podium": "Podium"
+    },
+    "you": "You"
+  },
+  "signals": {
+    "aria": {
+      "confused": "Signal that concept is unclear",
+      "slower": "Request slower pace from instructor"
+    },
+    "confused": "I didn't understand",
+    "sent": "Recorded",
+    "slower": "Go slower"
+  },
+  "tables": {
+    "assign": {
+      "balanced": "Automatic (balanced)",
+      "noStudents": "No students in class yet.",
+      "pickFor": "Table for {name}",
+      "random": "Random",
+      "title": "Seat students",
+      "unassigned": "Unassigned"
+    },
+    "cancel": "Cancel",
+    "confirm": "Yes",
+    "countLabel": "Number of new tables",
+    "capacity": "{used, number} of {total, number} people",
+    "capacityLabel": "Capacity per table",
+    "create": "Create table",
+    "defaultName": "Table {index, number}",
+    "dissolve": "Dissolve table",
+    "dissolveConfirm": "Dissolve \"{name}\"? Its members will return to the main class.",
+    "duration": {
+      "label": "Table work duration",
+      "option": "{count, number} minutes"
+    },
+    "empty": "No tables created yet.",
+    "extend": "{count, number} more minutes",
+    "limit": "Maximum {count, number} tables",
+    "mediaNote": "During table work, only your tablemates see and hear you.",
+    "memberCount": "{count, number} people",
+    "members": "Tablemates",
+    "nameLabel": "Table name",
+    "peekNotice": "Instructor is monitoring tables",
+    "rejected": {
+      "empty": "No tables have members.",
+      "full": "This table is full.",
+      "error": "An error occurred; please try again.",
+      "forbidden": "You do not have permission for this action.",
+      "invalid": "Invalid request.",
+      "limit": "You have reached the maximum number of tables.",
+      "noRound": "Table work has not started.",
+      "notFound": "This table no longer exists.",
+      "roundActive": "This action cannot be performed while table work is in progress.",
+      "selectionLocked": "Table selection is locked by the instructor."
+    },
+    "remaining": "Time remaining: {time}",
+    "rename": "Rename",
+    "returnAll": "Return all",
+    "returnAllConfirm": "Return everyone to the main class?",
+    "returned": "Everyone returned to the main class.",
+    "running": "Table work in progress",
+    "save": "Save",
+    "select": {
+      "action": "Select table",
+      "full": "Full",
+      "hint": "Select an open table; you can change it as long as the instructor leaves selection open.",
+      "selected": "Your table",
+      "title": "Select Table"
+    },
+    "selection": {
+      "close": "Close student selection",
+      "open": "Open student selection"
+    },
+    "start": "Start table work",
+    "startHint": "At least one table with members is required.",
+    "timeUp": "Table time has ended; everyone returned to the main class.",
+    "title": "Group Tables",
+    "transcriptConsentProgress": "Voice transcript consent: {accepted} of {total}",
+    "transcriptDurableEnabled": "Persistent recording is active only with everyone's consent.",
+    "transcriptConsentAccept": "Consent to table audio recording",
+    "transcriptConsentWithdraw": "Withdraw consent",
+    "transcriptWithdrawalReason": "Reason for withdrawing consent",
+    "transcriptQuarantined": "This table's transcript is quarantined for safe recreation.",
+    "transcriptConsentUnavailable": "Table transcript consent status is unavailable.",
+    "visit": {
+      "join": "Join",
+      "joined": "You are at \"{name}\"",
+      "leave": "Return to main class",
+      "peek": "Listen quietly",
+      "peeking": "Listening to \"{name}\""
+    },
+    "you": {
+      "assigned": "You are at \"{name}\"",
+      "unassigned": "You have not been assigned to a table yet.",
+      "waiting": "Table work has not started yet."
+    }
+  },
+  "wb": {
+    "canvasLabel": "Shared whiteboard canvas",
+    "clearAll": "Clear all",
+    "clearAllTitle": "Clear all (Host)",
+    "clearConfirm": "Confirm clear all",
+    "clearConfirmShort": "Confirm?",
+    "clearConfirmTitle": "Click again to confirm",
+    "colorGroup": "Color",
+    "colorSwatch": "Color {color}",
+    "exportPng": "Export PNG",
+    "exportPngTitle": "Save as PNG image",
+    "hintEmpty": "Whiteboard is empty. Select a tool and draw on the canvas.",
+    "hintText": "Type text and press Enter to place it on the board.",
+    "itemCount": "{count, plural, one {# item on whiteboard} other {# items on whiteboard}}",
+    "lock": "Lock whiteboard",
+    "lockTitle": "Lock whiteboard for others",
+    "lockedNotice": "Whiteboard has been locked by the host; view only at this time.",
+    "lockedTitle": "Whiteboard is locked — click to unlock",
+    "redo": "Redo",
+    "textLabel": "Text on whiteboard",
+    "textPlaceholder": "Text… (Enter to place, Esc to cancel)",
+    "toolbarLabel": "Whiteboard tools",
+    "tools": {
+      "arrow": "Arrow",
+      "circle": "Circle",
+      "eraser": "Eraser",
+      "line": "Line",
+      "pen": "Pen",
+      "rect": "Rectangle",
+      "select": "Select",
+      "text": "Text"
+    },
+    "undo": "Undo",
+    "undoTitle": "Undo (your last item)",
+    "unlock": "Unlock whiteboard",
+    "widthGroup": "Stroke width",
+    "widthOption": "Width {width, number}"
+  },
+  "sessionAnalysis": {
+    "title": "Session Analysis",
+    "loading": "Analyzing…",
+    "failed": "Session analysis could not be completed",
+    "reviewRequired": "This output is a draft and requires instructor review.",
+    "confidence": "Estimated confidence: {value, number, ::percent}",
+    "unavailable": "Live session analysis is not available. No summary or educational questions were generated.",
+    "truncated": "This analysis covers only part of the stored transcript; session text exceeds the processing limit.",
+    "quiz": "Suggested Questions ({count, number})",
+    "suggestedAnswer": "Suggested answer: {answer}",
+    "sources": "Reference Transcript Excerpts ({count, number})"
+  },
+  "playback": {
+    "back": "Back to session report",
+    "chatTitle": "Public Replay Chat",
+    "archivedChatTitle": "Archived Live Chat (Read-only)",
+    "replayChatTitle": "New Replay Chat",
+    "replayChatMessageLabel": "New replay message",
+    "sendReplayChat": "Post message at current timestamp",
+    "replayChatHidden": "This message has been hidden from others",
+    "replayChatHide": "Hide message",
+    "replayChatUnhide": "Unhide message",
+    "replayChatReportReason": "Reason for reporting message",
+    "replayChatReport": "Report message",
+    "replayChatUnavailable": "Replay chat is not available or action is not permitted.",
+    "loadMoreChat": "Load older messages",
+    "makeupTitle": "Replay Make-up Attendance Credit",
+    "makeupSeparateNotice": "This credit is recorded following instructor review and does not alter historical attendance or grades.",
+    "makeupSessionLabel": "Make-up session ID",
+    "makeupThresholdLabel": "Minimum verified watch time (percentage)",
+    "makeupEnable": "Enable make-up",
+    "makeupDisable": "Disable make-up",
+    "makeupThreshold": "Required minimum watch time: {percent}%",
+    "makeupOpenSession": "Go to make-up session replay",
+    "makeupWatched": "Server-recorded watch time: {percent}%",
+    "makeupReasonLabel": "Reason for make-up request",
+    "makeupClaim": "Submit make-up review request",
+    "makeupCreditStatus": "Credit status: {status}",
+    "makeupStudentLabel": "Student",
+    "makeupDecisionReasonLabel": "Instructor decision reason",
+    "makeupConfirm": "Confirm make-up credit",
+    "makeupReverse": "Manually reverse confirmed credit",
+    "makeupUnavailable": "Make-up attendance action is not permitted or information is unavailable.",
+    "makeupStatus": {
+      "pending": "Pending approval",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled",
+      "reversed": "Reversed"
+    },
+    "artifactsTitle": "Post-class Persistent Shared Items",
+    "artifactsAudienceNotice": "These items are only visible to users with current access to this course and recording; screen shares are not saved.",
+    "artifactsEnableLearners": "Enable learner contributions",
+    "artifactsDisableLearners": "Disable learner contributions",
+    "artifactKindLabel": "Content type",
+    "artifactTitleLabel": "Title",
+    "artifactWhiteboardLabel": "Whiteboard textual snapshot",
+    "artifactDocumentLabel": "Course document ID",
+    "artifactCreate": "Save shared item",
+    "artifactApprove": "Approve publication",
+    "artifactHide": "Hide",
+    "artifactUnavailable": "Saving or managing this shared item is not permitted.",
+    "artifactKind": {
+      "pdf": "PDF",
+      "whiteboard": "Whiteboard",
+      "file_pin": "Pinned file"
+    },
+    "artifactStatus": {
+      "pending": "Awaiting instructor approval",
+      "published": "Published",
+      "hidden": "Hidden"
+    },
+    "notesTitle": "My Timestamped Notes",
+    "noteLabel": "Note text",
+    "addNote": "Add note at current time",
+    "saveNote": "Save edit",
+    "editNote": "Edit",
+    "deleteNote": "Delete",
+    "seekNote": "Jump to note timestamp",
+    "questionsTitle": "Replay Questions",
+    "questionLabel": "Timestamped question",
+    "askQuestion": "Submit question",
+    "questionPublished": "Published for class",
+    "questionOptIn": "Consent to publish",
+    "questionOptOut": "Withdraw publication consent",
+    "questionApprove": "Approve publication",
+    "questionUnpublish": "Unpublish",
+    "answerLabel": "Official answer",
+    "answerQuestion": "Submit answer",
+    "roomTitle": "Group Watch Room",
+    "createRoom": "Create private room",
+    "roomIdLabel": "Room ID",
+    "joinRoom": "Join room",
+    "roomUserLabel": "User ID",
+    "inviteRoom": "Invite",
+    "offerHandover": "Offer control handover",
+    "acceptHandover": "Accept handover",
+    "removeMember": "Remove from room",
+    "closeRoom": "Close room",
+    "roomPlay": "Play for all",
+    "roomPause": "Pause for all",
+    "roomSeek": "Seek group playback to selected time",
+    "roomUnavailable": "Room is unavailable or you lack required permissions.",
+    "roomWaiting": "Waiting for room connection…",
+    "questionUnavailable": "This action is not permitted or the question is no longer available.",
+    "questionHide": "Hide question",
+    "questionUnhide": "Unhide question",
+    "questionHidden": "Hidden from class",
+    "questionReportReason": "Reason for reporting question",
+    "questionReport": "Report question",
+    "eyebrow": "Interactive Replay",
+    "loading": "Preparing replay…",
+    "jump": "Jump to this event",
+    "jumpToPoll": "Jump to poll {question}",
+    "jumpToTableStart": "Jump to table activity start",
+    "jumpToTranscript": "Jump to this transcript timestamp",
+    "speedLabel": "Playback speed",
+    "watchedProgress": "Playback watched on this device: {percent}%",
+    "serverWatchEvidence": "Server-recorded progress: {percent}%.",
+    "notAttendanceCredit": "This value alone does not constitute attendance credit.",
+    "fullscreen": "Fullscreen",
+    "captionsLabel": "Session captions",
+    "showCaptions": "Show captions",
+    "hideCaptions": "Hide captions",
+    "me": "Me",
+    "noMatches": "No text found matching your search.",
+    "noRecording": "No playback recording is available for this session.",
+    "open": "Interactive Replay",
+    "pollsTitle": "Recorded Polls",
+    "pollNotReached": "To answer, first reach this poll's timestamp in the replay.",
+    "pollAnswerFailed": "Could not record replay answer; please try again.",
+    "searchLabel": "Search transcript",
+    "searchPlaceholder": "Search session speech…",
+    "searchLoading": "Searching transcript…",
+    "searchUnavailable": "Transcript search is not permitted or temporarily unavailable.",
+    "loadMoreResults": "Show more results",
+    "table": "Table {id}",
+    "timelineLabel": "Replay event timeline",
+    "transcriptTitle": "Searchable Transcript",
+    "downloadTranscript": "Download transcript",
+    "transcriptDownloadUnavailable": "Transcript download is not permitted or temporarily unavailable.",
+    "unavailable": "Replay for this session is unavailable."
+  }
+}

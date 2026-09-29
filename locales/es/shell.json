@@ -944,5 +944,6 @@
     "helpTitle": "Guía de todas las herramientas",
     "help": "Esta página es un acceso directo a todas las secciones de tu espacio de trabajo. Haz clic en cualquier tarjeta para ir a esa sección, o usa el cuadro superior para buscar rápidamente una herramienta.",
     "empty": "No se encontraron herramientas con «{query}»."
-  }
+  },
+  "assistantUnavailable": "El asistente no se pudo cargar temporalmente; la página del curso sigue estando accesible."
 }

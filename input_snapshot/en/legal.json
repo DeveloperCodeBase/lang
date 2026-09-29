@@ -1,0 +1,363 @@
+{
+  "contact": {
+    "head": {
+      "title": "Contact Us — Ways to Connect with the Organization",
+      "description": "The official address, telephone number, and email of the organization for inquiries regarding membership, competency assessment, courses, or organizational collaboration; logged-in users can also follow up via their service dashboard."
+    },
+    "hero": {
+      "eyebrow": "Contact Us",
+      "title": "Ways to Connect with the Organization",
+      "lead": "Contact us using these addresses for inquiries regarding membership, assessment, courses, or organizational collaboration. Following up on requests for logged-in users is faster through the \"Service Dashboard\" inside the user account."
+    },
+    "rows": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "org": "Operating Organization",
+      "techOwner": "Technical Executor and Platform Rights Holder"
+    },
+    "beforeContact": {
+      "title": "Before Contacting Us, Check These Out",
+      "body": "Most common questions — how to log in, attend live classes, verify credentials, and make payments — are answered on the FAQ page. A complete description of each feature is also available on the features page."
+    },
+    "alsoSee": {
+      "faq": "FAQ",
+      "features": "University Features",
+      "help": "Help",
+      "about": "About Us"
+    }
+  },
+  "terms": {
+    "head": {
+      "title": "Terms and Conditions — Platform Usage Conditions",
+      "description": "Read the terms of use, user account responsibility, payment and refund rules, content ownership, credentials, the role of artificial intelligence, and the governing law of the online university on this page."
+    },
+    "hero": {
+      "eyebrow": "Terms and Conditions",
+      "title": "Terms of Use for {brand}",
+      "lead": "Using this platform implies acceptance of the following terms. These terms determine the relationship between the user and {orgName}."
+    },
+    "draftNotice": {
+      "label": "Draft — Pending Legal Approval.",
+      "note": "This text is version 1 and has been drafted by the platform team; the final text will replace it after legal approval by the organization."
+    },
+    "clauses": {
+      "scope": {
+        "title": "Scope of Coverage",
+        "body": "These terms apply to all parts of the platform: membership, competency assessment, live classes, exams, knowledge marketplace, consulting, wallet, and enterprise services. Sections with specific rules — such as the academic integrity code — are announced on their respective pages and complement this text."
+      },
+      "account": {
+        "title": "User Account and Authentication",
+        "body": "Login is done using a mobile number and an SMS one-time code. The user is solely responsible for protecting access to their mobile number and device, and any activity performed through that account is considered to belong to that user.",
+        "list": [
+          "Sharing the account with another person is not permitted.",
+          "The identity information entered must be accurate and belong to the user themselves.",
+          "In case of suspicious misuse, access will be temporarily restricted until human review."
+        ]
+      },
+      "payment": {
+        "title": "Payment, Tuition, and Refunds",
+        "body": "All amounts are in Rials and are settled via the official payment gateway or the user's wallet balance. The statement of each transaction is recorded and viewable in the user's wallet.",
+        "list": [
+          "The refund conditions for each course or service are announced on its page prior to purchase.",
+          "Consumed services — a held session, a taken exam, a published report — are non-refundable.",
+          "Refund requests are submitted from the \"Service Dashboard\" and reviewed by a human expert."
+        ]
+      },
+      "content": {
+        "title": "Content and Intellectual Property",
+        "body1": "Educational content published on the platform belongs to its creator and is licensed solely for the personal use of the purchasing user. Recording, duplication, republishing, or resale of the content — including recording live sessions — without written permission is prohibited.",
+        "body2": "Content uploaded by users themselves remains their own property; by publishing it on the platform, only the necessary license to display, process, and present it to the target audience is granted to the platform."
+      },
+      "conduct": {
+        "title": "Acceptable Behavior",
+        "body": "Insulting, discriminatory behavior, harassment, publishing illegal content, attempts to compromise or disrupt the service, and cheating on exams constitute a violation of these terms. Detailed rules of academic integrity are provided in a separate code."
+      },
+      "credentials": {
+        "title": "Credentials and Verification",
+        "body": "Issued credentials have a unique code and can be verified from the platform's public verification page. Forging, tampering with, or presenting a credential in another person's name is a violation and will result in the revocation of the credential. The decision to revoke is always made by the issuing human authority."
+      },
+      "ai": {
+        "title": "Role of Artificial Intelligence and Human Decision-Making",
+        "pre": "The platform's AI assistants play a supporting role. Their outputs are provided with sources and confidence levels, and ",
+        "bold": "no critical decision",
+        "post": " — final grade, assessment result, expulsion, or financial settlement — is finalized automatically. The final decision always rests with the responsible human."
+      },
+      "availability": {
+        "title": "Service Availability",
+        "body": "The platform may be temporarily unavailable for maintenance, updates, or troubleshooting. Schedules for planned outages are communicated to affected users prior to execution."
+      },
+      "changes": {
+        "title": "Changes to Terms",
+        "body": "These terms may be updated. Changes affecting user rights will be announced prior to implementation, and continued use after the announcement constitutes acceptance of the new version."
+      },
+      "governingLaw": {
+        "title": "Governing Law and Dispute Resolution",
+        "body": "These terms are governed by the laws of the Islamic Republic of Iran. The parties shall first attempt to resolve disputes through negotiation and follow-up via the \"Service Counter\"; otherwise, competent judicial authorities of Iran shall have jurisdiction."
+      }
+    },
+    "alsoSee": {
+      "privacy": "Privacy Policy",
+      "honorCode": "Academic Honor Code",
+      "faq": "Frequently Asked Questions",
+      "contact": "Contact Us"
+    }
+  },
+  "privacy": {
+    "head": {
+      "title": "Privacy Policy — What we do with your data",
+      "description": "This policy explains what data is collected, why it is retained, who it is shared with, and what rights you have regarding your data."
+    },
+    "hero": {
+      "eyebrow": "Privacy",
+      "title": "What we do with your data",
+      "lead": "This policy explains what data is collected, why, how long it is retained, and what control you have over it. Our core principle is: every piece of data is collected solely for the purpose for which the user visited the platform."
+    },
+    "draftNotice": {
+      "label": "Draft — Awaiting legal approval.",
+      "note": "This text is version 1 and has been drafted by the platform team; the final text will replace it upon legal approval by the organization."
+    },
+    "clauses": {
+      "dataCollected": {
+        "title": "What data we collect",
+        "list": [
+          "Identity and contact data: name, mobile number, email, and information entered by the user in their profile.",
+          "Educational data: enrollment, attendance, assignments, grades, and academic status.",
+          "Assessment and test data: answers, results, and evaluation reports.",
+          "Financial data: wallet transactions and tuition fees — bank card information is never stored on the platform.",
+          "Technical data: IP address, device type, and event logs, for security and troubleshooting."
+        ]
+      },
+      "why": {
+        "title": "Why we keep this data",
+        "body": "To provide the service itself: account creation, holding classes and exams, issuing and verifying credentials, financial settlement, support, and compliance with legal and educational requirements. No data is used for personalized advertising or sold to third parties."
+      },
+      "sensitiveData": {
+        "title": "Sensitive data and explicit consent",
+        "pre": "Data related to mental health, counseling, and psychometric results is considered sensitive and ",
+        "bold": "is made available solely with the user's explicit consent",
+        "post": " and exclusively to the counselor or assessor responsible for that specific case. Displaying user information in the public member directory is also optional and is done with separate, revocable consent."
+      },
+      "thirdParty": {
+        "title": "Sharing with third parties",
+        "intro": "Data is shared only to the extent necessary with the following service providers:",
+        "list": [
+          "SMS service — mobile number only, for sending one-time passwords and notifications.",
+          "Bank payment gateway — only necessary transaction information; the platform does not receive or store card data.",
+          "Employer organization or institution requesting the assessment — only the result of the specific assessment the user took for that organization."
+        ],
+        "outro": "Other than these cases, data disclosure is made only in response to an order from a competent judicial authority."
+      },
+      "retention": {
+        "title": "Retention and Deletion",
+        "body": "Educational data and credentials are retained due to the nature of long-term academic records—credentials cannot be verified without records. Technical data and event logs are deleted after the period necessary for security and auditing. Requests to delete non-essential data can be submitted via \"Contact Us\" or the \"Service Desk\" and are reviewed manually."
+      },
+      "security": {
+        "title": "Security",
+        "body": "Communication with the platform is encrypted, staff access is defined based on roles and the principle of least privilege, and every sensitive access is logged in the audit trail. No system is infallible; in the event of a security incident affecting user data, affected users will be notified."
+      },
+      "cookies": {
+        "title": "Cookies and Local Storage",
+        "body": "The platform uses browser local storage to maintain login sessions and display settings—such as light and dark mode. No third-party tracking cookies are installed on the platform, and all page assets are loaded from the platform's own server."
+      },
+      "aiAndData": {
+        "title": "AI and Your Data",
+        "body": "The platform's AI assistants only have access to the data of the specific user and course. Their output is a suggestion, not a decision; final grades, assessment results, and disciplinary decisions are always finalized by humans."
+      },
+      "yourRights": {
+        "title": "Your Rights",
+        "list": [
+          "Viewing and editing profile information from within your user account.",
+          "Withdrawing consent for display in the member directory at any time.",
+          "Requesting a copy of your data or the deletion of non-essential data.",
+          "Receiving a human response regarding any decision that has affected your record."
+        ]
+      },
+      "contactAbout": {
+        "title": "Contact Regarding Privacy",
+        "pre": "Send questions or requests regarding personal data to",
+        "post": "or follow up via the Contact Us page."
+      }
+    },
+    "alsoSee": {
+      "terms": "Terms and Conditions",
+      "contact": "Contact Us",
+      "faq": "Frequently Asked Questions"
+    }
+  },
+  "help": {
+    "head": {
+      "title": "Help — Support Center and FAQ",
+      "description": "Find answers to frequently asked questions about live classes, user accounts, payments, certificates, and the AI assistant in the help center, or chat with live support."
+    },
+    "hero": {
+      "eyebrow": "HELP CENTER · 24/7",
+      "title": "How can we help?"
+    },
+    "search": {
+      "placeholder": "Search FAQs"
+    },
+    "categories": {
+      "quickstart": {
+        "title": "Quick Start",
+        "desc": "First class, first exercise, first certificate"
+      },
+      "account": {
+        "title": "User Account",
+        "desc": "Registration, authentication, updating information"
+      },
+      "live": {
+        "title": "Live Class",
+        "desc": "Joining, microphone setup, recording"
+      },
+      "payment": {
+        "title": "Payment and Tuition",
+        "desc": "Payment methods, refunds"
+      },
+      "cert": {
+        "title": "Certificate and Diploma",
+        "desc": "Issuance, verification, sharing"
+      },
+      "ai": {
+        "title": "AI Assistant",
+        "desc": "Usage instructions, limitations, settings"
+      }
+    },
+    "categoryQuestionCount": "{count, plural, one {# question ←} other {# questions ←}}",
+    "faqItems": {
+      "joinLiveClass": {
+        "q": "How do I join my first live class?",
+        "a": "From your dashboard, click on the weekly schedule. The \"Join\" button becomes active 15 minutes before the start..."
+      },
+      "certificateRecognition": {
+        "q": "Is the {brand} certificate official in Iran?",
+        "a": "Our certificates comply with the Ministry of Science guidelines and can be verified in national systems..."
+      },
+      "aiPrivacy": {
+        "q": "Does the AI assistant have access to my personal information?",
+        "a": "The AI Tutor only has access to your course information (progress, exercises, questions)..."
+      },
+      "offlineRecording": {
+        "q": "Will the class be lost if the internet disconnects?",
+        "a": "No. All live classes are recorded and can be accessed in your personal archive..."
+      },
+      "installmentPayment": {
+        "q": "How can I pay tuition in installments?",
+        "a": "During the payment step, select the 3-month interest-free installment option..."
+      },
+      "projectChange": {
+        "q": "Can I change my final course project?",
+        "a": "You can change the project before official selection. After approval, instructor permission is required..."
+      }
+    },
+    "faqSection": {
+      "title": "Frequently Asked Questions",
+      "removeFilter": "Remove filter \"{category}\"",
+      "empty": "Nothing found — chat with \"Live Support\" on this page."
+    },
+    "liveSupport": {
+      "label": "Live Support",
+      "body": "The support team is available 24/7 to answer your questions. Average response time: 8 minutes.",
+      "startChat": "Start Chat",
+      "toast": {
+        "title": "Connecting to Support",
+        "msg": "An operator will respond in a few seconds."
+      }
+    },
+    "systemStatus": {
+      "label": "SYSTEM STATUS",
+      "services": {
+        "lms": "LMS",
+        "liveClass": "Live Class",
+        "aiTutor": "AI Tutor",
+        "payment": "Payment",
+        "asrFa": "ASR · Persian"
+      },
+      "operational": "Operational",
+      "degraded": "Degraded"
+    }
+  },
+  "honorCode": {
+    "head": {
+      "title": "Academic Integrity Code — Principles, Violations, and Reporting Process",
+      "description": "Read the principles of academic integrity, the list of permitted and prohibited behaviors, and the reporting and appeal process at the university on this page."
+    },
+    "hero": {
+      "eyebrow": "Academic Integrity Charter",
+      "title": "Academic Integrity Charter",
+      "lead": "Academic integrity is the foundation of all our activities at {brand}. This charter defines what is acceptable, what is not, and what happens if a mistake occurs."
+    },
+    "principles": {
+      "title": "Core Principles",
+      "items": {
+        "honesty": {
+          "title": "Honesty in Work",
+          "desc": "All submitted work must be your own unless the source is explicitly cited. The AI Tutor is your companion, not your replacement."
+        },
+        "sourceRespect": {
+          "title": "Respect for Sources",
+          "desc": "Clearly cite any thought, code, or text taken from someone else. This is both a sign of respect and protection for yourself."
+        },
+        "individualExam": {
+          "title": "An Individual Exam is an Individual Exam",
+          "desc": "In identity-verified exams, using unauthorized external resources or assistance is a violation."
+        },
+        "transparentCollab": {
+          "title": "Transparent Collaboration",
+          "desc": "Group collaboration is wonderful — as long as it is permitted in the exercise syllabus and each person's contribution is clear."
+        },
+        "courageousReporting": {
+          "title": "Courageous reporting",
+          "desc": "If you witness a violation, report it. Your identity will remain confidential and there will be no retaliation."
+        }
+      }
+    },
+    "allowed": {
+      "title": "Allowed ✓",
+      "items": [
+        "Asking the AI Tutor about concepts",
+        "Teamwork on designated group projects",
+        "Consulting with the instructor during Office Hours",
+        "Using online resources with proper citation",
+        "Asking peers for feedback before submission",
+        "Copying your own code from a previous project (with notice)"
+      ]
+    },
+    "violations": {
+      "title": "Violation ✗",
+      "items": [
+        "Copying someone else's answer without attribution",
+        "Answering on behalf of someone else in an exam",
+        "Submitting AI work as your own in an exam",
+        "Accessing exam questions ahead of time",
+        "Falsifying research data",
+        "Submitting the same project for two courses without authorization"
+      ]
+    },
+    "reportProcess": {
+      "title": "Reporting and Appeal Process",
+      "body": "Every reported violation is referred to the Academic Integrity Committee. The accused student is given the opportunity to respond and defend themselves academically. No decision is finalized without the approval of three committee members.",
+      "reportButton": "Confidential Report",
+      "signButton": "Sign the Honor Code",
+      "reportConfirm": {
+        "title": "Confidential Report",
+        "body": "This report will be sent to the Academic Integrity Committee. Your identity will remain confidential. Do you want to continue?",
+        "confirmLabel": "Submit Report",
+        "cancelLabel": "Cancel"
+      },
+      "reportToast": {
+        "title": "Report Submitted",
+        "msg": "The committee will review it within 72 hours."
+      },
+      "signConfirm": {
+        "title": "Sign the Academic Integrity Honor Code",
+        "body": "By signing this honor code, you commit to upholding all principles of academic integrity.",
+        "confirmLabel": "I Agree and Sign"
+      },
+      "signToast": {
+        "title": "Honor Code Signed",
+        "msg": "The signature date has been recorded in your profile."
+      }
+    }
+  }
+}

@@ -1,0 +1,711 @@
+{
+  "dashboard": {
+    "eyebrow": "System Administration · Live Data",
+    "title": "Admin Dashboard",
+    "lead": "System overview and quick access to management sections. Statistics are fetched from live platform services.",
+    "refresh": "Refresh",
+    "loading": "Loading…",
+    "consoleLoading": "Loading monitoring console…",
+    "errors": {
+      "load": "Failed to load dashboard",
+      "allDown": "None of the dashboard services were available."
+    },
+    "kpi": {
+      "aria": "Key Performance Indicators",
+      "users": "Users",
+      "courses": "Courses",
+      "ai": "AI Interactions",
+      "audit": "Audit Events"
+    },
+    "audit": {
+      "title": "Latest Audit Events",
+      "viewAll": "View all",
+      "unavailable": "Audit logs unavailable (—).",
+      "empty": "No events recorded.",
+      "systemActor": "System"
+    },
+    "actions": {
+      "create": "Create",
+      "update": "Edit",
+      "delete": "Delete",
+      "login": "Login",
+      "logout": "Logout",
+      "transition": "Change Status",
+      "approve": "Approve",
+      "reject": "Reject",
+      "enroll": "Enroll",
+      "drop": "Drop Course",
+      "pay": "Pay",
+      "settle": "Settle"
+    },
+    "quick": {
+      "title": "Quick Access",
+      "searchPlaceholder": "Search sections…",
+      "searchAria": "Search management sections",
+      "empty": "No matching section found."
+    },
+    "groups": {
+      "all": "All",
+      "academic": "Academics",
+      "people": "People",
+      "finance": "Finance",
+      "governance": "Governance"
+    },
+    "links": {
+      "schools": {
+        "title": "Schools & Departments",
+        "desc": "Four-tier educational structure"
+      },
+      "terms": {
+        "title": "Academic Terms",
+        "desc": "Terms and process windows"
+      },
+      "students": {
+        "title": "Students",
+        "desc": "Records and academic status"
+      },
+      "instructors": {
+        "title": "Instructors",
+        "desc": "Faculty members and assignments"
+      },
+      "users": {
+        "title": "Users & Roles",
+        "desc": "Accounts and permissions"
+      },
+      "treasury": {
+        "title": "Treasury & Reports",
+        "desc": "General ledger and financial settlement"
+      },
+      "commission": {
+        "title": "Commission on Special Cases",
+        "desc": "Review and decision of cases"
+      },
+      "audit": {
+        "title": "Audit Log",
+        "desc": "System-recorded events"
+      }
+    },
+    "detail": {
+      "title": "Event Details",
+      "close": "Close",
+      "action": "Action",
+      "subject": "Subject",
+      "user": "User",
+      "ip": "IP Address",
+      "time": "Time",
+      "fullReport": "Full Report"
+    }
+  },
+  "membershipConfig": {
+    "eyebrow": "Management Desk · Membership",
+    "title": "Membership Settings",
+    "lead": "Member discounts, directory visibility, areas of expertise, sales plans, and change log.",
+    "version": "Saved version: {version}",
+    "helpTitle": "Help",
+    "helpBody": "\"Money\" (member discounts, limits, coupon policy, grace period) can only be saved with the Financial Manager role. \"Program\" (directory visibility, expertise areas) only with the Membership Manager role. \"Plans\" with either of those two roles. \"Reset to Default\" resets the entire section, not just a single field. \"History\" currently displays the raw ID of the actor; displaying the name is deferred to the next step.",
+    "loading": "Loading...",
+    "loadError": "Failed to load membership settings.",
+    "resetDefaults": "Reset to Default",
+    "saving": "Saving...",
+    "tabs": {
+      "money": "Money",
+      "program": "Program",
+      "plans": "Plans",
+      "history": "History"
+    },
+    "scope": {
+      "all": "All courses",
+      "selected": "Selected categories"
+    },
+    "stacking": {
+      "best_of": "Best discount/coupon",
+      "coupon_wins": "Coupon wins",
+      "stack": "Stack both"
+    },
+    "visibility": {
+      "off": "Off",
+      "members_only": "Members only",
+      "authenticated": "Authenticated users",
+      "public": "Public"
+    },
+    "historyScope": {
+      "config": "Settings",
+      "plan": "Plan"
+    },
+    "money": {
+      "readOnly": "Only the finance manager can save or reset this section.",
+      "percentLabel": "Member discount percentage",
+      "percentHelper": "0 to 100 — zero means discount is off.",
+      "maxRialLabel": "Maximum discount cap (leave blank for unlimited)",
+      "scopeLabel": "Discount scope",
+      "categoriesLabel": "Selected categories (separated by \",\")",
+      "categoriesHelper": "Applies only when the scope is \"Selected categories\".",
+      "categorySeparator": ", ",
+      "stackingLabel": "Discount and coupon stacking policy",
+      "stackingHelper": "\"Best discount/coupon\": applies whichever gives the higher discount. \"Coupon wins\": if a coupon is present, the membership discount is ignored. \"Stack both\": both discounts are applied together.",
+      "graceLabel": "Grace period (days)",
+      "save": "Save financial section",
+      "saved": "Financial section saved.",
+      "resetDone": "Financial section reset to defaults.",
+      "errSave": "Failed to save the financial section.",
+      "errReset": "Failed to reset the financial section.",
+      "errRequired": "Please enter a value.",
+      "errPercentRange": "Must be an integer between 0 and 100.",
+      "errMaxRial": "Must be a non-negative integer (or blank for unlimited).",
+      "errGraceRange": "Must be an integer between 0 and 365.",
+      "errCategoriesRequired": "At least one category is required when the scope is \"Selected categories\".",
+      "resetConfirm": {
+        "title": "Reset \"Money\" section to defaults",
+        "body": "The member discount, maximum cap, scope, coupon policy, and grace period will all return to system defaults — not just a single field. This takes effect immediately and is logged in the history; you can save custom values again if needed.",
+        "confirmLabel": "Reset to defaults"
+      }
+    },
+    "program": {
+      "readOnly": "Only the membership manager can save or reset this section.",
+      "visibilityLabel": "Member directory visibility",
+      "publicNote": "Currently acts equivalent to \"Authenticated users\"; unauthenticated display coming in the next wave",
+      "fieldsTitle": "Fields of expertise",
+      "thCode": "Code",
+      "thNameFa": "Persian name",
+      "thNameEn": "English name",
+      "thActive": "Active",
+      "toggleAria": "Enable/disable {name} domain",
+      "note": "Adding/removing/editing domains in this step is not supported — existing domains can only be toggled on/off.",
+      "save": "Save program section",
+      "saved": "Program section saved.",
+      "resetDone": "Program section reset to default.",
+      "errSave": "Failed to save the program section.",
+      "errReset": "Failed to reset the program section.",
+      "errNoActive": "At least one active specialty domain is required."
+    },
+    "plans": {
+      "readOnly": "Only membership managers or financial managers can create or edit plans.",
+      "loadError": "Failed to load plans.",
+      "thCode": "Code",
+      "thName": "Name",
+      "thPrice": "Price",
+      "thPeriod": "Period (days)",
+      "thStatus": "Status",
+      "thActions": "Actions",
+      "statusSellable": "Active · Sellable",
+      "statusNotSellable": "Active · Not yet sellable",
+      "statusInactive": "Inactive",
+      "editAria": "Edit {name}",
+      "deactivateAria": "Deactivate {name}",
+      "newPlan": "New Plan",
+      "editTitle": "Edit plan {name}",
+      "codeLabel": "Code (immutable)",
+      "nameFaLabel": "Persian Name",
+      "priceLabel": "Price (Rials)",
+      "periodLabel": "Period (days)",
+      "activeLabel": "Active (an active plan must have a price greater than zero)",
+      "errCode": "Invalid plan code — only lowercase English letters, numbers, and underscores are allowed.",
+      "errNameFa": "The Persian name of the plan is required.",
+      "errPrice": "The price must be a non-negative integer.",
+      "errPeriod": "The period must be an integer of at least 1.",
+      "errSave": "Failed to save the plan.",
+      "errDeactivate": "Failed to deactivate the plan.",
+      "confirmTitle": "Deactivate Plan",
+      "confirmBody": "The plan \"{name}\" will be deactivated and will no longer be available for purchase. This action will be recorded in the history.",
+      "confirmAction": "Deactivate"
+    },
+    "history": {
+      "scopeLabel": "Scope",
+      "scopeAll": "All",
+      "loading": "Loading...",
+      "empty": "No events have been recorded yet.",
+      "loadError": "Failed to load history.",
+      "thDate": "Date",
+      "thScope": "Scope",
+      "thTarget": "Target",
+      "thActor": "Actor (ID)",
+      "thKeys": "Modified Keys",
+      "prev": "Previous",
+      "next": "Next",
+      "pager": "Page {page} — {total} events"
+    }
+  },
+  "parentLinks": {
+    "readOnly": {
+      "title": "Your access on this page is read-only",
+      "body": "Creating and revoking parent links is an access-granting decision: from that moment on, the parent can view the student's grades, attendance, tuition, and health summary. This decision belongs to the admin; you can view and search active links.",
+      "empty": "No links have been recorded yet."
+    }
+  },
+  "regulation": {
+    "status": {
+      "title": "Rule Enforcement Status",
+      "allOn": "All applicable rules on this page are enabled and enforced by the server.",
+      "offIntro": "These rules are configured but are not currently enforced — the numbers next to them are for display only:",
+      "hint": "To enforce them, turn on the respective rule's toggle in its group and click \"Save Regulations\"."
+    },
+    "knobs": {
+      "objectionWindowMinDays": {
+        "label": "Minimum Student Objection Window (Days)",
+        "helper": "Instructors cannot set a shorter window than this when submitting grades. 0 means no minimum."
+      },
+      "minCreditFloorEnforced": {
+        "label": "Enforce Minimum Credit Floor When Dropping Courses",
+        "helper": "Enabled (default) = Drops that bring semester credits below the floor are rejected; probation, summer, and final semesters are exempt. Disabled = Display warning only."
+      },
+      "attendanceMaxAbsenceRatio": {
+        "label": "Maximum Unexcused Absence Ratio",
+        "helper": "3/16 ≈ 0.1875 — Exceeding this ratio flags the student as \"subject to a zero grade\""
+      },
+      "lateGraceMinutes": {
+        "label": "Late Arrival Grace Period (Minutes)",
+        "helper": "Arrival up to this many minutes after start = present, after that = late"
+      },
+      "closeGraceMinutes": {
+        "label": "Automatic Session Closure Grace Period (Minutes)",
+        "helper": "An open session past its scheduled end will automatically close after this many minutes"
+      },
+      "openGraceMinutes": {
+        "label": "Automatic Class Opening Grace Period (Minutes)",
+        "helper": "The classroom is ready for entry this many minutes before the scheduled start"
+      },
+      "noShowGraceMinutes": {
+        "label": "Instructor Absence Warning Grace Period (Minutes)",
+        "helper": "If the instructor does not join within this period after the scheduled start, the faculty officer is warned; the class is not automatically canceled"
+      },
+      "supervisionGraceSeconds": {
+        "label": "Educational Supervisor Absence Grace Period (Seconds)",
+        "helper": "Following a continuous absence of an authorized supervisor, recording pauses and the academic director is notified; default is 120 seconds"
+      },
+      "passThresholdPercent": {
+        "label": "Passing Threshold (Percent)",
+        "helper": "The percentage that aligns exactly with the passing grade of the program level"
+      },
+      "gradeRoundStep": {
+        "label": "Grade Rounding Step (on 0..20)",
+        "helper": "Rounding precision on the 20-point scale"
+      },
+      "summerCapMax": {
+        "label": "Summer Semester Credit Cap",
+        "helper": "\"Summer maximum 6 credits\" — enforced only with the toggle below"
+      },
+      "summerCapEnforced": {
+        "label": "Enforce Summer Cap",
+        "helper": "Off (default) = normal summer cap; On = high cap applies (regardless of GPA)"
+      },
+      "addLimit": {
+        "label": "Maximum course additions during add/drop"
+      },
+      "dropLimit": {
+        "label": "Maximum course drops during add/drop"
+      },
+      "objectionSlaDaysUndergrad": {
+        "label": "Instructor response deadline — Associate/Bachelor (days)"
+      },
+      "objectionSlaDaysGrad": {
+        "label": "Instructor response deadline — Graduate (days)"
+      },
+      "emergencyDropWindowEnforced": {
+        "label": "Enforce emergency drop window",
+        "helper": "On = emergency drop is only permitted within the EMERGENCY_DROP interval"
+      },
+      "gradeEntryWindowEnforced": {
+        "label": "Enforce grade entry window",
+        "helper": "On = grade submission/finalization is only permitted within the GRADE_ENTRY interval"
+      }
+    },
+    "pageEyebrow": "Management Desk · Regulations",
+    "pageTitle": "Educational Regulations",
+    "savedVersion": "Saved version: {version}",
+    "help": {
+      "title": "Regulation Guide",
+      "body": "These values determine organization-level ministerial rules (attendance, grading, course enrollment, objections, windows). Each has a ministerial default; edit and save to customize for this organization. The \"Customized\" badge indicates a value differs from the ministerial default."
+    },
+    "groups": {
+      "attendance": {
+        "title": "Attendance"
+      },
+      "grade": {
+        "title": "Grading"
+      },
+      "enrollment": {
+        "title": "Course Enrollment and Add/Drop",
+        "note": "The summer cap only applies when the \"Enforce summer cap\" toggle is on. It is off by default, meaning summer uses the normal cap."
+      },
+      "objection": {
+        "title": "Grade Objection (Response Deadline)"
+      },
+      "calendar": {
+        "title": "Calendar Windows",
+        "note": "Both off by default = today's behavior (no interval restriction)."
+      }
+    },
+    "badge": {
+      "custom": "Customized",
+      "default": "Default"
+    },
+    "bool": {
+      "on": "On",
+      "off": "Off"
+    },
+    "ministryDefault": "Ministerial default: {value}",
+    "loading": "Loading…",
+    "unavailable": "Regulations are not available.",
+    "actions": {
+      "save": "Save Regulations",
+      "saving": "Saving…",
+      "revert": "Revert Changes"
+    },
+    "saved": "Regulations saved successfully.",
+    "errors": {
+      "loadFailed": "Failed to load regulations.",
+      "saveFailed": "Failed to save regulations.",
+      "formInvalid": "Some values are invalid; please correct the red fields.",
+      "required": "Please enter a value.",
+      "notNumber": "Invalid number.",
+      "notInteger": "Must be an integer.",
+      "range": "Must be between {min} and {max}."
+    }
+  },
+  "treasury": {
+    "eyebrow": "Finance · Treasury",
+    "title": "Treasury and Reports",
+    "error": "An error occurred",
+    "loading": "Loading...",
+    "csvExport": "CSV Export",
+    "help": {
+      "title": "Treasury Guide",
+      "body": "General ledger overview (Asset/Liability/Income/Expense), treasury settlement of payroll runs (net payment + deduction deposit from cash account), and payroll cost report with CSV export. Settlement zeros out the \"Payable Salaries/Deductions\" accounts against \"Cash\"."
+    },
+    "months": [
+      "Farvardin",
+      "Ordibehesht",
+      "Khordad",
+      "Tir",
+      "Mordad",
+      "Shahrivar",
+      "Mehr",
+      "Aban",
+      "Azar",
+      "Dey",
+      "Bahman",
+      "Esfand"
+    ],
+    "period": "{month} {year}",
+    "groups": {
+      "asset": "Assets",
+      "liability": "Liabilities",
+      "income": "Income",
+      "expense": "Expenses"
+    },
+    "rosterStatus": {
+      "all": "All Statuses",
+      "hasOverdue": "Has Overdue",
+      "partial": "Partial Payment",
+      "unpaid": "Unpaid",
+      "cleared": "Cleared"
+    },
+    "finStatus": {
+      "PENDING": "Pending",
+      "PAID": "Paid",
+      "OVERDUE": "Overdue",
+      "PARTIAL": "Partial",
+      "UNPAID": "Unpaid",
+      "CLEARED": "Cleared",
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected",
+      "DISBURSED": "Disbursed",
+      "REPAYING": "Repaying",
+      "SETTLED": "Settled",
+      "REFUNDED": "Refunded",
+      "SUCCESS": "Successful",
+      "FAILED": "Failed",
+      "CANCELLED": "Cancelled"
+    },
+    "recon": {
+      "title": "Financial Health & Wallet Reconciliation",
+      "refresh": "Refresh",
+      "desc": "Read-only check of monetary invariants; every value should be zero. Discrepancies indicate the ledger requires review (this check does not modify anything).",
+      "checking": "Checking…",
+      "unavailable": "Reconciliation status is unavailable.",
+      "healthy": "Healthy — All invariants hold",
+      "drift": "Discrepancy — Review required",
+      "lastCheck": "Last check: {at}",
+      "walletDrift": "Wallet Discrepancy (Mirror ⇄ 2400)",
+      "mirrorSum": "Transaction Mirror Sum",
+      "walletLiability": "Wallet Liability (2400)",
+      "ledgerNet": "Double-entry Net (Debit − Credit)",
+      "clearingDrift": "Payout Clearing (2500 ⇄ Holds)",
+      "payoutClearing": "Pending Clearing (2500)",
+      "openHolds": "Open Payout Holds",
+      "unbackedPaid": "Settled Payment Without Document",
+      "unbackedTuition": "Tuition (Total Amount)",
+      "unbackedSubscription": "Gateway Subscription (Total Amount)",
+      "unbackedNote": "This counter shows settled rows that lack a double-entry document — almost always a legacy of pre-atomic-correction payments. A non-zero number is not an error and does not turn the 'Healthy' status red; remediation is done at the CFO's discretion via script execution."
+    },
+    "roster": {
+      "title": "Students / Financial Status",
+      "desc": "Search the list of students with tuition invoices by name or student ID. Click any row to open the complete financial file (invoices, installments, payments, loans, scholarships, refunds). Only financial data is displayed.",
+      "searchPlaceholder": "Name or student ID…",
+      "searchAria": "Search student by name or ID",
+      "statusAria": "Filter financial status",
+      "submit": "Search",
+      "empty": "No student with an invoice found matching this filter.",
+      "thStudent": "Student",
+      "thCode": "ID",
+      "thTotal": "Total Amount",
+      "thPaid": "Paid",
+      "thOverdue": "Overdue Installments",
+      "thLastPayment": "Last Payment",
+      "thStatus": "Status",
+      "thActions": "Actions",
+      "open": "Financial File",
+      "close": "Close File"
+    },
+    "detail": {
+      "title": "Financial File",
+      "close": "Close",
+      "total": "Total Amount:",
+      "paid": "Paid:",
+      "outstanding": "Outstanding:",
+      "bills": "Bills",
+      "billsEmpty": "No bills recorded.",
+      "termFallback": "Term",
+      "fixed": "Fixed:",
+      "variable": "Variable:",
+      "discount": "Discount:",
+      "sum": "Sum:",
+      "billPaid": "Paid:",
+      "billRemaining": "Remaining:",
+      "thSeq": "Installment",
+      "thAmount": "Amount",
+      "thDue": "Due Date",
+      "thStatus": "Status",
+      "payments": "Payments",
+      "paymentsEmpty": "No payments recorded.",
+      "thGateway": "Gateway",
+      "thPurpose": "For",
+      "thDate": "Date",
+      "loans": "Loans",
+      "loansEmpty": "No loans recorded.",
+      "loanFallback": "Loan",
+      "appliedToTuition": "Applied to Tuition",
+      "thPaidAmount": "Paid Amount",
+      "scholarships": "Scholarships",
+      "scholarshipsEmpty": "No scholarships recorded.",
+      "thScholarship": "Scholarship",
+      "thValue": "Value",
+      "refunds": "Refunds",
+      "refundsEmpty": "No refund requests recorded.",
+      "thRequested": "Requested Amount",
+      "thFinal": "Final Amount",
+      "thAccount": "Account",
+      "timeline": "Financial Activity Log"
+    },
+    "receivables": {
+      "title": "Tuition Receivables Report",
+      "empty": "No data available.",
+      "billed": "Total Billed:",
+      "collected": "Collected:",
+      "outstanding": "Outstanding:",
+      "overdue": "Overdue amount:",
+      "installments": "{value, plural, one {{value} installment} other {{value} installments}}",
+      "noBills": "No tuition bills have been recorded.",
+      "thTerm": "Term",
+      "thBillCount": "Bill Count",
+      "thBilled": "Billed",
+      "thCollected": "Collected",
+      "thOutstanding": "Outstanding"
+    },
+    "ledger": {
+      "title": "General Ledger View"
+    },
+    "payables": {
+      "title": "Payroll Settlement",
+      "empty": "There are no paid payroll runs to settle.",
+      "thPeriod": "Period",
+      "thNet": "Net",
+      "thDeduction": "Deductions",
+      "thStatus": "Status",
+      "thActions": "Actions",
+      "settled": "Settled",
+      "awaiting": "Awaiting Settlement",
+      "settle": "Treasury Settlement",
+      "noticeWallet": "Settlement completed: Net salary was deposited into the staff wallets and deductions were paid from the treasury (Total {amount}).",
+      "noticeCash": "Settlement completed: {amount} was paid from the treasury."
+    },
+    "report": {
+      "title": "Payroll Cost Report",
+      "empty": "No issued slips have been recorded.",
+      "totalGross": "Total Gross:",
+      "totalDeduction": "Total Deductions:",
+      "totalNet": "Total Net:",
+      "thPerson": "Personnel",
+      "thPeriod": "Period",
+      "thGross": "Gross",
+      "thDeduction": "Deductions",
+      "thNet": "Net"
+    },
+    "faculty": {
+      "title": "Payroll Report by Faculty",
+      "thFaculty": "Faculty",
+      "thSlips": "Slip Count"
+    },
+    "csv": {
+      "receivables": "Term,Year,Semester,Bill Count,Billed Amount,Collected,Outstanding",
+      "report": "Personnel ID,Name,Year,Month,Gross,Deductions,Net",
+      "faculty": "Faculty,Slip Count,Gross,Deductions,Net"
+    }
+  },
+  "users": {
+    "error": "An error occurred",
+    "denied": "Access restricted to administrators.",
+    "eyebrow": "People",
+    "title": "Users",
+    "bulkOpen": "Bulk Import (CSV)",
+    "add": "+ Add User",
+    "helpTitle": "User Management Guide",
+    "helpBody": "On this page, you can create user accounts, assign roles, and reset passwords if needed. Click \"+ Add User\" to create a new account or \"Bulk Import (CSV)\" to import multiple users at once; click any user's row to edit their details. The \"Dossier\" provides a complete view of each individual: for students, it includes academic transcripts, quizzes, assignments, attendance, and activity; for instructors, it displays classes, teaching load, and grading progress.",
+    "empty": "No users registered.",
+    "searchPlaceholder": "Search name or email…",
+    "thName": "Name",
+    "thEmail": "Email",
+    "thRoles": "Roles",
+    "thStatus": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "dossier": "Dossier",
+    "dossierAria": "Complete dossier for {email}",
+    "edit": "Edit",
+    "editAria": "Edit {email}",
+    "resetPassword": "Reset Password",
+    "form": {
+      "titleEdit": "Edit User",
+      "titleCreate": "Add User",
+      "email": "Email",
+      "emailLockedHelper": "Email cannot be changed after creation.",
+      "initialPassword": "Initial Password",
+      "initialPasswordHelper": "At least 8 characters. The user can change it later from their profile.",
+      "fullName": "Full Name",
+      "locale": "Language",
+      "localeFa": "Persian",
+      "roles": "Roles",
+      "roleLocked": "Only the Super Admin can assign this role",
+      "rolesHelper": "Administrative roles (System Admin / Super Admin) can only be assigned by the Super Admin.",
+      "faculty": "Managed Faculty (Dean of Faculty)",
+      "facultyEmpty": "— Select Faculty —",
+      "facultyHelper": "The dean of faculty manages only this faculty. Takes effect upon the user's next login after saving.",
+      "isActive": "Account is active",
+      "resetTitle": "Reset Password — {who}",
+      "newPassword": "New Password",
+      "newPasswordHelper": "At least 8 characters. All active sessions for this user will be invalidated."
+    },
+    "bulkStatus": {
+      "created": "Created",
+      "duplicate": "Duplicate",
+      "error": "Error"
+    },
+    "bulk": {
+      "title": "Bulk User Import (CSV)",
+      "close": "Close",
+      "intro": "Select a CSV file with the headers <c>email,fullName,roles,password</c>. The email and fullName columns are required; roles (separated by <p>|</p>) and password are optional. If the password is left blank, the system will generate a random password and display it only in this page's report.",
+      "downloadTemplate": "Download Sample File (CSV)",
+      "sampleName": "John Doe",
+      "fileLabel": "CSV File",
+      "emptyFile": "The file is empty.",
+      "badHeader": "The first row must be a header and contain at least the email and fullName columns (download the sample file).",
+      "noRows": "No data found after the header row.",
+      "readFailed": "Failed to read the file. Please select a valid CSV file.",
+      "readSummary": "Read {rows} rows from «{file}» —",
+      "validCount": "{value} valid",
+      "invalidCount": "{value} invalid",
+      "previewNote": " — preview of the first {value} rows",
+      "thRow": "#",
+      "thEmail": "Email",
+      "thName": "Name",
+      "thRoles": "Roles",
+      "thPassword": "Password",
+      "thCheck": "Check",
+      "hasPassword": "Yes",
+      "autoPassword": "Auto",
+      "badEmail": "Invalid email",
+      "dupInFile": "Duplicate in file",
+      "ready": "Ready",
+      "cancel": "Cancel",
+      "importing": "Importing…",
+      "start": "Start Import",
+      "warning": "⚠️ Generated passwords are shown <b>only here</b> and cannot be recovered later; please download the report before closing.",
+      "createdCount": "Created: {value}",
+      "dupCount": "Duplicate: {value}",
+      "errCount": "Error: {value}",
+      "noReport": "No report received from the server.",
+      "rEmail": "Email",
+      "rStatus": "Status",
+      "rReason": "Reason",
+      "rPassword": "Generated Password",
+      "downloadReport": "Download CSV Report",
+      "another": "Upload another file"
+    }
+  },
+  "membershipQueue": {
+    "eyebrow": "Management Desk · Membership",
+    "title": "Membership Queue",
+    "lead": "Membership requests, identity verification, suspension/revocation/unsuspension.",
+    "help": {
+      "title": "Help",
+      "body": "\"Verify identity\" moves a pending membership to verified; the user then pays from their \"My Membership\" page. \"Suspend\", \"Unsuspend\", and \"Revoke\" are only available with the Membership Manager role. Revocation is final and irreversible; the row is not deleted, its status only changes to \"Revoked\" and it remains in the history for transparency. When a membership with a field of expertise is activated, the user is automatically added to the corresponding specialty group in the messenger."
+    },
+    "status": {
+      "pending": "Pending",
+      "verified": "Verified",
+      "active": "Active",
+      "renewal_due": "Renewal Due",
+      "grace": "Grace Period",
+      "lapsed": "Lapsed",
+      "suspended": "Suspended",
+      "revoked": "Revoked"
+    },
+    "filters": {
+      "label": "Status",
+      "all": "All"
+    },
+    "loading": "Loading...",
+    "noName": "No name",
+    "row": {
+      "field": "Field of expertise: {name}",
+      "noField": "No field of expertise",
+      "requested": "· Requested: {date}",
+      "expires": "· Expires: {date}",
+      "suspendReason": "Suspension reason: {reason}",
+      "revokeReason": "Revocation reason: {reason}"
+    },
+    "reasonPlaceholder": "Reason (optional)",
+    "actions": {
+      "verify": "Verify Identity",
+      "suspend": "Suspend Membership",
+      "unsuspend": "Unsuspend",
+      "revoke": "Revoke",
+      "revokeConfirm": "Revocation is irreversible — are you sure?",
+      "revokeYes": "Yes, revoke",
+      "cancel": "Cancel"
+    },
+    "notice": {
+      "verified": "Member identity verified.",
+      "suspended": "Membership suspended.",
+      "unsuspended": "Suspension lifted.",
+      "revoked": "Membership revoked."
+    },
+    "history": {
+      "title": "Transition History",
+      "actor": "· Actor:",
+      "system": "· System"
+    },
+    "empty": {
+      "title": "No memberships in this status",
+      "body": "The list is filtered by the selected status. Clear the filter to view all requests.",
+      "cta": "Show all statuses"
+    },
+    "selectHint": "Select a membership from the list."
+  },
+  "auditExport": {
+    "button": "CSV Export",
+    "pending": "Preparing…",
+    "error": "Export failed; please try again.",
+    "note": "Last {rows} rows with current filters, read-only"
+  }
+}

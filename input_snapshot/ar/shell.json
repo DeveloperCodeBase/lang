@@ -1,0 +1,949 @@
+{
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب"
+  },
+  "assistantUnavailable": "تعذّر تحميل المساعد مؤقتًا؛ تظل صفحة الدرس متاحة.",
+  "banner": {
+    "dismissAria": "أغلق التذكير",
+    "phoneUnverified": "رقم جوالك لم يتأكد بعد — وهو لازم للعضوية، والدفع من المحفظة، وتلقي الشهادة.",
+    "verifyPhone": "أكِّد الرقم"
+  },
+  "bottomNav": {
+    "aria": "التنقل السفلي",
+    "slot": {
+      "admin": "الإدارة",
+      "analytics": "التحليل",
+      "appointments": "المواعيد",
+      "assessCenter": "مركز القياس",
+      "assessorConsole": "وحدة المقيِّم",
+      "audit": "الرقابة",
+      "catalog": "الكتالوج",
+      "child": "الابن",
+      "classroom": "الفصل",
+      "content": "المحتوى",
+      "courses": "الدروس",
+      "credential": "الشهادة",
+      "crisis": "الحالات الحرجة",
+      "departments": "الأقسام",
+      "discussions": "النقاشات",
+      "grades": "الدرجات",
+      "help": "المساعدة",
+      "home": "الرئيسية",
+      "liveClass": "الفصل المباشر",
+      "membershipQueue": "قائمة العضوية",
+      "messages": "الرسائل",
+      "more": "المزيد",
+      "myCourses": "مقرراتي",
+      "offerings": "المقررات",
+      "payroll": "الرواتب",
+      "reports": "التقارير",
+      "review": "المراجعة",
+      "schools": "الكلية",
+      "students": "الطلاب",
+      "tickets": "التذاكر",
+      "treasury": "الخزينة",
+      "tutor": "المساعد التدريسي",
+      "users": "المستخدمون",
+      "profile": "الملف الشخصي"
+    }
+  },
+  "brand": {
+    "markSubtitle": "منصّة تعلّم ذكية",
+    "platformKind": "منصّة تعلّم ذكية (Intelligent Learning Platform – ILP) قائمة على بنية متعدّدة الوكلاء (Multi-Agent Architecture)",
+    "copyrightYear": "٢٠٢٦"
+  },
+  "breadcrumb": {
+    "about": "من نحن",
+    "achievements": "الإنجازات",
+    "adaptivePath": "المسار التكيّفي",
+    "addDrop": "الحذف والإضافة",
+    "admin": "مكتب الإدارة",
+    "admissions": "القبول",
+    "agents": "المساعدون الأذكياء",
+    "aiGovernance": "حوكمة الذكاء الاصطناعي",
+    "aiUsage": "استهلاك الذكاء الاصطناعي",
+    "alumni": "الخريجون",
+    "analytics": "التحليلات",
+    "analyticsAdmin": "التحليلات الإدارية",
+    "applications": "طلبات القبول",
+    "assess": "تقييم الجدارات",
+    "assessCenter": "مركز التقييم",
+    "assessment": "الاختبار",
+    "assessmentBuilder": "منشئ الاختبارات",
+    "assessmentLive": "الاختبار المباشر",
+    "assignments": "الواجبات",
+    "attendance": "الحضور والغياب",
+    "audit": "تقرير التدقيق",
+    "authoring": "الاستوديو",
+    "autoRules": "القواعد التلقائية",
+    "bookmarks": "المحفوظات",
+    "broadcast": "الإعلان العام",
+    "bulkEnroll": "التسجيل الجماعي",
+    "calendar": "التقويم",
+    "candidate": "المرشح",
+    "capabilitiesStatus": "حالة القدرات",
+    "career": "الخدمات المهنية",
+    "catalog": "دليل المقررات",
+    "checkout": "دفع الاشتراك",
+    "claims": "مستحقات التدريس",
+    "classAnalytics": "تحليلات الفصل",
+    "classroom": "الفصل المباشر",
+    "clearance": "إخلاء الطرف",
+    "cognitiveProfile": "الملف المعرفي",
+    "cohorts": "مجموعات التسجيل",
+    "commission": "لجنة الحالات الخاصة",
+    "community": "المنتدى",
+    "communityModeration": "مراقبة المنتدى",
+    "content": "المحتوى",
+    "contentAnalytics": "تحليلات المحتوى",
+    "contentReview": "مراجعة المحتوى",
+    "copilot": "المساعد الذكي",
+    "counselingAppointments": "مواعيد الإرشاد",
+    "counselor": "مكتب المرشد الأكاديمي",
+    "counselorCaseload": "ملفات الإرشاد",
+    "counselorInbox": "صندوق المرشد",
+    "course": "المقرر",
+    "courseContent": "محتوى المقرر",
+    "courseLive": "الفصل المباشر للمقرر",
+    "courses": "المقررات",
+    "credential": "الشهادات",
+    "crisisQueue": "قائمة الحالات الطارئة",
+    "curriculumBuilder": "الخطة الدراسية",
+    "dashboard": "مساحة العمل",
+    "decrees": "قرارات شؤون الموظفين",
+    "degreeAudit": "مسار الشهادة",
+    "degreePolicies": "حدود المرحلة الدراسية",
+    "departments": "الأقسام الأكاديمية",
+    "directory": "دليل الأعضاء",
+    "earnings": "أرباحي",
+    "enrollments": "إدارة التسجيل",
+    "events": "الفعاليات",
+    "exam": "قاعة الاختبار",
+    "exercise": "التمرين",
+    "faculties": "الكليات",
+    "faculty": "هيئة التدريس",
+    "facultyDashboard": "مكتب الكلية",
+    "facultyReports": "تقارير الكلية",
+    "finance": "الشؤون المالية",
+    "financialAid": "المساعدة المالية",
+    "flaggedReports": "البلاغات المُعلَّمة",
+    "forgot": "استعادة كلمة المرور",
+    "gradeSubmission": "الاعتماد الرسمي للدرجات",
+    "gradebook": "سجل الدرجات",
+    "grades": "الدرجات",
+    "gradingQueue": "قائمة التصحيح",
+    "hackathons": "الهاكاثون",
+    "help": "الدعم الفني",
+    "home": "الرئيسية",
+    "honorCode": "ميثاق الشرف",
+    "hr": "التوظيف",
+    "inbox": "صندوق الوارد",
+    "instructor": "لوحة الأستاذ",
+    "instructorAssignment": "إسناد الأساتذة",
+    "instructorDashboard": "مكتب الأستاذ",
+    "instructors": "الأساتذة",
+    "integrations": "التكاملات",
+    "invoices": "الفواتير",
+    "itemAnalysis": "تحليل الفقرات",
+    "labs": "المختبرات",
+    "library": "المكتبة",
+    "liveClass": "الفصل المباشر",
+    "loans": "القروض",
+    "login": "تسجيل الدخول",
+    "market": "سوق المعرفة",
+    "membership": "عضويتي",
+    "membershipConfig": "إعدادات العضوية",
+    "membershipQueue": "قائمة طلبات العضوية",
+    "messages": "الرسائل",
+    "ministryLibrary": "مكتبة الوزارة",
+    "moderate": "مكتب المراقبة",
+    "moderationLog": "سجل المراقبة",
+    "monitoring": "مراقبة النظام",
+    "more": "المزيد",
+    "my": "رحلتي",
+    "myAttendance": "حضوري",
+    "myChart": "خطتي الدراسية",
+    "myCourses": "مقرراتي",
+    "myGrades": "درجاتي",
+    "myPath": "مساري الدراسي",
+    "myPayslips": "قسائم راتبي",
+    "myReport": "تقريري",
+    "network": "الشبكة الأكاديمية",
+    "new": "طلب جديد",
+    "notifTemplates": "قوالب الإشعارات",
+    "offerings": "المقررات المطروحة",
+    "officehours": "الساعات المكتبية",
+    "onboarding": "بداية الاستخدام",
+    "org": "مكتب المؤسسة",
+    "parent": "مكتب ولي الأمر",
+    "parentLinks": "روابط أولياء الأمور",
+    "payroll": "الرواتب والأجور",
+    "payrollConfig": "إعدادات الرواتب",
+    "people": "الأشخاص",
+    "plans": "الباقات",
+    "portfolio": "ملف الإنجاز",
+    "pricing": "الباقات",
+    "privacy": "الخصوصية",
+    "probationReview": "مراجعة الإنذار الأكاديمي",
+    "proctorReview": "مراجعة المراقب",
+    "profile": "الملف الشخصي",
+    "profiles": "الملفات الشخصية",
+    "programs": "البرامج الأكاديمية",
+    "progress": "التقدم",
+    "questionBank": "بنك الأسئلة",
+    "record": "استوديو التسجيل",
+    "recordings": "أرشيف الفصول",
+    "referenceData": "البيانات المرجعية",
+    "refund": "الاسترداد",
+    "register": "إنشاء حساب",
+    "registration": "تسجيل المقررات",
+    "regulation": "اللائحة الأكاديمية",
+    "reports": "التقارير",
+    "research": "البحث العلمي",
+    "review": "المراجعة",
+    "roles": "الأدوار",
+    "roster": "الطلاب",
+    "rubricBuilder": "منشئ معايير التقييم",
+    "schedule": "الجدول الأسبوعي",
+    "schools": "الكليات",
+    "search": "البحث",
+    "seats": "المقاعد",
+    "security": "الأمان",
+    "serviceDesk": "مكتب الخدمات",
+    "settings": "الإعدادات",
+    "specializations": "التخصصات الدقيقة",
+    "stageProgress": "التقدم بين المراحل",
+    "studentOverview": "ملفات الأشخاص",
+    "students": "الطلاب",
+    "studio": "استوديو المعرفة",
+    "submission": "التمارين",
+    "super": "أدوات الإشراف العام",
+    "support": "مكتب الدعم",
+    "ta": "مكتب مساعد التدريس",
+    "tenants": "المؤسسات",
+    "terms": "الفصول الدراسية",
+    "tickets": "تذاكر الدعم",
+    "transcript": "تقرير النتائج",
+    "treasury": "الخزينة",
+    "tuition": "الرسوم الدراسية والدفع",
+    "tuitionConfig": "إعدادات الرسوم الدراسية",
+    "tutor": "مساعد الذكاء الاصطناعي",
+    "twoFactorSetup": "التحقق بخطوتين",
+    "userLookup": "البحث عن مستخدم",
+    "users": "المستخدمون",
+    "verifyEmail": "تأكيد البريد الإلكتروني",
+    "virtuallab": "المختبر الافتراضي",
+    "vista": "عن فيستا",
+    "wallet": "المحفظة",
+    "washup": "جلسة المراجعة الختامية",
+    "wellness": "الصحة والعافية",
+    "wishlist": "قائمة اهتماماتي",
+    "withdrawals": "عمليات السحب",
+    "workflows": "مسارات العمل"
+  },
+  "breadcrumbUi": {
+    "nav": "مسار الصفحة",
+    "showFullPath": "عرض المسار كاملاً",
+    "newCourse": "إنشاء مقرر جديد",
+    "printCredential": "طباعة الشهادة",
+    "sessionReport": "التقرير",
+    "sessionLobby": "الردهة",
+    "studioTab": {
+      "overview": "نظرة عامة",
+      "curriculum": "المحاور",
+      "content": "المحتوى",
+      "pricing": "التسعير",
+      "coupons": "أكواد الخصم",
+      "analytics": "التحليلات",
+      "settings": "الإعدادات",
+      "preview": "المعاينة",
+      "record": "استوديو التسجيل"
+    }
+  },
+  "cmdk": {
+    "aria": "لوحة الأوامر",
+    "hintNavigate": "التنقل",
+    "item": {
+      "about": {
+        "label": "من نحن"
+      },
+      "achievements": {
+        "label": "الإنجازات"
+      },
+      "admin": {
+        "label": "مكتب الإدارة"
+      },
+      "alumni": {
+        "label": "شبكة الخريجين"
+      },
+      "analytics": {
+        "label": "التحليلات المؤسسية"
+      },
+      "apply": {
+        "hint": "نموذج القبول الفعلي",
+        "label": "طلب القبول"
+      },
+      "assessment": {
+        "label": "الاختبارات والتقييم"
+      },
+      "authoring": {
+        "label": "إنتاج / تحرير المقرر"
+      },
+      "bookmarks": {
+        "label": "المحفوظات"
+      },
+      "calendar": {
+        "label": "التقويم"
+      },
+      "career": {
+        "label": "الخدمات المهنية"
+      },
+      "classroom": {
+        "label": "الفصل المباشر"
+      },
+      "community": {
+        "label": "المنتدى"
+      },
+      "course": {
+        "label": "مقرري"
+      },
+      "credential": {
+        "label": "الشهادة الرقمية"
+      },
+      "dashboard": {
+        "label": "مساحة العمل"
+      },
+      "degree-audit": {
+        "label": "مسار الشهادة"
+      },
+      "events": {
+        "label": "الفعاليات"
+      },
+      "faculty": {
+        "label": "هيئة التدريس"
+      },
+      "financial-aid": {
+        "label": "المساعدة المالية والمنح"
+      },
+      "hackathons": {
+        "label": "الهاكاثون والمسابقات"
+      },
+      "help": {
+        "label": "الدعم الفني"
+      },
+      "home": {
+        "hint": "الصفحة الرئيسية",
+        "label": "الرئيسية"
+      },
+      "honor-code": {
+        "label": "ميثاق الشرف العلمي"
+      },
+      "inbox": {
+        "label": "الإشعارات"
+      },
+      "instructor": {
+        "label": "لوحة الأستاذ"
+      },
+      "labs": {
+        "label": "المختبرات الافتراضية"
+      },
+      "library": {
+        "label": "المكتبة"
+      },
+      "login": {
+        "label": "تسجيل الدخول"
+      },
+      "messages": {
+        "label": "الرسائل"
+      },
+      "officehours": {
+        "label": "الساعات المكتبية"
+      },
+      "parent": {
+        "label": "مكتب ولي الأمر"
+      },
+      "pricing": {
+        "label": "الباقات والأسعار"
+      },
+      "profile": {
+        "label": "الملف العام"
+      },
+      "recordings": {
+        "label": "أرشيف التسجيلات"
+      },
+      "registration": {
+        "label": "تسجيل المقررات"
+      },
+      "regulation": {
+        "label": "اللائحة الأكاديمية"
+      },
+      "research": {
+        "label": "البحث العلمي"
+      },
+      "schools": {
+        "label": "الكليات"
+      },
+      "search": {
+        "label": "البحث الدلالي"
+      },
+      "settings": {
+        "label": "الإعدادات"
+      },
+      "submission": {
+        "label": "تسليم التمرين"
+      },
+      "track": {
+        "hint": "حالة الطلب برمز المتابعة",
+        "label": "متابعة الطلب"
+      },
+      "transcript": {
+        "label": "تقرير النتائج"
+      },
+      "vista": {
+        "label": "عن فيستا (المنفّذ التقني)"
+      },
+      "wellness": {
+        "label": "الصحة والإرشاد"
+      }
+    },
+    "placeholder": "ابحث عن صفحة، أو أمر، أو إعداد… (مثل: فصل، سمة، شهادة)",
+    "searchAria": "ابحث في الأوامر"
+  },
+  "demo": {
+    "disabled": "هذه العملية غير نشطة في النسخة التوضيحية."
+  },
+  "denied": {
+    "body": "هذه الصفحة غير متاحة لدورك. لا تملك إذن عرض هذا القسم. إذا كنت تظن أن هناك خطأً فتواصل مع مدير النظام.",
+    "bodyWithRole": "هذه الصفحة غير متاحة لدورك. بدورك الحالي («{role}») لا تملك إذن عرض هذا القسم. إذا كنت تظن أن هناك خطأً فتواصل مع مدير النظام.",
+    "cta": "العودة إلى صفحتي الرئيسية",
+    "screenLabel": "٤٠٣ · وصول مقيّد",
+    "title": "لا تملك صلاحية الوصول إلى هذا القسم"
+  },
+  "footer": {
+    "feature": {
+      "competency-assessment-center": "مركز التقييم الجدارة",
+      "credential-registry-verify": "الاعتبار والتحقق",
+      "exam-assessment-engine": "الاختبار والتقييم",
+      "knowledge-marketplace": "سوق المعرفة",
+      "live-class": "الفصل المباشر التفاعلي",
+      "membership-registry": "العضوية وبطاقة العضوية"
+    },
+    "head": {
+      "0": "المنتج",
+      "1": "الجامعة",
+      "2": "للمستخدمين",
+      "3": "ميزات الجامعة",
+      "4": "المصادر"
+    },
+    "link": {
+      "about": "من نحن",
+      "about-alt2": "عن الجامعة",
+      "about-alt3": "من نحن",
+      "apply": "طلب القبول",
+      "apply-alt2": "إنشاء حساب",
+      "assessment": "الاختبارات والتقييم",
+      "classroom": "الفصل الافتراضي",
+      "community": "المجتمع",
+      "contact": "اتصل بنا",
+      "credential": "الشهادة الرقمية",
+      "events": "الفعاليات",
+      "faculty": "هيئة التدريس",
+      "faq": "الأسئلة الشائعة",
+      "features": "جميع الميزات",
+      "help": "المساعدة والدعم الفني",
+      "help-alt2": "مركز الدعم الفني",
+      "honor-code": "ميثاق الأمانة العلمية",
+      "honor-code-alt2": "الأمانة العلمية",
+      "labs": "المختبرات الافتراضية",
+      "library": "المكتبة الرقمية",
+      "login": "تسجيل الدخول",
+      "pricing": "الباقات والسعر",
+      "privacy": "الخصوصية",
+      "programs": "البرامج والمراحل",
+      "programs-alt2": "الكليات والبرامج",
+      "recordings": "أرشيف التسجيلات",
+      "research": "البحث العلمي والدكتوراه",
+      "schools": "الكليات",
+      "search": "البحث الدلالي",
+      "settings": "الإعدادات",
+      "terms": "القوانين والشروط",
+      "track": "متابعة الطلب",
+      "vista": "عن فيستا"
+    },
+    "rights": "جميع الحقوق محفوظة",
+    "tagline": "بنية تحتية تعليمية رقمية بالكامل، حيث لا يُعد الذكاء الاصطناعي مجرد إضافة، بل هو أساس التعلم وتصميم البرامج والتقييم.",
+    "alsoSee": "انظر أيضاً:",
+    "trustSeals": {
+      "title": "شارات الثقة",
+      "enamadAlt": "شارة الثقة الإلكترونية",
+      "senfAlt": "المنظمة الوطنية لنقابة الحاسوب",
+      "senfCaption": "عضو في نقابة الحاسوب — رقم ٢٣٠١٠١٧٧"
+    },
+    "org": {
+      "rightsCompact": "© {year} {holder} — جميع الحقوق محفوظة.",
+      "rightsFull": "© {year} — جميع الحقوق المادية والمعنوية لهذا الموقع وعلاماته التجارية ومحتواه تعود إلى {holder}. يُمنع أي إعادة نشر أو استغلال دون إذن كتابي.",
+      "developerLegal": "التصميم والتنفيذ والتطوير: شركت شبكه هوشمند ابتكار ويستا — جميع الحقوق المادية والمعنوية لهذا النظام محفوظة وتعود إلى شركت شبكه هوشمند ابتكار ويستا."
+    }
+  },
+  "home": {
+    "admin": "لوحة الإدارة",
+    "assessment_manager": "لوحة مدير المركز",
+    "assessor": "لوحة المقيِّم",
+    "content_manager": "لوحة المحتوى",
+    "counselor": "مكتب المرشد الأكاديمي",
+    "faculty_admin": "لوحة تحكم الكلية",
+    "finance_manager": "مكتب الشؤون المالية",
+    "instructor": "مكتب الأستاذ",
+    "membership_manager": "مكتب العضوية",
+    "membership_operator": "مكتب العضوية",
+    "moderator": "مكتب الإشراف",
+    "org": "مكتب المؤسسة",
+    "parent": "بوابة ولي الأمر",
+    "student": "مكتب الطالب",
+    "super_admin": "مكتب المدير الرئيسي",
+    "support": "مكتب الدعم الفني",
+    "ta": "مكتب المساعد"
+  },
+  "language": {
+    "switcherAria": "اختر اللغة"
+  },
+  "modal": {
+    "confirmWordHint": "للتأكيد، اكتب كلمة «{word}» تماماً",
+    "defaultTitle": "تأكيد العملية"
+  },
+  "nav": {
+    "aria": {
+      "menu": "القائمة",
+      "roleNav": "تنقل دور {role}",
+      "unread": "{count, plural, zero {لا توجد رسائل غير مقروءة} one {رسالة واحدة غير مقروءة} two {رسالتان غير مقروءات} few {# رسائل غير مقروءة} many {# رسالةً غير مقروءة} other {# رسالة غير مقروءة}}",
+      "userMenu": "قائمة المستخدم",
+      "workspaceMenu": "قائمة مساحة العمل"
+    },
+    "cart": {
+      "aria": "سلة التسوق ({count, plural, zero {لا توجد سلع} one {سلعة واحدة} two {سلعتان} few {# سلع} many {# سلعةً} other {# سلعة}})",
+      "label": "سلة التسوق"
+    },
+    "chat": {
+      "ariaUnread": "الرسائل ({count, plural, zero {لا توجد رسائل غير مقروءة} one {رسالة غير مقروءة واحدة} two {رسالتان غير مقروءتين} few {# رسائل غير مقروءة} many {# رسالةً غير مقروءة} other {# رسالة غير مقروءة}})",
+      "label": "الرسائل"
+    },
+    "cmdk": {
+      "aria": "لوحة الأوامر (Cmd+K)",
+      "title": "البحث السريع (Ctrl+K)"
+    },
+    "connect": {
+      "ariaPending": "الشبكة ({count, plural, zero {لا توجد طلبات جديدة} one {طلب جديد واحد} two {طلبان جديدان} few {# طلبات جديدة} many {# طلبًا جديدًا} other {# طلب جديد}})",
+      "label": "الشبكة",
+      "title": "شبكتي"
+    },
+    "group": {
+      "academicStructure": "الهيكل الأكاديمي (من الأعلى إلى الأسفل)",
+      "account": "الحساب",
+      "advisorDesk": "مكتب المرشد الأكاديمي",
+      "ai": "الذكاء الاصطناعي",
+      "analytics": "التحليلات",
+      "assessment": "التقييم",
+      "assessmentAssigned": "التقييم (المخصص)",
+      "child": "الابن",
+      "classAndAi": "الصف والذكاء الاصطناعي",
+      "classAndInteraction": "الصف والتفاعل",
+      "communication": "التواصل",
+      "content": "المحتوى",
+      "education": "التعليم",
+      "evaluationCenter": "مركز التقييم",
+      "facultyStructure": "الكلية (من الأعلى إلى الأسفل)",
+      "finance": "المالية",
+      "financeOversight": "المالية (الإشراف)",
+      "governance": "الحوكمة",
+      "knowledgeMarket": "سوق المعرفة",
+      "learning": "التعلم",
+      "liveClass": "الصف",
+      "membership": "العضوية",
+      "organization": "المؤسسة",
+      "people": "الأفراد",
+      "reports": "التقارير",
+      "studentAffairs": "شؤون الطلاب",
+      "studentServices": "خدمات الطلاب",
+      "students": "الطلاب",
+      "superAdmin": "الإدارة العليا",
+      "supervision": "الإشراف",
+      "support": "الدعم الفني",
+      "system": "النظام",
+      "teaching": "التعليم",
+      "teachingAssistance": "المساعدة التعليمية",
+      "tuition": "الرسوم الدراسية",
+      "welfareFund": "صندوق الرعاية والمنح الدراسية",
+      "services": "خدمات الجامعة"
+    },
+    "item": {
+      "achievements": "الإنجازات",
+      "adaptive-path": "المسار التعليمي التكيفي",
+      "add-drop": "الحذف والإضافة",
+      "admin": "لوحة تحكم المدير",
+      "admin-ai-usage": "استهلاك الذكاء الاصطناعي",
+      "admin-applications": "الطلبات (القبول)",
+      "admin-assess-center": "مركز التقييم (الإدارة)",
+      "admin-broadcast": "بث إشعار عام",
+      "admin-calendar": "التقويم الأكاديمي",
+      "admin-cohorts": "المجموعات السابقة (Cohort)",
+      "admin-commission": "لجنة الحالات الخاصة",
+      "admin-course-content": "إنتاج المحتوى",
+      "admin-course-content-alt2": "إنتاج / تعديل المقرر",
+      "admin-course-content-alt3": "إنتاج / تعديل المحتوى",
+      "admin-courses": "كاتالوگ المقررات",
+      "admin-degree-policies": "عتبات الدرجات العلمية",
+      "admin-departments": "المجموعات التعليمية",
+      "admin-enrollments": "التسجيلات",
+      "admin-faculties": "أقسام الكلية",
+      "admin-finance-claims": "تأكيد أجور التدريس",
+      "admin-finance-decrees": "القرارات الوظيفية",
+      "admin-finance-payroll": "تنفيذ الرواتب",
+      "admin-finance-payroll-config": "تهيئة الرواتب",
+      "admin-finance-treasury": "الخزينة والتقارير",
+      "admin-finance-withdrawals": "قائمة السحب",
+      "admin-hr": "التوظيف وملف الموظف",
+      "admin-hr-alt2": "توظيف الكلية",
+      "admin-hr-alt3": "عقود التوظيف والرواتب",
+      "admin-instructors": "الأساتذة",
+      "admin-integrations": "التكاملات",
+      "admin-membership-config": "إعدادات العضوية",
+      "admin-membership-queue": "قائمة العضوية الانتظارية",
+      "admin-ministry-library": "مكتبة وزارة التعليم العالي",
+      "admin-notif-templates": "قوالب الإشعارات",
+      "admin-offerings": "طرح المقررات والفصول",
+      "admin-offerings-alt2": "طرح المقررات / تقسيم الفصول",
+      "admin-parent-links": "روابط الوالد والطالب",
+      "admin-people": "قائمة الأشخاص",
+      "admin-plans": "الباقات والأسعار",
+      "admin-profiles": "الملفات الشخصية",
+      "admin-programs": "التخصصات",
+      "admin-reference-data": "البيانات المرجعية",
+      "admin-regulation": "اللائحة التعليمية",
+      "admin-roles": "الأدوار والصلاحيات",
+      "admin-schools": "الكليات",
+      "admin-specializations": "التخصصات الدقيقة",
+      "admin-stage-progress": "التقدم المرحلي (الطب)",
+      "admin-student-overview": "ملف الأشخاص",
+      "admin-students": "الطلاب",
+      "admin-terms": "الفصول الدراسية",
+      "admin-tuition-config": "إعدادات الرسوم الدراسية",
+      "admin-users": "إدارة المستخدمين",
+      "admin-workflows": "مصمم سير العمل",
+      "agents": "المساعدون الذكيون",
+      "ai-governance": "وحدة حوكمة الذكاء الاصطناعي",
+      "analytics-admin": "التقارير والتحليلات",
+      "assess": "قياس الجدارة",
+      "assess-center": "مركز القياس — وحدة المقيِّم",
+      "assess-center-alt2": "وحدة المقيِّم",
+      "assess-center-my": "مركز القياس — رحلتي",
+      "assess-center-my-alt2": "رحلتي في القياس",
+      "assess-center-my-report": "مركز القياس — تقريري",
+      "assess-center-my-report-alt2": "تقرير القياس الخاص بي",
+      "assessment-builder": "منشئ الاختبارات",
+      "assignments": "الواجبات والاختبارات",
+      "attendance": "الحضور والغياب",
+      "audit": "تقرير التدقيق",
+      "auto-rules": "القواعد التلقائية",
+      "calendar": "التقويم",
+      "calendar-alt2": "التقويم والجدول",
+      "calendar-alt3": "الجدول والتقويم",
+      "capabilities-status": "حالة الميزات",
+      "career": "الخدمات المهنية",
+      "catalog": "دليل المقررات",
+      "class-analytics": "تحليل الفصل",
+      "cognitive-profile": "الملف الشخصي الإدراكي",
+      "community": "منتدى النقاش",
+      "community-moderation": "إدارة النقاشات",
+      "content": "مكتب عمل المحتوى",
+      "content-analytics": "تحليل الكتالوج",
+      "content-review": "قائمة مراجعة المحتوى",
+      "copilot": "مساعد الأستاذ الذكي",
+      "counseling-appointments": "مواعيد الإرشاد الأكاديمي",
+      "counselor-caseload": "سجل المراجعين",
+      "counselor-inbox": "مكتب عمل المرشد الأكاديمي",
+      "credential": "الشهادات",
+      "crisis-queue": "قائمة الحالات الحرجة",
+      "curriculum-builder": "المخطط الدراسي (المقررات، المتطلب السابق، نوع المقرر)",
+      "degree-audit": "مسار الشهادة",
+      "faculty": "هيئة التدريس",
+      "faculty-dashboard": "لوحة تحكم الكلية",
+      "faculty-reports": "تقارير الكلية",
+      "financial-aid": "المساعدة المالية / المنحة الدراسية",
+      "financial-aid-alt2": "منحة دراسية",
+      "flagged-reports": "صف التقارير المبلغ عنها",
+      "grade-submission": "تسجيل الدرجات",
+      "grade-submission-alt2": "تسجيل مسودة الدرجة",
+      "gradebook": "سجل الدرجات",
+      "grading-queue": "صف تصحيح الواجبات",
+      "inbox": "الإشعارات",
+      "instructor-assignment": "تعيين الأستاذ",
+      "instructor-dashboard": "لوحة التحكم",
+      "item-analysis": "تحليل الفقرات",
+      "item-analysis-alt2": "تحليل الأسئلة",
+      "labs": "المختبر الافتراضي",
+      "library": "المكتبة",
+      "library-alt2": "مكتبة المحتوى",
+      "live-class": "الفصول المباشرة",
+      "live-class-admin": "سعة الفصل المباشر",
+      "live-class-alt2": "استضافة الفصل المباشر",
+      "live-class-alt3": "الفصل المباشر",
+      "market": "استكشاف سوق المعرفة",
+      "market-admin": "إدارة السوق",
+      "market-admin-storage": "تخزين الاستوديو",
+      "market-cart": "سلة التسوق",
+      "market-earnings": "أرباحي",
+      "market-my-courses": "دوراتي",
+      "market-purchases": "مشترياتي",
+      "market-review": "مراجعة دورات السوق",
+      "market-studio": "استوديو المعرفة (صانع دوراتي)",
+      "market-studio-alt2": "استوديو المعرفة (صانع الدورة)",
+      "market-transactions": "معاملاتي",
+      "market-wishlist": "قائمة امنياتي",
+      "membership": "عضويتي",
+      "membership-directory": "دليل الأعضاء",
+      "messages": "الرسائل",
+      "messages-alt2": "مراسلة الأستاذ / الجامعة",
+      "moderate": "مكتب عمل الإشراف",
+      "moderation-log": "سجل الإجراءات",
+      "monitoring": "صحة النظام",
+      "my-attendance": "الحضور والغياب",
+      "my-chart": "مخططي الدراسي",
+      "my-courses": "مقرراتي",
+      "my-courses-alt2": "المقررات المنشورة",
+      "my-grades": "الدرجات والاعتراضات",
+      "my-path": "المسار الأكاديمي (حسب المراحل)",
+      "network": "شبكتي",
+      "officehours": "ساعات حضور الأستاذ",
+      "officehours-alt2": "ساعات الحضور",
+      "officehours-alt3": "جلسة مع المرشد الأكاديمي",
+      "org": "لوحة تحكم المؤسسة",
+      "org-bulk-enroll": "إنشاء حساب جماعي",
+      "org-invoices": "الفواتير",
+      "org-reports": "تقرير المؤسسة",
+      "org-seats": "المقاعد (Seats)",
+      "org-users": "مستخدمو المؤسسة",
+      "parent": "لوحة تحكم الابن",
+      "parent-attendance": "الحضور والغياب",
+      "parent-grades": "الدرجات / تقرير النتائج",
+      "parent-tuition": "الحالة المالية / الرسوم الدراسية",
+      "payroll-claims": "أجور التدريس",
+      "payroll-my-payslips": "قسائم الرواتب",
+      "portfolio": "ملف الإنجاز",
+      "probation-review": "مراجعة الإنذار الأكاديمي",
+      "profile": "الملف الشخصي",
+      "progress": "لوحة العمل",
+      "question-bank": "بنك الأسئلة",
+      "recordings": "أرشيف التسجيلات",
+      "registration": "تسجيل المقررات",
+      "roster": "قائمة الطلاب",
+      "rubric-builder": "منشئ معايير التقييم",
+      "schedule": "الجدول الأسبوعي",
+      "service-desk": "منصة الخدمات",
+      "service-desk-alt2": "منصة الخدمات (التأكيدَات)",
+      "settings": "إعدادات النظام",
+      "settings-alt2": "الإعدادات",
+      "settings-alt3": "إعدادات المؤسسة",
+      "super": "لوحة تحكم المدير العام",
+      "super-tenants": "المستأجرون (Tenants)",
+      "support": "مكتب الدعم الفني",
+      "ta": "مكتب المساعد",
+      "tickets": "تذكرة الدعم",
+      "tickets-alt2": "قائمة التذاكر",
+      "transcript": "تقرير النتائج / كشف الدرجات",
+      "tuition": "الرسوم الدراسية / الدفع",
+      "tuition-clearance": "إخلاء الطرف",
+      "tuition-loans": "القروض الطلابية",
+      "tuition-refund": "استرداد الرسوم الدراسية",
+      "user-lookup": "بحث المستخدم",
+      "wallet": "المحفظة",
+      "wellness": "الصحة والإرشاد"
+    },
+    "liveDot": {
+      "aria": "بيانات حية",
+      "title": "متصل بـ API"
+    },
+    "notif": {
+      "allRead": "الكل مقروء",
+      "aria": "إشعارات ({count, plural, zero {لا توجد إشعارات غير مقروءة} one {# غير مقروء} two {إشعاران غير مقروءين} few {# إشعارات غير مقروءة} many {# إشعارًا غير مقروء} other {# إشعار غير مقروء}})",
+      "empty": "ليس لديك إشعارات جديدة.",
+      "label": "إشعارات",
+      "loadFailed": "لم نتمكن من رفع الإشعارات.",
+      "markAllRead": "اجعل الكل مقروءًا",
+      "openInbox": "صندوق البريد الكامل",
+      "title": "إشعارات",
+      "unreadCount": "{count, plural, zero {لا توجد إشعارات غير مقروءة} one {# غير مقروء} two {إشعاران غير مقروءين} few {# إشعارات غير مقروءة} many {# إشعارًا غير مقروء} other {# إشعار غير مقروء}}"
+    },
+    "term": {
+      "aria": "اختر الفصل الدراسي",
+      "title": "الفصل الدراسي"
+    }
+  },
+  "rail": {
+    "collapseAria": "طيّ القائمة الجانبية",
+    "collapseTitle": "طيّ",
+    "expandAria": "توسيع القائمة الجانبية",
+    "expandTitle": "توسيع"
+  },
+  "roles": {
+    "admin": "رئيس الجامعة",
+    "assessment_manager": "مدير مركز التقييم",
+    "assessor": "المقيِّم",
+    "content_manager": "مدير المحتوى",
+    "counselor": "المرشد الأكاديمي للجامعة",
+    "faculty_admin": "عميد الكلية",
+    "finance_manager": "المدير المالي",
+    "instructor": "الأستاذ",
+    "membership_manager": "مدير برنامج العضوية",
+    "membership_operator": "مشغل العضوية",
+    "moderator": "المشرف",
+    "org": "المؤسسة",
+    "parent": "ولي الأمر",
+    "student": "الطالب",
+    "super_admin": "المدير الرئيسي",
+    "support": "الدعم الفني",
+    "ta": "المساعد التدريسي"
+  },
+  "shell": {
+    "redirectingToLogin": "جاري الانتقال إلى تسجيل الدخول...",
+    "skipToContent": "الانتقال إلى المحتوى الرئيسي"
+  },
+  "topnav": {
+    "admin": {
+      "admin": "الإدارة",
+      "analytics": "التحليلات",
+      "events": "الفعاليات",
+      "progress": "لوحة القيادة",
+      "schools": "الكليات",
+      "tutor": "مساعد الذكاء الاصطناعي"
+    },
+    "assessment_manager": {
+      "profile": "الملف الشخصي"
+    },
+    "assessor": {
+      "profile": "الملف الشخصي"
+    },
+    "content_manager": {
+      "admin-course-content": "إنتاج المحتوى",
+      "analytics": "التحليلات",
+      "catalog": "الكتالوج",
+      "help": "الدعم الفني",
+      "messages": "الرسائل"
+    },
+    "counselor": {
+      "counseling-appointments": "مواعيد الاستشارة",
+      "counselor-inbox": "طاولة العمل",
+      "crisis-queue": "الحالات الحرجة",
+      "messages": "الرسائل"
+    },
+    "faculty_admin": {
+      "admin-departments": "المجموعات",
+      "admin-enrollments": "عمليات إنشاء الحساب",
+      "admin-offerings": "طرح المقررات",
+      "admin-programs": "التخصصات",
+      "faculty-dashboard": "لوحة تحكم الكلية",
+      "messages": "الرسائل"
+    },
+    "finance_manager": {
+      "admin-finance-claims": "أجور التدريس",
+      "admin-finance-decrees": "القرارات",
+      "admin-finance-payroll": "صرف الرواتب",
+      "admin-finance-treasury": "الخزينة"
+    },
+    "instructor": {
+      "admin-course-content": "إنتاج المقرر",
+      "classroom": "الفصل المباشر",
+      "gradebook": "سجل الدرجات",
+      "messages": "الرسائل",
+      "my-courses": "مقرراتي",
+      "progress": "طاولة العمل",
+      "tutor": "مساعد الذكاء الاصطناعي"
+    },
+    "membership_manager": {
+      "profile": "الملف الشخصي"
+    },
+    "membership_operator": {
+      "profile": "الملف الشخصي"
+    },
+    "moderator": {
+      "community": "المجتمع",
+      "help": "الدعم الفني",
+      "messages": "الرسائل"
+    },
+    "org": {
+      "analytics": "تحليلات الفريق",
+      "events": "الفعاليات",
+      "faculty": "الموجِّهون",
+      "help": "الدعم الفني",
+      "org": "لوحة المؤسسة",
+      "pricing": "الباقات"
+    },
+    "parent": {
+      "calendar": "تقويم الابن",
+      "credential": "شهادات إتمام",
+      "help": "الدعم الفني",
+      "messages": "الرسائل",
+      "parent": "لوحة العمل"
+    },
+    "public": {
+      "about": "من نحن",
+      "apply": "طلب القبول",
+      "help": "المساعدة",
+      "market": "سوق المعرفة",
+      "pricing": "الباقات",
+      "programs": "البرامج"
+    },
+    "student": {
+      "calendar": "التقويم",
+      "catalog": "الكاتالوگ",
+      "community": "المجتمع",
+      "my-courses": "دوراتي",
+      "progress": "تقدمي",
+      "tutor": "مساعد الذكاء الاصطناعي"
+    },
+    "super_admin": {
+      "admin": "الإدارة",
+      "analytics": "التحليلات",
+      "audit": "تقرير التدقيق",
+      "progress": "لوحة القيادة",
+      "tutor": "مساعد الذكاء الاصطناعي"
+    },
+    "support": {
+      "audit": "تقرير التدقيق",
+      "help": "الدعم الفني",
+      "messages": "الرسائل",
+      "support": "مكتب الدعم"
+    },
+    "ta": {
+      "classroom": "الفصل الدراسي",
+      "my-courses": "دوراتي",
+      "progress": "التقدم",
+      "tutor": "مساعد الذكاء الاصطناعي"
+    }
+  },
+  "user": {
+    "guest": "زائر · بدون تسجيل الدخول",
+    "item": {
+      "achievements": "الإنجازات",
+      "bookmarks": "المحفوظات",
+      "credential": "الشهادات",
+      "help": "الدعم الفني",
+      "home": "لوحة العمل",
+      "messages": "الرسائل",
+      "profile": "الملف الشخصي",
+      "settings": "الإعدادات"
+    },
+    "loggingOut": "جارٍ تسجيل الخروج...",
+    "logout": "تسجيل الخروج",
+    "switchRole": "تغيير الدور النشط"
+  },
+  "moreHub": {
+    "heading": "جميع الأدوات",
+    "lead": "وصول سريع إلى جميع أقسام مساحة عملك ({role}).",
+    "search": "البحث عن أداة",
+    "searchPlaceholder": "ابحث في الأدوات…",
+    "helpTitle": "دليل جميع الأدوات",
+    "help": "توفّر هذه الصفحة اختصارات لجميع أقسام مساحة عملك. اضغط على بطاقة للانتقال إلى القسم، أو استخدم مربع البحث للعثور على أداة بسرعة.",
+    "empty": "لم يتم العثور على أداة تطابق «{query}»."
+  }
+}

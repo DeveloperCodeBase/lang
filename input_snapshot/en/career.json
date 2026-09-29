@@ -1,0 +1,141 @@
+{
+  "actions": {
+    "postJob": "+ Post Job"
+  },
+  "appStatus": {
+    "accepted": "Accepted",
+    "applied": "Applied",
+    "rejected": "Rejected",
+    "reviewing": "Under Review"
+  },
+  "applicants": {
+    "closeButton": "Close",
+    "empty": "No one has applied for this position yet.",
+    "eyebrow": "Applicants",
+    "loading": "Loading applicants…",
+    "statusLabel": "Status:"
+  },
+  "apply": {
+    "counter": "{current, number} / {max, number} characters",
+    "employerPage": "Employer Page ↗",
+    "eyebrow": "Submit Application",
+    "noteLabel": "Cover Note (Optional)",
+    "notePlaceholder": "Why are you a good fit for this role? Briefly describe your skills and motivation…",
+    "submit": "Submit Application",
+    "submitting": "Submitting…"
+  },
+  "closeJob": {
+    "closing": "Closing…",
+    "confirm": "Are you sure you want to close \"{title}\"? Once closed, this position will no longer be visible to students and no new applications will be accepted.",
+    "submit": "Yes, Close",
+    "title": "Close Job Posting"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "saving": "Saving…"
+  },
+  "cv": {
+    "completePercent": "{percent, number}% complete",
+    "createButton": "Create CV",
+    "defaultHolder": "User",
+    "editButton": "Edit CV",
+    "empty": "You haven't created a CV yet. Click \"Create CV\" to help employers get to know you better.",
+    "loading": "Loading CV…",
+    "title": "My CV"
+  },
+  "cvEditor": {
+    "createTitle": "Create CV",
+    "editTitle": "Edit CV",
+    "educationOrgPlaceholder": "University / Institution",
+    "educationTitle": "Education History",
+    "educationTitlePlaceholder": "Degree / Major",
+    "experienceOrgPlaceholder": "Company / Organization",
+    "experienceTitle": "Work Experience / Internship",
+    "experienceTitlePlaceholder": "Title / Position",
+    "headlineLabel": "Professional Headline",
+    "headlinePlaceholder": "e.g., Software Engineering Student · Frontend Enthusiast",
+    "save": "Save CV",
+    "skillsLabel": "Skills (separated by commas)",
+    "skillsPlaceholder": "React, TypeScript, Git, Teamwork",
+    "summaryLabel": "About Me",
+    "summaryPlaceholder": "A summary of yourself, your goals, and strengths…"
+  },
+  "entry": {
+    "add": "+ Add",
+    "detailPlaceholder": "Description (optional)",
+    "empty": "No items added.",
+    "periodPlaceholder": "Time period (e.g., 2023–2024)",
+    "remove": "Remove",
+    "removeLabel": "Remove item"
+  },
+  "errors": {
+    "generic": "An error occurred"
+  },
+  "help": {
+    "body": "On this page, you can view open job opportunities and filter them by employment type or search. Click «Apply» on any opportunity to apply for it; the status of all your applications is displayed in the «My Applications» section. Complete your resume in the «My Resume» card.",
+    "manager": " As a career services manager, you can publish a new listing using «Post Job Opportunity», edit or close it, and review «Applicants» for each opportunity to update their status.",
+    "title": "Career Services Guide"
+  },
+  "jobForm": {
+    "applyUrlLabel": "Employer job link (optional)",
+    "companyLabel": "Company / Organization",
+    "createTitle": "Post Job Opportunity",
+    "descriptionLabel": "Job Description",
+    "descriptionPlaceholder": "Description of duties, required skills, and conditions…",
+    "editTitle": "Edit Job Opportunity",
+    "errors": {
+      "company": "Enter the company / organization name.",
+      "description": "Enter the job description (at least {min, number} characters).",
+      "title": "Enter the job title (at least {min, number} characters)."
+    },
+    "locationLabel": "Location",
+    "locationPlaceholder": "New York / Remote",
+    "publish": "Publish Opportunity",
+    "saveChanges": "Save Changes",
+    "tagLabel": "Tag (optional)",
+    "tagPlaceholder": "React / Data / Design",
+    "titleLabel": "Job Title",
+    "titlePlaceholder": "e.g., Frontend Development Intern",
+    "typeLabel": "Employment Type"
+  },
+  "jobs": {
+    "applicants": "Applicants",
+    "applied": "✓ Applied",
+    "apply": "Apply",
+    "clearSearch": "Clear",
+    "close": "Close",
+    "closed": "Closed",
+    "closedBadge": "Closed",
+    "edit": "Edit",
+    "empty": "No opportunities found with these filters.",
+    "loading": "Loading opportunities…",
+    "resetFilters": "Reset filters",
+    "retry": "Try again",
+    "searchLabel": "Search job opportunity",
+    "searchPlaceholder": "Search title, company, or skill…",
+    "title": "Job Opportunities",
+    "typeFilterLabel": "Employment Type"
+  },
+  "myApps": {
+    "empty": "You haven't applied to any opportunities yet.",
+    "loading": "Loading…",
+    "title": "My Applications"
+  },
+  "page": {
+    "eyebrow": "Student Services · Career",
+    "lead": "Search for internship and job opportunities, build your resume, and apply directly; track the status of your applications right here.",
+    "title": "Career Services"
+  },
+  "stats": {
+    "myApplications": "{count, plural, one {# My application} other {# My applications}}",
+    "openJobs": "{count, plural, one {# Open position} other {# Open positions}}"
+  },
+  "type": {
+    "all": "All",
+    "contract": "Contract",
+    "full_time": "Full-time",
+    "internship": "Internship",
+    "part_time": "Part-time"
+  }
+}
