@@ -1,0 +1,8 @@
+{
+  "name": "Global Locales Translation & Export Platform",
+  "description": "Enterprise i18n localization suite translating, validating and exporting 50 languages with 32 full catalogs, 12,685 keys per language, JSON-LD metadata, and live export downloads.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -65,15 +65,26 @@ const server = http.createServer((req, res) => {
       ? (fs.statSync(path.join(__dirname, 'locales_translated.zip')).size / (1024 * 1024)).toFixed(2)
       : '0';
 
-    // Build rows from coverage.locales
-    let rowsHtml = '';
+    // Find current/next language in progress
+    let nextLangName = 'تمام ۵۰ زبان ۱۰۰٪ کامل شدند';
+    let nextLangDesc = 'پوشش کامل برای تمام زبان‌های هدف حاصل شد.';
+    let isAllComplete = true;
     let completedLangsCount = 0;
+    let rowsHtml = '';
+
     if (coverage.locales) {
       for (const [code, info] of Object.entries(coverage.locales)) {
         const isComplete = info.coverage_pct >= 99.9;
-        if (isComplete) completedLangsCount++;
+        if (isComplete) {
+          completedLangsCount++;
+        } else if (isAllComplete && code !== 'fa') {
+          isAllComplete = false;
+          nextLangName = `${code} - ${info.name || code}`;
+          nextLangDesc = `در حال تکمیل: ${info.completed_catalogs} از ${info.total_catalogs} کاتالوگ (${info.coverage_pct}%)`;
+        }
+
         const badgeClass = isComplete ? 'badge badge-success' : (info.coverage_pct > 20 ? 'badge' : 'badge badge-warning');
-        const badgeText = code === 'fa' ? 'اصل منبع' : (isComplete ? 'کامل (۱۰۰٪)' : (info.coverage_pct > 20 ? 'در حال ترجمه' : 'نیاز به ترجمه'));
+        const badgeText = code === 'fa' ? 'اصل منبع' : (isComplete ? 'کامل (۱۰۰٪)' : (info.coverage_pct > 20 ? 'در حال تکمیل' : 'در نوبت ترجمه'));
         const nameText = info.name || code;
         rowsHtml += `
           <tr>
@@ -98,7 +109,11 @@ const server = http.createServer((req, res) => {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>خروجی ترجمه و اعتبارسنجی پوشهٔ Locales</title>
+  <meta http-equiv="refresh" content="5">
+  <title>Global Locales Translation & Export Platform</title>
+  <meta name="description" content="Enterprise i18n localization suite translating, validating and exporting 50 languages with 32 full catalogs, 12,685 keys per language, JSON-LD metadata, and live export downloads.">
+  <meta property="og:title" content="Global Locales Translation & Export Platform">
+  <meta property="og:description" content="Enterprise i18n localization suite translating, validating and exporting 50 languages with 32 full catalogs, 12,685 keys per language, JSON-LD metadata, and live export downloads.">
   <style>
     :root {
       --bg: #0f172a;
@@ -196,7 +211,7 @@ const server = http.createServer((req, res) => {
           <h1>بستهٔ خروجی ترجمه و اعتبارسنجی Locales</h1>
           <p style="color: var(--muted); font-size: 0.95rem;">مخزن DeveloperCodeBase/digiuniversity · شاخهٔ codex/global-i18n-50</p>
         </div>
-        <span class="badge badge-success">✓ وضعیت بلادرنگ گزارش</span>
+        <span class="badge ${isAllComplete ? 'badge-success' : 'badge-warning'}">${isAllComplete ? '✓ تمام زبان‌ها ۱۰۰٪ تکمیل شدند' : '⟳ در حال پیشرفت بلادرنگ (به‌روزرسانی خودکار)'}</span>
       </div>
     </header>
 
@@ -225,9 +240,9 @@ const server = http.createServer((req, res) => {
         <p style="font-size: 0.85rem; color: var(--muted); margin-top: 0.25rem;">تمام ۳۲ کاتالوگ با تطابق ۱:۱</p>
       </div>
       <div class="card">
-        <div class="card-title">زبان بعدی در حال تکمیل</div>
-        <div class="card-value">pt (پرتغالی)</div>
-        <p style="font-size: 0.85rem; color: var(--muted); margin-top: 0.25rem;">در حال ترجمهٔ کاتالوگ‌ها به Português</p>
+        <div class="card-title">${isAllComplete ? 'وضعیت نهایی پروژه' : 'زبان در حال ترجمه / زبان بعدی'}</div>
+        <div class="card-value" style="font-size: 1.25rem;">${nextLangName}</div>
+        <p style="font-size: 0.85rem; color: var(--muted); margin-top: 0.25rem;">${nextLangDesc}</p>
       </div>
     </div>
 

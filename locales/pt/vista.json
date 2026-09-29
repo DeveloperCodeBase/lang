@@ -1,0 +1,43 @@
+{
+  "vista": {
+    "head": {
+      "title": "Sobre o Vista",
+      "description": "A Vista é a operadora técnica e detentora dos direitos desta plataforma – serviços, arquitetura de IA, ecossistema e informações oficiais da empresa."
+    },
+    "hero": {
+      "eyebrow": "PARCEIRO TÉCNICO · مجریِ فنی",
+      "ownershipPrefix": "{platform} é um produto desta empresa; o {role} desta plataforma e todos os seus direitos materiais e intelectuais pertencem a",
+      "ownershipSuffix": ".",
+      "siteLinkLabel": "Site oficial do Vista ↗",
+      "aboutLinkLabel": "Sobre {name}"
+    },
+    "sections": {
+      "overview": {
+        "eyebrow": "VISÃO GERAL · معرفی",
+        "title": "De ideias dispersas a produtos, processos e decisões utilizáveis"
+      },
+      "services": {
+        "eyebrow": "SERVIÇOS · خدمات",
+        "title": "Da arquitetura de IA aos produtos prontos para produção"
+      },
+      "architecture": {
+        "eyebrow": "AGENTIC + RAG · معماری",
+        "title": "Modelos de linguagem, conhecimento empresarial, ferramentas e revisão humana em uma única arquitetura"
+      },
+      "ecosystem": {
+        "eyebrow": "ECOSSISTEMA · Ecossistema",
+        "title": "IA, conhecimento e engenharia de produto em um só ciclo"
+      },
+      "official": {
+        "eyebrow": "OFICIAL · اطلاعاتِ رسمی",
+        "title": "Conselho de administração e métodos de contato"
+      }
+    },
+    "ecosystem": {
+      "viewSiteLabel": "Ver site ↗"
+    },
+    "official": {
+      "regNoLabel": "Nº de registro:"
+    }
+  }
+}

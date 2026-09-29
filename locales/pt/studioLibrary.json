@@ -1,0 +1,149 @@
+{
+  "mediaLibrary": {
+    "open": "Biblioteca de mídia",
+    "title": "Minha biblioteca de mídia",
+    "close": "Fechar",
+    "search": "Pesquisar nomes de arquivos",
+    "filter": {
+      "label": "Tipo de arquivo",
+      "all": "Todos",
+      "video": "Vídeo",
+      "audio": "Áudio",
+      "image": "Imagem",
+      "document": "Documento"
+    },
+    "sort": {
+      "label": "Classificar por",
+      "newest": "Mais recente",
+      "largest": "Maior"
+    },
+    "usage": "{used} de {quota} usado",
+    "usageNoQuota": "{used} usado",
+    "size": {
+      "b": "Bytes {n}",
+      "kb": "{n} KB",
+      "mb": "{n}MB",
+      "gb": "{n} GB"
+    },
+    "duration": "Duração: {time}",
+    "type": {
+      "video": "Vídeo",
+      "audio": "Áudio",
+      "image": "Imagem",
+      "document": "Documento",
+      "slide": "Deslizar",
+      "h5p": "Interativo (H5P)",
+      "caption": "Legenda"
+    },
+    "usedIn": {
+      "label": "Usado em",
+      "sections": "{count, plural, one {# seção} other {# seções}}",
+      "projects": "{count, plural, one {#edição do projeto} other {# editando projetos}}",
+      "templates": "{count, plural, one {# modelo} other {# modelos}}"
+    },
+    "unused": "Ainda não usado em lugar nenhum",
+    "badge": {
+      "take": "Gravação tomada",
+      "processing": "Processamento",
+      "failed": "Falha no processamento"
+    },
+    "actions": {
+      "more": "Mais ações para \"{name}\"",
+      "preview": "Visualização",
+      "use": "Usar na seção",
+      "edit": "Editar na linha do tempo",
+      "saveTemplate": "Salvar como modelo",
+      "delete": "Excluir"
+    },
+    "loadMore": "Carregar mais",
+    "empty": {
+      "title": "Nenhuma mídia ainda",
+      "body": "Grave ou carregue um arquivo para vê-lo aqui.",
+      "record": "Vá para a gravação"
+    },
+    "noResults": "Nenhum resultado encontrado com este filtro.",
+    "error": "Falha ao carregar a biblioteca.",
+    "errorHint": "Verifique sua conexão e tente novamente.",
+    "retry": "Tente novamente",
+    "delete": {
+      "title": "Excluir \"{name}\"?",
+      "body": "O arquivo será excluído permanentemente e não poderá ser recuperado.",
+      "confirm": "Excluir",
+      "cancel": "Cancelar",
+      "done": "Arquivo excluído."
+    },
+    "pickSection": {
+      "title": "Selecione a seção",
+      "hint": "Somente seções compatíveis com este tipo de arquivo são exibidas.",
+      "empty": "Não há seção compatível neste curso; crie primeiro uma seção no programa.",
+      "replaceWarn": "Esta seção já possui um arquivo, que será substituído.",
+      "confirm": "Coloque nesta seção",
+      "cancel": "Cancelar",
+      "done": "Arquivo colocado na seção.",
+      "error": "Falha ao colocar o arquivo na seção.",
+      "loadError": "Falha ao carregar a lista de seções."
+    },
+    "preview": {
+      "title": "Pré-visualização \"{name}\"",
+      "error": "Pré-visualização não disponível."
+    }
+  },
+  "studioTemplates": {
+    "open": "Dos modelos",
+    "title": "Biblioteca de modelos",
+    "close": "Fechar",
+    "cat": {
+      "label": "Categoria de modelo",
+      "lesson_intro": "Introdução da lição",
+      "lesson_summary": "Resumo",
+      "instructor_intro": "Introdução do instrutor",
+      "assignment_notice": "Aviso de atribuição"
+    },
+    "scope": {
+      "label": "Escopo",
+      "all": "Todos",
+      "tenant": "Modelos de instituições",
+      "personal": "Meus modelos"
+    },
+    "badge": {
+      "tenant": "Instituição",
+      "personal": "Pessoal"
+    },
+    "use": "Usar",
+    "using": "Preparando...",
+    "copiedNote": "Uma cópia foi criada em sua biblioteca de mídia.",
+    "useError": "Falha ao preparar o modelo.",
+    "preview": "Visualização",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "unavailable": "Este arquivo de modelo não está disponível.",
+    "empty": {
+      "title": "Nenhum modelo nesta categoria",
+      "body": "Salve um arquivo como modelo da biblioteca de mídia."
+    },
+    "error": "Falha ao carregar modelos.",
+    "retry": "Tente novamente",
+    "form": {
+      "createTitle": "Salvar como modelo",
+      "editTitle": "Editar modelo",
+      "title": "Título",
+      "titleRequired": "O título é obrigatório.",
+      "description": "Descrição (opcional)",
+      "category": "Categoria",
+      "scope": "Quem pode ver isso?",
+      "scopePersonal": "Só eu",
+      "scopeTenant": "Todos os instrutores da instituição",
+      "save": "Salvar",
+      "cancel": "Cancelar",
+      "saved": "Modelo salvo.",
+      "error": "Falha ao salvar o modelo."
+    },
+    "deleteDialog": {
+      "title": "Excluir modelo \"{title}\"?",
+      "body": "O modelo será removido da biblioteca; seções que o usaram não serão afetadas.",
+      "confirm": "Excluir",
+      "cancel": "Cancelar",
+      "done": "Modelo excluído."
+    }
+  }
+}

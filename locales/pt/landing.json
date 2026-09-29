@@ -1,0 +1,1557 @@
+{
+  "home": {
+    "head": {
+      "title": "Uma universidade com assistentes de IA, aulas ao vivo e certificados verificados",
+      "description": "{brand}: Assistentes de IA para todos os cursos, aulas ao vivo com legendas, 94 professores das melhores universidades e certificados digitais verificáveis."
+    },
+    "topbar": {
+      "registrationBadge": "As admissões para o outono de 2026 já estão abertas",
+      "supportBadge": "Suporte 24 horas por dia, 7 dias por semana"
+    },
+    "nav": {
+      "ariaLabel": "Navegação na página inicial principal",
+      "closeMenu": "Fechar menu",
+      "openMenu": "Abrir menu",
+      "about": "Sobre nós",
+      "programs": "Faculdades",
+      "login": "Faça login",
+      "applyFree": "Registro Gratuito",
+      "drawerAriaLabel": "Menu de navegação"
+    },
+    "hero": {
+      "stats": {
+        "faculties": {
+          "unit": "Corpo Docente",
+          "label": "Engenharia · Medicina · Ciências Básicas · IA · Gestão · Humanidades · Artes · Direito"
+        },
+        "programs": {
+          "unit": "Programa",
+          "label": "De graus de associado a doutorado, com base em dados oficiais do ministério"
+        },
+        "instructors": {
+          "unit": "Instrutor",
+          "label": "Das melhores universidades do Irã e de todo o mundo"
+        },
+        "students": {
+          "unit": "Estudante",
+          "label": "Certificados verificáveis on-line"
+        }
+      },
+      "title": "Seu caminho de crescimento profissional; da avaliação de competência a um diploma válido",
+      "subtitle": "A primeira Plataforma de Aprendizagem Inteligente (ILP) baseada em arquitetura multiagente — programas oficiais de grau de associado a doutorado, acompanhados por um assistente inteligente dedicado e certificados verificáveis."
+    },
+    "cta": {
+      "primary": "Comece de graça",
+      "secondary": "Experimente o assistente inteligente aqui",
+      "dashboard": "Meu painel"
+    },
+    "finalCta": {
+      "title": "Comece hoje gratuitamente",
+      "ariaLabel": "Começar",
+      "lead": "O plano de teste é gratuito – não é necessário cartão de crédito nem compromisso.",
+      "apply": "Inscreva-se para admissão"
+    },
+    "agentSystem": {
+      "eyebrow": "Arquitetura de assistente inteligente",
+      "titleLine1": "Em vez de um único chatbot,",
+      "titleHighlight": "uma equipe educacional",
+      "lead": "Cada curso possui um Agent Graph independente. Cinco agentes especializados, cada um com sua função, limites, recursos autorizados e critérios de avaliação. O professor supervisiona tudo.",
+      "roles": {
+        "tutor": "Tutor",
+        "coach": "Treinador",
+        "critic": "Crítico",
+        "mentor": "Mentor",
+        "grader": "Graduador",
+        "human": "professor"
+      },
+      "pillar1": {
+        "num": "01 / Motor de aprendizagem",
+        "title": "Cinco agentes, um objetivo: verdadeiro domínio",
+        "desc": "O explicador, o treinador socrático, o crítico, o mentor de longo prazo e o avaliador – cada um dentro do seu domínio de especialização e sob o controle do instrutor."
+      },
+      "pillar2": {
+        "num": "02 / Perfil Cognitivo",
+        "title": "Cada aluno, um mapa vivo",
+        "desc": "Conhecimento prévio, ritmo de aprendizagem, conceitos dominados e ambíguos, estilo de interação e risco de abandono — tudo atualizado em tempo real."
+      },
+      "pillar3": {
+        "num": "03 / Maestria",
+        "title": "Progressão através de provas, não de frequência",
+        "desc": "Cada atividade está vinculada a um objetivo de aprendizagem. Limite de domínio ajustável. O sistema sabe onde é necessária mais prática."
+      },
+      "pillar4": {
+        "num": "04 / Aula Ao Vivo",
+        "title": "WebRTC · LL-HLS · Gravação inteligente",
+        "desc": "Desde pequenas aulas interativas até milhares de webinars. Gravação, conversão de fala em texto, diarização do locutor, divisão automática de capítulos — tudo padrão."
+      },
+      "pillar5": {
+        "num": "05 / Governança de IA",
+        "title": "Human-in-the-loop em pontos críticos",
+        "desc": "Nenhuma nota é finalizada sem a possibilidade de revisão humana. Cada resposta de IA vem com uma assinatura de origem e de agente."
+      }
+    },
+    "knowledgeGraph": {
+      "eyebrow": "Gráfico de conhecimento",
+      "titleLine1": "Cada lição é uma",
+      "titleHighlight": "rede de conceito",
+      "titleSuffix": "",
+      "lead": "Quando um aluno fica preso em um conceito, o sistema sabe quais pré-requisitos revisar, qual exercício corretivo atribuir e qual parte do vídeo da aula mostrar.",
+      "features": {
+        "hybridRetrieval": {
+          "title": "Recuperação Híbrida",
+          "desc": "BM25 + incorporações densas para pesquisa semântica"
+        },
+        "secondJump": {
+          "title": "Segundo salto preciso",
+          "desc": "Os resultados da pesquisa apontam diretamente para o segundo exato do vídeo"
+        },
+        "conceptExtraction": {
+          "title": "Extração de conceito",
+          "desc": "NER e análise de ambiguidade durante o ensino"
+        },
+        "remediationPath": {
+          "title": "Caminho corretivo",
+          "desc": "Recomendação automática baseada no perfil cognitivo"
+        }
+      },
+      "nodes": {
+        "ml": "Aprendizado de máquina",
+        "supervised": "Supervisionado",
+        "unsupervised": "Não supervisionado",
+        "reinforcement": "Reforço",
+        "regression": "Regressão",
+        "svm": "SVM",
+        "neuralNet": "Rede Neural",
+        "clustering": "Agrupamento",
+        "qLearning": "Q-aprendizagem"
+      }
+    },
+    "architecture": {
+      "eyebrow": "Arquitetura de plataforma",
+      "titlePrefix": "Arquitetura em",
+      "titleHighlight": "cinco camadas",
+      "titleComma": "",
+      "titleSuffix": "nativo da nuvem e auto-hospedável",
+      "lead": "Desde SaaS para pequenas instituições até Nuvem Privada e On-Premise para organizações sensíveis. Cada serviço é independente, cada serviço é substituível."
+    },
+    "courses": {
+      "eyebrow": "Catálogo de Cursos",
+      "title": "Cursos que crescem com você",
+      "viewAllButton": "Todos os cursos",
+      "cardAriaLabel": "Curso {title} por {by}",
+      "byPrefix": "por {by}",
+      "weeksUnit": "semanas",
+      "modulesUnit": "módulos",
+      "studentsUnit": "estudantes",
+      "items": {
+        "mlFoundations": {
+          "title": "Fundações de aprendizado de máquina",
+          "by": "Dr. Azimi",
+          "desc": "Da regressão às redes profundas, enfatizando a intuição e a aplicação."
+        },
+        "scalableSystems": {
+          "title": "Arquitetura de Sistemas Escaláveis",
+          "by": "Eng. Kiani",
+          "desc": "Microsserviços, Kafka, Kubernetes — com projetos práticos."
+        },
+        "dataProductDesign": {
+          "title": "Design de produto de dados",
+          "by": "Dr. Razavi",
+          "desc": "Métricas, experimentação, intuição e estruturas de tomada de decisão."
+        },
+        "advancedNlp": {
+          "title": "Processamento avançado de linguagem natural",
+          "by": "Dr.",
+          "desc": "Transformadores, RAG, avaliação e implementação LLM."
+        },
+        "aiEthics": {
+          "title": "Ética da IA",
+          "by": "Dr.",
+          "desc": "Viés, agência, governança de dados e estruturas regulatórias."
+        },
+        "appliedBayesianStats": {
+          "title": "Estatística Bayesiana Aplicada",
+          "by": "Dr.",
+          "desc": "Do teorema de Bayes ao MCMC com exemplos do mundo real."
+        }
+      }
+    },
+    "standards": {
+      "heading": "Construído com base em padrões usados por universidades em todo o mundo"
+    },
+    "platformTour": {
+      "eyebrow": "Tour pela plataforma · 20 páginas",
+      "title": "Cada função tem um espaço de trabalho dedicado",
+      "lead": "Aluno, instrutor, designer instrucional, administrador — cada um tem sua própria ferramenta. Tudo em uma única plataforma.",
+      "items": {
+        "classroom": {
+          "title": "Sala de aula ao vivo",
+          "desc": "WebRTC + Tutor de IA + Transcrição persa"
+        },
+        "labs": {
+          "title": "Laboratórios Virtuais",
+          "desc": "Anatomia 3D, RL Gym, CAD, GPU Jupyter"
+        },
+        "schools": {
+          "title": "Faculdades e Programas",
+          "desc": "8 faculdades · 248 programas · 5 níveis"
+        },
+        "research": {
+          "title": "Ph.D. Ambiente de Pesquisa",
+          "desc": "Roteiro, artigos, grupo de pesquisa"
+        },
+        "dashboard": {
+          "title": "Painel do Aluno",
+          "desc": "Perfil cognitivo · minigráfico"
+        },
+        "course": {
+          "title": "Página do curso",
+          "desc": "Mapa do módulo, Tutor AI lateral"
+        },
+        "search": {
+          "title": "Pesquisa Semântica",
+          "desc": "BM25 + denso + RAG"
+        },
+        "calendar": {
+          "title": "Calendário Acadêmico",
+          "desc": "Semana/mês · Sincronização do Google"
+        },
+        "library": {
+          "title": "Biblioteca Digital",
+          "desc": "1.284 recursos, pesquisa semântica"
+        },
+        "assessment": {
+          "title": "Testes e Avaliações",
+          "desc": "14 tipos de perguntas + supervisão humana"
+        },
+        "community": {
+          "title": "Comunidade de aprendizagem",
+          "desc": "Fórum + clustering de IA"
+        },
+        "recordings": {
+          "title": "Arquivo de aula",
+          "desc": "Vídeo + transcrição + teste automático"
+        },
+        "instructor": {
+          "title": "Console do instrutor",
+          "desc": "Saúde da classe + revisão de IA"
+        },
+        "authoring": {
+          "title": "Estúdio de Autoria",
+          "desc": "Planejador de curso de IA"
+        },
+        "analytics": {
+          "title": "Análise Institucional",
+          "desc": "Coorte, mapa de calor, alerta precoce"
+        },
+        "admin": {
+          "title": "Central de administração",
+          "desc": "KPIs, governança de IA, usuários"
+        },
+        "parent": {
+          "title": "Portal dos Pais",
+          "desc": "Progresso da criança + comunicação com o instrutor"
+        },
+        "officehours": {
+          "title": "Horário comercial",
+          "desc": "Agende uma sessão com o instrutor"
+        },
+        "events": {
+          "title": "Eventos e Webinários",
+          "desc": "Conferências, workshops, palestras convidadas"
+        },
+        "faculty": {
+          "title": "Corpo Docente",
+          "desc": "94 instrutores em 8 faculdades"
+        },
+        "help": {
+          "title": "Centro de suporte",
+          "desc": "Guias, perguntas frequentes, bate-papo 24 horas por dia, 7 dias por semana"
+        },
+        "pricing": {
+          "title": "Planos e preços",
+          "desc": "Gratuito, estudante, profissional, empresarial"
+        },
+        "credential": {
+          "title": "Credencial Digital",
+          "desc": "Abra Emblemas 3.0 + VC"
+        },
+        "about": {
+          "title": "Sobre nós",
+          "desc": "Missão, princípios, equipe"
+        }
+      }
+    },
+    "institutionalCta": {
+      "eyebrow": "Comece",
+      "title": "Construa uma universidade que nunca dorme",
+      "lead": "Inicie seu primeiro semestre on-line em menos de 30 dias com aulas ao vivo, gravação inteligente, testes adaptativos e certificação digital.",
+      "demoButton": "Solicite Demonstração Institucional",
+      "proposalButton": "Baixar proposta",
+      "milestones": {
+        "mvp": {
+          "title": "MVP em 30 dias",
+          "sub": "Primeiro curso online executável"
+        },
+        "fullTerm": {
+          "title": "Prazo completo em 90 dias",
+          "sub": "Todos os serviços universitários prontos"
+        },
+        "nationalScale": {
+          "title": "Escala Nacional em 6 Meses",
+          "sub": "Multilocatário, SLA de 99,9%"
+        }
+      }
+    },
+    "faculty": {
+      "eyebrow": "Corpo Docente Colaborador",
+      "titlePrefix": "Experiência",
+      "titleHighlight": "o melhor",
+      "titleSuffix": "ao seu lado.",
+      "lead": "Mais de trezentos membros do corpo docente da Universidade Sharif, da Universidade de Teerã, da Universidade de Tecnologia Amirkabir e de outras instituições acadêmicas proeminentes, juntamente com especialistas ativos do setor, colaboram na concepção e no ensino de nossos cursos.",
+      "members": {
+        "hosseini": {
+          "name": "Dr.Seyed Mohammad Hosseini",
+          "role": "Professor Associado da Universidade Sharif",
+          "field": "Inteligência Artificial e Aprendizado de Máquina"
+        },
+        "karimi": {
+          "name": "Dra. Zahra Karimi",
+          "role": "Professor da Universidade de Teerã",
+          "field": "Ciência de Dados e Estatística Aplicada"
+        },
+        "mozafari": {
+          "name": "Dr. Alireza Mozafari",
+          "role": "Professor assistente da Universidade de Tecnologia Amirkabir",
+          "field": "Engenharia de Software e Sistemas"
+        },
+        "bagheri": {
+          "name": "Dra.",
+          "role": "Pesquisador Sênior de IA",
+          "field": "Gestão de Negócios Digitais"
+        },
+        "taheri": {
+          "name": "Dr.",
+          "role": "Membro do corpo docente da Universidade de Ciência e Tecnologia do Irã",
+          "field": "Visão Computacional e Robótica"
+        },
+        "moradi": {
+          "name": "Dra. Nasrin Moradi",
+          "role": "Membro do corpo docente da Universidade Alzahra",
+          "field": "Design de experiência do usuário"
+        },
+        "asadi": {
+          "name": "Dr.",
+          "role": "Investigador do Instituto de Investigação em Ciências Fundamentais",
+          "field": "Processamento de Linguagem Natural"
+        },
+        "nasiri": {
+          "name": "Dra. Fatemeh Nasiri",
+          "role": "Professor assistente da Universidade Ferdowsi de Mashhad",
+          "field": "Engenharia Industrial e Otimização"
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Feedback dos alunos atuais",
+      "titleHighlight": "Experiência real",
+      "titleSuffix": "dos nossos alunos.",
+      "lead": "Os graduados de nossos cursos trabalham em empresas de tecnologia, institutos de pesquisa e negócios digitais. Suas vozes são nossa referência de qualidade de aprendizagem.",
+      "items": {
+        "hosseinRezaei": {
+          "body": "O ambiente de aprendizagem inteligente da universidade me permitiu concluir o curso full stack trabalhando em tempo integral, com qualidade além das expectativas. Seis meses após a formatura, comecei a trabalhar como desenvolvedor em uma grande empresa.",
+          "name": "Hossein Rezaei",
+          "role": "Engenheiro de Software, Graduado em Curso Full-Stack",
+          "initials": "RH"
+        },
+        "negarSafari": {
+          "body": "O suporte do instrutor e o acesso ao conteúdo 24 horas por dia, 7 dias por semana, proporcionaram uma experiência distinta da educação on-line padrão. O que realmente fez a diferença foi a qualidade dos mentores e os projetos do mundo real que continuam fazendo parte do meu portfólio profissional.",
+          "name": "Negar Safari",
+          "role": "Especialista em Ciência de Dados, Pós-Graduação em MBA Digital",
+          "initials": "N.S."
+        },
+        "fatemehAhmadi": {
+          "body": "Como mãe de dois filhos, era impossível encontrar tempo para a educação presencial. Essa plataforma me deu a oportunidade de atingir um nível em design UX enquanto acompanhava minha família, e agora trabalho profissionalmente em casa.",
+          "name": "Fatemeh Ahmadi",
+          "role": "UX Designer, Graduado em Design",
+          "initials": "FA"
+        }
+      }
+    },
+    "partners": {
+      "eyebrow": "Organizações Parceiras e Universidades",
+      "titlePrefix": "Em",
+      "titleHighlight": "uma rede de prestígio",
+      "titleSuffix": "centros de ensino superior",
+      "lead": "Colaboração com as melhores universidades nacionais, institutos de investigação nacionais e redes educativas internacionais — esta fundação garante a qualidade do conteúdo e a credibilidade dos certificados.",
+      "groups": {
+        "universities": "Melhores universidades nacionais",
+        "institutes": "Institutos de Pesquisa e Organismos Nacionais",
+        "international": "Colaborações Internacionais"
+      },
+      "univ": {
+        "ut": {
+          "name": "Universidade de Teerã",
+          "sub": "Utah · 1864",
+          "mark": "T"
+        },
+        "sharif": {
+          "name": "Universidade Sharif",
+          "sub": "SUT · 1966",
+          "mark": "S"
+        },
+        "amirkabir": {
+          "name": "Amirkabir",
+          "sub": "AUT · 1958",
+          "mark": "Um"
+        },
+        "iust": {
+          "name": "Universidade de Ciência e Tecnologia do Irã",
+          "sub": "IUST · 1929",
+          "mark": "eu"
+        },
+        "sbu": {
+          "name": "Beheshti",
+          "sub": "SBU · 1959",
+          "mark": "B"
+        },
+        "kntu": {
+          "name": "KN Toosi",
+          "sub": "KNTU · 1928",
+          "mark": "K"
+        },
+        "atu": {
+          "name": "Allameh Tabatabai",
+          "sub": "UAT · 1983",
+          "mark": "Um"
+        },
+        "tmu": {
+          "name": "Tarbiat Modas",
+          "sub": "TMU · 1982",
+          "mark": "T"
+        }
+      },
+      "institute": {
+        "msrt": {
+          "name": "Ministério da Ciência",
+          "sub": "MSRT · Autoridade de Ensino Superior",
+          "mark": "M"
+        },
+        "ipm": {
+          "name": "Instituto de Investigação em Ciências Fundamentais",
+          "sub": "IPM",
+          "mark": "eu"
+        },
+        "bmn": {
+          "name": "Fundação Nacional de Elites",
+          "sub": "BMN",
+          "mark": "N"
+        },
+        "inif": {
+          "name": "Fundo de Inovação",
+          "sub": "INIF",
+          "mark": "F"
+        },
+        "mict": {
+          "name": "Ministério das Comunicações",
+          "sub": "MICT",
+          "mark": "C"
+        }
+      }
+    },
+    "masteryRing": {
+      "currentLabel": "Maestria Atual",
+      "goalsProgress": "7 de 9 gols"
+    },
+    "hero3d": {
+      "classroom": {
+        "title": "Aula ao vivo · Sessão 8",
+        "meta": "42 participantes",
+        "ariaLabel": "Visualização da aula ao vivo — ilustração simbólica do compartilhamento de tela, vídeo do participante e barra de legenda ao vivo",
+        "caption": "...e aqui mesmo verificamos a condição de convergência com uma pequena taxa de aprendizado",
+        "label": "Visualização da aula ao vivo",
+        "foot": {
+          "attendance": "42 de 45 presentes",
+          "captions": "Legendas em persa",
+          "recording": "Gravação"
+        },
+        "tiles": {
+          "t1": {
+            "initial": "S"
+          },
+          "t2": {
+            "initial": "M"
+          },
+          "t3": {
+            "initial": "R"
+          },
+          "t4": {
+            "initial": "N"
+          }
+        }
+      },
+      "tutor": {
+        "title": "Assistente de Ensino",
+        "userAvatar": "Eu",
+        "userQuestion": "Por que a descida gradiente converge?",
+        "answer": "Se a taxa de aprendizagem for menor que 1/L, a função de custo diminui a cada passo e a sequência converge.",
+        "sourceLabel": "Aula 5 · 22:14",
+        "confidence": "92% de confiança",
+        "answerAvatar": "D"
+      },
+      "analytics": {
+        "title": "Saúde da classe",
+        "meta": "Em tempo real",
+        "note": "Sugestão do agente: revisão de 5 minutos de \"Time Complexity\"",
+        "metrics": {
+          "engagement": "Engajamento",
+          "comprehension": "Compreensão",
+          "pace": "Ritmo",
+          "ambiguity": "Ambiguidade restante"
+        }
+      },
+      "credential": {
+        "title": "Certificado Digital",
+        "meta": "Verificável",
+        "kicker": "Domínio verificado de",
+        "programTitle": "Aprendizado profundo",
+        "verify": "Verificável em {domain}"
+      }
+    },
+    "statsBand": {
+      "ariaLabel": "Números da universidade",
+      "faculties": "Faculdades",
+      "programs": "Programas acadêmicos",
+      "instructors": "Instrutores",
+      "students": "Alunos"
+    },
+    "catalogTeaser": {
+      "ariaLabel": "Cursos em destaque",
+      "eyebrow": "Cursos especiais",
+      "titlePrefix": "De",
+      "titleHighlight": "alunos atuais",
+      "lead": "Seis cursos mais visitados do semestre. Cada um é totalmente verificável com um certificado Open Badges 3.0.",
+      "weeksUnit": "semanas",
+      "viewAllButton": "Todos os 248 programas",
+      "items": {
+        "mlFoundations": {
+          "title": "Fundações de aprendizado de máquina",
+          "by": "Dr. Azimi",
+          "desc": "Da regressão às redes profundas."
+        },
+        "scalableSystems": {
+          "title": "Arquitetura de Sistemas Escaláveis",
+          "by": "Eng. Kiani",
+          "desc": "Microsserviços · Kafka · Kubernetes."
+        },
+        "dataProductDesign": {
+          "title": "Design de produto baseado em dados",
+          "by": "Dr. Razavi",
+          "desc": "Métricas e testes A/B."
+        },
+        "advancedNlp": {
+          "title": "PNL Avançada",
+          "by": "Dr.",
+          "desc": "Avaliação de transformadores, RAG, LLM."
+        },
+        "aiEthics": {
+          "title": "Ética da IA",
+          "by": "Dr.",
+          "desc": "Viés, agência e governança de dados."
+        },
+        "appliedBayesianStats": {
+          "title": "Estatística Bayesiana Aplicada",
+          "by": "Dr.",
+          "desc": "Do teorema de Bayes ao MCMC."
+        }
+      }
+    },
+    "trustStrip": {
+      "ariaLabel": "Organizações parceiras",
+      "eyebrow": "Organizações e universidades parceiras",
+      "partners": {
+        "msa": {
+          "glyph": "M"
+        },
+        "ut": {
+          "glyph": "Você"
+        },
+        "sharif": {
+          "glyph": "S"
+        },
+        "khu": {
+          "glyph": "K"
+        },
+        "iut": {
+          "glyph": "eu"
+        },
+        "amir": {
+          "glyph": "Um"
+        }
+      }
+    },
+    "facultyShowcase": {
+      "ariaLabel": "Corpo Docente",
+      "eyebrow": "Corpo Docente",
+      "titlePrefix": "Faculdade de",
+      "titleHighlight": "melhores universidades",
+      "lead": "94 membros do corpo docente da Universidade de Tecnologia Sharif, da Universidade de Teerã, da Universidade de Ciência e Tecnologia do Irã, da Universidade de Tecnologia Amirkabir e da Universidade Kharazmi – ao lado de colegas internacionais do MIT, Stanford e ETH.",
+      "viewAllButton": "Ver todos os professores",
+      "people": {
+        "azimi": {
+          "initials": "S. A.",
+          "name": "Dr. Sepideh Azimi",
+          "affiliation": "Universidade de Tecnologia Sharif",
+          "bio": "Aprendizado de Máquina · 18 anos de experiência docente"
+        },
+        "kiani": {
+          "initials": "A.K.",
+          "name": "Arash Kiani",
+          "affiliation": "Universidade de Teerã",
+          "bio": "Arquitetura de Sistemas Escaláveis · 12 anos na indústria"
+        },
+        "razavi": {
+          "initials": "M.R.",
+          "name": "Dr.",
+          "affiliation": "Universidade de Ciência e Tecnologia do Irã",
+          "bio": "Design de produto baseado em dados · Pesquisa sênior no Google"
+        },
+        "mousavi": {
+          "initials": "B. M.",
+          "name": "Dr. Babak Mousavi",
+          "affiliation": "Universidade de Tecnologia Amirkabir",
+          "bio": "Processamento de Linguagem Natural · Autor de 4 livros"
+        },
+        "taheri": {
+          "initials": "F. T.",
+          "name": "Dra. Fatemeh Taheri",
+          "affiliation": "Universidade Kharazmi",
+          "bio": "Ética e Governança da IA"
+        },
+        "farhadi": {
+          "initials": "Dr.",
+          "name": "Dr.",
+          "affiliation": "Universidade de Tecnologia de Isfahan",
+          "bio": "Estatística Bayesiana Aplicada · 20 Anos de Pesquisa"
+        }
+      }
+    },
+    "alumniVoices": {
+      "ariaLabel": "Depoimentos de usuários",
+      "eyebrow": "Ex-alunos",
+      "titlePrefix": "Daqueles que foram",
+      "titleHighlight": "construído aqui",
+      "lead": "Três pequenas narrativas de um aluno, um ex-aluno e um pai — sobre por que eles ficaram aqui.",
+      "ctaStart": "Comece grátis",
+      "ctaPrograms": "Ver programas",
+      "people": {
+        "nasrinRazavi": {
+          "initials": "N. R.",
+          "name": "Nasrin Razavi",
+          "role": "Estudante · Universidade de Tecnologia de Isfahan · Graduado CS-410",
+          "quote": "Uso esta universidade desde o primeiro semestre. As aulas ao vivo, o laboratório virtual e o assistente de ensino de IA juntos criaram uma experiência que eu nunca tinha tido antes."
+        },
+        "aliJavadi": {
+          "initials": "AJ",
+          "name": "Ali Javadi",
+          "role": "SWE Sênior · Snapp · Pós-Graduação CS-580",
+          "quote": "Coloquei o certificado Open Badges que ganhei no LinkedIn e recebi três ofertas. A credibilidade da plataforma é muito diferente dos cursos online comuns."
+        },
+        "mahsaKiani": {
+          "initials": "M. K.",
+          "name": "Mahsa Kiani",
+          "role": "Pai · Filho no 10º ano",
+          "quote": "Estou seguindo a seção dos pais. Em vez de cem tipos de mensageiros, vejo todas as notas, frequência e mensagens dos professores em um só lugar."
+        }
+      }
+    },
+    "trustBar": {
+      "ariaLabel": "Selos de confiança",
+      "lead": "Baseado em dados oficiais do Ministério da Ciência e do Ministério da Saúde",
+      "badges": {
+        "ministry": "Com base no currículo oficial do ministério",
+        "credential": "Certificado verificável on-line",
+        "selfHosted": "Infraestrutura auto-hospedada doméstica"
+      }
+    },
+    "problemSolution": {
+      "ariaLabel": "Problema e Solução",
+      "eyebrow": "Por que aqui?",
+      "title": "Estudar sozinho é difícil",
+      "lead": "Turmas lotadas, professores indisponíveis, tarefas deixadas sem feedback. Aqui é diferente.",
+      "beforeTitle": "Sem suporte",
+      "afterTitle": "Com {brand}",
+      "problems": {
+        "crowded": "As aulas estão lotadas e ninguém responde à sua pergunta",
+        "hours": "O professor está disponível apenas durante o horário de expediente",
+        "feedback": "Você resolve tarefas, mas não recebe feedback"
+      },
+      "solutions": {
+        "assistant": "Assistente inteligente 24 horas por dia, 7 dias por semana, personalizado para cada curso",
+        "socratic": "Respostas socráticas passo a passo, a qualquer hora do dia ou da noite",
+        "feedback": "Feedback instantâneo sobre cada tarefa + acompanhamento do mentor"
+      }
+    },
+    "platformArch": {
+      "eyebrow": "Arquitetura de plataforma",
+      "title": "O que exatamente é essa plataforma?",
+      "concepts": {
+        "ilp": {
+          "title": "Plataforma de aprendizagem inteligente",
+          "body": "O nome mais preciso e comum para a nova geração de sistemas educacionais. Nesta arquitetura, a fronteira entre \"Sistema de Gestão de Treinamento\" (TMS) e \"Sistema de Gestão de Conteúdo\" (LMS) é removida, e a IA não é apenas um complemento, mas o núcleo: ela analisa todos os dados, atuando como um tutor pessoal para cada aluno e um planejador para cada gestor."
+        },
+        "tip": {
+          "title": "Plataforma de Inteligência de Talentos",
+          "body": "Quando o sistema reúne e analisa dados de todos os domínios da organização – desempenho, projetos, competências, histórico e formação – faz a transição da “formação” para o “desenvolvimento de talentos”: os agentes prevêem as competências que a organização necessitará no futuro e constroem automaticamente programas de formação e planos de carreira."
+        },
+        "mas": {
+          "title": "Ecossistema de aprendizagem baseado em IA",
+          "body": "Do ponto de vista da arquitetura de software, vários agentes inteligentes trabalham simultaneamente em dados diferentes (Sistema Multiagente). O seu resultado é um ecossistema integrado e não apenas algumas ferramentas separadas colocadas lado a lado."
+        }
+      },
+      "tableCaption": "Arquitetura do sistema em quatro camadas — da infraestrutura operacional à interação direta do usuário",
+      "tableHead": {
+        "layer": "Camada de plataforma",
+        "tool": "Ferramenta Responsável",
+        "duty": "Dever Principal"
+      },
+      "layers": {
+        "infra": {
+          "name": "Camada de infraestrutura e operações",
+          "toolFa": "Operações e Conteúdo",
+          "duty": "Manutenção de conteúdo educacional, manutenção de registros, agendamento de aulas presenciais, alocação de orçamento e emissão de certificados."
+        },
+        "analytics": {
+          "name": "Camada de análise e inferência",
+          "toolFa": "Análise de dados",
+          "duty": "Processamento de Big Data, descoberta de padrões ocultos, identificação de lacunas de habilidades organizacionais e medição do retorno sobre o investimento (ROI)."
+        },
+        "agents": {
+          "name": "Camada de ação e automação",
+          "toolFa": "Agentes",
+          "duty": "Execução autônoma de processos; por exemplo, um agente que detecta os pontos fracos das habilidades de uma equipe e agenda automaticamente o curso apropriado."
+        },
+        "assistants": {
+          "name": "Camada de interação e suporte",
+          "toolFa": "Assistentes",
+          "duty": "Interação direta com o usuário; um assistente que ensina simultaneamente conceitos complexos e cuida de tarefas administrativas como registro."
+        }
+      },
+      "closing": {
+        "prefix": "Resumindo, {brand} é um",
+        "ilp": "Plataforma de Aprendizagem Inteligente (ILP)",
+        "middle": "construído sobre",
+        "mas": "Arquitetura de IA multiagente",
+        "suffix": "e é considerado de ponta no campo da educação empresarial hoje."
+      },
+      "governance": "Em todas essas camadas, as decisões críticas – notas finais, promoções de nível e demissões – nunca são finalizadas automaticamente; cada resultado de IA é fornecido com sua fonte, nível de confiança e um indicador de “revisão humana necessária”."
+    },
+    "journey": {
+      "ariaLabel": "Jornada de estudo",
+      "eyebrow": "Como funciona",
+      "title": "Do registo à licenciatura, em cinco passos",
+      "steps": {
+        "register": {
+          "title": "Cadastro",
+          "desc": "Alguns minutos, sem necessidade de cartão de crédito"
+        },
+        "program": {
+          "title": "Seleção do Programa",
+          "desc": "Dos programas ministeriais oficiais"
+        },
+        "live": {
+          "title": "Aula ao vivo",
+          "desc": "Com legendas e gravação automática"
+        },
+        "assistant": {
+          "title": "Assistente inteligente",
+          "desc": "Prática, depuração, orientação"
+        },
+        "degree": {
+          "title": "Grau",
+          "desc": "Verificável on-line"
+        }
+      }
+    },
+    "programsExplorer": {
+      "ariaLabel": "Faculdades e programas",
+      "eyebrow": "Programas oficiais",
+      "title": "Faculdades {faculties}, programas oficiais {programs}",
+      "lead": "De graus associados a doutorados, construídos a partir de dados oficiais do Ministério da Ciência; além de programas de ciências médicas baseados no Ministério da Saúde.",
+      "filterAriaLabel": "Filtrar por nível",
+      "all": "Todos",
+      "levels": {
+        "certificate": "Certificado/Associado",
+        "associate": "Associado",
+        "bachelor": "Bacharelado",
+        "master": "Mestrado",
+        "professional_doctorate": "Doutorado Profissional",
+        "phd": "Doutorado"
+      },
+      "loading": "Carregando programas…",
+      "empty": "A lista completa de programas está disponível na página das faculdades.",
+      "cta": "Todas as faculdades e programas"
+    },
+    "liveClass": {
+      "ariaLabel": "Aula ao vivo",
+      "device": {
+        "session": "Sessão {n} · Estruturas de dados",
+        "slideTab": "Complexidade de tempo - classificação por mesclagem",
+        "teacherInitial": "Um",
+        "teacherName": "Dr. Amini · Instrutor",
+        "captionTag": "Legendas ao vivo",
+        "captionText": "Agora vamos calcular a complexidade desse algoritmo juntos…",
+        "attendees": {
+          "a1": {
+            "initial": "S",
+            "name": "Sara"
+          },
+          "a2": {
+            "initial": "M",
+            "name": "Mehdi"
+          },
+          "a3": {
+            "initial": "R",
+            "name": "Reza"
+          },
+          "a4": {
+            "initial": "N",
+            "name": "Niloofar"
+          },
+          "a5": {
+            "initial": "K",
+            "name": "Kaveh"
+          },
+          "a6": {
+            "initial": "H",
+            "name": "Hasti"
+          }
+        }
+      },
+      "eyebrow": "Aula ao vivo · Auto-hospedada",
+      "title": "Aulas ao vivo com legendas e tradução em tempo real",
+      "lead": "Aulas ao vivo baseadas em WebRTC em nossa própria infraestrutura — independentes de serviços externos, com legendas e tradução em tempo real, gravação e rastreamento automatizado de presença.",
+      "benefits": {
+        "captions": "Legendas e tradução multilíngue ao vivo",
+        "recording": "Gravação automática + arquivo pesquisável",
+        "attendance": "Rastreamento automático de presença por política"
+      },
+      "cta": "Saiba mais sobre aulas ao vivo"
+    },
+    "credentialVerify": {
+      "ariaLabel": "Verificação de credenciais",
+      "eyebrow": "Credencial verificável",
+      "title": "Um diploma cuja autenticidade qualquer pessoa pode verificar online",
+      "lead": "Cada certificado apresenta um link de verificação; os empregadores podem confirmar sua validade em segundos – sem entrar em contato com a universidade.",
+      "codeLabel": "Código do certificado",
+      "placeholder": "por exemplo, DGU-7F3A-2026",
+      "submit": "Verifique a amostra",
+      "result": {
+        "prefix": "Resultado de",
+        "demoWord": "demonstração",
+        "suffix": ": Certificado de \"Aprendizado de Máquina\" · emitido em 2026 · válido ✅ — a verificação real é realizada na página de certificados."
+      },
+      "cta": "Sobre credenciais digitais"
+    },
+    "marketplace": {
+      "ariaLabel": "Mercado de conhecimento",
+      "eyebrow": "Mercado de conhecimento",
+      "title": "Venda seu conhecimento",
+      "lead": "Publique seu curso no mercado de conhecimento; vendas com uma comissão justa de 20% a 30% — liquidações de carteira transparentes e rastreáveis.",
+      "becomeInstructor": "Torne-se um instrutor",
+      "viewMarket": "Ver mercado"
+    },
+    "featuresSection": {
+      "ariaLabel": "Recursos universitários",
+      "eyebrow": "Recursos universitários",
+      "title": "Tudo o que uma universidade precisa, em uma só plataforma",
+      "lead": "Não se trata apenas de aulas e lições – avaliação, adesão, exames, finanças, suporte e infraestrutura estão todos interligados. Clique em qualquer cartão para ver sua descrição completa.",
+      "cta": "Página de recursos da universidade"
+    },
+    "faqSection": {
+      "ariaLabel": "Perguntas frequentes",
+      "eyebrow": "Perguntas e respostas",
+      "title": "Perguntas frequentes",
+      "items": {
+        "freeStart": {
+          "q": "Posso realmente começar de graça sem cartão de crédito?",
+          "a": "Sim. O plano “Introdução” é gratuito e não requer cartão de crédito – você começa com acesso a aulas públicas e 30 mensagens mensais do assistente inteligente, e pode fazer upgrade quando quiser."
+        },
+        "verify": {
+          "q": "Como a credencial é verificada?",
+          "a": "Cada certificado possui um código e link de verificação exclusivos. Os empregadores podem usar esse link para verificar a autenticidade do diploma on-line, sem entrar em contato com a universidade."
+        },
+        "aiDiff": {
+          "q": "Qual a diferença entre o assistente de IA e os chatbots gerais?",
+          "a": "Nosso assistente não apenas dá a resposta; faz perguntas usando o método socrático e orienta você passo a passo até a solução. Ele é alimentado pelo programa oficial do curso e seu mentor acompanha seu progresso."
+        },
+        "enrollment": {
+          "q": "Como é a seleção do curso e o fluxo de trabalho de adição/descarte?",
+          "a": "Assim como uma universidade real: calendário acadêmico, seleção de cursos com verificação de pré-requisitos e conflitos, acréscimos/desistências durante o período permitido e histórico escolar oficial - tudo de acordo com os regulamentos do Ministério da Ciência."
+        },
+        "liveOrRecorded": {
+          "q": "As aulas são ao vivo ou gravadas?",
+          "a": "Ambos. As aulas ao vivo são ministradas com legenda e tradução simultâneas, e a gravação de cada sessão fica imediatamente disponível no arquivo do curso."
+        }
+      }
+    },
+    "plans": {
+      "ariaLabel": "Planos e preços",
+      "eyebrow": "Planos · Invista no seu aprendizado",
+      "titleLine1": "Seu assistente de IA =",
+      "titleHighlight": "um professor particular 24 horas por dia, 7 dias por semana",
+      "lead": "Compare o custo de um tutor real com os planos {brand} - e comece com o plano gratuito, sem necessidade de cartão de crédito.",
+      "toggleAriaLabel": "Ciclo de faturamento",
+      "monthly": "Mensalmente",
+      "annual": "Anualmente",
+      "annualBadge": "2 meses grátis",
+      "loading": "Carregando planos…",
+      "emptyText": "Confira a tabela completa de planos na página de preços.",
+      "emptyCta": "Ver planos e preços",
+      "popular": "Mais popular",
+      "contactPrice": "Contate-nos",
+      "free": "Grátis",
+      "perYear": "por ano",
+      "perMonth": "por mês",
+      "toman": "{amount} Tomans",
+      "quota": "Mensagens AI {amount} por mês",
+      "quotaUnlimited": "Limite de mensagens personalizadas",
+      "ctaContact": "Solicitar consulta",
+      "ctaFree": "Comece de graça",
+      "ctaSelect": "Escolha este plano",
+      "trust": {
+        "freeStart": "Comece com o plano gratuito – não é necessário cartão de crédito",
+        "trial": "Teste gratuito de 7 dias",
+        "refund": "Garantia de devolução do dinheiro em 7 dias",
+        "annual": "Faturamento anual = 2 meses grátis"
+      },
+      "channels": {
+        "in_platform": "Na plataforma",
+        "telegram": "Telegrama",
+        "whatsapp": "WhatsApp",
+        "bale": "Fardo",
+        "rubika": "Rubika",
+        "sms": "SMS"
+      }
+    },
+    "aiDemo": {
+      "ariaLabel": "Demonstração do assistente de IA",
+      "eyebrow": "Assistentes inteligentes · Demonstração ao vivo",
+      "titleLine1": "Seu assistente não apenas dá a resposta -",
+      "titleHighlight": "leva você à resposta",
+      "lead": "Veja uma conversa real com os assistentes. Ao contrário dos chatbots genéricos, este assistente utiliza o método socrático: pergunta, orienta e conduz você passo a passo até a resposta.",
+      "chipsAriaLabel": "Selecione assistente",
+      "panelAriaLabel": "Exemplo de conversa com {agent}",
+      "studentAvatar": "Eu",
+      "note": "Esta é uma conversa de demonstração local – a versão real está disponível após a inscrição.",
+      "cta": "Comece uma conversa real",
+      "agents": {
+        "exercise": {
+          "label": "Solucionador de prática socrática",
+          "lines": {
+            "l1": "Qual é a resposta para esta integral? ∫x/(x²+1)dx",
+            "l2": "Antes da resposta, diga-me qual método lhe vem à mente — integração por partes ou substituição?",
+            "l3": "Substituição?",
+            "l4": "Ótimo. Se você deixar você igualar o denominador, o que você se torna? Agora reescreva o numerador em termos de você mesmo...",
+            "l5": "du = 2x dx ... então o numerador é metade de du!",
+            "l6": "Exatamente ✅ Agora escreva você mesmo a integral simplificada; se você ficar preso em algum lugar, daremos o próximo passo juntos."
+          }
+        },
+        "general": {
+          "label": "Assistente de aprendizagem",
+          "lines": {
+            "l1": "Eu não entendo derivativos. Por onde eu começo?",
+            "l2": "Comecemos com um exemplo concreto: o que mostra o velocímetro de um carro em um determinado momento?",
+            "l3": "A velocidade naquele exato momento.",
+            "l4": "É isso! Uma derivada significa “a taxa de variação em um instante”. Agora vou criar um pequeno exercício para você ver exatamente essa intuição em um gráfico."
+          }
+        },
+        "field_specialist": {
+          "label": "Especialista de campo",
+          "lines": {
+            "l1": "Para o curso Estruturas de Dados, o que vem no exame do plano de estudos do ministério?",
+            "l2": "O plano de estudos aprovado para esta unidade curricular tem 5 focos. Com base na sua transcrição, você é mais fraco em “árvores balanceadas” – devemos começar por aí?",
+            "l3": "Ok.",
+            "l4": "Bom; primeiro me diga qual é a diferença entre uma árvore AVL e uma árvore de pesquisa binária simples? Dica: pense na altura..."
+          }
+        },
+        "career": {
+          "label": "Conselheiro de Carreira",
+          "lines": {
+            "l1": "Meu currículo é bom para uma posição de estágio em dados?",
+            "l2": "Vi o seu projeto de curso de estatística – por que não está no seu currículo? Diga-me seu resultado quantitativo para que possamos escrever juntos um marcador impactante.",
+            "l3": "Melhorei a precisão do modelo em 12%.",
+            "l4": "Incrível! \"Melhor precisão do modelo de previsão em 12% em um projeto de curso com 2 mil registros\" - coloque isso no topo da seção de projetos."
+          }
+        },
+        "research": {
+          "label": "Assistente de Pesquisa",
+          "lines": {
+            "l1": "Estou procurando artigos sobre aprendizagem federada para minha tese.",
+            "l2": "Antes de pesquisar: qual é exatamente a sua questão de pesquisa? “Privacidade” ou “Eficiência na comunicação”? Esta escolha altera as palavras-chave.",
+            "l3": "Privacidade.",
+            "l4": "Então comece com privacidade diferencial + aprendizagem federada; Também apresentarei a estrutura de capítulos sugerida para revisão de literatura para você."
+          }
+        },
+        "mentor": {
+          "label": "Mentor Acompanhante",
+          "lines": {
+            "l1": "Não estudei nada esta semana. Fiquei para trás.",
+            "l2": "Tudo bem – o importante é voltar. Seu exame é em 12 dias; se você dedicar 40 minutos por dia, nós conseguiremos. Esta noite apenas revise a Sessão 3, farei o acompanhamento amanhã.",
+            "l3": "Concordo. Vou começar esta noite.",
+            "l4": "Está combinado ✅ Defini um lembrete. Pequenos passos diários são mais fortes do que as noites antes do exame."
+          }
+        }
+      }
+    },
+    "archStack": {
+      "experienceSub": "Web · Celular · Aula ao vivo · Painel"
+    }
+  },
+  "about": {
+    "head": {
+      "title": "Sobre nós - Missão, Princípios e a equipe da AI-First University",
+      "description": "Conheça a missão, os princípios orientadores, as estatísticas de atividades e a equipe fundadora desta universidade on-line orientada por IA - desde a organização-mãe até os canais de contato."
+    },
+    "hero": {
+      "eyebrow": "Sobre nós",
+      "titleLine1": "A universidade que sabe",
+      "titleLine2": "como você aprende",
+      "leadBefore": "Não estamos construindo uma universidade que usa ferramentas de IA — estamos construindo uma universidade que",
+      "leadEmphasis": "foi projetado desde o início com IA como infraestrutura de aprendizagem",
+      "leadAfter": ". A diferença está em tudo."
+    },
+    "ownership": {
+      "eyebrow": "CONSTRUTOR · PROPRIEDADE",
+      "rightsHolderBefore": "Esta plataforma é um produto de",
+      "rightsHolderAfter": ", e todos os seus direitos de propriedade material e intelectual pertencem à mesma empresa.",
+      "vistaLink": "Leia mais sobre o Vista ↩",
+      "orgSummary": "é um {legalStatus} com {experience}, cuja missão é \"{mission}\" e cujo slogan é \"{slogan}\". Esta organização detém {licenses}.",
+      "councils": "As atividades especializadas da organização são organizadas através de conselhos especializados: {councils}.",
+      "platformIntro": "{nameFull} é o primeiro resultado operacional desta missão: um {platformKind}, totalmente nativo, orientado por padrões (LTI 1.3, xAPI, QTI, Caliper) e pronto para implantação em qualquer universidade ou organização educacional.",
+      "listAnd": "e",
+      "listSeparator": ","
+    },
+    "contact": {
+      "addressLabel": "Endereço",
+      "phoneLabel": "Telefone",
+      "emailLabel": "E-mail",
+      "moreInfoBefore": "Canais de comunicação completos são fornecidos no",
+      "contactLinkLabel": "Página Fale Conosco",
+      "moreInfoAfter": "."
+    },
+    "stats": {
+      "activeStudents": {
+        "value": "8.400+",
+        "label": "Alunos ativos em 8 faculdades"
+      },
+      "facultyMembers": {
+        "value": "94",
+        "label": "Professores especialistas das melhores universidades"
+      },
+      "learningEvents": {
+        "value": "Mais de 2,4 milhões",
+        "label": "Eventos de aprendizagem gravados"
+      },
+      "uptime": {
+        "value": "99,9%",
+        "label": "Disponibilidade do serviço"
+      },
+      "credentials": {
+        "value": "238",
+        "label": "Credenciais verificáveis emitidas"
+      },
+      "languages": {
+        "value": "12",
+        "label": "Idiomas suportados"
+      }
+    },
+    "principles": {
+      "eyebrow": "Princípios",
+      "heading": "O que nos guia",
+      "items": {
+        "aiNative": {
+          "title": "AI-Native, não AI-Added",
+          "desc": "A inteligência artificial é a base do aprendizado, não um plugin periférico."
+        },
+        "masteryOverCoverage": {
+          "title": "Domínio sobre a cobertura",
+          "desc": "Verdadeiro domínio dos objetivos, não mero atendimento."
+        },
+        "standardsFirst": {
+          "title": "Padrões em primeiro lugar",
+          "desc": "LTI, xAPI, QTI, Open Badges — baseados em padrões, não bloqueados pelo fornecedor."
+        },
+        "humanJudgment": {
+          "title": "Julgamento humano em ciclos críticos",
+          "desc": "Toda decisão crítica envolve revisão humana final."
+        },
+        "privacyByDesign": {
+          "title": "Privacidade desde o projeto",
+          "desc": "A privacidade é o padrão, não uma opção."
+        },
+        "persianFirst": {
+          "title": "Persa em primeiro lugar, pronto para o mundo",
+          "desc": "Primeiro o persa, inglês padrão, aberto a outros idiomas."
+        }
+      }
+    },
+    "team": {
+      "eyebrow": "Equipe",
+      "heading": "Uma equipe de pesquisadores, designers instrucionais e engenheiros",
+      "description": "28 membros em tempo integral, 12 orientadores acadêmicos, 94 professores da rede. Diversos em conhecimentos, unidos em missão.",
+      "viewAllCta": "Ver todos os membros da equipe"
+    }
+  },
+  "faq": {
+    "head": {
+      "title": "FAQ — Respostas a perguntas comuns sobre a plataforma",
+      "description": "Encontre aqui respostas para perguntas frequentes sobre integração, aulas ao vivo, avaliação de competências, credenciais, associação, pagamentos, exames, privacidade e colaboração organizacional nesta plataforma educacional."
+    },
+    "hero": {
+      "eyebrow": "Perguntas frequentes",
+      "title": "Perguntas frequentes",
+      "lead": "As respostas abaixo abrangem recursos que estão atualmente ativos na plataforma. Se sua dúvida não for respondida aqui, pergunte-nos através da página de contato."
+    },
+    "items": {
+      "platformOverview": {
+        "q": "O que exatamente é essa plataforma?",
+        "a": "É uma plataforma educacional e de avaliação integrada: desde admissões, inscrições, aulas ao vivo e exames até avaliação de competências, associação, mercado de conhecimento, consultoria e serviços financeiros estudantis — tudo em uma única conta de usuário e cadeia de dados."
+      },
+      "login": {
+        "q": "O que é necessário para fazer login?",
+        "a": "Um número de celular. Uma senha única é enviada via SMS e, após verificá-la, você faz login. Nenhuma senha permanente é necessária e as informações do cartão bancário nunca são solicitadas para login."
+      },
+      "liveClass": {
+        "q": "Como são realizadas as aulas ao vivo? Preciso instalar um aplicativo?",
+        "a": "Não. A aula acontece diretamente no navegador: vídeo, áudio, compartilhamento de tela, bate-papo e salas temáticas. Após o término da sessão, o relatório da sessão e a frequência são registrados no arquivo do curso."
+      },
+      "assessmentCenter": {
+        "q": "O que faz o centro de avaliação de competências?",
+        "a": "O candidato completa um conjunto de exercícios e avaliações padrão, vários avaliadores independentes os avaliam separadamente e chegam a um consenso em uma sessão de encerramento. O resultado é publicado como um relatório estruturado."
+      },
+      "aiFinalDecision": {
+        "q": "A inteligência artificial finaliza os resultados da minha avaliação ou nota?",
+        "a": "Os resultados da IA são sempre fornecidos com a sua fonte e nível de confiança e desempenham um papel auxiliar. A nota final, o resultado da avaliação e as decisões disciplinares são sempre finalizados por um responsável."
+      },
+      "credentialVerification": {
+        "q": "Como a credencial que recebi pode ser verificada?",
+        "a": "Cada credencial possui um código exclusivo. Basta inserir esse código na página de verificação pública da plataforma para exibir seu nome, título e status de validade. A verificação não requer login em uma conta."
+      },
+      "membershipVsEnrollment": {
+        "q": "Como a associação difere da matrícula do aluno?",
+        "a": "A matrícula do aluno está vinculada a um programa e período acadêmico; a adesão é um estatuto profissional independente que inclui cartão de sócio, inclusão no diretório de associados e acesso a serviços especializados."
+      },
+      "payments": {
+        "q": "Como os pagamentos são processados?",
+        "a": "Todos os valores estão em reais. Você pode pagar diretamente pelo gateway bancário ou recarregar a carteira da plataforma e utilizar seu saldo. O histórico de cada transação pode ser visto na carteira."
+      },
+      "examProctoring": {
+        "q": "Como os exames são administrados e supervisionados?",
+        "a": "As perguntas são fornecidas a cada candidato a partir de um banco de perguntas de maneira aleatória. Os sinais de violações são sinalizados para revisão, mas as decisões relativas às violações são tomadas por inspetores humanos, e não pelo sistema."
+      },
+      "counselingPrivacy": {
+        "q": "Com quem são partilhados os meus dados de aconselhamento e saúde mental?",
+        "a": "Com ninguém, exceto o conselheiro ou avaliador responsável por aquele caso específico. Estes dados são considerados sensíveis e o acesso a estas secções requer o seu consentimento explícito; os detalhes são fornecidos na página de privacidade."
+      },
+      "organizations": {
+        "q": "Organizações e empregadores também podem utilizar a plataforma?",
+        "a": "Sim. As organizações podem ter seu próprio espaço dedicado, inscrever seus funcionários em cursos ou avaliações e visualizar seus resultados. Para começar, envie uma solicitação por meio da página de contato."
+      },
+      "support": {
+        "q": "Se surgir um problema, onde posso fazer o acompanhamento?",
+        "a": "Se você estiver logado em sua conta, o “Service Desk” é o caminho mais rápido: ele registra as solicitações e fornece um número de rastreamento. Caso ainda não tenha uma conta, entre em contato com a organização através da página de contato."
+      }
+    },
+    "alsoSee": {
+      "features": "Recursos universitários",
+      "contact": "Contate-nos",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos e Condições"
+    }
+  },
+  "programs": {
+    "head": {
+      "title": "Programas Acadêmicos - Graduação e Cursos Universitários",
+      "description": "Veja a lista completa de especializações e cursos universitários por nível de graduação (bacharelado, mestrado, doutorado, profissional); cada programa apresenta duração, créditos, idioma e opções de aulas ao vivo ou gravadas."
+    },
+    "levels": {
+      "ms": "Mestrado",
+      "phd": "Ph.D.",
+      "bs": "Bacharelado",
+      "md": "Médico",
+      "cert": "Profissional",
+      "as": "Associado"
+    },
+    "card": {
+      "credits": "{count, plural, one {# crédito} other {# créditos}}"
+    },
+    "hero": {
+      "eyebrow": "PROGRAMAS ACADÊMICOS · 2026",
+      "titleLine1": "Seis caminhos,",
+      "titleLine2": "uma universidade",
+      "lead": "Desde mestrados oficiais até bootcamps intensivos. Tudo com aulas ao vivo, perfis cognitivos e credenciais digitais verificáveis."
+    },
+    "filters": {
+      "all": "Todos"
+    },
+    "help": {
+      "title": "Guia de Programas Acadêmicos",
+      "body": "Nesta página você pode ver todos os cursos e especializações universitárias. Use os botões acima para filtrar por nível de graduação (bacharelado, mestrado, doutorado, etc.) e clique em qualquer cartão para visualizar os cursos e detalhes desse programa."
+    },
+    "list": {
+      "heading": "Programas disponíveis"
+    },
+    "modes": {
+      "eyebrow": "Modos de entrega",
+      "heading": "Quatro modos de aprendizagem em uma plataforma",
+      "items": {
+        "liveSynchronous": {
+          "title": "Síncrono ao vivo",
+          "desc": "Aulas ao vivo bidirecionais, salas de descanso, questionários ao vivo",
+          "latency": "Latência <200ms"
+        },
+        "recorded": {
+          "title": "Gravado · individualizado",
+          "desc": "Vídeos gravados com capítulos inteligentes e pesquisa semântica",
+          "latency": "a qualquer hora"
+        },
+        "blended": {
+          "title": "Coorte mista",
+          "desc": "Combinação de aprendizagem ao vivo e individualizada com um grupo compartilhado e revisão por pares",
+          "latency": "semanalmente"
+        },
+        "project": {
+          "title": "Projeto · domínio",
+          "desc": "Sem exames finais. Projeto final e rubrica transparente",
+          "latency": "orientado para resultados"
+        }
+      }
+    }
+  },
+  "pricing": {
+    "head": {
+      "title": "Planos e preços – níveis de assinatura universitária transparentes",
+      "description": "Revise os planos de assinatura universitária com preços transparentes, recursos de assistente inteligente, aulas ao vivo, certificados digitais e uma comparação completa de recursos para escolher o plano certo para você."
+    },
+    "compare": {
+      "tierLabel": {
+        "basic": "Básico",
+        "smart": "Inteligente",
+        "advanced": "Avançado",
+        "custom": "Personalizado"
+      },
+      "channelsOnlyPlatform": "Apenas plataforma",
+      "channelsAllPlusSms": "Tudo + SMS",
+      "channelsCount": "{count, plural, one {# mensageiro} other {# mensageiros}}",
+      "quotaCustom": "Personalizado",
+      "quotaCount": "{count, plural, one {# mensagem} other {# mensagens}}",
+      "rows": {
+        "quota": "Mensagens mensais de IA",
+        "tier": "Qualidade do modelo de IA",
+        "specialist": "Agentes especializados",
+        "mentor": "Mentor de IA",
+        "translate": "Tradução ao vivo",
+        "cert": "Certificado de conclusão",
+        "channels": "Mensageiros"
+      },
+      "heading": "Comparar planos",
+      "featuresHeader": "Recursos"
+    },
+    "periodLabel": {
+      "month": "Mensalmente",
+      "term": "Por período",
+      "year": "Anualmente",
+      "once": "Único"
+    },
+    "triggers": {
+      "trial": "Teste gratuito de 7 dias (sem necessidade de cartão)",
+      "refund": "Garantia de devolução do dinheiro em 7 dias",
+      "annual": "Pague anualmente = 2 meses grátis",
+      "discount": "Desconto para estudantes e grupos"
+    },
+    "cta": {
+      "contactSales": "Entre em contato com vendas",
+      "staffBlocked": "Apenas para estudantes",
+      "currentPlan": "Seu plano atual",
+      "upgrade": "Atualize para este plano",
+      "downgrade": "Downgrade para este plano",
+      "switch": "Mudar para este plano",
+      "choosePlan": "Escolha o plano"
+    },
+    "errors": {
+      "loadFailed": "Falha ao carregar planos"
+    },
+    "hero": {
+      "eyebrow": "PREÇOS · Transparente e justo",
+      "titleLine1": "Escolha o plano certo",
+      "titleLine2": "para você",
+      "lead": "Os preços incluem assistente inteligente, aula ao vivo, arquivo de gravação e certificado digital."
+    },
+    "help": {
+      "title": "Guia do plano",
+      "body": "Cada plano possui recursos e preços específicos. O plano “Mais Popular” é adequado para a maioria dos estudantes. Para planos empresariais, o preço é personalizado de acordo com suas necessidades – clique em “Contato”."
+    },
+    "currentPlanBanner": {
+      "label": "Seu plano atual:",
+      "note": "— Para fazer upgrade, downgrade, renovar ou cancelar, escolha o plano desejado."
+    },
+    "states": {
+      "loading": "Carregando planos…",
+      "empty": "Ainda não há planos definidos."
+    },
+    "card": {
+      "popularBadge": "Mais populares",
+      "priceContact": "Contate-nos",
+      "priceFree": "Grátis",
+      "currency": "Rials",
+      "annualPrefix": "ou anualmente",
+      "annualFreeMonths": "2 meses grátis",
+      "staffBlockedTooltip": "Este plano é apenas para estudantes; um caminho separado está disponível para sua função"
+    }
+  },
+  "catalog": {
+    "competency-assessment-center": {
+      "title": "Centro de avaliação de competências",
+      "tagline": "Avaliação de competências com prática real, avaliador humano e relatório documentado"
+    },
+    "candidate-assessment-journey": {
+      "title": "Jornada de Avaliação do Candidato",
+      "tagline": "O candidato vê seu próprio caminho: próximo treino, prazo e relatório de resultados"
+    },
+    "assessor-console": {
+      "title": "Console do Avaliador",
+      "tagline": "Fila de pontuação do avaliador com indicadores, evidências e notas comportamentais"
+    },
+    "washup-consensus-session": {
+      "title": "Sessão de consenso de lavagem",
+      "tagline": "Os avaliadores resolvem as discrepâncias de pontuação pessoalmente e a pontuação final é registrada"
+    },
+    "assessment-report-publish": {
+      "title": "Publicação de Relatório e Resultados",
+      "tagline": "Relatório de competências com gráficos de indicadores e recomendações de desenvolvimento, pronto para entrega"
+    },
+    "shared-competency-core": {
+      "title": "Núcleo de Competência Compartilhada",
+      "tagline": "Um vocabulário de competência único usado por educação, avaliação e RH"
+    },
+    "assessment-tool-registry": {
+      "title": "Registro de ferramenta de avaliação",
+      "tagline": "Lista de ferramentas de avaliação com metodologia, validade e diretrizes de interpretação"
+    },
+    "psychometric-test-bank": {
+      "title": "Nove ferramentas psicométricas padrão",
+      "tagline": "Testes psicométricos padrão com pontuação automatizada e interpretação confidencial"
+    },
+    "individual-development-plan": {
+      "title": "Plano de Desenvolvimento Individual",
+      "tagline": "Traduzindo lacunas de competência em um plano de ação com prazo determinado - personalizado por organização"
+    },
+    "employer-portal": {
+      "title": "Portal do Empregador",
+      "tagline": "Os empregadores visualizam os resultados da avaliação dos candidatos com consentimento individual – personalizado por organização"
+    },
+    "membership-registry": {
+      "title": "Sócio e Cartão de Sócio",
+      "tagline": "Associação escalonada com cartão digital e benefícios específicos"
+    },
+    "member-directory": {
+      "title": "Diretório de membros",
+      "tagline": "Pesquise membros por área de especialização e nível de associação"
+    },
+    "expertise-card": {
+      "title": "Cartão de experiência",
+      "tagline": "Cartão de perícia impresso e digital com código de verificação exclusivo"
+    },
+    "credential-registry-verify": {
+      "title": "Credencial Digital e Verificação",
+      "tagline": "Emissão de certificado digital e verificação pública com código único"
+    },
+    "live-class": {
+      "title": "Aula interativa ao vivo",
+      "tagline": "Aula ao vivo com quadro branco compartilhado, salas de descanso e gravação automática"
+    },
+    "session-report-attendance": {
+      "title": "Relatório de Sessão e Presença",
+      "tagline": "Atendimento automático, duração da estadia e resumo dos eventos da sessão"
+    },
+    "exam-assessment-engine": {
+      "title": "Sistema de Exame e Avaliação",
+      "tagline": "Exame cronometrado com layout aleatório, salvamento automático e classificação"
+    },
+    "question-bank": {
+      "title": "Banco de perguntas e sorteio",
+      "tagline": "Banco de questões etiquetadas que gera um exame exclusivo para cada aluno"
+    },
+    "proctoring-review": {
+      "title": "Revisão de supervisão humana",
+      "tagline": "Sinalizadores de exames suspeitos vão para um revisor humano, não para um julgamento automatizado"
+    },
+    "academic-sis": {
+      "title": "Cadeia Acadêmica e Sistema de Informação Estudantil",
+      "tagline": "Desde a seleção do curso e adição/descarte até históricos escolares e caminhos de graduação"
+    },
+    "regulation-policy-engine": {
+      "title": "Motor de Regulação do Ministério",
+      "tagline": "Estatutos educacionais como regras aplicáveis, não texto em papel"
+    },
+    "gradebook-grade-flow": {
+      "title": "Boletim e fluxo de trabalho oficial de notas",
+      "tagline": "Entrada de notas, apelações, revisão e bloqueio final com registros de alterações completos"
+    },
+    "admissions-apply": {
+      "title": "Admissões e Inscrições",
+      "tagline": "Inscrições de admissão on-line com upload de documentos e acompanhamento passo a passo"
+    },
+    "wallet-payments": {
+      "title": "Pagamentos em carteira e rial",
+      "tagline": "Uma carteira interna para mensalidades, mercado e reembolsos"
+    },
+    "tuition-finance": {
+      "title": "Mensalidades e financiamento estudantil",
+      "tagline": "Cálculo de mensalidades, parcelamento, descontos e regularização estudantil"
+    },
+    "subscription-plans": {
+      "title": "Planos de assinatura",
+      "tagline": "Planos de assinatura individuais e organizacionais com limites e benefícios claros"
+    },
+    "knowledge-marketplace": {
+      "title": "Mercado de Conhecimento",
+      "tagline": "Cursos ponto a ponto; qualquer um pode compartilhar seu conhecimento"
+    },
+    "course-studio": {
+      "title": "Estúdio de Produção de Cursos",
+      "tagline": "Criação de currículo, upload de aulas, preços e publicação de cursos"
+    },
+    "media-pipeline-captions": {
+      "title": "Pipeline de mídia e legendas",
+      "tagline": "Os vídeos são processados após upload e recebimento de legendas"
+    },
+    "author-payouts": {
+      "title": "Finanças e pagamentos do autor",
+      "tagline": "O autor compartilha de todas as vendas, extratos e solicitações de retirada"
+    },
+    "wellness-counseling": {
+      "title": "Saúde Mental e Aconselhamento",
+      "tagline": "Consultas confidenciais de aconselhamento, rastreamento de casos e rotas de emergência"
+    },
+    "ai-assistant-agents": {
+      "title": "Assistente de IA integrado",
+      "tagline": "Assistentes especializados que fornecem respostas com fontes e níveis de confiança"
+    },
+    "academic-messenger-network": {
+      "title": "Mensageiro Acadêmico e Rede",
+      "tagline": "Bate-papos privados, grupos de cursos e canais de anúncios oficiais em um só lugar"
+    },
+    "service-desk": {
+      "title": "Central de atendimento",
+      "tagline": "Solicitações de serviços administrativos com fluxos de trabalho transparentes e rastreamento em tempo real"
+    },
+    "exec-dashboard": {
+      "title": "Painel de Supervisão Executiva",
+      "tagline": "Visão geral da gestão de educação, finanças, avaliação e saúde do sistema"
+    },
+    "multi-tenancy": {
+      "title": "Arquitetura multilocatária",
+      "tagline": "Isolamento de dados do lado do servidor por organização; console de configuração com dados de amostra"
+    },
+    "auth-security-hardening": {
+      "title": "Autenticação e Segurança",
+      "tagline": "Login seguro com funções precisas e autenticação de dois fatores"
+    },
+    "sms-otp-verification": {
+      "title": "Senha de uso único por SMS e verificação móvel",
+      "tagline": "Verificação de número de celular com códigos SMS de curta duração"
+    },
+    "hr-hiring-payroll": {
+      "title": "RH e folha de pagamento",
+      "tagline": "De anúncios de emprego e entrevistas a contratos, decretos de folha de pagamento e contracheques"
+    },
+    "course-hub-ia": {
+      "title": "Central do curso",
+      "tagline": "Tudo sobre um curso em uma página: conteúdo, tarefas, sessões, notas"
+    },
+    "panel-analytics": {
+      "title": "Análise do Painel",
+      "tagline": "Tendências de aprendizagem, engajamento e desempenho com a capacidade de detalhar qualquer métrica"
+    },
+    "parent-portal": {
+      "title": "Portal dos Pais",
+      "tagline": "Os pais conectados podem visualizar notas, frequência, programação e status das mensalidades"
+    },
+    "org-portal": {
+      "title": "Portal Organizacional",
+      "tagline": "As organizações podem gerenciar registros de grupos, licenças e relatórios de equipe"
+    },
+    "self-hosted-monitoring": {
+      "title": "Monitoramento auto-hospedado",
+      "tagline": "Saúde do serviço e consumo de recursos na própria infraestrutura da universidade"
+    },
+    "audit-log": {
+      "title": "Registro de auditoria",
+      "tagline": "Cada alteração sensível é registrada com o ator, carimbo de data/hora e valores novos e anteriores"
+    },
+    "academic-calendar": {
+      "title": "Calendário Acadêmico e Janelas",
+      "tagline": "Intervalos para inscrição em cursos, adição/desistência, exames e eventos"
+    },
+    "brand-trust-seals": {
+      "title": "Selos de marca e confiança",
+      "tagline": "Identidade da marca e selos oficiais de uma única fonte em toda a plataforma"
+    },
+    "jalali-calendar-ui": {
+      "title": "Calendário Jalali Universal",
+      "tagline": "Todas as datas em Jalali, com dígitos persas adequados e layout da direita para a esquerda"
+    }
+  },
+  "events": {
+    "eyebrow": "Eventos e Webinários",
+    "title": "Eventos e Webinários",
+    "lead": "Palestras com convidados, workshops práticos, conferências de pesquisa, open house de admissões.",
+    "demoNote": "A lista de eventos atualmente é composta de dados de amostra — o registro real ainda não está conectado",
+    "filters": {
+      "all": "Todos",
+      "webinar": "Seminário on-line",
+      "workshop": "Oficina",
+      "conference": "Conferência",
+      "guestLecture": "Palestra Convidada",
+      "openDay": "Casa Aberta",
+      "thisWeek": "Esta semana",
+      "thisMonth": "Este mês"
+    },
+    "featured": {
+      "badge": "Evento em destaque",
+      "free": "Grátis",
+      "online": "On-line",
+      "title": "O Futuro dos LLMs na Educação - Conferência Anual 2026",
+      "lead": "40 palestrantes de universidades de todo o Irã e do mundo. 8 workshops práticos. Networking com 1.200 pesquisadores ativos.",
+      "dateLabel": "Data",
+      "dateValue": "9 a 11 de setembro de 2026",
+      "countdownLabel": "Tempo restante",
+      "countdownValue": "{valor, plural, um dia {{value, number}} outros dias {{value, number}}}",
+      "registeredLabel": "Registrado",
+      "registeredValue": "{valor, plural, um participante {{value, number}} outros participantes {{value, number}}}",
+      "registerCta": "Cadastre-se gratuitamente",
+      "registerToastTitle": "Registrado",
+      "registerToastMsg": "Você se inscreveu com sucesso na conferência LLMs in Education.",
+      "addToCalendarCta": "Adicionar ao calendário",
+      "addToCalendarToast": "Evento adicionado ao calendário"
+    },
+    "card": {
+      "free": "Grátis",
+      "paid": "Pago",
+      "attendees": "{valor, plural, um participante {{value, number}} outros participantes {{value, number}}}",
+      "registerCta": "Cadastre-se",
+      "registerAria": "Registre-se para {title}",
+      "registerToastTitle": "Registrado",
+      "registerToastMsg": "Registrado com sucesso para \"{title}\"."
+    }
+  },
+  "shared": {
+    "translationBadge": {
+      "machine": "Tradução automática",
+      "pending": "Preparando",
+      "stale": "Precisa de atualização"
+    }
+  }
+}

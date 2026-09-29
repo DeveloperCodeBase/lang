@@ -69,19 +69,19 @@
     },
     "pt": {
       "name": "پرتغالی (Português)",
-      "existing_preserved": 101,
-      "missing": 12584,
-      "completed_catalogs": 2,
+      "existing_preserved": 12685,
+      "missing": 0,
+      "completed_catalogs": 32,
       "total_catalogs": 32,
-      "coverage_pct": 0.8
+      "coverage_pct": 100.0
     },
     "hi": {
       "name": "هندی (हिन्दी)",
-      "existing_preserved": 101,
-      "missing": 12584,
-      "completed_catalogs": 2,
+      "existing_preserved": 11190,
+      "missing": 1495,
+      "completed_catalogs": 31,
       "total_catalogs": 32,
-      "coverage_pct": 0.8
+      "coverage_pct": 88.2
     },
     "ur": {
       "name": "اردو (اردو)",
@@ -348,7 +348,7 @@
       "coverage_pct": 0.8
     },
     "he": {
-      "name": "عبری (עבריت)",
+      "name": "عبری (עברית)",
       "existing_preserved": 101,
       "missing": 12584,
       "completed_catalogs": 2,

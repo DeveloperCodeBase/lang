@@ -1,0 +1,118 @@
+{
+  "common": {
+    "back": "Voltar",
+    "cancel": "Cancelar",
+    "close": "Fechar"
+  },
+  "composer": {
+    "aria": "Escreva uma resposta",
+    "placeholder": "Escreva sua resposta…",
+    "send": "Enviar resposta",
+    "sending": "Enviando…"
+  },
+  "del": {
+    "confirm": "Excluir",
+    "confirmReply": "Tem certeza de que deseja excluir esta resposta?",
+    "confirmThreadPrefix": "Tem certeza de que deseja excluir a discussão",
+    "confirmThreadSuffix": "Suas respostas também serão excluídas.",
+    "deleting": "Excluindo…",
+    "dialogAria": "Excluir",
+    "replyTitle": "Excluir resposta",
+    "threadTitle": "Excluir discussão"
+  },
+  "errors": {
+    "createReply": "Falha ao enviar resposta",
+    "createThread": "Falha ao publicar a discussão",
+    "delete": "Falha ao excluir",
+    "generic": "Ocorreu um erro",
+    "loadReplies": "Falha ao carregar as respostas",
+    "loadThreads": "Falha ao carregar discussões",
+    "pin": "Falha ao alterar o status do PIN",
+    "report": "Falha ao enviar relatório",
+    "vote": "Falha ao enviar voto"
+  },
+  "header": {
+    "eyebrow": "Comunidade Acadêmica · §6",
+    "newThreadButton": "Nova discussão",
+    "subtitle": "Acompanhe e participe de dúvidas, experiências e discussões acadêmicas entre alunos e professores.",
+    "title": "Fórum de discussão"
+  },
+  "help": {
+    "body": "Nesta página, você pode ler, curtir e responder às discussões. Use a caixa de pesquisa e as tags para encontrar discussões e clique no botão \"Nova discussão\" para iniciar um novo tópico. Clique em qualquer título de discussão para ver suas respostas.",
+    "title": "Ajuda do Fórum de Discussão"
+  },
+  "list": {
+    "clearFilters": "Limpar filtros",
+    "emptyFiltered": "Nenhuma discussão encontrada com esses filtros.",
+    "emptyNone": "Nenhuma discussão foi postada ainda – seja o primeiro a iniciar uma.",
+    "loading": "Carregando…",
+    "startThread": "Iniciar discussão"
+  },
+  "newThread": {
+    "bodyLabel": "Corpo",
+    "bodyPlaceholder": "Escreva sua pergunta ou experiência detalhadamente…",
+    "dialogAria": "Nova discussão",
+    "publish": "Publicar discussão",
+    "publishing": "Publicando…",
+    "tagLabel": "Etiqueta (opcional)",
+    "tagPlaceholder": "por exemplo, inscrição, projeto final...",
+    "title": "Iniciar uma nova discussão",
+    "titleLabel": "Título",
+    "titlePlaceholder": "Resuma o tema da discussão..."
+  },
+  "replies": {
+    "empty": "Nenhuma resposta ainda – seja o primeiro a responder.",
+    "loading": "Carregando respostas..."
+  },
+  "reply": {
+    "deleteAria": "Excluir resposta",
+    "like": "Gosto",
+    "reportAria": "Denunciar resposta",
+    "reportTitle": "Denunciar violação",
+    "unlike": "Ao contrário"
+  },
+  "report": {
+    "aria": "Motivo do relatório",
+    "dialogAria": "Denunciar violação",
+    "done": "Seu relatório foi enviado e enviado ao moderador. Obrigado.",
+    "intro": "Por favor, escreva o motivo da denúncia deste conteúdo; ele será encaminhado ao moderador da comunidade para revisão.",
+    "placeholder": "por exemplo, assédio, spam, conteúdo impróprio...",
+    "replyTitle": "Denunciar violação de resposta",
+    "sending": "Enviando...",
+    "submit": "Enviar relatório",
+    "threadTitle": "Denunciar violação de discussão"
+  },
+  "search": {
+    "aria": "Pesquisar discussões",
+    "clearAria": "Limpar pesquisa",
+    "placeholder": "Pesquisar títulos e conteúdo de discussões..."
+  },
+  "stats": {
+    "replies": "{count, plural, one {# responder} other {# respostas}}",
+    "threads": "{count, plural, one {# discussão} other {# discussões}}"
+  },
+  "tags": {
+    "all": "Todos",
+    "label": "Etiquetas:"
+  },
+  "thread": {
+    "deleteAria": "Excluir discussão",
+    "hideReplies": "Ocultar respostas",
+    "like": "Gosto",
+    "pin": "Fixar",
+    "pinShort": "Fixar",
+    "pinnedBadge": "Fixado",
+    "replyCount": "{count, plural, one {# responder} other {# respostas}}",
+    "reportAria": "Denunciar discussão",
+    "reportTitle": "Denunciar violação",
+    "showReplies": "Mostrar respostas ({count, number})",
+    "unlike": "Ao contrário",
+    "unpin": "Liberar"
+  },
+  "validation": {
+    "bodyMin": "O corpo da discussão deve ter pelo menos 10 caracteres.",
+    "replyMin": "O texto de resposta deve ter pelo menos 2 caracteres.",
+    "reportReasonMin": "O motivo do relatório deve ter pelo menos 4 caracteres.",
+    "titleMin": "O título deve ter pelo menos 6 caracteres."
+  }
+}

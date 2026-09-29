@@ -1,0 +1,363 @@
+{
+  "contact": {
+    "head": {
+      "title": "Contate-nos – Maneiras de se conectar com a organização",
+      "description": "O endereço oficial, número de telefone e e-mail da organização para consultas sobre adesão, avaliação de competências, cursos ou colaboração organizacional; usuários logados também podem fazer acompanhamento por meio do painel de serviço."
+    },
+    "hero": {
+      "eyebrow": "Contate-nos",
+      "title": "Maneiras de se conectar com a organização",
+      "lead": "Entre em contato conosco usando esses endereços para dúvidas sobre associação, avaliação, cursos ou colaboração organizacional. O acompanhamento das solicitações dos usuários logados é mais rápido através do “Painel de Serviços” dentro da conta do usuário."
+    },
+    "rows": {
+      "address": "Endereço",
+      "phone": "Telefone",
+      "email": "E-mail",
+      "org": "Organização Operacional",
+      "techOwner": "Executor Técnico e Titular dos Direitos da Plataforma"
+    },
+    "beforeContact": {
+      "title": "Antes de entrar em contato conosco, verifique isso",
+      "body": "As perguntas mais comuns – como fazer login, assistir a aulas ao vivo, verificar credenciais e efetuar pagamentos – são respondidas na página de perguntas frequentes. Uma descrição completa de cada recurso também está disponível na página de recursos."
+    },
+    "alsoSee": {
+      "faq": "Perguntas frequentes",
+      "features": "Recursos universitários",
+      "help": "Ajuda",
+      "about": "Sobre nós"
+    }
+  },
+  "terms": {
+    "head": {
+      "title": "Termos e Condições — Condições de Uso da Plataforma",
+      "description": "Leia os termos de uso, responsabilidade da conta do usuário, regras de pagamento e reembolso, propriedade do conteúdo, credenciais, o papel da inteligência artificial e a lei que rege a universidade online nesta página."
+    },
+    "hero": {
+      "eyebrow": "Termos e Condições",
+      "title": "Termos de uso para {brand}",
+      "lead": "A utilização desta plataforma implica a aceitação dos seguintes termos. Esses termos determinam o relacionamento entre o usuário e {orgName}."
+    },
+    "draftNotice": {
+      "label": "Minuta — Pendente de aprovação legal.",
+      "note": "Este texto é a versão 1 e foi elaborado pela equipe da plataforma; o texto final o substituirá após aprovação legal da organização."
+    },
+    "clauses": {
+      "scope": {
+        "title": "Escopo de Cobertura",
+        "body": "Estes termos se aplicam a todas as partes da plataforma: associação, avaliação de competências, aulas ao vivo, exames, mercado de conhecimento, consultoria, carteira e serviços empresariais. Seções com regras específicas — como o código de integridade acadêmica — são divulgadas em suas respectivas páginas e complementam este texto."
+      },
+      "account": {
+        "title": "Conta de usuário e autenticação",
+        "body": "O login é feito usando um número de celular e um código único SMS. O usuário é o único responsável por proteger o acesso ao seu número de celular e dispositivo, e qualquer atividade realizada através dessa conta é considerada pertencente a esse usuário.",
+        "list": [
+          "Sharing the account with another person is not permitted.",
+          "The identity information entered must be accurate and belong to the user themselves.",
+          "In case of suspicious misuse, access will be temporarily restricted until human review."
+        ]
+      },
+      "payment": {
+        "title": "Pagamento, mensalidades e reembolsos",
+        "body": "Todos os valores estão em Rials e são liquidados através do portal de pagamento oficial ou do saldo da carteira do usuário. O extrato de cada transação é registrado e visível na carteira do usuário.",
+        "list": [
+          "The refund conditions for each course or service are announced on its page prior to purchase.",
+          "Consumed services — a held session, a taken exam, a published report — are non-refundable.",
+          "Refund requests are submitted from the \"Service Dashboard\" and reviewed by a human expert."
+        ]
+      },
+      "content": {
+        "title": "Conteúdo e Propriedade Intelectual",
+        "body1": "O conteúdo educacional publicado na plataforma pertence ao seu criador e é licenciado exclusivamente para uso pessoal do usuário comprador. É proibida a gravação, duplicação, republicação ou revenda do conteúdo — incluindo a gravação de sessões ao vivo — sem permissão por escrito.",
+        "body2": "O conteúdo enviado pelos próprios usuários permanece sua propriedade; ao publicá-lo na plataforma, apenas é concedida à plataforma a licença necessária para exibi-lo, processá-lo e apresentá-lo ao público-alvo."
+      },
+      "conduct": {
+        "title": "Comportamento Aceitável",
+        "body": "Comportamento insultuoso, discriminatório, assédio, publicação de conteúdo ilegal, tentativas de comprometer ou interromper o serviço e trapaça em exames constituem uma violação destes termos. Regras detalhadas de integridade acadêmica são fornecidas em um código separado."
+      },
+      "credentials": {
+        "title": "Credenciais e verificação",
+        "body": "As credenciais emitidas possuem um código exclusivo e podem ser verificadas na página de verificação pública da plataforma. Falsificar, adulterar ou apresentar uma credencial em nome de outra pessoa é uma violação e resultará na revogação da credencial. A decisão de revogação é sempre tomada pela autoridade humana emissora."
+      },
+      "ai": {
+        "title": "Papel da Inteligência Artificial e da Tomada de Decisão Humana",
+        "pre": "Os assistentes de IA da plataforma desempenham um papel de apoio. Seus resultados são fornecidos com fontes e níveis de confiança, e",
+        "bold": "nenhuma decisão crítica",
+        "post": "— nota final, resultado da avaliação, expulsão ou liquidação financeira — é finalizado automaticamente. A decisão final sempre cabe ao ser humano responsável."
+      },
+      "availability": {
+        "title": "Disponibilidade do serviço",
+        "body": "A plataforma pode estar temporariamente indisponível para manutenção, atualizações ou solução de problemas. Os cronogramas para interrupções planejadas são comunicados aos usuários afetados antes da execução."
+      },
+      "changes": {
+        "title": "Mudanças nos Termos",
+        "body": "Estes termos podem ser atualizados. As alterações que afetam os direitos do usuário serão anunciadas antes da implementação e o uso continuado após o anúncio constitui aceitação da nova versão."
+      },
+      "governingLaw": {
+        "title": "Lei Aplicável e Resolução de Disputas",
+        "body": "Estes termos são regidos pelas leis da República Islâmica do Irão. As partes tentarão primeiramente resolver os litígios através de negociação e acompanhamento através do “Balcão de Atendimento”; caso contrário, as autoridades judiciais competentes do Irão terão jurisdição."
+      }
+    },
+    "alsoSee": {
+      "privacy": "Política de Privacidade",
+      "honorCode": "Código de Honra Acadêmica",
+      "faq": "Perguntas frequentes",
+      "contact": "Contate-nos"
+    }
+  },
+  "privacy": {
+    "head": {
+      "title": "Política de Privacidade – O que fazemos com os seus dados",
+      "description": "Esta política explica quais dados são coletados, por que são retidos, com quem são compartilhados e quais direitos você tem em relação aos seus dados."
+    },
+    "hero": {
+      "eyebrow": "Privacidade",
+      "title": "O que fazemos com seus dados",
+      "lead": "Esta política explica quais dados são coletados, por que, por quanto tempo são retidos e que controle você tem sobre eles. Nosso princípio fundamental é: cada dado é coletado exclusivamente para a finalidade para a qual o usuário visitou a plataforma."
+    },
+    "draftNotice": {
+      "label": "Rascunho — Aguardando aprovação legal.",
+      "note": "Este texto é a versão 1 e foi elaborado pela equipe da plataforma; o texto final o substituirá mediante aprovação legal da organização."
+    },
+    "clauses": {
+      "dataCollected": {
+        "title": "Quais dados coletamos",
+        "list": [
+          "Identity and contact data: name, mobile number, email, and information entered by the user in their profile.",
+          "Educational data: enrollment, attendance, assignments, grades, and academic status.",
+          "Assessment and test data: answers, results, and evaluation reports.",
+          "Financial data: wallet transactions and tuition fees — bank card information is never stored on the platform.",
+          "Technical data: IP address, device type, and event logs, for security and troubleshooting."
+        ]
+      },
+      "why": {
+        "title": "Por que mantemos esses dados",
+        "body": "Prestar o serviço propriamente dito: criação de conta, realização de aulas e exames, emissão e verificação de credenciais, liquidação financeira, suporte e cumprimento de requisitos legais e educacionais. Nenhum dado é utilizado para publicidade personalizada ou vendido a terceiros."
+      },
+      "sensitiveData": {
+        "title": "Dados sensíveis e consentimento explícito",
+        "pre": "Os dados relacionados à saúde mental, aconselhamento e resultados psicométricos são considerados sensíveis e",
+        "bold": "é disponibilizado apenas com o consentimento explícito do usuário",
+        "post": "e exclusivamente ao conselheiro ou avaliador responsável pelo caso específico. A exibição de informações do usuário no diretório público de membros também é opcional e é feita com consentimento separado e revogável."
+      },
+      "thirdParty": {
+        "title": "Compartilhamento com terceiros",
+        "intro": "Os dados são partilhados apenas na medida necessária com os seguintes prestadores de serviços:",
+        "list": [
+          "SMS service — mobile number only, for sending one-time passwords and notifications.",
+          "Bank payment gateway — only necessary transaction information; the platform does not receive or store card data.",
+          "Employer organization or institution requesting the assessment — only the result of the specific assessment the user took for that organization."
+        ],
+        "outro": "Fora destes casos, a divulgação de dados é feita apenas em resposta a ordem de autoridade judicial competente."
+      },
+      "retention": {
+        "title": "Retenção e exclusão",
+        "body": "Os dados e credenciais educacionais são retidos devido à natureza dos registros acadêmicos de longo prazo – as credenciais não podem ser verificadas sem registros. Os dados técnicos e os logs de eventos são excluídos após o período necessário para segurança e auditoria. As solicitações de exclusão de dados não essenciais podem ser enviadas via “Fale Conosco” ou “Service Desk” e são analisadas manualmente."
+      },
+      "security": {
+        "title": "Segurança",
+        "body": "A comunicação com a plataforma é criptografada, o acesso da equipe é definido com base nas funções e no princípio do menor privilégio, e cada acesso confidencial é registrado na trilha de auditoria. Nenhum sistema é infalível; no caso de um incidente de segurança que afete os dados do usuário, os usuários afetados serão notificados."
+      },
+      "cookies": {
+        "title": "Cookies e armazenamento local",
+        "body": "A plataforma usa armazenamento local do navegador para manter sessões de login e configurações de exibição – como modo claro e escuro. Nenhum cookie de rastreamento de terceiros é instalado na plataforma e todos os ativos da página são carregados do próprio servidor da plataforma."
+      },
+      "aiAndData": {
+        "title": "IA e seus dados",
+        "body": "Os assistentes de IA da plataforma só têm acesso aos dados do usuário e curso específicos. O resultado deles é uma sugestão, não uma decisão; notas finais, resultados de avaliações e decisões disciplinares são sempre finalizados por humanos."
+      },
+      "yourRights": {
+        "title": "Seus direitos",
+        "list": [
+          "Viewing and editing profile information from within your user account.",
+          "Withdrawing consent for display in the member directory at any time.",
+          "Requesting a copy of your data or the deletion of non-essential data.",
+          "Receiving a human response regarding any decision that has affected your record."
+        ]
+      },
+      "contactAbout": {
+        "title": "Contato sobre privacidade",
+        "pre": "Envie dúvidas ou pedidos relativos a dados pessoais para",
+        "post": "ou acompanhe através da página Fale Conosco."
+      }
+    },
+    "alsoSee": {
+      "terms": "Termos e Condições",
+      "contact": "Contate-nos",
+      "faq": "Perguntas frequentes"
+    }
+  },
+  "help": {
+    "head": {
+      "title": "Ajuda — Centro de suporte e perguntas frequentes",
+      "description": "Encontre respostas para perguntas frequentes sobre aulas ao vivo, contas de usuário, pagamentos, certificados e assistente de IA na central de ajuda ou converse com suporte ao vivo."
+    },
+    "hero": {
+      "eyebrow": "CENTRAL DE AJUDA · 24 horas por dia, 7 dias por semana",
+      "title": "Como podemos ajudar?"
+    },
+    "search": {
+      "placeholder": "Pesquisar perguntas frequentes"
+    },
+    "categories": {
+      "quickstart": {
+        "title": "Início rápido",
+        "desc": "Primeira aula, primeiro exercício, primeiro certificado"
+      },
+      "account": {
+        "title": "Conta de usuário",
+        "desc": "Cadastro, autenticação, atualização de informações"
+      },
+      "live": {
+        "title": "Aula ao vivo",
+        "desc": "Participação, configuração do microfone, gravação"
+      },
+      "payment": {
+        "title": "Pagamento e mensalidade",
+        "desc": "Métodos de pagamento, reembolsos"
+      },
+      "cert": {
+        "title": "Certificado e Diploma",
+        "desc": "Emissão, verificação, compartilhamento"
+      },
+      "ai": {
+        "title": "Assistente de IA",
+        "desc": "Instruções de uso, limitações, configurações"
+      }
+    },
+    "categoryQuestionCount": "{count, plural, one {# pergunta ←} other {# perguntas ←}}",
+    "faqItems": {
+      "joinLiveClass": {
+        "q": "Como faço para participar da minha primeira aula ao vivo?",
+        "a": "No seu painel, clique na programação semanal. O botão \"Participar\" fica ativo 15 minutos antes do início..."
+      },
+      "certificateRecognition": {
+        "q": "O certificado {brand} é oficial no Irã?",
+        "a": "Nossos certificados atendem às diretrizes do Ministério da Ciência e podem ser verificados em sistemas nacionais..."
+      },
+      "aiPrivacy": {
+        "q": "O assistente de IA tem acesso às minhas informações pessoais?",
+        "a": "O AI Tutor só tem acesso às informações do seu curso (progresso, exercícios, dúvidas)..."
+      },
+      "offlineRecording": {
+        "q": "A aula será perdida se a internet for desconectada?",
+        "a": "Não. Todas as aulas ao vivo são gravadas e podem ser acessadas em seu arquivo pessoal..."
+      },
+      "installmentPayment": {
+        "q": "Como posso parcelar as mensalidades?",
+        "a": "Durante a etapa de pagamento, selecione a opção de parcelamento de 3 meses sem juros..."
+      },
+      "projectChange": {
+        "q": "Posso alterar meu projeto final de curso?",
+        "a": "Você pode alterar o projeto antes da seleção oficial. Após a aprovação, é necessária a permissão do instrutor..."
+      }
+    },
+    "faqSection": {
+      "title": "Perguntas frequentes",
+      "removeFilter": "Remover filtro \"{category}\"",
+      "empty": "Nada encontrado — converse com \"Suporte ao vivo\" nesta página."
+    },
+    "liveSupport": {
+      "label": "Suporte ao vivo",
+      "body": "A equipe de suporte está disponível 24 horas por dia, 7 dias por semana para responder às suas perguntas. Tempo médio de resposta: 8 minutos.",
+      "startChat": "Iniciar bate-papo",
+      "toast": {
+        "title": "Conectando-se ao suporte",
+        "msg": "Um operador responderá em alguns segundos."
+      }
+    },
+    "systemStatus": {
+      "label": "ESTADO DO SISTEMA",
+      "services": {
+        "lms": "LMS",
+        "liveClass": "Aula ao vivo",
+        "aiTutor": "Tutor de IA",
+        "payment": "Pagamento",
+        "asrFa": "ASR · Persa"
+      },
+      "operational": "Operacional",
+      "degraded": "Degradado"
+    }
+  },
+  "honorCode": {
+    "head": {
+      "title": "Código de Integridade Acadêmica — Princípios, Violações e Processo de Denúncia",
+      "description": "Leia os princípios de integridade acadêmica, a lista de comportamentos permitidos e proibidos e o processo de denúncia e apelação na universidade nesta página."
+    },
+    "hero": {
+      "eyebrow": "Carta de Integridade Acadêmica",
+      "title": "Carta de Integridade Acadêmica",
+      "lead": "A integridade acadêmica é a base de todas as nossas atividades na {brand}. Esta carta define o que é aceitável, o que não é e o que acontece se ocorrer um erro."
+    },
+    "principles": {
+      "title": "Princípios Fundamentais",
+      "items": {
+        "honesty": {
+          "title": "Honestidade no Trabalho",
+          "desc": "Todos os trabalhos enviados devem ser de sua autoria, a menos que a fonte seja explicitamente citada. O AI Tutor é seu companheiro, não seu substituto."
+        },
+        "sourceRespect": {
+          "title": "Respeito pelas Fontes",
+          "desc": "Cite claramente qualquer pensamento, código ou texto retirado de outra pessoa. Isso é um sinal de respeito e proteção por si mesmo."
+        },
+        "individualExam": {
+          "title": "Um exame individual é um exame individual",
+          "desc": "Em exames de verificação de identidade, o uso de recursos ou assistência externos não autorizados é uma violação."
+        },
+        "transparentCollab": {
+          "title": "Colaboração Transparente",
+          "desc": "A colaboração em grupo é maravilhosa – desde que seja permitida no programa de exercícios e a contribuição de cada pessoa seja clara."
+        },
+        "courageousReporting": {
+          "title": "Relatórios corajosos",
+          "desc": "Se você testemunhar uma violação, denuncie. Sua identidade permanecerá confidencial e não haverá retaliação."
+        }
+      }
+    },
+    "allowed": {
+      "title": "Permitido ✓",
+      "items": [
+        "Asking the AI Tutor about concepts",
+        "Teamwork on designated group projects",
+        "Consulting with the instructor during Office Hours",
+        "Using online resources with proper citation",
+        "Asking peers for feedback before submission",
+        "Copying your own code from a previous project (with notice)"
+      ]
+    },
+    "violations": {
+      "title": "Violação ✗",
+      "items": [
+        "Copying someone else's answer without attribution",
+        "Answering on behalf of someone else in an exam",
+        "Submitting AI work as your own in an exam",
+        "Accessing exam questions ahead of time",
+        "Falsifying research data",
+        "Submitting the same project for two courses without authorization"
+      ]
+    },
+    "reportProcess": {
+      "title": "Processo de denúncia e recurso",
+      "body": "Cada violação relatada é encaminhada ao Comitê de Integridade Acadêmica. O aluno acusado tem a oportunidade de responder e se defender academicamente. Nenhuma decisão é finalizada sem a aprovação de três membros do comitê.",
+      "reportButton": "Relatório Confidencial",
+      "signButton": "Assine o Código de Honra",
+      "reportConfirm": {
+        "title": "Relatório Confidencial",
+        "body": "Este relatório será enviado ao Comitê de Integridade Acadêmica. Sua identidade permanecerá confidencial. Você quer continuar?",
+        "confirmLabel": "Enviar relatório",
+        "cancelLabel": "Cancelar"
+      },
+      "reportToast": {
+        "title": "Relatório enviado",
+        "msg": "O comitê irá analisá-lo dentro de 72 horas."
+      },
+      "signConfirm": {
+        "title": "Assine o Código de Honra da Integridade Acadêmica",
+        "body": "Ao assinar este código de honra, você se compromete a defender todos os princípios de integridade acadêmica.",
+        "confirmLabel": "Eu concordo e assino"
+      },
+      "signToast": {
+        "title": "Código de Honra Assinado",
+        "msg": "A data da assinatura foi registrada em seu perfil."
+      }
+    }
+  }
+}

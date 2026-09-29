@@ -1,0 +1,124 @@
+{
+  "new": {
+    "eyebrow": "Central de atendimento",
+    "title": "Nova solicitação",
+    "back": "Voltar",
+    "empty": "Nenhum tipo de solicitação está definido.",
+    "loadError": "Falha ao carregar a lista de tipos de solicitação.",
+    "searchLabel": "Tipo de solicitação de pesquisa",
+    "searchPlaceholder": "por exemplo, extensão de prazo, certificado, dormitório…",
+    "noResults": "Nenhum tipo de solicitação encontrado que corresponda a esta frase.",
+    "externalBadge": "Sistema Externo",
+    "externalHint": "Esta solicitação é tratada no sistema externo (Sajjad).",
+    "externalContinue": "Continuar no sistema externo ↗",
+    "chooseAnother": "Escolha outro tipo",
+    "sectionPlaceholder": "Selecione um curso…",
+    "sectionsLoading": "Carregando lista de cursos…",
+    "sectionsError": "Falha ao carregar a lista de cursos. Suas entradas de formulário foram preservadas.",
+    "submit": "Enviar e enviar",
+    "backToTypes": "Voltar à seleção de tipo",
+    "saveDraft": "Salvar rascunho",
+    "draftHint": "Você pode salvar o formulário inacabado e completo e enviá-lo posteriormente em \"Minhas Solicitações\"."
+  },
+  "detail": {
+    "submit": "Enviar",
+    "resubmit": "Revisar e reenviar",
+    "cancel": "Cancelar solicitação",
+    "edit": {
+      "title": "Editar formulário de solicitação",
+      "hintReturned": "Esta solicitação foi devolvida a você para revisão. Corrija os campos e clique em “Revisar e Reenviar”.",
+      "hintDraft": "Esta solicitação ainda não foi enviada. Você pode preencher e salvar o formulário e enviá-lo mais tarde.",
+      "selectPlaceholder": "Selecione…",
+      "save": "Salvar alterações",
+      "saved": "Alterações salvas",
+      "savedSectionUnavailable": "Curso salvo; atualmente não está na lista de inscrição"
+    },
+    "decision": {
+      "EDIT": "Editar formulário",
+      "SUBMIT": "Enviar solicitação",
+      "APPROVE": "Aprovar",
+      "REJECT": "Rejeitar",
+      "REFER": "Consulte para revisão",
+      "RESUBMIT": "Reenviar",
+      "CANCEL": "Cancelar",
+      "AUTO": "Ação Automática",
+      "SKIP": "Pular etapa automaticamente",
+      "INFORM": "Informar"
+    }
+  },
+  "errors": {
+    "generic": "Ocorreu um erro",
+    "requiredField": "\"{field}\" é obrigatório",
+    "decisionNoteRequired": "Fornecer uma nota é necessário para rejeição ou encaminhamento"
+  },
+  "viewer": {
+    "serviceDeskLabel": "Central de atendimento",
+    "pageTitle": "Detalhes da solicitação",
+    "backToInbox": "Voltar para a caixa de entrada",
+    "issuancePending": "A solicitação foi aprovada e a emissão do certificado está em andamento. Assim que o documento for cadastrado, o número da consulta e o link serão exibidos.",
+    "verifyPhoneFirst": "A emissão depende da verificação do número de telefone do titular do certificado. Verifique o número nas configurações da sua conta; a emissão automática será repetida.",
+    "issuanceRetry": "A emissão ainda não está concluída. O sistema tentará novamente; não há necessidade de enviar a solicitação ou confirmar novamente.",
+    "refreshIssuance": "Atualizar status de emissão",
+    "submittedByStudent": "Enviado por aluno",
+    "workflow": "Fluxo de trabalho",
+    "form": "Solicitar informações",
+    "result": "Resultado",
+    "certificateNo": "Número do certificado:",
+    "verifyCertificate": "Verificar certificado",
+    "legacyCertificate": "Este número foi registrado na saída herdada da solicitação e não está vinculado a um documento verificável. Entre em contato com o oficial de serviços educacionais para receber um certificado oficial.",
+    "dropped": "Curso encerrado com sucesso.",
+    "completed": "Concluído",
+    "history": "Histórico de ações",
+    "yourAction": "Sua ação",
+    "decisionNote": "Nota de Decisão",
+    "notePlaceholder": "Nota (opcional para aprovação, necessária para rejeição/encaminhamento)",
+    "stepKinds": {
+      "approval": "Aprovação Manual",
+      "inform": "Notificação"
+    },
+    "skipReasons": {
+      "condition_not_matched": "A condição do estágio não foi atendida"
+    },
+    "informRecipients": "{count, plural, one {Registrado para 1 destinatário} other {Registrado para # destinatários}}",
+    "terminalDefault": "Ação Final",
+    "terminal": {
+      "issue_certificate": "Emitir Certificado",
+      "emergency_drop": "Curso de abandono",
+      "register_course": "Registrar Curso"
+    },
+    "roles": {
+      "faculty_admin": "Administrador/especialista do corpo docente",
+      "admin": "Administrador do sistema",
+      "super_admin": "Superadministrador",
+      "instructor": "Instrutor",
+      "ta": "Assistente de Ensino"
+    },
+    "status": {
+      "DRAFT": "Rascunho",
+      "IN_PROGRESS": "Em andamento",
+      "FULFILLING": "Emissão de certificado pendente",
+      "RETURNED": "Devolvido para revisão",
+      "COMPLETED": "Concluído",
+      "REJECTED": "Rejeitado",
+      "CANCELED": "Cancelado"
+    }
+  },
+  "inbox": {
+    "eyebrow": "Serviços Educacionais",
+    "new": "+ Nova Solicitação",
+    "helpTitle": "Guia de suporte técnico",
+    "help": "Sua solicitação será analisada passo a passo pelos funcionários. Abra cada solicitação para visualizar seu status e histórico. Você pode editar e reenviar uma solicitação referida.",
+    "mine": "Meus pedidos",
+    "pending": "Pendente da minha aprovação",
+    "loading": "Carregando...",
+    "loadError": "Falha ao carregar a lista de solicitações.",
+    "retry": "Tente novamente",
+    "continueScan": "Nenhuma solicitação virtual foi encontrada nesta seção. Para verificar o restante da fila, clique em Mostrar mais.",
+    "emptyPending": "Não há solicitações aguardando sua aprovação.",
+    "emptyMine": "Você ainda não enviou nenhuma solicitação.",
+    "step": "Passo",
+    "viewAction": "Ver e agir",
+    "waiting": "Esperando",
+    "more": "Mostrar mais"
+  }
+}

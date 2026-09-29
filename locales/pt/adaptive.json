@@ -1,0 +1,259 @@
+{
+  "common": {
+    "close": "Fechar",
+    "minutes": "≈ {n, number} min",
+    "number": "{n, number}",
+    "percent": "{n, number}%"
+  },
+  "difficulty": {
+    "all": "Todos",
+    "easy": "Fácil",
+    "hard": "Difícil",
+    "medium": "Médio",
+    "title": "Dificuldade"
+  },
+  "help": {
+    "body": "Este é o seu roteiro personalizado: abra módulos, visualize habilidades e níveis de domínio e siga as próximas recomendações. Personalize a ordem das recomendações usando \"Ritmo de aprendizagem\" e o filtro de dificuldade.",
+    "title": "Guia do caminho de aprendizagem"
+  },
+  "hero": {
+    "eyebrow": "Caminho de aprendizagem",
+    "lead": "Roteiro personalizado de {name} – {program}. Desbloqueie módulos, monitore habilidades e molde suas próximas recomendações com base no seu ritmo de aprendizado.",
+    "title": "Caminho de aprendizagem adaptativo"
+  },
+  "learner": {
+    "name": "Negar Rostami",
+    "program": "Bacharelado em Engenharia da Computação"
+  },
+  "milestones": {
+    "items": {
+      "ms1": {
+        "date": "2025/05/08",
+        "title": "Fundamentos completos de programação"
+      },
+      "ms2": {
+        "date": "2025/05/26",
+        "title": "Primeira sequência de 7 dias"
+      },
+      "ms3": {
+        "date": "2025/06/12",
+        "title": "50% de domínio em estruturas de dados"
+      },
+      "ms4": {
+        "title": "Desbloquear módulo de banco de dados"
+      },
+      "ms5": {
+        "title": "Domínio total do design de algoritmos"
+      }
+    },
+    "notReached": "Ainda não alcançado",
+    "reached": "Alcançado · {date}",
+    "title": "Marcos"
+  },
+  "moduleDialog": {
+    "done": "Este módulo está concluído",
+    "eyebrow": "Módulo de aprendizagem",
+    "locked": "Este módulo ainda está bloqueado.",
+    "objectives": "Objetivos de aprendizagem",
+    "resourceMeta": "{label} · ≈ {min, number} min",
+    "resources": "Recursos"
+  },
+  "modules": {
+    "algo": {
+      "desc": "Classificação, pesquisa, programação gananciosa e dinâmica",
+      "objectives": {
+        "o1": "Analise a complexidade do tempo usando a notação Big O",
+        "o2": "Implementar classificação por mesclagem e classificação rápida",
+        "o3": "Identifique problemas solucionáveis com o método ganancioso",
+        "o4": "Resolva problemas usando Programação Dinâmica (DP)"
+      },
+      "resources": {
+        "r1": "Vídeo de introdução ao DP",
+        "r2": "Apostila de Análise de Complexidade",
+        "r3": "Exercício de classificação",
+        "r4": "Questionário do método ganancioso"
+      },
+      "subskills": {
+        "s1": "Algoritmos de classificação",
+        "s2": "Método ganancioso",
+        "s3": "Programação Dinâmica"
+      },
+      "title": "Projeto de Algoritmo"
+    },
+    "completed": "Você concluiu este módulo",
+    "db": {
+      "desc": "Modelo relacional, SQL, normalização e transações",
+      "objectives": {
+        "o1": "Escrevendo consultas SQL com JOIN e agrupamento",
+        "o2": "Projeto de esquema e normalização até a terceira forma normal",
+        "o3": "Noções básicas sobre transações e propriedades ACID",
+        "o4": "Otimização de consultas usando índices"
+      },
+      "resources": {
+        "r1": "Vídeo sobre noções básicas de SQL",
+        "r2": "Folheto de Normalização",
+        "r3": "Exercício de consultas avançadas",
+        "r4": "Questionário de transações"
+      },
+      "subskills": {
+        "s1": "Consultas SQL",
+        "s2": "Normalização",
+        "s3": "Transações e bloqueio"
+      },
+      "title": "Banco de dados"
+    },
+    "detailsButton": "Detalhes do módulo",
+    "ds": {
+      "desc": "Matriz, lista vinculada, pilha, fila, árvore e gráfico",
+      "objectives": {
+        "o1": "Escolhendo a estrutura de dados apropriada para cada problema",
+        "o2": "Implementando uma lista vinculada e suas operações básicas",
+        "o3": "Atravessando uma árvore de pesquisa binária (BST)",
+        "o4": "Executando BFS e DFS em um gráfico"
+      },
+      "resources": {
+        "r1": "Vídeo passo a passo da lista vinculada",
+        "r2": "Folheto de Pesquisa de Árvores",
+        "r3": "Exercício de travessia de gráfico",
+        "r4": "Questionário de pilha e fila"
+      },
+      "subskills": {
+        "s1": "Matriz e String",
+        "s2": "Lista vinculada",
+        "s3": "Árvores de pesquisa binária",
+        "s4": "Traversal de gráfico (BFS/DFS)"
+      },
+      "title": "Estruturas de dados"
+    },
+    "foundations": {
+      "desc": "Variáveis, loops, funções e estruturas de controle",
+      "objectives": {
+        "o1": "Definindo e usando variáveis e tipos de dados básicos",
+        "o2": "Escrevendo loops e instruções condicionais sem erros",
+        "o3": "Construindo funções com entradas e saídas definidas",
+        "o4": "Noções básicas sobre recursão e rastreamento da pilha de chamadas"
+      },
+      "resources": {
+        "r1": "Vídeo de revisão de tipos de dados",
+        "r2": "Folheto de Funções e Escopo",
+        "r3": "Prática de Loops Aninhados",
+        "r4": "Questionário de recursão"
+      },
+      "subskills": {
+        "s1": "Variáveis e tipos de dados",
+        "s2": "Loops e Condicionais",
+        "s3": "Funções e Escopo Variável",
+        "s4": "Recursão"
+      },
+      "title": "Fundamentos de programação"
+    },
+    "lockedHint": "Este módulo é desbloqueado após atingir 70% de domínio em \"Algorithm Design\".",
+    "markComplete": "Marcar como concluído",
+    "title": "Mapa do Módulo"
+  },
+  "overview": {
+    "done": {
+      "label": "{started, plural, =0 {Item concluído} one {# item em andamento, concluído} other {# itens em andamento, concluídos}}"
+    },
+    "progress": {
+      "modules": "{done, number} de módulos {total, number} concluídos",
+      "title": "Progresso do Caminho"
+    },
+    "streak": {
+      "dayUnit": "dias",
+      "label": "Sequência atual"
+    },
+    "weekly": {
+      "label": "O objetivo desta semana",
+      "minutes": "{done, number}/{goal, number} min",
+      "ofGoal": "{pct, number}% da meta semanal"
+    }
+  },
+  "pace": {
+    "balanced": "Equilibrado",
+    "desc": "Organiza recomendações com base no seu ritmo preferido.",
+    "intense": "Intenso",
+    "relaxed": "Descontraído",
+    "title": "Ritmo de aprendizagem"
+  },
+  "recDialog": {
+    "eyebrow": "Recomendação de aprendizagem",
+    "markDone": "Marcar como concluído",
+    "start": "Iniciar este item",
+    "why": "Por que agora?"
+  },
+  "recs": {
+    "actions": {
+      "details": "Detalhes",
+      "done": "Concluído",
+      "start": "Começar",
+      "undo": "Desfazer"
+    },
+    "count": "Item {n, number}",
+    "empty": "Não há recomendações disponíveis para esta dificuldade — troque o filtro.",
+    "items": {
+      "r1": {
+        "title": "Prática de travessia de gráfico (BFS/DFS)",
+        "why": "Sua habilidade ativa mais fraca – necessária para desbloquear “Design de Algoritmo”"
+      },
+      "r2": {
+        "title": "Introdução à Programação Dinâmica",
+        "why": "Continuação lógica após a abordagem gananciosa"
+      },
+      "r3": {
+        "title": "Revisão de algoritmos de classificação",
+        "why": "Consolidando conhecimento antes de um tema mais difícil"
+      },
+      "r4": {
+        "title": "Árvore de pesquisa binária",
+        "why": "Pré-requisito para travessia do gráfico"
+      },
+      "r5": {
+        "title": "Prática de lista vinculada",
+        "why": "Para alcançar o domínio completo do módulo"
+      },
+      "r6": {
+        "title": "Brincando com recursão",
+        "why": "Aquecimento rápido e curto"
+      }
+    },
+    "next": {
+      "eyebrow": "Próxima recomendação para você",
+      "meta": "{module} · ≈ {min, number} min"
+    },
+    "state": {
+      "done": "Concluído",
+      "started": "Em andamento"
+    },
+    "title": "Próxima recomendação"
+  },
+  "resource": {
+    "exercise": "Exercício",
+    "quiz": "Questionário",
+    "reading": "Lendo",
+    "video": "Vídeo"
+  },
+  "ring": {
+    "label": "Domínio geral"
+  },
+  "skills": {
+    "count": "{n, number} {n, plural, um {skill} outro {skills}}",
+    "empty": "Nenhuma habilidade encontrada correspondente a esta pesquisa.",
+    "practiceMinutes": "≈ {n, number} prática mínima",
+    "search": {
+      "ariaLabel": "Habilidades de pesquisa",
+      "clear": "Limpar pesquisa",
+      "placeholder": "Pesquise habilidades ou módulos…"
+    }
+  },
+  "status": {
+    "active": "Aprendizagem",
+    "done": "Concluído",
+    "locked": "Bloqueado"
+  },
+  "tabs": {
+    "ariaLabel": "Visualização do caminho de aprendizagem",
+    "path": "Meu caminho",
+    "skills": "Habilidades"
+  }
+}

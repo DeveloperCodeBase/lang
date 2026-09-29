@@ -1,0 +1,2151 @@
+{
+  "admin": {
+    "afterSubmit": "Após envio: {meaning}",
+    "allStepsDone": "Todas as etapas foram concluídas",
+    "assessorsOverRatio": "O avaliador {count, number} tem mais do que a proporção de candidatos alvo – distribua sua carga entre outros avaliadores, se possível.",
+    "assignmentCountShort": "Atribuição {count, number}",
+    "assignmentsHeading": "Atribuições do avaliador em \"{project}\"",
+    "assignmentsHint": "Cada tarefa significa \"este avaliador vê e avalia este candidato neste exercício\".",
+    "candidateFallback": "Candidato",
+    "candidatesHeading": "Candidatos de \"{project}\" ({count, number})",
+    "cannotAssignNoCandidate": "Você deve primeiro convidar pelo menos um candidato.",
+    "cannotAssignNoExercise": "Você deve primeiro definir pelo menos um exercício.",
+    "cannotAssignYetTitle": "Ainda não é possível atribuir",
+    "competencyCount": "Competência {count, number}",
+    "consentActiveBadge": "Ativo",
+    "consentHeading": "Textos do formulário de consentimento (nível da organização)",
+    "consentHint": "O primeiro passo de toda a cadeia. Os textos são independentes de projetos e apenas uma versão fica ativa por vez; criar um texto não é suficiente – você deve ativá-lo.",
+    "consentVersion": "Versão {version}",
+    "coverageHeading": "Relatório de cobertura",
+    "coverageHint": "Um relatório consultivo: quantos métodos avaliam cada competência e se algum avaliador excede a carga de proporção alvo. Os seus avisos não bloqueiam o progresso futuro.",
+    "coverageNoCompetency": "Nenhuma competência foi vinculada aos exercícios deste projeto ainda.",
+    "coverageParams": "Métodos mínimos: {minMethods, number} · Proporção de avaliadores alvo: {ratio, number}",
+    "cta": {
+      "activateConsent": "Ative esta versão",
+      "activateProject": "Ativar projeto",
+      "assignAssessor": "Atribuir avaliador",
+      "assignmentList": "Lista de tarefas",
+      "cancel": "Cancelar",
+      "closeEdit": "Fechar edição",
+      "closeExerciseForm": "Fechar formulário de exercício",
+      "closeInviteForm": "Fechar formulário de convite",
+      "closeList": "Fechar lista",
+      "closeProject": "Fechar projeto",
+      "closeProjectForm": "Fechar formulário do projeto",
+      "createConsent": "Escreva o texto de consentimento",
+      "createProject": "Criar projeto",
+      "defineExercise": "Definir exercício",
+      "disableExercise": "Desativar exercício",
+      "editCompetencies": "Editar competências",
+      "editExercise": "Editar exercício",
+      "editProject": "Editar detalhes do projeto",
+      "inviteCandidate": "Convidar candidato",
+      "loadCoverage": "Relatório de cobertura de carga",
+      "newProject": "Criar novo projeto",
+      "revokeInvite": "Revogar convite",
+      "saveChanges": "Salvar alterações",
+      "saveCompetencies": "Salvar competências",
+      "submitStep": "Enviar etapa"
+    },
+    "currentProjectLabel": "Projeto Atual",
+    "detail": {
+      "clientOrg": "Organização do cliente",
+      "minMethods": "Métodos Mínimos por Competência"
+    },
+    "editExerciseHeading": "Editar exercício",
+    "editExerciseHint": "Deixar a hora ou a duração em branco irá apagá-la.",
+    "editProjectHint": "Deixar qualquer campo opcional em branco irá apagá-lo.",
+    "exerciseCompetenciesLabel": "Competências para este exercício:",
+    "exerciseDurationSuffix": "· {minutes, number} min",
+    "exerciseNoCompetency": "Nenhum — até ser selecionado, o avaliador não tem nada a pontuar.",
+    "exercisesHeading": "Exercícios para \"{project}\" ({count, number})",
+    "eyebrow": "Painel de Gestão · Centro de Avaliação",
+    "field": {
+      "assessor": "Avaliador",
+      "assessorRatio": "Proporção alvo do avaliador",
+      "assessorRole": "Papel do Avaliador neste Exercício",
+      "candidate": "Candidato",
+      "clientOrg": "Nome da organização cliente",
+      "consentBody": "Texto do formulário de consentimento",
+      "consentVersion": "Versão",
+      "durationMinutes": "Duração (minutos)",
+      "exerciseKind": "Tipo de exercício",
+      "exerciseName": "Nome do exercício",
+      "jobFamily": "Família de trabalho",
+      "minMethods": "Métodos Mínimos por Competência",
+      "projectCode": "Código do Projeto",
+      "projectName": "Nome do Projeto",
+      "scheduledAt": "Horário agendado",
+      "scheduledAtAria": "Horário de programação de exercícios",
+      "withdrawReason": "Motivo da retirada"
+    },
+    "inviteePreview": "Convidando {name} — o status inicial será \"{status}\".",
+    "lastChangeAt": "Última alteração: {at}",
+    "lead": "Primeiro, selecione um projeto no seletor abaixo e, em seguida, trabalhe nele nas guias. A lista de verificação \"Visão geral\" sempre mostra onde você está no processo.",
+    "loading": "Carregando…",
+    "methodCount": "Método {count, number}",
+    "namelessFallback": "(Sem nome)",
+    "newCandidateHeading": "Convidar novo candidato",
+    "newExerciseHeading": "Novo exercício",
+    "newProjectHeading": "Novo Projeto",
+    "nextStepAria": "Próxima etapa para {candidate}",
+    "nextStepCta": "Próxima etapa: {cta}",
+    "noAssignmentShort": "Nenhuma avaliação atribuída ainda",
+    "noNextStep": "Nenhuma próxima etapa está definida para esse status.",
+    "noOrgCompetency": "Nenhuma competência organizacional foi definida ainda. Você pode definir competências na seção \"Modelo de Competências\".",
+    "openProjectCta": "Abra \"{project}\"",
+    "option": {
+      "noProject": "— Nenhum projeto selecionado —",
+      "none": "— Não selecionado —",
+      "pickCandidate": "— Selecionar candidato —",
+      "pickNextStep": "— Selecione a próxima etapa —"
+    },
+    "pickerTitle": {
+      "assessor": "Avaliador de pesquisa",
+      "candidate": "Pesquisar candidato"
+    },
+    "projectCodeCreated": "{code} · Criado: {at}",
+    "setupChecklistHeading": "Lista de verificação de configuração",
+    "step": {
+      "activeConsentVersion": "Versão ativa: {version}",
+      "assignmentCount": "Atribuição {count, number}",
+      "candidateCount": "Candidato {count, number}",
+      "exercisesAllCovered": "Exercício {count, number}, todos com competências",
+      "exercisesMissingCompetency": "O exercício {count, number} ainda carece de competência.",
+      "noAssignment": "Nenhuma avaliação foi atribuída ainda.",
+      "noCandidate": "Nenhum candidato foi convidado ainda.",
+      "noConsentText": "Nenhum texto foi gravado ainda.",
+      "noExercise": "Nenhum exercício foi definido ainda.",
+      "noProject": "Nenhum projeto foi criado ainda.",
+      "openProject": "Projeto aberto: {project}",
+      "pickProject": "Você tem projetos – abra um da lista ou crie um novo projeto."
+    },
+    "tabsScopeHint": "As abas “Candidatos”, “Exercícios” e “Tarefas” mostram apenas este projeto; \"Configurações\" está no nível da organização.",
+    "title": "Console de administração de avaliação"
+  },
+  "answer": {
+    "dragDrop": {
+      "assign": "— Atribuir —"
+    },
+    "file": {
+      "change": "Alterar arquivo",
+      "pick": "Selecione o arquivo",
+      "tooLargeMsg": "Máximo de {mb} MB",
+      "tooLargeTitle": "O arquivo é muito grande"
+    },
+    "fillBlank": {
+      "placeholder": "{n} em branco"
+    },
+    "hotspot": {
+      "noImage": "Nenhuma imagem foi definida para esta pergunta.",
+      "regionFallback": "Região {n}"
+    },
+    "matching": {
+      "choose": "— Selecione —"
+    },
+    "ordering": {
+      "moveDown": "Mover para baixo",
+      "moveUp": "Subir"
+    },
+    "placeholder": {
+      "code": "//Escreva seu código aqui",
+      "default": "Responda…",
+      "essay": "Resposta dissertativa…",
+      "formula": "Expressão matemática, por ex. a^2+b^2=c^2",
+      "numeric": "Resposta numérica",
+      "short": "Resposta curta…"
+    },
+    "review": {
+      "correct": "Resposta correta",
+      "downloadFile": "Baixar arquivo",
+      "keyLabel": "Chave:",
+      "manual": "Classificação manual",
+      "manualFile": "Avaliação manual (arquivo)",
+      "studentLabel": "Resposta do aluno:",
+      "studentPick": "Resposta do aluno",
+      "studentPicked": "(escolha do aluno)"
+    },
+    "trueFalse": {
+      "false": "Falso",
+      "true": "Verdadeiro"
+    }
+  },
+  "assignmentRole": {
+    "assessor": {
+      "hint": "Visualizações e notas.",
+      "label": "Avaliador"
+    },
+    "facilitator": {
+      "hint": "Facilita o exercício.",
+      "label": "Facilitador"
+    },
+    "interviewer": {
+      "hint": "Conduz a entrevista e as notas.",
+      "label": "Entrevistador"
+    },
+    "observer": {
+      "hint": "Observa apenas.",
+      "label": "Observador"
+    }
+  },
+  "assignments": {
+    "cta": {
+      "continue": "Continuar / Enviar",
+      "open": "Abra e envie",
+      "result": "Ver resultado",
+      "startExam": "Iniciar exame",
+      "viewExam": "Ver"
+    },
+    "due": "Vencimento: {date}",
+    "empty": "Não há tarefas ou exames publicados para seus cursos.",
+    "eyebrow": "Aluno · Tarefas e exames",
+    "filter": {
+      "all": "Todos",
+      "graded": "Classificado",
+      "pending": "Não enviado",
+      "submitted": "Enviado"
+    },
+    "gradeValue": "Nota: {n} de 100",
+    "help": {
+      "body": "Abra cada item para responder: nas provas você responde perguntas, e nas tarefas você pode escrever texto e anexar arquivos (PDF, Word, imagem, ZIP). Você pode salvar rascunhos até o envio final. Após o envio, seu status e nota serão mostrados aqui.",
+      "title": "Ajuda com tarefas e exames"
+    },
+    "kind": {
+      "assignment": "Tarefa",
+      "quiz": "Questionário"
+    },
+    "lead": "Tarefas e questionários publicados para seus cursos, juntamente com status de envio e notas.",
+    "loading": "Carregando…",
+    "noDue": "Sem data de vencimento",
+    "points": "{n, plural, um ponto {{n}} outros pontos {{n}}}",
+    "status": {
+      "draft": "Rascunho",
+      "graded": "Classificado",
+      "none": "Não enviado",
+      "submitted": "Enviado"
+    },
+    "title": "Minhas tarefas e testes"
+  },
+  "bank": {
+    "confirm": {
+      "body": "As perguntas que você já adicionou aos questionários não serão alteradas.",
+      "cancelLabel": "Cancelar",
+      "confirmLabel": "Excluir pergunta",
+      "title": "Excluir pergunta do banco?"
+    },
+    "countLabel": "{n, plural, uma pergunta {{n}} outras perguntas {{n}}}",
+    "cta": {
+      "builder": "Construtor de questionário",
+      "new": "Nova pergunta no banco"
+    },
+    "difficulty": {
+      "easy": "Fácil",
+      "hard": "Difícil",
+      "medium": "Médio"
+    },
+    "editor": {
+      "close": "Fechar",
+      "courseLabel": "Curso (opcional)",
+      "difficultyLabel": "Nível de dificuldade (opcional)",
+      "editTitle": "Editar pergunta bancária",
+      "explanationLabel": "Explicação da resposta (opcional)",
+      "hintLabel": "Dica do aluno (opcional)",
+      "kindLabel": "Tipo de pergunta",
+      "manualSuffix": "(Manual)",
+      "newTitle": "Nova pergunta no banco",
+      "pointsLabel": "Pontos",
+      "promptFillBlank": "Texto da pergunta; indique cada espaço em branco com ___…",
+      "promptLabel": "Solicitação de pergunta",
+      "promptPlaceholder": "Digite o texto da pergunta…",
+      "saveEdit": "Salvar alterações",
+      "saveNew": "Adicionar ao banco",
+      "saving": "Salvando…",
+      "tagsLabel": "Tags (separadas por vírgulas, opcionais)",
+      "tagsPlaceholder": "por exemplo, Capítulo 2, derivado, difícil"
+    },
+    "emptyAll": "Ainda não há perguntas no banco. Crie sua primeira pergunta reutilizável usando \"Nova Pergunta no Banco\".",
+    "emptyFiltered": "Nenhuma pergunta encontrada que corresponda a esses filtros.",
+    "err": {
+      "delete": "Falha ao excluir a pergunta",
+      "load": "Falha ao carregar banco de perguntas",
+      "save": "Falha ao salvar a pergunta"
+    },
+    "eyebrow": "Instrutor · Banco de perguntas",
+    "filter": {
+      "all": "Todos",
+      "clear": "Limpar filtros",
+      "kindLabel": "Tipo:"
+    },
+    "help": {
+      "body": "Este banco armazena questões independentes de teste; você pode criar, editar e arquivar todos os 14 tipos de perguntas (desde múltipla escolha e preencher lacunas até correspondência e arrastar e soltar). Uma pergunta pode ser restrita a um curso ou permanecer pessoal (sem curso). Para usá-lo em um teste, clique em \"Adicionar do banco de perguntas\" no Test Builder — uma cópia da pergunta será adicionada ao teste.",
+      "title": "Ajuda do banco de perguntas"
+    },
+    "kpi": {
+      "auto": "Avaliado automaticamente",
+      "manual": "Avaliado manualmente",
+      "total": "Total de dúvidas bancárias"
+    },
+    "lead": "Crie perguntas reutilizáveis uma vez e use-as em vários testes. Para adicioná-los a um teste, selecione \"Adicionar do banco de perguntas\" no Test Builder.",
+    "loading": "Carregando…",
+    "noCourse": "Nenhum curso (Pessoal)",
+    "notice": {
+      "deleteFailed": "Falha na exclusão"
+    },
+    "points": "Ponto {n}",
+    "row": {
+      "delete": "Excluir",
+      "edit": "Editar"
+    },
+    "search": {
+      "aria": "Pergunta de pesquisa",
+      "placeholder": "Pesquisar texto ou tags da pergunta…"
+    },
+    "title": "Banco de perguntas"
+  },
+  "builder": {
+    "attempts": {
+      "colIdentity": "Autenticação",
+      "colStatus": "Estado",
+      "colStudent": "Estudante",
+      "colViolations": "Violações",
+      "empty": "Ninguém fez esse teste ainda.",
+      "hint": "Clique em “Carregar” para visualizar os participantes, autenticação e violações registradas.",
+      "identityFailed": "Falha",
+      "identityOk": "✓ Completo",
+      "identityPartial": "Incompleto",
+      "loadAction": "Carregar",
+      "reviewAction": "Revisão completa",
+      "statusExpired": "O tempo expirou",
+      "statusInProgress": "Em andamento",
+      "statusSubmitted": "Enviado",
+      "title": "Visualização de supervisão – tentativas de teste"
+    },
+    "bank": {
+      "dialogNote": "Uma cópia da questão selecionada será adicionada a esta prova; edições subsequentes na pergunta bancária não afetarão esta cópia.",
+      "dialogTitle": "Adicionar do banco de perguntas",
+      "empty": "Seu banco de perguntas está vazio. Primeiro, crie perguntas no “Banco de Perguntas”.",
+      "goToBank": "Acesse o banco de perguntas",
+      "insertAction": "Adicionar",
+      "loading": "Carregando…",
+      "manualSuffix": "· Manual",
+      "openAria": "Adicionar pergunta do banco",
+      "promoteFailedTitle": "Falha",
+      "promotedBody": "Uma cópia desta pergunta foi salva no “Banco de Perguntas”.",
+      "promotedTitle": "Adicionado ao banco",
+      "searchAria": "Pesquisar perguntas bancárias",
+      "searchPlaceholder": "Texto da pergunta de pesquisa…"
+    },
+    "breadcrumb": "Cursos · Construtor de Avaliação",
+    "checklist": {
+      "addQuestion": "Adicione pelo menos uma pergunta",
+      "addQuestionCta": "Adicionar pergunta",
+      "publish": "Publicar avaliação para alunos",
+      "publishBusy": "Publicando…",
+      "publishCta": "Publicar avaliação",
+      "publishingReason": "Publicação — aguarde um momento."
+    },
+    "create": {
+      "attemptsLabel": "Tentativas permitidas",
+      "courseEmpty": "Nenhum curso encontrado para selecionar. Um curso deve primeiro ser definido no sistema.",
+      "courseLabel": "Curso",
+      "coursePlaceholder": "— Selecione o curso —",
+      "createAction": "Criar avaliação",
+      "createBusy": "Criando…",
+      "descLabel": "Descrição (opcional)",
+      "descPlaceholder": "Uma breve descrição sobre esta avaliação…",
+      "dialogTitle": "Nova avaliação",
+      "dueAria": "Prazo de envio",
+      "dueLabel": "Data de vencimento (opcional)",
+      "durationLabel": "Duração (minutos)",
+      "kindAssignmentNote": "Tarefa: Os alunos enviam seus trabalhos de uma só vez (sem perguntas separadas).",
+      "kindLabel": "Tipo",
+      "kindQuizNote": "Questionário: Inclui questões separadas (múltipla escolha, resposta curta, dissertação).",
+      "lockdownLabel": "Modo de bloqueio (tela cheia + perda de foco do log/alternância de guias + cópia em bloco)",
+      "openAria": "Nova avaliação",
+      "proctoredLabel": "Exame cronometrado e supervisionado",
+      "requireIdentityLabel": "Verificação de identidade antes de iniciar (webcam + ID – visualização)",
+      "shuffleLabel": "Ordem aleatória das perguntas",
+      "titleLabel": "Título",
+      "titlePlaceholder": "por exemplo, exame intermediário"
+    },
+    "dialog": {
+      "cancel": "Cancelar",
+      "close": "Fechar"
+    },
+    "editor": {
+      "closeAria": "Fechar editor",
+      "emptyHint": "Selecione uma avaliação na lista para editar ou crie uma nova.",
+      "meta": "{questions, plural, one {# pergunta} other {# questões} one {# apontar} other {# pontos}}"
+    },
+    "error": {
+      "addQuestion": "Falha ao adicionar pergunta",
+      "create": "Falha ao criar avaliação",
+      "deleteQuestion": "Falha ao excluir a pergunta",
+      "insertFromBank": "Falha ao adicionar pergunta do banco",
+      "loadBank": "Falha ao carregar banco de perguntas",
+      "loadDetail": "Falha ao carregar detalhes da avaliação",
+      "loadList": "Falha ao carregar avaliações",
+      "promoteToBank": "Falha ao adicionar ao banco",
+      "publish": "Falha ao publicar avaliação",
+      "savePools": "Falha ao salvar pools",
+      "updateQuestion": "Falha ao atualizar a pergunta"
+    },
+    "form": {
+      "addTitle": "Adicionar pergunta",
+      "cancelEdit": "Cancelar edição",
+      "editTitle": "Editar pergunta",
+      "explanationLabel": "Explicação da resposta (mostrada após a avaliação, opcional)",
+      "explanationPlaceholder": "Explique por que a resposta correta está correta",
+      "fromBankAction": "Adicionar do banco de perguntas",
+      "hintLabel": "Dica para alunos (opcional)",
+      "hintPlaceholder": "Uma dica exibida durante a avaliação",
+      "kindLabel": "Tipo de pergunta",
+      "manualSuffix": "(Manual)",
+      "pointsLabel": "Pontos",
+      "promptLabel": "Solicitação de pergunta",
+      "promptPlaceholder": "Digite o texto da pergunta…",
+      "promptPlaceholderCloze": "Texto da pergunta; designe cada espaço em branco com ___…",
+      "saveAdd": "Adicionar pergunta à avaliação",
+      "saveBusy": "Salvando…",
+      "saveEdit": "Salvar alterações"
+    },
+    "help": {
+      "body": "Nesta página, você pode criar e gerenciar as avaliações e tarefas do curso. Use “Nova Avaliação” para criar uma, selecione-a na lista para adicionar perguntas (múltipla escolha, resposta curta, dissertação) e clique em “Publicar” para disponibilizá-la aos alunos quando estiver pronta.",
+      "title": "Ajuda do Construtor de Avaliação"
+    },
+    "kind": {
+      "assignment": "Tarefa",
+      "quiz": "Questionário"
+    },
+    "kpi": {
+      "draft": "Rascunho",
+      "published": "Publicado",
+      "total": "Avaliações totais"
+    },
+    "list": {
+      "empty": "Nenhuma avaliação criada ainda. Comece com \"Nova Avaliação\".",
+      "loading": "Carregando...",
+      "newAction": "Nova avaliação",
+      "title": "Lista de Avaliação"
+    },
+    "points": "{points, plural, one {# apontar} other {# pontos}}",
+    "pool": {
+      "addAction": "Adicionar pool",
+      "defaultTitle": "Piscina",
+      "difficultyAll": "Todos",
+      "difficultyEasy": "Fácil",
+      "difficultyHard": "Difícil",
+      "difficultyLabel": "Nível de dificuldade",
+      "difficultyMedium": "Médio",
+      "drawCountLabel": "Contagem de sorteios",
+      "empty": "Nenhum grupo definido — esta avaliação mostra todas as perguntas para cada aluno. Para sortear aleatoriamente, clique em \"Adicionar Pool\".",
+      "hint": "Se você definir grupos, um número específico de perguntas será selecionado aleatoriamente de cada grupo para cada aluno. As perguntas que não corresponderem a nenhum filtro serão sempre entregues a todos os alunos. Sem piscinas, todas as questões são apresentadas. Para equilibrar a dificuldade entre os alunos, em vez de um único conjunto não filtrado, crie um conjunto separado para cada nível de dificuldade (por exemplo, 5 fáceis + 10 médios + 5 difíceis).",
+      "matchLabel": "Perguntas que correspondem a este filtro:",
+      "overdraw": "{count, plural, one {— Você solicitou mais sorteios do que os disponíveis; todas as # perguntas correspondentes serão apresentadas.} other {— Você solicitou mais sorteios do que os disponíveis; todas as # perguntas correspondentes serão apresentadas.}}",
+      "removeAria": "Remover pool",
+      "rowLabel": "Piscina {index, number}",
+      "saveAction": "Salvar piscinas",
+      "saveBusy": "Salvando...",
+      "saved": "Salvo ✓",
+      "tagSeparator": ",",
+      "tagsLabel": "Tags (separadas por vírgula, opcionais)",
+      "tagsPlaceholder": "por exemplo, capítulo 2, derivado",
+      "title": "Conjuntos de perguntas (sorteio aleatório)",
+      "titleLabel": "Título do pool",
+      "titlePlaceholder": "por exemplo, perguntas fáceis"
+    },
+    "publish": {
+      "action": "Publicar",
+      "busy": "Publicando...",
+      "confirmBody": "\"{title}\" ficará imediatamente visível e disponível para os alunos iniciarem; o cancelamento da publicação não é possível nesta página.",
+      "confirmLabel": "Publicar avaliação",
+      "confirmTitle": "Publicar avaliação?",
+      "confirmWord": "Publicar"
+    },
+    "question": {
+      "deleteBody": "Esta pergunta será excluída; esta ação não pode ser desfeita.",
+      "deleteConfirm": "Excluir",
+      "deleteFailedTitle": "Falha na exclusão",
+      "deleteTitle": "Excluir pergunta"
+    },
+    "questions": {
+      "assignmentNote": "As tarefas não têm perguntas separadas; os alunos enviam suas respostas de uma só vez.",
+      "deleteAria": "Excluir pergunta",
+      "editAria": "Editar pergunta",
+      "empty": "Nenhuma pergunta adicionada ainda. Crie a primeira pergunta usando o formulário abaixo.",
+      "explanationLabel": "Explicação da resposta:",
+      "hintLabel": "Dica:",
+      "loading": "Carregando...",
+      "manualBadge": "· Classificação manual",
+      "promoteAria": "Adicionar ao banco de perguntas",
+      "promoteTitle": "Adicione esta pergunta ao banco de perguntas",
+      "title": "Perguntas de avaliação"
+    },
+    "status": {
+      "closed": "Fechado",
+      "draft": "Rascunho",
+      "published": "Publicado"
+    },
+    "subtitle": "Crie questionários e tarefas para suas aulas, adicione perguntas e publique quando estiver pronto.",
+    "title": "Construtor de questionário"
+  },
+  "chain": {
+    "0": "O gerente habilita o texto do formulário de consentimento.",
+    "1": "O gerente cria um projeto e convida candidatos.",
+    "2": "O candidato dá consentimento em “Minha Jornada de Avaliação”.",
+    "3": "O gerente cria exercícios e especifica a competência para cada exercício.",
+    "4": "O gestor atribui o avaliador a “Candidato × Exercício”.",
+    "5": "O avaliador registra provas e notas em seu próprio console.",
+    "6": "O gerente avança o status da jornada do candidato em direção ao resumo."
+  },
+  "coi": {
+    "blocked": "A atribuição não será habilitada até que todos os três itens sejam verificados.",
+    "intro": "Todos os três itens devem ser verificados; se pelo menos uma delas não for verdadeira, este avaliador não deverá ver este candidato.",
+    "questions": {
+      "0": {
+        "label": "Este avaliador não conhece o candidato antecipadamente (sem parentesco, amizade ou relação de trabalho próxima)."
+      },
+      "1": {
+        "label": "Eles não têm relacionamento organizacional direto (nem o gestor do outro)."
+      },
+      "2": {
+        "label": "Este avaliador não desempenha nenhum papel no emprego, promoção ou trajetória profissional do candidato."
+      }
+    },
+    "title": "Declaração de Conflito de Interesses"
+  },
+  "confirm": {
+    "disableCandidate": {
+      "body": "O convite para \"{name}*\" será rescindido e removido da lista de candidatos e da própria página \"Minha Jornada de Avaliação\". Esta ação não pode ser desfeita na página — mas se tiver ocorrido um erro, você poderá convidar a mesma pessoa novamente, somente antes que o consentimento seja registrado.",
+      "confirmLabel": "Revogar convite",
+      "title": "Revogar convite do candidato"
+    },
+    "disableExercise": {
+      "body": "O exercício “{name}” será desativado e imediatamente removido da lista de exercícios, relatório de cobertura e consoles de avaliadores; as atribuições para este exercício também serão invalidadas. Esta ação não pode ser desfeita na página. Se já tiverem sido registradas pontuações ou evidências para este exercício, o sistema não permitirá isso.",
+      "confirmLabel": "Desativar exercício",
+      "title": "Desativar exercício"
+    }
+  },
+  "console": {
+    "assignedAt": "Atribuído: {at}",
+    "candidateFallback": "Candidato",
+    "candidateStatusSuffix": "· Status: {status}",
+    "exerciseFallback": "Exercício",
+    "exerciseTimePrefix": "Tempo de exercício: {at} ·",
+    "eyebrow": "Centro de Avaliação",
+    "lead": "Sua lista de tarefas: Cada linha significa \"observar e avaliar este candidato neste exercício\". Você não verá atribuições de outros avaliadores.",
+    "loading": "Carregando…",
+    "projectPrefix": "Projeto: {project}",
+    "projectSuffix": "· Projeto: {project}",
+    "rateCta": "Enviar evidências e pontuação",
+    "rosterCta": "Lista de tarefas para este exercício",
+    "title": "Console do Avaliador"
+  },
+  "edgeRatingHint": "Os níveis de piso e teto não podem ser salvos sem evidências — registre pelo menos uma observação para esta competência antes do “Envio Final”.",
+  "empty": {
+    "noActiveConsent": {
+      "body": "Criar texto não é suficiente; ativar uma das versões para que os candidatos possam dar consentimento.",
+      "title": "Texto de consentimento criado, mas nenhuma versão está ativa"
+    },
+    "noAssignmentsAssessor": {
+      "body": "O console do avaliador é preenchido quando o gerente do centro de avaliação atribui a você um \"Candidato × Exercício\". Nenhuma ação será necessária de sua parte até então.",
+      "title": "Nenhuma tarefa foi gravada para você ainda"
+    },
+    "noCandidates": {
+      "body": "Selecione um candidato pesquisando seu nome; você não precisa saber o ID.",
+      "cta": "Adicionar candidato",
+      "title": "Ainda não há candidatos neste projeto"
+    },
+    "noCompetenciesOnExercise": {
+      "body": "Sem competências, não há nada para avaliar. As competências do exercício são definidas no console do gerenciador de avaliação.",
+      "title": "Nenhuma competência definida para este exercício"
+    },
+    "noConsentTexts": {
+      "body": "Os candidatos não podem dar consentimento até que um texto de consentimento seja criado e ativado.",
+      "cta": "Escreva o texto de consentimento",
+      "title": "Nenhum texto de consentimento foi gravado"
+    },
+    "noExercises": {
+      "body": "Um exercício significa uma entrevista, discussão em grupo, apresentação e assim por diante. Sem exercícios, não é possível designar um avaliador.",
+      "cta": "Adicionar exercício",
+      "title": "Nenhum exercício definido ainda"
+    },
+    "noJourney": {
+      "body": "Se você estiver aguardando um convite, o gerente do centro de avaliação da sua organização deverá adicioná-lo a um projeto. Após o convite, seu status aparecerá aqui.",
+      "title": "Você não é candidato em nenhum processo de avaliação"
+    },
+    "noProjectSelected": {
+      "body": "Abra um projeto no seletor na parte superior da página para ver sua visão geral, candidatos, exercícios e tarefas.",
+      "title": "Selecione um projeto"
+    },
+    "noProjects": {
+      "body": "Um projeto é o contentor de candidatos e exercícios de um ciclo de avaliação. Crie um para começar.",
+      "cta": "Crie o primeiro projeto",
+      "title": "Você ainda não tem nenhum projeto"
+    },
+    "noRoster": {
+      "body": "A atribuição de avaliadores aos candidatos é feita no console do gerenciador de avaliação.",
+      "title": "Nenhuma tarefa foi registrada para este exercício ainda"
+    }
+  },
+  "err": {
+    "generic": "Ocorreu um erro"
+  },
+  "exam": {
+    "done": {
+      "back": "Voltar",
+      "backCourse": "Voltar ao curso e visualizar o boletim",
+      "expired": "O tempo do exame expirou — respostas enviadas",
+      "resultCourse": "Você pode ver o resultado e o boletim deste exame na seção \"Exercícios e exames do curso\" (as questões dissertativas serão avaliadas após a revisão do instrutor).",
+      "resultGrades": "Os resultados serão anunciados após a classificação através de \"Notas\".",
+      "submitted": "Seu exame foi enviado"
+    },
+    "eyebrow": "Exame supervisionado",
+    "fallbackTitle": "Exame",
+    "loading": "Carregando...",
+    "lobby": {
+      "attemptsLabel": "🔁 Tentativas permitidas:",
+      "camError": "Não foi possível acessar a câmera. Você pode continuar sem ele – nenhuma imagem seria salva de qualquer maneira.",
+      "cancel": "Cancelar",
+      "cancelBack": "Cancelar e retornar ao curso",
+      "checkBrowser": "Navegador",
+      "checkBrowserOk": "Compatível ✓",
+      "checkFullscreen": "Modo tela cheia",
+      "checkFullscreenOk": "Disponível ✓",
+      "checkFullscreenUnknown": "Desconhecido",
+      "checkPresence": "Verificação de presença",
+      "checkPresenceDone": "Feito ✓",
+      "checkPresenceNoCam": "Sem câmera",
+      "checkPresencePending": "Verificação pendente",
+      "checkTitle": "Verificação e consentimento do sistema",
+      "confirmPresence": "Verifique a presença",
+      "consent": "Concordo com a supervisão do exame: eventos de saída de página, alternância de guias e copiar/colar, juntamente com o resultado da correspondência de identidade (nome e identificação nacional em comparação com os registros do sistema), são registrados apenas para fins de integridade do exame e revisados pelo instrutor. Nenhuma imagem ou áudio da sua câmera ou microfone é salvo ou transmitido. As decisões relativas à trapaça são tomadas por humanos, não automatizadas.",
+      "durationLabel": "⏱️ Duração:",
+      "durationMinutes": "{n} minutos",
+      "durationWindow": "Até o final da janela do exame",
+      "helpBody": "Este é um exame cronometrado. Clicar em “Iniciar” inicia o cronômetro, que não pode ser pausado. No modo bloqueado, a página entra em tela cheia e a saída da página, a troca de guias ou a cópia são registradas e informadas ao instrutor.",
+      "helpTitle": "Leia antes de começar",
+      "identityCardTitle": "Verificação de presença e autenticação de identidade (demonstração)",
+      "identityLabel": "🪪 Autenticação de identidade:",
+      "identityNotRequired": "Não obrigatório",
+      "identityRequired": "Obrigatório (verificação de presença + guia de demonstração)",
+      "identityWhat": "A imagem da câmera é exibida apenas neste dispositivo; nenhuma foto é tirada, salva ou enviada. O que é registrado para o instrutor é o resultado da correspondência do seu nome e identidade nacional com o perfil do sistema (guia de demonstração).",
+      "lockdownLabel": "🛡️ Modo Lockdown (anti-cheat):",
+      "lockdownOff": "Desativado",
+      "lockdownOn": "Habilitado",
+      "presenceDone": "✓ Sua presença foi verificada. Nenhuma imagem foi salva ou enviada; você pode começar o exame.",
+      "questionCountLabel": "❓ Contagem de perguntas:",
+      "startCta": "Iniciar exame"
+    },
+    "room": {
+      "answeredOf": "{done} de {total} respondido",
+      "finish": "Finalizando exame...",
+      "flag": "⚐ Sinalizar para revisão",
+      "flags": "Violações: {n}",
+      "legendAnswered": "✓ Respondido",
+      "legendCurrent": "● Atual",
+      "legendEmpty": "Vazio",
+      "legendFlagged": "⚑ Sinalizado",
+      "next": "Próxima pergunta ›",
+      "noQuestions": "Este exame não tem perguntas.",
+      "prev": "‹Pergunta anterior",
+      "questionAria": "Pergunta {n}",
+      "questionMeta": "Pergunta {n} de {total} · {points} pts",
+      "reviewFinish": "Revise e finalize",
+      "saved": "Salvo ✓",
+      "saving": "Salvando…",
+      "unflag": "⚑ Sinalizado para revisão"
+    },
+    "signInCta": "Faça login",
+    "signInLead": "Você deve fazer login para fazer o exame.",
+    "submit": {
+      "back": "Voltar ao exame",
+      "confirm": "Envio final",
+      "flaggedLabel": "Sinalizado para revisão:",
+      "title": "Concluir exame",
+      "totalQuestions": "Perguntas totais:",
+      "unansweredHint": "- você ainda pode responder",
+      "unansweredLabel": "Sem resposta:",
+      "warning": "Depois de enviadas, as respostas não poderão ser alteradas."
+    },
+    "submitFailedTitle": "Falha no envio"
+  },
+  "exerciseKind": {
+    "group_discussion": {
+      "hint": "Vários candidatos discutem uma questão enquanto um avaliador observa.",
+      "label": "Discussão em grupo"
+    },
+    "in_basket": {
+      "hint": "O candidato lida com um conjunto de cartas e tarefas simuladas.",
+      "label": "Cesta de entrada"
+    },
+    "interview": {
+      "hint": "Uma conversa estruturada entre o avaliador e o candidato.",
+      "label": "Entrevista"
+    },
+    "presentation": {
+      "hint": "O candidato faz uma apresentação sobre um tema.",
+      "label": "Apresentação"
+    },
+    "role_play": {
+      "hint": "O candidato assume um papel em uma situação simulada.",
+      "label": "Dramatização"
+    },
+    "tool": {
+      "hint": "Teste ou questionário padronizado.",
+      "label": "Teste de ferramenta"
+    }
+  },
+  "formHint": {
+    "assessorRatio": "Opcional — número máximo de candidatos por avaliador. Isto é apenas para avisos de relatórios de cobertura e não bloqueia o trabalho.",
+    "assessorSearch": "Digite o nome do avaliador (pelo menos 3 caracteres) e selecione. Essa pessoa deve ter a função de \"Assessor\" (ou gerente/administrador de avaliação), caso contrário a tarefa não será salva.",
+    "candidateSearch": "Digite o nome ou e-mail da pessoa (pelo menos 3 caracteres) e selecione na lista.",
+    "clientOrg": "Opcional — nome da organização cliente, se este centro for administrado por outra organização.",
+    "competencyPick": "Verifique as competências que este exercício avalia.",
+    "consentBody": "Texto que o candidato lê e aceita antes de começar.",
+    "consentVersion": "Número da versão, por ex. \"v1\". Uma nova versão desativa a anterior.",
+    "exerciseDuration": "Opcional — Duração do exercício em minutos.",
+    "exerciseName": "O nome dos avaliadores vê, por exemplo, \"Entrevista Baseada em Competências\".",
+    "exerciseSchedule": "Opcional — Data e hora da sessão.",
+    "jobFamily": "Opcional — Família de tarefas alvo para este projeto; deixe em branco se não tiver certeza.",
+    "minMethods": "Opcional — Número mínimo de métodos com os quais cada competência deve ser avaliada. Este é apenas um aviso consultivo.",
+    "projectCode": "Um identificador curto e exclusivo para seu próprio uso, por exemplo, \"AC-1404-01\".",
+    "projectName": "O nome mostrado nas listas, por exemplo, \"Centro de avaliação de gerentes intermediários - outono\".",
+    "withdrawReason": "O motivo da retirada é obrigatório e será permanentemente registrado no registro de eventos."
+  },
+  "glossary": {
+    "0": {
+      "meaning": "Um método para avaliar indivíduos em que vários avaliadores observam uma única pessoa em diferentes exercícios e os pontuam de forma independente.",
+      "term": "Centro de Avaliação"
+    },
+    "1": {
+      "meaning": "Um ciclo completo de centro de avaliação para um grupo específico de indivíduos; contêiner para candidatos e exercícios.",
+      "term": "Projeto"
+    },
+    "10": {
+      "meaning": "Uma reunião onde os avaliadores se reúnem após a conclusão dos exercícios para chegar a uma pontuação acordada (consenso) para cada candidato × competência.",
+      "term": "Lavagem"
+    },
+    "11": {
+      "meaning": "A pontuação final é determinada durante a reunião de encerramento por meio de consenso do grupo, substituindo as pontuações brutas dos avaliadores individuais.",
+      "term": "Consenso"
+    },
+    "12": {
+      "meaning": "Quando a gama de pontuações brutas de diferentes avaliadores para um candidato x competência é ampla (discrepância) — uma indicação de que é necessária uma discussão mais aprofundada antes de registar a pontuação de consenso.",
+      "term": "Variância"
+    },
+    "2": {
+      "meaning": "O indivíduo que está sendo avaliado neste projeto. Cada candidato tem uma “jornada” com status sequenciais.",
+      "term": "Candidato"
+    },
+    "3": {
+      "meaning": "Uma atividade de avaliação, como entrevista, discussão em grupo, apresentação ou caixa de entrada.",
+      "term": "Exercício"
+    },
+    "4": {
+      "meaning": "A capacidade observável que está sendo avaliada (por exemplo, \"Tomada de decisão\" ou \"Trabalho em equipe\"). Cada exercício avalia múltiplas competências.",
+      "term": "Competência"
+    },
+    "5": {
+      "meaning": "Uma pessoa que observa o candidato durante um exercício e avalia-o independentemente de outros avaliadores.",
+      "term": "Avaliador"
+    },
+    "6": {
+      "meaning": "A ligação entre “este avaliador × este candidato × este exercício”. A única coisa que dá permissão ao avaliador para registrar evidências e pontuações.",
+      "term": "Alocação"
+    },
+    "7": {
+      "meaning": "Uma nota comportamental objetiva registrada pelo avaliador durante o exercício; serve de base para a pontuação.",
+      "term": "Evidência"
+    },
+    "8": {
+      "meaning": "Texto aceito pelo candidato antes de iniciar. Definido no nível da organização, não no projeto; apenas uma versão está ativa por vez.",
+      "term": "Formulário de consentimento"
+    },
+    "9": {
+      "meaning": "Um relatório consultivo sobre quantos métodos avaliam cada competência e se a carga de trabalho de algum avaliador excede a meta. É um aviso, não um bloqueador.",
+      "term": "Cobertura de Avaliação"
+    }
+  },
+  "help": {
+    "chainHeading": "A jornada completa, do início ao fim",
+    "glossaryHeading": "Glossário",
+    "helpCta": "Ajuda",
+    "ifEmptyHeading": "Se a página estiver vazia",
+    "rolesHeading": "Quem faz o quê",
+    "youCanHeading": "O que você pode fazer aqui"
+  },
+  "hub": {
+    "cta": {
+      "assignment": "Enviar tarefa",
+      "closed": "Fechado",
+      "exam": "Entrar no exame",
+      "quiz": "Iniciar teste"
+    },
+    "due": "Vencimento: {date}",
+    "empty": "Nenhum exame publicado está disponível para você.",
+    "eyebrow": "Educação · Avaliação e Avaliação",
+    "help": {
+      "body": "Esta é uma lista de exames e tarefas publicadas. Os exames supervisionados são realizados em uma sala de exame cronometrada com verificação de identidade; questionários e tarefas estão na página de respostas. Você deve estar matriculado no curso relevante para entrar.",
+      "title": "Guia do exame"
+    },
+    "kpi": {
+      "open": "Abrir",
+      "proctored": "Supervisionado",
+      "total": "Total"
+    },
+    "lead": "Exames e tarefas disponíveis para você. Para começar, clique em \"Entrar no exame\".",
+    "loadError": "Falha ao carregar exames",
+    "loading": "Carregando…",
+    "minutes": "{n} minutos",
+    "points": "Pontos {n}",
+    "status": {
+      "closed": "Fechado",
+      "draft": "Rascunho",
+      "published": "Abrir"
+    },
+    "title": "Exames e Avaliações",
+    "type": {
+      "assignment": "Tarefa",
+      "proctored": "Exame supervisionado",
+      "quiz": "Questionário"
+    }
+  },
+  "journey": {
+    "consentCta": "Aceitar formulário de consentimento",
+    "consentIntro": "Para começar, você deve ler e aceitar o texto abaixo. Até que isso seja feito, seu processo não prosseguirá.",
+    "eyebrow": "Centro de Avaliação",
+    "lastChangeLabel": "Última alteração de status:",
+    "lead": "Seu status no processo de avaliação de competências. A única ação necessária de sua parte é aceitar o formulário de consentimento; o organizador registrará as etapas restantes.",
+    "loading": "Carregando…",
+    "noActionNeeded": "Nenhuma ação é exigida de você; o organizador registrará a próxima etapa.",
+    "noActiveConsent": "Nenhum formulário de consentimento ativo disponível — isso significa que o organizador ainda não ativou o texto de consentimento. Nenhuma ação será necessária de sua parte até então.",
+    "title": "Minha jornada de avaliação"
+  },
+  "judge": {
+    "badge": {
+      "running": "Julgando…"
+    },
+    "case": {
+      "hiddenSuffix": "(oculto)",
+      "label": "Caso {n}",
+      "stats": "{ms}ms · Pontos {points}"
+    },
+    "hidden": {
+      "summary": "Casos ocultos: {passed} de {total} aprovado"
+    },
+    "score": "Pontuação: {score} de {max}",
+    "title": "Julgamento Automático de Código",
+    "verdict": {
+      "accepted": "Aceito",
+      "compile_error": "Erro de compilação",
+      "error": "Erro de julgamento",
+      "mle": "Limite de memória excedido",
+      "runtime_error": "Erro de tempo de execução",
+      "tle": "Limite de tempo excedido",
+      "wrong_answer": "Resposta errada"
+    }
+  },
+  "live": {
+    "ai": {
+      "confidence": "Confiança:",
+      "humanReview": "Requer revisão humana",
+      "note": "Esta é apenas uma sugestão – a nota final requer a aprovação do instrutor.",
+      "requestCta": "Solicitar rascunho",
+      "suggested": "Nota sugerida:",
+      "title": "Rascunho de classificação de IA"
+    },
+    "assignment": {
+      "add": "Adicionar arquivo",
+      "filesLabel": "Arquivos anexados (PDF, Word, imagem, ZIP — máximo 5 MB)",
+      "remove": "Remover",
+      "textLabel": "Sua resposta (texto)",
+      "textPlaceholder": "Escreva a explicação/resposta da sua tarefa (opcional se anexar um arquivo)…"
+    },
+    "attach": {
+      "badType": "Tipo de arquivo não permitido (PDF, imagem, Word, ZIP ou texto).",
+      "readFailed": "Falha ao ler o arquivo.",
+      "tooLarge": "O tamanho do arquivo deve ser inferior a 5 MB.",
+      "tooMany": "Máximo de 8 arquivos permitidos."
+    },
+    "backCatalog": "Voltar ao catálogo",
+    "backCourse": "De volta ao curso",
+    "confirm": {
+      "body": "Depois de enviadas, suas respostas não poderão ser alteradas.",
+      "cancelLabel": "Cancelar",
+      "confirmLabel": "Enviar",
+      "title": "Envio Final"
+    },
+    "due": "Vencimento: {date}",
+    "finalGrade": "Nota final",
+    "help": {
+      "body": "Nesta página, você responde às perguntas do teste. Para questões de múltipla escolha, selecione uma opção e, para questões descritivas, escreva sua resposta. Use “Salvar rascunho” para manter temporariamente suas respostas e “Enviar” para entregar o teste; após o envio final não serão permitidas alterações e será exibida a nota automática.",
+      "title": "Guia de resposta de teste"
+    },
+    "loading": "Carregando...",
+    "noQuestions": "Este teste ainda não tem perguntas.",
+    "notice": {
+      "aiFailed": "Falha na análise",
+      "draftFailed": "Falha ao salvar",
+      "gradeMsg": "Nota: {grade} de 100",
+      "pendingMsg": "Os resultados serão publicados após revisão.",
+      "submitFailed": "Falha no envio",
+      "submittedTitle": "Enviado"
+    },
+    "outOf100": "/ 100",
+    "points": "Ponto {n}, plural: {n, plural, um ponto {{n}} outros pontos {{n}}}",
+    "questionMeta": "Pergunta {n} · {points} pontos",
+    "saveDraft": "Salvar rascunho",
+    "signIn": {
+      "cta": "Faça login",
+      "title": "Faça login para fazer o teste"
+    },
+    "status": {
+      "draft": "Rascunho",
+      "graded": "Classificado",
+      "submitted": "Enviado"
+    },
+    "submitFinal": "Enviar final",
+    "submitting": "Enviando..."
+  },
+  "notice": {
+    "assignmentCreated": "Trabalho gravado. O avaliador verá agora esta linha em seu console.",
+    "candidateAdded": "Candidato convidado. Próximo passo: definir seus exercícios e competências.",
+    "candidateDisabled": "Convite do candidato revogado. Se isso foi um erro, você pode convidar a mesma pessoa novamente.",
+    "competenciesSaved": "Competências de exercício salvas. Próximo passo: atribuir um avaliador ao candidato.",
+    "consentActivated": "Formulário de consentimento ativado. Próximo passo: criar um projeto e convidar candidatos.",
+    "consentCreatedInactive": "Formulário de consentimento criado — mas ainda não ativo. Próximo passo: clique em “Ativar” nesta versão.",
+    "exerciseAdded": "Exercício adicionado. Próximo passo: selecione as competências para este exercício.",
+    "exerciseDisabled": "Exercício desativado e removido de listas e relatórios de cobertura.",
+    "exerciseUpdated": "Exercício atualizado.",
+    "projectActivated": "Projeto ativado. A configuração está concluída.",
+    "projectClosed": "Projeto encerrado.",
+    "projectCreated": "Projeto criado. Próximo passo: convidar candidatos.",
+    "projectUpdated": "Detalhes do projeto atualizados.",
+    "transitionApplied": "Situação do candidato atualizada."
+  },
+  "pageHelp": {
+    "adminConsole": {
+      "ifEmpty": "Se você não vir nenhum projeto, nada foi criado ainda. Comece na etapa dois da lista de verificação.",
+      "intro": "Esta página é a sala de controle do centro de avaliação. Primeiro, abra um projeto usando o seletor na parte superior e, em seguida, trabalhe nesse projeto nas guias \"Visão geral\", \"Candidatos\", \"Exercícios\" e \"Tarefas\". A guia \"Configurações\" está no nível da organização e não está vinculada a um projeto. Toda a configuração tem seis etapas, e a lista de verificação “Visão geral” sempre mostra qual etapa foi concluída e qual é a próxima.",
+      "title": "Guia do Admin Console de avaliação",
+      "youCan": {
+        "0": "Escreva e ative um formulário de consentimento.",
+        "1": "Crie, ative ou feche um projeto de avaliação.",
+        "2": "Convide um candidato pesquisando seu nome (não é necessário saber nenhum documento de identidade).",
+        "3": "Crie exercícios e selecione suas competências na lista.",
+        "4": "Designar um avaliador para “candidato × exercício”.",
+        "5": "Avance o status da jornada de cada candidato em uma etapa.",
+        "6": "Veja o relatório de cobertura consultiva.",
+        "7": "Na aba “Relatórios e Publicação”, visualize o relatório R2 e publique ou cancele após consenso.",
+        "8": "Na guia \"Analytics\", visualize o relatório agregado, a confiabilidade entre avaliadores (ICC), a calibração do avaliador e as classificações dos candidatos.",
+        "9": "Desfaça erros: edite detalhes de projetos e exercícios, desative exercícios redundantes e revogue convites incorretos antes que o consentimento seja registrado."
+      }
+    },
+    "assessorConsole": {
+      "ifEmpty": "Se esta lista estiver vazia, o gestor do centro de avaliação ainda não lhe atribuiu nenhum candidato × exercício. Até que essa tarefa seja feita, não há nada para você fazer nesta página.",
+      "intro": "Esta é a sua lista pessoal de tarefas: cada linha significa “você precisa observar e pontuar este candidato neste exercício”. Você não verá as atribuições de outros avaliadores — isso é intencional para preservar a independência da pontuação.",
+      "title": "Guia do Console do Avaliador",
+      "youCan": {
+        "0": "Veja a lista de exercícios e candidatos atribuídos a você.",
+        "1": "Insira a planilha de pontuação para cada linha, registre as evidências e atribua pontuações.",
+        "2": "No cartão \"Minha Calibração\", visualize seu próprio viés de pontuação e precisão em relação à pontuação de consenso (somente seus dados — sem comparação com outros avaliadores)."
+      }
+    },
+    "candidateJourney": {
+      "ifEmpty": "Se você não vir nada aqui, significa que ainda não foi convidado como candidato para nenhum projeto de avaliação. O convite é gerenciado pelo gerente do centro de avaliação da organização.",
+      "intro": "Esta página mostra seu status no processo de avaliação. À medida que cada etapa é concluída, seu status avança. A única ação que você precisa realizar é aceitar o formulário de consentimento; as demais etapas são registradas pelo organizador.",
+      "title": "Meu Guia de Jornada de Avaliação",
+      "youCan": {
+        "0": "Veja seu status atual e o que isso significa.",
+        "1": "Na primeira etapa, leia e aceite o termo de consentimento."
+      }
+    },
+    "managerReport": {
+      "ifEmpty": "Se nenhuma competência for exibida, significa que este candidato ainda não completou uma sessão de lavagem da qual uma pontuação de consenso possa ser extraída.",
+      "intro": "Ao contrário do relatório publicado, esta página nunca é mostrada ao candidato. Aqui você pode ver a pontuação de consenso para cada competência junto com as notas de discussão da sessão, a narrativa gravada e o emblema de discrepância estatística (comparando a pontuação de consenso com a média/mediana mecânica das pontuações brutas) — para revisar a qualidade do processo de consenso em si, não para exibição pública.",
+      "title": "Guia de Relatório do Gerente Interno (R2)",
+      "youCan": {
+        "0": "Veja a pontuação de consenso para cada competência e as notas de discussão da sessão de encerramento.",
+        "1": "Revise a narrativa do resultado registrada para o candidato.",
+        "2": "Verifique o selo de discrepância e a média/mediana mecânica de cada competência para avaliação de qualidade."
+      }
+    },
+    "myReport": {
+      "ifEmpty": "Se você não vir um relatório, significa que seu processo de avaliação ainda não foi concluído ou que o gerente do centro de avaliação ainda não publicou o relatório.",
+      "intro": "Esta página mostra seu relatório de avaliação publicado. O conteúdo do relatório é congelado pelo gestor do centro de avaliação no momento da publicação; qualquer emblema próximo a uma competência indica de quantas observações esse nível foi derivado e se ele se baseia na chave/definição final ou em um rascunho.",
+      "title": "Guia do meu relatório de avaliação",
+      "youCan": {
+        "0": "Veja o seu relatório publicado para qualquer projeto/ciclo em que você foi candidato.",
+        "1": "Leia o selo de transparência de cada competência para entender de onde veio o resultado.",
+        "2": "Imprima o relatório ou salve-o em PDF."
+      }
+    },
+    "rating": {
+      "ifEmpty": "Se nenhuma competência for exibida, significa que ainda não foi definida nenhuma competência para este exercício; o gestor do centro de avaliação deve fazer isso.",
+      "intro": "Aqui, para um candidato em um exercício, você primeiro registra evidências comportamentais (notas objetivas do que viu) e depois pontua cada competência. A partitura permanece editável até ser “finalizada”; após a finalização, o nível só poderá ser modificado mediante apresentação de motivo.",
+      "title": "Guia de evidências e pontuação",
+      "youCan": {
+        "0": "Registre evidências comportamentais.",
+        "1": "Escreva e salve o nível e a justificativa para cada competência.",
+        "2": "Finalize a pontuação (ação unilateral).",
+        "3": "Após a finalização, modifique o nível, se necessário, enviando um motivo."
+      }
+    },
+    "roster": {
+      "ifEmpty": "Se não houver linhas, significa que ainda não foi atribuída nenhuma avaliação a este exercício; isso é feito no console do gerenciador de avaliação.",
+      "intro": "Esta página mostra qual avaliador está observando qual candidato em um exercício específico. O gerente vê todas as linhas; um avaliador só tem acesso a esta página se estiver atribuído a este mesmo exercício.",
+      "title": "Guia da lista de tarefas de exercícios",
+      "youCan": {
+        "0": "Veja quantas atribuições um exercício possui e quantos avaliadores cada candidato possui.",
+        "1": "Distinga suas próprias linhas das demais.",
+        "2": "Vá para a planilha de pontuação de suas próprias linhas."
+      }
+    },
+    "washup": {
+      "ifEmpty": "Se você não vir esta sessão, significa que ainda não foi adicionado como participante; isso é feito pelo gerente do centro de avaliação.",
+      "intro": "Esta sala é a sessão de debriefing dos avaliadores: o gestor define a agenda e abre a sessão; em seguida, os participantes (gerente e membros avaliadores) discutem cada candidato x competência e registram uma pontuação de consenso. A sessão é bloqueada com duas aprovações separadas, após as quais o resumo é final.",
+      "title": "Guia da sala de lavagem",
+      "youCan": {
+        "0": "Visualize a agenda (candidatos) e participantes ou — se você for gerente — edite-os.",
+        "1": "Para cada candidato × competência, visualize as pontuações brutas, a faixa de desvio e a recomendação calculada dos avaliadores.",
+        "2": "Se você for gerente, registre a pontuação de consenso com notas de discussão e bloqueie a sessão.",
+        "3": "Após o bloqueio, acesse o relatório R2 para visualizar e publicar."
+      }
+    }
+  },
+  "proctor": {
+    "action": {
+      "cleared": "Limpo (Normal)",
+      "concern": "Sinalizar como preocupação",
+      "undo": "Desfazer revisão"
+    },
+    "analysis": {
+      "basis": "Com base nas folhas de respostas finalizadas {n}. A porcentagem de acertos é calculada apenas para perguntas automatizadas.",
+      "manual": "Manuais",
+      "percent": "{n}%",
+      "thCorrect": "% correta",
+      "thKind": "Tipo",
+      "thPoints": "Pontuação",
+      "thQuestion": "Pergunta",
+      "thResponses": "Respostas",
+      "title": "Análise de perguntas"
+    },
+    "builderCta": "Construtor de questionário",
+    "decision": {
+      "cleared": "Limpo (Normal)",
+      "concern": "Preocupação"
+    },
+    "empty": "Ninguém fez essa avaliação ainda.",
+    "event": {
+      "context_menu": "Clique com o botão direito",
+      "copy": "Copiar",
+      "cut": "Cortar",
+      "fullscreen_exit": "Sair da tela cheia",
+      "paste": "Colar",
+      "tab_blur": "Desfoque de guia",
+      "window_blur": "Desfoque de janela"
+    },
+    "eyebrow": "Fiscalização · Revisão Humana",
+    "fallbackTitle": "Avaliação",
+    "help": {
+      "body": "O sistema apenas \"sinaliza\" eventos (sair da página, mudar de aba, copiar, etc.); a decisão final cabe a você. Você pode marcar cada item como “Limpo (Normal)” ou “Preocupação” e deixar uma nota. Ser sinalizado não significa automaticamente trapaça e nenhuma expulsão ou classificação automática é aplicada.",
+      "title": "Guia de revisão do inspetor"
+    },
+    "identity": {
+      "failed": "Falha",
+      "partial": "Parcial",
+      "verified": "✓ Verificado"
+    },
+    "kpi": {
+      "attempts": "Tentativas",
+      "flagged": "Sinalizado",
+      "reviewed": "Revisado"
+    },
+    "lead": "Revise os eventos registrados e tome uma decisão para cada participante. Nenhuma decisão é tomada automaticamente.",
+    "loading": "Carregando...",
+    "noEvents": "Nenhum evento suspeito registrado.",
+    "notePlaceholder": "Nota de revisão (opcional)...",
+    "notice": {
+      "failedTitle": "Falha no envio",
+      "savedMsg": "Decisão de revisão salva",
+      "savedTitle": "Salvo"
+    },
+    "refreshCta": "Atualizar",
+    "reviewedAt": "Última revisão: {date}",
+    "row": {
+      "close": "Fechar detalhes",
+      "flags": "Sinalizador {n}, sinalizadores {n} plurais",
+      "identity": "Identidade: {value}",
+      "openEvents": "Ver eventos ({n})",
+      "status": "Estado: {value}"
+    },
+    "status": {
+      "expired": "Expirado",
+      "running": "Em andamento",
+      "submitted": "Enviado"
+    },
+    "title": "Revisão da avaliação: {title}"
+  },
+  "projectStatus": {
+    "active": {
+      "label": "Ativo",
+      "meaning": "A execução está em andamento."
+    },
+    "closed": {
+      "label": "Fechado",
+      "meaning": "O projeto terminou."
+    },
+    "draft": {
+      "label": "Rascunho",
+      "meaning": "Em preparação; a execução ainda não começou."
+    }
+  },
+  "qfields": {
+    "choice": {
+      "addOption": "Adicionar opção",
+      "correctAria": "A opção {n} está correta",
+      "feedbackHide": "Ocultar feedback da opção",
+      "feedbackNote": "O feedback para cada opção é exibido depois que o aluno responde (ao revisar os resultados) — ele nunca é enviado antes da resposta.",
+      "feedbackPlaceholder": "Opção Feedback {n} (opcional – exibido ao revisar os resultados)",
+      "feedbackShow": "Feedback para cada opção (opcional)",
+      "labelMulti": "Opções (marque todas as respostas corretas)",
+      "labelSingle": "Opções (selecione a resposta correta)",
+      "optionPlaceholder": "Opção {n}"
+    },
+    "code": {
+      "addTest": "Adicionar caso de teste",
+      "expectedLabel": "Resultado esperado",
+      "hiddenLabel": "Oculto",
+      "judgeLangNote": "A avaliação automática está disponível apenas para linguagens python/javascript/c/cpp.",
+      "judgeNote": "O código do aluno é executado em cada caso de teste; se o resultado do programa corresponder ao resultado esperado, serão atribuídos pontos para esse caso. Os casos ocultos não são mostrados ao aluno.",
+      "judgeToggle": "Classificação automática (Juiz Online)",
+      "languageLabel": "Idioma",
+      "memLimitLabel": "Limite de memória (MB)",
+      "pointsLabel": "Pontos",
+      "refLabel": "Solução de referência (opcional)",
+      "refPlaceholder": "# Solução de referência para classificação…",
+      "removeTestAria": "Remover caso {n}",
+      "stdinLabel": "Entrada (stdin)",
+      "testTitle": "Caso de teste {n}",
+      "timeLimitLabel": "Limite de tempo (ms)"
+    },
+    "dragDrop": {
+      "addItem": "Adicionar item",
+      "addTarget": "Adicionar destino",
+      "itemPlaceholder": "Item {n}",
+      "itemsLabel": "Itens",
+      "keyLabel": "Chave — A qual alvo cada item pertence?",
+      "note": "Cada “item” deve ser atribuído a um “alvo”. Os alunos podem arrastar e soltar ou selecionar na lista (acessível).",
+      "targetPlaceholder": "Alvo {n}",
+      "targetsLabel": "Alvos"
+    },
+    "fillBlank": {
+      "answerPlaceholder": "Resposta em branco {n}",
+      "none": "Ainda não há espaços em branco (___) no texto da pergunta.",
+      "note": "Indique cada espaço em branco na \"base da pergunta\" usando três sublinhados <b>___</b>. Em seguida, digite a resposta para cada espaço em branco em ordem.",
+      "rowLabel": "{n} em branco"
+    },
+    "formula": {
+      "refLabel": "Resposta de referência (opcional)",
+      "refPlaceholder": "por exemplo: a ^ 2 + b ^ 2 = c ^ 2"
+    },
+    "hotspot": {
+      "addRegion": "Adicionar região",
+      "axis": {
+        "h": "Altura %",
+        "w": "Largura %",
+        "x": "% horizontal",
+        "y": "% verticais"
+      },
+      "changeImage": "Alterar imagem",
+      "correctAria": "Região {n} correta",
+      "emptyNote": "Faça upload de uma imagem, defina regiões clicáveis e marque a região correta.",
+      "labelPlaceholder": "Rótulo de região {n}",
+      "regionDefaultLabel": "Região {n}",
+      "removeRegion": "Remover região",
+      "tooLargeMsg": "Máximo de {mb} MB",
+      "tooLargeTitle": "A imagem é muito grande",
+      "uploadImage": "Carregar imagem"
+    },
+    "list": {
+      "removeRow": "Remover"
+    },
+    "manual": {
+      "essay": "Os alunos escrevem uma resposta dissertativa; a classificação é feita manualmente (ou via rascunho AI).",
+      "fileUpload": "Os alunos carregam um arquivo como resposta; a classificação é manual.",
+      "formula": "Os alunos inserem uma expressão matemática; a classificação é manual. Opcionalmente, insira uma resposta de referência para facilitar a avaliação."
+    },
+    "matching": {
+      "add": "Adicionar",
+      "itemPlaceholder": "Item {n}",
+      "keyLabel": "Chave de correspondência — Selecione a correspondência correta para cada item à direita",
+      "leftLabel": "Coluna direita (itens)",
+      "matchPlaceholder": "Correspondência {n}",
+      "rightLabel": "Coluna da esquerda (correspondências)"
+    },
+    "numeric": {
+      "toleranceLabel": "Tolerância permitida (±)",
+      "valueLabel": "Resposta numérica",
+      "valuePlaceholder": "por exemplo, 3,14"
+    },
+    "ordering": {
+      "add": "Adicionar item",
+      "itemPlaceholder": "Item {n} (posição {n})",
+      "label": "Insira os itens na ordem correta (serão exibidos embaralhados para os alunos)"
+    },
+    "shortAnswer": {
+      "add": "Adicionar resposta alternativa",
+      "label": "Respostas aceitas (cada uma conta como correta — sem distinção entre maiúsculas e minúsculas)",
+      "placeholder": "Uma resposta correta…"
+    },
+    "trueFalse": {
+      "false": "Falso",
+      "label": "Resposta correta",
+      "true": "Verdadeiro"
+    }
+  },
+  "qkind": {
+    "code": {
+      "hint": "Código — classificação manual (avaliação automatizada posterior)",
+      "label": "Código/Programa"
+    },
+    "drag_drop": {
+      "hint": "Atribuir itens aos alvos (com clique para substituir)",
+      "label": "Arrastar e soltar"
+    },
+    "essay": {
+      "hint": "Resposta longa – avaliação manual",
+      "label": "Ensaio"
+    },
+    "file_upload": {
+      "hint": "Carregar arquivo de resposta — avaliação manual",
+      "label": "Upload de arquivo"
+    },
+    "fill_blank": {
+      "hint": "Texto com ___; cada espaço em branco tem uma resposta",
+      "label": "Preencha o espaço em branco"
+    },
+    "formula": {
+      "hint": "Expressão matemática — classificação manual",
+      "label": "Fórmula/Matemática"
+    },
+    "hotspot": {
+      "hint": "Clique na área correta de uma imagem",
+      "label": "Ponto de acesso"
+    },
+    "matching": {
+      "hint": "Conecte itens de duas colunas",
+      "label": "Correspondência"
+    },
+    "multi_select": {
+      "hint": "Várias opções corretas (caixas de seleção)",
+      "label": "Seleção múltipla"
+    },
+    "multiple_choice": {
+      "hint": "Uma ou mais respostas corretas das opções",
+      "label": "Múltipla Escolha"
+    },
+    "numeric": {
+      "hint": "Um número com tolerância permitida (automático)",
+      "label": "Numérico"
+    },
+    "ordering": {
+      "hint": "Organize os itens na ordem correta",
+      "label": "Pedido"
+    },
+    "short_answer": {
+      "hint": "Uma palavra/frase; correspondência exata (automática)",
+      "label": "Resposta curta"
+    },
+    "true_false": {
+      "hint": "Duas opções: Verdadeiro ou Falso",
+      "label": "Verdadeiro/Falso"
+    }
+  },
+  "qvalid": {
+    "dragDropKey": "Selecione o alvo correto para cada item.",
+    "dragDropMin": "Pelo menos um item e um alvo são necessários.",
+    "fillBlankAll": "Insira respostas para todos os espaços em branco.",
+    "fillBlankMin": "Inclua pelo menos um espaço em branco no texto da pergunta usando ___ (três sublinhados).",
+    "hotspotCorrect": "Marque a região correta.",
+    "hotspotImage": "Carregue uma imagem.",
+    "hotspotRegion": "Defina pelo menos uma região na imagem.",
+    "judgeLanguage": "Para julgamento automatizado, a linguagem deve ser python/javascript/c/cpp.",
+    "judgeMaxPoints": "A pontuação máxima para cada caso de teste é {n}.",
+    "judgeMaxTests": "É permitido um máximo de casos de teste {n}.",
+    "judgePointsMin": "Os pontos para cada caso de teste devem ser pelo menos 1.",
+    "judgeTestsMin": "O julgamento automatizado requer pelo menos um caso de teste com um resultado esperado.",
+    "matchingColumns": "Cada coluna requer pelo menos dois itens.",
+    "matchingKey": "Selecione a correspondência correta na lista para cada item.",
+    "multiSelectCorrect": "Marque pelo menos uma opção correta.",
+    "numericTolerance": "A tolerância deve ser um número não negativo.",
+    "numericValue": "Insira uma resposta numérica válida.",
+    "optionsMin": "São necessárias pelo menos duas opções.",
+    "orderingMin": "Pelo menos dois itens são necessários para fazer o pedido.",
+    "pointsMin": "A pontuação deve ser de pelo menos 1.",
+    "promptMin": "O prompt deve ter pelo menos 2 caracteres.",
+    "shortAnswerMin": "Insira pelo menos uma resposta aceita.",
+    "singleCorrect": "Selecione a opção correta."
+  },
+  "rating": {
+    "badgeDraft": "Rascunho",
+    "badgeSubmitted": "Enviado",
+    "cancel": "Cancelar",
+    "correctCta": "Revisar pontuação",
+    "correctedLevelLabel": "Nível revisado",
+    "correctionReasonHint": "Obrigatório — O motivo será registrado permanentemente no log de auditoria.",
+    "correctionReasonLabel": "Motivo da Revisão",
+    "correctionReasonRequired": "O motivo da revisão é obrigatório.",
+    "correctionSubmit": "Salvar revisão",
+    "eyebrow": "Centro de Avaliação · Evidências e Pontuação",
+    "justificationHint": "Obrigatório — Descreva o comportamento que justifica este nível.",
+    "justificationLabel": "Justificativa de pontuação",
+    "justificationRequired": "A justificativa da pontuação é necessária.",
+    "loading": "Carregando…",
+    "saveDraft": "Salvar rascunho",
+    "submitFinal": "Enviar final",
+    "submitFinalWarning": "“Enviar Final” é irreversível; depois, o nível só poderá ser modificado registrando um motivo."
+  },
+  "report": {
+    "analytics": {
+      "aggregateEmpty": "Nenhum dado agregado foi registrado ainda para exibir o relatório resumido.",
+      "aggregateTitle": "Relatório resumido do projeto",
+      "assessorColumn": "Avaliador",
+      "audienceInternal": "Interno (Gerente de Avaliação)",
+      "audienceSupervisory": "Supervisão (Cliente)",
+      "calibrationBiasColumn": "Viés",
+      "calibrationEmpty": "Nenhum avaliador registrou pontuações ainda.",
+      "calibrationNColumn": "Contagem de pontuação",
+      "calibrationPrecisionColumn": "Precisão",
+      "calibrationTitle": "Calibração do Avaliador (Holística ↔ Mecânica)",
+      "calibrationUnavailable": "Dados insuficientes para estimar a calibração (é necessária pelo menos pontuação {minN, number}).",
+      "candidateColumn": "Candidato",
+      "competencyColumn": "Competência",
+      "exerciseColumn": "Exercício",
+      "iccEmpty": "Nenhuma combinação exercício×competência registrou pontuações ainda.",
+      "iccMethodNote": "Método: ICC(1,1) — Efeitos aleatórios unilaterais, concordância absoluta, avaliador único.",
+      "iccTitle": "Confiabilidade entre avaliadores (ICC)",
+      "iccUnavailable": "Dados insuficientes para estimar a confiabilidade (é necessário pelo menos o candidato {minN, number}).",
+      "meanColumn": "Nível médio",
+      "myCalibrationBody": "Este cartão mostra apenas seus próprios dados — nem linhas de candidatos nem comparações com outros avaliadores.",
+      "myCalibrationTitle": "Minha calibração",
+      "nColumn": "Contagem de candidatos",
+      "rankColumn": "Classificação",
+      "rankingEmpty": "Nenhum candidato tem pontuação agregada ainda.",
+      "rankingOnlyManager": "Esta tabela é exclusiva do gestor de avaliação e nunca aparecerá no relatório do candidato ou na versão resumida do cliente.",
+      "rankingTitle": "Classificação dos Candidatos",
+      "scoreColumn": "Pontuação de classificação ponderada",
+      "suppressedNote": "Para manter a confidencialidade, esta linha fica oculta para coortes menores que o limite.",
+      "tieNote": "Em caso de empate na pontuação, a ordem de exibição será baseada no nome do candidato."
+    },
+    "badge": {
+      "coverage": {
+        "no": "{percent, number}% dos itens tinham uma chave válida."
+      },
+      "provisionalDefinition": "A definição desta competência é provisória e será finalizada após o recebimento da cartilha oficial.",
+      "provisionalKey": "A interpretação da seção de teste é baseada na chave da versão preliminar e será revisada após a chegada da chave oficial.",
+      "sourceCount": {
+        "no": "Este nível foi registrado com base no resumo qualitativo da sessão.",
+        "yes": "Este nível foi obtido a partir de observações independentes de {n, number}."
+      }
+    },
+    "batch": {
+      "cta": "Publicação em lote",
+      "failedReasonLabel": "Motivo da falha",
+      "heading": "Publicação em lote de uma sessão de lavagem",
+      "lockedCount": {
+        "no": "Não há candidatos bloqueados para publicar nesta sessão.",
+        "yes": "O candidato bloqueado {n, number} nesta sessão está pronto para ser publicado."
+      },
+      "resultHeading": "Resultado da última publicação em lote",
+      "sessionSelectLabel": "Sessão de lavagem"
+    },
+    "confirm": {
+      "publish": {
+        "body": "O relatório referente a \"{candidateName}\" será publicado e doravante ficará visível para o próprio candidato e gestores de avaliação. O conteúdo está congelado neste exato momento; edições subsequentes na narrativa afetarão apenas a próxima publicação explícita.",
+        "confirmLabel": "Publicar relatório",
+        "title": "Publicar relatório de avaliação"
+      },
+      "publishBatch": {
+        "body": "Os relatórios para os candidatos prontos para {count, number} desta sessão serão publicados. Qualquer candidato cujos pré-requisitos estejam incompletos será ignorado sem interromper os demais e listado de acordo.",
+        "confirmLabel": "Publicar tudo",
+        "title": "Relatórios de publicação em lote"
+      },
+      "revoke": {
+        "body": "O relatório publicado para \"{candidateName}\" será revogado; eles não verão mais esta versão. Esta ação não pode ser desfeita — uma nova versão deve ser publicada para exibi-la novamente.",
+        "confirmLabel": "Revogar publicação",
+        "title": "Revogar publicação do relatório"
+      }
+    },
+    "empty": {
+      "noCandidateSelected": {
+        "body": "A prévia, narrativa, publicação e histórico de versões do candidato selecionado serão mostrados aqui.",
+        "title": "Selecione um candidato da lista"
+      },
+      "noNarrativeYet": "Nenhuma narrativa foi escrita para esta competência ainda.",
+      "noPublicationsManager": {
+        "body": "Após completar a narrativa (opcional) e pré-visualizar, publique o relatório.",
+        "title": "Nenhuma versão publicada ainda"
+      },
+      "noReportCandidate": {
+        "body": "O relatório de avaliação será publicado após a conclusão do processo e aprovação do gestor do centro de avaliação.",
+        "title": "Nenhum relatório foi publicado para você ainda"
+      },
+      "noWashupSessions": {
+        "body": "A publicação em lote é realizada usando candidatos bloqueados de uma sessão de limpeza; primeiro, crie uma sessão na guia \"Wash-up\".",
+        "title": "Ainda não há sessões de encerramento para este projeto"
+      },
+      "pickCandidacy": {
+        "body": "Selecione um dos arquivos abaixo para visualizar o relatório correspondente.",
+        "title": "Você tem mais de um arquivo de avaliação"
+      }
+    },
+    "history": {
+      "empty": "Nenhuma versão foi publicada ainda.",
+      "releasedAtColumn": "Data de lançamento",
+      "releasedByColumn": "Publicado por",
+      "revokedByLine": "Revogado por {name} em {dateFa}",
+      "revokedReasonLabel": "Motivo da revogação",
+      "statusActive": "Ativo",
+      "statusColumn": "Estado",
+      "statusRevoked": "Revogado",
+      "title": "Histórico de versões publicadas",
+      "versionColumn": "Versão",
+      "viewCta": "Ver esta versão"
+    },
+    "label": {
+      "backToLatestCta": "Voltar para a versão atual",
+      "candidacySelectorLabel": "Ciclo de projeto/avaliação",
+      "candidateReportTitle": "Relatório de avaliação para \"{name}\"",
+      "candidatesHeading": "Candidatos",
+      "consentLine": "Consentimento para versão {version} — {dateFa}",
+      "definitionHeading": "Definição de competência",
+      "disclaimerHeading": "Nota importante",
+      "indicatorsHeading": "Indicadores comportamentais",
+      "levelLabel": "Nível",
+      "loading": "Carregando...",
+      "multipleReportsHeading": "Seus arquivos de avaliação",
+      "myReportPageLead": "Seu relatório de avaliação publicado — o conteúdo foi congelado pelo gerente do Centro de Avaliação no momento da publicação.",
+      "myReportPageTitle": "Meu relatório de avaliação",
+      "narrativeEditHeading": "Editar narrativa de resultados",
+      "narrativeEmpty": "Nenhuma narrativa escrita foi registrada para esta competência.",
+      "narrativeHeading": "Narrativa do Resultado",
+      "narrativeSaveCta": "Salvar narrativa",
+      "pageEyebrow": "Centro de Avaliação",
+      "previewBadge": "Visualização - ainda não publicada",
+      "printCta": "Imprimir/Salvar PDF",
+      "publishCta": "Publicar relatório",
+      "publishedByLine": "Publicado por {name} em {dateFa}",
+      "radarAriaTitle": "Pontuação de competências de avaliação {count, number}",
+      "revokeCta": "Cancelar publicação",
+      "revokeReasonPlaceholder": "Digite o motivo do cancelamento da publicação — ele ficará registrado no histórico.",
+      "revokedCandidacyFallbackTitle": "Arquivo de avaliação revogado",
+      "scaleMaxSuffix": "de {max, number}",
+      "viewFullReportCta": "Veja o relatório interno completo (R2)",
+      "viewingVersionBanner": "Visualizando a versão {version, number} — esta não é a versão atual.",
+      "weightSuffix": "Peso {permille, number}‰"
+    },
+    "manager": {
+      "activePublicationLine": "Versão atual publicada: {version, number} — {dateFa}",
+      "backCta": "Voltar para a guia Relatórios",
+      "candidateFallbackName": "Candidato Anônimo",
+      "candidateNarrativeEmpty": "Nenhuma narrativa foi registrada ainda.",
+      "candidateNarrativeHeading": "Narrativa do resultado registrada para o candidato",
+      "consensusLevelLabel": "Nível de consenso",
+      "discrepancyLabel": "Discrepância",
+      "discrepancyNo": "Nenhum",
+      "discrepancyYes": "Sim",
+      "discussionNoteEmpty": "Nenhuma nota foi registrada.",
+      "discussionNoteHeading": "Nota de discussão da sessão",
+      "fullReportTitle": "Relatório Interno de \"{name}\"",
+      "lockedAtLabel": "Tempo de bloqueio",
+      "mechanicalMeanLabel": "Média Mecânica",
+      "mechanicalMedianLabel": "Mediana Mecânica",
+      "neverShownBanner": "Este relatório nunca é mostrado ao candidato ou empregador – é apenas para o gestor de avaliação.",
+      "noActivePublication": "Nenhuma versão foi publicada para este candidato ainda.",
+      "noCompetencies": {
+        "body": "Este candidato ainda não possui uma sessão de lavagem concluída da qual as pontuações de consenso possam ser extraídas.",
+        "title": "Nenhum dado de consenso foi registrado ainda"
+      },
+      "notLockedYet": "Ainda não está bloqueado.",
+      "pendingCorrectionBadge": "Uma correção pendente foi registrada para esta linha."
+    },
+    "notice": {
+      "batchReleased": {
+        "no": "Relatório {released, number} publicado; {failed, number} falhou.",
+        "yes": "Relatório {released, number} publicado."
+      },
+      "narrativeAppliesNextVersion": "Esta narrativa não afeta a versão publicada atualmente; aplica-se apenas ao próximo lançamento explícito.",
+      "narrativeSaved": "Narrativa salva.",
+      "published": "Relatório publicado.",
+      "revoked": "Publicação revogada; este candidato não vê mais um relatório."
+    }
+  },
+  "result": {
+    "backToHistory": "Voltar ao histórico de resultados",
+    "coverageLine": "Pontuação calculada a partir de {scored, number} de {total, number}{unit}.",
+    "eyebrow": "Avaliação de Competências · Resultado",
+    "genericError": "Ocorreu um erro",
+    "myHistoryCta": "Meu histórico de resultados",
+    "notFound": "Não encontrado.",
+    "pageTitle": "Resultado da Avaliação",
+    "pendingHeading": "Suas respostas foram registradas",
+    "pendingMessage": "Suas respostas foram salvas com cuidado. A chave de pontuação desta ferramenta ainda não está disponível; assim que for adicionado, a análise dessas respostas será exibida aqui.",
+    "privacyNote": "Este resultado é visível apenas para você.",
+    "resultHeading": "Seu resultado",
+    "scoreOfMax": "{value, number} de {max, number}",
+    "scoreOnly": "{value, number}",
+    "selfKnowledgeNote": "Este resultado é para autoconhecimento, não para julgamento.",
+    "subscaleAria": "{label}: {score}",
+    "subscalesHeading": "Perfil de subescala",
+    "tempKeyBadge": "Calculado com chave temporária versão 1 (extração AI) — será atualizado ao registrar a chave oficial"
+  },
+  "results": {
+    "empty": "Você ainda não fez nenhuma avaliação.",
+    "eyebrow": "Avaliação de Competências · História",
+    "helpBody": "Cada linha é um resultado da avaliação. Toque nele para ver os detalhes.",
+    "helpTitle": "Guia do histórico de resultados",
+    "newAssessCta": "Nova avaliação",
+    "pageLead": "Seu histórico de avaliação de competências. Esses resultados são visíveis apenas para você.",
+    "pageTitle": "Os resultados da minha avaliação",
+    "startCta": "Iniciar uma avaliação",
+    "totalKpi": "Resultados totais",
+    "viewResultCta": "Ver resultado"
+  },
+  "role": {
+    "0": {
+      "does": "Cria projetos, convida candidatos, define exercícios e competências, atribui avaliadores e avança o status da jornada do candidato.",
+      "label": "Gerente do Centro de Avaliação (ou Administrador)"
+    },
+    "1": {
+      "does": "Vê apenas suas próprias atribuições; registra relatos e notas de testemunhas. Não vê as pontuações de outros avaliadores.",
+      "label": "Avaliador"
+    },
+    "2": {
+      "does": "Aceita o formulário de consentimento e acompanha o status da sua própria jornada em \"Minha Jornada de Avaliação\".",
+      "label": "Candidato"
+    }
+  },
+  "roster": {
+    "assessorLine": "Avaliador: {assessor} · {role}",
+    "assessorOther": "Outro avaliador",
+    "assessorSelf": "Você",
+    "assignmentsHeading": "Tarefas",
+    "candidateFallback": "Candidato",
+    "candidateFallbackRow": "Candidato",
+    "candidateHint": "Somente candidatos atribuídos a você neste exercício.",
+    "candidateLabel": "Candidato",
+    "candidatePlaceholder": "— Selecionar candidato —",
+    "candidateStatusSuffix": "· Status do candidato: {status}",
+    "competenciesHeading": "Competências avaliadas neste exercício:",
+    "competencyHint": "Se especificado, esta evidência será atribuída a essa competência.",
+    "competencyLabel": "Competência (opcional)",
+    "competencyPlaceholder": "— Sem rótulo —",
+    "durationSuffix": "· Duração: {minutes, number} minutos",
+    "evidenceSaved": "Evidências salvas. Para registrar pontuações de competência, acesse a planilha de pontuação deste candidato.",
+    "evidenceSubmit": "Salvar evidências",
+    "evidenceTextHint": "Escreva objetivamente o que você observou, e não julgamentos — por exemplo, “No minuto 10, resumiu a proposta do colega”.",
+    "evidenceTextLabel": "Texto de prova",
+    "eyebrow": "Centro de Avaliação · Lista de Tarefas",
+    "loading": "Carregando...",
+    "noAssignmentBody": "O registo de provas só é possível para candidatos que lhe sejam atribuídos pelo gestor do Centro de Avaliação.",
+    "noAssignmentTitle": "Você não tem tarefas neste exercício",
+    "quickEvidenceHeading": "Gravação rápida de evidências",
+    "quickEvidenceHint": "A evidência é uma nota objetiva do comportamento observado; ele suporta a pontuação e você pode gravar quantas quiser.",
+    "rateCta": "Salve evidências e pontue",
+    "scheduledAtSuffix": "· Hora: {at}"
+  },
+  "rubric": {
+    "action": {
+      "add": "Adicionar rubrica",
+      "back": "Voltar",
+      "cancel": "Cancelar",
+      "close": "Fechar",
+      "edit": "Editar",
+      "remove": "Remover",
+      "removeAria": "Remover {title}",
+      "save": "Salvar rubrica"
+    },
+    "card": {
+      "criteriaCount": "Critério {n}",
+      "updated": "Atualizado: {date}",
+      "weightSum": "Peso total {n}%"
+    },
+    "criterion": {
+      "add": "Adicionar critério",
+      "percent": "%",
+      "removeAria": "Remover critério",
+      "removeTitle": "Remover este critério",
+      "titlePlaceholder": "Título do critério",
+      "weight": "Peso",
+      "weightAria": "Peso do critério"
+    },
+    "dialog": {
+      "editTitle": "Editar rubrica",
+      "newTitle": "Nova rubrica"
+    },
+    "empty": {
+      "cta": "Criar a primeira rubrica",
+      "noMatch": "Nenhuma rubrica encontrada corresponde a esta consulta.",
+      "none": "Nenhuma rubrica foi criada ainda."
+    },
+    "err": {
+      "criterionRequired": "Preencha os títulos para todos os critérios.",
+      "load": "Falha ao carregar rubricas",
+      "noCriteria": "É necessário pelo menos um critério.",
+      "remove": "Falha ao remover rubrica",
+      "save": "Falha ao salvar a rubrica",
+      "titleShort": "O título da rubrica deve ter pelo menos 2 caracteres."
+    },
+    "form": {
+      "title": "Título da rubrica",
+      "titlePlaceholder": "por exemplo, rubrica final do projeto"
+    },
+    "head": {
+      "eyebrow": "Ferramenta do Instrutor · Avaliação",
+      "lead": "Criar e gerenciar rubricas de avaliação; cada rubrica é um conjunto de critérios com pesos específicos e múltiplos níveis de desempenho (com descritores e pontos).",
+      "title": "Construtor de rubrica"
+    },
+    "help": {
+      "body": "Nesta página, você cria e gerencia rubricas de avaliação; cada rubrica contém vários critérios com pesos e níveis de desempenho definidos. Para criar uma nova rubrica, clique em “Nova rubrica” e defina os critérios e níveis na janela aberta. O peso total dos critérios deve ser igual a 100%.",
+      "title": "Ajuda do Construtor de Rubricas"
+    },
+    "kpi": {
+      "balanced": "Peso equilibrado",
+      "count": "Número de rubricas",
+      "criteria": "Critérios totais"
+    },
+    "level": {
+      "add": "Adicionar nível",
+      "default": {
+        "excellent": "Excelente",
+        "fair": "Justo",
+        "good": "Bom",
+        "poor": "Pobre"
+      },
+      "descriptorAria": "Descritor de nível",
+      "descriptorPlaceholder": "Descritor para \"{label}\"…",
+      "minOne": "É necessário pelo menos um nível",
+      "newLabel": "Novo nível",
+      "points": "Pontos",
+      "pointsAria": "Pontos de nível",
+      "removeAria": "Remover nível",
+      "removeTitle": "Remover este nível",
+      "thisLevel": "Este nível",
+      "titlePlaceholder": "Título do nível"
+    },
+    "remove": {
+      "confirmBtn": "Sim, excluir",
+      "confirmLead": "Tem certeza de que deseja excluir a rubrica",
+      "confirmSuffix": "Esta ação não pode ser desfeita.",
+      "title": "Excluir rubrica"
+    },
+    "search": {
+      "label": "Rubrica de pesquisa",
+      "placeholder": "Pesquisar…"
+    },
+    "state": {
+      "loading": "Carregando…"
+    },
+    "weight": {
+      "check": "Peso total dos critérios: {n}% de 100%"
+    }
+  },
+  "rubricValid": {
+    "allRequired": "As pontuações são obrigatórias para todos os critérios.",
+    "finite": "A pontuação para cada critério deve ser um número válido.",
+    "nonNegative": "As pontuações não podem ser negativas.",
+    "overMax": "A pontuação de cada critério não deve ultrapassar o seu máximo."
+  },
+  "run": {
+    "answerAllHint": "Para visualizar seu resultado, responda a todas as perguntas {total, number} (pergunta {remaining, number} restante).",
+    "answeredOf": "{answered, number} de {total, number} respondido",
+    "autosaveNote": "Suas respostas são salvas automaticamente e você pode continuar a qualquer momento.",
+    "backToAssess": "Voltar para avaliação de competências",
+    "educationalNote": "Esta versão é fornecida para uso educacional.",
+    "genericError": "Ocorreu um erro. Por favor, tente novamente.",
+    "noQuestions": "As perguntas para esta ferramenta não estão disponíveis.",
+    "progressAria": "Progresso da conclusão da avaliação",
+    "progressPct": "{pct, number}%",
+    "questionCount": "Pergunta {count, number}",
+    "questionOfTotal": "{index, number}/{total, number}",
+    "resumeNote": "Você retornou à sua avaliação inacabada. Se as respostas aparecerem vazias novamente, basta selecioná-las novamente – nada será perdido.",
+    "saveFailed": "Não salvo — tente selecionar novamente.",
+    "saved": "Salvo",
+    "saving": "Salvando…",
+    "seeResultCta": "Ver resultado",
+    "startCta": "Iniciar avaliação",
+    "starting": "Preparando…",
+    "submitting": "Enviando…",
+    "toolFallbackName": "Ferramenta de avaliação",
+    "toolUnavailable": "Esta ferramenta não está disponível."
+  },
+  "setup": {
+    "activate": {
+      "cta": "Ativar projeto",
+      "lockedBecause": "Você deve primeiro criar um projeto ou selecionar um no seletor acima.",
+      "title": "6) Ative o projeto",
+      "what": "Mova o projeto de “Rascunho” para “Ativo”.",
+      "why": "Ativação significa que a configuração foi concluída e a execução começou. Enquanto for um rascunho, tudo fica em modo de preparo."
+    },
+    "assignments": {
+      "cta": "Atribuir Avaliador",
+      "lockedBecause": "Você deve primeiro ter pelo menos um candidato e um exercício neste projeto.",
+      "title": "5) Atribuir avaliadores ao candidato × exercício",
+      "what": "Para cada exercício, especifique qual avaliador observa qual candidato.",
+      "why": "Os avaliadores veem apenas suas próprias tarefas; sem atribuições, o console do avaliador ficará vazio e a pontuação não será possível."
+    },
+    "candidates": {
+      "cta": "Adicionar candidato",
+      "lockedBecause": "Você deve primeiro criar um projeto ou selecionar um no seletor acima.",
+      "title": "3) Convide candidatos",
+      "what": "Selecione os indivíduos a serem avaliados pesquisando seus nomes.",
+      "why": "Cada candidato começa com o status “Convidado” e sua página “Minha Jornada de Avaliação” fica ativa."
+    },
+    "consent": {
+      "cta": "Vá para Formulários de Consentimento",
+      "title": "1) Habilite o texto do formulário de consentimento",
+      "what": "Escreva um texto de formulário de consentimento e “ative-o”.",
+      "why": "Até que haja um texto ativo, nenhum candidato pode dar consentimento, e toda a jornada termina logo no primeiro passo. Criar o texto não é suficiente – a ativação é uma ação separada e deliberada."
+    },
+    "exercises": {
+      "cta": "Adicionar exercício",
+      "lockedBecause": "Você deve primeiro criar um projeto ou selecionar um no seletor acima.",
+      "title": "4) Defina exercícios e suas competências",
+      "what": "Exercício = uma atividade de avaliação (entrevista, discussão em grupo, apresentação...). Especifique quais competências cada exercício mede.",
+      "why": "A pontuação só é possível nas competências desse exercício específico; um exercício sem competências aparecerá vazio para o avaliador."
+    },
+    "project": {
+      "cta": "Criar novo projeto",
+      "title": "2) Crie um projeto de avaliação",
+      "what": "Projeto = um ciclo de centro de avaliação para um grupo de pessoas (por exemplo, \"Centro de Avaliação de Gerentes Médios - Outono\").",
+      "why": "Candidatos, exercícios e tarefas fazem parte de um projeto; sem um projeto, não há onde adicioná-los."
+    }
+  },
+  "status": {
+    "CONSENTED": {
+      "action": "Registrar consentimento",
+      "label": "Consentido",
+      "meaning": "O candidato aceitou o texto do formulário de consentimento."
+    },
+    "COURSES_RECOMMENDED": {
+      "action": "Recomendar curso",
+      "label": "Cursos recomendados",
+      "meaning": "Os cursos recomendados foram especificados."
+    },
+    "FEEDBACK_DONE": {
+      "action": "Registrar comentários",
+      "label": "Feedback entregue",
+      "meaning": "A sessão de feedback foi realizada."
+    },
+    "GAME_DONE": {
+      "action": "Conclusão da simulação de registro",
+      "label": "Simulação concluída",
+      "meaning": "O candidato concluiu o exercício de simulação/encenação."
+    },
+    "GROUP_DONE": {
+      "action": "Gravar conclusão da discussão em grupo",
+      "label": "Discussão em grupo concluída",
+      "meaning": "O candidato participou do exercício de discussão em grupo."
+    },
+    "IDP_CREATED": {
+      "action": "Plano de Desenvolvimento de Registros",
+      "label": "Preparado para deslocados internos",
+      "meaning": "O Plano de Desenvolvimento Individual foi escrito."
+    },
+    "INTERVIEWED": {
+      "action": "Gravar Entrevista",
+      "label": "Entrevistado",
+      "meaning": "A entrevista do candidato foi realizada."
+    },
+    "INVITED": {
+      "action": "Convidar",
+      "label": "Convidado",
+      "meaning": "O candidato foi adicionado ao projeto e aguarda a aceitação do termo de consentimento."
+    },
+    "LEVEL_PUSHED": {
+      "action": "Aplicar nível",
+      "label": "Nível aplicado",
+      "meaning": "O novo nível foi aplicado no sistema."
+    },
+    "REASSESSED": {
+      "action": "Reavaliação de Registro",
+      "label": "Reavaliado",
+      "meaning": "O candidato foi reavaliado."
+    },
+    "RESULTS_RELEASED": {
+      "action": "Resultados de lançamento",
+      "label": "Resultados divulgados",
+      "meaning": "Os resultados foram anunciados ao candidato."
+    },
+    "SCHEDULED": {
+      "action": "Cronograma",
+      "label": "Agendado",
+      "meaning": "O tempo de presença do candidato para os exercícios foi determinado."
+    },
+    "TECH_READY": {
+      "action": "Confirme a prontidão tecnológica",
+      "label": "Prontidão tecnológica confirmada",
+      "meaning": "O acesso, internet e ferramentas do candidato foram verificados e aprovados."
+    },
+    "TESTED": {
+      "action": "Teste de registro",
+      "label": "Testado",
+      "meaning": "O candidato concluiu o teste."
+    },
+    "WASHUP_LOCKED": {
+      "action": "Lavagem de bloqueio",
+      "label": "Lavagem bloqueada",
+      "meaning": "A reunião de encerramento dos avaliadores foi realizada e o resultado está bloqueado; as pontuações não podem ser alteradas depois disso."
+    },
+    "WITHDRAWN": {
+      "action": "Retirada de registro",
+      "label": "Retirado",
+      "meaning": "O candidato desistiu do processo. Este status não pode ser revertido."
+    }
+  },
+  "tab": {
+    "analytics": {
+      "hint": "Relatórios agregados, confiabilidade entre avaliadores, calibração e classificações.",
+      "label": "Análise"
+    },
+    "assignments": {
+      "hint": "Qual avaliador vê qual candidato em qual exercício.",
+      "label": "Tarefas"
+    },
+    "candidates": {
+      "hint": "Convide, avance na jornada e retire convites acidentais.",
+      "label": "Candidatos"
+    },
+    "exercises": {
+      "hint": "Definir, editar, competências e desativar exercícios.",
+      "label": "Exercícios"
+    },
+    "overview": {
+      "hint": "Lista de verificação de configuração, especificações do projeto e relatório de cobertura.",
+      "label": "Visão geral"
+    },
+    "reports": {
+      "hint": "Pré-visualização, narrativa, publicação de relatórios de candidatos e histórico de versões.",
+      "label": "Relatórios e Publicação"
+    },
+    "settings": {
+      "hint": "Textos de consentimento — nível organizacional, compartilhados entre todos os projetos.",
+      "label": "Configurações"
+    },
+    "washup": {
+      "hint": "Sessão de esclarecimento do avaliador para chegar a uma pontuação final acordada.",
+      "label": "Lavagem"
+    }
+  },
+  "tool": {
+    "allResultsCta": "Todos os resultados",
+    "analysisSoon": "Análise em breve",
+    "arUnavailable": "Esta ferramenta não está disponível atualmente em árabe; a tradução automática de uma ferramenta padronizada invalida o resultado.",
+    "category": {
+      "aptitude": "Aptidão",
+      "career": "Carreira",
+      "cognitive": "Capacidade cognitiva",
+      "communication": "Comunicação",
+      "creativity": "Criatividade",
+      "digital_literacy": "Alfabetização digital",
+      "emotional": "Inteligência emocional",
+      "general": "Geral",
+      "job_satisfaction": "Satisfação no trabalho",
+      "language": "Idioma",
+      "leadership": "Liderança",
+      "management": "Gestão",
+      "personality": "Personalidade",
+      "problem_solving": "Resolução de problemas",
+      "soft_skill": "Habilidades interpessoais",
+      "soft_skills": "Habilidades interpessoais",
+      "teamwork": "Trabalho em equipe",
+      "technical": "Habilidade técnica"
+    },
+    "categoryTitle": "Categoria de ferramenta",
+    "copyright": {
+      "free": "Gratuito e disponível publicamente",
+      "licensed": "Versão gratuita/alternativa – fonte protegida por direitos autorais"
+    },
+    "copyrightTitle": "Status/fonte dos direitos autorais",
+    "emptyTools": "Nenhuma ferramenta ativa ainda. Disponível em breve.",
+    "eyebrow": "Avaliação de competências",
+    "genericError": "Ocorreu um erro",
+    "helpBody": "Cada cartão é uma ferramenta de avaliação. Toque para começar; cada resposta é salva automaticamente e você pode continuar mais tarde. Cada resultado de avaliação é visível apenas para você.",
+    "helpTitle": "Guia de avaliação de competências",
+    "historyCta": "Histórico de resultados",
+    "kpiAvailable": "Ferramenta disponível",
+    "kpiDone": "Avaliação concluída",
+    "loading": "Carregando…",
+    "minutesAbout": "Sobre minutos {minutes, number}",
+    "minutesFew": "Alguns minutos",
+    "pageLead": "Uma coleção de ferramentas de avaliação para ajudá-lo a compreender seus pontos fortes e habilidades. Cada resultado de avaliação é visível apenas para você.",
+    "pageTitle": "Ferramentas de avaliação de competências",
+    "pendingKeyNote": "A chave de pontuação ainda não está disponível — suas respostas estão sendo salvas",
+    "provisionalKeyBadge": "Chave provisória",
+    "provisionalKeyNote": "A pontuação é calculada utilizando a chave provisória da versão 1; ele será atualizado assim que a chave oficial for enviada",
+    "recentHeading": "Resultados recentes",
+    "resultFallbackName": "Avaliação",
+    "resultFallbackTool": "Ferramenta de avaliação",
+    "startAria": "Iniciar {name}",
+    "startCta": "Iniciar avaliação",
+    "toolCount": "Ferramentas {count, number}",
+    "viewCta": "Ver",
+    "viewResultAria": "Ver resultado para {name}"
+  },
+  "washup": {
+    "agendaStatus": {
+      "deferred": {
+        "label": "Adiado"
+      },
+      "locked": {
+        "label": "Bloqueado"
+      },
+      "pending": {
+        "label": "Pendente"
+      }
+    },
+    "cell": {
+      "decisionLabel": "Consenso do grupo necessário",
+      "discrepancy": "Discrepância: A faixa de pontuação bruta é ≥ 2 unidades.",
+      "historyTitle": "Histórico de alterações para esta célula",
+      "lockedValue": "Valor bloqueado",
+      "noDefaultHint": "Nenhum nível pré-selecionado – determine você mesmo o nível.",
+      "noSourceRatings": "Nenhuma pontuação bruta foi registrada para este candidato × competência — nenhuma sugestão computacional está disponível.",
+      "noteHint10": "Nota de discussão (mínimo 10 caracteres).",
+      "noteHint30": "Nota de discussão (mínimo 30 caracteres) — esta célula apresenta uma discrepância ou nenhuma pontuação bruta registrada ainda; mais explicações são necessárias.",
+      "pendingCorrectionBadge": "Correção pendente de segunda aprovação",
+      "rawScoresTitle": "Pontuações brutas registradas",
+      "requestCorrection": "Solicitar correção",
+      "suggestionLine": "Mediana {median, number} · Média {mean, number} · Faixa {min, number}..{max, number} — {decision}"
+    },
+    "confirm": {
+      "cancelCorrection": {
+        "body": "A solicitação de correção pendente será descartada; a pontuação bloqueada atual permanecerá inalterada.",
+        "confirmLabel": "Cancelar correção",
+        "title": "Cancelar solicitação de correção"
+      },
+      "cancelSession": {
+        "body": "A sessão “{title}” será cancelada e não poderá mais ser aberta ou retomada. Esta ação não pode ser desfeita.",
+        "confirmLabel": "Cancelar sessão",
+        "title": "Cancelar sessão de lavagem"
+      },
+      "confirmCorrection": {
+        "body": "Confirmando isso, a correção proposta para “{candidateName}” na competência “{competencyName}” será finalizada e aplicada. Esta ação não pode ser desfeita.",
+        "confirmLabel": "Confirmar correção",
+        "title": "Confirmar correção de nota"
+      },
+      "lockFirst": {
+        "body": "Com esta confirmação, a sessão “{title}” entra na fase final de bloqueio e aguarda uma “Segunda Confirmação” de outra pessoa. Caso a agenda ou alguma pontuação seja alterada após isso, esta confirmação será invalidada e deverá ser submetida novamente.",
+        "confirmLabel": "Primeira confirmação",
+        "confirmWord": "Bloquear",
+        "title": "Confirmação de bloqueio da primeira sessão"
+      },
+      "lockSecond": {
+        "body": "Com esta confirmação a sessão “{title}” será bloqueada. Uma vez bloqueadas, as pontuações de consenso só poderão ser alteradas através de uma “Solicitação de Correção” e com a aprovação de outra pessoa. Esta ação é irreversível.",
+        "confirmLabel": "Segunda confirmação",
+        "confirmWord": "Bloquear",
+        "title": "Confirmação de bloqueio da segunda sessão – final"
+      },
+      "openSession": {
+        "body": "A sessão “{title}” será aberta; a partir de agora, os participantes podem visualizar as pontuações brutas dos avaliadores e o registro de consenso torna-se possível.",
+        "confirmLabel": "Sessão aberta",
+        "title": "Sessão aberta"
+      },
+      "removeParticipant": {
+        "body": "\"{name}\" será removido da lista de participantes desta sessão.",
+        "confirmLabel": "Remover participante",
+        "title": "Remover participante"
+      },
+      "requestCorrection": {
+        "body": "Propõe-se que a pontuação de consenso para \"{candidateName}\" na competência \"{competencyName}\" seja alterada para o nível {newLevel}. Esta alteração não será aplicada até que seja aprovada por outra pessoa.",
+        "confirmLabel": "Enviar solicitação de correção",
+        "title": "Solicitar correção de nota bloqueada"
+      }
+    },
+    "decisionBasis": {
+      "hintOptional": "Opcional — Especificar a base da decisão irá incluí-la no relatório organizacional.",
+      "hintRequired": "Como esta célula apresenta uma discrepância, é necessária pelo menos uma base.",
+      "label": "Base da Decisão"
+    },
+    "decisionBasisOption": {
+      "0": {
+        "label": "Evidência Comportamental"
+      },
+      "1": {
+        "label": "Comparação com Indicador Comportamental"
+      },
+      "2": {
+        "label": "Discrepância na interpretação"
+      },
+      "3": {
+        "label": "Erro de observação"
+      },
+      "4": {
+        "label": "Informações Complementares"
+      }
+    },
+    "empty": {
+      "noAgenda": {
+        "body": "Os candidatos que concluíram o teste instrumental, entrevista, discussão em grupo ou simulação estão prontos para serem adicionados.",
+        "cta": "Adicionar candidato",
+        "title": "Nenhum candidato adicionado à agenda ainda"
+      },
+      "noCompetencies": {
+        "body": "As competências nesta tabela provêm de exercícios de projeto; se estiver vazio, defina primeiro as competências para os exercícios.",
+        "title": "Nenhuma competência para exibir"
+      },
+      "noParticipants": {
+        "body": "Sem pelo menos dois participantes, a sessão não pode ser aberta. Adicione um avaliador/gerente de avaliação/administrador procurando um nome.",
+        "cta": "Adicionar participante",
+        "title": "Nenhum participante adicionado ainda"
+      },
+      "noProjectSelected": {
+        "body": "Abra um projeto no seletor na parte superior da página para visualizar suas sessões de limpeza.",
+        "title": "Selecione um projeto"
+      },
+      "noSessionsAssessor": {
+        "body": "A sessão de encerramento é criada pelo gerente do centro de avaliação, que adicionará você como participante. Nenhuma ação será necessária de sua parte até então.",
+        "title": "Nenhuma sessão de lavagem visível ainda"
+      },
+      "noSessionsManager": {
+        "body": "Wash-up é uma sessão de esclarecimento para os avaliadores chegarem a uma pontuação final acordada. Crie uma sessão para começar.",
+        "cta": "Nova sessão",
+        "title": "Ainda não há sessões de encerramento para este projeto"
+      }
+    },
+    "lockBanner": {
+      "invalidated": "A primeira aprovação foi invalidada por alteração de agenda ou pontuação de consenso; você deve começar novamente a partir da \"Primeira Aprovação\".",
+      "waitingSecond": "Primeira aprovação registrada — aguardando a segunda aprovação de outro usuário."
+    },
+    "lockedBanner": {
+      "body": "A sessão de esclarecimento dos avaliadores para este candidato foi conduzida e bloqueada; a pontuação final é determinada a partir dessa sessão e esta planilha não é mais editável.",
+      "title": "Este candidato está bloqueado"
+    },
+    "notice": {
+      "candidateAdded": "Candidato adicionado à agenda.",
+      "candidateDeferred": "Candidato adiado.",
+      "consensusSaved": "Pontuação de consenso registrada.",
+      "correctionCanceled": "Solicitação de correção descartada.",
+      "correctionConfirmed": "Correção aplicada.",
+      "correctionRequested": "Solicitação de correção registrada — aguarde a aprovação de outro usuário.",
+      "lockFirstDone": "Primeira aprovação registrada — aguarde a segunda aprovação de outro usuário.",
+      "lockSecondDone": "Sessão bloqueada. O interrogatório é final.",
+      "participantAdded": "Participante adicionado.",
+      "participantRemoved": "Participante removido.",
+      "sessionCanceled": "Sessão cancelada.",
+      "sessionCreated": "Sessão de lavagem criada. Próximo passo: adicionar participantes e candidatos.",
+      "sessionOpened": "Sessão aberta. As pontuações de consenso agora podem ser registradas."
+    },
+    "participantRole": {
+      "chair": {
+        "hint": "Preside a sessão.",
+        "label": "Presidente da Sessão"
+      },
+      "observer": {
+        "hint": "Observa apenas; não tem direito de voto nas decisões.",
+        "label": "Observador"
+      },
+      "participant": {
+        "hint": "Participa de discussões e decisões de consenso.",
+        "label": "Participante"
+      }
+    },
+    "room": {
+      "addCandidatePlaceholder": "— Selecione o candidato —",
+      "addParticipantDialogTitle": "Adicionar participante",
+      "agendaSectionTitle": "Agenda",
+      "backToConsole": "Voltar ao Centro de Avaliação",
+      "backToConsoleAssessor": "Voltar ao Console do Avaliador",
+      "cancel": "Cancelar",
+      "cancelCorrectionCta": "Cancelar correção",
+      "cancelCorrectionSubmit": "Enviar cancelamento",
+      "cancelReasonPlaceholder": "Motivo do cancelamento (pelo menos 3 caracteres)",
+      "candidateColumnHeader": "Candidato",
+      "candidatesHeading": "Candidatos",
+      "cellDialogAriaLabel": "Célula de pontuação de consenso",
+      "closeDialogAria": "Fechar",
+      "confirmCorrectionCta": "Confirmar correção",
+      "consensusTableTitle": "Pontuação de consenso",
+      "correctionReasonPlaceholder": "Motivo da correção (pelo menos caracteres {min, number})",
+      "deferCta": "Adiar",
+      "deferPlaceholder": "Motivo do adiamento (pelo menos 3 caracteres)",
+      "deferReasonPrefix": "Razão:",
+      "deferSubmit": "Enviar",
+      "historyEmpty": "Nenhum histórico registrado.",
+      "historyLine": "{actor} — {oldLevel} ← {newLevel} — {reason}",
+      "levelFieldLabel": "Nível de consenso",
+      "levelWord": "Nível",
+      "nextStepAfterLockCta": "Ver e publicar relatório",
+      "noEligibleCandidates": "Nenhum outro candidato elegível disponível para adicionar.",
+      "noteFieldLabel": "Nota de discussão",
+      "participantUnit": "participante",
+      "participantsHeading": "Participantes",
+      "pendingCandidateUnit": "candidato pendente",
+      "pickerMinQueryHint": "Digite pelo menos caracteres {n} para pesquisar.",
+      "removeParticipantAria": "Remover participante",
+      "retryCta": "Tentar novamente",
+      "saveConsensusCta": "Salvar pontuação de consenso",
+      "sessionNotFound": "Sessão não encontrada.",
+      "sourceRatingLine": "{assessor} — {exercise} — {levelWord} {level}",
+      "suggestedLevelLabel": "Nível sugerido",
+      "unknownActor": "?",
+      "unnamedParticipant": "Este participante",
+      "waitingOtherPerson": "Aguardando a confirmação de outra pessoa."
+    },
+    "sessionStatus": {
+      "canceled": {
+        "label": "Cancelado",
+        "meaning": "A sessão foi cancelada e não pode mais ser aberta."
+      },
+      "draft": {
+        "label": "Rascunho",
+        "meaning": "A sessão foi criada mas ainda não foi aberta; apenas a agenda (candidatos/participantes) poderá ser editada."
+      },
+      "locked": {
+        "label": "Bloqueado",
+        "meaning": "Ambas as confirmações foram enviadas; o resumo é definitivo e não pode ser alterado, exceto através de um pedido de alteração post-lock."
+      },
+      "open": {
+        "label": "Abrir",
+        "meaning": "A sessão está em andamento; pontuações de consenso para candidatos pendentes podem ser inseridas e editadas."
+      }
+    },
+    "step": {
+      "agenda": {
+        "title": "1) Crie a agenda",
+        "what": "Adicione candidatos e participantes prontos (pelo menos duas pessoas).",
+        "why": "Sem pelo menos um candidato e dois participantes, não há sessão para abrir."
+      },
+      "consensus": {
+        "lockedBecause": "Você deve abrir a sessão primeiro.",
+        "title": "3) Registre a pontuação de consenso para cada célula",
+        "what": "Para cada candidato × competência, registre um nível e uma nota após a discussão.",
+        "why": "A sugestão algorítmica é apenas uma referência — a decisão é do grupo; células vazias bloqueiam o bloqueio final."
+      },
+      "lock": {
+        "lockedBecause": "Todas as pontuações de consenso das células da agenda devem ser registradas primeiro – nenhuma célula vazia pode permanecer.",
+        "title": "4) Bloqueio Final – Duas confirmações separadas",
+        "what": "Duas pessoas diferentes devem registrar a “Primeira Confirmação” e a “Segunda Confirmação” digitando explicitamente a palavra “bloqueio”.",
+        "why": "Bloquear significa que o resumo é definitivo; posteriormente, qualquer alteração só é possível mediante “pedido de revisão” e aprovação da segunda pessoa."
+      },
+      "openSession": {
+        "lockedBecause": "Primeiro, a agenda deve ter pelo menos um candidato em espera e dois participantes.",
+        "title": "2) Abra a sessão",
+        "what": "Mova a sessão de \"Rascunho\" para \"Abrir\" — esta ação é reversível.",
+        "why": "O registro da pontuação de consenso e a visualização das pontuações brutas do avaliador só são possíveis durante uma sessão aberta."
+      }
+    },
+    "tab": {
+      "formCancel": "Cancelar",
+      "formScheduledLabel": "Horário agendado (opcional)",
+      "formSubmit": "Criar sessão",
+      "formTitleLabel": "Título da sessão",
+      "formTitlePlaceholder": "por exemplo, \"Lavagem de avaliação de gerentes intermediários - Dia 1\"",
+      "loading": "Carregando…",
+      "newSessionCta": "Nova sessão",
+      "sessionsTitle": "Sessões de lavagem"
+    }
+  }
+}

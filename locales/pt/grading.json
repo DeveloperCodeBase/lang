@@ -1,0 +1,317 @@
+{
+  "queue": {
+    "actions": {
+      "close": "Fechar"
+    },
+    "activity": {
+      "ariaLabel": "Atividade do aluno — {person}",
+      "buttonLabel": "Atividade",
+      "buttonTitle": "Ver detalhes das atividades dos alunos",
+      "close": "Fechar",
+      "title": "Detalhes da atividade do aluno"
+    },
+    "ai": {
+      "applied": "Rascunho de IA aplicado — esta é uma sugestão e requer sua revisão.",
+      "busy": "Buscando…",
+      "button": "Rascunho de IA",
+      "buttonTitle": "Obtenha sugestões de notas e feedback da IA (revisão necessária)",
+      "error": "Falha ao buscar o rascunho de IA",
+      "unstructured": "Rascunho de IA recebido, mas sem avaliação/feedback estruturado; revise manualmente."
+    },
+    "answers": {
+      "attachmentMeta": "{size, number} KB · Baixar",
+      "attachments": "Anexos",
+      "empty": "Nenhuma resposta registrada para exibição.",
+      "loading": "Carregando respostas…",
+      "questionPoints": "Pontos {points, number}",
+      "submittedText": "Resposta enviada",
+      "title": "Respostas dos alunos"
+    },
+    "breadcrumb": "Avaliação · Fila de avaliação",
+    "checklist": {
+      "doneLabel": "Fila de avaliação concluída",
+      "doneReason": "Nenhum outro item restante na fila de avaliação.",
+      "grade": "Envios com notas pendentes",
+      "nextLabel": "Abra o próximo item para avaliação",
+      "pick": "Selecione a avaliação para avaliar"
+    },
+    "detail": {
+      "autoScore": "· Pontuação automática: {score, number}"
+    },
+    "error": {
+      "loadAnswers": "Falha ao carregar as respostas",
+      "loadAssessments": "Falha ao carregar avaliações",
+      "loadSubmissions": "Falha ao carregar envios",
+      "saveGrade": "Falha ao salvar a nota"
+    },
+    "feedback": {
+      "label": "Feedback para o aluno",
+      "placeholder": "Escreva pontos fortes, problemas e orientações para melhoria…"
+    },
+    "filter": {
+      "all": "Todos",
+      "aria": "Filtro de status",
+      "graded": "Classificado",
+      "pending": "Pendente"
+    },
+    "grade": {
+      "title": "Nota e Feedback"
+    },
+    "help": {
+      "body": "Primeiro, selecione uma avaliação (questionário ou tarefa) para exibir os trabalhos enviados pelos alunos. Clique em \"Nota\" para ver as respostas, escrever uma nota (0 a 100) e feedback e enviar. Opcionalmente, você pode usar \"AI Draft\" para obter assistência.",
+      "title": "Guia da fila de notas"
+    },
+    "kind": {
+      "assignment": "Tarefa",
+      "quiz": "Questionário"
+    },
+    "kpi": {
+      "graded": "Classificado",
+      "pending": "Avaliação pendente",
+      "total": "Total de envios"
+    },
+    "list": {
+      "autoScore": "Pontuação automática: {score, number}",
+      "emptyAllGraded": "Nenhum envio aguardando avaliação — todos foram revisados.",
+      "emptyFilter": "Nenhum envio encontrado com este filtro.",
+      "emptyNone": "Nenhuma submissão foi enviada para esta avaliação ainda.",
+      "loading": "Carregando envios…",
+      "recordedScore": "Pontuação registrada: {score, number} de 100"
+    },
+    "meta": {
+      "totalPoints": "· Total de pontos: {points, number}"
+    },
+    "notFinal": "Esta submissão ainda não está finalizada (rascunho) e não pode ser avaliada.",
+    "panel": {
+      "ariaLabel": "Envio de nota — {person}",
+      "title": "Envio de notas"
+    },
+    "row": {
+      "editGrade": "Editar nota",
+      "grade": "Nota",
+      "view": "Ver"
+    },
+    "rubric": {
+      "applyLabel": "Aplicar rubrica (opcional)",
+      "criterionFallback": "Critério",
+      "criterionScoreAria": "Pontuação para o critério \"{criterion}\" de {max}",
+      "finalScore": "Pontuação final:",
+      "hint": "Atribua uma pontuação para cada critério; a pontuação final é calculada a partir da soma dos critérios e convertida em percentual (0 a 100).",
+      "levelFallback": "Nível",
+      "none": "— Sem rubrica (classificação gratuita) —",
+      "of": "de",
+      "outOf100": "de 100",
+      "outOfMax": "de {max, number}",
+      "scoreLabel": "Classificação da rubrica",
+      "sum": "Total:"
+    },
+    "save": {
+      "action": "Salvar nota",
+      "busy": "Salvando…",
+      "needFinalTitle": "A submissão deve ser finalizada",
+      "needScoreTitle": "Insira uma nota primeiro",
+      "title": "Salvar nota"
+    },
+    "score": {
+      "aria": "Pontuação de 100",
+      "hint": "A pontuação final é registrada em porcentagem (0 a 100).",
+      "label": "Pontuação (0 a 100)",
+      "outOf100": "de 100",
+      "placeholder": "0"
+    },
+    "search": {
+      "aria": "Pesquisar aluno",
+      "placeholder": "Pesquise o nome ou ID do aluno…"
+    },
+    "select": {
+      "empty": "Ainda não há avaliações publicadas para avaliar.",
+      "label": "Selecione avaliação (exame/trabalho)",
+      "loading": "Carregando avaliações…"
+    },
+    "status": {
+      "draft": "Rascunho",
+      "graded": "Classificado",
+      "submitted": "Avaliação pendente"
+    },
+    "subtitle": "Selecione uma avaliação para visualizar os envios dos alunos, revisar as respostas e registrar notas e comentários.",
+    "title": "Fila de notas",
+    "toast": {
+      "gradeSaved": "Nota salva",
+      "queueDone": "Fila de avaliação concluída",
+      "remaining": "{count, plural, one {# item restante na fila de avaliação} other {# itens restantes na fila de avaliação}}"
+    }
+  },
+  "submission": {
+    "actions": {
+      "announce": "Anuncie provisoriamente aos alunos",
+      "blockedByObjections": "{count, plural, one {O envio final não será possível até que # objeção aberta seja resolvida.} other {O envio final não será possível até que # objeções abertas sejam resolvidas.}}",
+      "components": "Configurar componentes de nota",
+      "finalize": "Finalizar notas",
+      "import": "Importar notas de exames",
+      "saveDraft": "Salvar rascunho",
+      "taNote": "A finalização das notas é restrita ao instrutor do curso; suas notas serão salvas como rascunho para o instrutor."
+    },
+    "announce": {
+      "deadlineAria": "Prazo de objeção",
+      "deadlineFuture": "O prazo de objeção deve ser no futuro.",
+      "deadlineInvalid": "A data inserida é inválida.",
+      "deadlineLabel": "Prazo de objeção",
+      "deadlineRequired": "Defina o prazo para objeção.",
+      "dialogBody": "Ao anunciar provisoriamente, os alunos podem ver suas notas e apresentar objeções até o prazo estipulado.",
+      "dialogSubmit": "Anúncio provisório",
+      "dialogTitle": "Anúncio de nota provisória"
+    },
+    "back": "Voltar à lista de cursos",
+    "breadcrumb": {
+      "instructor": "Educação · Instrutor",
+      "ta": "Educação · Assistente de Ensino"
+    },
+    "chip": {
+      "announced": "Anunciado",
+      "draft": "Rascunho",
+      "finalized": "Finalizado",
+      "noSheet": "Nenhuma folha",
+      "objectionDeadline": "Prazo de objeção: {date}"
+    },
+    "components": {
+      "add": "+ Adicionar componente",
+      "assignAria": "Componente de classificação {title}",
+      "assignEmpty": "Não há exames publicados para este curso.",
+      "assignNone": "— Nenhum componente —",
+      "assignTitle": "Atribuir exames a componentes",
+      "dialogSubmit": "Salvar",
+      "dialogTitle": "Configurar componentes e pesos da nota",
+      "fallbackTitle": "Componente",
+      "introLead": "Cada componente (por exemplo, intercalar, final, trabalhos) tem um peso; a soma dos pesos é idealmente 100. Em seguida, atribua cada avaliação a um componente. Esta configuração está no",
+      "introRest": "nível e é compartilhado por todas as seções do mesmo curso.",
+      "introStrong": "curso",
+      "loading": "Carregando...",
+      "percentSign": "%",
+      "removeAria": "Remover {title}",
+      "saved": "Componentes de classificação e pesos salvos.",
+      "titleAria": "Título do componente da nota",
+      "titlePlaceholder": "Título do componente (por exemplo, intermediário)",
+      "titleRequired": "Insira um título para todos os componentes.",
+      "untitled": "Sem título",
+      "weightAria": "Peso de {title}",
+      "weightInvalid": "O peso de \"{title}\" deve ser um número inteiro entre 0 e 100.",
+      "weightSumLabel": "Peso total: {percent}",
+      "weightSumNote": "(diferente de 100 — será normalizado proporcionalmente durante o cálculo)"
+    },
+    "correct": {
+      "busy": "Salvando...",
+      "cancel": "Cancelar",
+      "failed": "A correção de nota falhou.",
+      "gradeAria": "Nota corrigida para {person}",
+      "gradeRange": "A nota corrigida deverá ser um número entre 0 e 20.",
+      "open": "Correto",
+      "openAria": "Nota correta para {person}",
+      "reasonAria": "Motivo da correção de nota",
+      "reasonPlaceholder": "Motivo da correção (obrigatório)",
+      "reasonRequired": "É necessário inserir um motivo para correção de nota.",
+      "submit": "Enviar correção",
+      "success": "A nota foi corrigida com sucesso e registrada no histórico de correções."
+    },
+    "detail": {
+      "adminCorrectionNote": "Como administrador do sistema, você pode corrigir uma nota em casos excepcionais, fornecendo um motivo; cada correção é registrada no histórico.",
+      "finalizedBadge": "Finalizado",
+      "finalizedNote": "— As notas deste curso estão finalizadas, bloqueadas e não podem mais ser alteradas.",
+      "loading": "Carregando...",
+      "objectionDeadline": "Prazo para objeção do aluno: {date}"
+    },
+    "dialog": {
+      "cancel": "Cancelar",
+      "close": "Fechar"
+    },
+    "empty": {
+      "instructor": "Nenhuma aula foi atribuída a você como instrutor para inserir notas no semestre atual. Se você esperava ver um curso aqui, entre em contato com o escritório de educação.",
+      "ta": "Como assistente de ensino, nenhuma aula foi atribuída a você para inserir notas preliminares no semestre atual. Esta atribuição é feita pelo instrutor do curso ou pela secretaria de educação.",
+      "title": "Nenhum curso atribuído para entrada de nota"
+    },
+    "error": {
+      "generic": "Ocorreu um erro"
+    },
+    "finalize": {
+      "confirmLead": "Após o envio final, as notas para «{course}»",
+      "confirmRest": "e não pode ser alterado posteriormente; as notas serão inseridas no histórico escolar dos alunos. Você deseja continuar?",
+      "confirmStrong": "será bloqueado",
+      "dialogSubmit": "Envio Final",
+      "dialogTitle": "Envio de nota final"
+    },
+    "help": {
+      "instructorBody": "Primeiro, selecione o curso. Insira as notas e clique em “Salvar rascunho”; com o “Anúncio Provisório”, os alunos podem visualizar suas notas e enviar objeções até o prazo designado. Depois de resolver todas as objeções abertas, o \"Envio Final\" bloqueia as notas e as insere na transcrição.",
+      "taLead": "Como assistente de ensino, você vê apenas as aulas atribuídas a você. Insira as notas e clique em “Salvar rascunho” para registrá-las como rascunho para o instrutor do curso.",
+      "taRest": "e não está disponível para você nesta página.",
+      "taStrong": "O envio final das notas é restrito ao instrutor do curso",
+      "titleInstructor": "Guia de envio de notas",
+      "titleTa": "Guia de envio de notas preliminares"
+    },
+    "import": {
+      "calculating": "Calculando…",
+      "dialogSubmit": "Aplicar como rascunho",
+      "dialogTitle": "Importar notas de avaliações",
+      "draftRest": "é; revisão, \"Anunciar\" e \"Envio final\" são com você.",
+      "draftStrong": "Rascunho",
+      "introLead": "A pontuação total de cada aluno é calculada a partir das avaliações do curso e dimensionada de 0 a 20 (limite de aprovação: {passMark, number}). Isto é apenas um",
+      "noComponentsNote": "Os componentes de nota não estão configurados; será utilizada uma média simples de todas as avaliações. Para aplicar a ponderação, primeiro configure \"Componentes da nota\".",
+      "noData": "Sem dados",
+      "overwriteLabel": "Substituir notas inseridas anteriormente (padrão: apenas linhas vazias são preenchidas)",
+      "resultNoData": "{count, plural, one {· # aluno sem dados de avaliação} other {· # alunos sem dados de avaliação}}",
+      "resultSkipped": "{count, plural, one {· # nota existente permanece inalterada} other {· # notas existentes permanecem inalteradas}}",
+      "resultWritten": "{count, plural, one {Importar notas das avaliações: # nota salva como rascunho} other {Importar notas de avaliações: # notas salvas como rascunho}}",
+      "tableCurrent": "Nota atual",
+      "tablePercent": "Porcentagem total",
+      "tableProposed": "Nota proposta",
+      "tableStudent": "Estudante",
+      "unassignedNote": "{count, plural, one {# avaliação não foi atribuída a nenhuma componente e foi excluída do cálculo.} other {# avaliações não foram atribuídas a nenhum componente e foram excluídas do cálculo.}}",
+      "weightSumNote": "A soma dos pesos é {percent} (não 100%); o cálculo é normalizado em relação aos pesos existentes."
+    },
+    "list": {
+      "enrolled": "{count, plural, one {# estudante} other {# alunos}}"
+    },
+    "loading": "Carregando…",
+    "objection": {
+      "hasBadge": "⚠️ Sim",
+      "instructorReplyLabel": "Resposta do instrutor:",
+      "replyAria": "Resposta à objeção de {person}",
+      "replyPlaceholder": "Resposta do instrutor…",
+      "replyRequired": "Por favor, escreva o texto de resposta.",
+      "replySaved": "Resposta de objeção salva.",
+      "replySubmit": "Enviar resposta"
+    },
+    "roster": {
+      "empty": "Nenhum aluno está matriculado neste curso.",
+      "gradeAria": "Nota de {person}"
+    },
+    "sheet": {
+      "announcedAt": "· Anunciado em {date}"
+    },
+    "subtitle": {
+      "instructor": "Economize temporariamente, anuncie aos alunos, lide com objeções e finalize as notas finais do semestre.",
+      "ta": "Insira notas preliminares para as turmas atribuídas. O envio final das notas é feito pelo instrutor do curso."
+    },
+    "summary": {
+      "enteredGrades": "Nota inserida",
+      "openObjections": "Objeção aberta",
+      "students": "Estudante"
+    },
+    "table": {
+      "grade": "Nota (0 a 20)",
+      "objection": "Objeção",
+      "student": "Estudante"
+    },
+    "title": {
+      "instructor": "Entrada de nota",
+      "ta": "Rascunho de entrada de nota"
+    },
+    "toast": {
+      "announced": "As notas foram anunciadas provisoriamente; os alunos podem enviar objeções até o prazo.",
+      "draftSaved": "{count, plural, one {A nota de # aluno foi salva temporariamente.} other {As notas de # alunos foram salvas temporariamente.}}",
+      "finalized": "As notas deste curso foram finalizadas."
+    },
+    "validate": {
+      "gradeRange": "A nota para \"{person}\" deve ser um número entre 0 e 20.",
+      "noGrades": "Nenhuma nota foi inserida."
+    }
+  }
+}

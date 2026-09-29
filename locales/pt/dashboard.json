@@ -1,0 +1,549 @@
+{
+  "actions": {
+    "concept": {
+      "label": "Conceito sugerido",
+      "sub": "18 min · 3 exercícios curtos",
+      "title": "Derivada de matriz"
+    },
+    "group": {
+      "label": "Grupo de estudo",
+      "sub": "Amanhã 20h30",
+      "title": "Com Ali e Sara"
+    },
+    "quiz": {
+      "label": "Teste de maquiagem",
+      "sub": "8 perguntas adaptativas",
+      "title": "Otimização · Nível 2"
+    },
+    "review": {
+      "label": "Revisão sugerida",
+      "sub": "Conceito pouco claro registrado",
+      "title": "Sessão 5 do minuto 22"
+    }
+  },
+  "activity": {
+    "clustering": {
+      "label": "Agrupamento de perguntas em sala de aula",
+      "value": "2"
+    },
+    "events": {
+      "label": "Eventos de aprendizagem registrados",
+      "value": "234"
+    },
+    "semantic": {
+      "label": "Pesquisa semântica",
+      "value": "9"
+    },
+    "title": "Atividade do sistema · Últimas 24 horas",
+    "tutor": {
+      "label": "Resposta do tutor de IA",
+      "value": "18"
+    }
+  },
+  "bm": {
+    "count": "Item salvo {value, number}",
+    "countMore": "{value, number} itens salvos+",
+    "emptyList": "Você ainda não salvou nada.",
+    "error": "Erro",
+    "eyebrow": "Itens salvos",
+    "helpBody": "Tudo o que você marca com o botão \"Salvar\" (mensagens de bate-papo, recursos de biblioteca, experimentos e links) é reunido aqui. Filtre por tipo usando as abas acima, pesquise na caixa de pesquisa e clique em qualquer item para acessar seu endereço.",
+    "helpTitle": "Guia de itens salvos",
+    "loadFailed": "Falha ao carregar itens salvos.",
+    "loadMore": "Mostrar mais itens",
+    "loadMoreFailed": "Falha ao carregar mais itens.",
+    "loading": "Carregando…",
+    "loadingList": "Carregando itens salvos…",
+    "meta": {
+      "chat_message": "Mensagem",
+      "lab": "Laboratório",
+      "lesson": "Lição",
+      "library": "Biblioteca",
+      "link": "Ligação"
+    },
+    "removeAria": "Remover dos itens salvos: {title}",
+    "removeFailed": "Falha na remoção. Tente novamente.",
+    "removeTitle": "Remover dos salvos",
+    "removed": "Removido",
+    "removedMsg": "Removido de \"Salvo\".",
+    "retry": "Tentar novamente",
+    "searchAria": "Pesquisar itens salvos",
+    "searchPlaceholder": "Pesquise itens salvos – título ou nota",
+    "title": "Salvo e Favoritos",
+    "type": {
+      "all": "Todos",
+      "chat_message": "Mensagens",
+      "lab": "Laboratório",
+      "lesson": "Lições",
+      "library": "Biblioteca",
+      "link": "Ligações"
+    },
+    "untitled": "(Sem título)"
+  },
+  "cognitive": {
+    "and": "e",
+    "badge": "Perfil Cognitivo · Ao Vivo",
+    "bodyLead": "Com base em 234 interações nas últimas 12 aulas, seu perfil cognitivo foi atualizado. O modelo observa que em",
+    "bodyMid": "você é forte, mas em",
+    "bodyTail": "você tem espaço para crescimento.",
+    "growthArea": "matemática aplicada",
+    "strengthOne": "codificação",
+    "strengthTwo": "persistência",
+    "title": "Seu mapa cognitivo"
+  },
+  "courses": {
+    "capacityLine": "{used, number} da capacidade {cap, number} · Créditos {credits, number}",
+    "cohortSuffix": "· Coorte: {name}",
+    "confirm": {
+      "withdraw": {
+        "body": "Você está desistindo do curso \"{title}\". Após a desistência, sua matrícula neste curso será desativada, e seu efeito na sua nota/mensalidade será calculado de acordo com a regulamentação educacional; você deve se reinscrever para retornar.",
+        "cta": "Desistir do curso",
+        "title": "Desistir do curso"
+      }
+    },
+    "day": {
+      "0": "Sábado",
+      "1": "Domingo",
+      "2": "Segunda-feira",
+      "3": "Terça-feira",
+      "4": "Quarta-feira",
+      "5": "Quinta-feira",
+      "6": "Sexta-feira"
+    },
+    "deletedCourse": "(Curso excluído)",
+    "deletedEnrollment": "(Inscrição excluída)",
+    "enrolledAt": "Inscrito: {date}",
+    "errUnknown": "Erro desconhecido",
+    "errorTitle": "Erro",
+    "groupSuffix": "· Grupo {value, number}",
+    "loading": "Carregando da API...",
+    "open": "Ver curso",
+    "scheduleNone": "Nenhuma programação especificada",
+    "sectionStatus": {
+      "CANCELED": "Cancelado",
+      "CLOSED": "Fechado",
+      "OPEN": "Abrir"
+    },
+    "signIn": {
+      "cta": "Faça login",
+      "title": "Faça login para visualizar seus cursos"
+    },
+    "status": {
+      "active": "Ativo",
+      "completed": "Concluído",
+      "dropped": "Caiu",
+      "inactive": "Inativo",
+      "withdrawn": "Retirado"
+    },
+    "student": {
+      "catalogCta": "Ver catálogo",
+      "empty": "Você ainda não está matriculado em nenhum curso.",
+      "eyebrow": "Minhas Inscrições",
+      "helpBody": "Todos os cursos em que você está matriculado estão listados aqui. Você pode abrir qualquer curso ou desistir de um curso ativo.",
+      "helpTitle": "Ajuda dos meus cursos",
+      "intro": "Todos os cursos em que você está matriculado estão listados aqui. Você pode desistir de um curso ativo; seu status mudará para \"{status}\".",
+      "title": "Meus cursos"
+    },
+    "teach": {
+      "empty": "Nenhuma aula foi atribuída a você ainda. Uma vez designadas pelo chefe do departamento, suas aulas aparecerão aqui.",
+      "eyebrow": "Meu Ensino",
+      "gradebook": "Boletim",
+      "grades": "Insira as notas",
+      "helpBody": "Esta lista mostra as aulas que você ministra (não os cursos nos quais você está matriculado como aluno). As atribuições do instrutor são gerenciadas pelo chefe do departamento; se você não vir uma turma, nenhuma turma foi atribuída a você ainda. Clique em “Fila de avaliação” para avaliar os envios ou em “Inserir notas” para enviar as notas finais.",
+      "helpTitle": "Ajuda para meus cursos (instrutor)",
+      "hub": "Central do curso",
+      "intro": "As aulas atribuídas a você estão listadas aqui. Em cada turma, você pode acessar o boletim de notas, a lista de alunos, a entrada de notas e a fila de notas.",
+      "queue": "Fila de notas",
+      "roster": "Alunos",
+      "statCredits": "Total de créditos",
+      "statSections": "Minhas aulas",
+      "statStudents": "Alunos",
+      "title": "Meus cursos"
+    },
+    "thisCourse": "Este curso",
+    "withdraw": "Retirar",
+    "withdrawnToast": "Retirada registrada"
+  },
+  "credentials": {
+    "all": "Todos ←",
+    "bayes": {
+      "date": "14 de fevereiro de 2026",
+      "sub": "20 módulos · 84% de domínio",
+      "title": "Estatística Bayesiana Aplicada"
+    },
+    "db": {
+      "date": "31 de dezembro de 2025",
+      "sub": "18 módulos · 88% de domínio",
+      "title": "Banco de dados avançado"
+    },
+    "ml": {
+      "date": "8 de março de 2026",
+      "sub": "24 módulos · 92% de domínio",
+      "title": "Fundamentos do aprendizado de máquina"
+    },
+    "title": "Certificados recentes"
+  },
+  "greet": {
+    "fallback": "Bem vindo",
+    "focus": "otimização",
+    "headlineLead": ", hoje foco em",
+    "headlineTail": ".",
+    "hello": "Olá {name}",
+    "idPrefix": "· ID",
+    "inboxAria": "Caixa de entrada de notificações",
+    "inboxTitle": "Notificações",
+    "joinNextClass": "Junte-se à próxima aula",
+    "panelPrefix": "Painel",
+    "roleStudent": "Estudante",
+    "summary": "3 tarefas abertas · Próxima sessão em 90 minutos · Perfil cognitivo atualizado."
+  },
+  "help": {
+    "body": "Este painel fornece um resumo do seu status acadêmico: tarefas abertas, próxima sessão, perfil cognitivo e certificados recentes. Use o botão “Participar da próxima aula” para entrar na aula ao vivo e visualizar a programação semanal com “Calendário completo”.",
+    "title": "Guia do painel"
+  },
+  "instructor": {
+    "allSections": "Todas as minhas aulas",
+    "atRisk": {
+      "absences": "Ausência de {absences, number} nas sessões {total, number}",
+      "note": "Esta lista é apenas um sinalizador - a desistência/reprovação do curso é decidida pelo instrutor/comissão e nunca é aplicada automaticamente.",
+      "title": "Alunos Aproximando-se do Limite de Ausências"
+    },
+    "distTitle": "Distribuição de notas finais (notas {value, number})",
+    "empty": "Nenhuma aula foi atribuída a você ainda. Uma vez designadas pelo chefe do departamento, as aulas aparecerão aqui.",
+    "grades": "Insira as notas",
+    "helpBody": "As aulas atribuídas a você estão listadas aqui – junto com a programação semanal, capacidade e número de alunos matriculados. Clique em \"Inserir notas\" para enviar notas, \"Boletim\" para o boletim de notas e \"Aula ao vivo\" para realizar uma aula. Se você não vir nenhuma aula, as atribuições do instrutor serão feitas pelo chefe do departamento.",
+    "helpTitle": "Guia do painel do instrutor",
+    "hub": "Central do curso",
+    "kpi": {
+      "atRisk": "Atendimento em risco",
+      "capacity": "Capacidade total",
+      "queue": "Fila de notas",
+      "sections": "Minhas aulas",
+      "students": "Alunos",
+      "today": "Aula hoje"
+    },
+    "liveClass": "Aula ao vivo",
+    "nudge": {
+      "atRisk": "Aluno {value, number} está próximo do limite do regulamento de faltas | Alunos {value, number} estão próximos do limite do regulamento de faltas",
+      "atRiskCta": "Rever participação",
+      "queue": "Item {value, number} esperando por você na fila de avaliação | Itens {value, number} esperando por você na fila de avaliação",
+      "queueCta": "Vá para a fila de notas"
+    },
+    "quick": {
+      "assessmentBuilder": "Construtor de Avaliação",
+      "attendance": "Presença",
+      "gradeSubmission": "Enviar notas",
+      "gradebook": "Boletim",
+      "gradingQueue": "Fila de avaliação de tarefas",
+      "liveClass": "Aula ao vivo",
+      "myCourses": "Meus cursos",
+      "payroll": "Folha de pagamento"
+    },
+    "roster": "Alunos",
+    "subtitle": "Suas aulas para o semestre atual · Dados ao vivo",
+    "title": "Painel do instrutor",
+    "todayTitle": "Aulas de hoje ({day})"
+  },
+  "kit": {
+    "errLoad": "Falha ao carregar o painel",
+    "quickLinks": "Links rápidos"
+  },
+  "kpi": {
+    "courses": {
+      "label": "Cursos Ativos",
+      "trend": "2 hoje",
+      "value": "4"
+    },
+    "hours": {
+      "label": "Horas de aprendizagem · Semana",
+      "trend": "+ 1,8h",
+      "value": "12.4"
+    },
+    "mastery": {
+      "label": "Maestria Média",
+      "trend": "+4,2",
+      "unit": "%",
+      "value": "78"
+    },
+    "risk": {
+      "label": "Taxa de risco",
+      "trend": "Baixo",
+      "value": "0,12"
+    }
+  },
+  "notif": {
+    "allRead": "Todas as notificações foram lidas",
+    "emptyAll": "Você ainda não tem notificações.",
+    "emptyUnread": "Você não tem notificações não lidas.",
+    "eyebrow": "Notificações",
+    "helpBody": "Todas as suas notificações estão reunidas aqui. Clicar em qualquer notificação marca-a como lida e leva você para a página relacionada. Use a guia “Não lidas” para ver apenas as novas notificações e use o botão na parte superior da página para marcar todas como lidas de uma vez.",
+    "helpTitle": "Guia da Central de Notificações",
+    "loadFailed": "Falha ao carregar notificações.",
+    "loading": "Carregando…",
+    "markAll": "Marcar tudo como lido",
+    "retry": "Tentar novamente",
+    "settings": "Configurações",
+    "tab": {
+      "all": "Todos",
+      "unread": "Não lido"
+    },
+    "tabCount": "({value, number})",
+    "title": "Caixa de entrada de notificação",
+    "unreadLead": "Notificação não lida {value, number}"
+  },
+  "org": {
+    "title": "Painel da organização",
+    "subtitle": "Visão geral · Dados em tempo real",
+    "kpi": {
+      "activeMembers": "Membros ativos da organização",
+      "seatsUsed": "Assentos atribuídos",
+      "seatCap": "Total de licenças contratuais",
+      "overdueInvoices": "Faturas vencidas",
+      "catalogCourses": "Catálogo de Cursos",
+      "activeEnrollments": "Matrículas Ativas (Todos os Cursos)",
+      "programs": "Programas de estudo",
+      "currentTerm": "Prazo Atual"
+    },
+    "help": {
+      "title": "Guia do painel da organização",
+      "body": "Esta página fornece uma visão geral da sua organização: membros ativos, vagas atribuídas e faturas vencidas, além de cursos e programas de estudo atuais. Um valor mostrado como “—” significa que ainda não foi registrado no sistema – por exemplo, até que o departamento financeiro registre o limite de licenças do contrato, “Total de licenças contratuais” não mostrará nenhum número."
+    },
+    "links": {
+      "seats": "Assentos",
+      "invoices": "Faturas da organização",
+      "catalog": "Catálogo de Cursos",
+      "inbox": "Notificações",
+      "settings": "Configurações"
+    }
+  },
+  "progress": {
+    "band": {
+      "high": "Alto",
+      "low": "Baixo",
+      "medium": "Médio"
+    },
+    "courses": {
+      "active": "Ativo",
+      "completed": "Concluído",
+      "dropped": "Caiu",
+      "title": "Meus cursos",
+      "untitled": "Sem título"
+    },
+    "event": {
+      "ai_summary_viewed": "Resumo de IA visualizado",
+      "ai_tutor_asked": "Perguntou ao Tutor de IA",
+      "assignment_submitted": "Tarefa enviada",
+      "class_joined": "Ingressou na turma",
+      "class_left": "Classe Esquerda",
+      "confusion_reported": "Confusão relatada",
+      "course_opened": "Curso Aberto",
+      "lesson_completed": "Lição concluída",
+      "lesson_opened": "Lição aberta",
+      "quiz_started": "Iniciar teste",
+      "quiz_submitted": "Enviar questionário",
+      "submission_graded": "Classificado",
+      "video_paused": "Pausar vídeo",
+      "video_played": "Reproduzir vídeo"
+    },
+    "eyebrow": "Progresso ao vivo · Dados em tempo real",
+    "feed": {
+      "ai": "Assistente de IA",
+      "all": "Todos",
+      "class": "Classe",
+      "empty": "Nenhum evento registrado ainda. Para começar, participe de uma aula ou envie um teste.",
+      "emptyFiltered": "Nenhum evento encontrado nesta categoria.",
+      "learning": "Aprendizagem"
+    },
+    "feedTitle": "Atividade recente",
+    "helpBody": "Esta página fornece um resumo em tempo real do seu status acadêmico: nota média, cursos ativos e concluídos, frequência às aulas e interações do assistente de IA. A seção \"Próximas etapas\" mostra as tarefas recomendadas e os \"Atalhos\" permitem que você vá diretamente para o registro do curso, transcrições e outras páginas.",
+    "helpTitle": "Guia do painel",
+    "introAfter": "é lido. Inscrições, frequência às aulas, envios de questionários e uso do assistente de IA são todos salvos como eventos.",
+    "introBefore": "Cada figura nesta página vem diretamente de",
+    "kpi": {
+      "activeCourses": "Cursos Ativos",
+      "activeCoursesHint": "Do total de matrículas {value, number}",
+      "ai": "Interações de IA",
+      "aiHint": "Solicitações de assistente",
+      "aiQuota": "Cota de mensagens AI",
+      "aiQuotaHint": "Plano {plan}",
+      "aiQuotaNearLimit": "Plano {plan} · Perto do limite",
+      "attendance": "Presença",
+      "attendanceHint": "Registros de presença",
+      "attendanceRate": "Taxa de comparecimento",
+      "attendanceRateOk": "Faltas justificadas são permitidas",
+      "attendanceRateOver": "⚠ Ultrapassou o limite máximo de ausências permitido",
+      "avgGrade": "Nota média",
+      "avgGradeHint": "De 100",
+      "doneCourses": "Cursos Concluídos",
+      "doneCoursesHint": "{value, number} caiu",
+      "gpa": "GPA",
+      "gpaHint": "De 20 (notas finais)",
+      "gpaHintProgram": "De 20 · Média do programa: {avg}",
+      "submissions": "Questionários/Tarefas",
+      "submissionsHint": "Classificação {value, number}",
+      "submissionsNone": "Não avaliado"
+    },
+    "next": {
+      "class": {
+        "hint": "Veja sua programação semanal e participe de sua próxima aula.",
+        "label": "Você ainda não assistiu a nenhuma aula"
+      },
+      "enroll": {
+        "hint": "Inscreva-se em cursos semestrais para começar.",
+        "label": "Você não tem cursos ativos"
+      },
+      "lowgrade": {
+        "hint": "Obtenha ajuda do assistente de IA ou aconselhamento educacional.",
+        "label": "Média de notas abaixo das expectativas"
+      },
+      "ontrack": {
+        "hint": "Seu progresso acadêmico está no caminho certo. Mantem!",
+        "label": "Tudo parece bem"
+      },
+      "pending": {
+        "hint": "Acompanhe os resultados de suas tarefas e exames.",
+        "label": "{valor, plural, um envio {{value, number} aguardando avaliação} outros envios {{value, number} aguardando avaliação}}"
+      },
+      "title": "Próximas etapas"
+    },
+    "quick": {
+      "add-drop": {
+        "desc": "Modifique sua inscrição no curso",
+        "label": "Adicionar/Descartar"
+      },
+      "assignments": {
+        "desc": "Tarefas e prazos pendentes",
+        "label": "Tarefas e exames"
+      },
+      "registration": {
+        "desc": "Inscreva-se em cursos semestrais",
+        "label": "Inscrição no curso"
+      },
+      "schedule": {
+        "desc": "Aulas e horários",
+        "label": "Programação Semanal"
+      },
+      "transcript": {
+        "desc": "Notas e status acadêmico",
+        "label": "Transcrição e GPA"
+      },
+      "tuition": {
+        "desc": "Situação financeira e liquidação",
+        "label": "Mensalidade e pagamento"
+      }
+    },
+    "quickTitle": "Atalhos",
+    "risk": {
+      "disclaimerAfter": "- para revisão humana.",
+      "disclaimerBefore": "Este índice é calculado com base em regras definidas e",
+      "disclaimerStrong": "nunca toma a decisão final",
+      "noFactors": "Nenhum fator de risco significativo identificado.",
+      "title": "Índice de Risco de Aprendizagem"
+    },
+    "signIn": {
+      "cta": "Entrar",
+      "title": "Faça login para visualizar seu painel"
+    },
+    "student": "Estudante",
+    "tenant": {
+      "ai": "Chamadas de IA",
+      "avgGrade": "Nota média geral",
+      "courses": "Cursos",
+      "eventDist": "Distribuição de eventos",
+      "sessions": "Sessões de aula",
+      "submissions": "Envios",
+      "title": "Painel da organização (administrador)",
+      "users": "Usuários ativos"
+    },
+    "term": {
+      "grading": "Avaliação de envios",
+      "title": "Progresso do Prazo"
+    },
+    "title": "Painel de {name}"
+  },
+  "radar": {
+    "basics": "Noções básicas",
+    "coding": "Codificação",
+    "communication": "Comunicação",
+    "consistency": "Consistência",
+    "math": "Matemática",
+    "problemSolving": "Solução de problemas"
+  },
+  "schedule": {
+    "fullCalendar": "Calendário completo →",
+    "join": "Junte-se",
+    "s1": {
+      "by": "Dr. Azimi",
+      "day": "Hoje",
+      "in": "90 minutos",
+      "kind": "Aula ao vivo",
+      "time": "14:00",
+      "title": "Aprendizado de Máquina – Sessão 8"
+    },
+    "s2": {
+      "by": "Treinador de IA",
+      "day": "Hoje",
+      "in": "Agora",
+      "kind": "Individualizado",
+      "time": "16h30",
+      "title": "Exercício Adaptativo · Otimização"
+    },
+    "s3": {
+      "by": "Dr.",
+      "day": "Amanhã",
+      "in": "Amanhã",
+      "kind": "Oficina",
+      "time": "10:00",
+      "title": "PNL Avançada – workshop"
+    },
+    "s4": {
+      "by": "Automático",
+      "day": "Quarta-feira",
+      "in": "48 horas",
+      "kind": "Teste Adaptativo",
+      "time": "18:00",
+      "title": "Habilidade de análise estatística · Exame"
+    },
+    "s5": {
+      "by": "Nasrin, Ali, Sareh",
+      "day": "Quinta-feira",
+      "in": "96 horas",
+      "kind": "Par",
+      "time": "20:30",
+      "title": "Grupo de Estudos — Matemática"
+    },
+    "title": "Programação desta semana"
+  },
+  "screenLabel": "04 Meu espaço de trabalho",
+  "shell": {
+    "greeting": "Olá {name}",
+    "greetingAnon": "Bem vindo",
+    "inboxAria": "Caixa de entrada de notificação",
+    "inboxTitle": "Notificações",
+    "panel": "Painel {role}"
+  },
+  "sub": {
+    "emptyBody": "Depois de enviar sua primeira tarefa ou teste, seu histórico aparecerá aqui.",
+    "emptyTitle": "Nenhum envio registrado ainda",
+    "error": "Ocorreu um erro",
+    "eyebrow": "Envios",
+    "historyTitle": "Meu histórico de envio",
+    "loading": "Carregando…",
+    "myCourses": "Meus cursos",
+    "score": "{grade, number}/{total, number}",
+    "status": {
+      "draft": "Rascunho",
+      "graded": "Classificado",
+      "submitted": "Enviado"
+    },
+    "summary": "Envio registrado {total, number} · {graded, number} avaliado",
+    "tab": {
+      "history": "História",
+      "upload": "Novo envio"
+    },
+    "title": "Envio de tarefa",
+    "untitled": "Sem título",
+    "uploadBody": "Para enviar uma tarefa ou teste, vá para \"Meus cursos\", abra o curso relevante e abra a tarefa desejada - os envios de arquivos e respostas são feitos a partir daí.",
+    "uploadCta": "Acesse Meus Cursos",
+    "uploadTitle": "Abra a tarefa dentro do seu curso"
+  }
+}

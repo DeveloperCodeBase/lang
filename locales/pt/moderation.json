@@ -1,0 +1,372 @@
+{
+  "title": {
+    "queue": "Fila de moderação",
+    "community": "Moderação da comunidade",
+    "rules": "Regras Automatizadas",
+    "log": "Registro de ações"
+  },
+  "common": {
+    "refresh": "Atualizar",
+    "loading": "Carregando…",
+    "retry": "Tentar novamente",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "empty": "Nenhum item encontrado.",
+    "loadError": "Falha ao carregar.",
+    "actionError": "A ação falhou.",
+    "prev": "Anterior",
+    "next": "Próximo",
+    "pageOf": "Página {page} de {pages}"
+  },
+  "queue": {
+    "page": {
+      "eyebrow": "Moderador · Mesa de moderação de conteúdo",
+      "lead": "Relatórios de usuários e sinalizadores de regras automatizados agrupados em uma única fila com prazos. Reivindique um item, revise o contexto e tome uma decisão; a decisão é executada imediatamente e o autor é notificado.",
+      "helpTitle": "Ajuda da fila de moderação",
+      "help": "Use visualizações e filtros para restringir a fila e classificar pelo prazo mais próximo. \"Reivindicar\" atribui o relatório a você para que dois moderadores não trabalhem no mesmo item simultaneamente. As decisões sobre os relatórios que você enviou ou o conteúdo de sua autoria devem ser tomadas por outro moderador."
+    },
+    "kpi": {
+      "open": "Abrir",
+      "breached": "Atrasado",
+      "escalated": "Escalado",
+      "mine": "Atribuído a mim",
+      "unassigned": "Não atribuído",
+      "filtered": "Filtrado",
+      "resolved": "Resolvido",
+      "dismissed": "Dispensado"
+    },
+    "viewsLabel": "Visualização da fila",
+    "view": {
+      "open": "Abrir",
+      "mine": "Atribuído a mim",
+      "unassigned": "Não atribuído",
+      "escalated": "Escalado",
+      "breached": "Atrasado",
+      "decided": "Fechado",
+      "all": "Todos"
+    },
+    "filter": {
+      "contentType": "Tipo de conteúdo",
+      "source": "Fonte",
+      "severity": "Gravidade",
+      "status": "Estado",
+      "any": "Todos",
+      "post": "Postar",
+      "comment": "Responder",
+      "message": "Mensagem",
+      "profile": "Perfil",
+      "other": "Outro",
+      "community": "Postar e responder",
+      "user": "Relatório do usuário",
+      "auto": "Sinalizador de regra automatizada",
+      "search": "Pesquise conteúdo ou motivo…"
+    },
+    "sort": {
+      "label": "Classificar por",
+      "due": "Prazo mais próximo",
+      "age": "Mais antigo"
+    },
+    "col": {
+      "content": "Conteúdo",
+      "reason": "Razão",
+      "severity": "Gravidade",
+      "age": "Idade",
+      "due": "Prazo",
+      "assignee": "Cessionário",
+      "status": "Estado"
+    },
+    "severity": {
+      "low": "Baixo",
+      "normal": "Normais",
+      "high": "Alto"
+    },
+    "status": {
+      "PENDING": "Pendente",
+      "RESOLVED": "Resolvido",
+      "DISMISSED": "Dispensado"
+    },
+    "age": {
+      "minutes": "{count, plural, one {# minuto} other {# minutos}}",
+      "hours": "{count, plural, one {# hora} other {# horas}}",
+      "days": "{count, plural, one {# dia} other {# dias}}"
+    },
+    "ago": "{age} atrás",
+    "reportedAt": "Relatado em {date}",
+    "dueAt": "Vencimento: {date}",
+    "sla": {
+      "onTime": "Na hora certa",
+      "dueSoon": "Previsto em breve",
+      "breached": "Atrasado",
+      "decided": "Fechado"
+    },
+    "siblings": "{count, plural, one {# relatório para este conteúdo} other {# relatórios para este conteúdo}}",
+    "contentGone": "Este conteúdo não está mais visível na comunidade.",
+    "autoFlag": "Sinalizado pela regra \"{rule}\"",
+    "suggested": "Sugestão de regra: {action}",
+    "escalatedBadge": "Escalado para administrador sênior",
+    "claim": "Reivindicar",
+    "release": "Liberar",
+    "assign": "Atribuir...",
+    "claimedBy": "Reivindicado por {name}",
+    "claimedByMe": "Reivindicado por você",
+    "noAssignee": "Não atribuído",
+    "assignTitle": "Atribuir relatório",
+    "assignPick": "Selecione moderador",
+    "review": "Revise e decida",
+    "quickActions": "Ações rápidas",
+    "emptyOpen": "A fila está vazia; nenhum relatório aberto para revisão.",
+    "emptyFilter": "Nenhum item encontrado que corresponda a esses filtros."
+  },
+  "community": {
+    "page": {
+      "eyebrow": "Moderador · Comunidade de discussão",
+      "lead": "A mesma fila de moderação, limitada a discussões e respostas da comunidade. Revise cada item e feche-o com uma ação rápida: ocultar, remover, avisar ou descartar.",
+      "helpTitle": "Guia de moderação da comunidade",
+      "help": "Esta fila mostra relatórios e sinalizadores relacionados à comunidade. Você também pode visualizar mensagens e perfis denunciados usando o filtro de tipo de conteúdo. Ocultar e remover remove o conteúdo da comunidade e pode ser restaurado do histórico de ações."
+    }
+  },
+  "decision": {
+    "title": "Relatar decisão",
+    "action": {
+      "ignore": {
+        "label": "Dispensar",
+        "hint": "O relatório está fechado; o conteúdo e a conta do autor permanecem intactos."
+      },
+      "hide": {
+        "label": "Esconder",
+        "hint": "O conteúdo fica oculto da comunidade e pode ser restaurado por qualquer moderador. Uma notificação é enviada ao autor."
+      },
+      "remove": {
+        "label": "Remover",
+        "hint": "O conteúdo é removido da comunidade e só pode ser restaurado por um administrador. Uma notificação é enviada ao autor."
+      },
+      "warn": {
+        "label": "Avisar o autor",
+        "hint": "Um aviso oficial é registrado no histórico do autor e uma notificação é enviada a ele."
+      },
+      "restrict": {
+        "label": "Restrição temporária de postagem",
+        "hint": "O autor não pode escrever discussões ou respostas na comunidade até o final do período selecionado."
+      },
+      "escalate": {
+        "label": "Escalar para administrador sênior",
+        "hint": "O relatório permanece aberto e somente um administrador pode decidir sobre ele."
+      }
+    },
+    "warnAuthor": "Avise também o autor",
+    "restrictFor": "Duração da restrição",
+    "duration": {
+      "d1": "Um dia",
+      "d3": "Três dias",
+      "d7": "Uma semana",
+      "d30": "Um mês"
+    },
+    "note": "Nota (opcional)",
+    "submit": "Enviar decisão",
+    "noTarget": "Este relatório não está anexado a um conteúdo específico da comunidade; ocultar e remover não estão disponíveis.",
+    "noAuthor": "O autor deste conteúdo é desconhecido; avisos e restrições não estão disponíveis.",
+    "selfBlocked": "Você é o repórter ou autor deste conteúdo; a decisão pertence a outro moderador.",
+    "escalatedBlocked": "Este relatório foi escalado; apenas um administrador pode decidir.",
+    "alreadyClosed": "Este relatório já foi encerrado; nenhuma nova decisão pode ser registrada.",
+    "choose": "Escolha uma decisão",
+    "done": {
+      "ignore": "Relatório encerrado.",
+      "hide": "Conteúdo oculto.",
+      "remove": "Conteúdo removido.",
+      "warn": "Aviso registrado e notificado ao autor.",
+      "restrict": "Restrição de postagem registrada até {until}.",
+      "escalate": "Relatório encaminhado ao administrador sênior.",
+      "alreadyGone": "Decisão registrada; o autor já havia deletado o conteúdo."
+    }
+  },
+  "context": {
+    "messageOnly": "O acesso para revisão é restrito apenas a esta mensagem denunciada.",
+    "reportSnapshot": "Texto gravado no momento da reportagem",
+    "migrationSnapshot": "Este relatório é antigo; o texto abaixo foi gravado na migração para a fila de revisão.",
+    "currentMessage": "Texto da mensagem atual após edição",
+    "loadAttachment": "Ver anexo denunciado",
+    "downloadAttachment": "Baixar anexo",
+    "title": "Por trás deste conteúdo",
+    "author": "Autor",
+    "reporter": "Repórter",
+    "autoReporter": "Regra automatizada",
+    "noAuthor": "O autor deste conteúdo é desconhecido ou não está mais disponível.",
+    "joined": "Membro desde {date}",
+    "stats": {
+      "threads": "{count, plural, one {# discussão} other {# discussões}}",
+      "replies": "{count, plural, one {# responder} other {# respostas}}",
+      "votes": "{count, plural, one {#voto} other {# votos}}",
+      "filed": "{count, plural, one {# relatório arquivado} other {# relatórios arquivados}}",
+      "against": "{count, plural, one {# relatório contra este usuário} other {# denúncias contra este usuário}}"
+    },
+    "warnings": "{count, plural, one {# aviso} other {# avisos}}",
+    "activeRestriction": "Restrição ativa até {until}",
+    "noRestriction": "Sem restrições ativas",
+    "lift": "Restrição de elevação",
+    "viewInCommunity": "Ver na comunidade"
+  },
+  "rules": {
+    "page": {
+      "eyebrow": "Moderador · Moderação automatizada",
+      "lead": "As regras avaliam o novo conteúdo da comunidade e apenas o sinalizam na fila de moderação para tomada de decisão humana em caso de violação.",
+      "helpTitle": "Guia de regras automatizadas",
+      "help": "Três tipos de regras são avaliados: palavra-chave, velocidade de postagem e limite de relatório. A 'Ação sugerida' só é mostrada ao moderador na fila e nunca é executada automaticamente. Use 'Regra de teste' antes de salvar para verificar se uma regra sinaliza texto de exemplo."
+    },
+    "flagOnlyNotice": "As regras apenas sinalizam itens para o moderador. Nenhum conteúdo é ocultado ou removido automaticamente e nenhum usuário é restringido automaticamente.",
+    "new": "Nova regra",
+    "edit": "Editar regra",
+    "delete": "Excluir regra",
+    "deleteConfirm": "Excluir esta regra? Os sinalizadores existentes permanecerão na fila.",
+    "search": "Pesquise por nome ou condição...",
+    "allTypes": "Todos os tipos",
+    "emptyAll": "Nenhuma regra foi definida ainda.",
+    "emptyFilter": "Nenhuma regra encontrada que corresponda a este filtro.",
+    "toggleLabel": "Habilitar ou desabilitar regra \"{name}\"",
+    "createdAt": "Criado em {date}",
+    "kpi": {
+      "total": "Regras totais",
+      "active": "Regras ativas",
+      "hits": "Total de acessos"
+    },
+    "state": {
+      "on": "Ativo",
+      "off": "Inativo"
+    },
+    "col": {
+      "name": "Nome",
+      "type": "Tipo",
+      "condition": "Condição",
+      "suggested": "Ação sugerida",
+      "hits": "Acessos",
+      "lastHit": "Último golpe",
+      "active": "Ativo"
+    },
+    "type": {
+      "keyword": "Palavra-chave",
+      "rate_limit": "Limite de taxa",
+      "report_threshold": "Limite do relatório",
+      "auto_action": "Legado"
+    },
+    "summary": {
+      "keyword": "{count, plural, one {# palavra-chave} other {# palavras-chave}}",
+      "rate": "Mais de envios {max} em {seconds} segundos",
+      "threshold": "Relatórios separados {min} em horas {hours}",
+      "thresholdAny": "Relatórios separados {min}"
+    },
+    "legacy": "Condição do texto; não avaliado",
+    "legacyHint": "Esta regra foi criada antes do mecanismo de avaliação e não possui condição estruturada. Redefina a condição para habilitá-lo.",
+    "hitsNone": "Nenhum registrado",
+    "suggestedAction": {
+      "flag": "Apenas bandeira",
+      "hide": "Esconder",
+      "warn": "Avisar",
+      "block": "Restringir envio"
+    },
+    "form": {
+      "name": "Nome",
+      "type": "Tipo",
+      "description": "Descrição (opcional)",
+      "keywords": "Palavras-chave – uma por linha",
+      "keywordsHint": "Tanto o persa quanto o árabe são aceitos; diacríticos, \"ي/ی\", \"ك/ک\" e não-juntores de largura zero são tratados como idênticos.",
+      "match": "Método de correspondência",
+      "matchWord": "Palavra inteira",
+      "matchSubstring": "Em qualquer lugar do texto",
+      "severity": "Gravidade do sinalizador",
+      "maxPosts": "Máximo de postagens",
+      "windowSeconds": "Janela (segundos)",
+      "minReports": "Mínimo de repórteres distintos",
+      "windowHours": "Janela (horas)",
+      "targets": "Candidatar-se a",
+      "suggested": "Ação sugerida para o moderador",
+      "suggestedHint": "Esta é apenas uma sugestão para o moderador; o mecanismo nunca o executa automaticamente.",
+      "active": "Ativo",
+      "errKeywords": "Insira pelo menos uma palavra-chave válida (uma por linha).",
+      "errTargets": "Selecione pelo menos uma opção entre \"Discussão\" ou \"Responder\".",
+      "errNumber": "Insira um número inteiro positivo dentro do intervalo permitido.",
+      "errName": "O nome deve ter entre 2 e 160 caracteres.",
+      "errCondition": "A condição ou descrição deve ter pelo menos 2 caracteres."
+    },
+    "test": {
+      "title": "Teste de regra",
+      "placeholder": "Digite o texto para ver se a regra aciona um sinalizador",
+      "run": "Teste",
+      "hit": "Sinalizado: {matched}",
+      "miss": "Não sinalizado"
+    }
+  },
+  "log": {
+    "page": {
+      "eyebrow": "Monitorar · Moderação Transparência",
+      "lead": "Cada decisão de moderação – ocultar, excluir, avisar, restringir e restaurar – é registrada neste log com o ator, carimbo de data/hora e nota. Ações reversíveis podem ser desfeitas aqui.",
+      "helpTitle": "Guia do histórico de ações",
+      "help": "A guia “Ações” é o registro de ações do mecanismo de moderação e inclui um botão de restauração; a aba \"Histórico de relatórios\" mostra relatórios fechados com pesquisa e filtragem. Toque em qualquer linha para ver os detalhes."
+    },
+    "legacyNote": "Os relatórios fechados antes do mecanismo de moderação só são visíveis na guia \"Histórico de relatórios\".",
+    "searchActions": "Ações de pesquisa...",
+    "filterKind": "Tipo de ação",
+    "allKinds": "Todas as ações",
+    "filters": "Filtros",
+    "clearFilters": "Limpar filtros",
+    "search": "Pesquise conteúdo, motivo ou nota...",
+    "searchClear": "Limpar pesquisa",
+    "filterStatus": "Filtro de status",
+    "allStatuses": "Todos os status",
+    "filterResolution": "Filtro de resolução",
+    "allResolutions": "Todas as resoluções",
+    "emptyActions": "Nenhuma ação registrada ainda.",
+    "emptyHistory": "Nenhum relatório foi fechado ainda.",
+    "emptyFilter": "Nenhum item encontrado que corresponda a esses filtros.",
+    "count": "{count, plural, one {# item} other {# Unid}}",
+    "col": {
+      "when": "Hora",
+      "actor": "Ator",
+      "kind": "Ação",
+      "target": "Usuário",
+      "content": "Conteúdo",
+      "note": "Nota",
+      "state": "Estado"
+    },
+    "kind": {
+      "dismiss": "Dispensar",
+      "escalate": "Escalar",
+      "hide": "Esconder",
+      "remove": "Remover",
+      "restore": "Restaurar",
+      "warn": "Avisar",
+      "warning_revoke": "Revogar aviso",
+      "restrict": "Restringir postagem",
+      "restriction_lift": "Restrição de elevação"
+    },
+    "tab": {
+      "actions": "Ações",
+      "history": "Histórico de relatórios"
+    },
+    "kpi": {
+      "total": "Relatórios fechados",
+      "removed": "Conteúdo removido",
+      "today": "As decisões de hoje",
+      "actions": "Ações gravadas"
+    },
+    "revert": "Restaurar",
+    "reverted": "Revertido em {date}",
+    "revertConfirm": "Deseja reverter esta ação? O autor será notificado.",
+    "revertDone": {
+      "restored": "Conteúdo restaurado.",
+      "revoked": "Aviso revogado.",
+      "lifted": "Restrição levantada."
+    },
+    "history": {
+      "when": "Hora",
+      "type": "Tipo de conteúdo",
+      "reason": "Razão",
+      "resolution": "Resolução",
+      "detailTitle": "Detalhes do relatório",
+      "reportedAt": "Relatado em {date}",
+      "decidedAt": "Decidido por {date}",
+      "noNote": "Nenhuma nota registrada.",
+      "filterByThis": "Mostrar relatórios com esta resolução"
+    }
+  }
+}

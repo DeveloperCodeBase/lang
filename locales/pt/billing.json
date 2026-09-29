@@ -1,0 +1,389 @@
+{
+  "wallet": {
+    "eyebrow": "Faturamento · Carteira",
+    "title": "Minha carteira",
+    "lead": "Visualize e recarregue seu saldo e acompanhe seu histórico de transações.",
+    "loading": "Carregando carteira…",
+    "unavailable": "A carteira não está disponível.",
+    "help": {
+      "title": "Guia da carteira",
+      "body": "O saldo da sua carteira pode ser usado em toda a plataforma (incluindo pagamentos de mensalidades). \"Recarregar\" leva você ao portal de pagamento e, após o pagamento bem-sucedido, o valor é adicionado instantaneamente à sua carteira."
+    },
+    "topupResult": {
+      "success": "O saldo da carteira foi reabastecido com sucesso.",
+      "failed": "A recarga falhou; se algum valor for deduzido, ele será reembolsado."
+    },
+    "error": {
+      "load": "Falha ao carregar a carteira.",
+      "topupAmount": "Insira um valor de recarga válido (número positivo, Rials).",
+      "topupStart": "Falha ao iniciar o pagamento.",
+      "topup": "A recarga falhou.",
+      "withdrawAmount": "Por favor, insira o valor do saque (Riais).",
+      "withdraw": "Falha ao enviar solicitação de retirada."
+    },
+    "balance": {
+      "label": "Saldo Atual",
+      "blocked": "A carteira está bloqueada."
+    },
+    "topup": {
+      "title": "Saldo de recarga",
+      "placeholder": "Valor personalizado (Riais)",
+      "aria": "Valor de recarga em Rials",
+      "submit": "Recarregar",
+      "busy": "Redirecionando para o gateway…"
+    },
+    "withdraw": {
+      "title": "Retirar para conta bancária",
+      "note": "O valor solicitado é imediatamente reservado em sua carteira e depositado em sua conta após aprovação do gestor financeiro.",
+      "ok": "Pedido de saque enviado e valor reservado; será depositado após aprovação financeira.",
+      "amountPlaceholder": "Valor (Riais)",
+      "amountAria": "Valor da retirada em Rials",
+      "ibanPlaceholder": "IBAN (IR…)",
+      "ibanAria": "IBAN",
+      "holderPlaceholder": "Nome do titular da conta",
+      "holderAria": "Nome do titular da conta",
+      "submit": "Solicitar retirada",
+      "busy": "Enviando…",
+      "col": {
+        "amount": "Quantidade",
+        "iban": "IBAN",
+        "status": "Estado",
+        "date": "Data"
+      }
+    },
+    "history": {
+      "title": "Histórico de transações",
+      "empty": "Nenhuma transação registrada ainda.",
+      "col": {
+        "kind": "Tipo",
+        "amount": "Quantidade",
+        "date": "Data"
+      }
+    },
+    "receipt": {
+      "open": "Recibo",
+      "title": "Recibo de carteira",
+      "footer": "Este recibo é gerado automaticamente pelo sistema.",
+      "close": "Fechar",
+      "print": "Imprimir / PDF",
+      "row": {
+        "kind": "Tipo",
+        "amount": "Quantidade",
+        "reason": "Descrição",
+        "date": "Data",
+        "txnId": "ID da transação",
+        "withdrawalKind": "Retirada para conta bancária",
+        "iban": "IBAN",
+        "holder": "Titular da conta",
+        "status": "Estado",
+        "bankTrace": "Código de rastreamento bancário",
+        "id": "ID"
+      }
+    },
+    "kind": {
+      "topup": "Recarga",
+      "pay_tuition": "Pagamento de mensalidades",
+      "pay_subscription": "Pagamento de assinatura",
+      "manual_credit": "Crédito manual",
+      "manual_adjust": "Ajuste manual",
+      "refund_in": "Reembolso",
+      "scholarship_in": "Bolsa",
+      "withdrawal_hold": "Retenção de retirada",
+      "withdrawal_refund": "Reembolso de retirada",
+      "market_purchase": "Compra de Curso (Mercado do Conhecimento)",
+      "market_refund": "Reembolso de compra de curso"
+    },
+    "withdrawStatus": {
+      "requested": "Aprovação pendente",
+      "approved": "Aprovado",
+      "paid": "Pago",
+      "rejected": "Rejeitado",
+      "failed": "Falha"
+    }
+  },
+  "tuition": {
+    "eyebrow": "Faturamento",
+    "title": "Mensalidade e pagamentos",
+    "loading": "Carregando…",
+    "genericError": "Ocorreu um erro",
+    "nav": {
+      "loans": "Empréstimos estudantis",
+      "aid": "Ajuda Financeira",
+      "refund": "Reembolso",
+      "clearance": "Liberação"
+    },
+    "result": {
+      "success": "O pagamento foi registrado com sucesso.",
+      "failed": "O pagamento foi incompleto ou cancelado."
+    },
+    "help": {
+      "title": "Ajuda com mensalidades",
+      "body": "Mensalidade = Fixa (base para seleção do curso) + Variável (número de créditos × taxa por crédito) − Desconto/Bolsa. Até que a mensalidade fixa seja paga, a seleção do curso fica bloqueada. Você pode pagar o saldo restante total ou cada parcela. No modo de teste, o gateway é um gateway simulado e não é real."
+    },
+    "empty": {
+      "noTerm": "Não há prazo ativo para cálculo de mensalidades.",
+      "noTariff": "A tarifa do seu programa ainda não foi definida. Entre em contato com o departamento financeiro."
+    },
+    "gate": {
+      "open": "✅ Mensalidade fixa paga — a seleção do curso está aberta.",
+      "goRegistration": "Ir para seleção de cursos",
+      "locked": "⚠️ A mensalidade fixa ({amount}) não é paga – a seleção do curso está bloqueada."
+    },
+    "breakdown": {
+      "title": "Repartição das mensalidades",
+      "fixed": "Mensalidade Fixa",
+      "variable": "Mensalidade Variável ({créditos, plural, um {# credit} outro {# credits}} × {rate})",
+      "discount": "Desconto / Bolsa",
+      "total": "Total",
+      "paid": "Pago",
+      "remaining": "Restante"
+    },
+    "courses": {
+      "title": "Cursos com mensalidade variável",
+      "col": {
+        "code": "Código",
+        "title": "Título",
+        "credits": "Créditos"
+      }
+    },
+    "pay": {
+      "title": "Pagamento",
+      "remaining": "Restante",
+      "mockGateway": "Gateway simulado",
+      "settled": "Resolvido",
+      "payRemaining": "Pagamento Restante ({amount})"
+    },
+    "installments": {
+      "title": "Parcelas",
+      "pay": "Pagar",
+      "col": {
+        "seq": "Parcela",
+        "amount": "Quantidade",
+        "due": "Data de vencimento",
+        "status": "Estado",
+        "actions": "Ações"
+      }
+    },
+    "history": {
+      "title": "Histórico de pagamentos",
+      "col": {
+        "date": "Data",
+        "amount": "Quantidade",
+        "method": "Método",
+        "status": "Estado"
+      }
+    },
+    "provider": {
+      "mock": "Simulado"
+    },
+    "billStatus": {
+      "UNPAID": "Não pago",
+      "PARTIAL": "Parcialmente pago",
+      "PAID": "Pago integralmente"
+    },
+    "payStatus": {
+      "PENDING": "Pendente",
+      "PAID": "Bem sucedido",
+      "FAILED": "Falha",
+      "CANCELED": "Cancelado"
+    },
+    "instStatus": {
+      "PENDING": "Pendente",
+      "PAID": "Pago",
+      "OVERDUE": "Atrasado"
+    }
+  },
+  "checkout": {
+    "guest": {
+      "title": "Faça login para continuar",
+      "body": "Faça login em sua conta para fazer uma compra ou alterar sua assinatura. Seu plano selecionado será salvo após você fazer login.",
+      "cta": "Entrar / Cadastrar"
+    },
+    "back": "→ Voltar aos planos",
+    "loading": "Carregando...",
+    "notFound": "Plano não encontrado.",
+    "error": {
+      "load": "Falha ao carregar detalhes do plano.",
+      "checkout": "Falha ao iniciar o pagamento.",
+      "cancel": "Falha ao cancelar assinatura."
+    },
+    "rel": {
+      "none": "Comprar assinatura",
+      "same": "Seu plano atual",
+      "upgrade": "Plano de atualização",
+      "downgrade": "Plano de downgrade",
+      "lateral": "Plano de mudança"
+    },
+    "currentPlanLabel": "Seu plano atual:",
+    "quota": "Limite de mensagens AI: {count, plural, one {# message} other {# messages}} por mês",
+    "period": {
+      "aria": "Ciclo de faturamento",
+      "month": "Mensalmente",
+      "year": "Anualmente (2 meses grátis)"
+    },
+    "amount": {
+      "noPayment": "Não é necessário pagamento",
+      "free": "Grátis"
+    },
+    "suffix": {
+      "proration": "(Prorata)",
+      "year": "/ ano",
+      "month": "/mês"
+    },
+    "creditNote": "Uma quantia de {amount} pelos dias não utilizados do seu plano atual será creditada em sua carteira.",
+    "prorationNote": "Foi calculado apenas o valor rateado dos dias restantes até o final do ciclo atual.",
+    "payFrom": {
+      "label": "Método de pagamento",
+      "wallet": "Carteira",
+      "walletWithBalance": "Carteira ({balance})",
+      "insufficient": "Saldo de carteira insuficiente",
+      "gateway": "Gateway de pagamento"
+    },
+    "mockNote": "Gateway de teste «amostra» — o pagamento real será ativado assim que o gateway for conectado",
+    "action": {
+      "busy": "Processando...",
+      "free": "Ativação Gratuita",
+      "downgrade": "Confirme o downgrade e receba crédito",
+      "renew": "Renovar assinatura",
+      "wallet": "Pague da carteira e ative",
+      "gateway": "Pague e ative a assinatura"
+    },
+    "cancel": {
+      "button": "Cancelar assinatura",
+      "title": "Cancelar assinatura",
+      "body": "Sua assinatura atual será cancelada e você retornará ao plano gratuito.",
+      "confirm": "Cancelar assinatura",
+      "dismiss": "Dispensar",
+      "done": "Sua assinatura foi cancelada."
+    }
+  },
+  "orgInvoice": {
+    "eyebrow": "Faturamento Empresarial",
+    "title": "Faturas da organização",
+    "lead": "Faturas de treinamento corporativo: emissão, acompanhamento de vencimento e liquidação mediante aprovação do departamento financeiro.",
+    "help": {
+      "title": "O que esta página faz?",
+      "body": "Você emite a fatura, a organização emite a remessa e registra uma “Solicitação de Liquidação” aqui mesmo. A fatura não é marcada como «Liquidada» até que o departamento financeiro aprove a remessa; a aprovação financeira é o que escreve o lançamento do razão geral."
+    },
+    "status": {
+      "DUE": "Devido",
+      "PENDING_MANUAL": "Pendente de aprovação financeira",
+      "PAID": "Resolvido",
+      "OVERDUE": "Atrasado"
+    },
+    "kpi": {
+      "filteredNote": "O filtro de status está ativo; apenas o cartão desse status possui um número enquanto os demais permanecem «—», pois a lista filtrada não é a fonte para a contagem de outros status.",
+      "total": "Valor total"
+    },
+    "search": {
+      "aria": "Pesquisar faturas",
+      "placeholder": "Número ou título da fatura..."
+    },
+    "filter": {
+      "aria": "Filtro de status",
+      "all": "Todos"
+    },
+    "action": {
+      "new": "Nova fatura",
+      "requestSettlement": "Enviar solicitação de liquidação",
+      "confirm": "Aprovar Acordo",
+      "reject": "Rejeitar solicitação",
+      "details": "Detalhes",
+      "print": "Imprimir/Exportar PDF",
+      "close": "Fechar"
+    },
+    "table": {
+      "number": "Número",
+      "title": "Título",
+      "amount": "Quantidade",
+      "status": "Estado",
+      "dueDate": "Data de vencimento",
+      "actions": "Ações"
+    },
+    "state": {
+      "loading": "Carregando…",
+      "emptyFiltered": "Nenhuma fatura encontrada que corresponda a este filtro.",
+      "empty": "Nenhuma fatura foi emitida ainda."
+    },
+    "detail": {
+      "aria": "Detalhes da fatura {number}",
+      "heading": "Fatura {number}",
+      "issuedDate": "Data de emissão",
+      "dueDate": "Data de vencimento",
+      "requestedAt": "Data da solicitação de liquidação",
+      "paidDate": "Data de liquidação",
+      "settlementRef": "Número de referência da transferência",
+      "ledgerTxn": "ID da transação contábil",
+      "settlementNote": "Nota",
+      "amount": "Valor a pagar"
+    },
+    "print": {
+      "paidNote": "Esta fatura foi liquidada e seu lançamento correspondente está registrado no razão geral.",
+      "pendingNote": "O pedido de liquidação desta fatura foi submetido mas ainda não aprovado pelo departamento financeiro; este documento não é um recibo de pagamento.",
+      "dueNote": "Esta fatura ainda não foi liquidada; este documento não é um recibo de pagamento."
+    },
+    "settle": {
+      "requestTitle": "Enviar solicitação de liquidação",
+      "requestBody": "Isso enviará a fatura {number} no valor de {amount} para a fila de revisão do departamento financeiro. Nenhum fundo é transferido neste momento; a liquidação será registrada após aprovação financeira.",
+      "requestSubmit": "Enviar solicitação",
+      "confirmTitle": "Aprovar liquidação",
+      "confirmBody": "Ao aprovar, a fatura {number} no valor de {amount} será marcada como liquidada e um lançamento contábil balanceado será criado. Esta ação não pode ser desfeita.",
+      "confirmSubmit": "Aprovar e registrar a entrada",
+      "rejectTitle": "Rejeitar solicitação de liquidação",
+      "rejectBody": "A fatura {number} retornará ao status devido e seu motivo será registrado para a organização.",
+      "rejectSubmit": "Rejeitar solicitação",
+      "refLabel": "Número de referência de transferência ou recebimento (opcional)",
+      "refPlaceholder": "por exemplo, número de rastreamento do banco",
+      "noteLabel": "Nota (opcional)",
+      "reasonLabel": "Motivo da rejeição",
+      "reasonRequired": "É necessário um motivo para rejeitar a solicitação.",
+      "busy": "Salvando…",
+      "cancel": "Cancelar",
+      "awaitingFinance": "A solicitação de liquidação foi enviada e aguarda aprovação do departamento financeiro."
+    },
+    "new": {
+      "title": "Nova fatura",
+      "number": "Número da fatura",
+      "numberPlaceholder": "INV-2025-001",
+      "titleLabel": "Título",
+      "titlePlaceholder": "Curso de treinamento corporativo…",
+      "amount": "Valor (Riais)",
+      "issued": "Data de emissão",
+      "issuedAria": "Selecione a data de emissão",
+      "due": "Data de vencimento",
+      "dueAria": "Selecione a data de vencimento",
+      "submit": "Emitir fatura",
+      "submitting": "Salvando..."
+    },
+    "error": {
+      "load": "Falha ao carregar faturas.",
+      "create": "Falha ao emitir fatura.",
+      "settle": "Falha ao registrar operação de liquidação."
+    }
+  },
+  "orgSeats": {
+    "lead": {
+      "withCap": "Gerenciamento de licenças de licença da organização — Mostra quantas licenças são usadas e estão disponíveis do total de licenças compradas {cap}. Na lista de alocação, você pode atribuir ou recuperar assentos para cada membro.",
+      "noCap": "Gerenciamento de licenças da organização — O limite de contrato desta organização ainda não foi registrado, portanto os números \"Total\" e \"Disponível\" não são exibidos. Você pode ver o número de assentos alocados e atribuir ou recuperar assentos para qualquer membro."
+    },
+    "capUnsetNote": "O limite de assentos desta organização não está registrado. Até que o departamento financeiro registre o limite do contrato, \"Total de assentos\", \"Disponíveis\" e \"Taxa de ocupação\" não mostrarão nenhum valor — não exibimos números fabricados.",
+    "capFull": "Não há vagas disponíveis. A capacidade de licenças está esgotada.",
+    "unknown": "Não registrado",
+    "coursesBasis": "Com base em {linked} dos membros {total} que possuem contas de usuário.",
+    "coursesNoBasis": "Nenhum membro possui contas de usuário, portanto não há média.",
+    "cap": {
+      "title": "Limite de contrato de assento",
+      "hint": "Este número é o limite de licença da organização e só é registrado pelo departamento financeiro. Deixá-lo em branco significa “nenhum limite registrado” – nesse caso, “Total de assentos”, “Disponíveis” e “Taxa de ocupação” não mostrarão nenhum número.",
+      "label": "Tampa do assento",
+      "placeholder": "por exemplo 250",
+      "save": "Salvar limite",
+      "saving": "Salvando...",
+      "clear": "Tampa transparente",
+      "saved": "Tampa do assento salva.",
+      "cleared": "Tampa do assento liberada; agora está \"Não registrado\".",
+      "invalid": "O limite deve ser um número inteiro entre 0 e 1.000.000.",
+      "error": "Ocorreu um erro ao salvar a tampa do assento."
+    },
+    "manageDenied": "A atribuição e recuperação de assentos de membros é responsabilidade do gerente da organização. A função financeira registra o limite do contrato e visualiza seu uso."
+  }
+}

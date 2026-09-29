@@ -1,0 +1,816 @@
+{
+  "aid": {
+    "active": {
+      "amount": {
+        "label": "Quantidade",
+        "value": "8.400.000 toneladas"
+      },
+      "coverage": {
+        "label": "Cobertura de mensalidades",
+        "value": "70%"
+      },
+      "label": "Sua ajuda financeira ativa",
+      "status": {
+        "label": "Estado",
+        "value": "Ativo"
+      },
+      "title": "Bolsa de Talentos Brilhantes - Semestre da Primavera de 2026",
+      "type": {
+        "label": "Tipo",
+        "value": "Reembolsável"
+      }
+    },
+    "apply": {
+      "ariaLabel": "Inscreva-se para {title}",
+      "button": "Aplicar",
+      "toast": {
+        "msg": "Sua inscrição para \"{title}\" está em análise.",
+        "title": "Inscrição enviada"
+      }
+    },
+    "available": {
+      "title": "Bolsas disponíveis"
+    },
+    "card": {
+      "capacity": "Capacidade",
+      "criteria": "Critérios",
+      "deadline": "Prazo"
+    },
+    "hero": {
+      "eyebrow": "Ajuda Financeira",
+      "lead": "12 ajudas financeiras ativas · 8 bolsas disponíveis",
+      "title": "Empréstimos e Bolsas"
+    },
+    "screenLabel": "40 ajudas financeiras"
+  },
+  "alumni": {
+    "card": {
+      "cohort": "Coorte {year}",
+      "mentees": "{count, plural, one {# pupilo} other {# pupilos}}"
+    },
+    "hero": {
+      "demoNote": "As estatísticas e mentores nesta página são dados de demonstração – a verdadeira rede de ex-alunos ainda não está conectada",
+      "eyebrow": "Ex-alunos",
+      "lead": "12.400 ex-alunos em 42 cidades e 28 países. Uma rede de futuros mentores, colaboradores e empregadores.",
+      "title": "Rede de ex-alunos"
+    },
+    "mentor": {
+      "ariaLabel": "Solicite orientação de {name}",
+      "full": "Em plena capacidade",
+      "request": "Solicitar mentoria",
+      "toast": {
+        "msg": "Sua solicitação foi enviada para {name}.",
+        "title": "Solicitação de mentoria enviada"
+      }
+    },
+    "mentors": {
+      "title": "Encontre um mentor ex-aluno"
+    },
+    "screenLabel": "Rede de 42 ex-alunos",
+    "stats": {
+      "academia": {
+        "label": "Em universidades em todo o mundo",
+        "value": "1.400"
+      },
+      "salary": {
+        "label": "Salário médio após 3 anos",
+        "value": "82 milhões/mês"
+      },
+      "total": {
+        "label": "Total de ex-alunos",
+        "value": "12,4K"
+      },
+      "unicorn": {
+        "label": "Em empresas unicórnios",
+        "value": "2.800"
+      }
+    }
+  },
+  "attendance": {
+    "mine": {
+      "badge": {
+        "atRisk": "Correndo risco, claro, de cair",
+        "ok": "Status: Elegível"
+      },
+      "courseFallback": "Curso",
+      "empty": "Nenhuma frequência foi registrada para nenhum curso ainda. Assim que a primeira sessão for realizada e a presença for registrada pelo instrutor, ela aparecerá aqui.",
+      "emptyCta": "Ver meus cursos",
+      "err": {
+        "generic": "Ocorreu um erro"
+      },
+      "eyebrow": "Educação · Atendimento",
+      "help": {
+        "body": "Faltas injustificadas superiores a {max} em cada sessão {outOf}, de acordo com os regulamentos acadêmicos, podem levar ao abandono do curso. Esta página fornece apenas avisos; a decisão final sobre desistências do curso cabe à secretaria acadêmica/instrutor. Se você vir um aviso, converse com seu instrutor ou com o escritório acadêmico antes de atingir o limite. As ausências justificadas não são contabilizadas.",
+        "title": "Guia de Presença"
+      },
+      "kpi": {
+        "atRisk": "Cursos próximos do limite de ausência",
+        "courses": "Cursos com presença registrada"
+      },
+      "lead": "Seu status de frequência em cada curso é baseado nas sessões gravadas pelo instrutor; você pode ver avisos aqui se estiver se aproximando do limite de ausência permitido ({max} fora das sessões {outOf}).",
+      "legend": "Linha indicadora: Limite permitido ({max} de sessões {outOf}). As ausências justificadas não são contabilizadas.",
+      "loading": "Carregando...",
+      "meter": {
+        "label": "Ausências injustificadas",
+        "text": "{unexcused} de sessões {total} ({pct})"
+      },
+      "noSessions": "Nenhuma sessão foi gravada para este curso ainda.",
+      "stat": {
+        "absent": "Ausente",
+        "excused": "Desculpado",
+        "late": "Tarde",
+        "present": "Presente",
+        "total": "Total de sessões"
+      },
+      "thresholdTitle": "Limite permitido ({max} de {outOf})",
+      "title": "Meu Atendimento",
+      "warn": {
+        "body": "No(s) curso(s) {n}, suas faltas injustificadas ultrapassaram o limite permitido e você corre o risco de ser desligado do curso. Por favor, coordene com seu instrutor ou com o escritório acadêmico o mais rápido possível. (A decisão final cabe à secretaria acadêmica.)",
+        "title": "Aviso de limite de ausência ({max}/{outOf})"
+      }
+    },
+    "parent": {
+      "bySectionTitle": "Presença por Curso",
+      "childFallback": "Estudante",
+      "emptyAttendance": "Nenhuma frequência foi registrada para esta criança ainda.",
+      "err": {
+        "children": "Falha ao carregar filhos",
+        "data": "Falha ao carregar dados de presença"
+      },
+      "eyebrow": "Pai · Presença",
+      "help": {
+        "body": "Nesta página você pode visualizar o status de frequência do seu filho. Caso você tenha mais de um filho, utilize os botões acima para selecionar o filho desejado para visualizar sua taxa de frequência por curso e lista de sessões recentes.",
+        "title": "Guia de frequência infantil"
+      },
+      "kpi": {
+        "absent": "Ausências",
+        "present": "Presente",
+        "rate": "Taxa geral de frequência",
+        "total": "Total de sessões"
+      },
+      "lead": "A taxa de frequência do seu filho por curso e lista de sessões recentes.",
+      "loading": "Carregando...",
+      "loadingData": "Carregando atendimento...",
+      "noChildren": "Nenhuma criança foi vinculada à sua conta ainda. Entre em contato com o suporte da universidade para vincular.",
+      "recentTitle": "Sessões recentes",
+      "sectionRate": "{pct} ({attended}/{total})",
+      "table": {
+        "course": "Curso",
+        "date": "Data",
+        "status": "Estado"
+      },
+      "tally": {
+        "absent": "Ausente: {n}",
+        "excused": "Dispensado: {n}",
+        "late": "Atrasado: {n}",
+        "present": "Presente: {n}"
+      },
+      "title": "Presença da criança"
+    },
+    "roster": {
+      "courseUntitled": "Sem título",
+      "emptyRoster": "Nenhum aluno está matriculado neste curso ainda.",
+      "err": {
+        "generic": "Ocorreu um erro"
+      },
+      "eyebrow": "Instrutor · Escalação da turma",
+      "file": "Arquivo",
+      "fileAria": "Arquivo {name}",
+      "gradeLabel": "Nota atual",
+      "help": {
+        "body": "Esta lista é lida no sistema de notas e mostra apenas os cursos onde você é o instrutor. “Nota Atual” é a nota registrada na folha de notas; antes da gravação, é exibido como \"—\". A porcentagem de frequência e as tarefas não são fornecidas nesta página.",
+        "title": "Ajuda"
+      },
+      "kpi": {
+        "graded": "Classificado",
+        "objections": "Objeções abertas",
+        "total": "Total de alunos",
+        "ungraded": "Sem classificação"
+      },
+      "lead": "Alunos matriculados em cada um de seus cursos; visualizar nome, e-mail e nota atual, juntamente com pesquisa e classificação. Para enviar ou anunciar notas, visite a página \"Envio de notas\".",
+      "loadingRoster": "Carregando lista de alunos...",
+      "loadingSections": "Carregando cursos...",
+      "noResults": "Não foram encontrados alunos que correspondam a esta pesquisa.",
+      "noSections": "Você não tem cursos (seções) neste semestre.",
+      "objectionOpen": "Objeção aberta",
+      "optionNone": "— Selecione um curso —",
+      "optionSection": "{course} · Alunos {n}",
+      "pickPrompt": "Selecione um curso na lista acima para ver a lista de alunos.",
+      "pickerLabel": "Selecione o curso",
+      "retry": "Tente novamente",
+      "searchAria": "Pesquisar aluno",
+      "searchPlaceholder": "Pesquisar nome ou e-mail…",
+      "showing": "Mostrando {shown} de alunos {total}",
+      "sort": {
+        "grade": "Classificar: nota mais alta",
+        "name": "Classificar: Nome do Aluno"
+      },
+      "sortAria": "Classificar",
+      "status": {
+        "graded": "Classificado",
+        "ungraded": "Inscrito (sem classificação)"
+      },
+      "title": "Lista de Alunos",
+      "unnamed": "Sem nome"
+    },
+    "status": {
+      "absent": "Ausente",
+      "excused": "Desculpado",
+      "late": "Tarde",
+      "present": "Presente",
+      "unset": "Desativar"
+    },
+    "teacher": {
+      "bulk": {
+        "label": "Todos:"
+      },
+      "emptyRoster": "Não há alunos matriculados em \"{title}\".",
+      "emptyRosterNoSection": "Não há alunos.",
+      "err": {
+        "atRisk": "Falha ao carregar o status de ausência",
+        "roster": "Falha ao carregar lista",
+        "save": "Falha ao salvar participação",
+        "sections": "Falha ao carregar seções"
+      },
+      "eyebrow": "Instrutor · Presença",
+      "field": {
+        "date": "Data da Sessão",
+        "section": "Seção"
+      },
+      "help": {
+        "body": "Nesta página, você registra a frequência dos alunos em cada aula. Primeiro, selecione a seção e a data da sessão; em seguida, clique no status de cada aluno para alternar entre presente, ausente, atrasado e desculpado (ou use os botões \"Todos\" para definir o status de todos de uma vez) e, por fim, clique em \"Salvar\".",
+        "title": "Guia de Presença"
+      },
+      "kpi": {
+        "absent": "Ausente",
+        "late": "Tarde",
+        "present": "Presente",
+        "total": "Total"
+      },
+      "lead": "Selecione a seção e a data da sessão e registre a frequência dos alunos.",
+      "loading": "Carregando…",
+      "noSections": "Nenhuma seção é atribuída a você.",
+      "option": {
+        "section": "{code} — {title} (Grupo {group})"
+      },
+      "risk": {
+        "checking": "Verificando status de ausência…",
+        "limit": "Limite: Ausências injustificadas excedendo {pct} de sessões ({sessions} sessão gravada{sessões, plural, uma {}outra {s}} até o momento)",
+        "listTitle": "Alunos em risco de exclusão do exame ({n})",
+        "none": "Nenhum aluno excedeu o limite de faltas",
+        "over": "Aluno {n}{n, plural, um {} outro {s}} excedeu o limite de faltas",
+        "presence": "Presença {pct}",
+        "unavailable": "O status de participação não está disponível.",
+        "unexcused": "{n, plural, uma ausência injustificada {{n}} outras ausências injustificadas {{n}}}",
+        "warnOnly": "— Apenas aviso; a desistência do curso é decidida pelo instrutor/comissão."
+      },
+      "rosterLoading": "Carregando lista…",
+      "row": {
+        "file": "Arquivo",
+        "fileAria": "Arquivo de {name}",
+        "presence": "Presença: {pct}",
+        "presenceDetail": "Presença: {pct} ({present} das sessões {total})",
+        "presenceTitle": "Participação em sessões gravadas {sessions}",
+        "riskBadge": "Em risco de barra · {n, plural, uma ausência {{n}} outras ausências {{n}}}",
+        "riskTitle": "Ausências excessivas ({pct}) — Apenas aviso, não eliminação automática",
+        "statusAria": "Status de {name}"
+      },
+      "save": "Salvar",
+      "saved": "✓ Presença salva – você pode selecionar a próxima aula ou outra data, ou visualizar a lista de risco nesta mesma página",
+      "title": "Presença"
+    }
+  },
+  "career": {
+    "apply": {
+      "ariaLabel": "Candidate-se a uma vaga em {company}",
+      "button": "Aplicar",
+      "toast": {
+        "msg": "Sua inscrição para o cargo em {company} foi enviada.",
+        "title": "Inscrição enviada"
+      }
+    },
+    "card": {
+      "match": "Correspondência {pct, number}%"
+    },
+    "filters": {
+      "experience": {
+        "junior": "Júnior",
+        "mid": "Nível médio",
+        "senior": "Sênior",
+        "student": "Estudante",
+        "title": "Experiência"
+      },
+      "type": {
+        "fullTime": "Tempo integral",
+        "internship": "Estágio",
+        "partTime": "Meio período",
+        "project": "Baseado em projetos",
+        "remote": "Remoto",
+        "title": "Tipo"
+      }
+    },
+    "hero": {
+      "eyebrow": "Serviços de carreira",
+      "lead": "482 vagas ativas · 234 empresas parceiras · Tempo médio de contratação: 34 dias",
+      "title": "Centro de Carreira e Estágio"
+    },
+    "match": {
+      "body": "A IA encontra vagas adequadas com base em suas habilidades, cursos, projetos e interesses.",
+      "resumeButton": "Atualizar currículo",
+      "title": "23 vagas que correspondem ao seu perfil",
+      "toast": {
+        "msg": "Os resultados foram listados abaixo.",
+        "title": "23 posições de correspondência de perfil"
+      },
+      "viewButton": "Ver partidas"
+    },
+    "save": {
+      "ariaLabel": "Adicionar aos favoritos",
+      "title": "Salvar",
+      "toast": "Adicionado aos favoritos"
+    },
+    "screenLabel": "39 serviços de carreira"
+  },
+  "degree": {
+    "card": {
+      "credits": "{n, plural, um crédito {{n, number}} outros créditos {{n, number}}}"
+    },
+    "categories": {
+      "core": {
+        "courses": {
+          "advancedMath": "Matemática Avançada",
+          "bayesianStats": "Estatísticas Bayesianas",
+          "dataStructures": "Estruturas de dados avançadas",
+          "mlFoundations": "Fundações de aprendizado de máquina",
+          "optimisation": "Otimização Computacional",
+          "researchMethods": "Métodos Avançados de Pesquisa"
+        },
+        "title": "Cursos Básicos e Obrigatórios"
+      },
+      "elective": {
+        "courses": {
+          "aiEthics": "Ética da IA",
+          "innovation": "Inovação e startup",
+          "language": "Linguagem Especializada",
+          "seminar": "Seminário Especializado"
+        },
+        "title": "Eletivo"
+      },
+      "major": {
+        "courses": {
+          "appliedAi": "IA aplicada",
+          "deepLearning": "Aprendizado profundo",
+          "nlp": "Processamento de Linguagem Natural",
+          "recommenders": "Sistemas de recomendação",
+          "vision": "Visão Computacional"
+        },
+        "title": "Cursos principais e de especialização"
+      },
+      "thesis": {
+        "courses": {
+          "defence": "Defesa Final",
+          "dissertation": "Dissertação (1 a 6)",
+          "proposal": "Proposta de Tese",
+          "seminarOne": "Seminário 1",
+          "seminarTwo": "Seminário 2"
+        },
+        "title": "Tese e Seminário"
+      }
+    },
+    "hero": {
+      "eyebrow": "Progresso de graduação",
+      "lead": "Mestrado em Ciência de Dados · 48 créditos concluídos em 120",
+      "title": "Caminho de Graduação"
+    },
+    "progress": {
+      "earned": "48 créditos ganhos",
+      "estimate": "Graduação estimada: julho de 2027",
+      "percent": "40%",
+      "title": "Progresso geral"
+    },
+    "screenLabel": "Caminho de 37 graus"
+  },
+  "gradebook": {
+    "mine": {
+      "badge": {
+        "answered": "Respondido",
+        "awaitingReply": "Aguardando resposta",
+        "final": "Final",
+        "provisional": "Provisório"
+      },
+      "courseFallback": "Curso",
+      "dialog": {
+        "cancel": "Cancelar",
+        "close": "Fechar",
+        "counter": "Caracteres {len} / {max} (mínimo {min})",
+        "errLength": "O texto da objeção deve estar entre os caracteres {min} e {max}",
+        "placeholder": "Escreva o motivo da sua objeção à nota publicada...",
+        "submit": "Enviar objeção",
+        "textLabel": "Texto de objeção",
+        "title": "Enviar objeção de nota"
+      },
+      "empty": "Nenhuma nota foi publicada ainda. Assim que o instrutor postar uma nota, ela aparecerá aqui.",
+      "errGeneric": "Ocorreu um erro",
+      "eyebrow": "Acadêmicos · Notas",
+      "gradeFinalized": "Esta nota foi finalizada.",
+      "helpBody": "Aqui você pode ver as notas postadas para cada curso. Se uma nota for provisória e a janela de objeção estiver aberta, você poderá usar o botão \"Enviar objeção\" para contestar a nota e visualizar a resposta do instrutor aqui mesmo.",
+      "helpTitle": "Guia de notas e objeções",
+      "instructorReply": "Resposta do instrutor",
+      "kpi": {
+        "announced": "Cursos com notas publicadas",
+        "final": "Nota Final",
+        "openWindow": "Abrir janela de objeção"
+      },
+      "lead": "Suas notas publicadas; você pode enviar uma objeção às notas provisórias antes que o prazo expire.",
+      "loading": "Carregando...",
+      "objectionDeadline": "Prazo para objeção",
+      "outOf": "de {max}",
+      "title": "Notas e objeções",
+      "viewMyCourses": "Ver meus cursos",
+      "windowClosed": "A janela de objeção foi fechada.",
+      "yourObjection": "Sua objeção"
+    },
+    "parent": {
+      "colCode": "Código",
+      "colCourse": "Curso",
+      "colCredits": "Créditos",
+      "colGrade": "Nota",
+      "errLoadChildren": "Falha ao carregar filhos",
+      "errLoadGrades": "Falha ao carregar notas",
+      "eyebrow": "Pai · Notas",
+      "gpaTrend": "Tendência do Termo GPA",
+      "helpBody": "Nesta página, você pode visualizar o histórico acadêmico do seu filho, incluindo GPA do período, GPA cumulativo e tendências de notas. Se você tiver mais de um filho, selecione o filho desejado na parte superior e use os botões de período para visualizar as notas do curso para cada período.",
+      "helpTitle": "Guia de notas infantis",
+      "inProgress": "Em andamento",
+      "kpi": {
+        "courseCount": "Cursos Inscritos",
+        "cumulativeGpa": "GPA cumulativo",
+        "field": "Principal",
+        "totalCredits": "Total de créditos"
+      },
+      "lead": "O histórico escolar do seu filho, o GPA do período e o GPA cumulativo.",
+      "loading": "Carregando...",
+      "loadingGrades": "Carregando notas...",
+      "noChildren": "Nenhuma criança está atualmente vinculada à sua conta. Entre em contato com o suporte da universidade para vincular uma conta.",
+      "noGrades": "Nenhuma nota foi registrada para esta criança ainda.",
+      "studentFallback": "Estudante",
+      "termGpaLabel": "Termo GPA:",
+      "title": "Notas e histórico escolar da criança"
+    },
+    "teacher": {
+      "backToCourses": "← Todos os cursos",
+      "class": {
+        "buildAssessment": "Criar avaliação",
+        "colAverage": "Média",
+        "colStudent": "Estudante",
+        "emptyStudents": "Não há alunos ativos neste curso.",
+        "errLoad": "Falha ao carregar o boletim de notas",
+        "profile": "Perfil",
+        "profileOf": "Perfil de {name}",
+        "title": "Boletim: {course}"
+      },
+      "kind": {
+        "exercise": "Exercício",
+        "quiz": "Questionário"
+      },
+      "loading": "Carregando...",
+      "noPublishedAssessments": "Nenhuma avaliação publicada ainda.",
+      "picker": {
+        "colActions": "Ações",
+        "colCode": "Código",
+        "colTitle": "Título",
+        "empty": "Nenhum curso encontrado.",
+        "errLoad": "Falha ao carregar cursos",
+        "eyebrow": "Boletim",
+        "helpBody": "Selecione um curso na lista para ver suas notas. Se você for instrutor ou gestor, verá o histórico escolar de todos os alunos do curso; se você for estudante, suas próprias notas e comentários serão exibidos.",
+        "helpTitle": "Guia do boletim de notas",
+        "lead": "Selecione um curso para ver as notas.",
+        "title": "Boletim",
+        "viewGrades": "Notas →"
+      },
+      "self": {
+        "averageLabel": "Média:",
+        "colAssessment": "Avaliação",
+        "colFeedback": "Comentários",
+        "colGrade": "Nota",
+        "colKind": "Tipo",
+        "errLoad": "Falha ao carregar notas",
+        "title": "Minhas notas: {course}"
+      }
+    }
+  },
+  "hackathons": {
+    "card": {
+      "ariaLabel": "Detalhes da competição {title}",
+      "details": "Detalhes →",
+      "toastMsg": "{kind} · Prêmio: {prize} · Prazo: {deadline}",
+      "until": "Até {deadline}"
+    },
+    "featured": {
+      "badge": "Competição em destaque",
+      "body": "Crie ferramentas de IA para ajudar médicos e pacientes. 48 horas de trabalho em equipe, com orientação de especialistas da Shiraz e da Mayo Clinic.",
+      "date": {
+        "label": "Data",
+        "value": "19 a 21 de setembro"
+      },
+      "duration": "48 horas",
+      "findTeammate": "Encontre companheiro de equipe",
+      "prize": {
+        "label": "Primeiro Prêmio",
+        "value": "800 milhões de tomans"
+      },
+      "registerButton": "Cadastro de equipe",
+      "registerBy": {
+        "label": "Cadastre-se por",
+        "value": "11 de setembro"
+      },
+      "registerToast": {
+        "msg": "O formulário de inscrição da equipe está sendo carregado.",
+        "title": "Cadastro de equipe"
+      },
+      "teamSize": "Equipes de até 5",
+      "title": "Hackathon Nacional de IA em Saúde 2026"
+    },
+    "hero": {
+      "demoNote": "As competições e prêmios listados nesta página são apenas para demonstração – a inscrição real não está vinculada",
+      "eyebrow": "Competições",
+      "lead": "12 competições ativas · Prêmios totais 2,4 bilhões de Tomans · Oportunidades de carreira para os melhores desempenhos",
+      "title": "Hackathons e competições"
+    },
+    "others": {
+      "title": "Outras competições"
+    },
+    "screenLabel": "43 Competições"
+  },
+  "honorCode": {
+    "screenLabel": "44 Código de Honra"
+  },
+  "registration": {
+    "actions": {
+      "add": "Adicionar",
+      "full": "Completo",
+      "remove": "Remover"
+    },
+    "aiHint": {
+      "body": "Com base em seu curso de graduação e desempenho anterior, recomendo \"Aprendizado por Reforço\" para avançar em sua pesquisa.",
+      "label": "Recomendação de IA"
+    },
+    "cart": {
+      "courseCount": "Número de cursos",
+      "limits": "Mínimo de 9 créditos · Máximo de 24 créditos no semestre de verão",
+      "submit": "Finalizar registro",
+      "title": "Carrinho de Registro",
+      "totalCredits": "Total de créditos"
+    },
+    "confirm": {
+      "body": "Serão registrados cursos {courses, number} com um total de créditos {credits, number}. Após a confirmação, o Add/Drop é possível durante as primeiras 2 semanas do semestre.",
+      "confirmLabel": "Confirmação Final",
+      "title": "Finalizar registro",
+      "toast": {
+        "msg": "Sua programação do período de verão foi confirmada.",
+        "title": "Inscrição finalizada"
+      }
+    },
+    "course": {
+      "capacity": "Capacidade: {enrolled, number}/{capacity, number}",
+      "credits": "Créditos {n, number}",
+      "prereq": "Pré-requisito: {code}"
+    },
+    "courses": {
+      "cs580": {
+        "day": "Domingo 14:00",
+        "prof": "M. Kiani",
+        "title": "Arquitetura de Sistemas Escaláveis"
+      },
+      "cs650": {
+        "day": "Segunda-feira 16:00",
+        "prof": "Dr. Azimi",
+        "title": "Aprendizagem por Reforço"
+      },
+      "cs720": {
+        "day": "Terça-feira 10:00",
+        "prof": "Dr.",
+        "title": "Inteligência Artificial Explicável"
+      },
+      "mgmt410": {
+        "day": "Quinta-feira 10:00",
+        "prof": "Dr. Razavi",
+        "title": "Inovação e Empreendedorismo"
+      },
+      "res601": {
+        "day": "Flexível",
+        "prof": "Conselheiro",
+        "title": "Proposta de Tese"
+      },
+      "stat540": {
+        "day": "Quarta-feira 14:00",
+        "prof": "Dr.",
+        "title": "Estatísticas não paramétricas"
+      }
+    },
+    "filters": {
+      "all": "Todos",
+      "ariaLabel": "Filtrar cursos",
+      "elective": "Eletivo",
+      "major": "Principal",
+      "noConflict": "Sem conflito",
+      "open": "Abrir",
+      "required": "Obrigatório"
+    },
+    "hero": {
+      "eyebrow": "Registro do período de verão 1405",
+      "lead": "Janela de registro: Shahrivar 5 - 20 · Período de adição/remoção: primeiras 2 semanas do período",
+      "title": "Seleção de Curso"
+    },
+    "screenLabel": "38 Registro"
+  },
+  "sectionInstructor": {
+    "assign": {
+      "close": "Fechar",
+      "empty": "Nenhum instrutor encontrado. Adicione-os primeiro na seção \"Instrutores\".",
+      "load": "Carregar: classes {n}",
+      "none": "Nenhum instrutor (não atribuído)",
+      "subtitle": "{title} · Seção {group}",
+      "title": "Atribuir instrutor"
+    },
+    "capacity": "Capacidade {enrolled}/{capacity}",
+    "cta": {
+      "assign": "Atribuir instrutor",
+      "assistants": "Assistente de Ensino",
+      "change": "Instrutor de Mudança"
+    },
+    "day": {
+      "fri": "Sexta-feira",
+      "mon": "Segunda-feira",
+      "sat": "Sábado",
+      "sun": "Domingo",
+      "thu": "Quinta-feira",
+      "tue": "Terça-feira",
+      "wed": "Quarta-feira"
+    },
+    "emptySections": "Não há turmas inscritas para este semestre. Primeiro, crie uma turma em “Ofertas de cursos”.",
+    "errGeneric": "Ocorreu um erro",
+    "eyebrow": "Acadêmicos · Atribuição de Instrutor",
+    "filter": {
+      "all": "Todos",
+      "assigned": "Atribuído",
+      "unassigned": "Não atribuído"
+    },
+    "help": {
+      "body": "Primeiro, selecione o semestre. Cada linha é uma “classe” (uma seção de um curso); clique em \"Atribuir/Alterar\" e selecione o instrutor. A carga horária de cada instrutor (número de aulas) é mostrada ao lado do nome. As aulas são criadas em “Ofertas de Cursos/Seccionamento”; aqui você atribui apenas o instrutor. Com o \"Teaching Assistant\", você pode adicionar um ou mais TAs à turma; o TA obtém acesso à lista de alunos e à análise da turma e pode inserir notas como rascunhos, mas o envio da nota final é restrito ao instrutor.",
+      "title": "Guia de tarefas do instrutor"
+    },
+    "instructorFallback": "Instrutor",
+    "kpi": {
+      "assigned": "Atribuído",
+      "instructors": "Instrutores",
+      "sections": "Aulas",
+      "unassigned": "Não atribuído"
+    },
+    "lead": "Selecione o instrutor responsável por cada turma (seção) do curso no semestre.",
+    "loading": "Carregando...",
+    "noSchedule": "Nenhuma programação registrada",
+    "rank": {
+      "ASSISTANT": "Professor Assistente",
+      "ASSOCIATE": "Professor Associado",
+      "EMERITUS": "Professor Emérito",
+      "FULL": "Professor Titular"
+    },
+    "sectionMeta": "({code} · Seção {group} · Créditos {credits})",
+    "ta": {
+      "add": "+ Adicionar assistente de ensino...",
+      "close": "Fechar",
+      "dialogLabel": "Gerenciar assistente de ensino",
+      "empty": "Nenhum assistente de ensino foi designado para esta turma ainda.",
+      "loading": "Carregando...",
+      "note1": "O assistente de ensino obtém acesso à lista de alunos e análises desta turma e pode registrar notas como",
+      "note2": ". A submissão final das notas é restrita ao instrutor do curso.",
+      "noteDraft": "Rascunho",
+      "pickerTitle": "Selecione Assistente de Ensino",
+      "remove": "Remover",
+      "removeAria": "Remover assistente de ensino {name}",
+      "retry": "Tente novamente",
+      "subtitle": "{title} · Grupo {group}",
+      "title": "Assistente de Ensino"
+    },
+    "termCurrent": "(Atual)",
+    "title": "Atribuir instrutor às aulas",
+    "toast": {
+      "assignFailed": "Falha na tarefa"
+    },
+    "unassigned": "Não atribuído"
+  },
+  "transcript": {
+    "actions": {
+      "pdf": "PDF Oficial",
+      "verify": "Verificação Digital"
+    },
+    "download": {
+      "toast": {
+        "msg": "O arquivo PDF da transcrição está pronto.",
+        "title": "Baixando"
+      }
+    },
+    "help": {
+      "body": "Esta página mostra seu histórico escolar oficial dividido por período e curso. Clique em \"PDF oficial\" para obter a versão oficial e em \"Verificação digital\" para uma consulta válida.",
+      "title": "Guia de transcrição"
+    },
+    "hero": {
+      "eyebrow": "Transcrição Oficial",
+      "lead": "Nasrin Razavi · Código 84-02-17 · Mestrado em Ciência de Dados · 2º semestre",
+      "title": "Transcrição Oficial"
+    },
+    "screenLabel": "36 Transcrição",
+    "semester": {
+      "creditsLabel": "Créditos"
+    },
+    "summary": {
+      "current": {
+        "label": "Créditos Atuais",
+        "value": "18"
+      },
+      "earned": {
+        "label": "Créditos ganhos",
+        "value": "48 de 120"
+      },
+      "gpa": {
+        "label": "GPA cumulativo",
+        "value": "3,82"
+      },
+      "level": {
+        "label": "Nível",
+        "value": "Mestrado"
+      },
+      "standing": {
+        "label": "Em pé",
+        "value": "Honras"
+      }
+    },
+    "table": {
+      "code": "Código",
+      "credits": "Créditos",
+      "grade": "Nota",
+      "professor": "Instrutor",
+      "score": "Pontuação",
+      "title": "Título do curso"
+    }
+  },
+  "wellness": {
+    "crisis": {
+      "toast": {
+        "msg": "Um operador entrará em contato com você em breve.",
+        "title": "Linha de Crise Ativa"
+      }
+    },
+    "hero": {
+      "eyebrow": "Bem-estar do estudante",
+      "lead": "A vida estudantil vem com suas próprias pressões. Estamos aqui para ajudá-lo – aconselhamento psicológico, gerenciamento de estresse e um companheiro inteligente para dias difíceis. Tudo é confidencial.",
+      "title": "Saúde da mente e do corpo"
+    },
+    "resources": {
+      "items": {
+        "examAnxiety": "Guia de gerenciamento de ansiedade em exames",
+        "facultyTalk": "Como ter conversas construtivas com o corpo docente",
+        "mindfulness": "Exercícios de atenção plena de 5 minutos",
+        "pomodoro": "Técnicas Pomodoro para foco",
+        "sleep": "Sono saudável para estudantes",
+        "workLifeBalance": "Gestão do equilíbrio trabalho-estudo"
+      },
+      "title": "Recursos",
+      "toastMsg": "O recurso educacional foi adicionado ao seu arquivo pessoal."
+    },
+    "screenLabel": "41 Saúde",
+    "services": {
+      "ai": {
+        "cta": "Iniciar bate-papo",
+        "desc": "Bate-papo confidencial com IA treinada",
+        "title": "Companheiro de IA 24 horas por dia, 7 dias por semana"
+      },
+      "crisis": {
+        "cta": "Chamada de emergência",
+        "desc": "Se você estiver em uma situação de crise",
+        "title": "Linha de apoio a crises 24 horas por dia, 7 dias por semana"
+      },
+      "individual": {
+        "cta": "Sessão de Livro",
+        "desc": "Sessão confidencial com psicóloga",
+        "title": "Aconselhamento Individual"
+      },
+      "peer": {
+        "cta": "Junte-se ao grupo",
+        "desc": "Converse com colegas em um espaço seguro",
+        "title": "Grupos de apoio de pares"
+      },
+      "selfCheck": {
+        "cta": "Iniciar teste",
+        "desc": "PHQ-9, GAD-7, Estresse",
+        "title": "Teste de Autoavaliação"
+      },
+      "timeSleep": {
+        "cta": "Iniciar programa",
+        "desc": "Ferramentas e construção de hábitos",
+        "title": "Gerenciamento de tempo e sono"
+      }
+    }
+  }
+}

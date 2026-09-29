@@ -1,0 +1,141 @@
+{
+  "actions": {
+    "postJob": "+ Publicar Trabalho"
+  },
+  "appStatus": {
+    "accepted": "Aceito",
+    "applied": "Aplicado",
+    "rejected": "Rejeitado",
+    "reviewing": "Em revisão"
+  },
+  "applicants": {
+    "closeButton": "Fechar",
+    "empty": "Ninguém se candidatou a esta posição ainda.",
+    "eyebrow": "Candidatos",
+    "loading": "Carregando candidatos…",
+    "statusLabel": "Estado:"
+  },
+  "apply": {
+    "counter": "Caracteres {current, number}/{max, number}",
+    "employerPage": "Página do empregador ↗",
+    "eyebrow": "Enviar inscrição",
+    "noteLabel": "Nota de capa (opcional)",
+    "notePlaceholder": "Por que você é adequado para esse papel? Descreva resumidamente suas habilidades e motivação…",
+    "submit": "Enviar inscrição",
+    "submitting": "Enviando…"
+  },
+  "closeJob": {
+    "closing": "Fechando…",
+    "confirm": "Tem certeza de que deseja fechar \"{title}\"? Uma vez encerrada, esta vaga não estará mais visível para os alunos e nenhuma nova inscrição será aceita.",
+    "submit": "Sim, fechar",
+    "title": "Fechar anúncio de emprego"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "saving": "Salvando…"
+  },
+  "cv": {
+    "completePercent": "{percent, number}% concluído",
+    "createButton": "Criar currículo",
+    "defaultHolder": "Usuário",
+    "editButton": "Editar currículo",
+    "empty": "Você ainda não criou um currículo. Clique em “Criar CV” para ajudar os empregadores a conhecê-lo melhor.",
+    "loading": "Carregando currículo…",
+    "title": "Meu currículo"
+  },
+  "cvEditor": {
+    "createTitle": "Criar currículo",
+    "editTitle": "Editar currículo",
+    "educationOrgPlaceholder": "Universidade / Instituição",
+    "educationTitle": "História da Educação",
+    "educationTitlePlaceholder": "Grau / Major",
+    "experienceOrgPlaceholder": "Empresa/Organização",
+    "experienceTitle": "Experiência Profissional / Estágio",
+    "experienceTitlePlaceholder": "Título/Posição",
+    "headlineLabel": "Título Profissional",
+    "headlinePlaceholder": "por exemplo, estudante de engenharia de software · Entusiasta de front-end",
+    "save": "Salvar currículo",
+    "skillsLabel": "Habilidades (separadas por vírgulas)",
+    "skillsPlaceholder": "React, TypeScript, Git, Trabalho em equipe",
+    "summaryLabel": "Sobre mim",
+    "summaryPlaceholder": "Um resumo de você mesmo, seus objetivos e pontos fortes…"
+  },
+  "entry": {
+    "add": "+ Adicionar",
+    "detailPlaceholder": "Descrição (opcional)",
+    "empty": "Nenhum item adicionado.",
+    "periodPlaceholder": "Período de tempo (por exemplo, 2023–2024)",
+    "remove": "Remover",
+    "removeLabel": "Remover item"
+  },
+  "errors": {
+    "generic": "Ocorreu um erro"
+  },
+  "help": {
+    "body": "Nesta página, você pode visualizar as oportunidades de emprego abertas e filtrá-las por tipo de emprego ou pesquisa. Clique em «Inscrever-se» em qualquer oportunidade de se candidatar; o status de todos os seus aplicativos é exibido na seção «Meus aplicativos». Preencha seu currículo no cartão «Meu Currículo».",
+    "manager": "Como gerente de serviços de carreira, você pode publicar uma nova listagem usando «Publicar oportunidade de emprego», editá-la ou fechá-la e revisar «Candidatos» para cada oportunidade para atualizar seu status.",
+    "title": "Guia de serviços de carreira"
+  },
+  "jobForm": {
+    "applyUrlLabel": "Link de emprego do empregador (opcional)",
+    "companyLabel": "Empresa/Organização",
+    "createTitle": "Oportunidade pós-emprego",
+    "descriptionLabel": "Descrição do trabalho",
+    "descriptionPlaceholder": "Descrição das funções, habilidades exigidas e condições…",
+    "editTitle": "Editar oportunidade de emprego",
+    "errors": {
+      "company": "Insira o nome da empresa/organização.",
+      "description": "Insira a descrição do trabalho (pelo menos caracteres {min, number}).",
+      "title": "Insira o cargo (pelo menos caracteres {min, number})."
+    },
+    "locationLabel": "Localização",
+    "locationPlaceholder": "Nova York / Remoto",
+    "publish": "Publicar oportunidade",
+    "saveChanges": "Salvar alterações",
+    "tagLabel": "Etiqueta (opcional)",
+    "tagPlaceholder": "Reagir / Dados / Design",
+    "titleLabel": "Cargo",
+    "titlePlaceholder": "por exemplo, estagiário de desenvolvimento de front-end",
+    "typeLabel": "Tipo de emprego"
+  },
+  "jobs": {
+    "applicants": "Candidatos",
+    "applied": "✓ Aplicado",
+    "apply": "Aplicar",
+    "clearSearch": "Limpar",
+    "close": "Fechar",
+    "closed": "Fechado",
+    "closedBadge": "Fechado",
+    "edit": "Editar",
+    "empty": "Nenhuma oportunidade encontrada com esses filtros.",
+    "loading": "Carregando oportunidades…",
+    "resetFilters": "Redefinir filtros",
+    "retry": "Tente novamente",
+    "searchLabel": "Pesquisar oportunidade de emprego",
+    "searchPlaceholder": "Pesquise título, empresa ou habilidade…",
+    "title": "Oportunidades de emprego",
+    "typeFilterLabel": "Tipo de emprego"
+  },
+  "myApps": {
+    "empty": "Você ainda não se inscreveu em nenhuma oportunidade.",
+    "loading": "Carregando…",
+    "title": "Meus aplicativos"
+  },
+  "page": {
+    "eyebrow": "Serviços Estudantis · Carreira",
+    "lead": "Procure oportunidades de estágio e emprego, construa seu currículo e inscreva-se diretamente; acompanhe o status de suas inscrições aqui mesmo.",
+    "title": "Serviços de carreira"
+  },
+  "stats": {
+    "myApplications": "{count, plural, one {# Meu aplicativo} other {# Meus aplicativos}}",
+    "openJobs": "{count, plural, one {# Posição aberta} other {# Posições abertas}}"
+  },
+  "type": {
+    "all": "Todos",
+    "contract": "Contrato",
+    "full_time": "Tempo integral",
+    "internship": "Estágio",
+    "part_time": "Meio período"
+  }
+}
